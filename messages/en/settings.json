@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "title": "Settings",
+    "description": "Manage your account settings and preferences"
+  },
   "title": "Settings",
   "subtitle": "Manage your account settings and preferences",
   "loginRequired": {

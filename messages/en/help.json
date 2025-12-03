@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "title": "Help Center",
+    "description": "Find answers to common questions and get support for {siteName} AI image generation platform"
+  },
   "title": "Help Center",
   "subtitle": "Find answers to common questions and get support",
   "contact": {

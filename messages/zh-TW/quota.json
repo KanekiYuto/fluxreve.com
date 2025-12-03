@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "title": "我的配額",
+    "description": "管理和查看您的可用配額使用情況和歷史記錄"
+  },
   "title": "我的配額",
   "subtitle": "管理和查看您的可用配額",
   "loginRequired": {

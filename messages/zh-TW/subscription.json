@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "title": "訂閱管理",
+    "description": "查看和管理您的訂閱方案和賬單資訊"
+  },
   "title": "訂閱管理",
   "subtitle": "查看和管理您的訂閱資訊",
   "login": {

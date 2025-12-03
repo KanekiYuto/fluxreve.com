@@ -5,7 +5,6 @@ export const siteConfig = {
   name: 'FluxReve',
   nameShort: 'F', // 侧边栏收缩时显示的简短名称
   url: process.env.NEXT_PUBLIC_SITE_URL,
-  description: '使用先进的 AI 技术生成高质量图片，支持多种模型和参数定制',
 
   // SEO 元信息
   author: 'FluxReve Team',

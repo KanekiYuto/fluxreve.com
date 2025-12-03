@@ -16,7 +16,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'common' });
 
   return {
-    title: t('seo.title', { siteName: siteConfig.name }),
+    title: {
+      template: `%s | ${siteConfig.name}`,
+      default: siteConfig.name,
+    },
     description: t('seo.description'),
     keywords: t('seo.keywords'),
     authors: [{ name: siteConfig.author }],

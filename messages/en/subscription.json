@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "title": "Subscription Management",
+    "description": "View and manage your subscription plans and billing information"
+  },
   "title": "Subscription Management",
   "subtitle": "View and manage your subscription information",
   "login": {

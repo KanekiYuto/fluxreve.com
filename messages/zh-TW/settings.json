@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "title": "設定",
+    "description": "管理您的帳號設定和偏好"
+  },
   "title": "設定",
   "subtitle": "管理您的帳號設定和偏好",
   "loginRequired": {

@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "title": "Dashboard",
+    "description": "Manage your AI image generation projects, track usage, and access all features"
+  },
   "welcome": "Welcome back, {name}",
   "subtitle": "Start creating your amazing content",
   "guestWelcome": "Welcome to Dashboard",

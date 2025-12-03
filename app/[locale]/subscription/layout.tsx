@@ -1,24 +1,16 @@
-import type { Metadata } from 'next';
+import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'quota' });
+  const t = await getTranslations({ locale, namespace: 'subscription' });
 
   return {
     title: t('seo.title'),
     description: t('seo.description'),
-    robots: {
-      index: false,
-      follow: false,
-    },
   };
 }
 
-export default function QuotaLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return <>{children}</>;
+export default function SubscriptionLayout({ children }: { children: React.ReactNode }) {
+  return children;
 }

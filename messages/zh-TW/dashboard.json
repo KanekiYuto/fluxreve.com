@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "title": "儀表板",
+    "description": "管理您的 AI 圖像生成專案，追蹤使用情況並存取所有功能"
+  },
   "welcome": "歡迎回來，{name}",
   "subtitle": "開始創作您的精彩內容",
   "guestWelcome": "歡迎來到儀表板",

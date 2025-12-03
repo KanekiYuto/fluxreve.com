@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "title": "幫助中心",
+    "description": "尋找常見問題的答案並獲取 {siteName} AI 圖像生成平台的支援"
+  },
   "title": "幫助中心",
   "subtitle": "尋找常見問題的答案並獲得支援",
   "contact": {
