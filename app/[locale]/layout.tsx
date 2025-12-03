@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { Analytics } from '@vercel/analytics/react';
 import { routing } from '@/i18n/routing';
 import PageLayout from '@/components/layout/PageLayout';
 import UserProvider from '@/components/providers/UserProvider';
@@ -60,6 +61,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             <ModalProvider />
           </UserProvider>
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );
