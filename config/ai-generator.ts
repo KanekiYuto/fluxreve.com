@@ -71,11 +71,11 @@ function nanoBananaProTextToImageCredits(parameters: Record<string, any>): numbe
 
   switch (resolution) {
     case '4k':
-      return 20;
+      return 170;
     case '1k':
     case '2k':
     default:
-      return 5;
+      return 100;
   }
 }
 
@@ -83,5 +83,14 @@ function nanoBananaProTextToImageCredits(parameters: Record<string, any>): numbe
  * Nano Banana Pro 图生图配额计算
  */
 function nanoBananaProImageToImageCredits(parameters: Record<string, any>): number {
-  return 8;
+  const { resolution } = parameters;
+
+  switch (resolution) {
+    case '4k':
+      return 170;
+    case '1k':
+    case '2k':
+    default:
+      return 100;
+  }
 }
