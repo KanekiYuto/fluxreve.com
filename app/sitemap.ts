@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { locales } from '@/i18n/config';
+import { locales, defaultLocale } from '@/i18n/config';
 import { getSiteUrl } from '@/lib/urls';
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -20,8 +20,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   locales.forEach((locale) => {
     routes.forEach((route) => {
+      // 默认语言不添加语言前缀
+      const localePath = locale === defaultLocale ? '' : `/${locale}`;
       urls.push({
-        url: `${baseUrl}/${locale}${route}`,
+        url: `${baseUrl}${localePath}${route}`,
         lastModified: new Date(),
         changeFrequency: route === '' ? 'daily' : 'weekly',
         priority: route === '' ? 1.0 : 0.8,
