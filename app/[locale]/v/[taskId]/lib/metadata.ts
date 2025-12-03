@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 import { TaskData } from '../types';
 import { getModelDisplayName } from '@/config/model-names';
 import { siteConfig } from '@/config/site';
@@ -7,9 +8,11 @@ import { generateAlternates } from '@/lib/metadata';
 /**
  * 生成页面 metadata
  */
-export function generatePageMetadata(task: TaskData, shareId: string, locale: string): Metadata {
-  const prompt = task.parameters?.prompt || 'AI Generated Image';
-  const model = getModelDisplayName(task.model || 'Unknown Model');
+export async function generatePageMetadata(task: TaskData, shareId: string, locale: string): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: 'share.metadata' });
+
+  const prompt = task.parameters?.prompt || '';
+  const model = getModelDisplayName(task.model);
   const firstImage = task.results?.[0]?.url;
 
   // 将 locale 转换为 OpenGraph 格式 (zh-CN -> zh_CN)
@@ -21,17 +24,24 @@ export function generatePageMetadata(task: TaskData, shareId: string, locale: st
     .map(l => l.replace('-', '_'));
 
   // 生成优化的标题（确保不超过 60 字符）
+  // 注意: layout.tsx 的 template 会自动添加 " | FluxReve", 需要预留这部分长度
   const maxTitleLength = 60;
-  const suffix = ` | ${siteConfig.name}`;
+  const templateSuffix = ` | ${siteConfig.name}`; // " | FluxReve"
   const modelPrefix = `${model} - `;
-  const availableLength = maxTitleLength - suffix.length - modelPrefix.length;
+  const availableLength = maxTitleLength - modelPrefix.length - templateSuffix.length;
   const truncatedPrompt = prompt.length > availableLength
     ? `${prompt.substring(0, availableLength - 3)}...`
     : prompt;
-  const title = `${modelPrefix}${truncatedPrompt}${suffix}`;
+  const title = `${modelPrefix}${truncatedPrompt}`;
 
   // 生成优化的描述（120-160 字符最佳）
-  const description = `使用 ${model} AI 模型生成的高质量图片。${prompt.substring(0, 100)}${prompt.length > 100 ? '...' : ''}`;
+  const descriptionPrefix = t('descriptionPrefix', { model });
+  const maxDescriptionLength = 160;
+  const availableDescLength = maxDescriptionLength - descriptionPrefix.length;
+  const truncatedDescPrompt = prompt.length > availableDescLength
+    ? `${prompt.substring(0, availableDescLength - 3)}...`
+    : prompt;
+  const description = `${descriptionPrefix}${truncatedDescPrompt}`;
 
   // 使用统一的 alternates 生成函数
   const alternates = generateAlternates(locale, `/v/${shareId}`);
@@ -42,7 +52,7 @@ export function generatePageMetadata(task: TaskData, shareId: string, locale: st
     alternates,
     openGraph: {
       title: truncatedPrompt,
-      description: `${model} AI 生成 | ${prompt.substring(0, 80)}`,
+      description: `${t('ogDescriptionPrefix', { model })}${prompt.substring(0, 80)}`,
       url: alternates.canonical,
       images: firstImage ? [
         {
@@ -62,7 +72,7 @@ export function generatePageMetadata(task: TaskData, shareId: string, locale: st
       site: siteConfig.twitter.site,
       creator: siteConfig.twitter.creator,
       title: truncatedPrompt,
-      description: `${model} AI 生成 | ${prompt.substring(0, 80)}`,
+      description: `${t('ogDescriptionPrefix', { model })}${prompt.substring(0, 80)}`,
       images: firstImage ? [firstImage] : [],
     },
   };

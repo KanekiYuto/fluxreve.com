@@ -34,5 +34,9 @@
     "generationResults": "AI 圖片生成結果展示",
     "imagePreview": "AI 生成的高清圖片預覽",
     "parametersInfo": "圖片生成參數與模型資訊"
+  },
+  "metadata": {
+    "descriptionPrefix": "使用 {model} AI 模型生成的高質量圖片。提示詞: ",
+    "ogDescriptionPrefix": "{model} AI 生成 | "
   }
 }

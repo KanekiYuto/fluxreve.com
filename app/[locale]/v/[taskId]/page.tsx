@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  return generatePageMetadata(task, shareId, locale);
+  return await generatePageMetadata(task, shareId, locale);
 }
 
 export default async function SharePage({ params }: PageProps) {
@@ -86,7 +86,7 @@ export default async function SharePage({ params }: PageProps) {
         <div className="container mx-auto px-4 max-w-5xl">
           {/* 主标题区域 */}
           <header className="mb-8">
-            <h1 className="text-3xl sm:text-4xl font-bold text-white mb-3">
+            <h1 className="text-3xl sm:text-4xl font-bold text-white mb-3 line-clamp-3">
               {prompt}
             </h1>
             <div className="flex flex-wrap items-center gap-3 text-sm text-text-muted">

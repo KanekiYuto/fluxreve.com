@@ -34,5 +34,9 @@
     "generationResults": "AI Image Generation Results",
     "imagePreview": "AI Generated HD Image Preview",
     "parametersInfo": "Generation Parameters and Model Info"
+  },
+  "metadata": {
+    "descriptionPrefix": "High-quality image generated with {model} AI model. Prompt: ",
+    "ogDescriptionPrefix": "{model} AI Generated | "
   }
 }

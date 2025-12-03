@@ -142,7 +142,7 @@ export default function MediaGallery({
 
                 {/* 提示词 */}
                 <div className="p-3 rounded-xl bg-muted/30 border border-border/20">
-                  <p className="text-sm text-white/90 leading-relaxed">
+                  <p className="text-sm text-white/90 leading-relaxed line-clamp-3">
                     {taskInfo.prompt}
                   </p>
                 </div>
