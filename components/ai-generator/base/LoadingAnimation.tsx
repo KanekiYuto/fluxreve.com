@@ -1,10 +1,13 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
+
 interface LoadingAnimationProps {
   progress?: number;
 }
 
 export default function LoadingAnimation({ progress = 0 }: LoadingAnimationProps) {
+  const t = useTranslations('ai-generator.loading');
   return (
     <div className="relative flex flex-col items-center justify-center gap-10 py-20 min-h-[500px]">
       {/* 主视觉：闪电图标 + 光环 */}
@@ -40,7 +43,7 @@ export default function LoadingAnimation({ progress = 0 }: LoadingAnimationProps
         {/* 进度百分比 */}
         <div>
           <p className="text-5xl font-bold gradient-text mb-2">{progress}%</p>
-          <p className="text-sm text-muted-foreground font-medium">AI 创作中</p>
+          <p className="text-sm text-muted-foreground font-medium">{t('creating')}</p>
         </div>
 
         {/* 进度条 */}
@@ -57,7 +60,7 @@ export default function LoadingAnimation({ progress = 0 }: LoadingAnimationProps
         </div>
 
         {/* 提示文字 */}
-        <p className="text-sm text-muted-foreground/90">正在为您生成精彩内容，请稍候...</p>
+        <p className="text-sm text-muted-foreground/90">{t('message')}</p>
       </div>
 
       {/* 添加流动光效的 keyframes */}

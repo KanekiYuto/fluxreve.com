@@ -1,45 +1,28 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useTranslations } from 'next-intl';
 
 interface CreditsCardProps {
+  /**
+   * 积分数量
+   */
+  credits: number | null;
+  /**
+   * 是否正在加载
+   */
+  isLoading?: boolean;
+  /**
+   * 刷新回调
+   */
   onRefresh?: () => void;
 }
 
 export default function CreditsCard({
+  credits,
+  isLoading = false,
   onRefresh,
 }: CreditsCardProps) {
-  const [credits, setCredits] = useState<number | null>(null);
-  const [isLoading, setIsLoading] = useState(false);
-
-  // 获取配额数据
-  const fetchCredits = async () => {
-    setIsLoading(true);
-    setCredits(null); // 刷新时先显示 -
-    try {
-      const response = await fetch('/api/quota/total');
-      const result = await response.json();
-
-      if (result.success && result.data) {
-        setCredits(result.data.totalAvailable);
-      }
-    } catch (error) {
-      console.error('Failed to fetch credits:', error);
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  // 组件挂载时获取配额
-  useEffect(() => {
-    fetchCredits();
-  }, []);
-
-  // 刷新配额
-  const handleRefresh = async () => {
-    await fetchCredits();
-    onRefresh?.();
-  };
+  const t = useTranslations('ai-generator.credits');
   return (
     <div className="rounded-lg border border-border bg-card/50 p-2">
       <div className="flex items-center justify-between gap-3">
@@ -60,14 +43,15 @@ export default function CreditsCard({
           <span className="text-base font-semibold text-foreground">
             {credits !== null ? credits.toLocaleString() : '***'}
           </span>
-          <span className="text-sm text-gray-400">配额</span>
+          <span className="text-sm text-gray-400">{t('quota')}</span>
         </div>
 
         <button
-          onClick={handleRefresh}
+          onClick={onRefresh}
           disabled={isLoading}
           className="p-1.5 rounded-md hover:bg-zinc-700/50 transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
-          title="刷新配额"
+          title={t('refresh')}
+          aria-label={t('refresh')}
         >
             <svg
               className={`w-4 h-4 ${isLoading ? 'animate-spin' : ''}`}

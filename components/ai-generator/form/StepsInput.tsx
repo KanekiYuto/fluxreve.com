@@ -1,5 +1,6 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { Label } from '@/components/ui/label';
 import { Slider } from '@/components/ui/slider';
 
@@ -9,7 +10,6 @@ interface StepsInputProps {
   min: number;
   max: number;
   step?: number;
-  label?: string;
   description?: string;
   id?: string;
 }
@@ -20,15 +20,15 @@ export default function StepsInput({
   min,
   max,
   step = 1,
-  label = '步数',
   description,
   id = 'steps',
 }: StepsInputProps) {
+  const t = useTranslations('ai-generator.form');
   return (
     <div className="space-y-2">
       <div className="flex items-center justify-between">
         <Label htmlFor={id} className="text-sm font-medium">
-          {label}
+          {t('steps')}
         </Label>
         <span className="text-sm font-medium text-foreground">{value}</span>
       </div>

@@ -1,20 +1,20 @@
 'use client';
 
 import { ReactNode } from 'react';
+import { useTranslations } from 'next-intl';
 
 interface AdvancedSettingsProps {
   children: ReactNode;
-  title?: string;
 }
 
 export default function AdvancedSettings({
   children,
-  title = '高级选项',
 }: AdvancedSettingsProps) {
+  const t = useTranslations('ai-generator.form');
   return (
     <details className="group">
       <summary className="cursor-pointer text-sm font-semibold list-none flex items-center justify-between">
-        <span>{title}</span>
+        <span>{t('advancedSettings')}</span>
         <svg
           className="w-5 h-5 transition-transform group-open:rotate-180"
           fill="none"

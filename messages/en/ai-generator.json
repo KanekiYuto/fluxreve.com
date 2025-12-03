@@ -2,5 +2,104 @@
   "seo": {
     "title": "AI Generator",
     "description": "Create stunning AI-generated images with our powerful AI image generation tool. Fast, professional, and easy to use."
+  },
+  "page": {
+    "title": "AI Generator",
+    "description": "Create amazing content with powerful AI models"
+  },
+  "tabs": {
+    "textToImage": "Text to Image",
+    "imageEditor": "Image Editor",
+    "more": "More"
+  },
+  "examples": {
+    "title": "Quick Start",
+    "description": "Click an example below to start creating, or fill out the form on the left to customize",
+    "useExample": "Use This Example",
+    "goToExample": "Go to example {index}",
+    "clickToUse": "Click to use this example",
+    "noExamples": "No examples available"
+  },
+  "results": {
+    "title": "Generated Results",
+    "fileCount": "{count} file(s)",
+    "downloadCurrent": "Download Current",
+    "downloadAll": "Download All ({count})",
+    "generationTime": "Generation Time",
+    "completedTime": "Completed Time",
+    "seconds": "{seconds}s",
+    "prompt": "Prompt"
+  },
+  "loading": {
+    "creating": "AI Creating",
+    "message": "Generating amazing content for you, please wait..."
+  },
+  "credits": {
+    "quota": "Quota",
+    "refresh": "Refresh quota"
+  },
+  "form": {
+    "advancedSettings": "Advanced Settings",
+    "seed": "Seed",
+    "seedPlaceholder": "Leave blank for random",
+    "steps": "Steps",
+    "selectPlaceholder": "Please select",
+    "prompt": "Prompt",
+    "promptPlaceholder": "Describe the image you want to generate...",
+    "aspectRatio": "Aspect Ratio",
+    "aspectRatioPlaceholder": "Select aspect ratio",
+    "aspectRatios": {
+      "1:1": "1:1 (Square)",
+      "16:9": "16:9 (Landscape)",
+      "9:16": "9:16 (Portrait)",
+      "4:3": "4:3 (Standard)",
+      "3:4": "3:4 (Portrait)",
+      "21:9": "21:9 (Ultrawide)"
+    },
+    "resolution": "Resolution",
+    "resolutionPlaceholder": "Select resolution"
+  },
+  "error": {
+    "required": "Required",
+    "current": "Current",
+    "credits": "Credits",
+    "parameterError": "Parameter Error",
+    "promptRequired": "Please enter a prompt",
+    "insufficientCredits": "Insufficient Credits",
+    "pleaseRecharge": "Please recharge and try again",
+    "queryStatusFailed": "Query Status Failed",
+    "unableToQueryStatus": "Unable to query task status",
+    "generationFailed": "Generation Failed",
+    "imageGenerationFailed": "Image generation failed"
+  },
+  "generate": {
+    "generating": "Generating... {progress}%",
+    "generateImage": "Generate Image (Cost {credits} Quota)"
+  },
+  "models": {
+    "nanoBananaPro": {
+      "description": "Lightning-fast generation, optimized for high-quality creative output with exceptional speed"
+    }
+  },
+  "comingSoon": {
+    "badge": "Coming Soon",
+    "defaultTitle": "Exciting Features on the Way",
+    "defaultDescription": "We're working hard to bring you amazing new capabilities. Stay tuned for updates!",
+    "feature1Title": "Powerful AI",
+    "feature1Desc": "State-of-the-art technology",
+    "feature2Title": "Smart Features",
+    "feature2Desc": "Intelligent automation",
+    "feature3Title": "Fast Processing",
+    "feature3Desc": "Lightning-fast results",
+    "progressLabel": "Development Progress",
+    "progressHint": "Expected to launch soon",
+    "imageEditor": {
+      "title": "Image Editor",
+      "description": "AI-powered image editing with smart repair, style transfer, background replacement, and more"
+    },
+    "moreTools": {
+      "title": "More Image Tools",
+      "description": "Explore powerful image utilities including upscaling, enhancement, format conversion, and batch processing"
+    }
   }
 }

@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import TextToImageGenerator from './TextToImageGenerator';
 import Tabs, { type TabItem } from './base/Tabs';
+import ComingSoon from './base/ComingSoon';
 
 interface AIGeneratorProps {
   defaultTab?: string;
@@ -12,21 +13,23 @@ interface AIGeneratorProps {
 
 export default function AIGenerator({ defaultTab }: AIGeneratorProps) {
   const t = useTranslations('aiGenerator');
+  const tTabs = useTranslations('ai-generator.tabs');
+  const tComingSoon = useTranslations('ai-generator.comingSoon');
 
   // 定义所有 tabs
   const tabs: TabItem[] = [
     {
       key: 'text-to-image',
-      label: '文本生图',
+      label: tTabs('textToImage'),
       component: <TextToImageGenerator />,
     },
     {
       key: 'image-editor',
-      label: '图像编辑',
+      label: tTabs('imageEditor'),
       component: (
-        <div className="text-center py-12">
-          <div className="w-16 h-16 rounded-full bg-secondary/10 flex items-center justify-center mx-auto mb-4">
-            <svg className="w-8 h-8 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <ComingSoon
+          icon={
+            <svg className="w-10 h-10 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -34,19 +37,19 @@ export default function AIGenerator({ defaultTab }: AIGeneratorProps) {
                 d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
               />
             </svg>
-          </div>
-          <h3 className="text-xl font-bold text-white mb-2">图像编辑</h3>
-          <p className="text-text-muted">使用 AI 编辑和优化图像</p>
-        </div>
+          }
+          title={tComingSoon('imageEditor.title')}
+          description={tComingSoon('imageEditor.description')}
+        />
       ),
     },
     {
       key: 'more',
-      label: '更多',
+      label: tTabs('more'),
       component: (
-        <div className="text-center py-12">
-          <div className="w-16 h-16 rounded-full bg-blue-500/10 flex items-center justify-center mx-auto mb-4">
-            <svg className="w-8 h-8 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <ComingSoon
+          icon={
+            <svg className="w-10 h-10 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -54,10 +57,10 @@ export default function AIGenerator({ defaultTab }: AIGeneratorProps) {
                 d="M12 6v6m0 0v6m0-6h6m-6 0H6"
               />
             </svg>
-          </div>
-          <h3 className="text-xl font-bold text-white mb-2">更多工具</h3>
-          <p className="text-text-muted">探索更多 AI 功能</p>
-        </div>
+          }
+          title={tComingSoon('moreTools.title')}
+          description={tComingSoon('moreTools.description')}
+        />
       ),
     },
   ];

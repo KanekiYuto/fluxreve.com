@@ -1,6 +1,105 @@
 {
   "seo": {
-    "title": "AI 生成器",
-    "description": "使用強大的 AI 圖像生成工具創建令人驚艷的圖像。快速、專業且易於使用。"
+    "title": "AI 產生器",
+    "description": "使用強大的 AI 圖像產生工具建立令人驚艷的圖像。快速、專業且易於使用。"
+  },
+  "page": {
+    "title": "AI 產生器",
+    "description": "使用強大的 AI 模型建立各種精彩內容"
+  },
+  "tabs": {
+    "textToImage": "文字生圖",
+    "imageEditor": "圖像編輯",
+    "more": "更多"
+  },
+  "examples": {
+    "title": "快速開始",
+    "description": "點擊下方示例快速開始創作，或填寫左側表單自定義生成",
+    "useExample": "使用此示例",
+    "goToExample": "切換到示例 {index}",
+    "clickToUse": "點擊使用此示例",
+    "noExamples": "暫無示例"
+  },
+  "results": {
+    "title": "產生結果",
+    "fileCount": "{count} 個檔案",
+    "downloadCurrent": "下載目前圖片",
+    "downloadAll": "下載全部 ({count})",
+    "generationTime": "產生耗時",
+    "completedTime": "完成時間",
+    "seconds": "{seconds}秒",
+    "prompt": "提示詞"
+  },
+  "loading": {
+    "creating": "AI 創作中",
+    "message": "正在為您產生精彩內容，請稍候..."
+  },
+  "credits": {
+    "quota": "配額",
+    "refresh": "刷新配額"
+  },
+  "form": {
+    "advancedSettings": "進階選項",
+    "seed": "隨機種子",
+    "seedPlaceholder": "留空隨機產生",
+    "steps": "步數",
+    "selectPlaceholder": "請選擇",
+    "prompt": "提示詞",
+    "promptPlaceholder": "描述你想要產生的圖像...",
+    "aspectRatio": "寬高比",
+    "aspectRatioPlaceholder": "選擇寬高比",
+    "aspectRatios": {
+      "1:1": "1:1 (正方形)",
+      "16:9": "16:9 (橫向)",
+      "9:16": "9:16 (直向)",
+      "4:3": "4:3 (標準)",
+      "3:4": "3:4 (直向)",
+      "21:9": "21:9 (超寬)"
+    },
+    "resolution": "解析度",
+    "resolutionPlaceholder": "選擇解析度"
+  },
+  "error": {
+    "required": "需要",
+    "current": "目前",
+    "credits": "配額",
+    "parameterError": "參數錯誤",
+    "promptRequired": "請輸入提示詞",
+    "insufficientCredits": "配額不足",
+    "pleaseRecharge": "請儲值後再試",
+    "queryStatusFailed": "查詢狀態失敗",
+    "unableToQueryStatus": "無法查詢任務狀態",
+    "generationFailed": "產生失敗",
+    "imageGenerationFailed": "圖片產生失敗"
+  },
+  "generate": {
+    "generating": "產生中... {progress}%",
+    "generateImage": "產生圖像 (消耗 {credits} 配額)"
+  },
+  "models": {
+    "nanoBananaPro": {
+      "description": "超快速產生，專為高效率創作與優質輸出而最佳化"
+    }
+  },
+  "comingSoon": {
+    "badge": "即將推出",
+    "defaultTitle": "令人期待的新功能",
+    "defaultDescription": "我們正在努力為您打造全新的強大功能，敬請期待！",
+    "feature1Title": "強大 AI",
+    "feature1Desc": "頂尖技術驅動",
+    "feature2Title": "智慧功能",
+    "feature2Desc": "自動化處理",
+    "feature3Title": "極速處理",
+    "feature3Desc": "閃電般快速",
+    "progressLabel": "開發進度",
+    "progressHint": "即將上線",
+    "imageEditor": {
+      "title": "圖像編輯",
+      "description": "AI 驅動的圖像編輯工具，包括智慧修復、風格轉換、背景替換等強大功能"
+    },
+    "moreTools": {
+      "title": "更多圖像工具",
+      "description": "探索強大的圖像工具，包括圖像放大、增強最佳化、格式轉換、批次處理等實用功能"
+    }
   }
 }

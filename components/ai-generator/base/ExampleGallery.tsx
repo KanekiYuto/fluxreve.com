@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
 
 // 示例数据类型定义
@@ -14,18 +15,15 @@ export interface ExampleItem {
 interface ExamplePreviewProps {
   examples: ExampleItem[];
   onSelectExample?: (example: ExampleItem) => void;
-  title?: string;
-  description?: string;
   autoPlayInterval?: number; // 自动播放间隔（毫秒），0 表示不自动播放
 }
 
 export default function ExamplePreview({
   examples,
   onSelectExample,
-  title = '示例展示',
-  description = '点击下方示例快速开始创作',
   autoPlayInterval = 5000,
 }: ExamplePreviewProps) {
+  const t = useTranslations('ai-generator.examples');
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // 自动播放
@@ -58,7 +56,7 @@ export default function ExamplePreview({
     return (
       <div className="h-full flex items-center justify-center">
         <div className="text-center">
-          <p className="text-muted-foreground text-sm">暂无示例</p>
+          <p className="text-muted-foreground text-sm">{t('noExamples')}</p>
         </div>
       </div>
     );
@@ -70,8 +68,8 @@ export default function ExamplePreview({
     <div className="h-full flex flex-col">
       {/* 头部说明 */}
       <div className="text-center mb-6">
-        <h3 className="text-lg font-bold text-foreground mb-2">{title}</h3>
-        <p className="text-sm text-muted-foreground">{description}</p>
+        <div className="text-lg font-bold text-foreground mb-2">{t('title')}</div>
+        <div className="text-sm text-muted-foreground">{t('description')}</div>
       </div>
 
       {/* 轮播主体 */}
@@ -129,7 +127,7 @@ export default function ExamplePreview({
                       d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
                     />
                   </svg>
-                  <p className="text-white text-base font-medium">点击使用此示例</p>
+                  <p className="text-white text-base font-medium">{t('clickToUse')}</p>
                 </div>
               </div>
             </div>
@@ -175,7 +173,7 @@ export default function ExamplePreview({
                       ? 'w-8 bg-primary'
                       : 'w-2 bg-border hover:bg-border/80'
                   }`}
-                  aria-label={`切换到示例 ${index + 1}`}
+                  aria-label={t('goToExample', { index: index + 1 })}
                 />
               ))}
             </div>
@@ -201,7 +199,7 @@ export default function ExamplePreview({
               d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
             />
           </svg>
-          使用此示例
+          {t('useExample')}
         </Button>
       </div>
     </div>

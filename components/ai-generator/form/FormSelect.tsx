@@ -1,5 +1,6 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { Label } from '@/components/ui/label';
 import {
   Select,
@@ -28,9 +29,11 @@ export default function FormSelect({
   onChange,
   options,
   label,
-  placeholder = '请选择',
+  placeholder,
   id,
 }: FormSelectProps) {
+  const t = useTranslations('ai-generator.form');
+  const displayPlaceholder = placeholder ?? t('selectPlaceholder');
   return (
     <div className="space-y-2">
       {label && (
@@ -40,7 +43,7 @@ export default function FormSelect({
       )}
       <Select value={value} onValueChange={onChange}>
         <SelectTrigger id={id} className="w-full">
-          <SelectValue placeholder={placeholder} />
+          <SelectValue placeholder={displayPlaceholder} />
         </SelectTrigger>
         <SelectContent className="bg-[#161618] text-white">
           {options.map((option) => (

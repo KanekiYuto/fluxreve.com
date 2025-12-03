@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
+import { getModelDisplayName } from '@/config/model-names';
 
 // 任务接口定义
 interface GenerationTask {
@@ -172,7 +173,7 @@ export default function RecentGenerations() {
               {/* 模型信息 */}
               <div>
                 <span className="inline-flex items-center rounded border font-semibold transition-colors border-transparent px-1.5 py-0.5 text-xs bg-surface-secondary text-white tracking-wide hover:bg-bg-hover">
-                  {task.model}
+                  {getModelDisplayName(task.model)}
                 </span>
               </div>
             </div>

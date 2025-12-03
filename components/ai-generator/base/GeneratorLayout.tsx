@@ -2,6 +2,10 @@
 
 import { ReactNode } from 'react';
 import LoadingAnimation from './LoadingAnimation';
+import ErrorCard from './ErrorCard';
+import CreditsCard from './CreditsCard';
+import MediaGallery, { MediaItem, TaskInfo } from './MediaGallery';
+import ExamplePreview, { ExampleItem } from './ExampleGallery';
 
 interface GeneratorLayoutProps {
   // 头部模型选择器
@@ -10,21 +14,81 @@ interface GeneratorLayoutProps {
   formContent: ReactNode;
   // 生成按钮
   generateButton: ReactNode;
-  // 右侧预览内容
-  previewContent: ReactNode;
   // 加载状态
   isLoading?: boolean;
   progress?: number;
+  // 错误状态
+  error?: {
+    title: string;
+    message: string;
+    variant?: 'error' | 'credits';
+    creditsInfo?: { required: number; current: number };
+  };
+  // 积分信息
+  credits?: number | null;
+  isCreditsLoading?: boolean;
+  onCreditsRefresh?: () => void;
+  // 生成结果
+  generatedItems?: MediaItem[];
+  taskInfo?: TaskInfo;
+  // 示例配置
+  examples?: ExampleItem[];
+  onSelectExample?: (example: ExampleItem) => void;
 }
 
 export default function GeneratorLayout({
   headerContent,
   formContent,
   generateButton,
-  previewContent,
   isLoading = false,
   progress = 0,
+  error,
+  credits,
+  isCreditsLoading,
+  onCreditsRefresh,
+  generatedItems,
+  taskInfo,
+  examples,
+  onSelectExample,
 }: GeneratorLayoutProps) {
+  // 根据状态决定显示的内容
+  const renderPreviewContent = () => {
+    // 优先显示错误
+    if (error) {
+      return (
+        <ErrorCard
+          title={error.title}
+          message={error.message}
+          variant={error.variant || 'error'}
+          creditsInfo={error.creditsInfo}
+        />
+      );
+    }
+
+    // 显示加载状态
+    if (isLoading) {
+      return <LoadingAnimation progress={progress} />;
+    }
+
+    // 显示生成结果
+    if (generatedItems && generatedItems.length > 0 && taskInfo) {
+      return <MediaGallery items={generatedItems} taskInfo={taskInfo} />;
+    }
+
+    // 显示示例
+    if (examples && examples.length > 0 && onSelectExample) {
+      return (
+        <ExamplePreview
+          examples={examples}
+          onSelectExample={onSelectExample}
+          autoPlayInterval={0}
+        />
+      );
+    }
+
+    // 默认空状态
+    return null;
+  };
   return (
     <div className="space-y-6">
       {/* 左右布局 */}
@@ -43,19 +107,23 @@ export default function GeneratorLayout({
 
           {/* 生成按钮区域 - 粘性定位在底部 */}
           <div className="sticky bottom-2 rounded-xl p-4 gradient-border">
-            {generateButton}
+            <div className="space-y-3">
+              {generateButton}
+              {credits !== undefined && (
+                <CreditsCard
+                  credits={credits}
+                  isLoading={isCreditsLoading}
+                  onRefresh={onCreditsRefresh}
+                />
+              )}
+            </div>
           </div>
         </div>
 
         {/* 右侧 - 预览区域 */}
         <div className="relative">
           <div className="rounded-xl p-6 overflow-hidden gradient-border">
-            {/* 根据加载状态显示不同内容 */}
-            {isLoading ? (
-              <LoadingAnimation progress={progress} />
-            ) : (
-              previewContent
-            )}
+            {renderPreviewContent()}
           </div>
         </div>
       </div>

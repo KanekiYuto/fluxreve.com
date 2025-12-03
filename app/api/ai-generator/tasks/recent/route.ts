@@ -26,7 +26,7 @@ export async function GET(request: NextRequest) {
     const oneWeekAgo = new Date();
     oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
 
-    // 查询最近一周的任务（未软删除）
+    // 查询最近一周的已完成任务（未软删除）
     const tasks = await db
       .select({
         taskId: mediaGenerationTask.taskId,
@@ -44,6 +44,7 @@ export async function GET(request: NextRequest) {
       .where(
         and(
           eq(mediaGenerationTask.userId, session.user.id),
+          eq(mediaGenerationTask.status, 'completed'),
           gte(mediaGenerationTask.createdAt, oneWeekAgo),
           isNull(mediaGenerationTask.deletedAt)
         )

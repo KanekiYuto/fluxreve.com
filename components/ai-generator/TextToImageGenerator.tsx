@@ -1,10 +1,12 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 import ModelSelector from './base/ModelSelector';
 import NanoBananaProGenerator from './models/NanoBananaProGenerator';
 
 export default function TextToImageGenerator() {
+  const t = useTranslations('ai-generator.models');
   const [selectedModel, setSelectedModel] = useState('nano-banana-pro');
 
   // 模型选项
@@ -12,7 +14,7 @@ export default function TextToImageGenerator() {
     {
       value: 'nano-banana-pro',
       label: 'Nano Banana Pro',
-      description: '超快速生成，专为高效创作优化',
+      description: t('nanoBananaPro.description'),
     },
   ];
 

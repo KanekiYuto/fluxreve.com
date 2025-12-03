@@ -1,23 +1,21 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 
 interface SeedInputProps {
   value: string;
   onChange: (value: string) => void;
-  label?: string;
-  placeholder?: string;
   id?: string;
 }
 
 export default function SeedInput({
   value,
   onChange,
-  label = '随机种子',
-  placeholder = '留空随机生成',
   id = 'seed',
 }: SeedInputProps) {
+  const t = useTranslations('ai-generator.form');
   // 生成随机种子
   const handleRandomSeed = () => {
     onChange(Math.floor(Math.random() * 1000000).toString());
@@ -35,7 +33,7 @@ export default function SeedInput({
   return (
     <div className="space-y-2">
       <Label htmlFor={id} className="text-sm font-medium">
-        {label}
+        {t('seed')}
       </Label>
       <div className="flex gap-2">
         <Input
@@ -43,14 +41,14 @@ export default function SeedInput({
           type="text"
           value={value}
           onChange={handleChange}
-          placeholder={placeholder}
+          placeholder={t('seedPlaceholder')}
           className="flex-1"
         />
         <button
           type="button"
           onClick={handleRandomSeed}
           className="flex items-center justify-center w-10 h-10 rounded-md gradient-border bg-transparent transition-colors cursor-pointer"
-          aria-label="生成随机种子"
+          aria-label="Generate random seed"
         >
           <svg
             className="w-4 h-4"

@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/db';
 import { mediaGenerationTask } from '@/lib/db/schema';
-import { eq, and } from 'drizzle-orm';
+import { eq, and, sql } from 'drizzle-orm';
 import { auth } from '@/lib/auth';
 
 /**
@@ -56,12 +56,39 @@ export async function GET(
 
     const task = tasks[0];
 
+    // 计算动态进度（仅对进行中的任务）
+    let dynamicProgress = task.progress;
+    if (task.status === 'processing' || task.status === 'pending') {
+      // 查询所有已完成任务的平均耗时
+      const completedTasksStats = await db
+        .select({
+          avgDuration: sql<number>`ROUND(AVG(EXTRACT(EPOCH FROM (completed_at - created_at))))`,
+        })
+        .from(mediaGenerationTask)
+        .where(eq(mediaGenerationTask.status, 'completed'))
+        .limit(1);
+
+      // 默认 30 秒，如果有历史数据则使用平均值
+      const avgDurationSeconds = completedTasksStats[0]?.avgDuration || 30;
+
+      // 计算当前任务的已用时间（秒）
+      const elapsedSeconds = Math.floor(
+        (Date.now() - new Date(task.createdAt).getTime()) / 1000
+      );
+
+      // 计算进度百分比（上限 99%）
+      dynamicProgress = Math.min(
+        99,
+        Math.floor((elapsedSeconds / avgDurationSeconds) * 100)
+      );
+    }
+
     // 根据任务状态返回不同的信息
     const baseData = {
       task_id: task.taskId,
       share_id: task.shareId,
       status: task.status,
-      progress: task.progress,
+      progress: dynamicProgress,
       created_at: task.createdAt,
     };
 

@@ -38,7 +38,6 @@ interface PageLayoutProps {
 export default function PageLayout({ children }: PageLayoutProps) {
   const pathname = usePathname();
   const [isLoading, setIsLoading] = useState(false);
-  const [startTime, setStartTime] = useState<number>(0);
 
   // 检查当前路径是否应该隐藏全局布局
   const shouldHideLayout = HIDDEN_LAYOUT_PATHS.some((path) =>
@@ -60,7 +59,6 @@ export default function PageLayout({ children }: PageLayoutProps) {
     const loadStartTime = Date.now();
     startTransition(() => {
       setIsLoading(true);
-      setStartTime(loadStartTime);
     });
 
     // 等待下一帧后检查内容是否已加载
