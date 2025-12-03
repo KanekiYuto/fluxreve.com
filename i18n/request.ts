@@ -2,6 +2,7 @@ import { getRequestConfig } from 'next-intl/server';
 import { routing } from './routing';
 
 // 静态导入所有语言的所有消息文件
+import enAiGenerator from '@/messages/en/ai-generator.json';
 import enAuth from '@/messages/en/auth.json';
 import enCommon from '@/messages/en/common.json';
 import enDashboard from '@/messages/en/dashboard.json';
@@ -16,6 +17,7 @@ import enShare from '@/messages/en/share.json';
 import enSubscription from '@/messages/en/subscription.json';
 import enTerms from '@/messages/en/terms.json';
 
+import zhTWAiGenerator from '@/messages/zh-TW/ai-generator.json';
 import zhTWAuth from '@/messages/zh-TW/auth.json';
 import zhTWCommon from '@/messages/zh-TW/common.json';
 import zhTWDashboard from '@/messages/zh-TW/dashboard.json';
@@ -33,6 +35,7 @@ import zhTWTerms from '@/messages/zh-TW/terms.json';
 // 组织所有消息
 const allMessages = {
   en: {
+    'ai-generator': enAiGenerator,
     auth: enAuth,
     common: enCommon,
     dashboard: enDashboard,
@@ -48,6 +51,7 @@ const allMessages = {
     terms: enTerms,
   },
   'zh-TW': {
+    'ai-generator': zhTWAiGenerator,
     auth: zhTWAuth,
     common: zhTWCommon,
     dashboard: zhTWDashboard,

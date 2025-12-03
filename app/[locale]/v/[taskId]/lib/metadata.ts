@@ -2,8 +2,7 @@ import { Metadata } from 'next';
 import { TaskData } from '../types';
 import { getModelDisplayName } from '@/config/model-names';
 import { siteConfig } from '@/config/site';
-
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL as string;
+import { generateAlternates } from '@/lib/metadata';
 
 /**
  * 生成页面 metadata
@@ -12,7 +11,6 @@ export function generatePageMetadata(task: TaskData, shareId: string, locale: st
   const prompt = task.parameters?.prompt || 'AI Generated Image';
   const model = getModelDisplayName(task.model || 'Unknown Model');
   const firstImage = task.results?.[0]?.url;
-  const canonicalUrl = `${SITE_URL}/v/${shareId}`;
 
   // 将 locale 转换为 OpenGraph 格式 (zh-CN -> zh_CN)
   const ogLocale = locale.replace('-', '_');
@@ -35,22 +33,17 @@ export function generatePageMetadata(task: TaskData, shareId: string, locale: st
   // 生成优化的描述（120-160 字符最佳）
   const description = `使用 ${model} AI 模型生成的高质量图片。${prompt.substring(0, 100)}${prompt.length > 100 ? '...' : ''}`;
 
-  // 动态生成语言路径
-  const languages = Object.fromEntries(
-    siteConfig.locales.map(l => [l, `/${l}/v/${shareId}`])
-  );
+  // 使用统一的 alternates 生成函数
+  const alternates = generateAlternates(locale, `/v/${shareId}`);
 
   return {
     title,
     description,
-    alternates: {
-      canonical: canonicalUrl,
-      languages,
-    },
+    alternates,
     openGraph: {
       title: truncatedPrompt,
       description: `${model} AI 生成 | ${prompt.substring(0, 80)}`,
-      url: canonicalUrl,
+      url: alternates.canonical,
       images: firstImage ? [
         {
           url: firstImage,

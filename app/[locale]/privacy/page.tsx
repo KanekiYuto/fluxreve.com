@@ -2,6 +2,7 @@ import Divider from '@/components/Divider';
 import { siteConfig } from '@/config/site';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
+import { generateAlternates } from '@/lib/metadata';
 
 export async function generateMetadata({
   params,
@@ -13,6 +14,7 @@ export async function generateMetadata({
 
   return {
     title: t('title'),
+    alternates: generateAlternates(locale, '/privacy'),
   };
 }
 

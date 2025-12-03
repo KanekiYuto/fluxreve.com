@@ -2,6 +2,7 @@ import Pricing from '@/components/pricing';
 import FAQ from '@/components/FAQ';
 import Divider from '@/components/Divider';
 import { getTranslations } from 'next-intl/server';
+import { generateAlternates } from '@/lib/metadata';
 
 export async function generateMetadata({
   params,
@@ -14,6 +15,7 @@ export async function generateMetadata({
   return {
     title: t('meta.title'),
     description: t('meta.description'),
+    alternates: generateAlternates(locale, '/pricing'),
   };
 }
 
