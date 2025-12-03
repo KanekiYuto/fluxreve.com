@@ -1,0 +1,1 @@
+ALTER TABLE "subscription" ADD COLUMN "next_plan_type" text;

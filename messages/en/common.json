@@ -1,0 +1,30 @@
+{
+  "language": "Language",
+  "loading": "Loading...",
+  "loginRequired": {
+    "title": "Login to Continue",
+    "description": "Log in to access full features",
+    "buttonText": "Login Now"
+  },
+  "seo": {
+    "title": "{siteName} - AI Image Generation Tool",
+    "description": "Create high-quality professional images in seconds with AI-powered image generation. Simple, fast, and powerful artificial intelligence tools.",
+    "keywords": "AI image generation, AI art, image creator, AI tools, professional images"
+  },
+  "navigation": {
+    "home": "Home",
+    "ai-generator": "AI Generator",
+    "dashboard": "Dashboard",
+    "quota": "Quota",
+    "subscription": "Subscription",
+    "pricing": "Pricing",
+    "settings": "Settings",
+    "help": "Help",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "main": "Main",
+    "content": "Content",
+    "quick-links": "Quick Links",
+    "legal": "Legal"
+  }
+}

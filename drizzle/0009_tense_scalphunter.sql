@@ -1,0 +1,1 @@
+ALTER TABLE "media_generation_task" ADD COLUMN "provider_request_id" text NOT NULL;

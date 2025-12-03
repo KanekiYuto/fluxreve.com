@@ -1,0 +1,4 @@
+@swc/core
+esbuild
+sharp
+unrs-resolver

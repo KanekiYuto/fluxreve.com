@@ -1,0 +1,1 @@
+ALTER TABLE "quota_transaction" ADD COLUMN "related_transaction_id" uuid;

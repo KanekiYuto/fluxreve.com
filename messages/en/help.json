@@ -1,0 +1,40 @@
+{
+  "title": "Help Center",
+  "subtitle": "Find answers to common questions and get support",
+  "contact": {
+    "title": "Need Help?",
+    "description": "Can't find what you're looking for? Contact our support team and we'll get back to you as soon as possible.",
+    "email": "Contact Support"
+  },
+  "faq": {
+    "badge": "Help & Support",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about using our AI image generation platform",
+    "items": [
+      {
+        "question": "How do I get started with AI Generator?",
+        "answer": "Getting started is easy! Simply navigate to the AI Generator page, enter your prompt describing what you want to create, select your preferred settings, and click the generate button. Your AI-generated image will be ready in seconds."
+      },
+      {
+        "question": "What image formats are supported?",
+        "answer": "We support all common image formats including PNG, JPG, and WebP. You can download your generated images in the format that best suits your needs."
+      },
+      {
+        "question": "How many images can I generate?",
+        "answer": "The number of images you can generate depends on your credit quota. Free users get 30 credits daily, while Basic plan subscribers get 1,500 credits monthly and Pro plan subscribers get 7,500 credits monthly. Check our Pricing page for more details."
+      },
+      {
+        "question": "Can I use the generated images commercially?",
+        "answer": "Yes! Both Basic and Pro plan subscribers receive a commercial use license. Free plan users can use generated images for personal projects only."
+      },
+      {
+        "question": "What should I do if the generation fails?",
+        "answer": "If a generation fails, first try refreshing the page and attempting again. Make sure your prompt is clear and descriptive. If problems persist, please contact our support team with details about the issue."
+      },
+      {
+        "question": "How can I improve my generation results?",
+        "answer": "For better results, try to be specific and detailed in your prompts. Include information about style, colors, composition, and mood. Experiment with different models and settings to find what works best for your needs."
+      }
+    ]
+  }
+}

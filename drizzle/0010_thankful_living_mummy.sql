@@ -1,0 +1,2 @@
+ALTER TABLE "media_generation_task" ADD COLUMN "task_id" uuid DEFAULT gen_random_uuid() NOT NULL;--> statement-breakpoint
+ALTER TABLE "media_generation_task" ADD CONSTRAINT "media_generation_task_task_id_unique" UNIQUE("task_id");

@@ -1,0 +1,38 @@
+{
+  "notFound": {
+    "title": "Content Not Found",
+    "description": "This shared content may have been deleted by the creator, set to private, the link may have expired, or you may have accessed the wrong address",
+    "createButton": "Create AI Artwork",
+    "homeButton": "Back to Home"
+  },
+  "processing": {
+    "title": "Generating...",
+    "description": "AI is creating the current artwork, this usually takes a few minutes",
+    "tip": "Please refresh the page later to view the result"
+  },
+  "actions": {
+    "copyLink": "Copy Link",
+    "linkCopied": "Link Copied",
+    "share": "Share",
+    "shareTitle": "Share to",
+    "shareToX": "Share to X",
+    "moreActions": "More Actions",
+    "downloadCurrent": "Download Current Image",
+    "downloadAll": "Download All Images",
+    "createSimilar": "Create Similar Image"
+  },
+  "details": {
+    "prompt": "Prompt",
+    "promptCopied": "Copied",
+    "copyPrompt": "Copy Prompt",
+    "aiModel": "AI Model",
+    "resolution": "Resolution",
+    "aspectRatio": "Aspect Ratio",
+    "imageAlt": "Image",
+    "previousImage": "Previous Image",
+    "nextImage": "Next Image",
+    "generationResults": "AI Image Generation Results",
+    "imagePreview": "AI Generated HD Image Preview",
+    "parametersInfo": "Generation Parameters and Model Info"
+  }
+}

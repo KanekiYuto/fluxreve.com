@@ -1,0 +1,2 @@
+ALTER TABLE "quota" ADD COLUMN "subscription_id" uuid;--> statement-breakpoint
+ALTER TABLE "quota" ADD CONSTRAINT "quota_subscription_id_subscription_id_fk" FOREIGN KEY ("subscription_id") REFERENCES "public"."subscription"("id") ON DELETE set null ON UPDATE no action;

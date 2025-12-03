@@ -1,0 +1,51 @@
+{
+  "welcome": "歡迎回來，{name}",
+  "subtitle": "開始創作您的精彩內容",
+  "guestWelcome": "歡迎來到儀表板",
+  "guestSubtitle": "請登入以存取您的儀表板並開始創作",
+  "loginPrompt": {
+    "title": "登入以存取您的儀表板",
+    "description": "建立帳號或登入以解鎖所有功能，追蹤使用情況並管理您的專案。",
+    "cta": "立即登入",
+    "features": {
+      "quota": "使用配額",
+      "quotaDesc": "追蹤您的生成配額和使用歷史記錄",
+      "projects": "專案管理",
+      "projectsDesc": "組織和管理您的所有創意專案",
+      "analytics": "分析與統計",
+      "analyticsDesc": "查看詳細的統計數據和效能指標"
+    }
+  },
+  "userType": {
+    "pro": "專業版",
+    "basic": "基礎版",
+    "free": "免費版"
+  },
+  "stats": {
+    "quota": {
+      "remaining": "剩餘生成配額",
+      "unlimited": "無限生成配額",
+      "expires": "過期"
+    },
+    "projects": "我的專案總數",
+    "images": "已上傳圖片素材",
+    "templates": "已建立範本數"
+  },
+  "quickActions": {
+    "title": "快速開始",
+    "newProject": "新建專案",
+    "uploadImage": "上傳圖片",
+    "templates": "範本庫",
+    "tutorial": "使用教學"
+  },
+  "recent": {
+    "title": "最近生成",
+    "subtitle": "僅展示近一週的生成內容",
+    "viewAll": "查看全部",
+    "empty": {
+      "title": "近一週還沒有生成內容",
+      "subtitle": "開始生成您的第一張圖片",
+      "cta": "去生成"
+    }
+  }
+}

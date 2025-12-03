@@ -1,0 +1,109 @@
+{
+  "title": "Privacy Policy",
+  "lastUpdated": "Last Updated",
+  "introduction": {
+    "title": "Introduction",
+    "content1": "{siteName} (\"we,\" \"us,\" or \"our\") is committed to protecting your privacy and safeguarding your personal information. This Privacy Policy outlines our practices regarding the collection, storage, use, and sharing of your information when you access our AI-powered image generation services.",
+    "content2": "By using our services through the {siteName} website, mobile applications, or APIs, you acknowledge that you have read, understood, and agree to the practices described in this Privacy Policy. This policy also informs you of your privacy rights and how the law protects you."
+  },
+  "dataCollection": {
+    "title": "Information We Collect",
+    "intro": "We may collect various types of information to provide and improve our services:",
+    "providedInfo": {
+      "title": "Information You Provide",
+      "items": [
+        "Account information: email address, username, password",
+        "Profile data: display name, avatar, bio",
+        "Payment details: billing information, transaction history",
+        "Communication data: feedback, support inquiries, or other messages you send to us"
+      ]
+    },
+    "automaticInfo": {
+      "title": "Automatically Collected Information",
+      "items": [
+        "Device data: device type, operating system, browser version, unique device identifiers",
+        "Usage information: features accessed, images generated, interaction patterns",
+        "Log data: IP address, access times, pages viewed, referring URLs",
+        "Cookies and tracking technologies for analytics and functionality"
+      ]
+    },
+    "userContent": {
+      "title": "User-Generated Content",
+      "description": "Content you create using our services, including AI-generated images, text prompts, uploaded images, and project data. We may temporarily store this content to provide our services and may use it to improve our AI models, subject to your consent."
+    }
+  },
+  "dataUsage": {
+    "title": "How We Use Your Information",
+    "intro": "We use the collected information for the following purposes:",
+    "items": [
+      "Providing, operating, and maintaining our AI image generation services",
+      "Processing your transactions and managing your account",
+      "Improving our services through data analysis and usage pattern identification",
+      "Training and enhancing our AI models to deliver better results",
+      "Sending service notifications, updates, and promotional communications (with your consent)",
+      "Detecting, preventing, and addressing fraud, security issues, or technical problems",
+      "Complying with legal obligations and enforcing our terms of service",
+      "Providing customer support and responding to your inquiries"
+    ]
+  },
+  "dataSharing": {
+    "title": "Information Sharing and Disclosure",
+    "intro": "We do not sell your personal information. We may share your information only in the following circumstances:",
+    "items": [
+      "With your explicit consent or at your direction",
+      "With trusted service providers who assist in operating our platform (cloud hosting, payment processing, analytics)",
+      "With AI model providers for processing your generation requests, under strict data protection agreements",
+      "To comply with legal obligations, court orders, or valid governmental requests",
+      "To protect our rights, property, safety, or that of our users and the public",
+      "In connection with a merger, acquisition, or sale of assets, where information may be transferred as a business asset"
+    ]
+  },
+  "dataStorage": {
+    "title": "Data Storage and Security",
+    "location": "Storage Location: Your information is stored on secure servers located in various regions globally to ensure optimal service performance and reliability. We use industry-leading cloud infrastructure providers.",
+    "duration": "Retention Period: We retain your personal information only for as long as necessary to fulfill the purposes outlined in this policy or as required by law. Generated content may be retained based on your account settings and subscription type.",
+    "security": "Security Measures: We implement industry-standard security practices including encryption (in transit and at rest), access controls, regular security audits, and secure authentication mechanisms. However, no method of transmission or storage is 100% secure."
+  },
+  "cookies": {
+    "title": "Cookies and Tracking Technologies",
+    "intro": "We use cookies and similar technologies to enhance your experience:",
+    "items": [
+      "Essential cookies: Required for basic service functionality and authentication",
+      "Preference cookies: Remember your settings and personalization choices",
+      "Analytics cookies: Help us understand usage patterns and improve our services",
+      "Marketing cookies: Deliver relevant content and measure campaign effectiveness (with your consent)"
+    ],
+    "note": "You can control cookie preferences through your browser settings. Note that disabling certain cookies may limit functionality of our services."
+  },
+  "userRights": {
+    "title": "Your Privacy Rights",
+    "intro": "Depending on your location, you may have the following rights regarding your personal information:",
+    "items": [
+      "Access: Request a copy of the personal information we hold about you",
+      "Rectification: Correct inaccurate or incomplete information",
+      "Deletion: Request deletion of your personal data (\"right to be forgotten\")",
+      "Restriction: Limit how we process your information",
+      "Portability: Receive your data in a structured, commonly used format",
+      "Objection: Object to processing of your information for certain purposes",
+      "Withdraw Consent: Revoke previously given consent at any time",
+      "Opt-out: Unsubscribe from marketing communications"
+    ]
+  },
+  "thirdPartyLinks": {
+    "title": "Third-Party Services and Links",
+    "content": "Our services may contain links to third-party websites, integrations, or services. We are not responsible for the privacy practices or content of these third parties. We encourage you to review their privacy policies before providing any personal information."
+  },
+  "childrenPrivacy": {
+    "title": "Children's Privacy",
+    "content": "Our services are not directed to individuals under the age of 13 (or equivalent minimum age in your jurisdiction). We do not knowingly collect personal information from children. If we become aware that we have collected data from a child without proper consent, we will take steps to delete it promptly."
+  },
+  "policyUpdates": {
+    "title": "Changes to This Privacy Policy",
+    "content": "We may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. We will notify you of material changes by posting the updated policy on this page with a revised \"Last Updated\" date. For significant changes, we may also provide notice via email or prominent notification on our platform. We encourage you to review this policy regularly."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "intro": "If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:",
+    "email": "Email"
+  }
+}

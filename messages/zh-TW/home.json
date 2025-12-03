@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "title": "{siteName} - AI 圖像生成工具 | 快速生成專業圖像",
+    "description": "使用先進的人工智慧技術,快速生成高品質的專業圖像。讓 AI 圖像創作變得簡單高效。"
+  },
+  "hero": {
+    "badge": "AI 圖像生成工具",
+    "title": {
+      "line1": "讓創意瞬間成為現實",
+      "line2": "AI 驅動的專業圖像生成"
+    },
+    "description": "只需輸入簡單描述,即可獲得精美的專業級圖像。無需設計技能,讓每個人都能成為創作者。",
+    "buttons": {
+      "startCreate": "開始創作",
+      "viewExamples": "查看案例"
+    },
+    "features": {
+      "highQuality": "高品質輸出",
+      "fastGeneration": "快速生成",
+      "easyToUse": "簡單易用"
+    }
+  },
+  "features": {
+    "sectionTitle": "為什麼選擇我們",
+    "sectionDescription": "結合強大的 AI 技術與簡潔的使用者體驗，讓圖像創作變得前所未有的簡單",
+    "items": [
+      {
+        "title": "快速生成",
+        "description": "強大的 AI 演算法，幾秒鐘內即可生成高品質圖像，大幅提升創作效率。"
+      },
+      {
+        "title": "專業品質",
+        "description": "採用最先進的 AI 模型，輸出專業級別的圖像品質，滿足各種創作需求。"
+      },
+      {
+        "title": "靈活控制",
+        "description": "提供豐富的參數設定和風格選項，讓您精確控制圖像生成的每個細節。"
+      },
+      {
+        "title": "簡單易用",
+        "description": "直觀的操作介面，無需專業知識，任何人都能輕鬆上手創作精美圖像。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "立即開始創作",
+    "description": "加入數千名創作者，使用 AI 的力量將您的創意變為現實",
+    "buttons": {
+      "freeTrial": "免費試用",
+      "viewExamples": "查看案例"
+    },
+    "note": "無需信用卡 · 即刻開始使用"
+  }
+}

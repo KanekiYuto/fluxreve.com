@@ -1,0 +1,30 @@
+{
+  "language": "語言",
+  "loading": "載入中...",
+  "loginRequired": {
+    "title": "登入以繼續",
+    "description": "登入後即可使用完整功能",
+    "buttonText": "立即登入"
+  },
+  "seo": {
+    "title": "{siteName} - AI 圖像生成工具",
+    "description": "使用先進的人工智慧技術，快速生成高品質的專業圖像。簡單、快速、強大的 AI 圖像創作工具。",
+    "keywords": "AI圖像生成, AI繪畫, 圖像創作, 人工智慧工具, 專業圖像"
+  },
+  "navigation": {
+    "home": "首頁",
+    "ai-generator": "AI 生成器",
+    "dashboard": "儀表板",
+    "quota": "配額管理",
+    "subscription": "訂閱管理",
+    "pricing": "定價方案",
+    "settings": "設定",
+    "help": "幫助",
+    "terms": "使用者服務協議",
+    "privacy": "隱私政策",
+    "main": "主要",
+    "content": "內容",
+    "quick-links": "快速連結",
+    "legal": "法律相關"
+  }
+}

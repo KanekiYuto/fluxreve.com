@@ -1,0 +1,38 @@
+{
+  "notFound": {
+    "title": "內容不存在",
+    "description": "該分享內容可能已被創作者刪除、設為私密、連結已過期，或者您訪問的地址有誤",
+    "createButton": "創建 AI 作品",
+    "homeButton": "返回首頁"
+  },
+  "processing": {
+    "title": "生成中...",
+    "description": "AI 正在創作當前的作品，通常需要幾分鐘時間",
+    "tip": "請稍後刷新頁面查看結果"
+  },
+  "actions": {
+    "copyLink": "複製連結",
+    "linkCopied": "已複製連結",
+    "share": "分享",
+    "shareTitle": "分享到",
+    "shareToX": "分享到 X",
+    "moreActions": "更多操作",
+    "downloadCurrent": "下載當前圖片",
+    "downloadAll": "下載全部圖片",
+    "createSimilar": "創建相似圖片"
+  },
+  "details": {
+    "prompt": "提示詞",
+    "promptCopied": "已複製",
+    "copyPrompt": "複製提示詞",
+    "aiModel": "AI 模型",
+    "resolution": "解析度",
+    "aspectRatio": "寬高比",
+    "imageAlt": "圖片",
+    "previousImage": "上一張圖片",
+    "nextImage": "下一張圖片",
+    "generationResults": "AI 圖片生成結果展示",
+    "imagePreview": "AI 生成的高清圖片預覽",
+    "parametersInfo": "圖片生成參數與模型資訊"
+  }
+}

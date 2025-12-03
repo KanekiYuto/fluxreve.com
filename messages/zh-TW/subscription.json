@@ -1,0 +1,38 @@
+{
+  "title": "訂閱管理",
+  "subtitle": "查看和管理您的訂閱資訊",
+  "login": {
+    "title": "登入查看訂閱",
+    "description": "登入後即可查看和管理您的訂閱資訊"
+  },
+  "empty": {
+    "title": "暫無訂閱",
+    "description": "您目前沒有任何活躍的訂閱",
+    "action": "查看訂閱方案"
+  },
+  "card": {
+    "subscriptionId": "訂閱",
+    "customerId": "客戶",
+    "nextRenewal": "下次續費切換至",
+    "amount": "訂閱金額",
+    "platform": "支付平台",
+    "startDate": "開始日期",
+    "expiryDate": "到期日期",
+    "nextBillingDate": "下次續費日期",
+    "canceledDate": "取消日期",
+    "manageButton": "管理訂閱",
+    "status": {
+      "active": "激活中",
+      "canceled": "已取消",
+      "expired": "已過期",
+      "paused": "已暫停",
+      "pending": "待支付"
+    },
+    "planTypes": {
+      "monthly_basic": "基礎版 - 月付",
+      "yearly_basic": "基礎版 - 年付",
+      "monthly_pro": "專業版 - 月付",
+      "yearly_pro": "專業版 - 年付"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Settings",
+  "subtitle": "Manage your account settings and preferences",
+  "loginRequired": {
+    "title": "Sign In Required",
+    "description": "Please sign in to access your settings and manage your account.",
+    "cta": "Sign In Now"
+  },
+  "sections": {
+    "profile": {
+      "title": "Profile Information",
+      "name": "Name",
+      "email": "Email Address",
+      "plan": "Current Plan",
+      "verified": "Verified",
+      "notSet": "Not set"
+    },
+    "preferences": {
+      "title": "Preferences",
+      "notifications": "Email Notifications",
+      "notificationsDesc": "Receive updates and notifications via email"
+    },
+    "connections": {
+      "title": "Connected Accounts",
+      "googleConnected": "You can use your Google account to sign in to your account.",
+      "googleNotConnected": "Connect your Google account to enable this login method.",
+      "githubConnected": "You can use your GitHub account to sign in to your account.",
+      "githubNotConnected": "Connect your GitHub account to enable this login method.",
+      "connected": "Connected"
+    }
+  },
+  "actions": {
+    "edit": "Edit",
+    "change": "Change",
+    "enable": "Enable",
+    "upgrade": "Upgrade Plan",
+    "copy": "Copy"
+  }
+}

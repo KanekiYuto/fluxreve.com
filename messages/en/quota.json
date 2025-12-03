@@ -1,0 +1,46 @@
+{
+  "title": "My Quota",
+  "subtitle": "Manage and view your available quota",
+  "loginRequired": {
+    "title": "Login to View Quota",
+    "description": "Log in to view your quota usage and history"
+  },
+  "summary": {
+    "title": "Total Available",
+    "credits": "Credits"
+  },
+  "tabs": {
+    "active": "Active Quota",
+    "expired": "Expired"
+  },
+  "table": {
+    "type": "Type",
+    "amount": "Amount",
+    "consumed": "Consumed",
+    "available": "Available",
+    "issuedAt": "Issued At",
+    "expiresAt": "Expires At",
+    "noExpiry": "Never"
+  },
+  "quotaTypes": {
+    "daily_free": "Daily Free Quota",
+    "monthly_basic": "Monthly Basic",
+    "monthly_pro": "Monthly Pro",
+    "yearly_basic": "Yearly Basic",
+    "yearly_pro": "Yearly Pro",
+    "quota_pack": "Quota Pack",
+    "subscription_change_compensation": "Subscription Change Compensation"
+  },
+  "empty": {
+    "active": "No active quota available",
+    "expired": "No expired quota"
+  },
+  "status": {
+    "active": "Active",
+    "depleted": "Depleted"
+  },
+  "stats": {
+    "consumed": "Consumed",
+    "remaining": "Remaining"
+  }
+}
