@@ -2,7 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import { siteConfig } from '@/config/site';
 import Divider from '@/components/Divider';
 import Pricing from '@/components/pricing';
 import PrismaticBurst from '@/components/PrismaticBurst';
@@ -206,13 +205,13 @@ export default function Home() {
               {/* 按钮组 */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <Link
-                  href="/dashboard"
+                  href="/ai-generator"
                   className="flex h-12 items-center justify-center px-8 rounded-full bg-white hover:bg-gray-100 text-gray-900 font-medium transition-all cursor-pointer"
                 >
                   <span>{t('cta.buttons.freeTrial')}</span>
                 </Link>
                 <Link
-                  href="/projects"
+                  href="/dashboard"
                   className="flex h-12 items-center justify-center px-8 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-medium transition-all cursor-pointer"
                 >
                   <span>{t('cta.buttons.viewExamples')}</span>
