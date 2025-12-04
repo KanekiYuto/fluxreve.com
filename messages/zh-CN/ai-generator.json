@@ -78,7 +78,12 @@
   },
   "models": {
     "nanoBananaPro": {
-      "description": "超快速产生，专为高效率创作与优质输出而最佳化"
+      "description": "超快速产生，专为高效率创作与优质输出而最佳化",
+      "tags": {
+        "fast": "极速",
+        "highQuality": "高品质",
+        "latest": "最新"
+      }
     }
   },
   "comingSoon": {

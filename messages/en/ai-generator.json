@@ -78,7 +78,12 @@
   },
   "models": {
     "nanoBananaPro": {
-      "description": "Lightning-fast generation, optimized for high-quality creative output with exceptional speed"
+      "description": "Lightning-fast generation, optimized for high-quality creative output with exceptional speed",
+      "tags": {
+        "fast": "Fast",
+        "highQuality": "High Quality",
+        "latest": "Latest"
+      }
     }
   },
   "comingSoon": {

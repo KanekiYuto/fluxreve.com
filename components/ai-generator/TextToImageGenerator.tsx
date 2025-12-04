@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import ModelSelector from './base/ModelSelector';
+import ModelSelector, { type ModelOption } from './base/ModelSelector';
 import NanoBananaProGenerator from './models/NanoBananaProGenerator';
 
 export default function TextToImageGenerator() {
@@ -10,11 +10,18 @@ export default function TextToImageGenerator() {
   const [selectedModel, setSelectedModel] = useState('nano-banana-pro');
 
   // 模型选项
-  const modelOptions = [
+  const modelOptions: ModelOption[] = [
     {
       value: 'nano-banana-pro',
       label: 'Nano Banana Pro',
       description: t('nanoBananaPro.description'),
+      badge: 'NEW',
+      tags: [
+        { text: 'NSFW', variant: 'highlight' as const },
+        { text: t('nanoBananaPro.tags.fast'), variant: 'default' as const },
+        { text: t('nanoBananaPro.tags.highQuality'), variant: 'default' as const },
+        { text: t('nanoBananaPro.tags.latest'), variant: 'default' as const },
+      ]
     },
   ];
 

@@ -1,6 +1,9 @@
 'use client';
 
 import { ReactNode } from 'react';
+import { useTranslations } from 'next-intl';
+import { useCachedSession } from '@/hooks/useCachedSession';
+import useModalStore from '@/store/useModalStore';
 import LoadingAnimation from './LoadingAnimation';
 import ErrorCard from './ErrorCard';
 import CreditsCard from './CreditsCard';
@@ -12,11 +15,15 @@ interface GeneratorLayoutProps {
   headerContent?: ReactNode;
   // 左侧表单内容
   formContent: ReactNode;
-  // 生成按钮
-  generateButton: ReactNode;
+  // 生成按钮配置
+  onGenerate: () => void;
+  generateButtonText?: string;
+  generateButtonClassName?: string;
+  requiredCredits?: number;
   // 加载状态
   isLoading?: boolean;
   progress?: number;
+  progressText?: string;
   // 错误状态
   error?: {
     title: string;
@@ -39,9 +46,13 @@ interface GeneratorLayoutProps {
 export default function GeneratorLayout({
   headerContent,
   formContent,
-  generateButton,
+  onGenerate,
+  generateButtonText,
+  generateButtonClassName = 'w-full rounded-xl px-6 py-3 transition-all duration-300 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold text-base gradient-bg',
+  requiredCredits,
   isLoading = false,
   progress = 0,
+  progressText,
   error,
   credits,
   isCreditsLoading,
@@ -51,6 +62,21 @@ export default function GeneratorLayout({
   examples,
   onSelectExample,
 }: GeneratorLayoutProps) {
+  const tGenerate = useTranslations('ai-generator.generate');
+  const tAuth = useTranslations('auth');
+
+  const { data: session } = useCachedSession();
+  const { openLoginModal } = useModalStore();
+
+  // 处理生成按钮点击
+  const handleGenerateClick = () => {
+    if (!session) {
+      openLoginModal();
+      return;
+    }
+    onGenerate();
+  };
+
   // 根据状态决定显示的内容
   const renderPreviewContent = () => {
     // 优先显示错误
@@ -108,8 +134,19 @@ export default function GeneratorLayout({
           {/* 生成按钮区域 - 粘性定位在底部 */}
           <div className="sticky bottom-2 rounded-xl p-4 gradient-border">
             <div className="space-y-3">
-              {generateButton}
-              {credits !== undefined && (
+              <button
+                type="button"
+                onClick={handleGenerateClick}
+                disabled={isLoading}
+                className={generateButtonClassName}
+              >
+                {isLoading
+                  ? (progressText || tGenerate('generating', { progress }))
+                  : !session
+                  ? tAuth('loginToGenerate')
+                  : (generateButtonText || tGenerate('generateImage', { credits: requiredCredits || 0 }))}
+              </button>
+              {session && credits !== undefined && (
                 <CreditsCard
                   credits={credits}
                   isLoading={isCreditsLoading}

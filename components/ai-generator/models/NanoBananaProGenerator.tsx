@@ -67,7 +67,6 @@ const POLLING_INTERVAL = 2000; // 2秒轮询间隔
 export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProGeneratorProps) {
   const tForm = useTranslations('ai-generator.form');
   const tError = useTranslations('ai-generator.error');
-  const tGenerate = useTranslations('ai-generator.generate');
 
   // ==================== 状态管理 ====================
 
@@ -270,25 +269,14 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
     </div>
   );
 
-  // 生成按钮
-  const generateButton = (
-    <button
-      type="button"
-      onClick={handleGenerate}
-      disabled={isLoading}
-      className="w-full rounded-xl px-6 py-3 transition-all duration-300 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold text-base gradient-bg"
-    >
-      {isLoading ? tGenerate('generating', { progress }) : tGenerate('generateImage', { credits: requiredCredits })}
-    </button>
-  );
-
   // ==================== 主渲染 ====================
 
   return (
     <GeneratorLayout
       headerContent={modelSelector}
       formContent={formContent}
-      generateButton={generateButton}
+      onGenerate={handleGenerate}
+      requiredCredits={requiredCredits}
       isLoading={isLoading}
       progress={progress}
       error={error}
