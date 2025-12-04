@@ -16,6 +16,18 @@ const nextConfig: NextConfig = {
         /Failed to parse source map/,
       ];
     }
+
+    // 忽略 Node.js 特定模块（用于客户端组件）
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+        net: false,
+        tls: false,
+        encoding: false,
+      };
+    }
+
     return config;
   },
 };

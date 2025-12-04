@@ -73,7 +73,6 @@ export default function QuotaPage() {
   useEffect(() => {
     if (user) {
       // 初始数据获取，不会导致级联渲染
-      // eslint-disable-next-line react-hooks/set-state-in-effect
       fetchTotalQuota();
     }
   }, [user, fetchTotalQuota]);
@@ -84,7 +83,6 @@ export default function QuotaPage() {
 
     if (activeTab === 'active' && activeQuotas === null) {
       // 按需数据获取，不会导致级联渲染
-      // eslint-disable-next-line react-hooks/set-state-in-effect
       fetchActiveQuotas();
     } else if (activeTab === 'expired' && expiredQuotas === null) {
       // 按需数据获取，不会导致级联渲染

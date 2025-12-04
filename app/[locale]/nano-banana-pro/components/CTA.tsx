@@ -2,7 +2,12 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import { GridScan } from '@/components/GridScan';
+import dynamic from 'next/dynamic';
+
+const GridScan = dynamic(() => import('@/components/GridScan').then(mod => ({ default: mod.GridScan })), {
+  ssr: false,
+  loading: () => <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-primary/10 to-secondary/10" />
+});
 
 export default function CTA() {
   const t = useTranslations('nanoBananaPro.cta');
