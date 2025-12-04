@@ -9,13 +9,8 @@ export interface FAQItem {
   answer: string;
 }
 
-interface FAQProps {
-  namespace?: string; // 翻译命名空间,默认为 'pricing'
-  className?: string;
-}
-
-export default function FAQ({ namespace = 'pricing', className = '' }: FAQProps) {
-  const t = useTranslations(namespace);
+export default function FAQ() {
+  const t = useTranslations('nanoBananaPro');
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   // 从翻译文件中获取 FAQ 数据
@@ -26,7 +21,7 @@ export default function FAQ({ namespace = 'pricing', className = '' }: FAQProps)
   };
 
   return (
-    <section className={`relative container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12 ${className}`}>
+    <section className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12 bg-bg-base">
       {/* 背景装饰 */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute top-1/3 right-1/4 w-64 h-64 sm:w-96 sm:h-96 bg-primary/10 rounded-full blur-3xl" />

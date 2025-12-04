@@ -46,7 +46,7 @@ export default function HomeClient() {
             intensity={1.5}
             speed={0.3}
             animationType="rotate3d"
-            colors={['#6633FF', '#8866ff', '#aa99ff', '#7d4dff']}
+            colors={['#ff6b9d', '#ffb3d9', '#ff85b3', '#ffc9e0']}
             distort={3}
             rayCount={12}
             mixBlendMode="lighten"

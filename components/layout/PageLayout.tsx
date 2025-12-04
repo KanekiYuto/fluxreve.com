@@ -15,7 +15,7 @@ const HIDDEN_LAYOUT_PATHS: string[] = [
 
 // 需要显示 loading 的路由路径(白名单)
 const LOADING_ENABLED_PATHS: string[] = [
-  // '/dashboard',
+  '/dashboard',
   '/settings',
   '/quota',
   '/ai-generator',

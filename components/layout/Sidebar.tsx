@@ -27,6 +27,7 @@ import {
   ChevronDown,
   X,
   CreditCard,
+  Sparkles,
 } from 'lucide-react';
 
 function classNames(...classes: string[]) {
@@ -45,6 +46,7 @@ function Icon({ name, className }: { name: string; className?: string }) {
     folder: Folder,
     document: FileText,
     image: ImageIcon,
+    sparkles: Sparkles,
     user: User,
     settings: Settings,
     help: HelpCircle,
@@ -215,18 +217,13 @@ function MenuItem({ item, isActive, onClick, t }: {
       className={classNames(
         'group relative flex items-center gap-x-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-all duration-200 overflow-hidden',
         isActive
-          ? 'gradient-border text-white shadow-lg'
-          : 'text-text-muted hover:text-white hover:bg-white/8'
+          ? 'bg-primary/10 text-white'
+          : 'text-text-muted hover:text-white hover:bg-white/5'
       )}
     >
-      {/* 激活状态背景渐变 */}
-      {isActive && (
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-primary/5 to-transparent" />
-      )}
-
       {/* 左侧激活指示条 */}
       {isActive && (
-        <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-10 rounded-r-full shadow-lg gradient-bg" />
+        <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-8 rounded-r-full gradient-bg" />
       )}
 
       {/* 图标容器 */}
@@ -236,7 +233,7 @@ function MenuItem({ item, isActive, onClick, t }: {
           className={classNames(
             'w-full h-full transition-all duration-200',
             isActive
-              ? 'text-white drop-shadow-[0_0_12px_rgba(255,255,255,0.5)]'
+              ? 'text-white'
               : 'text-text-muted group-hover:text-white'
           )}
         />
@@ -245,7 +242,7 @@ function MenuItem({ item, isActive, onClick, t }: {
       {/* 文本 */}
       <span className={classNames(
         'flex-1 truncate transition-all duration-200 z-10 relative',
-        isActive ? 'font-semibold' : ''
+        isActive ? 'font-medium' : ''
       )}>
         {t(`navigation.${item.name}`)}
       </span>

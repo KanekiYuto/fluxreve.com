@@ -8,6 +8,7 @@ import enCommon from '@/messages/en/common.json';
 import enDashboard from '@/messages/en/dashboard.json';
 import enHelp from '@/messages/en/help.json';
 import enHome from '@/messages/en/home.json';
+import enNanoBananaPro from '@/messages/en/nano-banana-pro.json';
 import enNotFound from '@/messages/en/notFound.json';
 import enPricing from '@/messages/en/pricing.json';
 import enPrivacy from '@/messages/en/privacy.json';
@@ -23,6 +24,7 @@ import zhTWCommon from '@/messages/zh-TW/common.json';
 import zhTWDashboard from '@/messages/zh-TW/dashboard.json';
 import zhTWHelp from '@/messages/zh-TW/help.json';
 import zhTWHome from '@/messages/zh-TW/home.json';
+import zhTWNanoBananaPro from '@/messages/zh-TW/nano-banana-pro.json';
 import zhTWNotFound from '@/messages/zh-TW/notFound.json';
 import zhTWPricing from '@/messages/zh-TW/pricing.json';
 import zhTWPrivacy from '@/messages/zh-TW/privacy.json';
@@ -41,6 +43,7 @@ const allMessages = {
     dashboard: enDashboard,
     help: enHelp,
     home: enHome,
+    nanoBananaPro: enNanoBananaPro,
     notFound: enNotFound,
     pricing: enPricing,
     privacy: enPrivacy,
@@ -57,6 +60,7 @@ const allMessages = {
     dashboard: zhTWDashboard,
     help: zhTWHelp,
     home: zhTWHome,
+    nanoBananaPro: zhTWNanoBananaPro,
     notFound: zhTWNotFound,
     pricing: zhTWPricing,
     privacy: zhTWPrivacy,

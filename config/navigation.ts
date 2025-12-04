@@ -45,6 +45,7 @@ export const navigationGroups: NavGroup[] = [
     title: 'content', // 内容管理分组
     items: [
       { name: 'ai-generator', href: '/ai-generator', icon: 'image' },
+      { name: 'nano-banana-pro', href: '/nano-banana-pro', icon: 'sparkles' },
     ],
   },
   {

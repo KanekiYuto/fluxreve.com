@@ -42,6 +42,12 @@ export default function NavigationProgress() {
         }
 
         const url = new URL(link.href);
+
+        // 忽略锚点导航（仅包含 hash 的链接）
+        if (url.hash && url.pathname === window.location.pathname) {
+          return;
+        }
+
         // 只在站内导航时显示进度条
         if (url.origin === window.location.origin) {
           NProgress.start();
