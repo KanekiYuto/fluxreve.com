@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { format } from 'date-fns';
 
 interface QuotaItem {
   id: string;
@@ -23,13 +24,7 @@ export default function QuotaCard({ quota }: QuotaCardProps) {
 
   const formatDate = (date: Date | null) => {
     if (!date) return t('table.noExpiry');
-    return new Date(date).toLocaleString(undefined, {
-      year: 'numeric',
-      month: '2-digit',
-      day: '2-digit',
-      hour: '2-digit',
-      minute: '2-digit',
-    });
+    return format(new Date(date), 'yyyy-MM-dd');
   };
 
   const formatAmount = (amount: number) => {

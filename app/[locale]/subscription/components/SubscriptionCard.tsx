@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { format } from 'date-fns';
 import ManageSubscriptionButton from '@/components/subscription/ManageSubscriptionButton';
 
 interface SubscriptionCardProps {
@@ -30,11 +31,7 @@ export default function SubscriptionCard({ subscription }: SubscriptionCardProps
   // 格式化日期
   const formatDate = (date: Date | null) => {
     if (!date) return '-';
-    return new Date(date).toLocaleDateString('zh-TW', {
-      year: 'numeric',
-      month: '2-digit',
-      day: '2-digit',
-    });
+    return format(new Date(date), 'yyyy-MM-dd');
   };
 
   // 格式化金额
@@ -66,47 +63,35 @@ export default function SubscriptionCard({ subscription }: SubscriptionCardProps
   };
 
   return (
-    <div className="bg-bg-elevated rounded-2xl p-6 border border-border">
-      <div className="flex items-start justify-between mb-6">
-        <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-3 mb-2 flex-wrap">
-            <h2 className="text-xl font-bold text-white">{getPlanTypeText(subscription.planType)}</h2>
-            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs bg-white/5 backdrop-blur-sm">
-              <span className="text-text-dim/60 font-medium">{t('subscriptionId')}</span>
-              <span className="text-text-muted/80 font-mono tracking-tight">{subscription.paymentSubscriptionId}</span>
-            </div>
-            {subscription.paymentCustomerId && (
-              <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs bg-white/5 backdrop-blur-sm">
-                <span className="text-text-dim/60 font-medium">{t('customerId')}</span>
-                <span className="text-text-muted/80 font-mono tracking-tight">{subscription.paymentCustomerId}</span>
-              </div>
-            )}
-          </div>
-          {/* 显示计划变更信息 - 仅在订阅激活时显示 */}
-          {subscription.status === 'active' && subscription.nextPlanType && subscription.nextPlanType !== subscription.planType && (
-            <div className="mt-3 flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-[#FF3466]/15 to-[#C721FF]/15 border border-white/30 backdrop-blur-sm">
-              <div className="flex items-center justify-center w-5 h-5 rounded-full bg-white/20">
-                <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
-                </svg>
-              </div>
-              <div className="flex items-baseline gap-1.5">
-                <span className="text-xs text-white/80 font-medium">{t('nextRenewal')}</span>
-                <span className="text-sm font-bold gradient-text">{getPlanTypeText(subscription.nextPlanType)}</span>
-              </div>
-            </div>
-          )}
+    <div className="bg-bg-elevated rounded-2xl p-4 sm:p-6 border border-border">
+      <div className="mb-6">
+        <div className="flex items-start justify-between gap-3 mb-3">
+          <div className="text-xl font-bold text-white">{getPlanTypeText(subscription.planType)}</div>
+          <span
+            className={`px-3 py-1 rounded-full text-xs font-semibold flex-shrink-0 ${
+              getStatusInfo(subscription.status).className
+            }`}
+          >
+            {getStatusInfo(subscription.status).text}
+          </span>
         </div>
-        <span
-          className={`px-3 py-1 rounded-full text-xs font-semibold flex-shrink-0 ${
-            getStatusInfo(subscription.status).className
-          }`}
-        >
-          {getStatusInfo(subscription.status).text}
-        </span>
+        {/* 显示计划变更信息 - 仅在订阅激活时显示 */}
+        {subscription.status === 'active' && subscription.nextPlanType && subscription.nextPlanType !== subscription.planType && (
+          <div className="flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-[#FF3466]/15 to-[#C721FF]/15 border border-white/30 backdrop-blur-sm">
+            <div className="flex items-center justify-center w-5 h-5 rounded-full bg-white/20">
+              <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
+            <div className="flex items-baseline gap-1.5">
+              <span className="text-xs text-white/80 font-medium">{t('nextRenewal')}</span>
+              <span className="text-sm font-bold gradient-text">{getPlanTypeText(subscription.nextPlanType)}</span>
+            </div>
+          </div>
+        )}
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
         {/* 订阅金额 */}
         <div>
           <p className="text-sm text-text-muted mb-1">{t('amount')}</p>
