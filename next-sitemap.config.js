@@ -7,6 +7,7 @@ const routes = [
   '',
   '/help',
   '/ai-generator',
+  '/nano-banana-pro',
   '/pricing',
   '/terms',
   '/privacy',

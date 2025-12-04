@@ -1,9 +1,9 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import { checkAndIssueDailyQuota } from '@/lib/quota/daily-quota';
 import { auth } from '@/lib/auth';
 import { headers } from 'next/headers';
 
-export async function POST(request: NextRequest) {
+export async function POST() {
   try {
     // 从 session 中获取当前用户
     const session = await auth.api.getSession({

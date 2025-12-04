@@ -12,7 +12,6 @@ interface AIGeneratorProps {
 }
 
 export default function AIGenerator({ defaultTab }: AIGeneratorProps) {
-  const t = useTranslations('aiGenerator');
   const tTabs = useTranslations('ai-generator.tabs');
   const tComingSoon = useTranslations('ai-generator.comingSoon');
 

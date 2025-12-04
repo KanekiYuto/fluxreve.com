@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
-import type { Subscription, SubscriptionStatus, TierTranslation } from './types';
+import type { Subscription, SubscriptionStatus } from './types';
 import type { PricingTier, PlanType } from '@/config/pricing';
 import { quotaConfig } from '@/lib/quota/config';
 import { SUBSCRIPTION_QUOTA_CONFIG } from '@/config/subscription';

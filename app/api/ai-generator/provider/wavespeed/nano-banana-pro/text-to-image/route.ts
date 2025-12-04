@@ -3,7 +3,6 @@ import { db } from '@/lib/db';
 import { mediaGenerationTask } from '@/lib/db/schema';
 import { randomUUID } from 'crypto';
 import { auth } from '@/lib/auth';
-import { eq } from 'drizzle-orm';
 import { generateShareId } from '@/lib/utils/generate-share-id';
 import { getRequiredCredits } from '@/config/ai-generator';
 import { getAvailableQuota, consumeQuota } from '@/lib/quota';

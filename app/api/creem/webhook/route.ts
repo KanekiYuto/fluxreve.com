@@ -1,5 +1,4 @@
 import { Webhook } from '@creem_io/nextjs';
-import { getPricingTierByProductId } from '@/config/pricing';
 import { handleSubscriptionActive } from '@/lib/creem/handle-subscription-active';
 import { handleSubscriptionPaid } from '@/lib/creem/handle-subscription-paid';
 import { handleSubscriptionCanceled } from '@/lib/creem/handle-subscription-canceled';

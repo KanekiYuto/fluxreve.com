@@ -96,7 +96,7 @@ if (typeof process !== 'undefined' && process.env.NODE_ENV !== 'test') {
       proxyAgent.keepAliveMsecs = 60_000;
       https.globalAgent = proxyAgent;
       console.log(`🌐 使用 HTTPS 代理: ${httpsProxy || httpProxy}`);
-    } catch (error) {
+    } catch {
       console.log('⚠️ https-proxy-agent 不可用，使用标准代理配置');
     }
   } else {
@@ -162,7 +162,7 @@ if (typeof process !== 'undefined' && process.env.NODE_ENV !== 'test') {
       undici.setGlobalDispatcher(globalAgent);
       console.log('✅ 已配置 undici 全局代理，连接超时 45 秒');
     }
-  } catch (error) {
+  } catch {
     // undici 可能不可用，继续使用标准 HTTP 代理配置
     console.log('📡 使用标准 HTTP/HTTPS 代理配置，连接超时 45 秒');
   }

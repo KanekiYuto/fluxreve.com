@@ -61,7 +61,6 @@ export default function FAQ() {
 // FAQ 单项组件
 function FAQItemComponent({
   item,
-  index,
   isOpen,
   onToggle,
 }: {

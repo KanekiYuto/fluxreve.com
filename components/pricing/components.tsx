@@ -48,7 +48,6 @@ export function PricingCard({
   tier,
   translation,
   quota,
-  status,
   isYearly,
   t,
   renderCTAButton,

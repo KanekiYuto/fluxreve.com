@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import { getAvailableQuota } from '@/lib/quota';
 import { db } from '@/lib/db';
 import { quota } from '@/lib/db/schema';
@@ -6,7 +6,7 @@ import { eq, and, gte, or, isNull } from 'drizzle-orm';
 import { auth } from '@/lib/auth';
 import { headers } from 'next/headers';
 
-export async function GET(request: NextRequest) {
+export async function GET() {
   try {
     // 从 session 中获取当前用户
     const session = await auth.api.getSession({

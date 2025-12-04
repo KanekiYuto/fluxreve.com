@@ -600,6 +600,7 @@ export const GridScan: React.FC<GridScanProps> = ({
       renderer.dispose();
       container.removeChild(renderer.domElement);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
     sensitivity,
     lineThickness,
@@ -792,6 +793,7 @@ export const GridScan: React.FC<GridScanProps> = ({
 
     return () => {
       stop = true;
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       const video = videoRef.current;
       if (video) {
         const stream = video.srcObject as MediaStream | null;
@@ -841,7 +843,7 @@ function smoothDampVec2(
   const x = omega * deltaTime;
   const exp = 1 / (1 + x + 0.48 * x * x + 0.235 * x * x * x);
 
-  let change = current.clone().sub(target);
+  const change = current.clone().sub(target);
   const originalTo = target.clone();
 
   const maxChange = maxSpeed * smoothTime;

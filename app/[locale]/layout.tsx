@@ -9,7 +9,6 @@ import UserProvider from '@/components/providers/UserProvider';
 import ModalProvider from '@/components/providers/ModalProvider';
 import NavigationProgress from '@/components/providers/NavigationProgress';
 import { siteConfig } from '@/config/site';
-import { locales, defaultLocale } from '@/i18n/config';
 import "../globals.css";
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

@@ -27,10 +27,6 @@ export default function ImageCarousel({ images, prompt }: ImageCarouselProps) {
     );
   }, [images.length]);
 
-  const goToIndex = useCallback((index: number) => {
-    setCurrentIndex(index);
-  }, []);
-
   // 键盘事件监听
   useEffect(() => {
     if (images.length <= 1) return;

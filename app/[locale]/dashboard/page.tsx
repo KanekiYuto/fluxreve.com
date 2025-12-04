@@ -10,7 +10,7 @@ import QuickActions from './components/QuickActions';
 import RecentGenerations from './components/RecentGenerations';
 
 export default function DashboardPage() {
-  const { user, isLoading, quotaInfo } = useUserStore();
+  const { user, quotaInfo } = useUserStore();
   const t = useTranslations('dashboard.stats');
   const tCommon = useTranslations('dashboard');
 

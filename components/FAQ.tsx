@@ -66,7 +66,6 @@ export default function FAQ({ namespace = 'pricing', className = '' }: FAQProps)
 // FAQ 单项组件
 function FAQItemComponent({
   item,
-  index,
   isOpen,
   onToggle,
 }: {

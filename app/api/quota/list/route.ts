@@ -3,7 +3,7 @@ import { auth } from '@/lib/auth';
 import { headers } from 'next/headers';
 import { db } from '@/lib/db';
 import { quota } from '@/lib/db/schema';
-import { eq, gte, desc } from 'drizzle-orm';
+import { eq, desc } from 'drizzle-orm';
 
 /**
  * 获取用户配额列表
