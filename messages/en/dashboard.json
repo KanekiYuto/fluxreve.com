@@ -46,6 +46,7 @@
     "title": "Recent Generations",
     "subtitle": "Showing content from the past week only",
     "viewAll": "View All",
+    "loading": "Loading...",
     "empty": {
       "title": "No content generated this week",
       "subtitle": "Start generating your first image",

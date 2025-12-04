@@ -46,6 +46,7 @@
     "title": "最近生成",
     "subtitle": "僅展示近一週的生成內容",
     "viewAll": "查看全部",
+    "loading": "載入中...",
     "empty": {
       "title": "近一週還沒有生成內容",
       "subtitle": "開始生成您的第一張圖片",

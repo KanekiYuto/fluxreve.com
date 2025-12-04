@@ -58,39 +58,54 @@ export default function RecentGenerations() {
   const hasGenerations = tasks.length > 0;
 
   return (
-    <div className="rounded-xl gradient-border p-8">
-      <div className="flex items-center justify-between mb-6">
+    <div className="rounded-xl gradient-border p-4 sm:p-8">
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-6">
         <div>
-          <h2 className="text-xl font-bold text-white">{t('title')}</h2>
-          <p className="text-sm text-text-muted mt-1">{t('subtitle')}</p>
+          <div className="text-lg sm:text-xl font-bold text-white">{t('title')}</div>
+          <p className="text-xs sm:text-sm text-text-muted mt-1">{t('subtitle')}</p>
         </div>
-        <button className="text-sm gradient-text hover:opacity-80 transition-opacity cursor-pointer font-semibold">
+        <button className="text-sm gradient-text hover:opacity-80 transition-opacity cursor-pointer font-semibold self-start sm:self-auto">
           {t('viewAll')} →
         </button>
       </div>
 
       {/* 加载状态 */}
       {loading && (
-        <div className="text-center py-16">
-          <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-primary/10 mb-6">
-            <div className="w-10 h-10 border-4 border-primary border-t-transparent rounded-full animate-spin" />
+        <div className="text-center py-12 sm:py-16">
+          <div className="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-primary/10 mb-4 sm:mb-6">
+            <svg className="w-8 h-8 sm:w-10 sm:h-10 text-primary animate-spin" viewBox="0 0 24 24">
+              <circle
+                className="opacity-25"
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                strokeWidth="4"
+                fill="none"
+              />
+              <path
+                className="opacity-75"
+                fill="currentColor"
+                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+              />
+            </svg>
           </div>
-          <p className="text-text-muted">加载中...</p>
+          <p className="text-sm sm:text-base text-text-muted">{t('loading')}</p>
         </div>
       )}
 
       {/* 错误状态 */}
       {error && !loading && (
-        <div className="text-center py-16">
-          <p className="text-red-400">{error}</p>
+        <div className="text-center py-12 sm:py-16">
+          <p className="text-sm sm:text-base text-red-400">{error}</p>
         </div>
       )}
 
       {/* 空状态 */}
       {!loading && !error && !hasGenerations && (
-        <div className="text-center py-16">
-          <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-primary/10 mb-6">
-            <svg className="w-10 h-10 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <div className="text-center py-12 sm:py-16">
+          <div className="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-primary/10 mb-4 sm:mb-6">
+            <svg className="w-8 h-8 sm:w-10 sm:h-10 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -99,10 +114,10 @@ export default function RecentGenerations() {
               />
             </svg>
           </div>
-          <h3 className="text-lg font-semibold text-white mb-2">{t('empty.title')}</h3>
-          <p className="text-text-muted mb-6">{t('empty.subtitle')}</p>
-          <button className="inline-flex items-center gap-2 px-6 py-3 rounded-lg gradient-bg text-white font-semibold transition-all hover:scale-105 cursor-pointer">
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <div className="text-base sm:text-lg font-semibold text-white mb-2">{t('empty.title')}</div>
+          <p className="text-sm sm:text-base text-text-muted mb-6">{t('empty.subtitle')}</p>
+          <button className="inline-flex items-center gap-2 px-5 py-2.5 sm:px-6 sm:py-3 rounded-lg gradient-bg text-white text-sm sm:text-base font-semibold transition-all hover:scale-105 cursor-pointer">
+            <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>
             <span>{t('empty.cta')}</span>
@@ -133,8 +148,8 @@ export default function RecentGenerations() {
 
                   {/* 内容容器 */}
                   <div className="relative rounded-lg overflow-hidden bg-bg-elevated">
-                    {/* 任务状态 */}
-                    {task.status === 'completed' && task.results && task.results.length > 0 ? (
+                    {/* 只显示已完成的图片 */}
+                    {task.results && task.results.length > 0 && (
                       <div className="relative aspect-square overflow-hidden rounded-lg">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
@@ -142,28 +157,6 @@ export default function RecentGenerations() {
                           alt={task.parameters.prompt}
                           className="w-full h-full object-cover"
                         />
-                      </div>
-                    ) : task.status === 'processing' || task.status === 'pending' ? (
-                      <div className="aspect-square flex flex-col items-center justify-center bg-surface-secondary rounded-lg">
-                        <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin mb-3" />
-                        <p className="text-text-muted text-sm">
-                          {task.status === 'processing' ? '生成中...' : '排队中...'}
-                        </p>
-                        {task.progress > 0 && (
-                          <p className="text-text-muted text-xs mt-1">{task.progress}%</p>
-                        )}
-                      </div>
-                    ) : (
-                      <div className="aspect-square flex flex-col items-center justify-center bg-surface-secondary rounded-lg">
-                        <svg className="w-12 h-12 text-red-400 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                          />
-                        </svg>
-                        <p className="text-red-400 text-sm">生成失败</p>
                       </div>
                     )}
                   </div>
