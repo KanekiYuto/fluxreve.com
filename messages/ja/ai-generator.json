@@ -1,0 +1,105 @@
+{
+  "seo": {
+    "title": "AI生成ツール",
+    "description": "強力なAI画像生成ツールで美しいAI生成画像を作成します。高速で、プロフェッショナル、そして使いやすい。"
+  },
+  "page": {
+    "title": "AI生成ツール",
+    "description": "強力なAIモデルで素晴らしいコンテンツを作成"
+  },
+  "tabs": {
+    "textToImage": "テキストから画像",
+    "imageEditor": "画像エディタ",
+    "more": "その他"
+  },
+  "examples": {
+    "title": "クイックスタート",
+    "description": "以下の例をクリックして作成を開始するか、左側のフォームでカスタマイズします",
+    "useExample": "この例を使用",
+    "goToExample": "例 {index} へ移動",
+    "clickToUse": "クリックしてこの例を使用",
+    "noExamples": "利用可能な例がありません"
+  },
+  "results": {
+    "title": "生成結果",
+    "fileCount": "{count} ファイル",
+    "downloadCurrent": "現在の画像をダウンロード",
+    "downloadAll": "すべてダウンロード ({count})",
+    "generationTime": "生成時間",
+    "completedTime": "完了時刻",
+    "seconds": "{seconds}秒",
+    "prompt": "プロンプト"
+  },
+  "loading": {
+    "creating": "AI生成中",
+    "message": "素晴らしいコンテンツを生成しています。お待ちください..."
+  },
+  "credits": {
+    "quota": "クォータ",
+    "refresh": "クォータを更新"
+  },
+  "form": {
+    "advancedSettings": "詳細設定",
+    "seed": "シード値",
+    "seedPlaceholder": "ランダムの場合は空白",
+    "steps": "ステップ数",
+    "selectPlaceholder": "選択してください",
+    "prompt": "プロンプト",
+    "promptPlaceholder": "生成したい画像を説明してください...",
+    "aspectRatio": "アスペクト比",
+    "aspectRatioPlaceholder": "アスペクト比を選択",
+    "aspectRatios": {
+      "1:1": "1:1 (正方形)",
+      "16:9": "16:9 (横長)",
+      "9:16": "9:16 (縦長)",
+      "4:3": "4:3 (標準)",
+      "3:4": "3:4 (縦長)",
+      "21:9": "21:9 (ウルトラワイド)"
+    },
+    "resolution": "解像度",
+    "resolutionPlaceholder": "解像度を選択"
+  },
+  "error": {
+    "required": "必須",
+    "current": "現在",
+    "credits": "クレジット",
+    "parameterError": "パラメータエラー",
+    "promptRequired": "プロンプトを入力してください",
+    "insufficientCredits": "クレジット不足",
+    "pleaseRecharge": "チャージしてから再度お試しください",
+    "queryStatusFailed": "ステータス照会失敗",
+    "unableToQueryStatus": "タスクステータスを照会できません",
+    "generationFailed": "生成失敗",
+    "imageGenerationFailed": "画像生成に失敗しました"
+  },
+  "generate": {
+    "generating": "生成中... {progress}%",
+    "generateImage": "画像を生成 (コスト {credits} クォータ)"
+  },
+  "models": {
+    "nanoBananaPro": {
+      "description": "超高速生成、卓越したスピードで高品質なクリエイティブ出力に最適化"
+    }
+  },
+  "comingSoon": {
+    "badge": "近日公開",
+    "defaultTitle": "エキサイティングな機能が登場予定",
+    "defaultDescription": "素晴らしい新機能をお届けするため、私たちは懸命に取り組んでいます。更新をお楽しみに!",
+    "feature1Title": "強力なAI",
+    "feature1Desc": "最先端技術",
+    "feature2Title": "スマート機能",
+    "feature2Desc": "インテリジェント自動化",
+    "feature3Title": "高速処理",
+    "feature3Desc": "超高速な結果",
+    "progressLabel": "開発進捗",
+    "progressHint": "まもなく公開予定",
+    "imageEditor": {
+      "title": "画像エディタ",
+      "description": "AIを活用した画像編集。スマート修復、スタイル変換、背景置換など"
+    },
+    "moreTools": {
+      "title": "その他の画像ツール",
+      "description": "アップスケーリング、画質強化、フォーマット変換、バッチ処理などの強力な画像ユーティリティを探索"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "seo": {
+    "title": "AI 产生器",
+    "description": "使用强大的 AI 图像产生工具建立令人惊艳的图像。快速、专业且易于使用。"
+  },
+  "page": {
+    "title": "AI 产生器",
+    "description": "使用强大的 AI 模型建立各种精彩内容"
+  },
+  "tabs": {
+    "textToImage": "文字生图",
+    "imageEditor": "图像编辑",
+    "more": "更多"
+  },
+  "examples": {
+    "title": "快速开始",
+    "description": "点击下方示例快速开始创作，或填写左侧表单自定义生成",
+    "useExample": "使用此示例",
+    "goToExample": "切换到示例 {index}",
+    "clickToUse": "点击使用此示例",
+    "noExamples": "暂无示例"
+  },
+  "results": {
+    "title": "产生结果",
+    "fileCount": "{count} 个文件",
+    "downloadCurrent": "下载当前图片",
+    "downloadAll": "下载全部 ({count})",
+    "generationTime": "产生耗时",
+    "completedTime": "完成时间",
+    "seconds": "{seconds}秒",
+    "prompt": "提示词"
+  },
+  "loading": {
+    "creating": "AI 创作中",
+    "message": "正在为您产生精彩内容，请稍候..."
+  },
+  "credits": {
+    "quota": "配额",
+    "refresh": "刷新配额"
+  },
+  "form": {
+    "advancedSettings": "高级选项",
+    "seed": "随机种子",
+    "seedPlaceholder": "留空随机产生",
+    "steps": "步数",
+    "selectPlaceholder": "请选择",
+    "prompt": "提示词",
+    "promptPlaceholder": "描述你想要产生的图像...",
+    "aspectRatio": "宽高比",
+    "aspectRatioPlaceholder": "选择宽高比",
+    "aspectRatios": {
+      "1:1": "1:1 (正方形)",
+      "16:9": "16:9 (横向)",
+      "9:16": "9:16 (直向)",
+      "4:3": "4:3 (标准)",
+      "3:4": "3:4 (直向)",
+      "21:9": "21:9 (超宽)"
+    },
+    "resolution": "解析度",
+    "resolutionPlaceholder": "选择解析度"
+  },
+  "error": {
+    "required": "需要",
+    "current": "当前",
+    "credits": "配额",
+    "parameterError": "参数错误",
+    "promptRequired": "请输入提示词",
+    "insufficientCredits": "配额不足",
+    "pleaseRecharge": "请充值后再试",
+    "queryStatusFailed": "查询状态失败",
+    "unableToQueryStatus": "无法查询任务状态",
+    "generationFailed": "产生失败",
+    "imageGenerationFailed": "图片产生失败"
+  },
+  "generate": {
+    "generating": "产生中... {progress}%",
+    "generateImage": "产生图像 (消耗 {credits} 配额)"
+  },
+  "models": {
+    "nanoBananaPro": {
+      "description": "超快速产生，专为高效率创作与优质输出而最佳化"
+    }
+  },
+  "comingSoon": {
+    "badge": "即将推出",
+    "defaultTitle": "令人期待的新功能",
+    "defaultDescription": "我们正在努力为您打造全新的强大功能，敬请期待！",
+    "feature1Title": "强大 AI",
+    "feature1Desc": "顶尖技术驱动",
+    "feature2Title": "智能功能",
+    "feature2Desc": "自动化处理",
+    "feature3Title": "极速处理",
+    "feature3Desc": "闪电般快速",
+    "progressLabel": "开发进度",
+    "progressHint": "即将上线",
+    "imageEditor": {
+      "title": "图像编辑",
+      "description": "AI 驱动的图像编辑工具，包括智能修复、风格转换、背景替换等强大功能"
+    },
+    "moreTools": {
+      "title": "更多图像工具",
+      "description": "探索强大的图像工具，包括图像放大、增强最佳化、格式转换、批次处理等实用功能"
+    }
+  }
+}

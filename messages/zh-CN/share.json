@@ -1,0 +1,42 @@
+{
+  "notFound": {
+    "title": "内容不存在",
+    "description": "该分享内容可能已被创作者删除、设为私密、链接已过期，或者您访问的地址有误",
+    "createButton": "创建 AI 作品",
+    "homeButton": "返回首页"
+  },
+  "processing": {
+    "title": "生成中...",
+    "description": "AI 正在创作当前的作品，通常需要几分钟时间",
+    "tip": "请稍后刷新页面查看结果"
+  },
+  "actions": {
+    "copyLink": "复制链接",
+    "linkCopied": "已复制链接",
+    "share": "分享",
+    "shareTitle": "分享到",
+    "shareToX": "分享到 X",
+    "moreActions": "更多操作",
+    "downloadCurrent": "下载当前图片",
+    "downloadAll": "下载全部图片",
+    "createSimilar": "创建相似图片"
+  },
+  "details": {
+    "prompt": "提示词",
+    "promptCopied": "已复制",
+    "copyPrompt": "复制提示词",
+    "aiModel": "AI 模型",
+    "resolution": "解析度",
+    "aspectRatio": "宽高比",
+    "imageAlt": "图片",
+    "previousImage": "上一张图片",
+    "nextImage": "下一张图片",
+    "generationResults": "AI 图片生成结果展示",
+    "imagePreview": "AI 生成的高清图片预览",
+    "parametersInfo": "图片生成参数与模型信息"
+  },
+  "metadata": {
+    "descriptionPrefix": "使用 {model} AI 模型生成的高质量图片。提示词: ",
+    "ogDescriptionPrefix": "{model} AI 生成 | "
+  }
+}

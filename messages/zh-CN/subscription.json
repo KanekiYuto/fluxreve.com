@@ -1,0 +1,42 @@
+{
+  "seo": {
+    "title": "订阅管理",
+    "description": "查看和管理您的订阅方案和账单信息"
+  },
+  "title": "订阅管理",
+  "subtitle": "查看和管理您的订阅信息",
+  "login": {
+    "title": "登入查看订阅",
+    "description": "登入后即可查看和管理您的订阅信息"
+  },
+  "empty": {
+    "title": "暂无订阅",
+    "description": "您当前没有任何活跃的订阅",
+    "action": "查看订阅方案"
+  },
+  "card": {
+    "subscriptionId": "订阅",
+    "customerId": "客户",
+    "nextRenewal": "下次续费切换至",
+    "amount": "订阅金额",
+    "platform": "支付平台",
+    "startDate": "开始日期",
+    "expiryDate": "到期日期",
+    "nextBillingDate": "下次续费日期",
+    "canceledDate": "取消日期",
+    "manageButton": "管理订阅",
+    "status": {
+      "active": "激活中",
+      "canceled": "已取消",
+      "expired": "已过期",
+      "paused": "已暂停",
+      "pending": "待支付"
+    },
+    "planTypes": {
+      "monthly_basic": "基础版 - 月付",
+      "yearly_basic": "基础版 - 年付",
+      "monthly_pro": "专业版 - 月付",
+      "yearly_pro": "专业版 - 年付"
+    }
+  }
+}

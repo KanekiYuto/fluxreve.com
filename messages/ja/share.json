@@ -1,0 +1,42 @@
+{
+  "notFound": {
+    "title": "コンテンツが見つかりません",
+    "description": "この共有コンテンツは作成者によって削除されたか、非公開に設定されたか、リンクの有効期限が切れたか、または間違ったアドレスにアクセスした可能性があります",
+    "createButton": "AIアートワークを作成",
+    "homeButton": "ホームに戻る"
+  },
+  "processing": {
+    "title": "生成中...",
+    "description": "AIが現在のアートワークを作成しています。通常、数分かかります",
+    "tip": "後でページを更新して結果を表示してください"
+  },
+  "actions": {
+    "copyLink": "リンクをコピー",
+    "linkCopied": "リンクをコピーしました",
+    "share": "共有",
+    "shareTitle": "共有先",
+    "shareToX": "Xに共有",
+    "moreActions": "その他のアクション",
+    "downloadCurrent": "現在の画像をダウンロード",
+    "downloadAll": "すべての画像をダウンロード",
+    "createSimilar": "類似の画像を作成"
+  },
+  "details": {
+    "prompt": "プロンプト",
+    "promptCopied": "コピーしました",
+    "copyPrompt": "プロンプトをコピー",
+    "aiModel": "AIモデル",
+    "resolution": "解像度",
+    "aspectRatio": "アスペクト比",
+    "imageAlt": "画像",
+    "previousImage": "前の画像",
+    "nextImage": "次の画像",
+    "generationResults": "AI画像生成結果",
+    "imagePreview": "AI生成HD画像プレビュー",
+    "parametersInfo": "生成パラメータとモデル情報"
+  },
+  "metadata": {
+    "descriptionPrefix": "{model} AIモデルで生成された高品質画像。プロンプト: ",
+    "ogDescriptionPrefix": "{model} AI生成 | "
+  }
+}

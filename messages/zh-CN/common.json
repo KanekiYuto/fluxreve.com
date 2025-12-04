@@ -1,0 +1,31 @@
+{
+  "language": "语言",
+  "loading": "加载中...",
+  "loginRequired": {
+    "title": "登入以继续",
+    "description": "登入后即可使用完整功能",
+    "buttonText": "立即登入"
+  },
+  "seo": {
+    "title": "{siteName} - AI 图像生成工具",
+    "description": "使用先进的人工智能技术，快速生成高品质的专业图像。简单、快速、强大的 AI 图像创作工具。",
+    "keywords": "AI图像生成, AI绘画, 图像创作, 人工智能工具, 专业图像"
+  },
+  "navigation": {
+    "home": "首页",
+    "ai-generator": "AI 生成器",
+    "nano-banana-pro": "Nano Banana Pro",
+    "dashboard": "仪表板",
+    "quota": "配额管理",
+    "subscription": "订阅管理",
+    "pricing": "定价方案",
+    "settings": "设置",
+    "help": "帮助",
+    "terms": "用户服务协议",
+    "privacy": "隐私政策",
+    "main": "主要",
+    "content": "内容",
+    "quick-links": "快速链接",
+    "legal": "法律相关"
+  }
+}

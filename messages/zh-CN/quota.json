@@ -1,0 +1,50 @@
+{
+  "seo": {
+    "title": "我的配额",
+    "description": "管理和查看您的可用配额使用情况和历史记录"
+  },
+  "title": "我的配额",
+  "subtitle": "管理和查看您的可用配额",
+  "loginRequired": {
+    "title": "登入查看配额",
+    "description": "登入后即可查看您的配额使用情况和历史记录"
+  },
+  "summary": {
+    "title": "总可用额度",
+    "credits": "点数"
+  },
+  "tabs": {
+    "active": "有效配额",
+    "expired": "已过期"
+  },
+  "table": {
+    "type": "类型",
+    "amount": "总额",
+    "consumed": "已使用",
+    "available": "可用",
+    "issuedAt": "发放时间",
+    "expiresAt": "过期时间",
+    "noExpiry": "永不过期"
+  },
+  "quotaTypes": {
+    "daily_free": "每日免费配额",
+    "monthly_basic": "月度基础版",
+    "monthly_pro": "月度专业版",
+    "yearly_basic": "年度基础版",
+    "yearly_pro": "年度专业版",
+    "quota_pack": "配额包",
+    "subscription_change_compensation": "订阅变更补偿"
+  },
+  "empty": {
+    "active": "暂无有效配额",
+    "expired": "暂无过期配额"
+  },
+  "status": {
+    "active": "有效",
+    "depleted": "已用完"
+  },
+  "stats": {
+    "consumed": "已使用",
+    "remaining": "剩余"
+  }
+}

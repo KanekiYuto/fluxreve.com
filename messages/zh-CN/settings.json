@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "title": "设置",
+    "description": "管理您的账号设置和偏好"
+  },
+  "title": "设置",
+  "subtitle": "管理您的账号设置和偏好",
+  "loginRequired": {
+    "title": "需要登入",
+    "description": "请登入以存取您的设置并管理您的账号。",
+    "cta": "立即登入"
+  },
+  "sections": {
+    "profile": {
+      "title": "个人数据",
+      "name": "姓名",
+      "email": "电子邮件地址",
+      "plan": "当前方案",
+      "verified": "已验证",
+      "notSet": "未设置"
+    },
+    "preferences": {
+      "title": "偏好设置",
+      "notifications": "电子邮件通知",
+      "notificationsDesc": "透过电子邮件接收更新和通知"
+    },
+    "connections": {
+      "title": "链接账号",
+      "googleConnected": "您可以使用 Google 账号登入您的账户。",
+      "googleNotConnected": "链接您的 Google 账号以启用此登入方式。",
+      "githubConnected": "您可以使用 GitHub 账号登入您的账户。",
+      "githubNotConnected": "链接您的 GitHub 账号以启用此登入方式。",
+      "connected": "已链接"
+    }
+  },
+  "actions": {
+    "edit": "编辑",
+    "change": "变更",
+    "enable": "启用",
+    "upgrade": "升级方案",
+    "copy": "复制"
+  }
+}

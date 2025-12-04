@@ -1,5 +1,5 @@
 // 语言配置（需要与 i18n/config.ts 保持同步）
-const locales = ['en', 'zh-TW'];
+const locales = ['en', 'zh-CN', 'zh-TW', 'ja'];
 const defaultLocale = 'en';
 
 // 需要索引的页面路径

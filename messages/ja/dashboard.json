@@ -1,0 +1,56 @@
+{
+  "seo": {
+    "title": "ダッシュボード",
+    "description": "AI画像生成プロジェクトを管理し、使用状況を追跡し、すべての機能にアクセス"
+  },
+  "welcome": "おかえりなさい、{name}さん",
+  "subtitle": "素晴らしいコンテンツの作成を開始しましょう",
+  "guestWelcome": "ダッシュボードへようこそ",
+  "guestSubtitle": "ダッシュボードにアクセスして作成を開始するには、サインインしてください",
+  "loginPrompt": {
+    "title": "ダッシュボードにアクセスするにはサインインしてください",
+    "description": "アカウントを作成またはサインインして、すべての機能のロックを解除し、使用状況を追跡し、プロジェクトを管理します。",
+    "cta": "今すぐサインイン",
+    "features": {
+      "quota": "使用クォータ",
+      "quotaDesc": "生成クォータと使用履歴を追跡",
+      "projects": "プロジェクト管理",
+      "projectsDesc": "すべてのクリエイティブプロジェクトを整理・管理",
+      "analytics": "分析と統計",
+      "analyticsDesc": "詳細な統計とパフォーマンスメトリクスを表示"
+    }
+  },
+  "userType": {
+    "pro": "プロ",
+    "basic": "ベーシック",
+    "free": "無料"
+  },
+  "stats": {
+    "quota": {
+      "remaining": "残りの生成クォータ",
+      "unlimited": "無制限の生成クォータ",
+      "expires": "有効期限"
+    },
+    "projects": "総プロジェクト数",
+    "images": "アップロード済み画像アセット",
+    "templates": "作成済みテンプレート"
+  },
+  "quickActions": {
+    "title": "クイックスタート",
+    "newProject": "新規プロジェクト",
+    "uploadImage": "画像をアップロード",
+    "templates": "テンプレート",
+    "tutorial": "チュートリアル"
+  },
+  "recent": {
+    "title": "最近の生成",
+    "subtitle": "過去1週間のコンテンツのみを表示",
+    "viewAll": "すべて表示",
+    "loading": "読み込み中...",
+    "empty": {
+      "title": "今週生成されたコンテンツはありません",
+      "subtitle": "最初の画像を生成しましょう",
+      "cta": "今すぐ生成"
+    }
+  }
+}

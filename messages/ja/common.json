@@ -1,0 +1,31 @@
+{
+  "language": "言語",
+  "loading": "読み込み中...",
+  "loginRequired": {
+    "title": "続行するにはログインが必要です",
+    "description": "すべての機能にアクセスするにはログインしてください",
+    "buttonText": "今すぐログイン"
+  },
+  "seo": {
+    "title": "{siteName} - AI画像生成ツール",
+    "description": "AIを活用した画像生成で、数秒で高品質なプロフェッショナル画像を作成。シンプル、高速、強力な人工知能ツール。",
+    "keywords": "AI画像生成, AIアート, 画像クリエイター, AIツール, プロフェッショナル画像"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "ai-generator": "AI生成ツール",
+    "nano-banana-pro": "Nano Banana Pro",
+    "dashboard": "ダッシュボード",
+    "quota": "クォータ",
+    "subscription": "サブスクリプション",
+    "pricing": "料金プラン",
+    "settings": "設定",
+    "help": "ヘルプ",
+    "terms": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "main": "メイン",
+    "content": "コンテンツ",
+    "quick-links": "クイックリンク",
+    "legal": "法的情報"
+  }
+}

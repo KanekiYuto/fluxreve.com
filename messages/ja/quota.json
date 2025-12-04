@@ -1,0 +1,50 @@
+{
+  "seo": {
+    "title": "マイクォータ",
+    "description": "利用可能なクォータの使用状況と履歴を管理・表示"
+  },
+  "title": "マイクォータ",
+  "subtitle": "利用可能なクォータを管理・表示",
+  "loginRequired": {
+    "title": "クォータを表示するにはログインが必要です",
+    "description": "クォータの使用状況と履歴を表示するにはログインしてください"
+  },
+  "summary": {
+    "title": "利用可能な合計",
+    "credits": "クレジット"
+  },
+  "tabs": {
+    "active": "有効なクォータ",
+    "expired": "期限切れ"
+  },
+  "table": {
+    "type": "種類",
+    "amount": "数量",
+    "consumed": "消費済み",
+    "available": "利用可能",
+    "issuedAt": "発行日",
+    "expiresAt": "有効期限",
+    "noExpiry": "無期限"
+  },
+  "quotaTypes": {
+    "daily_free": "毎日無料クォータ",
+    "monthly_basic": "月間ベーシック",
+    "monthly_pro": "月間プロ",
+    "yearly_basic": "年間ベーシック",
+    "yearly_pro": "年間プロ",
+    "quota_pack": "クォータパック",
+    "subscription_change_compensation": "サブスクリプション変更補償"
+  },
+  "empty": {
+    "active": "有効なクォータがありません",
+    "expired": "期限切れのクォータがありません"
+  },
+  "status": {
+    "active": "有効",
+    "depleted": "消費済み"
+  },
+  "stats": {
+    "consumed": "消費済み",
+    "remaining": "残り"
+  }
+}

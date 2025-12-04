@@ -1,0 +1,56 @@
+{
+  "seo": {
+    "title": "仪表板",
+    "description": "管理您的 AI 图像生成项目，追踪使用情况并存取所有功能"
+  },
+  "welcome": "欢迎回来，{name}",
+  "subtitle": "开始创作您的精彩内容",
+  "guestWelcome": "欢迎来到仪表板",
+  "guestSubtitle": "请登入以存取您的仪表板并开始创作",
+  "loginPrompt": {
+    "title": "登入以存取您的仪表板",
+    "description": "建立账号或登入以解锁所有功能，追踪使用情况并管理您的项目。",
+    "cta": "立即登入",
+    "features": {
+      "quota": "使用配额",
+      "quotaDesc": "追踪您的生成配额和使用历史记录",
+      "projects": "项目管理",
+      "projectsDesc": "组织和管理您的所有创意项目",
+      "analytics": "分析与统计",
+      "analyticsDesc": "查看详细的统计数据和效能指标"
+    }
+  },
+  "userType": {
+    "pro": "专业版",
+    "basic": "基础版",
+    "free": "免费版"
+  },
+  "stats": {
+    "quota": {
+      "remaining": "剩余生成配额",
+      "unlimited": "无限生成配额",
+      "expires": "过期"
+    },
+    "projects": "我的项目总数",
+    "images": "已上传图片素材",
+    "templates": "已建立范本数"
+  },
+  "quickActions": {
+    "title": "快速开始",
+    "newProject": "新建项目",
+    "uploadImage": "上传图片",
+    "templates": "范本库",
+    "tutorial": "使用教学"
+  },
+  "recent": {
+    "title": "最近生成",
+    "subtitle": "仅展示近一周的生成内容",
+    "viewAll": "查看全部",
+    "loading": "加载中...",
+    "empty": {
+      "title": "近一周还没有生成内容",
+      "subtitle": "开始生成您的第一张图片",
+      "cta": "去生成"
+    }
+  }
+}
