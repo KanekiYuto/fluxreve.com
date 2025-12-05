@@ -4,17 +4,16 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import ModelSelector, { type ModelOption } from './base/ModelSelector';
 import NanoBananaProGenerator from './models/NanoBananaProGenerator';
-import ZImageGenerator from './models/ZImageGenerator';
 
-interface TextToImageGeneratorProps {
+interface ImageToImageGeneratorProps {
   defaultModel?: string;
 }
 
-export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro' }: TextToImageGeneratorProps) {
+export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro' }: ImageToImageGeneratorProps) {
   const t = useTranslations('ai-generator.models');
   const [selectedModel, setSelectedModel] = useState(defaultModel);
 
-  // 模型选项
+  // 模型选项 - 只包含支持 image-to-image 的模型
   const modelOptions: ModelOption[] = [
     {
       value: 'nano-banana-pro',
@@ -28,17 +27,6 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro' 
         { text: t('nanoBananaPro.tags.latest'), variant: 'default' as const },
       ]
     },
-    {
-      value: 'z-image',
-      label: 'Z-Image',
-      description: t('zImage.description'),
-      badge: 'HOT',
-      tags: [
-        { text: t('zImage.tags.ultraFast'), variant: 'default' as const },
-        { text: t('zImage.tags.affordable'), variant: 'default' as const },
-        { text: t('zImage.tags.quality'), variant: 'default' as const },
-      ]
-    },
   ];
 
   // ModelSelector 组件
@@ -48,9 +36,10 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro' 
 
   return (
     <div className="space-y-6">
-      {/* 根据选择的模型渲染对应的生成器 */}
-      {selectedModel === 'nano-banana-pro' && <NanoBananaProGenerator modelSelector={modelSelector} defauldMode='text-to-image' />}
-      {selectedModel === 'z-image' && <ZImageGenerator modelSelector={modelSelector} />}
+      {/* 根据选择的模型渲染对应的生成器，强制使用 image-to-image 模式 */}
+      {selectedModel === 'nano-banana-pro' && (
+        <NanoBananaProGenerator modelSelector={modelSelector} defauldMode="image-to-image" />
+      )}
     </div>
   );
 }

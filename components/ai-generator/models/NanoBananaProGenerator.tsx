@@ -21,6 +21,7 @@ type OutputFormat = 'png' | 'jpg';
 
 interface NanoBananaProGeneratorProps {
   modelSelector: React.ReactNode;
+  defauldMode?: Mode;
 }
 
 // ==================== 常量配置 ====================
@@ -56,14 +57,14 @@ const EXAMPLES: ExampleItem[] = [
 
 // ==================== 主组件 ====================
 
-export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProGeneratorProps) {
+export default function NanoBananaProGenerator({ modelSelector, defauldMode = 'text-to-image' }: NanoBananaProGeneratorProps) {
   const tForm = useTranslations('ai-generator.form');
   const tError = useTranslations('ai-generator.error');
 
   // ==================== 状态管理 ====================
 
   // 模式状态
-  const [mode, setMode] = useState<Mode>('text-to-image');
+  const [mode, setMode] = useState<Mode>(defauldMode);
 
   // 表单状态
   const [prompt, setPrompt] = useState('');
@@ -185,8 +186,8 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
           type="button"
           onClick={() => setMode('text-to-image')}
           className={`flex-1 px-3 py-2 text-sm font-medium rounded-md transition-all cursor-pointer ${mode === 'text-to-image'
-              ? 'bg-primary text-white shadow-sm'
-              : 'text-[#A1A1AA] hover:text-white hover:bg-[#27272A]'
+            ? 'bg-primary text-white shadow-sm'
+            : 'text-[#A1A1AA] hover:text-white hover:bg-[#27272A]'
             }`}
         >
           {tForm('mode.textToImage')}
@@ -195,8 +196,8 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
           type="button"
           onClick={() => setMode('image-to-image')}
           className={`flex-1 px-3 py-2 text-sm font-medium rounded-md transition-all cursor-pointer ${mode === 'image-to-image'
-              ? 'bg-primary text-white shadow-sm'
-              : 'text-[#A1A1AA] hover:text-white hover:bg-[#27272A]'
+            ? 'bg-primary text-white shadow-sm'
+            : 'text-[#A1A1AA] hover:text-white hover:bg-[#27272A]'
             }`}
         >
           {tForm('mode.imageToImage')}

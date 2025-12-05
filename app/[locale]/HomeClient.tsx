@@ -90,7 +90,7 @@ export default function HomeClient() {
               </Link>
               <Link
                 className="flex h-12 items-center justify-center px-8 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-medium transition-all cursor-pointer"
-                href="/projects"
+                href="/"
               >
                 <span>{t('hero.buttons.viewExamples')}</span>
               </Link>

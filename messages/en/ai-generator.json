@@ -9,7 +9,7 @@
   },
   "tabs": {
     "textToImage": "Text to Image",
-    "imageEditor": "Image Editor",
+    "imageToImage": "Image to Image",
     "more": "More"
   },
   "examples": {
@@ -109,12 +109,12 @@
         "latest": "Latest"
       }
     },
-    "zImageTurbo": {
-      "description": "Ultra-fast AI image engine, rapid high-quality generation at affordable cost",
+    "zImage": {
+      "description": "Photorealistic AI image generation with accurate bilingual text rendering, sub-second speed",
       "tags": {
-        "ultraFast": "Ultra Fast",
-        "affordable": "Affordable",
-        "quality": "Quality"
+        "ultraFast": "Sub-second",
+        "affordable": "Photorealistic",
+        "quality": "Text Render"
       }
     }
   },

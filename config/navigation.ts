@@ -14,6 +14,8 @@ export interface HeaderNavItem {
 export const headerNavigation: HeaderNavItem[] = [
   { name: 'home', href: '/' },
   { name: 'ai-generator', href: '/ai-generator' },
+  { name: 'nano-banana-pro', href: '/nano-banana-pro' },
+  { name: 'z-image', href: '/z-image' },
 ];
 
 // ==================== Sidebar 导航菜单配置 ====================
@@ -79,6 +81,13 @@ export const footerSections: FooterSection[] = [
       { name: 'home', href: '/' },
       { name: 'ai-generator', href: '/ai-generator' },
       { name: 'pricing', href: '/pricing' },
+    ],
+  },
+  {
+    title: 'models', // AI 模型
+    links: [
+      { name: 'nano-banana-pro', href: '/nano-banana-pro' },
+      { name: 'z-image', href: '/z-image' },
     ],
   },
   {

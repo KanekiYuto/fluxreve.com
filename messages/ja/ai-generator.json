@@ -9,7 +9,7 @@
   },
   "tabs": {
     "textToImage": "テキストから画像",
-    "imageEditor": "画像エディタ",
+    "imageToImage": "画像から画像",
     "more": "その他"
   },
   "examples": {
@@ -109,12 +109,12 @@
         "latest": "最新"
       }
     },
-    "zImageTurbo": {
-      "description": "超高速AI画像エンジン、高品質な画像を迅速かつ経済的に生成",
+    "zImage": {
+      "description": "写真レベルのリアルなAI画像生成、正確な日英テキストレンダリング、サブ秒レベル生成",
       "tags": {
-        "ultraFast": "超高速",
-        "affordable": "お手頃",
-        "quality": "高品質"
+        "ultraFast": "サブ秒レベル",
+        "affordable": "写真レベル",
+        "quality": "テキスト"
       }
     }
   },

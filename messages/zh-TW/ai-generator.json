@@ -9,7 +9,7 @@
   },
   "tabs": {
     "textToImage": "文字生圖",
-    "imageEditor": "圖像編輯",
+    "imageToImage": "圖生圖",
     "more": "更多"
   },
   "examples": {
@@ -109,12 +109,12 @@
         "latest": "最新"
       }
     },
-    "zImageTurbo": {
-      "description": "超高速AI繪圖引擎，快速產生高品質圖像，經濟實惠",
+    "zImage": {
+      "description": "照片級寫實AI圖像生成，精準中英文文字渲染，亞秒級生成",
       "tags": {
-        "ultraFast": "超快速",
-        "affordable": "超實惠",
-        "quality": "高品質"
+        "ultraFast": "亞秒級",
+        "affordable": "寫實品質",
+        "quality": "文字渲染"
       }
     }
   },

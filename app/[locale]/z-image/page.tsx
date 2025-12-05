@@ -37,7 +37,7 @@ export default function ZImagePage() {
       {/* AI Generator - 功能演示 */}
       <section id="generator" className="py-8 sm:py-10 md:py-12 bg-bg-base">
         <div className="max-w-7xl mx-auto">
-          <AIGenerator defaultTab="text-to-image" />
+          <AIGenerator defaultTab="text-to-image" defaultModel="z-image" />
         </div>
       </section>
 
