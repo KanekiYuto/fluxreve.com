@@ -14,23 +14,22 @@ import Divider from '@/components/Divider';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'nanoBananaPro.seo' });
+  const t = await getTranslations({ locale, namespace: 'zImage.seo' });
 
   return {
     title: t('title'),
     description: t('description'),
-    alternates: generateAlternates(locale, '/nano-banana-pro'),
+    alternates: generateAlternates(locale, '/z-image'),
   };
 }
 
-export default function NanoBananaProPage() {
+export default function ZImagePage() {
   return (
     <div className="min-h-screen">
       {/* Hero 区域 - 吸引注意力 */}
       <LandingHero
-        namespace="nanoBananaPro"
-        colors={['#ff6b9d', '#ffb3d9', '#ff85b3', '#ffc9e0']}
-        stats={['speed', 'quality', 'users']}
+        namespace="zImage"
+        colors={['#3b82f6', '#8b5cf6', '#06b6d4', '#6366f1']}
       />
 
       <Divider />
@@ -45,30 +44,30 @@ export default function NanoBananaProPage() {
       <Divider />
 
       {/* What 区域 - 这是什么产品 */}
-      <LandingWhat namespace="nanoBananaPro" />
+      <LandingWhat namespace="zImage" />
 
       <Divider />
 
       {/* Why 区域 - 为什么选择我们 */}
-      <LandingWhy namespace="nanoBananaPro" />
+      <LandingWhy namespace="zImage" />
 
       <Divider />
 
       {/* How 区域 - 如何使用 */}
-      <LandingHow namespace="nanoBananaPro" />
+      <LandingHow namespace="zImage" />
 
       <Divider />
 
       {/* FAQ 区域 - 常见问题 */}
-      <LandingFAQ namespace="nanoBananaPro" />
+      <LandingFAQ namespace="zImage" />
 
       <Divider />
 
       {/* CTA 区域 - 行动号召 */}
       <LandingCTA
-        namespace="nanoBananaPro"
-        scanColor="#ffb3d9"
-        linesColor="#6b5566"
+        namespace="zImage"
+        scanColor="#3b82f6"
+        linesColor="#3b5566"
       />
     </div>
   );

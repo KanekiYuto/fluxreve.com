@@ -20,6 +20,14 @@
     "clickToUse": "点击使用此示例",
     "noExamples": "暂无示例"
   },
+  "tags": {
+    "film-style": "电影风格",
+    "moody": "情绪化",
+    "retro": "复古",
+    "currency": "货币",
+    "portrait": "肖像",
+    "photorealistic": "写实"
+  },
   "results": {
     "title": "产生结果",
     "fileCount": "{count} 个文件",
@@ -62,6 +70,8 @@
     },
     "resolution": "解析度",
     "resolutionPlaceholder": "选择解析度",
+    "size": "尺寸",
+    "sizePlaceholder": "选择图片尺寸",
     "outputFormat": "输出格式",
     "outputFormatPlaceholder": "选择输出格式",
     "uploadImage": "上传图片",
@@ -97,6 +107,14 @@
         "fast": "极速",
         "highQuality": "高品质",
         "latest": "最新"
+      }
+    },
+    "zImageTurbo": {
+      "description": "超高速AI绘图引擎，快速产生高品质图像，经济实惠",
+      "tags": {
+        "ultraFast": "超快速",
+        "affordable": "超实惠",
+        "quality": "高品质"
       }
     }
   },

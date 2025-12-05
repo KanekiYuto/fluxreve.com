@@ -16,6 +16,7 @@ async function loadMessages(locale: string) {
     'help',
     'home',
     'nano-banana-pro',
+    'z-image',
     'notFound',
     'pricing',
     'privacy',
@@ -32,8 +33,13 @@ async function loadMessages(locale: string) {
   for (const file of messageFiles) {
     try {
       const module = await import(`@/messages/${locale}/${file}.json`);
-      // 将文件名转换为驼峰命名（如 nano-banana-pro -> nanoBananaPro）
-      const key = file === 'nano-banana-pro' ? 'nanoBananaPro' : file;
+      // 将文件名转换为驼峰命名（如 nano-banana-pro -> nanoBananaPro, z-image -> zImage）
+      let key = file;
+      if (file === 'nano-banana-pro') {
+        key = 'nanoBananaPro';
+      } else if (file === 'z-image') {
+        key = 'zImage';
+      }
       messages[key] = module.default;
     } catch (error) {
       console.error(`Failed to load translation file: ${locale}/${file}.json`, error);

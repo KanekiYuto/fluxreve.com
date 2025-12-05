@@ -4,8 +4,18 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import LiquidEther from '@/components/LiquidEther';
 
-export default function Hero() {
-  const t = useTranslations('nanoBananaPro.hero');
+interface LandingHeroProps {
+  namespace: string;
+  colors?: string[];
+  stats?: string[];
+}
+
+export default function LandingHero({
+  namespace,
+  colors = ['#ff6b9d', '#ffb3d9', '#ff85b3', '#ffc9e0'],
+  stats = ['speed', 'quality', 'affordable']
+}: LandingHeroProps) {
+  const t = useTranslations(`${namespace}.hero`);
 
   return (
     <section className="relative overflow-hidden">
@@ -14,7 +24,7 @@ export default function Hero() {
         <LiquidEther
           mouseForce={20}
           cursorSize={100}
-          colors={['#ff6b9d', '#ffb3d9', '#ff85b3', '#ffc9e0']}
+          colors={colors}
           autoDemo={true}
           autoSpeed={0.5}
           autoIntensity={2.2}
@@ -67,24 +77,14 @@ export default function Hero() {
 
           {/* 特性标签 */}
           <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-xs sm:text-sm text-text-muted">
-            <div className="flex items-center gap-2">
-              <svg className="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-              </svg>
-              <span>{t('stats.speed.label')}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <svg className="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-              </svg>
-              <span>{t('stats.quality.label')}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <svg className="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-              </svg>
-              <span>{t('stats.users.label')}</span>
-            </div>
+            {stats.map((stat) => (
+              <div key={stat} className="flex items-center gap-2">
+                <svg className="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span>{t(`stats.${stat}.label`)}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>

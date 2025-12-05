@@ -9,8 +9,12 @@ export interface FAQItem {
   answer: string;
 }
 
-export default function FAQ() {
-  const t = useTranslations('nanoBananaPro');
+interface LandingFAQProps {
+  namespace: string;
+}
+
+export default function LandingFAQ({ namespace }: LandingFAQProps) {
+  const t = useTranslations(namespace);
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   // 从翻译文件中获取 FAQ 数据
@@ -79,51 +83,45 @@ function FAQItemComponent({
     >
       <button
         onClick={onToggle}
-        className="w-full px-6 sm:px-8 py-5 sm:py-6 text-left transition-all duration-300 cursor-pointer"
-        aria-expanded={isOpen}
+        className="w-full text-left px-4 sm:px-6 py-4 sm:py-5 flex items-start justify-between gap-3 sm:gap-4 transition-colors"
       >
-        <div className="flex items-start justify-between gap-4">
-          {/* 问题 */}
-          <div className="flex-1">
-            <h3 className={`text-base sm:text-lg font-semibold transition-colors duration-300 ${
-              isOpen ? 'text-primary' : 'text-white group-hover:text-primary'
-            }`}>
-              {item.question}
-            </h3>
-          </div>
-
-          {/* 展开/收起图标 */}
-          <div className="flex-shrink-0 mt-1">
-            <ChevronIcon
-              className={`w-5 h-5 sm:w-6 sm:h-6 text-primary transition-transform duration-300 ${
-                isOpen ? 'rotate-180' : ''
-              }`}
-            />
-          </div>
+        <div className="flex-1 min-w-0">
+          <h3 className="text-base sm:text-lg font-semibold text-white mb-0 leading-snug pr-2">
+            {item.question}
+          </h3>
         </div>
-
-        {/* 答案 */}
         <div
-          className={`grid transition-all duration-300 ${
-            isOpen ? 'grid-rows-[1fr] opacity-100 mt-4' : 'grid-rows-[0fr] opacity-0'
+          className={`flex-shrink-0 w-5 h-5 sm:w-6 sm:h-6 flex items-center justify-center rounded-full transition-all duration-300 ${
+            isOpen
+              ? 'gradient-bg text-white rotate-180'
+              : 'bg-border-subtle text-text-muted group-hover:bg-primary/20 group-hover:text-primary'
           }`}
         >
-          <div className="overflow-hidden">
-            <p className="text-sm sm:text-base text-text-muted leading-relaxed whitespace-pre-line">
-              {item.answer}
-            </p>
-          </div>
+          <svg
+            className="w-3 h-3 sm:w-4 sm:h-4"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2.5}
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
         </div>
       </button>
-    </div>
-  );
-}
 
-// 下拉箭头图标
-function ChevronIcon({ className }: { className?: string }) {
-  return (
-    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-    </svg>
+      <div
+        className={`grid transition-all duration-300 ease-in-out ${
+          isOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'
+        }`}
+      >
+        <div className="overflow-hidden">
+          <div className="px-4 sm:px-6 pb-4 sm:pb-5">
+            <div className="pt-0 text-sm sm:text-base text-text-muted leading-relaxed whitespace-pre-line">
+              {item.answer}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }

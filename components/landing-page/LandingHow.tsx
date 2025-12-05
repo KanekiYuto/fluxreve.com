@@ -53,12 +53,15 @@ const steps = [
   },
 ];
 
-export default function How() {
-  const t = useTranslations('nanoBananaPro.how');
+interface LandingHowProps {
+  namespace: string;
+}
+
+export default function LandingHow({ namespace }: LandingHowProps) {
+  const t = useTranslations(`${namespace}.how`);
 
   return (
     <section className="relative py-8 sm:py-10 md:py-12 overflow-hidden bg-bg-elevated">
-
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* 区域标题 */}
         <div className="text-center mb-20">

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import ModelSelector, { type ModelOption } from './base/ModelSelector';
 import NanoBananaProGenerator from './models/NanoBananaProGenerator';
+import ZImageGenerator from './models/ZImageGenerator';
 
 export default function TextToImageGenerator() {
   const t = useTranslations('ai-generator.models');
@@ -23,6 +24,17 @@ export default function TextToImageGenerator() {
         { text: t('nanoBananaPro.tags.latest'), variant: 'default' as const },
       ]
     },
+    {
+      value: 'z-image-turbo',
+      label: 'Z-Image Turbo',
+      description: t('zImageTurbo.description'),
+      badge: 'HOT',
+      tags: [
+        { text: t('zImageTurbo.tags.ultraFast'), variant: 'default' as const },
+        { text: t('zImageTurbo.tags.affordable'), variant: 'default' as const },
+        { text: t('zImageTurbo.tags.quality'), variant: 'default' as const },
+      ]
+    },
   ];
 
   // ModelSelector 组件
@@ -34,6 +46,7 @@ export default function TextToImageGenerator() {
     <div className="space-y-6">
       {/* 根据选择的模型渲染对应的生成器 */}
       {selectedModel === 'nano-banana-pro' && <NanoBananaProGenerator modelSelector={modelSelector} />}
+      {selectedModel === 'z-image-turbo' && <ZImageGenerator modelSelector={modelSelector} />}
     </div>
   );
 }

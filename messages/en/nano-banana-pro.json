@@ -61,7 +61,7 @@
         "item3": "High costs for hiring designers or purchasing premium design tools",
         "item4": "Slow iteration cycles make creative experimentation impractical"
       },
-      "nanoBananaPro": {
+      "product": {
         "title": "Nano Banana Pro AI Generator",
         "item1": "Generate 4K professional images in under 10 seconds with AI",
         "item2": "No design skills required - describe your vision in natural language",
@@ -88,7 +88,7 @@
       },
       "support": {
         "title": "Enterprise-Grade Support",
-        "description": "Access dedicated technical support, comprehensive documentation, API integration assistance, and enterprise SLA guarantees. Nano Banana Pro provides the professional support infrastructure your business needs for mission-critical AI image generation workflows."
+        "description": "Access dedicated technical support, comprehensive documentation, batch processing assistance, and enterprise SLA guarantees. Nano Banana Pro provides the professional support infrastructure your business needs for mission-critical AI image generation workflows."
       },
       "security": {
         "title": "Enterprise Security & Privacy",
@@ -140,9 +140,9 @@
         "title": "Advanced Creative Controls",
         "description": "Fine-tune your AI image generation with professional-grade controls including customizable prompts, aspect ratio selection, resolution options, and parameter adjustments for precise creative control."
       },
-      "api": {
-        "title": "Enterprise API Integration",
-        "description": "Integrate Nano Banana Pro's 4K AI image generation capabilities into your applications, workflows, and platforms with our robust, well-documented API and developer tools."
+      "batch": {
+        "title": "Batch Processing",
+        "description": "Support for batch generation of multiple images to significantly boost productivity. Perfect for professional projects and enterprise applications requiring large volumes of image assets."
       },
       "secure": {
         "title": "Enterprise Security",
@@ -177,7 +177,7 @@
       },
       {
         "question": "Is Nano Banana Pro suitable for commercial and enterprise use?",
-        "answer": "Absolutely! Nano Banana Pro is designed for professional, commercial, and enterprise applications. With 4K native resolution, reasoning-guided generation for complex requirements, advanced editing controls, API integration, enterprise-grade security, and dedicated support with SLA guarantees, Nano Banana Pro meets the demanding needs of businesses, agencies, and large organizations requiring professional AI image generation at scale."
+        "answer": "Absolutely! Nano Banana Pro is designed for professional, commercial, and enterprise applications. With 4K native resolution, reasoning-guided generation for complex requirements, advanced editing controls, batch processing, enterprise-grade security, and dedicated support with SLA guarantees, Nano Banana Pro meets the demanding needs of businesses, agencies, and large organizations requiring professional AI image generation at scale."
       }
     ]
   },

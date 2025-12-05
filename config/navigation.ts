@@ -46,6 +46,7 @@ export const navigationGroups: NavGroup[] = [
     items: [
       { name: 'ai-generator', href: '/ai-generator', icon: 'image' },
       { name: 'nano-banana-pro', href: '/nano-banana-pro', icon: 'sparkles' },
+      { name: 'z-image', href: '/z-image', icon: 'sparkles' },
     ],
   },
   {

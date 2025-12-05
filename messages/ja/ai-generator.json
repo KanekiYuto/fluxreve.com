@@ -20,6 +20,14 @@
     "clickToUse": "クリックしてこの例を使用",
     "noExamples": "利用可能な例がありません"
   },
+  "tags": {
+    "film-style": "映画スタイル",
+    "moody": "ムーディー",
+    "retro": "レトロ",
+    "currency": "通貨",
+    "portrait": "ポートレート",
+    "photorealistic": "写実的"
+  },
   "results": {
     "title": "生成結果",
     "fileCount": "{count} ファイル",
@@ -62,6 +70,8 @@
     },
     "resolution": "解像度",
     "resolutionPlaceholder": "解像度を選択",
+    "size": "サイズ",
+    "sizePlaceholder": "画像サイズを選択",
     "outputFormat": "出力形式",
     "outputFormatPlaceholder": "出力形式を選択",
     "uploadImage": "画像をアップロード",
@@ -97,6 +107,14 @@
         "fast": "高速",
         "highQuality": "高品質",
         "latest": "最新"
+      }
+    },
+    "zImageTurbo": {
+      "description": "超高速AI画像エンジン、高品質な画像を迅速かつ経済的に生成",
+      "tags": {
+        "ultraFast": "超高速",
+        "affordable": "お手頃",
+        "quality": "高品質"
       }
     }
   },

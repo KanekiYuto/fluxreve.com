@@ -53,8 +53,12 @@ const benefits = [
   },
 ];
 
-export default function Why() {
-  const t = useTranslations('nanoBananaPro.why');
+interface LandingWhyProps {
+  namespace: string;
+}
+
+export default function LandingWhy({ namespace }: LandingWhyProps) {
+  const t = useTranslations(`${namespace}.why`);
 
   return (
     <section className="py-8 sm:py-10 md:py-12 bg-bg-base">
@@ -72,7 +76,7 @@ export default function Why() {
           </p>
         </div>
 
-        {/* 对比部分：传统方式 vs Nano Banana Pro */}
+        {/* 对比部分：传统方式 vs 当前产品 */}
         <div className="mb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-5xl mx-auto">
             {/* 传统方式 */}
@@ -97,7 +101,7 @@ export default function Why() {
               </ul>
             </div>
 
-            {/* Nano Banana Pro */}
+            {/* 当前产品 */}
             <div className="bg-gradient-to-br from-primary/10 to-secondary/10 border border-primary/20 rounded-2xl p-6 sm:p-8 relative overflow-hidden">
               {/* 闪光效果 */}
               <div className="absolute top-0 right-0 w-32 h-32 bg-primary/20 rounded-full blur-3xl" />
@@ -109,7 +113,7 @@ export default function Why() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-white">{t('comparison.nanoBananaPro.title')}</h3>
+                  <h3 className="text-xl font-bold text-white">{t('comparison.product.title')}</h3>
                 </div>
                 <ul className="space-y-3">
                   {(['item1', 'item2', 'item3', 'item4'] as const).map((item) => (
@@ -117,7 +121,7 @@ export default function Why() {
                       <svg className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span>{t(`comparison.nanoBananaPro.${item}`)}</span>
+                      <span>{t(`comparison.product.${item}`)}</span>
                     </li>
                   ))}
                 </ul>

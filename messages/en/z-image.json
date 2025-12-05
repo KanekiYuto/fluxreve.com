@@ -1,0 +1,157 @@
+{
+  "seo": {
+    "title": "Z-Image - Ultra-Fast AI Image Generation | Affordable AI Art Tool",
+    "description": "Z-Image offers ultra-fast AI image generation service. Affordable, quick, and high-quality. Transform text into stunning images in seconds."
+  },
+  "hero": {
+    "badge": "Ultra-Fast AI Image Engine",
+    "title": {
+      "line1": "Lightning-Fast AI Image Generation",
+      "line2": "Affordable & High Quality"
+    },
+    "subtitle": "Z-Image delivers ultra-fast AI image generation experience. Quick, affordable, and high-quality - bring your creativity to life instantly.",
+    "cta": {
+      "primary": "Start Creating Now",
+      "secondary": "Learn More"
+    },
+    "stats": {
+      "speed": {
+        "label": "Second-Level Generation"
+      },
+      "quality": {
+        "label": "High-Quality Output"
+      },
+      "affordable": {
+        "label": "Affordable Pricing"
+      }
+    }
+  },
+  "what": {
+    "badge": "Product Introduction",
+    "title": "What is Z-Image?",
+    "description": "Z-Image is an ultra-fast AI image generation engine designed for quick, affordable, and high-quality image creation.",
+    "demoPlaceholder": "Ultra-Fast AI Image Generation",
+    "coreFeatures": {
+      "core1": {
+        "title": "Lightning-Fast Generation Speed",
+        "description": "Powered by cutting-edge AI acceleration technology, complete image generation in just seconds, dramatically boosting creative efficiency."
+      },
+      "core2": {
+        "title": "Affordable Pricing",
+        "description": "Highly competitive pricing for premium services, making AI creative tools accessible to every creator."
+      },
+      "core3": {
+        "title": "Exceptional Image Quality",
+        "description": "Despite fast speed and low cost, never compromise on quality - delivering clear, detailed, and professional results."
+      }
+    }
+  },
+  "why": {
+    "badge": "Core Advantages",
+    "title": "Why Choose Z-Image?",
+    "subtitle": "Z-Image surpasses traditional image creation methods and other AI image generators with ultra-fast generation, affordable pricing, and exceptional quality.",
+    "comparison": {
+      "traditional": {
+        "title": "Traditional Image Creation",
+        "item1": "Takes hours or days to complete professional image design",
+        "item2": "Requires expensive software licenses and professional design knowledge",
+        "item3": "High costs for hiring designers or purchasing advanced design tools",
+        "item4": "Slow iteration cycles make creative experimentation impractical"
+      },
+      "product": {
+        "title": "Z-Image AI Generator",
+        "item1": "Generate professional AI images in seconds",
+        "item2": "No design skills needed - describe your vision in natural language",
+        "item3": "Affordable pricing accessible to everyone",
+        "item4": "Instant iteration and unlimited creative experimentation"
+      }
+    },
+    "benefits": {
+      "speed": {
+        "title": "Ultra-Fast Generation",
+        "description": "Optimized AI models and acceleration technology deliver faster-than-ever generation speeds, so your creativity never waits."
+      },
+      "quality": {
+        "title": "High-Quality Output",
+        "description": "Professional-grade image quality with rich details and accurate colors, meeting diverse creative needs."
+      },
+      "cost": {
+        "title": "Affordable",
+        "description": "Highly cost-effective pricing strategy makes AI creation accessible to everyone, no longer a luxury."
+      },
+      "flexibility": {
+        "title": "Flexible & Versatile",
+        "description": "Supports multiple image sizes and styles to meet creative needs across different scenarios."
+      },
+      "support": {
+        "title": "Professional Support",
+        "description": "Comprehensive technical support and detailed documentation to answer your questions anytime, ensuring a smooth creative experience."
+      },
+      "security": {
+        "title": "Secure & Reliable",
+        "description": "Enterprise-grade encryption protects your data transmission and storage, with strict privacy policies ensuring your creations remain safe and private."
+      }
+    }
+  },
+  "how": {
+    "badge": "User Guide",
+    "title": "How to Use Z-Image?",
+    "subtitle": "Four simple steps to begin your AI creative journey",
+    "steps": {
+      "step1": {
+        "title": "Enter Your Prompt",
+        "description": "Describe the image you want in simple text. Supports English and Chinese input."
+      },
+      "step2": {
+        "title": "Choose Parameters",
+        "description": "Select image size, adjust random seed, and other parameters to customize your creation."
+      },
+      "step3": {
+        "title": "Click Generate",
+        "description": "Click the generate button, and AI will create beautiful images for you in seconds."
+      },
+      "step4": {
+        "title": "Download & Use",
+        "description": "Once generated, preview, download, or share your artwork."
+      }
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common questions about Z-Image",
+    "items": [
+      {
+        "question": "How fast is Z-Image generation?",
+        "answer": "Z-Image uses cutting-edge AI acceleration technology, typically completing image generation in 5-15 seconds. Actual time depends on image size and server load."
+      },
+      {
+        "question": "How many credits does it cost to generate an image?",
+        "answer": "Using Z-Image to generate images is very affordable. Please check our pricing page for specific costs."
+      },
+      {
+        "question": "What image sizes are supported?",
+        "answer": "Z-Image supports various common image sizes, including 1:1 (1024×1024), 4:3 (1024×768), 3:4 (768×1024), 16:9 (1344×768), and 9:16 (768×1344) ratios."
+      },
+      {
+        "question": "Can generated images be used commercially?",
+        "answer": "Yes, you have full rights to images generated with Z-Image for personal or commercial use. However, please comply with relevant laws and regulations, and do not generate illegal or infringing content."
+      },
+      {
+        "question": "What if I'm not satisfied with the generated image?",
+        "answer": "You can adjust the prompt, modify parameters, or change the random seed and regenerate. We recommend using more detailed, specific descriptions for better results."
+      },
+      {
+        "question": "What's the difference between Z-Image and other models?",
+        "answer": "Z-Image focuses on providing ultra-fast, affordable AI image generation services, ideal for users who need to quickly produce large volumes of images or have limited budgets."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Start Your AI Creative Journey?",
+    "subtitle": "Experience Z-Image now for ultra-fast, affordable AI image generation",
+    "primary": "Start Creating Now",
+    "secondary": "View Pricing",
+    "note": "No credit card required, start with registration"
+  }
+}

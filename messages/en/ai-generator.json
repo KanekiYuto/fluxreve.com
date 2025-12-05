@@ -20,6 +20,14 @@
     "clickToUse": "Click to use this example",
     "noExamples": "No examples available"
   },
+  "tags": {
+    "film-style": "Film Style",
+    "moody": "Moody",
+    "retro": "Retro",
+    "currency": "Currency",
+    "portrait": "Portrait",
+    "photorealistic": "Photorealistic"
+  },
   "results": {
     "title": "Generated Results",
     "fileCount": "{count} file(s)",
@@ -62,6 +70,8 @@
     },
     "resolution": "Resolution",
     "resolutionPlaceholder": "Select resolution",
+    "size": "Size",
+    "sizePlaceholder": "Select image size",
     "outputFormat": "Output Format",
     "outputFormatPlaceholder": "Select output format",
     "uploadImage": "Upload Image",
@@ -97,6 +107,14 @@
         "fast": "Fast",
         "highQuality": "High Quality",
         "latest": "Latest"
+      }
+    },
+    "zImageTurbo": {
+      "description": "Ultra-fast AI image engine, rapid high-quality generation at affordable cost",
+      "tags": {
+        "ultraFast": "Ultra Fast",
+        "affordable": "Affordable",
+        "quality": "Quality"
       }
     }
   },

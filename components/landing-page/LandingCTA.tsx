@@ -9,8 +9,18 @@ const GridScan = dynamic(() => import('@/components/GridScan').then(mod => ({ de
   loading: () => <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-primary/10 to-secondary/10" />
 });
 
-export default function CTA() {
-  const t = useTranslations('nanoBananaPro.cta');
+interface LandingCTAProps {
+  namespace: string;
+  scanColor?: string;
+  linesColor?: string;
+}
+
+export default function LandingCTA({
+  namespace,
+  scanColor = '#ffb3d9',
+  linesColor = '#6b5566'
+}: LandingCTAProps) {
+  const t = useTranslations(`${namespace}.cta`);
 
   return (
     <section className="relative w-full py-16 sm:py-20 md:py-24 overflow-hidden">
@@ -19,9 +29,9 @@ export default function CTA() {
         <GridScan
           sensitivity={0.55}
           lineThickness={1}
-          linesColor="#6b5566"
+          linesColor={linesColor}
           gridScale={0.1}
-          scanColor="#ffb3d9"
+          scanColor={scanColor}
           scanOpacity={0.5}
           enablePost
           bloomIntensity={0.6}

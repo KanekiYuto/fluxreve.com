@@ -24,6 +24,7 @@ export default function ExamplePreview({
   autoPlayInterval = 5000,
 }: ExamplePreviewProps) {
   const t = useTranslations('ai-generator.examples');
+  const tTags = useTranslations('ai-generator.tags');
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // 自动播放
@@ -90,20 +91,20 @@ export default function ExamplePreview({
               />
 
               {/* 渐变遮罩 */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent">
-                <div className="absolute bottom-0 left-0 right-0 p-4">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent">
+                <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/60 to-transparent">
                   {/* 提示词 */}
-                  <p className="text-white text-sm line-clamp-3 mb-3">{currentExample.prompt}</p>
+                  <p className="text-white text-sm line-clamp-3 mb-3 drop-shadow-lg [text-shadow:_0_2px_8px_rgb(0_0_0_/_80%)]">{currentExample.prompt}</p>
 
                   {/* 标签 */}
                   {currentExample.tags && currentExample.tags.length > 0 && (
-                    <div className="flex flex-wrap gap-2">
+                    <div className="flex flex-wrap gap-1.5">
                       {currentExample.tags.map((tag) => (
                         <span
                           key={tag}
-                          className="px-2.5 py-1 bg-white/20 backdrop-blur-sm text-white text-xs rounded-md"
+                          className="inline-flex items-center justify-center h-6 px-2.5 bg-black/50 text-white text-[11px] font-medium rounded border border-white/20 backdrop-blur-sm shadow-lg"
                         >
-                          {tag}
+                          {tTags(tag)}
                         </span>
                       ))}
                     </div>

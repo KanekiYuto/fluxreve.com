@@ -20,6 +20,14 @@
     "clickToUse": "點擊使用此示例",
     "noExamples": "暫無示例"
   },
+  "tags": {
+    "film-style": "電影風格",
+    "moody": "情緒化",
+    "retro": "復古",
+    "currency": "貨幣",
+    "portrait": "肖像",
+    "photorealistic": "寫實"
+  },
   "results": {
     "title": "產生結果",
     "fileCount": "{count} 個檔案",
@@ -62,6 +70,8 @@
     },
     "resolution": "解析度",
     "resolutionPlaceholder": "選擇解析度",
+    "size": "尺寸",
+    "sizePlaceholder": "選擇圖片尺寸",
     "outputFormat": "輸出格式",
     "outputFormatPlaceholder": "選擇輸出格式",
     "uploadImage": "上傳圖片",
@@ -97,6 +107,14 @@
         "fast": "極速",
         "highQuality": "高品質",
         "latest": "最新"
+      }
+    },
+    "zImageTurbo": {
+      "description": "超高速AI繪圖引擎，快速產生高品質圖像，經濟實惠",
+      "tags": {
+        "ultraFast": "超快速",
+        "affordable": "超實惠",
+        "quality": "高品質"
       }
     }
   },

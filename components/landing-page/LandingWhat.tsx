@@ -2,8 +2,12 @@
 
 import { useTranslations } from 'next-intl';
 
-export default function What() {
-  const t = useTranslations('nanoBananaPro.what');
+interface LandingWhatProps {
+  namespace: string;
+}
+
+export default function LandingWhat({ namespace }: LandingWhatProps) {
+  const t = useTranslations(`${namespace}.what`);
 
   return (
     <section className="py-8 sm:py-10 md:py-12 bg-bg-elevated">
@@ -31,7 +35,7 @@ export default function What() {
                 <div className="text-center space-y-4 p-8">
                   <div className="w-20 h-20 mx-auto rounded-2xl gradient-bg flex items-center justify-center">
                     <svg className="w-10 h-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                   </div>
                   <div className="text-white/60 text-sm">{t('demoPlaceholder')}</div>
