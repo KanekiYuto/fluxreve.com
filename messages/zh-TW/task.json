@@ -1,0 +1,41 @@
+{
+  "seo": {
+    "title": "任務詳情",
+    "description": "查看您的 AI 圖像生成任務詳細資訊和結果"
+  },
+  "details": {
+    "generationResults": "生成結果",
+    "imagePreview": "圖片預覽",
+    "imageAlt": "圖片",
+    "parametersInfo": "參數資訊",
+    "aiModel": "AI 模型",
+    "size": "尺寸",
+    "resolution": "解析度",
+    "aspectRatio": "寬高比",
+    "seed": "隨機種子",
+    "steps": "步數",
+    "duration": "生成耗時",
+    "quotaConsumed": "消耗積分",
+    "createdAt": "創建時間",
+    "completedAt": "完成時間",
+    "prompt": "提示詞",
+    "copyPrompt": "複製提示詞",
+    "promptCopied": "已複製",
+    "previousImage": "上一張圖片",
+    "nextImage": "下一張圖片",
+    "metaDescription": "使用 {model} 生成的 AI 圖像",
+    "defaultPrompt": "AI 生成的圖像"
+  },
+  "processing": {
+    "title": "任務處理中",
+    "description": "您的圖像正在生成中，請稍候片刻...",
+    "tip": "通常需要幾秒到幾分鐘時間",
+    "failedTitle": "任務失敗",
+    "failedDescription": "抱歉，圖像生成失敗。請稍後重試或聯絡客服。"
+  },
+  "notFound": {
+    "title": "任務不存在",
+    "description": "抱歉，找不到您要查看的任務。任務可能已被刪除或連結無效。",
+    "backToHome": "返回首頁"
+  }
+}

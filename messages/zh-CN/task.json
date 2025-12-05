@@ -1,0 +1,41 @@
+{
+  "seo": {
+    "title": "任务详情",
+    "description": "查看您的 AI 图像生成任务详细信息和结果"
+  },
+  "details": {
+    "generationResults": "生成结果",
+    "imagePreview": "图片预览",
+    "imageAlt": "图片",
+    "parametersInfo": "参数信息",
+    "aiModel": "AI 模型",
+    "size": "尺寸",
+    "resolution": "分辨率",
+    "aspectRatio": "宽高比",
+    "seed": "随机种子",
+    "steps": "步数",
+    "duration": "生成耗时",
+    "quotaConsumed": "消耗积分",
+    "createdAt": "创建时间",
+    "completedAt": "完成时间",
+    "prompt": "提示词",
+    "copyPrompt": "复制提示词",
+    "promptCopied": "已复制",
+    "previousImage": "上一张图片",
+    "nextImage": "下一张图片",
+    "metaDescription": "使用 {model} 生成的 AI 图像",
+    "defaultPrompt": "AI 生成的图像"
+  },
+  "processing": {
+    "title": "任务处理中",
+    "description": "您的图像正在生成中，请稍候片刻...",
+    "tip": "通常需要几秒到几分钟时间",
+    "failedTitle": "任务失败",
+    "failedDescription": "抱歉，图像生成失败。请稍后重试或联系客服。"
+  },
+  "notFound": {
+    "title": "任务不存在",
+    "description": "抱歉，找不到您要查看的任务。任务可能已被删除或链接无效。",
+    "backToHome": "返回首页"
+  }
+}

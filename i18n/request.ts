@@ -17,6 +17,7 @@ async function loadMessages(locale: string) {
     'home',
     'nano-banana-pro',
     'z-image',
+    'task',
     'notFound',
     'pricing',
     'privacy',

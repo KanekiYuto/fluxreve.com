@@ -1,0 +1,41 @@
+{
+  "seo": {
+    "title": "Task Details",
+    "description": "View your AI image generation task details and results"
+  },
+  "details": {
+    "generationResults": "Generation Results",
+    "imagePreview": "Image Preview",
+    "imageAlt": "Image",
+    "parametersInfo": "Parameters Info",
+    "aiModel": "AI Model",
+    "size": "Size",
+    "resolution": "Resolution",
+    "aspectRatio": "Aspect Ratio",
+    "seed": "Seed",
+    "steps": "Steps",
+    "duration": "Duration",
+    "quotaConsumed": "Credits Used",
+    "createdAt": "Created At",
+    "completedAt": "Completed At",
+    "prompt": "Prompt",
+    "copyPrompt": "Copy Prompt",
+    "promptCopied": "Copied",
+    "previousImage": "Previous Image",
+    "nextImage": "Next Image",
+    "metaDescription": "AI image generated using {model}",
+    "defaultPrompt": "AI Generated Image"
+  },
+  "processing": {
+    "title": "Task Processing",
+    "description": "Your image is being generated, please wait a moment...",
+    "tip": "Usually takes a few seconds to a few minutes",
+    "failedTitle": "Task Failed",
+    "failedDescription": "Sorry, image generation failed. Please try again later or contact support."
+  },
+  "notFound": {
+    "title": "Task Not Found",
+    "description": "Sorry, the task you are looking for cannot be found. It may have been deleted or the link is invalid.",
+    "backToHome": "Back to Home"
+  }
+}

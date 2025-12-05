@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import { getModelDisplayName } from '@/config/model-names';
 
 // 任务接口定义
@@ -129,7 +130,7 @@ export default function RecentGenerations() {
       {!loading && !error && hasGenerations && (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           {tasks.map((task) => (
-            <div key={task.taskId} className="cursor-pointer">
+            <Link key={task.taskId} href={`/task/${task.taskId}`} className="cursor-pointer">
               {/* 图片容器 */}
               <div className="group">
                 <div
@@ -169,7 +170,7 @@ export default function RecentGenerations() {
                   {getModelDisplayName(task.model)}
                 </span>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       )}
