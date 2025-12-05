@@ -45,6 +45,11 @@ export const auth = betterAuth({
   session: {
     expiresIn: 60 * 60 * 24 * 7, // 7 天
     updateAge: 60 * 60 * 24, // 每天更新一次会话
+    // 添加会话更新失败时的宽限期,避免连接超时导致会话立即失效
+    cookieCache: {
+      enabled: true,
+      maxAge: 60 * 5, // 5 分钟缓存
+    },
   },
 
   // 使用 Next.js Cookie 适配器

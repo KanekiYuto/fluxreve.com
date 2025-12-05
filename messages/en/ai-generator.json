@@ -39,6 +39,10 @@
     "refresh": "Refresh quota"
   },
   "form": {
+    "mode": {
+      "textToImage": "Text to Image",
+      "imageToImage": "Image to Image"
+    },
     "advancedSettings": "Advanced Settings",
     "seed": "Seed",
     "seedPlaceholder": "Leave blank for random",
@@ -57,7 +61,17 @@
       "21:9": "21:9 (Ultrawide)"
     },
     "resolution": "Resolution",
-    "resolutionPlaceholder": "Select resolution"
+    "resolutionPlaceholder": "Select resolution",
+    "outputFormat": "Output Format",
+    "outputFormatPlaceholder": "Select output format",
+    "uploadImage": "Upload Image",
+    "addImageUrl": "Add Image URL",
+    "imageUrlPlaceholder": "Enter image URL",
+    "add": "Add",
+    "cancel": "Cancel",
+    "uploadHint": "Hint: You can drag and drop a file or click to upload",
+    "uploading": "Uploading...",
+    "addItem": "Add Item"
   },
   "error": {
     "required": "Required",

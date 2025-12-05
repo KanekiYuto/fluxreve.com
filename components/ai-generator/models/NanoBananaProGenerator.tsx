@@ -8,6 +8,7 @@ import { MediaItem, TaskInfo } from '../base/MediaGallery';
 import AdvancedSettings from '../base/AdvancedSettings';
 import FormSelect from '../form/FormSelect';
 import SeedInput from '../form/SeedInput';
+import ImageUpload, { ImageItem } from '../form/ImageUpload';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { useRequiredCredits } from '@/hooks/useRequiredCredits';
@@ -15,7 +16,9 @@ import { useCredits } from '@/hooks/useCredits';
 
 // ==================== 类型定义 ====================
 
+type Mode = 'text-to-image' | 'image-to-image';
 type Resolution = '1k' | '2k' | '4k';
+type OutputFormat = 'png' | 'jpg';
 
 interface NanoBananaProGeneratorProps {
   modelSelector: React.ReactNode;
@@ -45,6 +48,11 @@ const RESOLUTION_OPTIONS = [
   { value: '4k', label: '4K' },
 ];
 
+const OUTPUT_FORMAT_OPTIONS = [
+  { value: 'png', label: 'PNG' },
+  { value: 'jpg', label: 'JPG' },
+];
+
 const EXAMPLES: ExampleItem[] = [
   {
     id: '1',
@@ -70,11 +78,16 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
 
   // ==================== 状态管理 ====================
 
+  // 模式状态
+  const [mode, setMode] = useState<Mode>('text-to-image');
+
   // 表单状态
   const [prompt, setPrompt] = useState('');
+  const [inputImages, setInputImages] = useState<ImageItem[]>([]);
   const [aspectRatio, setAspectRatio] = useState('1:1');
   const [seed, setSeed] = useState('');
   const [resolution, setResolution] = useState<Resolution>('1k');
+  const [outputFormat, setOutputFormat] = useState<OutputFormat>('png');
 
   // 生成状态
   const [isLoading, setIsLoading] = useState(false);
@@ -89,6 +102,7 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
     resolution,
     aspect_ratio: aspectRatio,
     seed,
+    output_format: outputFormat,
   });
 
   // ==================== 事件处理函数 ====================
@@ -107,6 +121,14 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
       };
     }
 
+    // 图片生图模式需要至少一张输入图片
+    if (mode === 'image-to-image' && inputImages.length === 0) {
+      return {
+        title: tError('parameterError'),
+        message: 'Please upload at least one input image',
+      };
+    }
+
     if (credits !== null && credits < requiredCredits) {
       return {
         title: tError('insufficientCredits'),
@@ -120,7 +142,7 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
     }
 
     return null;
-  }, [prompt, credits, requiredCredits, tError]);
+  }, [prompt, mode, inputImages, credits, requiredCredits, tError]);
 
   // 轮询任务状态
   const pollTaskStatus = useCallback(async (taskId: string, currentPrompt: string) => {
@@ -199,6 +221,7 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
           prompt,
           aspect_ratio: aspectRatio,
           resolution,
+          output_format: outputFormat,
           seed: seed || undefined,
         }),
       });
@@ -219,12 +242,36 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
         message: err instanceof Error ? err.message : tError('imageGenerationFailed'),
       });
     }
-  }, [prompt, aspectRatio, resolution, seed, validateForm, pollTaskStatus, tError]);
+  }, [prompt, aspectRatio, resolution, outputFormat, seed, validateForm, pollTaskStatus, tError]);
 
   // ==================== 渲染函数 ====================
 
   const formContent = (
     <div className="space-y-6">
+      {/* 模式切换 Tab */}
+      <div className="flex gap-1 p-1 bg-[#161618] border border-[#27272A] rounded-lg">
+        <button
+          type="button"
+          onClick={() => setMode('text-to-image')}
+          className={`flex-1 px-3 py-2 text-sm font-medium rounded-md transition-all cursor-pointer ${mode === 'text-to-image'
+              ? 'bg-primary text-white shadow-sm'
+              : 'text-[#A1A1AA] hover:text-white hover:bg-[#27272A]'
+            }`}
+        >
+          {tForm('mode.textToImage')}
+        </button>
+        <button
+          type="button"
+          onClick={() => setMode('image-to-image')}
+          className={`flex-1 px-3 py-2 text-sm font-medium rounded-md transition-all cursor-pointer ${mode === 'image-to-image'
+              ? 'bg-primary text-white shadow-sm'
+              : 'text-[#A1A1AA] hover:text-white hover:bg-[#27272A]'
+            }`}
+        >
+          {tForm('mode.imageToImage')}
+        </button>
+      </div>
+
       {/* 提示词输入 */}
       <div className="space-y-2">
         <Label htmlFor="prompt" className="text-sm font-medium">
@@ -238,6 +285,18 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
           className="h-32 resize-none"
         />
       </div>
+
+      {/* 图片生图模式：输入图片上传 */}
+      {mode === 'image-to-image' && (
+        <ImageUpload
+          value={inputImages}
+          onChange={setInputImages}
+          label={tForm('uploadImage')}
+          maxCount={5}
+          required
+          id="inputImages"
+        />
+      )}
 
       {/* 宽高比选择 */}
       <FormSelect
@@ -260,6 +319,16 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
         onChange={(value) => setResolution(value as Resolution)}
         options={RESOLUTION_OPTIONS}
         placeholder={tForm('resolutionPlaceholder')}
+      />
+
+      {/* 输出格式选择 */}
+      <FormSelect
+        id="outputFormat"
+        label={tForm('outputFormat')}
+        value={outputFormat}
+        onChange={(value) => setOutputFormat(value as OutputFormat)}
+        options={OUTPUT_FORMAT_OPTIONS}
+        placeholder={tForm('outputFormatPlaceholder')}
       />
 
       {/* 高级选项 */}

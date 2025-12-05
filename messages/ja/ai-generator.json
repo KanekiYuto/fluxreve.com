@@ -39,6 +39,10 @@
     "refresh": "クォータを更新"
   },
   "form": {
+    "mode": {
+      "textToImage": "テキストから画像",
+      "imageToImage": "画像から画像"
+    },
     "advancedSettings": "詳細設定",
     "seed": "シード値",
     "seedPlaceholder": "ランダムの場合は空白",
@@ -57,7 +61,17 @@
       "21:9": "21:9 (ウルトラワイド)"
     },
     "resolution": "解像度",
-    "resolutionPlaceholder": "解像度を選択"
+    "resolutionPlaceholder": "解像度を選択",
+    "outputFormat": "出力形式",
+    "outputFormatPlaceholder": "出力形式を選択",
+    "uploadImage": "画像をアップロード",
+    "addImageUrl": "画像URLを追加",
+    "imageUrlPlaceholder": "画像URLを入力",
+    "add": "追加",
+    "cancel": "キャンセル",
+    "uploadHint": "ヒント：ファイルをドラッグ＆ドロップまたはクリックしてアップロード",
+    "uploading": "アップロード中...",
+    "addItem": "項目を追加"
   },
   "error": {
     "required": "必須",
