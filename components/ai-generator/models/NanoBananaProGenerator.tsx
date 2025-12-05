@@ -4,7 +4,6 @@ import { useState, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import GeneratorLayout from '../base/GeneratorLayout';
 import { ExampleItem } from '../base/ExampleGallery';
-import { MediaItem, TaskInfo } from '../base/MediaGallery';
 import AdvancedSettings from '../base/AdvancedSettings';
 import FormSelect from '../form/FormSelect';
 import SeedInput from '../form/SeedInput';
@@ -12,7 +11,7 @@ import ImageUpload, { ImageItem } from '../form/ImageUpload';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { useRequiredCredits } from '@/hooks/useRequiredCredits';
-import { useCredits } from '@/hooks/useCredits';
+import { useImageGenerator, ErrorState } from '@/hooks/useImageGenerator';
 
 // ==================== 类型定义 ====================
 
@@ -22,13 +21,6 @@ type OutputFormat = 'png' | 'jpg';
 
 interface NanoBananaProGeneratorProps {
   modelSelector: React.ReactNode;
-}
-
-interface ErrorState {
-  title: string;
-  message: string;
-  variant?: 'error' | 'credits';
-  creditsInfo?: { required: number; current: number };
 }
 
 // ==================== 常量配置 ====================
@@ -56,19 +48,11 @@ const OUTPUT_FORMAT_OPTIONS = [
 const EXAMPLES: ExampleItem[] = [
   {
     id: '1',
-    thumbnail: '/test/3c3bb2c9-f19e-4f48-b005-c27e475d6bf5.webp',
-    prompt: '梦幻的奇幻风景，浮空岛屿，瀑布从云端倾泻而下，神秘的紫色天空，超现实主义风格',
-    tags: ['风景', '奇幻', '超现实'],
-  },
-  {
-    id: '2',
-    thumbnail: '/test/d9c7dede-2a43-47a4-8fb7-3b591d52864a.webp',
-    prompt: '赛博朋克风格的未来都市，霓虹灯闪烁，高楼林立，夜晚下着雨，反光的街道',
-    tags: ['城市', '科幻', '赛博朋克'],
+    thumbnail: '/material/models/nano-banana-pro/401001f3-5834-4de4-ba30-f2438b8538eb.webp ',
+    prompt: 'Ultra-realistic U.S. one-dollar bill with Elon Musk as the central engraved portrait, traditional dollar engraving linework, micro-details, authentic paper texture, realistic wear and tear, cinematic lighting, 8K, sharp focus',
+    tags: ['currency', 'portrait', 'photorealistic'],
   },
 ];
-
-const POLLING_INTERVAL = 2000; // 2秒轮询间隔
 
 // ==================== 主组件 ====================
 
@@ -89,15 +73,7 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
   const [resolution, setResolution] = useState<Resolution>('1k');
   const [outputFormat, setOutputFormat] = useState<OutputFormat>('png');
 
-  // 生成状态
-  const [isLoading, setIsLoading] = useState(false);
-  const [progress, setProgress] = useState(0);
-  const [generatedImages, setGeneratedImages] = useState<MediaItem[]>([]);
-  const [taskInfo, setTaskInfo] = useState<TaskInfo | undefined>(undefined);
-  const [error, setError] = useState<ErrorState | undefined>(undefined);
-
-  // 自定义 Hooks
-  const { credits, isLoading: isCreditsLoading, refresh: refreshCredits } = useCredits();
+  // 积分计算
   const requiredCredits = useRequiredCredits('text-to-image', 'nano-banana-pro', {
     resolution,
     aspect_ratio: aspectRatio,
@@ -105,12 +81,19 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
     output_format: outputFormat,
   });
 
-  // ==================== 事件处理函数 ====================
-
-  // 选择示例
-  const handleSelectExample = useCallback((example: ExampleItem) => {
-    setPrompt(example.prompt);
-  }, []);
+  // 使用通用图像生成 Hook
+  const {
+    isLoading,
+    progress,
+    generatedImages,
+    taskInfo,
+    error,
+    credits,
+    isCreditsLoading,
+    generate,
+    setError,
+    refreshCredits,
+  } = useImageGenerator();
 
   // 验证表单
   const validateForm = useCallback((): ErrorState | null => {
@@ -144,58 +127,12 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
     return null;
   }, [prompt, mode, inputImages, credits, requiredCredits, tError]);
 
-  // 轮询任务状态
-  const pollTaskStatus = useCallback(async (taskId: string, currentPrompt: string) => {
-    try {
-      const statusResponse = await fetch(`/api/ai-generator/status/${taskId}`);
-      const statusResult = await statusResponse.json();
+  // ==================== 事件处理函数 ====================
 
-      if (!statusResult.success) {
-        throw new Error(statusResult.error || 'Failed to query status');
-      }
-
-      const { status, progress: taskProgress, results, error: taskError } = statusResult.data;
-
-      // 更新进度
-      if (taskProgress !== undefined) {
-        setProgress(taskProgress);
-      }
-
-      if (status === 'completed' && results) {
-        // 任务完成
-        setIsLoading(false);
-        setProgress(100);
-        setGeneratedImages(results.map((item: any, index: number) => ({
-          id: `${Date.now()}-${index}`,
-          url: item.url,
-          type: 'image',
-        })));
-
-        setTaskInfo({
-          task_id: statusResult.data.share_id,
-          prompt: currentPrompt,
-          created_at: statusResult.data.created_at,
-          completed_at: statusResult.data.completed_at,
-        });
-
-        // 刷新积分
-        refreshCredits();
-      } else if (status === 'failed') {
-        // 任务失败
-        throw new Error(taskError?.message || 'Generation failed');
-      } else {
-        // 继续轮询
-        setTimeout(() => pollTaskStatus(taskId, currentPrompt), POLLING_INTERVAL);
-      }
-    } catch (err) {
-      console.error('Polling error:', err);
-      setIsLoading(false);
-      setError({
-        title: tError('queryStatusFailed'),
-        message: err instanceof Error ? err.message : tError('unableToQueryStatus'),
-      });
-    }
-  }, [refreshCredits, tError]);
+  // 选择示例
+  const handleSelectExample = useCallback((example: ExampleItem) => {
+    setPrompt(example.prompt);
+  }, []);
 
   // 生成图像
   const handleGenerate = useCallback(async () => {
@@ -206,43 +143,37 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
       return;
     }
 
-    // 重置状态
-    setIsLoading(true);
-    setProgress(0);
-    setGeneratedImages([]);
-    setError(undefined);
+    // 根据模式选择不同的 API 端点
+    const endpoint =
+      mode === 'text-to-image'
+        ? '/api/ai-generator/provider/wavespeed/nano-banana-pro/text-to-image'
+        : '/api/ai-generator/provider/wavespeed/nano-banana-pro/image-to-image';
 
-    try {
-      // 调用文生图 API
-      const response = await fetch('/api/ai-generator/provider/wavespeed/nano-banana-pro/text-to-image', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          prompt,
-          aspect_ratio: aspectRatio,
-          resolution,
-          output_format: outputFormat,
-          seed: seed || undefined,
-        }),
-      });
+    // 构建请求参数
+    const body: Record<string, any> = {
+      prompt,
+      output_format: outputFormat,
+    };
 
-      const result = await response.json();
-
-      if (!result.success) {
-        throw new Error(result.error || 'Failed to generate image');
-      }
-
-      // 开始轮询任务状态
-      pollTaskStatus(result.data.task_id, prompt);
-    } catch (err) {
-      console.error('Generation error:', err);
-      setIsLoading(false);
-      setError({
-        title: tError('generationFailed'),
-        message: err instanceof Error ? err.message : tError('imageGenerationFailed'),
-      });
+    // 文生图模式的参数
+    if (mode === 'text-to-image') {
+      body.aspect_ratio = aspectRatio;
+      body.resolution = resolution;
+      if (seed) body.seed = seed;
     }
-  }, [prompt, aspectRatio, resolution, outputFormat, seed, validateForm, pollTaskStatus, tError]);
+
+    // 图生图模式的参数
+    if (mode === 'image-to-image') {
+      body.images = inputImages.map((img) => img.url);
+    }
+
+    // 调用生成方法
+    await generate({
+      endpoint,
+      body,
+      currentPrompt: prompt,
+    });
+  }, [mode, prompt, aspectRatio, resolution, outputFormat, seed, inputImages, validateForm, setError, generate]);
 
   // ==================== 渲染函数 ====================
 
@@ -298,19 +229,6 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
         />
       )}
 
-      {/* 宽高比选择 */}
-      <FormSelect
-        id="aspectRatio"
-        label={tForm('aspectRatio')}
-        value={aspectRatio}
-        onChange={setAspectRatio}
-        options={ASPECT_RATIO_VALUES.map((ratio) => ({
-          value: ratio.value,
-          label: tForm(`aspectRatios.${ratio.value}`)
-        }))}
-        placeholder={tForm('aspectRatioPlaceholder')}
-      />
-
       {/* 分辨率选择 */}
       <FormSelect
         id="resolution"
@@ -321,18 +239,31 @@ export default function NanoBananaProGenerator({ modelSelector }: NanoBananaProG
         placeholder={tForm('resolutionPlaceholder')}
       />
 
-      {/* 输出格式选择 */}
-      <FormSelect
-        id="outputFormat"
-        label={tForm('outputFormat')}
-        value={outputFormat}
-        onChange={(value) => setOutputFormat(value as OutputFormat)}
-        options={OUTPUT_FORMAT_OPTIONS}
-        placeholder={tForm('outputFormatPlaceholder')}
-      />
-
       {/* 高级选项 */}
       <AdvancedSettings>
+        {/* 宽高比选择 */}
+        <FormSelect
+          id="aspectRatio"
+          label={tForm('aspectRatio')}
+          value={aspectRatio}
+          onChange={setAspectRatio}
+          options={ASPECT_RATIO_VALUES.map((ratio) => ({
+            value: ratio.value,
+            label: tForm(`aspectRatios.${ratio.value}`)
+          }))}
+          placeholder={tForm('aspectRatioPlaceholder')}
+        />
+
+        {/* 输出格式选择 */}
+        <FormSelect
+          id="outputFormat"
+          label={tForm('outputFormat')}
+          value={outputFormat}
+          onChange={(value) => setOutputFormat(value as OutputFormat)}
+          options={OUTPUT_FORMAT_OPTIONS}
+          placeholder={tForm('outputFormatPlaceholder')}
+        />
+
         <SeedInput value={seed} onChange={setSeed} />
       </AdvancedSettings>
     </div>

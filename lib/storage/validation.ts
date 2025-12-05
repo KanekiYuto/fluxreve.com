@@ -48,7 +48,7 @@ export interface FileInfo {
  * @param mimeType MIME 类型
  * @returns 文件类型
  */
-export function getFileType(mimeType: string): FileType | null {
+function getFileType(mimeType: string): FileType | null {
   for (const [type, config] of Object.entries(FILE_LIMITS)) {
     if ((config.mimeTypes as readonly string[]).includes(mimeType)) {
       return type as FileType;
@@ -62,7 +62,7 @@ export function getFileType(mimeType: string): FileType | null {
  * @param fileName 文件名
  * @returns 文件类型
  */
-export function getFileTypeByExtension(fileName: string): FileType | null {
+function getFileTypeByExtension(fileName: string): FileType | null {
   const ext = fileName.toLowerCase().substring(fileName.lastIndexOf('.'));
 
   for (const [type, config] of Object.entries(FILE_LIMITS)) {
@@ -76,51 +76,12 @@ export function getFileTypeByExtension(fileName: string): FileType | null {
 /**
  * 验证文件
  * @param fileInfo 文件信息
- * @param allowedTypes 允许的文件类型(可选,默认允许所有类型)
  * @returns 验证结果
  */
-export function validateFile(
-  fileInfo: FileInfo,
-  allowedTypes?: FileType[]
-): FileValidationResult {
+export function validateFile(fileInfo: FileInfo): FileValidationResult {
   const { name, size, type: mimeType } = fileInfo;
 
-  // 1. 根据 MIME 类型判断文件类型
-  let fileType = getFileType(mimeType);
-
-  // 2. 如果 MIME 类型无法判断，尝试从文件扩展名判断
-  if (!fileType) {
-    fileType = getFileTypeByExtension(name);
-  }
-
-  // 3. 如果仍然无法判断文件类型
-  if (!fileType) {
-    return {
-      valid: false,
-      error: `Unsupported file type: ${mimeType}`,
-    };
-  }
-
-  // 4. 检查是否在允许的类型列表中
-  if (allowedTypes && !allowedTypes.includes(fileType)) {
-    return {
-      valid: false,
-      error: `File type '${fileType}' is not allowed. Allowed types: ${allowedTypes.join(', ')}`,
-    };
-  }
-
-  // 5. 检查文件大小
-  const limit = FILE_LIMITS[fileType];
-  if (size > limit.maxSize) {
-    const maxSizeMB = (limit.maxSize / 1024 / 1024).toFixed(1);
-    const fileSizeMB = (size / 1024 / 1024).toFixed(2);
-    return {
-      valid: false,
-      error: `File too large. Maximum size for ${fileType} is ${maxSizeMB}MB, current size: ${fileSizeMB}MB`,
-    };
-  }
-
-  // 6. 检查文件名
+  // 检查文件名
   if (!name || name.trim().length === 0) {
     return {
       valid: false,
@@ -128,11 +89,38 @@ export function validateFile(
     };
   }
 
-  // 7. 检查文件是否为空
+  // 检查文件是否为空
   if (size === 0) {
     return {
       valid: false,
       error: 'File cannot be empty',
+    };
+  }
+
+  // 根据 MIME 类型判断文件类型
+  let fileType = getFileType(mimeType);
+
+  // 如果 MIME 类型无法判断,尝试从文件扩展名判断
+  if (!fileType) {
+    fileType = getFileTypeByExtension(name);
+  }
+
+  // 如果仍然无法判断文件类型
+  if (!fileType) {
+    return {
+      valid: false,
+      error: `Unsupported file type: ${mimeType}`,
+    };
+  }
+
+  // 检查文件大小
+  const limit = FILE_LIMITS[fileType];
+  if (size > limit.maxSize) {
+    const maxSizeMB = (limit.maxSize / 1024 / 1024).toFixed(1);
+    const fileSizeMB = (size / 1024 / 1024).toFixed(2);
+    return {
+      valid: false,
+      error: `File too large. Maximum size for ${fileType} is ${maxSizeMB}MB, current size: ${fileSizeMB}MB`,
     };
   }
 

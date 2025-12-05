@@ -1,22 +1,21 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { auth } from '@/lib/auth';
 import { uploadToR2 } from '@/lib/storage/r2';
-import { validateFile, FileType, getAllowedTypesDescription, FILE_LIMITS, formatFileSize } from '@/lib/storage/validation';
+import { validateFile, FILE_LIMITS, formatFileSize } from '@/lib/storage/validation';
 
 /**
  * POST /api/upload
  * 上传文件到 R2 存储
  *
  * 支持的查询参数:
- * - type: 限制允许的文件类型 (image, video, audio, document)，多个类型用逗号分隔
- * - prefix: 文件存储路径前缀
+ * - prefix: 文件存储路径前缀(默认: uploads)
  *
  * 请求体: FormData
  * - file: 要上传的文件
  */
 export async function POST(request: NextRequest) {
   try {
-    // 1. 验证用户会话
+    // 验证用户会话
     const session = await auth.api.getSession({
       headers: request.headers,
     });
@@ -28,17 +27,10 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // 2. 解析查询参数
-    const searchParams = request.nextUrl.searchParams;
-    const typeParam = searchParams.get('type');
-    const prefix = searchParams.get('prefix') || 'uploads';
+    // 解析查询参数
+    const prefix = request.nextUrl.searchParams.get('prefix') || 'uploads';
 
-    // 解析允许的文件类型
-    const allowedTypes = typeParam
-      ? (typeParam.split(',').filter(Boolean) as FileType[])
-      : undefined;
-
-    // 3. 解析 FormData
+    // 解析 FormData
     const formData = await request.formData();
     const file = formData.get('file') as File | null;
 
@@ -49,31 +41,27 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // 4. 验证文件
-    const validation = validateFile(
-      {
-        name: file.name,
-        size: file.size,
-        type: file.type,
-      },
-      allowedTypes
-    );
+    // 验证文件(自动判断文件类型)
+    const validation = validateFile({
+      name: file.name,
+      size: file.size,
+      type: file.type,
+    });
 
     if (!validation.valid) {
       return NextResponse.json(
         {
           success: false,
           error: validation.error,
-          allowed_types: getAllowedTypesDescription(allowedTypes),
         },
         { status: 400 }
       );
     }
 
-    // 5. 将文件转换为 Buffer
+    // 将文件转换为 Buffer
     const buffer = Buffer.from(await file.arrayBuffer());
 
-    // 6. 上传到 R2
+    // 上传到 R2
     const uploadResult = await uploadToR2({
       file: buffer,
       fileName: file.name,
@@ -81,7 +69,7 @@ export async function POST(request: NextRequest) {
       prefix,
     });
 
-    // 7. 返回成功响应
+    // 返回成功响应
     return NextResponse.json({
       success: true,
       data: {

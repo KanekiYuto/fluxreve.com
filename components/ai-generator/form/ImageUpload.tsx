@@ -98,7 +98,7 @@ export default function ImageUpload({
         const formData = new FormData();
         formData.append('file', file);
 
-        const response = await fetch('/api/upload?type=image', {
+        const response = await fetch('/api/upload', {
           method: 'POST',
           body: formData,
         });
@@ -171,7 +171,7 @@ export default function ImageUpload({
         const formData = new FormData();
         formData.append('file', file);
 
-        const response = await fetch('/api/upload?type=image', {
+        const response = await fetch('/api/upload', {
           method: 'POST',
           body: formData,
         });
@@ -231,27 +231,29 @@ export default function ImageUpload({
                 value={image.url}
                 onChange={(e) => handleUpdateUrl(image.id, e.target.value)}
                 placeholder={t('imageUrlPlaceholder')}
-                className="pr-16 !text-xs"
+                className="pr-16 !text-xs cursor-text"
                 disabled={image.uploading}
               />
 
               {/* 右侧操作按钮 */}
               <div className="flex flex-row absolute right-2 top-2">
                 {/* 文件选择按钮 */}
-                <div
+                <button
+                  type="button"
                   className="w-6 h-9 flex justify-center items-center cursor-pointer group text-foreground"
                   onClick={() => handleSelectFiles(image.id)}
                 >
                   <FolderOpen className="w-6 h-6 group-hover:bg-black/10 rounded-md p-1 dark:group-hover:bg-white/10" />
-                </div>
+                </button>
 
                 {/* 删除按钮 */}
-                <div
+                <button
+                  type="button"
                   className="w-9 h-9 flex justify-center items-center cursor-pointer group text-foreground"
                   onClick={() => handleRemove(image.id)}
                 >
                   <Trash2 className="w-6 h-6 group-hover:bg-black/10 rounded-md p-1 dark:group-hover:bg-white/10" />
-                </div>
+                </button>
               </div>
             </div>
 
@@ -301,7 +303,7 @@ export default function ImageUpload({
         <Button
           type="button"
           onClick={handleAddItem}
-          className="rounded-lg"
+          className="rounded-lg cursor-pointer"
         >
           <Plus className="w-4 h-4" />
           {t('addItem')}
