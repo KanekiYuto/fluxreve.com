@@ -17,6 +17,7 @@ async function loadMessages(locale: string) {
     'home',
     'nano-banana-pro',
     'z-image',
+    'flux-2-pro',
     'task',
     'tasks',
     'notFound',
@@ -41,6 +42,8 @@ async function loadMessages(locale: string) {
         key = 'nanoBananaPro';
       } else if (file === 'z-image') {
         key = 'zImage';
+      } else if (file === 'flux-2-pro') {
+        key = 'flux2Pro';
       }
       messages[key] = module.default;
     } catch (error) {

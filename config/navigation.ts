@@ -41,6 +41,7 @@ export const headerNavigation: HeaderNavEntry[] = [
     items: [
       { name: 'nano-banana-pro', href: '/nano-banana-pro', icon: 'banana', description: 'nanoBananaProDesc' },
       { name: 'z-image', href: '/z-image', icon: 'zap', description: 'zImageDesc' },
+      { name: 'flux-2-pro', href: '/flux-2-pro', icon: 'sparkles', description: 'flux2ProDesc' },
     ],
   },
   { type: 'link', name: 'tasks', href: '/tasks' },
@@ -84,6 +85,7 @@ export const navigationGroups: NavGroup[] = [
     items: [
       { name: 'nano-banana-pro', href: '/nano-banana-pro', icon: 'sparkles' },
       { name: 'z-image', href: '/z-image', icon: 'sparkles' },
+      { name: 'flux-2-pro', href: '/flux-2-pro', icon: 'sparkles' },
     ],
   },
   {
@@ -124,6 +126,7 @@ export const footerSections: FooterSection[] = [
     links: [
       { name: 'nano-banana-pro', href: '/nano-banana-pro' },
       { name: 'z-image', href: '/z-image' },
+      { name: 'flux-2-pro', href: '/flux-2-pro' },
     ],
   },
   {
