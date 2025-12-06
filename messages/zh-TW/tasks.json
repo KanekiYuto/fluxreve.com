@@ -51,9 +51,12 @@
   },
   "noPrompt": "無提示詞",
   "card": {
-    "delete": "刪除任務",
+    "delete": "刪除",
     "confirmDelete": "確認刪除",
-    "cancelDelete": "取消"
+    "confirmDeleteTitle": "刪除任務",
+    "confirmDeleteMessage": "確定要刪除這個任務嗎？此操作無法撤銷。",
+    "cancelDelete": "取消",
+    "deleting": "刪除中..."
   },
   "errors": {
     "fetchFailed": "獲取任務列表失敗",

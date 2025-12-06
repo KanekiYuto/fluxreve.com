@@ -30,7 +30,7 @@ function getTimeAgo(date: Date): string {
 export default function TaskCard({ task, onDelete }: TaskCardProps) {
   const t = useTranslations('tasks');
   const [isDeleting, setIsDeleting] = useState(false);
-  const [showConfirm, setShowConfirm] = useState(false);
+  const [showConfirmModal, setShowConfirmModal] = useState(false);
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -79,15 +79,13 @@ export default function TaskCard({ task, onDelete }: TaskCardProps) {
     }
   };
 
-  const handleDelete = async (e: React.MouseEvent) => {
+  const handleDeleteClick = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    
-    if (!showConfirm) {
-      setShowConfirm(true);
-      return;
-    }
+    setShowConfirmModal(true);
+  };
 
+  const handleConfirmDelete = async () => {
     setIsDeleting(true);
     try {
       const response = await fetch(`/api/ai-generator/tasks/${task.taskId}`, {
@@ -99,122 +97,79 @@ export default function TaskCard({ task, onDelete }: TaskCardProps) {
         onDelete?.(task.taskId);
       } else {
         console.error('Failed to delete task:', data.error);
-        setShowConfirm(false);
       }
     } catch (error) {
       console.error('Failed to delete task:', error);
-      setShowConfirm(false);
     } finally {
       setIsDeleting(false);
+      setShowConfirmModal(false);
     }
   };
 
-  const handleCancelDelete = (e: React.MouseEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
-    setShowConfirm(false);
+  const handleCancelDelete = () => {
+    setShowConfirmModal(false);
   };
 
   const timeAgo = getTimeAgo(new Date(task.createdAt));
   const hasImage = task.results && task.results.length > 0 && task.status === 'completed';
 
   return (
-    <Link href={`/task/${task.taskId}`} className="block group">
+    <>
       <div className="relative rounded-xl overflow-hidden bg-surface-secondary border border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
-        {/* 图片区域 */}
-        <div className="relative aspect-square bg-bg-elevated overflow-hidden">
-          {hasImage ? (
-            <>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={task.results![0].url}
-                alt={task.parameters.prompt}
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-              {/* 多图标识 */}
-              {task.results!.length > 1 && (
-                <div className="absolute top-2 right-2 bg-black/60 backdrop-blur-sm px-2 py-1 rounded-full text-xs text-white flex items-center gap-1">
-                  <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                  <span>{task.results!.length}</span>
-                </div>
-              )}
-            </>
-          ) : (
-            <div className="w-full h-full flex items-center justify-center">
-              {task.status === 'processing' ? (
-                <div className="text-center">
-                  <svg className="w-12 h-12 text-primary animate-spin mx-auto mb-2" fill="none" viewBox="0 0 24 24">
-                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-                  </svg>
-                  <span className="text-xs text-text-muted">{task.progress}%</span>
-                </div>
-              ) : task.status === 'pending' ? (
-                <div className="text-center">
-                  <svg className="w-12 h-12 text-yellow-400 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span className="text-xs text-text-muted">{t('status.pending')}</span>
-                </div>
-              ) : task.status === 'failed' ? (
-                <div className="text-center">
-                  <svg className="w-12 h-12 text-red-400 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-                  </svg>
-                  <span className="text-xs text-red-400">{t('status.failed')}</span>
-                </div>
-              ) : (
-                <svg className="w-12 h-12 text-text-muted" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-              )}
-            </div>
-          )}
-
-          {/* 删除按钮 - 悬停时显示 */}
-          <div className="absolute top-2 left-2 opacity-0 group-hover:opacity-100 transition-opacity">
-            {showConfirm ? (
-              <div className="flex gap-1">
-                <button
-                  onClick={handleDelete}
-                  disabled={isDeleting}
-                  className="p-1.5 bg-red-500 hover:bg-red-600 text-white rounded-lg transition-colors cursor-pointer disabled:opacity-50"
-                  title={t('card.confirmDelete')}
-                >
-                  {isDeleting ? (
-                    <svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
+        {/* 图片区域 - 可点击跳转 */}
+        <Link href={`/task/${task.taskId}`} className="block group">
+          <div className="relative aspect-square bg-bg-elevated overflow-hidden">
+            {hasImage ? (
+              <>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={task.results![0].url}
+                  alt={task.parameters.prompt}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                {/* 多图标识 */}
+                {task.results!.length > 1 && (
+                  <div className="absolute top-2 right-2 bg-black/60 backdrop-blur-sm px-2 py-1 rounded-full text-xs text-white flex items-center gap-1">
+                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    <span>{task.results!.length}</span>
+                  </div>
+                )}
+              </>
+            ) : (
+              <div className="w-full h-full flex items-center justify-center">
+                {task.status === 'processing' ? (
+                  <div className="text-center">
+                    <svg className="w-12 h-12 text-primary animate-spin mx-auto mb-2" fill="none" viewBox="0 0 24 24">
                       <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                       <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
                     </svg>
-                  ) : (
-                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    <span className="text-xs text-text-muted">{task.progress}%</span>
+                  </div>
+                ) : task.status === 'pending' ? (
+                  <div className="text-center">
+                    <svg className="w-12 h-12 text-yellow-400 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                  )}
-                </button>
-                <button
-                  onClick={handleCancelDelete}
-                  className="p-1.5 bg-black/60 hover:bg-black/80 text-white rounded-lg backdrop-blur-sm transition-colors cursor-pointer"
-                  title={t('card.cancelDelete')}
-                >
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    <span className="text-xs text-text-muted">{t('status.pending')}</span>
+                  </div>
+                ) : task.status === 'failed' ? (
+                  <div className="text-center">
+                    <svg className="w-12 h-12 text-red-400 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                    </svg>
+                    <span className="text-xs text-red-400">{t('status.failed')}</span>
+                  </div>
+                ) : (
+                  <svg className="w-12 h-12 text-text-muted" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
-                </button>
+                )}
               </div>
-            ) : (
-              <button
-                onClick={handleDelete}
-                className="p-1.5 bg-black/60 hover:bg-red-500 text-white rounded-lg backdrop-blur-sm transition-colors cursor-pointer"
-                title={t('card.delete')}
-              >
-                <Trash2 className="w-4 h-4" />
-              </button>
             )}
           </div>
-        </div>
+        </Link>
 
         {/* 信息区域 */}
         <div className="p-3 sm:p-4">
@@ -230,16 +185,79 @@ export default function TaskCard({ task, onDelete }: TaskCardProps) {
           </div>
 
           {/* 提示词 */}
-          <p className="text-sm text-white line-clamp-2 mb-2 min-h-[2.5rem]">
-            {task.parameters.prompt || t('noPrompt')}
-          </p>
+          <Link href={`/task/${task.taskId}`}>
+            <p className="text-sm text-white line-clamp-2 mb-2 min-h-[2.5rem] hover:text-primary transition-colors cursor-pointer">
+              {task.parameters.prompt || t('noPrompt')}
+            </p>
+          </Link>
 
-          {/* 时间 */}
-          <p className="text-xs text-text-muted">
-            {timeAgo}
-          </p>
+          {/* 时间和删除按钮 */}
+          <div className="flex items-center justify-between">
+            <p className="text-xs text-text-muted">
+              {timeAgo}
+            </p>
+            <button
+              onClick={handleDeleteClick}
+              className="p-1.5 text-text-muted hover:text-red-400 hover:bg-red-500/10 rounded-lg transition-colors cursor-pointer"
+              title={t('card.delete')}
+            >
+              <Trash2 className="w-4 h-4" />
+            </button>
+          </div>
         </div>
       </div>
-    </Link>
+
+      {/* 删除确认弹窗 */}
+      {showConfirmModal && (
+        <div 
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm"
+          onClick={handleCancelDelete}
+        >
+          <div 
+            className="bg-bg-elevated border border-border rounded-2xl p-6 max-w-sm w-full shadow-2xl"
+            onClick={e => e.stopPropagation()}
+          >
+            <div className="text-center mb-6">
+              <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-red-500/20 flex items-center justify-center">
+                <Trash2 className="w-6 h-6 text-red-400" />
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">
+                {t('card.confirmDeleteTitle')}
+              </h3>
+              <p className="text-sm text-text-muted">
+                {t('card.confirmDeleteMessage')}
+              </p>
+            </div>
+
+            <div className="flex gap-3">
+              <button
+                onClick={handleCancelDelete}
+                disabled={isDeleting}
+                className="flex-1 px-4 py-2.5 text-sm font-medium text-white bg-surface-secondary hover:bg-bg-hover border border-border rounded-lg transition-colors cursor-pointer disabled:opacity-50"
+              >
+                {t('card.cancelDelete')}
+              </button>
+              <button
+                onClick={handleConfirmDelete}
+                disabled={isDeleting}
+                className="flex-1 px-4 py-2.5 text-sm font-medium text-white bg-red-500 hover:bg-red-600 rounded-lg transition-colors cursor-pointer disabled:opacity-50 flex items-center justify-center gap-2"
+              >
+                {isDeleting ? (
+                  <>
+                    <svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                    </svg>
+                    <span>{t('card.deleting')}</span>
+                  </>
+                ) : (
+                  t('card.confirmDelete')
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 }

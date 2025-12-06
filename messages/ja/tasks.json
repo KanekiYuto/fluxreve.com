@@ -51,9 +51,12 @@
   },
   "noPrompt": "プロンプトなし",
   "card": {
-    "delete": "タスクを削除",
-    "confirmDelete": "削除を確認",
-    "cancelDelete": "キャンセル"
+    "delete": "削除",
+    "confirmDelete": "削除する",
+    "confirmDeleteTitle": "タスクを削除",
+    "confirmDeleteMessage": "このタスクを削除してもよろしいですか？この操作は取り消せません。",
+    "cancelDelete": "キャンセル",
+    "deleting": "削除中..."
   },
   "errors": {
     "fetchFailed": "タスクの取得に失敗しました",

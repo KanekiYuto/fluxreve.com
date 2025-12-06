@@ -51,9 +51,12 @@
   },
   "noPrompt": "No prompt",
   "card": {
-    "delete": "Delete task",
-    "confirmDelete": "Confirm delete",
-    "cancelDelete": "Cancel"
+    "delete": "Delete",
+    "confirmDelete": "Delete",
+    "confirmDeleteTitle": "Delete Task",
+    "confirmDeleteMessage": "Are you sure you want to delete this task? This action cannot be undone.",
+    "cancelDelete": "Cancel",
+    "deleting": "Deleting..."
   },
   "errors": {
     "fetchFailed": "Failed to fetch tasks",
