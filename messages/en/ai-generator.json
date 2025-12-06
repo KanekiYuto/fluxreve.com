@@ -154,10 +154,6 @@
     "feature3Desc": "Lightning-fast results",
     "progressLabel": "Development Progress",
     "progressHint": "Expected to launch soon",
-    "imageEditor": {
-      "title": "Image Editor",
-      "description": "AI-powered image editing with smart repair, style transfer, background replacement, and more"
-    },
     "moreTools": {
       "title": "More Image Tools",
       "description": "Explore powerful image utilities including upscaling, enhancement, format conversion, and batch processing"

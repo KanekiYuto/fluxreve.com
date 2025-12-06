@@ -13,9 +13,7 @@
   },
   "navigation": {
     "home": "Home",
-    "homeDesc": "Back to homepage",
     "ai-generator": "AI Generator",
-    "aiGeneratorDesc": "Create images and videos with AI",
     "nano-banana-pro": "Nano Banana Pro",
     "nanoBananaProDesc": "Advanced Nano Banana image generation",
     "z-image": "Z-Image",

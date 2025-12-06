@@ -13,9 +13,7 @@
   },
   "navigation": {
     "home": "ホーム",
-    "homeDesc": "ホームページに戻る",
     "ai-generator": "AI生成ツール",
-    "aiGeneratorDesc": "AIで画像や動画を作成",
     "nano-banana-pro": "Nano Banana Pro",
     "nanoBananaProDesc": "高度なNano Banana画像生成",
     "z-image": "Z-Image",

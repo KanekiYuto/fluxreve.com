@@ -154,10 +154,6 @@
     "feature3Desc": "闪电般快速",
     "progressLabel": "开发进度",
     "progressHint": "即将上线",
-    "imageEditor": {
-      "title": "图像编辑",
-      "description": "AI 驱动的图像编辑工具，包括智能修复、风格转换、背景替换等强大功能"
-    },
     "moreTools": {
       "title": "更多图像工具",
       "description": "探索强大的图像工具，包括图像放大、增强最佳化、格式转换、批次处理等实用功能"

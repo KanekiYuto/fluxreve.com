@@ -13,9 +13,7 @@
   },
   "navigation": {
     "home": "首页",
-    "homeDesc": "返回首页",
     "ai-generator": "AI 生成器",
-    "aiGeneratorDesc": "使用 AI 创建图像和视频",
     "nano-banana-pro": "Nano Banana Pro",
     "nanoBananaProDesc": "高级 Nano Banana 图像生成",
     "z-image": "Z-Image",

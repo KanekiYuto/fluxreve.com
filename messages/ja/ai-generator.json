@@ -154,10 +154,6 @@
     "feature3Desc": "超高速な結果",
     "progressLabel": "開発進捗",
     "progressHint": "まもなく公開予定",
-    "imageEditor": {
-      "title": "画像エディタ",
-      "description": "AIを活用した画像編集。スマート修復、スタイル変換、背景置換など"
-    },
     "moreTools": {
       "title": "その他の画像ツール",
       "description": "アップスケーリング、画質強化、フォーマット変換、バッチ処理などの強力な画像ユーティリティを探索"
