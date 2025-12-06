@@ -6,16 +6,45 @@
 // ==================== Header 导航配置 ====================
 // 用于顶部 Header 导航栏（桌面端和移动端菜单）
 
-export interface HeaderNavItem {
-  name: string; // 导航项名称
+// 子菜单项
+export interface HeaderSubItem {
+  name: string; // 导航项名称（用于翻译）
+  href: string; // 导航链接
+  icon: string; // 图标名称
+  description?: string; // 描述文本（用于翻译）
+}
+
+// 单个链接项
+export interface HeaderLinkItem {
+  type: 'link';
+  name: string; // 导航项名称（用于翻译）
   href: string; // 导航链接
 }
 
-export const headerNavigation: HeaderNavItem[] = [
-  { name: 'home', href: '/' },
-  { name: 'ai-generator', href: '/ai-generator' },
-  { name: 'nano-banana-pro', href: '/nano-banana-pro' },
-  { name: 'z-image', href: '/z-image' },
+// 带子菜单的分组项
+export interface HeaderDropdownItem {
+  type: 'dropdown';
+  title: string; // 分组标题（用于翻译）
+  items: HeaderSubItem[]; // 子菜单项
+}
+
+// Header 导航项（单个链接或下拉分组）
+export type HeaderNavEntry = HeaderLinkItem | HeaderDropdownItem;
+
+// Header 导航配置
+export const headerNavigation: HeaderNavEntry[] = [
+  { type: 'link', name: 'home', href: '/' },
+  { type: 'link', name: 'ai-generator', href: '/ai-generator' },
+  {
+    type: 'dropdown',
+    title: 'models', // AI 模型
+    items: [
+      { name: 'nano-banana-pro', href: '/nano-banana-pro', icon: 'banana', description: 'nanoBananaProDesc' },
+      { name: 'z-image', href: '/z-image', icon: 'zap', description: 'zImageDesc' },
+    ],
+  },
+  { type: 'link', name: 'tasks', href: '/tasks' },
+  { type: 'link', name: 'pricing', href: '/pricing' },
 ];
 
 // ==================== Sidebar 导航菜单配置 ====================
@@ -38,24 +67,29 @@ export const navigationGroups: NavGroup[] = [
     items: [
       { name: 'home', href: '/', icon: 'home' },
       { name: 'dashboard', href: '/dashboard', icon: 'dashboard' },
+      { name: 'ai-generator', href: '/ai-generator', icon: 'image' },
+    ],
+  },
+  {
+    title: 'user', // 用户分组
+    items: [
       { name: 'tasks', href: '/tasks', icon: 'tasks' },
       { name: 'quota', href: '/quota', icon: 'quota' },
       { name: 'subscription', href: '/subscription', icon: 'subscription' },
-      { name: 'pricing', href: '/pricing', icon: 'pricing' },
+      { name: 'settings', href: '/settings', icon: 'settings' },
     ],
   },
   {
     title: 'content', // 内容管理分组
     items: [
-      { name: 'ai-generator', href: '/ai-generator', icon: 'image' },
       { name: 'nano-banana-pro', href: '/nano-banana-pro', icon: 'sparkles' },
       { name: 'z-image', href: '/z-image', icon: 'sparkles' },
     ],
   },
   {
-    title: 'settings', // 设置分组
+    title: 'more', // 更多分组
     items: [
-      { name: 'settings', href: '/settings', icon: 'settings' },
+      { name: 'pricing', href: '/pricing', icon: 'pricing' },
       { name: 'help', href: '/help', icon: 'help' },
     ],
   },
@@ -77,11 +111,12 @@ export interface FooterSection {
 
 export const footerSections: FooterSection[] = [
   {
-    title: 'quick-links', // 快速链接
+    title: 'nav', // 导航
     links: [
       { name: 'home', href: '/' },
       { name: 'ai-generator', href: '/ai-generator' },
       { name: 'pricing', href: '/pricing' },
+      { name: 'help', href: '/help' },
     ],
   },
   {
@@ -92,7 +127,7 @@ export const footerSections: FooterSection[] = [
     ],
   },
   {
-    title: 'legal', // 法律相关
+    title: 'company', // 公司相关
     links: [
       { name: 'terms', href: '/terms' },
       { name: 'privacy', href: '/privacy' },

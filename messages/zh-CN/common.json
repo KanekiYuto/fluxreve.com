@@ -13,22 +13,28 @@
   },
   "navigation": {
     "home": "首页",
+    "homeDesc": "返回首页",
     "ai-generator": "AI 生成器",
+    "aiGeneratorDesc": "使用 AI 创建图像和视频",
     "nano-banana-pro": "Nano Banana Pro",
+    "nanoBananaProDesc": "高级 Nano Banana 图像生成",
     "z-image": "Z-Image",
+    "zImageDesc": "高级 AI 图像生成与编辑",
     "dashboard": "仪表板",
-    "tasks": "任务列表",
+    "tasks": "历史记录",
     "quota": "配额管理",
     "subscription": "订阅管理",
     "pricing": "定价方案",
+    "more": "更多",
     "settings": "设置",
     "help": "帮助",
-    "terms": "用户服务协议",
+    "terms": "服务条款",
     "privacy": "隐私政策",
     "main": "主要",
+    "user": "用户",
     "content": "内容",
-    "quick-links": "快速链接",
+    "nav": "导航",
     "models": "AI 模型",
-    "legal": "法律相关"
+    "company": "公司"
   }
 }

@@ -1,15 +1,15 @@
 {
   "seo": {
-    "title": "タスク一覧",
-    "description": "すべてのAI画像生成タスクを確認・管理"
+    "title": "履歴",
+    "description": "すべてのAI画像生成履歴を確認・管理"
   },
   "header": {
-    "title": "タスク一覧",
-    "subtitle": "すべての生成タスクを確認・管理"
+    "title": "履歴",
+    "subtitle": "すべての生成履歴を確認・管理"
   },
   "loginPrompt": {
-    "title": "ログインしてタスクを表示",
-    "description": "ログインするとすべてのAI画像生成タスクを確認できます",
+    "title": "ログインして履歴を表示",
+    "description": "ログインするとすべてのAI画像生成履歴を確認できます",
     "cta": "ログイン"
   },
   "filter": {

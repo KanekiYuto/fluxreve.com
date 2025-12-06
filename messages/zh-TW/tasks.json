@@ -1,15 +1,15 @@
 {
   "seo": {
-    "title": "任務列表",
-    "description": "查看和管理您的所有 AI 圖像生成任務"
+    "title": "歷史記錄",
+    "description": "查看和管理您的所有 AI 圖像生成歷史"
   },
   "header": {
-    "title": "任務列表",
-    "subtitle": "查看和管理您的所有生成任務"
+    "title": "歷史記錄",
+    "subtitle": "查看和管理您的所有生成記錄"
   },
   "loginPrompt": {
-    "title": "登入查看任務",
-    "description": "登入後即可查看您的所有 AI 圖像生成任務",
+    "title": "登入查看歷史",
+    "description": "登入後即可查看您的所有 AI 圖像生成歷史",
     "cta": "立即登入"
   },
   "filter": {

@@ -13,22 +13,28 @@
   },
   "navigation": {
     "home": "Home",
+    "homeDesc": "Back to homepage",
     "ai-generator": "AI Generator",
+    "aiGeneratorDesc": "Create images and videos with AI",
     "nano-banana-pro": "Nano Banana Pro",
+    "nanoBananaProDesc": "Advanced Nano Banana image generation",
     "z-image": "Z-Image",
+    "zImageDesc": "Advanced AI image generation and editing",
     "dashboard": "Dashboard",
-    "tasks": "Tasks",
+    "tasks": "History",
     "quota": "Quota",
     "subscription": "Subscription",
     "pricing": "Pricing",
+    "more": "More",
     "settings": "Settings",
     "help": "Help",
     "terms": "Terms of Service",
     "privacy": "Privacy Policy",
     "main": "Main",
+    "user": "User",
     "content": "Content",
-    "quick-links": "Quick Links",
+    "nav": "Navigation",
     "models": "AI Models",
-    "legal": "Legal"
+    "company": "Company"
   }
 }

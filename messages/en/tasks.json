@@ -1,15 +1,15 @@
 {
   "seo": {
-    "title": "Task List",
-    "description": "View and manage all your AI image generation tasks"
+    "title": "History",
+    "description": "View and manage all your AI image generation history"
   },
   "header": {
-    "title": "Task List",
-    "subtitle": "View and manage all your generation tasks"
+    "title": "History",
+    "subtitle": "View and manage all your generation history"
   },
   "loginPrompt": {
-    "title": "Login to View Tasks",
-    "description": "Sign in to view all your AI image generation tasks",
+    "title": "Login to View History",
+    "description": "Sign in to view all your AI image generation history",
     "cta": "Sign In"
   },
   "filter": {

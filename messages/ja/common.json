@@ -13,22 +13,28 @@
   },
   "navigation": {
     "home": "ホーム",
+    "homeDesc": "ホームページに戻る",
     "ai-generator": "AI生成ツール",
+    "aiGeneratorDesc": "AIで画像や動画を作成",
     "nano-banana-pro": "Nano Banana Pro",
+    "nanoBananaProDesc": "高度なNano Banana画像生成",
     "z-image": "Z-Image",
+    "zImageDesc": "高度なAI画像生成と編集",
     "dashboard": "ダッシュボード",
-    "tasks": "タスク一覧",
+    "tasks": "履歴",
     "quota": "クォータ",
     "subscription": "サブスクリプション",
     "pricing": "料金プラン",
+    "more": "その他",
     "settings": "設定",
     "help": "ヘルプ",
     "terms": "利用規約",
     "privacy": "プライバシーポリシー",
     "main": "メイン",
+    "user": "ユーザー",
     "content": "コンテンツ",
-    "quick-links": "クイックリンク",
+    "nav": "ナビゲーション",
     "models": "AIモデル",
-    "legal": "法的情報"
+    "company": "会社"
   }
 }

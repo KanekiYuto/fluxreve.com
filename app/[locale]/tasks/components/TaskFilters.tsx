@@ -68,11 +68,6 @@ function MultiSelect<T extends string>({
     }
   };
 
-  const clearAll = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    onChange([]);
-  };
-
   return (
     <div ref={ref} className="relative">
       <label className="block text-xs text-text-muted mb-1.5 font-medium">{label}</label>
@@ -90,13 +85,18 @@ function MultiSelect<T extends string>({
         </span>
         <div className="flex items-center gap-1.5 shrink-0">
           {selected.length > 0 && (
-            <button
-              type="button"
-              onClick={clearAll}
+            <span
+              role="button"
+              tabIndex={0}
+              onPointerDown={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                onChange([]);
+              }}
               className="p-1 hover:bg-bg-hover active:bg-bg-hover rounded-md -mr-0.5 cursor-pointer"
             >
               <X className="w-3.5 h-3.5 text-text-muted" />
-            </button>
+            </span>
           )}
           <ChevronDown className={`w-4 h-4 text-text-muted transition-transform ${isOpen ? 'rotate-180' : ''}`} />
         </div>

@@ -13,22 +13,28 @@
   },
   "navigation": {
     "home": "首頁",
+    "homeDesc": "返回首頁",
     "ai-generator": "AI 生成器",
+    "aiGeneratorDesc": "使用 AI 創建圖像和影片",
     "nano-banana-pro": "Nano Banana Pro",
+    "nanoBananaProDesc": "進階 Nano Banana 圖像生成",
     "z-image": "Z-Image",
+    "zImageDesc": "進階 AI 圖像生成與編輯",
     "dashboard": "儀表板",
-    "tasks": "任務列表",
+    "tasks": "歷史記錄",
     "quota": "配額管理",
     "subscription": "訂閱管理",
     "pricing": "定價方案",
+    "more": "更多",
     "settings": "設定",
     "help": "幫助",
-    "terms": "使用者服務協議",
+    "terms": "服務條款",
     "privacy": "隱私政策",
     "main": "主要",
+    "user": "用戶",
     "content": "內容",
-    "quick-links": "快速連結",
+    "nav": "導航",
     "models": "AI 模型",
-    "legal": "法律相關"
+    "company": "公司"
   }
 }

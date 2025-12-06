@@ -28,13 +28,6 @@ export const siteConfig = {
     card: 'summary_large_image' as const,
   },
 
-  // 社交链接
-  links: {
-    github: 'https://github.com',
-    twitter: 'https://twitter.com',
-    linkedin: 'https://linkedin.com',
-  },
-
   // 联系方式
   contact: {
     email: 'support@fluxreve.com',
