@@ -11,11 +11,10 @@ export function useCurrentSubscription(user: any) {
   const hasInitialized = useRef(false);
 
   useEffect(() => {
-    // 如果没有用户且已经初始化过，直接返回
+    // 如果没有用户，直接设置为非加载状态
     if (!user) {
-      if (hasInitialized.current) {
-        return;
-      }
+      setIsLoading(false);
+      setCurrentSubscription(null);
       hasInitialized.current = true;
       return;
     }

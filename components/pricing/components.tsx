@@ -175,7 +175,8 @@ export function renderCTAButton(
   t: any,
   user: any,
   fetchCurrentSubscription: () => void,
-  isLoading: boolean = false
+  isLoading: boolean = false,
+  openLoginModal?: () => void
 ): React.ReactNode {
   const baseClassName = "group/btn w-full h-11 sm:h-12 rounded-lg sm:rounded-xl text-sm sm:text-base font-semibold transition-all duration-300 mb-6 sm:mb-8 relative overflow-hidden";
   const activeClassName = tier.highlighted
@@ -252,6 +253,21 @@ export function renderCTAButton(
           <ArrowIcon />
         </span>
       </UpgradeSubscriptionButton>
+    );
+  }
+
+  // 用户未登录，显示登录按钮
+  if (!user) {
+    return (
+      <button
+        onClick={openLoginModal}
+        className={`${baseClassName} cursor-pointer ${activeClassName}`}
+      >
+        <span className="relative z-10 flex items-center justify-center gap-2">
+          {translation.cta}
+          <ArrowIcon />
+        </span>
+      </button>
     );
   }
 

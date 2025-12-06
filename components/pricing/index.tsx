@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react';
 import { useTranslations } from 'next-intl';
 import useUserStore from '@/store/useUserStore';
+import useModalStore from '@/store/useModalStore';
 import { getUniquePlanTypes, getPricingTiersByPlan, type BillingCycle } from '@/config/pricing';
 import { useCurrentSubscription, getSubscriptionStatus, getQuotaAmount } from './hooks';
 import { BillingCycleToggle, PricingCard, renderCTAButton } from './components';
@@ -11,6 +12,7 @@ import type { TierTranslation } from './types';
 export default function Pricing() {
   const t = useTranslations('pricing');
   const { user } = useUserStore();
+  const { openLoginModal } = useModalStore();
   const [isYearly, setIsYearly] = useState(false);
 
   const tierTranslations = t.raw('tiers') as TierTranslation[];
@@ -70,7 +72,7 @@ export default function Pricing() {
                 status={status}
                 isYearly={isYearly}
                 t={t}
-                renderCTAButton={() => renderCTAButton(status, currentTier, translation, t, user, fetchCurrentSubscription, isLoading)}
+                renderCTAButton={() => renderCTAButton(status, currentTier, translation, t, user, fetchCurrentSubscription, isLoading, openLoginModal)}
               />
             );
           })}
