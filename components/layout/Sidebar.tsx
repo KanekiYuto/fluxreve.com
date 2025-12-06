@@ -27,6 +27,7 @@ import {
   X,
   CreditCard,
   Sparkles,
+  ListTodo,
 } from 'lucide-react';
 
 function classNames(...classes: string[]) {
@@ -38,6 +39,7 @@ function Icon({ name, className }: { name: string; className?: string }) {
   const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
     home: Home,
     dashboard: LayoutDashboard,
+    tasks: ListTodo,
     quota: Zap,
     subscription: CreditCard,
     pricing: Tag,

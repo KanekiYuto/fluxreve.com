@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/db';
 import { mediaGenerationTask, quotaTransaction } from '@/lib/db/schema';
 import { eq, and, isNull } from 'drizzle-orm';
+import { auth } from '@/lib/auth';
 
 /**
  * GET /api/ai-generator/tasks/[taskId]
@@ -86,6 +87,95 @@ export async function GET(
     });
   } catch (error) {
     console.error('Task query error:', error);
+    return NextResponse.json(
+      {
+        success: false,
+        error: error instanceof Error ? error.message : 'Internal server error',
+      },
+      { status: 500 }
+    );
+  }
+}
+
+/**
+ * DELETE /api/ai-generator/tasks/[taskId]
+ * 删除任务（软删除）
+ * 需要身份验证，只能删除自己的任务
+ */
+export async function DELETE(
+  request: NextRequest,
+  { params }: { params: Promise<{ taskId: string }> }
+) {
+  try {
+    // 获取当前用户
+    const session = await auth.api.getSession({
+      headers: request.headers,
+    });
+
+    if (!session?.user?.id) {
+      return NextResponse.json(
+        { success: false, error: 'Unauthorized' },
+        { status: 401 }
+      );
+    }
+
+    const { taskId } = await params;
+
+    // 验证任务ID格式
+    if (!taskId) {
+      return NextResponse.json(
+        { success: false, error: 'Task ID is required' },
+        { status: 400 }
+      );
+    }
+
+    // 查询任务是否存在且属于当前用户
+    const tasks = await db
+      .select({
+        id: mediaGenerationTask.id,
+        userId: mediaGenerationTask.userId,
+      })
+      .from(mediaGenerationTask)
+      .where(
+        and(
+          eq(mediaGenerationTask.taskId, taskId),
+          isNull(mediaGenerationTask.deletedAt)
+        )
+      )
+      .limit(1);
+
+    if (tasks.length === 0) {
+      return NextResponse.json(
+        { success: false, error: 'Task not found' },
+        { status: 404 }
+      );
+    }
+
+    const task = tasks[0];
+
+    // 验证任务属于当前用户
+    if (task.userId !== session.user.id) {
+      return NextResponse.json(
+        { success: false, error: 'Forbidden' },
+        { status: 403 }
+      );
+    }
+
+    // 软删除任务
+    await db
+      .update(mediaGenerationTask)
+      .set({
+        deletedAt: new Date(),
+        updatedAt: new Date(),
+      })
+      .where(eq(mediaGenerationTask.id, task.id));
+
+    return NextResponse.json({
+      success: true,
+      message: 'Task deleted successfully',
+    });
+  } catch (error) {
+    console.error('Task delete error:', error);
     return NextResponse.json(
       {
         success: false,

@@ -21,7 +21,6 @@ export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro'
       description: t('nanoBananaPro.description'),
       badge: 'NEW',
       tags: [
-        { text: 'NSFW', variant: 'highlight' as const },
         { text: t('nanoBananaPro.tags.fast'), variant: 'default' as const },
         { text: t('nanoBananaPro.tags.highQuality'), variant: 'default' as const },
         { text: t('nanoBananaPro.tags.latest'), variant: 'default' as const },

@@ -1,0 +1,67 @@
+{
+  "seo": {
+    "title": "任务列表",
+    "description": "查看和管理您的所有 AI 图像生成任务"
+  },
+  "header": {
+    "title": "任务列表",
+    "subtitle": "查看和管理您的所有生成任务"
+  },
+  "loginPrompt": {
+    "title": "登录查看任务",
+    "description": "登录后即可查看您的所有 AI 图像生成任务",
+    "cta": "立即登录"
+  },
+  "filter": {
+    "all": "全部",
+    "completed": "已完成",
+    "processing": "生成中",
+    "pending": "排队中",
+    "failed": "失败",
+    "statusLabel": "状态",
+    "taskTypeLabel": "类型",
+    "taskType": {
+      "all": "全部",
+      "text-to-image": "文生图",
+      "image-to-image": "图生图"
+    },
+    "modelLabel": "模型",
+    "model": {
+      "all": "全部",
+      "nano-banana-pro": "Nano Banana Pro",
+      "z-image": "Z-Image"
+    },
+    "selectPlaceholder": "请选择...",
+    "selectedCount": "{count} 项已选",
+    "title": "筛选",
+    "clearAll": "清空"
+  },
+  "status": {
+    "completed": "已完成",
+    "processing": "生成中",
+    "pending": "排队中",
+    "failed": "失败"
+  },
+  "empty": {
+    "title": "暂无任务",
+    "subtitle": "开始创作您的第一张 AI 图像吧",
+    "filteredTitle": "没有符合条件的任务",
+    "filteredSubtitle": "尝试切换其他筛选条件",
+    "cta": "开始创作"
+  },
+  "noPrompt": "无提示词",
+  "card": {
+    "delete": "删除任务",
+    "confirmDelete": "确认删除",
+    "cancelDelete": "取消"
+  },
+  "errors": {
+    "fetchFailed": "获取任务列表失败",
+    "retry": "重试"
+  },
+  "pagination": {
+    "prev": "上一页",
+    "next": "下一页"
+  }
+}
+

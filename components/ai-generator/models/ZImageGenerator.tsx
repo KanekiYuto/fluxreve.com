@@ -51,7 +51,7 @@ export default function ZImageGenerator({ modelSelector }: ZImageGeneratorProps)
   const [seed, setSeed] = useState('');
 
   // 积分计算 - Z-Image Turbo 固定 5 积分
-  const requiredCredits = useRequiredCredits('text-to-image', 'z-image-turbo', {
+  const requiredCredits = useRequiredCredits('text-to-image', 'z-image', {
     size,
     seed,
   });

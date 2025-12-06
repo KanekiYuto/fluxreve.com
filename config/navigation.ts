@@ -38,6 +38,7 @@ export const navigationGroups: NavGroup[] = [
     items: [
       { name: 'home', href: '/', icon: 'home' },
       { name: 'dashboard', href: '/dashboard', icon: 'dashboard' },
+      { name: 'tasks', href: '/tasks', icon: 'tasks' },
       { name: 'quota', href: '/quota', icon: 'quota' },
       { name: 'subscription', href: '/subscription', icon: 'subscription' },
       { name: 'pricing', href: '/pricing', icon: 'pricing' },

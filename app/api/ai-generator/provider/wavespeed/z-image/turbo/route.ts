@@ -19,7 +19,7 @@ export async function POST(request: NextRequest) {
   return handleWavespeedRequest(request, {
     endpoint: 'wavespeed-ai/z-image/turbo',
     taskType: 'text-to-image',
-    model: 'z-image-turbo',
+    model: 'z-image',
 
     // 参数处理回调函数
     processParams: (body: ZImageTurboRequest): ProcessParamsResult | NextResponse => {

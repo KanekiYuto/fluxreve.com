@@ -8,8 +8,8 @@ export const MODEL_DISPLAY_NAMES: Record<string, string> = {
   'nano-banana-pro': 'Nano Banana Pro',
   'nano-banana': 'Nano Banana',
 
-  // 其他模型可以在这里添加
-  // 'model-id': 'Display Name',
+  // Z-Image 系列模型
+  'z-image': 'Z-Image',
 };
 
 /**

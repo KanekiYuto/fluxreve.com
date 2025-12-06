@@ -1,0 +1,67 @@
+{
+  "seo": {
+    "title": "Task List",
+    "description": "View and manage all your AI image generation tasks"
+  },
+  "header": {
+    "title": "Task List",
+    "subtitle": "View and manage all your generation tasks"
+  },
+  "loginPrompt": {
+    "title": "Login to View Tasks",
+    "description": "Sign in to view all your AI image generation tasks",
+    "cta": "Sign In"
+  },
+  "filter": {
+    "all": "All",
+    "completed": "Completed",
+    "processing": "Processing",
+    "pending": "Pending",
+    "failed": "Failed",
+    "statusLabel": "Status",
+    "taskTypeLabel": "Type",
+    "taskType": {
+      "all": "All",
+      "text-to-image": "Text to Image",
+      "image-to-image": "Image to Image"
+    },
+    "modelLabel": "Model",
+    "model": {
+      "all": "All",
+      "nano-banana-pro": "Nano Banana Pro",
+      "z-image": "Z-Image"
+    },
+    "selectPlaceholder": "Select...",
+    "selectedCount": "{count} selected",
+    "title": "Filters",
+    "clearAll": "Clear"
+  },
+  "status": {
+    "completed": "Completed",
+    "processing": "Processing",
+    "pending": "Pending",
+    "failed": "Failed"
+  },
+  "empty": {
+    "title": "No Tasks Yet",
+    "subtitle": "Start creating your first AI image",
+    "filteredTitle": "No Matching Tasks",
+    "filteredSubtitle": "Try changing the filter options",
+    "cta": "Start Creating"
+  },
+  "noPrompt": "No prompt",
+  "card": {
+    "delete": "Delete task",
+    "confirmDelete": "Confirm delete",
+    "cancelDelete": "Cancel"
+  },
+  "errors": {
+    "fetchFailed": "Failed to fetch tasks",
+    "retry": "Retry"
+  },
+  "pagination": {
+    "prev": "Previous",
+    "next": "Next"
+  }
+}
+

@@ -19,7 +19,7 @@ module.exports = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL,
   generateRobotsTxt: true, // 生成 robots.txt 文件
   generateIndexSitemap: false, // 对于小型站点，不需要索引 sitemap
-  exclude: ['/api/*', '/admin/*', '/dashboard', '/checkout', '/portal', '/settings', '/subscription', '/quota', '/v/*', 'task/*'], // 排除 API 路由、管理页面和需要登录的页面
+  exclude: ['/api/*', '/admin/*', '/dashboard', '/tasks', '/checkout', '/portal', '/settings', '/subscription', '/quota', '/v/*', '/task/*'], // 排除 API 路由、管理页面和需要登录的页面
 
   // 动态支持多语言
   alternateRefs: locales.map((locale) => ({
@@ -30,7 +30,7 @@ module.exports = {
   })),
 
   // 添加额外的路径（因为使用了 [locale] 动态路由）
-  additionalPaths: async (config) => {
+  additionalPaths: async (_config) => {
     const paths = [];
 
     // 为每个语言生成所有路由
@@ -62,7 +62,7 @@ module.exports = {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/admin/', '/dashboard', '/checkout', '/portal', '/settings', '/subscription', '/quota'],
+        disallow: ['/api/', '/admin/', '/dashboard', '/tasks', '/checkout', '/portal', '/settings', '/subscription', '/quota', '/v/', '/task/'],
       },
     ],
   },

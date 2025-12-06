@@ -45,8 +45,8 @@ function calculateTextToImageCredits(model: string, parameters: Record<string, a
   }
 
   // Z-Image Turbo 模型
-  if (model === 'z-image-turbo') {
-    return zImageTurboTextToImageCredits(parameters);
+  if (model === 'z-image') {
+    return zImageTextToImageCredits(parameters);
   }
 
   // 未匹配到生成器，返回默认配额
@@ -101,9 +101,9 @@ function nanoBananaProImageToImageCredits(parameters: Record<string, any>): numb
 }
 
 /**
- * Z-Image Turbo 文生图配额计算
+ * Z-Image 文生图配额计算
  * 固定 5 积分每张图
  */
-function zImageTurboTextToImageCredits(_parameters: Record<string, any>): number {
+function zImageTextToImageCredits(_parameters: Record<string, any>): number {
   return 5;
 }

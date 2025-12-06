@@ -22,7 +22,6 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro' 
       description: t('nanoBananaPro.description'),
       badge: 'NEW',
       tags: [
-        { text: 'NSFW', variant: 'highlight' as const },
         { text: t('nanoBananaPro.tags.fast'), variant: 'default' as const },
         { text: t('nanoBananaPro.tags.highQuality'), variant: 'default' as const },
         { text: t('nanoBananaPro.tags.latest'), variant: 'default' as const },
@@ -34,6 +33,7 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro' 
       description: t('zImage.description'),
       badge: 'HOT',
       tags: [
+        { text: 'NSFW', variant: 'highlight' as const },
         { text: t('zImage.tags.ultraFast'), variant: 'default' as const },
         { text: t('zImage.tags.affordable'), variant: 'default' as const },
         { text: t('zImage.tags.quality'), variant: 'default' as const },
