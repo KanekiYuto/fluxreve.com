@@ -81,7 +81,9 @@
     "cancel": "Cancel",
     "uploadHint": "Hint: You can drag and drop a file or click to upload",
     "uploading": "Uploading...",
-    "addItem": "Add Item"
+    "addItem": "Add Item",
+    "privateMode": "Private Mode",
+    "privateModeDesc": "Results will only be visible to you"
   },
   "error": {
     "required": "Required",

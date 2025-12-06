@@ -81,7 +81,9 @@
     "cancel": "取消",
     "uploadHint": "提示：您可以拖放檔案或點擊上傳",
     "uploading": "上傳中...",
-    "addItem": "新增項目"
+    "addItem": "新增項目",
+    "privateMode": "私有模式",
+    "privateModeDesc": "開啟後生成結果僅自己可見"
   },
   "error": {
     "required": "需要",

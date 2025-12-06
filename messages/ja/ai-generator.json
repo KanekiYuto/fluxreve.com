@@ -81,7 +81,9 @@
     "cancel": "キャンセル",
     "uploadHint": "ヒント：ファイルをドラッグ＆ドロップまたはクリックしてアップロード",
     "uploading": "アップロード中...",
-    "addItem": "項目を追加"
+    "addItem": "項目を追加",
+    "privateMode": "プライベートモード",
+    "privateModeDesc": "オンにすると生成結果は自分だけに表示されます"
   },
   "error": {
     "required": "必須",
