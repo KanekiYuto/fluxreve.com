@@ -49,6 +49,7 @@ export default function ZImageGenerator({ modelSelector }: ZImageGeneratorProps)
   const [prompt, setPrompt] = useState('');
   const [size, setSize] = useState('1024*1024');
   const [seed, setSeed] = useState('');
+  const [isPrivate, setIsPrivate] = useState(false);
 
   // 积分计算 - Z-Image Turbo 固定 5 积分
   const requiredCredits = useRequiredCredits('text-to-image', 'z-image', {
@@ -116,6 +117,7 @@ export default function ZImageGenerator({ modelSelector }: ZImageGeneratorProps)
       size,
       enable_base64_output: false,
       enable_sync_mode: false,
+      is_private: isPrivate,
     };
 
     // 如果设置了 seed，添加到参数中
@@ -129,7 +131,7 @@ export default function ZImageGenerator({ modelSelector }: ZImageGeneratorProps)
       body,
       currentPrompt: prompt,
     });
-  }, [prompt, size, seed, validateForm, setError, generate]);
+  }, [prompt, size, seed, isPrivate, validateForm, setError, generate]);
 
   // ==================== 渲染函数 ====================
 
@@ -160,7 +162,7 @@ export default function ZImageGenerator({ modelSelector }: ZImageGeneratorProps)
       />
 
       {/* 高级选项 */}
-      <AdvancedSettings>
+      <AdvancedSettings isPrivate={isPrivate} onPrivateChange={setIsPrivate}>
         <SeedInput value={seed} onChange={setSeed} />
       </AdvancedSettings>
     </div>

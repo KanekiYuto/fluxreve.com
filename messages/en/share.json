@@ -11,8 +11,8 @@
     "tip": "Please refresh the page later to view the result"
   },
   "actions": {
-    "copyLink": "Copy Link",
-    "linkCopied": "Link Copied",
+    "copyLink": "Copy Share Link",
+    "linkCopied": "Copied",
     "share": "Share",
     "shareTitle": "Share to",
     "shareToX": "Share to X",

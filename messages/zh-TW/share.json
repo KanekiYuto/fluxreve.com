@@ -11,8 +11,8 @@
     "tip": "請稍後刷新頁面查看結果"
   },
   "actions": {
-    "copyLink": "複製連結",
-    "linkCopied": "已複製連結",
+    "copyLink": "複製分享連結",
+    "linkCopied": "已複製",
     "share": "分享",
     "shareTitle": "分享到",
     "shareToX": "分享到 X",

@@ -45,6 +45,8 @@ interface TaskData {
   completedAt?: string;
   durationMs?: number | null;
   quotaConsumed?: number | null;
+  isPrivate?: boolean;
+  isNsfw?: boolean;
 }
 
 export default function TaskDetailsPage() {
@@ -123,6 +125,7 @@ export default function TaskDetailsPage() {
     startedAt: task.startedAt ? new Date(task.startedAt) : null,
     completedAt: task.completedAt ? new Date(task.completedAt) : null,
   });
+
   const durationText = formatDuration(durationMs);
 
   // 格式化时间
@@ -139,7 +142,7 @@ export default function TaskDetailsPage() {
             <span>{model}</span>
             <span aria-hidden="true">•</span>
             <time dateTime={task.completedAt}>
-              {format(new Date(task.completedAt), 'yyyy-MM-dd HH:mm')}
+              {format(new Date(task.completedAt), 'yyyy-MM-dd HH:mm:ss')}
             </time>
           </div>
         </div>
@@ -164,25 +167,28 @@ export default function TaskDetailsPage() {
                   {/* 详细信息网格 */}
                   <div className="grid grid-cols-2 gap-3">
                     <InfoCard label={t('aiModel')} value={model} fullWidth />
+                    <InfoCard label={t('duration')} value={durationText} />
+                    <InfoCard label={t('quotaConsumed')} value={String(task.quotaConsumed)} />
                     <PromptCard prompt={prompt} />
                     {size && <InfoCard label={t('size')} value={size} />}
                     {resolution && <InfoCard label={t('resolution')} value={resolution.toUpperCase()} />}
                     {aspectRatio && <InfoCard label={t('aspectRatio')} value={aspectRatio} />}
                     {seed && <InfoCard label={t('seed')} value={seed} />}
-                    {durationMs !== null && <InfoCard label={t('duration')} value={durationText} />}
-                    {task.quotaConsumed && <InfoCard label={t('quotaConsumed')} value={String(task.quotaConsumed)} />}
+                    <InfoCard label={t('isPrivate')} value={task.isPrivate ? t('yes') : t('no')} />
+                    <InfoCard label={t('isNsfw')} value={task.isNsfw ? t('yes') : t('no')} />
                     <InfoCard label={t('createdAt')} value={createdTime} fullWidth />
                     {completedTime && <InfoCard label={t('completedAt')} value={completedTime} fullWidth />}
                   </div>
                 </div>
 
                 {/* 操作按钮 */}
-                <div className="mt-6">
+                <div className='mt-6'>
                   <ActionButtons
-                    shareUrl={typeof window !== 'undefined' ? window.location.href : ''}
+                    shareId={task.shareId}
                     prompt={prompt}
                     imageUrl={task.results?.[0]?.url}
                     allImages={task.results?.map(r => r.url)}
+                    isPrivate={task.isPrivate}
                   />
                 </div>
               </aside>

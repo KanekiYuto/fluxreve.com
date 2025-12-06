@@ -94,6 +94,9 @@ export async function handleRequest(
     // 1. 解析请求参数
     const body = await request.json();
 
+    // 提取公共参数 is_private
+    const isPrivate: boolean = body.is_private;
+
     // 2. 通过回调函数处理参数
     const processResult = await processParams(body);
 
@@ -173,6 +176,7 @@ export async function handleRequest(
       parameters: dbParams,
       consumeTransactionId: consumeResult.transactionId!,
       startedAt: new Date(),
+      isPrivate: isPrivate,
     });
 
     // 9. 返回成功响应

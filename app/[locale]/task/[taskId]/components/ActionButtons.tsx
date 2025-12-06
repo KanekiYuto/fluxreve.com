@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
-import { Download, MoreVertical } from 'lucide-react';
+import { Download, MoreVertical, Link2, Check } from 'lucide-react';
 import { downloadImage, downloadImages } from '@/lib/download';
 import {
   Popover,
@@ -12,17 +12,33 @@ import {
 } from '@/components/ui/popover';
 
 interface ActionButtonsProps {
-  shareUrl: string;
+  shareId: string;
   prompt: string;
   imageUrl?: string; // 当前图片下载地址
   allImages?: string[]; // 所有图片 URL 数组
+  isPrivate?: boolean; // 是否私有
 }
 
-export default function ActionButtons({ shareUrl, prompt, imageUrl, allImages }: ActionButtonsProps) {
+export default function ActionButtons({ shareId, prompt, imageUrl, allImages, isPrivate }: ActionButtonsProps) {
   const t = useTranslations('share.actions');
   const [morePopoverOpen, setMorePopoverOpen] = useState(false);
   const [downloading, setDownloading] = useState(false);
   const [downloadingAll, setDownloadingAll] = useState(false);
+  const [linkCopied, setLinkCopied] = useState(false);
+
+  const handleCopyLink = async () => {
+    if (!shareId) return;
+    
+    try {
+      // 构建分享链接 /v/{shareId}
+      const shareUrl = `${window.location.origin}/v/${shareId}`;
+      await navigator.clipboard.writeText(shareUrl);
+      setLinkCopied(true);
+      setTimeout(() => setLinkCopied(false), 2000);
+    } catch (err) {
+      console.error('Failed to copy link:', err);
+    }
+  };
 
   const handleDownload = async () => {
     if (!imageUrl || downloading) return;
@@ -55,7 +71,23 @@ export default function ActionButtons({ shareUrl, prompt, imageUrl, allImages }:
   return (
     <div className="flex items-center justify-between gap-3">
       <div className="flex items-center gap-1">
-        {/* 下载按钮 - 使用 Popover */}
+        {/* 复制链接按钮 */}
+        <button
+          type="button"
+          onClick={handleCopyLink}
+          disabled={!shareId || isPrivate}
+          className="p-1.5 rounded-md hover:bg-zinc-700/50 transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+          aria-label={linkCopied ? t('linkCopied') : t('copyLink')}
+          title={linkCopied ? t('linkCopied') : t('copyLink')}
+        >
+          {linkCopied ? (
+            <Check className="w-4 h-4 text-green-400" />
+          ) : (
+            <Link2 className="w-4 h-4 text-white" />
+          )}
+        </button>
+
+        {/* 更多操作 - 使用 Popover */}
         <Popover open={morePopoverOpen} onOpenChange={setMorePopoverOpen}>
           <PopoverTrigger asChild>
             <button

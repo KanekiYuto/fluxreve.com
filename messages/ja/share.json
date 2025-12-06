@@ -11,8 +11,8 @@
     "tip": "後でページを更新して結果を表示してください"
   },
   "actions": {
-    "copyLink": "リンクをコピー",
-    "linkCopied": "リンクをコピーしました",
+    "copyLink": "共有リンクをコピー",
+    "linkCopied": "コピーしました",
     "share": "共有",
     "shareTitle": "共有先",
     "shareToX": "Xに共有",

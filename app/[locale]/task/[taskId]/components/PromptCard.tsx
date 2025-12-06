@@ -63,7 +63,7 @@ export default function PromptCard({ prompt }: PromptCardProps) {
           </Tooltip>
         </TooltipProvider>
       </div>
-      <div className="text-sm text-white line-clamp-3" title={prompt}>
+      <div className="text-sm text-white line-clamp-2" title={prompt}>
         {prompt}
       </div>
     </div>

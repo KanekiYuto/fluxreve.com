@@ -73,6 +73,7 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
   const [seed, setSeed] = useState('');
   const [resolution, setResolution] = useState<Resolution>('1k');
   const [outputFormat, setOutputFormat] = useState<OutputFormat>('png');
+  const [isPrivate, setIsPrivate] = useState(false);
 
   // 积分计算
   const requiredCredits = useRequiredCredits('text-to-image', 'nano-banana-pro', {
@@ -154,6 +155,7 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
     const body: Record<string, any> = {
       prompt,
       output_format: outputFormat,
+      is_private: isPrivate,
     };
 
     // 文生图模式的参数
@@ -174,7 +176,7 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
       body,
       currentPrompt: prompt,
     });
-  }, [mode, prompt, aspectRatio, resolution, outputFormat, seed, inputImages, validateForm, setError, generate]);
+  }, [mode, prompt, aspectRatio, resolution, outputFormat, seed, inputImages, isPrivate, validateForm, setError, generate]);
 
   // ==================== 渲染函数 ====================
 
@@ -241,7 +243,7 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
       />
 
       {/* 高级选项 */}
-      <AdvancedSettings>
+      <AdvancedSettings isPrivate={isPrivate} onPrivateChange={setIsPrivate}>
         {/* 宽高比选择 */}
         <FormSelect
           id="aspectRatio"
