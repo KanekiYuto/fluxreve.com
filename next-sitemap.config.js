@@ -59,7 +59,7 @@ const allRoutes = [...staticRoutes, ...publicSharePages];
 module.exports = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL,
   generateRobotsTxt: true,
-  generateIndexSitemap: true, // 小型站点不需要索引 sitemap
+  generateIndexSitemap: false, // 小型站点不需要索引 sitemap
   exclude: excludePaths,
 
   // 多语言 alternate refs
@@ -106,6 +106,41 @@ module.exports = {
         allow: '/',
         disallow: disallowPaths,
       },
+      // AI 爬虫友好配置
+      {
+        userAgent: 'GPTBot',
+        allow: '/',
+        disallow: disallowPaths,
+      },
+      {
+        userAgent: 'ChatGPT-User',
+        allow: '/',
+        disallow: disallowPaths,
+      },
+      {
+        userAgent: 'Claude-Web',
+        allow: '/',
+        disallow: disallowPaths,
+      },
+      {
+        userAgent: 'Anthropic-AI',
+        allow: '/',
+        disallow: disallowPaths,
+      },
+      {
+        userAgent: 'Google-Extended',
+        allow: '/',
+        disallow: disallowPaths,
+      },
+      {
+        userAgent: 'PerplexityBot',
+        allow: '/',
+        disallow: disallowPaths,
+      },
+    ],
+    // 添加额外的指令
+    additionalSitemaps: [
+      `${process.env.NEXT_PUBLIC_SITE_URL}/llms.txt`,
     ],
   },
 };

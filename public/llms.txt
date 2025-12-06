@@ -1,0 +1,38 @@
+# FluxReve
+
+> AI-powered image generation platform with multiple cutting-edge models
+
+FluxReve is a professional AI image generation service that enables users to create stunning images using state-of-the-art AI models.
+
+## Core Features
+
+- **Text-to-Image**: Generate images from text descriptions
+- **Image-to-Image**: Transform existing images with AI
+- **Multiple AI Models**: Support for various models including Nano Banana Pro, Z-Image, Flux 2 Pro, and Seedream 4.5
+- **Multi-language Support**: Available in English, Chinese (Simplified & Traditional), and Japanese
+
+## Available Models
+
+- **Nano Banana Pro**: Fast generation with high quality output
+- **Z-Image**: Photorealistic image generation with accurate text rendering, sub-second generation
+- **Flux 2 Pro**: Professional-grade image generation model
+- **Seedream 4.5**: ByteDance's ultra-high quality image generation with large resolution support
+
+## API Documentation
+
+For detailed API documentation, please visit: /help
+
+## Links
+
+- Homepage: /
+- AI Generator: /ai-generator
+- Pricing: /pricing
+- Help Center: /help
+- Terms of Service: /terms
+- Privacy Policy: /privacy
+
+## Contact
+
+- Email: support@fluxreve.com
+- Website: https://fluxreve.com
+

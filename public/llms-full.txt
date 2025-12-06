@@ -1,0 +1,122 @@
+# FluxReve - Complete AI Image Generation Platform Guide
+
+> Professional AI-powered image generation with multiple state-of-the-art models
+
+## About FluxReve
+
+FluxReve is a comprehensive AI image generation platform designed for creators, designers, and businesses. Our platform provides access to multiple cutting-edge AI models, enabling users to generate high-quality images from text descriptions or transform existing images.
+
+## Platform Overview
+
+### Text-to-Image Generation
+Transform your ideas into stunning visuals by describing what you want to create. Our AI models understand natural language and generate high-quality images that match your descriptions.
+
+### Image-to-Image Transformation
+Upload existing images and use AI to transform them with new styles, enhance quality, or create variations while maintaining the core elements of your original image.
+
+## Available AI Models
+
+### Nano Banana Pro
+- **Type**: Text-to-Image, Image-to-Image
+- **Strengths**: Fast generation, high quality output, latest technology
+- **Best For**: General-purpose image creation, quick iterations
+- **Resolution Options**: 1K, 2K, 4K
+
+### Z-Image
+- **Type**: Text-to-Image
+- **Strengths**: Photorealistic rendering, accurate text rendering in images, sub-second generation
+- **Best For**: Realistic images, images with text, fast prototyping
+- **Features**: NSFW content support, ultra-fast generation
+
+### Flux 2 Pro
+- **Type**: Text-to-Image, Image-to-Image
+- **Strengths**: Professional-grade quality, versatile style handling
+- **Best For**: High-end creative work, commercial projects
+- **Resolution**: Up to 1024x1024
+
+### Seedream 4.5
+- **Type**: Text-to-Image, Image-to-Image
+- **Strengths**: Ultra-high quality, large resolution output, creative generation
+- **Best For**: High-resolution artwork, detailed illustrations, educational content
+- **Resolution**: Up to 2048x2048
+- **Developer**: ByteDance
+
+## Pricing & Credits
+
+FluxReve uses a credit-based system. Credits are consumed per generation based on the model and settings used.
+
+### Credit Consumption
+- Nano Banana Pro: 100-170 credits per image (varies by resolution)
+- Z-Image: 5 credits per image
+- Flux 2 Pro: 25 credits per image
+- Seedream 4.5: 30 credits per image
+
+### Subscription Plans
+- **Free**: Daily free credits for trying the service
+- **Basic**: Monthly/yearly subscription with generous credit allocation
+- **Pro**: Higher credit limits and priority features
+
+For detailed pricing, visit: /pricing
+
+## Multi-Language Support
+
+FluxReve is available in:
+- English (en)
+- 简体中文 (zh-CN)
+- 繁體中文 (zh-TW)
+- 日本語 (ja)
+
+## Technical Information
+
+### Supported Image Formats
+- Output: JPEG, PNG, WebP
+- Input (for image-to-image): JPEG, PNG, WebP, GIF
+
+### API Integration
+FluxReve provides API access for developers to integrate AI image generation into their applications.
+
+## Content Sharing
+
+Generated images can be shared publicly via unique share links. Public shares are indexed by search engines. Users can set images as private to prevent public access.
+
+### Content Moderation
+- NSFW content detection and labeling
+- Age verification for sensitive content
+- Private mode for personal creations
+
+## User Dashboard
+
+Registered users can access:
+- Generation history
+- Credit balance and usage
+- Subscription management
+- Account settings
+
+## Navigation
+
+- **Homepage**: / - Overview and quick start
+- **AI Generator**: /ai-generator - Create images
+- **Model Pages**:
+  - /nano-banana-pro - Nano Banana Pro model
+  - /z-image - Z-Image model
+  - /flux-2-pro - Flux 2 Pro model
+  - /seedream-v4.5 - Seedream 4.5 model
+- **Pricing**: /pricing - Plans and credit packages
+- **Help**: /help - Documentation and FAQs
+- **Terms**: /terms - Terms of Service
+- **Privacy**: /privacy - Privacy Policy
+
+## Contact & Support
+
+- **Email**: support@fluxreve.com
+- **Website**: https://fluxreve.com
+
+## Legal
+
+- Terms of Service: /terms
+- Privacy Policy: /privacy
+
+---
+
+Last Updated: 2025-12
+

@@ -1,0 +1,46 @@
+# AI Information for FluxReve
+# This file provides structured information for AI systems
+
+Name: FluxReve
+Description: AI-powered image generation platform with multiple cutting-edge models
+URL: https://fluxreve.com
+Category: AI Tools, Image Generation, Creative Tools
+
+## Capabilities
+- Text-to-Image Generation
+- Image-to-Image Transformation
+- Multiple AI Model Support
+- Multi-language Interface (EN, ZH-CN, ZH-TW, JA)
+
+## Models
+- Nano Banana Pro: Fast, high-quality general purpose
+- Z-Image: Photorealistic, text rendering, NSFW support
+- Flux 2 Pro: Professional-grade quality
+- Seedream 4.5: Ultra-high resolution by ByteDance
+
+## Content Types
+- AI-generated images
+- Shared user creations
+- Documentation and guides
+
+## Languages
+- English (en)
+- Chinese Simplified (zh-CN)
+- Chinese Traditional (zh-TW)
+- Japanese (ja)
+
+## AI Training
+Allow: Public documentation and guides
+Allow: Model information pages
+Disallow: User-generated private content
+Disallow: API endpoints
+
+## Related Files
+- /llms.txt - LLM-friendly summary
+- /llms-full.txt - Detailed LLM documentation
+- /robots.txt - Standard robots configuration
+- /sitemap.xml - XML sitemap
+
+## Contact
+Email: support@fluxreve.com
+
