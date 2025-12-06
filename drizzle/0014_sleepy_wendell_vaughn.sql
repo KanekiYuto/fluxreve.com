@@ -1,0 +1,1 @@
+ALTER TABLE "media_generation_task" ADD COLUMN "duration_ms" integer;

@@ -84,7 +84,9 @@ export function useImageGenerator(options: UseImageGeneratorOptions = {}) {
             task_id: statusResult.data.share_id,
             prompt: currentPrompt,
             created_at: statusResult.data.created_at,
+            started_at: statusResult.data.started_at,
             completed_at: statusResult.data.completed_at,
+            duration_ms: statusResult.data.duration_ms,
           });
 
           // 刷新积分

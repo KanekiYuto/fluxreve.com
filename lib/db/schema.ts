@@ -184,12 +184,20 @@ export const mediaGenerationTask = pgTable('media_generation_task', {
   startedAt: timestamp('started_at').notNull(),
   // 任务完成时间
   completedAt: timestamp('completed_at'),
+  // 生成耗时 (毫秒)
+  durationMs: integer('duration_ms'),
   // 创建时间
   createdAt: timestamp('created_at').notNull().defaultNow(),
   // 更新时间
   updatedAt: timestamp('updated_at').notNull().defaultNow(),
   // 删除时间 (软删除标记)
   deletedAt: timestamp('deleted_at'),
+  // 是否私有 (私有任务不对外展示)
+  isPrivate: boolean('is_private').notNull().default(false),
+  // 是否包含 NSFW 内容
+  isNsfw: boolean('is_nsfw').notNull().default(false),
+  // NSFW 内容审核详情 (JSON 格式: {harassment, hate, sexual, sexual/minors, violence})
+  nsfwDetails: jsonb('nsfw_details'),
 });
 
 // 配额交易记录表

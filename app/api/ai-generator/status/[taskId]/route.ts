@@ -99,7 +99,9 @@ export async function GET(
         data: {
           ...baseData,
           results: task.results,
+          started_at: task.startedAt,
           completed_at: task.completedAt,
+          duration_ms: task.durationMs,
         },
       });
     }

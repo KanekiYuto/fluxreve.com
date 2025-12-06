@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Share2, Download } from 'lucide-react';
 import { downloadImage, downloadImages } from '@/lib/download';
+import { getTaskDuration, formatDuration } from '@/lib/utils';
 import {
   Popover,
   PopoverContent,
@@ -21,7 +22,9 @@ export interface TaskInfo {
   task_id?: string;
   prompt: string;
   created_at: string;
+  started_at?: string;
   completed_at: string;
+  duration_ms?: number | null;
 }
 
 interface MediaGalleryProps {
@@ -167,11 +170,11 @@ export default function MediaGallery({
                     <div className="p-3 rounded-xl bg-muted/20 border border-border/10">
                       <p className="text-xs text-text-muted mb-1.5">{t('generationTime')}</p>
                       <p className="text-sm text-white font-semibold truncate">
-                        {t('seconds', {
-                          seconds: Math.round(
-                            (new Date(taskInfo.completed_at).getTime() - new Date(taskInfo.created_at).getTime()) / 1000
-                          )
-                        })}
+                        {formatDuration(getTaskDuration({
+                          durationMs: taskInfo.duration_ms,
+                          startedAt: taskInfo.started_at ? new Date(taskInfo.started_at) : new Date(taskInfo.created_at),
+                          completedAt: new Date(taskInfo.completed_at),
+                        }))}
                       </p>
                     </div>
 

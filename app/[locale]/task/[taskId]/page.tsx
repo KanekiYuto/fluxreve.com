@@ -5,6 +5,7 @@ import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { format } from 'date-fns';
 import { getModelDisplayName } from '@/config/model-names';
+import { getTaskDuration, formatDuration } from '@/lib/utils';
 import ImageCarousel from './components/ImageCarousel';
 import InfoCard from './components/InfoCard';
 import PromptCard from './components/PromptCard';
@@ -42,6 +43,7 @@ interface TaskData {
   createdAt: string;
   startedAt: string;
   completedAt?: string;
+  durationMs?: number | null;
   quotaConsumed?: number | null;
 }
 
@@ -115,10 +117,13 @@ export default function TaskDetailsPage() {
   const seed = task.parameters?.seed;
   const size = task.parameters?.size;
 
-  // 计算生成耗时（秒）
-  const duration = task.completedAt && task.startedAt
-    ? Math.round((new Date(task.completedAt).getTime() - new Date(task.startedAt).getTime()) / 1000)
-    : null;
+  // 计算生成耗时
+  const durationMs = getTaskDuration({
+    durationMs: task.durationMs,
+    startedAt: task.startedAt ? new Date(task.startedAt) : null,
+    completedAt: task.completedAt ? new Date(task.completedAt) : null,
+  });
+  const durationText = formatDuration(durationMs);
 
   // 格式化时间
   const createdTime = format(new Date(task.createdAt), 'yyyy-MM-dd HH:mm:ss');
@@ -164,7 +169,7 @@ export default function TaskDetailsPage() {
                     {resolution && <InfoCard label={t('resolution')} value={resolution.toUpperCase()} />}
                     {aspectRatio && <InfoCard label={t('aspectRatio')} value={aspectRatio} />}
                     {seed && <InfoCard label={t('seed')} value={seed} />}
-                    {duration !== null && <InfoCard label={t('duration')} value={`${duration}s`} />}
+                    {durationMs !== null && <InfoCard label={t('duration')} value={durationText} />}
                     {task.quotaConsumed && <InfoCard label={t('quotaConsumed')} value={String(task.quotaConsumed)} />}
                     <InfoCard label={t('createdAt')} value={createdTime} fullWidth />
                     {completedTime && <InfoCard label={t('completedAt')} value={completedTime} fullWidth />}

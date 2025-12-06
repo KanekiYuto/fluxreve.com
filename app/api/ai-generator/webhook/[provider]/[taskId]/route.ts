@@ -100,13 +100,23 @@ function processWebhookByProvider(provider: string, payload: any): ProcessedWebh
 }
 
 /**
+ * 计算任务耗时（毫秒）
+ */
+function calculateDuration(startedAt: Date | null): number | null {
+  if (!startedAt) return null;
+  return Date.now() - new Date(startedAt).getTime();
+}
+
+/**
  * 处理任务完成
  */
-async function handleTaskCompleted(taskId: string, outputs: string[]) {
+async function handleTaskCompleted(taskId: string, outputs: string[], startedAt: Date | null) {
   const results = outputs.map((url) => ({
     url,
     type: 'image',
   }));
+
+  const durationMs = calculateDuration(startedAt);
 
   await db
     .update(mediaGenerationTask)
@@ -115,18 +125,20 @@ async function handleTaskCompleted(taskId: string, outputs: string[]) {
       progress: 100,
       results,
       completedAt: new Date(),
+      durationMs,
       updatedAt: new Date(),
     })
     .where(eq(mediaGenerationTask.taskId, taskId));
 
-  console.log(`Task completed: ${taskId}`, results);
+  console.log(`Task completed: ${taskId}, duration: ${durationMs}ms`, results);
 }
 
 /**
  * 处理任务失败并退款
  */
-async function handleTaskFailed(taskId: string, consumeTransactionId: string | null, error?: string) {
+async function handleTaskFailed(taskId: string, consumeTransactionId: string | null, startedAt: Date | null, error?: string) {
   const errorMessage = error || 'Unknown error';
+  const durationMs = calculateDuration(startedAt);
 
   // 如果有消费交易，执行退款
   if (consumeTransactionId) {
@@ -149,6 +161,7 @@ async function handleTaskFailed(taskId: string, consumeTransactionId: string | n
           },
           refundTransactionId: refundResult.transactionId,
           completedAt: new Date(),
+          durationMs,
           updatedAt: new Date(),
         })
         .where(eq(mediaGenerationTask.taskId, taskId));
@@ -166,6 +179,7 @@ async function handleTaskFailed(taskId: string, consumeTransactionId: string | n
             refundError: refundResult.error,
           },
           completedAt: new Date(),
+          durationMs,
           updatedAt: new Date(),
         })
         .where(eq(mediaGenerationTask.taskId, taskId));
@@ -181,12 +195,13 @@ async function handleTaskFailed(taskId: string, consumeTransactionId: string | n
           code: 'generation_failed',
         },
         completedAt: new Date(),
+        durationMs,
         updatedAt: new Date(),
       })
       .where(eq(mediaGenerationTask.taskId, taskId));
   }
 
-  console.error(`Task failed: ${taskId}`, errorMessage);
+  console.error(`Task failed: ${taskId}, duration: ${durationMs}ms`, errorMessage);
 }
 
 /**
@@ -256,12 +271,12 @@ export async function POST(
     switch (status) {
       case 'completed':
         if (outputs && outputs.length > 0) {
-          await handleTaskCompleted(taskId, outputs);
+          await handleTaskCompleted(taskId, outputs, task.startedAt);
         }
         break;
 
       case 'failed':
-        await handleTaskFailed(taskId, task.consumeTransactionId, error);
+        await handleTaskFailed(taskId, task.consumeTransactionId, task.startedAt, error);
         break;
 
       case 'processing':

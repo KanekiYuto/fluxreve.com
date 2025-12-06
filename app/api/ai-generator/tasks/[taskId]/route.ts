@@ -41,6 +41,7 @@ export async function GET(
         createdAt: mediaGenerationTask.createdAt,
         startedAt: mediaGenerationTask.startedAt,
         completedAt: mediaGenerationTask.completedAt,
+        durationMs: mediaGenerationTask.durationMs,
         quotaConsumed: quotaTransaction.amount,
       })
       .from(mediaGenerationTask)
@@ -82,6 +83,7 @@ export async function GET(
         createdAt: task.createdAt,
         startedAt: task.startedAt,
         completedAt: task.completedAt,
+        durationMs: task.durationMs,
         quotaConsumed: task.quotaConsumed ? Math.abs(task.quotaConsumed) : null,
       },
     });
