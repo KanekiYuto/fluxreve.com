@@ -57,7 +57,7 @@ export default function MediaGallery({
 
   // 获取分享 URL
   const shareUrl = taskInfo.task_id && typeof window !== 'undefined'
-    ? `${window.location.origin}/v/${taskInfo.task_id}`
+    ? `${window.location.origin}/t/${taskInfo.task_id}`
     : typeof window !== 'undefined'
       ? window.location.href
       : '';

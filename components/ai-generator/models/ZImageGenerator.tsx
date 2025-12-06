@@ -49,7 +49,7 @@ export default function ZImageGenerator({ modelSelector }: ZImageGeneratorProps)
   const [prompt, setPrompt] = useState('');
   const [size, setSize] = useState('1024*1024');
   const [seed, setSeed] = useState('');
-  const [isPrivate, setIsPrivate] = useState(false);
+  const [isPrivate, setIsPrivate] = useState(true);
 
   // 积分计算 - Z-Image Turbo 固定 5 积分
   const requiredCredits = useRequiredCredits('text-to-image', 'z-image', {

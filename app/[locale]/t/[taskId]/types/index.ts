@@ -7,6 +7,7 @@ export interface TaskData {
   progress: number;
   model: string;
   task_type: string;
+  is_nsfw: boolean;
   parameters?: {
     prompt?: string;
     resolution?: string;

@@ -5,6 +5,12 @@
     "createButton": "创建 AI 作品",
     "homeButton": "返回首页"
   },
+  "nsfw": {
+    "warning": "敏感内容警告",
+    "description": "此内容可能包含成人或敏感素材，仅限成年人查看",
+    "reveal": "我已年满18岁，查看内容",
+    "imageAlt": "AI 生成图像"
+  },
   "processing": {
     "title": "生成中...",
     "description": "AI 正在创作当前的作品，通常需要几分钟时间",

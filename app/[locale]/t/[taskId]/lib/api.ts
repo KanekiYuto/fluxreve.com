@@ -1,10 +1,11 @@
 import { TaskData } from '../types';
 import { db } from '@/lib/db';
 import { mediaGenerationTask } from '@/lib/db/schema';
-import { eq } from 'drizzle-orm';
+import { eq, and, isNull } from 'drizzle-orm';
 
 /**
  * 通过数据库直接查询任务信息
+ * 不返回私有内容和已删除的内容
  */
 export async function fetchTaskData(shareId: string): Promise<TaskData | null> {
   try {
@@ -20,9 +21,16 @@ export async function fetchTaskData(shareId: string): Promise<TaskData | null> {
         model: mediaGenerationTask.model,
         taskType: mediaGenerationTask.taskType,
         errorMessage: mediaGenerationTask.errorMessage,
+        isNsfw: mediaGenerationTask.isNsfw,
       })
       .from(mediaGenerationTask)
-      .where(eq(mediaGenerationTask.shareId, shareId))
+      .where(
+        and(
+          eq(mediaGenerationTask.shareId, shareId),
+          eq(mediaGenerationTask.isPrivate, false), // 排除私有内容
+          isNull(mediaGenerationTask.deletedAt) // 排除已删除内容
+        )
+      )
       .limit(1);
 
     if (tasks.length === 0) {
@@ -37,6 +45,7 @@ export async function fetchTaskData(shareId: string): Promise<TaskData | null> {
       progress: task.progress,
       model: task.model,
       task_type: task.taskType,
+      is_nsfw: task.isNsfw,
       parameters: task.parameters as TaskData['parameters'],
       results: task.results as TaskData['results'],
       created_at: task.createdAt.toISOString(),

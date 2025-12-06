@@ -5,6 +5,12 @@
     "createButton": "Create AI Artwork",
     "homeButton": "Back to Home"
   },
+  "nsfw": {
+    "warning": "Sensitive Content Warning",
+    "description": "This content may contain adult or sensitive material. Viewer discretion is advised",
+    "reveal": "I am 18+, View Content",
+    "imageAlt": "AI Generated Image"
+  },
   "processing": {
     "title": "Generating...",
     "description": "AI is creating the current artwork, this usually takes a few minutes",

@@ -48,12 +48,27 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // NSFW 内容禁止搜索引擎索引
+  if (task.is_nsfw) {
+    const t = await getTranslations({ locale, namespace: 'share.nsfw' });
+    return {
+      title: t('imageAlt'),
+      robots: {
+        index: false,
+        follow: false,
+        noarchive: true,
+        noimageindex: true,
+      },
+    };
+  }
+
   return await generatePageMetadata(task, shareId, locale);
 }
 
 export default async function SharePage({ params }: PageProps) {
   const { locale, taskId: shareId } = await params;
   const t = await getTranslations({ locale, namespace: 'share.details' });
+  const tNsfw = await getTranslations({ locale, namespace: 'share.nsfw' });
   const task = await fetchTaskData(shareId);
 
   // 任务不存在，返回 404
@@ -67,27 +82,35 @@ export default async function SharePage({ params }: PageProps) {
   }
 
   // 提取数据
-  const prompt = task.parameters?.prompt || '';
+  const rawPrompt = task.parameters?.prompt || '';
   const model = getModelDisplayName(task.model || 'Unknown Model');
   const resolution = task.parameters?.resolution;
   const aspectRatio = task.parameters?.aspect_ratio;
   const siteUrl = getSiteUrl();
-  const structuredData = generateStructuredData(task, prompt, model, siteUrl);
+  
+  // NSFW 内容使用通用描述，避免敏感提示词被 SEO 收录
+  const isNsfw = task.is_nsfw;
+  const displayPrompt = isNsfw ? tNsfw('imageAlt') : rawPrompt;
+  
+  // NSFW 内容不生成结构化数据
+  const structuredData = isNsfw ? null : generateStructuredData(task, rawPrompt, model, siteUrl);
 
   return (
     <>
-      {/* 结构化数据 */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
+      {/* 结构化数据（NSFW 内容不生成） */}
+      {structuredData && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      )}
 
       <article className="min-h-screen bg-bg py-8 sm:py-12">
         <div className="container mx-auto px-4 max-w-5xl">
           {/* 主标题区域 */}
           <header className="mb-8">
             <h1 className="text-3xl sm:text-4xl font-bold text-white mb-3 line-clamp-3">
-              {prompt}
+              {displayPrompt}
             </h1>
             <div className="flex flex-wrap items-center gap-3 text-sm text-text-muted">
               <span className="inline-flex items-center gap-1.5">
@@ -107,7 +130,7 @@ export default async function SharePage({ params }: PageProps) {
               {/* 左侧：图片轮播 */}
               <div className="lg:col-span-2">
                 <h3 className="sr-only">{t('imagePreview')}</h3>
-                <ImageCarousel images={task.results} prompt={prompt} />
+                <ImageCarousel images={task.results} prompt={displayPrompt} isNsfw={isNsfw} />
               </div>
 
               {/* 右侧：信息区域 */}
@@ -119,14 +142,15 @@ export default async function SharePage({ params }: PageProps) {
                     <InfoCard label={t('aiModel')} value={model} fullWidth />
                     {resolution && <InfoCard label={t('resolution')} value={resolution.toUpperCase()} />}
                     {aspectRatio && <InfoCard label={t('aspectRatio')} value={aspectRatio} />}
-                    <PromptCard prompt={prompt} />
+                    {/* NSFW 内容隐藏原始提示词 */}
+                    {!isNsfw && <PromptCard prompt={rawPrompt} />}
                   </div>
                 </div>
 
                 {/* 操作按钮 */}
                 <ActionButtons
-                  shareUrl={`${siteUrl}/v/${task.share_id}`}
-                  prompt={prompt}
+                  shareUrl={`${siteUrl}/t/${task.share_id}`}
+                  prompt={displayPrompt}
                   imageUrl={task.results?.[0]?.url}
                   allImages={task.results?.map(img => img.url)}
                 />

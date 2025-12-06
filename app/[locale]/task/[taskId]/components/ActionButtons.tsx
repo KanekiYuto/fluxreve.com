@@ -30,8 +30,8 @@ export default function ActionButtons({ shareId, prompt, imageUrl, allImages, is
     if (!shareId) return;
     
     try {
-      // 构建分享链接 /v/{shareId}
-      const shareUrl = `${window.location.origin}/v/${shareId}`;
+      // 构建分享链接 /t/{shareId}
+      const shareUrl = `${window.location.origin}/t/${shareId}`;
       await navigator.clipboard.writeText(shareUrl);
       setLinkCopied(true);
       setTimeout(() => setLinkCopied(false), 2000);

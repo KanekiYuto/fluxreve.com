@@ -44,7 +44,7 @@ export async function generatePageMetadata(task: TaskData, shareId: string, loca
   const description = `${descriptionPrefix}${truncatedDescPrompt}`;
 
   // 使用统一的 alternates 生成函数
-  const alternates = generateAlternates(locale, `/v/${shareId}`);
+  const alternates = generateAlternates(locale, `/t/${shareId}`);
 
   return {
     title,
