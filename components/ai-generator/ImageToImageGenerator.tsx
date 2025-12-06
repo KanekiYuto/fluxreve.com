@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import ModelSelector, { type ModelOption } from './base/ModelSelector';
 import NanoBananaProGenerator from './models/NanoBananaProGenerator';
 import Flux2ProGenerator from './models/Flux2ProGenerator';
+import SeedreamGenerator from './models/SeedreamGenerator';
 import ComingSoon from './base/ComingSoon';
 
 interface ImageToImageGeneratorProps {
@@ -12,7 +13,7 @@ interface ImageToImageGeneratorProps {
 }
 
 // 支持图生图的模型列表
-const SUPPORTED_MODELS = ['nano-banana-pro', 'flux-2-pro'];
+const SUPPORTED_MODELS = ['nano-banana-pro', 'flux-2-pro', 'seedream-v4.5'];
 
 export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro' }: ImageToImageGeneratorProps) {
   const t = useTranslations('ai-generator.models');
@@ -45,11 +46,20 @@ export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro'
       value: 'flux-2-pro',
       label: 'Flux 2 Pro',
       description: t('flux2Pro.description'),
-      badge: 'PRO',
       tags: [
         { text: t('flux2Pro.tags.professional'), variant: 'highlight' as const },
         { text: t('flux2Pro.tags.highQuality'), variant: 'default' as const },
         { text: t('flux2Pro.tags.versatile'), variant: 'default' as const },
+      ]
+    },
+    {
+      value: 'seedream-v4.5',
+      label: 'Seedream 4.5',
+      description: t('seedream.description'),
+      tags: [
+        { text: t('seedream.tags.bytedance'), variant: 'highlight' as const },
+        { text: t('seedream.tags.ultraHD'), variant: 'default' as const },
+        { text: t('seedream.tags.creative'), variant: 'default' as const },
       ]
     },
   ];
@@ -66,6 +76,8 @@ export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro'
         return <NanoBananaProGenerator modelSelector={modelSelector} defauldMode="image-to-image" />;
       case 'flux-2-pro':
         return <Flux2ProGenerator modelSelector={modelSelector} defauldMode="image-to-image" />;
+      case 'seedream-v4.5':
+        return <SeedreamGenerator modelSelector={modelSelector} defauldMode="image-to-image" />;
       default:
         return (
           <ComingSoon

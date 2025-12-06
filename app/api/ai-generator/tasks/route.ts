@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/db';
 import { mediaGenerationTask } from '@/lib/db/schema';
-import { eq, and, isNull, desc, or, inArray, count } from 'drizzle-orm';
+import { eq, and, isNull, desc, inArray, count } from 'drizzle-orm';
 import { auth } from '@/lib/auth';
 
 /**

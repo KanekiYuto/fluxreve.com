@@ -29,7 +29,10 @@
     "photorealistic": "写実的",
     "art-gallery": "アートギャラリー",
     "minimalist": "ミニマリスト",
-    "professional": "プロ仕様"
+    "professional": "プロ仕様",
+    "education": "教育",
+    "math": "数学",
+    "text-render": "テキスト描画"
   },
   "results": {
     "title": "生成結果",
@@ -128,6 +131,14 @@
         "professional": "プロ仕様",
         "highQuality": "高品質",
         "versatile": "多機能"
+      }
+    },
+    "seedream": {
+      "description": "ByteDance Seedream 4.5、超高品質の画像生成、大型解像度出力をサポート",
+      "tags": {
+        "bytedance": "ByteDance",
+        "ultraHD": "超高解像度",
+        "creative": "クリエイティブ"
       }
     }
   },

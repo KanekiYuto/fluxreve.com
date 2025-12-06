@@ -185,7 +185,6 @@ export default function TaskDetailsPage() {
                 <div className='mt-6'>
                   <ActionButtons
                     shareId={task.shareId}
-                    prompt={prompt}
                     imageUrl={task.results?.[0]?.url}
                     allImages={task.results?.map(r => r.url)}
                     isPrivate={task.isPrivate}

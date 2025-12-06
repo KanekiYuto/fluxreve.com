@@ -13,6 +13,9 @@ export const MODEL_DISPLAY_NAMES: Record<string, string> = {
 
   // Flux 系列模型
   'flux-2-pro': 'Flux 2 Pro',
+
+  // Seedream 系列模型
+  'seedream-v4.5': 'Seedream 4.5',
 };
 
 /**

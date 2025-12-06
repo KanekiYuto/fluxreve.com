@@ -35,7 +35,7 @@ export function validateImageUrls(
           { status: 400 }
         );
       }
-    } catch (error) {
+    } catch {
       return NextResponse.json(
         { success: false, error: `Invalid URL format: ${imageUrl}` },
         { status: 400 }

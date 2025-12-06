@@ -54,6 +54,11 @@ function calculateTextToImageCredits(model: string, parameters: Record<string, a
     return flux2ProTextToImageCredits(parameters);
   }
 
+  // Seedream v4.5 模型
+  if (model === 'seedream-v4.5') {
+    return seedreamTextToImageCredits(parameters);
+  }
+
   // 未匹配到生成器，返回默认配额
   return DEFAULT_CREDITS;
 }
@@ -70,6 +75,11 @@ function calculateImageToImageCredits(model: string, parameters: Record<string, 
   // Flux 2 Pro 模型
   if (model === 'flux-2-pro') {
     return flux2ProImageToImageCredits(parameters);
+  }
+
+  // Seedream v4.5 模型
+  if (model === 'seedream-v4.5') {
+    return seedreamImageToImageCredits(parameters);
   }
 
   // 未匹配到生成器，返回默认配额
@@ -132,4 +142,20 @@ function flux2ProTextToImageCredits(_parameters: Record<string, any>): number {
  */
 function flux2ProImageToImageCredits(_parameters: Record<string, any>): number {
   return 25;
+}
+
+/**
+ * Seedream v4.5 文生图配额计算
+ * 固定 30 积分每张图
+ */
+function seedreamTextToImageCredits(_parameters: Record<string, any>): number {
+  return 30;
+}
+
+/**
+ * Seedream v4.5 图生图配额计算
+ * 固定 30 积分每张图
+ */
+function seedreamImageToImageCredits(_parameters: Record<string, any>): number {
+  return 30;
 }

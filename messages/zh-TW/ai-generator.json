@@ -29,7 +29,10 @@
     "photorealistic": "寫實",
     "art-gallery": "藝術畫廊",
     "minimalist": "極簡主義",
-    "professional": "專業級"
+    "professional": "專業級",
+    "education": "教育",
+    "math": "數學",
+    "text-render": "文字渲染"
   },
   "results": {
     "title": "產生結果",
@@ -128,6 +131,14 @@
         "professional": "專業級",
         "highQuality": "高品質",
         "versatile": "多功能"
+      }
+    },
+    "seedream": {
+      "description": "字節跳動 Seedream 4.5，超高品質圖像生成，支援超大尺寸輸出",
+      "tags": {
+        "bytedance": "字節跳動",
+        "ultraHD": "超高清",
+        "creative": "創意生成"
       }
     }
   },

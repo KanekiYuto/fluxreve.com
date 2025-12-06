@@ -13,13 +13,12 @@ import {
 
 interface ActionButtonsProps {
   shareId: string;
-  prompt: string;
   imageUrl?: string; // 当前图片下载地址
   allImages?: string[]; // 所有图片 URL 数组
   isPrivate?: boolean; // 是否私有
 }
 
-export default function ActionButtons({ shareId, prompt, imageUrl, allImages, isPrivate }: ActionButtonsProps) {
+export default function ActionButtons({ shareId, imageUrl, allImages, isPrivate }: ActionButtonsProps) {
   const t = useTranslations('share.actions');
   const [morePopoverOpen, setMorePopoverOpen] = useState(false);
   const [downloading, setDownloading] = useState(false);

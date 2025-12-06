@@ -6,6 +6,7 @@ import ModelSelector, { type ModelOption } from './base/ModelSelector';
 import NanoBananaProGenerator from './models/NanoBananaProGenerator';
 import ZImageGenerator from './models/ZImageGenerator';
 import Flux2ProGenerator from './models/Flux2ProGenerator';
+import SeedreamGenerator from './models/SeedreamGenerator';
 
 interface TextToImageGeneratorProps {
   defaultModel?: string;
@@ -44,11 +45,20 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro' 
       value: 'flux-2-pro',
       label: 'Flux 2 Pro',
       description: t('flux2Pro.description'),
-      badge: 'PRO',
       tags: [
         { text: t('flux2Pro.tags.professional'), variant: 'highlight' as const },
         { text: t('flux2Pro.tags.highQuality'), variant: 'default' as const },
         { text: t('flux2Pro.tags.versatile'), variant: 'default' as const },
+      ]
+    },
+    {
+      value: 'seedream-v4.5',
+      label: 'Seedream 4.5',
+      description: t('seedream.description'),
+      tags: [
+        { text: t('seedream.tags.bytedance'), variant: 'highlight' as const },
+        { text: t('seedream.tags.ultraHD'), variant: 'default' as const },
+        { text: t('seedream.tags.creative'), variant: 'default' as const },
       ]
     },
   ];
@@ -64,6 +74,7 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro' 
       {selectedModel === 'nano-banana-pro' && <NanoBananaProGenerator modelSelector={modelSelector} defauldMode='text-to-image' />}
       {selectedModel === 'z-image' && <ZImageGenerator modelSelector={modelSelector} />}
       {selectedModel === 'flux-2-pro' && <Flux2ProGenerator modelSelector={modelSelector} defauldMode='text-to-image' />}
+      {selectedModel === 'seedream-v4.5' && <SeedreamGenerator modelSelector={modelSelector} defauldMode='text-to-image' />}
     </div>
   );
 }

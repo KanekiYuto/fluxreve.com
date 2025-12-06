@@ -236,7 +236,7 @@ export default function ImageUpload({
 
       {/* 图片项列表 */}
       <div className="space-y-2">
-        {value.map((image, index) => (
+        {value.map((image) => (
           <div
             key={image.id}
             className="border-dashed border rounded-xl p-2 relative bg-background border-border transition-colors hover:border-primary/50"

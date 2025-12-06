@@ -2,26 +2,67 @@
 const locales = ['en', 'zh-CN', 'zh-TW', 'ja'];
 const defaultLocale = 'en';
 
-// 需要索引的页面路径
-const routes = [
-  '',
+// 需要登录或不需要索引的路径
+const excludePaths = [
+  '/api/*',
+  '/admin/*',
+  '/dashboard',
+  '/tasks',
+  '/checkout',
+  '/portal',
+  '/settings',
+  '/subscription',
+  '/quota',
+  '/task/*', // 用户私有任务详情页
+];
+
+// robots.txt 禁止爬取的路径
+const disallowPaths = [
+  '/api/',
+  '/admin/',
+  '/dashboard',
+  '/tasks',
+  '/checkout',
+  '/portal',
+  '/settings',
+  '/subscription',
+  '/quota',
+  '/task/', // 用户私有任务详情页
+];
+
+// 公开分享页面示例（用于 sitemap）
+const publicSharePages = [
+  '/t/image-to-image-flux-2-pro-yu9f07gsmk',
+  '/t/image-to-image-nano-banana-pro-9750k78ky2',
+  '/t/text-to-image-z-image-turbo-to110po4j2',
+];
+
+// 静态页面路由
+const staticRoutes = [
+  '', // 首页
   '/help',
   '/ai-generator',
   '/pricing',
   '/terms',
   '/privacy',
+  // 模型专属页面
   '/nano-banana-pro',
   '/z-image',
+  '/flux-2-pro',
+  '/seedream-v4.5',
 ];
+
+// 合并所有需要索引的路由
+const allRoutes = [...staticRoutes, ...publicSharePages];
 
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL,
-  generateRobotsTxt: true, // 生成 robots.txt 文件
-  generateIndexSitemap: false, // 对于小型站点，不需要索引 sitemap
-  exclude: ['/api/*', '/admin/*', '/dashboard', '/tasks', '/checkout', '/portal', '/settings', '/subscription', '/quota', '/t/*', '/task/*'], // 排除 API 路由、管理页面和需要登录的页面
+  generateRobotsTxt: true,
+  generateIndexSitemap: true, // 小型站点不需要索引 sitemap
+  exclude: excludePaths,
 
-  // 动态支持多语言
+  // 多语言 alternate refs
   alternateRefs: locales.map((locale) => ({
     href: locale === defaultLocale
       ? process.env.NEXT_PUBLIC_SITE_URL
@@ -29,21 +70,22 @@ module.exports = {
     hreflang: locale,
   })),
 
-  // 添加额外的路径（因为使用了 [locale] 动态路由）
-  additionalPaths: async (_config) => {
+  // 生成所有语言版本的路径
+  additionalPaths: async () => {
     const paths = [];
 
-    // 为每个语言生成所有路由
     locales.forEach((locale) => {
-      routes.forEach((route) => {
+      allRoutes.forEach((route) => {
+        const isHome = route === '';
+        const isSharePage = route.startsWith('/t/');
         const path = locale === defaultLocale
           ? route || '/'
           : `/${locale}${route}`;
 
         paths.push({
           loc: path,
-          changefreq: route === '' ? 'daily' : 'weekly',
-          priority: route === '' ? 1.0 : 0.8,
+          changefreq: isHome ? 'daily' : isSharePage ? 'monthly' : 'weekly',
+          priority: isHome ? 1.0 : isSharePage ? 0.6 : 0.8,
           lastmod: new Date().toISOString(),
         });
       });
@@ -62,7 +104,7 @@ module.exports = {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/admin/', '/dashboard', '/tasks', '/checkout', '/portal', '/settings', '/subscription', '/quota', '/t/', '/task/'],
+        disallow: disallowPaths,
       },
     ],
   },

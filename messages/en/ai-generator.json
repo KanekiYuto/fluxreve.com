@@ -29,7 +29,10 @@
     "photorealistic": "Photorealistic",
     "art-gallery": "Art Gallery",
     "minimalist": "Minimalist",
-    "professional": "Professional"
+    "professional": "Professional",
+    "education": "Education",
+    "math": "Math",
+    "text-render": "Text Render"
   },
   "results": {
     "title": "Generated Results",
@@ -128,6 +131,14 @@
         "professional": "Professional",
         "highQuality": "High Quality",
         "versatile": "Versatile"
+      }
+    },
+    "seedream": {
+      "description": "ByteDance Seedream 4.5, ultra-high quality image generation with large resolution output",
+      "tags": {
+        "bytedance": "ByteDance",
+        "ultraHD": "Ultra HD",
+        "creative": "Creative"
       }
     }
   },
