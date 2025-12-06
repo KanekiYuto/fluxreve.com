@@ -7,13 +7,25 @@ import { auth } from '@/lib/auth';
 /**
  * GET /api/ai-generator/tasks/[taskId]
  * 获取任务详情（用于任务详情页面展示）
- * 注意：此接口无需身份验证，任何人都可以通过 taskId 访问已完成的任务
+ * 需要身份验证，只能查看自己的任务
  */
 export async function GET(
-  _request: NextRequest,
+  request: NextRequest,
   { params }: { params: Promise<{ taskId: string }> }
 ) {
   try {
+    // 获取当前用户
+    const session = await auth.api.getSession({
+      headers: request.headers,
+    });
+
+    if (!session?.user?.id) {
+      return NextResponse.json(
+        { success: false, error: 'Unauthorized' },
+        { status: 401 }
+      );
+    }
+
     const { taskId } = await params;
 
     // 验证任务ID格式
@@ -24,7 +36,7 @@ export async function GET(
       );
     }
 
-    // 查询任务（不验证用户，允许任何人查看）
+    // 查询任务（只查询当前用户的任务）
     // 使用 LEFT JOIN 获取消耗的积分信息
     const tasks = await db
       .select({
@@ -54,6 +66,7 @@ export async function GET(
       .where(
         and(
           eq(mediaGenerationTask.taskId, taskId),
+          eq(mediaGenerationTask.userId, session.user.id), // 只查询当前用户的任务
           isNull(mediaGenerationTask.deletedAt) // 排除已删除的任务
         )
       )
