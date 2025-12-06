@@ -49,6 +49,11 @@ function calculateTextToImageCredits(model: string, parameters: Record<string, a
     return zImageTextToImageCredits(parameters);
   }
 
+  // Flux 2 Pro 模型
+  if (model === 'flux-2-pro') {
+    return flux2ProTextToImageCredits(parameters);
+  }
+
   // 未匹配到生成器，返回默认配额
   return DEFAULT_CREDITS;
 }
@@ -60,6 +65,11 @@ function calculateImageToImageCredits(model: string, parameters: Record<string, 
   // Nano Banana Pro 模型
   if (model === 'nano-banana-pro') {
     return nanoBananaProImageToImageCredits(parameters);
+  }
+
+  // Flux 2 Pro 模型
+  if (model === 'flux-2-pro') {
+    return flux2ProImageToImageCredits(parameters);
   }
 
   // 未匹配到生成器，返回默认配额
@@ -106,4 +116,20 @@ function nanoBananaProImageToImageCredits(parameters: Record<string, any>): numb
  */
 function zImageTextToImageCredits(_parameters: Record<string, any>): number {
   return 5;
+}
+
+/**
+ * Flux 2 Pro 文生图配额计算
+ * 固定 25 积分每张图
+ */
+function flux2ProTextToImageCredits(_parameters: Record<string, any>): number {
+  return 25;
+}
+
+/**
+ * Flux 2 Pro 图生图配额计算
+ * 固定 25 积分每张图
+ */
+function flux2ProImageToImageCredits(_parameters: Record<string, any>): number {
+  return 25;
 }

@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import ModelSelector, { type ModelOption } from './base/ModelSelector';
 import NanoBananaProGenerator from './models/NanoBananaProGenerator';
 import ZImageGenerator from './models/ZImageGenerator';
+import Flux2ProGenerator from './models/Flux2ProGenerator';
 
 interface TextToImageGeneratorProps {
   defaultModel?: string;
@@ -39,6 +40,17 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro' 
         { text: t('zImage.tags.quality'), variant: 'default' as const },
       ]
     },
+    {
+      value: 'flux-2-pro',
+      label: 'Flux 2 Pro',
+      description: t('flux2Pro.description'),
+      badge: 'PRO',
+      tags: [
+        { text: t('flux2Pro.tags.professional'), variant: 'highlight' as const },
+        { text: t('flux2Pro.tags.highQuality'), variant: 'default' as const },
+        { text: t('flux2Pro.tags.versatile'), variant: 'default' as const },
+      ]
+    },
   ];
 
   // ModelSelector 组件
@@ -51,6 +63,7 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro' 
       {/* 根据选择的模型渲染对应的生成器 */}
       {selectedModel === 'nano-banana-pro' && <NanoBananaProGenerator modelSelector={modelSelector} defauldMode='text-to-image' />}
       {selectedModel === 'z-image' && <ZImageGenerator modelSelector={modelSelector} />}
+      {selectedModel === 'flux-2-pro' && <Flux2ProGenerator modelSelector={modelSelector} defauldMode='text-to-image' />}
     </div>
   );
 }

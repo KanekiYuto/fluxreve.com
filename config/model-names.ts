@@ -10,6 +10,9 @@ export const MODEL_DISPLAY_NAMES: Record<string, string> = {
 
   // Z-Image 系列模型
   'z-image': 'Z-Image',
+
+  // Flux 系列模型
+  'flux-2-pro': 'Flux 2 Pro',
 };
 
 /**

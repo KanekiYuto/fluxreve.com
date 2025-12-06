@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import ModelSelector, { type ModelOption } from './base/ModelSelector';
 import NanoBananaProGenerator from './models/NanoBananaProGenerator';
+import Flux2ProGenerator from './models/Flux2ProGenerator';
 import ComingSoon from './base/ComingSoon';
 
 interface ImageToImageGeneratorProps {
@@ -11,7 +12,7 @@ interface ImageToImageGeneratorProps {
 }
 
 // 支持图生图的模型列表
-const SUPPORTED_MODELS = ['nano-banana-pro'];
+const SUPPORTED_MODELS = ['nano-banana-pro', 'flux-2-pro'];
 
 export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro' }: ImageToImageGeneratorProps) {
   const t = useTranslations('ai-generator.models');
@@ -40,6 +41,17 @@ export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro'
         { text: t('nanoBananaPro.tags.latest'), variant: 'default' as const },
       ]
     },
+    {
+      value: 'flux-2-pro',
+      label: 'Flux 2 Pro',
+      description: t('flux2Pro.description'),
+      badge: 'PRO',
+      tags: [
+        { text: t('flux2Pro.tags.professional'), variant: 'highlight' as const },
+        { text: t('flux2Pro.tags.highQuality'), variant: 'default' as const },
+        { text: t('flux2Pro.tags.versatile'), variant: 'default' as const },
+      ]
+    },
   ];
 
   // ModelSelector 组件
@@ -52,6 +64,8 @@ export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro'
     switch (selectedModel) {
       case 'nano-banana-pro':
         return <NanoBananaProGenerator modelSelector={modelSelector} defauldMode="image-to-image" />;
+      case 'flux-2-pro':
+        return <Flux2ProGenerator modelSelector={modelSelector} defauldMode="image-to-image" />;
       default:
         return (
           <ComingSoon

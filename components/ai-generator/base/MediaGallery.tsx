@@ -2,9 +2,10 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { Share2, Download } from 'lucide-react';
+import { Share2, Download, ZoomIn } from 'lucide-react';
 import { downloadImage, downloadImages } from '@/lib/download';
 import { getTaskDuration, formatDuration } from '@/lib/utils';
+import useImagePreviewStore from '@/store/useImagePreviewStore';
 import {
   Popover,
   PopoverContent,
@@ -42,6 +43,17 @@ export default function MediaGallery({
   const [morePopoverOpen, setMorePopoverOpen] = useState(false);
   const [downloading, setDownloading] = useState(false);
   const [downloadingAll, setDownloadingAll] = useState(false);
+  const openImagePreview = useImagePreviewStore((state) => state.open);
+
+  // 获取所有图片 URL
+  const imageUrls = items.filter((item) => item.type === 'image').map((item) => item.url);
+
+  // 打开图片预览
+  const handleImageClick = (index: number) => {
+    if (imageUrls.length > 0) {
+      openImagePreview(imageUrls, index);
+    }
+  };
 
   // 获取分享 URL
   const shareUrl = taskInfo.task_id && typeof window !== 'undefined'
@@ -117,13 +129,27 @@ export default function MediaGallery({
               {/* 左侧/上部分：图片区域 */}
               <div className="relative bg-muted flex items-center justify-center lg:w-1/2">
                 {item.type === 'image' && (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img
-                    src={item.url}
-                    alt={taskInfo.prompt}
-                    className="w-full h-full object-cover"
-                    loading="lazy"
-                  />
+                  <button
+                    type="button"
+                    onClick={() => handleImageClick(imageUrls.indexOf(item.url))}
+                    className="relative w-full h-full group cursor-pointer"
+                  >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={item.url}
+                      alt={taskInfo.prompt}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                      loading="lazy"
+                    />
+                    {/* 悬停遮罩 */}
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
+                      <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div className="p-3 bg-white/20 backdrop-blur-sm rounded-full">
+                          <ZoomIn className="w-6 h-6 text-white" />
+                        </div>
+                      </div>
+                    </div>
+                  </button>
                 )}
                 {item.type === 'video' && (
                   <video

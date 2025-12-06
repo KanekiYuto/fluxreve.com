@@ -1,6 +1,7 @@
 'use client';
 
 import LoginModal from '@/components/auth/LoginModal';
+import ImagePreviewModal from '@/components/common/ImagePreviewModal';
 import useModalStore from '@/store/useModalStore';
 
 export default function ModalProvider() {
@@ -9,6 +10,7 @@ export default function ModalProvider() {
   return (
     <>
       <LoginModal isOpen={loginModalOpen} onClose={closeLoginModal} />
+      <ImagePreviewModal />
     </>
   );
 }

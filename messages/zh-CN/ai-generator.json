@@ -26,7 +26,10 @@
     "retro": "复古",
     "currency": "货币",
     "portrait": "肖像",
-    "photorealistic": "写实"
+    "photorealistic": "写实",
+    "art-gallery": "艺术画廊",
+    "minimalist": "极简主义",
+    "professional": "专业级"
   },
   "results": {
     "title": "产生结果",
@@ -117,6 +120,14 @@
         "ultraFast": "亚秒级",
         "affordable": "写实品质",
         "quality": "文字渲染"
+      }
+    },
+    "flux2Pro": {
+      "description": "专业级图像生成模型，支持文生图和图生图，高质量输出",
+      "tags": {
+        "professional": "专业级",
+        "highQuality": "高品质",
+        "versatile": "多功能"
       }
     }
   },

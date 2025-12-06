@@ -1,11 +1,12 @@
 'use client';
 
-import { useState, useRef, useCallback, useEffect } from 'react';
+import { useRef, useCallback, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { FolderOpen, Trash2, Plus, Loader2 } from 'lucide-react';
+import { FolderOpen, Trash2, Plus, Loader2, ZoomIn } from 'lucide-react';
+import useImagePreviewStore from '@/store/useImagePreviewStore';
 
 // ==================== 类型定义 ====================
 
@@ -47,6 +48,24 @@ export default function ImageUpload({
 }: ImageUploadProps) {
   const t = useTranslations('ai-generator.form');
   const valueRef = useRef<ImageItem[]>(value);
+  const openImagePreview = useImagePreviewStore((state) => state.open);
+
+  // 获取所有有效图片的 URL
+  const getValidImageUrls = useCallback(() => {
+    return value.filter((img) => img.url && !img.uploading).map((img) => img.url);
+  }, [value]);
+
+  // 打开图片预览
+  const handleImagePreview = useCallback(
+    (imageUrl: string) => {
+      const validUrls = getValidImageUrls();
+      const index = validUrls.indexOf(imageUrl);
+      if (index !== -1) {
+        openImagePreview(validUrls, index);
+      }
+    },
+    [getValidImageUrls, openImagePreview]
+  );
 
   // 保持 ref 与 value 同步
   useEffect(() => {
@@ -268,13 +287,25 @@ export default function ImageUpload({
             {/* 图片预览 */}
             {image.url && !image.uploading && (
               <div className="flex gap-2 mt-2">
-                <img
-                  src={image.url}
-                  alt="preview"
-                  width={100}
-                  height={100}
-                  className="rounded-lg object-cover"
-                />
+                <button
+                  type="button"
+                  onClick={() => handleImagePreview(image.url)}
+                  className="relative group cursor-pointer rounded-lg overflow-hidden"
+                >
+                  <img
+                    src={image.url}
+                    alt="preview"
+                    width={100}
+                    height={100}
+                    className="rounded-lg object-cover transition-transform duration-200 group-hover:scale-105"
+                  />
+                  {/* 悬停遮罩 */}
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-200 flex items-center justify-center rounded-lg">
+                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                      <ZoomIn className="w-5 h-5 text-white" />
+                    </div>
+                  </div>
+                </button>
               </div>
             )}
 

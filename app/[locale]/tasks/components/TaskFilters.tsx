@@ -6,7 +6,7 @@ import { ChevronDown, Check, X, Filter } from 'lucide-react';
 
 export type StatusFilter = 'completed' | 'processing' | 'pending' | 'failed';
 export type TaskTypeFilter = 'text-to-image' | 'image-to-image';
-export type ModelFilter = 'nano-banana-pro' | 'z-image';
+export type ModelFilter = 'nano-banana-pro' | 'z-image' | 'flux-2-pro';
 
 interface TaskFiltersProps {
   selectedStatuses: StatusFilter[];
@@ -24,9 +24,10 @@ const taskTypeOptions: TaskTypeFilter[] = ['text-to-image', 'image-to-image'];
 const MODEL_TASK_TYPE_MAP: Record<ModelFilter, TaskTypeFilter[]> = {
   'nano-banana-pro': ['text-to-image', 'image-to-image'],
   'z-image': ['text-to-image'],
+  'flux-2-pro': ['text-to-image', 'image-to-image'],
 };
 
-const allModels: ModelFilter[] = ['nano-banana-pro', 'z-image'];
+const allModels: ModelFilter[] = ['nano-banana-pro', 'z-image', 'flux-2-pro'];
 
 // 多选下拉组件
 function MultiSelect<T extends string>({

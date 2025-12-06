@@ -26,7 +26,10 @@
     "retro": "レトロ",
     "currency": "通貨",
     "portrait": "ポートレート",
-    "photorealistic": "写実的"
+    "photorealistic": "写実的",
+    "art-gallery": "アートギャラリー",
+    "minimalist": "ミニマリスト",
+    "professional": "プロ仕様"
   },
   "results": {
     "title": "生成結果",
@@ -117,6 +120,14 @@
         "ultraFast": "サブ秒レベル",
         "affordable": "写真レベル",
         "quality": "テキスト"
+      }
+    },
+    "flux2Pro": {
+      "description": "プロ仕様の画像生成モデル、テキストから画像と画像から画像をサポート、高品質出力",
+      "tags": {
+        "professional": "プロ仕様",
+        "highQuality": "高品質",
+        "versatile": "多機能"
       }
     }
   },

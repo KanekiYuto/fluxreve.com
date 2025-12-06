@@ -26,7 +26,10 @@
     "retro": "復古",
     "currency": "貨幣",
     "portrait": "肖像",
-    "photorealistic": "寫實"
+    "photorealistic": "寫實",
+    "art-gallery": "藝術畫廊",
+    "minimalist": "極簡主義",
+    "professional": "專業級"
   },
   "results": {
     "title": "產生結果",
@@ -117,6 +120,14 @@
         "ultraFast": "亞秒級",
         "affordable": "寫實品質",
         "quality": "文字渲染"
+      }
+    },
+    "flux2Pro": {
+      "description": "專業級圖像生成模型，支援文生圖和圖生圖，高品質輸出",
+      "tags": {
+        "professional": "專業級",
+        "highQuality": "高品質",
+        "versatile": "多功能"
       }
     }
   },

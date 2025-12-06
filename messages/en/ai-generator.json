@@ -26,7 +26,10 @@
     "retro": "Retro",
     "currency": "Currency",
     "portrait": "Portrait",
-    "photorealistic": "Photorealistic"
+    "photorealistic": "Photorealistic",
+    "art-gallery": "Art Gallery",
+    "minimalist": "Minimalist",
+    "professional": "Professional"
   },
   "results": {
     "title": "Generated Results",
@@ -117,6 +120,14 @@
         "ultraFast": "Sub-second",
         "affordable": "Photorealistic",
         "quality": "Text Render"
+      }
+    },
+    "flux2Pro": {
+      "description": "Professional-grade image generation model, supports text-to-image and image-to-image with high-quality output",
+      "tags": {
+        "professional": "Professional",
+        "highQuality": "High Quality",
+        "versatile": "Versatile"
       }
     }
   },
