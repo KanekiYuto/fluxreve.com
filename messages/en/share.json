@@ -36,6 +36,8 @@
     "imageAlt": "Image",
     "previousImage": "Previous Image",
     "nextImage": "Next Image",
+    "referenceImages": "Input Images",
+    "referenceImage": "Input Image",
     "generationResults": "AI Image Generation Results",
     "imagePreview": "AI Generated HD Image Preview",
     "parametersInfo": "Generation Parameters and Model Info"

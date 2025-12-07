@@ -27,6 +27,8 @@
     "promptCopied": "Copied",
     "previousImage": "Previous Image",
     "nextImage": "Next Image",
+    "referenceImages": "Input Images",
+    "referenceImage": "Input Image",
     "metaDescription": "AI image generated using {model}",
     "defaultPrompt": "AI Generated Image"
   },

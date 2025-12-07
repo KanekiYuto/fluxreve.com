@@ -27,6 +27,8 @@
     "promptCopied": "コピーしました",
     "previousImage": "前の画像",
     "nextImage": "次の画像",
+    "referenceImages": "入力画像",
+    "referenceImage": "入力画像",
     "metaDescription": "{model} を使用して生成された AI 画像",
     "defaultPrompt": "AI 生成画像"
   },

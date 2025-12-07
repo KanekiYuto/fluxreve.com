@@ -157,7 +157,7 @@ export default function TaskDetailsPage() {
               {/* 左侧：图片轮播 */}
               <div className="lg:col-span-2">
                 <h3 className="sr-only">{t('imagePreview')}</h3>
-                <ImageCarousel images={task.results} prompt={prompt} />
+                <ImageCarousel images={task.results} prompt={prompt} parameters={task.parameters} />
               </div>
 
               {/* 右侧：信息区域 */}

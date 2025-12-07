@@ -8,11 +8,8 @@ import { fetchTaskData } from './lib/api';
 import { generatePageMetadata } from './lib/metadata';
 import { generateStructuredData } from './lib/utils';
 import { PageProps } from './types/index';
-import ImageCarousel from './components/ImageCarousel';
-import ActionButtons from './components/ActionButtons';
-import PromptCard from './components/PromptCard';
-import InfoCard from './components/InfoCard';
 import ProcessingPage from './components/ProcessingPage';
+import ShareContent from './components/ShareContent';
 
 // 强制动态渲染，确保 notFound() 返回真正的 404 状态码
 export const dynamic = 'force-dynamic';
@@ -124,39 +121,25 @@ export default async function SharePage({ params }: PageProps) {
           </header>
 
           {/* 主内容区域：图片和信息左右布局 */}
-          <section className="bg-surface-secondary rounded-2xl p-4 border border-border/50 mb-8">
-            <h2 className="sr-only">{model} {t('generationResults')}</h2>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-              {/* 左侧：图片轮播 */}
-              <div className="lg:col-span-2">
-                <h3 className="sr-only">{t('imagePreview')}</h3>
-                <ImageCarousel images={task.results} prompt={displayPrompt} isNsfw={isNsfw} />
-              </div>
-
-              {/* 右侧：信息区域 */}
-              <aside className="lg:col-span-1 flex flex-col justify-between gap-4">
-                <div>
-                  <h3 className="sr-only">{t('parametersInfo')}</h3>
-                  {/* 详细信息网格 */}
-                  <div className="grid grid-cols-2 gap-3">
-                    <InfoCard label={t('aiModel')} value={model} fullWidth />
-                    {resolution && <InfoCard label={t('resolution')} value={resolution.toUpperCase()} />}
-                    {aspectRatio && <InfoCard label={t('aspectRatio')} value={aspectRatio} />}
-                    {/* NSFW 内容隐藏原始提示词 */}
-                    {!isNsfw && <PromptCard prompt={rawPrompt} />}
-                  </div>
-                </div>
-
-                {/* 操作按钮 */}
-                <ActionButtons
-                  shareUrl={`${siteUrl}/t/${task.share_id}`}
-                  prompt={displayPrompt}
-                  imageUrl={task.results?.[0]?.url}
-                  allImages={task.results?.map(img => img.url)}
-                />
-              </aside>
-            </div>
-          </section>
+          <ShareContent
+            images={task.results || []}
+            rawPrompt={rawPrompt}
+            displayPrompt={displayPrompt}
+            isNsfw={isNsfw}
+            model={model}
+            resolution={resolution}
+            aspectRatio={aspectRatio}
+            shareUrl={`${siteUrl}/t/${task.share_id}`}
+            parameters={task.parameters}
+            labels={{
+              aiModel: t('aiModel'),
+              resolution: t('resolution'),
+              aspectRatio: t('aspectRatio'),
+              generationResults: t('generationResults'),
+              imagePreview: t('imagePreview'),
+              parametersInfo: t('parametersInfo'),
+            }}
+          />
         </div>
       </article>
     </>

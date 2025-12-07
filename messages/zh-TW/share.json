@@ -36,6 +36,8 @@
     "imageAlt": "圖片",
     "previousImage": "上一張圖片",
     "nextImage": "下一張圖片",
+    "referenceImages": "輸入圖片",
+    "referenceImage": "輸入圖片",
     "generationResults": "AI 圖片生成結果展示",
     "imagePreview": "AI 生成的高清圖片預覽",
     "parametersInfo": "圖片生成參數與模型資訊"

@@ -11,14 +11,22 @@ interface ImageCarouselProps {
   }>;
   prompt: string;
   isNsfw?: boolean;
+  parameters?: {
+    images?: string[];
+    [key: string]: any;
+  };
+  onNsfwReveal?: () => void;
 }
 
-export default function ImageCarousel({ images, prompt, isNsfw = false }: ImageCarouselProps) {
+export default function ImageCarousel({ images, prompt, isNsfw = false, parameters, onNsfwReveal }: ImageCarouselProps) {
   const t = useTranslations('share.details');
   const tNsfw = useTranslations('share.nsfw');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [nsfwRevealed, setNsfwRevealed] = useState(false);
   const openPreview = useImagePreviewStore((state) => state.open);
+
+  // 获取参考图片数组
+  const referenceImages = parameters?.images || [];
 
   const goToPrevious = useCallback(() => {
     setCurrentIndex((prevIndex) =>
@@ -70,16 +78,22 @@ export default function ImageCarousel({ images, prompt, isNsfw = false }: ImageC
     openPreview(imageUrls, currentIndex);
   };
 
+  // 打开参考图片预览
+  const handleReferenceImageClick = (index: number) => {
+    if (showNsfwOverlay) return;
+    openPreview(referenceImages, index);
+  };
+
   return (
     <div className="relative bg-surface-secondary rounded-2xl overflow-hidden border border-border/50">
       {/* 主图片区域 */}
-      <div className="relative w-full aspect-square bg-muted group">
+      <div className="relative w-full aspect-square bg-muted group overflow-hidden">
         {/* 可点击的图片容器 */}
         <button
           type="button"
           onClick={handleImageClick}
           disabled={showNsfwOverlay}
-          className={`w-full h-full block ${
+          className={`relative w-full h-full block overflow-hidden ${
             showNsfwOverlay ? '' : 'cursor-pointer'
           }`}
           aria-label={t('imagePreview')}
@@ -95,10 +109,10 @@ export default function ImageCarousel({ images, prompt, isNsfw = false }: ImageC
             // NSFW 内容阻止搜索引擎索引图片
             {...(isNsfw && { 'data-nosnippet': 'true' })}
           />
-          
+
           {/* 悬停时显示放大图标 */}
           {!showNsfwOverlay && (
-            <div className="absolute inset-0 flex items-center justify-center bg-black/0 group-hover:bg-black/20 transition-colors pointer-events-none">
+            <div className="absolute inset-0 flex items-center justify-center bg-black/0 group-hover:bg-black/20 transition-colors pointer-events-none overflow-hidden">
               <div className="w-12 h-12 rounded-full bg-black/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                 <svg
                   className="w-6 h-6 text-white"
@@ -148,7 +162,10 @@ export default function ImageCarousel({ images, prompt, isNsfw = false }: ImageC
             
             {/* 查看按钮 */}
             <button
-              onClick={() => setNsfwRevealed(true)}
+              onClick={() => {
+                setNsfwRevealed(true);
+                onNsfwReveal?.();
+              }}
               className="relative overflow-hidden px-6 py-2.5 rounded-lg font-medium text-sm transition-colors duration-200 cursor-pointer bg-white text-neutral-900 hover:bg-neutral-200 active:bg-neutral-300"
             >
               {tNsfw('reveal')}
@@ -200,6 +217,34 @@ export default function ImageCarousel({ images, prompt, isNsfw = false }: ImageC
           </>
         )}
       </div>
+
+      {/* 参考图片缩略图区域 */}
+      {referenceImages.length > 0 && !showNsfwOverlay && (
+        <div className="relative z-10 px-4 py-3 border-t border-border/50 bg-background">
+          <h4 className="text-sm font-medium text-foreground/70 mb-2">
+            {t('referenceImages')}
+          </h4>
+          <div className="flex gap-2 overflow-x-auto scrollbar-thin scrollbar-thumb-border scrollbar-track-transparent">
+            {referenceImages.map((imageUrl, index) => (
+              <button
+                key={index}
+                type="button"
+                onClick={() => handleReferenceImageClick(index)}
+                className="relative flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 border-border/50 hover:border-primary/50 transition-all cursor-pointer group bg-muted"
+                aria-label={`${t('referenceImage')} ${index + 1}`}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={imageUrl}
+                  alt={`${t('referenceImage')} ${index + 1}`}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform"
+                  loading="lazy"
+                />
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

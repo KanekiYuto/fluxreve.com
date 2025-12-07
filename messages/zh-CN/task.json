@@ -27,6 +27,8 @@
     "promptCopied": "已复制",
     "previousImage": "上一张图片",
     "nextImage": "下一张图片",
+    "referenceImages": "输入图片",
+    "referenceImage": "输入图片",
     "metaDescription": "使用 {model} 生成的 AI 图像",
     "defaultPrompt": "AI 生成的图像"
   },
