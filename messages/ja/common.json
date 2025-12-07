@@ -20,6 +20,8 @@
     "zImageDesc": "高度なAI画像生成と編集",
     "flux-2-pro": "Flux 2 Pro",
     "flux2ProDesc": "プロフェッショナルデュアルモードAI画像生成",
+    "seedreamV45": "Seedream 4.5",
+    "seedreamV45Desc": "ByteDance 2K HD画像生成",
     "dashboard": "ダッシュボード",
     "tasks": "履歴",
     "quota": "クォータ",

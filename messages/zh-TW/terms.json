@@ -1,5 +1,7 @@
 {
-  "title": "服務條款",
+  "title": "服務條款 | {siteName}",
+  "description": "閱讀 {siteName} 的服務條款，瞭解使用我們 AI 圖像生成平台的規則。涵蓋用戶帳戶、使用規則、智慧財產權和服務政策。",
+  "keywords": "服務條款, 用戶協議, 使用條款, 法律協議, 使用政策, 智慧財產權, 服務協議",
   "lastUpdated": "最後更新時間",
   "acceptance": {
     "title": "條款接受",

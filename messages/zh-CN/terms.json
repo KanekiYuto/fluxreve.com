@@ -1,5 +1,7 @@
 {
-  "title": "服务条款",
+  "title": "服务条款 | {siteName}",
+  "description": "阅读 {siteName} 的服务条款，了解使用我们 AI 图像生成平台的规则。涵盖用户账户、使用规则、知识产权和服务政策。",
+  "keywords": "服务条款, 用户协议, 使用条款, 法律协议, 使用政策, 知识产权, 服务协议",
   "lastUpdated": "最后更新时间",
   "acceptance": {
     "title": "条款接受",

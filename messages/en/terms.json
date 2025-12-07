@@ -1,5 +1,7 @@
 {
-  "title": "Terms of Service",
+  "title": "Terms of Service | {siteName}",
+  "description": "Read {siteName}'s terms of service for using our AI image generation platform. Covers user accounts, usage rules, intellectual property, and service policies.",
+  "keywords": "terms of service, user agreement, service terms, legal agreement, usage policy, intellectual property, service agreement",
   "lastUpdated": "Last Updated",
   "acceptance": {
     "title": "Acceptance of Terms",

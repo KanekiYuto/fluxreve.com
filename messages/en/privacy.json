@@ -1,5 +1,7 @@
 {
-  "title": "Privacy Policy",
+  "title": "Privacy Policy | {siteName}",
+  "description": "Learn how {siteName} collects, uses, and protects your personal information. Our privacy policy covers data collection, usage, sharing, and your rights.",
+  "keywords": "privacy policy, data protection, personal information, user privacy, data collection, GDPR, privacy rights",
   "lastUpdated": "Last Updated",
   "introduction": {
     "title": "Introduction",

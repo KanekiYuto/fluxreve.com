@@ -1,5 +1,7 @@
 {
-  "title": "隱私權政策",
+  "title": "隱私權政策 | {siteName}",
+  "description": "瞭解 {siteName} 如何收集、使用和保護您的個人資訊。我們的隱私政策涵蓋資料收集、使用、共享以及您的權利。",
+  "keywords": "隱私政策, 資料保護, 個人資訊, 用戶隱私, 資料收集, 隱私權利, 資訊安全",
   "lastUpdated": "最後更新時間",
   "introduction": {
     "title": "引言",

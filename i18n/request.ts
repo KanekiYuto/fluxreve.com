@@ -18,7 +18,7 @@ async function loadMessages(locale: string) {
     'nano-banana-pro',
     'z-image',
     'flux-2-pro',
-    'seedream-v4.5',
+    'seedream-v45',
     'task',
     'tasks',
     'notFound',
@@ -45,7 +45,7 @@ async function loadMessages(locale: string) {
         key = 'zImage';
       } else if (file === 'flux-2-pro') {
         key = 'flux2Pro';
-      } else if (file === 'seedream-v4.5') {
+      } else if (file === 'seedream-v45') {
         key = 'seedreamV45';
       }
       messages[key] = module.default;

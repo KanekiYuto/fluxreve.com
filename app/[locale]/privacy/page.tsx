@@ -13,7 +13,9 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'privacy' });
 
   return {
-    title: t('title'),
+    title: t('title', { siteName: siteConfig.name }),
+    description: t('description', { siteName: siteConfig.name }),
+    keywords: t('keywords'),
     alternates: generateAlternates(locale, '/privacy'),
   };
 }
@@ -28,7 +30,7 @@ export default function PrivacyPage() {
           {/* 页面标题 */}
           <div className="mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
-              {t('title')}
+              {t('title', { siteName: siteConfig.name })}
             </h1>
             <p className="text-text-muted">
               {t('lastUpdated')}:{siteConfig.legal.privacyLastUpdated}
