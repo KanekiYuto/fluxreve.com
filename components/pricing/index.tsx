@@ -9,7 +9,12 @@ import { useCurrentSubscription, getSubscriptionStatus, getQuotaAmount } from '.
 import { BillingCycleToggle, PricingCard, renderCTAButton } from './components';
 import type { TierTranslation } from './types';
 
-export default function Pricing() {
+interface PricingProps {
+  /** 是否使用 h1 标签作为标题（默认为 h2） */
+  useH1?: boolean;
+}
+
+export default function Pricing({ useH1 = false }: PricingProps) {
   const t = useTranslations('pricing');
   const { user } = useUserStore();
   const { openLoginModal } = useModalStore();
@@ -20,6 +25,9 @@ export default function Pricing() {
   const uniquePlanTypes = useMemo(() => getUniquePlanTypes(), []);
 
   const { currentSubscription, isLoading, fetchCurrentSubscription } = useCurrentSubscription(user);
+
+  // 根据参数动态选择标题标签
+  const TitleTag = useH1 ? 'h1' : 'h2';
 
   return (
     <section className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24 overflow-hidden">
@@ -35,9 +43,9 @@ export default function Pricing() {
           <div className="inline-block mb-3 sm:mb-4 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full bg-primary/10 border border-primary/20">
             <span className="text-xs sm:text-sm font-semibold text-primary">{t('badge')}</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 text-white px-4">
+          <TitleTag className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 text-white px-4">
             {t('title')}
-          </h2>
+          </TitleTag>
           <p className="text-base sm:text-lg text-text-muted max-w-2xl mx-auto mb-6 sm:mb-8 leading-relaxed px-4">
             {t('subtitle')}
           </p>

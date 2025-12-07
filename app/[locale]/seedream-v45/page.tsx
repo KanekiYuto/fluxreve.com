@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: t('title'),
     description: t('description'),
-    alternates: generateAlternates(locale, '/seedream-v4.5'),
+    alternates: generateAlternates(locale, '/seedream-v45'),
   };
 }
 

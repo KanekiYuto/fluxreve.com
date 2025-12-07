@@ -42,7 +42,7 @@ export const headerNavigation: HeaderNavEntry[] = [
       { name: 'nano-banana-pro', href: '/nano-banana-pro', icon: 'banana', description: 'nanoBananaProDesc' },
       { name: 'z-image', href: '/z-image', icon: 'zap', description: 'zImageDesc' },
       { name: 'flux-2-pro', href: '/flux-2-pro', icon: 'sparkles', description: 'flux2ProDesc' },
-      { name: 'seedreamV45', href: '/seedream-v4.5', icon: 'sparkles', description: 'seedreamV45Desc' },
+      { name: 'seedreamV45', href: '/seedream-v45', icon: 'sparkles', description: 'seedreamV45Desc' },
     ],
   },
   { type: 'link', name: 'tasks', href: '/tasks' },
@@ -87,7 +87,7 @@ export const navigationGroups: NavGroup[] = [
       { name: 'nano-banana-pro', href: '/nano-banana-pro', icon: 'sparkles' },
       { name: 'z-image', href: '/z-image', icon: 'sparkles' },
       { name: 'flux-2-pro', href: '/flux-2-pro', icon: 'sparkles' },
-      { name: 'seedreamV45', href: '/seedream-v4.5', icon: 'sparkles' },
+      { name: 'seedreamV45', href: '/seedream-v45', icon: 'sparkles' },
     ],
   },
   {
@@ -129,7 +129,7 @@ export const footerSections: FooterSection[] = [
       { name: 'nano-banana-pro', href: '/nano-banana-pro' },
       { name: 'z-image', href: '/z-image' },
       { name: 'flux-2-pro', href: '/flux-2-pro' },
-      { name: 'seedreamV45', href: '/seedream-v4.5' },
+      { name: 'seedreamV45', href: '/seedream-v45' },
     ],
   },
   {

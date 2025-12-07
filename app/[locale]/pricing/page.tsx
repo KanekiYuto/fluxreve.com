@@ -22,7 +22,7 @@ export async function generateMetadata({
 export default function PricingPage() {
   return (
     <div className="min-h-screen">
-      <Pricing />
+      <Pricing useH1={true} />
 
       <Divider />
 

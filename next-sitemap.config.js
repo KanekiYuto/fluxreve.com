@@ -49,7 +49,7 @@ const staticRoutes = [
   '/nano-banana-pro',
   '/z-image',
   '/flux-2-pro',
-  '/seedream-v4.5',
+  '/seedream-v45',
 ];
 
 // 合并所有需要索引的路由
