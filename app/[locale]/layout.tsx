@@ -27,6 +27,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     publisher: siteConfig.publisher,
     robots: siteConfig.robots,
     metadataBase: siteConfig.url ? new URL(siteConfig.url) : undefined,
+    icons: {
+      icon: '/favicon.ico',
+      shortcut: '/favicon.ico',
+      apple: '/logo.png',
+    },
     // 注意：alternates 应该在各个页面的 generateMetadata 中设置
     // 这样才能根据具体页面路径生成正确的语言链接
   };
