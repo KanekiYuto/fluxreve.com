@@ -23,6 +23,8 @@ const intlMiddleware = createMiddleware({
 });
 
 export async function middleware(request: NextRequest) {
+  console.log(request)
+
   // 处理 i18n 路由
   return intlMiddleware(request);
 }
@@ -32,6 +34,9 @@ export const config = {
   // - API 路由 (/api/*)
   // - Next.js 内部路由 (/_next/*)
   // - Vercel 路由 (/_vercel/*)
-  // - 静态资源 (带扩展名的文件)
-  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)'],
+  // - .well-known 目录 (/.well-known/*)
+  // - 静态资源 (带扩展名的文件，如 .js, .css, .png 等)
+  matcher: [
+    '/((?!api|_next|_vercel|\\.well-known|.*\\.[a-zA-Z0-9]+$).*)'
+  ],
 };
