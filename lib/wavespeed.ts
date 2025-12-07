@@ -60,7 +60,31 @@ export interface NSFWDetails {
 }
 
 /**
- * NSFW 内容审核响应接口
+ * NSFW 内容审核响应接口（API 原始响应）
+ */
+export interface ContentModeratorAPIResponse {
+  code: number;
+  message: string;
+  data: {
+    id: string;
+    status: 'completed' | 'failed';
+    model: string;
+    outputs?: NSFWDetails[];
+    error?: string;
+    urls?: {
+      get: string;
+    };
+    timings?: {
+      inference: number;
+    };
+    created_at?: string;
+    has_nsfw_contents?: boolean | null;
+    executionTime?: number;
+  };
+}
+
+/**
+ * NSFW 内容审核响应接口（处理后的数据）
  */
 export interface ContentModeratorResponse {
   id: string;
@@ -88,13 +112,16 @@ export async function checkImageNSFW(
   imageUrl: string,
   enableSyncMode: boolean = true
 ): Promise<ContentModeratorResponse> {
-  return wavespeedRequest<ContentModeratorResponse>('/wavespeed-ai/content-moderator/image', {
+  const apiResponse = await wavespeedRequest<ContentModeratorAPIResponse>('/wavespeed-ai/content-moderator/image', {
     method: 'POST',
     body: {
       image: imageUrl,
       enable_sync_mode: enableSyncMode,
     },
   });
+
+  // 提取 data 字段返回
+  return apiResponse.data;
 }
 
 /**
@@ -114,10 +141,15 @@ export async function checkImageNSFWWithDetails(imageUrl: string): Promise<NSFWC
   try {
     const result = await checkImageNSFW(imageUrl, true);
 
+    console.log(`[NSFW API Response] for ${imageUrl}:`, JSON.stringify(result, null, 2));
+
     if (result.status === 'completed' && result.outputs && result.outputs.length > 0) {
       const details = result.outputs[0];
+
       // 判断是否包含任何 NSFW 内容
       const isNsfw = details.hate || details.sexual || details.violence || details.harassment || details['sexual/minors'];
+
+      console.log(`[NSFW Detection] Image: ${imageUrl}, isNsfw: ${isNsfw}, details:`, details);
 
       return {
         isNsfw,
@@ -125,12 +157,13 @@ export async function checkImageNSFWWithDetails(imageUrl: string): Promise<NSFWC
       };
     }
 
+    console.log(`[NSFW Detection] Image: ${imageUrl}, no valid outputs, marking as safe`);
     return {
       isNsfw: false,
       details: null,
     };
   } catch (error) {
-    console.error(`Error checking NSFW content for ${imageUrl}:`, error);
+    console.error(`[NSFW Detection Error] for ${imageUrl}:`, error);
     return {
       isNsfw: false,
       details: null,

@@ -110,17 +110,37 @@ function calculateDuration(startedAt: Date | null): number | null {
 }
 
 /**
+ * 异步执行 NSFW 检查并更新任务
+ */
+async function performNSFWCheckAsync(taskId: string, imageUrl: string) {
+  try {
+    console.log(`[NSFW Check] Starting async check for task ${taskId}, image: ${imageUrl}`);
+
+    const nsfwCheckResult = await checkImageNSFWWithDetails(imageUrl);
+
+    // 更新任务的 NSFW 状态
+    await db
+      .update(mediaGenerationTask)
+      .set({
+        isNsfw: nsfwCheckResult.isNsfw,
+        nsfwDetails: nsfwCheckResult.details,
+        updatedAt: new Date(),
+      })
+      .where(eq(mediaGenerationTask.taskId, taskId));
+
+    console.log(`[NSFW Check] Task ${taskId} completed:`, {
+      isNsfw: nsfwCheckResult.isNsfw,
+      details: nsfwCheckResult.details,
+    });
+  } catch (error) {
+    console.error(`[NSFW Check] Error for task ${taskId}:`, error);
+  }
+}
+
+/**
  * 处理任务完成
  */
 async function handleTaskCompleted(taskId: string, outputs: string[], startedAt: Date | null, model: string) {
-  // 只对配置中指定的模型进行 NSFW 检查
-  const shouldCheckNSFW = NSFW_CHECK_MODELS.includes(model as any);
-
-  // 如果需要检查 NSFW，则检查第一张图片的 NSFW 内容，并获取详细结果
-  const nsfwCheckResult = shouldCheckNSFW && outputs.length > 0
-    ? await checkImageNSFWWithDetails(outputs[0])
-    : { isNsfw: false, details: null };
-
   // 保存所有生成的图片结果
   const results = outputs.map((url) => ({
     url,
@@ -129,14 +149,13 @@ async function handleTaskCompleted(taskId: string, outputs: string[], startedAt:
 
   const durationMs = calculateDuration(startedAt);
 
+  // 先快速更新任务状态为完成
   await db
     .update(mediaGenerationTask)
     .set({
       status: 'completed',
       progress: 100,
       results,
-      isNsfw: nsfwCheckResult.isNsfw, // 记录 NSFW 状态
-      nsfwDetails: nsfwCheckResult.details, // 存储 NSFW 详细信息
       completedAt: new Date(),
       durationMs,
       updatedAt: new Date(),
@@ -144,9 +163,24 @@ async function handleTaskCompleted(taskId: string, outputs: string[], startedAt:
     .where(eq(mediaGenerationTask.taskId, taskId));
 
   console.log(
-    `Task completed: ${taskId}, duration: ${durationMs}ms, model: ${model}, nsfwChecked: ${shouldCheckNSFW}, isNsfw: ${nsfwCheckResult.isNsfw}`,
-    nsfwCheckResult.details ? { details: nsfwCheckResult.details, results } : { results }
+    `Task completed: ${taskId}, duration: ${durationMs}ms, model: ${model}, resultsCount: ${results.length}`
   );
+
+  // 只对配置中指定的模型进行 NSFW 检查
+  const shouldCheckNSFW = NSFW_CHECK_MODELS.includes(model as any);
+
+  // 异步执行 NSFW 检查，不阻塞 webhook 响应
+  // 这样可以快速响应 webhook（避免超时重试），NSFW 检查在后台完成
+  // NSFW 检查可能需要 10+ 秒，如果同步执行会导致：
+  // 1. Webhook 响应超时，对方会重试发送
+  // 2. 重复的 webhook 会触发重复的 NSFW 检查
+  if (shouldCheckNSFW && outputs.length > 0) {
+    // 使用 Promise 异步执行，不等待结果
+    performNSFWCheckAsync(taskId, outputs[0]).catch((error) => {
+      console.error(`[NSFW Check] Async execution failed for task ${taskId}:`, error);
+    });
+    console.log(`[NSFW Check] Async check scheduled for task ${taskId}`);
+  }
 }
 
 /**
@@ -278,9 +312,35 @@ export async function POST(
     const task = tasks[0];
 
     // 验证任务状态（避免重复处理）
+    // 使用悲观锁：先更新状态为 processing，防止重复 webhook 同时处理
     if (task.status === 'completed' || task.status === 'failed') {
-      console.warn(`Task ${taskId} already finished with status: ${task.status}`);
+      console.warn(`Task ${taskId} already finished with status: ${task.status}, skipping webhook`);
       return NextResponse.json({ success: true, message: 'Task already finished' });
+    }
+
+    // 如果是 completed 状态的 webhook，立即标记为 processing 防止重复
+    if (status === 'completed') {
+      const updateResult = await db
+        .update(mediaGenerationTask)
+        .set({
+          status: 'processing',
+          updatedAt: new Date(),
+        })
+        .where(
+          and(
+            eq(mediaGenerationTask.taskId, taskId),
+            eq(mediaGenerationTask.status, task.status) // 仅在状态未变时更新
+          )
+        )
+        .returning({ id: mediaGenerationTask.id });
+
+      // 如果更新失败（说明已被其他请求处理），直接返回
+      if (updateResult.length === 0) {
+        console.warn(`Task ${taskId} is being processed by another webhook, skipping`);
+        return NextResponse.json({ success: true, message: 'Task being processed' });
+      }
+
+      console.log(`Task ${taskId} locked for processing`);
     }
 
     // 根据状态处理任务

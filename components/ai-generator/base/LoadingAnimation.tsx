@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 
 interface LoadingAnimationProps {
@@ -8,6 +9,53 @@ interface LoadingAnimationProps {
 
 export default function LoadingAnimation({ progress = 0 }: LoadingAnimationProps) {
   const t = useTranslations('ai-generator.loading');
+  const [displayProgress, setDisplayProgress] = useState(0);
+  const [isInitializing, setIsInitializing] = useState(true);
+
+  useEffect(() => {
+    // 初始化阶段：模拟 0-15% 的快速进度
+    if (progress === 0 && isInitializing) {
+      let currentProgress = 0;
+      const initInterval = setInterval(() => {
+        currentProgress += Math.random() * 3; // 随机增长 0-3%
+        if (currentProgress >= 15) {
+          currentProgress = 15;
+          clearInterval(initInterval);
+        }
+        setDisplayProgress(Math.floor(currentProgress));
+      }, 200); // 每 200ms 更新一次
+
+      return () => clearInterval(initInterval);
+    }
+
+    // 真实进度接管：当服务器返回真实进度时
+    if (progress > 0) {
+      setIsInitializing(false);
+
+      // 丝滑过渡到真实进度
+      if (progress > displayProgress) {
+        // 使用动画逐步追上真实进度
+        const diff = progress - displayProgress;
+        const step = diff / 10; // 分 10 步追上
+
+        let current = displayProgress;
+        const catchUpInterval = setInterval(() => {
+          current += step;
+          if (current >= progress) {
+            current = progress;
+            clearInterval(catchUpInterval);
+          }
+          setDisplayProgress(Math.floor(current));
+        }, 50); // 每 50ms 更新一次，总共 500ms 追上
+
+        return () => clearInterval(catchUpInterval);
+      } else {
+        // 如果真实进度小于显示进度（不应该发生），直接设置
+        setDisplayProgress(progress);
+      }
+    }
+  }, [progress, displayProgress, isInitializing]);
+
   return (
     <div className="relative flex flex-col items-center justify-center gap-10 py-20 min-h-[500px]">
       {/* 主视觉：闪电图标 + 光环 */}
@@ -42,16 +90,20 @@ export default function LoadingAnimation({ progress = 0 }: LoadingAnimationProps
       <div className="relative z-10 text-center space-y-5">
         {/* 进度百分比 */}
         <div>
-          <p className="text-5xl font-bold gradient-text mb-2">{progress}%</p>
-          <p className="text-sm text-muted-foreground font-medium">{t('creating')}</p>
+          <p className="text-5xl font-bold gradient-text mb-2 transition-all duration-300">
+            {displayProgress}%
+          </p>
+          <p className="text-sm text-muted-foreground font-medium">
+            {isInitializing ? t('initializing') : t('creating')}
+          </p>
         </div>
 
         {/* 进度条 */}
         <div className="w-80">
           <div className="h-3 bg-zinc-800 rounded-full overflow-hidden shadow-inner">
             <div
-              className="h-full bg-gradient-to-r from-[#FF3466] to-[#C721FF] transition-all duration-500 ease-out rounded-full relative overflow-hidden shadow-lg"
-              style={{ width: `${progress}%` }}
+              className="h-full bg-gradient-to-r from-[#FF3466] to-[#C721FF] transition-all duration-300 ease-out rounded-full relative overflow-hidden shadow-lg"
+              style={{ width: `${displayProgress}%` }}
             >
               {/* 流动光效 */}
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/50 to-transparent -translate-x-full animate-[shimmer_2s_infinite]"></div>

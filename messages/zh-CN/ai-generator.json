@@ -45,6 +45,7 @@
     "prompt": "提示词"
   },
   "loading": {
+    "initializing": "初始化中",
     "creating": "AI 创作中",
     "message": "正在为您产生精彩内容，请稍候..."
   },

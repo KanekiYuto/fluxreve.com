@@ -45,6 +45,7 @@
     "prompt": "Prompt"
   },
   "loading": {
+    "initializing": "Initializing",
     "creating": "AI Creating",
     "message": "Generating amazing content for you, please wait..."
   },

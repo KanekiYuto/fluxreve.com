@@ -45,6 +45,7 @@
     "prompt": "プロンプト"
   },
   "loading": {
+    "initializing": "初期化中",
     "creating": "AI生成中",
     "message": "素晴らしいコンテンツを生成しています。お待ちください..."
   },
