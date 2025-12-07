@@ -10,6 +10,14 @@ export type TaskType = 'text-to-image' | 'image-to-image';
 export const DEFAULT_CREDITS = 88888888;
 
 /**
+ * 需要进行 NSFW 内容检查的模型列表
+ * 只有这些模型生成的图片会进行 NSFW 审核
+ */
+export const NSFW_CHECK_MODELS = [
+  'z-image',
+] as const;
+
+/**
  * 获取生成任务所需的配额
  * @param taskType 任务类型
  * @param model 模型名称

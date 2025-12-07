@@ -50,7 +50,7 @@ export async function GET(request: NextRequest) {
         )
       )
       .orderBy(desc(mediaGenerationTask.createdAt))
-      .limit(50);
+      .limit(12);
 
     return NextResponse.json({
       success: true,

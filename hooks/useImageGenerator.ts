@@ -13,7 +13,7 @@ export interface ErrorState {
 }
 
 export interface UseImageGeneratorOptions {
-  /** 轮询间隔(毫秒),默认 2000ms */
+  /** 轮询间隔(毫秒),默认 500ms */
   pollingInterval?: number;
   /** 自定义验证函数 */
   validateForm?: () => ErrorState | null;
@@ -35,7 +35,7 @@ export interface GenerateParams {
  * 处理生成状态、轮询、错误处理等通用逻辑
  */
 export function useImageGenerator(options: UseImageGeneratorOptions = {}) {
-  const { pollingInterval = 2000, validateForm } = options;
+  const { pollingInterval = 500 } = options;
   const tError = useTranslations('ai-generator.error');
 
   // ==================== 状态管理 ====================

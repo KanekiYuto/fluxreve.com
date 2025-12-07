@@ -3,6 +3,8 @@ import { db } from '@/lib/db';
 import { mediaGenerationTask } from '@/lib/db/schema';
 import { eq, and } from 'drizzle-orm';
 import { refundQuota } from '@/lib/quota';
+import { checkImageNSFWWithDetails } from '@/lib/wavespeed';
+import { NSFW_CHECK_MODELS } from '@/config/ai-generator';
 
 // 通用任务状态
 type TaskStatus = 'pending' | 'processing' | 'completed' | 'failed';
@@ -110,7 +112,16 @@ function calculateDuration(startedAt: Date | null): number | null {
 /**
  * 处理任务完成
  */
-async function handleTaskCompleted(taskId: string, outputs: string[], startedAt: Date | null) {
+async function handleTaskCompleted(taskId: string, outputs: string[], startedAt: Date | null, model: string) {
+  // 只对配置中指定的模型进行 NSFW 检查
+  const shouldCheckNSFW = NSFW_CHECK_MODELS.includes(model as any);
+
+  // 如果需要检查 NSFW，则检查第一张图片的 NSFW 内容，并获取详细结果
+  const nsfwCheckResult = shouldCheckNSFW && outputs.length > 0
+    ? await checkImageNSFWWithDetails(outputs[0])
+    : { isNsfw: false, details: null };
+
+  // 保存所有生成的图片结果
   const results = outputs.map((url) => ({
     url,
     type: 'image',
@@ -124,13 +135,18 @@ async function handleTaskCompleted(taskId: string, outputs: string[], startedAt:
       status: 'completed',
       progress: 100,
       results,
+      isNsfw: nsfwCheckResult.isNsfw, // 记录 NSFW 状态
+      nsfwDetails: nsfwCheckResult.details, // 存储 NSFW 详细信息
       completedAt: new Date(),
       durationMs,
       updatedAt: new Date(),
     })
     .where(eq(mediaGenerationTask.taskId, taskId));
 
-  console.log(`Task completed: ${taskId}, duration: ${durationMs}ms`, results);
+  console.log(
+    `Task completed: ${taskId}, duration: ${durationMs}ms, model: ${model}, nsfwChecked: ${shouldCheckNSFW}, isNsfw: ${nsfwCheckResult.isNsfw}`,
+    nsfwCheckResult.details ? { details: nsfwCheckResult.details, results } : { results }
+  );
 }
 
 /**
@@ -271,7 +287,7 @@ export async function POST(
     switch (status) {
       case 'completed':
         if (outputs && outputs.length > 0) {
-          await handleTaskCompleted(taskId, outputs, task.startedAt);
+          await handleTaskCompleted(taskId, outputs, task.startedAt, task.model);
         }
         break;
 
