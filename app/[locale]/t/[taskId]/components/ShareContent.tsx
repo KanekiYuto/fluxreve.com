@@ -90,6 +90,7 @@ export default function ShareContent({
             prompt={finalPrompt}
             imageUrl={imageUrl}
             allImages={images.map((img) => img.url)}
+            model={model}
           />
         </aside>
       </div>

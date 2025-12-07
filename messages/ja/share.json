@@ -24,6 +24,7 @@
     "moreActions": "その他のアクション",
     "downloadCurrent": "現在の画像をダウンロード",
     "downloadAll": "すべての画像をダウンロード",
+    "downloadCard": "共有カードをダウンロード",
     "createSimilar": "類似の画像を作成"
   },
   "details": {

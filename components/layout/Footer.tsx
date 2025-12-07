@@ -57,10 +57,37 @@ export default function Footer() {
         </div>
 
         {/* 底部栏 */}
-        <div className="mt-8 pt-8 border-t border-border">
+        <div className="mt-8 pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-text-muted text-sm">
             &copy; {currentYear} {siteConfig.name}. All rights reserved.
           </p>
+
+          {/* 社交媒体图标 */}
+          {siteConfig.social?.telegram && (
+            <a
+              href={siteConfig.social.telegram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-block"
+              aria-label="Telegram"
+            >
+              <svg
+                className="w-6 h-6"
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Telegram</title>
+                {/* 外圆背景 - 保持白色 */}
+                <circle cx="12" cy="12" r="12" className="fill-white" />
+                {/* 小飞机图标 - hover 时变色 */}
+                <path
+                  className="fill-black group-hover:fill-[#0088cc] transition-colors"
+                  d="M16.906 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"
+                />
+              </svg>
+            </a>
+          )}
         </div>
       </div>
     </footer>

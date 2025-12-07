@@ -17,15 +17,17 @@ import {
   PopoverTrigger,
 } from '@/components/ui/popover';
 import ShareToX from '@/components/ui/share-to-x';
+import DownloadShareCard from './DownloadShareCard';
 
 interface ActionButtonsProps {
   shareUrl: string;
   prompt: string;
   imageUrl?: string; // 当前图片下载地址
   allImages?: string[]; // 所有图片 URL 数组
+  model?: string; // AI 模型名称
 }
 
-export default function ActionButtons({ shareUrl, prompt, imageUrl, allImages }: ActionButtonsProps) {
+export default function ActionButtons({ shareUrl, prompt, imageUrl, allImages, model }: ActionButtonsProps) {
   const t = useTranslations('share.actions');
   const [copied, setCopied] = useState(false);
   const [sharePopoverOpen, setSharePopoverOpen] = useState(false);
@@ -184,6 +186,16 @@ export default function ActionButtons({ shareUrl, prompt, imageUrl, allImages }:
                   )}
                   {t('downloadAll')} ({allImages.length})
                 </button>
+              )}
+
+              {/* 下载分享卡片 */}
+              {imageUrl && model && (
+                <DownloadShareCard
+                  imageUrl={imageUrl}
+                  prompt={prompt}
+                  model={model}
+                  shareUrl={shareUrl}
+                />
               )}
             </div>
           </PopoverContent>

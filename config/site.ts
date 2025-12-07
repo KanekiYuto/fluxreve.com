@@ -33,6 +33,11 @@ export const siteConfig = {
     email: 'support@fluxreve.com',
   },
 
+  // 社交媒体链接
+  social: {
+    telegram: 'https://t.me/+_fuj3YZDcStmMjll',
+  },
+
   // 法律信息
   legal: {
     termsLastUpdated: '2025-11-27',
