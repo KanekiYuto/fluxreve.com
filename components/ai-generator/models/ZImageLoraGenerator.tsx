@@ -125,6 +125,7 @@ export default function ZImageLoraGenerator({ modelSelector }: ZImageLoraGenerat
 
     // 转换 LoRA 配置格式，只保留 API 需要的字段
     const lorasForApi = loras.map(lora => ({
+      id: lora.id,
       url: lora.url,
       scale: lora.scale,
       ...(lora.triggerWord && { trigger_word: lora.triggerWord }),

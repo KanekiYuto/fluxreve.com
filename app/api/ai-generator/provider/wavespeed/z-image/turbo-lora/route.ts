@@ -71,14 +71,23 @@ export async function POST(request: NextRequest) {
         );
       }
 
+      const lorarsPrompt = loras.map((i) => {
+        return i.trigger_word
+      }).join(',')
+
       // 构建 API 请求参数
       const apiParams: Record<string, any> = {
-        prompt: `出现的女性角色是谢楚灵，${prompt}`,
+        prompt: `${lorarsPrompt} | ${prompt}`,
         size,
         enable_base64_output,
         enable_sync_mode,
         seed: seed ?? -1, // 默认使用 -1 表示随机 seed
-        loras,
+        loras: loras.map((i) => {
+          return {
+            path: i.url,
+            scale: i.scale,
+          }
+        }),
       };
 
       // 返回处理结果
@@ -94,7 +103,9 @@ export async function POST(request: NextRequest) {
           seed: seed ?? -1,
           enable_base64_output,
           enable_sync_mode,
-          loras,
+          loras: loras.map((i) => {
+            return i.id
+          }),
         },
         // 配额消费描述
         description: `Z-Image Turbo LoRA generation${loras?.length ? ` with ${loras.length} LoRA(s)` : ''}: ${prompt.substring(0, 50)}...`,
