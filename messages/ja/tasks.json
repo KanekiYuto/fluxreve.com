@@ -56,7 +56,11 @@
     "confirmDeleteTitle": "タスクを削除",
     "confirmDeleteMessage": "このタスクを削除してもよろしいですか？この操作は取り消せません。",
     "cancelDelete": "キャンセル",
-    "deleting": "削除中..."
+    "deleting": "削除中...",
+    "private": "非公開",
+    "public": "公開",
+    "makePrivate": "非公開にする",
+    "makePublic": "公開にする"
   },
   "errors": {
     "fetchFailed": "タスクの取得に失敗しました",

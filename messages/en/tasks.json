@@ -56,7 +56,11 @@
     "confirmDeleteTitle": "Delete Task",
     "confirmDeleteMessage": "Are you sure you want to delete this task? This action cannot be undone.",
     "cancelDelete": "Cancel",
-    "deleting": "Deleting..."
+    "deleting": "Deleting...",
+    "private": "Private",
+    "public": "Public",
+    "makePrivate": "Make Private",
+    "makePublic": "Make Public"
   },
   "errors": {
     "fetchFailed": "Failed to fetch tasks",

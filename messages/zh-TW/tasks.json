@@ -56,7 +56,11 @@
     "confirmDeleteTitle": "刪除任務",
     "confirmDeleteMessage": "確定要刪除這個任務嗎？此操作無法撤銷。",
     "cancelDelete": "取消",
-    "deleting": "刪除中..."
+    "deleting": "刪除中...",
+    "private": "私有",
+    "public": "公開",
+    "makePrivate": "設為私有",
+    "makePublic": "設為公開"
   },
   "errors": {
     "fetchFailed": "獲取任務列表失敗",

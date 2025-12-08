@@ -3,13 +3,14 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
-import { Trash2 } from 'lucide-react';
+import { Trash2, Lock, Unlock } from 'lucide-react';
 import { getModelDisplayName } from '@/config/model-names';
 import { GenerationTask } from './TaskList';
 
 interface TaskCardProps {
   task: GenerationTask;
   onDelete?: (taskId: string) => void;
+  onTogglePrivacy?: (taskId: string, isPrivate: boolean) => void;
 }
 
 // 使用浏览器原生 API 计算相对时间
@@ -27,10 +28,12 @@ function getTimeAgo(date: Date): string {
   return rtf.format(-Math.floor(diffInSeconds / 31536000), 'year');
 }
 
-export default function TaskCard({ task, onDelete }: TaskCardProps) {
+export default function TaskCard({ task, onDelete, onTogglePrivacy }: TaskCardProps) {
   const t = useTranslations('tasks');
   const [isDeleting, setIsDeleting] = useState(false);
   const [showConfirmModal, setShowConfirmModal] = useState(false);
+  const [isTogglingPrivacy, setIsTogglingPrivacy] = useState(false);
+  const [isPrivate, setIsPrivate] = useState(task.isPrivate);
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -110,6 +113,36 @@ export default function TaskCard({ task, onDelete }: TaskCardProps) {
     setShowConfirmModal(false);
   };
 
+  const handleTogglePrivacy = async (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    
+    setIsTogglingPrivacy(true);
+    const newPrivateState = !isPrivate;
+    
+    try {
+      const response = await fetch(`/api/ai-generator/tasks/${task.taskId}`, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ isPrivate: newPrivateState }),
+      });
+      const data = await response.json();
+      
+      if (data.success) {
+        setIsPrivate(newPrivateState);
+        onTogglePrivacy?.(task.taskId, newPrivateState);
+      } else {
+        console.error('Failed to toggle privacy:', data.error);
+      }
+    } catch (error) {
+      console.error('Failed to toggle privacy:', error);
+    } finally {
+      setIsTogglingPrivacy(false);
+    }
+  };
+
   const timeAgo = getTimeAgo(new Date(task.createdAt));
   const hasImage = task.results && task.results.length > 0 && task.status === 'completed';
 
@@ -127,6 +160,13 @@ export default function TaskCard({ task, onDelete }: TaskCardProps) {
                   alt={task.parameters.prompt}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
+                {/* 私有状态标识 */}
+                {isPrivate && (
+                  <div className="absolute top-2 left-2 bg-black/60 backdrop-blur-sm px-2 py-1 rounded-full text-xs text-yellow-400 flex items-center gap-1">
+                    <Lock className="w-3 h-3" />
+                    <span>{t('card.private')}</span>
+                  </div>
+                )}
                 {/* 多图标识 */}
                 {task.results!.length > 1 && (
                   <div className="absolute top-2 right-2 bg-black/60 backdrop-blur-sm px-2 py-1 rounded-full text-xs text-white flex items-center gap-1">
@@ -191,18 +231,43 @@ export default function TaskCard({ task, onDelete }: TaskCardProps) {
             </p>
           </Link>
 
-          {/* 时间和删除按钮 */}
+          {/* 时间和操作按钮 */}
           <div className="flex items-center justify-between">
             <p className="text-xs text-text-muted">
               {timeAgo}
             </p>
-            <button
-              onClick={handleDeleteClick}
-              className="p-1.5 text-text-muted hover:text-red-400 hover:bg-red-500/10 rounded-lg transition-colors cursor-pointer"
-              title={t('card.delete')}
-            >
-              <Trash2 className="w-4 h-4" />
-            </button>
+            <div className="flex items-center gap-1">
+              {/* 私有状态切换按钮 */}
+              <button
+                onClick={handleTogglePrivacy}
+                disabled={isTogglingPrivacy}
+                className={`p-1.5 rounded-lg transition-colors cursor-pointer ${
+                  isPrivate 
+                    ? 'text-yellow-400 hover:text-yellow-300 hover:bg-yellow-500/10' 
+                    : 'text-text-muted hover:text-green-400 hover:bg-green-500/10'
+                } disabled:opacity-50`}
+                title={isPrivate ? t('card.makePublic') : t('card.makePrivate')}
+              >
+                {isTogglingPrivacy ? (
+                  <svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                  </svg>
+                ) : isPrivate ? (
+                  <Lock className="w-4 h-4" />
+                ) : (
+                  <Unlock className="w-4 h-4" />
+                )}
+              </button>
+              {/* 删除按钮 */}
+              <button
+                onClick={handleDeleteClick}
+                className="p-1.5 text-text-muted hover:text-red-400 hover:bg-red-500/10 rounded-lg transition-colors cursor-pointer"
+                title={t('card.delete')}
+              >
+                <Trash2 className="w-4 h-4" />
+              </button>
+            </div>
           </div>
         </div>
       </div>

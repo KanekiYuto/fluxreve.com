@@ -30,13 +30,6 @@ const disallowPaths = [
   '/task/', // 用户私有任务详情页
 ];
 
-// 公开分享页面示例（用于 sitemap）
-const publicSharePages = [
-  '/t/image-to-image-flux-2-pro-yu9f07gsmk',
-  '/t/image-to-image-nano-banana-pro-9750k78ky2',
-  '/t/text-to-image-z-image-turbo-to110po4j2',
-];
-
 // 静态页面路由
 const staticRoutes = [
   '', // 首页
@@ -52,8 +45,27 @@ const staticRoutes = [
   '/seedream-v45',
 ];
 
-// 合并所有需要索引的路由
-const allRoutes = [...staticRoutes, ...publicSharePages];
+// 从预生成的 JSON 文件读取公开分享的任务链接
+function getPublicSharePages() {
+  try {
+    const fs = require('fs');
+    const path = require('path');
+    const tasksPath = path.join(__dirname, '.next-sitemap-tasks.json');
+    
+    // 如果文件不存在，返回空数组
+    if (!fs.existsSync(tasksPath)) {
+      console.warn('⚠️  未找到公开任务列表文件，请先运行: pnpm generate:sitemap-tasks');
+      return [];
+    }
+    
+    const tasks = JSON.parse(fs.readFileSync(tasksPath, 'utf-8'));
+    console.log(`✅ 成功加载 ${tasks.length} 个公开任务链接`);
+    return tasks;
+  } catch (error) {
+    console.error('❌ 读取公开任务列表失败:', error);
+    return [];
+  }
+}
 
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
@@ -73,6 +85,12 @@ module.exports = {
   // 生成所有语言版本的路径
   additionalPaths: async () => {
     const paths = [];
+
+    // 获取公开分享页面
+    const publicSharePages = getPublicSharePages();
+    
+    // 合并所有路由
+    const allRoutes = [...staticRoutes, ...publicSharePages];
 
     locales.forEach((locale) => {
       allRoutes.forEach((route) => {

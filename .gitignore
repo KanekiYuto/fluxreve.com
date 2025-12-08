@@ -51,3 +51,4 @@ next-env.d.ts
 # next-sitemap
 /public/robots.txt
 /public/sitemap*.xml
+.next-sitemap-tasks.json

@@ -23,8 +23,6 @@ const intlMiddleware = createMiddleware({
 });
 
 export async function middleware(request: NextRequest) {
-  console.log(request)
-
   // 处理 i18n 路由
   return intlMiddleware(request);
 }

@@ -90,6 +90,7 @@ export async function GET(request: NextRequest) {
         createdAt: mediaGenerationTask.createdAt,
         completedAt: mediaGenerationTask.completedAt,
         errorMessage: mediaGenerationTask.errorMessage,
+        isPrivate: mediaGenerationTask.isPrivate,
       })
       .from(mediaGenerationTask)
       .where(and(...conditions))

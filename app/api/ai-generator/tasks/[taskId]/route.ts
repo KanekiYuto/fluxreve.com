@@ -117,6 +117,108 @@ export async function GET(
 }
 
 /**
+ * PATCH /api/ai-generator/tasks/[taskId]
+ * 更新任务信息（如私有状态）
+ * 需要身份验证，只能更新自己的任务
+ */
+export async function PATCH(
+  request: NextRequest,
+  { params }: { params: Promise<{ taskId: string }> }
+) {
+  try {
+    // 获取当前用户
+    const session = await auth.api.getSession({
+      headers: request.headers,
+    });
+
+    if (!session?.user?.id) {
+      return NextResponse.json(
+        { success: false, error: 'Unauthorized' },
+        { status: 401 }
+      );
+    }
+
+    const { taskId } = await params;
+
+    // 验证任务ID格式
+    if (!taskId) {
+      return NextResponse.json(
+        { success: false, error: 'Task ID is required' },
+        { status: 400 }
+      );
+    }
+
+    // 解析请求体
+    const body = await request.json();
+    const { isPrivate } = body;
+
+    // 验证 isPrivate 参数
+    if (typeof isPrivate !== 'boolean') {
+      return NextResponse.json(
+        { success: false, error: 'isPrivate must be a boolean' },
+        { status: 400 }
+      );
+    }
+
+    // 查询任务是否存在且属于当前用户
+    const tasks = await db
+      .select({
+        id: mediaGenerationTask.id,
+        userId: mediaGenerationTask.userId,
+      })
+      .from(mediaGenerationTask)
+      .where(
+        and(
+          eq(mediaGenerationTask.taskId, taskId),
+          isNull(mediaGenerationTask.deletedAt)
+        )
+      )
+      .limit(1);
+
+    if (tasks.length === 0) {
+      return NextResponse.json(
+        { success: false, error: 'Task not found' },
+        { status: 404 }
+      );
+    }
+
+    const task = tasks[0];
+
+    // 验证任务属于当前用户
+    if (task.userId !== session.user.id) {
+      return NextResponse.json(
+        { success: false, error: 'Forbidden' },
+        { status: 403 }
+      );
+    }
+
+    // 更新任务
+    await db
+      .update(mediaGenerationTask)
+      .set({
+        isPrivate,
+        updatedAt: new Date(),
+      })
+      .where(eq(mediaGenerationTask.id, task.id));
+
+    return NextResponse.json({
+      success: true,
+      data: { isPrivate },
+      message: 'Task updated successfully',
+    });
+  } catch (error) {
+    console.error('Task update error:', error);
+    return NextResponse.json(
+      {
+        success: false,
+        error: error instanceof Error ? error.message : 'Internal server error',
+      },
+      { status: 500 }
+    );
+  }
+}
+
+/**
  * DELETE /api/ai-generator/tasks/[taskId]
  * 删除任务（软删除）
  * 需要身份验证，只能删除自己的任务

@@ -29,6 +29,7 @@ export interface GenerationTask {
   createdAt: string;
   completedAt?: string;
   errorMessage?: string | null;
+  isPrivate: boolean;
 }
 
 interface PaginationInfo {
@@ -126,6 +127,12 @@ export default function TaskList() {
     setTasks(prev => prev.filter(task => task.taskId !== taskId));
   };
 
+  const handleTogglePrivacy = (taskId: string, isPrivate: boolean) => {
+    setTasks(prev => prev.map(task => 
+      task.taskId === taskId ? { ...task, isPrivate } : task
+    ));
+  };
+
   return (
     <div>
       {/* 筛选条件 */}
@@ -166,7 +173,12 @@ export default function TaskList() {
         <>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
             {tasks.map((task) => (
-              <TaskCard key={task.taskId} task={task} onDelete={handleDeleteTask} />
+              <TaskCard 
+                key={task.taskId} 
+                task={task} 
+                onDelete={handleDeleteTask}
+                onTogglePrivacy={handleTogglePrivacy}
+              />
             ))}
           </div>
 
