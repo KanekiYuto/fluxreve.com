@@ -15,6 +15,7 @@ export const DEFAULT_CREDITS = 88888888;
  */
 export const NSFW_CHECK_MODELS = [
   'z-image',
+  'z-image-lora',
 ] as const;
 
 /**
@@ -55,6 +56,11 @@ function calculateTextToImageCredits(model: string, parameters: Record<string, a
   // Z-Image Turbo 模型
   if (model === 'z-image') {
     return zImageTextToImageCredits(parameters);
+  }
+
+  // Z-Image Turbo LoRA 模型
+  if (model === 'z-image-lora') {
+    return zImageLoraTextToImageCredits(parameters);
   }
 
   // Flux 2 Pro 模型
@@ -166,4 +172,12 @@ function seedreamTextToImageCredits(_parameters: Record<string, any>): number {
  */
 function seedreamImageToImageCredits(_parameters: Record<string, any>): number {
   return 30;
+}
+
+/**
+ * Z-Image Turbo LoRA 文生图配额计算
+ * 固定 10 积分每张图
+ */
+function zImageLoraTextToImageCredits(_parameters: Record<string, any>): number {
+  return 10;
 }

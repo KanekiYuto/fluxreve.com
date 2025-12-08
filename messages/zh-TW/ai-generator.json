@@ -90,7 +90,13 @@
     "uploading": "上傳中...",
     "addItem": "新增項目",
     "privateMode": "私有模式",
-    "privateModeDesc": "開啟後生成結果僅自己可見"
+    "privateModeDesc": "開啟後生成結果僅自己可見",
+    "configuration": "設定",
+    "addLora": "新增 LoRA",
+    "noLoraConfigured": "尚未設定 LoRA",
+    "clickAddLoraToStart": "點擊上方按鈕新增 LoRA 設定",
+    "loraConfig": "LoRA 設定",
+    "loraConfigHint": "輸入 JSON 格式的 LoRA 設定，例如模型名稱、權重等參數"
   },
   "error": {
     "required": "需要",
@@ -109,6 +115,12 @@
     "generating": "產生中... {progress}%",
     "generateImage": "產生圖像 (消耗 {credits} 配額)"
   },
+  "modelGroups": {
+    "nano": "Nano 系列",
+    "zImage": "Z-Image 系列",
+    "flux": "Flux 系列",
+    "seedream": "Seedream 系列"
+  },
   "models": {
     "nanoBananaPro": {
       "description": "超快速產生，專為高效率創作與優質輸出而最佳化",
@@ -124,6 +136,14 @@
         "ultraFast": "亞秒級",
         "affordable": "寫實品質",
         "quality": "文字渲染"
+      }
+    },
+    "zImageLora": {
+      "description": "Z-Image Turbo LoRA 版本，支援自訂 LoRA 模型，實現風格化創作",
+      "tags": {
+        "customizable": "可客製化",
+        "stylized": "風格化",
+        "lora": "LoRA 支援"
       }
     },
     "flux2Pro": {
@@ -142,6 +162,31 @@
         "creative": "創意生成"
       }
     }
+  },
+  "lora": {
+    "scale": "縮放值",
+    "addLora": "新增 LoRA",
+    "loading": "載入中...",
+    "noLoraAvailable": "暫無可用的 LoRA",
+    "noLoraHint": "請先建立或匯入 LoRA 模型",
+    "configuration": "配置",
+    "loraConfig": "LoRA 配置",
+    "loraConfigHint": "請輸入有效的 JSON 格式配置",
+    "noLoraConfigured": "暫未配置 LoRA",
+    "clickAddLoraToStart": "點擊\"新增 LoRA\"按鈕開始配置",
+    "modalTitle": "選擇 LoRA 模型",
+    "modalSubtitle": "從 LoRA 庫中選擇模型，自訂縮放值以實現個性化風格",
+    "searchPlaceholder": "搜尋 LoRA 名稱、描述或觸發詞...",
+    "selectedLoras": "已選擇",
+    "noSelectedLoras": "暫未選擇 LoRA",
+    "clickToSelect": "點擊左側 LoRA 卡片進行選擇",
+    "noSearchResults": "未找到符合的 LoRA",
+    "confirm": "確認",
+    "cancel": "取消",
+    "selectLora": "選擇 LoRA",
+    "selectMore": "管理 LoRA",
+    "selectedCount": "已選擇 {count} 個 LoRA",
+    "manage": "管理"
   },
   "comingSoon": {
     "badge": "即將推出",

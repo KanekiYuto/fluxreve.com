@@ -73,17 +73,52 @@ export interface ModelOption {
   tags?: Tag[]; // 新增：支持多个标签
 }
 
-export interface ModelSelectorProps {
+/**
+ * 模型分组接口
+ * @example
+ * {
+ *   groupName: 'Nano 系列',
+ *   options: [
+ *     { value: 'nano-1', label: 'Nano 1', description: '...' },
+ *     { value: 'nano-2', label: 'Nano 2', description: '...' }
+ *   ]
+ * }
+ */
+export interface ModelGroup {
+  groupName: string;
   options: ModelOption[];
+}
+
+export interface ModelSelectorProps {
+  options: ModelOption[] | ModelGroup[]; // 支持两种格式
   value: string;
   onChange: (value: string) => void;
+}
+
+/**
+ * 判断是否是分组格式
+ */
+function isGroupedOptions(options: ModelOption[] | ModelGroup[]): options is ModelGroup[] {
+  return options.length > 0 && 'groupName' in options[0];
+}
+
+/**
+ * 扁平化获取所有选项（用于查找当前选中的选项）
+ */
+function flattenOptions(options: ModelOption[] | ModelGroup[]): ModelOption[] {
+  if (isGroupedOptions(options)) {
+    return options.flatMap(group => group.options);
+  }
+  return options;
 }
 
 export default function ModelSelector({ options, value, onChange }: ModelSelectorProps) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
-  const currentOption = options.find((opt) => opt.value === value);
+  // 获取所有扁平化的选项
+  const allOptions = flattenOptions(options);
+  const currentOption = allOptions.find((opt) => opt.value === value);
 
   // 点击外部关闭下拉菜单
   useEffect(() => {
@@ -148,61 +183,126 @@ export default function ModelSelector({ options, value, onChange }: ModelSelecto
       {isDropdownOpen && (
         <div className="absolute z-50 w-full mt-2 bg-black/40 backdrop-blur-xl rounded-xl border border-white/10 shadow-2xl overflow-hidden">
           <div className="py-1 max-h-96 overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-white/20 [&::-webkit-scrollbar-thumb]:rounded-full hover:[&::-webkit-scrollbar-thumb]:bg-white/30">
-            {options.map((option) => {
-              const isSelected = option.value === value;
-              return (
-                <button
-                  key={option.value}
-                  type="button"
-                  onClick={() => {
-                    onChange(option.value);
-                    setIsDropdownOpen(false);
-                  }}
-                  className={`w-full px-4 py-3 flex items-start gap-3 transition-all duration-150 text-left cursor-pointer ${
-                    isSelected
-                      ? 'bg-white/10'
-                      : 'hover:bg-white/5'
-                  }`}
-                >
-                  <div className="flex-1 flex flex-col items-start min-w-0 gap-1">
-                    <div className="flex items-center gap-2 w-full">
-                      <span className="text-sm font-medium text-white/90">{option.label}</span>
-                      {/* Badge 显示在名称右边 */}
-                      {option.badge && (
-                        <ModelBadge text={option.badge} />
+            {isGroupedOptions(options) ? (
+              // 渲染分组格式
+              options.map((group, groupIndex) => (
+                <div key={group.groupName}>
+                  {/* 分组标题 */}
+                  <div className="px-4 py-2 text-[11px] font-semibold text-white/40 uppercase tracking-wider">
+                    {group.groupName}
+                  </div>
+                  {/* 分组内的选项 */}
+                  {group.options.map((option) => {
+                    const isSelected = option.value === value;
+                    return (
+                      <button
+                        key={option.value}
+                        type="button"
+                        onClick={() => {
+                          onChange(option.value);
+                          setIsDropdownOpen(false);
+                        }}
+                        className={`w-full px-4 py-3 flex items-start gap-3 transition-all duration-150 text-left cursor-pointer ${
+                          isSelected
+                            ? 'bg-white/10'
+                            : 'hover:bg-white/5'
+                        }`}
+                      >
+                        <div className="flex-1 flex flex-col items-start min-w-0 gap-1">
+                          <div className="flex items-center gap-2 w-full">
+                            <span className="text-sm font-medium text-white/90">{option.label}</span>
+                            {option.badge && (
+                              <ModelBadge text={option.badge} />
+                            )}
+                            {isSelected && (
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="14"
+                                height="14"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="text-white/70 ml-auto flex-shrink-0"
+                              >
+                                <polyline points="20 6 9 17 4 12" />
+                              </svg>
+                            )}
+                          </div>
+                          {option.description && (
+                            <span className="text-xs text-white/50 line-clamp-2">{option.description}</span>
+                          )}
+                          {option.tags && option.tags.length > 0 && (
+                            <div className="flex items-center gap-1.5 mt-1 flex-wrap">
+                              {option.tags.map((tag, index) => (
+                                <ModelTag key={index} text={tag.text} variant={tag.variant} />
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+              ))
+            ) : (
+              // 渲染非分组格式（向后兼容）
+              options.map((option) => {
+                const isSelected = option.value === value;
+                return (
+                  <button
+                    key={option.value}
+                    type="button"
+                    onClick={() => {
+                      onChange(option.value);
+                      setIsDropdownOpen(false);
+                    }}
+                    className={`w-full px-4 py-3 flex items-start gap-3 transition-all duration-150 text-left cursor-pointer ${
+                      isSelected
+                        ? 'bg-white/10'
+                        : 'hover:bg-white/5'
+                    }`}
+                  >
+                    <div className="flex-1 flex flex-col items-start min-w-0 gap-1">
+                      <div className="flex items-center gap-2 w-full">
+                        <span className="text-sm font-medium text-white/90">{option.label}</span>
+                        {option.badge && (
+                          <ModelBadge text={option.badge} />
+                        )}
+                        {isSelected && (
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            className="text-white/70 ml-auto flex-shrink-0"
+                          >
+                            <polyline points="20 6 9 17 4 12" />
+                          </svg>
+                        )}
+                      </div>
+                      {option.description && (
+                        <span className="text-xs text-white/50 line-clamp-2">{option.description}</span>
                       )}
-                      {isSelected && (
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="14"
-                          height="14"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          className="text-white/70 ml-auto flex-shrink-0"
-                        >
-                          <polyline points="20 6 9 17 4 12" />
-                        </svg>
+                      {option.tags && option.tags.length > 0 && (
+                        <div className="flex items-center gap-1.5 mt-1 flex-wrap">
+                          {option.tags.map((tag, index) => (
+                            <ModelTag key={index} text={tag.text} variant={tag.variant} />
+                          ))}
+                        </div>
                       )}
                     </div>
-                    {option.description && (
-                      <span className="text-xs text-white/50 line-clamp-2">{option.description}</span>
-                    )}
-                    {/* Tags 标签放在描述下方 */}
-                    {option.tags && option.tags.length > 0 && (
-                      <div className="flex items-center gap-1.5 mt-1 flex-wrap">
-                        {option.tags.map((tag, index) => (
-                          <ModelTag key={index} text={tag.text} variant={tag.variant} />
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                </button>
-              );
-            })}
+                  </button>
+                );
+              })
+            )}
           </div>
         </div>
       )}

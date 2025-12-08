@@ -227,3 +227,29 @@ export const quotaTransaction = pgTable('quota_transaction', {
   // 创建时间
   createdAt: timestamp('created_at').notNull().defaultNow(),
 });
+
+// LoRAs 信息表
+export const lora = pgTable('loras', {
+  // UUID 主键,由数据库自动生成
+  id: uuid('id').primaryKey().defaultRandom(),
+  // LoRA 文件的 URL
+  url: text('url').notNull(),
+  // 触发词
+  triggerWord: text('trigger_word'),
+  // 标题
+  title: text('title').notNull(),
+  // 描述内容
+  description: text('description'),
+  // 用户ID (创建者)
+  userId: text('user_id')
+    .notNull()
+    .references(() => user.id, { onDelete: 'cascade' }),
+  // 适用的模型列表 (JSONB 格式存储数组: ["z-image", "z-image-lora", "nano-banana-pro"])
+  compatibleModels: jsonb('compatible_models').notNull(),
+  // 素材的 URL 地址列表 (JSONB 格式存储数组: ["https://example.com/asset1.jpg", "https://example.com/asset2.jpg"])
+  assetUrls: jsonb('asset_urls').default([]),
+  // 创建时间
+  createdAt: timestamp('created_at').notNull().defaultNow(),
+  // 更新时间
+  updatedAt: timestamp('updated_at').notNull().defaultNow(),
+});

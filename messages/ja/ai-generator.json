@@ -90,7 +90,13 @@
     "uploading": "アップロード中...",
     "addItem": "項目を追加",
     "privateMode": "プライベートモード",
-    "privateModeDesc": "オンにすると生成結果は自分だけに表示されます"
+    "privateModeDesc": "オンにすると生成結果は自分だけに表示されます",
+    "configuration": "設定",
+    "addLora": "LoRAを追加",
+    "noLoraConfigured": "LoRAが設定されていません",
+    "clickAddLoraToStart": "上のボタンをクリックしてLoRA設定を追加",
+    "loraConfig": "LoRA設定",
+    "loraConfigHint": "JSON形式でLoRA設定を入力してください（モデル名、ウェイトなどのパラメータ）"
   },
   "error": {
     "required": "必須",
@@ -109,6 +115,12 @@
     "generating": "生成中... {progress}%",
     "generateImage": "画像を生成 (コスト {credits} クォータ)"
   },
+  "modelGroups": {
+    "nano": "Nano シリーズ",
+    "zImage": "Z-Image シリーズ",
+    "flux": "Flux シリーズ",
+    "seedream": "Seedream シリーズ"
+  },
   "models": {
     "nanoBananaPro": {
       "description": "超高速生成、卓越したスピードで高品質なクリエイティブ出力に最適化",
@@ -124,6 +136,14 @@
         "ultraFast": "サブ秒レベル",
         "affordable": "写真レベル",
         "quality": "テキスト"
+      }
+    },
+    "zImageLora": {
+      "description": "Z-Image Turbo LoRAバージョン、カスタムLoRAモデルでスタイライズされた作品を作成",
+      "tags": {
+        "customizable": "カスタマイズ可能",
+        "stylized": "スタイライズ",
+        "lora": "LoRA対応"
       }
     },
     "flux2Pro": {
@@ -142,6 +162,31 @@
         "creative": "クリエイティブ"
       }
     }
+  },
+  "lora": {
+    "scale": "スケール",
+    "addLora": "LoRA を追加",
+    "loading": "読み込み中...",
+    "noLoraAvailable": "利用可能な LoRA がありません",
+    "noLoraHint": "まず LoRA モデルを作成またはインポートしてください",
+    "configuration": "設定",
+    "loraConfig": "LoRA 設定",
+    "loraConfigHint": "有効な JSON 形式の設定を入力してください",
+    "noLoraConfigured": "LoRA が設定されていません",
+    "clickAddLoraToStart": "\"LoRA を追加\" ボタンをクリックして設定を開始",
+    "modalTitle": "LoRA モデルを選択",
+    "modalSubtitle": "LoRA ライブラリから選択し、スケールをカスタマイズしてパーソナライズされたスタイルを実現",
+    "searchPlaceholder": "LoRA 名、説明、またはトリガーワードで検索...",
+    "selectedLoras": "選択済み",
+    "noSelectedLoras": "LoRA が選択されていません",
+    "clickToSelect": "左側の LoRA カードをクリックして選択",
+    "noSearchResults": "一致する LoRA が見つかりません",
+    "confirm": "確認",
+    "cancel": "キャンセル",
+    "selectLora": "LoRA を選択",
+    "selectMore": "LoRA を管理",
+    "selectedCount": "{count} 個の LoRA が選択されています",
+    "manage": "管理"
   },
   "comingSoon": {
     "badge": "近日公開",

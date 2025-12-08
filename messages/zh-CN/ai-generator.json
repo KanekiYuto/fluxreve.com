@@ -90,7 +90,13 @@
     "uploading": "上传中...",
     "addItem": "添加项目",
     "privateMode": "私有模式",
-    "privateModeDesc": "开启后生成结果仅自己可见"
+    "privateModeDesc": "开启后生成结果仅自己可见",
+    "configuration": "配置",
+    "addLora": "添加 LoRA",
+    "noLoraConfigured": "暂未配置 LoRA",
+    "clickAddLoraToStart": "点击上方按钮添加 LoRA 配置",
+    "loraConfig": "LoRA 配置",
+    "loraConfigHint": "输入 JSON 格式的 LoRA 配置，例如模型名称、权重等参数"
   },
   "error": {
     "required": "需要",
@@ -109,6 +115,12 @@
     "generating": "产生中... {progress}%",
     "generateImage": "产生图像 (消耗 {credits} 配额)"
   },
+  "modelGroups": {
+    "nano": "Nano 系列",
+    "zImage": "Z-Image 系列",
+    "flux": "Flux 系列",
+    "seedream": "Seedream 系列"
+  },
   "models": {
     "nanoBananaPro": {
       "description": "超快速产生，专为高效率创作与优质输出而最佳化",
@@ -124,6 +136,14 @@
         "ultraFast": "亚秒级",
         "affordable": "写实品质",
         "quality": "文字渲染"
+      }
+    },
+    "zImageLora": {
+      "description": "Z-Image Turbo LoRA 版本，支持自定义 LoRA 模型，实现风格化创作",
+      "tags": {
+        "customizable": "可定制",
+        "stylized": "风格化",
+        "lora": "LoRA 支持"
       }
     },
     "flux2Pro": {
@@ -142,6 +162,31 @@
         "creative": "创意生成"
       }
     }
+  },
+  "lora": {
+    "scale": "缩放值",
+    "addLora": "添加 LoRA",
+    "loading": "加载中...",
+    "noLoraAvailable": "暂无可用的 LoRA",
+    "noLoraHint": "请先创建或导入 LoRA 模型",
+    "configuration": "配置",
+    "loraConfig": "LoRA 配置",
+    "loraConfigHint": "请输入有效的 JSON 格式配置",
+    "noLoraConfigured": "暂未配置 LoRA",
+    "clickAddLoraToStart": "点击\"添加 LoRA\"按钮开始配置",
+    "modalTitle": "选择 LoRA 模型",
+    "modalSubtitle": "从 LoRA 库中选择模型，自定义缩放值以实现个性化风格",
+    "searchPlaceholder": "搜索 LoRA 名称、描述或触发词...",
+    "selectedLoras": "已选择",
+    "noSelectedLoras": "暂未选择 LoRA",
+    "clickToSelect": "点击左侧 LoRA 卡片进行选择",
+    "noSearchResults": "未找到匹配的 LoRA",
+    "confirm": "确认",
+    "cancel": "取消",
+    "selectLora": "选择 LoRA",
+    "selectMore": "管理 LoRA",
+    "selectedCount": "已选择 {count} 个 LoRA",
+    "manage": "管理"
   },
   "comingSoon": {
     "badge": "即将推出",

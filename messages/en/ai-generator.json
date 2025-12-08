@@ -90,7 +90,13 @@
     "uploading": "Uploading...",
     "addItem": "Add Item",
     "privateMode": "Private Mode",
-    "privateModeDesc": "Results will only be visible to you"
+    "privateModeDesc": "Results will only be visible to you",
+    "configuration": "Configuration",
+    "addLora": "Add LoRA",
+    "noLoraConfigured": "No LoRA configured yet",
+    "clickAddLoraToStart": "Click the button above to add LoRA configuration",
+    "loraConfig": "LoRA Config",
+    "loraConfigHint": "Enter LoRA configuration in JSON format, e.g., model name, weight, and other parameters"
   },
   "error": {
     "required": "Required",
@@ -109,6 +115,12 @@
     "generating": "Generating... {progress}%",
     "generateImage": "Generate Image (Cost {credits} Quota)"
   },
+  "modelGroups": {
+    "nano": "Nano Series",
+    "zImage": "Z-Image Series",
+    "flux": "Flux Series",
+    "seedream": "Seedream Series"
+  },
   "models": {
     "nanoBananaPro": {
       "description": "Lightning-fast generation, optimized for high-quality creative output with exceptional speed",
@@ -124,6 +136,14 @@
         "ultraFast": "Sub-second",
         "affordable": "Photorealistic",
         "quality": "Text Render"
+      }
+    },
+    "zImageLora": {
+      "description": "Z-Image Turbo LoRA version with custom LoRA model support for stylized creations",
+      "tags": {
+        "customizable": "Customizable",
+        "stylized": "Stylized",
+        "lora": "LoRA Support"
       }
     },
     "flux2Pro": {
@@ -142,6 +162,31 @@
         "creative": "Creative"
       }
     }
+  },
+  "lora": {
+    "scale": "Scale",
+    "addLora": "Add LoRA",
+    "loading": "Loading...",
+    "noLoraAvailable": "No LoRA available",
+    "noLoraHint": "Please create or import LoRA models first",
+    "configuration": "Configuration",
+    "loraConfig": "LoRA Config",
+    "loraConfigHint": "Please enter valid JSON format configuration",
+    "noLoraConfigured": "No LoRA configured",
+    "clickAddLoraToStart": "Click \"Add LoRA\" button to start configuration",
+    "modalTitle": "Select LoRA Model",
+    "modalSubtitle": "Choose from the LoRA library and customize scale for personalized styles",
+    "searchPlaceholder": "Search LoRA name, description, or trigger word...",
+    "selectedLoras": "Selected",
+    "noSelectedLoras": "No LoRA selected",
+    "clickToSelect": "Click a LoRA card on the left to select",
+    "noSearchResults": "No matching LoRA found",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "selectLora": "Select LoRA",
+    "selectMore": "Manage LoRA",
+    "selectedCount": "{count} LoRA(s) selected",
+    "manage": "Manage"
   },
   "comingSoon": {
     "badge": "Coming Soon",
