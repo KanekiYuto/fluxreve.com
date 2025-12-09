@@ -15,6 +15,16 @@ export const user = pgTable('user', {
   currentSubscriptionId: uuid('current_subscription_id'),
   // 是否为管理员
   isAdmin: boolean('is_admin').notNull().default(false),
+  // 注册时的 IP 地址
+  registrationIp: text('registration_ip'),
+  // 注册时的国家代码 (ISO 3166-1 alpha-2, 例如: US, CN, JP)
+  registrationCountry: text('registration_country'),
+  // UTM 来源参数
+  utmSource: text('utm_source'),
+  utmMedium: text('utm_medium'),
+  utmCampaign: text('utm_campaign'),
+  utmContent: text('utm_content'),
+  utmTerm: text('utm_term'),
 });
 
 // Better Auth 会话表

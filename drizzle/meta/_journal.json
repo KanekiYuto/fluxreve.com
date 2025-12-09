@@ -134,6 +134,13 @@
       "when": 1765285294651,
       "tag": "0018_eminent_snowbird",
       "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1765293469316,
+      "tag": "0019_normal_wilson_fisk",
+      "breakpoints": true
     }
   ]
 }
