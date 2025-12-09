@@ -9,7 +9,7 @@ import PageLayout from '@/components/layout/PageLayout';
 import UserProvider from '@/components/providers/UserProvider';
 import ModalProvider from '@/components/providers/ModalProvider';
 import NavigationProgress from '@/components/providers/NavigationProgress';
-import UtmCapture from '@/components/providers/UtmCapture';
+import PostHogProvider from '@/components/providers/PostHogProvider';
 import { siteConfig } from '@/config/site';
 import "../globals.css";
 
@@ -74,14 +74,15 @@ export default async function LocaleLayout({ children, params }: Props) {
           `}
         </Script>
 
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <UserProvider>
-            <UtmCapture />
-            <NavigationProgress />
-            <PageLayout>{children}</PageLayout>
-            <ModalProvider />
-          </UserProvider>
-        </NextIntlClientProvider>
+        <PostHogProvider>
+          <NextIntlClientProvider locale={locale} messages={messages}>
+            <UserProvider>
+              <NavigationProgress />
+              <PageLayout>{children}</PageLayout>
+              <ModalProvider />
+            </UserProvider>
+          </NextIntlClientProvider>
+        </PostHogProvider>
         <Analytics />
       </body>
     </html>
