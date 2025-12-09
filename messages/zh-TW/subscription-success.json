@@ -1,0 +1,36 @@
+{
+  "seo": {
+    "title": "訂閱成功",
+    "description": "感謝您的訂閱！您的帳戶已成功升級"
+  },
+  "title": "訂閱成功！",
+  "description": "感謝您的訂閱，您的帳戶已成功升級。現在即可享受所有高級功能。",
+  "loading": "載入中...",
+  "notFound": "未找到訂閱資訊",
+  "details": {
+    "title": "訂閱詳情",
+    "plan": "訂閱方案",
+    "amount": "訂閱金額",
+    "status": "狀態",
+    "statusActive": "已激活"
+  },
+  "nextSteps": {
+    "title": "接下來您可以",
+    "step1": "訪問您的儀表板，查看所有可用功能",
+    "step2": "開始使用 AI 生成器創建精美圖像",
+    "step3": "在訂閱管理頁面查看您的訂閱詳情"
+  },
+  "actions": {
+    "startUsing": "立即開始使用",
+    "redirecting": "跳轉中...",
+    "viewSubscription": "查看訂閱詳情"
+  },
+  "autoRedirect": "{seconds} 秒後自動跳轉至儀表板...",
+  "planTypes": {
+    "monthly_basic": "基礎版 - 月付",
+    "yearly_basic": "基礎版 - 年付",
+    "monthly_pro": "專業版 - 月付",
+    "yearly_pro": "專業版 - 年付",
+    "unknown": "未知方案"
+  }
+}

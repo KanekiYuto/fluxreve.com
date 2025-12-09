@@ -1,0 +1,36 @@
+{
+  "seo": {
+    "title": "订阅成功",
+    "description": "感谢您的订阅！您的账户已成功升级"
+  },
+  "title": "订阅成功！",
+  "description": "感谢您的订阅，您的账户已成功升级。现在即可享受所有高级功能。",
+  "loading": "加载中...",
+  "notFound": "未找到订阅信息",
+  "details": {
+    "title": "订阅详情",
+    "plan": "订阅方案",
+    "amount": "订阅金额",
+    "status": "状态",
+    "statusActive": "已激活"
+  },
+  "nextSteps": {
+    "title": "接下来您可以",
+    "step1": "访问您的仪表板，查看所有可用功能",
+    "step2": "开始使用 AI 生成器创建精美图像",
+    "step3": "在订阅管理页面查看您的订阅详情"
+  },
+  "actions": {
+    "startUsing": "立即开始使用",
+    "redirecting": "跳转中...",
+    "viewSubscription": "查看订阅详情"
+  },
+  "autoRedirect": "{seconds} 秒后自动跳转至仪表板...",
+  "planTypes": {
+    "monthly_basic": "基础版 - 月付",
+    "yearly_basic": "基础版 - 年付",
+    "monthly_pro": "专业版 - 月付",
+    "yearly_pro": "专业版 - 年付",
+    "unknown": "未知方案"
+  }
+}

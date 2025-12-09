@@ -29,6 +29,7 @@ async function loadMessages(locale: string) {
     'share',
     'subscription',
     'terms',
+    'subscription-success',
   ];
 
   // 动态导入所有翻译文件
