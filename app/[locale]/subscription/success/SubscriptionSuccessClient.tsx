@@ -76,6 +76,13 @@ export default function SubscriptionSuccessClient() {
         'currency': subscriptionData.currency,
         'transaction_id': subscriptionData.id
       });
+
+      window.gtag('event', 'conversion', {
+        'seed_to': 'AW-17790324344/xHVlCLHFws4bEPici6NC',
+        'value': conversionValue,
+        'currency': subscriptionData.currency,
+        'transaction_id': subscriptionData.id
+      });
     }
   }, [subscriptionData]);
 

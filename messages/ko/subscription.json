@@ -1,0 +1,42 @@
+{
+  "seo": {
+    "title": "구독 관리",
+    "description": "구독 플랜 및 결제 정보 확인 및 관리"
+  },
+  "title": "구독 관리",
+  "subtitle": "구독 정보 확인 및 관리",
+  "login": {
+    "title": "구독을 보려면 로그인",
+    "description": "구독 정보를 보고 관리하려면 로그인하세요"
+  },
+  "empty": {
+    "title": "구독 없음",
+    "description": "현재 활성 구독이 없습니다",
+    "action": "요금제 보기"
+  },
+  "card": {
+    "subscriptionId": "구독",
+    "customerId": "고객",
+    "nextRenewal": "다음 갱신 시 전환",
+    "amount": "구독 금액",
+    "platform": "결제 플랫폼",
+    "startDate": "시작일",
+    "expiryDate": "만료일",
+    "nextBillingDate": "다음 결제일",
+    "canceledDate": "취소일",
+    "manageButton": "구독 관리",
+    "status": {
+      "active": "활성",
+      "canceled": "취소됨",
+      "expired": "만료됨",
+      "paused": "일시정지",
+      "pending": "결제 대기"
+    },
+    "planTypes": {
+      "monthly_basic": "베이직 - 월간",
+      "yearly_basic": "베이직 - 연간",
+      "monthly_pro": "프로 - 월간",
+      "yearly_pro": "프로 - 연간"
+    }
+  }
+}

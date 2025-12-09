@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "title": "설정",
+    "description": "계정 설정 및 환경 설정 관리"
+  },
+  "title": "설정",
+  "subtitle": "계정 설정 및 환경 설정 관리",
+  "loginRequired": {
+    "title": "로그인 필요",
+    "description": "설정에 액세스하고 계정을 관리하려면 로그인하세요.",
+    "cta": "지금 로그인"
+  },
+  "sections": {
+    "profile": {
+      "title": "프로필 정보",
+      "name": "이름",
+      "email": "이메일 주소",
+      "plan": "현재 플랜",
+      "verified": "인증됨",
+      "notSet": "설정되지 않음"
+    },
+    "preferences": {
+      "title": "환경 설정",
+      "notifications": "이메일 알림",
+      "notificationsDesc": "이메일을 통해 업데이트 및 알림 수신"
+    },
+    "connections": {
+      "title": "연결된 계정",
+      "googleConnected": "Google 계정으로 로그인할 수 있습니다.",
+      "googleNotConnected": "이 로그인 방법을 활성화하려면 Google 계정을 연결하세요.",
+      "githubConnected": "GitHub 계정으로 로그인할 수 있습니다.",
+      "githubNotConnected": "이 로그인 방법을 활성화하려면 GitHub 계정을 연결하세요.",
+      "connected": "연결됨"
+    }
+  },
+  "actions": {
+    "edit": "편집",
+    "change": "변경",
+    "enable": "활성화",
+    "upgrade": "플랜 업그레이드",
+    "copy": "복사"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "seo": {
+    "title": "히스토리",
+    "description": "AI 이미지 생성 히스토리 보기 및 관리"
+  },
+  "header": {
+    "title": "히스토리",
+    "subtitle": "모든 생성 히스토리 보기 및 관리"
+  },
+  "loginPrompt": {
+    "title": "히스토리를 보려면 로그인",
+    "description": "모든 AI 이미지 생성 히스토리를 보려면 로그인하세요",
+    "cta": "로그인"
+  },
+  "filter": {
+    "all": "전체",
+    "completed": "완료",
+    "processing": "처리 중",
+    "pending": "대기 중",
+    "failed": "실패",
+    "statusLabel": "상태",
+    "taskTypeLabel": "유형",
+    "taskType": {
+      "all": "전체",
+      "text-to-image": "텍스트를 이미지로",
+      "image-to-image": "이미지를 이미지로"
+    },
+    "modelLabel": "모델",
+    "model": {
+      "all": "전체",
+      "nano-banana-pro": "Nano Banana Pro",
+      "z-image": "Z-Image",
+      "z-image-lora": "Z-Image LoRA",
+      "flux-2-pro": "FLUX 2 Pro"
+    },
+    "privacyLabel": "공개 설정",
+    "privacy": {
+      "private": "비공개",
+      "public": "공개"
+    },
+    "nsfwLabel": "콘텐츠",
+    "nsfw": {
+      "safe": "안전",
+      "nsfw": "NSFW"
+    },
+    "selectPlaceholder": "선택...",
+    "selectedCount": "{count}개 선택됨",
+    "title": "필터",
+    "clearAll": "지우기"
+  },
+  "status": {
+    "completed": "완료",
+    "processing": "처리 중",
+    "pending": "대기 중",
+    "failed": "실패"
+  },
+  "empty": {
+    "title": "아직 작업이 없습니다",
+    "subtitle": "첫 번째 AI 이미지 생성을 시작하세요",
+    "filteredTitle": "일치하는 작업 없음",
+    "filteredSubtitle": "필터 옵션을 변경해 보세요",
+    "cta": "제작 시작"
+  },
+  "noPrompt": "프롬프트 없음",
+  "card": {
+    "delete": "삭제",
+    "confirmDelete": "삭제",
+    "confirmDeleteTitle": "작업 삭제",
+    "confirmDeleteMessage": "이 작업을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+    "cancelDelete": "취소",
+    "deleting": "삭제 중...",
+    "private": "비공개",
+    "public": "공개",
+    "makePrivate": "비공개로 설정",
+    "makePublic": "공개로 설정"
+  },
+  "errors": {
+    "fetchFailed": "작업을 가져오지 못했습니다",
+    "retry": "재시도"
+  },
+  "pagination": {
+    "prev": "이전",
+    "next": "다음"
+  }
+}

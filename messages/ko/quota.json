@@ -1,0 +1,50 @@
+{
+  "seo": {
+    "title": "내 할당량",
+    "description": "사용 가능한 할당량 사용량 및 히스토리 관리 및 확인"
+  },
+  "title": "내 할당량",
+  "subtitle": "사용 가능한 할당량 관리 및 확인",
+  "loginRequired": {
+    "title": "할당량을 보려면 로그인",
+    "description": "할당량 사용량 및 히스토리를 보려면 로그인하세요"
+  },
+  "summary": {
+    "title": "전체 사용 가능",
+    "credits": "크레딧"
+  },
+  "tabs": {
+    "active": "활성 할당량",
+    "expired": "만료됨"
+  },
+  "table": {
+    "type": "유형",
+    "amount": "수량",
+    "consumed": "사용됨",
+    "available": "사용 가능",
+    "issuedAt": "발급일",
+    "expiresAt": "만료일",
+    "noExpiry": "무제한"
+  },
+  "quotaTypes": {
+    "daily_free": "일일 무료 할당량",
+    "monthly_basic": "월간 베이직",
+    "monthly_pro": "월간 프로",
+    "yearly_basic": "연간 베이직",
+    "yearly_pro": "연간 프로",
+    "quota_pack": "할당량 팩",
+    "subscription_change_compensation": "구독 변경 보상"
+  },
+  "empty": {
+    "active": "사용 가능한 활성 할당량 없음",
+    "expired": "만료된 할당량 없음"
+  },
+  "status": {
+    "active": "활성",
+    "depleted": "소진됨"
+  },
+  "stats": {
+    "consumed": "사용됨",
+    "remaining": "남음"
+  }
+}
