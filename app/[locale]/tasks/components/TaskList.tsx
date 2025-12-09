@@ -5,7 +5,7 @@ import { useEffect, useState, useCallback } from 'react';
 import TaskCard from './TaskCard';
 import TaskListSkeleton from './TaskListSkeleton';
 import TaskEmptyState from './TaskEmptyState';
-import TaskFilters, { StatusFilter, TaskTypeFilter, ModelFilter } from './TaskFilters';
+import TaskFilters, { StatusFilter, TaskTypeFilter, ModelFilter, PrivacyFilter, NsfwFilter } from './TaskFilters';
 import Pagination from './Pagination';
 
 // 任务接口定义
@@ -30,6 +30,7 @@ export interface GenerationTask {
   completedAt?: string;
   errorMessage?: string | null;
   isPrivate: boolean;
+  isNsfw: boolean;
 }
 
 interface PaginationInfo {
@@ -45,6 +46,8 @@ interface Filters {
   statuses: StatusFilter[];
   taskTypes: TaskTypeFilter[];
   models: ModelFilter[];
+  privacy: PrivacyFilter[];
+  nsfw: NsfwFilter[];
 }
 
 export default function TaskList() {
@@ -58,6 +61,8 @@ export default function TaskList() {
     statuses: [],
     taskTypes: [],
     models: [],
+    privacy: [],
+    nsfw: [],
   });
 
   const fetchTasks = useCallback(async (page: number, currentFilters: Filters) => {
@@ -78,6 +83,12 @@ export default function TaskList() {
       }
       if (currentFilters.models.length > 0) {
         params.set('model', currentFilters.models.join(','));
+      }
+      if (currentFilters.privacy.length > 0) {
+        params.set('privacy', currentFilters.privacy.join(','));
+      }
+      if (currentFilters.nsfw.length > 0) {
+        params.set('nsfw', currentFilters.nsfw.join(','));
       }
 
       const response = await fetch(`/api/ai-generator/tasks?${params.toString()}`);
@@ -121,7 +132,17 @@ export default function TaskList() {
     setCurrentPage(1);
   };
 
-  const hasFilters = filters.statuses.length > 0 || filters.taskTypes.length > 0 || filters.models.length > 0;
+  const handlePrivacyChange = (privacy: PrivacyFilter[]) => {
+    setFilters(prev => ({ ...prev, privacy }));
+    setCurrentPage(1);
+  };
+
+  const handleNsfwChange = (nsfw: NsfwFilter[]) => {
+    setFilters(prev => ({ ...prev, nsfw }));
+    setCurrentPage(1);
+  };
+
+  const hasFilters = filters.statuses.length > 0 || filters.taskTypes.length > 0 || filters.models.length > 0 || filters.privacy.length > 0 || filters.nsfw.length > 0;
 
   const handleDeleteTask = (taskId: string) => {
     setTasks(prev => prev.filter(task => task.taskId !== taskId));
@@ -141,9 +162,13 @@ export default function TaskList() {
           selectedStatuses={filters.statuses}
           selectedTaskTypes={filters.taskTypes}
           selectedModels={filters.models}
+          selectedPrivacy={filters.privacy}
+          selectedNsfw={filters.nsfw}
           onStatusChange={handleStatusChange}
           onTaskTypeChange={handleTaskTypeChange}
           onModelChange={handleModelChange}
+          onPrivacyChange={handlePrivacyChange}
+          onNsfwChange={handleNsfwChange}
         />
       </div>
 

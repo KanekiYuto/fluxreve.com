@@ -78,9 +78,9 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
 
     // 验证必填字段
-    if (!body.url || !body.title || !body.compatibleModels) {
+    if (!body.url || !body.title || !body.prompt || !body.compatibleModels) {
       return NextResponse.json(
-        { error: 'Missing required fields: url, title, compatibleModels' },
+        { error: 'Missing required fields: url, title, prompt, compatibleModels' },
         { status: 400 }
       );
     }
@@ -97,6 +97,7 @@ export async function POST(request: NextRequest) {
     const input: CreateLoraInput = {
       url: body.url,
       triggerWord: body.triggerWord,
+      prompt: body.prompt,
       title: body.title,
       description: body.description,
       userId: session.user.id,

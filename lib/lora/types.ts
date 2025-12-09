@@ -9,6 +9,7 @@ export interface Lora {
   id: string;
   url: string;
   triggerWord: string | null;
+  prompt: string;
   title: string;
   description: string | null;
   userId: string;
@@ -24,6 +25,7 @@ export interface Lora {
 export interface CreateLoraInput {
   url: string;
   triggerWord?: string;
+  prompt: string;
   title: string;
   description?: string;
   userId: string;
@@ -37,6 +39,7 @@ export interface CreateLoraInput {
 export interface UpdateLoraInput {
   url?: string;
   triggerWord?: string;
+  prompt?: string;
   title?: string;
   description?: string;
   compatibleModels?: string[];

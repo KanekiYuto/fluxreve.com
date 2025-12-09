@@ -6,28 +6,37 @@ import { ChevronDown, Check, X, Filter } from 'lucide-react';
 
 export type StatusFilter = 'completed' | 'processing' | 'pending' | 'failed';
 export type TaskTypeFilter = 'text-to-image' | 'image-to-image';
-export type ModelFilter = 'nano-banana-pro' | 'z-image' | 'flux-2-pro';
+export type ModelFilter = 'nano-banana-pro' | 'z-image' | 'z-image-lora' | 'flux-2-pro';
+export type PrivacyFilter = 'private' | 'public';
+export type NsfwFilter = 'nsfw' | 'safe';
 
 interface TaskFiltersProps {
   selectedStatuses: StatusFilter[];
   selectedTaskTypes: TaskTypeFilter[];
   selectedModels: ModelFilter[];
+  selectedPrivacy: PrivacyFilter[];
+  selectedNsfw: NsfwFilter[];
   onStatusChange: (statuses: StatusFilter[]) => void;
   onTaskTypeChange: (taskTypes: TaskTypeFilter[]) => void;
   onModelChange: (models: ModelFilter[]) => void;
+  onPrivacyChange: (privacy: PrivacyFilter[]) => void;
+  onNsfwChange: (nsfw: NsfwFilter[]) => void;
 }
 
 const statusOptions: StatusFilter[] = ['completed', 'processing', 'pending', 'failed'];
 const taskTypeOptions: TaskTypeFilter[] = ['text-to-image', 'image-to-image'];
+const privacyOptions: PrivacyFilter[] = ['private', 'public'];
+const nsfwOptions: NsfwFilter[] = ['safe', 'nsfw'];
 
 // 模型与任务类型的关联配置
 const MODEL_TASK_TYPE_MAP: Record<ModelFilter, TaskTypeFilter[]> = {
   'nano-banana-pro': ['text-to-image', 'image-to-image'],
   'z-image': ['text-to-image'],
+  'z-image-lora': ['text-to-image'],
   'flux-2-pro': ['text-to-image', 'image-to-image'],
 };
 
-const allModels: ModelFilter[] = ['nano-banana-pro', 'z-image', 'flux-2-pro'];
+const allModels: ModelFilter[] = ['nano-banana-pro', 'z-image', 'z-image-lora', 'flux-2-pro'];
 
 // 多选下拉组件
 function MultiSelect<T extends string>({
@@ -135,9 +144,13 @@ export default function TaskFilters({
   selectedStatuses,
   selectedTaskTypes,
   selectedModels,
+  selectedPrivacy,
+  selectedNsfw,
   onStatusChange,
   onTaskTypeChange,
   onModelChange,
+  onPrivacyChange,
+  onNsfwChange,
 }: TaskFiltersProps) {
   const t = useTranslations('tasks');
 
@@ -154,7 +167,7 @@ export default function TaskFilters({
   // 当任务类型变化时，清除不兼容的模型选择
   const handleTaskTypeChange = (taskTypes: TaskTypeFilter[]) => {
     onTaskTypeChange(taskTypes);
-    
+
     if (selectedModels.length > 0 && taskTypes.length > 0) {
       const validModels = selectedModels.filter((model) =>
         taskTypes.every((taskType) => MODEL_TASK_TYPE_MAP[model].includes(taskType))
@@ -165,13 +178,15 @@ export default function TaskFilters({
     }
   };
 
-  const totalFilters = selectedStatuses.length + selectedTaskTypes.length + selectedModels.length;
+  const totalFilters = selectedStatuses.length + selectedTaskTypes.length + selectedModels.length + selectedPrivacy.length + selectedNsfw.length;
   const hasFilters = totalFilters > 0;
 
   const clearAllFilters = () => {
     onStatusChange([]);
     onTaskTypeChange([]);
     onModelChange([]);
+    onPrivacyChange([]);
+    onNsfwChange([]);
   };
 
   const selectedCountText = (count: number) => t('filter.selectedCount', { count });
@@ -236,6 +251,32 @@ export default function TaskFilters({
             selected={selectedModels}
             onChange={onModelChange}
             getLabel={(model) => t(`filter.model.${model}`)}
+            placeholder={t('filter.selectPlaceholder')}
+            selectedCountText={selectedCountText}
+          />
+        </div>
+
+        {/* 隐私筛选 */}
+        <div className="sm:w-auto">
+          <MultiSelect
+            label={t('filter.privacyLabel')}
+            options={privacyOptions}
+            selected={selectedPrivacy}
+            onChange={onPrivacyChange}
+            getLabel={(privacy) => t(`filter.privacy.${privacy}`)}
+            placeholder={t('filter.selectPlaceholder')}
+            selectedCountText={selectedCountText}
+          />
+        </div>
+
+        {/* NSFW 筛选 */}
+        <div className="sm:w-auto">
+          <MultiSelect
+            label={t('filter.nsfwLabel')}
+            options={nsfwOptions}
+            selected={selectedNsfw}
+            onChange={onNsfwChange}
+            getLabel={(nsfw) => t(`filter.nsfw.${nsfw}`)}
             placeholder={t('filter.selectPlaceholder')}
             selectedCountText={selectedCountText}
           />

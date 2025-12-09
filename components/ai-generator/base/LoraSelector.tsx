@@ -13,6 +13,7 @@ export interface LoraOption {
   id: string;
   url: string;
   triggerWord: string | null;
+  prompt: string;
   title: string;
   description: string | null;
   assetUrls: string[];
@@ -26,6 +27,7 @@ export interface LoraConfig {
   url: string;
   scale: number; // 0-4 之间的整数
   triggerWord?: string;
+  prompt?: string;
   title?: string;
   assetUrls?: string[];
   description?: string | null;

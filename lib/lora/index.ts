@@ -16,6 +16,7 @@ export async function createLora(input: CreateLoraInput): Promise<Lora> {
     .values({
       url: input.url,
       triggerWord: input.triggerWord || null,
+      prompt: input.prompt,
       title: input.title,
       description: input.description || null,
       userId: input.userId,
@@ -74,6 +75,7 @@ export async function updateLora(id: string, input: UpdateLoraInput): Promise<Lo
 
   if (input.url !== undefined) updateData.url = input.url;
   if (input.triggerWord !== undefined) updateData.triggerWord = input.triggerWord;
+  if (input.prompt !== undefined) updateData.prompt = input.prompt;
   if (input.title !== undefined) updateData.title = input.title;
   if (input.description !== undefined) updateData.description = input.description;
   if (input.compatibleModels !== undefined) updateData.compatibleModels = input.compatibleModels;

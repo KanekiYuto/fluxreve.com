@@ -236,6 +236,8 @@ export const lora = pgTable('loras', {
   url: text('url').notNull(),
   // 触发词
   triggerWord: text('trigger_word'),
+  // 提示词 (扩展触发词的使用说明和示例)
+  prompt: text('prompt').notNull(),
   // 标题
   title: text('title').notNull(),
   // 描述内容

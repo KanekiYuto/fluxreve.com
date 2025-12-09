@@ -113,6 +113,20 @@
       "when": 1765206390267,
       "tag": "0015_narrow_vampiro",
       "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1765248317233,
+      "tag": "0016_dry_kid_colt",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1765249387498,
+      "tag": "0017_low_pestilence",
+      "breakpoints": true
     }
   ]
 }

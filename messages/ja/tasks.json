@@ -29,7 +29,19 @@
     "model": {
       "all": "すべて",
       "nano-banana-pro": "Nano Banana Pro",
-      "z-image": "Z-Image"
+      "z-image": "Z-Image",
+      "z-image-lora": "Z-Image LoRA",
+      "flux-2-pro": "FLUX 2 Pro"
+    },
+    "privacyLabel": "プライバシー",
+    "privacy": {
+      "private": "非公開",
+      "public": "公開"
+    },
+    "nsfwLabel": "コンテンツ",
+    "nsfw": {
+      "safe": "安全",
+      "nsfw": "NSFW"
     },
     "selectPlaceholder": "選択...",
     "selectedCount": "{count} 件選択中",

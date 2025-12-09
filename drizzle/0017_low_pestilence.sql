@@ -1,0 +1,1 @@
+ALTER TABLE "loras" ADD COLUMN "prompt" text NOT NULL;

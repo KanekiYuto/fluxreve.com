@@ -1,10 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { handleWavespeedRequest } from '@/lib/ai-generator/handleWavespeedRequest';
 import { ProcessParamsResult } from '@/lib/ai-generator/handleRequest';
+import { getLoraById } from '@/lib/lora';
+import Mustache from "mustache";
 
-// LoRA 配置接口
+// LoRA 配置接口（前端传递）
 interface LoraConfig {
-  [key: string]: any;
+  id: string;
+  scale: number;
 }
 
 // 请求参数接口
@@ -28,7 +31,7 @@ export async function POST(request: NextRequest) {
     model: 'z-image-lora',
 
     // 参数处理回调函数
-    processParams: (body: ZImageTurboLoraRequest): ProcessParamsResult | NextResponse => {
+    processParams: async (body: ZImageTurboLoraRequest): Promise<ProcessParamsResult | NextResponse> => {
       // 解析参数
       const {
         prompt,
@@ -71,21 +74,38 @@ export async function POST(request: NextRequest) {
         );
       }
 
-      const lorarsPrompt = loras.map((i) => {
-        return i.trigger_word
-      }).join(',')
+      // 根据 ID 查询 LoRA 完整信息
+      const loraDetails = await Promise.all(
+        loras.map(async (loraConfig) => {
+          const lora = await getLoraById(loraConfig.id);
+          if (!lora) {
+            throw new Error(`LoRA not found: ${loraConfig.id}`);
+          }
+          return {
+            ...lora,
+            scale: loraConfig.scale,
+          };
+        })
+      );
+
+      // 生成 LoRA 提示词
+      const lorasPrompt = loraDetails.map((lora) => {
+        return Mustache.render(lora.prompt, {
+          triggerWord: lora.triggerWord,
+        })
+      }).join(', ')
 
       // 构建 API 请求参数
       const apiParams: Record<string, any> = {
-        prompt: `${lorarsPrompt} | ${prompt}`,
+        prompt: lorasPrompt ? `${lorasPrompt}, ${prompt}` : prompt,
         size,
         enable_base64_output,
         enable_sync_mode,
         seed: seed ?? -1, // 默认使用 -1 表示随机 seed
-        loras: loras.map((i) => {
+        loras: loraDetails.map((lora) => {
           return {
-            path: i.url,
-            scale: i.scale,
+            path: lora.url,
+            scale: lora.scale,
           }
         }),
       };
@@ -103,8 +123,11 @@ export async function POST(request: NextRequest) {
           seed: seed ?? -1,
           enable_base64_output,
           enable_sync_mode,
-          loras: loras.map((i) => {
-            return i.id
+          loras: loraDetails.map((lora) => {
+            return {
+              id: lora.id,
+              scale: lora.scale,
+            }
           }),
         },
         // 配额消费描述

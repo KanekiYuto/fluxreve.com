@@ -1,19 +1,21 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/db';
 import { mediaGenerationTask } from '@/lib/db/schema';
-import { eq, and, isNull, desc, inArray, count } from 'drizzle-orm';
+import { eq, and, isNull, desc, inArray, count, or } from 'drizzle-orm';
 import { auth } from '@/lib/auth';
 
 /**
  * GET /api/ai-generator/tasks
  * 获取用户的所有生成任务（支持分页和多维度筛选）
- * 
+ *
  * 查询参数:
  * - page: 页码（从1开始，默认1）
  * - limit: 每页数量（默认20，最大100）
  * - status: 任务状态筛选（pending, processing, completed, failed，多个用逗号分隔）
  * - taskType: 任务类型筛选（text-to-image, image-to-image）
  * - model: 模型筛选（nano-banana-pro, z-image 等）
+ * - privacy: 隐私筛选（private, public，多个用逗号分隔）
+ * - nsfw: NSFW筛选（nsfw, safe，多个用逗号分隔）
  */
 export async function GET(request: NextRequest) {
   try {
@@ -36,7 +38,9 @@ export async function GET(request: NextRequest) {
     const statusParam = searchParams.get('status');
     const taskTypeParam = searchParams.get('taskType');
     const modelParam = searchParams.get('model');
-    
+    const privacyParam = searchParams.get('privacy');
+    const nsfwParam = searchParams.get('nsfw');
+
     // 解析状态筛选
     let statusFilter: string[] | null = null;
     if (statusParam) {
@@ -73,6 +77,42 @@ export async function GET(request: NextRequest) {
       }
     }
 
+    // 添加隐私筛选（支持多选，逗号分隔）
+    if (privacyParam) {
+      const privacyOptions = privacyParam.split(',').map(s => s.trim()).filter(Boolean);
+      if (privacyOptions.length > 0) {
+        const privacyConditions = privacyOptions.map(option => {
+          return option === 'private'
+            ? eq(mediaGenerationTask.isPrivate, true)
+            : eq(mediaGenerationTask.isPrivate, false);
+        });
+
+        if (privacyConditions.length === 1) {
+          conditions.push(privacyConditions[0]);
+        } else {
+          conditions.push(or(...privacyConditions)!);
+        }
+      }
+    }
+
+    // 添加 NSFW 筛选（支持多选，逗号分隔）
+    if (nsfwParam) {
+      const nsfwOptions = nsfwParam.split(',').map(s => s.trim()).filter(Boolean);
+      if (nsfwOptions.length > 0) {
+        const nsfwConditions = nsfwOptions.map(option => {
+          return option === 'nsfw'
+            ? eq(mediaGenerationTask.isNsfw, true)
+            : eq(mediaGenerationTask.isNsfw, false);
+        });
+
+        if (nsfwConditions.length === 1) {
+          conditions.push(nsfwConditions[0]);
+        } else {
+          conditions.push(or(...nsfwConditions)!);
+        }
+      }
+    }
+
     // 计算偏移量
     const offset = (page - 1) * limit;
 
@@ -91,6 +131,7 @@ export async function GET(request: NextRequest) {
         completedAt: mediaGenerationTask.completedAt,
         errorMessage: mediaGenerationTask.errorMessage,
         isPrivate: mediaGenerationTask.isPrivate,
+        isNsfw: mediaGenerationTask.isNsfw,
       })
       .from(mediaGenerationTask)
       .where(and(...conditions))

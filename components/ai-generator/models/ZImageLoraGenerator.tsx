@@ -34,8 +34,8 @@ const SIZE_OPTIONS = [
 const EXAMPLES: ExampleItem[] = [
   {
     id: '1',
-    thumbnail: '/material/models/z-image/08dc49c7-1873-41a3-b368-17706ad303a3.jpeg',
-    prompt: 'A dramatic cinematic movie poster with dark atmospheric lighting, central silhouette of a lone figure, smoky background, bold large title text "BEYOND THE SHADOWS", smaller tagline "Every secret has a price", credit block at bottom, lens flare, professional Hollywood poster style',
+    thumbnail: '/material/models/z-image-lora/5bea9816-d8ec-4952-88e9-7e6f33f4402a.jpeg',
+    prompt: 'A high-resolution portrait photograph of a young East Asian woman with short, dark, layered hair and soft, expressive eyes, captured in a moody, intimate setting. She wears a black sleeveless top with delicate lace detailing and a thin gold necklace, her gaze fixed directly at the camera with a subtle, contemplative expression. The shallow depth of field blurs the background, which hints at festive or party lighting with warm glows and indistinct shapes, emphasizing her as the sole focus. The lighting is soft and directional, highlighting her facial features with a cinematic, naturalistic quality. A close-up, medium shot with a slightly low angle, evoking a moody, stylish, and emotionally resonant atmosphere.',
     tags: [],
   },
 ];
@@ -123,12 +123,10 @@ export default function ZImageLoraGenerator({ modelSelector }: ZImageLoraGenerat
       return;
     }
 
-    // 转换 LoRA 配置格式，只保留 API 需要的字段
+    // 转换 LoRA 配置格式，只传递 ID 和 scale，其他信息由后端查询
     const lorasForApi = loras.map(lora => ({
       id: lora.id,
-      url: lora.url,
       scale: lora.scale,
-      ...(lora.triggerWord && { trigger_word: lora.triggerWord }),
     }));
 
     // 构建请求参数

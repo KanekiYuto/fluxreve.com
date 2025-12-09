@@ -78,6 +78,7 @@ export async function PATCH(
     const input: UpdateLoraInput = {};
     if (body.url !== undefined) input.url = body.url;
     if (body.triggerWord !== undefined) input.triggerWord = body.triggerWord;
+    if (body.prompt !== undefined) input.prompt = body.prompt;
     if (body.title !== undefined) input.title = body.title;
     if (body.description !== undefined) input.description = body.description;
     if (body.compatibleModels !== undefined) {

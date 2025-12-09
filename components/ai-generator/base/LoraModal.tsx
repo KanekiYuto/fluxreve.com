@@ -91,6 +91,7 @@ export default function LoraModal() {
         url: lora.url,
         scale: 1, // 默认缩放值
         triggerWord: lora.triggerWord || undefined,
+        prompt: lora.prompt,
         title: lora.title,
         assetUrls: lora.assetUrls,
         description: lora.description,
