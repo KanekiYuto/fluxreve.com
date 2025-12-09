@@ -18,59 +18,56 @@ export const auth = betterAuth({
   // 用户配置 - 添加自定义字段
   user: {
     additionalFields: {
+      // 注意：字段名必须与 Drizzle schema 中的属性名匹配（驼峰命名）
       userType: {
         type: 'string',
         defaultValue: 'free',
         input: false, // 不允许用户直接输入
-        fieldName: 'user_type', // 数据库字段名
+      },
+      currentSubscriptionId: {
+        type: 'string',
+        required: false,
+        input: false,
       },
       isAdmin: {
         type: 'boolean',
         defaultValue: false,
         input: false, // 不允许用户直接输入
-        fieldName: 'is_admin', // 数据库字段名
       },
       registrationIp: {
         type: 'string',
         required: false,
         input: false,
-        fieldName: 'registration_ip',
       },
       registrationCountry: {
         type: 'string',
         required: false,
         input: false,
-        fieldName: 'registration_country',
       },
       utmSource: {
         type: 'string',
         required: false,
         input: false,
-        fieldName: 'utm_source',
       },
       utmMedium: {
         type: 'string',
         required: false,
         input: false,
-        fieldName: 'utm_medium',
       },
       utmCampaign: {
         type: 'string',
         required: false,
         input: false,
-        fieldName: 'utm_campaign',
       },
       utmContent: {
         type: 'string',
         required: false,
         input: false,
-        fieldName: 'utm_content',
       },
       utmTerm: {
         type: 'string',
         required: false,
         input: false,
-        fieldName: 'utm_term',
       },
     },
   },

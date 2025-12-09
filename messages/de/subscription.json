@@ -1,0 +1,42 @@
+{
+  "seo": {
+    "title": "Subscription Management",
+    "description": "View and manage your subscription plans and billing information"
+  },
+  "title": "Subscription Management",
+  "subtitle": "View and manage your subscription information",
+  "login": {
+    "title": "Login to View Subscriptions",
+    "description": "Log in to view and manage your subscription information"
+  },
+  "empty": {
+    "title": "No Subscriptions",
+    "description": "You currently have no active subscriptions",
+    "action": "View Pricing Plans"
+  },
+  "card": {
+    "subscriptionId": "Subscription",
+    "customerId": "Customer",
+    "nextRenewal": "Next renewal switches to",
+    "amount": "Subscription Amount",
+    "platform": "Payment Platform",
+    "startDate": "Start Date",
+    "expiryDate": "Expiry Date",
+    "nextBillingDate": "Next Billing Date",
+    "canceledDate": "Canceled Date",
+    "manageButton": "Manage Subscription",
+    "status": {
+      "active": "Active",
+      "canceled": "Canceled",
+      "expired": "Expired",
+      "paused": "Paused",
+      "pending": "Pending Payment"
+    },
+    "planTypes": {
+      "monthly_basic": "Basic - Monthly",
+      "yearly_basic": "Basic - Yearly",
+      "monthly_pro": "Pro - Monthly",
+      "yearly_pro": "Pro - Yearly"
+    }
+  }
+}

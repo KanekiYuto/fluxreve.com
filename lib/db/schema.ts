@@ -3,7 +3,7 @@ import { pgTable, text, timestamp, boolean, integer, uuid, jsonb } from 'drizzle
 // Better Auth 用户表
 export const user = pgTable('user', {
   id: text('id').primaryKey(),
-  name: text('name').notNull(),
+  name: text('name'),
   email: text('email').notNull().unique(),
   emailVerified: boolean('emailVerified').notNull(),
   image: text('image'),

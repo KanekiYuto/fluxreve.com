@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "title": "{siteName} - AI Image Generation Tool | Generate Professional Images Fast",
+    "description": "Using advanced artificial intelligence technology to quickly generate high-quality professional images. Making AI image creation simple and efficient."
+  },
+  "hero": {
+    "badge": "AI Image Generation Tool",
+    "title": {
+      "line1": "Turn Ideas Into Reality Instantly",
+      "line2": "AI-Powered Professional Image Generation"
+    },
+    "description": "Simply describe what you want and get stunning professional-grade images. No design skills required—everyone can be a creator.",
+    "buttons": {
+      "startCreate": "Start Creating",
+      "viewExamples": "View Examples"
+    },
+    "features": {
+      "highQuality": "High Quality Output",
+      "fastGeneration": "Fast Generation",
+      "easyToUse": "Easy to Use"
+    }
+  },
+  "features": {
+    "sectionTitle": "Why Choose Us",
+    "sectionDescription": "Combining powerful AI technology with a clean user experience, making image creation easier than ever",
+    "items": [
+      {
+        "title": "Fast Generation",
+        "description": "Powerful AI algorithms generate high-quality images in seconds, dramatically improving creative efficiency."
+      },
+      {
+        "title": "Professional Quality",
+        "description": "Using state-of-the-art AI models to output professional-grade image quality, meeting various creative needs."
+      },
+      {
+        "title": "Flexible Control",
+        "description": "Rich parameter settings and style options let you precisely control every detail of image generation."
+      },
+      {
+        "title": "Easy to Use",
+        "description": "Intuitive interface requiring no expertise, allowing anyone to easily create beautiful images."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start Creating Now",
+    "description": "Join thousands of creators using the power of AI to bring your ideas to life",
+    "buttons": {
+      "freeTrial": "Free Trial",
+      "viewExamples": "View Examples"
+    },
+    "note": "No credit card required · Start using now"
+  }
+}

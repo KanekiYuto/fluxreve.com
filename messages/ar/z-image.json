@@ -1,0 +1,157 @@
+{
+  "seo": {
+    "title": "Z-Image - Photorealistic AI Image Generator",
+    "description": "Photorealistic AI images with Z-Image. Sub-second generation speed with accurate Chinese and English text rendering. Affordable pricing for professionals."
+  },
+  "hero": {
+    "badge": "Photorealistic AI Image Generation",
+    "title": {
+      "line1": "Z-Image",
+      "line2": "8-Step Inference, Sub-second Generation"
+    },
+    "subtitle": "Experience photorealistic AI image generation service powered by Z-Image model, with accurate bilingual text rendering. We provide sub-second generation speed and affordable pricing to make professional AI image creation accessible to everyone.",
+    "cta": {
+      "primary": "Start Creating Now",
+      "secondary": "Learn More"
+    },
+    "stats": {
+      "speed": {
+        "label": "Sub-second Generation"
+      },
+      "quality": {
+        "label": "Photorealistic Quality"
+      },
+      "affordable": {
+        "label": "Bilingual Text"
+      }
+    }
+  },
+  "what": {
+    "badge": "Product Introduction",
+    "title": "What is Z-Image?",
+    "description": "Z-Image is our photorealistic AI image generation service, based on advanced Scalable Single-Stream Diffusion Transformer architecture. We provide fast, affordable, and high-quality AI image generation solutions to make professional creation accessible.",
+    "demoPlaceholder": "Photorealistic AI Image Generation",
+    "coreFeatures": {
+      "core1": {
+        "title": "Photorealistic Quality",
+        "description": "Z-Image excels at photorealistic image generation with fine control over details, lighting, and textures. It maintains high fidelity while demonstrating strong aesthetic quality in composition and overall mood."
+      },
+      "core2": {
+        "title": "Accurate Bilingual Text Rendering",
+        "description": "Z-Image accurately renders Chinese and English text while preserving facial realism and overall aesthetic composition, with results comparable to top-tier closed-source models. In poster design, it demonstrates strong compositional skills and typography sense, delivering high-quality text even in challenging scenarios with small font sizes."
+      },
+      "core3": {
+        "title": "Prompt Enhancement & Reasoning",
+        "description": "Powerful Prompt Enhancer (PE) uses structured reasoning chains to inject logic and common sense, enabling the model to handle complex tasks like the 'Chicken and Rabbit Problem' or visualizing classical Chinese poetry. In editing tasks, even with ambiguous instructions, the model can infer underlying intent for logically coherent results."
+      }
+    }
+  },
+  "why": {
+    "badge": "Core Advantages",
+    "title": "Why Choose Our Z-Image Service?",
+    "subtitle": "Our Z-Image service makes professional AI image creation simple and efficient with sub-second generation speed, accurate text rendering, and affordable pricing.",
+    "comparison": {
+      "traditional": {
+        "title": "Traditional Image Creation",
+        "item1": "Takes hours or days to complete professional image design",
+        "item2": "Requires expensive software licenses and professional design knowledge",
+        "item3": "High costs for hiring designers or purchasing advanced design tools",
+        "item4": "Slow iteration cycles make creative experimentation impractical"
+      },
+      "product": {
+        "title": "Z-Image Generation Service",
+        "item1": "Generate photorealistic images in sub-seconds",
+        "item2": "No design skills needed - simple descriptions work",
+        "item3": "Affordable pay-as-you-go pricing",
+        "item4": "Instant generation, unlimited creative possibilities"
+      }
+    },
+    "benefits": {
+      "speed": {
+        "title": "Lightning-Fast Generation",
+        "description": "Our service provides sub-second image generation speed, bringing your creativity to life instantly. No waiting required, complete professional AI image creation anytime, anywhere."
+      },
+      "quality": {
+        "title": "Photorealistic Quality",
+        "description": "Generated images feature photorealistic effects with fine control over details, lighting, and textures. Whether portraits or product displays, achieve excellent visual results."
+      },
+      "cost": {
+        "title": "Accurate Text Rendering",
+        "description": "Supports accurate Chinese and English text rendering, perfect for poster design, advertising creation, and more. Even small-sized text renders clearly for professional designs."
+      },
+      "flexibility": {
+        "title": "Intelligent Prompt Understanding",
+        "description": "Our service features powerful prompt comprehension capabilities, accurately understanding and generating expected images even from complex or ambiguous descriptions."
+      },
+      "support": {
+        "title": "Easy to Use",
+        "description": "No professional design skills required. Simply describe your ideas in natural language to generate professional AI images. Making creation accessible to everyone."
+      },
+      "security": {
+        "title": "Affordable Pricing",
+        "description": "Pay-as-you-go model with transparent and reasonable pricing. Significantly reduces your creation costs compared to traditional design services, making professional AI image creation accessible to all."
+      }
+    }
+  },
+  "how": {
+    "badge": "User Guide",
+    "title": "How to Use Z-Image?",
+    "subtitle": "Four simple steps to begin your AI creative journey",
+    "steps": {
+      "step1": {
+        "title": "Enter Your Prompt",
+        "description": "Describe the image you want in simple text. Supports English and Chinese input."
+      },
+      "step2": {
+        "title": "Choose Parameters",
+        "description": "Select image size, adjust random seed, and other parameters to customize your creation."
+      },
+      "step3": {
+        "title": "Click Generate",
+        "description": "Click the generate button, and AI will create beautiful images for you in seconds."
+      },
+      "step4": {
+        "title": "Download & Use",
+        "description": "Once generated, preview, download, or share your artwork."
+      }
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common questions about Z-Image",
+    "items": [
+      {
+        "question": "How fast is Z-Image generation?",
+        "answer": "Z-Image achieves performance comparable to or exceeding leading competitors with only 8 steps, delivering sub-second inference latency on enterprise-grade H800 GPUs. On consumer devices like RTX 3090 or 4090, it takes approximately 2-3 seconds, and mid-range cards take about 4-5 seconds, requiring only 16G VRAM."
+      },
+      {
+        "question": "What advantages does Z-Image have in text rendering?",
+        "answer": "Z-Image accurately renders complex Chinese and English text while maintaining facial realism and overall aesthetic composition, with results comparable to top-tier closed-source models. In poster design, it demonstrates strong compositional skills and typography sense, delivering high-quality text even in challenging scenarios with small font sizes."
+      },
+      {
+        "question": "What is the Prompt Enhancement feature?",
+        "answer": "Prompt Enhancer (PE) uses structured reasoning chains to inject logic and common sense, enabling the model to transcend surface-level descriptions and tap into underlying world knowledge for complex tasks like the 'Chicken and Rabbit Problem' or visualizing classical Chinese poetry. Even with ambiguous instructions, it can infer underlying intent for logically coherent results."
+      },
+      {
+        "question": "How is Z-Image's photorealistic quality?",
+        "answer": "Z-Image excels at photorealistic image generation with fine control over details, lighting, and textures. It balances high fidelity with strong aesthetic quality in composition and overall mood. Generated images are not only realistic but also visually appealing."
+      },
+      {
+        "question": "What architecture does Z-Image use?",
+        "answer": "Z-Image adopts a Scalable Single-Stream Diffusion Transformer (S3-DiT) architecture. Text, visual semantic tokens, and image VAE tokens are concatenated at the sequence level to serve as a unified input stream into the Transformer backbone, maximizing parameter efficiency compared to dual-stream approaches."
+      },
+      {
+        "question": "How does Z-Image compare to other models?",
+        "answer": "According to Elo-based Human Preference Evaluation (on Alibaba AI Arena), Z-Image shows highly competitive performance against other leading models while achieving state-of-the-art results among open-source models."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Experience Photorealistic AI Image Generation?",
+    "subtitle": "Try Z-Image now for 8-step inference, sub-second generation speed, and accurate bilingual text rendering",
+    "primary": "Start Creating Now",
+    "secondary": "View Pricing",
+    "note": "No credit card required, start with registration"
+  }
+}

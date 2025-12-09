@@ -1,0 +1,50 @@
+{
+  "notFound": {
+    "title": "Content Not Found",
+    "description": "This shared content may have been deleted by the creator, set to private, the link may have expired, or you may have accessed the wrong address",
+    "createButton": "Create AI Artwork",
+    "homeButton": "Back to Home"
+  },
+  "nsfw": {
+    "warning": "Sensitive Content Warning",
+    "description": "This content may contain adult or sensitive material. Viewer discretion is advised",
+    "reveal": "I am 18+, View Content",
+    "imageAlt": "AI Generated Image"
+  },
+  "processing": {
+    "title": "Generating...",
+    "description": "AI is creating the current artwork, this usually takes a few minutes",
+    "tip": "Please refresh the page later to view the result"
+  },
+  "actions": {
+    "copyLink": "Copy Share Link",
+    "linkCopied": "Copied",
+    "share": "Share",
+    "shareToX": "Share to X",
+    "moreActions": "More Actions",
+    "downloadCurrent": "Download Current Image",
+    "downloadAll": "Download All Images",
+    "downloadCard": "Download Share Card",
+    "createSimilar": "Create Similar Image"
+  },
+  "details": {
+    "prompt": "Prompt",
+    "promptCopied": "Copied",
+    "copyPrompt": "Copy Prompt",
+    "aiModel": "AI Model",
+    "resolution": "Resolution",
+    "aspectRatio": "Aspect Ratio",
+    "imageAlt": "Image",
+    "previousImage": "Previous Image",
+    "nextImage": "Next Image",
+    "referenceImages": "Input Images",
+    "referenceImage": "Input Image",
+    "generationResults": "AI Image Generation Results",
+    "imagePreview": "AI Generated HD Image Preview",
+    "parametersInfo": "Generation Parameters and Model Info"
+  },
+  "metadata": {
+    "descriptionPrefix": "High-quality image generated with {model} AI model. Prompt: ",
+    "ogDescriptionPrefix": "{model} AI Generated | "
+  }
+}

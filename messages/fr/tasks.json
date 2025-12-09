@@ -1,0 +1,86 @@
+{
+  "seo": {
+    "title": "History",
+    "description": "View and manage all your AI image generation history"
+  },
+  "header": {
+    "title": "History",
+    "subtitle": "View and manage all your generation history"
+  },
+  "loginPrompt": {
+    "title": "Login to View History",
+    "description": "Sign in to view all your AI image generation history",
+    "cta": "Sign In"
+  },
+  "filter": {
+    "all": "All",
+    "completed": "Completed",
+    "processing": "Processing",
+    "pending": "Pending",
+    "failed": "Failed",
+    "statusLabel": "Status",
+    "taskTypeLabel": "Type",
+    "taskType": {
+      "all": "All",
+      "text-to-image": "Text to Image",
+      "image-to-image": "Image to Image"
+    },
+    "modelLabel": "Model",
+    "model": {
+      "all": "All",
+      "nano-banana-pro": "Nano Banana Pro",
+      "z-image": "Z-Image",
+      "z-image-lora": "Z-Image LoRA",
+      "flux-2-pro": "FLUX 2 Pro"
+    },
+    "privacyLabel": "Privacy",
+    "privacy": {
+      "private": "Private",
+      "public": "Public"
+    },
+    "nsfwLabel": "Content",
+    "nsfw": {
+      "safe": "Safe",
+      "nsfw": "NSFW"
+    },
+    "selectPlaceholder": "Select...",
+    "selectedCount": "{count} selected",
+    "title": "Filters",
+    "clearAll": "Clear"
+  },
+  "status": {
+    "completed": "Completed",
+    "processing": "Processing",
+    "pending": "Pending",
+    "failed": "Failed"
+  },
+  "empty": {
+    "title": "No Tasks Yet",
+    "subtitle": "Start creating your first AI image",
+    "filteredTitle": "No Matching Tasks",
+    "filteredSubtitle": "Try changing the filter options",
+    "cta": "Start Creating"
+  },
+  "noPrompt": "No prompt",
+  "card": {
+    "delete": "Delete",
+    "confirmDelete": "Delete",
+    "confirmDeleteTitle": "Delete Task",
+    "confirmDeleteMessage": "Are you sure you want to delete this task? This action cannot be undone.",
+    "cancelDelete": "Cancel",
+    "deleting": "Deleting...",
+    "private": "Private",
+    "public": "Public",
+    "makePrivate": "Make Private",
+    "makePublic": "Make Public"
+  },
+  "errors": {
+    "fetchFailed": "Failed to fetch tasks",
+    "retry": "Retry"
+  },
+  "pagination": {
+    "prev": "Previous",
+    "next": "Next"
+  }
+}
+

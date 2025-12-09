@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "Pricing Plans",
+    "description": "Choose the perfect plan for your needs. Flexible pricing options for individuals and businesses with AI-powered image generation."
+  },
+  "badge": "Pricing Plans",
+  "title": "Choose Your Plan",
+  "subtitle": "Flexible pricing options to meet the needs of individuals and businesses",
+  "recommended": "Most Popular",
+  "status": {
+    "current": "Current Plan",
+    "scheduled": "Scheduled",
+    "upgrade": "Upgrade",
+    "downgrade": "Downgrade",
+    "configuring": "Configuring...",
+    "loading": "Loading..."
+  },
+  "billing": {
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "year": "year",
+    "month": "month",
+    "discount": "Save 20%",
+    "save": "Save ${amount}"
+  },
+  "tiers": [
+    {
+      "name": "Free",
+      "description": "Perfect for personal trial and light usage",
+      "cta": "Get Started",
+      "features": [
+        "{quota} credits per day",
+        "Basic AI models",
+        "Standard resolution (512x512)"
+      ],
+      "unsupportedFeatures": [
+        "High resolution",
+        "Priority queue",
+        "Watermark-free export",
+        "Customer support"
+      ]
+    },
+    {
+      "name": "Basic",
+      "description": "For individual users and small projects",
+      "cta": "Subscribe Now",
+      "features": [
+        "{quota} credits",
+        "Standard AI models",
+        "High resolution (1024x1024)",
+        "Priority generation queue",
+        "Watermark-free export",
+        "Email customer support",
+        "Commercial use license"
+      ],
+      "unsupportedFeatures": [
+        "Ultra-high resolution",
+        "Batch generation"
+      ]
+    },
+    {
+      "name": "Pro",
+      "description": "For professional creators and team collaboration",
+      "cta": "Subscribe Now",
+      "features": [
+        "{quota} credits",
+        "All advanced AI models",
+        "Ultra-high resolution (2048x2048)",
+        "Highest priority queue",
+        "Batch generation",
+        "Watermark-free export",
+        "Priority customer support",
+        "Commercial use license"
+      ]
+    }
+  ],
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our pricing plans and services",
+    "items": [
+      {
+        "question": "How do credits work?",
+        "answer": "Credits are used to generate images with our AI models. Each image generation consumes a certain number of credits depending on the resolution and model used. Free users get 30 credits daily, while Basic plan subscribers get 1,500 credits monthly (or 18,000 yearly) and Pro plan subscribers get 7,500 credits monthly (or 90,000 yearly)."
+      },
+      {
+        "question": "What's the difference between monthly and yearly plans?",
+        "answer": "Yearly plans offer a 20% discount compared to monthly plans. For example, Basic monthly is $15/month (1,500 credits), while Basic yearly is $144/year (18,000 credits total). You save money and get more value with yearly subscriptions."
+      },
+      {
+        "question": "Can I upgrade or downgrade my plan?",
+        "answer": "Yes! You can upgrade your plan at any time, and the price difference will be prorated. When upgrading, you'll receive the full credit quota of the new plan immediately. Downgrades take effect at the start of your next billing cycle."
+      },
+      {
+        "question": "What happens to unused credits?",
+        "answer": "For free users, daily credits reset every day and don't accumulate. For subscribers, credits expire based on their expiration date. Each credit quota has its own expiration period, and unused credits will automatically expire when that period ends."
+      },
+      {
+        "question": "How does credit quota calculation work?",
+        "answer": "For monthly plans, you get 100 credits per dollar spent. For yearly plans, you get 100 credits per dollar × 12 months. For example: Basic monthly ($15) = 1,500 credits, Basic yearly ($144) = 18,000 credits."
+      },
+      {
+        "question": "Can I switch between monthly and yearly billing?",
+        "answer": "Yes! Switching from monthly to yearly within the same plan tier (e.g., Basic monthly to Basic yearly) is considered a change, not an upgrade. The new billing cycle will take effect according to the plan change policy."
+      },
+      {
+        "question": "What happens when I upgrade mid-cycle?",
+        "answer": "When you upgrade, you'll be charged a prorated amount for the remainder of your current billing period. You'll immediately receive the full credit quota of your new plan, and any existing credits remain available until their expiration date."
+      },
+      {
+        "question": "Can I use the generated images commercially?",
+        "answer": "Free plan users can use generated images for personal projects only. Both Basic and Pro plan subscribers receive a commercial use license, allowing you to use the images for business purposes, marketing materials, and client projects."
+      },
+      {
+        "question": "What's the difference between Basic and Pro plans?",
+        "answer": "Pro plan offers 5x more credits than Basic, plus access to all advanced AI models, ultra-high resolution (2048x2048), batch generation features, and priority customer support. Basic plan is great for individuals, while Pro is designed for professional creators and teams."
+      },
+      {
+        "question": "What payment methods do you accept?",
+        "answer": "We integrate with Creem payment platform which supports various payment methods. All transactions are processed securely through their payment gateway."
+      },
+      {
+        "question": "Can I cancel my subscription anytime?",
+        "answer": "Yes, you can cancel your subscription at any time. Your plan will remain active until the end of your current billing period, and you can continue using your remaining credits until they expire."
+      },
+      {
+        "question": "How long do credits last after purchase?",
+        "answer": "Each credit quota comes with its own expiration period. The exact duration depends on your subscription plan and when the credits were granted. You can check the expiration date of your credits in your account dashboard. Credits are consumed on a first-in, first-out basis."
+      }
+    ]
+  }
+}

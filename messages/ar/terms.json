@@ -1,0 +1,76 @@
+{
+  "title": "Terms of Service | {siteName}",
+  "description": "Read {siteName}'s terms of service for using our AI image generation platform. Covers user accounts, usage rules, intellectual property, and service policies.",
+  "keywords": "terms of service, user agreement, service terms, legal agreement, usage policy, intellectual property, service agreement",
+  "lastUpdated": "Last Updated",
+  "acceptance": {
+    "title": "Acceptance of Terms",
+    "content1": "Welcome to {siteName}. These Terms of Service (\"Terms,\" \"Agreement\") constitute a legally binding agreement between you (\"User,\" \"you,\" or \"your\") and {siteName} (\"we,\" \"us,\" or \"our\") governing your access to and use of our AI-powered image generation platform, including our website, mobile applications, APIs, and related services (collectively, the \"Service\").",
+    "content2": "By accessing, browsing, or using the Service in any manner, you acknowledge that you have read, understood, and agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, you must immediately discontinue use of the Service."
+  },
+  "serviceDescription": {
+    "title": "Service Overview",
+    "intro": "{siteName} provides AI-powered creative tools and services, including:",
+    "items": [
+      "AI image generation from text prompts using advanced machine learning models",
+      "Image editing, enhancement, and style transfer capabilities",
+      "Project management, organization, and cloud storage for generated content",
+      "API access for developers and enterprise integration",
+      "Additional premium features and tools as made available from time to time"
+    ]
+  },
+  "userAccount": {
+    "title": "User Accounts and Registration",
+    "registration": "Registration: To access certain features, you must create an account by providing accurate, complete, and current information. You represent that all information you provide is truthful and that you will maintain the accuracy of such information.",
+    "security": "Account Security: You are solely responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to immediately notify us of any unauthorized access or security breach.",
+    "transfer": "Account Transfer: Your account is personal to you and may not be transferred, sold, or assigned to any third party without our prior written consent."
+  },
+  "usageRules": {
+    "title": "Acceptable Use Policy",
+    "intro": "You agree not to use the Service to generate, upload, share, or distribute content that:",
+    "items": [
+      "Violates any applicable laws, regulations, or third-party rights",
+      "Contains illegal, harmful, threatening, abusive, harassing, defamatory, or obscene material",
+      "Depicts or promotes violence, discrimination, hatred, or intolerance based on protected characteristics",
+      "Includes sexually explicit, pornographic, or age-inappropriate content",
+      "Infringes intellectual property rights, including copyrights, trademarks, or patents",
+      "Constitutes spam, phishing, malware, or attempts to compromise platform security",
+      "Impersonates any person or entity or misrepresents your affiliation",
+      "Involves automated scraping, mining, or unauthorized API usage that violates our guidelines",
+      "Exploits, harms, or attempts to exploit minors in any way",
+      "Contains false, misleading, or deceptive information presented as factual"
+    ]
+  },
+  "intellectualProperty": {
+    "title": "Intellectual Property Rights",
+    "platformContent": "Platform Ownership: All content, features, functionality, software, designs, text, graphics, logos, and trademarks on the Service are owned by {siteName} or our licensors and are protected by international intellectual property laws. You may not copy, modify, distribute, or reverse engineer any part of the Service without authorization.",
+    "userContent": "User-Generated Content: You retain ownership of images and content you generate using the Service, subject to our limited license below. However, you are solely responsible for ensuring your use does not infringe third-party rights or violate applicable laws.",
+    "license": "License Grant: By using the Service, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, and display your generated content solely for the purposes of: (a) providing and improving the Service, (b) training and enhancing our AI models (with your consent), and (c) marketing and promotional purposes with your explicit permission."
+  },
+  "privacy": {
+    "title": "Privacy and Data Protection",
+    "content": "Your privacy is important to us. Our collection, use, and protection of your personal information is governed by our Privacy Policy, which is incorporated into these Terms by reference. Please review our Privacy Policy to understand our practices."
+  },
+  "serviceChanges": {
+    "title": "Service Modifications and Termination",
+    "modification": "Modifications: We reserve the right to modify, suspend, or discontinue any aspect of the Service at any time, with or without notice. We may also impose limits on certain features or restrict access to parts of the Service. We are not liable for any modifications or discontinuations.",
+    "termination": "Termination by Us: We may suspend or terminate your account and access to the Service immediately, without prior notice, if you breach these Terms, engage in fraudulent activity, or for any other reason at our sole discretion.",
+    "dataRetention": "Effect of Termination: Upon termination, your right to use the Service ceases immediately. We may delete your account data and generated content, though some information may be retained as required by law or for legitimate business purposes."
+  },
+  "disclaimer": {
+    "title": "Disclaimers and Limitations",
+    "asIs": "As-Is Basis: The Service is provided \"as is\" and \"as available\" without warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not guarantee that the Service will be uninterrupted, error-free, or secure.",
+    "liability": "Limitation of Liability: To the maximum extent permitted by law, {siteName} and its affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or goodwill, arising from your use or inability to use the Service.",
+    "responsibility": "User Responsibility: You acknowledge that AI-generated content may produce unexpected or inaccurate results. You are solely responsible for reviewing, verifying, and determining the appropriateness of any content generated through the Service before use, publication, or distribution."
+  },
+  "legalJurisdiction": {
+    "title": "Governing Law and Dispute Resolution",
+    "law": "Governing Law: These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which {siteName} is registered, without regard to its conflict of law principles.",
+    "disputes": "Dispute Resolution: Any disputes arising out of or relating to these Terms or the Service shall first be attempted to be resolved through good faith negotiations. If negotiations fail, disputes shall be resolved through binding arbitration or litigation in the courts of the applicable jurisdiction, as determined by the governing law."
+  },
+  "contact": {
+    "title": "Contact Information",
+    "intro": "If you have any questions, concerns, or feedback regarding these Terms of Service, please contact us at:",
+    "email": "Email"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "language": "Language",
+  "loading": "Loading...",
+  "loginRequired": {
+    "title": "Login to Continue",
+    "description": "Log in to access full features",
+    "buttonText": "Login Now"
+  },
+  "seo": {
+    "title": "{siteName} - AI Image Generation Tool",
+    "description": "Create high-quality professional images in seconds with AI-powered image generation. Simple, fast, and powerful artificial intelligence tools.",
+    "keywords": "AI image generation, AI art, image creator, AI tools, professional images"
+  },
+  "navigation": {
+    "home": "Home",
+    "ai-generator": "AI Generator",
+    "nano-banana-pro": "Nano Banana Pro",
+    "nanoBananaProDesc": "Advanced Nano Banana image generation",
+    "z-image": "Z-Image",
+    "zImageDesc": "Advanced AI image generation and editing",
+    "flux-2-pro": "Flux 2 Pro",
+    "flux2ProDesc": "Professional dual-mode AI image generation",
+    "seedreamV45": "Seedream 4.5",
+    "seedreamV45Desc": "ByteDance 2K HD image generation",
+    "dashboard": "Dashboard",
+    "tasks": "History",
+    "quota": "Quota",
+    "subscription": "Subscription",
+    "pricing": "Pricing",
+    "more": "More",
+    "settings": "Settings",
+    "help": "Help",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "main": "Main",
+    "user": "User",
+    "content": "Content",
+    "nav": "Navigation",
+    "models": "AI Models",
+    "company": "Company"
+  }
+}
