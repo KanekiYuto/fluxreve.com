@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import SubscriptionTable from './components/SubscriptionTable';
 import StatsCards from './components/StatsCards';
 import AddSubscriptionModal from './components/AddSubscriptionModal';
@@ -47,11 +47,7 @@ export default function AdminSubscriptionsPage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   // 获取订阅列表和统计数据
-  useEffect(() => {
-    fetchSubscriptions();
-  }, []);
-
-  const fetchSubscriptions = async () => {
+  const fetchSubscriptions = useCallback(async () => {
     try {
       setIsLoading(true);
       setError(null);
@@ -88,7 +84,11 @@ export default function AdminSubscriptionsPage() {
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [stats]);
+
+  useEffect(() => {
+    fetchSubscriptions();
+  }, [fetchSubscriptions]);
 
   return (
     <div className="min-h-screen px-4 sm:px-6 lg:px-8 py-8">

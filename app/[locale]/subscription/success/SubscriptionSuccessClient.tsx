@@ -1,9 +1,9 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { CheckCircle2, Sparkles, ArrowRight, Loader2 } from 'lucide-react';
+import { CheckCircle2, ArrowRight, Loader2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 // 声明 gtag 函数类型
@@ -86,6 +86,12 @@ export default function SubscriptionSuccessClient() {
     }
   }, [subscriptionData]);
 
+  // 跳转到 Dashboard
+  const handleRedirect = useCallback(() => {
+    setIsRedirecting(true);
+    router.push('/dashboard');
+  }, [router]);
+
   // 倒计时自动跳转
   useEffect(() => {
     const timer = setInterval(() => {
@@ -100,12 +106,7 @@ export default function SubscriptionSuccessClient() {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, []);
-
-  const handleRedirect = () => {
-    setIsRedirecting(true);
-    router.push('/dashboard');
-  };
+  }, [handleRedirect]);
 
   // 加载中状态
   if (isLoading) {

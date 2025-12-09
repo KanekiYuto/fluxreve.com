@@ -259,8 +259,8 @@ export default function AddSubscriptionModal({
                   <ul className="space-y-1 text-blue-300/70">
                     <li>• 用户必须已在系统中注册</li>
                     <li>• 订阅价格和时长由所选计划自动确定</li>
-                    <li>• 订阅状态默认为"活跃"，将立即生效</li>
-                    <li>• 支付平台默认为"手动创建"，需人工管理</li>
+                    <li>• 订阅状态默认为&ldquo;活跃&rdquo;，将立即生效</li>
+                    <li>• 支付平台默认为&ldquo;手动创建&rdquo;，需人工管理</li>
                   </ul>
                 </div>
               </div>
