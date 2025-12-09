@@ -3,8 +3,6 @@ import { nextCookies } from 'better-auth/next-js';
 import { drizzleAdapter } from 'better-auth/adapters/drizzle';
 import { db } from './db';
 import * as schema from './db/schema';
-import { getClientIp, getCountryFromHeaders, extractUtmParamsFromUrl } from './utils/user-tracking';
-import { eq } from 'drizzle-orm';
 
 // 导入 fetch 配置以解决 Google OAuth 超时问题
 import './fetch-config';

@@ -9,7 +9,6 @@ import PageLayout from '@/components/layout/PageLayout';
 import UserProvider from '@/components/providers/UserProvider';
 import ModalProvider from '@/components/providers/ModalProvider';
 import NavigationProgress from '@/components/providers/NavigationProgress';
-import PostHogProvider from '@/components/providers/PostHogProvider';
 import { siteConfig } from '@/config/site';
 import "../globals.css";
 
@@ -74,15 +73,23 @@ export default async function LocaleLayout({ children, params }: Props) {
           `}
         </Script>
 
-        <PostHogProvider>
-          <NextIntlClientProvider locale={locale} messages={messages}>
-            <UserProvider>
-              <NavigationProgress />
-              <PageLayout>{children}</PageLayout>
-              <ModalProvider />
-            </UserProvider>
-          </NextIntlClientProvider>
-        </PostHogProvider>
+        <Script id="clarity-script" strategy="afterInteractive">
+          {`
+            (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "uix23h7uxp");
+          `}
+        </Script>
+
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <UserProvider>
+            <NavigationProgress />
+            <PageLayout>{children}</PageLayout>
+            <ModalProvider />
+          </UserProvider>
+        </NextIntlClientProvider>
         <Analytics />
       </body>
     </html>
