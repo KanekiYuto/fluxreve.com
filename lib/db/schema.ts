@@ -13,6 +13,8 @@ export const user = pgTable('user', {
   userType: text('user_type').notNull().default('free'),
   // 当前活跃的订阅ID (关联 subscription 表)
   currentSubscriptionId: uuid('current_subscription_id'),
+  // 是否为管理员
+  isAdmin: boolean('is_admin').notNull().default(false),
 });
 
 // Better Auth 会话表

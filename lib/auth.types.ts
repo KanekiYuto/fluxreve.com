@@ -5,5 +5,6 @@ import type { UserType } from '@/config/constants';
 export type Session = typeof auth.$Infer.Session.session & {
   user: typeof auth.$Infer.Session.user & {
     userType: UserType;
+    isAdmin: boolean;
   };
 };

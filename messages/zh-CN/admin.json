@@ -1,0 +1,9 @@
+{
+  "unauthorized": {
+    "title": "访问受限",
+    "description": "抱歉，您没有访问管理后台的权限。只有管理员账户才能访问此页面。",
+    "helpTitle": "需要帮助？",
+    "helpDescription": "如果您认为这是一个错误，请联系系统管理员获取访问权限。",
+    "backToHome": "返回首页"
+  }
+}

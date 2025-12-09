@@ -22,6 +22,13 @@ export const auth = betterAuth({
         type: 'string',
         defaultValue: 'free',
         input: false, // 不允许用户直接输入
+        fieldName: 'user_type', // 数据库字段名
+      },
+      isAdmin: {
+        type: 'boolean',
+        defaultValue: false,
+        input: false, // 不允许用户直接输入
+        fieldName: 'is_admin', // 数据库字段名
       },
     },
   },

@@ -9,6 +9,7 @@ import { routing } from './routing';
 async function loadMessages(locale: string) {
   // 翻译文件名称列表
   const messageFiles = [
+    'admin',
     'ai-generator',
     'auth',
     'common',
