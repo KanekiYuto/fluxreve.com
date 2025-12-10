@@ -2,10 +2,11 @@
 export type BillingCycle = 'monthly' | 'yearly';
 
 // 方案类型
-export type PlanType = 'free' | 'basic' | 'pro';
+export type PlanType = 'free' | 'trial' | 'basic' | 'pro';
 
 // 订阅计划类型常量
 export const SUBSCRIPTION_PLANS = {
+  TRIAL: 'trial',
   MONTHLY_BASIC: 'monthly_basic',
   YEARLY_BASIC: 'yearly_basic',
   MONTHLY_PRO: 'monthly_pro',
@@ -34,23 +35,20 @@ const calculateYearlyPrice = (monthlyPrice: number): number => {
 
 // 单价配置（USD）
 export const PLAN_PRICES = {
+  TRIAL: 5,   // 体验版单价 $5（一次性付费）
   BASIC: 15,  // 基础版单价 $15
   PRO: 75,    // 专业版单价 $75
 } as const;
 
 // 定价方案配置
 export const pricingTiers: PricingTier[] = [
-  // 免费版
+  // 体验版 - 一次性付费
   {
-    planType: 'free',
+    planType: 'trial',
     billingCycle: 'monthly',
-    price: 0,
-  },
-
-  {
-    planType: 'free',
-    billingCycle: 'yearly',
-    price: 0,
+    price: PLAN_PRICES.TRIAL,
+    subscriptionPlanType: SUBSCRIPTION_PLANS.TRIAL,
+    creemPayProductId: process.env.NEXT_PUBLIC_CREEM_PAY_TRIAL_ID,
   },
 
   // 基础版 - 月付
@@ -87,6 +85,19 @@ export const pricingTiers: PricingTier[] = [
     price: calculateYearlyPrice(PLAN_PRICES.PRO),
     subscriptionPlanType: SUBSCRIPTION_PLANS.YEARLY_PRO,
     creemPayProductId: process.env.NEXT_PUBLIC_CREEM_PAY_PRO_YEARLY_ID,
+  },
+
+  // 免费版
+  {
+    planType: 'free',
+    billingCycle: 'monthly',
+    price: 0,
+  },
+
+  {
+    planType: 'free',
+    billingCycle: 'yearly',
+    price: 0,
   },
 ];
 

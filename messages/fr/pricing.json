@@ -25,19 +25,21 @@
   },
   "tiers": [
     {
-      "name": "Gratuit",
-      "description": "Parfait pour l'essai personnel et l'utilisation légère",
-      "cta": "Commencer",
+      "name": "Essai",
+      "description": "{quota} crédits d'allocation (utilisation illimitée)",
+      "cta": "Essayer Maintenant",
       "features": [
-        "{quota} crédits par jour",
-        "Modèles IA de base",
-        "Résolution standard (512x512)"
+        "{quota} crédits d'allocation (période illimitée)",
+        "Peut générer jusqu'à {quota}/5 images de haute qualité",
+        "Tous les modèles IA standards",
+        "Haute résolution (1024x1024)",
+        "Export sans filigrane"
       ],
       "unsupportedFeatures": [
-        "Haute résolution",
-        "File d'attente prioritaire",
-        "Export sans filigrane",
-        "Support client"
+        "Renouvellement automatique",
+        "Résolution ultra-haute",
+        "Génération par lots",
+        "Support prioritaire"
       ]
     },
     {
@@ -45,7 +47,8 @@
       "description": "Pour les utilisateurs individuels et les petits projets",
       "cta": "S'abonner Maintenant",
       "features": [
-        "{quota} crédits",
+        "{quota} crédits d'allocation",
+        "Peut générer jusqu'à {quota}/5 images de haute qualité",
         "Modèles IA standards",
         "Haute résolution (1024x1024)",
         "File d'attente de génération prioritaire",
@@ -63,7 +66,8 @@
       "description": "Pour les créateurs professionnels et la collaboration d'équipe",
       "cta": "S'abonner Maintenant",
       "features": [
-        "{quota} crédits",
+        "{quota} crédits d'allocation",
+        "Peut générer jusqu'à {quota}/5 images de haute qualité",
         "Tous les modèles IA avancés",
         "Résolution ultra-haute (2048x2048)",
         "File d'attente de priorité maximale",
@@ -71,6 +75,23 @@
         "Export sans filigrane",
         "Support client prioritaire",
         "Licence d'utilisation commerciale"
+      ]
+    },
+    {
+      "name": "Gratuit",
+      "description": "Parfait pour l'essai personnel et l'utilisation légère",
+      "cta": "Commencer",
+      "features": [
+        "{quota} crédits d'allocation par jour",
+        "Peut générer jusqu'à {quota}/5 images par jour",
+        "Modèles IA de base",
+        "Résolution standard (512x512)"
+      ],
+      "unsupportedFeatures": [
+        "Haute résolution",
+        "File d'attente prioritaire",
+        "Export sans filigrane",
+        "Support client"
       ]
     }
   ],

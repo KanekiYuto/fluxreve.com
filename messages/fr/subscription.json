@@ -33,6 +33,7 @@
       "pending": "Paiement en Attente"
     },
     "planTypes": {
+      "trial": "Essai",
       "monthly_basic": "De Base - Mensuel",
       "yearly_basic": "De Base - Annuel",
       "monthly_pro": "Pro - Mensuel",

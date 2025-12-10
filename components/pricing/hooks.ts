@@ -83,8 +83,21 @@ export function getSubscriptionStatus(
 ): SubscriptionStatus {
   const productId = tier.creemPayProductId;
 
-  // 免费方案
-  if (planType === 'free') return 'free';
+  // 免费方案：如果用户也是免费类型，则显示为当前订阅
+  if (planType === 'free') {
+    if (currentSubscription?.planType === 'free' || !currentSubscription) {
+      return 'current';
+    }
+    return 'downgrade';
+  }
+
+  // 体验版方案：一次性付费，不能更新，只显示新购买或已拥有
+  if (planType === 'trial') {
+    if (currentSubscription?.planType === 'trial') {
+      return 'current';
+    }
+    return 'new';
+  }
 
   // 产品未配置
   if (!productId) return 'configuring';
@@ -109,6 +122,7 @@ export function getSubscriptionStatus(
 // 获取配额数量
 export function getQuotaAmount(planType: PlanType, tier: PricingTier): number {
   if (planType === 'free') return quotaConfig.dailyFreeQuota;
+  if (planType === 'trial') return SUBSCRIPTION_QUOTA_CONFIG['trial'] || 0;
   if (tier.subscriptionPlanType) {
     return SUBSCRIPTION_QUOTA_CONFIG[tier.subscriptionPlanType] || 0;
   }

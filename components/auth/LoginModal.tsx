@@ -55,7 +55,7 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
         {/* 关闭按钮 */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 p-2 text-text-muted hover:text-text hover:bg-bg-hover rounded-lg transition-colors"
+          className="absolute top-4 right-4 p-2 text-text-muted hover:text-text hover:bg-bg-hover rounded-lg transition-colors cursor-pointer"
           disabled={isLoading}
         >
           <svg
@@ -91,7 +91,7 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
             <button
               onClick={handleGoogleSignIn}
               disabled={isLoading}
-              className="w-full flex items-center justify-center gap-3 px-6 py-3.5 rounded-xl bg-white hover:bg-gray-50 text-gray-900 font-semibold transition-all border border-gray-200 hover:border-gray-300 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full flex items-center justify-center gap-3 px-6 py-3.5 rounded-xl bg-white hover:bg-gray-50 text-gray-900 font-semibold transition-all border border-gray-200 hover:border-gray-300 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
             >
               {isLoading ? (
                 <>
@@ -141,39 +141,6 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
                   <span>{t('signInWithGoogle')}</span>
                 </>
               )}
-            </button>
-
-            {/* 分隔线 */}
-            <div className="relative">
-              <div className="absolute inset-0 flex items-center">
-                <div className="w-full border-t border-border"></div>
-              </div>
-              <div className="relative flex justify-center text-xs">
-                <span className="px-2 bg-bg-elevated text-text-muted">
-                  {t('modal.or')}
-                </span>
-              </div>
-            </div>
-
-            {/* 邮箱登录占位 */}
-            <button
-              disabled
-              className="w-full flex items-center justify-center gap-3 px-6 py-3.5 rounded-xl bg-bg-hover hover:bg-bg-active text-text-muted font-semibold transition-all border border-border opacity-50 cursor-not-allowed"
-            >
-              <svg
-                className="w-5 h-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                />
-              </svg>
-              <span>{t('signInWithEmail')}</span>
             </button>
           </div>
 

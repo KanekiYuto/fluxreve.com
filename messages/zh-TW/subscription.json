@@ -33,6 +33,7 @@
       "pending": "待支付"
     },
     "planTypes": {
+      "trial": "體驗版",
       "monthly_basic": "基礎版 - 月付",
       "yearly_basic": "基礎版 - 年付",
       "monthly_pro": "專業版 - 月付",

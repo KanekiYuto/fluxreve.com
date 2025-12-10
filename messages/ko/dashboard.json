@@ -23,6 +23,7 @@
   "userType": {
     "pro": "프로",
     "basic": "기본",
+    "trial": "체험판",
     "free": "무료"
   },
   "stats": {

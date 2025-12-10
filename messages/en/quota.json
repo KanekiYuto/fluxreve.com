@@ -28,6 +28,7 @@
   },
   "quotaTypes": {
     "daily_free": "Daily Free Quota",
+    "trial": "Trial",
     "monthly_basic": "Monthly Basic",
     "monthly_pro": "Monthly Pro",
     "yearly_basic": "Yearly Basic",

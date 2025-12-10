@@ -33,6 +33,7 @@
       "pending": "支払い待ち"
     },
     "planTypes": {
+      "trial": "トライアル",
       "monthly_basic": "ベーシック - 月間",
       "yearly_basic": "ベーシック - 年間",
       "monthly_pro": "プロ - 月間",

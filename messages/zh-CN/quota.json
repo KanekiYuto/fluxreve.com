@@ -28,6 +28,7 @@
   },
   "quotaTypes": {
     "daily_free": "每日免费配额",
+    "trial": "体验版",
     "monthly_basic": "月度基础版",
     "monthly_pro": "月度专业版",
     "yearly_basic": "年度基础版",

@@ -28,6 +28,7 @@
   },
   "quotaTypes": {
     "daily_free": "毎日無料クォータ",
+    "trial": "トライアル",
     "monthly_basic": "月間ベーシック",
     "monthly_pro": "月間プロ",
     "yearly_basic": "年間ベーシック",

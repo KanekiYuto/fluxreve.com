@@ -33,6 +33,7 @@
       "pending": "في انتظار الدفع"
     },
     "planTypes": {
+      "trial": "تجريبي",
       "monthly_basic": "أساسي - شهري",
       "yearly_basic": "أساسي - سنوي",
       "monthly_pro": "احترافي - شهري",

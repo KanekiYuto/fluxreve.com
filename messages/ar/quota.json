@@ -28,6 +28,7 @@
   },
   "quotaTypes": {
     "daily_free": "حصة يومية مجانية",
+    "trial": "تجريبي",
     "monthly_basic": "شهري أساسي",
     "monthly_pro": "شهري احترافي",
     "yearly_basic": "سنوي أساسي",

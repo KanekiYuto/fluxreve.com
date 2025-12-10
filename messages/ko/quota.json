@@ -28,6 +28,7 @@
   },
   "quotaTypes": {
     "daily_free": "일일 무료 할당량",
+    "trial": "체험판",
     "monthly_basic": "월간 베이직",
     "monthly_pro": "월간 프로",
     "yearly_basic": "연간 베이직",

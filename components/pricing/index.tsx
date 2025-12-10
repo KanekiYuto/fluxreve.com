@@ -1,10 +1,10 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import useUserStore from '@/store/useUserStore';
 import useModalStore from '@/store/useModalStore';
-import { getUniquePlanTypes, getPricingTiersByPlan, type BillingCycle } from '@/config/pricing';
+import { getPricingTiersByPlan, type BillingCycle } from '@/config/pricing';
 import { useCurrentSubscription, getSubscriptionStatus, getQuotaAmount } from './hooks';
 import { BillingCycleToggle, PricingCard, renderCTAButton } from './components';
 import type { TierTranslation } from './types';
@@ -22,12 +22,15 @@ export default function Pricing({ useH1 = false }: PricingProps) {
 
   const tierTranslations = t.raw('tiers') as TierTranslation[];
   const billingCycle: BillingCycle = isYearly ? 'yearly' : 'monthly';
-  const uniquePlanTypes = useMemo(() => getUniquePlanTypes(), []);
 
   const { currentSubscription, isLoading, fetchCurrentSubscription } = useCurrentSubscription(user);
 
   // 根据参数动态选择标题标签
   const TitleTag = useH1 ? 'h1' : 'h2';
+
+  // 分离付费计划和免费计划
+  const paidPlans = ['trial', 'basic', 'pro'];
+  const freePlans = ['free'];
 
   return (
     <section className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24 overflow-hidden">
@@ -58,28 +61,58 @@ export default function Pricing({ useH1 = false }: PricingProps) {
           />
         </div>
 
-        {/* 定价卡片网格 */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto">
-          {uniquePlanTypes.map((planType, index) => {
-            const allPricings = getPricingTiersByPlan(planType);
+        {/* 付费定价卡片网格 */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto mb-12 sm:mb-16">
+          {paidPlans.map((planType, index) => {
+            const allPricings = getPricingTiersByPlan(planType as any);
             const currentTier = allPricings.find(t => t.billingCycle === billingCycle);
             const translation = tierTranslations[index];
 
             if (!currentTier) return null;
 
-            const status = getSubscriptionStatus(currentTier, planType, currentSubscription);
-            const quota = getQuotaAmount(planType, currentTier);
+            const status = getSubscriptionStatus(currentTier, planType as any, currentSubscription);
+            const quota = getQuotaAmount(planType as any, currentTier);
 
             return (
               <PricingCard
                 key={`${planType}-${billingCycle}`}
-                planType={planType}
+                planType={planType as any}
                 tier={currentTier}
                 translation={translation}
                 quota={quota}
                 status={status}
                 isYearly={isYearly}
                 t={t}
+                renderCTAButton={() => renderCTAButton(status, currentTier, translation, t, user, fetchCurrentSubscription, isLoading, openLoginModal)}
+              />
+            );
+          })}
+        </div>
+
+        {/* 免费版卡片 - 横向响应式布局 */}
+        <div className="w-full max-w-7xl mx-auto">
+          {freePlans.map((planType, index) => {
+            const allPricings = getPricingTiersByPlan(planType as any);
+            const currentTier = allPricings.find(t => t.billingCycle === billingCycle);
+            const translationIndex = paidPlans.length + index;
+            const translation = tierTranslations[translationIndex];
+
+            if (!currentTier) return null;
+
+            const status = getSubscriptionStatus(currentTier, planType as any, currentSubscription);
+            const quota = getQuotaAmount(planType as any, currentTier);
+
+            return (
+              <PricingCard
+                key={`${planType}-${billingCycle}`}
+                planType={planType as any}
+                tier={currentTier}
+                translation={translation}
+                quota={quota}
+                status={status}
+                isYearly={isYearly}
+                t={t}
+                isHorizontal={true}
                 renderCTAButton={() => renderCTAButton(status, currentTier, translation, t, user, fetchCurrentSubscription, isLoading, openLoginModal)}
               />
             );

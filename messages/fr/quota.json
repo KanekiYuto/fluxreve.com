@@ -28,6 +28,7 @@
   },
   "quotaTypes": {
     "daily_free": "Quota gratuit quotidien",
+    "trial": "Essai",
     "monthly_basic": "De base mensuel",
     "monthly_pro": "Pro mensuel",
     "yearly_basic": "De base annuel",

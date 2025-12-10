@@ -51,6 +51,7 @@ export function PricingCard({
   isYearly,
   t,
   renderCTAButton,
+  isHorizontal = false,
 }: {
   planType: PlanType;
   tier: PricingTier;
@@ -60,6 +61,7 @@ export function PricingCard({
   isYearly: boolean;
   t: any;
   renderCTAButton: () => React.ReactNode;
+  isHorizontal?: boolean;
 }) {
   // 计算年付节省金额
   const allPricings = getPricingTiersByPlan(planType);
@@ -67,6 +69,81 @@ export function PricingCard({
   const yearlyTier = allPricings.find(t => t.billingCycle === 'yearly');
   const originalYearlyPrice = monthlyTier ? monthlyTier.price * 12 : 0;
   const yearlySavings = yearlyTier ? originalYearlyPrice - yearlyTier.price : 0;
+
+  if (isHorizontal) {
+    return (
+      <div
+        className={`group relative rounded-2xl md:rounded-3xl transition-all duration-500 hover:translate-y-[-4px] md:hover:translate-y-[-8px] overflow-hidden ${
+          tier.highlighted
+            ? 'gradient-border-colorful bg-gradient-to-br from-primary/10 via-bg-elevated to-bg-elevated z-10'
+            : 'gradient-border bg-gradient-to-br from-bg-elevated to-bg-card'
+        }`}
+      >
+        {/* 装饰性背景 */}
+        <div className="hidden md:block absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5" />
+
+        {/* 移动端：垂直堆叠 */}
+        <div className="md:hidden relative p-6 flex flex-col gap-6">
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-bold text-white">{translation.name}</h3>
+            <p className="text-sm text-text-muted leading-relaxed">
+              {translation.description.replace('{quota}', quota.toLocaleString())}
+            </p>
+          </div>
+
+          {/* 价格和按钮 */}
+          <div className="flex flex-col gap-3">
+            <div className="flex items-baseline gap-2 flex-wrap">
+              <span className="text-3xl font-bold text-white">${tier.price}</span>
+              <span className="text-sm text-text-muted">
+                /{isYearly ? t('billing.year') : t('billing.month')}
+              </span>
+              {isYearly && yearlySavings > 0 && (
+                <SavingsBadge amount={yearlySavings} t={t} />
+              )}
+            </div>
+            {renderCTAButton()}
+          </div>
+
+          {/* 功能列表 */}
+          <FeatureList
+            features={translation.features}
+            unsupportedFeatures={translation.unsupportedFeatures}
+            quota={quota}
+            isHorizontal={false}
+          />
+        </div>
+
+        {/* 平板及以上：网格布局 */}
+        <div className="hidden md:grid md:grid-cols-3 relative">
+          {/* 左侧区域 - 产品信息 (30%) */}
+          <div className="md:col-span-1 p-8 flex flex-col justify-between border-r border-border/30">
+            <div>
+              <h3 className="text-2xl font-bold text-white mb-3">{translation.name}</h3>
+              <p className="text-sm text-text-muted leading-relaxed">
+                {translation.description.replace('{quota}', quota.toLocaleString())}
+              </p>
+            </div>
+
+            {/* CTA 按钮 */}
+            <div className="pt-4">
+              {renderCTAButton()}
+            </div>
+          </div>
+
+          {/* 右侧区域 - 功能列表 (70%) */}
+          <div className="md:col-span-2 p-8 flex flex-col justify-center">
+            <FeatureList
+              features={translation.features}
+              unsupportedFeatures={translation.unsupportedFeatures}
+              quota={quota}
+              isHorizontal={true}
+            />
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div
@@ -90,7 +167,7 @@ export function PricingCard({
         {/* 方案名称 */}
         <h3 className="text-lg sm:text-xl font-bold mb-2 text-white">{translation.name}</h3>
         <p className="text-sm sm:text-base text-text-muted mb-4 sm:mb-6 leading-relaxed">
-          {translation.description}
+          {translation.description.replace('{quota}', quota.toLocaleString())}
         </p>
 
         {/* 价格 */}
@@ -137,12 +214,87 @@ export function FeatureList({
   features,
   unsupportedFeatures,
   quota,
+  isHorizontal = false,
 }: {
   features: string[];
   unsupportedFeatures?: string[];
   quota: number;
+  isHorizontal?: boolean;
 }) {
   const formattedQuota = quota.toLocaleString();
+  const generationTimes = Math.floor(quota / 5);
+  const formattedGenerationTimes = generationTimes.toLocaleString();
+
+  // 替换占位符的辅助函数
+  const replacePlaceholders = (text: string): string => {
+    return text
+      .replace(/{quota}\/5/g, formattedGenerationTimes)
+      .replace(/{quota}/g, formattedQuota);
+  };
+
+  if (isHorizontal) {
+    const allItems = [
+      ...features.map((feature, index) => ({
+        key: `supported-${index}`,
+        type: 'supported' as const,
+        text: replacePlaceholders(feature)
+      })),
+      ...unsupportedFeatures?.map((feature, index) => ({
+        key: `unsupported-${index}`,
+        type: 'unsupported' as const,
+        text: feature
+      })) || []
+    ];
+
+    // 分成两列，每列最多4个
+    const itemsPerColumn = 4;
+    const firstColumn = allItems.slice(0, itemsPerColumn);
+    const secondColumn = allItems.slice(itemsPerColumn);
+
+    return (
+      <div className="flex gap-6 md:gap-8 justify-end">
+        {/* 第一列 */}
+        <ul className="flex flex-col gap-3 sm:gap-4">
+          {firstColumn.map((item) => (
+            <li key={item.key} className={`flex items-start gap-2 sm:gap-3 text-xs sm:text-sm ${item.type === 'unsupported' ? 'opacity-40' : ''}`}>
+              {item.type === 'supported' ? (
+                <>
+                  <CheckIcon className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0 mt-0.5" />
+                  <span className="text-text-muted leading-relaxed">{item.text}</span>
+                </>
+              ) : (
+                <>
+                  <XIcon className="w-4 h-4 sm:w-5 sm:h-5 text-text-dim flex-shrink-0 mt-0.5" />
+                  <span className="text-text-dim leading-relaxed line-through">{item.text}</span>
+                </>
+              )}
+            </li>
+          ))}
+        </ul>
+
+        {/* 第二列 */}
+        {secondColumn.length > 0 && (
+          <ul className="flex flex-col gap-3 sm:gap-4">
+            {secondColumn.map((item) => (
+              <li key={item.key} className={`flex items-start gap-2 sm:gap-3 text-xs sm:text-sm ${item.type === 'unsupported' ? 'opacity-40' : ''}`}>
+                {item.type === 'supported' ? (
+                  <>
+                    <CheckIcon className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0 mt-0.5" />
+                    <span className="text-text-muted leading-relaxed">{item.text}</span>
+                  </>
+                ) : (
+                  <>
+                    <XIcon className="w-4 h-4 sm:w-5 sm:h-5 text-text-dim flex-shrink-0 mt-0.5" />
+                    <span className="text-text-dim leading-relaxed line-through">{item.text}</span>
+                  </>
+                )}
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    );
+  }
 
   return (
     <ul className="space-y-3 sm:space-y-4">
@@ -151,7 +303,7 @@ export function FeatureList({
         <li key={`supported-${index}`} className="flex items-start gap-2 sm:gap-3 text-xs sm:text-sm">
           <CheckIcon className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0 mt-0.5" />
           <span className="text-text-muted leading-relaxed">
-            {feature.replace('{quota}', formattedQuota)}
+            {replacePlaceholders(feature)}
           </span>
         </li>
       ))}
@@ -198,12 +350,12 @@ export function renderCTAButton(
     );
   }
 
-  // 免费方案或未配置
-  if (status === 'free' || status === 'configuring') {
+  // 未配置的方案
+  if (status === 'configuring') {
     return (
       <button disabled className={`${baseClassName} cursor-not-allowed opacity-50 gradient-border text-text`}>
         <span className="relative z-10 flex items-center justify-center gap-2">
-          {status === 'free' ? translation.cta : t('status.configuring')}
+          {t('status.configuring')}
         </span>
       </button>
     );

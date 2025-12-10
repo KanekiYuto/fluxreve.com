@@ -33,6 +33,7 @@
       "pending": "결제 대기"
     },
     "planTypes": {
+      "trial": "체험판",
       "monthly_basic": "베이직 - 월간",
       "yearly_basic": "베이직 - 연간",
       "monthly_pro": "프로 - 월간",

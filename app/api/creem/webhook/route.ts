@@ -1,4 +1,5 @@
 import { Webhook } from '@creem_io/nextjs';
+import { handleCheckoutCompleted } from '@/lib/creem/handle-checkout-completed';
 import { handleSubscriptionActive } from '@/lib/creem/handle-subscription-active';
 import { handleSubscriptionPaid } from '@/lib/creem/handle-subscription-paid';
 import { handleSubscriptionCanceled } from '@/lib/creem/handle-subscription-canceled';
@@ -24,11 +25,10 @@ export const POST = Webhook({
 
   /**
    * 支付完成事件
-   * 当用户完成一次性支付或首次订阅支付时触发
+   * 当用户完成一次性支付时触发
+   * 将一次性支付作为一个月的订阅来处理
    */
-  onCheckoutCompleted: async ({ customer, product }) => {
-    console.log(`✓ Checkout completed: ${customer?.email} purchased ${product.name}`);
-  },
+  onCheckoutCompleted: handleCheckoutCompleted,
 
   /**
    * 订阅激活事件

@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from '@/i18n/routing';
 import { getModelDisplayName } from '@/config/model-names';
 
 // 任务接口定义
@@ -29,6 +30,7 @@ interface GenerationTask {
 
 export default function RecentGenerations() {
   const t = useTranslations('dashboard.recent');
+  const router = useRouter();
   const [tasks, setTasks] = useState<GenerationTask[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -65,7 +67,10 @@ export default function RecentGenerations() {
           <div className="text-lg sm:text-xl font-bold text-white">{t('title')}</div>
           <p className="text-xs sm:text-sm text-text-muted mt-1">{t('subtitle')}</p>
         </div>
-        <button className="text-sm gradient-text hover:opacity-80 transition-opacity cursor-pointer font-semibold self-start sm:self-auto">
+        <button
+          onClick={() => router.push('/tasks')}
+          className="text-sm gradient-text hover:opacity-80 transition-opacity cursor-pointer font-semibold self-start sm:self-auto"
+        >
           {t('viewAll')} →
         </button>
       </div>
@@ -117,7 +122,10 @@ export default function RecentGenerations() {
           </div>
           <div className="text-base sm:text-lg font-semibold text-white mb-2">{t('empty.title')}</div>
           <p className="text-sm sm:text-base text-text-muted mb-6">{t('empty.subtitle')}</p>
-          <button className="inline-flex items-center gap-2 px-5 py-2.5 sm:px-6 sm:py-3 rounded-lg gradient-bg text-white text-sm sm:text-base font-semibold transition-all hover:scale-105 cursor-pointer">
+          <button
+            onClick={() => router.push('/ai-generator')}
+            className="inline-flex items-center gap-2 px-5 py-2.5 sm:px-6 sm:py-3 rounded-lg gradient-bg text-white text-sm sm:text-base font-semibold transition-all hover:scale-105 cursor-pointer"
+          >
             <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>

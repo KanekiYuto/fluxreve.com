@@ -23,6 +23,7 @@
   "userType": {
     "pro": "专业版",
     "basic": "基础版",
+    "trial": "体验版",
     "free": "免费版"
   },
   "stats": {

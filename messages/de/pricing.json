@@ -25,19 +25,21 @@
   },
   "tiers": [
     {
-      "name": "Kostenlos",
-      "description": "Perfekt für persönliche Testversuche und leichte Nutzung",
-      "cta": "Erste Schritte",
+      "name": "Testversion",
+      "description": "{quota} Gutschein-Guthaben (unbegrenzte Nutzung)",
+      "cta": "Jetzt Testen",
       "features": [
-        "{quota} Guthaben pro Tag",
-        "Basis-KI-Modelle",
-        "Standardauflösung (512x512)"
+        "{quota} Gutschein-Guthaben (unbegrenzte Dauer)",
+        "Kann bis zu {quota}/5 hochwertige Bilder generieren",
+        "Alle Standard-KI-Modelle",
+        "Hochauflösung (1024x1024)",
+        "Wasserzeichenfreier Export"
       ],
       "unsupportedFeatures": [
-        "Hochauflösung",
-        "Warteschlange mit Priorität",
-        "Wasserzeichenfreier Export",
-        "Kundensupport"
+        "Automatische Verlängerung",
+        "Ultrahohe Auflösung",
+        "Batch-Generierung",
+        "Priority-Support"
       ]
     },
     {
@@ -45,7 +47,8 @@
       "description": "Für Einzelnutzer und kleine Projekte",
       "cta": "Jetzt abonnieren",
       "features": [
-        "{quota} Guthaben",
+        "{quota} Guthaben-Kontingent",
+        "Kann bis zu {quota}/5 hochwertige Bilder generieren",
         "Standard-KI-Modelle",
         "Hochauflösung (1024x1024)",
         "Warteschlange mit Priorität",
@@ -63,7 +66,8 @@
       "description": "Für professionelle Schöpfer und Teamzusammenarbeit",
       "cta": "Jetzt abonnieren",
       "features": [
-        "{quota} Guthaben",
+        "{quota} Guthaben-Kontingent",
+        "Kann bis zu {quota}/5 hochwertige Bilder generieren",
         "Alle erweiterten KI-Modelle",
         "Ultrahohe Auflösung (2048x2048)",
         "Höchste Warteschlange mit Priorität",
@@ -71,6 +75,23 @@
         "Wasserzeichenfreier Export",
         "Prioritäts-Kundensupport",
         "Kommerzielle Nutzungslizenz"
+      ]
+    },
+    {
+      "name": "Kostenlos",
+      "description": "Perfekt für persönliche Testversuche und leichte Nutzung",
+      "cta": "Erste Schritte",
+      "features": [
+        "{quota} Guthaben-Kontingent pro Tag",
+        "Kann bis zu {quota}/5 Bilder pro Tag generieren",
+        "Basis-KI-Modelle",
+        "Standardauflösung (512x512)"
+      ],
+      "unsupportedFeatures": [
+        "Hochauflösung",
+        "Warteschlange mit Priorität",
+        "Wasserzeichenfreier Export",
+        "Kundensupport"
       ]
     }
   ],

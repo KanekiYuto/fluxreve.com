@@ -28,6 +28,7 @@
   },
   "quotaTypes": {
     "daily_free": "Tägliches kostenloses Kontingent",
+    "trial": "Testversion",
     "monthly_basic": "Monatlich Basis",
     "monthly_pro": "Monatlich Pro",
     "yearly_basic": "Jährlich Basis",

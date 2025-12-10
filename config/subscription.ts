@@ -10,6 +10,9 @@ export { SUBSCRIPTION_PLANS, type SubscriptionPlanType };
 // 订阅计划配额配置
 // 公式：单价 * 100（月付）或 单价 * 100 * 12（年付）
 export const SUBSCRIPTION_QUOTA_CONFIG: Record<string, number> = {
+  // 体验版 - 一次性付费：$5 * 100 = 500 积分
+  [SUBSCRIPTION_PLANS.TRIAL]: PLAN_PRICES.TRIAL * 100,
+
   // 基础版 - 月付：$15 * 100 = 1500 积分
   [SUBSCRIPTION_PLANS.MONTHLY_BASIC]: PLAN_PRICES.BASIC * 100,
 

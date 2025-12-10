@@ -15,12 +15,14 @@ export default function DashboardHeader({ userName, userType, isLoggedIn = true 
   const userTypeBadgeStyles = {
     [USER_TYPE.PRO]: 'bg-purple-500',
     [USER_TYPE.BASIC]: 'bg-blue-500',
+    [USER_TYPE.TRIAL]: 'bg-orange-500',
     [USER_TYPE.FREE]: 'bg-gray-500',
   };
 
   const userTypeLabels = {
     [USER_TYPE.PRO]: t('userType.pro'),
     [USER_TYPE.BASIC]: t('userType.basic'),
+    [USER_TYPE.TRIAL]: t('userType.trial'),
     [USER_TYPE.FREE]: t('userType.free'),
   };
 
