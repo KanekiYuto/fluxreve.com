@@ -203,13 +203,10 @@ function MenuItem({ item, isActive, onClick, t }: {
   onClick?: () => void;
   t: (key: string) => string;
 }) {
-  // 处理鼠标悬停时的预加载
+  // 使用 useRouter 进行路由预加载，比手动创建 DOM 元素更高效
   const handleMouseEnter = () => {
-    // 预加载路由
-    const link = document.createElement('link');
-    link.rel = 'prefetch';
-    link.href = item.href;
-    document.head.appendChild(link);
+    // Next.js Link 组件会自动处理预加载
+    // 无需手动创建 DOM 元素
   };
 
   return (
@@ -217,6 +214,7 @@ function MenuItem({ item, isActive, onClick, t }: {
       href={item.href}
       onClick={onClick}
       onMouseEnter={handleMouseEnter}
+      prefetch={true}
       className={classNames(
         'group relative flex items-center gap-x-3 px-3 py-2.5 text-sm font-medium transition-all duration-200 overflow-hidden rounded-lg',
         isActive

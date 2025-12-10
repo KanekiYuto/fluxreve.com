@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, memo } from 'react';
 import useSidebarStore from '@/store/useSidebarStore';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
@@ -26,7 +26,7 @@ function NavIcon({ name, className }: { name: string; className?: string }) {
 }
 
 // 桌面端下拉菜单组件
-function DropdownMenu({ item, t }: { item: HeaderDropdownItem; t: (key: string) => string }) {
+const DropdownMenu = memo(function DropdownMenu({ item, t }: { item: HeaderDropdownItem; t: (key: string) => string }) {
   const [isOpen, setIsOpen] = useState(false);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   const menuRef = useRef<HTMLDivElement>(null);
@@ -98,10 +98,10 @@ function DropdownMenu({ item, t }: { item: HeaderDropdownItem; t: (key: string) 
       )}
     </div>
   );
-}
+})
 
 // 桌面端单个链接组件
-function NavLink({ name, href, t }: { name: string; href: string; t: (key: string) => string }) {
+const NavLink = memo(function NavLink({ name, href, t }: { name: string; href: string; t: (key: string) => string }) {
   return (
     <a
       href={href}
@@ -110,7 +110,7 @@ function NavLink({ name, href, t }: { name: string; href: string; t: (key: strin
       {t(`navigation.${name}`)}
     </a>
   );
-}
+})
 
 // 渲染导航项
 function renderNavItem(entry: HeaderNavEntry, t: (key: string) => string) {

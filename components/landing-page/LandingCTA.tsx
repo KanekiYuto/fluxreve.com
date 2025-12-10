@@ -2,13 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import { useState, useEffect, useRef } from 'react';
-import dynamic from 'next/dynamic';
-
-const GridScan = dynamic(() => import('@/components/GridScan').then(mod => ({ default: mod.GridScan })), {
-  ssr: false,
-  loading: () => <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-primary/10 to-secondary/10" />
-});
 
 interface LandingCTAProps {
   namespace: string;
@@ -22,50 +15,28 @@ export default function LandingCTA({
   linesColor = '#6b5566'
 }: LandingCTAProps) {
   const t = useTranslations(`${namespace}.cta`);
-  const [isVisible, setIsVisible] = useState(false);
-  const sectionRef = useRef<HTMLElement>(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setIsVisible(true);
-            observer.disconnect();
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
 
   return (
-    <section ref={sectionRef} className="relative w-full py-16 sm:py-20 md:py-24 overflow-hidden">
-      {/* GridScan 背景特效 */}
-      <div className="absolute inset-0 w-full h-full">
-        {isVisible ? (
-          <GridScan
-            sensitivity={0.55}
-            lineThickness={1}
-            linesColor={linesColor}
-            gridScale={0.1}
-            scanColor={scanColor}
-            scanOpacity={0.5}
-            enablePost
-            bloomIntensity={0.6}
-            chromaticAberration={0.002}
-            noiseIntensity={0.01}
-            className="w-full h-full"
-          />
-        ) : (
-          <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-primary/10 to-secondary/10" />
-        )}
+    <section className="relative w-full py-16 sm:py-20 md:py-24 overflow-hidden">
+      {/* 网格背景 - 轻量级 CSS 实现 */}
+      <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-primary/10 to-secondary/10" />
+
+      {/* 扫描线动画 */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="w-full h-full bg-repeat" style={{
+          backgroundImage: `repeating-linear-gradient(
+            90deg,
+            transparent,
+            transparent 2px,
+            ${scanColor} 2px,
+            ${scanColor} 4px
+          )`,
+        }} />
+      </div>
+
+      {/* 动画光效 */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-4xl opacity-20 pointer-events-none">
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/30 via-transparent to-secondary/30 blur-2xl animate-pulse" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

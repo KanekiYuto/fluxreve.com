@@ -61,12 +61,12 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale} dir={dir}>
       <body className="antialiased">
-        {/* Google Ads (gtag.js) */}
+        {/* Google Ads (gtag.js) - 延迟加载，避免阻塞首屏 */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17790324344"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-ads" strategy="afterInteractive">
+        <Script id="google-ads" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -75,7 +75,8 @@ export default async function LocaleLayout({ children, params }: Props) {
           `}
         </Script>
 
-        <Script id="clarity-script" strategy="afterInteractive">
+        {/* Microsoft Clarity - 延迟加载，避免阻塞首屏 */}
+        <Script id="clarity-script" strategy="lazyOnload">
           {`
             (function(c,l,a,r,i,t,y){
               c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};

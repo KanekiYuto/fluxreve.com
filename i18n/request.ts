@@ -2,6 +2,16 @@ import { getRequestConfig } from 'next-intl/server';
 import { routing } from './routing';
 
 /**
+ * 文件名到键名的映射表
+ */
+const fileToKeyMap: Record<string, string> = {
+  'nano-banana-pro': 'nanoBananaPro',
+  'z-image': 'zImage',
+  'flux-2-pro': 'flux2Pro',
+  'seedream-v45': 'seedreamV45',
+};
+
+/**
  * 动态加载指定语言的所有翻译文件
  * @param locale - 语言代码 (en, zh-CN, zh-TW, ja)
  * @returns 该语言的所有翻译消息对象
@@ -33,27 +43,33 @@ async function loadMessages(locale: string) {
     'subscription-success',
   ];
 
-  // 动态导入所有翻译文件
+  // 并行动态导入所有翻译文件
   const messages: Record<string, any> = {};
 
-  for (const file of messageFiles) {
-    try {
-      const module = await import(`@/messages/${locale}/${file}.json`);
-      // 将文件名转换为驼峰命名（如 nano-banana-pro -> nanoBananaPro, z-image -> zImage）
-      let key = file;
-      if (file === 'nano-banana-pro') {
-        key = 'nanoBananaPro';
-      } else if (file === 'z-image') {
-        key = 'zImage';
-      } else if (file === 'flux-2-pro') {
-        key = 'flux2Pro';
-      } else if (file === 'seedream-v45') {
-        key = 'seedreamV45';
+  try {
+    // 使用 Promise.all 并行加载所有翻译文件
+    const loadPromises = messageFiles.map(async (file) => {
+      try {
+        const module = await import(`@/messages/${locale}/${file}.json`);
+        // 将文件名转换为驼峰命名
+        const key = fileToKeyMap[file] || file;
+        return { key, data: module.default };
+      } catch (error) {
+        console.error(`Failed to load translation file: ${locale}/${file}.json`, error);
+        return null;
       }
-      messages[key] = module.default;
-    } catch (error) {
-      console.error(`Failed to load translation file: ${locale}/${file}.json`, error);
-    }
+    });
+
+    const results = await Promise.all(loadPromises);
+
+    // 合并所有成功加载的翻译
+    results.forEach((result) => {
+      if (result) {
+        messages[result.key] = result.data;
+      }
+    });
+  } catch (error) {
+    console.error(`Error loading messages for locale: ${locale}`, error);
   }
 
   return messages;

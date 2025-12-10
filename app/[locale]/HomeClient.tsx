@@ -4,12 +4,6 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import Divider from '@/components/Divider';
 import Pricing from '@/components/pricing';
-import dynamic from 'next/dynamic';
-
-const PrismaticBurst = dynamic(() => import('@/components/PrismaticBurst'), {
-  ssr: false,
-  loading: () => <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/5" />
-});
 
 export default function HomeClient() {
   const t = useTranslations('home');
@@ -45,18 +39,12 @@ export default function HomeClient() {
     <div className="min-h-screen">
       {/* Hero 区域 */}
       <section className="relative overflow-hidden">
-        {/* Prismatic Burst 背景 */}
-        <div className="absolute inset-0">
-          <PrismaticBurst
-            intensity={1.5}
-            speed={0.3}
-            animationType="rotate3d"
-            colors={['#ff6b9d', '#ffb3d9', '#ff85b3', '#ffc9e0']}
-            distort={3}
-            rayCount={12}
-            mixBlendMode="lighten"
-          />
-        </div>
+        {/* 渐变背景 - 轻量级实现 */}
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/15 via-bg to-secondary/15" />
+
+        {/* 动画光效 */}
+        <div className="absolute -top-1/2 left-1/2 -translate-x-1/2 w-1/2 h-1/2 rounded-full bg-gradient-to-b from-primary/25 to-transparent blur-3xl animate-pulse" />
+        <div className="absolute -bottom-1/3 right-0 w-1/3 h-1/3 rounded-full bg-gradient-to-l from-secondary/20 to-transparent blur-3xl animate-pulse animation-delay-2000" />
 
         <div className="relative container mx-auto px-4 py-24 md:py-32">
           <div className="max-w-4xl mx-auto text-center">
@@ -103,24 +91,14 @@ export default function HomeClient() {
 
             {/* 特性标签 */}
             <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-text-muted">
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                <span>{t('hero.features.highQuality')}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                <span>{t('hero.features.fastGeneration')}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                <span>{t('hero.features.easyToUse')}</span>
-              </div>
+              {['highQuality', 'fastGeneration', 'easyToUse'].map((feature) => (
+                <div key={feature} className="flex items-center gap-2">
+                  <svg className="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  <span>{t(`hero.features.${feature}`)}</span>
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -146,29 +124,14 @@ export default function HomeClient() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="group relative p-8 rounded-2xl bg-bg-elevated border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10 will-change-transform"
-                style={{ transform: 'translateZ(0)' }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = 'translate3d(0, -0.25rem, 0)';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = 'translate3d(0, 0, 0)';
-                }}
+                className="group relative p-8 rounded-2xl bg-bg-elevated border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10 hover:-translate-y-1"
               >
                 {/* 背景光效 */}
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
 
                 <div className="relative flex items-start gap-4">
                   {/* 图标 */}
-                  <div className="flex-shrink-0 p-3 rounded-xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300 will-change-transform"
-                    style={{ transform: 'translateZ(0)' }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.transform = 'translate3d(0, 0, 0) scale(1.1)';
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.transform = 'translate3d(0, 0, 0) scale(1)';
-                    }}
-                  >
+                  <div className="flex-shrink-0 p-3 rounded-xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300 group-hover:scale-110">
                     {feature.icon}
                   </div>
 
@@ -198,14 +161,10 @@ export default function HomeClient() {
       {/* CTA 区域 */}
       <section className="w-full">
         <div className="relative overflow-hidden bg-bg-elevated p-12 md:p-20">
-            {/* 网格背景 */}
-            <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:2rem_2rem]" />
-
             {/* 渐变光效 */}
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full">
-              <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl" />
-              <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-secondary/20 rounded-full blur-3xl" />
-            </div>
+            <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-bg-elevated to-secondary/10 opacity-50" />
+            <div className="absolute -top-1/3 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl" />
+            <div className="absolute -bottom-1/3 right-1/4 w-96 h-96 bg-secondary/20 rounded-full blur-3xl" />
 
             <div className="relative text-center">
               {/* 图标装饰 */}

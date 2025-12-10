@@ -2,12 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import dynamic from 'next/dynamic';
-
-const LiquidEther = dynamic(() => import('@/components/LiquidEther'), {
-  ssr: false,
-  loading: () => <div className="w-full h-full bg-gradient-to-br from-primary/5 to-secondary/5" />
-});
 
 interface LandingHeroProps {
   namespace: string;
@@ -24,16 +18,12 @@ export default function LandingHero({
 
   return (
     <section className="relative overflow-hidden">
-      {/* LiquidEther 流体背景 */}
-      <div className="absolute inset-0">
-        <LiquidEther
-          mouseForce={15}
-          cursorSize={80}
-          colors={colors}
-          autoDemo={false}
-          className="w-full h-full"
-        />
-      </div>
+      {/* 渐变背景 - 轻量级替代方案 */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-bg to-secondary/10 opacity-60" />
+
+      {/* 动画光效边框 */}
+      <div className="absolute -top-1/2 -right-1/4 w-1/2 h-1/2 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 blur-3xl animate-pulse" />
+      <div className="absolute -bottom-1/4 -left-1/4 w-1/2 h-1/2 rounded-full bg-gradient-to-tr from-secondary/10 to-primary/10 blur-3xl animate-pulse animation-delay-2000" />
 
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24 md:py-32">
         <div className="max-w-5xl mx-auto text-center">

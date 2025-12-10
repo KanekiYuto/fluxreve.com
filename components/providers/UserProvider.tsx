@@ -90,48 +90,35 @@ export default function UserProvider({ children }: UserProviderProps) {
       }
 
       // 延迟加载配额信息,使用 requestIdleCallback 在浏览器空闲时执行
-      const loadQuota = () => {
-        if (userType === USER_TYPE.FREE) {
-          // 免费用户:先检查每日配额,再获取配额信息
-          fetch('/api/quota/daily-check', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ userType }),
-          })
-            .then(() => fetch('/api/quota/info'))
-            .then((res) => res.json())
-            .then((data) => {
-              if (data.success) {
-                startTransition(() => {
-                  setQuotaInfo({
-                    available: data.data.available,
-                    expiresAt: data.data.expiresAt ? new Date(data.data.expiresAt) : null,
-                  });
-                });
-              }
-            })
-            .catch((err) => {
-              console.error('Failed to fetch quota info:', err);
-            });
-        } else {
-          // 付费用户:直接获取配额信息
+      const loadQuota = async () => {
+        try {
           setQuotaLoading(true);
-          fetch('/api/quota/info')
-            .then((res) => res.json())
-            .then((data) => {
-              if (data.success) {
-                startTransition(() => {
-                  setQuotaInfo({
-                    available: data.data.available,
-                    expiresAt: data.data.expiresAt ? new Date(data.data.expiresAt) : null,
-                  });
-                });
-              }
-            })
-            .catch((err) => {
-              console.error('Failed to fetch quota info:', err);
+
+          // 免费用户需要先检查每日配额
+          if (userType === USER_TYPE.FREE) {
+            await fetch('/api/quota/daily-check', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ userType }),
+            });
+          }
+
+          // 获取配额信息
+          const res = await fetch('/api/quota/info');
+          const data = await res.json();
+
+          if (data.success) {
+            startTransition(() => {
+              setQuotaInfo({
+                available: data.data.available,
+                expiresAt: data.data.expiresAt ? new Date(data.data.expiresAt) : null,
+              });
               setQuotaLoading(false);
             });
+          }
+        } catch (err) {
+          console.error('Failed to fetch quota info:', err);
+          setQuotaLoading(false);
         }
       };
 
