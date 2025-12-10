@@ -38,7 +38,9 @@
   },
   "empty": {
     "active": "Kein aktives Kontingent verfügbar",
-    "expired": "Kein abgelaufenes Kontingent"
+    "activeDesc": "Sie haben derzeit kein verfügbares Kontingent. Bitte kaufen Sie Kontingent, um den Service weiterhin nutzen zu können",
+    "expired": "Kein abgelaufenes Kontingent",
+    "expiredDesc": "Sie haben keine abgelaufenen Kontingenteinträge"
   },
   "status": {
     "active": "Aktiv",

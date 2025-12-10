@@ -38,7 +38,9 @@
   },
   "empty": {
     "active": "Aucun quota actif disponible",
-    "expired": "Aucun quota expiré"
+    "activeDesc": "Vous n'avez actuellement aucun quota disponible. Veuillez acheter du quota pour continuer à utiliser le service",
+    "expired": "Aucun quota expiré",
+    "expiredDesc": "Vous n'avez aucun enregistrement de quota expiré"
   },
   "status": {
     "active": "Actif",

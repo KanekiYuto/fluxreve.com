@@ -38,7 +38,9 @@
   },
   "empty": {
     "active": "暫無有效配額",
-    "expired": "暫無過期配額"
+    "activeDesc": "您目前沒有可用的配額，請購買配額後繼續使用服務",
+    "expired": "暫無過期配額",
+    "expiredDesc": "您沒有已過期的配額記錄"
   },
   "status": {
     "active": "有效",

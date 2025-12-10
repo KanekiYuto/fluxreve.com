@@ -38,7 +38,9 @@
   },
   "empty": {
     "active": "No active quota available",
-    "expired": "No expired quota"
+    "activeDesc": "You currently have no available quota. Please purchase quota to continue using the service",
+    "expired": "No expired quota",
+    "expiredDesc": "You have no expired quota records"
   },
   "status": {
     "active": "Active",

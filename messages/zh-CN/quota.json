@@ -38,7 +38,9 @@
   },
   "empty": {
     "active": "暂无有效配额",
-    "expired": "暂无过期配额"
+    "activeDesc": "您当前没有可用的配额，请购买配额后继续使用服务",
+    "expired": "暂无过期配额",
+    "expiredDesc": "您没有已过期的配额记录"
   },
   "status": {
     "active": "有效",

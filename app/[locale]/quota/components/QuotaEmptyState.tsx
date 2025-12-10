@@ -43,9 +43,7 @@ export default function QuotaEmptyState({ type }: QuotaEmptyStateProps) {
           {type === 'active' ? t('empty.active') : t('empty.expired')}
         </h3>
         <p className="text-sm text-text-muted max-w-md">
-          {type === 'active'
-            ? '您当前没有可用的配额，请购买配额后继续使用服务'
-            : '您没有已过期的配额记录'}
+          {type === 'active' ? t('empty.activeDesc') : t('empty.expiredDesc')}
         </p>
       </div>
     </div>
