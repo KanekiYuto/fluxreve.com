@@ -109,7 +109,8 @@
     "queryStatusFailed": "ステータス照会失敗",
     "unableToQueryStatus": "タスクステータスを照会できません",
     "generationFailed": "生成失敗",
-    "imageGenerationFailed": "画像生成に失敗しました"
+    "imageGenerationFailed": "画像生成に失敗しました",
+    "subscribe": "サブスクライブ"
   },
   "generate": {
     "generating": "生成中... {progress}%",

@@ -109,7 +109,8 @@
     "queryStatusFailed": "Échec de la Requête de Statut",
     "unableToQueryStatus": "Impossible de consulter le statut de la tâche",
     "generationFailed": "Échec de la Génération",
-    "imageGenerationFailed": "La génération d'image a échoué"
+    "imageGenerationFailed": "La génération d'image a échoué",
+    "subscribe": "S'abonner"
   },
   "generate": {
     "generating": "Génération... {progress}%",

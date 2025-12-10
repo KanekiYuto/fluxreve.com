@@ -109,7 +109,8 @@
     "queryStatusFailed": "Statusabfrage fehlgeschlagen",
     "unableToQueryStatus": "Der Status der Aufgabe kann nicht abgefragt werden",
     "generationFailed": "Generierung fehlgeschlagen",
-    "imageGenerationFailed": "Bildgenerierung fehlgeschlagen"
+    "imageGenerationFailed": "Bildgenerierung fehlgeschlagen",
+    "subscribe": "Abonnieren"
   },
   "generate": {
     "generating": "Wird generiert... {progress}%",

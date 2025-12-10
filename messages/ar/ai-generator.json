@@ -109,7 +109,8 @@
     "queryStatusFailed": "فشل الاستعلام عن الحالة",
     "unableToQueryStatus": "تعذر الاستعلام عن حالة المهمة",
     "generationFailed": "فشل التوليد",
-    "imageGenerationFailed": "فشل توليد الصورة"
+    "imageGenerationFailed": "فشل توليد الصورة",
+    "subscribe": "اشترك"
   },
   "generate": {
     "generating": "جاري التوليد... {progress}%",

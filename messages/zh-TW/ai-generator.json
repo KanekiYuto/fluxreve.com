@@ -109,7 +109,8 @@
     "queryStatusFailed": "查詢狀態失敗",
     "unableToQueryStatus": "無法查詢任務狀態",
     "generationFailed": "產生失敗",
-    "imageGenerationFailed": "圖片產生失敗"
+    "imageGenerationFailed": "圖片產生失敗",
+    "subscribe": "訂閱"
   },
   "generate": {
     "generating": "產生中... {progress}%",

@@ -1,5 +1,5 @@
 // 语言配置（需要与 i18n/config.ts 保持同步）
-const locales = ['en', 'zh-CN', 'zh-TW', 'ja', 'ko'];
+const locales = ['en', 'zh-CN', 'zh-TW', 'ja', 'ko', 'ar', 'fr', 'de'];
 const defaultLocale = 'en';
 
 // 需要登录或不需要索引的路径

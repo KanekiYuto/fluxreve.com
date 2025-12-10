@@ -5,6 +5,7 @@ import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Analytics } from '@vercel/analytics/react';
 import { routing } from '@/i18n/routing';
+import { rtlLocales } from '@/i18n/config';
 import PageLayout from '@/components/layout/PageLayout';
 import UserProvider from '@/components/providers/UserProvider';
 import ModalProvider from '@/components/providers/ModalProvider';
@@ -55,9 +56,10 @@ export default async function LocaleLayout({ children, params }: Props) {
   }
 
   const messages = await getMessages({ locale });
+  const dir = rtlLocales.includes(locale as any) ? 'rtl' : 'ltr';
 
   return (
-    <html lang={locale}>
+    <html lang={locale} dir={dir}>
       <body className="antialiased">
         {/* Google Ads (gtag.js) */}
         <Script

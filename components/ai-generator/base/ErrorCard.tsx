@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import useModalStore from '@/store/useModalStore';
 
 interface ErrorCardProps {
   /**
@@ -31,6 +32,7 @@ export default function ErrorCard({
   creditsInfo,
 }: ErrorCardProps) {
   const t = useTranslations('ai-generator.error');
+  const { openSubscriptionModal } = useModalStore();
   // 根据类型确定颜色
   const colorClasses = {
     error: {
@@ -160,6 +162,14 @@ export default function ErrorCard({
                 <p className={`text-sm ${colors.message} leading-relaxed`}>
                   {message}
                 </p>
+
+                {/* 订阅按钮 */}
+                <button
+                  onClick={openSubscriptionModal}
+                  className="mt-2 w-full px-4 py-2 rounded-lg bg-gradient-to-r from-orange-500 to-orange-600 text-white font-semibold text-sm hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl"
+                >
+                  {t('subscribe')}
+                </button>
               </div>
             ) : (
               <p className={`text-base ${colors.message} break-words leading-relaxed px-4`}>

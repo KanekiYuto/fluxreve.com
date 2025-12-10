@@ -109,7 +109,8 @@
     "queryStatusFailed": "查询状态失败",
     "unableToQueryStatus": "无法查询任务状态",
     "generationFailed": "产生失败",
-    "imageGenerationFailed": "图片产生失败"
+    "imageGenerationFailed": "图片产生失败",
+    "subscribe": "订阅"
   },
   "generate": {
     "generating": "产生中... {progress}%",

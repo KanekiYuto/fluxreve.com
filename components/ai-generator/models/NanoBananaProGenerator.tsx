@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import GeneratorLayout from '../base/GeneratorLayout';
 import { ExampleItem } from '../base/ExampleGallery';
@@ -12,6 +12,7 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { useRequiredCredits } from '@/hooks/useRequiredCredits';
 import { useImageGenerator, ErrorState } from '@/hooks/useImageGenerator';
+import useModalStore from '@/store/useModalStore';
 
 // ==================== 类型定义 ====================
 
@@ -96,6 +97,16 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
     setError,
     refreshCredits,
   } = useImageGenerator();
+
+  // Modal 状态管理
+  const { openSubscriptionModal } = useModalStore();
+
+  // 监听积分不足错误，自动打开订阅 modal
+  useEffect(() => {
+    if (error?.variant === 'credits') {
+      openSubscriptionModal();
+    }
+  }, [error, openSubscriptionModal]);
 
   // 验证表单
   const validateForm = useCallback((): ErrorState | null => {

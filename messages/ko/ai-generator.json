@@ -109,7 +109,8 @@
     "queryStatusFailed": "상태 조회 실패",
     "unableToQueryStatus": "작업 상태를 조회할 수 없습니다",
     "generationFailed": "생성 실패",
-    "imageGenerationFailed": "이미지 생성 실패"
+    "imageGenerationFailed": "이미지 생성 실패",
+    "subscribe": "구독"
   },
   "generate": {
     "generating": "생성 중... {progress}%",

@@ -109,7 +109,8 @@
     "queryStatusFailed": "Query Status Failed",
     "unableToQueryStatus": "Unable to query task status",
     "generationFailed": "Generation Failed",
-    "imageGenerationFailed": "Image generation failed"
+    "imageGenerationFailed": "Image generation failed",
+    "subscribe": "Subscribe"
   },
   "generate": {
     "generating": "Generating... {progress}%",
