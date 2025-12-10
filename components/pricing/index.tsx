@@ -65,7 +65,10 @@ export default function Pricing({ useH1 = false }: PricingProps) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto mb-12 sm:mb-16">
           {paidPlans.map((planType, index) => {
             const allPricings = getPricingTiersByPlan(planType as any);
-            const currentTier = allPricings.find(t => t.billingCycle === billingCycle);
+            // Trial 只有 monthly，年付时也使用 monthly
+            const currentTier = planType === 'trial'
+              ? allPricings.find(t => t.billingCycle === 'monthly')
+              : allPricings.find(t => t.billingCycle === billingCycle);
             const translation = tierTranslations[index];
 
             if (!currentTier) return null;
