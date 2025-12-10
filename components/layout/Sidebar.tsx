@@ -217,7 +217,7 @@ function MenuItem({ item, isActive, onClick, t }: {
       onClick={onClick}
       onMouseEnter={handleMouseEnter}
       className={classNames(
-        'group relative flex items-center gap-x-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-all duration-200 overflow-hidden',
+        'group relative flex items-center gap-x-3 px-3 py-2.5 text-sm font-medium transition-all duration-200 overflow-hidden rounded-lg',
         isActive
           ? 'bg-primary/10 text-white'
           : 'text-text-muted hover:text-white hover:bg-white/5'
@@ -257,68 +257,64 @@ export default function Sidebar() {
   const { isOpen, closeSidebar } = useSidebarStore();
   const t = useTranslations('common');
 
+  // 导航内容组件 - 复用于移动端和桌面端
+  const SidebarContent = () => (
+    <nav className="flex-1 px-3 py-6 overflow-y-auto scrollbar-dark">
+      <div className="space-y-6">
+        {navigationGroups.map((group) => (
+          <div key={group.title}>
+            <div className="px-3 mb-3 text-[11px] font-semibold text-text-dim/60 uppercase tracking-widest">
+              {t(`navigation.${group.title}`)}
+            </div>
+            <ul className="space-y-0.5">
+              {group.items.map((item) => {
+                const isActive = pathname === item.href;
+                return (
+                  <li key={item.name}>
+                    <MenuItem
+                      item={item}
+                      isActive={isActive}
+                      onClick={isOpen ? closeSidebar : undefined}
+                      t={t}
+                    />
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </nav>
+  );
+
+  // 侧边栏底部用户区域组件
+  const SidebarFooter = () => (
+    <div className="border-t border-border/50 p-3 flex-shrink-0 h-[80px] flex items-center">
+      <AnimatePresence mode="wait">
+        <UserSection />
+      </AnimatePresence>
+    </div>
+  );
+
   return (
     <>
-      {/* 移动端 Sidebar - 抽屉式 */}
+      {/* 移动端 Sidebar - 抽屉式，在 Header 下方打开 */}
       {isOpen && (
-        <div className="fixed inset-0 z-[260] lg:hidden">
-          {/* 遮罩层 */}
+        <div className="fixed inset-0 top-[60px] z-[240] lg:hidden">
+          {/* 遮罩层 - 点击关闭 */}
           <div
-            className="fixed inset-0 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200"
+            className="fixed inset-0 top-[60px] bg-black/40 backdrop-blur-sm animate-in fade-in duration-200"
             onClick={closeSidebar}
+            aria-hidden="true"
           />
 
-          {/* Sidebar 面板 */}
-          <div className="fixed inset-y-0 left-0 flex w-full max-w-xs flex-col bg-bg-elevated border-r border-border shadow-2xl animate-in slide-in-from-left duration-300 z-10">
-            {/* 头部 */}
-            <div className="relative flex h-[60px] items-center justify-center border-b border-border">
-              <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-                <Logo className="text-white" />
-              </Link>
-              <button
-                type="button"
-                className="absolute right-4 rounded-lg p-2 text-text-muted hover:bg-bg-hover hover:text-text transition-colors"
-                onClick={closeSidebar}
-              >
-                <span className="sr-only">Close sidebar</span>
-                <X className="h-5 w-5" />
-              </button>
-            </div>
-
+          {/* Sidebar 面板 - 从上往下滑出 */}
+          <div className="fixed top-[60px] left-0 right-0 max-h-[calc(100vh-60px)] flex flex-col bg-bg-elevated border-b border-border shadow-lg animate-in slide-in-from-top duration-300 z-10 overflow-y-auto">
             {/* 导航菜单 */}
-            <nav className="flex-1 px-3 py-6 overflow-y-auto scrollbar-dark">
-              <div className="space-y-6">
-                {navigationGroups.map((group) => (
-                  <div key={group.title}>
-                    <div className="px-3 mb-3 text-[11px] font-semibold text-text-dim/60 uppercase tracking-widest">
-                      {t(`navigation.${group.title}`)}
-                    </div>
-                    <ul className="space-y-0.5">
-                      {group.items.map((item) => {
-                        const isActive = pathname === item.href;
-                        return (
-                          <li key={item.name}>
-                            <MenuItem
-                              item={item}
-                              isActive={isActive}
-                              onClick={closeSidebar}
-                              t={t}
-                            />
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  </div>
-                ))}
-              </div>
-            </nav>
+            <SidebarContent />
 
             {/* 底部用户区域 */}
-            <div className="border-t border-border/50 p-3 flex-shrink-0 h-[80px] flex items-center">
-              <AnimatePresence mode="wait">
-                <UserSection />
-              </AnimatePresence>
-            </div>
+            <SidebarFooter />
           </div>
         </div>
       )}
@@ -326,7 +322,7 @@ export default function Sidebar() {
       {/* 桌面端 Sidebar - 固定宽度 */}
       <div className="hidden lg:flex lg:flex-col lg:w-64 flex-shrink-0 bg-bg-elevated border-r border-border z-[250]">
         {/* Logo 区域 */}
-        <div className="flex h-[60px] shrink-0 items-center justify-center border-b border-border">
+        <div className="flex h-[60px] shrink-0 items-center justify-center border-b border-border flex-shrink-0">
           <Link
             href="/"
             className="flex items-center gap-2 hover:opacity-80 transition-opacity"
@@ -336,38 +332,10 @@ export default function Sidebar() {
         </div>
 
         {/* 导航菜单 */}
-        <nav className="flex-1 px-3 py-6 overflow-y-auto scrollbar-dark">
-          <div className="space-y-6">
-            {navigationGroups.map((group) => (
-              <div key={group.title}>
-                <div className="px-3 mb-3 text-[11px] font-semibold text-text-dim/60 uppercase tracking-widest">
-                  {t(`navigation.${group.title}`)}
-                </div>
-                <ul className="space-y-0.5">
-                  {group.items.map((item) => {
-                    const isActive = pathname === item.href;
-                    return (
-                      <li key={item.name}>
-                        <MenuItem
-                          item={item}
-                          isActive={isActive}
-                          t={t}
-                        />
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </nav>
+        <SidebarContent />
 
         {/* 底部用户区域 */}
-        <div className="border-t border-border/50 p-3 flex-shrink-0 h-[80px] flex items-center">
-          <AnimatePresence mode="wait">
-            <UserSection />
-          </AnimatePresence>
-        </div>
+        <SidebarFooter />
       </div>
     </>
   );

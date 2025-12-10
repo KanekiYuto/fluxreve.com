@@ -85,17 +85,17 @@ export default function PageLayout({ children }: PageLayoutProps) {
   }
 
   return (
-    <div className="flex h-screen bg-bg overflow-hidden">
-      {/* Sidebar - 左侧固定宽度 */}
+    <div className="flex flex-col h-screen bg-bg lg:flex-row overflow-hidden">
+      {/* Sidebar - 左侧固定宽度 (桌面端) */}
       <Sidebar />
 
       {/* 右侧内容区域 - flex-1 自动占用剩余空间 */}
-      <div className="flex flex-col flex-1 overflow-hidden">
+      <div className="flex flex-col flex-1 min-h-0 lg:min-h-screen overflow-hidden">
         {/* Header - 固定在顶部 */}
         <Header />
 
         {/* Main 内容区域 - 可滚动 */}
-        <main className="relative flex-1 bg-bg text-text overflow-y-auto scrollbar-dark">
+        <main className="relative flex-1 min-h-0 bg-bg text-text overflow-y-auto scrollbar-dark">
           {/* 全局 Loading 遮罩层 - 只在白名单页面显示 */}
           {isLoadingEnabled && isLoading && (
             <div className="fixed inset-0 lg:left-64 top-[60px] bg-bg/90 backdrop-blur-md z-[200] flex items-center justify-center">

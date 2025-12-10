@@ -68,6 +68,7 @@ export const navigationGroups: NavGroup[] = [
     title: 'main', // 主要功能分组
     items: [
       { name: 'home', href: '/', icon: 'home' },
+      { name: 'pricing', href: '/pricing', icon: 'pricing' },
       { name: 'dashboard', href: '/dashboard', icon: 'dashboard' },
       { name: 'ai-generator', href: '/ai-generator', icon: 'image' },
     ],
@@ -93,7 +94,6 @@ export const navigationGroups: NavGroup[] = [
   {
     title: 'more', // 更多分组
     items: [
-      { name: 'pricing', href: '/pricing', icon: 'pricing' },
       { name: 'help', href: '/help', icon: 'help' },
     ],
   },
