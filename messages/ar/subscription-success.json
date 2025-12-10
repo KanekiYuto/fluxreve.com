@@ -1,36 +1,36 @@
 {
   "seo": {
-    "title": "Subscription Successful",
-    "description": "Thank you for subscribing! Your account has been successfully upgraded"
+    "title": "نجح الاشتراك",
+    "description": "شكراً لاشتراكك! تم ترقية حسابك بنجاح"
   },
-  "title": "Subscription Successful!",
-  "description": "Thank you for subscribing. Your account has been successfully upgraded and you can now enjoy all premium features.",
-  "loading": "Loading...",
-  "notFound": "Subscription not found",
+  "title": "نجح الاشتراك!",
+  "description": "شكراً لاشتراكك. تم ترقية حسابك بنجاح ويمكنك الآن الاستمتاع بجميع ميزات المحتوى المدفوع.",
+  "loading": "جاري التحميل...",
+  "notFound": "الاشتراك غير موجود",
   "details": {
-    "title": "Subscription Details",
-    "plan": "Plan",
-    "amount": "Amount",
-    "status": "Status",
-    "statusActive": "Active"
+    "title": "تفاصيل الاشتراك",
+    "plan": "الخطة",
+    "amount": "المبلغ",
+    "status": "الحالة",
+    "statusActive": "نشط"
   },
   "nextSteps": {
-    "title": "What's Next",
-    "step1": "Visit your dashboard to explore all available features",
-    "step2": "Start using AI generators to create stunning images",
-    "step3": "View your subscription details in the subscription management page"
+    "title": "الخطوات التالية",
+    "step1": "قم بزيارة لوحة التحكم الخاصة بك لاستكشاف جميع المميزات المتاحة",
+    "step2": "ابدأ باستخدام مولدات الذكاء الاصطناعي لإنشاء صور مذهلة",
+    "step3": "عرض تفاصيل الاشتراك الخاصة بك في صفحة إدارة الاشتراك"
   },
   "actions": {
-    "startUsing": "Start Using Now",
-    "redirecting": "Redirecting...",
-    "viewSubscription": "View Subscription"
+    "startUsing": "ابدأ الاستخدام الآن",
+    "redirecting": "جاري إعادة التوجيه...",
+    "viewSubscription": "عرض الاشتراك"
   },
-  "autoRedirect": "Auto redirecting to dashboard in {seconds} seconds...",
+  "autoRedirect": "سيتم إعادة التوجيه تلقائياً إلى لوحة التحكم في {seconds} ثانية...",
   "planTypes": {
-    "monthly_basic": "Basic - Monthly",
-    "yearly_basic": "Basic - Yearly",
-    "monthly_pro": "Pro - Monthly",
-    "yearly_pro": "Pro - Yearly",
-    "unknown": "Unknown Plan"
+    "monthly_basic": "أساسي - شهري",
+    "yearly_basic": "أساسي - سنوي",
+    "monthly_pro": "احترافي - شهري",
+    "yearly_pro": "احترافي - سنوي",
+    "unknown": "خطة غير معروفة"
   }
 }

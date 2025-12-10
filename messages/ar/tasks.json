@@ -1,86 +1,85 @@
 {
   "seo": {
-    "title": "History",
-    "description": "View and manage all your AI image generation history"
+    "title": "السجل",
+    "description": "عرض وإدارة كل سجل توليد الصور بالذكاء الاصطناعي الخاص بك"
   },
   "header": {
-    "title": "History",
-    "subtitle": "View and manage all your generation history"
+    "title": "السجل",
+    "subtitle": "عرض وإدارة كل سجل التوليد الخاص بك"
   },
   "loginPrompt": {
-    "title": "Login to View History",
-    "description": "Sign in to view all your AI image generation history",
-    "cta": "Sign In"
+    "title": "تسجيل الدخول لعرض السجل",
+    "description": "سجل الدخول لعرض كل سجل توليد الصور بالذكاء الاصطناعي الخاص بك",
+    "cta": "تسجيل الدخول"
   },
   "filter": {
-    "all": "All",
-    "completed": "Completed",
-    "processing": "Processing",
-    "pending": "Pending",
-    "failed": "Failed",
-    "statusLabel": "Status",
-    "taskTypeLabel": "Type",
+    "all": "الكل",
+    "completed": "مكتملة",
+    "processing": "جاري المعالجة",
+    "pending": "في انتظار",
+    "failed": "فشلت",
+    "statusLabel": "الحالة",
+    "taskTypeLabel": "النوع",
     "taskType": {
-      "all": "All",
-      "text-to-image": "Text to Image",
-      "image-to-image": "Image to Image"
+      "all": "الكل",
+      "text-to-image": "نص إلى صورة",
+      "image-to-image": "صورة إلى صورة"
     },
-    "modelLabel": "Model",
+    "modelLabel": "النموذج",
     "model": {
-      "all": "All",
+      "all": "الكل",
       "nano-banana-pro": "Nano Banana Pro",
       "z-image": "Z-Image",
       "z-image-lora": "Z-Image LoRA",
       "flux-2-pro": "FLUX 2 Pro"
     },
-    "privacyLabel": "Privacy",
+    "privacyLabel": "الخصوصية",
     "privacy": {
-      "private": "Private",
-      "public": "Public"
+      "private": "خاص",
+      "public": "عام"
     },
-    "nsfwLabel": "Content",
+    "nsfwLabel": "المحتوى",
     "nsfw": {
-      "safe": "Safe",
-      "nsfw": "NSFW"
+      "safe": "آمن",
+      "nsfw": "للبالغين"
     },
-    "selectPlaceholder": "Select...",
-    "selectedCount": "{count} selected",
-    "title": "Filters",
-    "clearAll": "Clear"
+    "selectPlaceholder": "اختر...",
+    "selectedCount": "{count} محدد",
+    "title": "المرشحات",
+    "clearAll": "مسح"
   },
   "status": {
-    "completed": "Completed",
-    "processing": "Processing",
-    "pending": "Pending",
-    "failed": "Failed"
+    "completed": "مكتملة",
+    "processing": "جاري المعالجة",
+    "pending": "في انتظار",
+    "failed": "فشلت"
   },
   "empty": {
-    "title": "No Tasks Yet",
-    "subtitle": "Start creating your first AI image",
-    "filteredTitle": "No Matching Tasks",
-    "filteredSubtitle": "Try changing the filter options",
-    "cta": "Start Creating"
+    "title": "لا توجد مهام بعد",
+    "subtitle": "ابدأ بإنشاء صورتك الأولى بالذكاء الاصطناعي",
+    "filteredTitle": "لا توجد مهام مطابقة",
+    "filteredSubtitle": "حاول تغيير خيارات المرشح",
+    "cta": "ابدأ الإنشاء"
   },
-  "noPrompt": "No prompt",
+  "noPrompt": "لا يوجد وصف",
   "card": {
-    "delete": "Delete",
-    "confirmDelete": "Delete",
-    "confirmDeleteTitle": "Delete Task",
-    "confirmDeleteMessage": "Are you sure you want to delete this task? This action cannot be undone.",
-    "cancelDelete": "Cancel",
-    "deleting": "Deleting...",
-    "private": "Private",
-    "public": "Public",
-    "makePrivate": "Make Private",
-    "makePublic": "Make Public"
+    "delete": "حذف",
+    "confirmDelete": "حذف",
+    "confirmDeleteTitle": "حذف المهمة",
+    "confirmDeleteMessage": "هل أنت متأكد من رغبتك في حذف هذه المهمة؟ لا يمكن التراجع عن هذا الإجراء.",
+    "cancelDelete": "إلغاء",
+    "deleting": "جاري الحذف...",
+    "private": "خاص",
+    "public": "عام",
+    "makePrivate": "جعل خاص",
+    "makePublic": "جعل عام"
   },
   "errors": {
-    "fetchFailed": "Failed to fetch tasks",
-    "retry": "Retry"
+    "fetchFailed": "فشل في جلب المهام",
+    "retry": "إعادة محاولة"
   },
   "pagination": {
-    "prev": "Previous",
-    "next": "Next"
+    "prev": "السابق",
+    "next": "التالي"
   }
 }
-

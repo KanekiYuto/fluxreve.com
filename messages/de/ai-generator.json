@@ -1,208 +1,208 @@
 {
   "seo": {
-    "title": "AI Generator",
-    "description": "Create stunning AI-generated images with our powerful AI image generation tool. Fast, professional, and easy to use."
+    "title": "KI-Generator",
+    "description": "Erstellen Sie atemberaubende KI-generierte Bilder mit unserem leistungsstarken KI-Bildgenerierungstool. Schnell, professionell und einfach zu bedienen."
   },
   "page": {
-    "title": "AI Generator",
-    "description": "Create amazing content with powerful AI models"
+    "title": "KI-Generator",
+    "description": "Erstellen Sie erstaunliche Inhalte mit leistungsstarken KI-Modellen"
   },
   "tabs": {
-    "textToImage": "Text to Image",
-    "imageToImage": "Image to Image",
-    "more": "More"
+    "textToImage": "Text zu Bild",
+    "imageToImage": "Bild zu Bild",
+    "more": "Mehr"
   },
   "examples": {
-    "title": "Quick Start",
-    "description": "Click an example below to start creating, or fill out the form on the left to customize",
-    "useExample": "Use This Example",
-    "goToExample": "Go to example {index}",
-    "clickToUse": "Click to use this example",
-    "noExamples": "No examples available"
+    "title": "Schnelleinstieg",
+    "description": "Klicken Sie auf ein Beispiel unten, um mit der Erstellung zu beginnen, oder füllen Sie das Formular auf der linken Seite aus, um es anzupassen",
+    "useExample": "Dieses Beispiel verwenden",
+    "goToExample": "Gehen Sie zum Beispiel {index}",
+    "clickToUse": "Klicken Sie, um dieses Beispiel zu verwenden",
+    "noExamples": "Keine Beispiele verfügbar"
   },
   "tags": {
-    "film-style": "Film Style",
-    "moody": "Moody",
+    "film-style": "Filmstil",
+    "moody": "Stimmungsvoll",
     "retro": "Retro",
-    "currency": "Currency",
-    "portrait": "Portrait",
-    "photorealistic": "Photorealistic",
-    "art-gallery": "Art Gallery",
-    "minimalist": "Minimalist",
-    "professional": "Professional",
-    "education": "Education",
-    "math": "Math",
-    "text-render": "Text Render"
+    "currency": "Währung",
+    "portrait": "Porträt",
+    "photorealistic": "Fotorealistisch",
+    "art-gallery": "Kunstgalerie",
+    "minimalist": "Minimalistisch",
+    "professional": "Professionell",
+    "education": "Bildung",
+    "math": "Mathematik",
+    "text-render": "Textdarstellung"
   },
   "results": {
-    "title": "Generated Results",
-    "fileCount": "{count} file(s)",
-    "downloadCurrent": "Download Current",
-    "downloadAll": "Download All ({count})",
-    "generationTime": "Generation Time",
-    "completedTime": "Completed Time",
+    "title": "Generierte Ergebnisse",
+    "fileCount": "{count} Datei(en)",
+    "downloadCurrent": "Aktuell herunterladen",
+    "downloadAll": "Alle herunterladen ({count})",
+    "generationTime": "Generierungszeit",
+    "completedTime": "Abschlusszeit",
     "seconds": "{seconds}s",
-    "prompt": "Prompt"
+    "prompt": "Eingabeaufforderung"
   },
   "loading": {
-    "initializing": "Initializing",
-    "creating": "AI Creating",
-    "message": "Generating amazing content for you, please wait..."
+    "initializing": "Wird initialisiert",
+    "creating": "KI erstellt",
+    "message": "Wir generieren erstaunliche Inhalte für Sie. Bitte warten Sie..."
   },
   "credits": {
-    "quota": "Quota",
-    "refresh": "Refresh quota"
+    "quota": "Kontingent",
+    "refresh": "Kontingent aktualisieren"
   },
   "form": {
     "mode": {
-      "textToImage": "Text to Image",
-      "imageToImage": "Image to Image"
+      "textToImage": "Text zu Bild",
+      "imageToImage": "Bild zu Bild"
     },
-    "advancedSettings": "Advanced Settings",
-    "seed": "Seed",
-    "seedPlaceholder": "Leave blank for random",
-    "steps": "Steps",
-    "selectPlaceholder": "Please select",
-    "prompt": "Prompt",
-    "promptPlaceholder": "Describe the image you want to generate...",
-    "aspectRatio": "Aspect Ratio",
-    "aspectRatioPlaceholder": "Select aspect ratio",
+    "advancedSettings": "Erweiterte Einstellungen",
+    "seed": "Startwert",
+    "seedPlaceholder": "Leer lassen für Zufallswert",
+    "steps": "Schritte",
+    "selectPlaceholder": "Bitte wählen Sie",
+    "prompt": "Eingabeaufforderung",
+    "promptPlaceholder": "Beschreiben Sie das Bild, das Sie generieren möchten...",
+    "aspectRatio": "Seitenverhältnis",
+    "aspectRatioPlaceholder": "Seitenverhältnis auswählen",
     "aspectRatios": {
-      "1:1": "1:1 (Square)",
-      "16:9": "16:9 (Landscape)",
-      "9:16": "9:16 (Portrait)",
+      "1:1": "1:1 (Quadrat)",
+      "16:9": "16:9 (Querformat)",
+      "9:16": "9:16 (Hochformat)",
       "4:3": "4:3 (Standard)",
-      "3:4": "3:4 (Portrait)",
-      "21:9": "21:9 (Ultrawide)"
+      "3:4": "3:4 (Hochformat)",
+      "21:9": "21:9 (Ultrabreit)"
     },
-    "resolution": "Resolution",
-    "resolutionPlaceholder": "Select resolution",
-    "size": "Size",
-    "sizePlaceholder": "Select image size",
-    "outputFormat": "Output Format",
-    "outputFormatPlaceholder": "Select output format",
-    "uploadImage": "Upload Image",
-    "addImageUrl": "Add Image URL",
-    "imageUrlPlaceholder": "Enter image URL",
-    "add": "Add",
-    "cancel": "Cancel",
-    "uploadHint": "Hint: You can drag and drop a file or click to upload",
-    "uploading": "Uploading...",
-    "addItem": "Add Item",
-    "privateMode": "Private Mode",
-    "privateModeDesc": "Results will only be visible to you",
-    "configuration": "Configuration",
-    "addLora": "Add LoRA",
-    "noLoraConfigured": "No LoRA configured yet",
-    "clickAddLoraToStart": "Click the button above to add LoRA configuration",
-    "loraConfig": "LoRA Config",
-    "loraConfigHint": "Enter LoRA configuration in JSON format, e.g., model name, weight, and other parameters"
+    "resolution": "Auflösung",
+    "resolutionPlaceholder": "Auflösung wählen",
+    "size": "Größe",
+    "sizePlaceholder": "Bildgröße wählen",
+    "outputFormat": "Ausgabeformat",
+    "outputFormatPlaceholder": "Ausgabeformat wählen",
+    "uploadImage": "Bild hochladen",
+    "addImageUrl": "Bild-URL hinzufügen",
+    "imageUrlPlaceholder": "Geben Sie die Bild-URL ein",
+    "add": "Hinzufügen",
+    "cancel": "Abbrechen",
+    "uploadHint": "Hinweis: Sie können eine Datei ziehen und ablegen oder klicken, um hochzuladen",
+    "uploading": "Wird hochgeladen...",
+    "addItem": "Element hinzufügen",
+    "privateMode": "Privater Modus",
+    "privateModeDesc": "Ergebnisse sind nur für Sie sichtbar",
+    "configuration": "Konfiguration",
+    "addLora": "LoRA hinzufügen",
+    "noLoraConfigured": "Noch keine LoRA konfiguriert",
+    "clickAddLoraToStart": "Klicken Sie auf die obige Schaltfläche, um die LoRA-Konfiguration zu starten",
+    "loraConfig": "LoRA-Konfiguration",
+    "loraConfigHint": "Geben Sie die LoRA-Konfiguration im JSON-Format ein, z.B. Modellname, Gewicht und andere Parameter"
   },
   "error": {
-    "required": "Required",
-    "current": "Current",
-    "credits": "Credits",
-    "parameterError": "Parameter Error",
-    "promptRequired": "Please enter a prompt",
-    "insufficientCredits": "Insufficient Credits",
-    "pleaseRecharge": "Please recharge and try again",
-    "queryStatusFailed": "Query Status Failed",
-    "unableToQueryStatus": "Unable to query task status",
-    "generationFailed": "Generation Failed",
-    "imageGenerationFailed": "Image generation failed"
+    "required": "Erforderlich",
+    "current": "Aktuell",
+    "credits": "Guthaben",
+    "parameterError": "Parameterfehler",
+    "promptRequired": "Bitte geben Sie eine Eingabeaufforderung ein",
+    "insufficientCredits": "Unzureichende Guthaben",
+    "pleaseRecharge": "Bitte aufladen und erneut versuchen",
+    "queryStatusFailed": "Statusabfrage fehlgeschlagen",
+    "unableToQueryStatus": "Der Status der Aufgabe kann nicht abgefragt werden",
+    "generationFailed": "Generierung fehlgeschlagen",
+    "imageGenerationFailed": "Bildgenerierung fehlgeschlagen"
   },
   "generate": {
-    "generating": "Generating... {progress}%",
-    "generateImage": "Generate Image (Cost {credits} Quota)"
+    "generating": "Wird generiert... {progress}%",
+    "generateImage": "Bild generieren (Kosten {credits} Kontingent)"
   },
   "modelGroups": {
-    "nano": "Nano Series",
-    "zImage": "Z-Image Series",
-    "flux": "Flux Series",
-    "seedream": "Seedream Series"
+    "nano": "Nano-Serie",
+    "zImage": "Z-Image-Serie",
+    "flux": "Flux-Serie",
+    "seedream": "Seedream-Serie"
   },
   "models": {
     "nanoBananaPro": {
-      "description": "Lightning-fast generation, optimized for high-quality creative output with exceptional speed",
+      "description": "Blitzschnelle Generierung, optimiert für hochwertige kreative Ausgabe mit außergewöhnlicher Geschwindigkeit",
       "tags": {
-        "fast": "Fast",
-        "highQuality": "High Quality",
-        "latest": "Latest"
+        "fast": "Schnell",
+        "highQuality": "Hochwertig",
+        "latest": "Neueste"
       }
     },
     "zImage": {
-      "description": "Photorealistic AI image generation with accurate bilingual text rendering, sub-second speed",
+      "description": "Fotorealistische KI-Bildgenerierung mit genauer zweisprachiger Textwiedergabe, Geschwindigkeit unter einer Sekunde",
       "tags": {
-        "ultraFast": "Sub-second",
-        "affordable": "Photorealistic",
-        "quality": "Text Render"
+        "ultraFast": "Unter einer Sekunde",
+        "affordable": "Fotorealistisch",
+        "quality": "Textdarstellung"
       }
     },
     "zImageLora": {
-      "description": "Z-Image Turbo LoRA version with custom LoRA model support for stylized creations",
+      "description": "Z-Image Turbo LoRA-Version mit Unterstützung für benutzerdefinierte LoRA-Modelle für stilisierte Kreationen",
       "tags": {
-        "customizable": "Customizable",
-        "stylized": "Stylized",
-        "lora": "LoRA Support"
+        "customizable": "Anpassbar",
+        "stylized": "Stilisiert",
+        "lora": "LoRA-Unterstützung"
       }
     },
     "flux2Pro": {
-      "description": "Professional-grade image generation model, supports text-to-image and image-to-image with high-quality output",
+      "description": "Professionelles Bildgenerierungsmodell, unterstützt Text-zu-Bild und Bild-zu-Bild mit hochwertiger Ausgabe",
       "tags": {
-        "professional": "Professional",
-        "highQuality": "High Quality",
-        "versatile": "Versatile"
+        "professional": "Professionell",
+        "highQuality": "Hochwertig",
+        "versatile": "Vielseitig"
       }
     },
     "seedream": {
-      "description": "ByteDance Seedream 4.5, ultra-high quality image generation with large resolution output",
+      "description": "ByteDance Seedream 4.5, ultrahohe Qualität der Bildgenerierung mit großer Auflösungsausgabe",
       "tags": {
         "bytedance": "ByteDance",
         "ultraHD": "Ultra HD",
-        "creative": "Creative"
+        "creative": "Kreativ"
       }
     }
   },
   "lora": {
-    "scale": "Scale",
-    "addLora": "Add LoRA",
-    "loading": "Loading...",
-    "noLoraAvailable": "No LoRA available",
-    "noLoraHint": "Please create or import LoRA models first",
-    "configuration": "Configuration",
-    "loraConfig": "LoRA Config",
-    "loraConfigHint": "Please enter valid JSON format configuration",
-    "noLoraConfigured": "No LoRA configured",
-    "clickAddLoraToStart": "Click \"Add LoRA\" button to start configuration",
-    "modalTitle": "Select LoRA Model",
-    "modalSubtitle": "Choose from the LoRA library and customize scale for personalized styles",
-    "searchPlaceholder": "Search LoRA name, description, or trigger word...",
-    "selectedLoras": "Selected",
-    "noSelectedLoras": "No LoRA selected",
-    "clickToSelect": "Click a LoRA card on the left to select",
-    "noSearchResults": "No matching LoRA found",
-    "confirm": "Confirm",
-    "cancel": "Cancel",
-    "selectLora": "Select LoRA",
-    "selectMore": "Manage LoRA",
-    "selectedCount": "{count} LoRA(s) selected",
-    "manage": "Manage"
+    "scale": "Skalierung",
+    "addLora": "LoRA hinzufügen",
+    "loading": "Wird geladen...",
+    "noLoraAvailable": "Keine LoRA verfügbar",
+    "noLoraHint": "Bitte erstellen oder importieren Sie zunächst LoRA-Modelle",
+    "configuration": "Konfiguration",
+    "loraConfig": "LoRA-Konfiguration",
+    "loraConfigHint": "Bitte geben Sie eine gültige JSON-Format-Konfiguration ein",
+    "noLoraConfigured": "Keine LoRA konfiguriert",
+    "clickAddLoraToStart": "Klicken Sie auf die Schaltfläche \"LoRA hinzufügen\", um die Konfiguration zu starten",
+    "modalTitle": "LoRA-Modell auswählen",
+    "modalSubtitle": "Wählen Sie aus der LoRA-Bibliothek und passen Sie die Skalierung für personalisierte Stile an",
+    "searchPlaceholder": "Suchen Sie LoRA-Namen, Beschreibung oder Triggerwort...",
+    "selectedLoras": "Ausgewählt",
+    "noSelectedLoras": "Keine LoRA ausgewählt",
+    "clickToSelect": "Klicken Sie auf eine LoRA-Karte auf der linken Seite, um auszuwählen",
+    "noSearchResults": "Keine passende LoRA gefunden",
+    "confirm": "Bestätigen",
+    "cancel": "Abbrechen",
+    "selectLora": "LoRA auswählen",
+    "selectMore": "LoRA verwalten",
+    "selectedCount": "{count} LoRA(s) ausgewählt",
+    "manage": "Verwalten"
   },
   "comingSoon": {
-    "badge": "Coming Soon",
-    "defaultTitle": "Exciting Features on the Way",
-    "defaultDescription": "We're working hard to bring you amazing new capabilities. Stay tuned for updates!",
-    "feature1Title": "Powerful AI",
-    "feature1Desc": "State-of-the-art technology",
-    "feature2Title": "Smart Features",
-    "feature2Desc": "Intelligent automation",
-    "feature3Title": "Fast Processing",
-    "feature3Desc": "Lightning-fast results",
-    "progressLabel": "Development Progress",
-    "progressHint": "Expected to launch soon",
+    "badge": "In Kürze verfügbar",
+    "defaultTitle": "Spannende Funktionen auf dem Weg",
+    "defaultDescription": "Wir arbeiten hart daran, Ihnen erstaunliche neue Funktionen zu bringen. Bleiben Sie dran für Updates!",
+    "feature1Title": "Leistungsstarke KI",
+    "feature1Desc": "Fortgeschrittene Technologie",
+    "feature2Title": "Intelligente Funktionen",
+    "feature2Desc": "Intelligente Automatisierung",
+    "feature3Title": "Schnelle Verarbeitung",
+    "feature3Desc": "Blitzschnelle Ergebnisse",
+    "progressLabel": "Entwicklungsfortschritt",
+    "progressHint": "Wird in Kürze verfügbar",
     "moreTools": {
-      "title": "More Image Tools",
-      "description": "Explore powerful image utilities including upscaling, enhancement, format conversion, and batch processing"
+      "title": "Weitere Bildtools",
+      "description": "Erkunden Sie leistungsstarke Bildwerkzeuge, einschließlich Hochskalierung, Verbesserung, Formatkonvertierung und Batch-Verarbeitung"
     }
   }
 }

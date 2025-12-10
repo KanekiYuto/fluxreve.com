@@ -1,157 +1,157 @@
 {
   "seo": {
-    "title": "Z-Image - Photorealistic AI Image Generator",
-    "description": "Photorealistic AI images with Z-Image. Sub-second generation speed with accurate Chinese and English text rendering. Affordable pricing for professionals."
+    "title": "Z-Image - مولد الصور الواقعية بالذكاء الاصطناعي",
+    "description": "صور واقعية بالذكاء الاصطناعي مع Z-Image. سرعة توليد أقل من الثانية مع رسم نص صيني وإنجليزي دقيق. أسعار معقولة للمحترفين."
   },
   "hero": {
-    "badge": "Photorealistic AI Image Generation",
+    "badge": "توليد صور واقعية بالذكاء الاصطناعي",
     "title": {
       "line1": "Z-Image",
-      "line2": "8-Step Inference, Sub-second Generation"
+      "line2": "8 خطوات استدلال، توليد أقل من الثانية"
     },
-    "subtitle": "Experience photorealistic AI image generation service powered by Z-Image model, with accurate bilingual text rendering. We provide sub-second generation speed and affordable pricing to make professional AI image creation accessible to everyone.",
+    "subtitle": "اختبر خدمة توليد الصور الواقعية بالذكاء الاصطناعي المدعومة بنموذج Z-Image مع رسم نص دقيق ثنائي اللغة. نوفر سرعة توليد أقل من الثانية وأسعار معقولة لجعل إنشاء صور الذكاء الاصطناعي الاحترافي متاحاً للجميع.",
     "cta": {
-      "primary": "Start Creating Now",
-      "secondary": "Learn More"
+      "primary": "ابدأ الإنشاء الآن",
+      "secondary": "تعرف على المزيد"
     },
     "stats": {
       "speed": {
-        "label": "Sub-second Generation"
+        "label": "توليد أقل من الثانية"
       },
       "quality": {
-        "label": "Photorealistic Quality"
+        "label": "جودة واقعية"
       },
       "affordable": {
-        "label": "Bilingual Text"
+        "label": "نص ثنائي اللغة"
       }
     }
   },
   "what": {
-    "badge": "Product Introduction",
-    "title": "What is Z-Image?",
-    "description": "Z-Image is our photorealistic AI image generation service, based on advanced Scalable Single-Stream Diffusion Transformer architecture. We provide fast, affordable, and high-quality AI image generation solutions to make professional creation accessible.",
-    "demoPlaceholder": "Photorealistic AI Image Generation",
+    "badge": "مقدمة المنتج",
+    "title": "ما هو Z-Image؟",
+    "description": "Z-Image هي خدمة توليد صور واقعية بالذكاء الاصطناعي، بناءً على معمارية Scalable Single-Stream Diffusion Transformer المتقدمة. نوفر حلول توليد صور ذكاء اصطناعي سريعة وميسورة وعالية الجودة لجعل الإنشاء الاحترافي متاحاً.",
+    "demoPlaceholder": "توليد صور واقعية بالذكاء الاصطناعي",
     "coreFeatures": {
       "core1": {
-        "title": "Photorealistic Quality",
-        "description": "Z-Image excels at photorealistic image generation with fine control over details, lighting, and textures. It maintains high fidelity while demonstrating strong aesthetic quality in composition and overall mood."
+        "title": "جودة واقعية",
+        "description": "يتفوق Z-Image في توليد صور واقعية مع تحكم دقيق في التفاصيل والإضاءة والملافات. يحافظ على دقة عالية مع إظهار جودة جمالية قوية في التكوين والمزاج العام."
       },
       "core2": {
-        "title": "Accurate Bilingual Text Rendering",
-        "description": "Z-Image accurately renders Chinese and English text while preserving facial realism and overall aesthetic composition, with results comparable to top-tier closed-source models. In poster design, it demonstrates strong compositional skills and typography sense, delivering high-quality text even in challenging scenarios with small font sizes."
+        "title": "رسم نص دقيق ثنائي اللغة",
+        "description": "يرسم Z-Image نصوص صينية وإنجليزية بدقة مع الحفاظ على واقعية الوجوه والتكوين الجمالي العام، مع نتائج قابلة للمقارنة مع نماذج المصدر المغلق من الدرجة الأولى. في تصميم الملصقات، يوضح مهارات تكوينية قوية وإحساس طباعي، مما يوفر نصاً عالي الجودة حتى في السيناريوهات الصعبة بأحجام خطوط صغيرة."
       },
       "core3": {
-        "title": "Prompt Enhancement & Reasoning",
-        "description": "Powerful Prompt Enhancer (PE) uses structured reasoning chains to inject logic and common sense, enabling the model to handle complex tasks like the 'Chicken and Rabbit Problem' or visualizing classical Chinese poetry. In editing tasks, even with ambiguous instructions, the model can infer underlying intent for logically coherent results."
+        "title": "تحسين الطلب والتفكير",
+        "description": "يستخدم معزز الطلب القوي (PE) سلاسل تفكير منظمة لحقن المنطق والحس السليم، مما يمكّن النموذج من التعامل مع المهام المعقدة مثل 'مشكلة الدجاج والأرنب' أو تصور الشعر الكلاسيكي الصيني. في مهام التحرير، حتى مع التعليمات الغامضة، يمكن للنموذج استنتاج النية الأساسية لنتائج متسقة منطقياً."
       }
     }
   },
   "why": {
-    "badge": "Core Advantages",
-    "title": "Why Choose Our Z-Image Service?",
-    "subtitle": "Our Z-Image service makes professional AI image creation simple and efficient with sub-second generation speed, accurate text rendering, and affordable pricing.",
+    "badge": "المزايا الأساسية",
+    "title": "لماذا تختار خدمة Z-Image الخاصة بنا؟",
+    "subtitle": "تجعل خدمة Z-Image الخاصة بنا إنشاء صور الذكاء الاصطناعي الاحترافي بسيطاً وفعالاً مع سرعة توليد أقل من الثانية ورسم نص دقيق وأسعار معقولة.",
     "comparison": {
       "traditional": {
-        "title": "Traditional Image Creation",
-        "item1": "Takes hours or days to complete professional image design",
-        "item2": "Requires expensive software licenses and professional design knowledge",
-        "item3": "High costs for hiring designers or purchasing advanced design tools",
-        "item4": "Slow iteration cycles make creative experimentation impractical"
+        "title": "إنشاء الصور التقليدي",
+        "item1": "يستغرق ساعات أو أياماً لإكمال التصميم المهني للصور",
+        "item2": "يتطلب تراخيص برامج مكلفة ومعرفة تصميم احترافية",
+        "item3": "تكاليف عالية لتوظيف المصممين أو شراء أدوات التصميم المتقدمة",
+        "item4": "دورات التكرار البطيئة تجعل الاختبار الإبداعي غير عملي"
       },
       "product": {
-        "title": "Z-Image Generation Service",
-        "item1": "Generate photorealistic images in sub-seconds",
-        "item2": "No design skills needed - simple descriptions work",
-        "item3": "Affordable pay-as-you-go pricing",
-        "item4": "Instant generation, unlimited creative possibilities"
+        "title": "خدمة توليد Z-Image",
+        "item1": "أنشئ صور واقعية في أقل من الثانية",
+        "item2": "لا توجد حاجة لمهارات التصميم - الأوصاف البسيطة تعمل",
+        "item3": "أسعار ميسورة الدفع حسب الاستخدام",
+        "item4": "توليد فوري، إمكانيات إبداعية غير محدودة"
       }
     },
     "benefits": {
       "speed": {
-        "title": "Lightning-Fast Generation",
-        "description": "Our service provides sub-second image generation speed, bringing your creativity to life instantly. No waiting required, complete professional AI image creation anytime, anywhere."
+        "title": "التوليد السريع البرق",
+        "description": "تقدم خدمتنا سرعة توليد صور أقل من الثانية، مما يجعل إبداعك يأتي للحياة على الفور. لا حاجة للانتظار، إنشاء صور ذكاء اصطناعي احترافي كامل في أي وقت وفي أي مكان."
       },
       "quality": {
-        "title": "Photorealistic Quality",
-        "description": "Generated images feature photorealistic effects with fine control over details, lighting, and textures. Whether portraits or product displays, achieve excellent visual results."
+        "title": "جودة واقعية",
+        "description": "الصور المُولدة تتميز بتأثيرات واقعية مع تحكم دقيق في التفاصيل والإضاءة والملافات. سواء كانت الصور الشخصية أو عروض المنتجات، حقق نتائج بصرية ممتازة."
       },
       "cost": {
-        "title": "Accurate Text Rendering",
-        "description": "Supports accurate Chinese and English text rendering, perfect for poster design, advertising creation, and more. Even small-sized text renders clearly for professional designs."
+        "title": "رسم النصوص الدقيق",
+        "description": "يدعم رسم النصوص الصينية والإنجليزية الدقيق، مثالي لتصميم الملصقات وإنشاء الإعلانات والمزيد. حتى النص بأحجام صغيرة يرسم بوضوح للتصاميم الاحترافية."
       },
       "flexibility": {
-        "title": "Intelligent Prompt Understanding",
-        "description": "Our service features powerful prompt comprehension capabilities, accurately understanding and generating expected images even from complex or ambiguous descriptions."
+        "title": "فهم الطلب الذكي",
+        "description": "تتميز خدمتنا بقدرات قوية على فهم الطلب، وفهم دقيق وتوليد الصور المتوقعة حتى من الأوصاف المعقدة أو الغامضة."
       },
       "support": {
-        "title": "Easy to Use",
-        "description": "No professional design skills required. Simply describe your ideas in natural language to generate professional AI images. Making creation accessible to everyone."
+        "title": "سهل الاستخدام",
+        "description": "لا مهارات تصميم احترافية مطلوبة. ما عليك سوى وصف أفكارك بلغة طبيعية لتوليد صور ذكاء اصطناعي احترافية. جعل الإنشاء متاحاً للجميع."
       },
       "security": {
-        "title": "Affordable Pricing",
-        "description": "Pay-as-you-go model with transparent and reasonable pricing. Significantly reduces your creation costs compared to traditional design services, making professional AI image creation accessible to all."
+        "title": "أسعار معقولة",
+        "description": "نموذج الدفع حسب الاستخدام مع أسعار شفافة ومعقولة. يقلل بشكل كبير من تكاليف الإنشاء مقابل خدمات التصميم التقليدية، مما يجعل إنشاء صور الذكاء الاصطناعي الاحترافي متاحاً للجميع."
       }
     }
   },
   "how": {
-    "badge": "User Guide",
-    "title": "How to Use Z-Image?",
-    "subtitle": "Four simple steps to begin your AI creative journey",
+    "badge": "دليل المستخدم",
+    "title": "كيفية استخدام Z-Image؟",
+    "subtitle": "أربع خطوات بسيطة لبدء رحلتك الإبداعية بالذكاء الاصطناعي",
     "steps": {
       "step1": {
-        "title": "Enter Your Prompt",
-        "description": "Describe the image you want in simple text. Supports English and Chinese input."
+        "title": "أدخل طلبك",
+        "description": "صف الصورة التي تريدها في نص بسيط. يدعم الإدخال باللغة الإنجليزية والصينية."
       },
       "step2": {
-        "title": "Choose Parameters",
-        "description": "Select image size, adjust random seed, and other parameters to customize your creation."
+        "title": "اختر المعاملات",
+        "description": "حدد حجم الصورة وعدّل البذرة العشوائية والمعاملات الأخرى لتخصيص إنشاؤك."
       },
       "step3": {
-        "title": "Click Generate",
-        "description": "Click the generate button, and AI will create beautiful images for you in seconds."
+        "title": "انقر فوق الإنشاء",
+        "description": "انقر على زر الإنشاء وسينشئ الذكاء الاصطناعي صور جميلة لك في ثوانٍ."
       },
       "step4": {
-        "title": "Download & Use",
-        "description": "Once generated, preview, download, or share your artwork."
+        "title": "التحميل والاستخدام",
+        "description": "بعد التوليد، يمكنك معاينة وتحميل أو مشاركة عملك الفني."
       }
     }
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Frequently Asked Questions",
-    "subtitle": "Common questions about Z-Image",
+    "badge": "الأسئلة الشائعة",
+    "title": "أسئلة متكررة",
+    "subtitle": "أسئلة شائعة حول Z-Image",
     "items": [
       {
-        "question": "How fast is Z-Image generation?",
-        "answer": "Z-Image achieves performance comparable to or exceeding leading competitors with only 8 steps, delivering sub-second inference latency on enterprise-grade H800 GPUs. On consumer devices like RTX 3090 or 4090, it takes approximately 2-3 seconds, and mid-range cards take about 4-5 seconds, requiring only 16G VRAM."
+        "question": "ما مدى سرعة توليد Z-Image؟",
+        "answer": "يحقق Z-Image أداءً قابلة للمقارنة أو تتجاوز المنافسين الرائدين مع 8 خطوات فقط، مما يوفر تأخير استدلال أقل من الثانية على وحدات معالجة الرسومات H800 من الدرجة الاحترافية. على أجهزة المستهلكين مثل RTX 3090 أو 4090، يستغرق الأمر حوالي 2-3 ثوان، وتستغرق البطاقات متوسطة الحد حوالي 4-5 ثوان، مما يتطلب 16 جيجابايت VRAM فقط."
       },
       {
-        "question": "What advantages does Z-Image have in text rendering?",
-        "answer": "Z-Image accurately renders complex Chinese and English text while maintaining facial realism and overall aesthetic composition, with results comparable to top-tier closed-source models. In poster design, it demonstrates strong compositional skills and typography sense, delivering high-quality text even in challenging scenarios with small font sizes."
+        "question": "ما المزايا التي يتمتع بها Z-Image في رسم النصوص؟",
+        "answer": "يرسم Z-Image نصاً صينياً وإنجليزياً معقداً بدقة مع الحفاظ على واقعية الوجوه والتكوين الجمالي العام، مع نتائج قابلة للمقارنة مع نماذج المصدر المغلق من الدرجة الأولى. في تصميم الملصقات، يوضح مهارات تكوينية قوية وإحساس طباعي، مما يوفر نصاً عالي الجودة حتى في السيناريوهات الصعبة بأحجام خطوط صغيرة."
       },
       {
-        "question": "What is the Prompt Enhancement feature?",
-        "answer": "Prompt Enhancer (PE) uses structured reasoning chains to inject logic and common sense, enabling the model to transcend surface-level descriptions and tap into underlying world knowledge for complex tasks like the 'Chicken and Rabbit Problem' or visualizing classical Chinese poetry. Even with ambiguous instructions, it can infer underlying intent for logically coherent results."
+        "question": "ما ميزة تحسين الطلب؟",
+        "answer": "يستخدم معزز الطلب (PE) سلاسل تفكير منظمة لحقن المنطق والحس السليم، مما يمكّن النموذج من تجاوز الأوصاف السطحية والاستفادة من المعرفة العالمية الأساسية للمهام المعقدة مثل 'مشكلة الدجاج والأرنب' أو تصور الشعر الكلاسيكي الصيني. حتى مع التعليمات الغامضة، يمكنه استنتاج النية الأساسية لنتائج متسقة منطقياً."
       },
       {
-        "question": "How is Z-Image's photorealistic quality?",
-        "answer": "Z-Image excels at photorealistic image generation with fine control over details, lighting, and textures. It balances high fidelity with strong aesthetic quality in composition and overall mood. Generated images are not only realistic but also visually appealing."
+        "question": "ما جودة الصور الواقعية في Z-Image؟",
+        "answer": "يتفوق Z-Image في توليد صور واقعية مع تحكم دقيق في التفاصيل والإضاءة والملافات. يوازن بين الدقة العالية والجودة الجمالية القوية في التكوين والمزاج العام. الصور المُولَّدة ليست واقعية فقط بل وجذابة بصرياً أيضاً."
       },
       {
-        "question": "What architecture does Z-Image use?",
-        "answer": "Z-Image adopts a Scalable Single-Stream Diffusion Transformer (S3-DiT) architecture. Text, visual semantic tokens, and image VAE tokens are concatenated at the sequence level to serve as a unified input stream into the Transformer backbone, maximizing parameter efficiency compared to dual-stream approaches."
+        "question": "ما المعمارية التي يستخدمها Z-Image؟",
+        "answer": "يعتمد Z-Image معمارية Scalable Single-Stream Diffusion Transformer (S3-DiT). يتم دمج النصوص والرموز الدلالية البصرية ورموز VAE للصور على مستوى التسلسل ليخدموا كتدفق إدخال موحد في الدرع الرئيسي للمحول، مما يزيد من كفاءة المعاملات مقابل الأساليب الثنائية الدفق."
       },
       {
-        "question": "How does Z-Image compare to other models?",
-        "answer": "According to Elo-based Human Preference Evaluation (on Alibaba AI Arena), Z-Image shows highly competitive performance against other leading models while achieving state-of-the-art results among open-source models."
+        "question": "كيف يقارن Z-Image بنماذج أخرى؟",
+        "answer": "وفقاً لتقييم تفضيل الإنسان القائم على Elo (على Alibaba AI Arena)، يُظهر Z-Image أداءً تنافسياً عالياً مقابل نماذج رائدة أخرى مع تحقيق نتائج متقدمة بين النماذج مفتوحة المصدر."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Experience Photorealistic AI Image Generation?",
-    "subtitle": "Try Z-Image now for 8-step inference, sub-second generation speed, and accurate bilingual text rendering",
-    "primary": "Start Creating Now",
-    "secondary": "View Pricing",
-    "note": "No credit card required, start with registration"
+    "title": "هل أنت مستعد لتجربة توليد الصور الواقعية بالذكاء الاصطناعي؟",
+    "subtitle": "جرب Z-Image الآن للحصول على 8 خطوات استدلال وسرعة توليد أقل من الثانية ورسم نص دقيق ثنائي اللغة",
+    "primary": "ابدأ الإنشاء الآن",
+    "secondary": "عرض الأسعار",
+    "note": "لا توجد حاجة لبطاقة ائتمان، ابدأ بالتسجيل"
   }
 }

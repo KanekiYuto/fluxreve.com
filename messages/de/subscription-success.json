@@ -1,36 +1,36 @@
 {
   "seo": {
-    "title": "Subscription Successful",
-    "description": "Thank you for subscribing! Your account has been successfully upgraded"
+    "title": "Abonnement erfolgreich",
+    "description": "Danke für Ihr Abonnement! Ihr Konto wurde erfolgreich aktualisiert"
   },
-  "title": "Subscription Successful!",
-  "description": "Thank you for subscribing. Your account has been successfully upgraded and you can now enjoy all premium features.",
-  "loading": "Loading...",
-  "notFound": "Subscription not found",
+  "title": "Abonnement erfolgreich!",
+  "description": "Danke für Ihr Abonnement. Ihr Konto wurde erfolgreich aktualisiert und Sie können nun alle Premium-Funktionen genießen.",
+  "loading": "Wird geladen...",
+  "notFound": "Abonnement nicht gefunden",
   "details": {
-    "title": "Subscription Details",
+    "title": "Abonnementdetails",
     "plan": "Plan",
-    "amount": "Amount",
+    "amount": "Betrag",
     "status": "Status",
-    "statusActive": "Active"
+    "statusActive": "Aktiv"
   },
   "nextSteps": {
-    "title": "What's Next",
-    "step1": "Visit your dashboard to explore all available features",
-    "step2": "Start using AI generators to create stunning images",
-    "step3": "View your subscription details in the subscription management page"
+    "title": "Nächste Schritte",
+    "step1": "Besuchen Sie Ihr Dashboard, um alle verfügbaren Funktionen zu erkunden",
+    "step2": "Beginnen Sie mit KI-Generatoren, um beeindruckende Bilder zu erstellen",
+    "step3": "Sehen Sie sich Ihre Abonnementdetails auf der Abonnementverwaltungsseite an"
   },
   "actions": {
-    "startUsing": "Start Using Now",
-    "redirecting": "Redirecting...",
-    "viewSubscription": "View Subscription"
+    "startUsing": "Jetzt verwenden",
+    "redirecting": "Wird umgeleitet...",
+    "viewSubscription": "Abonnement anzeigen"
   },
-  "autoRedirect": "Auto redirecting to dashboard in {seconds} seconds...",
+  "autoRedirect": "Automatische Umleitung zum Dashboard in {seconds} Sekunden...",
   "planTypes": {
-    "monthly_basic": "Basic - Monthly",
-    "yearly_basic": "Basic - Yearly",
-    "monthly_pro": "Pro - Monthly",
-    "yearly_pro": "Pro - Yearly",
-    "unknown": "Unknown Plan"
+    "monthly_basic": "Basis - Monatlich",
+    "yearly_basic": "Basis - Jährlich",
+    "monthly_pro": "Pro - Monatlich",
+    "yearly_pro": "Pro - Jährlich",
+    "unknown": "Unbekannter Plan"
   }
 }

@@ -1,76 +1,76 @@
 {
-  "title": "Terms of Service | {siteName}",
-  "description": "Read {siteName}'s terms of service for using our AI image generation platform. Covers user accounts, usage rules, intellectual property, and service policies.",
-  "keywords": "terms of service, user agreement, service terms, legal agreement, usage policy, intellectual property, service agreement",
-  "lastUpdated": "Last Updated",
+  "title": "شروط الخدمة | {siteName}",
+  "description": "اقرأ شروط الخدمة الخاصة بـ {siteName} لاستخدام منصة توليد الصور بالذكاء الاصطناعي. يغطي حسابات المستخدمين وقواعد الاستخدام والملكية الفكرية وسياسات الخدمة.",
+  "keywords": "شروط الخدمة، اتفاق المستخدم، شروط الخدمة، اتفاقية قانونية، سياسة الاستخدام، الملكية الفكرية، اتفاقية الخدمة",
+  "lastUpdated": "آخر تحديث",
   "acceptance": {
-    "title": "Acceptance of Terms",
-    "content1": "Welcome to {siteName}. These Terms of Service (\"Terms,\" \"Agreement\") constitute a legally binding agreement between you (\"User,\" \"you,\" or \"your\") and {siteName} (\"we,\" \"us,\" or \"our\") governing your access to and use of our AI-powered image generation platform, including our website, mobile applications, APIs, and related services (collectively, the \"Service\").",
-    "content2": "By accessing, browsing, or using the Service in any manner, you acknowledge that you have read, understood, and agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, you must immediately discontinue use of the Service."
+    "title": "قبول الشروط",
+    "content1": "مرحباً بك في {siteName}. تشكل شروط الخدمة هذه (\"الشروط،\" \"الاتفاقية\") اتفاقية ملزمة قانونياً بينك (\"المستخدم،\" \"أنت،\" أو \"ممتلكاتك\") و {siteName} (\"نحن،\" \"لنا،\" أو \"خاصتنا\") تحكم وصولك واستخدامك لمنصة توليد الصور التي تعمل بالذكاء الاصطناعي، بما في ذلك موقعنا على الويب والتطبيقات المحمولة وواجهات برمجة التطبيقات والخدمات ذات الصلة (يُشار إليها بشكل جماعي باسم \"الخدمة\").",
+    "content2": "بالوصول إلى الخدمة أو تصفحها أو استخدامها بأي طريقة، فإنك تقر بأنك قد قرأت وفهمت وتوافق على الالتزام بهذه الشروط وسياسة الخصوصية الخاصة بنا. إذا كنت لا توافق على هذه الشروط، فيجب عليك إيقاف استخدام الخدمة فوراً."
   },
   "serviceDescription": {
-    "title": "Service Overview",
-    "intro": "{siteName} provides AI-powered creative tools and services, including:",
+    "title": "نظرة عامة على الخدمة",
+    "intro": "تقدم {siteName} أدوات وخدمات إبداعية تعمل بالذكاء الاصطناعي، بما في ذلك:",
     "items": [
-      "AI image generation from text prompts using advanced machine learning models",
-      "Image editing, enhancement, and style transfer capabilities",
-      "Project management, organization, and cloud storage for generated content",
-      "API access for developers and enterprise integration",
-      "Additional premium features and tools as made available from time to time"
+      "توليد صور بالذكاء الاصطناعي من طلبات نصية باستخدام نماذج التعلم الآلي المتقدمة",
+      "إمكانيات تحرير الصور وتحسينها ونقل النمط",
+      "إدارة المشروعات والتنظيم والتخزين السحابي للمحتوى المُنتج",
+      "وصول واجهة برمجة التطبيقات للمطورين والتكامل الموجه للمؤسسات",
+      "ميزات وأدوات متقدمة إضافية كما يتم إتاحتها من وقت لآخر"
     ]
   },
   "userAccount": {
-    "title": "User Accounts and Registration",
-    "registration": "Registration: To access certain features, you must create an account by providing accurate, complete, and current information. You represent that all information you provide is truthful and that you will maintain the accuracy of such information.",
-    "security": "Account Security: You are solely responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to immediately notify us of any unauthorized access or security breach.",
-    "transfer": "Account Transfer: Your account is personal to you and may not be transferred, sold, or assigned to any third party without our prior written consent."
+    "title": "حسابات المستخدمين والتسجيل",
+    "registration": "التسجيل: للوصول إلى ميزات معينة، يجب عليك إنشاء حساب من خلال تقديم معلومات دقيقة وكاملة وحالية. أنت تؤكد أن جميع المعلومات التي تقدمها صحيحة وأنك ستحافظ على دقة هذه المعلومات.",
+    "security": "أمان الحساب: أنت المسؤول الوحيد عن الحفاظ على سرية بيانات اعتماد حسابك وعن جميع الأنشطة التي تحدث في إطار حسابك. توافق على إخطارنا فوراً بأي وصول غير مصرح به أو انتهاك أمني.",
+    "transfer": "نقل الحساب: حسابك شخصي بالنسبة لك ولا يمكن نقله أو بيعه أو تحويله إلى طرف ثالث دون موافقتنا الكتابية المسبقة."
   },
   "usageRules": {
-    "title": "Acceptable Use Policy",
-    "intro": "You agree not to use the Service to generate, upload, share, or distribute content that:",
+    "title": "سياسة الاستخدام المقبول",
+    "intro": "توافق على عدم استخدام الخدمة لتوليد أو تحميل أو مشاركة أو توزيع محتوى:",
     "items": [
-      "Violates any applicable laws, regulations, or third-party rights",
-      "Contains illegal, harmful, threatening, abusive, harassing, defamatory, or obscene material",
-      "Depicts or promotes violence, discrimination, hatred, or intolerance based on protected characteristics",
-      "Includes sexually explicit, pornographic, or age-inappropriate content",
-      "Infringes intellectual property rights, including copyrights, trademarks, or patents",
-      "Constitutes spam, phishing, malware, or attempts to compromise platform security",
-      "Impersonates any person or entity or misrepresents your affiliation",
-      "Involves automated scraping, mining, or unauthorized API usage that violates our guidelines",
-      "Exploits, harms, or attempts to exploit minors in any way",
-      "Contains false, misleading, or deceptive information presented as factual"
+      "ينتهك أي قوانين أو لوائح أو حقوق الطرف الثالث المعمول بها",
+      "يحتوي على مواد غير قانونية أو ضارة أو مهددة أو إساءة أو تحرش أو تشويه سمعة أو فحشية",
+      "يصور أو يعزز العنف أو التمييز أو الكراهية أو عدم التسامح بناءً على خصائص محمية",
+      "يتضمن محتوى صريح جنسياً أو إباحياً أو غير مناسب للسن",
+      "ينتهك حقوق الملكية الفكرية، بما في ذلك حقوق الطبع والنشر والعلامات التجارية أو براءات الاختراع",
+      "يشكل بريداً عشوائياً أو توهم هويات أو برامج ضارة أو محاولات لتهديد أمان المنصة",
+      "يمثل هوية أي شخص أو كيان أو يسيء تمثيل انتماؤك",
+      "ينطوي على كشط أو تعدين آلي أو استخدام غير مصرح به لواجهة برمجة التطبيقات ينتهك إرشاداتنا",
+      "يستغل أو يؤذي أو يحاول استغلال القصر بأي طريقة",
+      "يحتوي على معلومات خاطئة أو مضللة أو خادعة مقدمة كحقائق"
     ]
   },
   "intellectualProperty": {
-    "title": "Intellectual Property Rights",
-    "platformContent": "Platform Ownership: All content, features, functionality, software, designs, text, graphics, logos, and trademarks on the Service are owned by {siteName} or our licensors and are protected by international intellectual property laws. You may not copy, modify, distribute, or reverse engineer any part of the Service without authorization.",
-    "userContent": "User-Generated Content: You retain ownership of images and content you generate using the Service, subject to our limited license below. However, you are solely responsible for ensuring your use does not infringe third-party rights or violate applicable laws.",
-    "license": "License Grant: By using the Service, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, and display your generated content solely for the purposes of: (a) providing and improving the Service, (b) training and enhancing our AI models (with your consent), and (c) marketing and promotional purposes with your explicit permission."
+    "title": "حقوق الملكية الفكرية",
+    "platformContent": "ملكية المنصة: جميع المحتوى والميزات والوظائف والبرامج والتصاميم والنصوص والرسومات والشعارات والعلامات التجارية على الخدمة مملوكة من قبل {siteName} أو مرخصينا وهي محمية بموجب قوانين الملكية الفكرية الدولية. قد لا تقوم بنسخ أو تعديل أو توزيع أو هندسة معاكسة لأي جزء من الخدمة دون إذن.",
+    "userContent": "محتوى ينشئه المستخدم: أنت تحتفظ بملكية الصور والمحتوى الذي تنشئه باستخدام الخدمة، مع مراعاة الترخيص المحدود أدناه. ومع ذلك، فإنك تتحمل المسؤولية الوحيدة عن ضمان عدم انتهاك استخدامك لحقوق الطرف الثالث أو انتهاك القوانين المعمول بها.",
+    "license": "منح الترخيص: باستخدام الخدمة، فإنك تمنح لنا ترخيصاً عالمياً حصرياً بدون رسوم ملكية لاستخدام وإعادة إنتاج وتعديل وعرض محتواك المُنتج فقط لأغراض: (أ) توفير وتحسين الخدمة، (ب) تدريب وتحسين نماذج الذكاء الاصطناعي لدينا (بموافقتك)، و (ج) أغراض التسويق والترويج بإذنك الصريح."
   },
   "privacy": {
-    "title": "Privacy and Data Protection",
-    "content": "Your privacy is important to us. Our collection, use, and protection of your personal information is governed by our Privacy Policy, which is incorporated into these Terms by reference. Please review our Privacy Policy to understand our practices."
+    "title": "الخصوصية وحماية البيانات",
+    "content": "خصوصيتك مهمة لنا. يتم تحكم جمع واستخدام وحماية معلوماتك الشخصية من خلال سياسة الخصوصية الخاصة بنا، والتي يتم دمجها في هذه الشروط بالرجوع. يرجى مراجعة سياسة الخصوصية الخاصة بنا لفهم ممارساتنا."
   },
   "serviceChanges": {
-    "title": "Service Modifications and Termination",
-    "modification": "Modifications: We reserve the right to modify, suspend, or discontinue any aspect of the Service at any time, with or without notice. We may also impose limits on certain features or restrict access to parts of the Service. We are not liable for any modifications or discontinuations.",
-    "termination": "Termination by Us: We may suspend or terminate your account and access to the Service immediately, without prior notice, if you breach these Terms, engage in fraudulent activity, or for any other reason at our sole discretion.",
-    "dataRetention": "Effect of Termination: Upon termination, your right to use the Service ceases immediately. We may delete your account data and generated content, though some information may be retained as required by law or for legitimate business purposes."
+    "title": "تعديلات الخدمة والإنهاء",
+    "modification": "التعديلات: نحتفظ بالحق في تعديل أو إيقاف أو إيقاف أي جانب من جوانب الخدمة في أي وقت، مع أو بدون إشعار. قد نفرض أيضاً حدوداً على ميزات معينة أو تقييد الوصول إلى أجزاء من الخدمة. لا نتحمل مسؤولية عن أي تعديلات أو إيقافات.",
+    "termination": "الإنهاء من قبلنا: قد نعلق أو ننهي حسابك والوصول إلى الخدمة فوراً، بدون إشعار مسبق، إذا انتهكت هذه الشروط أو انخرطت في نشاط احتيالي أو لأي سبب آخر وفقاً لتقديرنا الوحيد.",
+    "dataRetention": "تأثير الإنهاء: عند الإنهاء، ينتهي حقك في استخدام الخدمة فوراً. قد نحذف بيانات حسابك والمحتوى المُنتج، على الرغم من أن بعض المعلومات قد يتم الاحتفاظ بها كما تتطلبه القانون أو لأغراض تجارية مشروعة."
   },
   "disclaimer": {
-    "title": "Disclaimers and Limitations",
-    "asIs": "As-Is Basis: The Service is provided \"as is\" and \"as available\" without warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not guarantee that the Service will be uninterrupted, error-free, or secure.",
-    "liability": "Limitation of Liability: To the maximum extent permitted by law, {siteName} and its affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or goodwill, arising from your use or inability to use the Service.",
-    "responsibility": "User Responsibility: You acknowledge that AI-generated content may produce unexpected or inaccurate results. You are solely responsible for reviewing, verifying, and determining the appropriateness of any content generated through the Service before use, publication, or distribution."
+    "title": "إخلاءات المسؤولية والقيود",
+    "asIs": "الأساس كما هو: يتم توفير الخدمة \"كما هي\" و \"كما هي متاحة\" بدون أي ضمانات من أي نوع، سواء كانت صريحة أو ضمنية، بما في ذلك على سبيل المثال لا الحصر ضمانات التسويق أو الملائمة لغرض معين أو عدم الانتهاك. لا نضمن أن الخدمة ستكون غير منقطعة أو خالية من الأخطاء أو آمنة.",
+    "liability": "تحديد المسؤولية: إلى أقصى حد تسمح به القانون، لن تتحمل {siteName} وشركاتنا التابعة مسؤولية عن أي أضرار غير مباشرة أو عرضية أو خاصة أو تبعية أو معاقبة، بما في ذلك فقدان الأرباح أو البيانات أو حسن النية، الناشئة عن استخدامك أو عدم القدرة على استخدام الخدمة.",
+    "responsibility": "مسؤولية المستخدم: تقر بأن المحتوى المُنتج بالذكاء الاصطناعي قد ينتج عنه نتائج غير متوقعة أو غير دقيقة. أنت المسؤول الوحيد عن مراجعة والتحقق من وتحديد ملاءمة أي محتوى مُنتج من خلال الخدمة قبل الاستخدام أو النشر أو التوزيع."
   },
   "legalJurisdiction": {
-    "title": "Governing Law and Dispute Resolution",
-    "law": "Governing Law: These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which {siteName} is registered, without regard to its conflict of law principles.",
-    "disputes": "Dispute Resolution: Any disputes arising out of or relating to these Terms or the Service shall first be attempted to be resolved through good faith negotiations. If negotiations fail, disputes shall be resolved through binding arbitration or litigation in the courts of the applicable jurisdiction, as determined by the governing law."
+    "title": "القانون الحاكم وتسوية النزاعات",
+    "law": "القانون الحاكم: تحكم هذه الشروط وتفسرها وفقاً لقوانين الولاية القضائية التي يتم تسجيل {siteName} فيها، بغض النظر عن مبادئ تضارب القانون لديها.",
+    "disputes": "تسوية النزاعات: أي نزاعات ناشئة عن أو تتعلق بهذه الشروط أو الخدمة يجب أن تحاول أولاً حلها من خلال مفاوضات حسن النية. إذا فشلت المفاوضات، يجب حل النزاعات من خلال تحكيم ملزم أو تقاضٍ في محاكم الولاية القضائية المعمول بها، كما يتم تحديده من خلال القانون الحاكم."
   },
   "contact": {
-    "title": "Contact Information",
-    "intro": "If you have any questions, concerns, or feedback regarding these Terms of Service, please contact us at:",
-    "email": "Email"
+    "title": "معلومات الاتصال",
+    "intro": "إذا كان لديك أي أسئلة أو مخاوف أو ملاحظات بشأن شروط الخدمة هذه، يرجى الاتصال بنا على:",
+    "email": "البريد الإلكتروني"
   }
 }

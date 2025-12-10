@@ -1,86 +1,85 @@
 {
   "seo": {
-    "title": "History",
-    "description": "View and manage all your AI image generation history"
+    "title": "Verlauf",
+    "description": "Zeigen Sie alle Ihre KI-Bildgenerierungsverlauf an und verwalten Sie ihn"
   },
   "header": {
-    "title": "History",
-    "subtitle": "View and manage all your generation history"
+    "title": "Verlauf",
+    "subtitle": "Zeigen Sie Ihren gesamten Generierungsverlauf an und verwalten Sie ihn"
   },
   "loginPrompt": {
-    "title": "Login to View History",
-    "description": "Sign in to view all your AI image generation history",
-    "cta": "Sign In"
+    "title": "Anmelden, um den Verlauf anzuzeigen",
+    "description": "Melden Sie sich an, um Ihren gesamten KI-Bildgenerierungsverlauf anzuzeigen",
+    "cta": "Anmelden"
   },
   "filter": {
-    "all": "All",
-    "completed": "Completed",
-    "processing": "Processing",
-    "pending": "Pending",
-    "failed": "Failed",
+    "all": "Alle",
+    "completed": "Abgeschlossen",
+    "processing": "Wird verarbeitet",
+    "pending": "Ausstehend",
+    "failed": "Fehlgeschlagen",
     "statusLabel": "Status",
-    "taskTypeLabel": "Type",
+    "taskTypeLabel": "Typ",
     "taskType": {
-      "all": "All",
-      "text-to-image": "Text to Image",
-      "image-to-image": "Image to Image"
+      "all": "Alle",
+      "text-to-image": "Text zu Bild",
+      "image-to-image": "Bild zu Bild"
     },
-    "modelLabel": "Model",
+    "modelLabel": "Modell",
     "model": {
-      "all": "All",
+      "all": "Alle",
       "nano-banana-pro": "Nano Banana Pro",
       "z-image": "Z-Image",
       "z-image-lora": "Z-Image LoRA",
       "flux-2-pro": "FLUX 2 Pro"
     },
-    "privacyLabel": "Privacy",
+    "privacyLabel": "Datenschutz",
     "privacy": {
-      "private": "Private",
-      "public": "Public"
+      "private": "Privat",
+      "public": "Öffentlich"
     },
-    "nsfwLabel": "Content",
+    "nsfwLabel": "Inhalt",
     "nsfw": {
-      "safe": "Safe",
+      "safe": "Sicher",
       "nsfw": "NSFW"
     },
-    "selectPlaceholder": "Select...",
-    "selectedCount": "{count} selected",
-    "title": "Filters",
-    "clearAll": "Clear"
+    "selectPlaceholder": "Auswählen...",
+    "selectedCount": "{count} ausgewählt",
+    "title": "Filter",
+    "clearAll": "Löschen"
   },
   "status": {
-    "completed": "Completed",
-    "processing": "Processing",
-    "pending": "Pending",
-    "failed": "Failed"
+    "completed": "Abgeschlossen",
+    "processing": "Wird verarbeitet",
+    "pending": "Ausstehend",
+    "failed": "Fehlgeschlagen"
   },
   "empty": {
-    "title": "No Tasks Yet",
-    "subtitle": "Start creating your first AI image",
-    "filteredTitle": "No Matching Tasks",
-    "filteredSubtitle": "Try changing the filter options",
-    "cta": "Start Creating"
+    "title": "Noch keine Aufgaben",
+    "subtitle": "Beginnen Sie mit der Erstellung Ihres ersten KI-Bildes",
+    "filteredTitle": "Keine passenden Aufgaben",
+    "filteredSubtitle": "Versuchen Sie, die Filteroptionen zu ändern",
+    "cta": "Beginnen Sie zu erstellen"
   },
-  "noPrompt": "No prompt",
+  "noPrompt": "Keine Eingabeaufforderung",
   "card": {
-    "delete": "Delete",
-    "confirmDelete": "Delete",
-    "confirmDeleteTitle": "Delete Task",
-    "confirmDeleteMessage": "Are you sure you want to delete this task? This action cannot be undone.",
-    "cancelDelete": "Cancel",
-    "deleting": "Deleting...",
-    "private": "Private",
-    "public": "Public",
-    "makePrivate": "Make Private",
-    "makePublic": "Make Public"
+    "delete": "Löschen",
+    "confirmDelete": "Löschen",
+    "confirmDeleteTitle": "Aufgabe löschen",
+    "confirmDeleteMessage": "Sind Sie sicher, dass Sie diese Aufgabe löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "cancelDelete": "Abbrechen",
+    "deleting": "Wird gelöscht...",
+    "private": "Privat",
+    "public": "Öffentlich",
+    "makePrivate": "Privat machen",
+    "makePublic": "Öffentlich machen"
   },
   "errors": {
-    "fetchFailed": "Failed to fetch tasks",
-    "retry": "Retry"
+    "fetchFailed": "Fehler beim Abrufen von Aufgaben",
+    "retry": "Erneut versuchen"
   },
   "pagination": {
-    "prev": "Previous",
-    "next": "Next"
+    "prev": "Zurück",
+    "next": "Weiter"
   }
 }
-

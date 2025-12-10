@@ -1,157 +1,157 @@
 {
   "seo": {
-    "title": "Z-Image - Photorealistic AI Image Generator",
-    "description": "Photorealistic AI images with Z-Image. Sub-second generation speed with accurate Chinese and English text rendering. Affordable pricing for professionals."
+    "title": "Z-Image - Photorealistischer KI-Bildgenerator",
+    "description": "Photorealistische KI-Bilder mit Z-Image. Generierungsgeschwindigkeit unter einer Sekunde mit genauem chinesischem und englischem Textrendering. Erschwingliche Preise für Profis."
   },
   "hero": {
-    "badge": "Photorealistic AI Image Generation",
+    "badge": "Photorealistische KI-Bildgenerierung",
     "title": {
       "line1": "Z-Image",
-      "line2": "8-Step Inference, Sub-second Generation"
+      "line2": "8-Schritte Inferenz, Generierung unter einer Sekunde"
     },
-    "subtitle": "Experience photorealistic AI image generation service powered by Z-Image model, with accurate bilingual text rendering. We provide sub-second generation speed and affordable pricing to make professional AI image creation accessible to everyone.",
+    "subtitle": "Erleben Sie den photorealistischen KI-Bildgenerierungsdienst powered by Z-Image-Modell mit genauem zweisprachigem Textrendering. Wir bieten Generierungsgeschwindigkeit unter einer Sekunde und erschwingliche Preise, um professionelle KI-Bilderstellung für alle zugänglich zu machen.",
     "cta": {
-      "primary": "Start Creating Now",
-      "secondary": "Learn More"
+      "primary": "Jetzt mit der Erstellung beginnen",
+      "secondary": "Mehr erfahren"
     },
     "stats": {
       "speed": {
-        "label": "Sub-second Generation"
+        "label": "Generierung unter einer Sekunde"
       },
       "quality": {
-        "label": "Photorealistic Quality"
+        "label": "Photorealistische Qualität"
       },
       "affordable": {
-        "label": "Bilingual Text"
+        "label": "Zweisprachiger Text"
       }
     }
   },
   "what": {
-    "badge": "Product Introduction",
-    "title": "What is Z-Image?",
-    "description": "Z-Image is our photorealistic AI image generation service, based on advanced Scalable Single-Stream Diffusion Transformer architecture. We provide fast, affordable, and high-quality AI image generation solutions to make professional creation accessible.",
-    "demoPlaceholder": "Photorealistic AI Image Generation",
+    "badge": "Produktbeschreibung",
+    "title": "Was ist Z-Image?",
+    "description": "Z-Image ist unser photorealistischer KI-Bildgenerierungsdienst, basierend auf der fortgeschrittenen Scalable Single-Stream Diffusion Transformer Architektur. Wir bieten schnelle, erschwingliche und hochwertige KI-Bildgenerierungslösungen, um professionelle Erstellung zugänglich zu machen.",
+    "demoPlaceholder": "Photorealistische KI-Bildgenerierung",
     "coreFeatures": {
       "core1": {
-        "title": "Photorealistic Quality",
-        "description": "Z-Image excels at photorealistic image generation with fine control over details, lighting, and textures. It maintains high fidelity while demonstrating strong aesthetic quality in composition and overall mood."
+        "title": "Photorealistische Qualität",
+        "description": "Z-Image zeichnet sich durch photorealistische Bildgenerierung mit feiner Kontrolle über Details, Beleuchtung und Texturen aus. Es behält hohe Treue bei, während es starke ästhetische Qualität in Komposition und Gesamtstimmung demonstriert."
       },
       "core2": {
-        "title": "Accurate Bilingual Text Rendering",
-        "description": "Z-Image accurately renders Chinese and English text while preserving facial realism and overall aesthetic composition, with results comparable to top-tier closed-source models. In poster design, it demonstrates strong compositional skills and typography sense, delivering high-quality text even in challenging scenarios with small font sizes."
+        "title": "Genaues zweisprachiges Textrendering",
+        "description": "Z-Image rendert chinesischen und englischen Text genau, während es den Realismus von Gesichtern und die gesamte ästhetische Komposition bewahrt, mit Ergebnissen, die top-tier geschlossene Modellen vergleichbar sind. Im Plakatdesign zeigt es starke Kompositionsfähigkeiten und Typografiesinn und liefert qualitativ hochwertigen Text auch in schwierigen Szenarien mit kleinen Schriftgrößen."
       },
       "core3": {
-        "title": "Prompt Enhancement & Reasoning",
-        "description": "Powerful Prompt Enhancer (PE) uses structured reasoning chains to inject logic and common sense, enabling the model to handle complex tasks like the 'Chicken and Rabbit Problem' or visualizing classical Chinese poetry. In editing tasks, even with ambiguous instructions, the model can infer underlying intent for logically coherent results."
+        "title": "Aufforderungsverbesserung & Reasoning",
+        "description": "Der leistungsstarke Prompt Enhancer (PE) nutzt strukturierte Reasoning-Ketten, um Logik und gesunden Menschenverstand einzufügen und dem Modell die Bewältigung komplexer Aufgaben wie das 'Huhn und Kaninchen-Problem' oder die Visualisierung klassischer chinesischer Poesie zu ermöglichen. Auch bei mehrdeutigen Anweisungen kann das Modell die zugrunde liegende Absicht für logisch kohärente Ergebnisse ableiten."
       }
     }
   },
   "why": {
-    "badge": "Core Advantages",
-    "title": "Why Choose Our Z-Image Service?",
-    "subtitle": "Our Z-Image service makes professional AI image creation simple and efficient with sub-second generation speed, accurate text rendering, and affordable pricing.",
+    "badge": "Kernvorteile",
+    "title": "Warum unseren Z-Image-Dienst wählen?",
+    "subtitle": "Unser Z-Image-Dienst macht professionelle KI-Bildcreation einfach und effizient mit Generierungsgeschwindigkeit unter einer Sekunde, genauem Textrendering und erschwinglichen Preisen.",
     "comparison": {
       "traditional": {
-        "title": "Traditional Image Creation",
-        "item1": "Takes hours or days to complete professional image design",
-        "item2": "Requires expensive software licenses and professional design knowledge",
-        "item3": "High costs for hiring designers or purchasing advanced design tools",
-        "item4": "Slow iteration cycles make creative experimentation impractical"
+        "title": "Traditionelle Bilderstellung",
+        "item1": "Dauert Stunden oder Tage, um professionelles Bilddesign zu vervollständigen",
+        "item2": "Erfordert teure Softwarelizenzen und professionelle Designkenntnisse",
+        "item3": "Hohe Kosten für die Einstellung von Designern oder den Kauf fortgeschrittener Design-Tools",
+        "item4": "Langsame Iterationszyklen machen kreative Experimente unpraktisch"
       },
       "product": {
-        "title": "Z-Image Generation Service",
-        "item1": "Generate photorealistic images in sub-seconds",
-        "item2": "No design skills needed - simple descriptions work",
-        "item3": "Affordable pay-as-you-go pricing",
-        "item4": "Instant generation, unlimited creative possibilities"
+        "title": "Z-Image Generierungsdienst",
+        "item1": "Generieren Sie photorealistische Bilder in Bruchteilen einer Sekunde",
+        "item2": "Keine Designfähigkeiten erforderlich - einfache Beschreibungen funktionieren",
+        "item3": "Erschwingliche Pay-as-you-go Preisgestaltung",
+        "item4": "Sofortige Generierung, unbegrenzte kreative Möglichkeiten"
       }
     },
     "benefits": {
       "speed": {
-        "title": "Lightning-Fast Generation",
-        "description": "Our service provides sub-second image generation speed, bringing your creativity to life instantly. No waiting required, complete professional AI image creation anytime, anywhere."
+        "title": "Blitzschnelle Generierung",
+        "description": "Unser Service bietet Bildgenerierungsgeschwindigkeit unter einer Sekunde und bringt Ihre Kreativität sofort zum Leben. Keine Wartezeit erforderlich, vollständige professionelle KI-Bilderstellung jederzeit, überall."
       },
       "quality": {
-        "title": "Photorealistic Quality",
-        "description": "Generated images feature photorealistic effects with fine control over details, lighting, and textures. Whether portraits or product displays, achieve excellent visual results."
+        "title": "Photorealistische Qualität",
+        "description": "Generierte Bilder zeigen photorealistische Effekte mit feiner Kontrolle über Details, Beleuchtung und Texturen. Ob Porträts oder Produktanzeigen, erreichen Sie hervorragende Bildergebnisse."
       },
       "cost": {
-        "title": "Accurate Text Rendering",
-        "description": "Supports accurate Chinese and English text rendering, perfect for poster design, advertising creation, and more. Even small-sized text renders clearly for professional designs."
+        "title": "Genaues Textrendering",
+        "description": "Unterstützt genaues chinesisches und englisches Textrendering, perfekt für Plakatdesign, Werbeerstellung und mehr. Sogar kleiner Text wird klar für professionelle Designs gerendert."
       },
       "flexibility": {
-        "title": "Intelligent Prompt Understanding",
-        "description": "Our service features powerful prompt comprehension capabilities, accurately understanding and generating expected images even from complex or ambiguous descriptions."
+        "title": "Intelligentes Prompt-Verständnis",
+        "description": "Unser Service bietet leistungsstarke Prompt-Verständnisfähigkeiten und versteht und generiert genau erwartete Bilder sogar aus komplexen oder mehrdeutigen Beschreibungen."
       },
       "support": {
-        "title": "Easy to Use",
-        "description": "No professional design skills required. Simply describe your ideas in natural language to generate professional AI images. Making creation accessible to everyone."
+        "title": "Einfach zu verwenden",
+        "description": "Keine professionellen Designfähigkeiten erforderlich. Beschreiben Sie einfach Ihre Ideen in natürlicher Sprache, um professionelle KI-Bilder zu generieren. Macht Erstellung für alle zugänglich."
       },
       "security": {
-        "title": "Affordable Pricing",
-        "description": "Pay-as-you-go model with transparent and reasonable pricing. Significantly reduces your creation costs compared to traditional design services, making professional AI image creation accessible to all."
+        "title": "Erschwingliche Preisgestaltung",
+        "description": "Pay-as-you-go Modell mit transparenter und angemessener Preisgestaltung. Reduziert Ihre Erstellungskosten erheblich im Vergleich zu traditionellen Design-Services und macht professionelle KI-Bilderstellung für alle zugänglich."
       }
     }
   },
   "how": {
-    "badge": "User Guide",
-    "title": "How to Use Z-Image?",
-    "subtitle": "Four simple steps to begin your AI creative journey",
+    "badge": "Benutzerhandbuch",
+    "title": "Wie man Z-Image verwendet?",
+    "subtitle": "Vier einfache Schritte zum Beginn Ihrer KI-Reise",
     "steps": {
       "step1": {
-        "title": "Enter Your Prompt",
-        "description": "Describe the image you want in simple text. Supports English and Chinese input."
+        "title": "Geben Sie Ihre Aufforderung ein",
+        "description": "Beschreiben Sie das gewünschte Bild in einfachem Text. Unterstützt englische und chinesische Eingabe."
       },
       "step2": {
-        "title": "Choose Parameters",
-        "description": "Select image size, adjust random seed, and other parameters to customize your creation."
+        "title": "Wählen Sie Parameter",
+        "description": "Wählen Sie Bildgröße, passen Sie Random Seed an und andere Parameter an, um Ihre Kreation anzupassen."
       },
       "step3": {
-        "title": "Click Generate",
-        "description": "Click the generate button, and AI will create beautiful images for you in seconds."
+        "title": "Klicken Sie auf Generieren",
+        "description": "Klicken Sie auf die Schaltfläche Generieren und die KI erstellt in Sekunden schöne Bilder für Sie."
       },
       "step4": {
-        "title": "Download & Use",
-        "description": "Once generated, preview, download, or share your artwork."
+        "title": "Download & Verwendung",
+        "description": "Nach der Generierung können Sie eine Vorschau anzeigen, herunterladen oder Ihre Arbeit teilen."
       }
     }
   },
   "faq": {
     "badge": "FAQ",
-    "title": "Frequently Asked Questions",
-    "subtitle": "Common questions about Z-Image",
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Häufige Fragen zu Z-Image",
     "items": [
       {
-        "question": "How fast is Z-Image generation?",
-        "answer": "Z-Image achieves performance comparable to or exceeding leading competitors with only 8 steps, delivering sub-second inference latency on enterprise-grade H800 GPUs. On consumer devices like RTX 3090 or 4090, it takes approximately 2-3 seconds, and mid-range cards take about 4-5 seconds, requiring only 16G VRAM."
+        "question": "Wie schnell ist die Z-Image Generierung?",
+        "answer": "Z-Image erreicht Leistung, die mit oder über führende Konkurrenten mit nur 8 Schritten vergleichbar ist und liefert Inferenz-Latenz unter einer Sekunde auf Enterprise-grade H800 GPUs. Auf Consumer-Geräten wie RTX 3090 oder 4090 dauert es etwa 2-3 Sekunden, und Mid-Range-Karten benötigen etwa 4-5 Sekunden und erfordern nur 16 GB VRAM."
       },
       {
-        "question": "What advantages does Z-Image have in text rendering?",
-        "answer": "Z-Image accurately renders complex Chinese and English text while maintaining facial realism and overall aesthetic composition, with results comparable to top-tier closed-source models. In poster design, it demonstrates strong compositional skills and typography sense, delivering high-quality text even in challenging scenarios with small font sizes."
+        "question": "Welche Vorteile hat Z-Image beim Textrendering?",
+        "answer": "Z-Image rendert komplexen chinesischen und englischen Text genau, während es Gesichtsrealismus und gesamte ästhetische Komposition beibehält, mit Ergebnissen, die top-tier geschlossene Modellen vergleichbar sind. Im Plakatdesign zeigt es starke Kompositionsfähigkeiten und Typografiesinn und liefert qualitativ hochwertigen Text auch in schwierigen Szenarien mit kleinen Schriftgrößen."
       },
       {
-        "question": "What is the Prompt Enhancement feature?",
-        "answer": "Prompt Enhancer (PE) uses structured reasoning chains to inject logic and common sense, enabling the model to transcend surface-level descriptions and tap into underlying world knowledge for complex tasks like the 'Chicken and Rabbit Problem' or visualizing classical Chinese poetry. Even with ambiguous instructions, it can infer underlying intent for logically coherent results."
+        "question": "Was ist die Prompt Enhancement Funktion?",
+        "answer": "Prompt Enhancer (PE) nutzt strukturierte Reasoning-Ketten, um Logik und gesunden Menschenverstand einzufügen und dem Modell die Fähigkeit zu geben, oberflächliche Beschreibungen zu überwinden und auf zugrunde liegende Weltkenntnisse für komplexe Aufgaben wie das 'Huhn und Kaninchen-Problem' oder die Visualisierung klassischer chinesischer Poesie zuzugreifen. Sogar mit mehrdeutigen Anweisungen kann es die zugrunde liegende Absicht für logisch kohärente Ergebnisse ableiten."
       },
       {
-        "question": "How is Z-Image's photorealistic quality?",
-        "answer": "Z-Image excels at photorealistic image generation with fine control over details, lighting, and textures. It balances high fidelity with strong aesthetic quality in composition and overall mood. Generated images are not only realistic but also visually appealing."
+        "question": "Wie ist die photorealistische Qualität von Z-Image?",
+        "answer": "Z-Image zeichnet sich durch photorealistische Bildgenerierung mit feiner Kontrolle über Details, Beleuchtung und Texturen aus. Es balanciert hohe Treue mit starker ästhetischer Qualität in Komposition und Gesamtstimmung. Generierte Bilder sind nicht nur realistisch, sondern auch visuell ansprechend."
       },
       {
-        "question": "What architecture does Z-Image use?",
-        "answer": "Z-Image adopts a Scalable Single-Stream Diffusion Transformer (S3-DiT) architecture. Text, visual semantic tokens, and image VAE tokens are concatenated at the sequence level to serve as a unified input stream into the Transformer backbone, maximizing parameter efficiency compared to dual-stream approaches."
+        "question": "Welche Architektur verwendet Z-Image?",
+        "answer": "Z-Image nutzt eine Scalable Single-Stream Diffusion Transformer (S3-DiT) Architektur. Text, visuelle semantische Tokens und Bild VAE Tokens werden auf Sequenzebene konkateniert, um als einheitlicher Eingabestrom in den Transformer-Backbone zu dienen und die Parametereffizenz im Vergleich zu Dual-Stream-Ansätzen zu maximieren."
       },
       {
-        "question": "How does Z-Image compare to other models?",
-        "answer": "According to Elo-based Human Preference Evaluation (on Alibaba AI Arena), Z-Image shows highly competitive performance against other leading models while achieving state-of-the-art results among open-source models."
+        "question": "Wie vergleicht sich Z-Image mit anderen Modellen?",
+        "answer": "Gemäß Elo-basierter Human Preference Evaluation (auf Alibaba AI Arena) zeigt Z-Image hochgradig wettbewerbsfähige Leistung gegen andere führende Modelle, während es State-of-the-Art-Ergebnisse unter Open-Source-Modellen erreicht."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Experience Photorealistic AI Image Generation?",
-    "subtitle": "Try Z-Image now for 8-step inference, sub-second generation speed, and accurate bilingual text rendering",
-    "primary": "Start Creating Now",
-    "secondary": "View Pricing",
-    "note": "No credit card required, start with registration"
+    "title": "Bereit, photorealistische KI-Bildgenerierung zu erleben?",
+    "subtitle": "Probieren Sie Z-Image jetzt aus für 8-Schritte Inferenz, Generierungsgeschwindigkeit unter einer Sekunde und genaues zweisprachiges Textrendering",
+    "primary": "Jetzt mit der Erstellung beginnen",
+    "secondary": "Preise anzeigen",
+    "note": "Keine Kreditkarte erforderlich, beginnen Sie mit der Registrierung"
   }
 }

@@ -1,191 +1,191 @@
 {
   "seo": {
-    "title": "Flux 2 Pro - Professional AI Image Generator",
-    "description": "Professional AI image generation with Flux 2 Pro. Text-to-image and image-to-image modes with precise artistic control. Commercial-grade quality."
+    "title": "Flux 2 Pro - مولد صور ذكاء اصطناعي احترافي",
+    "description": "إنشاء صور احترافي بالذكاء الاصطناعي مع Flux 2 Pro. أنماط النص إلى الصورة والصورة إلى الصورة مع التحكم الفني الدقيق. جودة على مستوى تجاري."
   },
   "hero": {
     "badge": "Flux 2 Pro",
     "title": {
       "line1": "Flux 2 Pro",
-      "line2": "Professional AI Generation"
+      "line2": "إنشاء احترافي بالذكاء الاصطناعي"
     },
-    "subtitle": "Experience the next-generation Flux 2 Pro AI image generator - a high-quality image generation solution built for professional creators and enterprises. Supporting both text-to-image and image-to-image modes with exceptional quality and precise creative control.",
+    "subtitle": "اختبر مولد الصور Flux 2 Pro من الجيل التالي - حل إنشاء صور عالي الجودة مبني للمنشئين المحترفين والمؤسسات. يدعم أنماط النص إلى الصورة والصورة إلى الصورة مع جودة استثنائية والتحكم الإبداعي الدقيق.",
     "cta": {
-      "primary": "Try Flux 2 Pro",
-      "secondary": "Learn More"
+      "primary": "جرب Flux 2 Pro",
+      "secondary": "تعرف على المزيد"
     },
     "stats": {
       "quality": {
-        "value": "Pro Grade",
-        "label": "Image Quality"
+        "value": "جودة احترافية",
+        "label": "جودة الصورة"
       },
       "features": {
-        "value": "Dual Mode",
-        "label": "Text & Image Input"
+        "value": "نمط مزدوج",
+        "label": "إدخال نص وصورة"
       },
       "professional": {
-        "value": "25 Credits",
-        "label": "Per Image"
+        "value": "25 رصيد",
+        "label": "لكل صورة"
       }
     }
   },
   "what": {
-    "badge": "About Flux 2 Pro",
-    "title": "What is Flux 2 Pro AI Image Generator?",
-    "description": "Flux 2 Pro is an advanced professional-grade AI image generator designed for creators and businesses requiring high-quality visual content. It offers two powerful generation modes: text-to-image for creating images from descriptions, and image-to-image for transforming and enhancing existing visuals. With precise parameter control and diverse style options, Flux 2 Pro empowers you to create professional images meeting commercial standards.",
-    "demoPlaceholder": "Flux 2 Pro Generated Image",
+    "badge": "حول Flux 2 Pro",
+    "title": "ما هو مولد الصور Flux 2 Pro بالذكاء الاصطناعي؟",
+    "description": "Flux 2 Pro هو مولد صور ذكاء اصطناعي متقدم على مستوى احترافي مصمم للمنشئين والشركات التي تتطلب محتوى بصري عالي الجودة. يوفر نمطي إنشاء قويين: النص إلى الصورة لإنشاء الصور من الأوصاف، والصورة إلى الصورة لتحويل وتحسين المحتوى البصري الموجود. مع التحكم الدقيق بالمعاملات وخيارات الأسلوب المتنوعة، يمكّنك Flux 2 Pro من إنشاء صور احترافية تلبي المعايير التجارية.",
+    "demoPlaceholder": "صورة مُولَّدة بواسطة Flux 2 Pro",
     "coreFeatures": {
       "core1": {
-        "title": "Professional-Grade Image Quality",
-        "description": "Flux 2 Pro utilizes cutting-edge AI technology to generate high-resolution, detail-rich professional images. Every output is optimized for color accuracy and balanced composition, meeting strict standards for commercial publishing and professional design."
+        "title": "جودة الصور على المستوى الاحترافي",
+        "description": "يستخدم Flux 2 Pro تقنية ذكاء اصطناعي متطورة لتوليد صور احترافية عالية الدقة وغنية بالتفاصيل. يتم تحسين كل مخرجات للدقة اللونية والتكوين المتوازن، مما يلبي معايير صارمة للنشر التجاري والتصميم الاحترافي."
       },
       "core2": {
-        "title": "Dual-Mode Creation System",
-        "description": "Supporting both text-to-image and image-to-image modes. Text-to-image lets you create entirely new images from detailed descriptions, while image-to-image allows you to upload existing images for style transfer, enhancement, or creative transformation."
+        "title": "نظام الإنشاء ثنائي الوضع",
+        "description": "يدعم أنماط النص إلى الصورة والصورة إلى الصورة. يتيح لك نمط النص إلى الصورة إنشاء صور جديدة تماماً من أوصاف مفصلة، بينما يسمح لك نمط الصورة إلى الصورة بتحميل الصور الموجودة لنقل الأسلوب أو التحسين أو التحويل الإبداعي."
       },
       "core3": {
-        "title": "Precise Parameter Control",
-        "description": "Professional-level creative control including seed value settings, size selection, and advanced parameters. These fine-tuned controls ensure output consistency and enable creation of brand-compliant image series for professional projects."
+        "title": "التحكم الدقيق بالمعاملات",
+        "description": "التحكم الإبداعي على المستوى الاحترافي بما في ذلك إعدادات قيمة البذرة واختيار الحجم والمعاملات المتقدمة. يضمن هذا التحكم الدقيق اتساق المخرجات ويتيح إنشاء سلسلة صور متوافقة مع العلامة التجارية للمشاريع الاحترافية."
       }
     }
   },
   "why": {
-    "badge": "Why Choose Flux 2 Pro",
-    "title": "Why Choose Flux 2 Pro AI Image Generator",
-    "subtitle": "Flux 2 Pro revolutionizes your creative workflow with professional quality, dual-mode creation, and precise control.",
+    "badge": "لماذا تختار Flux 2 Pro",
+    "title": "لماذا تختار مولد الصور Flux 2 Pro بالذكاء الاصطناعي",
+    "subtitle": "يحول Flux 2 Pro سير عملك الإبداعي بجودة احترافية وإنشاء ثنائي الوضع والتحكم الدقيق.",
     "comparison": {
       "traditional": {
-        "title": "Traditional Image Creation",
-        "item1": "Expensive design software licenses and professional training required",
-        "item2": "Hours or days needed to create complex images",
-        "item3": "Difficult to iterate quickly and explore different creative directions",
-        "item4": "Need to hire professional designers or photographers"
+        "title": "إنشاء الصور التقليدي",
+        "item1": "تراخيص البرامج المكلفة والتدريب الاحترافي مطلوب",
+        "item2": "ساعات أو أيام مطلوبة لإنشاء صور معقدة",
+        "item3": "من الصعب التكرار بسرعة واستكشاف اتجاهات إبداعية مختلفة",
+        "item4": "الحاجة إلى توظيف مصممين محترفين أو مصورين"
       },
       "product": {
-        "title": "Flux 2 Pro AI Generator",
-        "item1": "Ready to use instantly, no design skills required",
-        "item2": "Generate professional images in minutes",
-        "item3": "Rapid iteration to explore multiple creative possibilities",
-        "item4": "Affordable pay-per-use pricing model"
+        "title": "مولد Flux 2 Pro بالذكاء الاصطناعي",
+        "item1": "جاهز للاستخدام على الفور، لا توجد حاجة لمهارات التصميم",
+        "item2": "أنشئ صور احترافية في دقائق",
+        "item3": "التكرار السريع لاستكشاف إمكانيات إبداعية متعددة",
+        "item4": "نموذج تسعير اقتصادي الدفع لكل استخدام"
       }
     },
     "benefits": {
       "speed": {
-        "title": "Efficient Creation Workflow",
-        "description": "Flux 2 Pro's optimized generation process delivers high-quality results quickly. Whether text-to-image or image-to-image, completion happens rapidly, significantly boosting your creative efficiency."
+        "title": "سير عمل إنشاء فعال",
+        "description": "عملية التوليد المحسّنة من Flux 2 Pro توفر نتائج عالية الجودة بسرعة. سواء كان النص إلى الصورة أو الصورة إلى الصورة، يتم الإكمال بسرعة، مما يعزز كفاءتك الإبداعية بشكل كبير."
       },
       "quality": {
-        "title": "Commercial-Grade Output",
-        "description": "Every Flux 2 Pro generated image meets professional standards, suitable for commercial projects, marketing materials, social media, and print publishing. Precise detail handling and color reproduction ensure optimal visual impact."
+        "title": "المخرجات على المستوى التجاري",
+        "description": "كل صورة Flux 2 Pro المُولَّدة تلبي معايير احترافية، مناسبة للمشاريع التجارية والمواد التسويقية ووسائل التواصل الاجتماعي والنشر المطبوع. يضمن التعامل الدقيق مع التفاصيل وإعادة إنتاج الألوان التأثير البصري الأمثل."
       },
       "cost": {
-        "title": "Transparent Pricing Model",
-        "description": "Fixed pricing at just 25 credits per image allows accurate project budgeting. No hidden fees, no surprises - making professional image generation more affordable than ever."
+        "title": "نموذج تسعير شفاف",
+        "description": "تسعير ثابت بما يعادل 25 رصيد فقط لكل صورة يسمح بميزانية المشروع الدقيقة. بدون رسوم مخفية، بدون مفاجآت - مما يجعل إنشاء الصور الاحترافي أرخص من أي وقت مضى."
       },
       "flexibility": {
-        "title": "Flexible Creation Options",
-        "description": "Dual-mode design enables creation from scratch or transformation of existing materials. Whether entirely new concepts or style transfers, Flux 2 Pro meets all your creative needs."
+        "title": "خيارات الإنشاء المرنة",
+        "description": "يتيح التصميم ثنائي الوضع الإنشاء من الصفر أو تحويل المواد الموجودة. سواء كانت مفاهيم جديدة تماماً أو نقل الأسلوب، يلبي Flux 2 Pro جميع احتياجاتك الإبداعية."
       },
       "support": {
-        "title": "Professional Support",
-        "description": "Access comprehensive technical support and detailed documentation. Our professional team is ready to help you maximize Flux 2 Pro's powerful capabilities."
+        "title": "الدعم الاحترافي",
+        "description": "الوصول إلى الدعم الفني الشامل والتوثيق التفصيلي. فريقنا الاحترافي مستعد لمساعدتك في تحقيق أقصى استفادة من قدرات Flux 2 Pro القوية."
       },
       "security": {
-        "title": "Data Security Assurance",
-        "description": "Your creations and data are protected by enterprise-grade security measures. Private mode options ensure sensitive projects remain confidential, meeting the strictest privacy standards."
+        "title": "ضمان أمان البيانات",
+        "description": "يتم حماية إبداعاتك وبياناتك بواسطة تدابير أمان على مستوى المؤسسات. توفر خيارات الوضع الخاص سرية المشاريع الحساسة، مما يلبي أصارم معايير الخصوصية."
       }
     }
   },
   "how": {
-    "badge": "How It Works",
-    "title": "How to Use Flux 2 Pro AI Image Generator",
-    "subtitle": "Four simple steps from concept to professional image. Flux 2 Pro makes high-quality AI image generation simple and intuitive.",
+    "badge": "كيفية العمل",
+    "title": "كيفية استخدام مولد الصور Flux 2 Pro بالذكاء الاصطناعي",
+    "subtitle": "أربع خطوات بسيطة من المفهوم إلى الصورة الاحترافية. يجعل Flux 2 Pro توليد الصور الاحترافي بالذكاء الاصطناعي بسيطاً وبديهياً.",
     "steps": {
       "step1": {
-        "title": "Choose Your Creation Mode",
-        "description": "Start by selecting your creation mode: text-to-image for creating new images from scratch, or image-to-image for transforming or enhancing existing images. Each mode is optimized for specific use cases to ensure best results."
+        "title": "اختر وضع الإنشاء الخاص بك",
+        "description": "ابدأ بتحديد وضع الإنشاء الخاص بك: النص إلى الصورة لإنشاء صور جديدة من الصفر، أو الصورة إلى الصورة لتحويل أو تحسين الصور الموجودة. يتم تحسين كل وضع لحالات استخدام معينة لضمان أفضل النتائج."
       },
       "step2": {
-        "title": "Input Your Creative Content",
-        "description": "For text-to-image, enter detailed text descriptions including subject, style, mood, and specific details. For image-to-image, upload your reference image and describe your desired transformation. More detailed descriptions yield more precise results."
+        "title": "أدخل محتواك الإبداعي",
+        "description": "بالنسبة للنص إلى الصورة، أدخل أوصافاً نصية مفصلة تشمل الموضوع والأسلوب والمزاج والتفاصيل المحددة. بالنسبة للصورة إلى الصورة، قم بتحميل صورة مرجعك واصف التحويل المطلوب. تسفر الأوصاف الأكثر تفصيلاً عن نتائج أكثر دقة."
       },
       "step3": {
-        "title": "Adjust Generation Parameters",
-        "description": "Select output size, set seed values (for result reproduction), and adjust advanced parameters. Flux 2 Pro offers professional presets and custom options for complete control over the generation process."
+        "title": "ضبط معاملات التوليد",
+        "description": "حدد حجم الإخراج وقيم البذرة (لإعادة الإنتاج) وضبط المعاملات المتقدمة. يوفر Flux 2 Pro إعدادات مسبقة احترافية وخيارات مخصصة للتحكم الكامل في عملية التوليد."
       },
       "step4": {
-        "title": "Generate and Refine",
-        "description": "Click generate and Flux 2 Pro will process your request to create high-quality images. Preview results and if adjustments are needed, modify prompts or parameters and regenerate. Download your high-resolution masterpiece when satisfied."
+        "title": "توليد وتحسين",
+        "description": "انقر فوق التوليد وسيقوم Flux 2 Pro بمعالجة طلبك لإنشاء صور عالية الجودة. معاينة النتائج وإذا كانت هناك حاجة إلى تعديلات، عدّل الأوصاف أو المعاملات وأعد التوليد. نزّل تحفتك عالية الدقة عند رضاك."
       }
     }
   },
   "features": {
-    "badge": "Key Features",
-    "title": "Flux 2 Pro AI Image Generator Features",
-    "subtitle": "Professional feature suite to meet all your creative needs",
+    "badge": "المميزات الرئيسية",
+    "title": "مميزات مولد الصور Flux 2 Pro بالذكاء الاصطناعي",
+    "subtitle": "مجموعة مميزات احترافية لتلبية جميع احتياجاتك الإبداعية",
     "items": {
       "speed": {
-        "title": "Optimized Generation Speed",
-        "description": "Efficient processing engine ensures rapid generation, enabling quick creative iteration and improved productivity."
+        "title": "سرعة التوليد المحسّنة",
+        "description": "محرك المعالجة الفعال يضمن التوليد السريع، مما يتيح التكرار الإبداعي السريع وتحسين الإنتاجية."
       },
       "quality": {
-        "title": "Exceptional Image Quality",
-        "description": "Generate high-resolution, detail-rich images with excellent color accuracy and compositional balance."
+        "title": "جودة الصورة الاستثنائية",
+        "description": "توليد صور عالية الدقة وغنية بالتفاصيل مع دقة لونية ممتازة وتوازن تكويني."
       },
       "variety": {
-        "title": "Diverse Style Support",
-        "description": "From photorealistic to artistic illustration, concept design to abstract art - supporting a wide range of visual styles."
+        "title": "دعم الأسلوب المتنوع",
+        "description": "من الواقعية الفوتوغرافية إلى الرسوم التوضيحية الفنية، وتصميم المفاهيم إلى الفن المجرد - يدعم مجموعة واسعة من الأنماط البصرية."
       },
       "control": {
-        "title": "Professional Parameter Control",
-        "description": "Precise seed values, size selection, and advanced parameters give you complete control over the creation process and output consistency."
+        "title": "التحكم بمعاملات احترافية",
+        "description": "قيم البذرة الدقيقة واختيار الحجم والمعاملات المتقدمة تعطيك التحكم الكامل في عملية الإنشاء واتساق المخرجات."
       },
       "batch": {
-        "title": "Efficient Workflow",
-        "description": "Optimized interface design and feature layout supporting rapid creation and batch processing for enhanced productivity."
+        "title": "سير عمل فعال",
+        "description": "تصميم الواجهة المحسّن وتخطيط المميزات يدعم الإنشاء السريع ومعالجة الدفعات لتحسين الإنتاجية."
       },
       "secure": {
-        "title": "Privacy Protection",
-        "description": "Private mode options ensure your creations remain confidential, with all data transfers encrypted for security."
+        "title": "حماية الخصوصية",
+        "description": "خيارات الوضع الخاص تضمن بقاء إبداعاتك سرية، مع تشفير جميع نقل البيانات للأمان."
       }
     }
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Flux 2 Pro Frequently Asked Questions",
-    "subtitle": "Common questions about Flux 2 Pro AI Image Generator",
+    "badge": "الأسئلة الشائعة",
+    "title": "أسئلة متكررة حول Flux 2 Pro",
+    "subtitle": "أسئلة شائعة حول مولد الصور Flux 2 Pro بالذكاء الاصطناعي",
     "items": [
       {
-        "question": "What is Flux 2 Pro and what makes it special?",
-        "answer": "Flux 2 Pro is a professional-grade AI image generator supporting both text-to-image and image-to-image modes. What makes it special is the professional output quality, flexible dual-mode creation system, precise parameter control, and commercial-ready high-quality output. At just 25 credits per image, it offers exceptional value."
+        "question": "ما هو Flux 2 Pro وما الذي يجعله مميزاً؟",
+        "answer": "Flux 2 Pro هو مولد صور ذكاء اصطناعي على مستوى احترافي يدعم أنماط النص إلى الصورة والصورة إلى الصورة. ما يجعله مميزاً هو جودة الإخراج الاحترافي والنظام الإبداعي المرن ثنائي الوضع والتحكم الدقيق بالمعاملات والإخراج عالي الجودة الجاهز للتجارة. مع 25 رصيد فقط لكل صورة، يوفر قيمة استثنائية."
       },
       {
-        "question": "What's the difference between text-to-image and image-to-image in Flux 2 Pro?",
-        "answer": "Text-to-image mode allows you to create entirely new images from text descriptions, ideal for concept design and creative exploration. Image-to-image mode lets you upload existing images for style transfer, enhancement, or creative transformation, perfect for image optimization and style migration. Both modes deliver professional quality."
+        "question": "ما الفرق بين النص إلى الصورة والصورة إلى الصورة في Flux 2 Pro؟",
+        "answer": "يتيح نمط النص إلى الصورة لك إنشاء صور جديدة تماماً من أوصاف نصية، مثالي لتصميم المفاهيم والاستكشاف الإبداعي. يتيح نمط الصورة إلى الصورة لك تحميل الصور الموجودة لنقل الأسلوب أو التحسين أو التحويل الإبداعي، مثالي لتحسين الصور ونقل الأسلوب. كلا النمطين يوفران جودة احترافية."
       },
       {
-        "question": "What's the quality of images generated by Flux 2 Pro?",
-        "answer": "Flux 2 Pro generates professional-grade images suitable for commercial use. Images feature high resolution, rich detail, accurate color reproduction, and balanced composition. Whether for print publishing, digital marketing, or social media, the quality meets professional standards."
+        "question": "ما جودة الصور المولدة بواسطة Flux 2 Pro؟",
+        "answer": "يولد Flux 2 Pro صور على مستوى احترافي مناسبة للاستخدام التجاري. تتميز الصور بدقة عالية وتفاصيل غنية وإعادة إنتاج دقيقة للألوان وتكوين متوازن. سواء للنشر المطبوع أو التسويق الرقمي أو وسائل التواصل الاجتماعي، تلبي الجودة معايير احترافية."
       },
       {
-        "question": "How can I ensure consistency in generation results?",
-        "answer": "Flux 2 Pro provides seed value control. Using the same seed and parameters produces identical or similar results. This is invaluable for creating image series, maintaining brand consistency, or fine-tuning specific effects. You can save successful parameter combinations for future use."
+        "question": "كيف يمكنني التأكد من اتساق نتائج التوليد؟",
+        "answer": "يوفر Flux 2 Pro التحكم بقيمة البذرة. استخدام نفس البذرة والمعاملات ينتج نتائج متطابقة أو متشابهة. هذا لا يقدر بثمن لإنشاء سلسلة صور والحفاظ على اتساق العلامة التجارية أو ضبط تأثيرات محددة. يمكنك حفظ مجموعات المعاملات الناجحة للاستخدام المستقبلي."
       },
       {
-        "question": "What applications is Flux 2 Pro suitable for?",
-        "answer": "Flux 2 Pro suits a wide range of professional applications: marketing and advertising creative, social media content creation, product concept design, art creation and illustration, game and film concept art, brand visual design, educational and training materials. The dual-mode design handles various creative challenges."
+        "question": "ما التطبيقات التي يناسبها Flux 2 Pro؟",
+        "answer": "يناسب Flux 2 Pro مجموعة واسعة من التطبيقات الاحترافية: الإبداع التسويقي والإعلاني، إنشاء محتوى وسائل التواصل الاجتماعي، تصميم مفاهيم المنتج، الإنشاء الفني والرسوم التوضيحية، فن المفاهيم للألعاب والأفلام، تصميم الهوية البصرية، المواد التعليمية والتدريبية. يتعامل التصميم ثنائي الوضع مع تحديات إبداعية مختلفة."
       },
       {
-        "question": "Do I need professional design skills to use Flux 2 Pro?",
-        "answer": "No! Flux 2 Pro is designed to be simple and intuitive for anyone to use. While understanding basic composition and color principles helps, the AI handles all technical details. You just need to clearly describe your creative vision, and Flux 2 Pro transforms it into professional images."
+        "question": "هل أحتاج إلى مهارات تصميم احترافية لاستخدام Flux 2 Pro؟",
+        "answer": "لا! تم تصميم Flux 2 Pro ليكون بسيطاً وبديهياً لأي شخص. بينما يساعد فهم مبادئ التكوين واللون الأساسية، يتعامل الذكاء الاصطناعي مع جميع التفاصيل التقنية. أنت فقط تحتاج إلى وصف رؤيتك الإبداعية بوضوح، ويحول Flux 2 Pro ذلك إلى صور احترافية."
       }
     ]
   },
   "cta": {
-    "title": "Start Creating Professional Images with Flux 2 Pro",
-    "subtitle": "Join professional creators using Flux 2 Pro to generate high-quality AI images for their projects.",
-    "primary": "Try Flux 2 Pro Free",
-    "secondary": "View Pricing Plans",
-    "note": "No credit card required • Professional quality • Dual-mode creation"
+    "title": "ابدأ إنشاء صور احترافية مع Flux 2 Pro",
+    "subtitle": "انضم إلى المنشئين المحترفين الذين يستخدمون Flux 2 Pro لتوليد صور ذكاء اصطناعي عالية الجودة لمشاريعهم.",
+    "primary": "جرب Flux 2 Pro مجاناً",
+    "secondary": "عرض خطط التسعير",
+    "note": "لا توجد حاجة لبطاقة ائتمان • جودة احترافية • إنشاء ثنائي الوضع"
   }
 }

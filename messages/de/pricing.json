@@ -1,131 +1,131 @@
 {
   "meta": {
-    "title": "Pricing Plans",
-    "description": "Choose the perfect plan for your needs. Flexible pricing options for individuals and businesses with AI-powered image generation."
+    "title": "Preispläne",
+    "description": "Wählen Sie den perfekten Plan für Ihre Bedürfnisse. Flexible Preisoptionen für Privatpersonen und Unternehmen mit KI-gestützter Bildgenerierung."
   },
-  "badge": "Pricing Plans",
-  "title": "Choose Your Plan",
-  "subtitle": "Flexible pricing options to meet the needs of individuals and businesses",
-  "recommended": "Most Popular",
+  "badge": "Preispläne",
+  "title": "Wählen Sie Ihren Plan",
+  "subtitle": "Flexible Preisoptionen, um die Bedürfnisse von Privatpersonen und Unternehmen zu erfüllen",
+  "recommended": "Am beliebtesten",
   "status": {
-    "current": "Current Plan",
-    "scheduled": "Scheduled",
+    "current": "Aktueller Plan",
+    "scheduled": "Geplant",
     "upgrade": "Upgrade",
     "downgrade": "Downgrade",
-    "configuring": "Configuring...",
-    "loading": "Loading..."
+    "configuring": "Wird konfiguriert...",
+    "loading": "Wird geladen..."
   },
   "billing": {
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "year": "year",
-    "month": "month",
-    "discount": "Save 20%",
-    "save": "Save ${amount}"
+    "monthly": "Monatlich",
+    "yearly": "Jährlich",
+    "year": "Jahr",
+    "month": "Monat",
+    "discount": "Sparen Sie 20%",
+    "save": "Sparen Sie ${amount}"
   },
   "tiers": [
     {
-      "name": "Free",
-      "description": "Perfect for personal trial and light usage",
-      "cta": "Get Started",
+      "name": "Kostenlos",
+      "description": "Perfekt für persönliche Testversuche und leichte Nutzung",
+      "cta": "Erste Schritte",
       "features": [
-        "{quota} credits per day",
-        "Basic AI models",
-        "Standard resolution (512x512)"
+        "{quota} Guthaben pro Tag",
+        "Basis-KI-Modelle",
+        "Standardauflösung (512x512)"
       ],
       "unsupportedFeatures": [
-        "High resolution",
-        "Priority queue",
-        "Watermark-free export",
-        "Customer support"
+        "Hochauflösung",
+        "Warteschlange mit Priorität",
+        "Wasserzeichenfreier Export",
+        "Kundensupport"
       ]
     },
     {
-      "name": "Basic",
-      "description": "For individual users and small projects",
-      "cta": "Subscribe Now",
+      "name": "Basis",
+      "description": "Für Einzelnutzer und kleine Projekte",
+      "cta": "Jetzt abonnieren",
       "features": [
-        "{quota} credits",
-        "Standard AI models",
-        "High resolution (1024x1024)",
-        "Priority generation queue",
-        "Watermark-free export",
-        "Email customer support",
-        "Commercial use license"
+        "{quota} Guthaben",
+        "Standard-KI-Modelle",
+        "Hochauflösung (1024x1024)",
+        "Warteschlange mit Priorität",
+        "Wasserzeichenfreier Export",
+        "E-Mail-Kundensupport",
+        "Kommerzielle Nutzungslizenz"
       ],
       "unsupportedFeatures": [
-        "Ultra-high resolution",
-        "Batch generation"
+        "Ultrahohe Auflösung",
+        "Batch-Generierung"
       ]
     },
     {
       "name": "Pro",
-      "description": "For professional creators and team collaboration",
-      "cta": "Subscribe Now",
+      "description": "Für professionelle Schöpfer und Teamzusammenarbeit",
+      "cta": "Jetzt abonnieren",
       "features": [
-        "{quota} credits",
-        "All advanced AI models",
-        "Ultra-high resolution (2048x2048)",
-        "Highest priority queue",
-        "Batch generation",
-        "Watermark-free export",
-        "Priority customer support",
-        "Commercial use license"
+        "{quota} Guthaben",
+        "Alle erweiterten KI-Modelle",
+        "Ultrahohe Auflösung (2048x2048)",
+        "Höchste Warteschlange mit Priorität",
+        "Batch-Generierung",
+        "Wasserzeichenfreier Export",
+        "Prioritäts-Kundensupport",
+        "Kommerzielle Nutzungslizenz"
       ]
     }
   ],
   "faq": {
-    "badge": "FAQ",
-    "title": "Frequently Asked Questions",
-    "subtitle": "Find answers to common questions about our pricing plans and services",
+    "badge": "Häufig gestellte Fragen",
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Finden Sie Antworten auf häufig gestellte Fragen zu unseren Preisplänen und Services",
     "items": [
       {
-        "question": "How do credits work?",
-        "answer": "Credits are used to generate images with our AI models. Each image generation consumes a certain number of credits depending on the resolution and model used. Free users get 30 credits daily, while Basic plan subscribers get 1,500 credits monthly (or 18,000 yearly) and Pro plan subscribers get 7,500 credits monthly (or 90,000 yearly)."
+        "question": "Wie funktionieren Guthaben?",
+        "answer": "Guthaben werden zum Generieren von Bildern mit unseren KI-Modellen verwendet. Jede Bildgenerierung verbraucht je nach Auflösung und verwendetem Modell eine bestimmte Anzahl von Guthaben. Kostenlose Benutzer erhalten täglich 30 Guthaben, während Basis-Abonnenten monatlich 1.500 Guthaben (oder jährlich 18.000) und Pro-Abonnenten monatlich 7.500 Guthaben (oder jährlich 90.000) erhalten."
       },
       {
-        "question": "What's the difference between monthly and yearly plans?",
-        "answer": "Yearly plans offer a 20% discount compared to monthly plans. For example, Basic monthly is $15/month (1,500 credits), while Basic yearly is $144/year (18,000 credits total). You save money and get more value with yearly subscriptions."
+        "question": "Was ist der Unterschied zwischen monatlichen und jährlichen Plänen?",
+        "answer": "Jährliche Pläne bieten eine 20% Rabatt gegenüber monatlichen Plänen. Zum Beispiel ist Basis monatlich $15/Monat (1.500 Guthaben), während Basis jährlich $144/Jahr (18.000 Guthaben gesamt) ist. Sie sparen Geld und erhalten mehr Wert mit jährlichen Abos."
       },
       {
-        "question": "Can I upgrade or downgrade my plan?",
-        "answer": "Yes! You can upgrade your plan at any time, and the price difference will be prorated. When upgrading, you'll receive the full credit quota of the new plan immediately. Downgrades take effect at the start of your next billing cycle."
+        "question": "Kann ich meinen Plan aktualisieren oder herabstufen?",
+        "answer": "Ja! Sie können Ihren Plan jederzeit aktualisieren, und der Preisunterschied wird anteilig berechnet. Bei einem Upgrade erhalten Sie sofort die volle Gutschrift-Kontingent des neuen Plans. Downgrades treten am Anfang Ihres nächsten Abrechnungszyklus in Kraft."
       },
       {
-        "question": "What happens to unused credits?",
-        "answer": "For free users, daily credits reset every day and don't accumulate. For subscribers, credits expire based on their expiration date. Each credit quota has its own expiration period, and unused credits will automatically expire when that period ends."
+        "question": "Was passiert mit ungenutzten Guthaben?",
+        "answer": "Bei kostenlosen Benutzern werden tägliche Guthaben jeden Tag zurückgesetzt und sammeln sich nicht an. Bei Abonnenten verfallen Guthaben basierend auf ihrem Ablaufdatum. Jedes Guthaben-Kontingent hat seinen eigenen Ablaufzeitraum, und ungenutztes Guthaben verfällt automatisch, wenn dieser Zeitraum endet."
       },
       {
-        "question": "How does credit quota calculation work?",
-        "answer": "For monthly plans, you get 100 credits per dollar spent. For yearly plans, you get 100 credits per dollar × 12 months. For example: Basic monthly ($15) = 1,500 credits, Basic yearly ($144) = 18,000 credits."
+        "question": "Wie funktioniert die Guthaben-Kontingent-Berechnung?",
+        "answer": "Bei monatlichen Plänen erhalten Sie 100 Guthaben pro ausgegebenem Dollar. Bei jährlichen Plänen erhalten Sie 100 Guthaben pro Dollar × 12 Monate. Zum Beispiel: Basis monatlich ($15) = 1.500 Guthaben, Basis jährlich ($144) = 18.000 Guthaben."
       },
       {
-        "question": "Can I switch between monthly and yearly billing?",
-        "answer": "Yes! Switching from monthly to yearly within the same plan tier (e.g., Basic monthly to Basic yearly) is considered a change, not an upgrade. The new billing cycle will take effect according to the plan change policy."
+        "question": "Kann ich zwischen monatlicher und jährlicher Abrechnung wechseln?",
+        "answer": "Ja! Der Wechsel von monatlich zu jährlich innerhalb desselben Plan-Tiers (z. B. Basis monatlich zu Basis jährlich) wird als Änderung betrachtet, nicht als Upgrade. Der neue Abrechnungszyklus tritt nach der Plan-Änderungsrichtlinie in Kraft."
       },
       {
-        "question": "What happens when I upgrade mid-cycle?",
-        "answer": "When you upgrade, you'll be charged a prorated amount for the remainder of your current billing period. You'll immediately receive the full credit quota of your new plan, and any existing credits remain available until their expiration date."
+        "question": "Was passiert, wenn ich während des Zyklus ein Upgrade durchführe?",
+        "answer": "Bei einem Upgrade werden Ihnen anteilig die restlichen Tage des aktuellen Abrechnungszeitraums berechnet. Sie erhalten sofort das vollständige Guthaben-Kontingent Ihres neuen Plans, und alle bestehenden Guthaben bleiben bis zu ihrem Ablaufdatum verfügbar."
       },
       {
-        "question": "Can I use the generated images commercially?",
-        "answer": "Free plan users can use generated images for personal projects only. Both Basic and Pro plan subscribers receive a commercial use license, allowing you to use the images for business purposes, marketing materials, and client projects."
+        "question": "Kann ich die generierten Bilder kommerziell nutzen?",
+        "answer": "Kostenlose Plan-Benutzer können generierte Bilder nur für persönliche Projekte verwenden. Sowohl Basis- als auch Pro-Plan-Abonnenten erhalten eine Lizenz zur kommerziellen Nutzung, die es Ihnen ermöglicht, die Bilder für geschäftliche Zwecke, Marketingmaterialien und Kundenprojekte zu verwenden."
       },
       {
-        "question": "What's the difference between Basic and Pro plans?",
-        "answer": "Pro plan offers 5x more credits than Basic, plus access to all advanced AI models, ultra-high resolution (2048x2048), batch generation features, and priority customer support. Basic plan is great for individuals, while Pro is designed for professional creators and teams."
+        "question": "Was ist der Unterschied zwischen Basis- und Pro-Plänen?",
+        "answer": "Der Pro-Plan bietet 5x mehr Guthaben als Basis, plus Zugriff auf alle erweiterten KI-Modelle, ultrahohe Auflösung (2048x2048), Batch-Generierungsfunktionen und Prioritäts-Kundensupport. Der Basis-Plan ist großartig für Einzelpersonen, während Pro für professionelle Schöpfer und Teams konzipiert ist."
       },
       {
-        "question": "What payment methods do you accept?",
-        "answer": "We integrate with Creem payment platform which supports various payment methods. All transactions are processed securely through their payment gateway."
+        "question": "Welche Zahlungsmethoden akzeptieren Sie?",
+        "answer": "Wir integrieren mit der Creem-Zahlungsplattform, die verschiedene Zahlungsmethoden unterstützt. Alle Transaktionen werden sicher über deren Zahlungs-Gateway verarbeitet."
       },
       {
-        "question": "Can I cancel my subscription anytime?",
-        "answer": "Yes, you can cancel your subscription at any time. Your plan will remain active until the end of your current billing period, and you can continue using your remaining credits until they expire."
+        "question": "Kann ich mein Abonnement jederzeit kündigen?",
+        "answer": "Ja, Sie können Ihr Abonnement jederzeit kündigen. Ihr Plan bleibt bis zum Ende Ihres aktuellen Abrechnungszeitraums aktiv, und Sie können Ihre restlichen Guthaben weiterhin verwenden, bis sie ablaufen."
       },
       {
-        "question": "How long do credits last after purchase?",
-        "answer": "Each credit quota comes with its own expiration period. The exact duration depends on your subscription plan and when the credits were granted. You can check the expiration date of your credits in your account dashboard. Credits are consumed on a first-in, first-out basis."
+        "question": "Wie lange sind Guthaben nach dem Kauf gültig?",
+        "answer": "Jedes Guthaben-Kontingent hat seinen eigenen Ablaufzeitraum. Die genaue Dauer hängt von Ihrem Abonnement-Plan und davon ab, wann die Guthaben gewährt wurden. Sie können das Ablaufdatum Ihrer Guthaben auf Ihrem Account-Dashboard überprüfen. Guthaben werden nach dem FIFO-Prinzip verbraucht (First In, First Out)."
       }
     ]
   }

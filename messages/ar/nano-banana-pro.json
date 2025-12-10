@@ -1,191 +1,191 @@
 {
   "seo": {
-    "title": "Nano Banana Pro - Gemini 3 Pro AI Generator | 4K",
-    "description": "Generate 4K images in under 10 seconds with Nano Banana Pro. Google DeepMind's Gemini 3 Pro Image model with accurate text rendering and character consistency."
+    "title": "Nano Banana Pro - مولد صور Gemini 3 Pro بالذكاء الاصطناعي | 4K",
+    "description": "أنشئ صور 4K في أقل من 10 ثوانٍ مع Nano Banana Pro. نموذج Gemini 3 Pro Image من Google DeepMind مع رسم نص دقيق واتساق الأحرف."
   },
   "hero": {
-    "badge": "Powered by Gemini 3 Pro",
+    "badge": "مدعوم بـ Gemini 3 Pro",
     "title": {
       "line1": "Nano Banana Pro",
-      "line2": "Gemini 3 Pro Image Generation"
+      "line2": "توليد صور Gemini 3 Pro"
     },
-    "subtitle": "Experience Google DeepMind's Nano Banana Pro (Gemini 3 Pro Image) - the breakthrough AI image generator with 4K resolution, accurate multilingual text rendering, and character consistency. Create professional images in under 10 seconds with reasoning-guided generation.",
+    "subtitle": "اختبر Nano Banana Pro من Google DeepMind (Gemini 3 Pro Image) - مولد الصور الثوري بالذكاء الاصطناعي مع دقة 4K ورسم نص دقيق ثنائي اللغة واتساق الأحرف. أنشئ صور احترافية في أقل من 10 ثوانٍ مع توليد موجه بالتفكير.",
     "cta": {
-      "primary": "Try Nano Banana Pro",
-      "secondary": "Learn More"
+      "primary": "جرب Nano Banana Pro",
+      "secondary": "تعرف على المزيد"
     },
     "stats": {
       "speed": {
         "value": "<10s",
-        "label": "4K Image Generation"
+        "label": "توليد صور 4K"
       },
       "quality": {
         "value": "4K UHD",
-        "label": "Native Resolution"
+        "label": "الدقة الأصلية"
       },
       "users": {
-        "value": "5 Chars",
-        "label": "Character Consistency"
+        "value": "5 أحرف",
+        "label": "اتساق الأحرف"
       }
     }
   },
   "what": {
-    "badge": "About Nano Banana Pro",
-    "title": "What is Nano Banana Pro AI Image Generator?",
-    "description": "Nano Banana Pro, powered by Google DeepMind's Gemini 3 Pro Image model, is a state-of-the-art AI image generator that combines advanced reasoning with real-world knowledge. This professional AI image generation platform delivers 4K high-resolution images with unprecedented speed and accuracy, perfect for designers, marketers, and content creators who demand professional-quality AI-generated images.",
-    "demoPlaceholder": "Nano Banana Pro Generated Image",
+    "badge": "حول Nano Banana Pro",
+    "title": "ما هو مولد الصور Nano Banana Pro بالذكاء الاصطناعي؟",
+    "description": "Nano Banana Pro، مدعوم بنموذج Gemini 3 Pro Image من Google DeepMind، هو مولد صور ذكاء اصطناعي متطور يجمع بين التفكير المتقدم والمعرفة بالعالم الحقيقي. توفر منصة توليد الصور الاحترافية هذه صور عالية الدقة 4K بسرعة وأمل غير مسبوق، مثالية للمصممين والمسوقين والمنشئين الذين يطلبون صور مُنشأة بالذكاء الاصطناعي بجودة احترافية.",
+    "demoPlaceholder": "صورة مُولَّدة بواسطة Nano Banana Pro",
     "coreFeatures": {
       "core1": {
-        "title": "4K High-Resolution AI Image Generation",
-        "description": "Nano Banana Pro generates native 4K (4096x4096) ultra-high definition images in under 10 seconds. This AI image generator delivers exceptional detail, color accuracy, and image quality that meets professional standards for print, digital marketing, and commercial projects."
+        "title": "توليد صور ذكاء اصطناعي عالي الدقة 4K",
+        "description": "يولد Nano Banana Pro صور 4K أصلية (4096x4096) بدقة فائقة عالية في أقل من 10 ثوانٍ. يوفر هذا مولد الصور بالذكاء الاصطناعي تفاصيل استثنائية ودقة لونية وجودة صورة تلبي معايير احترافية للطباعة والتسويق الرقمي والمشاريع التجارية."
       },
       "core2": {
-        "title": "Accurate Multilingual Text Rendering",
-        "description": "Unlike other AI image generators, Nano Banana Pro achieves breakthrough accuracy in text rendering across multiple languages. Create AI-generated mockups, posters, infographics, and marketing materials with legible typography directly within images - perfect for international branding and multilingual content creation."
+        "title": "رسم نص دقيق ثنائي اللغة",
+        "description": "على عكس مولدات الصور بالذكاء الاصطناعي الأخرى، حقق Nano Banana Pro دقة اختراقية في رسم النصوص عبر لغات متعددة. أنشئ نماذج ذكاء اصطناعي وملصقات وشرح بياني ومواد تسويقية مع طباعة واضحة مباشرة في الصور - مثالي للعلامات التجارية الدولية وإنشاء محتوى ثنائي اللغة."
       },
       "core3": {
-        "title": "Professional Output & Flexible Controls",
-        "description": "Generate professional-quality images with advanced creative controls including multiple resolution options, various aspect ratios, and customizable parameters. Perfect for creating consistent visual content across your projects with reliable, high-quality AI image generation."
+        "title": "المخرجات الاحترافية والتحكم المرن",
+        "description": "توليد صور احترافية الجودة مع تحكم إبداعي متقدم يشمل خيارات دقة متعددة وعلى نسب أفقية مختلفة ومعاملات قابلة للتخصيص. مثالي لإنشاء محتوى بصري متسق عبر مشاريعك مع توليد صور ذكاء اصطناعي موثوق وعالي الجودة."
       }
     }
   },
   "why": {
-    "badge": "Why Nano Banana Pro",
-    "title": "Why Choose Nano Banana Pro AI Image Generator",
-    "subtitle": "Nano Banana Pro outperforms traditional image creation methods and competing AI image generators with reasoning-guided generation, 4K resolution output, and professional editing capabilities powered by Gemini 3 Pro Image technology.",
+    "badge": "لماذا Nano Banana Pro",
+    "title": "لماذا تختار مولد الصور Nano Banana Pro بالذكاء الاصطناعي",
+    "subtitle": "يتفوق Nano Banana Pro على طرق إنشاء الصور التقليدية ومولدات الصور بالذكاء الاصطناعي المنافسة مع توليد موجه بالتفكير وإخراج دقة 4K وقدرات تحرير احترافية مدعومة بتقنية Gemini 3 Pro Image.",
     "comparison": {
       "traditional": {
-        "title": "Traditional Image Creation",
-        "item1": "Hours or days required for professional image design and editing",
-        "item2": "Expensive software licenses and professional design expertise needed",
-        "item3": "High costs for hiring designers or purchasing premium design tools",
-        "item4": "Slow iteration cycles make creative experimentation impractical"
+        "title": "إنشاء الصور التقليدي",
+        "item1": "ساعات أو أيام مطلوبة لتصميم وتحرير الصور الاحترافي",
+        "item2": "تراخيص برامج مكلفة وخبرة التصميم الاحترافي مطلوبة",
+        "item3": "تكاليف عالية لتوظيف المصممين أو شراء أدوات التصميم المتميزة",
+        "item4": "دورات التكرار البطيئة تجعل الاختبار الإبداعي غير عملي"
       },
       "product": {
-        "title": "Nano Banana Pro AI Generator",
-        "item1": "Generate 4K professional images in under 10 seconds with AI",
-        "item2": "No design skills required - describe your vision in natural language",
-        "item3": "Cost-effective subscription plans with flexible pay-as-you-go options",
-        "item4": "Instant iterations and unlimited creative experimentation with AI"
+        "title": "مولد Nano Banana Pro بالذكاء الاصطناعي",
+        "item1": "أنشئ صور احترافية 4K في أقل من 10 ثوانٍ باستخدام الذكاء الاصطناعي",
+        "item2": "لا توجد حاجة لمهارات التصميم - اصفا رؤيتك بلغة طبيعية",
+        "item3": "خطط اشتراك فعالة من حيث التكلفة مع خيارات دفع مرنة الدفع حسب الاستخدام",
+        "item4": "تكرار فوري والتجريب الإبداعي غير المحدود باستخدام الذكاء الاصطناعي"
       }
     },
     "benefits": {
       "speed": {
-        "title": "Unprecedented AI Generation Speed",
-        "description": "Nano Banana Pro's optimized Gemini 3 Pro Image model generates 4K high-resolution images in under 10 seconds - up to 10x faster than competing AI image generators. Dramatically accelerate your creative workflow with blazing-fast AI image generation."
+        "title": "سرعة توليد ذكاء اصطناعي غير مسبوقة",
+        "description": "يولد نموذج Gemini 3 Pro Image المحسّن من Nano Banana Pro صور عالية الدقة 4K في أقل من 10 ثوانٍ - بسرعة 10 مرات أسرع من مولدات الصور بالذكاء الاصطناعي المنافسة. سرع سير العمل الإبداعي بشكل كبير مع توليد صور ذكاء اصطناعي سريع البرق."
       },
       "quality": {
-        "title": "Professional 4K Image Quality",
-        "description": "Experience native 4K (4096x4096) ultra-high definition output with exceptional detail, accurate color reproduction, and professional-grade image quality. Nano Banana Pro AI images meet the demanding standards of commercial projects, print media, and enterprise applications."
+        "title": "جودة صورة احترافية 4K",
+        "description": "اختبر مخرجات فائقة الدقة 4K أصلية (4096x4096) مع تفاصيل استثنائية وإعادة إنتاج دقيقة للألوان وجودة صورة احترافية. صور Nano Banana Pro بالذكاء الاصطناعي تلبي معايير المشاريع التجارية والوسائط المطبوعة والتطبيقات الحكومية."
       },
       "cost": {
-        "title": "Cost-Effective AI Image Generation",
-        "description": "Eliminate expensive design software licenses and designer fees. Nano Banana Pro offers flexible subscription plans and pay-per-image options, making professional AI image generation accessible and affordable for businesses of all sizes."
+        "title": "توليد صور ذكاء اصطناعي فعال من حيث التكلفة",
+        "description": "القضاء على تراخيص البرامج المكلفة ورسوم المصمم. يوفر Nano Banana Pro خطط اشتراك مرنة وخيارات الدفع لكل صورة، مما يجعل توليد الصور الاحترافي بالذكاء الاصطناعي في متناول الجميع وبأسعار معقولة للشركات من جميع الأحجام."
       },
       "flexibility": {
-        "title": "Unlimited Creative Freedom with AI",
-        "description": "Experiment with unlimited iterations, multiple artistic styles, and diverse creative directions. Nano Banana Pro's reasoning-guided generation adapts to your preferences, enabling rapid prototyping and creative exploration without constraints."
+        "title": "حرية إبداعية غير محدودة مع الذكاء الاصطناعي",
+        "description": "جرب التكرار غير المحدود والأنماط الفنية المتعددة والاتجاهات الإبداعية المتنوعة. يتكيف التوليد الموجه بالتفكير من Nano Banana Pro مع تفضيلاتك، مما يتيح الإنشاء السريع للنماذج والاستكشاف الإبداعي بدون قيود."
       },
       "support": {
-        "title": "Enterprise-Grade Support",
-        "description": "Access dedicated technical support, comprehensive documentation, batch processing assistance, and enterprise SLA guarantees. Nano Banana Pro provides the professional support infrastructure your business needs for mission-critical AI image generation workflows."
+        "title": "دعم على مستوى المؤسسات",
+        "description": "الوصول إلى دعم فني مخصص والتوثيق الشامل ومساعدة المعالجة الدفعية وضمانات SLA للمؤسسات. يوفر Nano Banana Pro بنية الدعم الاحترافي التي تحتاجها شركتك لمسارات عمل توليد الصور الحرجة بالذكاء الاصطناعي."
       },
       "security": {
-        "title": "Enterprise Security & Privacy",
-        "description": "All Nano Banana Pro data transmission and storage uses enterprise-grade encryption. Your AI-generated images and creative work remain private and secure with strict data protection policies and compliance with international privacy standards."
+        "title": "أمان وخصوصية المؤسسات",
+        "description": "تستخدم جميع عمليات نقل البيانات وتخزينها في Nano Banana Pro تشفيراً على مستوى المؤسسات. تبقى صورك المُنشأة بالذكاء الاصطناعي وعملك الإبداعي خاصة وآمنة مع الامتثال الصارم لمعايير حماية البيانات الدولية."
       }
     }
   },
   "how": {
-    "badge": "How It Works",
-    "title": "How to Use Nano Banana Pro AI Image Generator",
-    "subtitle": "From concept to professional 4K AI-generated image in four simple steps. Nano Banana Pro makes advanced AI image generation intuitive and accessible.",
+    "badge": "كيفية العمل",
+    "title": "كيفية استخدام مولد الصور Nano Banana Pro بالذكاء الاصطناعي",
+    "subtitle": "من المفهوم إلى صورة 4K احترافية مُولَّدة بالذكاء الاصطناعي في أربع خطوات بسيطة. يجعل Nano Banana Pro توليد الصور بالذكاء الاصطناعي المتقدم بديهياً وسهل الوصول.",
     "steps": {
       "step1": {
-        "title": "Describe Your Creative Vision",
-        "description": "Enter a detailed text description of the image you want to create. Nano Banana Pro's reasoning-guided AI interprets complex prompts with nuanced understanding. Include specific details about style, composition, lighting, colors, and mood for optimal AI image generation results."
+        "title": "صف رؤيتك الإبداعية",
+        "description": "أدخل وصفاً نصياً مفصلاً للصورة التي تريد إنشاءها. يفسر الذكاء الاصطناعي الموجه بالتفكير من Nano Banana Pro الطلبات المعقدة بفهم دقيق. أدرج تفاصيل محددة حول الأسلوب والتكوين والإضاءة والألوان والمزاج للحصول على أفضل نتائج توليد الصور بالذكاء الاصطناعي."
       },
       "step2": {
-        "title": "Configure Advanced AI Parameters",
-        "description": "Select image resolution (up to 4K), aspect ratio, artistic style, lighting conditions, and camera angles. Nano Banana Pro offers professional presets and granular controls for precise customization of your AI-generated images. Choose from photorealistic, artistic, illustrative, and specialized styles."
+        "title": "ضبط معاملات الذكاء الاصطناعي المتقدمة",
+        "description": "حدد دقة الصورة (حتى 4K) ونسبة أفقية ونمط فني وظروف إضاءة وزوايا الكاميرا. يوفر Nano Banana Pro إعدادات مسبقة احترافية وتحكم حبيبي لتخصيص دقيق لصورك المُنشأة بالذكاء الاصطناعي. اختر من الأنماط الواقعية الفوتوغرافية والفنية والتوضيحية والمتخصصة."
       },
       "step3": {
-        "title": "AI Generates 4K Images",
-        "description": "Nano Banana Pro's Gemini 3 Pro Image model processes your requirements using advanced reasoning and generates high-fidelity 4K images in under 10 seconds. The AI may create interim images to test composition and logic for complex prompts, ensuring superior output quality."
+        "title": "الذكاء الاصطناعي ينشئ صور 4K",
+        "description": "يعالج نموذج Nano Banana Pro من Gemini 3 Pro Image متطلباتك باستخدام التفكير المتقدم وينشئ صور 4K عالية الدقة في أقل من 10 ثوانٍ. قد ينشئ الذكاء الاصطناعي صور وسيطة لاختبار التكوين والمنطق للطلبات المعقدة، مما يضمن جودة الإخراج الفائقة."
       },
       "step4": {
-        "title": "Preview, Download & Iterate",
-        "description": "Preview your AI-generated image instantly. Satisfied with the result? Download in high-resolution format for immediate use. Need adjustments? Simply modify your prompt or parameters and regenerate - iterate as many times as needed with Nano Banana Pro's rapid generation capabilities."
+        "title": "معاينة وتحميل والتكرار",
+        "description": "معاينة صورتك المُنشأة بالذكاء الاصطناعي على الفور. هل أنت راضٍ عن النتيجة؟ نزّل بصيغة دقة عالية للاستخدام الفوري. تحتاج إلى تعديلات؟ عدّل طلبك أو معاملاتك وأعد التوليد - كرر كما هو ضروري مع قدرات التوليد السريعة من Nano Banana Pro."
       }
     }
   },
   "features": {
-    "badge": "Key Features",
-    "title": "Nano Banana Pro AI Image Generator Features",
-    "subtitle": "Comprehensive AI image generation capabilities powered by Google DeepMind's Gemini 3 Pro Image technology",
+    "badge": "المميزات الرئيسية",
+    "title": "مميزات مولد الصور Nano Banana Pro بالذكاء الاصطناعي",
+    "subtitle": "قدرات توليد صور ذكاء اصطناعي شاملة مدعومة بتقنية Gemini 3 Pro Image من Google DeepMind",
     "items": {
       "speed": {
-        "title": "Ultra-Fast 4K Generation",
-        "description": "Generate native 4K resolution images in under 10 seconds with Nano Banana Pro's optimized AI models - the fastest professional AI image generator available."
+        "title": "توليد 4K فائق السرعة",
+        "description": "أنشئ صور دقة 4K أصلية في أقل من 10 ثوانٍ مع نماذج الذكاء الاصطناعي المحسّنة من Nano Banana Pro - أسرع مولد صور احترافي بالذكاء الاصطناعي متاح."
       },
       "quality": {
-        "title": "Native 4K UHD Output",
-        "description": "Create stunning 4096x4096 pixel images with exceptional detail, color accuracy, and professional-grade quality suitable for commercial and enterprise applications."
+        "title": "مخرجات UHD 4K أصلية",
+        "description": "أنشئ صور مذهلة بـ 4096x4096 بكسل مع تفاصيل استثنائية ودقة لون وجودة احترافية مناسبة للتطبيقات التجارية والمؤسسات."
       },
       "variety": {
-        "title": "Diverse Artistic Styles",
-        "description": "Choose from photorealistic, illustrative, artistic, conceptual, and specialized styles. Nano Banana Pro adapts to every aesthetic preference from realism to creative art."
+        "title": "أنماط فنية متنوعة",
+        "description": "اختر من الأنماط الواقعية الفوتوغرافية والتوضيحية والفنية والمفاهيم والمتخصصة. يتكيف Nano Banana Pro مع كل تفضيل جمالي من الواقعية إلى الفن الإبداعي."
       },
       "control": {
-        "title": "Advanced Creative Controls",
-        "description": "Fine-tune your AI image generation with professional-grade controls including customizable prompts, aspect ratio selection, resolution options, and parameter adjustments for precise creative control."
+        "title": "التحكم الإبداعي المتقدم",
+        "description": "ضبط توليد صور الذكاء الاصطناعي بدقة مع تحكم احترافي يشمل طلبات قابلة للتخصيص واختيار نسبة الأفقية وخيارات الدقة وتعديل المعاملات للتحكم الإبداعي الدقيق."
       },
       "batch": {
-        "title": "Batch Processing",
-        "description": "Support for batch generation of multiple images to significantly boost productivity. Perfect for professional projects and enterprise applications requiring large volumes of image assets."
+        "title": "معالجة دفعية",
+        "description": "الدعم لمعالجة دفعية لصور متعددة لتعزيز الإنتاجية بشكل كبير. مثالي للمشاريع الاحترافية والتطبيقات الحكومية التي تتطلب أحجام كبيرة من مواد الصور."
       },
       "secure": {
-        "title": "Enterprise Security",
-        "description": "Your creative work is protected with enterprise-grade encryption, strict privacy policies, and compliance with international data protection standards. Nano Banana Pro never shares your AI-generated images without explicit permission."
+        "title": "أمان المؤسسات",
+        "description": "يتم حماية عملك الإبداعي بالتشفير على مستوى المؤسسات وسياسات الخصوصية الصارمة والامتثال لمعايير حماية البيانات الدولية. لا يشارك Nano Banana Pro صورك المُنشأة بالذكاء الاصطناعي بدون إذن صريح."
       }
     }
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Nano Banana Pro Frequently Asked Questions",
-    "subtitle": "Common questions about Nano Banana Pro AI image generator",
+    "badge": "الأسئلة الشائعة",
+    "title": "أسئلة متكررة حول Nano Banana Pro",
+    "subtitle": "أسئلة شائعة حول مولد صور Nano Banana Pro بالذكاء الاصطناعي",
     "items": [
       {
-        "question": "What is Nano Banana Pro and how does it differ from other AI image generators?",
-        "answer": "Nano Banana Pro is Google DeepMind's Gemini 3 Pro Image model - an advanced AI image generator that uses reasoning-guided generation to create 4K high-resolution images. Unlike other AI image generators, Nano Banana Pro offers native 4K output, accurate multilingual text rendering, character consistency across up to 5 characters, and generation speeds under 10 seconds. It outperforms competitors in text accuracy, prompt adherence, and professional editing capabilities."
+        "question": "ما هو Nano Banana Pro وكيف يختلف عن مولدات الصور بالذكاء الاصطناعي الأخرى؟",
+        "answer": "Nano Banana Pro هو نموذج Gemini 3 Pro Image من Google DeepMind - مولد صور ذكاء اصطناعي متقدم يستخدم توليداً موجهاً بالتفكير لإنشاء صور دقة 4K عالية. على عكس مولدات الصور بالذكاء الاصطناعي الأخرى، يوفر Nano Banana Pro مخرجات 4K أصلية ورسم نص دقيق ثنائي اللغة واتساق أحرف عبر ما يصل إلى 5 أحرف وسرعات توليد أقل من 10 ثوانٍ. يتفوق على المنافسين في دقة النص والالتزام بالطلب والقدرات التحريرية الاحترافية."
       },
       {
-        "question": "How fast is Nano Banana Pro's AI image generation?",
-        "answer": "Nano Banana Pro generates 4K (4096x4096) high-resolution images in under 10 seconds - significantly faster than competing AI image generators. For complex prompts, the AI may create interim images to test composition and logic, but even with reasoning steps, generation typically completes in seconds. This unprecedented speed makes Nano Banana Pro ideal for rapid prototyping, high-volume content creation, and time-sensitive projects."
+        "question": "ما مدى سرعة توليد الصور بالذكاء الاصطناعي من Nano Banana Pro؟",
+        "answer": "يولد Nano Banana Pro صور 4K (4096x4096) عالية الدقة في أقل من 10 ثوانٍ - بسرعة أسرع بكثير من مولدات الصور بالذكاء الاصطناعي المنافسة. بالنسبة للطلبات المعقدة، قد ينشئ الذكاء الاصطناعي صور وسيطة لاختبار التكوين والمنطق، لكن حتى مع خطوات التفكير، عادة ما يكتمل التوليد في ثوانٍ. تجعل هذه السرعة غير المسبوقة Nano Banana Pro مثالياً للإنشاء السريع للنماذج وإنتاج المحتوى بحجم كبير والمشاريع الحساسة للوقت."
       },
       {
-        "question": "What image resolution and quality does Nano Banana Pro support?",
-        "answer": "Nano Banana Pro supports native 4K ultra-high definition (4096x4096 pixels) output - the highest resolution available among mainstream AI image generators. Images feature exceptional detail, accurate color reproduction, proper lighting, and professional-grade quality suitable for print media, large-format displays, commercial projects, and enterprise applications. Lower resolutions (1024x1024, 2048x2048) are also available for faster generation or smaller file sizes."
+        "question": "ما دقة الصورة والجودة التي يدعمها Nano Banana Pro؟",
+        "answer": "يدعم Nano Banana Pro مخرجات 4K فائقة الدقة أصلية (4096x4096 بكسل) - أعلى دقة متاحة بين مولدات الصور بالذكاء الاصطناعي السائدة. تتميز الصور بتفاصيل استثنائية وإعادة إنتاج دقيقة للألوان وإضاءة صحيحة وجودة احترافية مناسبة لوسائط الطباعة والعروض ذات الصيغة الكبيرة والمشاريع التجارية والتطبيقات الحكومية. كما تتوفر دقات أقل (1024x1024، 2048x2048) لتوليد أسرع أو أحجام ملفات أصغر."
       },
       {
-        "question": "Can Nano Banana Pro generate text in images accurately?",
-        "answer": "Yes! Nano Banana Pro achieves breakthrough accuracy in text rendering - a significant advancement over earlier AI image generators. The AI can generate legible, correctly spelled text in multiple languages directly within images, making it perfect for creating mockups, posters, infographics, marketing materials, and multilingual content. This capability addresses one of the most challenging limitations in AI image generation."
+        "question": "هل يمكن لـ Nano Banana Pro توليد نصوص في الصور بدقة؟",
+        "answer": "نعم! يحقق Nano Banana Pro دقة اختراقية في رسم النصوص - تقدم كبير عن مولدات الصور بالذكاء الاصطناعي السابقة. يمكن للذكاء الاصطناعي توليد نصوص واضحة وموضوعة بشكل صحيح بلغات متعددة مباشرة داخل الصور، مما يجعله مثالياً لإنشاء النماذج والملصقات والرسوم البيانية والمواد التسويقية ومحتوى ثنائي اللغة. تعالج هذه القدرة أحد أصعب التحديات في توليد الصور بالذكاء الاصطناعي."
       },
       {
-        "question": "How does character consistency work in Nano Banana Pro?",
-        "answer": "Nano Banana Pro ensures superior character consistency across multiple images, supporting up to 5 distinct characters. This means you can generate a series of images featuring the same characters with consistent appearance, facial features, clothing, and style - essential for storytelling, brand mascots, character design, and sequential content creation. This level of consistency surpasses most competing AI image generators."
+        "question": "كيف يعمل اتساق الأحرف في Nano Banana Pro؟",
+        "answer": "يضمن Nano Banana Pro اتساق أحرف فائق عبر صور متعددة، مما يدعم ما يصل إلى 5 أحرف مختلفة. هذا يعني أنه يمكنك توليد سلسلة من الصور تتميز بنفس الأحرف مع مظهر متسق والملامح الوجهية والملابس والأسلوب - ضروري لسرد القصص وشخصيات العلامات التجارية وتصميم الأحرف وإنشاء محتوى متسلسل. يتجاوز مستوى الاتساق هذا معظم مولدات الصور بالذكاء الاصطناعي المنافسة."
       },
       {
-        "question": "Is Nano Banana Pro suitable for commercial and enterprise use?",
-        "answer": "Absolutely! Nano Banana Pro is designed for professional, commercial, and enterprise applications. With 4K native resolution, reasoning-guided generation for complex requirements, advanced editing controls, batch processing, enterprise-grade security, and dedicated support with SLA guarantees, Nano Banana Pro meets the demanding needs of businesses, agencies, and large organizations requiring professional AI image generation at scale."
+        "question": "هل Nano Banana Pro مناسب للاستخدام التجاري والحكومي؟",
+        "answer": "بالتأكيد! تم تصميم Nano Banana Pro للتطبيقات الاحترافية والتجارية والحكومية. مع دقة أصلية 4K وتوليد موجه بالتفكير للمتطلبات المعقدة وتحكم تحرير متقدم ومعالجة دفعية وأمان على مستوى المؤسسات ودعم مخصص مع ضمانات SLA، يلبي Nano Banana Pro احتياجات الشركات والوكالات والمؤسسات الكبيرة التي تطلب توليد صور ذكاء اصطناعي احترافي على نطاق واسع."
       }
     ]
   },
   "cta": {
-    "title": "Start Creating with Nano Banana Pro AI Image Generator",
-    "subtitle": "Join thousands of professionals using Nano Banana Pro (Gemini 3 Pro Image) to generate 4K AI images for design, marketing, and creative projects.",
-    "primary": "Try Nano Banana Pro Free",
-    "secondary": "View Pricing Plans",
-    "note": "No credit card required • 4K images • Under 10 seconds"
+    "title": "ابدأ الإنشاء مع مولد الصور Nano Banana Pro بالذكاء الاصطناعي",
+    "subtitle": "انضم إلى آلاف المحترفين الذين يستخدمون Nano Banana Pro (Gemini 3 Pro Image) لتوليد صور ذكاء اصطناعي 4K للتصميم والتسويق والمشاريع الإبداعية.",
+    "primary": "جرب Nano Banana Pro مجاناً",
+    "secondary": "عرض خطط التسعير",
+    "note": "لا توجد حاجة لبطاقة ائتمان • صور 4K • أقل من 10 ثوانٍ"
   }
 }

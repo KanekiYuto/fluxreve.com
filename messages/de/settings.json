@@ -1,43 +1,43 @@
 {
   "seo": {
-    "title": "Settings",
-    "description": "Manage your account settings and preferences"
+    "title": "Einstellungen",
+    "description": "Verwalten Sie Ihre Kontoeinstellungen und Voreinstellungen"
   },
-  "title": "Settings",
-  "subtitle": "Manage your account settings and preferences",
+  "title": "Einstellungen",
+  "subtitle": "Verwalten Sie Ihre Kontoeinstellungen und Voreinstellungen",
   "loginRequired": {
-    "title": "Sign In Required",
-    "description": "Please sign in to access your settings and manage your account.",
-    "cta": "Sign In Now"
+    "title": "Anmeldung erforderlich",
+    "description": "Bitte melden Sie sich an, um auf Ihre Einstellungen zuzugreifen und Ihr Konto zu verwalten.",
+    "cta": "Jetzt anmelden"
   },
   "sections": {
     "profile": {
-      "title": "Profile Information",
+      "title": "Profilinformation",
       "name": "Name",
-      "email": "Email Address",
-      "plan": "Current Plan",
-      "verified": "Verified",
-      "notSet": "Not set"
+      "email": "E-Mail-Adresse",
+      "plan": "Aktueller Plan",
+      "verified": "Verifiziert",
+      "notSet": "Nicht gesetzt"
     },
     "preferences": {
-      "title": "Preferences",
-      "notifications": "Email Notifications",
-      "notificationsDesc": "Receive updates and notifications via email"
+      "title": "Voreinstellungen",
+      "notifications": "E-Mail-Benachrichtigungen",
+      "notificationsDesc": "Erhalten Sie Updates und Benachrichtigungen per E-Mail"
     },
     "connections": {
-      "title": "Connected Accounts",
-      "googleConnected": "You can use your Google account to sign in to your account.",
-      "googleNotConnected": "Connect your Google account to enable this login method.",
-      "githubConnected": "You can use your GitHub account to sign in to your account.",
-      "githubNotConnected": "Connect your GitHub account to enable this login method.",
-      "connected": "Connected"
+      "title": "Verbundene Konten",
+      "googleConnected": "Sie können Ihr Google-Konto verwenden, um sich in Ihr Konto anzumelden.",
+      "googleNotConnected": "Verbinden Sie Ihr Google-Konto, um diese Anmeldungsmethode zu aktivieren.",
+      "githubConnected": "Sie können Ihr GitHub-Konto verwenden, um sich in Ihr Konto anzumelden.",
+      "githubNotConnected": "Verbinden Sie Ihr GitHub-Konto, um diese Anmeldungsmethode zu aktivieren.",
+      "connected": "Verbunden"
     }
   },
   "actions": {
-    "edit": "Edit",
-    "change": "Change",
-    "enable": "Enable",
-    "upgrade": "Upgrade Plan",
-    "copy": "Copy"
+    "edit": "Bearbeiten",
+    "change": "Ändern",
+    "enable": "Aktivieren",
+    "upgrade": "Plan aktualisieren",
+    "copy": "Kopieren"
   }
 }
