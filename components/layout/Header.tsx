@@ -130,9 +130,9 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-[250] bg-bg-elevated border-b border-border/80 h-[60px] flex-shrink-0 shadow-sm">
       <nav className="h-full px-4 lg:px-8" aria-label="Global">
-        <div className="w-full h-full flex items-center justify-between lg:grid lg:grid-cols-[1fr_auto_1fr] lg:gap-4">
+        <div className="w-full h-full flex items-center justify-between">
           {/* 左侧: 侧边栏按钮和Logo (移动端) */}
-          <div className="flex lg:hidden items-center gap-2">
+          <div className="lg:hidden flex items-center gap-2">
             <button
               type="button"
               aria-label={isOpen ? 'Close sidebar' : 'Open sidebar'}
@@ -150,12 +150,12 @@ export default function Header() {
           </div>
 
           {/* 中间: 导航菜单 (桌面端) */}
-          <div className="hidden lg:flex items-center justify-center gap-x-1">
+          <div className="hidden lg:flex items-center justify-center gap-x-1 flex-1">
             {headerNavigation.map((entry) => renderNavItem(entry, commonT))}
           </div>
 
           {/* 右侧: 登录/用户按钮 */}
-          <div className="flex lg:flex justify-end items-center gap-3">
+          <div className="flex items-center gap-3 justify-end">
             {!session ? (
               <>
                 {/* 登录文本按钮 */}
