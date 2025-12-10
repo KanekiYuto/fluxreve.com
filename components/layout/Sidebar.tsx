@@ -10,6 +10,7 @@ import { useCachedSession, clearSessionCache } from '@/hooks/useCachedSession';
 import { signOut } from '@/lib/auth-client';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Logo from '@/components/Logo';
 import {
   Home,
   LayoutDashboard,
@@ -272,12 +273,7 @@ export default function Sidebar() {
             {/* 头部 */}
             <div className="relative flex h-[60px] items-center justify-center border-b border-border">
               <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/logo.png"
-                  alt={siteConfig.name}
-                  className="h-8 w-auto"
-                />
+                <Logo className="text-white" />
               </Link>
               <button
                 type="button"
@@ -335,12 +331,7 @@ export default function Sidebar() {
             href="/"
             className="flex items-center gap-2 hover:opacity-80 transition-opacity"
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/logo.png"
-              alt={siteConfig.name}
-              className="h-8 w-auto"
-            />
+            <Logo className="text-white" />
           </Link>
         </div>
 

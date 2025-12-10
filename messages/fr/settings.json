@@ -1,43 +1,43 @@
 {
   "seo": {
-    "title": "Settings",
-    "description": "Manage your account settings and preferences"
+    "title": "Paramètres",
+    "description": "Gérez vos paramètres de compte et vos préférences"
   },
-  "title": "Settings",
-  "subtitle": "Manage your account settings and preferences",
+  "title": "Paramètres",
+  "subtitle": "Gérez vos paramètres de compte et vos préférences",
   "loginRequired": {
-    "title": "Sign In Required",
-    "description": "Please sign in to access your settings and manage your account.",
-    "cta": "Sign In Now"
+    "title": "Connexion Requise",
+    "description": "Veuillez vous connecter pour accéder à vos paramètres et gérer votre compte.",
+    "cta": "Se Connecter Maintenant"
   },
   "sections": {
     "profile": {
-      "title": "Profile Information",
-      "name": "Name",
-      "email": "Email Address",
-      "plan": "Current Plan",
-      "verified": "Verified",
-      "notSet": "Not set"
+      "title": "Informations de Profil",
+      "name": "Nom",
+      "email": "Adresse E-mail",
+      "plan": "Plan Actuel",
+      "verified": "Vérifié",
+      "notSet": "Non défini"
     },
     "preferences": {
-      "title": "Preferences",
-      "notifications": "Email Notifications",
-      "notificationsDesc": "Receive updates and notifications via email"
+      "title": "Préférences",
+      "notifications": "Notifications par E-mail",
+      "notificationsDesc": "Recevez des mises à jour et des notifications par e-mail"
     },
     "connections": {
-      "title": "Connected Accounts",
-      "googleConnected": "You can use your Google account to sign in to your account.",
-      "googleNotConnected": "Connect your Google account to enable this login method.",
-      "githubConnected": "You can use your GitHub account to sign in to your account.",
-      "githubNotConnected": "Connect your GitHub account to enable this login method.",
-      "connected": "Connected"
+      "title": "Comptes Connectés",
+      "googleConnected": "Vous pouvez utiliser votre compte Google pour vous connecter à votre compte.",
+      "googleNotConnected": "Connectez votre compte Google pour activer cette méthode de connexion.",
+      "githubConnected": "Vous pouvez utiliser votre compte GitHub pour vous connecter à votre compte.",
+      "githubNotConnected": "Connectez votre compte GitHub pour activer cette méthode de connexion.",
+      "connected": "Connecté"
     }
   },
   "actions": {
-    "edit": "Edit",
-    "change": "Change",
-    "enable": "Enable",
-    "upgrade": "Upgrade Plan",
-    "copy": "Copy"
+    "edit": "Modifier",
+    "change": "Changer",
+    "enable": "Activer",
+    "upgrade": "Mettre à Jour le Plan",
+    "copy": "Copier"
   }
 }

@@ -1,50 +1,50 @@
 {
   "seo": {
-    "title": "My Quota",
-    "description": "Manage and view your available quota usage and history"
+    "title": "حصتي",
+    "description": "إدارة وعرض استخدام وتاريخ الحصة المتاحة"
   },
-  "title": "My Quota",
-  "subtitle": "Manage and view your available quota",
+  "title": "حصتي",
+  "subtitle": "إدارة وعرض الحصة المتاحة",
   "loginRequired": {
-    "title": "Login to View Quota",
-    "description": "Log in to view your quota usage and history"
+    "title": "سجل الدخول لعرض الحصة",
+    "description": "سجل الدخول لعرض استخدام وتاريخ حصتك"
   },
   "summary": {
-    "title": "Total Available",
-    "credits": "Credits"
+    "title": "الإجمالي المتاح",
+    "credits": "رصيد"
   },
   "tabs": {
-    "active": "Active Quota",
-    "expired": "Expired"
+    "active": "الحصة النشطة",
+    "expired": "منتهية الصلاحية"
   },
   "table": {
-    "type": "Type",
-    "amount": "Amount",
-    "consumed": "Consumed",
-    "available": "Available",
-    "issuedAt": "Issued At",
-    "expiresAt": "Expires At",
-    "noExpiry": "Never"
+    "type": "النوع",
+    "amount": "الكمية",
+    "consumed": "المستهلك",
+    "available": "المتاح",
+    "issuedAt": "تاريخ الإصدار",
+    "expiresAt": "تاريخ الانتهاء",
+    "noExpiry": "أبداً"
   },
   "quotaTypes": {
-    "daily_free": "Daily Free Quota",
-    "monthly_basic": "Monthly Basic",
-    "monthly_pro": "Monthly Pro",
-    "yearly_basic": "Yearly Basic",
-    "yearly_pro": "Yearly Pro",
-    "quota_pack": "Quota Pack",
-    "subscription_change_compensation": "Subscription Change Compensation"
+    "daily_free": "حصة يومية مجانية",
+    "monthly_basic": "شهري أساسي",
+    "monthly_pro": "شهري احترافي",
+    "yearly_basic": "سنوي أساسي",
+    "yearly_pro": "سنوي احترافي",
+    "quota_pack": "حزمة حصة",
+    "subscription_change_compensation": "تعويض تغيير الاشتراك"
   },
   "empty": {
-    "active": "No active quota available",
-    "expired": "No expired quota"
+    "active": "لا توجد حصة نشطة متاحة",
+    "expired": "لا توجد حصة منتهية الصلاحية"
   },
   "status": {
-    "active": "Active",
-    "depleted": "Depleted"
+    "active": "نشط",
+    "depleted": "مستنفذ"
   },
   "stats": {
-    "consumed": "Consumed",
-    "remaining": "Remaining"
+    "consumed": "مستهلك",
+    "remaining": "متبقي"
   }
 }

@@ -1,42 +1,42 @@
 {
   "seo": {
-    "title": "Subscription Management",
-    "description": "View and manage your subscription plans and billing information"
+    "title": "Gestion des Abonnements",
+    "description": "Visualisez et gérez vos plans d'abonnement et informations de facturation"
   },
-  "title": "Subscription Management",
-  "subtitle": "View and manage your subscription information",
+  "title": "Gestion des Abonnements",
+  "subtitle": "Visualisez et gérez vos informations d'abonnement",
   "login": {
-    "title": "Login to View Subscriptions",
-    "description": "Log in to view and manage your subscription information"
+    "title": "Connexion pour Afficher les Abonnements",
+    "description": "Connectez-vous pour visualiser et gérer vos informations d'abonnement"
   },
   "empty": {
-    "title": "No Subscriptions",
-    "description": "You currently have no active subscriptions",
-    "action": "View Pricing Plans"
+    "title": "Aucun Abonnement",
+    "description": "Vous n'avez actuellement aucun abonnement actif",
+    "action": "Voir les Plans de Tarification"
   },
   "card": {
-    "subscriptionId": "Subscription",
-    "customerId": "Customer",
-    "nextRenewal": "Next renewal switches to",
-    "amount": "Subscription Amount",
-    "platform": "Payment Platform",
-    "startDate": "Start Date",
-    "expiryDate": "Expiry Date",
-    "nextBillingDate": "Next Billing Date",
-    "canceledDate": "Canceled Date",
-    "manageButton": "Manage Subscription",
+    "subscriptionId": "Abonnement",
+    "customerId": "Client",
+    "nextRenewal": "Le prochain renouvellement passe à",
+    "amount": "Montant de l'Abonnement",
+    "platform": "Plateforme de Paiement",
+    "startDate": "Date de Début",
+    "expiryDate": "Date d'Expiration",
+    "nextBillingDate": "Date de la Prochaine Facturation",
+    "canceledDate": "Date d'Annulation",
+    "manageButton": "Gérer l'Abonnement",
     "status": {
-      "active": "Active",
-      "canceled": "Canceled",
-      "expired": "Expired",
-      "paused": "Paused",
-      "pending": "Pending Payment"
+      "active": "Actif",
+      "canceled": "Annulé",
+      "expired": "Expiré",
+      "paused": "En Pause",
+      "pending": "Paiement en Attente"
     },
     "planTypes": {
-      "monthly_basic": "Basic - Monthly",
-      "yearly_basic": "Basic - Yearly",
-      "monthly_pro": "Pro - Monthly",
-      "yearly_pro": "Pro - Yearly"
+      "monthly_basic": "De Base - Mensuel",
+      "yearly_basic": "De Base - Annuel",
+      "monthly_pro": "Pro - Mensuel",
+      "yearly_pro": "Pro - Annuel"
     }
   }
 }

@@ -1,86 +1,86 @@
 {
   "seo": {
-    "title": "History",
-    "description": "View and manage all your AI image generation history"
+    "title": "Historique",
+    "description": "Visualisez et gérez tout votre historique de génération d'images IA"
   },
   "header": {
-    "title": "History",
-    "subtitle": "View and manage all your generation history"
+    "title": "Historique",
+    "subtitle": "Visualisez et gérez tout votre historique de génération"
   },
   "loginPrompt": {
-    "title": "Login to View History",
-    "description": "Sign in to view all your AI image generation history",
-    "cta": "Sign In"
+    "title": "Connexion pour Afficher l'Historique",
+    "description": "Connectez-vous pour afficher tout votre historique de génération d'images IA",
+    "cta": "Se Connecter"
   },
   "filter": {
-    "all": "All",
-    "completed": "Completed",
-    "processing": "Processing",
-    "pending": "Pending",
-    "failed": "Failed",
-    "statusLabel": "Status",
+    "all": "Tous",
+    "completed": "Complété",
+    "processing": "Traitement",
+    "pending": "En Attente",
+    "failed": "Échoué",
+    "statusLabel": "Statut",
     "taskTypeLabel": "Type",
     "taskType": {
-      "all": "All",
-      "text-to-image": "Text to Image",
-      "image-to-image": "Image to Image"
+      "all": "Tous",
+      "text-to-image": "Texte vers Image",
+      "image-to-image": "Image vers Image"
     },
-    "modelLabel": "Model",
+    "modelLabel": "Modèle",
     "model": {
-      "all": "All",
+      "all": "Tous",
       "nano-banana-pro": "Nano Banana Pro",
       "z-image": "Z-Image",
       "z-image-lora": "Z-Image LoRA",
       "flux-2-pro": "FLUX 2 Pro"
     },
-    "privacyLabel": "Privacy",
+    "privacyLabel": "Confidentialité",
     "privacy": {
-      "private": "Private",
+      "private": "Privé",
       "public": "Public"
     },
-    "nsfwLabel": "Content",
+    "nsfwLabel": "Contenu",
     "nsfw": {
-      "safe": "Safe",
-      "nsfw": "NSFW"
+      "safe": "Sûr",
+      "nsfw": "Sensible"
     },
-    "selectPlaceholder": "Select...",
-    "selectedCount": "{count} selected",
-    "title": "Filters",
-    "clearAll": "Clear"
+    "selectPlaceholder": "Sélectionner...",
+    "selectedCount": "{count} sélectionné",
+    "title": "Filtres",
+    "clearAll": "Effacer"
   },
   "status": {
-    "completed": "Completed",
-    "processing": "Processing",
-    "pending": "Pending",
-    "failed": "Failed"
+    "completed": "Complété",
+    "processing": "Traitement",
+    "pending": "En Attente",
+    "failed": "Échoué"
   },
   "empty": {
-    "title": "No Tasks Yet",
-    "subtitle": "Start creating your first AI image",
-    "filteredTitle": "No Matching Tasks",
-    "filteredSubtitle": "Try changing the filter options",
-    "cta": "Start Creating"
+    "title": "Aucune Tâche Encore",
+    "subtitle": "Commencez par créer votre première image IA",
+    "filteredTitle": "Aucune Tâche Correspondante",
+    "filteredSubtitle": "Essayez de changer les options de filtre",
+    "cta": "Commencer à Créer"
   },
-  "noPrompt": "No prompt",
+  "noPrompt": "Pas de requête",
   "card": {
-    "delete": "Delete",
-    "confirmDelete": "Delete",
-    "confirmDeleteTitle": "Delete Task",
-    "confirmDeleteMessage": "Are you sure you want to delete this task? This action cannot be undone.",
-    "cancelDelete": "Cancel",
-    "deleting": "Deleting...",
-    "private": "Private",
+    "delete": "Supprimer",
+    "confirmDelete": "Supprimer",
+    "confirmDeleteTitle": "Supprimer la Tâche",
+    "confirmDeleteMessage": "Êtes-vous sûr de vouloir supprimer cette tâche? Cette action ne peut pas être annulée.",
+    "cancelDelete": "Annuler",
+    "deleting": "Suppression en cours...",
+    "private": "Privé",
     "public": "Public",
-    "makePrivate": "Make Private",
-    "makePublic": "Make Public"
+    "makePrivate": "Rendre Privé",
+    "makePublic": "Rendre Public"
   },
   "errors": {
-    "fetchFailed": "Failed to fetch tasks",
-    "retry": "Retry"
+    "fetchFailed": "Échec de la récupération des tâches",
+    "retry": "Réessayer"
   },
   "pagination": {
-    "prev": "Previous",
-    "next": "Next"
+    "prev": "Précédent",
+    "next": "Suivant"
   }
 }
 

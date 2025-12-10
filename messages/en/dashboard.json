@@ -52,5 +52,11 @@
       "subtitle": "Start generating your first image",
       "cta": "Generate Now"
     }
+  },
+  "marketing": {
+    "title": "Unlock More Powerful Features",
+    "description": "Upgrade your plan to get more credits, ultra-high resolution, batch generation, and priority support.",
+    "upgradeButton": "Upgrade Now",
+    "learnMoreButton": "Learn More"
   }
 }

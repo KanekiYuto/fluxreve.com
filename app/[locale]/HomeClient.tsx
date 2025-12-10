@@ -4,7 +4,12 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import Divider from '@/components/Divider';
 import Pricing from '@/components/pricing';
-import PrismaticBurst from '@/components/PrismaticBurst';
+import dynamic from 'next/dynamic';
+
+const PrismaticBurst = dynamic(() => import('@/components/PrismaticBurst'), {
+  ssr: false,
+  loading: () => <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/5" />
+});
 
 export default function HomeClient() {
   const t = useTranslations('home');
@@ -141,14 +146,29 @@ export default function HomeClient() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="group relative p-8 rounded-2xl bg-bg-elevated border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10 hover:-translate-y-1"
+                className="group relative p-8 rounded-2xl bg-bg-elevated border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10 will-change-transform"
+                style={{ transform: 'translateZ(0)' }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = 'translate3d(0, -0.25rem, 0)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = 'translate3d(0, 0, 0)';
+                }}
               >
                 {/* 背景光效 */}
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
 
                 <div className="relative flex items-start gap-4">
                   {/* 图标 */}
-                  <div className="flex-shrink-0 p-3 rounded-xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300 group-hover:scale-110">
+                  <div className="flex-shrink-0 p-3 rounded-xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300 will-change-transform"
+                    style={{ transform: 'translateZ(0)' }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.transform = 'translate3d(0, 0, 0) scale(1.1)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.transform = 'translate3d(0, 0, 0) scale(1)';
+                    }}
+                  >
                     {feature.icon}
                   </div>
 

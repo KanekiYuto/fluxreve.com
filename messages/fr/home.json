@@ -1,54 +1,54 @@
 {
   "metadata": {
-    "title": "{siteName} - AI Image Generation Tool | Generate Professional Images Fast",
-    "description": "Using advanced artificial intelligence technology to quickly generate high-quality professional images. Making AI image creation simple and efficient."
+    "title": "{siteName} - Outil de Génération d'Images IA | Générez des Images Professionnelles Rapidement",
+    "description": "Utilisant une technologie d'intelligence artificielle avancée pour générer rapidement des images professionnelles de haute qualité. Rendre la création d'images IA simple et efficace."
   },
   "hero": {
-    "badge": "AI Image Generation Tool",
+    "badge": "Outil de Génération d'Images IA",
     "title": {
-      "line1": "Turn Ideas Into Reality Instantly",
-      "line2": "AI-Powered Professional Image Generation"
+      "line1": "Transformez vos Idées en Réalité Instantanément",
+      "line2": "Génération d'Images Professionnelles Propulsée par l'IA"
     },
-    "description": "Simply describe what you want and get stunning professional-grade images. No design skills required—everyone can be a creator.",
+    "description": "Décrivez simplement ce que vous voulez et obtenez des images professionnelles époustouflantes. Aucune compétence en design requise—tout le monde peut être créateur.",
     "buttons": {
-      "startCreate": "Start Creating",
-      "viewExamples": "View Examples"
+      "startCreate": "Commencer à Créer",
+      "viewExamples": "Voir les Exemples"
     },
     "features": {
-      "highQuality": "High Quality Output",
-      "fastGeneration": "Fast Generation",
-      "easyToUse": "Easy to Use"
+      "highQuality": "Sortie de Haute Qualité",
+      "fastGeneration": "Génération Rapide",
+      "easyToUse": "Facile à Utiliser"
     }
   },
   "features": {
-    "sectionTitle": "Why Choose Us",
-    "sectionDescription": "Combining powerful AI technology with a clean user experience, making image creation easier than ever",
+    "sectionTitle": "Pourquoi Nous Choisir",
+    "sectionDescription": "Combinant une technologie IA puissante avec une expérience utilisateur épurée, rendant la création d'images plus facile que jamais",
     "items": [
       {
-        "title": "Fast Generation",
-        "description": "Powerful AI algorithms generate high-quality images in seconds, dramatically improving creative efficiency."
+        "title": "Génération Rapide",
+        "description": "Des algorithmes IA puissants génèrent des images de haute qualité en quelques secondes, améliorant considérablement l'efficacité créative."
       },
       {
-        "title": "Professional Quality",
-        "description": "Using state-of-the-art AI models to output professional-grade image quality, meeting various creative needs."
+        "title": "Qualité Professionnelle",
+        "description": "Utilisant des modèles IA de pointe pour produire une qualité d'image de niveau professionnel, répondant à divers besoins créatifs."
       },
       {
-        "title": "Flexible Control",
-        "description": "Rich parameter settings and style options let you precisely control every detail of image generation."
+        "title": "Contrôle Flexible",
+        "description": "Des paramètres riches et des options de style vous permettent de contrôler précisément chaque détail de la génération d'images."
       },
       {
-        "title": "Easy to Use",
-        "description": "Intuitive interface requiring no expertise, allowing anyone to easily create beautiful images."
+        "title": "Facile à Utiliser",
+        "description": "Interface intuitive ne nécessitant aucune expertise, permettant à quiconque de créer facilement de belles images."
       }
     ]
   },
   "cta": {
-    "title": "Start Creating Now",
-    "description": "Join thousands of creators using the power of AI to bring your ideas to life",
+    "title": "Commencez à Créer Maintenant",
+    "description": "Rejoignez des milliers de créateurs utilisant la puissance de l'IA pour donner vie à vos idées",
     "buttons": {
-      "freeTrial": "Free Trial",
-      "viewExamples": "View Examples"
+      "freeTrial": "Essai Gratuit",
+      "viewExamples": "Voir les Exemples"
     },
-    "note": "No credit card required · Start using now"
+    "note": "Aucune carte de crédit requise · Commencez à utiliser maintenant"
   }
 }

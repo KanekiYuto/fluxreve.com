@@ -1,9 +1,9 @@
 {
   "unauthorized": {
-    "title": "Access Restricted",
-    "description": "Sorry, you don't have permission to access the admin dashboard. Only administrator accounts can access this page.",
-    "helpTitle": "Need Help?",
-    "helpDescription": "If you believe this is an error, please contact the system administrator to request access.",
-    "backToHome": "Back to Home"
+    "title": "Accès Restreint",
+    "description": "Désolé, vous n'avez pas la permission d'accéder au tableau de bord administrateur. Seuls les comptes administrateurs peuvent accéder à cette page.",
+    "helpTitle": "Besoin d'Aide ?",
+    "helpDescription": "Si vous pensez qu'il s'agit d'une erreur, veuillez contacter l'administrateur système pour demander l'accès.",
+    "backToHome": "Retour à l'Accueil"
   }
 }

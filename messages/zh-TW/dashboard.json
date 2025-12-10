@@ -52,5 +52,11 @@
       "subtitle": "開始生成您的第一張圖片",
       "cta": "去生成"
     }
+  },
+  "marketing": {
+    "title": "解鎖更多強大功能",
+    "description": "升級訂閱方案，獲得更多積分配額、超高畫質解析度、批次生成功能以及優先客服支援。",
+    "upgradeButton": "立即升級",
+    "learnMoreButton": "了解更多"
   }
 }

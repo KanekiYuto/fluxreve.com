@@ -842,8 +842,8 @@ export default function LiquidEther({
       pressure!: Pressure;
       constructor(options?: Partial<SimOptions>) {
         this.options = {
-          iterations_poisson: 32,
-          iterations_viscous: 32,
+          iterations_poisson: 16,
+          iterations_viscous: 16,
           mouse_force: 20,
           resolution: 0.5,
           cursor_size: 100,

@@ -1,23 +1,23 @@
 {
   "seo": {
-    "title": "Dashboard",
-    "description": "Manage your AI image generation projects, track usage, and access all features"
+    "title": "لوحة التحكم",
+    "description": "إدارة مشاريع توليد الصور بالذكاء الاصطناعي، تتبع الاستخدام، والوصول إلى جميع الميزات"
   },
-  "welcome": "Welcome back, {name}",
-  "subtitle": "Start creating your amazing content",
-  "guestWelcome": "Welcome to Dashboard",
-  "guestSubtitle": "Please sign in to access your dashboard and start creating",
+  "welcome": "مرحباً بعودتك، {name}",
+  "subtitle": "ابدأ في إنشاء محتواك الرائع",
+  "guestWelcome": "مرحباً بك في لوحة التحكم",
+  "guestSubtitle": "يرجى تسجيل الدخول للوصول إلى لوحة التحكم والبدء في الإنشاء",
   "loginPrompt": {
-    "title": "Sign In to Access Your Dashboard",
-    "description": "Create an account or sign in to unlock all features, track your usage, and manage your projects.",
-    "cta": "Sign In Now",
+    "title": "سجل الدخول للوصول إلى لوحة التحكم",
+    "description": "أنشئ حساباً أو سجل الدخول لفتح جميع الميزات، تتبع استخدامك، وإدارة مشاريعك.",
+    "cta": "سجل الدخول الآن",
     "features": {
-      "quota": "Usage Quota",
-      "quotaDesc": "Track your generation quota and usage history",
-      "projects": "Project Management",
-      "projectsDesc": "Organize and manage all your creative projects",
-      "analytics": "Analytics & Stats",
-      "analyticsDesc": "View detailed statistics and performance metrics"
+      "quota": "حصة الاستخدام",
+      "quotaDesc": "تتبع حصة التوليد وسجل الاستخدام",
+      "projects": "إدارة المشاريع",
+      "projectsDesc": "تنظيم وإدارة جميع مشاريعك الإبداعية",
+      "analytics": "التحليلات والإحصائيات",
+      "analyticsDesc": "عرض إحصائيات تفصيلية ومقاييس الأداء"
     }
   },
   "userType": {
@@ -27,30 +27,36 @@
   },
   "stats": {
     "quota": {
-      "remaining": "Remaining Generation Quota",
-      "unlimited": "Unlimited Generation Quota",
-      "expires": "expires"
+      "remaining": "حصة التوليد المتبقية",
+      "unlimited": "حصة توليد غير محدودة",
+      "expires": "تنتهي"
     },
-    "projects": "Total Projects",
-    "images": "Uploaded Image Assets",
-    "templates": "Created Templates"
+    "projects": "إجمالي المشاريع",
+    "images": "أصول الصور المرفوعة",
+    "templates": "القوالب المنشأة"
   },
   "quickActions": {
-    "title": "Quick Start",
-    "newProject": "New Project",
-    "uploadImage": "Upload Image",
-    "templates": "Templates",
-    "tutorial": "Tutorial"
+    "title": "بداية سريعة",
+    "newProject": "مشروع جديد",
+    "uploadImage": "رفع صورة",
+    "templates": "القوالب",
+    "tutorial": "دليل إرشادي"
   },
   "recent": {
-    "title": "Recent Generations",
-    "subtitle": "Showing content from the past week only",
-    "viewAll": "View All",
-    "loading": "Loading...",
+    "title": "التوليدات الأخيرة",
+    "subtitle": "يعرض المحتوى من الأسبوع الماضي فقط",
+    "viewAll": "عرض الكل",
+    "loading": "جاري التحميل...",
     "empty": {
-      "title": "No content generated this week",
-      "subtitle": "Start generating your first image",
-      "cta": "Generate Now"
+      "title": "لم يتم توليد محتوى هذا الأسبوع",
+      "subtitle": "ابدأ بتوليد صورتك الأولى",
+      "cta": "ولّد الآن"
     }
+  },
+  "marketing": {
+    "title": "افتح ميزات أكثر قوة",
+    "description": "قم بترقية خطتك للحصول على المزيد من الاعتمادات، دقة فائقة، توليد دفعي، ودعم ذو أولوية.",
+    "upgradeButton": "الترقية الآن",
+    "learnMoreButton": "معرفة المزيد"
   }
 }

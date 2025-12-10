@@ -1,54 +1,54 @@
 {
   "metadata": {
-    "title": "{siteName} - AI Image Generation Tool | Generate Professional Images Fast",
-    "description": "Using advanced artificial intelligence technology to quickly generate high-quality professional images. Making AI image creation simple and efficient."
+    "title": "{siteName} - أداة توليد الصور بالذكاء الاصطناعي | ولّد صوراً احترافية بسرعة",
+    "description": "باستخدام تكنولوجيا الذكاء الاصطناعي المتقدمة لتوليد صور احترافية عالية الجودة بسرعة. جعل إنشاء الصور بالذكاء الاصطناعي بسيطاً وفعالاً."
   },
   "hero": {
-    "badge": "AI Image Generation Tool",
+    "badge": "أداة توليد الصور بالذكاء الاصطناعي",
     "title": {
-      "line1": "Turn Ideas Into Reality Instantly",
-      "line2": "AI-Powered Professional Image Generation"
+      "line1": "حوّل الأفكار إلى واقع فوراً",
+      "line2": "توليد صور احترافية مدعوم بالذكاء الاصطناعي"
     },
-    "description": "Simply describe what you want and get stunning professional-grade images. No design skills required—everyone can be a creator.",
+    "description": "فقط صف ما تريد واحصل على صور احترافية مذهلة. لا حاجة لمهارات التصميم - الجميع يمكن أن يكون مبدعاً.",
     "buttons": {
-      "startCreate": "Start Creating",
-      "viewExamples": "View Examples"
+      "startCreate": "ابدأ الإنشاء",
+      "viewExamples": "عرض الأمثلة"
     },
     "features": {
-      "highQuality": "High Quality Output",
-      "fastGeneration": "Fast Generation",
-      "easyToUse": "Easy to Use"
+      "highQuality": "إخراج عالي الجودة",
+      "fastGeneration": "توليد سريع",
+      "easyToUse": "سهل الاستخدام"
     }
   },
   "features": {
-    "sectionTitle": "Why Choose Us",
-    "sectionDescription": "Combining powerful AI technology with a clean user experience, making image creation easier than ever",
+    "sectionTitle": "لماذا تختارنا",
+    "sectionDescription": "الجمع بين تقنية الذكاء الاصطناعي القوية وتجربة مستخدم نظيفة، مما يجعل إنشاء الصور أسهل من أي وقت مضى",
     "items": [
       {
-        "title": "Fast Generation",
-        "description": "Powerful AI algorithms generate high-quality images in seconds, dramatically improving creative efficiency."
+        "title": "توليد سريع",
+        "description": "خوارزميات الذكاء الاصطناعي القوية تولد صوراً عالية الجودة في ثوانٍ، مما يحسن الكفاءة الإبداعية بشكل كبير."
       },
       {
-        "title": "Professional Quality",
-        "description": "Using state-of-the-art AI models to output professional-grade image quality, meeting various creative needs."
+        "title": "جودة احترافية",
+        "description": "باستخدام نماذج الذكاء الاصطناعي الحديثة لإخراج جودة صورة احترافية، تلبي احتياجات إبداعية متنوعة."
       },
       {
-        "title": "Flexible Control",
-        "description": "Rich parameter settings and style options let you precisely control every detail of image generation."
+        "title": "تحكم مرن",
+        "description": "إعدادات معاملات غنية وخيارات أنماط تتيح لك التحكم الدقيق في كل تفاصيل توليد الصور."
       },
       {
-        "title": "Easy to Use",
-        "description": "Intuitive interface requiring no expertise, allowing anyone to easily create beautiful images."
+        "title": "سهل الاستخدام",
+        "description": "واجهة بديهية لا تتطلب خبرة، تسمح لأي شخص بإنشاء صور جميلة بسهولة."
       }
     ]
   },
   "cta": {
-    "title": "Start Creating Now",
-    "description": "Join thousands of creators using the power of AI to bring your ideas to life",
+    "title": "ابدأ الإنشاء الآن",
+    "description": "انضم إلى آلاف المبدعين الذين يستخدمون قوة الذكاء الاصطناعي لتحويل أفكارهم إلى واقع",
     "buttons": {
-      "freeTrial": "Free Trial",
-      "viewExamples": "View Examples"
+      "freeTrial": "تجربة مجانية",
+      "viewExamples": "عرض الأمثلة"
     },
-    "note": "No credit card required · Start using now"
+    "note": "لا حاجة لبطاقة ائتمان · ابدأ الاستخدام الآن"
   }
 }

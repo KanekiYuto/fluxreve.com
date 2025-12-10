@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import { useState, useEffect, useRef } from 'react';
 import dynamic from 'next/dynamic';
 
 const GridScan = dynamic(() => import('@/components/GridScan').then(mod => ({ default: mod.GridScan })), {
@@ -21,24 +22,50 @@ export default function LandingCTA({
   linesColor = '#6b5566'
 }: LandingCTAProps) {
   const t = useTranslations(`${namespace}.cta`);
+  const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setIsVisible(true);
+            observer.disconnect();
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
 
   return (
-    <section className="relative w-full py-16 sm:py-20 md:py-24 overflow-hidden">
+    <section ref={sectionRef} className="relative w-full py-16 sm:py-20 md:py-24 overflow-hidden">
       {/* GridScan 背景特效 */}
       <div className="absolute inset-0 w-full h-full">
-        <GridScan
-          sensitivity={0.55}
-          lineThickness={1}
-          linesColor={linesColor}
-          gridScale={0.1}
-          scanColor={scanColor}
-          scanOpacity={0.5}
-          enablePost
-          bloomIntensity={0.6}
-          chromaticAberration={0.002}
-          noiseIntensity={0.01}
-          className="w-full h-full"
-        />
+        {isVisible ? (
+          <GridScan
+            sensitivity={0.55}
+            lineThickness={1}
+            linesColor={linesColor}
+            gridScale={0.1}
+            scanColor={scanColor}
+            scanOpacity={0.5}
+            enablePost
+            bloomIntensity={0.6}
+            chromaticAberration={0.002}
+            noiseIntensity={0.01}
+            className="w-full h-full"
+          />
+        ) : (
+          <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-primary/10 to-secondary/10" />
+        )}
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

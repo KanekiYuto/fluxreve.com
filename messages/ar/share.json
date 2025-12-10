@@ -1,50 +1,50 @@
 {
   "notFound": {
-    "title": "Content Not Found",
-    "description": "This shared content may have been deleted by the creator, set to private, the link may have expired, or you may have accessed the wrong address",
-    "createButton": "Create AI Artwork",
-    "homeButton": "Back to Home"
+    "title": "المحتوى غير موجود",
+    "description": "قد يكون هذا المحتوى المشترك قد تم حذفه بواسطة المنشئ، أو تم تعيينه كخاص، أو انتهت صلاحية الرابط، أو ربما قمت بالوصول إلى عنوان خاطئ",
+    "createButton": "إنشاء عمل فني بالذكاء الاصطناعي",
+    "homeButton": "العودة إلى الصفحة الرئيسية"
   },
   "nsfw": {
-    "warning": "Sensitive Content Warning",
-    "description": "This content may contain adult or sensitive material. Viewer discretion is advised",
-    "reveal": "I am 18+, View Content",
-    "imageAlt": "AI Generated Image"
+    "warning": "تحذير محتوى حساس",
+    "description": "قد يحتوي هذا المحتوى على مواد للبالغين أو حساسة. يُنصح بتقدير المشاهد",
+    "reveal": "أنا أبلغ من العمر 18+ عاماً، عرض المحتوى",
+    "imageAlt": "صورة مولدة بالذكاء الاصطناعي"
   },
   "processing": {
-    "title": "Generating...",
-    "description": "AI is creating the current artwork, this usually takes a few minutes",
-    "tip": "Please refresh the page later to view the result"
+    "title": "جاري التوليد...",
+    "description": "الذكاء الاصطناعي يقوم بإنشاء العمل الفني الحالي، هذا عادةً يستغرق بضع دقائق",
+    "tip": "يرجى تحديث الصفحة لاحقاً لعرض النتيجة"
   },
   "actions": {
-    "copyLink": "Copy Share Link",
-    "linkCopied": "Copied",
-    "share": "Share",
-    "shareToX": "Share to X",
-    "moreActions": "More Actions",
-    "downloadCurrent": "Download Current Image",
-    "downloadAll": "Download All Images",
-    "downloadCard": "Download Share Card",
-    "createSimilar": "Create Similar Image"
+    "copyLink": "نسخ رابط المشاركة",
+    "linkCopied": "تم النسخ",
+    "share": "مشاركة",
+    "shareToX": "مشاركة على X",
+    "moreActions": "المزيد من الإجراءات",
+    "downloadCurrent": "تنزيل الصورة الحالية",
+    "downloadAll": "تنزيل جميع الصور",
+    "downloadCard": "تنزيل بطاقة المشاركة",
+    "createSimilar": "إنشاء صورة مشابهة"
   },
   "details": {
-    "prompt": "Prompt",
-    "promptCopied": "Copied",
-    "copyPrompt": "Copy Prompt",
-    "aiModel": "AI Model",
-    "resolution": "Resolution",
-    "aspectRatio": "Aspect Ratio",
-    "imageAlt": "Image",
-    "previousImage": "Previous Image",
-    "nextImage": "Next Image",
-    "referenceImages": "Input Images",
-    "referenceImage": "Input Image",
-    "generationResults": "AI Image Generation Results",
-    "imagePreview": "AI Generated HD Image Preview",
-    "parametersInfo": "Generation Parameters and Model Info"
+    "prompt": "الوصف",
+    "promptCopied": "تم النسخ",
+    "copyPrompt": "نسخ الوصف",
+    "aiModel": "نموذج الذكاء الاصطناعي",
+    "resolution": "الدقة",
+    "aspectRatio": "نسبة العرض إلى الارتفاع",
+    "imageAlt": "صورة",
+    "previousImage": "الصورة السابقة",
+    "nextImage": "الصورة التالية",
+    "referenceImages": "صور الإدخال",
+    "referenceImage": "صورة الإدخال",
+    "generationResults": "نتائج توليد الصور بالذكاء الاصطناعي",
+    "imagePreview": "معاينة صورة HD المولدة بالذكاء الاصطناعي",
+    "parametersInfo": "معاملات التوليد ومعلومات النموذج"
   },
   "metadata": {
-    "descriptionPrefix": "High-quality image generated with {model} AI model. Prompt: ",
-    "ogDescriptionPrefix": "{model} AI Generated | "
+    "descriptionPrefix": "صورة عالية الجودة مولدة بنموذج الذكاء الاصطناعي {model}. الوصف: ",
+    "ogDescriptionPrefix": "{model} مولد بالذكاء الاصطناعي | "
   }
 }

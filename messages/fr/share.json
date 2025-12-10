@@ -1,50 +1,50 @@
 {
   "notFound": {
-    "title": "Content Not Found",
-    "description": "This shared content may have been deleted by the creator, set to private, the link may have expired, or you may have accessed the wrong address",
-    "createButton": "Create AI Artwork",
-    "homeButton": "Back to Home"
+    "title": "Contenu Non Trouvé",
+    "description": "Ce contenu partagé a peut-être été supprimé par le créateur, mis en privé, le lien a peut-être expiré, ou vous avez peut-être accédé à une mauvaise adresse",
+    "createButton": "Créer une Œuvre IA",
+    "homeButton": "Retour à l'Accueil"
   },
   "nsfw": {
-    "warning": "Sensitive Content Warning",
-    "description": "This content may contain adult or sensitive material. Viewer discretion is advised",
-    "reveal": "I am 18+, View Content",
-    "imageAlt": "AI Generated Image"
+    "warning": "Avertissement de Contenu Sensible",
+    "description": "Ce contenu peut contenir du matériel pour adultes ou sensible. La discrétion du spectateur est conseillée",
+    "reveal": "J'ai 18+, Afficher le Contenu",
+    "imageAlt": "Image Générée par IA"
   },
   "processing": {
-    "title": "Generating...",
-    "description": "AI is creating the current artwork, this usually takes a few minutes",
-    "tip": "Please refresh the page later to view the result"
+    "title": "Génération en cours...",
+    "description": "L'IA crée actuellement l'œuvre, cela prend généralement quelques minutes",
+    "tip": "Veuillez rafraîchir la page plus tard pour voir le résultat"
   },
   "actions": {
-    "copyLink": "Copy Share Link",
-    "linkCopied": "Copied",
-    "share": "Share",
-    "shareToX": "Share to X",
-    "moreActions": "More Actions",
-    "downloadCurrent": "Download Current Image",
-    "downloadAll": "Download All Images",
-    "downloadCard": "Download Share Card",
-    "createSimilar": "Create Similar Image"
+    "copyLink": "Copier le Lien de Partage",
+    "linkCopied": "Copié",
+    "share": "Partager",
+    "shareToX": "Partager sur X",
+    "moreActions": "Plus d'Actions",
+    "downloadCurrent": "Télécharger l'Image Actuelle",
+    "downloadAll": "Télécharger Toutes les Images",
+    "downloadCard": "Télécharger la Carte de Partage",
+    "createSimilar": "Créer une Image Similaire"
   },
   "details": {
-    "prompt": "Prompt",
-    "promptCopied": "Copied",
-    "copyPrompt": "Copy Prompt",
-    "aiModel": "AI Model",
-    "resolution": "Resolution",
-    "aspectRatio": "Aspect Ratio",
+    "prompt": "Requête",
+    "promptCopied": "Copié",
+    "copyPrompt": "Copier la Requête",
+    "aiModel": "Modèle IA",
+    "resolution": "Résolution",
+    "aspectRatio": "Rapport d'Aspect",
     "imageAlt": "Image",
-    "previousImage": "Previous Image",
-    "nextImage": "Next Image",
-    "referenceImages": "Input Images",
-    "referenceImage": "Input Image",
-    "generationResults": "AI Image Generation Results",
-    "imagePreview": "AI Generated HD Image Preview",
-    "parametersInfo": "Generation Parameters and Model Info"
+    "previousImage": "Image Précédente",
+    "nextImage": "Image Suivante",
+    "referenceImages": "Images d'Entrée",
+    "referenceImage": "Image d'Entrée",
+    "generationResults": "Résultats de Génération d'Images IA",
+    "imagePreview": "Aperçu HD d'Image Générée par IA",
+    "parametersInfo": "Paramètres de Génération et Informations de Modèle"
   },
   "metadata": {
-    "descriptionPrefix": "High-quality image generated with {model} AI model. Prompt: ",
-    "ogDescriptionPrefix": "{model} AI Generated | "
+    "descriptionPrefix": "Image haute qualité générée avec le modèle IA {model}. Requête: ",
+    "ogDescriptionPrefix": "{model} Généré par IA | "
   }
 }

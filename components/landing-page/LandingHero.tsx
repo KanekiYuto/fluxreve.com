@@ -2,7 +2,12 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import LiquidEther from '@/components/LiquidEther';
+import dynamic from 'next/dynamic';
+
+const LiquidEther = dynamic(() => import('@/components/LiquidEther'), {
+  ssr: false,
+  loading: () => <div className="w-full h-full bg-gradient-to-br from-primary/5 to-secondary/5" />
+});
 
 interface LandingHeroProps {
   namespace: string;
@@ -22,12 +27,10 @@ export default function LandingHero({
       {/* LiquidEther 流体背景 */}
       <div className="absolute inset-0">
         <LiquidEther
-          mouseForce={20}
-          cursorSize={100}
+          mouseForce={15}
+          cursorSize={80}
           colors={colors}
-          autoDemo={true}
-          autoSpeed={0.5}
-          autoIntensity={2.2}
+          autoDemo={false}
           className="w-full h-full"
         />
       </div>

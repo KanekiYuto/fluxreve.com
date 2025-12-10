@@ -1,111 +1,111 @@
 {
-  "title": "Privacy Policy | {siteName}",
-  "description": "Learn how {siteName} collects, uses, and protects your personal information. Our privacy policy covers data collection, usage, sharing, and your rights.",
-  "keywords": "privacy policy, data protection, personal information, user privacy, data collection, GDPR, privacy rights",
-  "lastUpdated": "Last Updated",
+  "title": "سياسة الخصوصية | {siteName}",
+  "description": "تعرف على كيفية قيام {siteName} بجمع واستخدام وحماية معلوماتك الشخصية. تغطي سياسة الخصوصية لدينا جمع البيانات والاستخدام والمشاركة وحقوقك.",
+  "keywords": "سياسة الخصوصية، حماية البيانات، المعلومات الشخصية، خصوصية المستخدم، جمع البيانات، GDPR، حقوق الخصوصية",
+  "lastUpdated": "آخر تحديث",
   "introduction": {
-    "title": "Introduction",
-    "content1": "{siteName} (\"we,\" \"us,\" or \"our\") is committed to protecting your privacy and safeguarding your personal information. This Privacy Policy outlines our practices regarding the collection, storage, use, and sharing of your information when you access our AI-powered image generation services.",
-    "content2": "By using our services through the {siteName} website, mobile applications, or APIs, you acknowledge that you have read, understood, and agree to the practices described in this Privacy Policy. This policy also informs you of your privacy rights and how the law protects you."
+    "title": "مقدمة",
+    "content1": "{siteName} (\"نحن\" أو \"لنا\") ملتزمة بحماية خصوصيتك وحماية معلوماتك الشخصية. تحدد سياسة الخصوصية هذه ممارساتنا فيما يتعلق بجمع وتخزين واستخدام ومشاركة معلوماتك عند الوصول إلى خدمات توليد الصور المدعومة بالذكاء الاصطناعي.",
+    "content2": "باستخدام خدماتنا من خلال موقع {siteName} أو تطبيقات الهاتف المحمول أو واجهات برمجية، فإنك تقر بأنك قرأت وفهمت وتوافق على الممارسات الموضحة في سياسة الخصوصية هذه. تطلعك هذه السياسة أيضاً على حقوقك في الخصوصية وكيفية حمايتك بموجب القانون."
   },
   "dataCollection": {
-    "title": "Information We Collect",
-    "intro": "We may collect various types of information to provide and improve our services:",
+    "title": "المعلومات التي نجمعها",
+    "intro": "قد نجمع أنواعاً مختلفة من المعلومات لتقديم وتحسين خدماتنا:",
     "providedInfo": {
-      "title": "Information You Provide",
+      "title": "المعلومات التي تقدمها أنت",
       "items": [
-        "Account information: email address, username, password",
-        "Profile data: display name, avatar, bio",
-        "Payment details: billing information, transaction history",
-        "Communication data: feedback, support inquiries, or other messages you send to us"
+        "معلومات الحساب: عنوان البريد الإلكتروني واسم المستخدم وكلمة المرور",
+        "بيانات الملف الشخصي: اسم العرض والصورة الرمزية والسيرة الذاتية",
+        "تفاصيل الدفع: معلومات الفواتير وسجل المعاملات",
+        "بيانات الاتصال: الملاحظات واستفسارات الدعم أو الرسائل الأخرى التي تُرسلها إلينا"
       ]
     },
     "automaticInfo": {
-      "title": "Automatically Collected Information",
+      "title": "المعلومات المجمعة تلقائياً",
       "items": [
-        "Device data: device type, operating system, browser version, unique device identifiers",
-        "Usage information: features accessed, images generated, interaction patterns",
-        "Log data: IP address, access times, pages viewed, referring URLs",
-        "Cookies and tracking technologies for analytics and functionality"
+        "بيانات الجهاز: نوع الجهاز ونظام التشغيل وإصدار المتصفح ومعرفات الجهاز الفريدة",
+        "معلومات الاستخدام: الميزات التي تم الوصول إليها والصور المُولَّدة وأنماط التفاعل",
+        "بيانات السجل: عنوان IP وأوقات الوصول والصفحات التي تمت مشاهدتها وعناوين URL المرجعية",
+        "الكوكيز وتقنيات التتبع للتحليلات والوظائف"
       ]
     },
     "userContent": {
-      "title": "User-Generated Content",
-      "description": "Content you create using our services, including AI-generated images, text prompts, uploaded images, and project data. We may temporarily store this content to provide our services and may use it to improve our AI models, subject to your consent."
+      "title": "المحتوى الذي ينشئه المستخدم",
+      "description": "المحتوى الذي تُنشئه باستخدام خدماتنا، بما في ذلك الصور المُولَّدة بالذكاء الاصطناعي والنصوص والصور المرفوعة وبيانات المشروع. قد نقوم بتخزين هذا المحتوى مؤقتاً لتقديم خدماتنا وقد نستخدمه لتحسين نماذج الذكاء الاصطناعي لدينا، بموجب موافقتك."
     }
   },
   "dataUsage": {
-    "title": "How We Use Your Information",
-    "intro": "We use the collected information for the following purposes:",
+    "title": "كيف نستخدم معلوماتك",
+    "intro": "نستخدم المعلومات المجمعة للأغراض التالية:",
     "items": [
-      "Providing, operating, and maintaining our AI image generation services",
-      "Processing your transactions and managing your account",
-      "Improving our services through data analysis and usage pattern identification",
-      "Training and enhancing our AI models to deliver better results",
-      "Sending service notifications, updates, and promotional communications (with your consent)",
-      "Detecting, preventing, and addressing fraud, security issues, or technical problems",
-      "Complying with legal obligations and enforcing our terms of service",
-      "Providing customer support and responding to your inquiries"
+      "توفير وتشغيل والحفاظ على خدمات توليد الصور بالذكاء الاصطناعي",
+      "معالجة معاملاتك وإدارة حسابك",
+      "تحسين خدماتنا من خلال تحليل البيانات وتحديد أنماط الاستخدام",
+      "تدريب وتحسين نماذج الذكاء الاصطناعي لدينا لتحقيق نتائج أفضل",
+      "إرسال إخطارات الخدمة والتحديثات والاتصالات الترويجية (بموافقتك)",
+      "الكشف عن الاحتيال ومنعه والتعامل معه، ومشاكل الأمان أو المشاكل التقنية",
+      "الامتثال للالتزامات القانونية وإنفاذ شروط الخدمة",
+      "توفير دعم العملاء والرد على استفساراتك"
     ]
   },
   "dataSharing": {
-    "title": "Information Sharing and Disclosure",
-    "intro": "We do not sell your personal information. We may share your information only in the following circumstances:",
+    "title": "مشاركة وكشف المعلومات",
+    "intro": "لا نبيع معلوماتك الشخصية. قد نشارك معلوماتك فقط في الحالات التالية:",
     "items": [
-      "With your explicit consent or at your direction",
-      "With trusted service providers who assist in operating our platform (cloud hosting, payment processing, analytics)",
-      "With AI model providers for processing your generation requests, under strict data protection agreements",
-      "To comply with legal obligations, court orders, or valid governmental requests",
-      "To protect our rights, property, safety, or that of our users and the public",
-      "In connection with a merger, acquisition, or sale of assets, where information may be transferred as a business asset"
+      "بموافقتك الصريحة أو بناءً على توجيهاتك",
+      "مع مزودي الخدمات الموثوقين الذين يساعدون في تشغيل منصتنا (استضافة سحابية ومعالجة الدفع والتحليلات)",
+      "مع موفري نماذج الذكاء الاصطناعي لمعالجة طلبات التوليد، بموجب اتفاقيات حماية بيانات صارمة",
+      "للامتثال للالتزامات القانونية وأوامر المحكمة أو الطلبات الحكومية الصحيحة",
+      "لحماية حقوقنا وملكيتنا وسلامتنا، أو حقوق وسلامة مستخدمينا والجمهور",
+      "فيما يتعلق بالاندماج أو الاستحواذ أو بيع الأصول، حيث قد يتم نقل المعلومات كأصل تجاري"
     ]
   },
   "dataStorage": {
-    "title": "Data Storage and Security",
-    "location": "Storage Location: Your information is stored on secure servers located in various regions globally to ensure optimal service performance and reliability. We use industry-leading cloud infrastructure providers.",
-    "duration": "Retention Period: We retain your personal information only for as long as necessary to fulfill the purposes outlined in this policy or as required by law. Generated content may be retained based on your account settings and subscription type.",
-    "security": "Security Measures: We implement industry-standard security practices including encryption (in transit and at rest), access controls, regular security audits, and secure authentication mechanisms. However, no method of transmission or storage is 100% secure."
+    "title": "تخزين البيانات والأمان",
+    "location": "موقع التخزين: يتم تخزين معلوماتك على خوادم آمنة موجودة في مناطق مختلفة حول العالم لضمان الأداء والموثوقية المثلى للخدمة. نستخدم موفري البنية الأساسية السحابية الرائدة في الصناعة.",
+    "duration": "فترة الاحتفاظ: نحتفظ بمعلوماتك الشخصية فقط طالما لزم الأمر لتحقيق الأغراض المحددة في هذه السياسة أو كما يقتضيه القانون. قد يتم الاحتفاظ بالمحتوى المُولَّد بناءً على إعدادات حسابك ونوع الاشتراك.",
+    "security": "تدابير الأمان: ننفذ ممارسات أمان معيارية تشمل التشفير (أثناء النقل والراحة) والتحكم في الوصول والتدقيقات الأمنية المنتظمة وآليات المصادقة الآمنة. ومع ذلك، لا توجد طريقة نقل أو تخزين آمنة بنسبة 100٪."
   },
   "cookies": {
-    "title": "Cookies and Tracking Technologies",
-    "intro": "We use cookies and similar technologies to enhance your experience:",
+    "title": "الكوكيز وتقنيات التتبع",
+    "intro": "نستخدم الكوكيز والتقنيات المماثلة لتحسين تجربتك:",
     "items": [
-      "Essential cookies: Required for basic service functionality and authentication",
-      "Preference cookies: Remember your settings and personalization choices",
-      "Analytics cookies: Help us understand usage patterns and improve our services",
-      "Marketing cookies: Deliver relevant content and measure campaign effectiveness (with your consent)"
+      "كوكيز ضرورية: مطلوبة لوظائف الخدمة الأساسية والمصادقة",
+      "كوكيز التفضيلات: تتذكر إعداداتك واختيارات التخصيص",
+      "كوكيز التحليلات: تساعدنا على فهم أنماط الاستخدام وتحسين خدماتنا",
+      "كوكيز التسويق: توفير محتوى ذي صلة وقياس فعالية الحملة (بموافقتك)"
     ],
-    "note": "You can control cookie preferences through your browser settings. Note that disabling certain cookies may limit functionality of our services."
+    "note": "يمكنك التحكم في تفضيلات الكوكيز من خلال إعدادات متصفحك. لاحظ أن تعطيل بعض الكوكيز قد يحد من وظائف خدماتنا."
   },
   "userRights": {
-    "title": "Your Privacy Rights",
-    "intro": "Depending on your location, you may have the following rights regarding your personal information:",
+    "title": "حقوقك في الخصوصية",
+    "intro": "بناءً على موقعك الجغرافي، قد تكون لديك الحقوق التالية فيما يتعلق بمعلوماتك الشخصية:",
     "items": [
-      "Access: Request a copy of the personal information we hold about you",
-      "Rectification: Correct inaccurate or incomplete information",
-      "Deletion: Request deletion of your personal data (\"right to be forgotten\")",
-      "Restriction: Limit how we process your information",
-      "Portability: Receive your data in a structured, commonly used format",
-      "Objection: Object to processing of your information for certain purposes",
-      "Withdraw Consent: Revoke previously given consent at any time",
-      "Opt-out: Unsubscribe from marketing communications"
+      "الوصول: طلب نسخة من المعلومات الشخصية التي نمتلكها عنك",
+      "التصحيح: تصحيح المعلومات غير الدقيقة أو غير المكتملة",
+      "الحذف: طلب حذف بياناتك الشخصية (\\\"الحق في النسيان\\\")",
+      "التقييد: تحديد كيفية معالجتنا لمعلوماتك",
+      "قابلية النقل: الحصول على بيانات معلوماتك في صيغة منظمة وشائعة الاستخدام",
+      "الاعتراض: الاعتراض على معالجة معلوماتك لأغراض معينة",
+      "سحب الموافقة: إلغاء الموافقة الممنوحة سابقاً في أي وقت",
+      "إلغاء الاشتراك: إلغاء الاشتراك في اتصالات التسويق"
     ]
   },
   "thirdPartyLinks": {
-    "title": "Third-Party Services and Links",
-    "content": "Our services may contain links to third-party websites, integrations, or services. We are not responsible for the privacy practices or content of these third parties. We encourage you to review their privacy policies before providing any personal information."
+    "title": "الخدمات والروابط الخارجية",
+    "content": "قد تحتوي خدماتنا على روابط إلى مواقع ويب أو تكاملات أو خدمات تابعة لجهات خارجية. لا نتحمل مسؤولية عن ممارسات الخصوصية أو محتوى هذه الجهات الخارجية. نشجعك على مراجعة سياسات الخصوصية الخاصة بهم قبل تقديم أي معلومات شخصية."
   },
   "childrenPrivacy": {
-    "title": "Children's Privacy",
-    "content": "Our services are not directed to individuals under the age of 13 (or equivalent minimum age in your jurisdiction). We do not knowingly collect personal information from children. If we become aware that we have collected data from a child without proper consent, we will take steps to delete it promptly."
+    "title": "خصوصية الأطفال",
+    "content": "خدماتنا ليست موجهة للأفراد الذين تقل أعمارهم عن 13 سنة (أو السن الأدنى المعادلة في ولايتك القضائية). لا نجمع عن قصد معلومات شخصية من الأطفال. إذا أدركنا أننا جمعنا بيانات من طفل دون موافقة صحيحة، فسنتخذ خطوات لحذفها على الفور."
   },
   "policyUpdates": {
-    "title": "Changes to This Privacy Policy",
-    "content": "We may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. We will notify you of material changes by posting the updated policy on this page with a revised \"Last Updated\" date. For significant changes, we may also provide notice via email or prominent notification on our platform. We encourage you to review this policy regularly."
+    "title": "التغييرات على سياسة الخصوصية هذه",
+    "content": "قد نحدث سياسة الخصوصية هذه بشكل دوري لتعكس التغييرات في ممارساتنا أو المتطلبات القانونية. سنخطرك بالتغييرات الجوهرية بنشر السياسة المحدثة على هذه الصفحة مع تاريخ \\\"آخر تحديث\\\" منقح. بالنسبة للتغييرات الكبيرة، قد نقدم أيضاً إشعاراً عبر البريد الإلكتروني أو إشعار بارز على منصتنا. نشجعك على مراجعة هذه السياسة بانتظام."
   },
   "contact": {
-    "title": "Contact Us",
-    "intro": "If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:",
-    "email": "Email"
+    "title": "اتصل بنا",
+    "intro": "إذا كانت لديك أسئلة أو مخاوف أو طلبات بشأن سياسة الخصوصية هذه أو ممارسات البيانات لدينا، يرجى الاتصال بنا على:",
+    "email": "البريد الإلكتروني"
   }
 }

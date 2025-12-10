@@ -1,43 +1,43 @@
 {
   "seo": {
-    "title": "Help Center",
-    "description": "Find answers to common questions and get support for {siteName} AI image generation platform"
+    "title": "مركز المساعدة",
+    "description": "ابحث عن إجابات للأسئلة الشائعة واحصل على الدعم لمنصة توليد الصور بالذكاء الاصطناعي {siteName}"
   },
-  "title": "Help Center",
-  "subtitle": "Find answers to common questions and get support",
+  "title": "مركز المساعدة",
+  "subtitle": "ابحث عن إجابات للأسئلة الشائعة واحصل على الدعم",
   "contact": {
-    "title": "Need Help?",
-    "description": "Can't find what you're looking for? Contact our support team and we'll get back to you as soon as possible.",
-    "email": "Contact Support"
+    "title": "تحتاج مساعدة؟",
+    "description": "لم تجد ما تبحث عنه؟ اتصل بفريق الدعم لدينا وسنعود إليك في أقرب وقت ممكن.",
+    "email": "اتصل بالدعم"
   },
   "faq": {
-    "badge": "Help & Support",
-    "title": "Frequently Asked Questions",
-    "subtitle": "Find answers to common questions about using our AI image generation platform",
+    "badge": "المساعدة والدعم",
+    "title": "الأسئلة الشائعة",
+    "subtitle": "ابحث عن إجابات للأسئلة الشائعة حول استخدام منصة توليد الصور بالذكاء الاصطناعي",
     "items": [
       {
-        "question": "How do I get started with AI Generator?",
-        "answer": "Getting started is easy! Simply navigate to the AI Generator page, enter your prompt describing what you want to create, select your preferred settings, and click the generate button. Your AI-generated image will be ready in seconds."
+        "question": "كيف أبدأ باستخدام مولد الذكاء الاصطناعي؟",
+        "answer": "البداية سهلة! ما عليك سوى الانتقال إلى صفحة مولد الذكاء الاصطناعي، وإدخال وصفك لما تريد إنشاءه، واختيار إعداداتك المفضلة، والنقر على زر التوليد. ستكون صورتك المولدة بالذكاء الاصطناعي جاهزة في ثوانٍ."
       },
       {
-        "question": "What image formats are supported?",
-        "answer": "We support all common image formats including PNG, JPG, and WebP. You can download your generated images in the format that best suits your needs."
+        "question": "ما هي صيغ الصور المدعومة؟",
+        "answer": "ندعم جميع صيغ الصور الشائعة بما في ذلك PNG و JPG و WebP. يمكنك تنزيل صورك المولدة بالصيغة التي تناسب احتياجاتك."
       },
       {
-        "question": "How many images can I generate?",
-        "answer": "The number of images you can generate depends on your credit quota. Free users get 30 credits daily, while Basic plan subscribers get 1,500 credits monthly and Pro plan subscribers get 7,500 credits monthly. Check our Pricing page for more details."
+        "question": "كم عدد الصور التي يمكنني توليدها؟",
+        "answer": "يعتمد عدد الصور التي يمكنك توليدها على حصة رصيدك. يحصل المستخدمون المجانيون على 30 رصيداً يومياً، بينما يحصل مشتركو الخطة الأساسية على 1,500 رصيد شهرياً ومشتركو الخطة الاحترافية على 7,500 رصيد شهرياً. تحقق من صفحة الأسعار لمزيد من التفاصيل."
       },
       {
-        "question": "Can I use the generated images commercially?",
-        "answer": "Yes! Both Basic and Pro plan subscribers receive a commercial use license. Free plan users can use generated images for personal projects only."
+        "question": "هل يمكنني استخدام الصور المولدة تجارياً؟",
+        "answer": "نعم! يحصل مشتركو الخطط الأساسية والاحترافية على ترخيص استخدام تجاري. يمكن لمستخدمي الخطة المجانية استخدام الصور المولدة للمشاريع الشخصية فقط."
       },
       {
-        "question": "What should I do if the generation fails?",
-        "answer": "If a generation fails, first try refreshing the page and attempting again. Make sure your prompt is clear and descriptive. If problems persist, please contact our support team with details about the issue."
+        "question": "ماذا يجب أن أفعل إذا فشل التوليد؟",
+        "answer": "إذا فشل التوليد، حاول أولاً تحديث الصفحة والمحاولة مرة أخرى. تأكد من أن وصفك واضح ومفصل. إذا استمرت المشاكل، يرجى الاتصال بفريق الدعم لدينا مع تفاصيل حول المشكلة."
       },
       {
-        "question": "How can I improve my generation results?",
-        "answer": "For better results, try to be specific and detailed in your prompts. Include information about style, colors, composition, and mood. Experiment with different models and settings to find what works best for your needs."
+        "question": "كيف يمكنني تحسين نتائج التوليد؟",
+        "answer": "للحصول على نتائج أفضل، حاول أن تكون محدداً ومفصلاً في أوصافك. قم بتضمين معلومات حول الأسلوب والألوان والتكوين والمزاج. جرب نماذج وإعدادات مختلفة للعثور على ما يناسب احتياجاتك."
       }
     ]
   }

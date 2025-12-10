@@ -1,76 +1,76 @@
 {
-  "title": "Terms of Service | {siteName}",
-  "description": "Read {siteName}'s terms of service for using our AI image generation platform. Covers user accounts, usage rules, intellectual property, and service policies.",
-  "keywords": "terms of service, user agreement, service terms, legal agreement, usage policy, intellectual property, service agreement",
-  "lastUpdated": "Last Updated",
+  "title": "Conditions d'Utilisation | {siteName}",
+  "description": "Lisez les conditions d'utilisation de {siteName} pour utiliser notre plateforme de génération d'images par IA. Couvre les comptes utilisateurs, les règles d'utilisation, la propriété intellectuelle et les politiques de service.",
+  "keywords": "conditions d'utilisation, accord utilisateur, conditions de service, accord légal, politique d'utilisation, propriété intellectuelle, accord de service",
+  "lastUpdated": "Dernière Mise à Jour",
   "acceptance": {
-    "title": "Acceptance of Terms",
-    "content1": "Welcome to {siteName}. These Terms of Service (\"Terms,\" \"Agreement\") constitute a legally binding agreement between you (\"User,\" \"you,\" or \"your\") and {siteName} (\"we,\" \"us,\" or \"our\") governing your access to and use of our AI-powered image generation platform, including our website, mobile applications, APIs, and related services (collectively, the \"Service\").",
-    "content2": "By accessing, browsing, or using the Service in any manner, you acknowledge that you have read, understood, and agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, you must immediately discontinue use of the Service."
+    "title": "Acceptation des Conditions",
+    "content1": "Bienvenue sur {siteName}. Ces Conditions d'Utilisation (\"Conditions\", \"Accord\") constituent un accord légalement contraignant entre vous (\"Utilisateur\", \"vous\" ou \"votre\") et {siteName} (\"nous\", \"notre\" ou \"nos\") régissant votre accès et utilisation de notre plateforme de génération d'images alimentée par l'IA, y compris notre site web, applications mobiles, APIs et services connexes (collectivement, le \"Service\").",
+    "content2": "En accédant, parcourant ou utilisant le Service de quelque manière que ce soit, vous reconnaissez que vous avez lu, compris et acceptez d'être lié par ces Conditions et notre Politique de Confidentialité. Si vous n'acceptez pas ces Conditions, vous devez immédiatement cesser l'utilisation du Service."
   },
   "serviceDescription": {
-    "title": "Service Overview",
-    "intro": "{siteName} provides AI-powered creative tools and services, including:",
+    "title": "Aperçu du Service",
+    "intro": "{siteName} fournit des outils et services créatifs alimentés par l'IA, incluant:",
     "items": [
-      "AI image generation from text prompts using advanced machine learning models",
-      "Image editing, enhancement, and style transfer capabilities",
-      "Project management, organization, and cloud storage for generated content",
-      "API access for developers and enterprise integration",
-      "Additional premium features and tools as made available from time to time"
+      "Génération d'images IA à partir de descriptions textuelles utilisant des modèles d'apprentissage automatique avancés",
+      "Capacités d'édition, d'amélioration et de transfert de style d'image",
+      "Gestion de projets, organisation et stockage en nuage pour le contenu généré",
+      "Accès API pour les développeurs et intégration d'entreprise",
+      "Fonctionnalités et outils premium supplémentaires disponibles de temps à autre"
     ]
   },
   "userAccount": {
-    "title": "User Accounts and Registration",
-    "registration": "Registration: To access certain features, you must create an account by providing accurate, complete, and current information. You represent that all information you provide is truthful and that you will maintain the accuracy of such information.",
-    "security": "Account Security: You are solely responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to immediately notify us of any unauthorized access or security breach.",
-    "transfer": "Account Transfer: Your account is personal to you and may not be transferred, sold, or assigned to any third party without our prior written consent."
+    "title": "Comptes Utilisateurs et Inscription",
+    "registration": "Inscription: Pour accéder à certaines fonctionnalités, vous devez créer un compte en fournissant des informations exactes, complètes et actuelles. Vous déclarez que toutes les informations que vous fournissez sont véridiques et que vous maintiendrez l'exactitude de ces informations.",
+    "security": "Sécurité du Compte: Vous êtes seul responsable du maintien de la confidentialité de vos identifiants de compte et de toutes les activités qui se déroulent sous votre compte. Vous acceptez de nous notifier immédiatement de tout accès non autorisé ou violation de sécurité.",
+    "transfer": "Transfert de Compte: Votre compte vous est personnel et ne peut pas être transféré, vendu ou cédé à un tiers sans notre consentement écrit préalable."
   },
   "usageRules": {
-    "title": "Acceptable Use Policy",
-    "intro": "You agree not to use the Service to generate, upload, share, or distribute content that:",
+    "title": "Politique d'Utilisation Acceptable",
+    "intro": "Vous acceptez de ne pas utiliser le Service pour générer, télécharger, partager ou distribuer du contenu qui:",
     "items": [
-      "Violates any applicable laws, regulations, or third-party rights",
-      "Contains illegal, harmful, threatening, abusive, harassing, defamatory, or obscene material",
-      "Depicts or promotes violence, discrimination, hatred, or intolerance based on protected characteristics",
-      "Includes sexually explicit, pornographic, or age-inappropriate content",
-      "Infringes intellectual property rights, including copyrights, trademarks, or patents",
-      "Constitutes spam, phishing, malware, or attempts to compromise platform security",
-      "Impersonates any person or entity or misrepresents your affiliation",
-      "Involves automated scraping, mining, or unauthorized API usage that violates our guidelines",
-      "Exploits, harms, or attempts to exploit minors in any way",
-      "Contains false, misleading, or deceptive information presented as factual"
+      "Viole les lois, réglementations ou droits des tiers applicables",
+      "Contient du matériel illégal, nuisible, menaçant, abusif, harcèlent, diffamatoire ou obscène",
+      "Dépeint ou promeut la violence, la discrimination, la haine ou l'intolérance basées sur des caractéristiques protégées",
+      "Inclut du contenu explicitement sexuel, pornographique ou inapproprié pour les mineurs",
+      "Enfreint les droits de propriété intellectuelle, y compris les droits d'auteur, marques ou brevets",
+      "Constitue du spam, du phishing, des malveillances ou des tentatives de compromettre la sécurité de la plateforme",
+      "Usurpe l'identité d'une personne ou entité ou dénature votre affiliation",
+      "Implique du scraping automatisé, du mining ou un utilisation API non autorisée violant nos directives",
+      "Exploite, lèse ou tente d'exploiter des mineurs de quelque manière que ce soit",
+      "Contient des informations fausses, trompeuses ou trompeuses présentées comme factuelles"
     ]
   },
   "intellectualProperty": {
-    "title": "Intellectual Property Rights",
-    "platformContent": "Platform Ownership: All content, features, functionality, software, designs, text, graphics, logos, and trademarks on the Service are owned by {siteName} or our licensors and are protected by international intellectual property laws. You may not copy, modify, distribute, or reverse engineer any part of the Service without authorization.",
-    "userContent": "User-Generated Content: You retain ownership of images and content you generate using the Service, subject to our limited license below. However, you are solely responsible for ensuring your use does not infringe third-party rights or violate applicable laws.",
-    "license": "License Grant: By using the Service, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, and display your generated content solely for the purposes of: (a) providing and improving the Service, (b) training and enhancing our AI models (with your consent), and (c) marketing and promotional purposes with your explicit permission."
+    "title": "Droits de Propriété Intellectuelle",
+    "platformContent": "Propriété de la Plateforme: Tout contenu, fonctionnalité, logiciel, design, texte, graphiques, logos et marques sur le Service sont la propriété de {siteName} ou de nos concédants et sont protégés par les lois internationales sur la propriété intellectuelle. Vous ne pouvez pas copier, modifier, distribuer ou inverser l'ingénierie de toute partie du Service sans autorisation.",
+    "userContent": "Contenu Généré par l'Utilisateur: Vous conservez la propriété des images et du contenu que vous générez en utilisant le Service, sous réserve de notre licence limitée ci-dessous. Cependant, vous êtes seul responsable de vous assurer que votre utilisation ne porte pas atteinte aux droits des tiers ni ne viole les lois applicables.",
+    "license": "Octroi de Licence: En utilisant le Service, vous nous accordez une licence mondiale, non-exclusive, sans redevances pour utiliser, reproduire, modifier et afficher votre contenu généré uniquement aux fins de: (a) fournir et améliorer le Service, (b) entraîner et améliorer nos modèles IA (avec votre consentement), et (c) à des fins de marketing et de promotion avec votre permission explicite."
   },
   "privacy": {
-    "title": "Privacy and Data Protection",
-    "content": "Your privacy is important to us. Our collection, use, and protection of your personal information is governed by our Privacy Policy, which is incorporated into these Terms by reference. Please review our Privacy Policy to understand our practices."
+    "title": "Confidentialité et Protection des Données",
+    "content": "Votre confidentialité nous importe. Notre collecte, utilisation et protection de vos informations personnelles sont régies par notre Politique de Confidentialité, qui est incorporée dans ces Conditions par référence. Veuillez consulter notre Politique de Confidentialité pour comprendre nos pratiques."
   },
   "serviceChanges": {
-    "title": "Service Modifications and Termination",
-    "modification": "Modifications: We reserve the right to modify, suspend, or discontinue any aspect of the Service at any time, with or without notice. We may also impose limits on certain features or restrict access to parts of the Service. We are not liable for any modifications or discontinuations.",
-    "termination": "Termination by Us: We may suspend or terminate your account and access to the Service immediately, without prior notice, if you breach these Terms, engage in fraudulent activity, or for any other reason at our sole discretion.",
-    "dataRetention": "Effect of Termination: Upon termination, your right to use the Service ceases immediately. We may delete your account data and generated content, though some information may be retained as required by law or for legitimate business purposes."
+    "title": "Modifications et Résiliation du Service",
+    "modification": "Modifications: Nous nous réservons le droit de modifier, suspendre ou cesser tout aspect du Service à tout moment, avec ou sans préavis. Nous pouvons également imposer des limites sur certaines fonctionnalités ou restreindre l'accès à des parties du Service. Nous ne sommes pas responsables de ces modifications ou cessations.",
+    "termination": "Résiliation par Nous: Nous pouvons suspendre ou résilier votre compte et accès au Service immédiatement, sans préavis, si vous enfreignez ces Conditions, vous engagez dans une activité frauduleuse, ou pour toute autre raison à notre seule discrétion.",
+    "dataRetention": "Effet de la Résiliation: Après la résiliation, votre droit d'utiliser le Service cesse immédiatement. Nous pouvons supprimer les données de votre compte et le contenu généré, bien que certaines informations puissent être conservées selon les exigences légales ou à des fins commerciales légitimes."
   },
   "disclaimer": {
-    "title": "Disclaimers and Limitations",
-    "asIs": "As-Is Basis: The Service is provided \"as is\" and \"as available\" without warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not guarantee that the Service will be uninterrupted, error-free, or secure.",
-    "liability": "Limitation of Liability: To the maximum extent permitted by law, {siteName} and its affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or goodwill, arising from your use or inability to use the Service.",
-    "responsibility": "User Responsibility: You acknowledge that AI-generated content may produce unexpected or inaccurate results. You are solely responsible for reviewing, verifying, and determining the appropriateness of any content generated through the Service before use, publication, or distribution."
+    "title": "Clauses de Non-Responsabilité et Limitations",
+    "asIs": "Base Tel Quel: Le Service est fourni \"tel quel\" et \"tel que disponible\" sans garanties d'aucune sorte, expresses ou implicites, y compris mais ne se limitant pas aux garanties de qualité marchande, d'adéquation à un usage particulier ou de non-contrefaçon. Nous ne garantissons pas que le Service sera ininterrompu, sans erreur ou sécurisé.",
+    "liability": "Limitation de Responsabilité: Dans la mesure maximale autorisée par la loi, {siteName} et ses sociétés affiliées ne seront responsables d'aucun dommage indirect, accidentel, spécial, consécutif ou punitif, y compris la perte de profits, de données ou de fonds de commerce, découlant de votre utilisation ou incapacité à utiliser le Service.",
+    "responsibility": "Responsabilité de l'Utilisateur: Vous reconnaissez que le contenu généré par l'IA peut produire des résultats inattendus ou inexacts. Vous êtes seul responsable d'examiner, de vérifier et de déterminer l'opportunité de tout contenu généré via le Service avant son utilisation, sa publication ou sa distribution."
   },
   "legalJurisdiction": {
-    "title": "Governing Law and Dispute Resolution",
-    "law": "Governing Law: These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which {siteName} is registered, without regard to its conflict of law principles.",
-    "disputes": "Dispute Resolution: Any disputes arising out of or relating to these Terms or the Service shall first be attempted to be resolved through good faith negotiations. If negotiations fail, disputes shall be resolved through binding arbitration or litigation in the courts of the applicable jurisdiction, as determined by the governing law."
+    "title": "Droit Applicable et Résolution des Litiges",
+    "law": "Droit Applicable: Ces Conditions seront régies par et interprétées conformément aux lois de la juridiction dans laquelle {siteName} est enregistré, sans égard à ses principes de conflits de lois.",
+    "disputes": "Résolution des Litiges: Tous les litiges découlant de ou relatifs à ces Conditions ou au Service doivent d'abord être résolus par des négociations de bonne foi. Si les négociations échouent, les litiges seront résolus par arbitrage contraignant ou litige devant les tribunaux de la juridiction applicable, tel que déterminé par le droit applicable."
   },
   "contact": {
-    "title": "Contact Information",
-    "intro": "If you have any questions, concerns, or feedback regarding these Terms of Service, please contact us at:",
-    "email": "Email"
+    "title": "Informations de Contact",
+    "intro": "Si vous avez des questions, des préoccupations ou des commentaires concernant ces Conditions d'Utilisation, veuillez nous contacter à:",
+    "email": "E-mail"
   }
 }

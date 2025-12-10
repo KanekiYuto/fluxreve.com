@@ -1,208 +1,208 @@
 {
   "seo": {
-    "title": "AI Generator",
-    "description": "Create stunning AI-generated images with our powerful AI image generation tool. Fast, professional, and easy to use."
+    "title": "مولد الذكاء الاصطناعي",
+    "description": "أنشئ صوراً مذهلة بالذكاء الاصطناعي باستخدام أداة توليد الصور القوية لدينا. سريع واحترافي وسهل الاستخدام."
   },
   "page": {
-    "title": "AI Generator",
-    "description": "Create amazing content with powerful AI models"
+    "title": "مولد الذكاء الاصطناعي",
+    "description": "أنشئ محتوى مذهلاً باستخدام نماذج الذكاء الاصطناعي القوية"
   },
   "tabs": {
-    "textToImage": "Text to Image",
-    "imageToImage": "Image to Image",
-    "more": "More"
+    "textToImage": "من نص إلى صورة",
+    "imageToImage": "من صورة إلى صورة",
+    "more": "المزيد"
   },
   "examples": {
-    "title": "Quick Start",
-    "description": "Click an example below to start creating, or fill out the form on the left to customize",
-    "useExample": "Use This Example",
-    "goToExample": "Go to example {index}",
-    "clickToUse": "Click to use this example",
-    "noExamples": "No examples available"
+    "title": "البدء السريع",
+    "description": "انقر على مثال أدناه لبدء الإنشاء، أو املأ النموذج على اليسار للتخصيص",
+    "useExample": "استخدم هذا المثال",
+    "goToExample": "انتقل إلى المثال {index}",
+    "clickToUse": "انقر لاستخدام هذا المثال",
+    "noExamples": "لا توجد أمثلة متاحة"
   },
   "tags": {
-    "film-style": "Film Style",
-    "moody": "Moody",
-    "retro": "Retro",
-    "currency": "Currency",
-    "portrait": "Portrait",
-    "photorealistic": "Photorealistic",
-    "art-gallery": "Art Gallery",
-    "minimalist": "Minimalist",
-    "professional": "Professional",
-    "education": "Education",
-    "math": "Math",
-    "text-render": "Text Render"
+    "film-style": "نمط سينمائي",
+    "moody": "مزاجي",
+    "retro": "كلاسيكي",
+    "currency": "عملة",
+    "portrait": "بورتريه",
+    "photorealistic": "واقعي",
+    "art-gallery": "معرض فني",
+    "minimalist": "بسيط",
+    "professional": "احترافي",
+    "education": "تعليمي",
+    "math": "رياضيات",
+    "text-render": "عرض نص"
   },
   "results": {
-    "title": "Generated Results",
-    "fileCount": "{count} file(s)",
-    "downloadCurrent": "Download Current",
-    "downloadAll": "Download All ({count})",
-    "generationTime": "Generation Time",
-    "completedTime": "Completed Time",
-    "seconds": "{seconds}s",
-    "prompt": "Prompt"
+    "title": "النتائج المولدة",
+    "fileCount": "{count} ملف",
+    "downloadCurrent": "تنزيل الحالي",
+    "downloadAll": "تنزيل الكل ({count})",
+    "generationTime": "وقت التوليد",
+    "completedTime": "وقت الإكمال",
+    "seconds": "{seconds} ث",
+    "prompt": "الوصف"
   },
   "loading": {
-    "initializing": "Initializing",
-    "creating": "AI Creating",
-    "message": "Generating amazing content for you, please wait..."
+    "initializing": "جاري التهيئة",
+    "creating": "الذكاء الاصطناعي يعمل",
+    "message": "جاري إنشاء محتوى رائع لك، يرجى الانتظار..."
   },
   "credits": {
-    "quota": "Quota",
-    "refresh": "Refresh quota"
+    "quota": "الحصة",
+    "refresh": "تحديث الحصة"
   },
   "form": {
     "mode": {
-      "textToImage": "Text to Image",
-      "imageToImage": "Image to Image"
+      "textToImage": "من نص إلى صورة",
+      "imageToImage": "من صورة إلى صورة"
     },
-    "advancedSettings": "Advanced Settings",
-    "seed": "Seed",
-    "seedPlaceholder": "Leave blank for random",
-    "steps": "Steps",
-    "selectPlaceholder": "Please select",
-    "prompt": "Prompt",
-    "promptPlaceholder": "Describe the image you want to generate...",
-    "aspectRatio": "Aspect Ratio",
-    "aspectRatioPlaceholder": "Select aspect ratio",
+    "advancedSettings": "إعدادات متقدمة",
+    "seed": "البذرة",
+    "seedPlaceholder": "اتركه فارغاً للعشوائية",
+    "steps": "الخطوات",
+    "selectPlaceholder": "يرجى الاختيار",
+    "prompt": "الوصف",
+    "promptPlaceholder": "صف الصورة التي تريد إنشاءها...",
+    "aspectRatio": "نسبة العرض إلى الارتفاع",
+    "aspectRatioPlaceholder": "اختر نسبة العرض إلى الارتفاع",
     "aspectRatios": {
-      "1:1": "1:1 (Square)",
-      "16:9": "16:9 (Landscape)",
-      "9:16": "9:16 (Portrait)",
-      "4:3": "4:3 (Standard)",
-      "3:4": "3:4 (Portrait)",
-      "21:9": "21:9 (Ultrawide)"
+      "1:1": "1:1 (مربع)",
+      "16:9": "16:9 (أفقي)",
+      "9:16": "9:16 (عمودي)",
+      "4:3": "4:3 (قياسي)",
+      "3:4": "3:4 (عمودي)",
+      "21:9": "21:9 (عريض جداً)"
     },
-    "resolution": "Resolution",
-    "resolutionPlaceholder": "Select resolution",
-    "size": "Size",
-    "sizePlaceholder": "Select image size",
-    "outputFormat": "Output Format",
-    "outputFormatPlaceholder": "Select output format",
-    "uploadImage": "Upload Image",
-    "addImageUrl": "Add Image URL",
-    "imageUrlPlaceholder": "Enter image URL",
-    "add": "Add",
-    "cancel": "Cancel",
-    "uploadHint": "Hint: You can drag and drop a file or click to upload",
-    "uploading": "Uploading...",
-    "addItem": "Add Item",
-    "privateMode": "Private Mode",
-    "privateModeDesc": "Results will only be visible to you",
-    "configuration": "Configuration",
-    "addLora": "Add LoRA",
-    "noLoraConfigured": "No LoRA configured yet",
-    "clickAddLoraToStart": "Click the button above to add LoRA configuration",
-    "loraConfig": "LoRA Config",
-    "loraConfigHint": "Enter LoRA configuration in JSON format, e.g., model name, weight, and other parameters"
+    "resolution": "الدقة",
+    "resolutionPlaceholder": "اختر الدقة",
+    "size": "الحجم",
+    "sizePlaceholder": "اختر حجم الصورة",
+    "outputFormat": "صيغة الإخراج",
+    "outputFormatPlaceholder": "اختر صيغة الإخراج",
+    "uploadImage": "رفع صورة",
+    "addImageUrl": "إضافة رابط صورة",
+    "imageUrlPlaceholder": "أدخل رابط الصورة",
+    "add": "إضافة",
+    "cancel": "إلغاء",
+    "uploadHint": "تلميح: يمكنك سحب وإفلات ملف أو النقر للرفع",
+    "uploading": "جاري الرفع...",
+    "addItem": "إضافة عنصر",
+    "privateMode": "الوضع الخاص",
+    "privateModeDesc": "ستكون النتائج مرئية لك فقط",
+    "configuration": "التكوين",
+    "addLora": "إضافة LoRA",
+    "noLoraConfigured": "لم يتم تكوين LoRA بعد",
+    "clickAddLoraToStart": "انقر على الزر أعلاه لإضافة تكوين LoRA",
+    "loraConfig": "تكوين LoRA",
+    "loraConfigHint": "أدخل تكوين LoRA بصيغة JSON، مثل اسم النموذج والوزن والمعاملات الأخرى"
   },
   "error": {
-    "required": "Required",
-    "current": "Current",
-    "credits": "Credits",
-    "parameterError": "Parameter Error",
-    "promptRequired": "Please enter a prompt",
-    "insufficientCredits": "Insufficient Credits",
-    "pleaseRecharge": "Please recharge and try again",
-    "queryStatusFailed": "Query Status Failed",
-    "unableToQueryStatus": "Unable to query task status",
-    "generationFailed": "Generation Failed",
-    "imageGenerationFailed": "Image generation failed"
+    "required": "مطلوب",
+    "current": "الحالي",
+    "credits": "الرصيد",
+    "parameterError": "خطأ في المعاملات",
+    "promptRequired": "يرجى إدخال وصف",
+    "insufficientCredits": "رصيد غير كافٍ",
+    "pleaseRecharge": "يرجى إعادة الشحن والمحاولة مرة أخرى",
+    "queryStatusFailed": "فشل الاستعلام عن الحالة",
+    "unableToQueryStatus": "تعذر الاستعلام عن حالة المهمة",
+    "generationFailed": "فشل التوليد",
+    "imageGenerationFailed": "فشل توليد الصورة"
   },
   "generate": {
-    "generating": "Generating... {progress}%",
-    "generateImage": "Generate Image (Cost {credits} Quota)"
+    "generating": "جاري التوليد... {progress}%",
+    "generateImage": "توليد صورة (التكلفة {credits} حصة)"
   },
   "modelGroups": {
-    "nano": "Nano Series",
-    "zImage": "Z-Image Series",
-    "flux": "Flux Series",
-    "seedream": "Seedream Series"
+    "nano": "سلسلة Nano",
+    "zImage": "سلسلة Z-Image",
+    "flux": "سلسلة Flux",
+    "seedream": "سلسلة Seedream"
   },
   "models": {
     "nanoBananaPro": {
-      "description": "Lightning-fast generation, optimized for high-quality creative output with exceptional speed",
+      "description": "توليد فائق السرعة، محسّن لإنتاج إبداعي عالي الجودة بسرعة استثنائية",
       "tags": {
-        "fast": "Fast",
-        "highQuality": "High Quality",
-        "latest": "Latest"
+        "fast": "سريع",
+        "highQuality": "جودة عالية",
+        "latest": "الأحدث"
       }
     },
     "zImage": {
-      "description": "Photorealistic AI image generation with accurate bilingual text rendering, sub-second speed",
+      "description": "توليد صور واقعية بالذكاء الاصطناعي مع عرض نص ثنائي اللغة دقيق، سرعة أقل من ثانية",
       "tags": {
-        "ultraFast": "Sub-second",
-        "affordable": "Photorealistic",
-        "quality": "Text Render"
+        "ultraFast": "أقل من ثانية",
+        "affordable": "واقعي",
+        "quality": "عرض نص"
       }
     },
     "zImageLora": {
-      "description": "Z-Image Turbo LoRA version with custom LoRA model support for stylized creations",
+      "description": "إصدار Z-Image Turbo LoRA مع دعم نماذج LoRA مخصصة للإبداعات المنمقة",
       "tags": {
-        "customizable": "Customizable",
-        "stylized": "Stylized",
-        "lora": "LoRA Support"
+        "customizable": "قابل للتخصيص",
+        "stylized": "منمق",
+        "lora": "دعم LoRA"
       }
     },
     "flux2Pro": {
-      "description": "Professional-grade image generation model, supports text-to-image and image-to-image with high-quality output",
+      "description": "نموذج توليد صور احترافي، يدعم من نص إلى صورة ومن صورة إلى صورة بإخراج عالي الجودة",
       "tags": {
-        "professional": "Professional",
-        "highQuality": "High Quality",
-        "versatile": "Versatile"
+        "professional": "احترافي",
+        "highQuality": "جودة عالية",
+        "versatile": "متعدد الاستخدامات"
       }
     },
     "seedream": {
-      "description": "ByteDance Seedream 4.5, ultra-high quality image generation with large resolution output",
+      "description": "ByteDance Seedream 4.5، توليد صور بجودة فائقة مع إخراج بدقة كبيرة",
       "tags": {
         "bytedance": "ByteDance",
         "ultraHD": "Ultra HD",
-        "creative": "Creative"
+        "creative": "إبداعي"
       }
     }
   },
   "lora": {
-    "scale": "Scale",
-    "addLora": "Add LoRA",
-    "loading": "Loading...",
-    "noLoraAvailable": "No LoRA available",
-    "noLoraHint": "Please create or import LoRA models first",
-    "configuration": "Configuration",
-    "loraConfig": "LoRA Config",
-    "loraConfigHint": "Please enter valid JSON format configuration",
-    "noLoraConfigured": "No LoRA configured",
-    "clickAddLoraToStart": "Click \"Add LoRA\" button to start configuration",
-    "modalTitle": "Select LoRA Model",
-    "modalSubtitle": "Choose from the LoRA library and customize scale for personalized styles",
-    "searchPlaceholder": "Search LoRA name, description, or trigger word...",
-    "selectedLoras": "Selected",
-    "noSelectedLoras": "No LoRA selected",
-    "clickToSelect": "Click a LoRA card on the left to select",
-    "noSearchResults": "No matching LoRA found",
-    "confirm": "Confirm",
-    "cancel": "Cancel",
-    "selectLora": "Select LoRA",
-    "selectMore": "Manage LoRA",
-    "selectedCount": "{count} LoRA(s) selected",
-    "manage": "Manage"
+    "scale": "المقياس",
+    "addLora": "إضافة LoRA",
+    "loading": "جاري التحميل...",
+    "noLoraAvailable": "لا يوجد LoRA متاح",
+    "noLoraHint": "يرجى إنشاء أو استيراد نماذج LoRA أولاً",
+    "configuration": "التكوين",
+    "loraConfig": "تكوين LoRA",
+    "loraConfigHint": "يرجى إدخال تكوين بصيغة JSON صالحة",
+    "noLoraConfigured": "لم يتم تكوين LoRA",
+    "clickAddLoraToStart": "انقر على زر \"إضافة LoRA\" لبدء التكوين",
+    "modalTitle": "اختر نموذج LoRA",
+    "modalSubtitle": "اختر من مكتبة LoRA وخصص المقياس للأنماط الشخصية",
+    "searchPlaceholder": "ابحث عن اسم LoRA أو الوصف أو كلمة التشغيل...",
+    "selectedLoras": "المحدد",
+    "noSelectedLoras": "لم يتم تحديد LoRA",
+    "clickToSelect": "انقر على بطاقة LoRA على اليسار للتحديد",
+    "noSearchResults": "لم يتم العثور على LoRA مطابق",
+    "confirm": "تأكيد",
+    "cancel": "إلغاء",
+    "selectLora": "اختر LoRA",
+    "selectMore": "إدارة LoRA",
+    "selectedCount": "تم تحديد {count} LoRA",
+    "manage": "إدارة"
   },
   "comingSoon": {
-    "badge": "Coming Soon",
-    "defaultTitle": "Exciting Features on the Way",
-    "defaultDescription": "We're working hard to bring you amazing new capabilities. Stay tuned for updates!",
-    "feature1Title": "Powerful AI",
-    "feature1Desc": "State-of-the-art technology",
-    "feature2Title": "Smart Features",
-    "feature2Desc": "Intelligent automation",
-    "feature3Title": "Fast Processing",
-    "feature3Desc": "Lightning-fast results",
-    "progressLabel": "Development Progress",
-    "progressHint": "Expected to launch soon",
+    "badge": "قريباً",
+    "defaultTitle": "ميزات مثيرة في الطريق",
+    "defaultDescription": "نعمل بجد لنقدم لك قدرات جديدة رائعة. ترقب التحديثات!",
+    "feature1Title": "ذكاء اصطناعي قوي",
+    "feature1Desc": "تقنية متطورة",
+    "feature2Title": "ميزات ذكية",
+    "feature2Desc": "أتمتة ذكية",
+    "feature3Title": "معالجة سريعة",
+    "feature3Desc": "نتائج فائقة السرعة",
+    "progressLabel": "تقدم التطوير",
+    "progressHint": "من المتوقع الإطلاق قريباً",
     "moreTools": {
-      "title": "More Image Tools",
-      "description": "Explore powerful image utilities including upscaling, enhancement, format conversion, and batch processing"
+      "title": "المزيد من أدوات الصور",
+      "description": "استكشف أدوات الصور القوية بما في ذلك تحسين الجودة والتحسين وتحويل الصيغة والمعالجة الدفعية"
     }
   }
 }

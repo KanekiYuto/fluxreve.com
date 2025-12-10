@@ -1,56 +1,62 @@
 {
   "seo": {
-    "title": "Dashboard",
-    "description": "Manage your AI image generation projects, track usage, and access all features"
+    "title": "Tableau de Bord",
+    "description": "Gérez vos projets de génération d'images IA, suivez l'utilisation et accédez à toutes les fonctionnalités"
   },
-  "welcome": "Welcome back, {name}",
-  "subtitle": "Start creating your amazing content",
-  "guestWelcome": "Welcome to Dashboard",
-  "guestSubtitle": "Please sign in to access your dashboard and start creating",
+  "welcome": "Bon retour, {name}",
+  "subtitle": "Commencez à créer votre contenu incroyable",
+  "guestWelcome": "Bienvenue sur le Tableau de Bord",
+  "guestSubtitle": "Veuillez vous connecter pour accéder à votre tableau de bord et commencer à créer",
   "loginPrompt": {
-    "title": "Sign In to Access Your Dashboard",
-    "description": "Create an account or sign in to unlock all features, track your usage, and manage your projects.",
-    "cta": "Sign In Now",
+    "title": "Connectez-vous pour Accéder à Votre Tableau de Bord",
+    "description": "Créez un compte ou connectez-vous pour débloquer toutes les fonctionnalités, suivre votre utilisation et gérer vos projets.",
+    "cta": "Se Connecter Maintenant",
     "features": {
-      "quota": "Usage Quota",
-      "quotaDesc": "Track your generation quota and usage history",
-      "projects": "Project Management",
-      "projectsDesc": "Organize and manage all your creative projects",
-      "analytics": "Analytics & Stats",
-      "analyticsDesc": "View detailed statistics and performance metrics"
+      "quota": "Quota d'Utilisation",
+      "quotaDesc": "Suivez votre quota de génération et l'historique d'utilisation",
+      "projects": "Gestion de Projets",
+      "projectsDesc": "Organisez et gérez tous vos projets créatifs",
+      "analytics": "Analyses & Statistiques",
+      "analyticsDesc": "Consultez des statistiques détaillées et des indicateurs de performance"
     }
   },
   "userType": {
     "pro": "Pro",
     "basic": "Basic",
-    "free": "Free"
+    "free": "Gratuit"
   },
   "stats": {
     "quota": {
-      "remaining": "Remaining Generation Quota",
-      "unlimited": "Unlimited Generation Quota",
-      "expires": "expires"
+      "remaining": "Quota de Génération Restant",
+      "unlimited": "Quota de Génération Illimité",
+      "expires": "expire"
     },
-    "projects": "Total Projects",
-    "images": "Uploaded Image Assets",
-    "templates": "Created Templates"
+    "projects": "Total de Projets",
+    "images": "Ressources d'Images Téléversées",
+    "templates": "Modèles Créés"
   },
   "quickActions": {
-    "title": "Quick Start",
-    "newProject": "New Project",
-    "uploadImage": "Upload Image",
-    "templates": "Templates",
-    "tutorial": "Tutorial"
+    "title": "Démarrage Rapide",
+    "newProject": "Nouveau Projet",
+    "uploadImage": "Téléverser une Image",
+    "templates": "Modèles",
+    "tutorial": "Tutoriel"
   },
   "recent": {
-    "title": "Recent Generations",
-    "subtitle": "Showing content from the past week only",
-    "viewAll": "View All",
-    "loading": "Loading...",
+    "title": "Générations Récentes",
+    "subtitle": "Affichage du contenu de la semaine dernière uniquement",
+    "viewAll": "Tout Voir",
+    "loading": "Chargement...",
     "empty": {
-      "title": "No content generated this week",
-      "subtitle": "Start generating your first image",
-      "cta": "Generate Now"
+      "title": "Aucun contenu généré cette semaine",
+      "subtitle": "Commencez à générer votre première image",
+      "cta": "Générer Maintenant"
     }
+  },
+  "marketing": {
+    "title": "Débloquez des Fonctionnalités Plus Puissantes",
+    "description": "Mettez à niveau votre forfait pour obtenir plus de crédits, une résolution ultra-haute, une génération par lots et un support prioritaire.",
+    "upgradeButton": "Mettre à Niveau Maintenant",
+    "learnMoreButton": "En Savoir Plus"
   }
 }

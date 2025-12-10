@@ -1,43 +1,43 @@
 {
   "seo": {
-    "title": "Settings",
-    "description": "Manage your account settings and preferences"
+    "title": "الإعدادات",
+    "description": "إدارة إعدادات حسابك وتفضيلاتك"
   },
-  "title": "Settings",
-  "subtitle": "Manage your account settings and preferences",
+  "title": "الإعدادات",
+  "subtitle": "إدارة إعدادات حسابك وتفضيلاتك",
   "loginRequired": {
-    "title": "Sign In Required",
-    "description": "Please sign in to access your settings and manage your account.",
-    "cta": "Sign In Now"
+    "title": "تسجيل الدخول مطلوب",
+    "description": "يرجى تسجيل الدخول للوصول إلى إعداداتك وإدارة حسابك.",
+    "cta": "سجل الدخول الآن"
   },
   "sections": {
     "profile": {
-      "title": "Profile Information",
-      "name": "Name",
-      "email": "Email Address",
-      "plan": "Current Plan",
-      "verified": "Verified",
-      "notSet": "Not set"
+      "title": "معلومات الملف الشخصي",
+      "name": "الاسم",
+      "email": "عنوان البريد الإلكتروني",
+      "plan": "الخطة الحالية",
+      "verified": "موثّق",
+      "notSet": "غير محدد"
     },
     "preferences": {
-      "title": "Preferences",
-      "notifications": "Email Notifications",
-      "notificationsDesc": "Receive updates and notifications via email"
+      "title": "التفضيلات",
+      "notifications": "إشعارات البريد الإلكتروني",
+      "notificationsDesc": "استقبال التحديثات والإشعارات عبر البريد الإلكتروني"
     },
     "connections": {
-      "title": "Connected Accounts",
-      "googleConnected": "You can use your Google account to sign in to your account.",
-      "googleNotConnected": "Connect your Google account to enable this login method.",
-      "githubConnected": "You can use your GitHub account to sign in to your account.",
-      "githubNotConnected": "Connect your GitHub account to enable this login method.",
-      "connected": "Connected"
+      "title": "الحسابات المتصلة",
+      "googleConnected": "يمكنك استخدام حساب Google الخاص بك لتسجيل الدخول إلى حسابك.",
+      "googleNotConnected": "قم بربط حساب Google الخاص بك لتفعيل طريقة تسجيل الدخول هذه.",
+      "githubConnected": "يمكنك استخدام حساب GitHub الخاص بك لتسجيل الدخول إلى حسابك.",
+      "githubNotConnected": "قم بربط حساب GitHub الخاص بك لتفعيل طريقة تسجيل الدخول هذه.",
+      "connected": "متصل"
     }
   },
   "actions": {
-    "edit": "Edit",
-    "change": "Change",
-    "enable": "Enable",
-    "upgrade": "Upgrade Plan",
-    "copy": "Copy"
+    "edit": "تحرير",
+    "change": "تغيير",
+    "enable": "تفعيل",
+    "upgrade": "ترقية الخطة",
+    "copy": "نسخ"
   }
 }

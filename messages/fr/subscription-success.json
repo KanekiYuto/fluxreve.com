@@ -1,36 +1,36 @@
 {
   "seo": {
-    "title": "Subscription Successful",
-    "description": "Thank you for subscribing! Your account has been successfully upgraded"
+    "title": "Abonnement Réussi",
+    "description": "Merci de vous être abonné! Votre compte a été mis à niveau avec succès"
   },
-  "title": "Subscription Successful!",
-  "description": "Thank you for subscribing. Your account has been successfully upgraded and you can now enjoy all premium features.",
-  "loading": "Loading...",
-  "notFound": "Subscription not found",
+  "title": "Abonnement Réussi!",
+  "description": "Merci de vous être abonné. Votre compte a été mis à niveau avec succès et vous pouvez maintenant profiter de toutes les fonctionnalités premium.",
+  "loading": "Chargement...",
+  "notFound": "Abonnement non trouvé",
   "details": {
-    "title": "Subscription Details",
+    "title": "Détails de l'Abonnement",
     "plan": "Plan",
-    "amount": "Amount",
-    "status": "Status",
-    "statusActive": "Active"
+    "amount": "Montant",
+    "status": "Statut",
+    "statusActive": "Actif"
   },
   "nextSteps": {
-    "title": "What's Next",
-    "step1": "Visit your dashboard to explore all available features",
-    "step2": "Start using AI generators to create stunning images",
-    "step3": "View your subscription details in the subscription management page"
+    "title": "La Suite",
+    "step1": "Visitez votre tableau de bord pour explorer toutes les fonctionnalités disponibles",
+    "step2": "Commencez à utiliser les générateurs d'IA pour créer des images époustouflantes",
+    "step3": "Visualisez les détails de votre abonnement dans la page de gestion des abonnements"
   },
   "actions": {
-    "startUsing": "Start Using Now",
-    "redirecting": "Redirecting...",
-    "viewSubscription": "View Subscription"
+    "startUsing": "Commencer à Utiliser Maintenant",
+    "redirecting": "Redirection en cours...",
+    "viewSubscription": "Voir l'Abonnement"
   },
-  "autoRedirect": "Auto redirecting to dashboard in {seconds} seconds...",
+  "autoRedirect": "Redirection automatique vers le tableau de bord dans {seconds} secondes...",
   "planTypes": {
-    "monthly_basic": "Basic - Monthly",
-    "yearly_basic": "Basic - Yearly",
-    "monthly_pro": "Pro - Monthly",
-    "yearly_pro": "Pro - Yearly",
-    "unknown": "Unknown Plan"
+    "monthly_basic": "De Base - Mensuel",
+    "yearly_basic": "De Base - Annuel",
+    "monthly_pro": "Pro - Mensuel",
+    "yearly_pro": "Pro - Annuel",
+    "unknown": "Plan Inconnu"
   }
 }

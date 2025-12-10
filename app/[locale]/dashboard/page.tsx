@@ -6,7 +6,8 @@ import LoginRequired from '@/components/common/LoginRequired';
 import DashboardHeader from './components/DashboardHeader';
 import QuotaCard from './components/QuotaCard';
 import StatCard from './components/StatCard';
-import QuickActions from './components/QuickActions';
+// import QuickActions from './components/QuickActions';
+import MarketingCard from './components/MarketingCard';
 import RecentGenerations from './components/RecentGenerations';
 
 export default function DashboardPage() {
@@ -80,13 +81,16 @@ export default function DashboardPage() {
 
       {/* 主内容区域 */}
       <div className="container mx-auto px-4 py-8">
-        {/* 统计卡片 */}
+        {/* 统计卡片和营销卡片 */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-8">
           {/* 剩余配额 */}
           <QuotaCard userType={userType} quotaInfo={quotaInfo} />
 
-          {/* 总项目数 */}
-          <StatCard
+          {/* 营销卡片 - 占据三个统计卡片的位置 */}
+          <MarketingCard />
+
+          {/* 总项目数 - 暂时隐藏 */}
+          {/* <StatCard
             icon={
               <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
@@ -100,10 +104,10 @@ export default function DashboardPage() {
             value={0}
             label={t('projects')}
             color="secondary"
-          />
+          /> */}
 
-          {/* 已上传图片数 */}
-          <StatCard
+          {/* 已上传图片数 - 暂时隐藏 */}
+          {/* <StatCard
             icon={
               <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
@@ -117,10 +121,10 @@ export default function DashboardPage() {
             value={0}
             label={t('images')}
             color="blue"
-          />
+          /> */}
 
-          {/* 创建模板数 */}
-          <StatCard
+          {/* 创建模板数 - 暂时隐藏 */}
+          {/* <StatCard
             icon={
               <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
@@ -134,11 +138,11 @@ export default function DashboardPage() {
             value={0}
             label={t('templates')}
             color="purple"
-          />
+          /> */}
         </div>
 
         {/* 快速操作 */}
-        <QuickActions />
+        {/* <QuickActions /> */}
 
         {/* 最近生成 */}
         <RecentGenerations />

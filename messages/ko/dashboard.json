@@ -52,5 +52,11 @@
       "subtitle": "첫 번째 이미지 생성을 시작하세요",
       "cta": "지금 생성"
     }
+  },
+  "marketing": {
+    "title": "더 강력한 기능 잠금 해제",
+    "description": "플랜을 업그레이드하고 더 많은 크레딧, 초고해상도, 배치 생성, 우선 지원을 받으세요.",
+    "upgradeButton": "지금 업그레이드",
+    "learnMoreButton": "자세히 알아보기"
   }
 }

@@ -16,6 +16,7 @@
   "dependencies": {
     "@aws-sdk/client-s3": "^3.943.0",
     "@creem_io/nextjs": "^0.4.0",
+    "@gsap/react": "^2.1.2",
     "@neondatabase/serverless": "^1.0.2",
     "@radix-ui/react-label": "^2.1.8",
     "@radix-ui/react-popover": "^1.1.15",
@@ -35,6 +36,7 @@
     "drizzle-orm": "^0.44.7",
     "face-api.js": "^0.22.2",
     "framer-motion": "^12.23.24",
+    "gsap": "^3.14.1",
     "html-to-image": "^1.11.13",
     "https-proxy-agent": "^7.0.6",
     "lucide-react": "^0.555.0",
