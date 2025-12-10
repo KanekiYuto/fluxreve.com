@@ -5,6 +5,7 @@ import useSidebarStore from '@/store/useSidebarStore';
 import useModalStore from '@/store/useModalStore';
 import { useTranslations } from 'next-intl';
 import { siteConfig } from '@/config/site';
+import { useLocale } from 'next-intl';
 import { navigationGroups, type NavItem } from '@/config/navigation';
 import { useCachedSession, clearSessionCache } from '@/hooks/useCachedSession';
 import { signOut } from '@/lib/auth-client';
@@ -256,6 +257,7 @@ export default function Sidebar() {
   const pathname = usePathname();
   const { isOpen, closeSidebar } = useSidebarStore();
   const t = useTranslations('common');
+  const locale = useLocale();
 
   // 导航内容组件 - 复用于移动端和桌面端
   const SidebarContent = () => (
@@ -326,6 +328,7 @@ export default function Sidebar() {
           <Link
             href="/"
             className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+            aria-label={`${siteConfig.name} - ${t('seo.description')}`}
           >
             <Logo className="text-white" />
           </Link>

@@ -10,6 +10,7 @@ import { Menu, X, ChevronDown, Banana, Zap, Sparkles } from 'lucide-react';
 import Logo from '@/components/Logo';
 import useModalStore from '@/store/useModalStore';
 import { useCachedSession } from '@/hooks/useCachedSession';
+import { siteConfig } from '@/config/site';
 
 // 图标映射
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -144,6 +145,7 @@ export default function Header() {
             <Link
               href="/"
               className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+              aria-label={`${siteConfig.name} - ${commonT('seo.description')}`}
             >
               <Logo className="text-white h-6" />
             </Link>
