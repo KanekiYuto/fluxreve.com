@@ -18,6 +18,7 @@ export default function QuotaCard({ userType, quotaInfo }: QuotaCardProps) {
   const badgeLabels = {
     [USER_TYPE.PRO]: 'PRO',
     [USER_TYPE.BASIC]: 'BASIC',
+    [USER_TYPE.TRIAL]: 'TRIAL',
     [USER_TYPE.FREE]: 'FREE',
   };
 
