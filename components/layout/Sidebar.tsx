@@ -121,7 +121,7 @@ function UserSection() {
         variants={fadeInVariants}
         transition={{ duration: 0.2 }}
         onClick={openLoginModal}
-        className="flex w-full items-center justify-center rounded-xl px-3 py-2.5 text-sm font-medium transition-all cursor-pointer gradient-bg text-white hover:brightness-110"
+        className="flex w-full items-center justify-center rounded-xl px-3 py-2.5 text-sm font-semibold transition-all cursor-pointer gradient-bg text-white hover:brightness-110 shadow-lg hover:shadow-xl"
       >
         <span>{t('login')}</span>
       </motion.button>
@@ -141,7 +141,7 @@ function UserSection() {
     >
       <button
         onClick={() => setShowMenu(!showMenu)}
-        className="flex w-full items-center gap-3 rounded-xl gradient-border px-3 py-2.5 text-sm text-text-muted hover:bg-white/5 hover:text-white transition-all cursor-pointer"
+        className="flex w-full items-center gap-3 rounded-xl gradient-border px-3 py-2.5 text-sm text-text-muted hover:bg-white/10 hover:text-white transition-all cursor-pointer hover:shadow-md"
       >
         {session.user.image ? (
           // eslint-disable-next-line @next/next/no-img-element
@@ -183,7 +183,7 @@ function UserSection() {
           >
             <button
               onClick={handleSignOut}
-              className="flex w-full items-center gap-3 px-4 py-3 text-sm text-text-muted hover:bg-white/5 hover:text-white transition-colors cursor-pointer bg-bg-elevated"
+              className="flex w-full items-center gap-3 px-4 py-3 text-sm text-text-dim hover:bg-error/10 hover:text-error transition-all cursor-pointer bg-bg-elevated"
             >
               <LogOut className="w-5 h-5" />
               <span>{t('menu.logout')}</span>
@@ -219,8 +219,8 @@ function MenuItem({ item, isActive, onClick, t }: {
       className={classNames(
         'group relative flex items-center gap-x-3 px-3 py-2.5 text-sm font-medium transition-all duration-200 overflow-hidden rounded-lg',
         isActive
-          ? 'bg-primary/10 text-white'
-          : 'text-text-muted hover:text-white hover:bg-white/5'
+          ? 'bg-primary/15 text-white font-semibold'
+          : 'text-text-dim hover:text-white hover:bg-white/8'
       )}
     >
       {/* 左侧激活指示条 */}
@@ -263,7 +263,7 @@ export default function Sidebar() {
       <div className="space-y-6">
         {navigationGroups.map((group) => (
           <div key={group.title}>
-            <div className="px-3 mb-3 text-[11px] font-semibold text-text-dim/60 uppercase tracking-widest">
+            <div className="px-3 mb-3 text-[11px] font-bold text-text/80 uppercase tracking-widest opacity-75">
               {t(`navigation.${group.title}`)}
             </div>
             <ul className="space-y-0.5">
@@ -289,7 +289,7 @@ export default function Sidebar() {
 
   // 侧边栏底部用户区域组件
   const SidebarFooter = () => (
-    <div className="border-t border-border/50 p-3 flex-shrink-0 h-[80px] flex items-center">
+    <div className="border-t border-border/80 p-3 flex-shrink-0 h-[80px] flex items-center bg-bg-card/50">
       <AnimatePresence mode="wait">
         <UserSection />
       </AnimatePresence>
