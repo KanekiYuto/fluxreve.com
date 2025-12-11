@@ -4,6 +4,7 @@ import { useEffect, startTransition } from 'react';
 import { useCachedSession } from '@/hooks/useCachedSession';
 import useUserStore from '@/store/useUserStore';
 import { USER_TYPE } from '@/config/constants';
+import { getUtmParamsFromCookie } from '@/lib/utils/user-tracking';
 
 interface UserProviderProps {
   children: React.ReactNode;
@@ -53,14 +54,32 @@ export default function UserProvider({ children }: UserProviderProps) {
 
             // 从 URL 读取 UTM 参数
             const urlParams = new URLSearchParams(window.location.search);
-
-            const trackingData = {
+            const urlUtmParams = {
               utmSource: urlParams.get('utm_source') || undefined,
               utmMedium: urlParams.get('utm_medium') || undefined,
               utmCampaign: urlParams.get('utm_campaign') || undefined,
               utmContent: urlParams.get('utm_content') || undefined,
               utmTerm: urlParams.get('utm_term') || undefined,
             };
+
+            // 检查 URL 中是否有 UTM 参数
+            const hasUrlUtmParams = Object.values(urlUtmParams).some(v => v !== undefined);
+
+            // 如果 URL 中没有 UTM 参数，尝试从 Cookie 读取
+            let trackingData = urlUtmParams;
+            if (!hasUrlUtmParams) {
+              const cookieParams = getUtmParamsFromCookie();
+              if (cookieParams) {
+                console.log('[User Tracking] Got UTM params from cookie:', cookieParams);
+                trackingData = {
+                  utmSource: cookieParams.utmSource,
+                  utmMedium: cookieParams.utmMedium,
+                  utmCampaign: cookieParams.utmCampaign,
+                  utmContent: cookieParams.utmContent,
+                  utmTerm: cookieParams.utmTerm,
+                };
+              }
+            }
 
             console.log('[User Tracking] UTM data:', trackingData);
 

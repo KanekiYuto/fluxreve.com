@@ -91,6 +91,10 @@
     "addItem": "新增項目",
     "privateMode": "私有模式",
     "privateModeDesc": "開啟後生成結果僅自己可見",
+    "privateModeSubscriptionRequired": "訂閱以啟用私有模式",
+    "status": {
+      "loading": "載入中..."
+    },
     "configuration": "設定",
     "addLora": "新增 LoRA",
     "noLoraConfigured": "尚未設定 LoRA",

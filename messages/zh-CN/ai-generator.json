@@ -91,6 +91,10 @@
     "addItem": "添加项目",
     "privateMode": "私有模式",
     "privateModeDesc": "开启后生成结果仅自己可见",
+    "privateModeSubscriptionRequired": "订阅以启用私有模式",
+    "status": {
+      "loading": "加载中..."
+    },
     "configuration": "配置",
     "addLora": "添加 LoRA",
     "noLoraConfigured": "暂未配置 LoRA",

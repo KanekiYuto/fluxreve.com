@@ -91,6 +91,10 @@
     "addItem": "Add Item",
     "privateMode": "Private Mode",
     "privateModeDesc": "Results will only be visible to you",
+    "privateModeSubscriptionRequired": "Subscribe to enable private mode",
+    "status": {
+      "loading": "Loading..."
+    },
     "configuration": "Configuration",
     "addLora": "Add LoRA",
     "noLoraConfigured": "No LoRA configured yet",

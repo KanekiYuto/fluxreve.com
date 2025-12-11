@@ -8,6 +8,7 @@ import { routing } from '@/i18n/routing';
 import { rtlLocales } from '@/i18n/config';
 import PageLayout from '@/components/layout/PageLayout';
 import UserProvider from '@/components/providers/UserProvider';
+import MarketingParamsProvider from '@/components/providers/MarketingParamsProvider';
 import ModalProvider from '@/components/providers/ModalProvider';
 import NavigationProgress from '@/components/providers/NavigationProgress';
 import { siteConfig } from '@/config/site';
@@ -87,11 +88,13 @@ export default async function LocaleLayout({ children, params }: Props) {
         </Script>
 
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <UserProvider>
-            <NavigationProgress />
-            <PageLayout>{children}</PageLayout>
-            <ModalProvider />
-          </UserProvider>
+          <MarketingParamsProvider>
+            <UserProvider>
+              <NavigationProgress />
+              <PageLayout>{children}</PageLayout>
+              <ModalProvider />
+            </UserProvider>
+          </MarketingParamsProvider>
         </NextIntlClientProvider>
         <Analytics />
       </body>

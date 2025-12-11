@@ -59,7 +59,7 @@ export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-t
   const [inputImages, setInputImages] = useState<ImageItem[]>([]);
   const [size, setSize] = useState('1024*1024');
   const [seed, setSeed] = useState('');
-  const [isPrivate, setIsPrivate] = useState(true);
+  const [isPrivate, setIsPrivate] = useState(false);
 
   // 积分计算 - Flux 2 Pro 固定 25 积分
   const requiredCredits = useRequiredCredits(mode, 'flux-2-pro', {

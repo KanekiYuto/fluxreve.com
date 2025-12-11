@@ -91,6 +91,10 @@
     "addItem": "إضافة عنصر",
     "privateMode": "الوضع الخاص",
     "privateModeDesc": "ستكون النتائج مرئية لك فقط",
+    "privateModeSubscriptionRequired": "اشترك لتفعيل الوضع الخاص",
+    "status": {
+      "loading": "جاري التحميل..."
+    },
     "configuration": "التكوين",
     "addLora": "إضافة LoRA",
     "noLoraConfigured": "لم يتم تكوين LoRA بعد",

@@ -148,3 +148,46 @@ export function extractUserTrackingData(
     utmParams,
   };
 }
+
+/**
+ * Cookie 相关操作函数（仅客户端）
+ */
+
+/**
+ * 将 UTM 参数保存到 Cookie
+ * @param params - UTM 参数对象
+ * @param expireDays - Cookie 有效期（天数，默认 7）
+ */
+export function saveUtmParamsToCookie(params: UtmParams, expireDays = 7): void {
+  if (typeof document === 'undefined') return;
+
+  const data = JSON.stringify(params);
+  const expires = new Date();
+  expires.setTime(expires.getTime() + expireDays * 24 * 60 * 60 * 1000);
+
+  document.cookie = `utm_params=${encodeURIComponent(data)}; expires=${expires.toUTCString()}; path=/; SameSite=Lax`;
+}
+
+/**
+ * 从 Cookie 中读取 UTM 参数
+ */
+export function getUtmParamsFromCookie(): UtmParams | null {
+  if (typeof document === 'undefined') return null;
+
+  const matches = document.cookie.match(/(?:^|; )utm_params=([^;]*)/);
+  if (!matches) return null;
+
+  try {
+    return JSON.parse(decodeURIComponent(matches[1]));
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * 清除 Cookie 中的 UTM 参数
+ */
+export function clearUtmParamsCookie(): void {
+  if (typeof document === 'undefined') return;
+  document.cookie = 'utm_params=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; SameSite=Lax';
+}

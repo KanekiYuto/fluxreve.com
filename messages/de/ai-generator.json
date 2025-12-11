@@ -91,6 +91,10 @@
     "addItem": "Element hinzufügen",
     "privateMode": "Privater Modus",
     "privateModeDesc": "Ergebnisse sind nur für Sie sichtbar",
+    "privateModeSubscriptionRequired": "Abonnieren Sie, um den privaten Modus zu aktivieren",
+    "status": {
+      "loading": "Wird geladen..."
+    },
     "configuration": "Konfiguration",
     "addLora": "LoRA hinzufügen",
     "noLoraConfigured": "Noch keine LoRA konfiguriert",

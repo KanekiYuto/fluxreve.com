@@ -91,6 +91,10 @@
     "addItem": "항목 추가",
     "privateMode": "비공개 모드",
     "privateModeDesc": "결과는 본인만 볼 수 있습니다",
+    "privateModeSubscriptionRequired": "구독하여 비공개 모드 활성화",
+    "status": {
+      "loading": "로딩 중..."
+    },
     "configuration": "구성",
     "addLora": "LoRA 추가",
     "noLoraConfigured": "아직 LoRA가 구성되지 않았습니다",
