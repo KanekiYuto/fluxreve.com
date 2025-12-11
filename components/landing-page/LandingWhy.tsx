@@ -65,9 +65,6 @@ export default function LandingWhy({ namespace }: LandingWhyProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* 区域标题 */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-4">
-            <span className="text-sm font-semibold gradient-text">{t('badge')}</span>
-          </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
             {t('title')}
           </h2>

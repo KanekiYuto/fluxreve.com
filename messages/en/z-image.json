@@ -4,7 +4,7 @@
     "description": "Photorealistic AI images with Z-Image. Sub-second generation speed with accurate Chinese and English text rendering. Affordable pricing for professionals."
   },
   "hero": {
-    "badge": "Photorealistic AI Image Generation",
+    
     "title": {
       "line1": "Z-Image",
       "line2": "8-Step Inference, Sub-second Generation"
@@ -27,7 +27,7 @@
     }
   },
   "what": {
-    "badge": "Product Introduction",
+    
     "title": "What is Z-Image?",
     "description": "Z-Image is our photorealistic AI image generation service, based on advanced Scalable Single-Stream Diffusion Transformer architecture. We provide fast, affordable, and high-quality AI image generation solutions to make professional creation accessible.",
     "demoPlaceholder": "Photorealistic AI Image Generation",
@@ -47,7 +47,7 @@
     }
   },
   "why": {
-    "badge": "Core Advantages",
+    
     "title": "Why Choose Our Z-Image Service?",
     "subtitle": "Our Z-Image service makes professional AI image creation simple and efficient with sub-second generation speed, accurate text rendering, and affordable pricing.",
     "comparison": {
@@ -94,7 +94,7 @@
     }
   },
   "how": {
-    "badge": "User Guide",
+    
     "title": "How to Use Z-Image?",
     "subtitle": "Four simple steps to begin your AI creative journey",
     "steps": {
@@ -117,7 +117,7 @@
     }
   },
   "faq": {
-    "badge": "FAQ",
+    
     "title": "Frequently Asked Questions",
     "subtitle": "Common questions about Z-Image",
     "items": [

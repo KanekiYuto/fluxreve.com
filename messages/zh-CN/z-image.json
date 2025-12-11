@@ -4,7 +4,7 @@
     "description": "使用 Z-Image 在线生成照片级写实AI图像，支持精准的中英文文字渲染，亚秒级生成速度，经济实惠的价格，让专业级AI图像创作更简单。"
   },
   "hero": {
-    "badge": "照片级写实AI图像生成",
+    
     "title": {
       "line1": "Z-Image",
       "line2": "8步推理 亚秒级生成"
@@ -27,7 +27,7 @@
     }
   },
   "what": {
-    "badge": "产品介绍",
+    
     "title": "什么是 Z-Image？",
     "description": "Z-Image 是我们提供的照片级写实AI图像生成服务，基于先进的可扩展单流扩散Transformer架构。我们为您提供快速、经济、高质量的AI图像生成解决方案，让专业级创作变得触手可及。",
     "demoPlaceholder": "照片级写实AI图像生成",
@@ -47,7 +47,7 @@
     }
   },
   "why": {
-    "badge": "核心优势",
+    
     "title": "为什么选择我们的 Z-Image 服务？",
     "subtitle": "我们提供的 Z-Image 服务通过亚秒级生成速度、精准的文字渲染和经济实惠的价格，让专业级AI图像创作变得简单高效。",
     "comparison": {
@@ -94,7 +94,7 @@
     }
   },
   "how": {
-    "badge": "使用指南",
+    
     "title": "如何使用 Z-Image？",
     "subtitle": "四个简单步骤，轻松开启您的AI创作之旅",
     "steps": {
@@ -117,7 +117,7 @@
     }
   },
   "faq": {
-    "badge": "常见问题",
+    
     "title": "常见问题解答",
     "subtitle": "关于 Z-Image 的一些常见问题",
     "items": [

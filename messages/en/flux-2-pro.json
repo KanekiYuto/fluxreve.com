@@ -4,7 +4,7 @@
     "description": "Professional AI image generation with Flux 2 Pro. Text-to-image and image-to-image modes with precise artistic control. Commercial-grade quality."
   },
   "hero": {
-    "badge": "Flux 2 Pro",
+    
     "title": {
       "line1": "Flux 2 Pro",
       "line2": "Professional AI Generation"
@@ -30,7 +30,7 @@
     }
   },
   "what": {
-    "badge": "About Flux 2 Pro",
+    
     "title": "What is Flux 2 Pro AI Image Generator?",
     "description": "Flux 2 Pro is an advanced professional-grade AI image generator designed for creators and businesses requiring high-quality visual content. It offers two powerful generation modes: text-to-image for creating images from descriptions, and image-to-image for transforming and enhancing existing visuals. With precise parameter control and diverse style options, Flux 2 Pro empowers you to create professional images meeting commercial standards.",
     "demoPlaceholder": "Flux 2 Pro Generated Image",
@@ -50,7 +50,7 @@
     }
   },
   "why": {
-    "badge": "Why Choose Flux 2 Pro",
+    
     "title": "Why Choose Flux 2 Pro AI Image Generator",
     "subtitle": "Flux 2 Pro revolutionizes your creative workflow with professional quality, dual-mode creation, and precise control.",
     "comparison": {
@@ -97,7 +97,7 @@
     }
   },
   "how": {
-    "badge": "How It Works",
+    
     "title": "How to Use Flux 2 Pro AI Image Generator",
     "subtitle": "Four simple steps from concept to professional image. Flux 2 Pro makes high-quality AI image generation simple and intuitive.",
     "steps": {
@@ -120,7 +120,7 @@
     }
   },
   "features": {
-    "badge": "Key Features",
+    
     "title": "Flux 2 Pro AI Image Generator Features",
     "subtitle": "Professional feature suite to meet all your creative needs",
     "items": {
@@ -151,7 +151,7 @@
     }
   },
   "faq": {
-    "badge": "FAQ",
+    
     "title": "Flux 2 Pro Frequently Asked Questions",
     "subtitle": "Common questions about Flux 2 Pro AI Image Generator",
     "items": [

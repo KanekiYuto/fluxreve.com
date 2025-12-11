@@ -4,7 +4,7 @@
     "description": "Nano Banana Pro (Gemini 3 Pro Image) - Google DeepMind 先進 AI 圖像生成器。10 秒內生成 4K 高解析度圖像，支援精準文字渲染、角色一致性及專業編輯功能。"
   },
   "hero": {
-    "badge": "Gemini 3 Pro 驅動",
+    
     "title": {
       "line1": "Nano Banana Pro",
       "line2": "Gemini 3 Pro 圖像生成"
@@ -30,7 +30,7 @@
     }
   },
   "what": {
-    "badge": "關於 Nano Banana Pro",
+    
     "title": "什麼是 Nano Banana Pro AI 圖像生成器？",
     "description": "Nano Banana Pro 由 Google DeepMind 的 Gemini 3 Pro Image 模型驅動，是結合先進推理與真實世界知識的最先進 AI 圖像生成器。這個專業 AI 圖像生成平台以前所未有的速度和準確度提供 4K 高解析度圖像，完美適合要求專業品質 AI 生成圖像的設計師、行銷人員和內容創作者。",
     "demoPlaceholder": "Nano Banana Pro 生成圖像",
@@ -50,7 +50,7 @@
     }
   },
   "why": {
-    "badge": "為何選擇 Nano Banana Pro",
+    
     "title": "為何選擇 Nano Banana Pro AI 圖像生成器",
     "subtitle": "Nano Banana Pro 透過 Gemini 3 Pro Image 技術驅動的推理引導生成、4K 解析度輸出和專業編輯功能，超越傳統圖像創作方法和競爭的 AI 圖像生成器。",
     "comparison": {
@@ -97,7 +97,7 @@
     }
   },
   "how": {
-    "badge": "使用方式",
+    
     "title": "如何使用 Nano Banana Pro AI 圖像生成器",
     "subtitle": "從概念到專業 4K AI 生成圖像，只需四個簡單步驟。Nano Banana Pro 讓先進的 AI 圖像生成變得直覺且易於使用。",
     "steps": {
@@ -120,7 +120,7 @@
     }
   },
   "features": {
-    "badge": "主要功能",
+    
     "title": "Nano Banana Pro AI 圖像生成器功能",
     "subtitle": "由 Google DeepMind 的 Gemini 3 Pro Image 技術驅動的全面 AI 圖像生成功能",
     "items": {
@@ -151,7 +151,7 @@
     }
   },
   "faq": {
-    "badge": "常見問題",
+    
     "title": "Nano Banana Pro 常見問題",
     "subtitle": "關於 Nano Banana Pro AI 圖像生成器的常見問題",
     "items": [

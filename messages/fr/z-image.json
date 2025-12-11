@@ -4,7 +4,7 @@
     "description": "Images IA photorréalistes avec Z-Image. Vitesse de génération inférieure à la seconde avec rendu de texte chinois et anglais précis. Tarification abordable pour les professionnels."
   },
   "hero": {
-    "badge": "Génération d'images IA photorréaliste",
+    
     "title": {
       "line1": "Z-Image",
       "line2": "8 étapes d'inférence, génération inférieure à la seconde"
@@ -27,7 +27,7 @@
     }
   },
   "what": {
-    "badge": "Présentation du produit",
+    
     "title": "Qu'est-ce que Z-Image ?",
     "description": "Z-Image est notre service de génération d'images IA photorréalistes, basé sur l'architecture avancée de Transformateur de diffusion single-stream scalable. Nous fournissons des solutions de génération d'images IA rapides, abordables et de haute qualité pour rendre la création professionnelle accessible.",
     "demoPlaceholder": "Génération d'images IA photorréaliste",
@@ -47,7 +47,7 @@
     }
   },
   "why": {
-    "badge": "Avantages principaux",
+    
     "title": "Pourquoi choisir notre service Z-Image ?",
     "subtitle": "Notre service Z-Image rend la création d'images IA professionnelle simple et efficace avec une vitesse de génération inférieure à la seconde, un rendu de texte précis et une tarification abordable.",
     "comparison": {
@@ -94,7 +94,7 @@
     }
   },
   "how": {
-    "badge": "Guide utilisateur",
+    
     "title": "Comment utiliser Z-Image ?",
     "subtitle": "Quatre étapes simples pour commencer votre parcours créatif IA",
     "steps": {
@@ -117,7 +117,7 @@
     }
   },
   "faq": {
-    "badge": "FAQ",
+    
     "title": "Questions fréquemment posées",
     "subtitle": "Questions courantes sur Z-Image",
     "items": [

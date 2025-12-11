@@ -4,7 +4,7 @@
     "description": "Seedream 4.5 - 字節跳動先進 AI 圖像生成器。快速生成 2K 高解析度圖像，支援文生圖和圖生圖功能，專業編輯能力強大。"
   },
   "hero": {
-    "badge": "字節跳動驅動",
+    
     "title": {
       "line1": "Seedream 4.5",
       "line2": "字節跳動 AI 圖像生成"
@@ -30,7 +30,7 @@
     }
   },
   "what": {
-    "badge": "關於 Seedream 4.5",
+    
     "title": "什麼是 Seedream 4.5 AI 圖像生成器？",
     "description": "Seedream 4.5 由字節跳動開發，是一款先進的 AI 圖像生成器，結合了強大的文生圖和圖生圖能力。這個專業 AI 圖像生成平台以高速度和高品質提供 2K 高解析度圖像，完美適合要求專業品質 AI 生成圖像的設計師、行銷人員和內容創作者。",
     "demoPlaceholder": "Seedream 4.5 生成圖像",
@@ -50,7 +50,7 @@
     }
   },
   "why": {
-    "badge": "為何選擇 Seedream 4.5",
+    
     "title": "為何選擇 Seedream 4.5 AI 圖像生成器",
     "subtitle": "Seedream 4.5 透過字節跳動先進技術驅動，提供高速生成、2K 解析度輸出和強大的圖像編輯功能，超越傳統圖像創作方法和競爭的 AI 圖像生成器。",
     "comparison": {
@@ -97,7 +97,7 @@
     }
   },
   "how": {
-    "badge": "使用方式",
+    
     "title": "如何使用 Seedream 4.5 AI 圖像生成器",
     "subtitle": "從概念到專業 2K AI 生成圖像，只需簡單幾步。Seedream 4.5 讓先進的 AI 圖像生成變得直覺且易於使用。",
     "steps": {
@@ -120,7 +120,7 @@
     }
   },
   "features": {
-    "badge": "主要功能",
+    
     "title": "Seedream 4.5 AI 圖像生成器功能",
     "subtitle": "由字節跳動技術驅動的全面 AI 圖像生成功能",
     "items": {
@@ -151,7 +151,7 @@
     }
   },
   "faq": {
-    "badge": "常見問題",
+    
     "title": "Seedream 4.5 常見問題",
     "subtitle": "關於 Seedream 4.5 AI 圖像生成器的常見問題",
     "items": [

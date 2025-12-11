@@ -4,7 +4,7 @@
     "description": "أنشئ صور 4K في أقل من 10 ثوانٍ مع Nano Banana Pro. نموذج Gemini 3 Pro Image من Google DeepMind مع رسم نص دقيق واتساق الأحرف."
   },
   "hero": {
-    "badge": "مدعوم بـ Gemini 3 Pro",
+    
     "title": {
       "line1": "Nano Banana Pro",
       "line2": "توليد صور Gemini 3 Pro"
@@ -30,7 +30,7 @@
     }
   },
   "what": {
-    "badge": "حول Nano Banana Pro",
+    
     "title": "ما هو مولد الصور Nano Banana Pro بالذكاء الاصطناعي؟",
     "description": "Nano Banana Pro، مدعوم بنموذج Gemini 3 Pro Image من Google DeepMind، هو مولد صور ذكاء اصطناعي متطور يجمع بين التفكير المتقدم والمعرفة بالعالم الحقيقي. توفر منصة توليد الصور الاحترافية هذه صور عالية الدقة 4K بسرعة وأمل غير مسبوق، مثالية للمصممين والمسوقين والمنشئين الذين يطلبون صور مُنشأة بالذكاء الاصطناعي بجودة احترافية.",
     "demoPlaceholder": "صورة مُولَّدة بواسطة Nano Banana Pro",
@@ -50,7 +50,7 @@
     }
   },
   "why": {
-    "badge": "لماذا Nano Banana Pro",
+    
     "title": "لماذا تختار مولد الصور Nano Banana Pro بالذكاء الاصطناعي",
     "subtitle": "يتفوق Nano Banana Pro على طرق إنشاء الصور التقليدية ومولدات الصور بالذكاء الاصطناعي المنافسة مع توليد موجه بالتفكير وإخراج دقة 4K وقدرات تحرير احترافية مدعومة بتقنية Gemini 3 Pro Image.",
     "comparison": {
@@ -97,7 +97,7 @@
     }
   },
   "how": {
-    "badge": "كيفية العمل",
+    
     "title": "كيفية استخدام مولد الصور Nano Banana Pro بالذكاء الاصطناعي",
     "subtitle": "من المفهوم إلى صورة 4K احترافية مُولَّدة بالذكاء الاصطناعي في أربع خطوات بسيطة. يجعل Nano Banana Pro توليد الصور بالذكاء الاصطناعي المتقدم بديهياً وسهل الوصول.",
     "steps": {
@@ -120,7 +120,7 @@
     }
   },
   "features": {
-    "badge": "المميزات الرئيسية",
+    
     "title": "مميزات مولد الصور Nano Banana Pro بالذكاء الاصطناعي",
     "subtitle": "قدرات توليد صور ذكاء اصطناعي شاملة مدعومة بتقنية Gemini 3 Pro Image من Google DeepMind",
     "items": {
@@ -151,7 +151,7 @@
     }
   },
   "faq": {
-    "badge": "الأسئلة الشائعة",
+    
     "title": "أسئلة متكررة حول Nano Banana Pro",
     "subtitle": "أسئلة شائعة حول مولد صور Nano Banana Pro بالذكاء الاصطناعي",
     "items": [

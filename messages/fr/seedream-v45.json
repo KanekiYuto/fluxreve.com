@@ -4,7 +4,7 @@
     "description": "Créez des images 2K HD avec Seedream 4.5. L'IA de ByteDance prend en charge la génération texte-image et image-image. 30 crédits par image."
   },
   "hero": {
-    "badge": "Alimenté par ByteDance",
+    
     "title": {
       "line1": "Seedream 4.5",
       "line2": "Génération d'images IA ByteDance"
@@ -30,7 +30,7 @@
     }
   },
   "what": {
-    "badge": "À propos de Seedream 4.5",
+    
     "title": "Qu'est-ce que Seedream 4.5, le générateur d'images IA ?",
     "description": "Seedream 4.5, développé par ByteDance, est un générateur d'images IA avancé qui combine des capacités texte-image et image-image puissantes. Cette plateforme de génération d'images IA professionnelle offre des images haute résolution 2K à grande vitesse et avec qualité, parfaite pour les designers, les spécialistes du marketing et les créateurs de contenu qui exigent des images générées par IA de qualité professionnelle.",
     "demoPlaceholder": "Image générée par Seedream 4.5",
@@ -50,7 +50,7 @@
     }
   },
   "why": {
-    "badge": "Pourquoi Seedream 4.5",
+    
     "title": "Pourquoi choisir Seedream 4.5, le générateur d'images IA",
     "subtitle": "Seedream 4.5, alimenté par la technologie avancée de ByteDance, surpasse les méthodes traditionnelles de création d'images et les générateurs d'images IA concurrents avec une génération à grande vitesse, une sortie 2K et des capacités puissantes d'édition d'images.",
     "comparison": {
@@ -97,7 +97,7 @@
     }
   },
   "how": {
-    "badge": "Comment ça marche",
+    
     "title": "Comment utiliser Seedream 4.5, le générateur d'images IA",
     "subtitle": "Du concept à l'image 2K professionnelle générée par l'IA en étapes simples. Seedream 4.5 rend la génération d'images IA avancée intuitive et accessible.",
     "steps": {
@@ -120,7 +120,7 @@
     }
   },
   "features": {
-    "badge": "Fonctionnalités clés",
+    
     "title": "Fonctionnalités du générateur d'images IA Seedream 4.5",
     "subtitle": "Capacités complètes de génération d'images IA alimentées par la technologie ByteDance",
     "items": {
@@ -151,7 +151,7 @@
     }
   },
   "faq": {
-    "badge": "FAQ",
+    
     "title": "Questions fréquemment posées sur Seedream 4.5",
     "subtitle": "Questions courantes sur le générateur d'images IA Seedream 4.5",
     "items": [

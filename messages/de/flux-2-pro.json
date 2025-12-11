@@ -4,7 +4,7 @@
     "description": "Professionelle KI-Bildgenerierung mit Flux 2 Pro. Text-zu-Bild- und Bild-zu-Bild-Modi mit präziser künstlerischer Kontrolle. Kommerzielle Qualität."
   },
   "hero": {
-    "badge": "Flux 2 Pro",
+    
     "title": {
       "line1": "Flux 2 Pro",
       "line2": "Professionelle KI-Generierung"
@@ -30,7 +30,7 @@
     }
   },
   "what": {
-    "badge": "Über Flux 2 Pro",
+    
     "title": "Was ist Flux 2 Pro KI-Bildgenerator?",
     "description": "Flux 2 Pro ist ein fortschrittlicher professioneller KI-Bildgenerator für Schöpfer und Unternehmen, die hochwertige visuelle Inhalte benötigen. Er bietet zwei leistungsstarke Generierungsmodi: Text-zu-Bild zum Erstellen von Bildern aus Beschreibungen und Bild-zu-Bild zum Transformieren und Verbessern vorhandener Bilder. Mit präziser Parametersteuerung und vielfältigen Stiloptionen ermöglicht Flux 2 Pro Ihnen die Erstellung professioneller Bilder, die kommerzielle Standards erfüllen.",
     "demoPlaceholder": "Flux 2 Pro generiertes Bild",
@@ -50,7 +50,7 @@
     }
   },
   "why": {
-    "badge": "Warum Flux 2 Pro wählen",
+    
     "title": "Warum sollten Sie Flux 2 Pro KI-Bildgenerator wählen",
     "subtitle": "Flux 2 Pro revolutioniert Ihren kreativen Arbeitsablauf mit professioneller Qualität, Dualmodus-Erstellung und präziser Kontrolle.",
     "comparison": {
@@ -97,7 +97,7 @@
     }
   },
   "how": {
-    "badge": "Wie es funktioniert",
+    
     "title": "Wie man Flux 2 Pro KI-Bildgenerator nutzt",
     "subtitle": "Vier einfache Schritte vom Konzept zum professionellen Bild. Flux 2 Pro macht hochwertige KI-Bildgenerierung einfach und intuitiv.",
     "steps": {
@@ -120,7 +120,7 @@
     }
   },
   "features": {
-    "badge": "Hauptmerkmale",
+    
     "title": "Flux 2 Pro KI-Bildgenerator Merkmale",
     "subtitle": "Professionelle Funktionssammlung zur Erfüllung aller Ihrer kreativen Anforderungen",
     "items": {
@@ -151,7 +151,7 @@
     }
   },
   "faq": {
-    "badge": "Häufig gestellte Fragen",
+    
     "title": "Flux 2 Pro häufig gestellte Fragen",
     "subtitle": "Häufige Fragen zum Flux 2 Pro KI-Bildgenerator",
     "items": [

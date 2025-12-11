@@ -4,7 +4,7 @@
     "description": "Erstellen Sie 2K HD-Bilder mit Seedream 4.5. ByteDance KI unterstützt Text-zu-Bild und Bild-zu-Bild-Generierung. 30 Credits pro Bild."
   },
   "hero": {
-    "badge": "Angetrieben von ByteDance",
+    
     "title": {
       "line1": "Seedream 4.5",
       "line2": "ByteDance KI-Bildgenerierung"
@@ -30,7 +30,7 @@
     }
   },
   "what": {
-    "badge": "Über Seedream 4.5",
+    
     "title": "Was ist der Seedream 4.5 KI-Bildgenerator?",
     "description": "Seedream 4.5, entwickelt von ByteDance, ist ein fortschrittlicher KI-Bildgenerator, der leistungsstarke Text-zu-Bild- und Bild-zu-Bild-Funktionen kombiniert. Diese professionelle KI-Bildgenerierungsplattform liefert 2K-hochauflösende Bilder mit hoher Geschwindigkeit und Qualität, perfekt für Designer, Vermarkter und Content-Ersteller, die professionelle KI-generierte Bilder benötigen.",
     "demoPlaceholder": "Seedream 4.5 generiertes Bild",
@@ -50,7 +50,7 @@
     }
   },
   "why": {
-    "badge": "Warum Seedream 4.5",
+    
     "title": "Warum Seedream 4.5 KI-Bildgenerator wählen",
     "subtitle": "Seedream 4.5, powered by ByteDance's advanced technology, outperforms traditional image creation methods and competing AI image generators with high-speed generation, 2K resolution output, and powerful image editing capabilities.",
     "comparison": {
@@ -97,7 +97,7 @@
     }
   },
   "how": {
-    "badge": "Wie es funktioniert",
+    
     "title": "Wie man Seedream 4.5 KI-Bildgenerator verwendet",
     "subtitle": "Von der Idee zum professionellen 2K KI-generierten Bild in einfachen Schritten. Seedream 4.5 macht fortgeschrittene KI-Bildgenerierung intuitiv und zugänglich.",
     "steps": {
@@ -120,7 +120,7 @@
     }
   },
   "features": {
-    "badge": "Hauptmerkmale",
+    
     "title": "Seedream 4.5 KI-Bildgenerator Funktionen",
     "subtitle": "Umfassende KI-Bildgenerierungsfunktionen powered by ByteDance Technologie",
     "items": {
@@ -151,7 +151,7 @@
     }
   },
   "faq": {
-    "badge": "FAQ",
+    
     "title": "Seedream 4.5 Häufig gestellte Fragen",
     "subtitle": "Häufige Fragen zum Seedream 4.5 KI-Bildgenerator",
     "items": [

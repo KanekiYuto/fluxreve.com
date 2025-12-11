@@ -27,15 +27,6 @@ export default function LandingHero({
 
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24 md:py-32">
         <div className="max-w-5xl mx-auto text-center">
-          {/* 标签 */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6 sm:mb-8">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
-            </span>
-            <span className="text-xs sm:text-sm font-medium text-primary">{t('badge')}</span>
-          </div>
-
           {/* 主标题 */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
             <span className="bg-gradient-to-r from-white via-white to-text-muted bg-clip-text text-transparent">

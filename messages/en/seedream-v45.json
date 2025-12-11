@@ -4,7 +4,7 @@
     "description": "Create 2K HD images with Seedream 4.5. ByteDance's AI supports text-to-image and image-to-image generation. 30 credits per image."
   },
   "hero": {
-    "badge": "Powered by ByteDance",
+    
     "title": {
       "line1": "Seedream 4.5",
       "line2": "ByteDance AI Image Generation"
@@ -30,7 +30,7 @@
     }
   },
   "what": {
-    "badge": "About Seedream 4.5",
+    
     "title": "What is Seedream 4.5 AI Image Generator?",
     "description": "Seedream 4.5, developed by ByteDance, is an advanced AI image generator that combines powerful text-to-image and image-to-image capabilities. This professional AI image generation platform delivers 2K high-resolution images with high speed and quality, perfect for designers, marketers, and content creators who demand professional-quality AI-generated images.",
     "demoPlaceholder": "Seedream 4.5 Generated Image",
@@ -50,7 +50,7 @@
     }
   },
   "why": {
-    "badge": "Why Seedream 4.5",
+    
     "title": "Why Choose Seedream 4.5 AI Image Generator",
     "subtitle": "Seedream 4.5, powered by ByteDance's advanced technology, outperforms traditional image creation methods and competing AI image generators with high-speed generation, 2K resolution output, and powerful image editing capabilities.",
     "comparison": {
@@ -97,7 +97,7 @@
     }
   },
   "how": {
-    "badge": "How It Works",
+    
     "title": "How to Use Seedream 4.5 AI Image Generator",
     "subtitle": "From concept to professional 2K AI-generated image in simple steps. Seedream 4.5 makes advanced AI image generation intuitive and accessible.",
     "steps": {
@@ -120,7 +120,7 @@
     }
   },
   "features": {
-    "badge": "Key Features",
+    
     "title": "Seedream 4.5 AI Image Generator Features",
     "subtitle": "Comprehensive AI image generation capabilities powered by ByteDance technology",
     "items": {
@@ -151,7 +151,7 @@
     }
   },
   "faq": {
-    "badge": "FAQ",
+    
     "title": "Seedream 4.5 Frequently Asked Questions",
     "subtitle": "Common questions about Seedream 4.5 AI image generator",
     "items": [

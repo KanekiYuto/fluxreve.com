@@ -4,7 +4,7 @@
     "description": "Flux 2 Pro - 新一代专业AI图像生成器。支持高质量文生图和图生图，提供精准的艺术控制、多样化风格选择和商业级图像输出。"
   },
   "hero": {
-    "badge": "Flux 2 Pro",
+    
     "title": {
       "line1": "Flux 2 Pro",
       "line2": "专业AI图像生成"
@@ -30,7 +30,7 @@
     }
   },
   "what": {
-    "badge": "关于 Flux 2 Pro",
+    
     "title": "什么是 Flux 2 Pro AI 图像生成器？",
     "description": "Flux 2 Pro 是一个先进的专业级AI图像生成器，专为需要高质量视觉内容的创作者和企业设计。它提供了两种强大的生成模式：从文字描述创建图像的文生图模式，以及基于现有图像进行转换和增强的图生图模式。凭借精确的参数控制和多样化的风格选择，Flux 2 Pro 让您能够创造出满足商业标准的专业图像。",
     "demoPlaceholder": "Flux 2 Pro 生成图像",
@@ -50,7 +50,7 @@
     }
   },
   "why": {
-    "badge": "为何选择 Flux 2 Pro",
+    
     "title": "为何选择 Flux 2 Pro AI 图像生成器",
     "subtitle": "Flux 2 Pro 通过专业级质量、双模式创作和精准控制，为您的创意工作流程带来革命性改变。",
     "comparison": {
@@ -97,7 +97,7 @@
     }
   },
   "how": {
-    "badge": "使用方式",
+    
     "title": "如何使用 Flux 2 Pro AI 图像生成器",
     "subtitle": "简单四步，从创意到专业图像。Flux 2 Pro 让高质量AI图像生成变得简单直观。",
     "steps": {
@@ -120,7 +120,7 @@
     }
   },
   "features": {
-    "badge": "主要功能",
+    
     "title": "Flux 2 Pro AI 图像生成器功能",
     "subtitle": "专业级功能套件，满足您的所有创意需求",
     "items": {
@@ -151,7 +151,7 @@
     }
   },
   "faq": {
-    "badge": "常见问题",
+    
     "title": "Flux 2 Pro 常见问题",
     "subtitle": "关于 Flux 2 Pro AI 图像生成器的常见问题解答",
     "items": [

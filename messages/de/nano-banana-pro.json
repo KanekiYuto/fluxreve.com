@@ -4,7 +4,7 @@
     "description": "Generieren Sie 4K-Bilder in unter 10 Sekunden mit Nano Banana Pro. Google DeepMind's Gemini 3 Pro Image Modell mit genauer Textwiedergabe und Zeichenkonsistenz."
   },
   "hero": {
-    "badge": "Angetrieben von Gemini 3 Pro",
+    
     "title": {
       "line1": "Nano Banana Pro",
       "line2": "Gemini 3 Pro Bildgenerierung"
@@ -30,7 +30,7 @@
     }
   },
   "what": {
-    "badge": "Über Nano Banana Pro",
+    
     "title": "Was ist Nano Banana Pro KI-Bildgenerator?",
     "description": "Nano Banana Pro, angetrieben von Google DeepMind's Gemini 3 Pro Image Modell, ist ein hochmoderner KI-Bildgenerator, der fortgeschrittenes Denken mit echtem Wissen kombiniert. Diese professionelle KI-Bildgenerierungsplattform liefert 4K-hochauflösende Bilder mit beispielloser Geschwindigkeit und Genauigkeit, perfekt für Designer, Vermarkter und Content-Ersteller, die professionelle KI-generierte Bilder fordern.",
     "demoPlaceholder": "Nano Banana Pro generiertes Bild",
@@ -50,7 +50,7 @@
     }
   },
   "why": {
-    "badge": "Warum Nano Banana Pro",
+    
     "title": "Warum sollten Sie Nano Banana Pro KI-Bildgenerator wählen",
     "subtitle": "Nano Banana Pro übertrifft traditionelle Bilderstellungsmethoden und konkurrierende KI-Bildgeneratoren mit vernunftgeleiteter Generierung, 4K-Auflösungsausgabe und professionellen Bearbeitungsfunktionen, unterstützt durch Gemini 3 Pro Image Technologie.",
     "comparison": {
@@ -97,7 +97,7 @@
     }
   },
   "how": {
-    "badge": "Wie es funktioniert",
+    
     "title": "Wie man Nano Banana Pro KI-Bildgenerator nutzt",
     "subtitle": "Von Konzept zu professionellem 4K KI-generiertem Bild in vier einfachen Schritten. Nano Banana Pro macht fortgeschrittene KI-Bildgenerierung intuitiv und zugänglich.",
     "steps": {
@@ -120,7 +120,7 @@
     }
   },
   "features": {
-    "badge": "Hauptmerkmale",
+    
     "title": "Nano Banana Pro KI-Bildgenerator Merkmale",
     "subtitle": "Umfassende KI-Bildgenerierungsfunktionen, unterstützt durch Google DeepMind's Gemini 3 Pro Image Technologie",
     "items": {
@@ -151,7 +151,7 @@
     }
   },
   "faq": {
-    "badge": "Häufig gestellte Fragen",
+    
     "title": "Nano Banana Pro häufig gestellte Fragen",
     "subtitle": "Häufige Fragen zum Nano Banana Pro KI-Bildgenerator",
     "items": [

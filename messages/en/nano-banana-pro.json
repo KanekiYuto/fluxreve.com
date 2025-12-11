@@ -4,7 +4,6 @@
     "description": "Generate 4K images in under 10 seconds with Nano Banana Pro. Google DeepMind's Gemini 3 Pro Image model with accurate text rendering and character consistency."
   },
   "hero": {
-    "badge": "Powered by Gemini 3 Pro",
     "title": {
       "line1": "Nano Banana Pro",
       "line2": "Gemini 3 Pro Image Generation"
@@ -30,7 +29,6 @@
     }
   },
   "what": {
-    "badge": "About Nano Banana Pro",
     "title": "What is Nano Banana Pro AI Image Generator?",
     "description": "Nano Banana Pro, powered by Google DeepMind's Gemini 3 Pro Image model, is a state-of-the-art AI image generator that combines advanced reasoning with real-world knowledge. This professional AI image generation platform delivers 4K high-resolution images with unprecedented speed and accuracy, perfect for designers, marketers, and content creators who demand professional-quality AI-generated images.",
     "demoPlaceholder": "Nano Banana Pro Generated Image",
@@ -50,7 +48,6 @@
     }
   },
   "why": {
-    "badge": "Why Nano Banana Pro",
     "title": "Why Choose Nano Banana Pro AI Image Generator",
     "subtitle": "Nano Banana Pro outperforms traditional image creation methods and competing AI image generators with reasoning-guided generation, 4K resolution output, and professional editing capabilities powered by Gemini 3 Pro Image technology.",
     "comparison": {
@@ -97,7 +94,6 @@
     }
   },
   "how": {
-    "badge": "How It Works",
     "title": "How to Use Nano Banana Pro AI Image Generator",
     "subtitle": "From concept to professional 4K AI-generated image in four simple steps. Nano Banana Pro makes advanced AI image generation intuitive and accessible.",
     "steps": {
@@ -120,7 +116,6 @@
     }
   },
   "features": {
-    "badge": "Key Features",
     "title": "Nano Banana Pro AI Image Generator Features",
     "subtitle": "Comprehensive AI image generation capabilities powered by Google DeepMind's Gemini 3 Pro Image technology",
     "items": {
@@ -151,7 +146,6 @@
     }
   },
   "faq": {
-    "badge": "FAQ",
     "title": "Nano Banana Pro Frequently Asked Questions",
     "subtitle": "Common questions about Nano Banana Pro AI image generator",
     "items": [

@@ -4,7 +4,7 @@
     "description": "Nano Banana Pro (Gemini 3 Pro Image) - Google DeepMindの先進的なAI画像生成ツール。正確なテキストレンダリング、キャラクターの一貫性、10秒以内でプロフェッショナルな編集機能を備えた4K高解像度画像を作成。"
   },
   "hero": {
-    "badge": "Gemini 3 Proを搭載",
+    
     "title": {
       "line1": "Nano Banana Pro",
       "line2": "Gemini 3 Pro画像生成"
@@ -30,7 +30,7 @@
     }
   },
   "what": {
-    "badge": "Nano Banana Proについて",
+    
     "title": "Nano Banana Pro AI画像生成ツールとは?",
     "description": "Google DeepMindのGemini 3 Pro Imageモデルを搭載したNano Banana Proは、高度な推論と実世界の知識を組み合わせた最先端のAI画像生成ツールです。このプロフェッショナルなAI画像生成プラットフォームは、前例のないスピードと精度で4K高解像度画像を提供し、プロフェッショナル品質のAI生成画像を求めるデザイナー、マーケター、コンテンツクリエイターに最適です。",
     "demoPlaceholder": "Nano Banana Pro生成画像",
@@ -50,7 +50,7 @@
     }
   },
   "why": {
-    "badge": "Nano Banana Proを選ぶ理由",
+    
     "title": "Nano Banana Pro AI画像生成ツールを選ぶ理由",
     "subtitle": "Nano Banana Proは、推論ガイド生成、4K解像度出力、Gemini 3 Pro Image技術を活用したプロフェッショナル編集機能により、従来の画像作成方法や競合するAI画像生成ツールを上回ります。",
     "comparison": {
@@ -97,7 +97,7 @@
     }
   },
   "how": {
-    "badge": "使い方",
+    
     "title": "Nano Banana Pro AI画像生成ツールの使い方",
     "subtitle": "コンセプトからプロフェッショナルな4K AI生成画像まで、4つの簡単なステップで。Nano Banana Proは高度なAI画像生成を直感的でアクセス可能にします。",
     "steps": {
@@ -120,7 +120,7 @@
     }
   },
   "features": {
-    "badge": "主な機能",
+    
     "title": "Nano Banana Pro AI画像生成ツールの機能",
     "subtitle": "Google DeepMindのGemini 3 Pro Image技術を活用した包括的なAI画像生成機能",
     "items": {
@@ -151,7 +151,7 @@
     }
   },
   "faq": {
-    "badge": "FAQ",
+    
     "title": "Nano Banana Proよくある質問",
     "subtitle": "Nano Banana Pro AI画像生成ツールに関する一般的な質問",
     "items": [

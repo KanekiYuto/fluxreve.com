@@ -4,7 +4,7 @@
     "description": "Générez des images 4K en moins de 10 secondes avec Nano Banana Pro. Modèle Gemini 3 Pro Image de Google DeepMind avec rendu de texte précis et cohérence des personnages."
   },
   "hero": {
-    "badge": "Propulsé par Gemini 3 Pro",
+    
     "title": {
       "line1": "Nano Banana Pro",
       "line2": "Génération d'Images Gemini 3 Pro"
@@ -30,7 +30,7 @@
     }
   },
   "what": {
-    "badge": "À Propos de Nano Banana Pro",
+    
     "title": "Qu'est-ce que le Générateur d'Images IA Nano Banana Pro ?",
     "description": "Nano Banana Pro, propulsé par le modèle Gemini 3 Pro Image de Google DeepMind, est un générateur d'images IA de pointe qui combine raisonnement avancé et connaissances du monde réel. Cette plateforme professionnelle de génération d'images IA offre des images haute résolution 4K avec une vitesse et une précision sans précédent, parfaite pour les designers, marketeurs et créateurs de contenu exigeant des images IA de qualité professionnelle.",
     "demoPlaceholder": "Image Générée par Nano Banana Pro",
@@ -50,7 +50,7 @@
     }
   },
   "why": {
-    "badge": "Pourquoi Nano Banana Pro",
+    
     "title": "Pourquoi Choisir le Générateur d'Images IA Nano Banana Pro",
     "subtitle": "Nano Banana Pro surpasse les méthodes traditionnelles de création d'images et les générateurs d'images IA concurrents avec génération guidée par raisonnement, sortie en résolution 4K et capacités d'édition professionnelles propulsées par la technologie Gemini 3 Pro Image.",
     "comparison": {
@@ -97,7 +97,7 @@
     }
   },
   "how": {
-    "badge": "Comment Ça Marche",
+    
     "title": "Comment Utiliser le Générateur d'Images IA Nano Banana Pro",
     "subtitle": "Du concept à l'image IA professionnelle 4K en quatre étapes simples. Nano Banana Pro rend la génération d'images IA avancée intuitive et accessible.",
     "steps": {
@@ -120,7 +120,7 @@
     }
   },
   "features": {
-    "badge": "Fonctionnalités Clés",
+    
     "title": "Fonctionnalités du Générateur d'Images IA Nano Banana Pro",
     "subtitle": "Capacités complètes de génération d'images IA propulsées par la technologie Gemini 3 Pro Image de Google DeepMind",
     "items": {
@@ -151,7 +151,7 @@
     }
   },
   "faq": {
-    "badge": "FAQ",
+    
     "title": "Questions Fréquemment Posées sur Nano Banana Pro",
     "subtitle": "Questions courantes sur le générateur d'images IA Nano Banana Pro",
     "items": [

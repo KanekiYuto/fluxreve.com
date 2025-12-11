@@ -34,9 +34,6 @@ export default function LandingFAQ({ namespace }: LandingFAQProps) {
       <div className="max-w-7xl mx-auto">
         {/* 标题区域 */}
         <div className="text-center mb-12 sm:mb-16">
-          <div className="inline-block mb-3 sm:mb-4 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full bg-primary/10 border border-primary/20">
-            <span className="text-xs sm:text-sm font-semibold text-primary">{t('faq.badge')}</span>
-          </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 text-white">
             {t('faq.title')}
           </h2>

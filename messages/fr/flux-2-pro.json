@@ -4,7 +4,7 @@
     "description": "Génération d'images IA professionnelle avec Flux 2 Pro. Modes texte-vers-image et image-vers-image avec contrôle artistique précis. Qualité professionnelle."
   },
   "hero": {
-    "badge": "Flux 2 Pro",
+    
     "title": {
       "line1": "Flux 2 Pro",
       "line2": "Génération IA Professionnelle"
@@ -30,7 +30,7 @@
     }
   },
   "what": {
-    "badge": "À Propos de Flux 2 Pro",
+    
     "title": "Qu'est-ce que le Générateur d'Images IA Flux 2 Pro ?",
     "description": "Flux 2 Pro est un générateur d'images IA avancé de qualité professionnelle conçu pour les créateurs et les entreprises nécessitant du contenu visuel de haute qualité. Il offre deux modes de génération puissants : texte-vers-image pour créer des images à partir de descriptions, et image-vers-image pour transformer et améliorer des visuels existants. Avec un contrôle de paramètres précis et des options de style diverses, Flux 2 Pro vous permet de créer des images professionnelles répondant aux normes commerciales.",
     "demoPlaceholder": "Image Générée par Flux 2 Pro",
@@ -50,7 +50,7 @@
     }
   },
   "why": {
-    "badge": "Pourquoi Choisir Flux 2 Pro",
+    
     "title": "Pourquoi Choisir le Générateur d'Images IA Flux 2 Pro",
     "subtitle": "Flux 2 Pro révolutionne votre flux de travail créatif avec une qualité professionnelle, une création à double mode et un contrôle précis.",
     "comparison": {
@@ -97,7 +97,7 @@
     }
   },
   "how": {
-    "badge": "Comment Ça Marche",
+    
     "title": "Comment Utiliser le Générateur d'Images IA Flux 2 Pro",
     "subtitle": "Quatre étapes simples du concept à l'image professionnelle. Flux 2 Pro rend la génération d'images IA de haute qualité simple et intuitive.",
     "steps": {
@@ -120,7 +120,7 @@
     }
   },
   "features": {
-    "badge": "Fonctionnalités Clés",
+    
     "title": "Fonctionnalités du Générateur d'Images IA Flux 2 Pro",
     "subtitle": "Suite de fonctionnalités professionnelles pour répondre à tous vos besoins créatifs",
     "items": {
@@ -151,7 +151,7 @@
     }
   },
   "faq": {
-    "badge": "FAQ",
+    
     "title": "Questions Fréquemment Posées sur Flux 2 Pro",
     "subtitle": "Questions courantes sur le Générateur d'Images IA Flux 2 Pro",
     "items": [

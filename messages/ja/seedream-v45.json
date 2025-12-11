@@ -4,7 +4,7 @@
     "description": "Seedream 4.5 - ByteDanceの先進的なAI画像ジェネレーター。テキストから画像、画像から画像への機能を備えた2K高解像度画像を迅速に生成し、強力な編集機能を提供します。"
   },
   "hero": {
-    "badge": "ByteDance搭載",
+    
     "title": {
       "line1": "Seedream 4.5",
       "line2": "ByteDance AI画像生成"
@@ -30,7 +30,7 @@
     }
   },
   "what": {
-    "badge": "Seedream 4.5について",
+    
     "title": "Seedream 4.5 AI画像ジェネレーターとは？",
     "description": "ByteDanceが開発したSeedream 4.5は、強力なテキストから画像、画像から画像への機能を組み合わせた先進的なAI画像ジェネレーターです。このプロフェッショナルなAI画像生成プラットフォームは、高速かつ高品質な2K高解像度画像を提供し、プロフェッショナル品質のAI生成画像を求めるデザイナー、マーケター、コンテンツクリエーターに最適です。",
     "demoPlaceholder": "Seedream 4.5生成画像",
@@ -50,7 +50,7 @@
     }
   },
   "why": {
-    "badge": "Seedream 4.5を選ぶ理由",
+    
     "title": "Seedream 4.5 AI画像ジェネレーターを選ぶ理由",
     "subtitle": "ByteDanceの先進技術を搭載したSeedream 4.5は、高速生成、2K解像度出力、強力な画像編集機能により、従来の画像作成方法と競合するAI画像ジェネレーターを上回ります。",
     "comparison": {
@@ -97,7 +97,7 @@
     }
   },
   "how": {
-    "badge": "使い方",
+    
     "title": "Seedream 4.5 AI画像ジェネレーターの使い方",
     "subtitle": "コンセプトからプロフェッショナルな2K AI生成画像まで、簡単なステップで。Seedream 4.5は、先進的なAI画像生成を直感的でアクセスしやすくします。",
     "steps": {
@@ -120,7 +120,7 @@
     }
   },
   "features": {
-    "badge": "主な機能",
+    
     "title": "Seedream 4.5 AI画像ジェネレーター機能",
     "subtitle": "ByteDance技術を搭載した包括的なAI画像生成機能",
     "items": {
@@ -151,7 +151,7 @@
     }
   },
   "faq": {
-    "badge": "よくある質問",
+    
     "title": "Seedream 4.5よくある質問",
     "subtitle": "Seedream 4.5 AI画像ジェネレーターに関する一般的な質問",
     "items": [

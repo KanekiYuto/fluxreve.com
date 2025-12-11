@@ -4,7 +4,7 @@
     "description": "Photorealistische KI-Bilder mit Z-Image. Generierungsgeschwindigkeit unter einer Sekunde mit genauem chinesischem und englischem Textrendering. Erschwingliche Preise für Profis."
   },
   "hero": {
-    "badge": "Photorealistische KI-Bildgenerierung",
+    
     "title": {
       "line1": "Z-Image",
       "line2": "8-Schritte Inferenz, Generierung unter einer Sekunde"
@@ -27,7 +27,7 @@
     }
   },
   "what": {
-    "badge": "Produktbeschreibung",
+    
     "title": "Was ist Z-Image?",
     "description": "Z-Image ist unser photorealistischer KI-Bildgenerierungsdienst, basierend auf der fortgeschrittenen Scalable Single-Stream Diffusion Transformer Architektur. Wir bieten schnelle, erschwingliche und hochwertige KI-Bildgenerierungslösungen, um professionelle Erstellung zugänglich zu machen.",
     "demoPlaceholder": "Photorealistische KI-Bildgenerierung",
@@ -47,7 +47,7 @@
     }
   },
   "why": {
-    "badge": "Kernvorteile",
+    
     "title": "Warum unseren Z-Image-Dienst wählen?",
     "subtitle": "Unser Z-Image-Dienst macht professionelle KI-Bildcreation einfach und effizient mit Generierungsgeschwindigkeit unter einer Sekunde, genauem Textrendering und erschwinglichen Preisen.",
     "comparison": {
@@ -94,7 +94,7 @@
     }
   },
   "how": {
-    "badge": "Benutzerhandbuch",
+    
     "title": "Wie man Z-Image verwendet?",
     "subtitle": "Vier einfache Schritte zum Beginn Ihrer KI-Reise",
     "steps": {
@@ -117,7 +117,7 @@
     }
   },
   "faq": {
-    "badge": "FAQ",
+    
     "title": "Häufig gestellte Fragen",
     "subtitle": "Häufige Fragen zu Z-Image",
     "items": [
