@@ -45,6 +45,7 @@ export const headerNavigation: HeaderNavEntry[] = [
       { name: 'seedreamV45', href: '/seedream-v45', icon: 'sparkles', description: 'seedreamV45Desc' },
     ],
   },
+  { type: 'link', name: 'explore', href: '/explore' },
   { type: 'link', name: 'tasks', href: '/tasks' },
   { type: 'link', name: 'pricing', href: '/pricing' },
 ];
@@ -71,6 +72,7 @@ export const navigationGroups: NavGroup[] = [
       { name: 'pricing', href: '/pricing', icon: 'pricing' },
       { name: 'dashboard', href: '/dashboard', icon: 'dashboard' },
       { name: 'ai-generator', href: '/ai-generator', icon: 'image' },
+      { name: 'explore', href: '/explore', icon: 'image' },
     ],
   },
   {
@@ -119,6 +121,7 @@ export const footerSections: FooterSection[] = [
     links: [
       { name: 'home', href: '/' },
       { name: 'ai-generator', href: '/ai-generator' },
+      { name: 'explore', href: '/explore' },
       { name: 'pricing', href: '/pricing' },
       { name: 'help', href: '/help' },
     ],
