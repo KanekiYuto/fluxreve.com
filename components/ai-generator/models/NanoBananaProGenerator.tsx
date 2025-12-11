@@ -83,7 +83,7 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
   const [seed, setSeed] = useState(defaultParameters?.seed || '');
   const [resolution, setResolution] = useState<Resolution>((defaultParameters?.resolution || '1k') as Resolution);
   const [outputFormat, setOutputFormat] = useState<OutputFormat>((defaultParameters?.output_format || 'png') as OutputFormat);
-  const [isPrivate, setIsPrivate] = useState(true);
+  const [isPrivate, setIsPrivate] = useState(false);
 
   // 积分计算
   const requiredCredits = useRequiredCredits('text-to-image', 'nano-banana-pro', {

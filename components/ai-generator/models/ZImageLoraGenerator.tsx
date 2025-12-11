@@ -54,7 +54,7 @@ export default function ZImageLoraGenerator({ modelSelector, defaultParameters }
   const [size, setSize] = useState(defaultParameters?.size || '1024*1536');
   const [seed, setSeed] = useState(defaultParameters?.seed || '');
   const [loras, setLoras] = useState<LoraConfig[]>([]);
-  const [isPrivate, setIsPrivate] = useState(true);
+  const [isPrivate, setIsPrivate] = useState(false);
 
   // 当 defaultParameters 变化时更新表单状态
   useEffect(() => {

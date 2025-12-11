@@ -67,7 +67,7 @@ export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-t
       : []
   );
   const [size, setSize] = useState(defaultParameters?.size || '2048*2048');
-  const [isPrivate, setIsPrivate] = useState(true);
+  const [isPrivate, setIsPrivate] = useState(false);
 
   // 积分计算 - Seedream v4.5 固定 30 积分
   const requiredCredits = useRequiredCredits(mode, 'seedream-v4.5', {

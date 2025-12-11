@@ -50,7 +50,7 @@ export default function ZImageGenerator({ modelSelector, defaultParameters }: ZI
   const [prompt, setPrompt] = useState(defaultParameters?.prompt || '');
   const [size, setSize] = useState(defaultParameters?.size || '1024*1024');
   const [seed, setSeed] = useState(defaultParameters?.seed || '');
-  const [isPrivate, setIsPrivate] = useState(true);
+  const [isPrivate, setIsPrivate] = useState(false);
 
   // 积分计算 - Z-Image Turbo 固定 5 积分
   const requiredCredits = useRequiredCredits('text-to-image', 'z-image', {
