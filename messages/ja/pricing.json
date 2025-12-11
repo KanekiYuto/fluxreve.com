@@ -3,7 +3,6 @@
     "title": "料金プラン",
     "description": "ニーズに合った最適なプランを選択。個人および企業向けの柔軟な料金オプションとAI画像生成。"
   },
-  "badge": "料金プラン",
   "title": "プランを選択",
   "subtitle": "個人および企業のニーズに合わせた柔軟な料金オプション",
   "recommended": "最も人気",
@@ -13,7 +12,8 @@
     "upgrade": "アップグレード",
     "downgrade": "ダウングレード",
     "configuring": "設定中...",
-    "loading": "読み込み中..."
+    "loading": "読み込み中...",
+    "processing": "処理中..."
   },
   "billing": {
     "monthly": "月間",

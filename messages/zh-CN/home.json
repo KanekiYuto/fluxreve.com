@@ -4,7 +4,6 @@
     "description": "使用先进的人工智能技术,快速生成高品质的专业图像。让 AI 图像创作变得简单高效。"
   },
   "hero": {
-    "badge": "AI 图像生成工具",
     "title": {
       "line1": "让创意瞬间成为现实",
       "line2": "AI 驱动的专业图像生成"
@@ -12,7 +11,7 @@
     "description": "只需输入简单描述,即可获得精美的专业级图像。无需设计技能,让每个人都能成为创作者。",
     "buttons": {
       "startCreate": "开始创作",
-      "viewExamples": "查看案例"
+      "viewPricing": "查看定价"
     },
     "features": {
       "highQuality": "高品质输出",
@@ -47,7 +46,7 @@
     "description": "加入数千名创作者，使用 AI 的力量将您的创意变为现实",
     "buttons": {
       "freeTrial": "免费试用",
-      "viewExamples": "查看案例"
+      "viewPricing": "查看定价"
     },
     "note": "无需信用卡 · 即刻开始使用"
   }

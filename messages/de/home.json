@@ -4,7 +4,6 @@
     "description": "Nutzen Sie fortschrittliche Künstliche-Intelligenz-Technologie, um schnell hochwertige professionelle Bilder zu generieren. Machen Sie die KI-Bilderstellung einfach und effizient."
   },
   "hero": {
-    "badge": "KI-Bildgenerator",
     "title": {
       "line1": "Verwandeln Sie Ideen sofort in Realität",
       "line2": "KI-gestützte professionelle Bildgenerierung"
@@ -12,7 +11,7 @@
     "description": "Beschreiben Sie einfach, was Sie möchten, und erhalten Sie beeindruckende professionelle Bilder. Keine Designkenntnisse erforderlich – jeder kann ein Schöpfer sein.",
     "buttons": {
       "startCreate": "Jetzt erstellen",
-      "viewExamples": "Beispiele ansehen"
+      "viewPricing": "Preise ansehen"
     },
     "features": {
       "highQuality": "Hochwertige Ausgabe",
@@ -47,7 +46,7 @@
     "description": "Schließen Sie sich Tausenden von Schöpfern an, die die Kraft der KI nutzen, um Ihre Ideen zum Leben zu erwecken",
     "buttons": {
       "freeTrial": "Kostenlose Testversion",
-      "viewExamples": "Beispiele ansehen"
+      "viewPricing": "Preise ansehen"
     },
     "note": "Keine Kreditkarte erforderlich · Jetzt verwenden"
   }

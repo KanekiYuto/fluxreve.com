@@ -3,7 +3,6 @@
     "title": "Preispläne",
     "description": "Wählen Sie den perfekten Plan für Ihre Bedürfnisse. Flexible Preisoptionen für Privatpersonen und Unternehmen mit KI-gestützter Bildgenerierung."
   },
-  "badge": "Preispläne",
   "title": "Wählen Sie Ihren Plan",
   "subtitle": "Flexible Preisoptionen, um die Bedürfnisse von Privatpersonen und Unternehmen zu erfüllen",
   "recommended": "Am beliebtesten",
@@ -13,7 +12,8 @@
     "upgrade": "Upgrade",
     "downgrade": "Downgrade",
     "configuring": "Wird konfiguriert...",
-    "loading": "Wird geladen..."
+    "loading": "Wird geladen...",
+    "processing": "Wird verarbeitet..."
   },
   "billing": {
     "monthly": "Monatlich",

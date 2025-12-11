@@ -48,15 +48,6 @@ export default function HomeClient() {
 
         <div className="relative container mx-auto px-4 py-24 md:py-32">
           <div className="max-w-4xl mx-auto text-center">
-            {/* 标签 */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
-              </span>
-              <span className="text-sm font-medium text-primary">{t('hero.badge')}</span>
-            </div>
-
             {/* 主标题 */}
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
               <span className="bg-gradient-to-r from-white via-white to-text-muted bg-clip-text text-transparent">
@@ -77,15 +68,15 @@ export default function HomeClient() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
               <Link
                 className="flex h-12 items-center justify-center px-8 rounded-full bg-white hover:bg-gray-100 text-gray-900 font-medium transition-all cursor-pointer"
-                href="/dashboard"
+                href="/ai-generator"
               >
                 <span>{t('hero.buttons.startCreate')}</span>
               </Link>
               <Link
                 className="flex h-12 items-center justify-center px-8 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-medium transition-all cursor-pointer"
-                href="/"
+                href="/pricing"
               >
-                <span>{t('hero.buttons.viewExamples')}</span>
+                <span>{t('hero.buttons.viewPricing')}</span>
               </Link>
             </div>
 
@@ -190,10 +181,10 @@ export default function HomeClient() {
                   <span>{t('cta.buttons.freeTrial')}</span>
                 </Link>
                 <Link
-                  href="/dashboard"
+                  href="/pricing"
                   className="flex h-12 items-center justify-center px-8 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-medium transition-all cursor-pointer"
                 >
-                  <span>{t('cta.buttons.viewExamples')}</span>
+                  <span>{t('cta.buttons.viewPricing')}</span>
                 </Link>
               </div>
 

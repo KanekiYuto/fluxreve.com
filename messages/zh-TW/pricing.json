@@ -3,7 +3,6 @@
     "title": "定價方案",
     "description": "選擇最適合您需求的方案。為個人和企業提供靈活的 AI 圖像生成定價選項。"
   },
-  "badge": "定價方案",
   "title": "選擇適合您的方案",
   "subtitle": "靈活的定價選項,滿足個人和企業的不同需求",
   "recommended": "最受歡迎",
@@ -13,7 +12,8 @@
     "upgrade": "升級訂閱",
     "downgrade": "降級訂閱",
     "configuring": "產品設定中...",
-    "loading": "載入中..."
+    "loading": "載入中...",
+    "processing": "處理中..."
   },
   "billing": {
     "monthly": "按月付費",

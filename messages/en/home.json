@@ -4,7 +4,6 @@
     "description": "Using advanced artificial intelligence technology to quickly generate high-quality professional images. Making AI image creation simple and efficient."
   },
   "hero": {
-    "badge": "AI Image Generation Tool",
     "title": {
       "line1": "Turn Ideas Into Reality Instantly",
       "line2": "AI-Powered Professional Image Generation"
@@ -12,7 +11,7 @@
     "description": "Simply describe what you want and get stunning professional-grade images. No design skills required—everyone can be a creator.",
     "buttons": {
       "startCreate": "Start Creating",
-      "viewExamples": "View Examples"
+      "viewPricing": "View Pricing"
     },
     "features": {
       "highQuality": "High Quality Output",
@@ -47,7 +46,7 @@
     "description": "Join thousands of creators using the power of AI to bring your ideas to life",
     "buttons": {
       "freeTrial": "Free Trial",
-      "viewExamples": "View Examples"
+      "viewPricing": "View Pricing"
     },
     "note": "No credit card required · Start using now"
   }

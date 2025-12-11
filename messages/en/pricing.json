@@ -3,7 +3,6 @@
     "title": "Pricing Plans",
     "description": "Choose the perfect plan for your needs. Flexible pricing options for individuals and businesses with AI-powered image generation."
   },
-  "badge": "Pricing Plans",
   "title": "Choose Your Plan",
   "subtitle": "Flexible pricing options to meet the needs of individuals and businesses",
   "recommended": "Most Popular",
@@ -13,7 +12,8 @@
     "upgrade": "Upgrade",
     "downgrade": "Downgrade",
     "configuring": "Configuring...",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "processing": "Processing..."
   },
   "billing": {
     "monthly": "Monthly",

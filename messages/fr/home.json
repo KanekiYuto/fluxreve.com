@@ -4,7 +4,6 @@
     "description": "Utilisant une technologie d'intelligence artificielle avancée pour générer rapidement des images professionnelles de haute qualité. Rendre la création d'images IA simple et efficace."
   },
   "hero": {
-    "badge": "Outil de Génération d'Images IA",
     "title": {
       "line1": "Transformez vos Idées en Réalité Instantanément",
       "line2": "Génération d'Images Professionnelles Propulsée par l'IA"
@@ -12,7 +11,7 @@
     "description": "Décrivez simplement ce que vous voulez et obtenez des images professionnelles époustouflantes. Aucune compétence en design requise—tout le monde peut être créateur.",
     "buttons": {
       "startCreate": "Commencer à Créer",
-      "viewExamples": "Voir les Exemples"
+      "viewPricing": "Voir la Tarification"
     },
     "features": {
       "highQuality": "Sortie de Haute Qualité",
@@ -47,7 +46,7 @@
     "description": "Rejoignez des milliers de créateurs utilisant la puissance de l'IA pour donner vie à vos idées",
     "buttons": {
       "freeTrial": "Essai Gratuit",
-      "viewExamples": "Voir les Exemples"
+      "viewPricing": "Voir la Tarification"
     },
     "note": "Aucune carte de crédit requise · Commencez à utiliser maintenant"
   }

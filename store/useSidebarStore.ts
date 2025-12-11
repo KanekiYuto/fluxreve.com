@@ -1,5 +1,4 @@
 import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
 
 interface SidebarState {
   isOpen: boolean;
@@ -8,18 +7,11 @@ interface SidebarState {
   openSidebar: () => void;
 }
 
-const useSidebarStore = create<SidebarState>()(
-  persist(
-    (set) => ({
-      isOpen: false,
-      toggleSidebar: () => set((state) => ({ isOpen: !state.isOpen })),
-      closeSidebar: () => set({ isOpen: false }),
-      openSidebar: () => set({ isOpen: true }),
-    }),
-    {
-      name: 'sidebar-store',
-    }
-  )
-);
+const useSidebarStore = create<SidebarState>((set) => ({
+  isOpen: false,
+  toggleSidebar: () => set((state) => ({ isOpen: !state.isOpen })),
+  closeSidebar: () => set({ isOpen: false }),
+  openSidebar: () => set({ isOpen: true }),
+}));
 
 export default useSidebarStore;

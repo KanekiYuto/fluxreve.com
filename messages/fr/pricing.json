@@ -3,7 +3,6 @@
     "title": "Plans de Tarification",
     "description": "Choisissez le plan parfait pour vos besoins. Options de tarification flexibles pour les particuliers et les entreprises avec génération d'images alimentée par l'IA."
   },
-  "badge": "Plans de Tarification",
   "title": "Choisissez Votre Plan",
   "subtitle": "Options de tarification flexibles pour répondre aux besoins des particuliers et des entreprises",
   "recommended": "Le Plus Populaire",
@@ -13,7 +12,8 @@
     "upgrade": "Mettre à niveau",
     "downgrade": "Rétrograder",
     "configuring": "Configuration en cours...",
-    "loading": "Chargement..."
+    "loading": "Chargement...",
+    "processing": "Traitement en cours..."
   },
   "billing": {
     "monthly": "Mensuel",

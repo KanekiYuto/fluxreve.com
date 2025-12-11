@@ -3,7 +3,6 @@
     "title": "요금제",
     "description": "필요에 맞는 완벽한 플랜을 선택하세요. AI 기반 이미지 생성을 위한 개인 및 비즈니스용 유연한 가격 옵션."
   },
-  "badge": "요금제",
   "title": "플랜 선택",
   "subtitle": "개인 및 비즈니스의 요구를 충족하는 유연한 가격 옵션",
   "recommended": "가장 인기 있는",
@@ -13,7 +12,8 @@
     "upgrade": "업그레이드",
     "downgrade": "다운그레이드",
     "configuring": "설정 중...",
-    "loading": "로딩 중..."
+    "loading": "로딩 중...",
+    "processing": "처리 중..."
   },
   "billing": {
     "monthly": "월간",
