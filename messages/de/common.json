@@ -38,5 +38,11 @@
     "nav": "Navigation",
     "models": "KI-Modelle",
     "company": "Unternehmen"
+  },
+  "discordBanner": {
+    "title": "Treten Sie unserer Discord-Community bei",
+    "description": "Erhalten Sie die neuesten Updates, exklusive Vorteile und kostenlose Boni",
+    "joinButton": "Jetzt Beitreten",
+    "closeLabel": "Schließen"
   }
 }

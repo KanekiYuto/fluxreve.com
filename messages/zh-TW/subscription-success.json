@@ -27,6 +27,7 @@
   },
   "autoRedirect": "{seconds} 秒後自動跳轉至儀表板...",
   "planTypes": {
+    "trial": "試用版",
     "monthly_basic": "基礎版 - 月付",
     "yearly_basic": "基礎版 - 年付",
     "monthly_pro": "專業版 - 月付",

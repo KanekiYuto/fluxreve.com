@@ -27,6 +27,7 @@
   },
   "autoRedirect": "سيتم إعادة التوجيه تلقائياً إلى لوحة التحكم في {seconds} ثانية...",
   "planTypes": {
+    "trial": "نسخة تجريبية",
     "monthly_basic": "أساسي - شهري",
     "yearly_basic": "أساسي - سنوي",
     "monthly_pro": "احترافي - شهري",

@@ -27,6 +27,7 @@
   },
   "autoRedirect": "{seconds} 秒後にダッシュボードに自動リダイレクトします...",
   "planTypes": {
+    "trial": "トライアル",
     "monthly_basic": "ベーシック - 月額",
     "yearly_basic": "ベーシック - 年額",
     "monthly_pro": "プロ - 月額",

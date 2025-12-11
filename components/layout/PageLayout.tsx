@@ -6,6 +6,7 @@ import Header from './Header';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
 import Loading from '@/components/common/Loading';
+import DiscordInviteBanner from '@/components/common/DiscordInviteBanner';
 
 // 不显示全局布局的路由路径
 const HIDDEN_LAYOUT_PATHS: string[] = [
@@ -91,11 +92,15 @@ export default function PageLayout({ children }: PageLayoutProps) {
 
       {/* 右侧内容区域 - flex-1 自动占用剩余空间 */}
       <div className="flex flex-col flex-1 min-h-0 lg:min-h-screen overflow-hidden">
+
         {/* Header - 固定在顶部 */}
         <Header />
 
         {/* Main 内容区域 - 可滚动 */}
         <main className="relative flex-1 min-h-0 bg-bg text-text overflow-y-auto scrollbar-dark">
+          {/* Discord 邀请横幅 */}
+          <DiscordInviteBanner />
+
           {/* 全局 Loading 遮罩层 - 只在白名单页面显示 */}
           {isLoadingEnabled && isLoading && (
             <div className="fixed inset-0 lg:left-64 top-[60px] bg-bg/90 backdrop-blur-md z-[200] flex items-center justify-center">

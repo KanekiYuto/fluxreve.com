@@ -38,5 +38,11 @@
     "nav": "ナビゲーション",
     "models": "AIモデル",
     "company": "会社"
+  },
+  "discordBanner": {
+    "title": "Discord コミュニティに参加",
+    "description": "最新情報、限定特典、無料ボーナスを獲得",
+    "joinButton": "今すぐ参加",
+    "closeLabel": "閉じる"
   }
 }

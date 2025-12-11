@@ -27,6 +27,7 @@
   },
   "autoRedirect": "{seconds}초 후 대시보드로 자동 리디렉션됩니다...",
   "planTypes": {
+    "trial": "트라이얼",
     "monthly_basic": "베이직 - 월간",
     "yearly_basic": "베이직 - 연간",
     "monthly_pro": "프로 - 월간",

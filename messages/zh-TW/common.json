@@ -38,5 +38,11 @@
     "nav": "導航",
     "models": "AI 模型",
     "company": "公司"
+  },
+  "discordBanner": {
+    "title": "加入 Discord 社區",
+    "description": "獲取最新資訊、獨家福利和免費贈品",
+    "joinButton": "立即加入",
+    "closeLabel": "關閉"
   }
 }

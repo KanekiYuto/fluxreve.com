@@ -38,5 +38,11 @@
     "nav": "Navigation",
     "models": "AI Models",
     "company": "Company"
+  },
+  "discordBanner": {
+    "title": "Join Our Discord Community",
+    "description": "Get the latest updates, exclusive perks, and free bonuses",
+    "joinButton": "Join Now",
+    "closeLabel": "Close"
   }
 }

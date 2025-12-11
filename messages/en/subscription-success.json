@@ -27,6 +27,7 @@
   },
   "autoRedirect": "Auto redirecting to dashboard in {seconds} seconds...",
   "planTypes": {
+    "trial": "Trial",
     "monthly_basic": "Basic - Monthly",
     "yearly_basic": "Basic - Yearly",
     "monthly_pro": "Pro - Monthly",

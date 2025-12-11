@@ -38,5 +38,11 @@
     "nav": "Navigation",
     "models": "Modèles IA",
     "company": "Entreprise"
+  },
+  "discordBanner": {
+    "title": "Rejoignez Notre Communauté Discord",
+    "description": "Recevez les dernières actualités, des avantages exclusifs et des bonus gratuits",
+    "joinButton": "Rejoindre Maintenant",
+    "closeLabel": "Fermer"
   }
 }

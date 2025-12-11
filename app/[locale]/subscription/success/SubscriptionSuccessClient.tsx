@@ -28,13 +28,13 @@ export default function SubscriptionSuccessClient() {
   const t = useTranslations('subscription-success');
   const router = useRouter();
   const searchParams = useSearchParams();
-  const [countdown, setCountdown] = useState(10000);
+  const [countdown, setCountdown] = useState(10);
   const [isRedirecting, setIsRedirecting] = useState(false);
   const [subscriptionData, setSubscriptionData] = useState<SubscriptionData | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
   // 从 URL 参数获取订阅 ID（必需参数）
-  const subscriptionId = searchParams.get('subscription_id');
+  const subscriptionId = searchParams.get('subscription_id') || searchParams.get('checkout_id');
 
   // 从数据库获取订阅信息
   useEffect(() => {

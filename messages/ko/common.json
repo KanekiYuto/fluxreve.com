@@ -38,5 +38,11 @@
     "nav": "탐색",
     "models": "AI 모델",
     "company": "회사"
+  },
+  "discordBanner": {
+    "title": "Discord 커뮤니티에 참가하세요",
+    "description": "최신 정보, 독점 혜택 및 무료 보너스 받기",
+    "joinButton": "지금 참가",
+    "closeLabel": "닫기"
   }
 }
