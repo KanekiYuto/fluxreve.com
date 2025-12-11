@@ -3,6 +3,7 @@ import { subscription, transaction, quota } from '@/lib/db/schema';
 import { eq, and } from 'drizzle-orm';
 import { getPricingTierByProductId } from '@/config/pricing';
 import { user } from '@/lib/db/schema';
+import { QUOTA_EXCHANGE_RATE } from '@/config/subscription';
 /**
  * 订阅支付成功事件处理器
  * 当订阅支付成功时触发（首次支付、续费或升级）
@@ -32,7 +33,7 @@ export async function handleSubscriptionPaid(data: any) {
   const planInfo = {
     planType: pricingTier.planType,
     subscriptionPlanType: pricingTier.subscriptionPlanType,
-    quota: pricingTier.price * 100
+    quota: pricingTier.price * QUOTA_EXCHANGE_RATE
   };
 
   if (!userId || !planInfo?.subscriptionPlanType) {

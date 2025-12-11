@@ -2,7 +2,7 @@ import { db } from '@/lib/db';
 import { subscription, transaction, quota, user } from '@/lib/db/schema';
 import { eq } from 'drizzle-orm';
 import { getPricingTierByProductId } from '@/config/pricing';
-import { getSubscriptionQuota } from '@/config/subscription';
+import { getSubscriptionQuota, QUOTA_EXCHANGE_RATE } from '@/config/subscription';
 
 /**
  * 一次性付费完成事件处理器
@@ -38,7 +38,7 @@ export async function handleCheckoutCompleted(data: any) {
   const planInfo = {
     planType: pricingTier.planType,
     subscriptionPlanType: pricingTier.subscriptionPlanType,
-    quota: pricingTier.price * 100,
+    quota: pricingTier.price * QUOTA_EXCHANGE_RATE,
   };
 
   if (!userId || !planInfo?.subscriptionPlanType) {

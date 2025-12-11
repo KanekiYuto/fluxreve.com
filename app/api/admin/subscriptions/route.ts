@@ -5,6 +5,7 @@ import { subscription, user, transaction, quota } from '@/lib/db/schema';
 import { eq, desc } from 'drizzle-orm';
 import crypto from 'crypto';
 import { getPricingTierBySubscriptionPlanType } from '@/config/pricing';
+import { QUOTA_EXCHANGE_RATE } from '@/config/subscription';
 
 /**
  * 管理后台 - 获取所有订阅列表
@@ -241,8 +242,8 @@ export async function POST(request: NextRequest) {
 
       console.log(`✓ Created transaction ${transactionRecord.id} - Amount paid: ${Math.round(amount * 100)}`);
 
-      // 2. 发放配额（price * 100）
-      const quotaAmount = Math.round(amount * 100); // 配额等于支付金额（美分）
+      // 2. 发放配额（amount * QUOTA_EXCHANGE_RATE）
+      const quotaAmount = Math.round(amount * QUOTA_EXCHANGE_RATE); // 配额等于支付金额乘以汇率
 
       await db.insert(quota).values({
         userId,
