@@ -32,6 +32,7 @@ export interface ExplorePagination {
 
 export interface ExploreResponse {
   success: boolean;
-  data: ExploreTask[];
-  pagination: ExplorePagination;
+  data?: ExploreTask[];
+  pagination?: ExplorePagination;
+  error?: string;
 }

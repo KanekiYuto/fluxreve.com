@@ -31,7 +31,7 @@ export default function ExploreGallery() {
 
       if (data.success) {
         setTasks(data.data || []);
-        setPagination(data.pagination);
+        setPagination(data.pagination || null);
       } else {
         setError(data.error || t('errors.fetchFailed'));
       }
