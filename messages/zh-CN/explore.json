@@ -1,0 +1,35 @@
+{
+  "seo": {
+    "title": "创意社区 - 探索精彩 AI 艺术作品",
+    "description": "浏览社区用户创作的精彩 AI 生成图像，获取创作灵感，分享和发现优秀作品"
+  },
+  "header": {
+    "title": "创意社区",
+    "subtitle": "探索社区用户的精彩创作，激发你的创意灵感"
+  },
+  "gallery": {
+    "loading": "加载中...",
+    "loadMore": "加载更多",
+    "noMore": "没有更多了"
+  },
+  "card": {
+    "createdAt": "创建于",
+    "viewDetail": "查看详情"
+  },
+  "nsfw": {
+    "warning": "敏感内容警告",
+    "description": "此内容可能包含成人或敏感素材。确认后才能查看，请确保你已年满 18 岁。",
+    "confirm": "我已年满 18 岁，查看内容",
+    "cancel": "返回",
+    "badge": "敏感内容"
+  },
+  "empty": {
+    "title": "暂无作品",
+    "subtitle": "社区还没有公开分享的作品，成为第一个分享的人吧！",
+    "cta": "开始创作"
+  },
+  "errors": {
+    "fetchFailed": "加载失败，请重试",
+    "retry": "重试"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "seo": {
+    "title": "Creative Community - Explore Amazing AI Art",
+    "description": "Browse beautiful AI-generated images created by our community members, get inspired, and discover amazing artworks"
+  },
+  "header": {
+    "title": "Creative Community",
+    "subtitle": "Explore amazing creations from our community and discover your inspiration"
+  },
+  "gallery": {
+    "loading": "Loading...",
+    "loadMore": "Load More",
+    "noMore": "No more items"
+  },
+  "card": {
+    "createdAt": "Created",
+    "viewDetail": "View Details"
+  },
+  "nsfw": {
+    "warning": "Sensitive Content Warning",
+    "description": "This content may contain adult or sensitive material. Please confirm that you are 18+ years old before viewing.",
+    "confirm": "I'm 18+, Show Content",
+    "cancel": "Back",
+    "badge": "Sensitive Content"
+  },
+  "empty": {
+    "title": "No Artworks Yet",
+    "subtitle": "No public artworks shared yet. Be the first to share your creation!",
+    "cta": "Start Creating"
+  },
+  "errors": {
+    "fetchFailed": "Failed to load content, please try again",
+    "retry": "Retry"
+  }
+}

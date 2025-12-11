@@ -1,0 +1,35 @@
+{
+  "seo": {
+    "title": "Kreatives Gemeinschaft - Entdecken Sie erstaunliche KI-Kunst",
+    "description": "Erkunden Sie wunderschöne KI-generierte Bilder, die von unseren Gemeinschaftsmitgliedern erstellt wurden, holen Sie sich Inspiration und entdecken Sie erstaunliche Kunstwerke"
+  },
+  "header": {
+    "title": "Kreatives Gemeinschaft",
+    "subtitle": "Erkunden Sie die wunderbare Kreativität unserer Gemeinschaft und lassen Sie sich inspirieren"
+  },
+  "gallery": {
+    "loading": "Lädt...",
+    "loadMore": "Mehr laden",
+    "noMore": "Keine weiteren Elemente"
+  },
+  "card": {
+    "createdAt": "Erstellt",
+    "viewDetail": "Details anzeigen"
+  },
+  "nsfw": {
+    "warning": "Warnung vor sensiblem Inhalt",
+    "description": "Dieser Inhalt kann Materialien für Erwachsene oder sensible Inhalte enthalten. Bitte bestätigen Sie, dass Sie 18 Jahre oder älter sind, bevor Sie fortfahren.",
+    "confirm": "Ich bin über 18 Jahre alt. Inhalt anzeigen",
+    "cancel": "Zurück",
+    "badge": "Sensibler Inhalt"
+  },
+  "empty": {
+    "title": "Noch keine Werke",
+    "subtitle": "Noch keine öffentlich geteilten Werke. Sei der Erste, der teilt!",
+    "cta": "Mit dem Erstellen beginnen"
+  },
+  "errors": {
+    "fetchFailed": "Fehler beim Laden des Inhalts, bitte versuchen Sie es erneut",
+    "retry": "Erneut versuchen"
+  }
+}

@@ -24,6 +24,7 @@ async function loadMessages(locale: string) {
     'auth',
     'common',
     'dashboard',
+    'explore',
     'help',
     'home',
     'nano-banana-pro',

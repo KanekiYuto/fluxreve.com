@@ -1,0 +1,35 @@
+{
+  "seo": {
+    "title": "Communauté Créative - Explorez un Art IA Étonnant",
+    "description": "Parcourez des images IA générées magnifiques créées par les membres de notre communauté, inspirez-vous et découvrez des chefs-d'œuvre extraordinaires"
+  },
+  "header": {
+    "title": "Communauté Créative",
+    "subtitle": "Explorez les créations merveilleuses de notre communauté et découvrez votre inspiration"
+  },
+  "gallery": {
+    "loading": "Chargement...",
+    "loadMore": "Charger plus",
+    "noMore": "Aucun autre élément"
+  },
+  "card": {
+    "createdAt": "Créé le",
+    "viewDetail": "Voir les détails"
+  },
+  "nsfw": {
+    "warning": "Avertissement de Contenu Sensible",
+    "description": "Ce contenu peut contenir du matériel pour adultes ou sensible. Veuillez confirmer que vous avez 18 ans ou plus avant de continuer.",
+    "confirm": "J'ai plus de 18 ans, afficher le contenu",
+    "cancel": "Retour",
+    "badge": "Contenu Sensible"
+  },
+  "empty": {
+    "title": "Aucune Création Encore",
+    "subtitle": "Aucune création partagée publiquement pour le moment. Soyez le premier à partager!",
+    "cta": "Commencer à Créer"
+  },
+  "errors": {
+    "fetchFailed": "Échec du chargement du contenu, veuillez réessayer",
+    "retry": "Réessayer"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "seo": {
+    "title": "創意社區 - 探索精彩 AI 藝術作品",
+    "description": "瀏覽社區用戶創作的精彩 AI 生成圖像，獲取創作靈感，分享和發現優秀作品"
+  },
+  "header": {
+    "title": "創意社區",
+    "subtitle": "探索社區用戶的精彩創作，激發你的創意靈感"
+  },
+  "gallery": {
+    "loading": "載入中...",
+    "loadMore": "載入更多",
+    "noMore": "沒有更多了"
+  },
+  "card": {
+    "createdAt": "建立於",
+    "viewDetail": "查看詳情"
+  },
+  "nsfw": {
+    "warning": "敏感內容警告",
+    "description": "此內容可能包含成人或敏感素材。確認後才能查看，請確保你已年滿 18 歲。",
+    "confirm": "我已年滿 18 歲，查看內容",
+    "cancel": "返回",
+    "badge": "敏感內容"
+  },
+  "empty": {
+    "title": "暫無作品",
+    "subtitle": "社區還沒有公開分享的作品，成為第一個分享的人吧！",
+    "cta": "開始創作"
+  },
+  "errors": {
+    "fetchFailed": "載入失敗，請重試",
+    "retry": "重試"
+  }
+}

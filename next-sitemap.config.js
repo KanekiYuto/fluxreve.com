@@ -36,6 +36,7 @@ const staticRoutes = [
   '/help',
   '/ai-generator',
   '/pricing',
+  '/explore',
   '/terms',
   '/privacy',
   // 模型专属页面
