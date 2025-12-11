@@ -16,6 +16,7 @@ import { useImageGenerator, ErrorState } from '@/hooks/useImageGenerator';
 
 interface ZImageGeneratorProps {
   modelSelector: React.ReactNode;
+  defaultParameters?: any;
 }
 
 // ==================== 常量配置 ====================
@@ -39,16 +40,16 @@ const EXAMPLES: ExampleItem[] = [
 
 // ==================== 主组件 ====================
 
-export default function ZImageGenerator({ modelSelector }: ZImageGeneratorProps) {
+export default function ZImageGenerator({ modelSelector, defaultParameters }: ZImageGeneratorProps) {
   const tForm = useTranslations('ai-generator.form');
   const tError = useTranslations('ai-generator.error');
 
   // ==================== 状态管理 ====================
 
   // 表单状态
-  const [prompt, setPrompt] = useState('');
-  const [size, setSize] = useState('1024*1024');
-  const [seed, setSeed] = useState('');
+  const [prompt, setPrompt] = useState(defaultParameters?.prompt || '');
+  const [size, setSize] = useState(defaultParameters?.size || '1024*1024');
+  const [seed, setSeed] = useState(defaultParameters?.seed || '');
   const [isPrivate, setIsPrivate] = useState(true);
 
   // 积分计算 - Z-Image Turbo 固定 5 积分

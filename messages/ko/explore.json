@@ -16,6 +16,7 @@
     "createdAt": "생성됨",
     "viewDetail": "자세히 보기"
   },
+  "createSimilar": "유사한 이미지 생성",
   "nsfw": {
     "warning": "민감한 콘텐츠 경고",
     "description": "이 콘텐츠에는 성인 또는 민감한 자료가 포함될 수 있습니다. 18세 이상임을 확인한 후 보기하세요.",

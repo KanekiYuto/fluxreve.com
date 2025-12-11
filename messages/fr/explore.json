@@ -16,6 +16,7 @@
     "createdAt": "Créé le",
     "viewDetail": "Voir les détails"
   },
+  "createSimilar": "Créer une Image Similaire",
   "nsfw": {
     "warning": "Avertissement de Contenu Sensible",
     "description": "Ce contenu peut contenir du matériel pour adultes ou sensible. Veuillez confirmer que vous avez 18 ans ou plus avant de continuer.",

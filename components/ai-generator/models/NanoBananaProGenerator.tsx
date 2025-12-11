@@ -23,6 +23,7 @@ type OutputFormat = 'png' | 'jpg';
 interface NanoBananaProGeneratorProps {
   modelSelector: React.ReactNode;
   defauldMode?: Mode;
+  defaultParameters?: any;
 }
 
 // ==================== 常量配置 ====================
@@ -58,7 +59,7 @@ const EXAMPLES: ExampleItem[] = [
 
 // ==================== 主组件 ====================
 
-export default function NanoBananaProGenerator({ modelSelector, defauldMode = 'text-to-image' }: NanoBananaProGeneratorProps) {
+export default function NanoBananaProGenerator({ modelSelector, defauldMode = 'text-to-image', defaultParameters }: NanoBananaProGeneratorProps) {
   const tForm = useTranslations('ai-generator.form');
   const tError = useTranslations('ai-generator.error');
 
@@ -68,12 +69,20 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
   const [mode, setMode] = useState<Mode>(defauldMode);
 
   // 表单状态
-  const [prompt, setPrompt] = useState('');
-  const [inputImages, setInputImages] = useState<ImageItem[]>([]);
-  const [aspectRatio, setAspectRatio] = useState('1:1');
-  const [seed, setSeed] = useState('');
-  const [resolution, setResolution] = useState<Resolution>('1k');
-  const [outputFormat, setOutputFormat] = useState<OutputFormat>('png');
+  const [prompt, setPrompt] = useState(defaultParameters?.prompt || '');
+  const [inputImages, setInputImages] = useState<ImageItem[]>(
+    defaultParameters?.images
+      ? defaultParameters.images.map((url: string, index: number) => ({
+          id: `image-${index}`,
+          url,
+          file: null,
+        }))
+      : []
+  );
+  const [aspectRatio, setAspectRatio] = useState(defaultParameters?.aspect_ratio || '1:1');
+  const [seed, setSeed] = useState(defaultParameters?.seed || '');
+  const [resolution, setResolution] = useState<Resolution>((defaultParameters?.resolution || '1k') as Resolution);
+  const [outputFormat, setOutputFormat] = useState<OutputFormat>((defaultParameters?.output_format || 'png') as OutputFormat);
   const [isPrivate, setIsPrivate] = useState(true);
 
   // 积分计算
@@ -107,6 +116,27 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
       openSubscriptionModal();
     }
   }, [error, openSubscriptionModal]);
+
+  // 当 defaultParameters 变化时更新表单状态
+  useEffect(() => {
+    if (defaultParameters) {
+      if (defaultParameters.prompt) setPrompt(defaultParameters.prompt);
+      if (defaultParameters.aspect_ratio) setAspectRatio(defaultParameters.aspect_ratio);
+      if (defaultParameters.seed) setSeed(defaultParameters.seed);
+      if (defaultParameters.resolution) setResolution(defaultParameters.resolution as Resolution);
+      if (defaultParameters.output_format) setOutputFormat(defaultParameters.output_format as OutputFormat);
+
+      // 处理输入图片
+      if (defaultParameters.images && Array.isArray(defaultParameters.images)) {
+        const images = defaultParameters.images.map((url: string, index: number) => ({
+          id: `image-${index}`,
+          url,
+          file: null,
+        }));
+        setInputImages(images);
+      }
+    }
+  }, [defaultParameters]);
 
   // 验证表单
   const validateForm = useCallback((): ErrorState | null => {

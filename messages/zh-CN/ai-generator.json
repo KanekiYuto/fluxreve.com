@@ -5,7 +5,8 @@
   },
   "page": {
     "title": "AI 生成器",
-    "description": "使用强大的 AI 模型建立各种精彩内容"
+    "description": "使用强大的 AI 模型建立各种精彩内容",
+    "loading": "加载中..."
   },
   "tabs": {
     "textToImage": "文字生图",

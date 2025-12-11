@@ -11,9 +11,10 @@ import ComingSoon from './base/ComingSoon';
 interface AIGeneratorProps {
   defaultTab?: string;
   defaultModel?: string;
+  defaultParameters?: any;
 }
 
-export default function AIGenerator({ defaultTab = 'text-to-image', defaultModel }: AIGeneratorProps) {
+export default function AIGenerator({ defaultTab = 'text-to-image', defaultModel, defaultParameters }: AIGeneratorProps) {
   const tTabs = useTranslations('ai-generator.tabs');
   const tComingSoon = useTranslations('ai-generator.comingSoon');
 
@@ -22,12 +23,12 @@ export default function AIGenerator({ defaultTab = 'text-to-image', defaultModel
     {
       key: 'text-to-image',
       label: tTabs('textToImage'),
-      component: <TextToImageGenerator defaultModel={defaultModel} />,
+      component: <TextToImageGenerator defaultModel={defaultModel} defaultParameters={defaultParameters} />,
     },
     {
       key: 'image-to-image',
       label: tTabs('imageToImage'),
-      component: <ImageToImageGenerator defaultModel={defaultModel} />,
+      component: <ImageToImageGenerator defaultModel={defaultModel} defaultParameters={defaultParameters} />,
     },
     {
       key: 'more',

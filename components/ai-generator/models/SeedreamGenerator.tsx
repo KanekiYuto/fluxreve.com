@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import GeneratorLayout from '../base/GeneratorLayout';
 import { ExampleItem } from '../base/ExampleGallery';
@@ -19,6 +19,7 @@ type Mode = 'text-to-image' | 'image-to-image';
 interface SeedreamGeneratorProps {
   modelSelector: React.ReactNode;
   defauldMode?: Mode;
+  defaultParameters?: any;
 }
 
 // ==================== 常量配置 ====================
@@ -45,7 +46,7 @@ const EXAMPLES: ExampleItem[] = [
 
 // ==================== 主组件 ====================
 
-export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-to-image' }: SeedreamGeneratorProps) {
+export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-to-image', defaultParameters }: SeedreamGeneratorProps) {
   const tForm = useTranslations('ai-generator.form');
   const tError = useTranslations('ai-generator.error');
 
@@ -55,9 +56,17 @@ export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-t
   const [mode, setMode] = useState<Mode>(defauldMode);
 
   // 表单状态
-  const [prompt, setPrompt] = useState('');
-  const [inputImages, setInputImages] = useState<ImageItem[]>([]);
-  const [size, setSize] = useState('2048*2048');
+  const [prompt, setPrompt] = useState(defaultParameters?.prompt || '');
+  const [inputImages, setInputImages] = useState<ImageItem[]>(
+    defaultParameters?.images
+      ? defaultParameters.images.map((url: string, index: number) => ({
+          id: `image-${index}`,
+          url,
+          file: null,
+        }))
+      : []
+  );
+  const [size, setSize] = useState(defaultParameters?.size || '2048*2048');
   const [isPrivate, setIsPrivate] = useState(true);
 
   // 积分计算 - Seedream v4.5 固定 30 积分
@@ -78,6 +87,24 @@ export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-t
     setError,
     refreshCredits,
   } = useImageGenerator();
+
+  // 当 defaultParameters 变化时更新表单状态
+  useEffect(() => {
+    if (defaultParameters) {
+      if (defaultParameters.prompt) setPrompt(defaultParameters.prompt);
+      if (defaultParameters.size) setSize(defaultParameters.size);
+
+      // 处理输入图片
+      if (defaultParameters.images && Array.isArray(defaultParameters.images)) {
+        const images = defaultParameters.images.map((url: string, index: number) => ({
+          id: `image-${index}`,
+          url,
+          file: null,
+        }));
+        setInputImages(images);
+      }
+    }
+  }, [defaultParameters]);
 
   // 验证表单
   const validateForm = useCallback((): ErrorState | null => {

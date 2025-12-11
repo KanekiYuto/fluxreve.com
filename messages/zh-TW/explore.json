@@ -16,6 +16,7 @@
     "createdAt": "建立於",
     "viewDetail": "查看詳情"
   },
+  "createSimilar": "建立相似圖片",
   "nsfw": {
     "warning": "敏感內容警告",
     "description": "此內容可能包含成人或敏感素材。確認後才能查看，請確保你已年滿 18 歲。",

@@ -5,7 +5,8 @@
   },
   "page": {
     "title": "AI Generator",
-    "description": "Create amazing content with powerful AI models"
+    "description": "Create amazing content with powerful AI models",
+    "loading": "Loading..."
   },
   "tabs": {
     "textToImage": "Text to Image",

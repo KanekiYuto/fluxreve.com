@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import GeneratorLayout from '../base/GeneratorLayout';
 import { ExampleItem } from '../base/ExampleGallery';
@@ -20,6 +20,7 @@ type Mode = 'text-to-image' | 'image-to-image';
 interface Flux2ProGeneratorProps {
   modelSelector: React.ReactNode;
   defauldMode?: Mode;
+  defaultParameters?: any;
 }
 
 // ==================== 常量配置 ====================
@@ -45,7 +46,7 @@ const EXAMPLES: ExampleItem[] = [
 
 // ==================== 主组件 ====================
 
-export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-to-image' }: Flux2ProGeneratorProps) {
+export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-to-image', defaultParameters }: Flux2ProGeneratorProps) {
   const tForm = useTranslations('ai-generator.form');
   const tError = useTranslations('ai-generator.error');
 
@@ -55,10 +56,18 @@ export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-t
   const [mode, setMode] = useState<Mode>(defauldMode);
 
   // 表单状态
-  const [prompt, setPrompt] = useState('');
-  const [inputImages, setInputImages] = useState<ImageItem[]>([]);
-  const [size, setSize] = useState('1024*1024');
-  const [seed, setSeed] = useState('');
+  const [prompt, setPrompt] = useState(defaultParameters?.prompt || '');
+  const [inputImages, setInputImages] = useState<ImageItem[]>(
+    defaultParameters?.images
+      ? defaultParameters.images.map((url: string, index: number) => ({
+          id: `image-${index}`,
+          url,
+          file: null,
+        }))
+      : []
+  );
+  const [size, setSize] = useState(defaultParameters?.size || '1024*1024');
+  const [seed, setSeed] = useState(defaultParameters?.seed || '');
   const [isPrivate, setIsPrivate] = useState(false);
 
   // 积分计算 - Flux 2 Pro 固定 25 积分
@@ -80,6 +89,25 @@ export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-t
     setError,
     refreshCredits,
   } = useImageGenerator();
+
+  // 当 defaultParameters 变化时更新表单状态
+  useEffect(() => {
+    if (defaultParameters) {
+      if (defaultParameters.prompt) setPrompt(defaultParameters.prompt);
+      if (defaultParameters.size) setSize(defaultParameters.size);
+      if (defaultParameters.seed) setSeed(defaultParameters.seed);
+
+      // 处理输入图片
+      if (defaultParameters.images && Array.isArray(defaultParameters.images)) {
+        const images = defaultParameters.images.map((url: string, index: number) => ({
+          id: `image-${index}`,
+          url,
+          file: null,
+        }));
+        setInputImages(images);
+      }
+    }
+  }, [defaultParameters]);
 
   // 验证表单
   const validateForm = useCallback((): ErrorState | null => {

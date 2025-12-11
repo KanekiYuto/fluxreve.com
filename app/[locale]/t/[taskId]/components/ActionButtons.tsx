@@ -25,9 +25,10 @@ interface ActionButtonsProps {
   imageUrl?: string; // 当前图片下载地址
   allImages?: string[]; // 所有图片 URL 数组
   model?: string; // AI 模型名称
+  taskId?: string; // 任务 ID
 }
 
-export default function ActionButtons({ shareUrl, prompt, imageUrl, allImages, model }: ActionButtonsProps) {
+export default function ActionButtons({ shareUrl, prompt, imageUrl, allImages, model, taskId }: ActionButtonsProps) {
   const t = useTranslations('share.actions');
   const [copied, setCopied] = useState(false);
   const [sharePopoverOpen, setSharePopoverOpen] = useState(false);
@@ -204,7 +205,7 @@ export default function ActionButtons({ shareUrl, prompt, imageUrl, allImages, m
 
       {/* 创建相似图片按钮 */}
       <Link
-        href="/ai-generator"
+        href={taskId ? `/ai-generator?id=${taskId}` : "/ai-generator"}
         className="px-4 py-1.5 bg-primary hover:bg-primary/90 text-white text-sm rounded-lg font-medium transition-colors flex items-center gap-1.5"
       >
         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

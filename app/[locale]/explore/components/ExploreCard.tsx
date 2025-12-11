@@ -179,10 +179,18 @@ export default function ExploreCard({ task }: ExploreCardProps) {
 
       {/* 底部信息区域 */}
       <div className="p-3 bg-surface-secondary">
-        <p className="text-xs sm:text-sm text-white line-clamp-2 mb-2">
+        <p className="text-xs sm:text-sm text-white line-clamp-2 mb-3">
           {showNsfwOverlay ? t('nsfw.badge') : task.parameters.prompt}
         </p>
-        <p className="text-xs text-text-muted">{timeAgo}</p>
+        <div className="flex items-center justify-between gap-2 mb-2">
+          <p className="text-xs text-text-muted flex-1">{timeAgo}</p>
+          <Link
+            href={`/ai-generator?id=${task.shareId}`}
+            className="text-xs px-2 py-1 rounded bg-primary hover:bg-primary/90 text-white font-medium transition-colors whitespace-nowrap"
+          >
+            {t('createSimilar')}
+          </Link>
+        </div>
       </div>
     </div>
   );

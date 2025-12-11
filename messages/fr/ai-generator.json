@@ -5,7 +5,8 @@
   },
   "page": {
     "title": "Générateur IA",
-    "description": "Créez du contenu incroyable avec des modèles IA puissants"
+    "description": "Créez du contenu incroyable avec des modèles IA puissants",
+    "loading": "Chargement..."
   },
   "tabs": {
     "textToImage": "Texte vers Image",

@@ -9,12 +9,13 @@ import SeedreamGenerator from './models/SeedreamGenerator';
 
 interface ImageToImageGeneratorProps {
   defaultModel?: string;
+  defaultParameters?: any;
 }
 
 // 支持图生图的模型列表
 const SUPPORTED_MODELS = ['nano-banana-pro', 'flux-2-pro', 'seedream-v4.5'];
 
-export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro' }: ImageToImageGeneratorProps) {
+export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro', defaultParameters }: ImageToImageGeneratorProps) {
   const t = useTranslations('ai-generator.models');
   const tGroups = useTranslations('ai-generator.modelGroups');
 
@@ -87,13 +88,13 @@ export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro'
   const renderGenerator = () => {
     switch (selectedModel) {
       case 'nano-banana-pro':
-        return <NanoBananaProGenerator modelSelector={modelSelector} defauldMode="image-to-image" />;
+        return <NanoBananaProGenerator modelSelector={modelSelector} defauldMode="image-to-image" defaultParameters={defaultParameters} />;
       case 'flux-2-pro':
-        return <Flux2ProGenerator modelSelector={modelSelector} defauldMode="image-to-image" />;
+        return <Flux2ProGenerator modelSelector={modelSelector} defauldMode="image-to-image" defaultParameters={defaultParameters} />;
       case 'seedream-v4.5':
-        return <SeedreamGenerator modelSelector={modelSelector} defauldMode="image-to-image" />;
+        return <SeedreamGenerator modelSelector={modelSelector} defauldMode="image-to-image" defaultParameters={defaultParameters} />;
       default:
-        return <NanoBananaProGenerator modelSelector={modelSelector} defauldMode="image-to-image" />;
+        return <NanoBananaProGenerator modelSelector={modelSelector} defauldMode="image-to-image" defaultParameters={defaultParameters} />;
     }
   };
 

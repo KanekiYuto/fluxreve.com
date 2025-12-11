@@ -5,7 +5,8 @@
   },
   "page": {
     "title": "AI 생성기",
-    "description": "강력한 AI 모델로 놀라운 콘텐츠 생성"
+    "description": "강력한 AI 모델로 놀라운 콘텐츠 생성",
+    "loading": "로드 중..."
   },
   "tabs": {
     "textToImage": "텍스트를 이미지로",

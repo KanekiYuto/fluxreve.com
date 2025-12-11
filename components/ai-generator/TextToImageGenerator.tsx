@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import ModelSelector, { type ModelGroup } from './base/ModelSelector';
 import NanoBananaProGenerator from './models/NanoBananaProGenerator';
@@ -11,12 +11,18 @@ import SeedreamGenerator from './models/SeedreamGenerator';
 
 interface TextToImageGeneratorProps {
   defaultModel?: string;
+  defaultParameters?: any;
 }
 
-export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro' }: TextToImageGeneratorProps) {
+export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro', defaultParameters }: TextToImageGeneratorProps) {
   const t = useTranslations('ai-generator.models');
   const tGroups = useTranslations('ai-generator.modelGroups');
   const [selectedModel, setSelectedModel] = useState(defaultModel);
+
+  // 当 defaultModel 变化时更新
+  useEffect(() => {
+    setSelectedModel(defaultModel);
+  }, [defaultModel]);
 
   // 模型选项（分组格式）
   const modelOptions: ModelGroup[] = [
@@ -105,11 +111,11 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro' 
   return (
     <div className="space-y-6">
       {/* 根据选择的模型渲染对应的生成器 */}
-      {selectedModel === 'nano-banana-pro' && <NanoBananaProGenerator modelSelector={modelSelector} defauldMode='text-to-image' />}
-      {selectedModel === 'z-image' && <ZImageGenerator modelSelector={modelSelector} />}
-      {selectedModel === 'z-image-lora' && <ZImageLoraGenerator modelSelector={modelSelector} />}
-      {selectedModel === 'flux-2-pro' && <Flux2ProGenerator modelSelector={modelSelector} defauldMode='text-to-image' />}
-      {selectedModel === 'seedream-v4.5' && <SeedreamGenerator modelSelector={modelSelector} defauldMode='text-to-image' />}
+      {selectedModel === 'nano-banana-pro' && <NanoBananaProGenerator modelSelector={modelSelector} defauldMode='text-to-image' defaultParameters={defaultParameters} />}
+      {selectedModel === 'z-image' && <ZImageGenerator modelSelector={modelSelector} defaultParameters={defaultParameters} />}
+      {selectedModel === 'z-image-lora' && <ZImageLoraGenerator modelSelector={modelSelector} defaultParameters={defaultParameters} />}
+      {selectedModel === 'flux-2-pro' && <Flux2ProGenerator modelSelector={modelSelector} defauldMode='text-to-image' defaultParameters={defaultParameters} />}
+      {selectedModel === 'seedream-v4.5' && <SeedreamGenerator modelSelector={modelSelector} defauldMode='text-to-image' defaultParameters={defaultParameters} />}
     </div>
   );
 }

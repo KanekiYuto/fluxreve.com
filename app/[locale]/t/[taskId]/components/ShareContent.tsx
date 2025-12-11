@@ -15,6 +15,7 @@ interface ShareContentProps {
   resolution?: string;
   aspectRatio?: string;
   shareUrl: string;
+  taskId?: string;
   parameters?: {
     images?: string[];
     [key: string]: any;
@@ -42,6 +43,7 @@ export default function ShareContent({
   resolution,
   aspectRatio,
   shareUrl,
+  taskId,
   parameters,
   labels,
 }: ShareContentProps) {
@@ -91,6 +93,7 @@ export default function ShareContent({
             imageUrl={imageUrl}
             allImages={images.map((img) => img.url)}
             model={model}
+            taskId={taskId}
           />
         </aside>
       </div>

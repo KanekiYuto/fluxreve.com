@@ -130,6 +130,7 @@ export default async function SharePage({ params }: PageProps) {
             resolution={resolution}
             aspectRatio={aspectRatio}
             shareUrl={`${siteUrl}/t/${task.share_id}`}
+            taskId={shareId}
             parameters={task.parameters}
             labels={{
               aiModel: t('aiModel'),

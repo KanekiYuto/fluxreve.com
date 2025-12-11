@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import GeneratorLayout from '../base/GeneratorLayout';
 import { ExampleItem } from '../base/ExampleGallery';
@@ -17,6 +17,7 @@ import { useImageGenerator, ErrorState } from '@/hooks/useImageGenerator';
 
 interface ZImageLoraGeneratorProps {
   modelSelector: React.ReactNode;
+  defaultParameters?: any;
 }
 
 // ==================== 常量配置 ====================
@@ -42,18 +43,70 @@ const EXAMPLES: ExampleItem[] = [
 
 // ==================== 主组件 ====================
 
-export default function ZImageLoraGenerator({ modelSelector }: ZImageLoraGeneratorProps) {
+export default function ZImageLoraGenerator({ modelSelector, defaultParameters }: ZImageLoraGeneratorProps) {
   const tForm = useTranslations('ai-generator.form');
   const tError = useTranslations('ai-generator.error');
 
   // ==================== 状态管理 ====================
 
   // 表单状态
-  const [prompt, setPrompt] = useState('');
-  const [size, setSize] = useState('1024*1536');
-  const [seed, setSeed] = useState('');
+  const [prompt, setPrompt] = useState(defaultParameters?.prompt || '');
+  const [size, setSize] = useState(defaultParameters?.size || '1024*1536');
+  const [seed, setSeed] = useState(defaultParameters?.seed || '');
   const [loras, setLoras] = useState<LoraConfig[]>([]);
   const [isPrivate, setIsPrivate] = useState(true);
+
+  // 当 defaultParameters 变化时更新表单状态
+  useEffect(() => {
+    if (defaultParameters) {
+      if (defaultParameters.prompt) setPrompt(defaultParameters.prompt);
+      if (defaultParameters.size) setSize(defaultParameters.size);
+      if (defaultParameters.seed) setSeed(defaultParameters.seed);
+
+      // 处理 loras - 如果只有 id 和 scale，需要获取完整信息
+      if (defaultParameters.loras && Array.isArray(defaultParameters.loras) && defaultParameters.loras.length > 0) {
+        const lorasFromDb = defaultParameters.loras;
+
+        // 检查是否需要补充 LoRA 信息
+        const needsFetch = lorasFromDb.some((lora: any) => !lora.url);
+
+        if (needsFetch) {
+          // 如果 LoRA 信息不完整，需要从 API 获取
+          const fetchLoraDetails = async () => {
+            try {
+              const loraIds = lorasFromDb.map((lora: any) => lora.id);
+              const response = await fetch(`/api/lora?ids=${loraIds.join(',')}`);
+              if (response.ok) {
+                const { data: loraDetails } = await response.json();
+
+                // 合并数据库中的 scale 信息和 API 返回的详细信息
+                const enrichedLoras = lorasFromDb.map((dbLora: any) => {
+                  const detail = loraDetails.find((d: any) => d.id === dbLora.id);
+                  return {
+                    ...detail,
+                    scale: dbLora.scale,
+                  };
+                });
+
+                setLoras(enrichedLoras);
+              } else {
+                // 如果 API 失败，显示错误但不设置不完整的数据
+                console.error('Failed to fetch LoRA details: API returned error');
+              }
+            } catch (error) {
+              console.error('Failed to fetch LoRA details:', error);
+              // 如果出错，不设置任何数据，保持加载状态
+            }
+          };
+
+          fetchLoraDetails();
+        } else {
+          // 如果信息完整，直接使用
+          setLoras(lorasFromDb);
+        }
+      }
+    }
+  }, [defaultParameters]);
 
   // 积分计算 - Z-Image Turbo LoRA 固定 10 积分
   const requiredCredits = useRequiredCredits('text-to-image', 'z-image-lora', {

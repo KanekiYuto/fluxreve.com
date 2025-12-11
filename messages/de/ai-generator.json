@@ -5,7 +5,8 @@
   },
   "page": {
     "title": "KI-Generator",
-    "description": "Erstellen Sie erstaunliche Inhalte mit leistungsstarken KI-Modellen"
+    "description": "Erstellen Sie erstaunliche Inhalte mit leistungsstarken KI-Modellen",
+    "loading": "Wird geladen..."
   },
   "tabs": {
     "textToImage": "Text zu Bild",

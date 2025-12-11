@@ -16,6 +16,7 @@
     "createdAt": "Created",
     "viewDetail": "View Details"
   },
+  "createSimilar": "Create Similar",
   "nsfw": {
     "warning": "Sensitive Content Warning",
     "description": "This content may contain adult or sensitive material. Please confirm that you are 18+ years old before viewing.",
