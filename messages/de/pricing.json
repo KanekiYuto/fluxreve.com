@@ -26,10 +26,10 @@
   "tiers": [
     {
       "name": "Testversion",
-      "description": "{quota} Gutschein-Guthaben (unbegrenzte Nutzung)",
+      "description": "{quota} Gutschein-Guthaben",
       "cta": "Jetzt Testen",
       "features": [
-        "{quota} Gutschein-Guthaben (unbegrenzte Dauer)",
+        "{quota} Gutschein-Guthaben",
         "Kann bis zu {quota}/5 hochwertige Bilder generieren",
         "Alle Standard-KI-Modelle",
         "Hochauflösung (1024x1024)",

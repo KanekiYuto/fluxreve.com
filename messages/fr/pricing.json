@@ -26,10 +26,10 @@
   "tiers": [
     {
       "name": "Essai",
-      "description": "{quota} crédits d'allocation (utilisation illimitée)",
+      "description": "{quota} crédits d'allocation",
       "cta": "Essayer Maintenant",
       "features": [
-        "{quota} crédits d'allocation (période illimitée)",
+        "{quota} crédits d'allocation",
         "Peut générer jusqu'à {quota}/5 images de haute qualité",
         "Tous les modèles IA standards",
         "Haute résolution (1024x1024)",

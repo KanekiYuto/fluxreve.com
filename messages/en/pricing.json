@@ -26,10 +26,10 @@
   "tiers": [
     {
       "name": "Trial",
-      "description": "{quota} quota credits (unlimited usage)",
+      "description": "{quota} quota credits",
       "cta": "Try Now",
       "features": [
-        "{quota} credits quota (unlimited period)",
+        "{quota} credits quota",
         "Can generate up to {quota}/5 high-quality images",
         "All standard AI models",
         "High resolution (1024x1024)",

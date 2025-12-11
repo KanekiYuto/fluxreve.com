@@ -26,10 +26,10 @@
   "tiers": [
     {
       "name": "체험판",
-      "description": "{quota} 크레딧 할당량 (무제한 사용)",
+      "description": "{quota} 크레딧 할당량",
       "cta": "지금 체험하기",
       "features": [
-        "{quota} 크레딧 할당량 (무제한 기간)",
+        "{quota} 크레딧 할당량",
         "최대 {quota}/5회의 고품질 이미지 생성 가능",
         "모든 표준 AI 모델",
         "고해상도 (1024x1024)",

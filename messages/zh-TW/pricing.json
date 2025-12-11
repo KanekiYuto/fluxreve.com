@@ -26,10 +26,10 @@
   "tiers": [
     {
       "name": "試用版",
-      "description": "{quota} 積分配額（無限期使用）",
+      "description": "{quota} 積分配額",
       "cta": "立即試用",
       "features": [
-        "{quota} 積分配額（無限期）",
+        "{quota} 積分配額",
         "最多可生成 {quota}/5 次高品質圖像",
         "所有標準 AI 模型",
         "高畫質解析度 (1024x1024)",
