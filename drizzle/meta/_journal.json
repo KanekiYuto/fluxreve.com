@@ -141,6 +141,13 @@
       "when": 1765293469316,
       "tag": "0019_normal_wilson_fisk",
       "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1765465400615,
+      "tag": "0020_striped_dragon_lord",
+      "breakpoints": true
     }
   ]
 }

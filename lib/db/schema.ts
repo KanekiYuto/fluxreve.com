@@ -1,4 +1,4 @@
-import { pgTable, text, timestamp, boolean, integer, uuid, jsonb } from 'drizzle-orm/pg-core';
+import { pgTable, text, timestamp, boolean, integer, uuid, jsonb, index } from 'drizzle-orm/pg-core';
 
 // Better Auth 用户表
 export const user = pgTable('user', {
@@ -25,7 +25,15 @@ export const user = pgTable('user', {
   utmCampaign: text('utm_campaign'),
   utmContent: text('utm_content'),
   utmTerm: text('utm_term'),
-});
+}, (table) => ({
+  // 管理员和用户类型查询
+  isAdminIdx: index('user_is_admin_idx').on(table.isAdmin),
+  userTypeIdx: index('user_type_idx').on(table.userType),
+  // 注册国家统计
+  registrationCountryIdx: index('user_registration_country_idx').on(table.registrationCountry),
+  // 创建时间范围查询
+  createdAtIdx: index('user_created_at_idx').on(table.createdAt),
+}));
 
 // Better Auth 会话表
 export const session = pgTable('session', {
@@ -39,7 +47,11 @@ export const session = pgTable('session', {
   userId: text('userId')
     .notNull()
     .references(() => user.id, { onDelete: 'cascade' }),
-});
+}, (table) => ({
+  // 按用户查询会话、过期时间扫描
+  userIdIdx: index('session_user_id_idx').on(table.userId),
+  expiresAtIdx: index('session_expires_at_idx').on(table.expiresAt),
+}));
 
 // Better Auth 账户表 (用于 OAuth)
 export const account = pgTable('account', {
@@ -58,7 +70,11 @@ export const account = pgTable('account', {
   password: text('password'),
   createdAt: timestamp('createdAt').notNull(),
   updatedAt: timestamp('updatedAt').notNull(),
-});
+}, (table) => ({
+  // 按用户查询账户、Token过期扫描
+  userIdIdx: index('account_user_id_idx').on(table.userId),
+  refreshTokenExpiresAtIdx: index('account_refresh_token_expires_at_idx').on(table.refreshTokenExpiresAt),
+}));
 
 // Better Auth 验证表
 export const verification = pgTable('verification', {
@@ -68,7 +84,11 @@ export const verification = pgTable('verification', {
   expiresAt: timestamp('expiresAt').notNull(),
   createdAt: timestamp('createdAt'),
   updatedAt: timestamp('updatedAt'),
-});
+}, (table) => ({
+  // 验证码查询、过期时间扫描
+  identifierIdx: index('verification_identifier_idx').on(table.identifier),
+  expiresAtIdx: index('verification_expires_at_idx').on(table.expiresAt),
+}));
 
 // 配额信息表
 export const quota = pgTable('quota', {
@@ -94,7 +114,13 @@ export const quota = pgTable('quota', {
   createdAt: timestamp('created_at').notNull().defaultNow(),
   // 更新时间
   updatedAt: timestamp('updated_at').notNull().defaultNow(),
-});
+}, (table) => ({
+  // 查询用户配额、有效配额查询
+  userIdIdx: index('quota_user_id_idx').on(table.userId),
+  userIdExpiresAtIdx: index('quota_user_id_expires_at_idx').on(table.userId, table.expiresAt),
+  // 配额类型过滤
+  typeIdx: index('quota_type_idx').on(table.type),
+}));
 
 // 订阅信息表
 export const subscription = pgTable('subscription', {
@@ -132,7 +158,17 @@ export const subscription = pgTable('subscription', {
   createdAt: timestamp('created_at').notNull().defaultNow(),
   // 更新时间
   updatedAt: timestamp('updated_at').notNull().defaultNow(),
-});
+}, (table) => ({
+  // 用户订阅查询、订阅状态过滤
+  userIdIdx: index('subscription_user_id_idx').on(table.userId),
+  userIdStatusIdx: index('subscription_user_id_status_idx').on(table.userId, table.status),
+  // 支付平台订阅ID快速查询
+  paymentSubscriptionIdIdx: index('subscription_payment_subscription_id_idx').on(table.paymentSubscriptionId),
+  // 续费时间扫描
+  nextBillingAtIdx: index('subscription_next_billing_at_idx').on(table.nextBillingAt),
+  // 订阅状态过滤
+  statusIdx: index('subscription_status_idx').on(table.status),
+}));
 
 // 交易记录表
 export const transaction = pgTable('transaction', {
@@ -154,7 +190,15 @@ export const transaction = pgTable('transaction', {
   currency: text('currency').notNull().default('USD'),
   // 创建时间
   createdAt: timestamp('created_at').notNull().defaultNow(),
-});
+}, (table) => ({
+  // 用户交易查询、时间范围查询
+  userIdIdx: index('transaction_user_id_idx').on(table.userId),
+  userIdCreatedAtIdx: index('transaction_user_id_created_at_idx').on(table.userId, table.createdAt),
+  // 支付平台交易ID快速查询
+  paymentTransactionIdIdx: index('transaction_payment_transaction_id_idx').on(table.paymentTransactionId),
+  // 交易类型过滤
+  typeIdx: index('transaction_type_idx').on(table.type),
+}));
 
 // 媒体生成任务表
 export const mediaGenerationTask = pgTable('media_generation_task', {
@@ -210,7 +254,24 @@ export const mediaGenerationTask = pgTable('media_generation_task', {
   isNsfw: boolean('is_nsfw').notNull().default(false),
   // NSFW 内容审核详情 (JSON 格式: {harassment, hate, sexual, sexual/minors, violence})
   nsfwDetails: jsonb('nsfw_details'),
-});
+}, (table) => ({
+  // 用户任务查询、状态过滤
+  userIdIdx: index('media_generation_task_user_id_idx').on(table.userId),
+  userIdStatusIdx: index('media_generation_task_user_id_status_idx').on(table.userId, table.status),
+  // 任务状态过滤、处理中任务扫描
+  statusIdx: index('media_generation_task_status_idx').on(table.status),
+  // 公开分享任务查询 (用于 sitemap 生成)
+  isPrivateDeletedAtIdx: index('media_generation_task_is_private_deleted_at_idx').on(table.isPrivate, table.deletedAt),
+  isNsfwDeletedAtIdx: index('media_generation_task_is_nsfw_deleted_at_idx').on(table.isNsfw, table.deletedAt),
+  // 软删除逻辑查询
+  deletedAtIdx: index('media_generation_task_deleted_at_idx').on(table.deletedAt),
+  // 创建时间范围查询、分页
+  createdAtIdx: index('media_generation_task_created_at_idx').on(table.createdAt),
+  // 任务类型统计
+  taskTypeIdx: index('media_generation_task_task_type_idx').on(table.taskType),
+  // webhook 回调查询
+  providerRequestIdIdx: index('media_generation_task_provider_request_id_idx').on(table.providerRequestId),
+}));
 
 // 配额交易记录表
 export const quotaTransaction = pgTable('quota_transaction', {
@@ -238,7 +299,15 @@ export const quotaTransaction = pgTable('quota_transaction', {
   note: text('note'),
   // 创建时间
   createdAt: timestamp('created_at').notNull().defaultNow(),
-});
+}, (table) => ({
+  // 用户配额交易查询、时间范围查询
+  userIdIdx: index('quota_transaction_user_id_idx').on(table.userId),
+  userIdCreatedAtIdx: index('quota_transaction_user_id_created_at_idx').on(table.userId, table.createdAt),
+  // 配额交易类型过滤
+  typeIdx: index('quota_transaction_type_idx').on(table.type),
+  // 关联交易查询 (用于追踪退款)
+  relatedTransactionIdIdx: index('quota_transaction_related_transaction_id_idx').on(table.relatedTransactionId),
+}));
 
 // LoRAs 信息表
 export const lora = pgTable('loras', {
@@ -266,4 +335,11 @@ export const lora = pgTable('loras', {
   createdAt: timestamp('created_at').notNull().defaultNow(),
   // 更新时间
   updatedAt: timestamp('updated_at').notNull().defaultNow(),
-});
+}, (table) => ({
+  // 用户 LoRAs 查询
+  userIdIdx: index('lora_user_id_idx').on(table.userId),
+  // 触发词搜索
+  triggerWordIdx: index('lora_trigger_word_idx').on(table.triggerWord),
+  // 创建时间排序
+  createdAtIdx: index('lora_created_at_idx').on(table.createdAt),
+}));

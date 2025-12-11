@@ -24,6 +24,8 @@
     "moreActions": "Plus d'Actions",
     "downloadCurrent": "Télécharger l'Image Actuelle",
     "downloadAll": "Télécharger Toutes les Images",
+    "downloadWithoutWatermark": "Télécharger sans Filigrane",
+    "downloadAllWithoutWatermark": "Tout Télécharger sans Filigrane",
     "downloadCard": "Télécharger la Carte de Partage",
     "createSimilar": "Créer une Image Similaire"
   },

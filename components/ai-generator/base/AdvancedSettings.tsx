@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Switch } from '@/components/ui/switch';
 import { Lock } from 'lucide-react';
 import useUserStore from '@/store/useUserStore';
-import { useCurrentSubscription } from '@/components/pricing/hooks';
+import { USER_TYPE } from '@/config/constants';
 
 interface AdvancedSettingsProps {
   children: ReactNode;
@@ -20,15 +20,9 @@ export default function AdvancedSettings({
 }: AdvancedSettingsProps) {
   const t = useTranslations('ai-generator.form');
   const { user } = useUserStore();
-  const { currentSubscription, isLoading } = useCurrentSubscription(user);
 
-  // 检查用户是否有有效的订阅（Basic 或 Pro 计划，且状态为 active）
-  const isSubscribed = !!(
-    user &&
-    currentSubscription &&
-    currentSubscription.status === 'active' &&
-    (currentSubscription.planType === 'basic' || currentSubscription.planType === 'pro')
-  );
+  // 根据用户类型判断是否有有效订阅（Basic 或 Pro 计划）
+  const isSubscribed = !!(user && (user.userType === USER_TYPE.BASIC || user.userType === USER_TYPE.PRO));
 
   // 内部状态管理（非受控模式）
   const [internalIsPrivate, setInternalIsPrivate] = useState(false);
@@ -45,8 +39,8 @@ export default function AdvancedSettings({
   }, [isControlled, controlledIsPrivate]);
 
   const handlePrivateChange = (value: boolean) => {
-    // 如果正在加载或用户未订阅，禁止更改
-    if (isLoading || !isSubscribed) {
+    // 如果用户未订阅，禁止更改
+    if (!isSubscribed) {
       return;
     }
     if (!isControlled) {
@@ -72,12 +66,12 @@ export default function AdvancedSettings({
         <div className="px-4 py-4 space-y-4">
           {/* 私有模式开关 */}
           <div className={`flex items-center justify-between p-3 rounded-lg transition-colors ${
-            isLoading || isSubscribed
+            isSubscribed
               ? 'bg-white/5 hover:bg-white/8'
               : 'bg-white/5 opacity-60 cursor-not-allowed'
           }`}>
             <label htmlFor="private-mode" className={`flex items-center gap-3 flex-1 ${
-              isLoading || isSubscribed ? 'cursor-pointer' : 'cursor-not-allowed'
+              isSubscribed ? 'cursor-pointer' : 'cursor-not-allowed'
             }`}>
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10">
                 <Lock className="w-4 h-4 text-text-muted" />
@@ -85,9 +79,7 @@ export default function AdvancedSettings({
               <div>
                 <p className="text-sm font-medium text-text">{t('privateMode')}</p>
                 <p className="text-xs text-text-muted mt-0.5">
-                  {isLoading
-                    ? t('status.loading')
-                    : isSubscribed
+                  {isSubscribed
                     ? t('privateModeDesc')
                     : t('privateModeSubscriptionRequired')}
                 </p>
@@ -97,7 +89,7 @@ export default function AdvancedSettings({
               id="private-mode"
               checked={isPrivate}
               onCheckedChange={handlePrivateChange}
-              disabled={isLoading || !isSubscribed}
+              disabled={!isSubscribed}
             />
           </div>
 

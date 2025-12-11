@@ -32,34 +32,38 @@ function getFilenameFromUrl(url: string): string {
  * @returns Promise<void>
  */
 export async function downloadImage(imageUrl: string): Promise<void> {
-  const response = await fetch(imageUrl);
-  const blob = await response.blob();
-  const url = window.URL.createObjectURL(blob);
+  try {
+    const response = await fetch(imageUrl);
+    const blob = await response.blob();
+    const url = window.URL.createObjectURL(blob);
 
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = getFilenameFromUrl(imageUrl);
-  // 添加标记，让 NavigationProgress 忽略此链接
-  link.setAttribute('data-download-link', 'true');
-
-  link.click();
-
-  window.URL.revokeObjectURL(url);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = getFilenameFromUrl(imageUrl);
+    link.setAttribute('data-download-link', 'true');
+    link.click();
+    window.URL.revokeObjectURL(url);
+  } catch (err) {
+    console.error('Failed to download image:', err);
+    throw err;
+  }
 }
 
 /**
  * 批量下载图片
  * @param imageUrls 图片 URL 数组
  * @param delay 下载间隔（毫秒），默认 300ms
+ * @param options 下载选项
  * @returns Promise<void>
  */
 export async function downloadImages(
   imageUrls: string[],
-  delay: number = 300
+  delay: number = 300,
+  options?: DownloadOptions
 ): Promise<void> {
   for (let i = 0; i < imageUrls.length; i++) {
     // 使用原始文件名，不传 filename 参数
-    await downloadImage(imageUrls[i]);
+    await downloadImage(imageUrls[i], options);
     // 添加延迟避免浏览器阻止多个下载
     if (i < imageUrls.length - 1) {
       await new Promise(resolve => setTimeout(resolve, delay));

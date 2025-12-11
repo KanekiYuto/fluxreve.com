@@ -24,6 +24,8 @@
     "moreActions": "المزيد من الإجراءات",
     "downloadCurrent": "تنزيل الصورة الحالية",
     "downloadAll": "تنزيل جميع الصور",
+    "downloadWithoutWatermark": "تنزيل بدون علامة مائية",
+    "downloadAllWithoutWatermark": "تنزيل الكل بدون علامة مائية",
     "downloadCard": "تنزيل بطاقة المشاركة",
     "createSimilar": "إنشاء صورة مشابهة"
   },

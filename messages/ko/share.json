@@ -24,6 +24,8 @@
     "moreActions": "더 많은 작업",
     "downloadCurrent": "현재 이미지 다운로드",
     "downloadAll": "모든 이미지 다운로드",
+    "downloadWithoutWatermark": "워터마크 없이 다운로드",
+    "downloadAllWithoutWatermark": "모두 워터마크 없이 다운로드",
     "downloadCard": "공유 카드 다운로드",
     "createSimilar": "유사한 이미지 생성"
   },

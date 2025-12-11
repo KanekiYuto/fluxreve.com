@@ -24,6 +24,8 @@
     "moreActions": "Weitere Aktionen",
     "downloadCurrent": "Aktuelles Bild herunterladen",
     "downloadAll": "Alle Bilder herunterladen",
+    "downloadWithoutWatermark": "Ohne Wasserzeichen herunterladen",
+    "downloadAllWithoutWatermark": "Alle ohne Wasserzeichen herunterladen",
     "downloadCard": "Sharecard herunterladen",
     "createSimilar": "Ähnliches Bild erstellen"
   },
