@@ -63,8 +63,10 @@ export async function addWatermark(imageBuffer: Buffer): Promise<Buffer> {
       </svg>
     `;
 
-    // 将 SVG 转换为 Buffer
-    const watermarkBuffer = Buffer.from(watermarkSvg);
+    // 将 SVG 处理为图片 Buffer（sharp 需要有效的图片格式）
+    const watermarkBuffer = await sharp(Buffer.from(watermarkSvg))
+      .png()
+      .toBuffer();
 
     // 合成水印和原始图片
     const watermarkedImage = await sharp(imageBuffer)
