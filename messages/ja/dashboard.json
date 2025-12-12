@@ -1,63 +1,63 @@
 {
-  "seo": {
-    "title": "ダッシュボード",
-    "description": "AI画像生成プロジェクトを管理し、使用状況を追跡し、すべての機能にアクセス"
-  },
-  "welcome": "おかえりなさい、{name}さん",
-  "subtitle": "素晴らしいコンテンツの作成を開始しましょう",
+  "guestSubtitle": "サインインしてダッシュボードにアクセスし、作成を開始してください。",
   "guestWelcome": "ダッシュボードへようこそ",
-  "guestSubtitle": "ダッシュボードにアクセスして作成を開始するには、サインインしてください",
   "loginPrompt": {
-    "title": "ダッシュボードにアクセスするにはサインインしてください",
-    "description": "アカウントを作成またはサインインして、すべての機能のロックを解除し、使用状況を追跡し、プロジェクトを管理します。",
     "cta": "今すぐサインイン",
+    "description": "アカウントを作成するか、サインインして、すべての機能のロックを解除し、使用状況を追跡し、プロジェクトを管理します。",
     "features": {
-      "quota": "使用クォータ",
-      "quotaDesc": "生成クォータと使用履歴を追跡",
+      "analytics": "分析＆統計",
+      "analyticsDesc": "詳細な統計とパフォーマンスメトリクスの表示",
       "projects": "プロジェクト管理",
-      "projectsDesc": "すべてのクリエイティブプロジェクトを整理・管理",
-      "analytics": "分析と統計",
-      "analyticsDesc": "詳細な統計とパフォーマンスメトリクスを表示"
-    }
-  },
-  "userType": {
-    "pro": "プロ",
-    "basic": "ベーシック",
-    "trial": "トライアル",
-    "free": "無料"
-  },
-  "stats": {
-    "quota": {
-      "remaining": "残りの生成クォータ",
-      "unlimited": "無制限の生成クォータ",
-      "expires": "有効期限"
+      "projectsDesc": "クリエイティブなプロジェクトを整理・管理",
+      "quota": "利用枠",
+      "quotaDesc": "世代クォータと使用履歴を追跡"
     },
-    "projects": "総プロジェクト数",
-    "images": "アップロード済み画像アセット",
-    "templates": "作成済みテンプレート"
-  },
-  "quickActions": {
-    "title": "クイックスタート",
-    "newProject": "新規プロジェクト",
-    "uploadImage": "画像をアップロード",
-    "templates": "テンプレート",
-    "tutorial": "チュートリアル"
-  },
-  "recent": {
-    "title": "最近の生成",
-    "subtitle": "過去1週間のコンテンツのみを表示",
-    "viewAll": "すべて表示",
-    "loading": "読み込み中...",
-    "empty": {
-      "title": "今週生成されたコンテンツはありません",
-      "subtitle": "最初の画像を生成しましょう",
-      "cta": "今すぐ生成"
-    }
+    "title": "サインインしてダッシュボードにアクセスする"
   },
   "marketing": {
-    "title": "より強力な機能を解放",
-    "description": "プランをアップグレードして、より多くのクレジット、超高解像度、バッチ生成、優先サポートを手に入れましょう。",
-    "upgradeButton": "今すぐアップグレード",
-    "learnMoreButton": "詳細を見る"
-  }
+    "description": "プランをアップグレードして、より多くのクレジット、超高解像度、バッチ生成、優先サポートをご利用ください。",
+    "learnMoreButton": "さらに詳しく",
+    "title": "よりパワフルな機能をアンロック",
+    "upgradeButton": "今すぐアップグレード"
+  },
+  "quickActions": {
+    "newProject": "新プロジェクト",
+    "templates": "テンプレート",
+    "title": "クイックスタート",
+    "tutorial": "チュートリアル",
+    "uploadImage": "画像のアップロード"
+  },
+  "recent": {
+    "empty": {
+      "cta": "ジェネレート・ナウ",
+      "subtitle": "最初の画像の生成を開始する",
+      "title": "今週はコンテンツなし"
+    },
+    "loading": "読み込み中...",
+    "subtitle": "過去1週間のコンテンツのみを表示",
+    "title": "最近の世代",
+    "viewAll": "全てを見る"
+  },
+  "seo": {
+    "description": "AI画像生成プロジェクトの管理、使用状況の追跡、すべての機能へのアクセス",
+    "title": "ダッシュボード"
+  },
+  "stats": {
+    "images": "アップロードされた画像アセット",
+    "projects": "プロジェクト合計",
+    "quota": {
+      "expires": "期限切れ",
+      "remaining": "残りの発電枠",
+      "unlimited": "世代数無制限"
+    },
+    "templates": "作成されたテンプレート"
+  },
+  "subtitle": "素晴らしいコンテンツを作り始めよう",
+  "userType": {
+    "basic": "ベーシック",
+    "free": "無料",
+    "pro": "プロ",
+    "trial": "トライアル"
+  },
+  "welcome": "おかえりなさい、{name}。"
 }

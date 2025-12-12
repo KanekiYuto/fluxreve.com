@@ -1,47 +1,47 @@
 {
-  "seo": {
-    "title": "タスク詳細",
-    "description": "AI 画像生成タスクの詳細と結果を表示"
-  },
   "details": {
-    "generationResults": "生成結果",
-    "imagePreview": "画像プレビュー",
-    "imageAlt": "画像",
-    "parametersInfo": "パラメータ情報",
-    "aiModel": "AI モデル",
-    "size": "サイズ",
-    "resolution": "解像度",
+    "aiModel": "AIモデル",
     "aspectRatio": "アスペクト比",
-    "seed": "シード",
-    "steps": "ステップ数",
-    "duration": "生成時間",
-    "quotaConsumed": "消費ポイント",
-    "isPrivate": "プライベートモード",
-    "isNsfw": "NSFW コンテンツ",
-    "yes": "はい",
-    "no": "いいえ",
-    "createdAt": "作成時刻",
-    "completedAt": "完了時刻",
-    "prompt": "プロンプト",
-    "copyPrompt": "プロンプトをコピー",
-    "promptCopied": "コピーしました",
-    "previousImage": "前の画像",
+    "completedAt": "完成",
+    "copyPrompt": "コピー・プロンプト",
+    "createdAt": "作成日時",
+    "defaultPrompt": "AIが生成した画像",
+    "duration": "期間",
+    "generationResults": "世代別成績",
+    "imageAlt": "画像",
+    "imagePreview": "画像プレビュー",
+    "isNsfw": "NSFWコンテンツ",
+    "isPrivate": "プライベート・ファッション",
+    "metaDescription": "00002}を使用して生成されたAI画像",
     "nextImage": "次の画像",
-    "referenceImages": "入力画像",
+    "no": "いいえ",
+    "parametersInfo": "パラメーター情報",
+    "previousImage": "前の画像",
+    "prompt": "プロンプト",
+    "promptCopied": "コピー",
+    "quotaConsumed": "使用クレジット",
     "referenceImage": "入力画像",
-    "metaDescription": "{model} を使用して生成された AI 画像",
-    "defaultPrompt": "AI 生成画像"
-  },
-  "processing": {
-    "title": "タスク処理中",
-    "description": "画像を生成中です。しばらくお待ちください...",
-    "tip": "通常、数秒から数分かかります",
-    "failedTitle": "タスク失敗",
-    "failedDescription": "申し訳ございませんが、画像生成に失敗しました。後でもう一度お試しいただくか、サポートにお問い合わせください。"
+    "referenceImages": "入力画像",
+    "resolution": "決議",
+    "seed": "シード",
+    "size": "サイズ",
+    "steps": "ステップ",
+    "yes": "はい"
   },
   "notFound": {
-    "title": "タスクが見つかりません",
-    "description": "申し訳ございませんが、お探しのタスクが見つかりません。削除された可能性があるか、リンクが無効です。",
-    "backToHome": "ホームに戻る"
+    "backToHome": "ホームへ戻る",
+    "description": "お探しのタスクが見つかりません。削除されたか、リンクが無効です。",
+    "title": "タスクが見つかりません"
+  },
+  "processing": {
+    "description": "画像を生成中です。しばらくお待ちください。",
+    "failedDescription": "画像生成に失敗しました。後で再試行するか、サポートにご連絡ください。",
+    "failedTitle": "タスク失敗",
+    "tip": "通常、数秒から数分かかる",
+    "title": "タスク処理"
+  },
+  "seo": {
+    "description": "AI画像生成タスクの詳細と結果を見る",
+    "title": "タスク詳細"
   }
 }

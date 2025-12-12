@@ -1,0 +1,124 @@
+{
+  "entries": {
+    "AI Generated HD Image Preview": {
+      "translation": "AI-generierte HD-Bildvorschau",
+      "timestamp": 1765576809
+    },
+    "AI Generated Image": {
+      "translation": "AI-generiertes Bild",
+      "timestamp": 1765576809
+    },
+    "AI Image Generation Results": {
+      "translation": "Ergebnisse der AI-Bilderzeugung",
+      "timestamp": 1765576809
+    },
+    "AI Model": {
+      "translation": "AI-Modell",
+      "timestamp": 1765576809
+    },
+    "AI is creating the current artwork, this usually takes a few minutes": {
+      "translation": "AI erstellt das aktuelle Kunstwerk, dies dauert in der Regel ein paar Minuten",
+      "timestamp": 1765576809
+    },
+    "Content Not Found": {
+      "translation": "Inhalt nicht gefunden",
+      "timestamp": 1765576809
+    },
+    "Copied": {
+      "translation": "Kopiert",
+      "timestamp": 1765576809
+    },
+    "Copy Prompt": {
+      "translation": "Eingabeaufforderung kopieren",
+      "timestamp": 1765576809
+    },
+    "Copy Share Link": {
+      "translation": "Link zum Teilen kopieren",
+      "timestamp": 1765576809
+    },
+    "Create AI Artwork": {
+      "translation": "AI-Grafiken erstellen",
+      "timestamp": 1765576809
+    },
+    "Create Similar Image": {
+      "translation": "Ähnliches Bild erstellen",
+      "timestamp": 1765576809
+    },
+    "Download All Images": {
+      "translation": "Alle Bilder herunterladen",
+      "timestamp": 1765576809
+    },
+    "Download Current Image": {
+      "translation": "Aktuelles Bild herunterladen",
+      "timestamp": 1765576809
+    },
+    "Download Share Card": {
+      "translation": "Share Card herunterladen",
+      "timestamp": 1765576809
+    },
+    "Generating...": {
+      "translation": "Erzeugen...",
+      "timestamp": 1765576809
+    },
+    "Generation Parameters and Model Info": {
+      "translation": "Erzeugungsparameter und Modellinformationen",
+      "timestamp": 1765576809
+    },
+    "High-quality image generated with {model} AI model. Prompt: ": {
+      "translation": "Hochwertiges Bild erzeugt mit {model} AI-Modell. Aufforderung:",
+      "timestamp": 1765576809
+    },
+    "I am 18+, View Content": {
+      "translation": "Ich bin 18+, Inhalt ansehen",
+      "timestamp": 1765576809
+    },
+    "Image": {
+      "translation": "Bild",
+      "timestamp": 1765576809
+    },
+    "Input Image": {
+      "translation": "Eingabe Bild",
+      "timestamp": 1765576809
+    },
+    "Input Images": {
+      "translation": "Bilder eingeben",
+      "timestamp": 1765576809
+    },
+    "More Actions": {
+      "translation": "Weitere Aktionen",
+      "timestamp": 1765576809
+    },
+    "Next Image": {
+      "translation": "Next Image",
+      "timestamp": 1765576809
+    },
+    "Please refresh the page later to view the result": {
+      "translation": "Bitte aktualisieren Sie die Seite später, um das Ergebnis zu sehen",
+      "timestamp": 1765576809
+    },
+    "Previous Image": {
+      "translation": "Vorheriges Bild",
+      "timestamp": 1765576809
+    },
+    "Share": {
+      "translation": "Teilen Sie",
+      "timestamp": 1765576809
+    },
+    "Share to X": {
+      "translation": "Freigabe an X",
+      "timestamp": 1765576809
+    },
+    "This content may contain adult or sensitive material. Viewer discretion is advised": {
+      "translation": "Dieser Inhalt kann erwachsenes oder sensibles Material enthalten. Diskretion des Zuschauers wird empfohlen",
+      "timestamp": 1765576809
+    },
+    "This shared content may have been deleted by the creator, set to private, the link may have expired, or you may have accessed the wrong address": {
+      "translation": "Dieser freigegebene Inhalt wurde möglicherweise vom Ersteller gelöscht, auf privat gesetzt, der Link ist abgelaufen oder Sie haben die falsche Adresse aufgerufen.",
+      "timestamp": 1765576809
+    },
+    "{model} AI Generated | ": {
+      "translation": "{model} AI Generated |",
+      "timestamp": 1765576809
+    }
+  }
+}

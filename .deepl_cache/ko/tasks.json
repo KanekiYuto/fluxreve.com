@@ -1,0 +1,148 @@
+{
+  "entries": {
+    "All": {
+      "translation": "모두",
+      "timestamp": 1765576936
+    },
+    "Are you sure you want to delete this task? This action cannot be undone.": {
+      "translation": "이 작업을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+      "timestamp": 1765576936
+    },
+    "Clear": {
+      "translation": "지우기",
+      "timestamp": 1765576936
+    },
+    "Completed": {
+      "translation": "완료",
+      "timestamp": 1765576936
+    },
+    "Delete": {
+      "translation": "삭제",
+      "timestamp": 1765576936
+    },
+    "Delete Task": {
+      "translation": "작업 삭제",
+      "timestamp": 1765576936
+    },
+    "Deleting...": {
+      "translation": "삭제...",
+      "timestamp": 1765576936
+    },
+    "FLUX 2 Pro": {
+      "translation": "FLUX 2 Pro",
+      "timestamp": 1765576936
+    },
+    "Failed": {
+      "translation": "실패",
+      "timestamp": 1765576936
+    },
+    "Failed to fetch tasks": {
+      "translation": "작업을 가져오지 못했습니다.",
+      "timestamp": 1765576936
+    },
+    "Filters": {
+      "translation": "필터",
+      "timestamp": 1765576936
+    },
+    "Login to View History": {
+      "translation": "로그인하여 기록 보기",
+      "timestamp": 1765576936
+    },
+    "Make Private": {
+      "translation": "비공개로 설정",
+      "timestamp": 1765576936
+    },
+    "Make Public": {
+      "translation": "공개하기",
+      "timestamp": 1765576936
+    },
+    "Model": {
+      "translation": "모델",
+      "timestamp": 1765576936
+    },
+    "NSFW": {
+      "translation": "NSFW",
+      "timestamp": 1765576936
+    },
+    "Next": {
+      "translation": "다음",
+      "timestamp": 1765576936
+    },
+    "No Matching Tasks": {
+      "translation": "일치하는 작업 없음",
+      "timestamp": 1765576936
+    },
+    "No Tasks Yet": {
+      "translation": "아직 작업 없음",
+      "timestamp": 1765576936
+    },
+    "No prompt": {
+      "translation": "프롬프트에서",
+      "timestamp": 1765576936
+    },
+    "Pending": {
+      "translation": "보류 중",
+      "timestamp": 1765576936
+    },
+    "Previous": {
+      "translation": "이전 게시물",
+      "timestamp": 1765576936
+    },
+    "Privacy": {
+      "translation": "개인 정보 보호",
+      "timestamp": 1765576936
+    },
+    "Private": {
+      "translation": "비공개",
+      "timestamp": 1765576936
+    },
+    "Processing": {
+      "translation": "처리",
+      "timestamp": 1765576936
+    },
+    "Public": {
+      "translation": "공개",
+      "timestamp": 1765576936
+    },
+    "Safe": {
+      "translation": "안전",
+      "timestamp": 1765576936
+    },
+    "Select...": {
+      "translation": "선택...",
+      "timestamp": 1765576936
+    },
+    "Sign In": {
+      "translation": "로그인",
+      "timestamp": 1765576936
+    },
+    "Sign in to view all your AI image generation history": {
+      "translation": "로그인하여 모든 AI 이미지 생성 내역을 확인하세요.",
+      "timestamp": 1765576936
+    },
+    "Start creating your first AI image": {
+      "translation": "첫 번째 AI 이미지 만들기 시작하기",
+      "timestamp": 1765576936
+    },
+    "Try changing the filter options": {
+      "translation": "필터 옵션을 변경해 보세요.",
+      "timestamp": 1765576936
+    },
+    "View and manage all your AI image generation history": {
+      "translation": "모든 AI 이미지 생성 내역 보기 및 관리",
+      "timestamp": 1765576936
+    },
+    "View and manage all your generation history": {
+      "translation": "모든 세대별 기록 보기 및 관리",
+      "timestamp": 1765576936
+    },
+    "Z-Image LoRA": {
+      "translation": "Z-Image LoRA",
+      "timestamp": 1765576936
+    },
+    "{count} selected": {
+      "translation": "{count} 선택됨",
+      "timestamp": 1765576936
+    }
+  }
+}

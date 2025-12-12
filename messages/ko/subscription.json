@@ -1,43 +1,43 @@
 {
-  "seo": {
-    "title": "구독 관리",
-    "description": "구독 플랜 및 결제 정보 확인 및 관리"
-  },
-  "title": "구독 관리",
-  "subtitle": "구독 정보 확인 및 관리",
-  "login": {
-    "title": "구독을 보려면 로그인",
-    "description": "구독 정보를 보고 관리하려면 로그인하세요"
-  },
-  "empty": {
-    "title": "구독 없음",
-    "description": "현재 활성 구독이 없습니다",
-    "action": "요금제 보기"
-  },
   "card": {
-    "subscriptionId": "구독",
-    "customerId": "고객",
-    "nextRenewal": "다음 갱신 시 전환",
     "amount": "구독 금액",
-    "platform": "결제 플랫폼",
-    "startDate": "시작일",
-    "expiryDate": "만료일",
-    "nextBillingDate": "다음 결제일",
-    "canceledDate": "취소일",
+    "canceledDate": "취소 날짜",
+    "customerId": "고객",
+    "expiryDate": "만료 날짜",
     "manageButton": "구독 관리",
+    "nextBillingDate": "다음 청구 날짜",
+    "nextRenewal": "다음 갱신은 다음과 같이 전환됩니다.",
+    "planTypes": {
+      "monthly_basic": "기본 - 월간",
+      "monthly_pro": "Pro - 월간",
+      "trial": "평가판",
+      "yearly_basic": "기본 - 연간",
+      "yearly_pro": "프로 - 연간"
+    },
+    "platform": "결제 플랫폼",
+    "startDate": "시작 날짜",
     "status": {
       "active": "활성",
       "canceled": "취소됨",
       "expired": "만료됨",
-      "paused": "일시정지",
-      "pending": "결제 대기"
+      "paused": "일시 중지됨",
+      "pending": "결제 보류 중"
     },
-    "planTypes": {
-      "trial": "체험판",
-      "monthly_basic": "베이직 - 월간",
-      "yearly_basic": "베이직 - 연간",
-      "monthly_pro": "프로 - 월간",
-      "yearly_pro": "프로 - 연간"
-    }
-  }
+    "subscriptionId": "구독"
+  },
+  "empty": {
+    "action": "요금제 보기",
+    "description": "현재 활성 구독이 없습니다.",
+    "title": "구독 없음"
+  },
+  "login": {
+    "description": "로그인하여 구독 정보를 확인하고 관리하세요.",
+    "title": "로그인하여 구독 보기"
+  },
+  "seo": {
+    "description": "구독 요금제 및 청구 정보 보기 및 관리하기",
+    "title": "구독 관리"
+  },
+  "subtitle": "구독 정보 보기 및 관리",
+  "title": "구독 관리"
 }

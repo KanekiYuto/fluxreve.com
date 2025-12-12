@@ -1,49 +1,49 @@
 {
+  "discordBanner": {
+    "closeLabel": "Fermer",
+    "description": "Recevez les dernières mises à jour, des avantages exclusifs et des bonus gratuits.",
+    "joinButton": "Rejoignez-nous",
+    "title": "Rejoignez notre Discord Communauté"
+  },
   "language": "Langue",
   "loading": "Chargement...",
   "loginRequired": {
-    "title": "Connexion Requise",
-    "description": "Connectez-vous pour accéder à toutes les fonctionnalités",
-    "buttonText": "Se Connecter Maintenant"
-  },
-  "seo": {
-    "title": "{siteName} - Outil de Génération d'Images IA",
-    "description": "Créez des images professionnelles de haute qualité en quelques secondes avec la génération d'images par IA. Outils d'intelligence artificielle simples, rapides et puissants.",
-    "keywords": "génération d'images IA, art IA, créateur d'images, outils IA, images professionnelles"
+    "buttonText": "Se connecter maintenant",
+    "description": "Se connecter pour accéder à toutes les fonctionnalités",
+    "title": "Se connecter pour continuer"
   },
   "navigation": {
-    "home": "Accueil",
-    "ai-generator": "Générateur IA",
-    "nano-banana-pro": "Nano Banana Pro",
-    "nanoBananaProDesc": "Génération d'images Nano Banana avancée",
-    "z-image": "Z-Image",
-    "zImageDesc": "Génération et édition d'images IA avancées",
-    "flux-2-pro": "Flux 2 Pro",
-    "flux2ProDesc": "Génération d'images IA professionnelle à double mode",
-    "seedreamV45": "Seedream 4.5",
-    "seedreamV45Desc": "Génération d'images HD 2K ByteDance",
-    "explore": "Communauté Créative",
-    "dashboard": "Tableau de Bord",
-    "tasks": "Historique",
-    "quota": "Quota",
-    "subscription": "Abonnement",
-    "pricing": "Tarifs",
-    "more": "Plus",
-    "settings": "Paramètres",
-    "help": "Aide",
-    "terms": "Conditions d'Utilisation",
-    "privacy": "Politique de Confidentialité",
-    "main": "Principal",
-    "user": "Utilisateur",
+    "ai-generator": "Générateur d'IA",
+    "company": "Entreprise",
     "content": "Contenu",
+    "dashboard": "Tableau de bord",
+    "explore": "Communauté créative",
+    "flux-2-pro": "Flux 2 Pro",
+    "flux2ProDesc": "Génération d'images AI professionnelles à double mode",
+    "help": "Aide",
+    "home": "Accueil",
+    "main": "Principal",
+    "models": "Modèles d'IA",
+    "more": "Plus d'informations",
+    "nano-banana-pro": "Nano Banana Pro",
+    "nanoBananaProDesc": "Génération avancée d'images Nano Banana",
     "nav": "Navigation",
-    "models": "Modèles IA",
-    "company": "Entreprise"
+    "pricing": "Tarification",
+    "privacy": "Politique de confidentialité",
+    "quota": "Quota",
+    "seedreamV45": "Seedream 4.5",
+    "seedreamV45Desc": "ByteDance 2K HD génération d'images",
+    "settings": "Paramètres",
+    "subscription": "Abonnement",
+    "tasks": "L'histoire",
+    "terms": "Conditions d'utilisation",
+    "user": "Utilisateur",
+    "z-image": "Z-Image",
+    "zImageDesc": "Génération et édition d'images IA avancées"
   },
-  "discordBanner": {
-    "title": "Rejoignez Notre Communauté Discord",
-    "description": "Recevez les dernières actualités, des avantages exclusifs et des bonus gratuits",
-    "joinButton": "Rejoindre Maintenant",
-    "closeLabel": "Fermer"
+  "seo": {
+    "description": "Créez des images professionnelles de haute qualité en quelques secondes grâce à la génération d'images par intelligence artificielle. Des outils d'intelligence artificielle simples, rapides et puissants.",
+    "keywords": "Génération d'images par l'IA, art de l'IA, créateur d'images, outils d'IA, images professionnelles",
+    "title": "{siteName} - Outil de génération d'images AI"
   }
 }

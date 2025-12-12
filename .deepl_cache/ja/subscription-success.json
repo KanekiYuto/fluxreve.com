@@ -1,0 +1,88 @@
+{
+  "entries": {
+    "Auto redirecting to dashboard in {seconds} seconds...": {
+      "translation": "00001}秒後にダッシュボードに自動リダイレクト...",
+      "timestamp": 1765576982
+    },
+    "Basic - Monthly": {
+      "translation": "ベーシック - 月額",
+      "timestamp": 1765576982
+    },
+    "Basic - Yearly": {
+      "translation": "ベーシック - 年間",
+      "timestamp": 1765576982
+    },
+    "Plan": {
+      "translation": "プラン",
+      "timestamp": 1765576982
+    },
+    "Pro - Monthly": {
+      "translation": "プロ - 月額",
+      "timestamp": 1765576982
+    },
+    "Pro - Yearly": {
+      "translation": "プロ - 年間",
+      "timestamp": 1765576982
+    },
+    "Redirecting...": {
+      "translation": "リダイレクト...",
+      "timestamp": 1765576982
+    },
+    "Start Using Now": {
+      "translation": "今すぐ利用を開始する",
+      "timestamp": 1765576982
+    },
+    "Start using AI generators to create stunning images": {
+      "translation": "AIジェネレーターを使って魅力的な画像を作成",
+      "timestamp": 1765576982
+    },
+    "Status": {
+      "translation": "ステータス",
+      "timestamp": 1765576982
+    },
+    "Subscription Details": {
+      "translation": "購読の詳細",
+      "timestamp": 1765576982
+    },
+    "Subscription Successful": {
+      "translation": "サブスクリプション成功",
+      "timestamp": 1765576982
+    },
+    "Subscription Successful!": {
+      "translation": "購読成功！",
+      "timestamp": 1765576982
+    },
+    "Subscription not found": {
+      "translation": "サブスクリプションが見つかりません",
+      "timestamp": 1765576982
+    },
+    "Thank you for subscribing! Your account has been successfully upgraded": {
+      "translation": "ご登録ありがとうございます！アカウントは正常にアップグレードされました",
+      "timestamp": 1765576982
+    },
+    "Thank you for subscribing. Your account has been successfully upgraded and you can now enjoy all premium features.": {
+      "translation": "ご登録ありがとうございます。アカウントは正常にアップグレードされ、すべてのプレミアム機能をご利用いただけるようになりました。",
+      "timestamp": 1765576982
+    },
+    "Unknown Plan": {
+      "translation": "不明プラン",
+      "timestamp": 1765576982
+    },
+    "View Subscription": {
+      "translation": "購読を見る",
+      "timestamp": 1765576982
+    },
+    "View your subscription details in the subscription management page": {
+      "translation": "購読管理ページで購読の詳細を見る",
+      "timestamp": 1765576982
+    },
+    "Visit your dashboard to explore all available features": {
+      "translation": "ダッシュボードにアクセスして、利用可能なすべての機能を調べる",
+      "timestamp": 1765576982
+    },
+    "What's Next": {
+      "translation": "次の記事",
+      "timestamp": 1765576982
+    }
+  }
+}

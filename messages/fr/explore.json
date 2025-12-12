@@ -1,36 +1,36 @@
 {
-  "seo": {
-    "title": "Communauté Créative - Explorez un Art IA Étonnant",
-    "description": "Parcourez des images IA générées magnifiques créées par les membres de notre communauté, inspirez-vous et découvrez des chefs-d'œuvre extraordinaires"
-  },
-  "header": {
-    "title": "Communauté Créative",
-    "subtitle": "Explorez les créations merveilleuses de notre communauté et découvrez votre inspiration"
-  },
-  "gallery": {
-    "loading": "Chargement...",
-    "loadMore": "Charger plus",
-    "noMore": "Aucun autre élément"
-  },
   "card": {
-    "createdAt": "Créé le",
+    "createdAt": "Créée",
     "viewDetail": "Voir les détails"
   },
-  "createSimilar": "Créer une Image Similaire",
-  "nsfw": {
-    "warning": "Avertissement de Contenu Sensible",
-    "description": "Ce contenu peut contenir du matériel pour adultes ou sensible. Veuillez confirmer que vous avez 18 ans ou plus avant de continuer.",
-    "confirm": "J'ai plus de 18 ans, afficher le contenu",
-    "cancel": "Retour",
-    "badge": "Contenu Sensible"
-  },
+  "createSimilar": "Créez des éléments similaires",
   "empty": {
-    "title": "Aucune Création Encore",
-    "subtitle": "Aucune création partagée publiquement pour le moment. Soyez le premier à partager!",
-    "cta": "Commencer à Créer"
+    "cta": "Commencer à créer",
+    "subtitle": "Aucune œuvre d'art public n'a encore été partagée. Soyez le premier à partager votre création !",
+    "title": "Pas encore d'œuvres d'art"
   },
   "errors": {
-    "fetchFailed": "Échec du chargement du contenu, veuillez réessayer",
+    "fetchFailed": "Le contenu n'a pas été chargé, veuillez réessayer",
     "retry": "Réessayer"
+  },
+  "gallery": {
+    "loadMore": "En savoir plus",
+    "loading": "Chargement...",
+    "noMore": "Plus d'articles"
+  },
+  "header": {
+    "subtitle": "Explorez les créations étonnantes de notre communauté et découvrez votre inspiration.",
+    "title": "Communauté créative"
+  },
+  "nsfw": {
+    "badge": "Contenu sensible",
+    "cancel": "Retour",
+    "confirm": "J'ai 18 ans et plus, Afficher le contenu",
+    "description": "Ce contenu peut contenir du matériel pour adultes ou sensible. Veuillez vous assurer que vous avez plus de 18 ans avant de le visionner.",
+    "warning": "Avertissement sur le contenu sensible"
+  },
+  "seo": {
+    "description": "Parcourez les magnifiques images générées par l'IA et créées par les membres de notre communauté, laissez-vous inspirer et découvrez des œuvres d'art étonnantes.",
+    "title": "Communauté créative - Découvrez des œuvres d'art étonnantes en matière d'IA"
   }
 }

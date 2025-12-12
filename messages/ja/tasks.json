@@ -1,86 +1,85 @@
 {
-  "seo": {
-    "title": "履歴",
-    "description": "すべてのAI画像生成履歴を確認・管理"
+  "card": {
+    "cancelDelete": "キャンセル",
+    "confirmDelete": "削除",
+    "confirmDeleteMessage": "本当にこのタスクを削除しますか？この操作は取り消せません。",
+    "confirmDeleteTitle": "タスクの削除",
+    "delete": "削除",
+    "deleting": "削除...",
+    "makePrivate": "プライベート",
+    "makePublic": "公開する",
+    "private": "プライベート",
+    "public": "パブリック"
   },
-  "header": {
-    "title": "履歴",
-    "subtitle": "すべての生成履歴を確認・管理"
+  "empty": {
+    "cta": "制作開始",
+    "filteredSubtitle": "フィルターオプションを変更してみる",
+    "filteredTitle": "マッチするタスクがない",
+    "subtitle": "最初のAI画像の作成を開始する",
+    "title": "タスクはまだありません"
   },
-  "loginPrompt": {
-    "title": "ログインして履歴を表示",
-    "description": "ログインするとすべてのAI画像生成履歴を確認できます",
-    "cta": "ログイン"
+  "errors": {
+    "fetchFailed": "タスクのフェッチに失敗",
+    "retry": "リトライ"
   },
   "filter": {
     "all": "すべて",
-    "completed": "完了",
-    "processing": "処理中",
-    "pending": "待機中",
+    "clearAll": "クリア",
+    "completed": "完成",
     "failed": "失敗",
-    "statusLabel": "ステータス",
-    "taskTypeLabel": "タイプ",
-    "taskType": {
-      "all": "すべて",
-      "text-to-image": "テキストから画像",
-      "image-to-image": "画像から画像"
-    },
-    "modelLabel": "モデル",
     "model": {
       "all": "すべて",
+      "flux-2-pro": "FLUX 2 Pro",
       "nano-banana-pro": "Nano Banana Pro",
       "z-image": "Z-Image",
-      "z-image-lora": "Z-Image LoRA",
-      "flux-2-pro": "FLUX 2 Pro"
+      "z-image-lora": "Z-Image LoRA"
+    },
+    "modelLabel": "モデル",
+    "nsfw": {
+      "nsfw": "NSFW",
+      "safe": "安全"
+    },
+    "nsfwLabel": "内容",
+    "pending": "申請中",
+    "privacy": {
+      "private": "プライベート",
+      "public": "パブリック"
     },
     "privacyLabel": "プライバシー",
-    "privacy": {
-      "private": "非公開",
-      "public": "公開"
-    },
-    "nsfwLabel": "コンテンツ",
-    "nsfw": {
-      "safe": "安全",
-      "nsfw": "NSFW"
-    },
+    "processing": "加工",
     "selectPlaceholder": "選択...",
-    "selectedCount": "{count} 件選択中",
-    "title": "フィルター",
-    "clearAll": "クリア"
+    "selectedCount": "{count}を選択",
+    "statusLabel": "ステータス",
+    "taskType": {
+      "all": "すべて",
+      "image-to-image": "画像から画像へ",
+      "text-to-image": "テキストから画像へ"
+    },
+    "taskTypeLabel": "タイプ",
+    "title": "フィルター"
+  },
+  "header": {
+    "subtitle": "すべての世代履歴の表示と管理",
+    "title": "歴史"
+  },
+  "loginPrompt": {
+    "cta": "サインイン",
+    "description": "サインインして、すべてのAI画像生成履歴を見る",
+    "title": "ログインして履歴を見る"
+  },
+  "noPrompt": "プロンプトで",
+  "pagination": {
+    "next": "次のページ",
+    "prev": "前へ"
+  },
+  "seo": {
+    "description": "すべてのAI画像生成履歴の表示と管理",
+    "title": "歴史"
   },
   "status": {
-    "completed": "完了",
-    "processing": "処理中",
-    "pending": "待機中",
-    "failed": "失敗"
-  },
-  "empty": {
-    "title": "タスクがありません",
-    "subtitle": "最初のAI画像を作成しましょう",
-    "filteredTitle": "条件に一致するタスクがありません",
-    "filteredSubtitle": "フィルター条件を変更してみてください",
-    "cta": "作成を開始"
-  },
-  "noPrompt": "プロンプトなし",
-  "card": {
-    "delete": "削除",
-    "confirmDelete": "削除する",
-    "confirmDeleteTitle": "タスクを削除",
-    "confirmDeleteMessage": "このタスクを削除してもよろしいですか？この操作は取り消せません。",
-    "cancelDelete": "キャンセル",
-    "deleting": "削除中...",
-    "private": "非公開",
-    "public": "公開",
-    "makePrivate": "非公開にする",
-    "makePublic": "公開にする"
-  },
-  "errors": {
-    "fetchFailed": "タスクの取得に失敗しました",
-    "retry": "再試行"
-  },
-  "pagination": {
-    "prev": "前へ",
-    "next": "次へ"
+    "completed": "完成",
+    "failed": "失敗",
+    "pending": "申請中",
+    "processing": "加工"
   }
 }
-

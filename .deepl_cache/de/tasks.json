@@ -1,0 +1,148 @@
+{
+  "entries": {
+    "All": {
+      "translation": "Alle",
+      "timestamp": 1765576811
+    },
+    "Are you sure you want to delete this task? This action cannot be undone.": {
+      "translation": "Sind Sie sicher, dass Sie diese Aufgabe löschen wollen? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "timestamp": 1765576811
+    },
+    "Clear": {
+      "translation": "Klar",
+      "timestamp": 1765576811
+    },
+    "Completed": {
+      "translation": "Abgeschlossen",
+      "timestamp": 1765576811
+    },
+    "Delete": {
+      "translation": "Löschen",
+      "timestamp": 1765576811
+    },
+    "Delete Task": {
+      "translation": "Aufgabe löschen",
+      "timestamp": 1765576811
+    },
+    "Deleting...": {
+      "translation": "Löschen...",
+      "timestamp": 1765576811
+    },
+    "FLUX 2 Pro": {
+      "translation": "FLUX 2 Pro",
+      "timestamp": 1765576811
+    },
+    "Failed": {
+      "translation": "Gescheitert",
+      "timestamp": 1765576811
+    },
+    "Failed to fetch tasks": {
+      "translation": "Aufgaben können nicht abgeholt werden",
+      "timestamp": 1765576811
+    },
+    "Filters": {
+      "translation": "Filters",
+      "timestamp": 1765576811
+    },
+    "Login to View History": {
+      "translation": "Einloggen, um Geschichte zu sehen",
+      "timestamp": 1765576811
+    },
+    "Make Private": {
+      "translation": "Privat machen",
+      "timestamp": 1765576811
+    },
+    "Make Public": {
+      "translation": "Öffentlich machen",
+      "timestamp": 1765576811
+    },
+    "Model": {
+      "translation": "Modell",
+      "timestamp": 1765576811
+    },
+    "NSFW": {
+      "translation": "NSFW",
+      "timestamp": 1765576811
+    },
+    "Next": {
+      "translation": "Weiter",
+      "timestamp": 1765576811
+    },
+    "No Matching Tasks": {
+      "translation": "Keine übereinstimmenden Aufgaben",
+      "timestamp": 1765576811
+    },
+    "No Tasks Yet": {
+      "translation": "Noch keine Aufgaben",
+      "timestamp": 1765576811
+    },
+    "No prompt": {
+      "translation": "Bei der Eingabeaufforderung",
+      "timestamp": 1765576811
+    },
+    "Pending": {
+      "translation": "Anhängig",
+      "timestamp": 1765576811
+    },
+    "Previous": {
+      "translation": "Vorherige",
+      "timestamp": 1765576811
+    },
+    "Privacy": {
+      "translation": "Datenschutz",
+      "timestamp": 1765576811
+    },
+    "Private": {
+      "translation": "Privat",
+      "timestamp": 1765576811
+    },
+    "Processing": {
+      "translation": "Verarbeitung",
+      "timestamp": 1765576811
+    },
+    "Public": {
+      "translation": "Öffentlich",
+      "timestamp": 1765576811
+    },
+    "Safe": {
+      "translation": "Sicher",
+      "timestamp": 1765576811
+    },
+    "Select...": {
+      "translation": "Wählen Sie...",
+      "timestamp": 1765576811
+    },
+    "Sign In": {
+      "translation": "Eintragen",
+      "timestamp": 1765576811
+    },
+    "Sign in to view all your AI image generation history": {
+      "translation": "Melden Sie sich an, um den gesamten Verlauf Ihrer AI-Bilderzeugung anzuzeigen",
+      "timestamp": 1765576811
+    },
+    "Start creating your first AI image": {
+      "translation": "Erstellen Sie Ihr erstes AI-Bild",
+      "timestamp": 1765576811
+    },
+    "Try changing the filter options": {
+      "translation": "Versuchen Sie, die Filteroptionen zu ändern",
+      "timestamp": 1765576811
+    },
+    "View and manage all your AI image generation history": {
+      "translation": "Anzeigen und Verwalten des gesamten Verlaufs Ihrer AI-Bilderzeugung",
+      "timestamp": 1765576811
+    },
+    "View and manage all your generation history": {
+      "translation": "Anzeigen und Verwalten Ihrer gesamten Generationshistorie",
+      "timestamp": 1765576811
+    },
+    "Z-Image LoRA": {
+      "translation": "Z-Image LoRA",
+      "timestamp": 1765576811
+    },
+    "{count} selected": {
+      "translation": "{count} ausgewählt",
+      "timestamp": 1765576811
+    }
+  }
+}

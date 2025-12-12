@@ -1,76 +1,76 @@
 {
-  "title": "Conditions d'Utilisation | {siteName}",
-  "description": "Lisez les conditions d'utilisation de {siteName} pour utiliser notre plateforme de génération d'images par IA. Couvre les comptes utilisateurs, les règles d'utilisation, la propriété intellectuelle et les politiques de service.",
-  "keywords": "conditions d'utilisation, accord utilisateur, conditions de service, accord légal, politique d'utilisation, propriété intellectuelle, accord de service",
-  "lastUpdated": "Dernière Mise à Jour",
   "acceptance": {
-    "title": "Acceptation des Conditions",
-    "content1": "Bienvenue sur {siteName}. Ces Conditions d'Utilisation (\"Conditions\", \"Accord\") constituent un accord légalement contraignant entre vous (\"Utilisateur\", \"vous\" ou \"votre\") et {siteName} (\"nous\", \"notre\" ou \"nos\") régissant votre accès et utilisation de notre plateforme de génération d'images alimentée par l'IA, y compris notre site web, applications mobiles, APIs et services connexes (collectivement, le \"Service\").",
-    "content2": "En accédant, parcourant ou utilisant le Service de quelque manière que ce soit, vous reconnaissez que vous avez lu, compris et acceptez d'être lié par ces Conditions et notre Politique de Confidentialité. Si vous n'acceptez pas ces Conditions, vous devez immédiatement cesser l'utilisation du Service."
-  },
-  "serviceDescription": {
-    "title": "Aperçu du Service",
-    "intro": "{siteName} fournit des outils et services créatifs alimentés par l'IA, incluant:",
-    "items": [
-      "Génération d'images IA à partir de descriptions textuelles utilisant des modèles d'apprentissage automatique avancés",
-      "Capacités d'édition, d'amélioration et de transfert de style d'image",
-      "Gestion de projets, organisation et stockage en nuage pour le contenu généré",
-      "Accès API pour les développeurs et intégration d'entreprise",
-      "Fonctionnalités et outils premium supplémentaires disponibles de temps à autre"
-    ]
-  },
-  "userAccount": {
-    "title": "Comptes Utilisateurs et Inscription",
-    "registration": "Inscription: Pour accéder à certaines fonctionnalités, vous devez créer un compte en fournissant des informations exactes, complètes et actuelles. Vous déclarez que toutes les informations que vous fournissez sont véridiques et que vous maintiendrez l'exactitude de ces informations.",
-    "security": "Sécurité du Compte: Vous êtes seul responsable du maintien de la confidentialité de vos identifiants de compte et de toutes les activités qui se déroulent sous votre compte. Vous acceptez de nous notifier immédiatement de tout accès non autorisé ou violation de sécurité.",
-    "transfer": "Transfert de Compte: Votre compte vous est personnel et ne peut pas être transféré, vendu ou cédé à un tiers sans notre consentement écrit préalable."
-  },
-  "usageRules": {
-    "title": "Politique d'Utilisation Acceptable",
-    "intro": "Vous acceptez de ne pas utiliser le Service pour générer, télécharger, partager ou distribuer du contenu qui:",
-    "items": [
-      "Viole les lois, réglementations ou droits des tiers applicables",
-      "Contient du matériel illégal, nuisible, menaçant, abusif, harcèlent, diffamatoire ou obscène",
-      "Dépeint ou promeut la violence, la discrimination, la haine ou l'intolérance basées sur des caractéristiques protégées",
-      "Inclut du contenu explicitement sexuel, pornographique ou inapproprié pour les mineurs",
-      "Enfreint les droits de propriété intellectuelle, y compris les droits d'auteur, marques ou brevets",
-      "Constitue du spam, du phishing, des malveillances ou des tentatives de compromettre la sécurité de la plateforme",
-      "Usurpe l'identité d'une personne ou entité ou dénature votre affiliation",
-      "Implique du scraping automatisé, du mining ou un utilisation API non autorisée violant nos directives",
-      "Exploite, lèse ou tente d'exploiter des mineurs de quelque manière que ce soit",
-      "Contient des informations fausses, trompeuses ou trompeuses présentées comme factuelles"
-    ]
-  },
-  "intellectualProperty": {
-    "title": "Droits de Propriété Intellectuelle",
-    "platformContent": "Propriété de la Plateforme: Tout contenu, fonctionnalité, logiciel, design, texte, graphiques, logos et marques sur le Service sont la propriété de {siteName} ou de nos concédants et sont protégés par les lois internationales sur la propriété intellectuelle. Vous ne pouvez pas copier, modifier, distribuer ou inverser l'ingénierie de toute partie du Service sans autorisation.",
-    "userContent": "Contenu Généré par l'Utilisateur: Vous conservez la propriété des images et du contenu que vous générez en utilisant le Service, sous réserve de notre licence limitée ci-dessous. Cependant, vous êtes seul responsable de vous assurer que votre utilisation ne porte pas atteinte aux droits des tiers ni ne viole les lois applicables.",
-    "license": "Octroi de Licence: En utilisant le Service, vous nous accordez une licence mondiale, non-exclusive, sans redevances pour utiliser, reproduire, modifier et afficher votre contenu généré uniquement aux fins de: (a) fournir et améliorer le Service, (b) entraîner et améliorer nos modèles IA (avec votre consentement), et (c) à des fins de marketing et de promotion avec votre permission explicite."
-  },
-  "privacy": {
-    "title": "Confidentialité et Protection des Données",
-    "content": "Votre confidentialité nous importe. Notre collecte, utilisation et protection de vos informations personnelles sont régies par notre Politique de Confidentialité, qui est incorporée dans ces Conditions par référence. Veuillez consulter notre Politique de Confidentialité pour comprendre nos pratiques."
-  },
-  "serviceChanges": {
-    "title": "Modifications et Résiliation du Service",
-    "modification": "Modifications: Nous nous réservons le droit de modifier, suspendre ou cesser tout aspect du Service à tout moment, avec ou sans préavis. Nous pouvons également imposer des limites sur certaines fonctionnalités ou restreindre l'accès à des parties du Service. Nous ne sommes pas responsables de ces modifications ou cessations.",
-    "termination": "Résiliation par Nous: Nous pouvons suspendre ou résilier votre compte et accès au Service immédiatement, sans préavis, si vous enfreignez ces Conditions, vous engagez dans une activité frauduleuse, ou pour toute autre raison à notre seule discrétion.",
-    "dataRetention": "Effet de la Résiliation: Après la résiliation, votre droit d'utiliser le Service cesse immédiatement. Nous pouvons supprimer les données de votre compte et le contenu généré, bien que certaines informations puissent être conservées selon les exigences légales ou à des fins commerciales légitimes."
-  },
-  "disclaimer": {
-    "title": "Clauses de Non-Responsabilité et Limitations",
-    "asIs": "Base Tel Quel: Le Service est fourni \"tel quel\" et \"tel que disponible\" sans garanties d'aucune sorte, expresses ou implicites, y compris mais ne se limitant pas aux garanties de qualité marchande, d'adéquation à un usage particulier ou de non-contrefaçon. Nous ne garantissons pas que le Service sera ininterrompu, sans erreur ou sécurisé.",
-    "liability": "Limitation de Responsabilité: Dans la mesure maximale autorisée par la loi, {siteName} et ses sociétés affiliées ne seront responsables d'aucun dommage indirect, accidentel, spécial, consécutif ou punitif, y compris la perte de profits, de données ou de fonds de commerce, découlant de votre utilisation ou incapacité à utiliser le Service.",
-    "responsibility": "Responsabilité de l'Utilisateur: Vous reconnaissez que le contenu généré par l'IA peut produire des résultats inattendus ou inexacts. Vous êtes seul responsable d'examiner, de vérifier et de déterminer l'opportunité de tout contenu généré via le Service avant son utilisation, sa publication ou sa distribution."
-  },
-  "legalJurisdiction": {
-    "title": "Droit Applicable et Résolution des Litiges",
-    "law": "Droit Applicable: Ces Conditions seront régies par et interprétées conformément aux lois de la juridiction dans laquelle {siteName} est enregistré, sans égard à ses principes de conflits de lois.",
-    "disputes": "Résolution des Litiges: Tous les litiges découlant de ou relatifs à ces Conditions ou au Service doivent d'abord être résolus par des négociations de bonne foi. Si les négociations échouent, les litiges seront résolus par arbitrage contraignant ou litige devant les tribunaux de la juridiction applicable, tel que déterminé par le droit applicable."
+    "content1": "Bienvenue sur {siteName}. Les présentes Conditions de service (\"Conditions\", \"Accord\") constituent un accord juridiquement contraignant entre vous (\"Utilisateur\", \"vous\" ou \"votre\") et {siteName} (\"nous\", \"notre\" ou \"nos\") régissant votre accès et votre utilisation de notre plateforme de génération d'images alimentée par l'IA, y compris notre site Web, nos applications mobiles, nos API et nos services connexes (collectivement, le \"Service\").",
+    "content2": "En accédant au service, en le parcourant ou en l'utilisant de quelque manière que ce soit, vous reconnaissez avoir lu, compris et accepté d'être lié par les présentes conditions et par notre politique de confidentialité. Si vous n'acceptez pas ces conditions, vous devez immédiatement cesser d'utiliser le service.",
+    "title": "Acceptation des conditions"
   },
   "contact": {
-    "title": "Informations de Contact",
-    "intro": "Si vous avez des questions, des préoccupations ou des commentaires concernant ces Conditions d'Utilisation, veuillez nous contacter à:",
-    "email": "E-mail"
+    "email": "Courriel",
+    "intro": "Si vous avez des questions, des préoccupations ou des commentaires concernant les présentes conditions d'utilisation, veuillez nous contacter à l'adresse suivante :",
+    "title": "Informations sur le contact"
+  },
+  "description": "Lisez les conditions de service de {siteName} pour l'utilisation de notre plateforme de génération d'images par l'IA. Elles couvrent les comptes d'utilisateurs, les règles d'utilisation, la propriété intellectuelle et les politiques de service.",
+  "disclaimer": {
+    "asIs": "En l'état : Le service est fourni \"en l'état\" et \"tel que disponible\" sans garantie d'aucune sorte, expresse ou implicite, y compris, mais sans s'y limiter, les garanties de qualité marchande, d'adéquation à un usage particulier ou d'absence de contrefaçon. Nous ne garantissons pas que le service sera ininterrompu, sans erreur ou sécurisé.",
+    "liability": "Limitation de responsabilité : Dans les limites autorisées par la loi, {siteName} et ses affiliés ne peuvent être tenus responsables des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs, y compris la perte de bénéfices, de données ou de clientèle, résultant de l'utilisation ou de l'impossibilité d'utiliser le service.",
+    "responsibility": "Responsabilité de l'utilisateur : Vous reconnaissez que le contenu généré par l'IA peut produire des résultats inattendus ou inexacts. Vous êtes seul responsable de l'examen, de la vérification et de la détermination du caractère approprié de tout contenu généré par le biais du service avant son utilisation, sa publication ou sa distribution.",
+    "title": "Clauses de non-responsabilité et limitations"
+  },
+  "intellectualProperty": {
+    "license": "Octroi de licence : En utilisant le Service, vous nous accordez une licence mondiale, non exclusive et libre de redevance pour utiliser, reproduire, modifier et afficher votre contenu généré uniquement dans le but de : (a) fournir et améliorer le service, (b) former et améliorer nos modèles d'IA (avec votre consentement), et (c) à des fins de marketing et de promotion avec votre autorisation explicite.",
+    "platformContent": "Propriété de la plate-forme : L'ensemble du contenu, des caractéristiques, des fonctionnalités, des logiciels, des dessins, des textes, des graphiques, des logos et des marques commerciales du Service sont la propriété de {siteName} ou de nos concédants de licence et sont protégés par les lois internationales sur la propriété intellectuelle. Vous ne pouvez pas copier, modifier, distribuer ou désosser toute partie du Service sans autorisation.",
+    "title": "Droits de propriété intellectuelle",
+    "userContent": "Contenu généré par l'utilisateur : Vous restez propriétaire des images et du contenu que vous générez en utilisant le service, sous réserve de la licence limitée ci-dessous. Cependant, vous êtes seul responsable de vous assurer que votre utilisation ne porte pas atteinte aux droits de tiers ou ne viole pas les lois en vigueur."
+  },
+  "keywords": "conditions de service, contrat d'utilisation, conditions de service, accord juridique, politique d'utilisation, propriété intellectuelle, accord de service",
+  "lastUpdated": "Dernière mise à jour",
+  "legalJurisdiction": {
+    "disputes": "Règlement des litiges : Tout litige découlant des présentes conditions ou du service, ou s'y rapportant, doit d'abord faire l'objet d'une tentative de résolution par le biais de négociations de bonne foi. En cas d'échec des négociations, les litiges seront résolus par un arbitrage contraignant ou par un procès devant les tribunaux de la juridiction applicable, conformément à la loi en vigueur.",
+    "law": "Droit applicable : Les présentes conditions sont régies et interprétées conformément aux lois de la juridiction dans laquelle {siteName} est enregistré, sans tenir compte des principes de conflit de lois.",
+    "title": "Droit applicable et règlement des litiges"
+  },
+  "privacy": {
+    "content": "Nous accordons une grande importance à la protection de votre vie privée. La collecte, l'utilisation et la protection de vos informations personnelles sont régies par notre politique de confidentialité, qui est intégrée aux présentes conditions par référence. Veuillez consulter notre politique de confidentialité pour comprendre nos pratiques.",
+    "title": "Vie privée et protection des données"
+  },
+  "serviceChanges": {
+    "dataRetention": "Effet de la résiliation : En cas de résiliation, votre droit d'utiliser le service cesse immédiatement. Nous pouvons supprimer les données de votre compte et le contenu généré, bien que certaines informations puissent être conservées si la loi l'exige ou à des fins commerciales légitimes.",
+    "modification": "Modifications : Nous nous réservons le droit de modifier, de suspendre ou d'interrompre tout aspect du service à tout moment, avec ou sans préavis. Nous pouvons également imposer des limites à certaines fonctionnalités ou restreindre l'accès à certaines parties du service. Nous ne sommes pas responsables des modifications ou des interruptions.",
+    "termination": "Résiliation par nous : Nous pouvons suspendre ou résilier votre compte et votre accès au service immédiatement, sans préavis, si vous enfreignez les présentes conditions, si vous vous livrez à des activités frauduleuses ou pour toute autre raison, à notre seule discrétion.",
+    "title": "Modifications et résiliation du service"
+  },
+  "serviceDescription": {
+    "intro": "{siteName} fournit des outils et des services créatifs alimentés par l'IA, notamment :",
+    "items": [
+      "Génération d'images par l'IA à partir d'invites textuelles à l'aide de modèles d'apprentissage automatique avancés",
+      "Fonctions d'édition d'images, d'amélioration et de transfert de style",
+      "Gestion de projet, organisation et stockage en nuage du contenu généré",
+      "API accès pour les développeurs et intégration dans l'entreprise",
+      "Fonctionnalités et outils premium supplémentaires mis à disposition de temps à autre"
+    ],
+    "title": "Aperçu des services"
+  },
+  "title": "Conditions d'utilisation | {siteName}",
+  "usageRules": {
+    "intro": "Vous acceptez de ne pas utiliser le service pour générer, télécharger, partager ou distribuer du contenu qui :",
+    "items": [
+      "enfreint les lois et règlements applicables ou les droits des tiers",
+      "contient du matériel illégal, nuisible, menaçant, abusif, harcelant, diffamatoire ou obscène",
+      "dépeint ou encourage la violence, la discrimination, la haine ou l'intolérance fondées sur des caractéristiques protégées",
+      "Contenu sexuellement explicite, pornographique ou inadapté à l'âge des personnes concernées.",
+      "enfreint les droits de propriété intellectuelle, y compris les droits d'auteur, les marques commerciales ou les brevets",
+      "constitue du spam, du phishing, des logiciels malveillants ou des tentatives de compromettre la sécurité de la plate-forme",
+      "usurpe l'identité d'une personne ou d'une entité ou présente de manière erronée votre affiliation",
+      "Implique le scraping automatisé, l'exploitation minière ou l'utilisation non autorisée qui enfreint nos lignes directrices.",
+      "exploite, nuit ou tente d'exploiter des mineurs de quelque manière que ce soit",
+      "Contient des informations fausses, trompeuses ou mensongères présentées comme des faits."
+    ],
+    "title": "Politique d'utilisation acceptable"
+  },
+  "userAccount": {
+    "registration": "Enregistrement : Pour accéder à certaines fonctionnalités, vous devez créer un compte en fournissant des informations exactes, complètes et à jour. Vous déclarez que toutes les informations que vous fournissez sont véridiques et que vous maintiendrez l'exactitude de ces informations.",
+    "security": "Sécurité du compte : Vous êtes seul responsable du maintien de la confidentialité des informations d'identification de votre compte et de toutes les activités qui se déroulent sous votre compte. Vous acceptez de nous informer immédiatement de tout accès non autorisé ou de toute atteinte à la sécurité.",
+    "title": "Comptes d'utilisateurs et enregistrement",
+    "transfer": "Transfert de compte : Votre compte vous est personnel et ne peut être transféré, vendu ou cédé à un tiers sans notre accord écrit préalable."
   }
 }

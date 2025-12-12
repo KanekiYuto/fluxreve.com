@@ -1,6 +1,6 @@
 {
   "buttons": {
-    "home": "ホームに戻る",
-    "dashboard": "ダッシュボードへ移動"
+    "dashboard": "ダッシュボードへ",
+    "home": "ホームへ戻る"
   }
 }

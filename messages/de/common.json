@@ -1,49 +1,49 @@
 {
-  "language": "Sprache",
-  "loading": "Wird geladen...",
-  "loginRequired": {
-    "title": "Anmeldung erforderlich",
-    "description": "Melden Sie sich an, um auf alle Funktionen zuzugreifen",
-    "buttonText": "Jetzt anmelden"
+  "discordBanner": {
+    "closeLabel": "Schließen Sie",
+    "description": "Erhalten Sie die neuesten Updates, exklusive Vergünstigungen und kostenlose Boni",
+    "joinButton": "Jetzt teilnehmen",
+    "title": "Werden Sie Mitglied unserer Discord Gemeinschaft"
   },
-  "seo": {
-    "title": "{siteName} - KI-Bildgenerator",
-    "description": "Erstellen Sie hochwertige professionelle Bilder in Sekunden mit KI-gestützter Bildgenerierung. Einfach, schnell und leistungsstark.",
-    "keywords": "KI-Bildgenerierung, KI-Kunst, Bildgenerator, KI-Tools, professionelle Bilder"
+  "language": "Sprache",
+  "loading": "Laden...",
+  "loginRequired": {
+    "buttonText": "Jetzt anmelden",
+    "description": "Anmelden, um auf alle Funktionen zuzugreifen",
+    "title": "Anmelden um fortzufahren"
   },
   "navigation": {
-    "home": "Startseite",
-    "ai-generator": "KI-Generator",
-    "nano-banana-pro": "Nano Banana Pro",
-    "nanoBananaProDesc": "Erweiterte Nano-Banana-Bildgenerierung",
-    "z-image": "Z-Image",
-    "zImageDesc": "Erweiterte KI-Bildgenerierung und -Bearbeitung",
-    "flux-2-pro": "Flux 2 Pro",
-    "flux2ProDesc": "Professionelle duale KI-Bildgenerierung",
-    "seedreamV45": "Seedream 4.5",
-    "seedreamV45Desc": "ByteDance 2K HD-Bildgenerierung",
-    "explore": "Kreative Community",
-    "dashboard": "Dashboard",
-    "tasks": "Verlauf",
-    "quota": "Kontingent",
-    "subscription": "Abonnement",
-    "pricing": "Preise",
-    "more": "Mehr",
-    "settings": "Einstellungen",
-    "help": "Hilfe",
-    "terms": "Nutzungsbedingungen",
-    "privacy": "Datenschutzrichtlinie",
-    "main": "Hauptmenü",
-    "user": "Benutzer",
+    "ai-generator": "AI-Generator",
+    "company": "Unternehmen",
     "content": "Inhalt",
+    "dashboard": "Dashboard",
+    "explore": "Kreative Gemeinschaft",
+    "flux-2-pro": "Flux 2 Pro",
+    "flux2ProDesc": "Professionelle Dual-Mode AI-Bilderzeugung",
+    "help": "Hilfe",
+    "home": "Startseite",
+    "main": "Hauptseite",
+    "models": "AI-Modelle",
+    "more": "Mehr",
+    "nano-banana-pro": "Nano Banana Pro",
+    "nanoBananaProDesc": "Erweiterte Nano Banana Bilderzeugung",
     "nav": "Navigation",
-    "models": "KI-Modelle",
-    "company": "Unternehmen"
+    "pricing": "Preisgestaltung",
+    "privacy": "Datenschutzbestimmungen",
+    "quota": "Kontingent",
+    "seedreamV45": "Seedream 4.5",
+    "seedreamV45Desc": "ByteDance 2K HD Bilderzeugung",
+    "settings": "Einstellungen",
+    "subscription": "Abonnement",
+    "tasks": "Geschichte",
+    "terms": "Bedingungen der Dienstleistung",
+    "user": "Benutzer",
+    "z-image": "Z-Image",
+    "zImageDesc": "Erweiterte AI-Bilderstellung und -bearbeitung"
   },
-  "discordBanner": {
-    "title": "Treten Sie unserer Discord-Community bei",
-    "description": "Erhalten Sie die neuesten Updates, exklusive Vorteile und kostenlose Boni",
-    "joinButton": "Jetzt Beitreten",
-    "closeLabel": "Schließen"
+  "seo": {
+    "description": "Erstellen Sie mit der KI-gestützten Bilderzeugung in Sekundenschnelle hochwertige professionelle Bilder. Einfache, schnelle und leistungsstarke Werkzeuge der künstlichen Intelligenz.",
+    "keywords": "AI-Bilderzeugung, AI-Kunst, Bilderzeuger, AI-Tools, professionelle Bilder",
+    "title": "{siteName} - AI Image Generation Tool"
   }
 }

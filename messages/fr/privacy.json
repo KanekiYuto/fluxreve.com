@@ -1,111 +1,111 @@
 {
-  "title": "Politique de confidentialité | {siteName}",
-  "description": "Découvrez comment {siteName} collecte, utilise et protège vos informations personnelles. Notre politique de confidentialité couvre la collecte de données, l'utilisation, le partage et vos droits.",
-  "keywords": "politique de confidentialité, protection des données, informations personnelles, confidentialité des utilisateurs, collecte de données, RGPD, droits de confidentialité",
-  "lastUpdated": "Dernière mise à jour",
-  "introduction": {
-    "title": "Introduction",
-    "content1": "{siteName} (\"nous,\" \"notre\" ou \"nos\") s'engage à protéger votre confidentialité et vos informations personnelles. Cette Politique de confidentialité décrit nos pratiques concernant la collecte, le stockage, l'utilisation et le partage de vos informations lorsque vous accédez à nos services de génération d'images alimentés par l'IA.",
-    "content2": "En utilisant nos services via le site web {siteName}, les applications mobiles ou les API, vous confirmez avoir lu, compris et accepté les pratiques décrites dans cette Politique de confidentialité. Cette politique vous informe également de vos droits de confidentialité et de la manière dont la loi vous protège."
-  },
-  "dataCollection": {
-    "title": "Informations que nous collectons",
-    "intro": "Nous pouvons collecter divers types d'informations pour fournir et améliorer nos services :",
-    "providedInfo": {
-      "title": "Informations que vous fournissez",
-      "items": [
-        "Informations de compte : adresse e-mail, nom d'utilisateur, mot de passe",
-        "Données de profil : nom d'affichage, avatar, biographie",
-        "Détails de paiement : informations de facturation, historique des transactions",
-        "Données de communication : commentaires, demandes d'assistance ou autres messages que vous nous adressez"
-      ]
-    },
-    "automaticInfo": {
-      "title": "Informations collectées automatiquement",
-      "items": [
-        "Données d'appareil : type d'appareil, système d'exploitation, version du navigateur, identifiants d'appareil uniques",
-        "Informations d'utilisation : fonctionnalités consultées, images générées, modèles d'interaction",
-        "Données de journal : adresse IP, heures d'accès, pages consultées, URL de référence",
-        "Cookies et technologies de suivi pour l'analyse et la fonctionnalité"
-      ]
-    },
-    "userContent": {
-      "title": "Contenu généré par l'utilisateur",
-      "description": "Contenu que vous créez en utilisant nos services, y compris les images générées par l'IA, les invites textuelles, les images téléchargées et les données de projet. Nous pouvons stocker temporairement ce contenu pour fournir nos services et pouvons l'utiliser pour améliorer nos modèles d'IA, sous réserve de votre consentement."
-    }
-  },
-  "dataUsage": {
-    "title": "Comment nous utilisons vos informations",
-    "intro": "Nous utilisons les informations collectées aux fins suivantes :",
-    "items": [
-      "Fournir, exploiter et maintenir nos services de génération d'images par IA",
-      "Traiter vos transactions et gérer votre compte",
-      "Améliorer nos services par l'analyse des données et l'identification des modèles d'utilisation",
-      "Entraîner et améliorer nos modèles d'IA pour offrir de meilleurs résultats",
-      "Envoyer des notifications de service, des mises à jour et des communications promotionnelles (avec votre consentement)",
-      "Détecter, prévenir et traiter les fraudes, les problèmes de sécurité ou les problèmes techniques",
-      "Respecter les obligations légales et appliquer nos conditions de service",
-      "Fournir un support client et répondre à vos questions"
-    ]
-  },
-  "dataSharing": {
-    "title": "Partage et divulgation des informations",
-    "intro": "Nous ne vendons pas vos informations personnelles. Nous pouvons partager vos informations uniquement dans les circonstances suivantes :",
-    "items": [
-      "Avec votre consentement explicite ou à votre direction",
-      "Avec des prestataires de services de confiance qui aident à exploiter notre plateforme (hébergement cloud, traitement des paiements, analyse)",
-      "Avec les fournisseurs de modèles d'IA pour traiter vos demandes de génération, selon des accords stricts de protection des données",
-      "Pour respecter les obligations légales, les ordonnances judiciaires ou les demandes gouvernementales valides",
-      "Pour protéger nos droits, nos biens, notre sécurité ou celle de nos utilisateurs et du public",
-      "En cas de fusion, d'acquisition ou de vente d'actifs, où les informations peuvent être transférées en tant qu'actif commercial"
-    ]
-  },
-  "dataStorage": {
-    "title": "Stockage et sécurité des données",
-    "location": "Lieu de stockage : Vos informations sont stockées sur des serveurs sécurisés situés dans diverses régions du monde pour assurer des performances et une fiabilité optimales du service. Nous utilisons des fournisseurs d'infrastructures cloud leaders de l'industrie.",
-    "duration": "Période de conservation : Nous conservons vos informations personnelles uniquement aussi longtemps que nécessaire pour répondre aux objectifs énoncés dans cette politique ou selon les exigences légales. Le contenu généré peut être conservé selon les paramètres de votre compte et le type d'abonnement.",
-    "security": "Mesures de sécurité : Nous mettons en œuvre des pratiques de sécurité conformes aux normes de l'industrie, notamment le chiffrement (en transit et au repos), les contrôles d'accès, les audits de sécurité réguliers et les mécanismes d'authentification sécurisés. Cependant, aucune méthode de transmission ou de stockage n'est 100 % sécurisée."
-  },
-  "cookies": {
-    "title": "Cookies et technologies de suivi",
-    "intro": "Nous utilisons des cookies et des technologies similaires pour améliorer votre expérience :",
-    "items": [
-      "Cookies essentiels : Requis pour la fonctionnalité de service de base et l'authentification",
-      "Cookies de préférence : Mémoriser vos paramètres et vos choix de personnalisation",
-      "Cookies d'analyse : Nous aider à comprendre les modèles d'utilisation et à améliorer nos services",
-      "Cookies de marketing : Fournir du contenu pertinent et mesurer l'efficacité des campagnes (avec votre consentement)"
-    ],
-    "note": "Vous pouvez contrôler les préférences des cookies via les paramètres de votre navigateur. Notez que la désactivation de certains cookies peut limiter la fonctionnalité de nos services."
-  },
-  "userRights": {
-    "title": "Vos droits de confidentialité",
-    "intro": "Selon votre localisation, vous pouvez avoir les droits suivants concernant vos informations personnelles :",
-    "items": [
-      "Accès : Demander une copie des informations personnelles que nous détenons à votre sujet",
-      "Rectification : Corriger les informations inexactes ou incomplètes",
-      "Suppression : Demander la suppression de vos données personnelles (\"droit à l'oubli\")",
-      "Restriction : Limiter la manière dont nous traitons vos informations",
-      "Portabilité : Recevoir vos données dans un format structuré et couramment utilisé",
-      "Objection : Vous opposer au traitement de vos informations à certaines fins",
-      "Retrait du consentement : Révoquer le consentement précédemment donné à tout moment",
-      "Exclusion : Vous désabonner des communications marketing"
-    ]
-  },
-  "thirdPartyLinks": {
-    "title": "Services et liens tiers",
-    "content": "Nos services peuvent contenir des liens vers des sites web tiers, des intégrations ou des services. Nous ne sommes pas responsables des pratiques de confidentialité ou du contenu de ces tiers. Nous vous encourageons à consulter leurs politiques de confidentialité avant de fournir vos informations personnelles."
-  },
   "childrenPrivacy": {
-    "title": "Confidentialité des enfants",
-    "content": "Nos services ne sont pas destinés aux personnes de moins de 13 ans (ou l'âge minimum équivalent dans votre juridiction). Nous ne collectons pas sciemment les informations personnelles des enfants. Si nous découvrons que nous avons collecté des données d'un enfant sans consentement approprié, nous prendrons les mesures nécessaires pour les supprimer rapidement."
-  },
-  "policyUpdates": {
-    "title": "Modifications de cette Politique de confidentialité",
-    "content": "Nous pouvons mettre à jour cette Politique de confidentialité périodiquement pour refléter les changements dans nos pratiques ou les exigences légales. Nous vous notifierons des modifications importantes en publiant la politique mise à jour sur cette page avec une date \"Dernière mise à jour\" révisée. Pour les modifications importantes, nous pouvons également vous envoyer une notification par e-mail ou une notification en évidence sur notre plateforme. Nous vous encourageons à consulter cette politique régulièrement."
+    "content": "Nos services ne s'adressent pas aux personnes âgées de moins de 13 ans (ou de l'âge minimum équivalent dans votre juridiction). Nous ne recueillons pas sciemment d'informations personnelles auprès d'enfants. Si nous apprenons que nous avons recueilli des données auprès d'un enfant sans son consentement, nous prendrons des mesures pour les supprimer rapidement.",
+    "title": "Vie privée des enfants"
   },
   "contact": {
-    "title": "Nous contacter",
-    "intro": "Si vous avez des questions, des préoccupations ou des demandes concernant cette Politique de confidentialité ou nos pratiques de données, veuillez nous contacter à :",
-    "email": "E-mail"
+    "email": "Courriel",
+    "intro": "Si vous avez des questions, des préoccupations ou des demandes concernant la présente politique de confidentialité ou nos pratiques en matière de données, veuillez nous contacter à l'adresse suivante",
+    "title": "Nous contacter"
+  },
+  "cookies": {
+    "intro": "Nous utilisons des cookies et des technologies similaires pour améliorer votre expérience :",
+    "items": [
+      "Cookies essentiels : Nécessaires à la fonctionnalité des services de base et à l'authentification",
+      "Cookies de préférence : Mémoriser vos paramètres et vos choix de personnalisation",
+      "Cookies analytiques : nous aident à comprendre les habitudes d'utilisation et à améliorer nos services",
+      "Cookies marketing : Fournir un contenu pertinent et mesurer l'efficacité des campagnes (avec votre consentement)."
+    ],
+    "note": "Vous pouvez contrôler les préférences en matière de cookies par le biais des paramètres de votre navigateur. Notez que la désactivation de certains cookies peut limiter la fonctionnalité de nos services.",
+    "title": "Cookies et technologies de suivi"
+  },
+  "dataCollection": {
+    "automaticInfo": {
+      "items": [
+        "Données relatives à l'appareil : type d'appareil, système d'exploitation, version du navigateur, identifiants uniques de l'appareil",
+        "Informations sur l'utilisation : fonctions consultées, images générées, modèles d'interaction",
+        "Données du journal : Adresse IP, temps d'accès, pages consultées, URL de référence",
+        "Cookies et technologies de suivi pour l'analyse et la fonctionnalité"
+      ],
+      "title": "Informations collectées automatiquement"
+    },
+    "intro": "Nous pouvons collecter différents types d'informations pour fournir et améliorer nos services :",
+    "providedInfo": {
+      "items": [
+        "Informations sur le compte : adresse électronique, nom d'utilisateur, mot de passe",
+        "Données du profil : nom d'affichage, avatar, biographie",
+        "Détails de paiement : informations de facturation, historique des transactions",
+        "Données de communication : commentaires, demandes d'assistance ou autres messages que vous nous envoyez"
+      ],
+      "title": "Informations que vous fournissez"
+    },
+    "title": "Informations collectées",
+    "userContent": {
+      "description": "Le contenu que vous créez en utilisant nos services, y compris les images générées par l'IA, les invites textuelles, les images téléchargées et les données de projet. Nous pouvons stocker temporairement ce contenu pour fournir nos services et l'utiliser pour améliorer nos modèles d'IA, sous réserve de votre consentement.",
+      "title": "Contenu généré par l'utilisateur"
+    }
+  },
+  "dataSharing": {
+    "intro": "Nous ne vendons pas vos informations personnelles. Nous pouvons partager vos informations uniquement dans les circonstances suivantes :",
+    "items": [
+      "Avec votre consentement explicite ou selon vos instructions",
+      "Avec des fournisseurs de services de confiance qui nous aident à exploiter notre plateforme (hébergement dans le nuage, traitement des paiements, analyse).",
+      "Avec des fournisseurs de modèles d'IA pour le traitement de vos demandes de génération, dans le cadre d'accords stricts de protection des données.",
+      "pour se conformer à des obligations légales, à des ordonnances judiciaires ou à des demandes gouvernementales valables",
+      "pour protéger nos droits, notre propriété, notre sécurité ou celle de nos utilisateurs et du public",
+      "dans le cadre d'une fusion, d'une acquisition ou d'une vente d'actifs, lorsque les informations peuvent être transférées en tant qu'actif commercial"
+    ],
+    "title": "Partage et divulgation d'informations"
+  },
+  "dataStorage": {
+    "duration": "Période de conservation : Nous ne conservons vos informations personnelles que pendant la durée nécessaire à la réalisation des objectifs décrits dans la présente politique ou conformément à la loi. Le contenu généré peut être conservé en fonction des paramètres de votre compte et de votre type d'abonnement.",
+    "location": "Lieu de stockage : Vos informations sont stockées sur des serveurs sécurisés situés dans différentes régions du monde afin de garantir une performance et une fiabilité optimales du service. Nous utilisons des fournisseurs d'infrastructure en nuage de premier plan.",
+    "security": "Mesures de sécurité : Nous mettons en œuvre des pratiques de sécurité conformes aux normes industrielles, notamment le cryptage (en transit et au repos), des contrôles d'accès, des audits de sécurité réguliers et des mécanismes d'authentification sécurisés. Toutefois, aucune méthode de transmission ou de stockage n'est sûre à 100 %.",
+    "title": "Stockage et sécurité des données"
+  },
+  "dataUsage": {
+    "intro": "Nous utilisons les informations collectées aux fins suivantes :",
+    "items": [
+      "Fournir, exploiter et maintenir nos services de génération d'images d'IA",
+      "Traitement de vos transactions et gestion de votre compte",
+      "Améliorer nos services grâce à l'analyse des données et à l'identification des schémas d'utilisation",
+      "Former et améliorer nos modèles d'IA pour obtenir de meilleurs résultats.",
+      "Envoi de notifications de service, de mises à jour et de communications promotionnelles (avec votre consentement)",
+      "Détecter, prévenir et traiter les fraudes, les questions de sécurité ou les problèmes techniques",
+      "Respecter les obligations légales et appliquer nos conditions de service",
+      "Fournir une assistance à la clientèle et répondre à vos demandes de renseignements"
+    ],
+    "title": "Comment nous utilisons vos informations"
+  },
+  "description": "Découvrez comment {siteName} recueille, utilise et protège vos informations personnelles. Notre politique de confidentialité couvre la collecte, l'utilisation et le partage des données, ainsi que vos droits.",
+  "introduction": {
+    "content1": "{siteName} (\"nous\", \"notre\" ou \"nos\") s'engage à protéger votre vie privée et à sauvegarder vos informations personnelles. La présente politique de confidentialité décrit nos pratiques en matière de collecte, de stockage, d'utilisation et de partage de vos informations lorsque vous accédez à nos services de génération d'images assistée par ordinateur.",
+    "content2": "En utilisant nos services par le biais du site web {siteName}, des applications mobiles ou des API, vous reconnaissez avoir lu, compris et accepté les pratiques décrites dans la présente Politique de confidentialité. Cette politique vous informe également de vos droits en matière de protection de la vie privée et de la manière dont la loi vous protège.",
+    "title": "Introduction"
+  },
+  "keywords": "politique de confidentialité, protection des données, informations personnelles, vie privée des utilisateurs, collecte de données, GDPR, droits à la vie privée",
+  "lastUpdated": "Dernière mise à jour",
+  "policyUpdates": {
+    "content": "Nous pouvons mettre à jour la présente politique de confidentialité périodiquement pour refléter les changements dans nos pratiques ou les exigences légales. Nous vous informerons des changements importants en publiant la politique mise à jour sur cette page avec une date de \"dernière mise à jour\" révisée. Pour les changements importants, nous pouvons également vous avertir par courrier électronique ou par une notification bien visible sur notre plateforme. Nous vous encourageons à consulter régulièrement cette politique.",
+    "title": "Modifications de la présente politique de confidentialité"
+  },
+  "thirdPartyLinks": {
+    "content": "Nos services peuvent contenir des liens vers des sites web, des intégrations ou des services de tiers. Nous ne sommes pas responsables des pratiques de confidentialité ou du contenu de ces tiers. Nous vous encourageons à consulter leurs politiques de confidentialité avant de fournir des informations personnelles.",
+    "title": "Services et liens de tiers"
+  },
+  "title": "Politique de confidentialité | {siteName}",
+  "userRights": {
+    "intro": "En fonction de votre lieu de résidence, vous pouvez bénéficier des droits suivants concernant vos informations personnelles :",
+    "items": [
+      "Accès à l'information : Demander une copie des informations personnelles que nous détenons à votre sujet",
+      "Rectification : Corriger les informations inexactes ou incomplètes",
+      "Suppression : Demander la suppression de vos données personnelles (\"droit à l'oubli\")",
+      "Restriction : Limiter la façon dont nous traitons vos informations",
+      "Portabilité : recevoir vos données dans un format structuré et couramment utilisé",
+      "Objection : S'opposer au traitement de vos données à certaines fins",
+      "Retirer le consentement : Révoquer à tout moment un consentement donné antérieurement",
+      "Opt-out : Se désinscrire des communications marketing"
+    ],
+    "title": "Vos droits en matière de protection de la vie privée"
   }
 }

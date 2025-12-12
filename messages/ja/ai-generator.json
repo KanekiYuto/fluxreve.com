@@ -1,214 +1,214 @@
 {
-  "seo": {
-    "title": "AI生成ツール",
-    "description": "強力なAI画像生成ツールで美しいAI生成画像を作成します。高速で、プロフェッショナル、そして使いやすい。"
-  },
-  "page": {
-    "title": "AI生成ツール",
-    "description": "強力なAIモデルで素晴らしいコンテンツを作成",
-    "loading": "読み込み中..."
-  },
-  "tabs": {
-    "textToImage": "テキストから画像",
-    "imageToImage": "画像から画像",
-    "more": "その他"
-  },
-  "examples": {
-    "title": "クイックスタート",
-    "description": "以下の例をクリックして作成を開始するか、左側のフォームでカスタマイズします",
-    "useExample": "この例を使用",
-    "goToExample": "例 {index} へ移動",
-    "clickToUse": "クリックしてこの例を使用",
-    "noExamples": "利用可能な例がありません"
-  },
-  "tags": {
-    "film-style": "映画スタイル",
-    "moody": "ムーディー",
-    "retro": "レトロ",
-    "currency": "通貨",
-    "portrait": "ポートレート",
-    "photorealistic": "写実的",
-    "art-gallery": "アートギャラリー",
-    "minimalist": "ミニマリスト",
-    "professional": "プロ仕様",
-    "education": "教育",
-    "math": "数学",
-    "text-render": "テキスト描画"
-  },
-  "results": {
-    "title": "生成結果",
-    "fileCount": "{count} ファイル",
-    "downloadCurrent": "現在の画像をダウンロード",
-    "downloadAll": "すべてダウンロード ({count})",
-    "generationTime": "生成時間",
-    "completedTime": "完了時刻",
-    "seconds": "{seconds}秒",
-    "prompt": "プロンプト"
-  },
-  "loading": {
-    "initializing": "初期化中",
-    "creating": "AI生成中",
-    "message": "素晴らしいコンテンツを生成しています。お待ちください..."
+  "comingSoon": {
+    "badge": "近日公開",
+    "defaultDescription": "私たちは、皆様に素晴らしい新機能をお届けできるよう努力しています。アップデートにご期待ください！",
+    "defaultTitle": "エキサイティングな機能の登場",
+    "feature1Desc": "最先端技術",
+    "feature1Title": "強力なAI",
+    "feature2Desc": "インテリジェント・オートメーション",
+    "feature2Title": "スマートな機能",
+    "feature3Desc": "光速の結果",
+    "feature3Title": "高速処理",
+    "moreTools": {
+      "description": "アップスケール、エンハンス、フォーマット変換、バッチ処理など、強力な画像ユーティリティを利用できます。",
+      "title": "その他の画像ツール"
+    },
+    "progressHint": "近日発売予定",
+    "progressLabel": "開発の進捗状況"
   },
   "credits": {
-    "quota": "クォータ",
-    "refresh": "クォータを更新"
+    "quota": "ノルマ",
+    "refresh": "リフレッシュ・クォータ"
+  },
+  "error": {
+    "credits": "クレジット",
+    "current": "現在",
+    "generationFailed": "世代が失敗",
+    "imageGenerationFailed": "画像生成に失敗",
+    "insufficientCredits": "単位不足",
+    "parameterError": "パラメーター・エラー",
+    "pleaseRecharge": "リチャージして再試行してください。",
+    "promptRequired": "プロンプトを入力してください",
+    "queryStatusFailed": "クエリー・ステータスが失敗",
+    "required": "必須",
+    "subscribe": "サブスクライブ",
+    "unableToQueryStatus": "タスクのステータスを照会できない"
+  },
+  "examples": {
+    "clickToUse": "この例を使用するにはクリックしてください。",
+    "description": "下の例をクリックして作成を開始するか、左のフォームに記入してカスタマイズしてください。",
+    "goToExample": "00023}の例へ",
+    "noExamples": "例なし",
+    "title": "クイックスタート",
+    "useExample": "この例を使う"
   },
   "form": {
-    "mode": {
-      "textToImage": "テキストから画像",
-      "imageToImage": "画像から画像"
-    },
-    "advancedSettings": "詳細設定",
-    "seed": "シード値",
-    "seedPlaceholder": "ランダムの場合は空白",
-    "steps": "ステップ数",
-    "selectPlaceholder": "選択してください",
-    "prompt": "プロンプト",
-    "promptPlaceholder": "生成したい画像を説明してください...",
-    "aspectRatio": "アスペクト比",
-    "aspectRatioPlaceholder": "アスペクト比を選択",
-    "aspectRatios": {
-      "1:1": "1:1 (正方形)",
-      "16:9": "16:9 (横長)",
-      "9:16": "9:16 (縦長)",
-      "4:3": "4:3 (標準)",
-      "3:4": "3:4 (縦長)",
-      "21:9": "21:9 (ウルトラワイド)"
-    },
-    "resolution": "解像度",
-    "resolutionPlaceholder": "解像度を選択",
-    "size": "サイズ",
-    "sizePlaceholder": "画像サイズを選択",
-    "outputFormat": "出力形式",
-    "outputFormatPlaceholder": "出力形式を選択",
-    "uploadImage": "画像をアップロード",
-    "addImageUrl": "画像URLを追加",
-    "imageUrlPlaceholder": "画像URLを入力",
     "add": "追加",
+    "addImageUrl": "画像URLの追加",
+    "addItem": "アイテムを追加",
+    "addLora": "00032}を追加",
+    "advancedSettings": "詳細設定",
+    "aspectRatio": "アスペクト比",
+    "aspectRatioPlaceholder": "アスペクト比の選択",
+    "aspectRatios": {
+      "16:9": "16:9（横長）",
+      "1:1": "1:1（正方形）",
+      "21:9": "21:9（ウルトラワイド）",
+      "3:4": "3:4（ポートレート）",
+      "4:3": "4:3（標準）",
+      "9:16": "9:16 (ポートレート)"
+    },
     "cancel": "キャンセル",
-    "uploadHint": "ヒント：ファイルをドラッグ＆ドロップまたはクリックしてアップロード",
-    "uploading": "アップロード中...",
-    "addItem": "項目を追加",
-    "privateMode": "プライベートモード",
-    "privateModeDesc": "オンにすると生成結果は自分だけに表示されます",
-    "privateModeSubscriptionRequired": "購読してプライベートモードを有効にする",
+    "clickAddLoraToStart": "00012}の設定を追加するには、上のボタンをクリックしてください。",
+    "configuration": "構成",
+    "imageUrlPlaceholder": "画像のURLを入力",
+    "loraConfig": "LoRA設定",
+    "loraConfigHint": "00005}設定をJSON形式で入力（モデル名、体重、その他のパラメータなど",
+    "mode": {
+      "imageToImage": "画像から画像へ",
+      "textToImage": "テキストから画像へ"
+    },
+    "noLoraConfigured": "00001}はまだ設定されていない",
+    "outputFormat": "出力フォーマット",
+    "outputFormatPlaceholder": "出力形式の選択",
+    "privateMode": "プライベート・ファッション",
+    "privateModeDesc": "結果はあなたにのみ表示されます。",
+    "privateModeSubscriptionRequired": "プライベートモードを有効にする",
+    "prompt": "プロンプト",
+    "promptPlaceholder": "生成したいイメージを記述する...",
+    "resolution": "決議",
+    "resolutionPlaceholder": "解像度を選択",
+    "seed": "シード",
+    "seedPlaceholder": "ランダムの場合は空白のまま",
+    "selectPlaceholder": "選択してください",
+    "size": "サイズ",
+    "sizePlaceholder": "画像サイズの選択",
     "status": {
       "loading": "読み込み中..."
     },
-    "configuration": "設定",
-    "addLora": "LoRAを追加",
-    "noLoraConfigured": "LoRAが設定されていません",
-    "clickAddLoraToStart": "上のボタンをクリックしてLoRA設定を追加",
-    "loraConfig": "LoRA設定",
-    "loraConfigHint": "JSON形式でLoRA設定を入力してください（モデル名、ウェイトなどのパラメータ）"
-  },
-  "error": {
-    "required": "必須",
-    "current": "現在",
-    "credits": "クレジット",
-    "parameterError": "パラメータエラー",
-    "promptRequired": "プロンプトを入力してください",
-    "insufficientCredits": "クレジット不足",
-    "pleaseRecharge": "チャージしてから再度お試しください",
-    "queryStatusFailed": "ステータス照会失敗",
-    "unableToQueryStatus": "タスクステータスを照会できません",
-    "generationFailed": "生成失敗",
-    "imageGenerationFailed": "画像生成に失敗しました",
-    "subscribe": "サブスクライブ"
+    "steps": "ステップ",
+    "uploadHint": "ヒント：ファイルをドラッグ＆ドロップするか、クリックしてアップロードすることができます。",
+    "uploadImage": "画像のアップロード",
+    "uploading": "アップロード..."
   },
   "generate": {
-    "generating": "生成中... {progress}%",
-    "generateImage": "画像を生成 (コスト {credits} クォータ)"
+    "generateImage": "画像の生成 (コスト {credits} クォータ)",
+    "generating": "生成中...{progress}%"
+  },
+  "loading": {
+    "creating": "AIの創造",
+    "initializing": "初期化",
+    "message": "あなたのために素晴らしいコンテンツを生成しています。"
+  },
+  "lora": {
+    "addLora": "00032}を追加",
+    "cancel": "キャンセル",
+    "clickAddLoraToStart": "Add LoRA」ボタンをクリックして設定を開始します。",
+    "clickToSelect": "左のLoRAカードをクリックして選択する",
+    "configuration": "構成",
+    "confirm": "確認",
+    "loading": "読み込み中...",
+    "loraConfig": "LoRA設定",
+    "loraConfigHint": "有効なJSON形式の設定を入力してください。",
+    "manage": "管理",
+    "modalSubtitle": "00013}ライブラリから選択し、パーソナライズされたスタイルのためにスケールをカスタマイズする",
+    "modalTitle": "00024}を選択モデル",
+    "noLoraAvailable": "00007}はありません",
+    "noLoraConfigured": "設定されていない{00034｝",
+    "noLoraHint": "00020}モデルを作成またはインポートしてください。",
+    "noSearchResults": "一致するLoRAが見つからない",
+    "noSelectedLoras": "00025}が選択されていない",
+    "scale": "階段",
+    "searchPlaceholder": "検索 LoRA名前、説明、またはトリガーワード...",
+    "selectLora": "00002}を選択する。",
+    "selectMore": "00033}を管理する",
+    "selectedCount": "{count}LoRA(s)を選択",
+    "selectedLoras": "厳選された"
   },
   "modelGroups": {
-    "nano": "Nano シリーズ",
-    "zImage": "Z-Image シリーズ",
-    "flux": "Flux シリーズ",
-    "seedream": "Seedream シリーズ"
+    "flux": "Fluxシリーズ",
+    "nano": "ナノシリーズ",
+    "seedream": "Seedream Series",
+    "zImage": "Z-Imageシリーズ"
   },
   "models": {
-    "nanoBananaPro": {
-      "description": "超高速生成、卓越したスピードで高品質なクリエイティブ出力に最適化",
+    "flux2Pro": {
+      "description": "プロ仕様の画像生成モデル、テキストから画像へ、画像から画像への高品質出力をサポート",
       "tags": {
-        "fast": "高速",
+        "highQuality": "高品質",
+        "professional": "プロフェッショナル",
+        "versatile": "多用途"
+      }
+    },
+    "nanoBananaPro": {
+      "description": "高品質なクリエイティブアウトプットのために最適化された、光速ジェネレーション。",
+      "tags": {
+        "fast": "ほとんど",
         "highQuality": "高品質",
         "latest": "最新"
       }
     },
-    "zImage": {
-      "description": "写真レベルのリアルなAI画像生成、正確な日英テキストレンダリング、サブ秒レベル生成",
+    "seedream": {
+      "description": "ByteDanceSeedream 4.5、大解像度出力による超高画質画像生成",
       "tags": {
-        "ultraFast": "サブ秒レベル",
-        "affordable": "写真レベル",
-        "quality": "テキスト"
+        "bytedance": "ByteDance",
+        "creative": "クリエイティブ",
+        "ultraHD": "ウルトラHD"
+      }
+    },
+    "zImage": {
+      "description": "フォトリアリスティックなAI画像生成、正確なバイリンガルテキストレンダリング、秒以下のスピード",
+      "tags": {
+        "affordable": "フォトリアリスティック",
+        "quality": "テキストレンダリング",
+        "ultraFast": "秒以下"
       }
     },
     "zImageLora": {
-      "description": "Z-Image Turbo LoRAバージョン、カスタムLoRAモデルでスタイライズされた作品を作成",
+      "description": "Z-Image Turbo LoRAバージョン、カスタムLoRAモデルをサポート、スタイル化された作品に対応",
       "tags": {
         "customizable": "カスタマイズ可能",
-        "stylized": "スタイライズ",
-        "lora": "LoRA対応"
-      }
-    },
-    "flux2Pro": {
-      "description": "プロ仕様の画像生成モデル、テキストから画像と画像から画像をサポート、高品質出力",
-      "tags": {
-        "professional": "プロ仕様",
-        "highQuality": "高品質",
-        "versatile": "多機能"
-      }
-    },
-    "seedream": {
-      "description": "ByteDance Seedream 4.5、超高品質の画像生成、大型解像度出力をサポート",
-      "tags": {
-        "bytedance": "ByteDance",
-        "ultraHD": "超高解像度",
-        "creative": "クリエイティブ"
+        "lora": "LoRAサポート",
+        "stylized": "スタイライズド"
       }
     }
   },
-  "lora": {
-    "scale": "スケール",
-    "addLora": "LoRA を追加",
+  "page": {
+    "description": "強力なAIモデルで素晴らしいコンテンツを作成",
     "loading": "読み込み中...",
-    "noLoraAvailable": "利用可能な LoRA がありません",
-    "noLoraHint": "まず LoRA モデルを作成またはインポートしてください",
-    "configuration": "設定",
-    "loraConfig": "LoRA 設定",
-    "loraConfigHint": "有効な JSON 形式の設定を入力してください",
-    "noLoraConfigured": "LoRA が設定されていません",
-    "clickAddLoraToStart": "\"LoRA を追加\" ボタンをクリックして設定を開始",
-    "modalTitle": "LoRA モデルを選択",
-    "modalSubtitle": "LoRA ライブラリから選択し、スケールをカスタマイズしてパーソナライズされたスタイルを実現",
-    "searchPlaceholder": "LoRA 名、説明、またはトリガーワードで検索...",
-    "selectedLoras": "選択済み",
-    "noSelectedLoras": "LoRA が選択されていません",
-    "clickToSelect": "左側の LoRA カードをクリックして選択",
-    "noSearchResults": "一致する LoRA が見つかりません",
-    "confirm": "確認",
-    "cancel": "キャンセル",
-    "selectLora": "LoRA を選択",
-    "selectMore": "LoRA を管理",
-    "selectedCount": "{count} 個の LoRA が選択されています",
-    "manage": "管理"
+    "title": "AIジェネレーター"
   },
-  "comingSoon": {
-    "badge": "近日公開",
-    "defaultTitle": "エキサイティングな機能が登場予定",
-    "defaultDescription": "素晴らしい新機能をお届けするため、私たちは懸命に取り組んでいます。更新をお楽しみに!",
-    "feature1Title": "強力なAI",
-    "feature1Desc": "最先端技術",
-    "feature2Title": "スマート機能",
-    "feature2Desc": "インテリジェント自動化",
-    "feature3Title": "高速処理",
-    "feature3Desc": "超高速な結果",
-    "progressLabel": "開発進捗",
-    "progressHint": "まもなく公開予定",
-    "moreTools": {
-      "title": "その他の画像ツール",
-      "description": "アップスケーリング、画質強化、フォーマット変換、バッチ処理などの強力な画像ユーティリティを探索"
-    }
+  "results": {
+    "completedTime": "完了時間",
+    "downloadAll": "すべてダウンロード ({count})",
+    "downloadCurrent": "ダウンロード",
+    "fileCount": "{count}ファイル",
+    "generationTime": "ジェネレーション・タイム",
+    "prompt": "プロンプト",
+    "seconds": "{seconds}s",
+    "title": "生成された結果"
+  },
+  "seo": {
+    "description": "パワフルなAI画像生成ツールで、魅力的なAI生成画像を作成しましょう。高速で、プロフェッショナルで、使いやすい。",
+    "title": "AIジェネレーター"
+  },
+  "tabs": {
+    "imageToImage": "画像から画像へ",
+    "more": "もっと見る",
+    "textToImage": "テキストから画像へ"
+  },
+  "tags": {
+    "art-gallery": "アートギャラリー",
+    "currency": "通貨",
+    "education": "教育",
+    "film-style": "映画スタイル",
+    "math": "数学",
+    "minimalist": "ミニマリスト",
+    "moody": "ムーディ",
+    "photorealistic": "フォトリアリスティック",
+    "portrait": "ポートレート",
+    "professional": "プロフェッショナル",
+    "retro": "レトロ",
+    "text-render": "テキストレンダリング"
   }
 }

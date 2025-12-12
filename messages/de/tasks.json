@@ -1,85 +1,85 @@
 {
-  "seo": {
-    "title": "Verlauf",
-    "description": "Zeigen Sie alle Ihre KI-Bildgenerierungsverlauf an und verwalten Sie ihn"
+  "card": {
+    "cancelDelete": "Abbrechen",
+    "confirmDelete": "Löschen",
+    "confirmDeleteMessage": "Sind Sie sicher, dass Sie diese Aufgabe löschen wollen? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "confirmDeleteTitle": "Aufgabe löschen",
+    "delete": "Löschen",
+    "deleting": "Löschen...",
+    "makePrivate": "Privat machen",
+    "makePublic": "Öffentlich machen",
+    "private": "Privat",
+    "public": "Öffentlich"
   },
-  "header": {
-    "title": "Verlauf",
-    "subtitle": "Zeigen Sie Ihren gesamten Generierungsverlauf an und verwalten Sie ihn"
+  "empty": {
+    "cta": "Erstellen beginnen",
+    "filteredSubtitle": "Versuchen Sie, die Filteroptionen zu ändern",
+    "filteredTitle": "Keine übereinstimmenden Aufgaben",
+    "subtitle": "Erstellen Sie Ihr erstes AI-Bild",
+    "title": "Noch keine Aufgaben"
   },
-  "loginPrompt": {
-    "title": "Anmelden, um den Verlauf anzuzeigen",
-    "description": "Melden Sie sich an, um Ihren gesamten KI-Bildgenerierungsverlauf anzuzeigen",
-    "cta": "Anmelden"
+  "errors": {
+    "fetchFailed": "Aufgaben können nicht abgeholt werden",
+    "retry": "Wiederholung"
   },
   "filter": {
     "all": "Alle",
+    "clearAll": "Klar",
     "completed": "Abgeschlossen",
-    "processing": "Wird verarbeitet",
-    "pending": "Ausstehend",
-    "failed": "Fehlgeschlagen",
-    "statusLabel": "Status",
-    "taskTypeLabel": "Typ",
-    "taskType": {
-      "all": "Alle",
-      "text-to-image": "Text zu Bild",
-      "image-to-image": "Bild zu Bild"
-    },
-    "modelLabel": "Modell",
+    "failed": "Gescheitert",
     "model": {
       "all": "Alle",
+      "flux-2-pro": "FLUX 2 Pro",
       "nano-banana-pro": "Nano Banana Pro",
       "z-image": "Z-Image",
-      "z-image-lora": "Z-Image LoRA",
-      "flux-2-pro": "FLUX 2 Pro"
+      "z-image-lora": "Z-Image LoRA"
     },
-    "privacyLabel": "Datenschutz",
+    "modelLabel": "Modell",
+    "nsfw": {
+      "nsfw": "NSFW",
+      "safe": "Sicher"
+    },
+    "nsfwLabel": "Inhalt",
+    "pending": "Anhängig",
     "privacy": {
       "private": "Privat",
       "public": "Öffentlich"
     },
-    "nsfwLabel": "Inhalt",
-    "nsfw": {
-      "safe": "Sicher",
-      "nsfw": "NSFW"
-    },
-    "selectPlaceholder": "Auswählen...",
+    "privacyLabel": "Datenschutz",
+    "processing": "Verarbeitung",
+    "selectPlaceholder": "Wählen Sie...",
     "selectedCount": "{count} ausgewählt",
-    "title": "Filter",
-    "clearAll": "Löschen"
+    "statusLabel": "Status",
+    "taskType": {
+      "all": "Alle",
+      "image-to-image": "Bild zu Bild",
+      "text-to-image": "Text zu Bild"
+    },
+    "taskTypeLabel": "Typ",
+    "title": "Filters"
+  },
+  "header": {
+    "subtitle": "Anzeigen und Verwalten Ihrer gesamten Generationshistorie",
+    "title": "Geschichte"
+  },
+  "loginPrompt": {
+    "cta": "Eintragen",
+    "description": "Melden Sie sich an, um den gesamten Verlauf Ihrer AI-Bilderzeugung anzuzeigen",
+    "title": "Einloggen, um Geschichte zu sehen"
+  },
+  "noPrompt": "Bei der Eingabeaufforderung",
+  "pagination": {
+    "next": "Weiter",
+    "prev": "Vorherige"
+  },
+  "seo": {
+    "description": "Anzeigen und Verwalten des gesamten Verlaufs Ihrer AI-Bilderzeugung",
+    "title": "Geschichte"
   },
   "status": {
     "completed": "Abgeschlossen",
-    "processing": "Wird verarbeitet",
-    "pending": "Ausstehend",
-    "failed": "Fehlgeschlagen"
-  },
-  "empty": {
-    "title": "Noch keine Aufgaben",
-    "subtitle": "Beginnen Sie mit der Erstellung Ihres ersten KI-Bildes",
-    "filteredTitle": "Keine passenden Aufgaben",
-    "filteredSubtitle": "Versuchen Sie, die Filteroptionen zu ändern",
-    "cta": "Beginnen Sie zu erstellen"
-  },
-  "noPrompt": "Keine Eingabeaufforderung",
-  "card": {
-    "delete": "Löschen",
-    "confirmDelete": "Löschen",
-    "confirmDeleteTitle": "Aufgabe löschen",
-    "confirmDeleteMessage": "Sind Sie sicher, dass Sie diese Aufgabe löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
-    "cancelDelete": "Abbrechen",
-    "deleting": "Wird gelöscht...",
-    "private": "Privat",
-    "public": "Öffentlich",
-    "makePrivate": "Privat machen",
-    "makePublic": "Öffentlich machen"
-  },
-  "errors": {
-    "fetchFailed": "Fehler beim Abrufen von Aufgaben",
-    "retry": "Erneut versuchen"
-  },
-  "pagination": {
-    "prev": "Zurück",
-    "next": "Weiter"
+    "failed": "Gescheitert",
+    "pending": "Anhängig",
+    "processing": "Verarbeitung"
   }
 }

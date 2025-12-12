@@ -1,191 +1,185 @@
 {
-  "seo": {
-    "title": "Seedream 4.5 - Générateur d'images IA de ByteDance | 2K HD",
-    "description": "Créez des images 2K HD avec Seedream 4.5. L'IA de ByteDance prend en charge la génération texte-image et image-image. 30 crédits par image."
+  "cta": {
+    "note": "Aucune carte de crédit n'est requise - Images 2K HD - Génération bimode",
+    "primary": "Essayez Seedream 4.5 Gratuit",
+    "secondary": "Voir les plans tarifaires",
+    "subtitle": "Rejoignez les nombreux professionnels qui utilisent Seedream 4.5 pour générer des images AI HD pour des projets de conception, de marketing et de création.",
+    "title": "Commencez à créer avec Seedream 4.5 AI Image Generator"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Seedream 4.5 est un générateur d'images AI avancé développé par ByteDance, offrant les deux modes texte-image et image-image. Contrairement aux autres générateurs d'images AI, Seedream 4.5 fournit une sortie 2K HD, de puissantes capacités d'édition d'images et des vitesses de génération rapides. Il excelle en termes de qualité d'image, de souplesse d'édition et de rentabilité.",
+        "question": "Qu'est-ce que Seedream 4.5 et en quoi diffère-t-il des autres générateurs d'images AI ?"
+      },
+      {
+        "answer": "Seedream 4.5 peut générer rapidement des images haute résolution de 2K (2048x2048). Que ce soit en mode texte-image ou image-image, la génération s'effectue en peu de temps, ce qui améliore considérablement l'efficacité de la création. Cette capacité de génération à grande vitesse fait du Seedream 4.5 un outil idéal pour le prototypage rapide et la création de contenu en grande quantité.",
+        "question": "Quelle est la rapidité de la génération d'images par l'IA de Seedream 4.5 ?"
+      },
+      {
+        "answer": "La sortie Seedream 4.5 prend en charge la sortie 2K HD (2048x2048 pixels). Les images présentent d'excellents détails, une reproduction fidèle des couleurs et une qualité professionnelle adaptée aux médias numériques, aux plateformes sociales et aux projets commerciaux. Cette résolution permet d'atteindre un équilibre parfait entre la qualité et la taille du fichier.",
+        "question": "Quelle est la résolution d'image prise en charge par Seedream 4.5 ?"
+      },
+      {
+        "answer": "L'utilisation de la fonction d'image à image de Seedream 4.5 est simple ! Il suffit de télécharger une image existante, puis d'entrer une description textuelle expliquant les modifications souhaitées. L'IA comprendra votre intention, conservera la pose et la structure de l'image originale tout en effectuant des modifications précises en fonction de votre description. Cette fonction est idéale pour l'optimisation d'images, le transfert de style et la transformation créative.",
+        "question": "Comment utiliser la fonction d'image à image de Seedream 4.5 ?"
+      },
+      {
+        "answer": "Seedream 4.5 consomme 30 crédits par génération, que ce soit en mode texte-image ou image-image. Il s'agit d'une solution rentable de génération d'images d'IA professionnelles, qui vous permet de créer à grande échelle sans vous soucier des coûts élevés.",
+        "question": "Quel est le coût de la génération d'images avec Seedream 4.5 ?"
+      },
+      {
+        "answer": "Absolument ! Seedream 4.5 est conçu pour les applications professionnelles et commerciales. Avec une résolution de 2K HD, des commandes d'édition puissantes, des capacités de génération bimode et des garanties de sécurité des données, Seedream 4.5 répond aux besoins des entreprises, des agences et des créateurs qui ont besoin de générer des images d'IA professionnelles.",
+        "question": "Est-ce que Seedream 4.5 peut être utilisé à des fins commerciales ?"
+      }
+    ],
+    "subtitle": "Questions courantes sur le générateur d'images Seedream 4.5 Générateur d'images AI",
+    "title": "Seedream 4.5 Foire aux questions"
+  },
+  "features": {
+    "items": {
+      "control": {
+        "description": "Obtenez une génération d'images précise et un contrôle de l'édition grâce à des descriptions en langage naturel, sans réglages complexes des paramètres pour obtenir des résultats idéaux.",
+        "title": "Contrôle précis de l'édition"
+      },
+      "efficient": {
+        "description": "Seulement 30 crédits par génération, ce qui constitue une solution rentable de génération d'images d'IA professionnelles, adaptée aux besoins créatifs à haut volume.",
+        "title": "Efficient Credit Usage"
+      },
+      "quality": {
+        "description": "Créez de superbes images de 2048 x 2048 pixels avec un niveau de détail et une précision des couleurs excellents, et une qualité professionnelle adaptée aux applications commerciales.",
+        "title": "2K HD Sortie"
+      },
+      "secure": {
+        "description": "Votre travail créatif est protégé par un cryptage et des politiques de confidentialité strictes. Seedream 4.5 ne partage jamais vos images générées par l'IA sans autorisation.",
+        "title": "Sécurité des données"
+      },
+      "speed": {
+        "description": "Générez rapidement des images de résolution 2K avec les modèles d'IA optimisés de Seedream 4.5 - un générateur d'images d'IA professionnel et efficace.",
+        "title": "Génération rapide 2K"
+      },
+      "variety": {
+        "description": "Prend en charge les modes texte-image et image-image. Créez à partir de zéro ou modifiez des images existantes - Seedream 4.5 répond à tous les besoins créatifs.",
+        "title": "Génération dual-mode"
+      }
+    },
+    "subtitle": "Capacités complètes de génération d'images par l'IA grâce à la technologie ByteDance.",
+    "title": "Seedream 4.5 Caractéristiques du générateur d'images AI"
   },
   "hero": {
-    
-    "title": {
-      "line1": "Seedream 4.5",
-      "line2": "Génération d'images IA ByteDance"
-    },
-    "subtitle": "Découvrez Seedream 4.5 de ByteDance - un puissant générateur d'images IA avec résolution 2K, édition d'images précise et détails exceptionnels. Générez des images de qualité professionnelle rapidement pour répondre à vos besoins créatifs.",
     "cta": {
-      "primary": "Essayer Seedream 4.5",
+      "primary": "Essayez Seedream 4.5",
       "secondary": "En savoir plus"
     },
     "stats": {
-      "speed": {
-        "value": "Rapide",
-        "label": "Génération d'images"
-      },
       "quality": {
-        "value": "2K HD",
-        "label": "Haute résolution"
+        "label": "Haute résolution",
+        "value": "2K HD"
+      },
+      "speed": {
+        "label": "Génération d'images",
+        "value": "Presque"
       },
       "users": {
-        "value": "Mode double",
-        "label": "Entrée texte et image"
-      }
-    }
-  },
-  "what": {
-    
-    "title": "Qu'est-ce que Seedream 4.5, le générateur d'images IA ?",
-    "description": "Seedream 4.5, développé par ByteDance, est un générateur d'images IA avancé qui combine des capacités texte-image et image-image puissantes. Cette plateforme de génération d'images IA professionnelle offre des images haute résolution 2K à grande vitesse et avec qualité, parfaite pour les designers, les spécialistes du marketing et les créateurs de contenu qui exigent des images générées par IA de qualité professionnelle.",
-    "demoPlaceholder": "Image générée par Seedream 4.5",
-    "coreFeatures": {
-      "core1": {
-        "title": "Génération d'images IA haute résolution 2K",
-        "description": "Seedream 4.5 génère rapidement des images haute définition 2K (2048x2048). Ce générateur d'images IA offre un détail exceptionnel, une précision des couleurs et une qualité d'image qui respectent les normes professionnelles pour le marketing numérique, les médias sociaux et les projets commerciaux."
-      },
-      "core2": {
-        "title": "Édition puissante image-image",
-        "description": "Contrairement aux générateurs d'images IA traditionnels, Seedream 4.5 offre des capacités révolutionnaires en édition image-image. Téléchargez des images existantes et effectuez des éditions précises via des descriptions textuelles - parfait pour l'optimisation d'images, le transfert de style et la transformation créative."
-      },
-      "core3": {
-        "title": "Génération flexible en mode double",
-        "description": "Supporte à la fois les modes texte-image et image-image, offrant une liberté créative complète. Créez de nouvelles images à partir de zéro ou transformez les existantes pour répondre à divers scénarios créatifs."
-      }
-    }
-  },
-  "why": {
-    
-    "title": "Pourquoi choisir Seedream 4.5, le générateur d'images IA",
-    "subtitle": "Seedream 4.5, alimenté par la technologie avancée de ByteDance, surpasse les méthodes traditionnelles de création d'images et les générateurs d'images IA concurrents avec une génération à grande vitesse, une sortie 2K et des capacités puissantes d'édition d'images.",
-    "comparison": {
-      "traditional": {
-        "title": "Création d'images traditionnelle",
-        "item1": "Heures requises pour la conception et l'édition d'images professionnelles",
-        "item2": "Licences de logiciels coûteux et compétences en conception professionnelle requises",
-        "item3": "Coûts élevés pour embaucher des designers ou acheter des outils de conception premium",
-        "item4": "Les cycles d'itération lents limitent l'expérimentation créative"
-      },
-      "product": {
-        "title": "Générateur IA Seedream 4.5",
-        "item1": "Générez rapidement des images 2K professionnelles avec l'IA",
-        "item2": "Aucune compétence en conception requise - décrivez vos idées en langage naturel",
-        "item3": "Plans d'abonnement rentables avec options de paiement flexibles",
-        "item4": "Itérations instantanées et expérimentation créative illimitée avec l'IA"
+        "label": "Texte \u0026 Image Input",
+        "value": "Mode double"
       }
     },
-    "benefits": {
-      "speed": {
-        "title": "Génération d'images IA à grande vitesse",
-        "description": "Le moteur de génération optimisé de Seedream 4.5 crée rapidement des images haute résolution 2K. Accélérez considérablement votre flux de travail créatif avec une génération d'images IA efficace, économisant un temps précieux."
-      },
-      "quality": {
-        "title": "Qualité d'image 2K professionnelle",
-        "description": "Découvrez une sortie haute définition 2K (2048x2048) avec un détail excellent, une reproduction des couleurs précise et une qualité d'image de niveau professionnel. Les images IA Seedream 4.5 respectent les normes des projets commerciaux, des médias numériques et des applications d'entreprise."
-      },
-      "cost": {
-        "title": "Génération d'images IA rentable",
-        "description": "Éliminez les licences de logiciels de conception coûteuses et les frais de designer. Seedream 4.5 offre des plans d'abonnement flexibles, rendant la génération d'images IA professionnelle accessible aux entreprises de toutes tailles, avec seulement 30 crédits par génération."
-      },
-      "flexibility": {
-        "title": "Liberté créative avec l'IA",
-        "description": "Expérimentez avec des itérations illimitées, plusieurs styles artistiques et des directions créatives variées. La génération en mode double de Seedream 4.5 s'adapte à vos besoins, permettant un prototypage rapide et une exploration créative sans entrave."
-      },
-      "support": {
-        "title": "Support technique professionnel",
-        "description": "Accédez au support technique, à la documentation complète et aux guides d'utilisation. Seedream 4.5 fournit le support professionnel dont votre entreprise a besoin pour les flux de travail de génération d'images IA."
-      },
-      "security": {
-        "title": "Sécurité des données et confidentialité",
-        "description": "Toute transmission et stockage de données Seedream 4.5 utilise la protection du chiffrement. Vos images générées par l'IA et vos travaux créatifs restent privés et sécurisés avec des politiques strictes de protection des données."
-      }
+    "subtitle": "Découvrez ByteDance's Seedream 4.5 - un puissant générateur d'images AI doté d'une résolution 2K, d'une retouche d'image précise et d'un niveau de détail exceptionnel. Générez rapidement des images de qualité professionnelle pour répondre à vos besoins créatifs.",
+    "title": {
+      "line1": "Seedream 4.5",
+      "line2": "ByteDance Génération d'images AI"
     }
   },
   "how": {
-    
-    "title": "Comment utiliser Seedream 4.5, le générateur d'images IA",
-    "subtitle": "Du concept à l'image 2K professionnelle générée par l'IA en étapes simples. Seedream 4.5 rend la génération d'images IA avancée intuitive et accessible.",
     "steps": {
       "step1": {
-        "title": "Choisir le mode de génération",
-        "description": "Sélectionnez le mode texte-image ou image-image selon vos besoins. Le mode texte-image crée à partir de zéro, tandis que le mode image-image édite et transforme les images existantes. Les deux modes offrent des capacités IA puissantes."
+        "description": "Sélectionnez le mode texte-image ou image-image en fonction de vos besoins. Le mode texte-image crée à partir de zéro, tandis que le mode image-image édite et transforme des images existantes. Les deux modes offrent de puissantes capacités d'IA.",
+        "title": "Choisir le mode de génération"
       },
       "step2": {
-        "title": "Entrez une description créative",
-        "description": "Entrez une description textuelle détaillée de l'image que vous souhaitez créer ou modifier. L'IA de Seedream 4.5 comprend les invites complexes. Incluez des détails spécifiques sur le style, la composition, l'éclairage, les couleurs et l'ambiance pour des résultats optimaux de génération d'images IA."
+        "description": "Saisissez une description détaillée de l'image que vous souhaitez créer ou modifier. L'IA de Seedream 4.5 comprend les messages complexes. Incluez des détails spécifiques sur le style, la composition, l'éclairage, les couleurs et l'ambiance pour obtenir des résultats optimaux en matière de génération d'images par l'IA.",
+        "title": "Saisir la description de la création"
       },
       "step3": {
-        "title": "L'IA génère des images HD",
-        "description": "Le modèle IA de Seedream 4.5 traite rapidement vos exigences et génère des images 2K haute fidélité. L'IA comprend votre intention et crée des images de qualité professionnelle qui répondent à vos attentes, assurant une qualité de sortie supérieure."
+        "description": "Le modèle d'IA de Seedream 4.5 traite rapidement vos exigences et génère des images 2K de haute fidélité. L'IA comprend votre intention et crée des images de qualité professionnelle qui répondent à vos attentes, garantissant ainsi une qualité de sortie supérieure.",
+        "title": "L'IA génère des images HD"
       },
       "step4": {
-        "title": "Aperçu, téléchargement et optimisation",
-        "description": "Prévisualisez votre image générée par l'IA instantanément. Satisfait du résultat ? Téléchargez immédiatement pour utilisation. Besoin d'ajustements ? Modifiez votre invite ou changez de mode et régénérez - itérez autant de fois que nécessaire avec les capacités de génération rapide de Seedream 4.5."
+        "description": "Prévisualisez instantanément votre image générée par l'IA. Satisfait du résultat ? Téléchargez-la immédiatement pour l'utiliser. Besoin d'ajustements ? Modifiez votre message ou changez de mode et régénérez - répétez autant de fois que nécessaire grâce aux capacités de génération rapide de Seedream 4.5.",
+        "title": "Prévisualisation, téléchargement et optimisation"
       }
-    }
+    },
+    "subtitle": "Du concept à l'image professionnelle 2K générée par l'IA en quelques étapes simples. Seedream 4.5 rend la génération d'images IA avancée intuitive et accessible.",
+    "title": "Comment utiliser Seedream 4.5 Générateur d'images AI"
   },
-  "features": {
-    
-    "title": "Fonctionnalités du générateur d'images IA Seedream 4.5",
-    "subtitle": "Capacités complètes de génération d'images IA alimentées par la technologie ByteDance",
-    "items": {
-      "speed": {
-        "title": "Génération 2K rapide",
-        "description": "Générez rapidement des images en résolution 2K avec les modèles IA optimisés de Seedream 4.5 - un générateur d'images IA professionnel efficace."
+  "seo": {
+    "description": "Créez des images 2K HD avec Seedream 4.5. L'IA de ByteDance prend en charge la génération de texte à image et d'image à image. 30 crédits par image.",
+    "title": "Seedream 4.5 - ByteDance Générateur d'images AI | 2K HD"
+  },
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Seedream 4.5 génère rapidement des images haute définition 2K (2048x2048). Ce générateur d'images AI offre un niveau de détail, une précision des couleurs et une qualité d'image exceptionnels qui répondent aux normes professionnelles pour le marketing numérique, les médias sociaux et les projets commerciaux.",
+        "title": "Génération d'images IA haute résolution 2K"
+      },
+      "core2": {
+        "description": "Contrairement aux générateurs d'images IA traditionnels, Seedream 4.5 offre des capacités révolutionnaires en matière d'édition d'image à image. Téléchargez des images existantes et effectuez des modifications précises à l'aide de descriptions textuelles - parfaites pour l'optimisation des images, le transfert de style et la transformation créative.",
+        "title": "Édition puissante d'image à image"
+      },
+      "core3": {
+        "description": "Prend en charge les modes texte-image et image-image, offrant ainsi une grande liberté de création. Créez de nouvelles images à partir de zéro ou transformez des images existantes pour répondre à divers scénarios créatifs.",
+        "title": "Génération flexible à deux modes"
+      }
+    },
+    "demoPlaceholder": "Seedream 4.5 Image générée",
+    "description": "Seedream 4.5, développé par ByteDance, est un générateur d'images d'IA avancé qui combine de puissantes capacités de conversion de texte en image et d'image en image. Cette plateforme professionnelle de génération d'images d'IA fournit des images haute résolution 2K avec une vitesse et une qualité élevées, ce qui est parfait pour les concepteurs, les spécialistes du marketing et les créateurs de contenu qui exigent des images générées par l'IA de qualité professionnelle.",
+    "title": "Qu'est-ce que Seedream 4.5 AI Image Generator ?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Éliminez les licences de logiciels de conception coûteuses et les honoraires des concepteurs. Seedream 4.5 propose des plans d'abonnement flexibles, rendant la génération d'images AI professionnelles accessible aux entreprises de toutes tailles, avec seulement 30 crédits par génération.",
+        "title": "Génération d'images d'IA rentables"
+      },
+      "flexibility": {
+        "description": "Expérimentez un nombre illimité d'itérations, de styles artistiques multiples et de directions créatives diverses. La génération bimode de Seedream 4.5 s'adapte à vos besoins, permettant un prototypage rapide et une exploration créative sans contrainte.",
+        "title": "La liberté de création avec l'IA"
       },
       "quality": {
-        "title": "Sortie 2K HD",
-        "description": "Créez de superbes images de 2048x2048 pixels avec un détail excellent, une précision des couleurs et une qualité de niveau professionnel convenant aux applications commerciales."
+        "description": "Bénéficiez d'une sortie haute définition 2K (2048x2048) avec d'excellents détails, une reproduction fidèle des couleurs et une qualité d'image de niveau professionnel. Seedream 4.5 Les images AI répondent aux normes des projets commerciaux, des médias numériques et des applications d'entreprise.",
+        "title": "Qualité d'image professionnelle 2K"
       },
-      "variety": {
-        "title": "Génération en mode double",
-        "description": "Supporte à la fois les modes texte-image et image-image. Créez à partir de zéro ou éditez des images existantes - Seedream 4.5 répond à tous les besoins créatifs."
+      "security": {
+        "description": "Toutes les données Seedream 4.5 transmises et stockées sont cryptées. Vos images générées par l'IA et votre travail créatif restent privés et sécurisés grâce à des politiques strictes de protection des données.",
+        "title": "Sécurité des données et protection de la vie privée"
       },
-      "control": {
-        "title": "Contrôle d'édition précis",
-        "description": "Obtenez un contrôle précis de la génération et de l'édition d'images via des descriptions en langage naturel, sans paramètres complexes pour obtenir des résultats idéaux."
+      "speed": {
+        "description": "Le moteur de génération optimisé de Seedream 4.5 crée rapidement des images haute résolution 2K. Accélérez considérablement votre flux de travail créatif grâce à une génération d'images AI efficace, et gagnez un temps précieux.",
+        "title": "Génération d'images IA à grande vitesse"
       },
-      "efficient": {
-        "title": "Utilisation efficace des crédits",
-        "description": "Seulement 30 crédits par génération, fournissant une solution rentable de génération d'images IA professionnelle, convenant aux besoins créatifs à haut volume."
-      },
-      "secure": {
-        "title": "Sécurité des données",
-        "description": "Vos travaux créatifs sont protégés par le chiffrement et des politiques de confidentialité strictes. Seedream 4.5 ne partage jamais vos images générées par l'IA sans permission."
+      "support": {
+        "description": "Accédez au support technique, à une documentation complète et à des guides d'utilisation. Seedream 4.5 fournit le soutien professionnel dont votre entreprise a besoin pour les flux de travail de génération d'images d'IA.",
+        "title": "Support technique professionnel"
       }
-    }
-  },
-  "faq": {
-    
-    "title": "Questions fréquemment posées sur Seedream 4.5",
-    "subtitle": "Questions courantes sur le générateur d'images IA Seedream 4.5",
-    "items": [
-      {
-        "question": "Qu'est-ce que Seedream 4.5 et en quoi diffère-t-il des autres générateurs d'images IA ?",
-        "answer": "Seedream 4.5 est un générateur d'images IA avancé développé par ByteDance, offrant des modes doubles texte-image et image-image. Contrairement aux autres générateurs d'images IA, Seedream 4.5 fournit une sortie 2K HD, des capacités d'édition d'images puissantes et des vitesses de génération rapides. Il excelle en qualité d'image, flexibilité d'édition et rentabilité."
+    },
+    "comparison": {
+      "product": {
+        "item1": "Générer rapidement des images professionnelles 2K grâce à l'IA",
+        "item2": "Aucune compétence en matière de conception n'est requise - décrivez vos idées en langage naturel",
+        "item3": "Des plans d'abonnement rentables avec des options de paiement flexibles",
+        "item4": "Itérations instantanées et expérimentation créative illimitée grâce à l'IA",
+        "title": "Seedream 4.5 Générateur d'IA"
       },
-      {
-        "question": "Quelle est la rapidité de la génération d'images IA de Seedream 4.5 ?",
-        "answer": "Seedream 4.5 peut générer rapidement des images haute résolution 2K (2048x2048). Qu'en mode texte-image ou image-image, la génération s'effectue en peu de temps, améliorant considérablement l'efficacité créative. Cette capacité de génération à grande vitesse rend Seedream 4.5 idéal pour le prototypage rapide et la création de contenu à haut volume."
-      },
-      {
-        "question": "Quelle résolution d'image Seedream 4.5 supporte-t-il ?",
-        "answer": "Seedream 4.5 supporte la sortie 2K HD (2048x2048 pixels). Les images offrent un détail excellent, une reproduction des couleurs précise et une qualité de niveau professionnel convenant aux médias numériques, aux plateformes sociales et aux projets commerciaux. Cette résolution atteint un équilibre parfait entre qualité et taille de fichier."
-      },
-      {
-        "question": "Comment utiliser la fonctionnalité image-image de Seedream 4.5 ?",
-        "answer": "L'utilisation de la fonctionnalité image-image de Seedream 4.5 est simple ! Il suffit de télécharger une image existante, puis d'entrer une description textuelle expliquant les modifications que vous souhaitez. L'IA comprendra votre intention, maintenant la pose et la structure de l'image originale tout en effectuant des éditions précises selon votre description. Parfait pour l'optimisation d'images, le transfert de style et la transformation créative."
-      },
-      {
-        "question": "Quel est le coût de la génération d'images avec Seedream 4.5 ?",
-        "answer": "Seedream 4.5 consomme 30 crédits par génération, que ce soit en mode texte-image ou image-image. Cela fournit une solution rentable de génération d'images IA professionnelle, vous permettant de créer largement sans vous préoccuper des coûts élevés."
-      },
-      {
-        "question": "Seedream 4.5 est-il adapté à un usage commercial ?",
-        "answer": "Absolument ! Seedream 4.5 est conçu pour les applications professionnelles et commerciales. Avec la résolution 2K HD, les contrôles d'édition puissants, les capacités de génération en mode double et les garanties de sécurité des données, Seedream 4.5 répond aux besoins des entreprises, des agences et des créateurs exigeant une génération d'images IA professionnelle."
+      "traditional": {
+        "item1": "Heures requises pour la conception et l'édition d'images professionnelles",
+        "item2": "Licences logicielles coûteuses et compétences professionnelles en matière de conception nécessaires",
+        "item3": "Coûts élevés liés à l'embauche de designers ou à l'achat d'outils de conception haut de gamme",
+        "item4": "La lenteur des cycles d'itération limite l'expérimentation créative",
+        "title": "Création d'images traditionnelles"
       }
-    ]
-  },
-  "cta": {
-    "title": "Commencez à créer avec Seedream 4.5",
-    "subtitle": "Rejoignez les nombreux professionnels utilisant Seedream 4.5 pour générer des images IA HD pour le design, le marketing et les projets créatifs.",
-    "primary": "Essayer Seedream 4.5 gratuitement",
-    "secondary": "Afficher les plans tarifaires",
-    "note": "Aucune carte de crédit requise • Images 2K HD • Génération en mode double"
+    },
+    "subtitle": "Seedream 4.5, qui s'appuie sur la technologie avancée de ByteDance, surpasse les méthodes traditionnelles de création d'images et les générateurs d'images IA concurrents grâce à la génération à grande vitesse, à la sortie en résolution 2K et à de puissantes capacités d'édition d'images.",
+    "title": "Pourquoi choisir Seedream 4.5 AI Image Generator"
   }
 }

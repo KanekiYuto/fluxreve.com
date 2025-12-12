@@ -1,52 +1,50 @@
 {
-  "notFound": {
-    "title": "Contenu Non Trouvé",
-    "description": "Ce contenu partagé a peut-être été supprimé par le créateur, mis en privé, le lien a peut-être expiré, ou vous avez peut-être accédé à une mauvaise adresse",
-    "createButton": "Créer une Œuvre IA",
-    "homeButton": "Retour à l'Accueil"
-  },
-  "nsfw": {
-    "warning": "Avertissement de Contenu Sensible",
-    "description": "Ce contenu peut contenir du matériel pour adultes ou sensible. La discrétion du spectateur est conseillée",
-    "reveal": "J'ai 18+, Afficher le Contenu",
-    "imageAlt": "Image Générée par IA"
-  },
-  "processing": {
-    "title": "Génération en cours...",
-    "description": "L'IA crée actuellement l'œuvre, cela prend généralement quelques minutes",
-    "tip": "Veuillez rafraîchir la page plus tard pour voir le résultat"
-  },
   "actions": {
-    "copyLink": "Copier le Lien de Partage",
+    "copyLink": "Copier Partager Lien",
+    "createSimilar": "Créer une image similaire",
+    "downloadAll": "Télécharger toutes les images",
+    "downloadCard": "Télécharger la carte de partage",
+    "downloadCurrent": "Télécharger l'image actuelle",
     "linkCopied": "Copié",
+    "moreActions": "Plus d'actions",
     "share": "Partager",
-    "shareToX": "Partager sur X",
-    "moreActions": "Plus d'Actions",
-    "downloadCurrent": "Télécharger l'Image Actuelle",
-    "downloadAll": "Télécharger Toutes les Images",
-    "downloadWithoutWatermark": "Télécharger sans Filigrane",
-    "downloadAllWithoutWatermark": "Tout Télécharger sans Filigrane",
-    "downloadCard": "Télécharger la Carte de Partage",
-    "createSimilar": "Créer une Image Similaire"
+    "shareToX": "Partager avec X"
   },
   "details": {
-    "prompt": "Requête",
-    "promptCopied": "Copié",
-    "copyPrompt": "Copier la Requête",
-    "aiModel": "Modèle IA",
-    "resolution": "Résolution",
-    "aspectRatio": "Rapport d'Aspect",
+    "aiModel": "Modèle d'IA",
+    "aspectRatio": "Rapport d'aspect",
+    "copyPrompt": "Invite à la copie",
+    "generationResults": "Résultats de la génération d'images par l'IA",
     "imageAlt": "Image",
-    "previousImage": "Image Précédente",
-    "nextImage": "Image Suivante",
-    "referenceImages": "Images d'Entrée",
-    "referenceImage": "Image d'Entrée",
-    "generationResults": "Résultats de Génération d'Images IA",
-    "imagePreview": "Aperçu HD d'Image Générée par IA",
-    "parametersInfo": "Paramètres de Génération et Informations de Modèle"
+    "imagePreview": "Aperçu de l'image HD générée par l'IA",
+    "nextImage": "Next Image",
+    "parametersInfo": "Paramètres de génération et informations sur le modèle",
+    "previousImage": "Image précédente",
+    "prompt": "Prompt",
+    "promptCopied": "Copié",
+    "referenceImage": "Image d'entrée",
+    "referenceImages": "Images d'entrée",
+    "resolution": "Résolution"
   },
   "metadata": {
-    "descriptionPrefix": "Image haute qualité générée avec le modèle IA {model}. Requête: ",
-    "ogDescriptionPrefix": "{model} Généré par IA | "
+    "descriptionPrefix": "Image de haute qualité générée par le modèle d'IA {model}. Invitation :",
+    "ogDescriptionPrefix": "{model} AI Generated |"
+  },
+  "notFound": {
+    "createButton": "Créer une œuvre d'art AI",
+    "description": "Ce contenu partagé peut avoir été supprimé par son créateur, mis en privé, le lien peut avoir expiré ou vous avez peut-être accédé à la mauvaise adresse.",
+    "homeButton": "Retour à l'accueil",
+    "title": "Contenu non trouvé"
+  },
+  "nsfw": {
+    "description": "Ce contenu peut contenir du matériel pour adultes ou sensible. Il est conseillé aux téléspectateurs de faire preuve de discernement.",
+    "imageAlt": "Image générée par l'IA",
+    "reveal": "J'ai plus de 18 ans, Voir le contenu",
+    "warning": "Avertissement sur le contenu sensible"
+  },
+  "processing": {
+    "description": "L'IA crée l'œuvre d'art actuelle, ce qui prend généralement quelques minutes.",
+    "tip": "Veuillez rafraîchir la page ultérieurement pour voir le résultat.",
+    "title": "Générer..."
   }
 }

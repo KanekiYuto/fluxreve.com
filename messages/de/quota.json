@@ -1,53 +1,53 @@
 {
-  "seo": {
-    "title": "Mein Kontingent",
-    "description": "Verwalten und überprüfen Sie Ihre verfügbare Kontingentnutzung und Ihren Verlauf"
+  "empty": {
+    "active": "Keine aktive Quote verfügbar",
+    "activeDesc": "Sie haben derzeit kein verfügbares Kontingent. Bitte erwerben Sie ein Kontingent, um den Dienst weiterhin nutzen zu können",
+    "expired": "Keine abgelaufene Quote",
+    "expiredDesc": "Sie haben keine abgelaufenen Quotensätze"
   },
-  "title": "Mein Kontingent",
-  "subtitle": "Verwalten und überprüfen Sie Ihr verfügbares Kontingent",
   "loginRequired": {
-    "title": "Anmeldung erforderlich, um das Kontingent anzuzeigen",
-    "description": "Melden Sie sich an, um Ihre Kontingentnutzung und Ihren Verlauf anzuzeigen"
+    "description": "Loggen Sie sich ein, um Ihren Kontingentverbrauch und -verlauf einzusehen",
+    "title": "Anmelden, um die Quote zu sehen"
   },
+  "quotaTypes": {
+    "daily_free": "Tägliches Freikontingent",
+    "monthly_basic": "Monatlich Basic",
+    "monthly_pro": "Monatlich Pro",
+    "quota_pack": "Quotenpaket",
+    "subscription_change_compensation": "Zeichnungsänderung Entschädigung",
+    "trial": "Versuch",
+    "yearly_basic": "Jährlich Basic",
+    "yearly_pro": "Jährlich Pro"
+  },
+  "seo": {
+    "description": "Verwalten und Anzeigen Ihrer verfügbaren Kontingentnutzung und -historie",
+    "title": "Meine Quote"
+  },
+  "stats": {
+    "consumed": "Verbraucht",
+    "remaining": "Verbleibende"
+  },
+  "status": {
+    "active": "Aktiv",
+    "depleted": "Abgereicherte"
+  },
+  "subtitle": "Verwalten und Anzeigen Ihrer verfügbaren Quote",
   "summary": {
-    "title": "Insgesamt verfügbar",
-    "credits": "Guthaben"
+    "credits": "Kredite",
+    "title": "Insgesamt verfügbar"
+  },
+  "table": {
+    "amount": "Betrag",
+    "available": "Verfügbar",
+    "consumed": "Verbraucht",
+    "expiresAt": "Expires At",
+    "issuedAt": "Ausgegeben am",
+    "noExpiry": "Niemals",
+    "type": "Typ"
   },
   "tabs": {
     "active": "Aktives Kontingent",
     "expired": "Abgelaufen"
   },
-  "table": {
-    "type": "Typ",
-    "amount": "Betrag",
-    "consumed": "Verbraucht",
-    "available": "Verfügbar",
-    "issuedAt": "Ausgestellt am",
-    "expiresAt": "Verfällt am",
-    "noExpiry": "Nie"
-  },
-  "quotaTypes": {
-    "daily_free": "Tägliches kostenloses Kontingent",
-    "trial": "Testversion",
-    "monthly_basic": "Monatlich Basis",
-    "monthly_pro": "Monatlich Pro",
-    "yearly_basic": "Jährlich Basis",
-    "yearly_pro": "Jährlich Pro",
-    "quota_pack": "Kontingentpaket",
-    "subscription_change_compensation": "Abonnementänderungskompensation"
-  },
-  "empty": {
-    "active": "Kein aktives Kontingent verfügbar",
-    "activeDesc": "Sie haben derzeit kein verfügbares Kontingent. Bitte kaufen Sie Kontingent, um den Service weiterhin nutzen zu können",
-    "expired": "Kein abgelaufenes Kontingent",
-    "expiredDesc": "Sie haben keine abgelaufenen Kontingenteinträge"
-  },
-  "status": {
-    "active": "Aktiv",
-    "depleted": "Aufgebraucht"
-  },
-  "stats": {
-    "consumed": "Verbraucht",
-    "remaining": "Verbleibend"
-  }
+  "title": "Meine Quote"
 }

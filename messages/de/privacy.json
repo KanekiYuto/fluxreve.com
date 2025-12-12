@@ -1,111 +1,111 @@
 {
-  "title": "Datenschutzrichtlinie | {siteName}",
-  "description": "Erfahren Sie, wie {siteName} Ihre persönlichen Informationen erfasst, nutzt und schützt. Unsere Datenschutzrichtlinie umfasst Datenerfassung, Verwendung, Weitergabe und Ihre Rechte.",
-  "keywords": "Datenschutzrichtlinie, Datenschutz, persönliche Informationen, Benutzerprivatsphäre, Datenerfassung, DSGVO, Datenschutzrechte",
-  "lastUpdated": "Zuletzt aktualisiert",
-  "introduction": {
-    "title": "Einleitung",
-    "content1": "{siteName} (\"wir,\" \"uns\" oder \"unser\") verpflichtet sich, Ihre Privatsphäre zu schützen und Ihre persönlichen Informationen zu safeguarden. Diese Datenschutzrichtlinie beschreibt unsere Praktiken in Bezug auf Erfassung, Speicherung, Nutzung und Weitergabe Ihrer Informationen, wenn Sie auf unsere KI-gestützten Bildgenerierungsdienste zugreifen.",
-    "content2": "Durch die Nutzung unserer Dienste über die {siteName}-Website, mobile Anwendungen oder APIs bestätigen Sie, dass Sie diese Datenschutzrichtlinie gelesen und verstanden haben und den darin beschriebenen Praktiken zustimmen. Diese Richtlinie informiert Sie auch über Ihre Datenschutzrechte und wie das Gesetz Sie schützt."
-  },
-  "dataCollection": {
-    "title": "Welche Informationen wir erfassen",
-    "intro": "Wir können verschiedene Arten von Informationen erfassen, um unsere Dienste bereitzustellen und zu verbessern:",
-    "providedInfo": {
-      "title": "Von Ihnen bereitgestellte Informationen",
-      "items": [
-        "Kontoinformationen: E-Mail-Adresse, Benutzername, Passwort",
-        "Profildaten: Anzeigename, Avatar, Biografie",
-        "Zahlungsdetails: Abrechnungsinformationen, Transaktionsverlauf",
-        "Kommunikationsdaten: Feedback, Supportanfragen oder andere Nachrichten, die Sie uns senden"
-      ]
-    },
-    "automaticInfo": {
-      "title": "Automatisch erfasste Informationen",
-      "items": [
-        "Gerätedaten: Gerätetyp, Betriebssystem, Browserversion, eindeutige Gerätebezeichner",
-        "Nutzungsinformationen: Aufgerufene Funktionen, generierte Bilder, Interaktionsmuster",
-        "Protokolldaten: IP-Adresse, Zugriffszeiten, angesehene Seiten, Referrer-URLs",
-        "Cookies und Tracking-Technologien für Analytik und Funktionalität"
-      ]
-    },
-    "userContent": {
-      "title": "Nutzergenierte Inhalte",
-      "description": "Inhalte, die Sie mit unseren Diensten erstellen, einschließlich KI-generierter Bilder, Textaufforderungen, hochgeladener Bilder und Projektdaten. Wir können diese Inhalte vorübergehend speichern, um unsere Dienste bereitzustellen, und sie zur Verbesserung unserer KI-Modelle nutzen, vorbehaltlich Ihrer Zustimmung."
-    }
-  },
-  "dataUsage": {
-    "title": "Wie wir Ihre Informationen nutzen",
-    "intro": "Wir verwenden die erfassten Informationen für die folgenden Zwecke:",
-    "items": [
-      "Bereitstellung, Betrieb und Wartung unserer KI-Bildgenerierungsdienste",
-      "Verarbeitung Ihrer Transaktionen und Verwaltung Ihres Kontos",
-      "Verbesserung unserer Dienste durch Datenanalyse und Identifikation von Nutzungsmustern",
-      "Schulung und Verbesserung unserer KI-Modelle für bessere Ergebnisse",
-      "Versand von Dienst-Benachrichtigungen, Updates und Werbemitteilungen (mit Ihrer Zustimmung)",
-      "Erkennung, Prävention und Behandlung von Betrug, Sicherheitsproblemen oder technischen Problemen",
-      "Einhaltung gesetzlicher Verpflichtungen und Durchsetzung unserer Servicebedingungen",
-      "Bereitstellung von Kundensupport und Antwort auf Ihre Anfragen"
-    ]
-  },
-  "dataSharing": {
-    "title": "Informationsteilung und Offenlegung",
-    "intro": "Wir verkaufen Ihre persönlichen Informationen nicht. Wir können Ihre Informationen nur in den folgenden Umständen weitergeben:",
-    "items": [
-      "Mit Ihrer ausdrücklichen Zustimmung oder auf Ihre Anweisung hin",
-      "Mit vertrauenswürdigen Dienstanbietern, die bei der Verwaltung unserer Plattform unterstützen (Cloud-Hosting, Zahlungsverarbeitung, Analytik)",
-      "Mit KI-Modellanbietern zur Verarbeitung Ihrer Generierungsanfragen, unter strikten Datenschutzvereinbarungen",
-      "Zur Einhaltung gesetzlicher Verpflichtungen, Gerichtsbeschlüsse oder rechtmäßiger behördlicher Anfragen",
-      "Zum Schutz unserer Rechte, Eigentum, Sicherheit oder der unserer Nutzer und der Öffentlichkeit",
-      "Im Zusammenhang mit einer Fusion, Übernahme oder dem Verkauf von Vermögenswerten, wobei Informationen als Geschäftsvermögen übertragen werden können"
-    ]
-  },
-  "dataStorage": {
-    "title": "Datenspeicherung und Sicherheit",
-    "location": "Speicherort: Ihre Informationen werden auf sicheren Servern in verschiedenen Regionen weltweit gespeichert, um optimale Leistung und Zuverlässigkeit der Dienste zu gewährleisten. Wir verwenden führende Cloud-Infrastrukturanbieter der Branche.",
-    "duration": "Aufbewahrungsfrist: Wir bewahren Ihre persönlichen Informationen nur so lange auf, wie es notwendig ist, um die in dieser Richtlinie beschriebenen Zwecke zu erfüllen, oder wie gesetzlich erforderlich. Generierte Inhalte können basierend auf Ihren Kontoeinstellungen und Ihrem Abonnementtyp aufbewahrt werden.",
-    "security": "Sicherheitsmaßnahmen: Wir implementieren branchenstandardisierte Sicherheitspraktiken, einschließlich Verschlüsselung (während der Übertragung und im Ruhezustand), Zugriffskontrolle, regelmäßige Sicherheitsaudits und sichere Authentifizierungsmechanismen. Es gibt jedoch keine Übertragungsart oder Speicherung, die zu 100% sicher ist."
-  },
-  "cookies": {
-    "title": "Cookies und Tracking-Technologien",
-    "intro": "Wir verwenden Cookies und ähnliche Technologien, um Ihr Erlebnis zu verbessern:",
-    "items": [
-      "Essenzielle Cookies: Erforderlich für grundlegende Dienstfunktionalität und Authentifizierung",
-      "Präferenz-Cookies: Merken Sie sich Ihre Einstellungen und Personalisierungsoptionen",
-      "Analyse-Cookies: Helfen uns, Nutzungsmuster zu verstehen und unsere Dienste zu verbessern",
-      "Marketing-Cookies: Liefern relevante Inhalte und messen die Kampagneneffektivität (mit Ihrer Zustimmung)"
-    ],
-    "note": "Sie können Cookie-Einstellungen über die Einstellungen Ihres Browsers steuern. Beachten Sie, dass das Deaktivieren bestimmter Cookies die Funktionalität unserer Dienste einschränken kann."
-  },
-  "userRights": {
-    "title": "Ihre Datenschutzrechte",
-    "intro": "Je nach Ihrem Standort haben Sie möglicherweise die folgenden Rechte bezüglich Ihrer persönlichen Informationen:",
-    "items": [
-      "Zugriff: Beantragen Sie eine Kopie der persönlichen Informationen, die wir über Sie haben",
-      "Berichtigung: Korrigieren Sie ungenaue oder unvollständige Informationen",
-      "Löschung: Beantragen Sie die Löschung Ihrer persönlichen Daten (\\\"Recht auf Vergessenheit\\\")",
-      "Einschränkung: Begrenzen Sie, wie wir Ihre Informationen verarbeiten",
-      "Portabilität: Erhalten Sie Ihre Daten in einem strukturierten, häufig verwendeten Format",
-      "Einspruch: Widersprechen Sie der Verarbeitung Ihrer Informationen zu bestimmten Zwecken",
-      "Zustimmung widerrufen: Rufen Sie zuvor erteilte Zustimmung jederzeit widerrufen",
-      "Abmelden: Melden Sie sich von Marketing-Mitteilungen ab"
-    ]
-  },
-  "thirdPartyLinks": {
-    "title": "Dienste und Links von Dritten",
-    "content": "Unsere Dienste können Links zu Websites von Drittanbietern, Integrationen oder Diensten enthalten. Wir sind nicht für die Datenschutzpraktiken oder Inhalte dieser Drittanbieter verantwortlich. Wir empfehlen Ihnen, deren Datenschutzrichtlinien zu überprüfen, bevor Sie persönliche Informationen bereitstellen."
-  },
   "childrenPrivacy": {
-    "title": "Datenschutz für Kinder",
-    "content": "Unsere Dienste sind nicht für Personen unter 13 Jahren (oder das entsprechende Mindestalter in Ihrer Gerichtsbarkeit) gedacht. Wir erfassen nicht wissentlich persönliche Informationen von Kindern. Sollten wir feststellen, dass wir Daten von einem Kind ohne angemessene Zustimmung gesammelt haben, werden wir Schritte unternehmen, um diese umgehend zu löschen."
-  },
-  "policyUpdates": {
-    "title": "Änderungen an dieser Datenschutzrichtlinie",
-    "content": "Wir können diese Datenschutzrichtlinie regelmäßig aktualisieren, um Änderungen in unseren Praktiken oder gesetzlichen Anforderungen widerzuspiegeln. Wir werden Sie über wesentliche Änderungen benachrichtigen, indem wir die aktualisierte Richtlinie auf dieser Seite mit einem überarbeiteten Datum \\\"Zuletzt aktualisiert\\\" veröffentlichen. Bei bedeutsamen Änderungen können wir Sie auch per E-Mail oder prominenter Benachrichtigung auf unserer Plattform benachrichtigen. Wir empfehlen Ihnen, diese Richtlinie regelmäßig zu überprüfen."
+    "content": "Unsere Dienste richten sich nicht an Personen unter 13 Jahren (oder dem entsprechenden Mindestalter in Ihrem Land). Wir sammeln nicht wissentlich personenbezogene Daten von Kindern. Wenn wir erfahren, dass wir Daten von einem Kind ohne ordnungsgemäße Zustimmung gesammelt haben, werden wir Maßnahmen ergreifen, um sie umgehend zu löschen.",
+    "title": "Datenschutz für Kinder"
   },
   "contact": {
-    "title": "Kontaktieren Sie uns",
-    "intro": "Wenn Sie Fragen, Bedenken oder Anfragen zu dieser Datenschutzrichtlinie oder unseren Datenpraktiken haben, kontaktieren Sie uns bitte unter:",
-    "email": "E-Mail"
+    "email": "E-Mail",
+    "intro": "Wenn Sie Fragen, Bedenken oder Wünsche bezüglich dieser Datenschutzrichtlinie oder unserer Datenpraktiken haben, wenden Sie sich bitte an uns:",
+    "title": "Kontakt"
+  },
+  "cookies": {
+    "intro": "Wir verwenden Cookies und ähnliche Technologien, um Ihr Erlebnis zu verbessern:",
+    "items": [
+      "Wesentliche Cookies: Erforderlich für grundlegende Servicefunktionen und Authentifizierung",
+      "Präferenz-Cookies: Speichern Ihre Einstellungen und Personalisierungsentscheidungen",
+      "Analytische Cookies: Helfen uns, Nutzungsmuster zu verstehen und unsere Dienste zu verbessern",
+      "Marketing-Cookies: Bereitstellung relevanter Inhalte und Messung der Wirksamkeit von Kampagnen (mit Ihrer Zustimmung)"
+    ],
+    "note": "Sie können die Cookie-Präferenzen über Ihre Browser-Einstellungen steuern. Beachten Sie, dass die Deaktivierung bestimmter Cookies die Funktionalität unserer Dienste einschränken kann.",
+    "title": "Cookies und Tracking-Technologien"
+  },
+  "dataCollection": {
+    "automaticInfo": {
+      "items": [
+        "Gerätedaten: Gerätetyp, Betriebssystem, Browserversion, eindeutige Gerätekennungen",
+        "Nutzungsinformationen: aufgerufene Funktionen, erzeugte Bilder, Interaktionsmuster",
+        "Protokolldaten: IP-Adresse, Zugriffszeiten, aufgerufene Seiten, verweisende URLs",
+        "Cookies und Tracking-Technologien für Analyse und Funktionalität"
+      ],
+      "title": "Automatisch gesammelte Informationen"
+    },
+    "intro": "Wir können verschiedene Arten von Informationen sammeln, um unsere Dienste bereitzustellen und zu verbessern:",
+    "providedInfo": {
+      "items": [
+        "Kontoinformationen: E-Mail-Adresse, Benutzername, Passwort",
+        "Profildaten: Anzeigename, Avatar, Lebenslauf",
+        "Zahlungsdetails: Rechnungsinformationen, Transaktionsverlauf",
+        "Kommunikationsdaten: Feedback, Supportanfragen oder andere Nachrichten, die Sie an uns senden"
+      ],
+      "title": "Informationen, die Sie bereitstellen"
+    },
+    "title": "Gesammelte Informationen",
+    "userContent": {
+      "description": "Inhalte, die Sie mit unseren Diensten erstellen, einschließlich KI-generierter Bilder, Textaufforderungen, hochgeladener Bilder und Projektdaten. Wir können diese Inhalte vorübergehend speichern, um unsere Dienste bereitzustellen, und können sie zur Verbesserung unserer KI-Modelle verwenden, sofern Sie dem zustimmen.",
+      "title": "Benutzergenerierte Inhalte"
+    }
+  },
+  "dataSharing": {
+    "intro": "Wir verkaufen Ihre persönlichen Daten nicht. Wir können Ihre Informationen nur unter den folgenden Umständen weitergeben:",
+    "items": [
+      "Mit Ihrer ausdrücklichen Zustimmung oder auf Ihre Anweisung",
+      "mit vertrauenswürdigen Dienstleistern, die uns beim Betrieb unserer Plattform unterstützen (Cloud-Hosting, Zahlungsabwicklung, Analysen)",
+      "mit Anbietern von KI-Modellen für die Bearbeitung Ihrer Generierungsanfragen, unter strengen Datenschutzvereinbarungen",
+      "Zur Erfüllung gesetzlicher Verpflichtungen, gerichtlicher Anordnungen oder behördlicher Anfragen",
+      "Zum Schutz unserer Rechte, unseres Eigentums, unserer Sicherheit oder der Sicherheit unserer Nutzer und der Öffentlichkeit",
+      "Im Zusammenhang mit einer Fusion, einer Übernahme oder einem Verkauf von Vermögenswerten, wenn Informationen als Geschäftswert übertragen werden können"
+    ],
+    "title": "Informationsaustausch und Offenlegung"
+  },
+  "dataStorage": {
+    "duration": "Aufbewahrungsfrist: Wir bewahren Ihre personenbezogenen Daten nur so lange auf, wie es für die Erfüllung der in dieser Richtlinie genannten Zwecke erforderlich ist oder wie es das Gesetz verlangt. Erstellte Inhalte können je nach Ihren Kontoeinstellungen und Ihrem Abonnementtyp aufbewahrt werden.",
+    "location": "Speicherort: Ihre Daten werden auf sicheren Servern gespeichert, die sich in verschiedenen Regionen der Welt befinden, um eine optimale Leistung und Zuverlässigkeit des Dienstes zu gewährleisten. Wir verwenden branchenführende Cloud-Infrastruktur-Anbieter.",
+    "security": "Sicherheitsmaßnahmen: Wir setzen branchenübliche Sicherheitspraktiken ein, darunter Verschlüsselung (bei der Übertragung und im Ruhezustand), Zugangskontrollen, regelmäßige Sicherheitsprüfungen und sichere Authentifizierungsmechanismen. Allerdings ist keine Methode der Übertragung oder Speicherung zu 100 % sicher.",
+    "title": "Datenspeicherung und Sicherheit"
+  },
+  "dataUsage": {
+    "intro": "Wir verwenden die gesammelten Informationen für die folgenden Zwecke:",
+    "items": [
+      "Bereitstellung, Betrieb und Wartung unserer KI-Bilderzeugungsdienste",
+      "Bearbeitung Ihrer Transaktionen und Verwaltung Ihres Kontos",
+      "Verbesserung unserer Dienstleistungen durch Datenanalyse und Identifizierung von Nutzungsmustern",
+      "Schulung und Verbesserung unserer KI-Modelle, um bessere Ergebnisse zu erzielen",
+      "Versand von Service-Benachrichtigungen, Aktualisierungen und Werbemitteilungen (mit Ihrer Zustimmung)",
+      "Aufdeckung, Verhinderung und Behebung von Betrug, Sicherheitsfragen oder technischen Problemen",
+      "Einhaltung rechtlicher Verpflichtungen und Durchsetzung unserer Nutzungsbedingungen",
+      "Kundenbetreuung und Beantwortung Ihrer Anfragen"
+    ],
+    "title": "Wie wir Ihre Informationen verwenden"
+  },
+  "description": "Erfahren Sie, wie {siteName} Ihre persönlichen Daten sammelt, verwendet und schützt. Unsere Datenschutzrichtlinie behandelt die Erfassung, Verwendung und Weitergabe von Daten sowie Ihre Rechte.",
+  "introduction": {
+    "content1": "{siteName} (\"wir\", \"uns\" oder \"unser\") verpflichtet sich, Ihre Privatsphäre zu schützen und Ihre persönlichen Daten zu sichern. Diese Datenschutzrichtlinie beschreibt unsere Praktiken in Bezug auf die Erhebung, Speicherung, Verwendung und Weitergabe Ihrer Daten, wenn Sie auf unsere KI-gestützten Bilderzeugungsdienste zugreifen.",
+    "content2": "Indem Sie unsere Dienste über die {siteName} Website, mobile Anwendungen oder APIs nutzen, bestätigen Sie, dass Sie die in dieser Datenschutzrichtlinie beschriebenen Praktiken gelesen und verstanden haben und ihnen zustimmen. Diese Richtlinie informiert Sie auch über Ihre Datenschutzrechte und wie das Gesetz Sie schützt.",
+    "title": "Einführung"
+  },
+  "keywords": "Datenschutz, Datenschutz, persönliche Informationen, Nutzerdaten, Datenerfassung, GDPR, Datenschutzrechte",
+  "lastUpdated": "Zuletzt aktualisiert",
+  "policyUpdates": {
+    "content": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren, um Änderungen unserer Praktiken oder der gesetzlichen Bestimmungen zu berücksichtigen. Wir werden Sie über wesentliche Änderungen benachrichtigen, indem wir die aktualisierte Richtlinie auf dieser Seite mit einem überarbeiteten \"Zuletzt aktualisiert\"-Datum veröffentlichen. Bei wesentlichen Änderungen können wir Sie auch per E-Mail oder durch einen auffälligen Hinweis auf unserer Plattform informieren. Wir empfehlen Ihnen, diese Richtlinie regelmäßig zu überprüfen.",
+    "title": "Änderungen an dieser Datenschutzrichtlinie"
+  },
+  "thirdPartyLinks": {
+    "content": "Unsere Dienste können Links zu Websites, Integrationen oder Diensten Dritter enthalten. Wir sind nicht verantwortlich für die Datenschutzpraktiken oder Inhalte dieser Dritten. Wir empfehlen Ihnen, deren Datenschutzrichtlinien zu lesen, bevor Sie persönliche Daten angeben.",
+    "title": "Dienste und Links von Drittanbietern"
+  },
+  "title": "Datenschutzrichtlinie | {siteName}",
+  "userRights": {
+    "intro": "Je nach Ihrem Wohnort haben Sie möglicherweise die folgenden Rechte in Bezug auf Ihre persönlichen Daten:",
+    "items": [
+      "Zugang: Beantragen Sie eine Kopie der persönlichen Daten, die wir über Sie gespeichert haben",
+      "Richtigstellung: Berichtigen Sie ungenaue oder unvollständige Informationen",
+      "Löschung: Verlangen Sie die Löschung Ihrer personenbezogenen Daten (\"Recht auf Vergessenwerden\")",
+      "Einschränkung: Einschränkung der Verarbeitung Ihrer Daten",
+      "Übertragbarkeit: Erhalten Sie Ihre Daten in einem strukturierten, allgemein verwendeten Format",
+      "Einspruch: Widerspruch gegen die Verarbeitung Ihrer Daten für bestimmte Zwecke",
+      "Zustimmung zurückziehen: Sie können eine bereits erteilte Einwilligung jederzeit widerrufen.",
+      "Abmelden: Marketing-Mitteilungen abbestellen"
+    ],
+    "title": "Ihre Datenschutzrechte"
   }
 }

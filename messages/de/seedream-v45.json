@@ -1,191 +1,185 @@
 {
-  "seo": {
-    "title": "Seedream 4.5 - ByteDance KI-Bildgenerator | 2K HD",
-    "description": "Erstellen Sie 2K HD-Bilder mit Seedream 4.5. ByteDance KI unterstützt Text-zu-Bild und Bild-zu-Bild-Generierung. 30 Credits pro Bild."
+  "cta": {
+    "note": "Keine Kreditkarte erforderlich - 2K HD Bilder - Dual-Mode-Generation",
+    "primary": "Versuchen Sie Seedream 4.5 Kostenlos",
+    "secondary": "Preispläne anzeigen",
+    "subtitle": "Schließen Sie sich den zahlreichen Fachleuten an, die Seedream 4.5 verwenden, um HD AI-Bilder für Design-, Marketing- und Kreativprojekte zu erstellen.",
+    "title": "Beginnen Sie Ihre Arbeit mit Seedream 4.5 AI Image Generator"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Seedream 4.5 ist ein fortschrittlicher AI-Bildgenerator, der von ByteDance entwickelt wurde und zwei Modi bietet: Text-zu-Bild und Bild-zu-Bild. Im Gegensatz zu anderen AI-Bildgeneratoren bietet Seedream 4.5 eine 2K HD-Ausgabe, leistungsstarke Bildbearbeitungsfunktionen und schnelle Generierungsgeschwindigkeiten. Er zeichnet sich durch eine hohe Bildqualität, Bearbeitungsflexibilität und Kosteneffizienz aus.",
+        "question": "Was ist Seedream 4.5 und wie unterscheidet er sich von anderen AI-Bildgeneratoren?"
+      },
+      {
+        "answer": "Seedream 4.5 kann schnell hochauflösende 2K-Bilder (2048x2048) erzeugen. Ob im Text-zu-Bild- oder Bild-zu-Bild-Modus, die Generierung ist in kürzester Zeit abgeschlossen, was die kreative Effizienz erheblich verbessert. Dank dieser Hochgeschwindigkeitsgenerierung ist der Seedream 4.5 ideal für Rapid Prototyping und die Erstellung von Inhalten in großen Mengen.",
+        "question": "Wie schnell ist die KI-Bilderzeugung von Seedream 4.5?"
+      },
+      {
+        "answer": "Seedream 4.5 unterstützt 2K HD (2048x2048 Pixel) Ausgabe. Die Bilder zeichnen sich durch hervorragende Detailtreue, akkurate Farbwiedergabe und professionelle Qualität aus, die sich für digitale Medien, soziale Plattformen und kommerzielle Projekte eignet. Mit dieser Auflösung wird ein perfektes Gleichgewicht zwischen Qualität und Dateigröße erreicht.",
+        "question": "Welche Bildauflösung wird von Seedream 4.5 unterstützt?"
+      },
+      {
+        "answer": "Die Verwendung der Bild-zu-Bild-Funktion von Seedream 4.5 ist ganz einfach! Laden Sie einfach ein vorhandenes Bild hoch und geben Sie dann eine Textbeschreibung ein, in der Sie die gewünschten Änderungen erläutern. Die KI versteht Ihre Absicht und behält die Pose und Struktur des Originalbildes bei, während sie gleichzeitig präzise Bearbeitungen gemäß Ihrer Beschreibung vornimmt. Diese Funktion eignet sich perfekt für die Bildoptimierung, den Stiltransfer und die kreative Umgestaltung.",
+        "question": "Wie verwende ich die Bild-zu-Bild-Funktion von Seedream 4.5?"
+      },
+      {
+        "answer": "Seedream 4.5 verbraucht 30 Credits pro Generierung, egal ob im Text-zu-Bild- oder Bild-zu-Bild-Modus. Dies ist eine kostengünstige Lösung für die professionelle KI-Bilderzeugung, die es Ihnen ermöglicht, in großem Umfang zu erstellen, ohne sich um hohe Kosten sorgen zu müssen.",
+        "question": "Wie hoch sind die Kosten für die Erstellung von Bildern mit Seedream 4.5?"
+      },
+      {
+        "answer": "Unbedingt! Seedream 4.5 ist für professionelle und kommerzielle Anwendungen konzipiert. Mit 2K HD Auflösung, leistungsstarken Bearbeitungsfunktionen, Dual-Mode-Generierung und garantierter Datensicherheit erfüllt Seedream 4.5 die Anforderungen von Unternehmen, Agenturen und Kreativen, die eine professionelle AI-Bilderstellung benötigen.",
+        "question": "Ist Seedream 4.5 für die kommerzielle Nutzung geeignet?"
+      }
+    ],
+    "subtitle": "Allgemeine Fragen zu Seedream 4.5 AI-Bildgenerator",
+    "title": "Seedream 4.5 Häufig gestellte Fragen"
+  },
+  "features": {
+    "items": {
+      "control": {
+        "description": "Erzielen Sie präzise Bilderzeugung und Bearbeitungssteuerung durch Beschreibungen in natürlicher Sprache, ohne komplexe Parametereinstellungen, um optimale Ergebnisse zu erzielen.",
+        "title": "Präzise Steuerung der Bearbeitung"
+      },
+      "efficient": {
+        "description": "Nur 30 Credits pro Generierung, eine kosteneffektive, professionelle Lösung zur Generierung von KI-Bildern, geeignet für große Mengen an kreativen Anforderungen.",
+        "title": "Efficient Credit Usage"
+      },
+      "quality": {
+        "description": "Erstellen Sie beeindruckende Bilder mit einer Auflösung von 2048 x 2048 Pixeln mit hervorragender Detail- und Farbgenauigkeit und in professioneller Qualität für kommerzielle Anwendungen.",
+        "title": "2K HD Ausgabe"
+      },
+      "secure": {
+        "description": "Ihre kreative Arbeit ist durch Verschlüsselung und strenge Datenschutzrichtlinien geschützt. Seedream 4.5 gibt Ihre AI-generierten Bilder niemals ohne Erlaubnis weiter.",
+        "title": "Datensicherheit"
+      },
+      "speed": {
+        "description": "Erzeugen Sie schnell Bilder mit 2K-Auflösung mit den optimierten KI-Modellen von Seedream 4.5 - einem effizienten professionellen KI-Bildgenerator.",
+        "title": "Schnelle 2K-Generation"
+      },
+      "variety": {
+        "description": "Unterstützt sowohl den Text-zu-Bild- als auch den Bild-zu-Bild-Modus. Von Grund auf neu erstellen oder vorhandene Bilder bearbeiten - Seedream 4.5 erfüllt alle kreativen Anforderungen.",
+        "title": "Dual-Mode Generation"
+      }
+    },
+    "subtitle": "Umfassende KI-Bilderzeugungsfunktionen auf der Grundlage der ByteDance-Technologie",
+    "title": "Seedream 4.5 AI Image Generator Eigenschaften"
   },
   "hero": {
-    
-    "title": {
-      "line1": "Seedream 4.5",
-      "line2": "ByteDance KI-Bildgenerierung"
-    },
-    "subtitle": "Erleben Sie ByteDance Seedream 4.5 - ein leistungsstarker KI-Bildgenerator mit 2K-Auflösung, präziser Bildbearbeitung und außergewöhnlichen Details. Generieren Sie schnell professionelle Bilder, um Ihre kreativen Anforderungen zu erfüllen.",
     "cta": {
-      "primary": "Seedream 4.5 ausprobieren",
+      "primary": "Versuchen Sie Seedream 4.5",
       "secondary": "Mehr erfahren"
     },
     "stats": {
-      "speed": {
-        "value": "Schnell",
-        "label": "Bildgenerierung"
-      },
       "quality": {
-        "value": "2K HD",
-        "label": "Hohe Auflösung"
+        "label": "Hohe Auflösung",
+        "value": "2K HD"
+      },
+      "speed": {
+        "label": "Bilderzeugung",
+        "value": "Fast"
       },
       "users": {
-        "value": "Dual Mode",
-        "label": "Text- & Bildeingabe"
-      }
-    }
-  },
-  "what": {
-    
-    "title": "Was ist der Seedream 4.5 KI-Bildgenerator?",
-    "description": "Seedream 4.5, entwickelt von ByteDance, ist ein fortschrittlicher KI-Bildgenerator, der leistungsstarke Text-zu-Bild- und Bild-zu-Bild-Funktionen kombiniert. Diese professionelle KI-Bildgenerierungsplattform liefert 2K-hochauflösende Bilder mit hoher Geschwindigkeit und Qualität, perfekt für Designer, Vermarkter und Content-Ersteller, die professionelle KI-generierte Bilder benötigen.",
-    "demoPlaceholder": "Seedream 4.5 generiertes Bild",
-    "coreFeatures": {
-      "core1": {
-        "title": "2K hochauflösende KI-Bildgenerierung",
-        "description": "Seedream 4.5 generiert schnell 2K (2048x2048) hochauflösende Bilder. Dieser KI-Bildgenerator bietet außergewöhnliche Details, Farbgenauigkeit und Bildqualität, die professionelle Standards für digitales Marketing, soziale Medien und kommerzielle Projekte erfüllt."
-      },
-      "core2": {
-        "title": "Leistungsstarke Bild-zu-Bild-Bearbeitung",
-        "description": "Im Gegensatz zu traditionellen KI-Bildgeneratoren bietet Seedream 4.5 bahnbrechende Funktionen bei der Bild-zu-Bild-Bearbeitung. Laden Sie vorhandene Bilder hoch und nehmen Sie präzise Änderungen über Textbeschreibungen vor - perfekt für Bildoptimierung, Stilübertragung und kreative Transformation."
-      },
-      "core3": {
-        "title": "Flexible Dual-Mode-Generierung",
-        "description": "Unterstützt sowohl Text-zu-Bild als auch Bild-zu-Bild-Modi und bietet umfassende kreative Freiheit. Erstellen Sie neue Bilder von Grund auf oder transformieren Sie vorhandene, um verschiedene kreative Szenarien zu erfüllen."
-      }
-    }
-  },
-  "why": {
-    
-    "title": "Warum Seedream 4.5 KI-Bildgenerator wählen",
-    "subtitle": "Seedream 4.5, powered by ByteDance's advanced technology, outperforms traditional image creation methods and competing AI image generators with high-speed generation, 2K resolution output, and powerful image editing capabilities.",
-    "comparison": {
-      "traditional": {
-        "title": "Traditionelle Bilderstellung",
-        "item1": "Stunden erforderlich für professionelle Bildgestaltung und -bearbeitung",
-        "item2": "Teure Softwarelizenzen und professionelle Designfähigkeiten erforderlich",
-        "item3": "Hohe Kosten für die Beauftragung von Designern oder den Kauf von Premium-Design-Tools",
-        "item4": "Langsame Iterationszyklen begrenzen kreative Experimente"
-      },
-      "product": {
-        "title": "Seedream 4.5 KI-Generator",
-        "item1": "Generieren Sie schnell 2K professionelle Bilder mit KI",
-        "item2": "Keine Designfähigkeiten erforderlich - beschreiben Sie Ihre Ideen in natürlicher Sprache",
-        "item3": "Kostengünstige Abonnementpläne mit flexiblen Zahlungsoptionen",
-        "item4": "Sofortige Iterationen und unbegrenzte kreative Experimente mit KI"
+        "label": "Text \u0026 Image Input",
+        "value": "Dualer Modus"
       }
     },
-    "benefits": {
-      "speed": {
-        "title": "High-Speed KI-Bildgenerierung",
-        "description": "Das optimierte Generierungsmodul von Seedream 4.5 erstellt schnell 2K-hochauflösende Bilder. Beschleunigen Sie Ihren kreativen Arbeitsablauf mit effizienter KI-Bildgenerierung und sparen Sie wertvolle Zeit."
-      },
-      "quality": {
-        "title": "Professionelle 2K-Bildqualität",
-        "description": "Erleben Sie 2K (2048x2048) hochauflösende Ausgabe mit ausgezeichneten Details, genauer Farbwiedergabe und professioneller Bildqualität. Seedream 4.5 KI-Bilder erfüllen die Standards von Handelsprojekten, digitalen Medien und Unternehmensanwendungen."
-      },
-      "cost": {
-        "title": "Kosteneffiziente KI-Bildgenerierung",
-        "description": "Eliminator teure Design-Softwarelizenzen und Designer-Gebühren. Seedream 4.5 bietet flexible Abonnementpläne und macht professionelle KI-Bildgenerierung für Unternehmen aller Größen zugänglich, mit nur 30 Credits pro Generierung."
-      },
-      "flexibility": {
-        "title": "Kreative Freiheit mit KI",
-        "description": "Experimentieren Sie mit unbegrenzten Iterationen, mehreren künstlerischen Stilen und verschiedenen kreativen Richtungen. Die Dual-Mode-Generierung von Seedream 4.5 passt sich Ihren Anforderungen an und ermöglicht schnelle Prototypenerstellung und unbegrenzte kreative Exploration."
-      },
-      "support": {
-        "title": "Professioneller technischer Support",
-        "description": "Greifen Sie auf technischen Support, umfassende Dokumentation und Verwendungsanleitungen zu. Seedream 4.5 bietet den professionellen Support, den Ihr Unternehmen für KI-Bildgenerierungs-Arbeitsabläufe benötigt."
-      },
-      "security": {
-        "title": "Datensicherheit & Datenschutz",
-        "description": "Alle Seedream 4.5 Datenübertragungen und Speicherung verwenden Verschlüsselungsschutz. Ihre KI-generierten Bilder und kreative Arbeit bleiben privat und sicher mit strikten Datenschutzrichtlinien."
-      }
+    "subtitle": "Erleben Sie ByteDance's Seedream 4.5 - einen leistungsstarken AI-Bildgenerator mit 2K-Auflösung, präziser Bildbearbeitung und außergewöhnlichen Details. Erzeugen Sie schnell professionelle Bilder für Ihre kreativen Anforderungen.",
+    "title": {
+      "line1": "Seedream 4.5",
+      "line2": "ByteDance AI-Bilderzeugung"
     }
   },
   "how": {
-    
-    "title": "Wie man Seedream 4.5 KI-Bildgenerator verwendet",
-    "subtitle": "Von der Idee zum professionellen 2K KI-generierten Bild in einfachen Schritten. Seedream 4.5 macht fortgeschrittene KI-Bildgenerierung intuitiv und zugänglich.",
     "steps": {
       "step1": {
-        "title": "Generierungsmodus auswählen",
-        "description": "Wählen Sie Text-zu-Bild oder Bild-zu-Bild-Modus je nach Ihren Anforderungen. Der Text-zu-Bild-Modus erstellt von Grund auf, während der Bild-zu-Bild-Modus vorhandene Bilder bearbeitet und transformiert. Beide Modi bieten leistungsstarke KI-Funktionen."
+        "description": "Wählen Sie je nach Bedarf den Modus \"Text-zu-Bild\" oder \"Bild-zu-Bild\". Im Modus \"Text zu Bild\" wird das Bild von Grund auf neu erstellt, während im Modus \"Bild zu Bild\" vorhandene Bilder bearbeitet und umgewandelt werden. Beide Modi bieten leistungsstarke KI-Funktionen.",
+        "title": "Generierungsmodus wählen"
       },
       "step2": {
-        "title": "Kreative Beschreibung eingeben",
-        "description": "Geben Sie eine detaillierte Textbeschreibung des Bildes ein, das Sie erstellen oder ändern möchten. Die KI von Seedream 4.5 versteht komplexe Eingaben. Fügen Sie spezifische Details zum Stil, zur Komposition, zur Beleuchtung, zu Farben und zur Stimmung ein, um optimale KI-Bildgenerierungsergebnisse zu erzielen."
+        "description": "Geben Sie eine detaillierte Textbeschreibung des Bildes ein, das Sie erstellen oder ändern möchten. Die künstliche Intelligenz von Seedream 4.5 versteht komplexe Eingabeaufforderungen. Geben Sie spezifische Details zu Stil, Komposition, Beleuchtung, Farben und Stimmung an, um optimale KI-Bilderzeugungsergebnisse zu erzielen.",
+        "title": "Kreative Beschreibung eingeben"
       },
       "step3": {
-        "title": "KI generiert HD-Bilder",
-        "description": "Das KI-Modell von Seedream 4.5 verarbeitet Ihre Anforderungen schnell und generiert hochwertige 2K-Bilder. Die KI versteht Ihre Absicht und erstellt professionelle Bilder, die Ihren Erwartungen entsprechen, und garantiert überlegene Ausgabequalität."
+        "description": "Das KI-Modell von Seedream 4.5 verarbeitet Ihre Anforderungen schnell und generiert 2K-Bilder in hoher Qualität. Die KI versteht Ihre Absicht und erstellt professionelle Bilder, die Ihre Erwartungen erfüllen und eine hervorragende Ausgabequalität gewährleisten.",
+        "title": "AI generiert HD-Bilder"
       },
       "step4": {
-        "title": "Vorschau, Download & Optimierung",
-        "description": "Zeigen Sie eine Vorschau Ihres KI-generierten Bildes sofort an. Mit dem Ergebnis zufrieden? Laden Sie es sofort herunter. Benötigen Sie Anpassungen? Ändern Sie Ihre Eingabe oder wechseln Sie die Modi und generieren Sie erneut - iterieren Sie so oft wie nötig mit den schnellen Generierungsfunktionen von Seedream 4.5."
+        "description": "Sehen Sie sich Ihr AI-generiertes Bild sofort in der Vorschau an. Sind Sie mit dem Ergebnis zufrieden? Sofort herunterladen und verwenden. Benötigen Sie Anpassungen? Ändern Sie Ihre Eingabeaufforderung oder wechseln Sie den Modus und generieren Sie neu - mit den schnellen Generierungsfunktionen von Seedream 4.5 können Sie den Vorgang so oft wie nötig wiederholen.",
+        "title": "Vorschau, Herunterladen \u0026 Optimieren"
       }
-    }
+    },
+    "subtitle": "Vom Konzept zum professionellen 2K-KI-Bild in einfachen Schritten. Seedream 4.5 macht fortschrittliche KI-Bilderstellung intuitiv und zugänglich.",
+    "title": "So verwenden Sie Seedream 4.5 AI Image Generator"
   },
-  "features": {
-    
-    "title": "Seedream 4.5 KI-Bildgenerator Funktionen",
-    "subtitle": "Umfassende KI-Bildgenerierungsfunktionen powered by ByteDance Technologie",
-    "items": {
-      "speed": {
-        "title": "Schnelle 2K-Generierung",
-        "description": "Generieren Sie schnell 2K-Auflösungsbilder mit den optimierten KI-Modellen von Seedream 4.5 - ein effizienter professioneller KI-Bildgenerator."
+  "seo": {
+    "description": "Erstellen Sie 2K HD Bilder mit Seedream 4.5. Die KI von ByteDance unterstützt die Generierung von Text zu Bild und Bild zu Bild. 30 Credits pro Bild.",
+    "title": "Seedream 4.5 - ByteDance AI Image Generator | 2K HD"
+  },
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Seedream 4.5 erzeugt schnell hochauflösende 2K-Bilder (2048x2048). Dieser AI-Bildgenerator liefert außergewöhnliche Details, Farbgenauigkeit und Bildqualität, die professionellen Standards für digitales Marketing, soziale Medien und kommerzielle Projekte entsprechen.",
+        "title": "2K hochauflösende AI-Bilderzeugung"
+      },
+      "core2": {
+        "description": "Im Gegensatz zu herkömmlichen KI-Bildgeneratoren bietet Seedream 4.5 bahnbrechende Möglichkeiten der Bild-zu-Bild-Bearbeitung. Laden Sie vorhandene Bilder hoch und nehmen Sie präzise Bearbeitungen durch Textbeschreibungen vor - perfekt für Bildoptimierung, Stilübertragung und kreative Umgestaltung.",
+        "title": "Leistungsstarke Bild-zu-Bild-Bearbeitung"
+      },
+      "core3": {
+        "description": "Unterstützt sowohl den Text-zu-Bild- als auch den Bild-zu-Bild-Modus und bietet so umfassende kreative Freiheit. Erstellen Sie neue Bilder von Grund auf oder wandeln Sie bestehende Bilder um, um verschiedene kreative Szenarien zu erfüllen.",
+        "title": "Flexible Dual-Mode-Erzeugung"
+      }
+    },
+    "demoPlaceholder": "Seedream 4.5 Generiertes Bild",
+    "description": "Seedream 4.5, entwickelt von ByteDance, ist ein fortschrittlicher KI-Bildgenerator, der leistungsstarke Text-zu-Bild- und Bild-zu-Bild-Funktionen kombiniert. Diese professionelle KI-Bilderzeugungsplattform liefert hochauflösende 2K-Bilder mit hoher Geschwindigkeit und Qualität - perfekt für Designer, Vermarkter und Content-Ersteller, die KI-generierte Bilder in professioneller Qualität benötigen.",
+    "title": "Was ist Seedream 4.5 AI Image Generator?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Eliminieren Sie teure Lizenzen für Design-Software und Gebühren für Designer. Seedream 4.5 bietet flexible Abo-Pläne, die professionelle KI-Bilderzeugung für Unternehmen jeder Größe zugänglich machen, mit nur 30 Credits pro Erzeugung.",
+        "title": "Kosteneffiziente AI-Bilderzeugung"
+      },
+      "flexibility": {
+        "description": "Experimentieren Sie mit unbegrenzten Iterationen, mehreren künstlerischen Stilen und verschiedenen kreativen Richtungen. Die Dual-Mode-Generation von Seedream 4.5 passt sich Ihren Bedürfnissen an und ermöglicht schnelles Prototyping und uneingeschränktes kreatives Erforschen.",
+        "title": "Kreative Freiheit mit AI"
       },
       "quality": {
-        "title": "2K HD Ausgabe",
-        "description": "Erstellen Sie atemberaubende 2048x2048 Pixel Bilder mit ausgezeichneten Details, Farbgenauigkeit und professioneller Qualität, die für kommerzielle Anwendungen geeignet ist."
+        "description": "Erleben Sie 2K (2048x2048) High-Definition-Ausgabe mit exzellenter Detailtreue, genauer Farbwiedergabe und professioneller Bildqualität. Seedream 4.5 AI-Bilder erfüllen die Standards für kommerzielle Projekte, digitale Medien und Unternehmensanwendungen.",
+        "title": "Professionelle 2K-Bildqualität"
       },
-      "variety": {
-        "title": "Dual-Mode-Generierung",
-        "description": "Unterstützt sowohl Text-zu-Bild als auch Bild-zu-Bild-Modi. Erstellen Sie von Grund auf neu oder bearbeiten Sie vorhandene Bilder - Seedream 4.5 erfüllt alle kreativen Anforderungen."
+      "security": {
+        "description": "Alle Seedream 4.5 Datenübertragungen und -speicherungen sind durch Verschlüsselung geschützt. Ihre KI-generierten Bilder und kreativen Arbeiten bleiben privat und sicher mit strengen Datenschutzrichtlinien.",
+        "title": "Datensicherheit und Datenschutz"
       },
-      "control": {
-        "title": "Präzise Bearbeitungskontrolle",
-        "description": "Erreichen Sie präzise Bildgenerierung und Bearbeitungskontrolle durch natürlichsprachliche Beschreibungen, ohne komplexe Parametereinstellungen für ideale Ergebnisse."
+      "speed": {
+        "description": "Die optimierte Generierungs-Engine von Seedream 4.5 erstellt schnell hochauflösende 2K-Bilder. Beschleunigen Sie Ihren kreativen Workflow mit effizienter KI-Bilderzeugung und sparen Sie wertvolle Zeit.",
+        "title": "Hochgeschwindigkeits-AI-Bilderzeugung"
       },
-      "efficient": {
-        "title": "Effiziente Kreditnutzung",
-        "description": "Nur 30 Credits pro Generierung, bietet eine kosteneffiziente professionelle KI-Bildgenerierungslösung, geeignet für kreative Anforderungen mit hohem Volumen."
-      },
-      "secure": {
-        "title": "Datensicherheit",
-        "description": "Ihre kreative Arbeit wird durch Verschlüsselung und strenge Datenschutzrichtlinien geschützt. Seedream 4.5 teilt Ihre KI-generierten Bilder niemals ohne Erlaubnis."
+      "support": {
+        "description": "Greifen Sie auf technischen Support, umfassende Dokumentationen und Benutzerhandbücher zu. Seedream 4.5 bietet die professionelle Unterstützung, die Ihr Unternehmen für KI-Bilderzeugungsworkflows benötigt.",
+        "title": "Professionelle technische Unterstützung"
       }
-    }
-  },
-  "faq": {
-    
-    "title": "Seedream 4.5 Häufig gestellte Fragen",
-    "subtitle": "Häufige Fragen zum Seedream 4.5 KI-Bildgenerator",
-    "items": [
-      {
-        "question": "Was ist Seedream 4.5 und wie unterscheidet es sich von anderen KI-Bildgeneratoren?",
-        "answer": "Seedream 4.5 ist ein fortschrittlicher KI-Bildgenerator von ByteDance mit Dual-Modus Text-zu-Bild und Bild-zu-Bild. Im Gegensatz zu anderen KI-Bildgeneratoren bietet Seedream 4.5 2K HD Ausgabe, leistungsstarke Bildbearbeitungsfunktionen und schnelle Generierungsgeschwindigkeit. Es zeichnet sich durch Bildqualität, Bearbeitungsflexibilität und Kosteneffizienz aus."
+    },
+    "comparison": {
+      "product": {
+        "item1": "Schnelles Erzeugen professioneller 2K-Bilder mit AI",
+        "item2": "Keine Designkenntnisse erforderlich - beschreiben Sie Ihre Ideen in natürlicher Sprache",
+        "item3": "Kostengünstige Abonnementpläne mit flexiblen Zahlungsoptionen",
+        "item4": "Sofortige Iterationen und unbegrenzte kreative Experimente mit AI",
+        "title": "Seedream 4.5 AI-Generator"
       },
-      {
-        "question": "Wie schnell ist die KI-Bildgenerierung von Seedream 4.5?",
-        "answer": "Seedream 4.5 kann schnell 2K (2048x2048) hochauflösende Bilder generieren. Egal ob im Text-zu-Bild oder Bild-zu-Bild-Modus, die Generierung erfolgt in kurzer Zeit und verbessert die kreative Effizienz erheblich. Diese hohe Generierungsgeschwindigkeit macht Seedream 4.5 ideal für schnelle Prototypenerstellung und massenhafte Content-Erstellung."
-      },
-      {
-        "question": "Welche Bildauflösung unterstützt Seedream 4.5?",
-        "answer": "Seedream 4.5 unterstützt 2K HD (2048x2048 Pixel) Ausgabe. Bilder bieten ausgezeichnete Details, genaue Farbwiedergabe und professionelle Qualität, die für digitale Medien, soziale Plattformen und kommerzielle Projekte geeignet ist. Diese Auflösung erreicht einen perfekten Kompromiss zwischen Qualität und Dateigröße."
-      },
-      {
-        "question": "Wie verwende ich die Bild-zu-Bild-Funktion von Seedream 4.5?",
-        "answer": "Die Verwendung der Bild-zu-Bild-Funktion von Seedream 4.5 ist einfach! Laden Sie einfach ein vorhandenes Bild hoch und geben Sie dann eine Textbeschreibung ein, die die gewünschten Änderungen erklärt. Die KI versteht Ihre Absicht, erhält die Pose und Struktur des Originalbildes und nimmt präzise Änderungen nach Ihrer Beschreibung vor. Dies ist perfekt für Bildoptimierung, Stilübertragung und kreative Transformation."
-      },
-      {
-        "question": "Welche Kosten entstehen beim Generieren von Bildern mit Seedream 4.5?",
-        "answer": "Seedream 4.5 verbraucht 30 Credits pro Generierung, egal ob im Text-zu-Bild oder Bild-zu-Bild-Modus. Dies bietet eine kosteneffiziente professionelle KI-Bildgenerierungslösung, die es Ihnen ermöglicht, umfangreich zu erstellen, ohne sich Sorgen um hohe Kosten zu machen."
-      },
-      {
-        "question": "Ist Seedream 4.5 für kommerzielle Nutzung geeignet?",
-        "answer": "Absolut! Seedream 4.5 ist für professionelle und kommerzielle Anwendungen konzipiert. Mit 2K HD Auflösung, leistungsstarken Bearbeitungssteuerelementen, Dual-Mode-Generierungsfunktionen und Datensicherheitsgarantien erfüllt Seedream 4.5 die Anforderungen von Unternehmen, Agenturen und Kreativen, die professionelle KI-Bildgenerierung benötigen."
+      "traditional": {
+        "item1": "Erforderliche Stunden für professionelle Bildgestaltung und -bearbeitung",
+        "item2": "Teure Softwarelizenzen und professionelle Designkenntnisse erforderlich",
+        "item3": "Hohe Kosten für die Einstellung von Designern oder den Kauf hochwertiger Designtools",
+        "item4": "Langsame Iterationszyklen begrenzen kreative Experimente",
+        "title": "Traditionelle Bilderstellung"
       }
-    ]
-  },
-  "cta": {
-    "title": "Beginnen Sie mit Seedream 4.5 KI-Bildgenerator zu erstellen",
-    "subtitle": "Schließen Sie sich zahlreichen Fachleuten an, die Seedream 4.5 nutzen, um HD KI-Bilder für Design, Marketing und kreative Projekte zu generieren.",
-    "primary": "Seedream 4.5 kostenlos testen",
-    "secondary": "Tarifpläne ansehen",
-    "note": "Keine Kreditkarte erforderlich • 2K HD Bilder • Dual-Mode-Generierung"
+    },
+    "subtitle": "Seedream 4.5, das auf der fortschrittlichen Technologie von ByteDance basiert, übertrifft herkömmliche Bilderstellungsmethoden und konkurrierende KI-Bildgeneratoren mit Hochgeschwindigkeitsgenerierung, Ausgabe in 2K-Auflösung und leistungsstarken Bildbearbeitungsfunktionen.",
+    "title": "Warum Seedream 4.5 AI Image Generator"
   }
 }

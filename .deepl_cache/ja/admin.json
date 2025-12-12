@@ -1,0 +1,24 @@
+{
+  "entries": {
+    "Access Restricted": {
+      "translation": "アクセス制限",
+      "timestamp": 1765576972
+    },
+    "Back to Home": {
+      "translation": "ホームへ戻る",
+      "timestamp": 1765576972
+    },
+    "If you believe this is an error, please contact the system administrator to request access.": {
+      "translation": "エラーと思われる場合は、システム管理者に連絡し、アクセスをリクエストしてください。",
+      "timestamp": 1765576972
+    },
+    "Need Help?": {
+      "translation": "お困りですか？",
+      "timestamp": 1765576972
+    },
+    "Sorry, you don't have permission to access the admin dashboard. Only administrator accounts can access this page.": {
+      "translation": "申し訳ありませんが、管理者ダッシュボードにアクセスする権限がありません。このページにアクセスできるのは管理者アカウントのみです。",
+      "timestamp": 1765576972
+    }
+  }
+}

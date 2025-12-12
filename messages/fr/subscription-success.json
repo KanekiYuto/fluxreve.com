@@ -1,37 +1,37 @@
 {
-  "seo": {
-    "title": "Abonnement Réussi",
-    "description": "Merci de vous être abonné! Votre compte a été mis à niveau avec succès"
-  },
-  "title": "Abonnement Réussi!",
-  "description": "Merci de vous être abonné. Votre compte a été mis à niveau avec succès et vous pouvez maintenant profiter de toutes les fonctionnalités premium.",
-  "loading": "Chargement...",
-  "notFound": "Abonnement non trouvé",
-  "details": {
-    "title": "Détails de l'Abonnement",
-    "plan": "Plan",
-    "amount": "Montant",
-    "status": "Statut",
-    "statusActive": "Actif"
-  },
-  "nextSteps": {
-    "title": "La Suite",
-    "step1": "Visitez votre tableau de bord pour explorer toutes les fonctionnalités disponibles",
-    "step2": "Commencez à utiliser les générateurs d'IA pour créer des images époustouflantes",
-    "step3": "Visualisez les détails de votre abonnement dans la page de gestion des abonnements"
-  },
   "actions": {
-    "startUsing": "Commencer à Utiliser Maintenant",
-    "redirecting": "Redirection en cours...",
-    "viewSubscription": "Voir l'Abonnement"
+    "redirecting": "Redirection...",
+    "startUsing": "Commencez à utiliser dès maintenant",
+    "viewSubscription": "Voir l'abonnement"
   },
   "autoRedirect": "Redirection automatique vers le tableau de bord dans {seconds} secondes...",
+  "description": "Merci de vous être abonné. Votre compte a été mis à jour avec succès et vous pouvez maintenant profiter de toutes les fonctionnalités premium.",
+  "details": {
+    "amount": "Montant",
+    "plan": "Plan",
+    "status": "Statut",
+    "statusActive": "Actif",
+    "title": "Détails de l'abonnement"
+  },
+  "loading": "Chargement...",
+  "nextSteps": {
+    "step1": "Visitez votre tableau de bord pour découvrir toutes les fonctionnalités disponibles",
+    "step2": "Commencez à utiliser des générateurs d'IA pour créer des images époustouflantes",
+    "step3": "Consultez les détails de votre abonnement sur la page de gestion des abonnements",
+    "title": "Prochaines étapes"
+  },
+  "notFound": "Abonnement non trouvé",
   "planTypes": {
-    "trial": "Essai Gratuit",
-    "monthly_basic": "De Base - Mensuel",
-    "yearly_basic": "De Base - Annuel",
+    "monthly_basic": "Base - Mensuelle",
     "monthly_pro": "Pro - Mensuel",
-    "yearly_pro": "Pro - Annuel",
-    "unknown": "Plan Inconnu"
-  }
+    "trial": "Procès",
+    "unknown": "Plan inconnu",
+    "yearly_basic": "Base - Annuel",
+    "yearly_pro": "Pro - Annuel"
+  },
+  "seo": {
+    "description": "Merci de vous être abonné ! Votre compte a été mis à jour avec succès",
+    "title": "Abonnement réussi"
+  },
+  "title": "Abonnement réussi !"
 }

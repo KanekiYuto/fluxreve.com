@@ -1,0 +1,120 @@
+{
+  "entries": {
+    "Active": {
+      "translation": "활성",
+      "timestamp": 1765576874
+    },
+    "Active Quota": {
+      "translation": "활성 할당량",
+      "timestamp": 1765576874
+    },
+    "Amount": {
+      "translation": "금액",
+      "timestamp": 1765576874
+    },
+    "Available": {
+      "translation": "사용 가능",
+      "timestamp": 1765576874
+    },
+    "Consumed": {
+      "translation": "소비됨",
+      "timestamp": 1765576874
+    },
+    "Daily Free Quota": {
+      "translation": "일일 무료 할당량",
+      "timestamp": 1765576874
+    },
+    "Depleted": {
+      "translation": "고갈",
+      "timestamp": 1765576874
+    },
+    "Expired": {
+      "translation": "만료됨",
+      "timestamp": 1765576874
+    },
+    "Expires At": {
+      "translation": "만료일",
+      "timestamp": 1765576874
+    },
+    "Issued At": {
+      "translation": "발행일",
+      "timestamp": 1765576874
+    },
+    "Log in to view your quota usage and history": {
+      "translation": "로그인하여 할당량 사용량 및 내역을 확인하세요.",
+      "timestamp": 1765576874
+    },
+    "Login to View Quota": {
+      "translation": "로그인하여 할당량 보기",
+      "timestamp": 1765576874
+    },
+    "Manage and view your available quota": {
+      "translation": "사용 가능한 할당량 관리 및 보기",
+      "timestamp": 1765576874
+    },
+    "Manage and view your available quota usage and history": {
+      "translation": "사용 가능한 할당량 사용량 및 내역 관리 및 보기",
+      "timestamp": 1765576874
+    },
+    "Monthly Basic": {
+      "translation": "월간 기본",
+      "timestamp": 1765576874
+    },
+    "Monthly Pro": {
+      "translation": "월간 프로",
+      "timestamp": 1765576874
+    },
+    "My Quota": {
+      "translation": "내 할당량",
+      "timestamp": 1765576874
+    },
+    "Never": {
+      "translation": "절대로",
+      "timestamp": 1765576874
+    },
+    "No active quota available": {
+      "translation": "사용 가능한 활성 할당량이 없습니다.",
+      "timestamp": 1765576874
+    },
+    "No expired quota": {
+      "translation": "만료된 할당량 없음",
+      "timestamp": 1765576874
+    },
+    "Quota Pack": {
+      "translation": "할당량 팩",
+      "timestamp": 1765576874
+    },
+    "Remaining": {
+      "translation": "남아있음",
+      "timestamp": 1765576874
+    },
+    "Subscription Change Compensation": {
+      "translation": "구독 변경 보상",
+      "timestamp": 1765576874
+    },
+    "Total Available": {
+      "translation": "총 사용 가능",
+      "timestamp": 1765576874
+    },
+    "Type": {
+      "translation": "유형",
+      "timestamp": 1765576874
+    },
+    "Yearly Basic": {
+      "translation": "연간 기본",
+      "timestamp": 1765576874
+    },
+    "Yearly Pro": {
+      "translation": "연간 프로",
+      "timestamp": 1765576874
+    },
+    "You currently have no available quota. Please purchase quota to continue using the service": {
+      "translation": "현재 사용 가능한 할당량이 없습니다. 서비스를 계속 사용하려면 할당량을 구매하세요.",
+      "timestamp": 1765576874
+    },
+    "You have no expired quota records": {
+      "translation": "만료된 할당량 기록이 없습니다.",
+      "timestamp": 1765576874
+    }
+  }
+}

@@ -1,63 +1,63 @@
 {
-  "seo": {
-    "title": "Dashboard",
-    "description": "Verwalten Sie Ihre KI-Bildgenerationsprojekte, verfolgen Sie die Nutzung und greifen Sie auf alle Funktionen zu"
-  },
-  "welcome": "Willkommen zurück, {name}",
-  "subtitle": "Beginnen Sie mit der Erstellung Ihrer großartigen Inhalte",
-  "guestWelcome": "Willkommen beim Dashboard",
-  "guestSubtitle": "Bitte melden Sie sich an, um auf Ihr Dashboard zuzugreifen und mit der Erstellung zu beginnen",
+  "guestSubtitle": "Bitte melden Sie sich an, um auf Ihr Dashboard zuzugreifen und mit der Erstellung von",
+  "guestWelcome": "Willkommen bei Dashboard",
   "loginPrompt": {
-    "title": "Melden Sie sich an, um auf Ihr Dashboard zuzugreifen",
-    "description": "Erstellen Sie ein Konto oder melden Sie sich an, um alle Funktionen freizuschalten, Ihre Nutzung nachzuverfolgen und Ihre Projekte zu verwalten.",
     "cta": "Jetzt anmelden",
+    "description": "Erstellen Sie ein Konto oder melden Sie sich an, um alle Funktionen freizuschalten, Ihre Nutzung zu verfolgen und Ihre Projekte zu verwalten.",
     "features": {
-      "quota": "Nutzungsquota",
-      "quotaDesc": "Verfolgen Sie Ihre Generierungsquota und Nutzungsverlauf",
-      "projects": "Projektverwaltung",
-      "projectsDesc": "Organisieren und verwalten Sie alle Ihre kreativen Projekte",
       "analytics": "Analysen und Statistiken",
-      "analyticsDesc": "Detaillierte Statistiken und Leistungsmetriken anzeigen"
-    }
-  },
-  "userType": {
-    "pro": "Pro",
-    "basic": "Basic",
-    "trial": "Testversion",
-    "free": "Kostenlos"
-  },
-  "stats": {
-    "quota": {
-      "remaining": "Verbleibende Generierungsquota",
-      "unlimited": "Unbegrenzte Generierungsquota",
-      "expires": "verfällt"
+      "analyticsDesc": "Detaillierte Statistiken und Leistungsmetriken anzeigen",
+      "projects": "Projektleitung",
+      "projectsDesc": "Organisieren und verwalten Sie alle Ihre kreativen Projekte",
+      "quota": "Usage Quota",
+      "quotaDesc": "Verfolgen Sie Ihr Erzeugungskontingent und Ihre Nutzungshistorie"
     },
-    "projects": "Gesamtprojekte",
-    "images": "Hochgeladene Bild-Assets",
-    "templates": "Erstellte Vorlagen"
-  },
-  "quickActions": {
-    "title": "Schnellstart",
-    "newProject": "Neues Projekt",
-    "uploadImage": "Bild hochladen",
-    "templates": "Vorlagen",
-    "tutorial": "Anleitung"
-  },
-  "recent": {
-    "title": "Letzte Generierungen",
-    "subtitle": "Nur Inhalte aus der vergangenen Woche anzeigen",
-    "viewAll": "Alle anzeigen",
-    "loading": "Wird geladen...",
-    "empty": {
-      "title": "Diese Woche wurde kein Inhalt generiert",
-      "subtitle": "Beginnen Sie mit der Generierung Ihres ersten Bildes",
-      "cta": "Jetzt generieren"
-    }
+    "title": "Anmelden, um auf Ihr Dashboard zuzugreifen"
   },
   "marketing": {
-    "title": "Schalten Sie leistungsstärkere Funktionen frei",
-    "description": "Upgraden Sie Ihren Plan und erhalten Sie mehr Credits, Ultra-HD-Auflösung, Batch-Generierung und vorrangigen Support.",
-    "upgradeButton": "Jetzt upgraden",
-    "learnMoreButton": "Mehr erfahren"
-  }
+    "description": "Mit einem Upgrade erhalten Sie mehr Guthaben, ultrahohe Auflösung, Stapelerstellung und vorrangigen Support.",
+    "learnMoreButton": "Mehr erfahren",
+    "title": "Leistungsfähigere Funktionen freischalten",
+    "upgradeButton": "Jetzt aktualisieren"
+  },
+  "quickActions": {
+    "newProject": "Neues Projekt",
+    "templates": "Schablonen",
+    "title": "Schnellstart",
+    "tutorial": "Tutorial",
+    "uploadImage": "Bild hochladen"
+  },
+  "recent": {
+    "empty": {
+      "cta": "Jetzt generieren",
+      "subtitle": "Erstellen Sie Ihr erstes Bild",
+      "title": "Diese Woche wurde kein Inhalt erstellt"
+    },
+    "loading": "Laden...",
+    "subtitle": "Zeigt nur Inhalte der letzten Woche an",
+    "title": "Jüngere Generationen",
+    "viewAll": "Alle anzeigen"
+  },
+  "seo": {
+    "description": "Verwalten Sie Ihre AI-Bilderzeugungsprojekte, verfolgen Sie die Nutzung und greifen Sie auf alle Funktionen zu.",
+    "title": "Dashboard"
+  },
+  "stats": {
+    "images": "Hochgeladene Bild-Assets",
+    "projects": "Projekte insgesamt",
+    "quota": {
+      "expires": "Läuft ab",
+      "remaining": "Verbleibende Erzeugungsquoten",
+      "unlimited": "Unbegrenztes Generationskontingent"
+    },
+    "templates": "Erstellte Vorlagen"
+  },
+  "subtitle": "Beginnen Sie mit der Erstellung Ihrer tollen Inhalte",
+  "userType": {
+    "basic": "Grundlegend",
+    "free": "Kostenlos",
+    "pro": "Pro",
+    "trial": "Versuch"
+  },
+  "welcome": "Willkommen zurück, {name}"
 }

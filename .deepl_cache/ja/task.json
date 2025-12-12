@@ -1,0 +1,84 @@
+{
+  "entries": {
+    "AI image generated using {model}": {
+      "translation": "00002}を使用して生成されたAI画像",
+      "timestamp": 1765576983
+    },
+    "Completed At": {
+      "translation": "完成",
+      "timestamp": 1765576983
+    },
+    "Created At": {
+      "translation": "作成日時",
+      "timestamp": 1765576983
+    },
+    "Credits Used": {
+      "translation": "使用クレジット",
+      "timestamp": 1765576983
+    },
+    "Duration": {
+      "translation": "期間",
+      "timestamp": 1765576983
+    },
+    "Generation Results": {
+      "translation": "世代別成績",
+      "timestamp": 1765576983
+    },
+    "Image Preview": {
+      "translation": "画像プレビュー",
+      "timestamp": 1765576983
+    },
+    "NSFW Content": {
+      "translation": "NSFWコンテンツ",
+      "timestamp": 1765576983
+    },
+    "No": {
+      "translation": "いいえ",
+      "timestamp": 1765576983
+    },
+    "Parameters Info": {
+      "translation": "パラメーター情報",
+      "timestamp": 1765576983
+    },
+    "Sorry, image generation failed. Please try again later or contact support.": {
+      "translation": "画像生成に失敗しました。後で再試行するか、サポートにご連絡ください。",
+      "timestamp": 1765576983
+    },
+    "Sorry, the task you are looking for cannot be found. It may have been deleted or the link is invalid.": {
+      "translation": "お探しのタスクが見つかりません。削除されたか、リンクが無効です。",
+      "timestamp": 1765576983
+    },
+    "Task Details": {
+      "translation": "タスク詳細",
+      "timestamp": 1765576983
+    },
+    "Task Failed": {
+      "translation": "タスク失敗",
+      "timestamp": 1765576983
+    },
+    "Task Not Found": {
+      "translation": "タスクが見つかりません",
+      "timestamp": 1765576983
+    },
+    "Task Processing": {
+      "translation": "タスク処理",
+      "timestamp": 1765576983
+    },
+    "Usually takes a few seconds to a few minutes": {
+      "translation": "通常、数秒から数分かかる",
+      "timestamp": 1765576983
+    },
+    "View your AI image generation task details and results": {
+      "translation": "AI画像生成タスクの詳細と結果を見る",
+      "timestamp": 1765576983
+    },
+    "Yes": {
+      "translation": "はい",
+      "timestamp": 1765576983
+    },
+    "Your image is being generated, please wait a moment...": {
+      "translation": "画像を生成中です。しばらくお待ちください。",
+      "timestamp": 1765576983
+    }
+  }
+}

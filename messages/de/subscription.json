@@ -1,43 +1,43 @@
 {
-  "seo": {
-    "title": "Abonnementverwaltung",
-    "description": "Zeigen Sie Ihre Abonnementpläne und Abrechnungsinformationen an und verwalten Sie sie"
-  },
-  "title": "Abonnementverwaltung",
-  "subtitle": "Zeigen Sie Ihre Abonnementinformation an und verwalten Sie sie",
-  "login": {
-    "title": "Anmelden, um Abos anzuzeigen",
-    "description": "Melden Sie sich an, um Ihre Abonnementinformation anzuzeigen und zu verwalten"
-  },
-  "empty": {
-    "title": "Keine Abos",
-    "description": "Sie haben derzeit keine aktiven Abos",
-    "action": "Preispläne anzeigen"
-  },
   "card": {
-    "subscriptionId": "Abonnement",
+    "amount": "Abonnement-Betrag",
+    "canceledDate": "Storniert Datum",
     "customerId": "Kunde",
-    "nextRenewal": "Nächste Erneuerung wechselt zu",
-    "amount": "Abonnementbetrag",
-    "platform": "Zahlungsplattform",
-    "startDate": "Startdatum",
-    "expiryDate": "Ablaufdatum",
-    "nextBillingDate": "Nächstes Abrechnungsdatum",
-    "canceledDate": "Kündigungsdatum",
+    "expiryDate": "Verfallsdatum",
     "manageButton": "Abonnement verwalten",
+    "nextBillingDate": "Nächstes Rechungsdatum",
+    "nextRenewal": "Die nächste Erneuerung wechselt zu",
+    "planTypes": {
+      "monthly_basic": "Basic - Monatlich",
+      "monthly_pro": "Pro - Monatlich",
+      "trial": "Versuch",
+      "yearly_basic": "Basic - Jährlich",
+      "yearly_pro": "Pro - Jährlich"
+    },
+    "platform": "Plattform für Zahlungen",
+    "startDate": "Start Date",
     "status": {
       "active": "Aktiv",
-      "canceled": "Gekündigt",
+      "canceled": "Abgesagt",
       "expired": "Abgelaufen",
       "paused": "Pausiert",
-      "pending": "Zahlung ausstehend"
+      "pending": "Ausstehende Zahlung"
     },
-    "planTypes": {
-      "trial": "Testversion",
-      "monthly_basic": "Basis - Monatlich",
-      "yearly_basic": "Basis - Jährlich",
-      "monthly_pro": "Pro - Monatlich",
-      "yearly_pro": "Pro - Jährlich"
-    }
-  }
+    "subscriptionId": "Abonnement"
+  },
+  "empty": {
+    "action": "Preispläne anzeigen",
+    "description": "Sie haben derzeit keine aktiven Abonnements",
+    "title": "Keine Abonnements"
+  },
+  "login": {
+    "description": "Melden Sie sich an, um Ihre Abonnementinformationen anzuzeigen und zu verwalten",
+    "title": "Anmelden, um Abonnements anzuzeigen"
+  },
+  "seo": {
+    "description": "Anzeigen und Verwalten Ihrer Abonnementpläne und Rechnungsinformationen",
+    "title": "Subscription Management"
+  },
+  "subtitle": "Anzeigen und Verwalten Ihrer Abonnementinformationen",
+  "title": "Subscription Management"
 }

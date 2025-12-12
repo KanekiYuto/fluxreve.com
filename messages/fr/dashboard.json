@@ -1,63 +1,63 @@
 {
-  "seo": {
-    "title": "Tableau de Bord",
-    "description": "Gérez vos projets de génération d'images IA, suivez l'utilisation et accédez à toutes les fonctionnalités"
-  },
-  "welcome": "Bon retour, {name}",
-  "subtitle": "Commencez à créer votre contenu incroyable",
-  "guestWelcome": "Bienvenue sur le Tableau de Bord",
   "guestSubtitle": "Veuillez vous connecter pour accéder à votre tableau de bord et commencer à créer",
+  "guestWelcome": "Bienvenue au tableau de bord",
   "loginPrompt": {
-    "title": "Connectez-vous pour Accéder à Votre Tableau de Bord",
+    "cta": "S'inscrire maintenant",
     "description": "Créez un compte ou connectez-vous pour débloquer toutes les fonctionnalités, suivre votre utilisation et gérer vos projets.",
-    "cta": "Se Connecter Maintenant",
     "features": {
-      "quota": "Quota d'Utilisation",
-      "quotaDesc": "Suivez votre quota de génération et l'historique d'utilisation",
-      "projects": "Gestion de Projets",
-      "projectsDesc": "Organisez et gérez tous vos projets créatifs",
-      "analytics": "Analyses & Statistiques",
-      "analyticsDesc": "Consultez des statistiques détaillées et des indicateurs de performance"
-    }
-  },
-  "userType": {
-    "pro": "Pro",
-    "basic": "Basic",
-    "trial": "Essai",
-    "free": "Gratuit"
-  },
-  "stats": {
-    "quota": {
-      "remaining": "Quota de Génération Restant",
-      "unlimited": "Quota de Génération Illimité",
-      "expires": "expire"
+      "analytics": "Analyses et statistiques",
+      "analyticsDesc": "Afficher des statistiques détaillées et des mesures de performance",
+      "projects": "Gestion de projet",
+      "projectsDesc": "Organiser et gérer tous vos projets créatifs",
+      "quota": "Quota d'utilisation",
+      "quotaDesc": "Suivez votre quota de production et l'historique de votre utilisation"
     },
-    "projects": "Total de Projets",
-    "images": "Ressources d'Images Téléversées",
-    "templates": "Modèles Créés"
-  },
-  "quickActions": {
-    "title": "Démarrage Rapide",
-    "newProject": "Nouveau Projet",
-    "uploadImage": "Téléverser une Image",
-    "templates": "Modèles",
-    "tutorial": "Tutoriel"
-  },
-  "recent": {
-    "title": "Générations Récentes",
-    "subtitle": "Affichage du contenu de la semaine dernière uniquement",
-    "viewAll": "Tout Voir",
-    "loading": "Chargement...",
-    "empty": {
-      "title": "Aucun contenu généré cette semaine",
-      "subtitle": "Commencez à générer votre première image",
-      "cta": "Générer Maintenant"
-    }
+    "title": "Connectez-vous pour accéder à votre tableau de bord"
   },
   "marketing": {
-    "title": "Débloquez des Fonctionnalités Plus Puissantes",
-    "description": "Mettez à niveau votre forfait pour obtenir plus de crédits, une résolution ultra-haute, une génération par lots et un support prioritaire.",
-    "upgradeButton": "Mettre à Niveau Maintenant",
-    "learnMoreButton": "En Savoir Plus"
-  }
+    "description": "Passez à un plan supérieur pour obtenir plus de crédits, une résolution ultra-élevée, la génération de lots et une assistance prioritaire.",
+    "learnMoreButton": "En savoir plus",
+    "title": "Débloquer des fonctionnalités plus puissantes",
+    "upgradeButton": "Mettre à niveau maintenant"
+  },
+  "quickActions": {
+    "newProject": "Nouveau projet",
+    "templates": "Modèles",
+    "title": "Démarrage rapide",
+    "tutorial": "Tutoriel",
+    "uploadImage": "Télécharger l'image"
+  },
+  "recent": {
+    "empty": {
+      "cta": "Générer maintenant",
+      "subtitle": "Commencez à générer votre première image",
+      "title": "Pas de contenu généré cette semaine"
+    },
+    "loading": "Chargement...",
+    "subtitle": "Affichage du contenu de la semaine écoulée uniquement",
+    "title": "Générations récentes",
+    "viewAll": "Voir tout"
+  },
+  "seo": {
+    "description": "Gérez vos projets de génération d'images d'IA, suivez votre utilisation et accédez à toutes les fonctionnalités.",
+    "title": "Tableau de bord"
+  },
+  "stats": {
+    "images": "Images téléchargées",
+    "projects": "Total des projets",
+    "quota": {
+      "expires": "expire",
+      "remaining": "Quota de génération restant",
+      "unlimited": "Quota de génération illimité"
+    },
+    "templates": "Modèles créés"
+  },
+  "subtitle": "Commencez à créer votre contenu exceptionnel",
+  "userType": {
+    "basic": "De base",
+    "free": "Gratuit",
+    "pro": "Pro",
+    "trial": "Procès"
+  },
+  "welcome": "Bienvenue, {name}"
 }

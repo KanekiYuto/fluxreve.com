@@ -1,153 +1,153 @@
 {
-  "meta": {
-    "title": "Plans de Tarification",
-    "description": "Choisissez le plan parfait pour vos besoins. Options de tarification flexibles pour les particuliers et les entreprises avec génération d'images alimentée par l'IA."
-  },
-  "title": "Choisissez Votre Plan",
-  "subtitle": "Options de tarification flexibles pour répondre aux besoins des particuliers et des entreprises",
-  "recommended": "Le Plus Populaire",
-  "status": {
-    "current": "Plan Actuel",
-    "scheduled": "Planifié",
-    "upgrade": "Mettre à niveau",
-    "downgrade": "Rétrograder",
-    "configuring": "Configuration en cours...",
-    "loading": "Chargement...",
-    "processing": "Traitement en cours..."
-  },
   "billing": {
-    "monthly": "Mensuel",
-    "yearly": "Annuel",
-    "year": "an",
+    "discount": "Économisez 20 %.",
     "month": "mois",
-    "discount": "Économisez 20%",
-    "save": "Économisez ${amount}"
+    "monthly": "Mensuel",
+    "save": "Économisez ${amount}",
+    "year": "année",
+    "yearly": "Annuel"
   },
+  "faq": {
+    "badge": "FAQ",
+    "items": [
+      {
+        "answer": "Les crédits sont utilisés pour générer des images avec nos modèles d'IA. Chaque génération d'image consomme un certain nombre de crédits en fonction de la résolution et du modèle utilisés. Les utilisateurs gratuits reçoivent 30 crédits par jour, les abonnés au plan Basic reçoivent 1 500 crédits par mois (ou 18 000 par an) et les abonnés au plan Pro reçoivent 7 500 crédits par mois (ou 90 000 par an).",
+        "question": "Comment fonctionnent les crédits ?"
+      },
+      {
+        "answer": "Les plans annuels offrent une réduction de 20 % par rapport aux plans mensuels. Par exemple, l'abonnement mensuel de base est de 15 $/mois (1 500 crédits), tandis que l'abonnement annuel de base est de 144 $/an (18 000 crédits au total). Les abonnements annuels vous permettent d'économiser de l'argent et de bénéficier d'une plus grande valeur ajoutée.",
+        "question": "Quelle est la différence entre les plans mensuels et annuels ?"
+      },
+      {
+        "answer": "Oui, vous pouvez passer à un plan supérieur à tout moment, et la différence de prix sera calculée au prorata. Lorsque vous passez à un niveau supérieur, vous recevez immédiatement l'intégralité du quota de crédit du nouveau plan. Les rétrogradations prennent effet au début de votre prochain cycle de facturation.",
+        "question": "Puis-je passer à un plan supérieur ou inférieur ?"
+      },
+      {
+        "answer": "Pour les utilisateurs gratuits, les crédits quotidiens sont réinitialisés chaque jour et ne s'accumulent pas. Pour les abonnés, les crédits expirent en fonction de leur date d'expiration. Chaque quota de crédits a sa propre période d'expiration, et les crédits non utilisés expirent automatiquement à la fin de cette période.",
+        "question": "Qu'advient-il des crédits non utilisés ?"
+      },
+      {
+        "answer": "Pour les plans mensuels, vous obtenez 100 crédits par dollar dépensé. Pour les plans annuels, vous obtenez 100 crédits par dollar × 12 mois. Par exemple, le forfait mensuel de base (15 $) = 1 500 crédits : forfait mensuel de base (15 $) = 1 500 crédits, forfait annuel de base (144 $) = 18 000 crédits.",
+        "question": "Comment fonctionne le calcul des quotas de crédit ?"
+      },
+      {
+        "answer": "Oui ! Le passage d'un abonnement mensuel à un abonnement annuel au sein d'un même niveau d'abonnement (par exemple, de l'abonnement mensuel Basic à l'abonnement annuel Basic) est considéré comme un changement et non comme une mise à niveau. Le nouveau cycle de facturation prendra effet conformément à la politique de changement de plan.",
+        "question": "Puis-je passer d'une facturation mensuelle à une facturation annuelle ?"
+      },
+      {
+        "answer": "Lorsque vous passez à un plan supérieur, vous êtes facturé au prorata pour le reste de la période de facturation en cours. Vous recevrez immédiatement la totalité du quota de crédits de votre nouveau plan, et les crédits existants resteront disponibles jusqu'à leur date d'expiration.",
+        "question": "Que se passe-t-il lorsque j'effectue une mise à niveau en milieu de cycle ?"
+      },
+      {
+        "answer": "Les utilisateurs du plan gratuit peuvent utiliser les images générées pour des projets personnels uniquement. Les abonnés aux plans Basic et Pro bénéficient d'une licence d'utilisation commerciale, qui leur permet d'utiliser les images à des fins professionnelles, pour des supports marketing et des projets de clients.",
+        "question": "Puis-je utiliser les images générées à des fins commerciales ?"
+      },
+      {
+        "answer": "La formule Pro offre 5 fois plus de crédits que la formule de base, ainsi que l'accès à tous les modèles d'IA avancés, à la très haute résolution (2048x2048), aux fonctions de génération de lots et à l'assistance clientèle prioritaire. L'offre Basic est idéale pour les particuliers, tandis que l'offre Pro est conçue pour les créateurs professionnels et les équipes.",
+        "question": "Quelle est la différence entre les plans Basic et Pro ?"
+      },
+      {
+        "answer": "Nous intégrons la plateforme de paiement Creem qui prend en charge plusieurs méthodes de paiement. Toutes les transactions sont traitées en toute sécurité par leur passerelle de paiement.",
+        "question": "Quels sont les modes de paiement acceptés ?"
+      },
+      {
+        "answer": "Oui, vous pouvez résilier votre abonnement à tout moment. Votre plan restera actif jusqu'à la fin de votre période de facturation actuelle, et vous pourrez continuer à utiliser vos crédits restants jusqu'à ce qu'ils expirent.",
+        "question": "Puis-je résilier mon abonnement à tout moment ?"
+      },
+      {
+        "answer": "Chaque quota de crédits est assorti d'un délai d'expiration. La durée exacte dépend de votre plan d'abonnement et de la date à laquelle les crédits ont été accordés. Vous pouvez vérifier la date d'expiration de vos crédits dans le tableau de bord de votre compte. Les crédits sont consommés selon le principe du premier entré, premier sorti.",
+        "question": "Quelle est la durée de validité des crédits après l'achat ?"
+      }
+    ],
+    "subtitle": "Trouvez les réponses aux questions les plus fréquentes sur nos plans tarifaires et nos services.",
+    "title": "Questions fréquemment posées"
+  },
+  "meta": {
+    "description": "Choisissez le plan idéal pour vos besoins. Des options de tarification flexibles pour les particuliers et les entreprises avec une génération d'images alimentée par l'IA.",
+    "title": "Plans de tarification"
+  },
+  "recommended": "Les plus populaires",
+  "status": {
+    "configuring": "Configurer...",
+    "current": "Plan actuel",
+    "downgrade": "Rétrogradation",
+    "loading": "Chargement...",
+    "processing": "Traitement...",
+    "scheduled": "Prévu",
+    "upgrade": "Mise à niveau"
+  },
+  "subtitle": "Des options tarifaires flexibles pour répondre aux besoins des particuliers et des entreprises",
   "tiers": [
     {
-      "name": "Essai",
-      "description": "{quota} crédits d'allocation",
-      "cta": "Essayer Maintenant",
+      "cta": "Essayer",
+      "description": "{quota} crédits de quotas",
       "features": [
-        "{quota} crédits d'allocation",
+        "{quota} quotas de crédits",
         "Peut générer jusqu'à {quota}/5 images de haute qualité",
-        "Tous les modèles IA standards",
+        "Tous les modèles AI standard",
         "Haute résolution (1024x1024)",
-        "Export sans filigrane"
+        "Exportation sans filigrane"
       ],
+      "name": "Procès",
       "unsupportedFeatures": [
         "Renouvellement automatique",
         "Résolution ultra-haute",
-        "Génération par lots",
-        "Support prioritaire"
+        "Génération de lots",
+        "Soutien prioritaire"
       ]
     },
     {
-      "name": "De Base",
+      "cta": "S'abonner",
       "description": "Pour les utilisateurs individuels et les petits projets",
-      "cta": "S'abonner Maintenant",
       "features": [
-        "{quota} crédits d'allocation",
+        "{quota} quotas de crédits",
         "Peut générer jusqu'à {quota}/5 images de haute qualité",
-        "Modèles IA standards",
+        "Modèles standard d'IA",
         "Haute résolution (1024x1024)",
-        "File d'attente de génération prioritaire",
-        "Export sans filigrane",
-        "Support client par e-mail",
+        "File d'attente pour la génération de priorités",
+        "Exportation sans filigrane",
+        "Support client par courriel",
         "Licence d'utilisation commerciale"
       ],
+      "name": "De base",
       "unsupportedFeatures": [
         "Résolution ultra-haute",
-        "Génération par lots"
+        "Génération de lots"
       ]
     },
     {
-      "name": "Pro",
-      "description": "Pour les créateurs professionnels et la collaboration d'équipe",
-      "cta": "S'abonner Maintenant",
+      "cta": "S'abonner",
+      "description": "Pour les créateurs professionnels et la collaboration en équipe",
       "features": [
-        "{quota} crédits d'allocation",
+        "{quota} quotas de crédits",
         "Peut générer jusqu'à {quota}/5 images de haute qualité",
-        "Tous les modèles IA avancés",
-        "Résolution ultra-haute (2048x2048)",
-        "File d'attente de priorité maximale",
-        "Génération par lots",
-        "Export sans filigrane",
-        "Support client prioritaire",
+        "Tous les modèles d'IA avancés",
+        "Très haute résolution (2048x2048)",
+        "File d'attente la plus prioritaire",
+        "Génération de lots",
+        "Exportation sans filigrane",
+        "Assistance prioritaire à la clientèle",
         "Licence d'utilisation commerciale"
-      ]
+      ],
+      "name": "Pro"
     },
     {
-      "name": "Gratuit",
-      "description": "Parfait pour l'essai personnel et l'utilisation légère",
       "cta": "Commencer",
+      "description": "Parfait pour un essai personnel et un usage léger",
       "features": [
-        "{quota} crédits d'allocation par jour",
+        "{quota} quota de crédits par jour",
         "Peut générer jusqu'à {quota}/5 images par jour",
-        "Modèles IA de base",
+        "Modèles d'IA de base",
         "Résolution standard (512x512)"
       ],
+      "name": "Gratuit",
       "unsupportedFeatures": [
         "Haute résolution",
         "File d'attente prioritaire",
-        "Export sans filigrane",
-        "Support client"
+        "Exportation sans filigrane",
+        "Soutien à la clientèle"
       ]
     }
   ],
-  "faq": {
-    "badge": "FAQ",
-    "title": "Questions Fréquemment Posées",
-    "subtitle": "Trouvez des réponses aux questions courantes sur nos plans de tarification et services",
-    "items": [
-      {
-        "question": "Comment fonctionnent les crédits?",
-        "answer": "Les crédits sont utilisés pour générer des images avec nos modèles IA. Chaque génération d'image consomme un certain nombre de crédits selon la résolution et le modèle utilisés. Les utilisateurs gratuits reçoivent 30 crédits quotidiens, tandis que les abonnés au plan De Base reçoivent 1 500 crédits mensuels (ou 18 000 annuels) et les abonnés au plan Pro reçoivent 7 500 crédits mensuels (ou 90 000 annuels)."
-      },
-      {
-        "question": "Quelle est la différence entre les plans mensuels et annuels?",
-        "answer": "Les plans annuels offrent une réduction de 20% par rapport aux plans mensuels. Par exemple, le plan De Base mensuel coûte 15 $/mois (1 500 crédits), tandis que le plan De Base annuel coûte 144 $/an (18 000 crédits au total). Vous économisez de l'argent et obtenez plus de valeur avec les abonnements annuels."
-      },
-      {
-        "question": "Puis-je mettre à niveau ou rétrograder mon plan?",
-        "answer": "Oui! Vous pouvez mettre à niveau votre plan à tout moment, et la différence de prix sera calculée au prorata. Lors de la mise à niveau, vous recevrez immédiatement le quota de crédits complet du nouveau plan. Les réductions prennent effet au début de votre prochain cycle de facturation."
-      },
-      {
-        "question": "Que se passe-t-il avec les crédits non utilisés?",
-        "answer": "Pour les utilisateurs gratuits, les crédits quotidiens se réinitialisent chaque jour et ne s'accumulent pas. Pour les abonnés, les crédits expirent en fonction de leur date d'expiration. Chaque quota de crédit a sa propre période d'expiration, et les crédits non utilisés expireront automatiquement quand cette période se terminera."
-      },
-      {
-        "question": "Comment fonctionne le calcul du quota de crédits?",
-        "answer": "Pour les plans mensuels, vous obtenez 100 crédits par dollar dépensé. Pour les plans annuels, vous obtenez 100 crédits par dollar × 12 mois. Par exemple: Plan De Base mensuel (15$) = 1 500 crédits, Plan De Base annuel (144$) = 18 000 crédits."
-      },
-      {
-        "question": "Puis-je basculer entre la facturation mensuelle et annuelle?",
-        "answer": "Oui! Le passage de la facturation mensuelle à annuelle au sein du même niveau de plan (par exemple, De Base mensuel à De Base annuel) est considéré comme un changement, pas une mise à niveau. Le nouveau cycle de facturation entrera en vigueur selon la politique de changement de plan."
-      },
-      {
-        "question": "Que se passe-t-il quand je mets à niveau en cours de cycle?",
-        "answer": "Quand vous mettez à niveau, vous serez facturé un montant au prorata pour le reste de votre période de facturation actuelle. Vous recevrez immédiatement le quota de crédits complet de votre nouveau plan, et tous les crédits existants restent disponibles jusqu'à leur date d'expiration."
-      },
-      {
-        "question": "Puis-je utiliser les images générées commercialement?",
-        "answer": "Les utilisateurs du plan gratuit peuvent utiliser les images générées pour des projets personnels uniquement. Les abonnés des plans De Base et Pro reçoivent une licence d'utilisation commerciale, vous permettant d'utiliser les images à des fins commerciales, pour des matériaux marketing et des projets clients."
-      },
-      {
-        "question": "Quelle est la différence entre les plans De Base et Pro?",
-        "answer": "Le plan Pro offre 5 fois plus de crédits que De Base, plus l'accès à tous les modèles IA avancés, résolution ultra-haute (2048x2048), fonctionnalités de génération par lots et support client prioritaire. Le plan De Base est idéal pour les particuliers, tandis que Pro est conçu pour les créateurs professionnels et les équipes."
-      },
-      {
-        "question": "Quelles méthodes de paiement acceptez-vous?",
-        "answer": "Nous nous intégrons avec la plateforme de paiement Creem qui prend en charge diverses méthodes de paiement. Toutes les transactions sont traitées de manière sécurisée par leur passerelle de paiement."
-      },
-      {
-        "question": "Puis-je annuler mon abonnement à tout moment?",
-        "answer": "Oui, vous pouvez annuler votre abonnement à tout moment. Votre plan restera actif jusqu'à la fin de votre période de facturation actuelle, et vous pouvez continuer à utiliser vos crédits restants jusqu'à leur expiration."
-      },
-      {
-        "question": "Combien de temps les crédits durent-ils après l'achat?",
-        "answer": "Chaque quota de crédit a sa propre période d'expiration. La durée exacte dépend de votre plan d'abonnement et du moment où les crédits ont été accordés. Vous pouvez vérifier la date d'expiration de vos crédits dans le tableau de bord de votre compte. Les crédits sont consommés selon le principe du premier entré, premier sorti."
-      }
-    ]
-  }
+  "title": "Choisissez votre plan"
 }

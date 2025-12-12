@@ -1,0 +1,564 @@
+{
+  "entries": {
+    "16:9 (Landscape)": {
+      "translation": "16:9（横長）",
+      "timestamp": 1765576972
+    },
+    "1:1 (Square)": {
+      "translation": "1:1（正方形）",
+      "timestamp": 1765576972
+    },
+    "21:9 (Ultrawide)": {
+      "translation": "21:9（ウルトラワイド）",
+      "timestamp": 1765576972
+    },
+    "3:4 (Portrait)": {
+      "translation": "3:4（ポートレート）",
+      "timestamp": 1765576972
+    },
+    "4:3 (Standard)": {
+      "translation": "4:3（標準）",
+      "timestamp": 1765576972
+    },
+    "9:16 (Portrait)": {
+      "translation": "9:16 (ポートレート)",
+      "timestamp": 1765576972
+    },
+    "AI Creating": {
+      "translation": "AIの創造",
+      "timestamp": 1765576972
+    },
+    "AI Generator": {
+      "translation": "AIジェネレーター",
+      "timestamp": 1765576972
+    },
+    "Add": {
+      "translation": "追加",
+      "timestamp": 1765576972
+    },
+    "Add Image URL": {
+      "translation": "画像URLの追加",
+      "timestamp": 1765576972
+    },
+    "Add Item": {
+      "translation": "アイテムを追加",
+      "timestamp": 1765576972
+    },
+    "Add LoRA": {
+      "translation": "00032}を追加",
+      "timestamp": 1765576972
+    },
+    "Advanced Settings": {
+      "translation": "詳細設定",
+      "timestamp": 1765576972
+    },
+    "Art Gallery": {
+      "translation": "アートギャラリー",
+      "timestamp": 1765576972
+    },
+    "Aspect Ratio": {
+      "translation": "アスペクト比",
+      "timestamp": 1765576972
+    },
+    "ByteDance": {
+      "translation": "ByteDance",
+      "timestamp": 1765576972
+    },
+    "ByteDance Seedream 4.5, ultra-high quality image generation with large resolution output": {
+      "translation": "ByteDanceSeedream 4.5、大解像度出力による超高画質画像生成",
+      "timestamp": 1765576972
+    },
+    "Cancel": {
+      "translation": "キャンセル",
+      "timestamp": 1765576972
+    },
+    "Choose from the LoRA library and customize scale for personalized styles": {
+      "translation": "00013}ライブラリから選択し、パーソナライズされたスタイルのためにスケールをカスタマイズする",
+      "timestamp": 1765576972
+    },
+    "Click \"Add LoRA\" button to start configuration": {
+      "translation": "Add LoRA」ボタンをクリックして設定を開始します。",
+      "timestamp": 1765576972
+    },
+    "Click a LoRA card on the left to select": {
+      "translation": "左のLoRAカードをクリックして選択する",
+      "timestamp": 1765576972
+    },
+    "Click an example below to start creating, or fill out the form on the left to customize": {
+      "translation": "下の例をクリックして作成を開始するか、左のフォームに記入してカスタマイズしてください。",
+      "timestamp": 1765576972
+    },
+    "Click the button above to add LoRA configuration": {
+      "translation": "00012}の設定を追加するには、上のボタンをクリックしてください。",
+      "timestamp": 1765576972
+    },
+    "Click to use this example": {
+      "translation": "この例を使用するにはクリックしてください。",
+      "timestamp": 1765576972
+    },
+    "Coming Soon": {
+      "translation": "近日公開",
+      "timestamp": 1765576972
+    },
+    "Completed Time": {
+      "translation": "完了時間",
+      "timestamp": 1765576972
+    },
+    "Configuration": {
+      "translation": "構成",
+      "timestamp": 1765576972
+    },
+    "Confirm": {
+      "translation": "確認",
+      "timestamp": 1765576972
+    },
+    "Create amazing content with powerful AI models": {
+      "translation": "強力なAIモデルで素晴らしいコンテンツを作成",
+      "timestamp": 1765576972
+    },
+    "Create stunning AI-generated images with our powerful AI image generation tool. Fast, professional, and easy to use.": {
+      "translation": "パワフルなAI画像生成ツールで、魅力的なAI生成画像を作成しましょう。高速で、プロフェッショナルで、使いやすい。",
+      "timestamp": 1765576972
+    },
+    "Creative": {
+      "translation": "クリエイティブ",
+      "timestamp": 1765576972
+    },
+    "Credits": {
+      "translation": "クレジット",
+      "timestamp": 1765576972
+    },
+    "Currency": {
+      "translation": "通貨",
+      "timestamp": 1765576972
+    },
+    "Current": {
+      "translation": "現在",
+      "timestamp": 1765576972
+    },
+    "Customizable": {
+      "translation": "カスタマイズ可能",
+      "timestamp": 1765576972
+    },
+    "Describe the image you want to generate...": {
+      "translation": "生成したいイメージを記述する...",
+      "timestamp": 1765576972
+    },
+    "Development Progress": {
+      "translation": "開発の進捗状況",
+      "timestamp": 1765576972
+    },
+    "Download All ({count})": {
+      "translation": "すべてダウンロード ({count})",
+      "timestamp": 1765576972
+    },
+    "Download Current": {
+      "translation": "ダウンロード",
+      "timestamp": 1765576972
+    },
+    "Education": {
+      "translation": "教育",
+      "timestamp": 1765576972
+    },
+    "Enter LoRA configuration in JSON format, e.g., model name, weight, and other parameters": {
+      "translation": "00005}設定をJSON形式で入力（モデル名、体重、その他のパラメータなど",
+      "timestamp": 1765576972
+    },
+    "Enter image URL": {
+      "translation": "画像のURLを入力",
+      "timestamp": 1765576972
+    },
+    "Exciting Features on the Way": {
+      "translation": "エキサイティングな機能の登場",
+      "timestamp": 1765576972
+    },
+    "Expected to launch soon": {
+      "translation": "近日発売予定",
+      "timestamp": 1765576972
+    },
+    "Explore powerful image utilities including upscaling, enhancement, format conversion, and batch processing": {
+      "translation": "アップスケール、エンハンス、フォーマット変換、バッチ処理など、強力な画像ユーティリティを利用できます。",
+      "timestamp": 1765576972
+    },
+    "Fast": {
+      "translation": "ほとんど",
+      "timestamp": 1765576972
+    },
+    "Fast Processing": {
+      "translation": "高速処理",
+      "timestamp": 1765576972
+    },
+    "Film Style": {
+      "translation": "映画スタイル",
+      "timestamp": 1765576972
+    },
+    "Flux Series": {
+      "translation": "Fluxシリーズ",
+      "timestamp": 1765576972
+    },
+    "Generate Image (Cost {credits} Quota)": {
+      "translation": "画像の生成 (コスト {credits} クォータ)",
+      "timestamp": 1765576972
+    },
+    "Generated Results": {
+      "translation": "生成された結果",
+      "timestamp": 1765576972
+    },
+    "Generating amazing content for you, please wait...": {
+      "translation": "あなたのために素晴らしいコンテンツを生成しています。",
+      "timestamp": 1765576972
+    },
+    "Generating... {progress}%": {
+      "translation": "生成中...{progress}%",
+      "timestamp": 1765576972
+    },
+    "Generation Failed": {
+      "translation": "世代が失敗",
+      "timestamp": 1765576972
+    },
+    "Generation Time": {
+      "translation": "ジェネレーション・タイム",
+      "timestamp": 1765576972
+    },
+    "Go to example {index}": {
+      "translation": "00023}の例へ",
+      "timestamp": 1765576972
+    },
+    "High Quality": {
+      "translation": "高品質",
+      "timestamp": 1765576972
+    },
+    "Hint: You can drag and drop a file or click to upload": {
+      "translation": "ヒント：ファイルをドラッグ＆ドロップするか、クリックしてアップロードすることができます。",
+      "timestamp": 1765576972
+    },
+    "Image generation failed": {
+      "translation": "画像生成に失敗",
+      "timestamp": 1765576972
+    },
+    "Image to Image": {
+      "translation": "画像から画像へ",
+      "timestamp": 1765576972
+    },
+    "Initializing": {
+      "translation": "初期化",
+      "timestamp": 1765576972
+    },
+    "Insufficient Credits": {
+      "translation": "単位不足",
+      "timestamp": 1765576972
+    },
+    "Intelligent automation": {
+      "translation": "インテリジェント・オートメーション",
+      "timestamp": 1765576972
+    },
+    "Latest": {
+      "translation": "最新",
+      "timestamp": 1765576972
+    },
+    "Leave blank for random": {
+      "translation": "ランダムの場合は空白のまま",
+      "timestamp": 1765576972
+    },
+    "Lightning-fast generation, optimized for high-quality creative output with exceptional speed": {
+      "translation": "高品質なクリエイティブアウトプットのために最適化された、光速ジェネレーション。",
+      "timestamp": 1765576972
+    },
+    "Lightning-fast results": {
+      "translation": "光速の結果",
+      "timestamp": 1765576972
+    },
+    "LoRA Config": {
+      "translation": "LoRA設定",
+      "timestamp": 1765576972
+    },
+    "LoRA Support": {
+      "translation": "LoRAサポート",
+      "timestamp": 1765576972
+    },
+    "Loading...": {
+      "translation": "読み込み中...",
+      "timestamp": 1765576972
+    },
+    "Manage": {
+      "translation": "管理",
+      "timestamp": 1765576972
+    },
+    "Manage LoRA": {
+      "translation": "00033}を管理する",
+      "timestamp": 1765576972
+    },
+    "Math": {
+      "translation": "数学",
+      "timestamp": 1765576972
+    },
+    "Minimalist": {
+      "translation": "ミニマリスト",
+      "timestamp": 1765576972
+    },
+    "Moody": {
+      "translation": "ムーディ",
+      "timestamp": 1765576972
+    },
+    "More": {
+      "translation": "もっと見る",
+      "timestamp": 1765576972
+    },
+    "More Image Tools": {
+      "translation": "その他の画像ツール",
+      "timestamp": 1765576972
+    },
+    "Nano Series": {
+      "translation": "ナノシリーズ",
+      "timestamp": 1765576972
+    },
+    "No LoRA available": {
+      "translation": "00007}はありません",
+      "timestamp": 1765576972
+    },
+    "No LoRA configured": {
+      "translation": "設定されていない{00034｝",
+      "timestamp": 1765576972
+    },
+    "No LoRA configured yet": {
+      "translation": "00001}はまだ設定されていない",
+      "timestamp": 1765576972
+    },
+    "No LoRA selected": {
+      "translation": "00025}が選択されていない",
+      "timestamp": 1765576972
+    },
+    "No examples available": {
+      "translation": "例なし",
+      "timestamp": 1765576972
+    },
+    "No matching LoRA found": {
+      "translation": "一致するLoRAが見つからない",
+      "timestamp": 1765576972
+    },
+    "Output Format": {
+      "translation": "出力フォーマット",
+      "timestamp": 1765576972
+    },
+    "Parameter Error": {
+      "translation": "パラメーター・エラー",
+      "timestamp": 1765576972
+    },
+    "Photorealistic": {
+      "translation": "フォトリアリスティック",
+      "timestamp": 1765576972
+    },
+    "Photorealistic AI image generation with accurate bilingual text rendering, sub-second speed": {
+      "translation": "フォトリアリスティックなAI画像生成、正確なバイリンガルテキストレンダリング、秒以下のスピード",
+      "timestamp": 1765576972
+    },
+    "Please create or import LoRA models first": {
+      "translation": "00020}モデルを作成またはインポートしてください。",
+      "timestamp": 1765576972
+    },
+    "Please enter a prompt": {
+      "translation": "プロンプトを入力してください",
+      "timestamp": 1765576972
+    },
+    "Please enter valid JSON format configuration": {
+      "translation": "有効なJSON形式の設定を入力してください。",
+      "timestamp": 1765576972
+    },
+    "Please recharge and try again": {
+      "translation": "リチャージして再試行してください。",
+      "timestamp": 1765576972
+    },
+    "Please select": {
+      "translation": "選択してください",
+      "timestamp": 1765576972
+    },
+    "Portrait": {
+      "translation": "ポートレート",
+      "timestamp": 1765576972
+    },
+    "Powerful AI": {
+      "translation": "強力なAI",
+      "timestamp": 1765576972
+    },
+    "Private Mode": {
+      "translation": "プライベート・ファッション",
+      "timestamp": 1765576972
+    },
+    "Professional": {
+      "translation": "プロフェッショナル",
+      "timestamp": 1765576972
+    },
+    "Professional-grade image generation model, supports text-to-image and image-to-image with high-quality output": {
+      "translation": "プロ仕様の画像生成モデル、テキストから画像へ、画像から画像への高品質出力をサポート",
+      "timestamp": 1765576972
+    },
+    "Prompt": {
+      "translation": "プロンプト",
+      "timestamp": 1765576972
+    },
+    "Query Status Failed": {
+      "translation": "クエリー・ステータスが失敗",
+      "timestamp": 1765576972
+    },
+    "Quick Start": {
+      "translation": "クイックスタート",
+      "timestamp": 1765576972
+    },
+    "Quota": {
+      "translation": "ノルマ",
+      "timestamp": 1765576972
+    },
+    "Refresh quota": {
+      "translation": "リフレッシュ・クォータ",
+      "timestamp": 1765576972
+    },
+    "Required": {
+      "translation": "必須",
+      "timestamp": 1765576972
+    },
+    "Resolution": {
+      "translation": "決議",
+      "timestamp": 1765576972
+    },
+    "Results will only be visible to you": {
+      "translation": "結果はあなたにのみ表示されます。",
+      "timestamp": 1765576972
+    },
+    "Retro": {
+      "translation": "レトロ",
+      "timestamp": 1765576972
+    },
+    "Scale": {
+      "translation": "階段",
+      "timestamp": 1765576972
+    },
+    "Search LoRA name, description, or trigger word...": {
+      "translation": "検索 LoRA名前、説明、またはトリガーワード...",
+      "timestamp": 1765576972
+    },
+    "Seed": {
+      "translation": "シード",
+      "timestamp": 1765576972
+    },
+    "Seedream Series": {
+      "translation": "Seedream Series",
+      "timestamp": 1765576972
+    },
+    "Select LoRA": {
+      "translation": "00002}を選択する。",
+      "timestamp": 1765576972
+    },
+    "Select LoRA Model": {
+      "translation": "00024}を選択モデル",
+      "timestamp": 1765576972
+    },
+    "Select aspect ratio": {
+      "translation": "アスペクト比の選択",
+      "timestamp": 1765576972
+    },
+    "Select image size": {
+      "translation": "画像サイズの選択",
+      "timestamp": 1765576972
+    },
+    "Select output format": {
+      "translation": "出力形式の選択",
+      "timestamp": 1765576972
+    },
+    "Select resolution": {
+      "translation": "解像度を選択",
+      "timestamp": 1765576972
+    },
+    "Selected": {
+      "translation": "厳選された",
+      "timestamp": 1765576972
+    },
+    "Size": {
+      "translation": "サイズ",
+      "timestamp": 1765576972
+    },
+    "Smart Features": {
+      "translation": "スマートな機能",
+      "timestamp": 1765576972
+    },
+    "State-of-the-art technology": {
+      "translation": "最先端技術",
+      "timestamp": 1765576972
+    },
+    "Steps": {
+      "translation": "ステップ",
+      "timestamp": 1765576972
+    },
+    "Stylized": {
+      "translation": "スタイライズド",
+      "timestamp": 1765576972
+    },
+    "Sub-second": {
+      "translation": "秒以下",
+      "timestamp": 1765576972
+    },
+    "Subscribe": {
+      "translation": "サブスクライブ",
+      "timestamp": 1765576972
+    },
+    "Subscribe to enable private mode": {
+      "translation": "プライベートモードを有効にする",
+      "timestamp": 1765576972
+    },
+    "Text Render": {
+      "translation": "テキストレンダリング",
+      "timestamp": 1765576972
+    },
+    "Text to Image": {
+      "translation": "テキストから画像へ",
+      "timestamp": 1765576972
+    },
+    "Ultra HD": {
+      "translation": "ウルトラHD",
+      "timestamp": 1765576972
+    },
+    "Unable to query task status": {
+      "translation": "タスクのステータスを照会できない",
+      "timestamp": 1765576972
+    },
+    "Upload Image": {
+      "translation": "画像のアップロード",
+      "timestamp": 1765576972
+    },
+    "Uploading...": {
+      "translation": "アップロード...",
+      "timestamp": 1765576972
+    },
+    "Use This Example": {
+      "translation": "この例を使う",
+      "timestamp": 1765576972
+    },
+    "Versatile": {
+      "translation": "多用途",
+      "timestamp": 1765576972
+    },
+    "We're working hard to bring you amazing new capabilities. Stay tuned for updates!": {
+      "translation": "私たちは、皆様に素晴らしい新機能をお届けできるよう努力しています。アップデートにご期待ください！",
+      "timestamp": 1765576972
+    },
+    "Z-Image Series": {
+      "translation": "Z-Imageシリーズ",
+      "timestamp": 1765576972
+    },
+    "Z-Image Turbo LoRA version with custom LoRA model support for stylized creations": {
+      "translation": "Z-Image Turbo LoRAバージョン、カスタムLoRAモデルをサポート、スタイル化された作品に対応",
+      "timestamp": 1765576972
+    },
+    "{count} LoRA(s) selected": {
+      "translation": "{count}LoRA(s)を選択",
+      "timestamp": 1765576972
+    },
+    "{count} file(s)": {
+      "translation": "{count}ファイル",
+      "timestamp": 1765576972
+    },
+    "{seconds}s": {
+      "translation": "{seconds}s",
+      "timestamp": 1765576972
+    }
+  }
+}

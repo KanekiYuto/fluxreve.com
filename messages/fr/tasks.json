@@ -1,86 +1,85 @@
 {
-  "seo": {
-    "title": "Historique",
-    "description": "Visualisez et gérez tout votre historique de génération d'images IA"
+  "card": {
+    "cancelDelete": "Annuler",
+    "confirmDelete": "Supprimer",
+    "confirmDeleteMessage": "Êtes-vous sûr de vouloir supprimer cette tâche ? Cette action ne peut pas être annulée.",
+    "confirmDeleteTitle": "Supprimer une tâche",
+    "delete": "Supprimer",
+    "deleting": "Suppression...",
+    "makePrivate": "Rendre privé",
+    "makePublic": "Rendre public",
+    "private": "Privé",
+    "public": "Public"
   },
-  "header": {
-    "title": "Historique",
-    "subtitle": "Visualisez et gérez tout votre historique de génération"
+  "empty": {
+    "cta": "Commencer à créer",
+    "filteredSubtitle": "Essayez de modifier les options du filtre",
+    "filteredTitle": "Pas de tâches correspondantes",
+    "subtitle": "Commencez à créer votre première image AI",
+    "title": "Pas encore de tâches"
   },
-  "loginPrompt": {
-    "title": "Connexion pour Afficher l'Historique",
-    "description": "Connectez-vous pour afficher tout votre historique de génération d'images IA",
-    "cta": "Se Connecter"
+  "errors": {
+    "fetchFailed": "Échec de l'extraction des tâches",
+    "retry": "Réessayer"
   },
   "filter": {
     "all": "Tous",
-    "completed": "Complété",
-    "processing": "Traitement",
-    "pending": "En Attente",
-    "failed": "Échoué",
-    "statusLabel": "Statut",
-    "taskTypeLabel": "Type",
-    "taskType": {
-      "all": "Tous",
-      "text-to-image": "Texte vers Image",
-      "image-to-image": "Image vers Image"
-    },
-    "modelLabel": "Modèle",
+    "clearAll": "Clair",
+    "completed": "Terminé",
+    "failed": "Échec",
     "model": {
       "all": "Tous",
+      "flux-2-pro": "FLUX 2 Pro",
       "nano-banana-pro": "Nano Banana Pro",
       "z-image": "Z-Image",
-      "z-image-lora": "Z-Image LoRA",
-      "flux-2-pro": "FLUX 2 Pro"
+      "z-image-lora": "Z-Image LoRA"
     },
-    "privacyLabel": "Confidentialité",
+    "modelLabel": "Modèle",
+    "nsfw": {
+      "nsfw": "NSFW",
+      "safe": "Sûr"
+    },
+    "nsfwLabel": "Contenu",
+    "pending": "En attente",
     "privacy": {
       "private": "Privé",
       "public": "Public"
     },
-    "nsfwLabel": "Contenu",
-    "nsfw": {
-      "safe": "Sûr",
-      "nsfw": "Sensible"
-    },
+    "privacyLabel": "Vie privée",
+    "processing": "Traitement",
     "selectPlaceholder": "Sélectionner...",
     "selectedCount": "{count} sélectionné",
-    "title": "Filtres",
-    "clearAll": "Effacer"
+    "statusLabel": "Statut",
+    "taskType": {
+      "all": "Tous",
+      "image-to-image": "Image à image",
+      "text-to-image": "Du texte à l'image"
+    },
+    "taskTypeLabel": "Type",
+    "title": "Filtres"
+  },
+  "header": {
+    "subtitle": "Consultez et gérez l'historique de vos générations",
+    "title": "L'histoire"
+  },
+  "loginPrompt": {
+    "cta": "S'inscrire",
+    "description": "Connectez-vous pour consulter l'historique de votre génération d'images d'IA",
+    "title": "Se connecter pour voir l'historique"
+  },
+  "noPrompt": "A l'invite",
+  "pagination": {
+    "next": "Suivant",
+    "prev": "Précédent"
+  },
+  "seo": {
+    "description": "Visualisez et gérez l'historique de la génération d'images d'IA",
+    "title": "L'histoire"
   },
   "status": {
-    "completed": "Complété",
-    "processing": "Traitement",
-    "pending": "En Attente",
-    "failed": "Échoué"
-  },
-  "empty": {
-    "title": "Aucune Tâche Encore",
-    "subtitle": "Commencez par créer votre première image IA",
-    "filteredTitle": "Aucune Tâche Correspondante",
-    "filteredSubtitle": "Essayez de changer les options de filtre",
-    "cta": "Commencer à Créer"
-  },
-  "noPrompt": "Pas de requête",
-  "card": {
-    "delete": "Supprimer",
-    "confirmDelete": "Supprimer",
-    "confirmDeleteTitle": "Supprimer la Tâche",
-    "confirmDeleteMessage": "Êtes-vous sûr de vouloir supprimer cette tâche? Cette action ne peut pas être annulée.",
-    "cancelDelete": "Annuler",
-    "deleting": "Suppression en cours...",
-    "private": "Privé",
-    "public": "Public",
-    "makePrivate": "Rendre Privé",
-    "makePublic": "Rendre Public"
-  },
-  "errors": {
-    "fetchFailed": "Échec de la récupération des tâches",
-    "retry": "Réessayer"
-  },
-  "pagination": {
-    "prev": "Précédent",
-    "next": "Suivant"
+    "completed": "Terminé",
+    "failed": "Échec",
+    "pending": "En attente",
+    "processing": "Traitement"
   }
 }
-

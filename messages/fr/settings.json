@@ -1,48 +1,48 @@
 {
-  "seo": {
-    "title": "Paramètres",
-    "description": "Gérez vos paramètres de compte et vos préférences"
-  },
-  "title": "Paramètres",
-  "subtitle": "Gérez vos paramètres de compte et vos préférences",
-  "loginRequired": {
-    "title": "Connexion Requise",
-    "description": "Veuillez vous connecter pour accéder à vos paramètres et gérer votre compte.",
-    "cta": "Se Connecter Maintenant"
-  },
-  "sections": {
-    "profile": {
-      "title": "Informations de Profil",
-      "name": "Nom",
-      "email": "Adresse E-mail",
-      "plan": "Plan Actuel",
-      "verified": "Vérifié",
-      "notSet": "Non défini"
-    },
-    "preferences": {
-      "title": "Préférences",
-      "notifications": "Notifications par E-mail",
-      "notificationsDesc": "Recevez des mises à jour et des notifications par e-mail"
-    },
-    "connections": {
-      "title": "Comptes Connectés",
-      "googleConnected": "Vous pouvez utiliser votre compte Google pour vous connecter à votre compte.",
-      "googleNotConnected": "Connectez votre compte Google pour activer cette méthode de connexion.",
-      "githubConnected": "Vous pouvez utiliser votre compte GitHub pour vous connecter à votre compte.",
-      "githubNotConnected": "Connectez votre compte GitHub pour activer cette méthode de connexion.",
-      "connected": "Connecté"
-    }
+  "about": {
+    "releaseDate": "Date de sortie",
+    "title": "A propos de",
+    "version": "Version"
   },
   "actions": {
-    "edit": "Modifier",
     "change": "Changer",
+    "copy": "Copie",
+    "edit": "Editer",
     "enable": "Activer",
-    "upgrade": "Mettre à Jour le Plan",
-    "copy": "Copier"
+    "upgrade": "Plan de mise à niveau"
   },
-  "about": {
-    "title": "À propos",
-    "version": "Version",
-    "releaseDate": "Date de Publication"
-  }
+  "loginRequired": {
+    "cta": "S'inscrire maintenant",
+    "description": "Veuillez vous connecter pour accéder à vos paramètres et gérer votre compte.",
+    "title": "Connexion requise"
+  },
+  "sections": {
+    "connections": {
+      "connected": "Connecté",
+      "githubConnected": "Vous pouvez utiliser votre compte GitHub pour vous connecter à votre compte.",
+      "githubNotConnected": "Connectez votre compte GitHub pour activer cette méthode de connexion.",
+      "googleConnected": "Vous pouvez utiliser votre compte Google pour vous connecter à votre compte.",
+      "googleNotConnected": "Connectez votre compte Google pour activer cette méthode de connexion.",
+      "title": "Comptes connectés"
+    },
+    "preferences": {
+      "notifications": "Notifications par courrier électronique",
+      "notificationsDesc": "Recevoir des mises à jour et des notifications par courrier électronique",
+      "title": "Préférences"
+    },
+    "profile": {
+      "email": "Adresse électronique",
+      "name": "Nom",
+      "notSet": "Non défini",
+      "plan": "Plan actuel",
+      "title": "Informations sur le profil",
+      "verified": "Vérifié"
+    }
+  },
+  "seo": {
+    "description": "Gérer les paramètres et les préférences de votre compte",
+    "title": "Paramètres"
+  },
+  "subtitle": "Gérer les paramètres et les préférences de votre compte",
+  "title": "Paramètres"
 }

@@ -1,43 +1,43 @@
 {
-  "seo": {
-    "title": "Hilfecenter",
-    "description": "Finden Sie Antworten auf häufige Fragen und erhalten Sie Unterstützung für die {siteName} KI-Bildgenerierungsplattform"
-  },
-  "title": "Hilfecenter",
-  "subtitle": "Finden Sie Antworten auf häufige Fragen und erhalten Sie Unterstützung",
   "contact": {
-    "title": "Brauchen Sie Hilfe?",
-    "description": "Können Sie nicht finden, wonach Sie suchen? Kontaktieren Sie unser Support-Team und wir werden uns so schnell wie möglich bei Ihnen melden.",
-    "email": "Support kontaktieren"
+    "description": "Sie können nicht finden, wonach Sie suchen? Wenden Sie sich an unser Support-Team und wir melden uns so schnell wie möglich bei Ihnen.",
+    "email": "Kontakt zum Support",
+    "title": "Brauchen Sie Hilfe?"
   },
   "faq": {
-    "title": "Häufig gestellte Fragen",
-    "subtitle": "Finden Sie Antworten auf häufige Fragen zur Nutzung unserer KI-Bildgenerierungsplattform",
     "items": [
       {
-        "question": "Wie fange ich mit dem KI-Generator an?",
-        "answer": "Der Einstieg ist einfach! Navigieren Sie einfach zur KI-Generator-Seite, geben Sie Ihren Prompt ein, der beschreibt, was Sie erstellen möchten, wählen Sie Ihre bevorzugten Einstellungen und klicken Sie auf die Schaltfläche \"Generieren\". Ihr KI-generiertes Bild ist in Sekunden fertig."
+        "answer": "Die ersten Schritte sind einfach! Navigieren Sie einfach zur Seite des AI-Generators, geben Sie Ihre Eingabeaufforderung ein, die beschreibt, was Sie erstellen möchten, wählen Sie Ihre bevorzugten Einstellungen aus und klicken Sie auf die Schaltfläche \"Generieren\". Ihr AI-generiertes Bild ist in wenigen Sekunden fertig.",
+        "question": "Wie kann ich mit AI Generator arbeiten?"
       },
       {
-        "question": "Welche Bildformate werden unterstützt?",
-        "answer": "Wir unterstützen alle gängigen Bildformate, einschließlich PNG, JPG und WebP. Sie können Ihre generierten Bilder in dem Format herunterladen, das am besten zu Ihren Bedürfnissen passt."
+        "answer": "Wir unterstützen alle gängigen Bildformate, einschließlich PNG, JPG und WebP. Sie können die erzeugten Bilder in dem Format herunterladen, das Ihren Anforderungen am besten entspricht.",
+        "question": "Welche Bildformate werden unterstützt?"
       },
       {
-        "question": "Wie viele Bilder kann ich generieren?",
-        "answer": "Die Anzahl der Bilder, die Sie generieren können, hängt von Ihrem Kreditkontingent ab. Kostenlose Benutzer erhalten täglich 30 Credits, während Basic-Plan-Abonnenten monatlich 1.500 Credits und Pro-Plan-Abonnenten monatlich 7.500 Credits erhalten. Weitere Details finden Sie auf unserer Preisseite."
+        "answer": "Die Anzahl der Bilder, die Sie generieren können, hängt von Ihrem Credit-Kontingent ab. Kostenlose Nutzer erhalten täglich 30 Credits, während Abonnenten des Basic-Tarifs monatlich 1.500 Credits und Abonnenten des Pro-Tarifs monatlich 7.500 Credits erhalten. Weitere Informationen finden Sie auf unserer Preisseite.",
+        "question": "Wie viele Bilder kann ich erstellen?"
       },
       {
-        "question": "Kann ich die generierten Bilder kommerziell nutzen?",
-        "answer": "Ja! Sowohl Basic- als auch Pro-Plan-Abonnenten erhalten eine kommerzielle Nutzungslizenz. Benutzer des kostenlosen Plans können generierte Bilder nur für persönliche Projekte verwenden."
+        "answer": "Ja! Sowohl Basic- als auch Pro-Abonnenten erhalten eine Lizenz für die kommerzielle Nutzung. Nutzer des kostenlosen Plans können die generierten Bilder nur für persönliche Projekte verwenden.",
+        "question": "Kann ich die erzeugten Bilder kommerziell nutzen?"
       },
       {
-        "question": "Was soll ich tun, wenn die Generierung fehlschlägt?",
-        "answer": "Wenn eine Generierung fehlschlägt, versuchen Sie zunächst, die Seite zu aktualisieren und es erneut zu versuchen. Stellen Sie sicher, dass Ihr Prompt klar und beschreibend ist. Wenn die Probleme bestehen bleiben, wenden Sie sich bitte mit Details zum Problem an unser Support-Team."
+        "answer": "Wenn eine Generierung fehlschlägt, versuchen Sie zunächst, die Seite zu aktualisieren und es erneut zu versuchen. Achten Sie darauf, dass Ihre Eingabeaufforderung klar und deutlich ist. Wenn die Probleme weiterhin bestehen, wenden Sie sich bitte an unser Support-Team und schildern Sie das Problem.",
+        "question": "Was soll ich tun, wenn die Erzeugung fehlschlägt?"
       },
       {
-        "question": "Wie kann ich meine Generierungsergebnisse verbessern?",
-        "answer": "Für bessere Ergebnisse versuchen Sie, in Ihren Prompts spezifisch und detailliert zu sein. Fügen Sie Informationen über Stil, Farben, Komposition und Stimmung hinzu. Experimentieren Sie mit verschiedenen Modellen und Einstellungen, um herauszufinden, was für Ihre Bedürfnisse am besten funktioniert."
+        "answer": "Um bessere Ergebnisse zu erzielen, sollten Sie versuchen, in Ihren Aufforderungen spezifisch und detailliert zu sein. Geben Sie Informationen zu Stil, Farben, Komposition und Stimmung an. Experimentieren Sie mit verschiedenen Modellen und Einstellungen, um herauszufinden, was für Ihre Bedürfnisse am besten geeignet ist.",
+        "question": "Wie kann ich meine Generierungsergebnisse verbessern?"
       }
-    ]
-  }
+    ],
+    "subtitle": "Hier finden Sie Antworten auf häufig gestellte Fragen zur Nutzung unserer KI-Bilderzeugungsplattform",
+    "title": "Häufig gestellte Fragen"
+  },
+  "seo": {
+    "description": "Finden Sie Antworten auf häufig gestellte Fragen und erhalten Sie Unterstützung für {siteName} KI-Plattform zur Bilderzeugung",
+    "title": "Hilfe-Center"
+  },
+  "subtitle": "Finden Sie Antworten auf allgemeine Fragen und erhalten Sie Unterstützung",
+  "title": "Hilfe-Center"
 }

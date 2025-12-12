@@ -1,52 +1,50 @@
 {
-  "notFound": {
-    "title": "Inhalt nicht gefunden",
-    "description": "Dieser freigegebene Inhalt wurde möglicherweise vom Ersteller gelöscht, auf privat gesetzt, der Link ist möglicherweise abgelaufen, oder Sie haben die falsche Adresse aufgerufen",
-    "createButton": "KI-Kunstwerk erstellen",
-    "homeButton": "Zurück zur Startseite"
-  },
-  "nsfw": {
-    "warning": "Warnung zu heiklem Inhalt",
-    "description": "Dieser Inhalt kann Erwachsenen- oder heikles Material enthalten. Zuschauer sollten Vorsicht walten lassen",
-    "reveal": "Ich bin über 18 Jahre alt, Inhalt anzeigen",
-    "imageAlt": "KI-generiertes Bild"
-  },
-  "processing": {
-    "title": "Wird generiert...",
-    "description": "Die KI erstellt das aktuelle Kunstwerk, dies dauert normalerweise einige Minuten",
-    "tip": "Bitte aktualisieren Sie die Seite später, um das Ergebnis anzuzeigen"
-  },
   "actions": {
-    "copyLink": "Freigabelink kopieren",
-    "linkCopied": "Kopiert",
-    "share": "Teilen",
-    "shareToX": "Auf X teilen",
-    "moreActions": "Weitere Aktionen",
-    "downloadCurrent": "Aktuelles Bild herunterladen",
+    "copyLink": "Link zum Teilen kopieren",
+    "createSimilar": "Ähnliches Bild erstellen",
     "downloadAll": "Alle Bilder herunterladen",
-    "downloadWithoutWatermark": "Ohne Wasserzeichen herunterladen",
-    "downloadAllWithoutWatermark": "Alle ohne Wasserzeichen herunterladen",
-    "downloadCard": "Sharecard herunterladen",
-    "createSimilar": "Ähnliches Bild erstellen"
+    "downloadCard": "Share Card herunterladen",
+    "downloadCurrent": "Aktuelles Bild herunterladen",
+    "linkCopied": "Kopiert",
+    "moreActions": "Weitere Aktionen",
+    "share": "Teilen Sie",
+    "shareToX": "Freigabe an X"
   },
   "details": {
-    "prompt": "Eingabeaufforderung",
-    "promptCopied": "Kopiert",
+    "aiModel": "AI-Modell",
+    "aspectRatio": "Bildseitenverhältnis",
     "copyPrompt": "Eingabeaufforderung kopieren",
-    "aiModel": "KI-Modell",
-    "resolution": "Auflösung",
-    "aspectRatio": "Seitenverhältnis",
+    "generationResults": "Ergebnisse der AI-Bilderzeugung",
     "imageAlt": "Bild",
+    "imagePreview": "AI-generierte HD-Bildvorschau",
+    "nextImage": "Next Image",
+    "parametersInfo": "Erzeugungsparameter und Modellinformationen",
     "previousImage": "Vorheriges Bild",
-    "nextImage": "Nächstes Bild",
-    "referenceImages": "Eingabebilder",
-    "referenceImage": "Eingabebild",
-    "generationResults": "Ergebnisse der KI-Bildgenerierung",
-    "imagePreview": "Vorschau des KI-generierten HD-Bildes",
-    "parametersInfo": "Generierungsparameter und Modellinformationen"
+    "prompt": "Prompt",
+    "promptCopied": "Kopiert",
+    "referenceImage": "Eingabe Bild",
+    "referenceImages": "Bilder eingeben",
+    "resolution": "Auflösung"
   },
   "metadata": {
-    "descriptionPrefix": "Hochwertiges Bild, das mit dem {model} KI-Modell generiert wurde. Eingabeaufforderung: ",
-    "ogDescriptionPrefix": "{model} KI-generiert | "
+    "descriptionPrefix": "Hochwertiges Bild erzeugt mit {model} AI-Modell. Aufforderung:",
+    "ogDescriptionPrefix": "{model} AI Generated |"
+  },
+  "notFound": {
+    "createButton": "AI-Grafiken erstellen",
+    "description": "Dieser freigegebene Inhalt wurde möglicherweise vom Ersteller gelöscht, auf privat gesetzt, der Link ist abgelaufen oder Sie haben die falsche Adresse aufgerufen.",
+    "homeButton": "Zurück zu Home",
+    "title": "Inhalt nicht gefunden"
+  },
+  "nsfw": {
+    "description": "Dieser Inhalt kann erwachsenes oder sensibles Material enthalten. Diskretion des Zuschauers wird empfohlen",
+    "imageAlt": "AI-generiertes Bild",
+    "reveal": "Ich bin 18+, Inhalt ansehen",
+    "warning": "Warnung vor sensiblen Inhalten"
+  },
+  "processing": {
+    "description": "AI erstellt das aktuelle Kunstwerk, dies dauert in der Regel ein paar Minuten",
+    "tip": "Bitte aktualisieren Sie die Seite später, um das Ergebnis zu sehen",
+    "title": "Erzeugen..."
   }
 }

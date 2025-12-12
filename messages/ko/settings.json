@@ -1,48 +1,48 @@
 {
-  "seo": {
-    "title": "설정",
-    "description": "계정 설정 및 환경 설정 관리"
-  },
-  "title": "설정",
-  "subtitle": "계정 설정 및 환경 설정 관리",
-  "loginRequired": {
-    "title": "로그인 필요",
-    "description": "설정에 액세스하고 계정을 관리하려면 로그인하세요.",
-    "cta": "지금 로그인"
-  },
-  "sections": {
-    "profile": {
-      "title": "프로필 정보",
-      "name": "이름",
-      "email": "이메일 주소",
-      "plan": "현재 플랜",
-      "verified": "인증됨",
-      "notSet": "설정되지 않음"
-    },
-    "preferences": {
-      "title": "환경 설정",
-      "notifications": "이메일 알림",
-      "notificationsDesc": "이메일을 통해 업데이트 및 알림 수신"
-    },
-    "connections": {
-      "title": "연결된 계정",
-      "googleConnected": "Google 계정으로 로그인할 수 있습니다.",
-      "googleNotConnected": "이 로그인 방법을 활성화하려면 Google 계정을 연결하세요.",
-      "githubConnected": "GitHub 계정으로 로그인할 수 있습니다.",
-      "githubNotConnected": "이 로그인 방법을 활성화하려면 GitHub 계정을 연결하세요.",
-      "connected": "연결됨"
-    }
+  "about": {
+    "releaseDate": "릴리스 날짜",
+    "title": "정보",
+    "version": "버전"
   },
   "actions": {
-    "edit": "편집",
     "change": "변경",
-    "enable": "활성화",
-    "upgrade": "플랜 업그레이드",
-    "copy": "복사"
+    "copy": "복사",
+    "edit": "편집",
+    "enable": "사용",
+    "upgrade": "업그레이드 계획"
   },
-  "about": {
-    "title": "정보",
-    "version": "버전",
-    "releaseDate": "출시일"
-  }
+  "loginRequired": {
+    "cta": "지금 로그인",
+    "description": "설정에 액세스하고 계정을 관리하려면 로그인하세요.",
+    "title": "로그인 필요"
+  },
+  "sections": {
+    "connections": {
+      "connected": "연결됨",
+      "githubConnected": "002} 계정을 사용하여 계정에 로그인할 수 있습니다.",
+      "githubNotConnected": "이 로그인 방법을 사용하려면 GitHub 계정을 연결하세요.",
+      "googleConnected": "00001} 계정을 사용하여 계정에 로그인할 수 있습니다.",
+      "googleNotConnected": "이 로그인 방법을 사용하려면 Google 계정을 연결하세요.",
+      "title": "연결된 계정"
+    },
+    "preferences": {
+      "notifications": "이메일 알림",
+      "notificationsDesc": "이메일을 통해 업데이트 및 알림 받기",
+      "title": "기본 설정"
+    },
+    "profile": {
+      "email": "이메일 주소",
+      "name": "이름",
+      "notSet": "설정되지 않음",
+      "plan": "현재 계획",
+      "title": "프로필 정보",
+      "verified": "확인됨"
+    }
+  },
+  "seo": {
+    "description": "계정 설정 및 환경설정 관리",
+    "title": "설정"
+  },
+  "subtitle": "계정 설정 및 환경설정 관리",
+  "title": "설정"
 }

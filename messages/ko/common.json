@@ -1,49 +1,49 @@
 {
-  "language": "언어",
-  "loading": "로딩 중...",
-  "loginRequired": {
-    "title": "계속하려면 로그인",
-    "description": "모든 기능을 사용하려면 로그인하세요",
-    "buttonText": "지금 로그인"
+  "discordBanner": {
+    "closeLabel": "닫기",
+    "description": "최신 업데이트, 독점 혜택, 무료 보너스 받기",
+    "joinButton": "지금 가입하기",
+    "title": "가입하기 Discord 커뮤니티"
   },
-  "seo": {
-    "title": "{siteName} - AI 이미지 생성 도구",
-    "description": "AI 기반 이미지 생성으로 몇 초 만에 고품질 전문 이미지를 만들어보세요. 간단하고 빠르며 강력한 인공지능 도구입니다.",
-    "keywords": "AI 이미지 생성, AI 아트, 이미지 크리에이터, AI 도구, 전문 이미지"
+  "language": "언어",
+  "loading": "로드 중...",
+  "loginRequired": {
+    "buttonText": "지금 로그인",
+    "description": "전체 기능을 이용하려면 로그인하세요.",
+    "title": "계속하려면 로그인"
   },
   "navigation": {
-    "home": "홈",
     "ai-generator": "AI 생성기",
-    "nano-banana-pro": "Nano Banana Pro",
-    "nanoBananaProDesc": "고급 Nano Banana 이미지 생성",
-    "z-image": "Z-Image",
-    "zImageDesc": "고급 AI 이미지 생성 및 편집",
+    "company": "회사",
+    "content": "콘텐츠",
+    "dashboard": "대시보드",
+    "explore": "크리에이티브 커뮤니티",
     "flux-2-pro": "Flux 2 Pro",
     "flux2ProDesc": "전문가용 듀얼 모드 AI 이미지 생성",
+    "help": "도움말",
+    "home": "홈",
+    "main": "메인",
+    "models": "AI 모델",
+    "more": "자세히 보기",
+    "nano-banana-pro": "Nano Banana Pro",
+    "nanoBananaProDesc": "고급 Nano Banana 이미지 생성",
+    "nav": "탐색",
+    "pricing": "가격 책정",
+    "privacy": "개인정보 보호정책",
+    "quota": "할당량",
     "seedreamV45": "Seedream 4.5",
     "seedreamV45Desc": "ByteDance 2K HD 이미지 생성",
-    "explore": "크리에이티브 커뮤니티",
-    "dashboard": "대시보드",
-    "tasks": "히스토리",
-    "quota": "할당량",
-    "subscription": "구독",
-    "pricing": "요금제",
-    "more": "더보기",
     "settings": "설정",
-    "help": "도움말",
+    "subscription": "구독",
+    "tasks": "역사",
     "terms": "서비스 약관",
-    "privacy": "개인정보 처리방침",
-    "main": "메인",
     "user": "사용자",
-    "content": "콘텐츠",
-    "nav": "탐색",
-    "models": "AI 모델",
-    "company": "회사"
+    "z-image": "Z-Image",
+    "zImageDesc": "고급 AI 이미지 생성 및 편집"
   },
-  "discordBanner": {
-    "title": "Discord 커뮤니티에 참가하세요",
-    "description": "최신 정보, 독점 혜택 및 무료 보너스 받기",
-    "joinButton": "지금 참가",
-    "closeLabel": "닫기"
+  "seo": {
+    "description": "AI 기반 이미지 생성 기능으로 몇 초 만에 고품질의 전문가용 이미지를 제작하세요. 간단하고 빠르며 강력한 인공 지능 도구.",
+    "keywords": "AI 이미지 생성, AI 아트, 이미지 제작자, AI 도구, 전문 이미지",
+    "title": "{siteName} - AI 이미지 생성 도구"
   }
 }

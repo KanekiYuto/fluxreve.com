@@ -1,0 +1,108 @@
+{
+  "entries": {
+    "About": {
+      "translation": "정보",
+      "timestamp": 1765576875
+    },
+    "Change": {
+      "translation": "변경",
+      "timestamp": 1765576875
+    },
+    "Connect your GitHub account to enable this login method.": {
+      "translation": "이 로그인 방법을 사용하려면 GitHub 계정을 연결하세요.",
+      "timestamp": 1765576875
+    },
+    "Connect your Google account to enable this login method.": {
+      "translation": "이 로그인 방법을 사용하려면 Google 계정을 연결하세요.",
+      "timestamp": 1765576875
+    },
+    "Connected": {
+      "translation": "연결됨",
+      "timestamp": 1765576875
+    },
+    "Connected Accounts": {
+      "translation": "연결된 계정",
+      "timestamp": 1765576875
+    },
+    "Copy": {
+      "translation": "복사",
+      "timestamp": 1765576875
+    },
+    "Current Plan": {
+      "translation": "현재 계획",
+      "timestamp": 1765576875
+    },
+    "Edit": {
+      "translation": "편집",
+      "timestamp": 1765576875
+    },
+    "Email Address": {
+      "translation": "이메일 주소",
+      "timestamp": 1765576875
+    },
+    "Email Notifications": {
+      "translation": "이메일 알림",
+      "timestamp": 1765576875
+    },
+    "Enable": {
+      "translation": "사용",
+      "timestamp": 1765576875
+    },
+    "Manage your account settings and preferences": {
+      "translation": "계정 설정 및 환경설정 관리",
+      "timestamp": 1765576875
+    },
+    "Name": {
+      "translation": "이름",
+      "timestamp": 1765576875
+    },
+    "Not set": {
+      "translation": "설정되지 않음",
+      "timestamp": 1765576875
+    },
+    "Please sign in to access your settings and manage your account.": {
+      "translation": "설정에 액세스하고 계정을 관리하려면 로그인하세요.",
+      "timestamp": 1765576875
+    },
+    "Preferences": {
+      "translation": "기본 설정",
+      "timestamp": 1765576875
+    },
+    "Profile Information": {
+      "translation": "프로필 정보",
+      "timestamp": 1765576875
+    },
+    "Receive updates and notifications via email": {
+      "translation": "이메일을 통해 업데이트 및 알림 받기",
+      "timestamp": 1765576875
+    },
+    "Release Date": {
+      "translation": "릴리스 날짜",
+      "timestamp": 1765576875
+    },
+    "Sign In Required": {
+      "translation": "로그인 필요",
+      "timestamp": 1765576875
+    },
+    "Upgrade Plan": {
+      "translation": "업그레이드 계획",
+      "timestamp": 1765576875
+    },
+    "Verified": {
+      "translation": "확인됨",
+      "timestamp": 1765576875
+    },
+    "Version": {
+      "translation": "버전",
+      "timestamp": 1765576875
+    },
+    "You can use your GitHub account to sign in to your account.": {
+      "translation": "002} 계정을 사용하여 계정에 로그인할 수 있습니다.",
+      "timestamp": 1765576875
+    },
+    "You can use your Google account to sign in to your account.": {
+      "translation": "00001} 계정을 사용하여 계정에 로그인할 수 있습니다.",
+      "timestamp": 1765576875
+    }
+  }
+}

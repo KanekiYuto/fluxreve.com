@@ -1,43 +1,43 @@
 {
-  "seo": {
-    "title": "Centre d'Aide",
-    "description": "Trouvez des réponses aux questions fréquentes et obtenez de l'aide pour la plateforme de génération d'images IA {siteName}"
-  },
-  "title": "Centre d'Aide",
-  "subtitle": "Trouvez des réponses aux questions fréquentes et obtenez de l'aide",
   "contact": {
-    "title": "Besoin d'Aide ?",
-    "description": "Vous ne trouvez pas ce que vous cherchez ? Contactez notre équipe de support et nous vous répondrons dans les plus brefs délais.",
-    "email": "Contacter le Support"
+    "description": "Vous ne trouvez pas ce que vous cherchez ? Contactez notre équipe d'assistance et nous vous répondrons dans les plus brefs délais.",
+    "email": "Support de contact",
+    "title": "Besoin d'aide ?"
   },
   "faq": {
-    "title": "Questions Fréquemment Posées",
-    "subtitle": "Trouvez des réponses aux questions courantes sur l'utilisation de notre plateforme de génération d'images IA",
     "items": [
       {
-        "question": "Comment puis-je commencer avec le Générateur IA ?",
-        "answer": "Commencer est facile ! Naviguez simplement vers la page Générateur IA, entrez votre prompt décrivant ce que vous voulez créer, sélectionnez vos paramètres préférés et cliquez sur le bouton générer. Votre image générée par IA sera prête en quelques secondes."
+        "answer": "Pour commencer, rien de plus simple ! Il vous suffit de vous rendre sur la page du générateur AI, de saisir votre message décrivant ce que vous souhaitez créer, de sélectionner vos paramètres préférés et de cliquer sur le bouton \"Générer\". Votre image générée par l'IA sera prête en quelques secondes.",
+        "question": "Comment puis-je commencer à utiliser AI Generator ?"
       },
       {
-        "question": "Quels formats d'image sont pris en charge ?",
-        "answer": "Nous prenons en charge tous les formats d'image courants, notamment PNG, JPG et WebP. Vous pouvez télécharger vos images générées dans le format qui convient le mieux à vos besoins."
+        "answer": "Nous prenons en charge tous les formats d'image courants, y compris PNG, JPG et WebP. Vous pouvez télécharger les images générées dans le format qui vous convient le mieux.",
+        "question": "Quels sont les formats d'image pris en charge ?"
       },
       {
-        "question": "Combien d'images puis-je générer ?",
-        "answer": "Le nombre d'images que vous pouvez générer dépend de votre quota de crédits. Les utilisateurs gratuits reçoivent 30 crédits quotidiens, tandis que les abonnés au forfait Basic reçoivent 1 500 crédits mensuels et les abonnés au forfait Pro reçoivent 7 500 crédits mensuels. Consultez notre page Tarifs pour plus de détails."
+        "answer": "Le nombre d'images que vous pouvez générer dépend de votre quota de crédits. Les utilisateurs gratuits reçoivent 30 crédits par jour, les abonnés au plan Basic reçoivent 1 500 crédits par mois et les abonnés au plan Pro reçoivent 7 500 crédits par mois. Consultez notre page Tarifs pour plus de détails.",
+        "question": "Combien d'images puis-je générer ?"
       },
       {
-        "question": "Puis-je utiliser les images générées à des fins commerciales ?",
-        "answer": "Oui ! Les abonnés aux forfaits Basic et Pro reçoivent une licence d'utilisation commerciale. Les utilisateurs du forfait gratuit peuvent utiliser les images générées uniquement pour des projets personnels."
+        "answer": "Oui, les abonnés aux plans Basic et Pro bénéficient d'une licence d'utilisation commerciale. Les utilisateurs du plan gratuit peuvent utiliser les images générées pour des projets personnels uniquement.",
+        "question": "Puis-je utiliser les images générées à des fins commerciales ?"
       },
       {
-        "question": "Que dois-je faire si la génération échoue ?",
-        "answer": "Si une génération échoue, essayez d'abord d'actualiser la page et de réessayer. Assurez-vous que votre prompt est clair et descriptif. Si les problèmes persistent, veuillez contacter notre équipe de support avec des détails sur le problème."
+        "answer": "Si une génération échoue, essayez d'abord d'actualiser la page et de réessayer. Veillez à ce que votre message soit clair et descriptif. Si le problème persiste, veuillez contacter notre équipe d'assistance en précisant les détails du problème.",
+        "question": "Que dois-je faire si la génération échoue ?"
       },
       {
-        "question": "Comment puis-je améliorer mes résultats de génération ?",
-        "answer": "Pour de meilleurs résultats, essayez d'être spécifique et détaillé dans vos prompts. Incluez des informations sur le style, les couleurs, la composition et l'ambiance. Expérimentez avec différents modèles et paramètres pour trouver ce qui fonctionne le mieux pour vos besoins."
+        "answer": "Pour obtenir de meilleurs résultats, essayez d'être précis et détaillé dans vos questions. Incluez des informations sur le style, les couleurs, la composition et l'ambiance. Expérimentez différents modèles et paramètres pour trouver ce qui convient le mieux à vos besoins.",
+        "question": "Comment puis-je améliorer les résultats de ma génération ?"
       }
-    ]
-  }
+    ],
+    "subtitle": "Trouvez les réponses aux questions les plus courantes sur l'utilisation de notre plateforme de génération d'images par IA.",
+    "title": "Questions fréquemment posées"
+  },
+  "seo": {
+    "description": "Trouvez les réponses aux questions les plus fréquentes et obtenez de l'aide pour la plateforme de génération d'images d'IA {siteName}.",
+    "title": "Centre d'aide"
+  },
+  "subtitle": "Trouvez les réponses aux questions les plus courantes et obtenez de l'aide",
+  "title": "Centre d'aide"
 }

@@ -1,47 +1,47 @@
 {
-  "seo": {
-    "title": "Aufgabendetails",
-    "description": "Zeigen Sie Ihre KI-Bildgenerierungsaufgabendetails und Ergebnisse an"
-  },
   "details": {
-    "generationResults": "Generierungsergebnisse",
-    "imagePreview": "Bildvorschau",
-    "imageAlt": "Bild",
-    "parametersInfo": "Parameterinformation",
-    "aiModel": "KI-Modell",
-    "size": "Größe",
-    "resolution": "Auflösung",
-    "aspectRatio": "Seitenverhältnis",
-    "seed": "Startwert",
-    "steps": "Schritte",
-    "duration": "Dauer",
-    "quotaConsumed": "Verwendete Guthaben",
-    "isPrivate": "Privater Modus",
-    "isNsfw": "NSFW-Inhalt",
-    "yes": "Ja",
-    "no": "Nein",
-    "createdAt": "Erstellt am",
+    "aiModel": "AI-Modell",
+    "aspectRatio": "Bildseitenverhältnis",
     "completedAt": "Abgeschlossen am",
-    "prompt": "Eingabeaufforderung",
     "copyPrompt": "Eingabeaufforderung kopieren",
-    "promptCopied": "Kopiert",
+    "createdAt": "Erstellt am",
+    "defaultPrompt": "AI-generiertes Bild",
+    "duration": "Duration",
+    "generationResults": "Generation Ergebnisse",
+    "imageAlt": "Bild",
+    "imagePreview": "Bildvorschau",
+    "isNsfw": "NSFW Inhalt",
+    "isPrivate": "Private Mode",
+    "metaDescription": "AI-Bild erzeugt mit {model}",
+    "nextImage": "Next Image",
+    "no": "Nein",
+    "parametersInfo": "Parameters Info",
     "previousImage": "Vorheriges Bild",
-    "nextImage": "Nächstes Bild",
-    "referenceImages": "Eingabebilder",
-    "referenceImage": "Eingabebild",
-    "metaDescription": "KI-Bild generiert mit {model}",
-    "defaultPrompt": "KI-generiertes Bild"
-  },
-  "processing": {
-    "title": "Aufgabenverarbeitung",
-    "description": "Ihr Bild wird generiert, bitte warten Sie einen Moment...",
-    "tip": "Dauert normalerweise von einigen Sekunden bis wenige Minuten",
-    "failedTitle": "Aufgabe fehlgeschlagen",
-    "failedDescription": "Entschuldigung, Bildgenerierung fehlgeschlagen. Bitte versuchen Sie es später erneut oder kontaktieren Sie den Support."
+    "prompt": "Prompt",
+    "promptCopied": "Kopiert",
+    "quotaConsumed": "Verwendete Kredite",
+    "referenceImage": "Eingabe Bild",
+    "referenceImages": "Bilder eingeben",
+    "resolution": "Auflösung",
+    "seed": "Saatgut",
+    "size": "Größe",
+    "steps": "Schritte",
+    "yes": "Ja"
   },
   "notFound": {
-    "title": "Aufgabe nicht gefunden",
-    "description": "Entschuldigung, die gesuchte Aufgabe konnte nicht gefunden werden. Sie wurde möglicherweise gelöscht oder der Link ist ungültig.",
-    "backToHome": "Zurück zur Startseite"
+    "backToHome": "Zurück zu Home",
+    "description": "Leider kann die von Ihnen gesuchte Aufgabe nicht gefunden werden. Sie wurde möglicherweise gelöscht oder der Link ist ungültig.",
+    "title": "Aufgabe nicht gefunden"
+  },
+  "processing": {
+    "description": "Ihr Bild wird gerade erstellt, bitte warten Sie einen Moment...",
+    "failedDescription": "Leider ist die Bilderzeugung fehlgeschlagen. Bitte versuchen Sie es später noch einmal oder kontaktieren Sie den Support.",
+    "failedTitle": "Aufgabe fehlgeschlagen",
+    "tip": "Dauert in der Regel ein paar Sekunden bis ein paar Minuten",
+    "title": "Aufgabenbearbeitung"
+  },
+  "seo": {
+    "description": "Details und Ergebnisse Ihrer AI-Bilderzeugungsaufgabe anzeigen",
+    "title": "Details zur Aufgabe"
   }
 }

@@ -1,47 +1,47 @@
 {
-  "seo": {
-    "title": "Détails de la Tâche",
-    "description": "Visualisez les détails et résultats de votre tâche de génération d'image IA"
-  },
   "details": {
-    "generationResults": "Résultats de Génération",
-    "imagePreview": "Aperçu de l'Image",
+    "aiModel": "Modèle d'IA",
+    "aspectRatio": "Rapport d'aspect",
+    "completedAt": "Terminé le",
+    "copyPrompt": "Invite à la copie",
+    "createdAt": "Créé à",
+    "defaultPrompt": "Image générée par l'IA",
+    "duration": "Duration",
+    "generationResults": "Résultats de la génération",
     "imageAlt": "Image",
-    "parametersInfo": "Informations des Paramètres",
-    "aiModel": "Modèle IA",
-    "size": "Taille",
-    "resolution": "Résolution",
-    "aspectRatio": "Rapport d'Aspect",
-    "seed": "Graine",
-    "steps": "Étapes",
-    "duration": "Durée",
-    "quotaConsumed": "Crédits Utilisés",
-    "isPrivate": "Mode Privé",
-    "isNsfw": "Contenu Sensible",
-    "yes": "Oui",
+    "imagePreview": "Aperçu de l'image",
+    "isNsfw": "NSFW Contenu",
+    "isPrivate": "Mode privé",
+    "metaDescription": "Image AI générée à l'aide de {model}",
+    "nextImage": "Next Image",
     "no": "Non",
-    "createdAt": "Créé le",
-    "completedAt": "Complété le",
-    "prompt": "Requête",
-    "copyPrompt": "Copier la Requête",
+    "parametersInfo": "Paramètres Info",
+    "previousImage": "Image précédente",
+    "prompt": "Prompt",
     "promptCopied": "Copié",
-    "previousImage": "Image Précédente",
-    "nextImage": "Image Suivante",
-    "referenceImages": "Images d'Entrée",
-    "referenceImage": "Image d'Entrée",
-    "metaDescription": "Image IA générée en utilisant {model}",
-    "defaultPrompt": "Image Générée par IA"
-  },
-  "processing": {
-    "title": "Traitement de la Tâche",
-    "description": "Votre image est en cours de génération, veuillez patienter un moment...",
-    "tip": "Cela prend généralement quelques secondes à quelques minutes",
-    "failedTitle": "Tâche Échouée",
-    "failedDescription": "Désolé, la génération d'image a échoué. Veuillez réessayer plus tard ou contacter le support."
+    "quotaConsumed": "Crédits utilisés",
+    "referenceImage": "Image d'entrée",
+    "referenceImages": "Images d'entrée",
+    "resolution": "Résolution",
+    "seed": "Semences",
+    "size": "Taille",
+    "steps": "Étapes",
+    "yes": "Oui"
   },
   "notFound": {
-    "title": "Tâche Non Trouvée",
-    "description": "Désolé, la tâche que vous recherchez ne peut pas être trouvée. Elle a peut-être été supprimée ou le lien est invalide.",
-    "backToHome": "Retour à l'Accueil"
+    "backToHome": "Retour à l'accueil",
+    "description": "Désolé, la tâche que vous recherchez est introuvable. Elle a peut-être été supprimée ou le lien n'est pas valide.",
+    "title": "Tâche introuvable"
+  },
+  "processing": {
+    "description": "Votre image est en train d'être générée, veuillez patienter un instant...",
+    "failedDescription": "Désolé, la génération de l'image a échoué. Veuillez réessayer plus tard ou contacter l'assistance.",
+    "failedTitle": "Échec de la tâche",
+    "tip": "Cela prend généralement de quelques secondes à quelques minutes",
+    "title": "Traitement des tâches"
+  },
+  "seo": {
+    "description": "Visualisez les détails et les résultats de votre tâche de génération d'images d'IA",
+    "title": "Détails de la tâche"
   }
 }

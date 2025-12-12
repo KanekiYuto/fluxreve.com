@@ -1,0 +1,104 @@
+{
+  "entries": {
+    "About": {
+      "translation": "A propos de",
+      "timestamp": 1765576848
+    },
+    "Change": {
+      "translation": "Changer",
+      "timestamp": 1765576848
+    },
+    "Connect your GitHub account to enable this login method.": {
+      "translation": "Connectez votre compte GitHub pour activer cette méthode de connexion.",
+      "timestamp": 1765576848
+    },
+    "Connect your Google account to enable this login method.": {
+      "translation": "Connectez votre compte Google pour activer cette méthode de connexion.",
+      "timestamp": 1765576848
+    },
+    "Connected": {
+      "translation": "Connecté",
+      "timestamp": 1765576848
+    },
+    "Connected Accounts": {
+      "translation": "Comptes connectés",
+      "timestamp": 1765576848
+    },
+    "Copy": {
+      "translation": "Copie",
+      "timestamp": 1765576848
+    },
+    "Edit": {
+      "translation": "Editer",
+      "timestamp": 1765576848
+    },
+    "Email Address": {
+      "translation": "Adresse électronique",
+      "timestamp": 1765576848
+    },
+    "Email Notifications": {
+      "translation": "Notifications par courrier électronique",
+      "timestamp": 1765576848
+    },
+    "Enable": {
+      "translation": "Activer",
+      "timestamp": 1765576848
+    },
+    "Manage your account settings and preferences": {
+      "translation": "Gérer les paramètres et les préférences de votre compte",
+      "timestamp": 1765576848
+    },
+    "Name": {
+      "translation": "Nom",
+      "timestamp": 1765576848
+    },
+    "Not set": {
+      "translation": "Non défini",
+      "timestamp": 1765576848
+    },
+    "Please sign in to access your settings and manage your account.": {
+      "translation": "Veuillez vous connecter pour accéder à vos paramètres et gérer votre compte.",
+      "timestamp": 1765576848
+    },
+    "Preferences": {
+      "translation": "Préférences",
+      "timestamp": 1765576848
+    },
+    "Profile Information": {
+      "translation": "Informations sur le profil",
+      "timestamp": 1765576848
+    },
+    "Receive updates and notifications via email": {
+      "translation": "Recevoir des mises à jour et des notifications par courrier électronique",
+      "timestamp": 1765576848
+    },
+    "Release Date": {
+      "translation": "Date de sortie",
+      "timestamp": 1765576848
+    },
+    "Sign In Required": {
+      "translation": "Connexion requise",
+      "timestamp": 1765576848
+    },
+    "Upgrade Plan": {
+      "translation": "Plan de mise à niveau",
+      "timestamp": 1765576848
+    },
+    "Verified": {
+      "translation": "Vérifié",
+      "timestamp": 1765576848
+    },
+    "Version": {
+      "translation": "Version",
+      "timestamp": 1765576848
+    },
+    "You can use your GitHub account to sign in to your account.": {
+      "translation": "Vous pouvez utiliser votre compte GitHub pour vous connecter à votre compte.",
+      "timestamp": 1765576848
+    },
+    "You can use your Google account to sign in to your account.": {
+      "translation": "Vous pouvez utiliser votre compte Google pour vous connecter à votre compte.",
+      "timestamp": 1765576848
+    }
+  }
+}

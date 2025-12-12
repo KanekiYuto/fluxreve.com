@@ -1,53 +1,53 @@
 {
-  "seo": {
-    "title": "Mon Quota",
-    "description": "Gérez et affichez votre utilisation des quotas disponibles et l'historique"
+  "empty": {
+    "active": "Pas de quota actif disponible",
+    "activeDesc": "Vous n'avez actuellement pas de quota disponible. Veuillez acheter un quota pour continuer à utiliser le service",
+    "expired": "Pas de quota expiré",
+    "expiredDesc": "Vous n'avez pas d'enregistrements de quotas expirés"
   },
-  "title": "Mon Quota",
-  "subtitle": "Gérez et affichez votre quota disponible",
   "loginRequired": {
-    "title": "Se connecter pour afficher le quota",
-    "description": "Connectez-vous pour afficher votre utilisation des quotas et l'historique"
+    "description": "Connectez-vous pour consulter l'utilisation et l'historique de votre quota",
+    "title": "Se connecter pour voir le quota"
   },
+  "quotaTypes": {
+    "daily_free": "Quota libre journalier",
+    "monthly_basic": "Mensuel de base",
+    "monthly_pro": "Mensuel Pro",
+    "quota_pack": "Pack Quota",
+    "subscription_change_compensation": "Modification de l'abonnement Indemnité",
+    "trial": "Procès",
+    "yearly_basic": "Annuel Basique",
+    "yearly_pro": "Annuel Pro"
+  },
+  "seo": {
+    "description": "Gérez et visualisez l'utilisation et l'historique de vos quotas disponibles",
+    "title": "Mon quota"
+  },
+  "stats": {
+    "consumed": "Consommé",
+    "remaining": "Restant"
+  },
+  "status": {
+    "active": "Actif",
+    "depleted": "Appauvri"
+  },
+  "subtitle": "Gérez et visualisez votre quota disponible",
   "summary": {
-    "title": "Total disponible",
-    "credits": "Crédits"
+    "credits": "Crédits",
+    "title": "Total disponible"
+  },
+  "table": {
+    "amount": "Montant",
+    "available": "Disponible",
+    "consumed": "Consommé",
+    "expiresAt": "Expires At",
+    "issuedAt": "Délivré à",
+    "noExpiry": "Jamais",
+    "type": "Type"
   },
   "tabs": {
     "active": "Quota actif",
     "expired": "Expiré"
   },
-  "table": {
-    "type": "Type",
-    "amount": "Montant",
-    "consumed": "Consommé",
-    "available": "Disponible",
-    "issuedAt": "Émis le",
-    "expiresAt": "Expire le",
-    "noExpiry": "Jamais"
-  },
-  "quotaTypes": {
-    "daily_free": "Quota gratuit quotidien",
-    "trial": "Essai",
-    "monthly_basic": "De base mensuel",
-    "monthly_pro": "Pro mensuel",
-    "yearly_basic": "De base annuel",
-    "yearly_pro": "Pro annuel",
-    "quota_pack": "Pack de quota",
-    "subscription_change_compensation": "Compensation pour changement d'abonnement"
-  },
-  "empty": {
-    "active": "Aucun quota actif disponible",
-    "activeDesc": "Vous n'avez actuellement aucun quota disponible. Veuillez acheter du quota pour continuer à utiliser le service",
-    "expired": "Aucun quota expiré",
-    "expiredDesc": "Vous n'avez aucun enregistrement de quota expiré"
-  },
-  "status": {
-    "active": "Actif",
-    "depleted": "Épuisé"
-  },
-  "stats": {
-    "consumed": "Consommé",
-    "remaining": "Restant"
-  }
+  "title": "Mon quota"
 }

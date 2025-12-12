@@ -1,9 +1,9 @@
 {
   "unauthorized": {
-    "title": "Accès Restreint",
-    "description": "Désolé, vous n'avez pas la permission d'accéder au tableau de bord administrateur. Seuls les comptes administrateurs peuvent accéder à cette page.",
-    "helpTitle": "Besoin d'Aide ?",
-    "helpDescription": "Si vous pensez qu'il s'agit d'une erreur, veuillez contacter l'administrateur système pour demander l'accès.",
-    "backToHome": "Retour à l'Accueil"
+    "backToHome": "Retour à l'accueil",
+    "description": "Désolé, vous n'avez pas la permission d'accéder au tableau de bord de l'administrateur. Seuls les comptes administrateurs peuvent accéder à cette page.",
+    "helpDescription": "Si vous pensez qu'il s'agit d'une erreur, veuillez contacter l'administrateur du système pour demander l'accès.",
+    "helpTitle": "Besoin d'aide ?",
+    "title": "Accès restreint"
   }
 }

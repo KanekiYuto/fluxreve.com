@@ -1,0 +1,120 @@
+{
+  "entries": {
+    "Active": {
+      "translation": "Aktiv",
+      "timestamp": 1765576807
+    },
+    "Active Quota": {
+      "translation": "Aktives Kontingent",
+      "timestamp": 1765576807
+    },
+    "Amount": {
+      "translation": "Betrag",
+      "timestamp": 1765576807
+    },
+    "Available": {
+      "translation": "Verfügbar",
+      "timestamp": 1765576807
+    },
+    "Consumed": {
+      "translation": "Verbraucht",
+      "timestamp": 1765576807
+    },
+    "Daily Free Quota": {
+      "translation": "Tägliches Freikontingent",
+      "timestamp": 1765576807
+    },
+    "Depleted": {
+      "translation": "Abgereicherte",
+      "timestamp": 1765576807
+    },
+    "Expired": {
+      "translation": "Abgelaufen",
+      "timestamp": 1765576807
+    },
+    "Expires At": {
+      "translation": "Expires At",
+      "timestamp": 1765576807
+    },
+    "Issued At": {
+      "translation": "Ausgegeben am",
+      "timestamp": 1765576807
+    },
+    "Log in to view your quota usage and history": {
+      "translation": "Loggen Sie sich ein, um Ihren Kontingentverbrauch und -verlauf einzusehen",
+      "timestamp": 1765576807
+    },
+    "Login to View Quota": {
+      "translation": "Anmelden, um die Quote zu sehen",
+      "timestamp": 1765576807
+    },
+    "Manage and view your available quota": {
+      "translation": "Verwalten und Anzeigen Ihrer verfügbaren Quote",
+      "timestamp": 1765576807
+    },
+    "Manage and view your available quota usage and history": {
+      "translation": "Verwalten und Anzeigen Ihrer verfügbaren Kontingentnutzung und -historie",
+      "timestamp": 1765576807
+    },
+    "Monthly Basic": {
+      "translation": "Monatlich Basic",
+      "timestamp": 1765576807
+    },
+    "Monthly Pro": {
+      "translation": "Monatlich Pro",
+      "timestamp": 1765576807
+    },
+    "My Quota": {
+      "translation": "Meine Quote",
+      "timestamp": 1765576807
+    },
+    "Never": {
+      "translation": "Niemals",
+      "timestamp": 1765576807
+    },
+    "No active quota available": {
+      "translation": "Keine aktive Quote verfügbar",
+      "timestamp": 1765576807
+    },
+    "No expired quota": {
+      "translation": "Keine abgelaufene Quote",
+      "timestamp": 1765576807
+    },
+    "Quota Pack": {
+      "translation": "Quotenpaket",
+      "timestamp": 1765576807
+    },
+    "Remaining": {
+      "translation": "Verbleibende",
+      "timestamp": 1765576807
+    },
+    "Subscription Change Compensation": {
+      "translation": "Zeichnungsänderung Entschädigung",
+      "timestamp": 1765576807
+    },
+    "Total Available": {
+      "translation": "Insgesamt verfügbar",
+      "timestamp": 1765576807
+    },
+    "Type": {
+      "translation": "Typ",
+      "timestamp": 1765576807
+    },
+    "Yearly Basic": {
+      "translation": "Jährlich Basic",
+      "timestamp": 1765576807
+    },
+    "Yearly Pro": {
+      "translation": "Jährlich Pro",
+      "timestamp": 1765576807
+    },
+    "You currently have no available quota. Please purchase quota to continue using the service": {
+      "translation": "Sie haben derzeit kein verfügbares Kontingent. Bitte erwerben Sie ein Kontingent, um den Dienst weiterhin nutzen zu können",
+      "timestamp": 1765576807
+    },
+    "You have no expired quota records": {
+      "translation": "Sie haben keine abgelaufenen Quotensätze",
+      "timestamp": 1765576807
+    }
+  }
+}

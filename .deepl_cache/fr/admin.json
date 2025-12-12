@@ -1,0 +1,24 @@
+{
+  "entries": {
+    "Access Restricted": {
+      "translation": "Accès restreint",
+      "timestamp": 1765576839
+    },
+    "Back to Home": {
+      "translation": "Retour à l'accueil",
+      "timestamp": 1765576839
+    },
+    "If you believe this is an error, please contact the system administrator to request access.": {
+      "translation": "Si vous pensez qu'il s'agit d'une erreur, veuillez contacter l'administrateur du système pour demander l'accès.",
+      "timestamp": 1765576839
+    },
+    "Need Help?": {
+      "translation": "Besoin d'aide ?",
+      "timestamp": 1765576839
+    },
+    "Sorry, you don't have permission to access the admin dashboard. Only administrator accounts can access this page.": {
+      "translation": "Désolé, vous n'avez pas la permission d'accéder au tableau de bord de l'administrateur. Seuls les comptes administrateurs peuvent accéder à cette page.",
+      "timestamp": 1765576839
+    }
+  }
+}

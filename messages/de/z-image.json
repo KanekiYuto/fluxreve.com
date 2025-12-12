@@ -1,157 +1,152 @@
 {
-  "seo": {
-    "title": "Z-Image - Photorealistischer KI-Bildgenerator",
-    "description": "Photorealistische KI-Bilder mit Z-Image. Generierungsgeschwindigkeit unter einer Sekunde mit genauem chinesischem und englischem Textrendering. Erschwingliche Preise für Profis."
+  "cta": {
+    "note": "Keine Kreditkarte erforderlich, beginnen Sie mit der Registrierung",
+    "primary": "Jetzt mit dem Erstellen beginnen",
+    "secondary": "Preise ansehen",
+    "subtitle": "Testen Sie jetzt Z-Image für eine 8-stufige Inferenz, eine Generierungsgeschwindigkeit von weniger als einer Sekunde und eine präzise zweisprachige Textdarstellung",
+    "title": "Sind Sie bereit für die fotorealistische AI-Bilderzeugung?"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Z-Image erreicht mit nur 8 Schritten eine Leistung, die mit der von führenden Wettbewerbern vergleichbar ist oder diese sogar übertrifft, und bietet eine Inferenzlatenz von weniger als einer Sekunde auf unternehmenstauglichen H800 GPUs. Auf Consumer-Geräten wie RTX 3090 oder 4090 dauert es etwa 2-3 Sekunden, und Midrange-Karten benötigen etwa 4-5 Sekunden, wobei nur 16G VRAM benötigt werden.",
+        "question": "Wie schnell ist die Generation Z-Image?"
+      },
+      {
+        "answer": "Z-Image rendert komplexe chinesische und englische Texte akkurat und behält dabei den Realismus der Gesichter und die ästhetische Gesamtkomposition bei, mit Ergebnissen, die mit den besten Closed-Source-Modellen vergleichbar sind. Bei der Gestaltung von Plakaten beweist es starke kompositorische Fähigkeiten und ein gutes Gespür für Typografie und liefert selbst in schwierigen Szenarien mit kleinen Schriftgrößen qualitativ hochwertigen Text.",
+        "question": "Welche Vorteile hat Z-Image bei der Textdarstellung?"
+      },
+      {
+        "answer": "Prompt Enhancer (PE) verwendet strukturierte Argumentationsketten, um Logik und gesunden Menschenverstand einzubringen. Dadurch kann das Modell über oberflächliche Beschreibungen hinausgehen und das zugrunde liegende Weltwissen für komplexe Aufgaben wie das \"Hühner- und Hasenproblem\" oder die Visualisierung klassischer chinesischer Poesie erschließen. Selbst bei mehrdeutigen Anweisungen kann es die zugrunde liegende Absicht ableiten und so logisch kohärente Ergebnisse erzielen.",
+        "question": "Was ist die Funktion Prompt Enhancement?"
+      },
+      {
+        "answer": "Z-Image zeichnet sich durch fotorealistische Bilderzeugung mit feiner Kontrolle über Details, Beleuchtung und Texturen aus. Es schafft ein Gleichgewicht zwischen hoher Wiedergabetreue und starker ästhetischer Qualität in Komposition und Gesamtstimmung. Die erzeugten Bilder sind nicht nur realistisch, sondern auch visuell ansprechend.",
+        "question": "Wie sieht es mit der fotorealistischen Qualität von Z-Image aus?"
+      },
+      {
+        "answer": "Z-Image verwendet eine skalierbare Single-Stream Diffusion Transformer (S3-DiT) Architektur. Text, visuelle semantische Token und Bild-Token VAE werden auf der Sequenzebene verkettet, um als einheitlicher Eingabestrom in das Transformer-Backbone zu dienen, was die Parametereffizienz im Vergleich zu Dual-Stream-Ansätzen maximiert.",
+        "question": "Welche Architektur verwendet Z-Image?"
+      },
+      {
+        "answer": "Laut Elo-basierter menschlicher Präferenzauswertung (in der Alibaba AI Arena) zeigt Z-Image eine sehr wettbewerbsfähige Leistung gegenüber anderen führenden Modellen und erreicht die besten Ergebnisse unter den Open-Source-Modellen.",
+        "question": "Wie schneidet Z-Image im Vergleich zu anderen Modellen ab?"
+      }
+    ],
+    "subtitle": "Häufige Fragen zu Z-Image",
+    "title": "Häufig gestellte Fragen"
   },
   "hero": {
-    
-    "title": {
-      "line1": "Z-Image",
-      "line2": "8-Schritte Inferenz, Generierung unter einer Sekunde"
-    },
-    "subtitle": "Erleben Sie den photorealistischen KI-Bildgenerierungsdienst powered by Z-Image-Modell mit genauem zweisprachigem Textrendering. Wir bieten Generierungsgeschwindigkeit unter einer Sekunde und erschwingliche Preise, um professionelle KI-Bilderstellung für alle zugänglich zu machen.",
     "cta": {
-      "primary": "Jetzt mit der Erstellung beginnen",
+      "primary": "Jetzt mit dem Erstellen beginnen",
       "secondary": "Mehr erfahren"
     },
     "stats": {
-      "speed": {
-        "label": "Generierung unter einer Sekunde"
-      },
-      "quality": {
-        "label": "Photorealistische Qualität"
-      },
       "affordable": {
         "label": "Zweisprachiger Text"
-      }
-    }
-  },
-  "what": {
-    
-    "title": "Was ist Z-Image?",
-    "description": "Z-Image ist unser photorealistischer KI-Bildgenerierungsdienst, basierend auf der fortgeschrittenen Scalable Single-Stream Diffusion Transformer Architektur. Wir bieten schnelle, erschwingliche und hochwertige KI-Bildgenerierungslösungen, um professionelle Erstellung zugänglich zu machen.",
-    "demoPlaceholder": "Photorealistische KI-Bildgenerierung",
-    "coreFeatures": {
-      "core1": {
-        "title": "Photorealistische Qualität",
-        "description": "Z-Image zeichnet sich durch photorealistische Bildgenerierung mit feiner Kontrolle über Details, Beleuchtung und Texturen aus. Es behält hohe Treue bei, während es starke ästhetische Qualität in Komposition und Gesamtstimmung demonstriert."
-      },
-      "core2": {
-        "title": "Genaues zweisprachiges Textrendering",
-        "description": "Z-Image rendert chinesischen und englischen Text genau, während es den Realismus von Gesichtern und die gesamte ästhetische Komposition bewahrt, mit Ergebnissen, die top-tier geschlossene Modellen vergleichbar sind. Im Plakatdesign zeigt es starke Kompositionsfähigkeiten und Typografiesinn und liefert qualitativ hochwertigen Text auch in schwierigen Szenarien mit kleinen Schriftgrößen."
-      },
-      "core3": {
-        "title": "Aufforderungsverbesserung & Reasoning",
-        "description": "Der leistungsstarke Prompt Enhancer (PE) nutzt strukturierte Reasoning-Ketten, um Logik und gesunden Menschenverstand einzufügen und dem Modell die Bewältigung komplexer Aufgaben wie das 'Huhn und Kaninchen-Problem' oder die Visualisierung klassischer chinesischer Poesie zu ermöglichen. Auch bei mehrdeutigen Anweisungen kann das Modell die zugrunde liegende Absicht für logisch kohärente Ergebnisse ableiten."
-      }
-    }
-  },
-  "why": {
-    
-    "title": "Warum unseren Z-Image-Dienst wählen?",
-    "subtitle": "Unser Z-Image-Dienst macht professionelle KI-Bildcreation einfach und effizient mit Generierungsgeschwindigkeit unter einer Sekunde, genauem Textrendering und erschwinglichen Preisen.",
-    "comparison": {
-      "traditional": {
-        "title": "Traditionelle Bilderstellung",
-        "item1": "Dauert Stunden oder Tage, um professionelles Bilddesign zu vervollständigen",
-        "item2": "Erfordert teure Softwarelizenzen und professionelle Designkenntnisse",
-        "item3": "Hohe Kosten für die Einstellung von Designern oder den Kauf fortgeschrittener Design-Tools",
-        "item4": "Langsame Iterationszyklen machen kreative Experimente unpraktisch"
-      },
-      "product": {
-        "title": "Z-Image Generierungsdienst",
-        "item1": "Generieren Sie photorealistische Bilder in Bruchteilen einer Sekunde",
-        "item2": "Keine Designfähigkeiten erforderlich - einfache Beschreibungen funktionieren",
-        "item3": "Erschwingliche Pay-as-you-go Preisgestaltung",
-        "item4": "Sofortige Generierung, unbegrenzte kreative Möglichkeiten"
-      }
-    },
-    "benefits": {
-      "speed": {
-        "title": "Blitzschnelle Generierung",
-        "description": "Unser Service bietet Bildgenerierungsgeschwindigkeit unter einer Sekunde und bringt Ihre Kreativität sofort zum Leben. Keine Wartezeit erforderlich, vollständige professionelle KI-Bilderstellung jederzeit, überall."
       },
       "quality": {
-        "title": "Photorealistische Qualität",
-        "description": "Generierte Bilder zeigen photorealistische Effekte mit feiner Kontrolle über Details, Beleuchtung und Texturen. Ob Porträts oder Produktanzeigen, erreichen Sie hervorragende Bildergebnisse."
+        "label": "Fotorealistische Qualität"
       },
-      "cost": {
-        "title": "Genaues Textrendering",
-        "description": "Unterstützt genaues chinesisches und englisches Textrendering, perfekt für Plakatdesign, Werbeerstellung und mehr. Sogar kleiner Text wird klar für professionelle Designs gerendert."
-      },
-      "flexibility": {
-        "title": "Intelligentes Prompt-Verständnis",
-        "description": "Unser Service bietet leistungsstarke Prompt-Verständnisfähigkeiten und versteht und generiert genau erwartete Bilder sogar aus komplexen oder mehrdeutigen Beschreibungen."
-      },
-      "support": {
-        "title": "Einfach zu verwenden",
-        "description": "Keine professionellen Designfähigkeiten erforderlich. Beschreiben Sie einfach Ihre Ideen in natürlicher Sprache, um professionelle KI-Bilder zu generieren. Macht Erstellung für alle zugänglich."
-      },
-      "security": {
-        "title": "Erschwingliche Preisgestaltung",
-        "description": "Pay-as-you-go Modell mit transparenter und angemessener Preisgestaltung. Reduziert Ihre Erstellungskosten erheblich im Vergleich zu traditionellen Design-Services und macht professionelle KI-Bilderstellung für alle zugänglich."
+      "speed": {
+        "label": "Sub-Sekunden-Generation"
       }
+    },
+    "subtitle": "Erleben Sie einen fotorealistischen KI-Bilderzeugungsdienst auf der Grundlage des Z-Image-Modells mit präziser zweisprachiger Textdarstellung. Wir bieten eine Generierungsgeschwindigkeit von weniger als einer Sekunde und erschwingliche Preise, um die professionelle KI-Bilderstellung für jedermann zugänglich zu machen.",
+    "title": {
+      "line1": "Z-Image",
+      "line2": "8-stufige Inferenz, sekundenschnelle Generierung"
     }
   },
   "how": {
-    
-    "title": "Wie man Z-Image verwendet?",
-    "subtitle": "Vier einfache Schritte zum Beginn Ihrer KI-Reise",
     "steps": {
       "step1": {
-        "title": "Geben Sie Ihre Aufforderung ein",
-        "description": "Beschreiben Sie das gewünschte Bild in einfachem Text. Unterstützt englische und chinesische Eingabe."
+        "description": "Beschreiben Sie das gewünschte Bild in einfachem Text. Unterstützt englische und chinesische Eingaben.",
+        "title": "Geben Sie Ihr Prompt ein"
       },
       "step2": {
-        "title": "Wählen Sie Parameter",
-        "description": "Wählen Sie Bildgröße, passen Sie Random Seed an und andere Parameter an, um Ihre Kreation anzupassen."
+        "description": "Wählen Sie die Bildgröße, stellen Sie den Zufallsgenerator und andere Parameter ein, um Ihre Kreation individuell zu gestalten.",
+        "title": "Parameter auswählen"
       },
       "step3": {
-        "title": "Klicken Sie auf Generieren",
-        "description": "Klicken Sie auf die Schaltfläche Generieren und die KI erstellt in Sekunden schöne Bilder für Sie."
+        "description": "Klicken Sie auf die Schaltfläche \"Generieren\", und AI erstellt in Sekundenschnelle wunderschöne Bilder für Sie.",
+        "title": "Klicken Sie auf Generieren"
       },
       "step4": {
-        "title": "Download & Verwendung",
-        "description": "Nach der Generierung können Sie eine Vorschau anzeigen, herunterladen oder Ihre Arbeit teilen."
+        "description": "Nach der Erstellung können Sie Ihr Kunstwerk in der Vorschau anzeigen, herunterladen oder weitergeben.",
+        "title": "Herunterladen \u0026 Verwenden"
       }
-    }
+    },
+    "subtitle": "Vier einfache Schritte, um Ihre kreative Reise mit AI zu beginnen",
+    "title": "Wie verwendet man Z-Image?"
   },
-  "faq": {
-    
-    "title": "Häufig gestellte Fragen",
-    "subtitle": "Häufige Fragen zu Z-Image",
-    "items": [
-      {
-        "question": "Wie schnell ist die Z-Image Generierung?",
-        "answer": "Z-Image erreicht Leistung, die mit oder über führende Konkurrenten mit nur 8 Schritten vergleichbar ist und liefert Inferenz-Latenz unter einer Sekunde auf Enterprise-grade H800 GPUs. Auf Consumer-Geräten wie RTX 3090 oder 4090 dauert es etwa 2-3 Sekunden, und Mid-Range-Karten benötigen etwa 4-5 Sekunden und erfordern nur 16 GB VRAM."
+  "seo": {
+    "description": "Fotorealistische KI-Bilder mit Z-Image. Generierungsgeschwindigkeit unter einer Sekunde mit präziser chinesischer und englischer Textwiedergabe. Erschwingliche Preise für Profis.",
+    "title": "Z-Image - Fotorealistischer AI-Bildgenerator"
+  },
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Z-Image zeichnet sich durch fotorealistische Bilderzeugung mit feiner Kontrolle über Details, Beleuchtung und Texturen aus. Es behält eine hohe Wiedergabetreue bei und zeigt gleichzeitig eine starke ästhetische Qualität in Komposition und Gesamtstimmung.",
+        "title": "Fotorealistische Qualität"
       },
-      {
-        "question": "Welche Vorteile hat Z-Image beim Textrendering?",
-        "answer": "Z-Image rendert komplexen chinesischen und englischen Text genau, während es Gesichtsrealismus und gesamte ästhetische Komposition beibehält, mit Ergebnissen, die top-tier geschlossene Modellen vergleichbar sind. Im Plakatdesign zeigt es starke Kompositionsfähigkeiten und Typografiesinn und liefert qualitativ hochwertigen Text auch in schwierigen Szenarien mit kleinen Schriftgrößen."
+      "core2": {
+        "description": "Z-Image gibt chinesische und englische Texte präzise wieder und bewahrt dabei den Gesichtsrealismus und die ästhetische Gesamtkomposition, mit Ergebnissen, die mit erstklassigen Closed-Source-Modellen vergleichbar sind. Bei der Plakatgestaltung beweist es starke kompositorische Fähigkeiten und typografisches Gespür und liefert selbst in schwierigen Szenarien mit kleinen Schriftgrößen qualitativ hochwertigen Text.",
+        "title": "Genaue zweisprachige Textwiedergabe"
       },
-      {
-        "question": "Was ist die Prompt Enhancement Funktion?",
-        "answer": "Prompt Enhancer (PE) nutzt strukturierte Reasoning-Ketten, um Logik und gesunden Menschenverstand einzufügen und dem Modell die Fähigkeit zu geben, oberflächliche Beschreibungen zu überwinden und auf zugrunde liegende Weltkenntnisse für komplexe Aufgaben wie das 'Huhn und Kaninchen-Problem' oder die Visualisierung klassischer chinesischer Poesie zuzugreifen. Sogar mit mehrdeutigen Anweisungen kann es die zugrunde liegende Absicht für logisch kohärente Ergebnisse ableiten."
-      },
-      {
-        "question": "Wie ist die photorealistische Qualität von Z-Image?",
-        "answer": "Z-Image zeichnet sich durch photorealistische Bildgenerierung mit feiner Kontrolle über Details, Beleuchtung und Texturen aus. Es balanciert hohe Treue mit starker ästhetischer Qualität in Komposition und Gesamtstimmung. Generierte Bilder sind nicht nur realistisch, sondern auch visuell ansprechend."
-      },
-      {
-        "question": "Welche Architektur verwendet Z-Image?",
-        "answer": "Z-Image nutzt eine Scalable Single-Stream Diffusion Transformer (S3-DiT) Architektur. Text, visuelle semantische Tokens und Bild VAE Tokens werden auf Sequenzebene konkateniert, um als einheitlicher Eingabestrom in den Transformer-Backbone zu dienen und die Parametereffizenz im Vergleich zu Dual-Stream-Ansätzen zu maximieren."
-      },
-      {
-        "question": "Wie vergleicht sich Z-Image mit anderen Modellen?",
-        "answer": "Gemäß Elo-basierter Human Preference Evaluation (auf Alibaba AI Arena) zeigt Z-Image hochgradig wettbewerbsfähige Leistung gegen andere führende Modelle, während es State-of-the-Art-Ergebnisse unter Open-Source-Modellen erreicht."
+      "core3": {
+        "description": "Powerful Prompt Enhancer (PE) verwendet strukturierte Argumentationsketten, um Logik und gesunden Menschenverstand einzubringen, so dass das Modell komplexe Aufgaben wie das \"Hühner- und Kaninchenproblem\" oder die Visualisierung klassischer chinesischer Poesie bewältigen kann. Bei der Bearbeitung von Aufgaben kann das Modell selbst bei mehrdeutigen Anweisungen die zugrunde liegende Absicht ableiten und so logisch kohärente Ergebnisse erzielen.",
+        "title": "Prompt Enhancement \u0026 Reasoning"
       }
-    ]
+    },
+    "demoPlaceholder": "Fotorealistische AI-Bilderzeugung",
+    "description": "Z-Image ist unser fotorealistischer KI-Bilderzeugungsdienst, der auf der fortschrittlichen Scalable Single-Stream Diffusion Transformer Architektur basiert. Wir bieten schnelle, erschwingliche und qualitativ hochwertige KI-Bilderzeugungslösungen an, um die professionelle Erstellung zugänglich zu machen.",
+    "title": "Was ist Z-Image?"
   },
-  "cta": {
-    "title": "Bereit, photorealistische KI-Bildgenerierung zu erleben?",
-    "subtitle": "Probieren Sie Z-Image jetzt aus für 8-Schritte Inferenz, Generierungsgeschwindigkeit unter einer Sekunde und genaues zweisprachiges Textrendering",
-    "primary": "Jetzt mit der Erstellung beginnen",
-    "secondary": "Preise anzeigen",
-    "note": "Keine Kreditkarte erforderlich, beginnen Sie mit der Registrierung"
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Unterstützt die genaue Wiedergabe von chinesischem und englischem Text, perfekt für die Gestaltung von Postern, Werbung und mehr. Selbst kleiner Text wird für professionelle Designs klar und deutlich wiedergegeben.",
+        "title": "Genaue Textwiedergabe"
+      },
+      "flexibility": {
+        "description": "Unser Service verfügt über leistungsstarke Funktionen zum Verstehen von Eingabeaufforderungen, die selbst bei komplexen oder mehrdeutigen Beschreibungen die erwarteten Bilder genau verstehen und erzeugen.",
+        "title": "Intelligentes Prompt-Verständnis"
+      },
+      "quality": {
+        "description": "Die erzeugten Bilder weisen fotorealistische Effekte auf und lassen sich in Bezug auf Details, Beleuchtung und Texturen genau steuern. Ob Porträts oder Produktdisplays, erzielen Sie hervorragende visuelle Ergebnisse.",
+        "title": "Fotorealistische Qualität"
+      },
+      "security": {
+        "description": "Pay-as-you-go-Modell mit transparenten und günstigen Preisen. Reduziert Ihre Erstellungskosten im Vergleich zu herkömmlichen Designdiensten erheblich und macht die professionelle AI-Bilderstellung für alle zugänglich.",
+        "title": "Erschwingliche Preisgestaltung"
+      },
+      "speed": {
+        "description": "Unser Service bietet eine Bildgenerierungsgeschwindigkeit von weniger als einer Sekunde und erweckt Ihre Kreativität sofort zum Leben. Sie müssen nicht warten, sondern können jederzeit und überall professionelle AI-Bilder erstellen.",
+        "title": "Blitzschnelle Erzeugung"
+      },
+      "support": {
+        "description": "Keine professionellen Designkenntnisse erforderlich. Beschreiben Sie einfach Ihre Ideen in natürlicher Sprache, um professionelle KI-Bilder zu erzeugen. So wird die Gestaltung für jeden zugänglich.",
+        "title": "Einfach zu benutzen"
+      }
+    },
+    "comparison": {
+      "product": {
+        "item1": "Erzeugen Sie fotorealistische Bilder in Sekundenschnelle",
+        "item2": "Keine Designkenntnisse erforderlich - einfache Beschreibungen funktionieren",
+        "item3": "Erschwingliche Pauschalpreise",
+        "item4": "Sofortige Generierung, unbegrenzte kreative Möglichkeiten",
+        "title": "Z-Image Generationsdienst"
+      },
+      "traditional": {
+        "item1": "Es dauert Stunden oder Tage, um ein professionelles Bilddesign zu erstellen",
+        "item2": "Erfordert teure Softwarelizenzen und professionelle Designkenntnisse",
+        "item3": "Hohe Kosten für die Einstellung von Designern oder den Kauf fortschrittlicher Designwerkzeuge",
+        "item4": "Langsame Iterationszyklen machen kreative Experimente unpraktisch",
+        "title": "Traditionelle Bilderstellung"
+      }
+    },
+    "subtitle": "Unser Z-Image Service macht die professionelle Erstellung von KI-Bildern einfach und effizient, mit einer Generierungsgeschwindigkeit von weniger als einer Sekunde, einer präzisen Textwiedergabe und einem günstigen Preis.",
+    "title": "Warum sollten Sie unseren Z-Image Dienstleistung?"
   }
 }

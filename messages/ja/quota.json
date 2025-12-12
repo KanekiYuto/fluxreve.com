@@ -1,53 +1,53 @@
 {
-  "seo": {
-    "title": "マイクォータ",
-    "description": "利用可能なクォータの使用状況と履歴を管理・表示"
+  "empty": {
+    "active": "利用可能なアクティブ・クォータなし",
+    "activeDesc": "現在利用可能なクォータがありません。引き続きご利用いただくには、クォータをご購入ください。",
+    "expired": "期限切れ枠なし",
+    "expiredDesc": "期限切れのクォータ記録はありません"
   },
-  "title": "マイクォータ",
-  "subtitle": "利用可能なクォータを管理・表示",
   "loginRequired": {
-    "title": "クォータを表示するにはログインが必要です",
-    "description": "クォータの使用状況と履歴を表示するにはログインしてください"
-  },
-  "summary": {
-    "title": "利用可能な合計",
-    "credits": "クレジット"
-  },
-  "tabs": {
-    "active": "有効なクォータ",
-    "expired": "期限切れ"
-  },
-  "table": {
-    "type": "種類",
-    "amount": "数量",
-    "consumed": "消費済み",
-    "available": "利用可能",
-    "issuedAt": "発行日",
-    "expiresAt": "有効期限",
-    "noExpiry": "無期限"
+    "description": "ログインしてクォータの使用量と履歴を見る",
+    "title": "ログインしてクォータを見る"
   },
   "quotaTypes": {
-    "daily_free": "毎日無料クォータ",
-    "trial": "トライアル",
-    "monthly_basic": "月間ベーシック",
-    "monthly_pro": "月間プロ",
-    "yearly_basic": "年間ベーシック",
-    "yearly_pro": "年間プロ",
+    "daily_free": "1日の無料枠",
+    "monthly_basic": "月額基本料金",
+    "monthly_pro": "月プロ",
     "quota_pack": "クォータパック",
-    "subscription_change_compensation": "サブスクリプション変更補償"
+    "subscription_change_compensation": "サブスクリプション変更補償",
+    "trial": "トライアル",
+    "yearly_basic": "年間ベーシック",
+    "yearly_pro": "年間プロ"
   },
-  "empty": {
-    "active": "有効なクォータがありません",
-    "activeDesc": "現在、利用可能なクォータがありません。サービスを継続して使用するには、クォータを購入してください",
-    "expired": "期限切れのクォータがありません",
-    "expiredDesc": "期限切れのクォータレコードがありません"
-  },
-  "status": {
-    "active": "有効",
-    "depleted": "消費済み"
+  "seo": {
+    "description": "利用可能なクォータの使用量と履歴の管理と表示",
+    "title": "マイ・クォータ"
   },
   "stats": {
     "consumed": "消費済み",
     "remaining": "残り"
-  }
+  },
+  "status": {
+    "active": "アクティブ",
+    "depleted": "枯渇"
+  },
+  "subtitle": "利用可能なクォータの管理と表示",
+  "summary": {
+    "credits": "クレジット",
+    "title": "利用可能な合計"
+  },
+  "table": {
+    "amount": "金額",
+    "available": "利用可能",
+    "consumed": "消費済み",
+    "expiresAt": "有効期限",
+    "issuedAt": "発行元",
+    "noExpiry": "決して",
+    "type": "タイプ"
+  },
+  "tabs": {
+    "active": "アクティブ・クォータ",
+    "expired": "期限切れ"
+  },
+  "title": "マイ・クォータ"
 }

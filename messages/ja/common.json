@@ -1,49 +1,49 @@
 {
+  "discordBanner": {
+    "closeLabel": "閉じる",
+    "description": "最新情報、限定特典、無料ボーナスをゲットしよう",
+    "joinButton": "今すぐ参加する",
+    "title": "00006}コミュニティに参加しようコミュニティ"
+  },
   "language": "言語",
   "loading": "読み込み中...",
   "loginRequired": {
-    "title": "続行するにはログインが必要です",
-    "description": "すべての機能にアクセスするにはログインしてください",
-    "buttonText": "今すぐログイン"
-  },
-  "seo": {
-    "title": "{siteName} - AI画像生成ツール",
-    "description": "AIを活用した画像生成で、数秒で高品質なプロフェッショナル画像を作成。シンプル、高速、強力な人工知能ツール。",
-    "keywords": "AI画像生成, AIアート, 画像クリエイター, AIツール, プロフェッショナル画像"
+    "buttonText": "ログイン",
+    "description": "ログインして全機能にアクセス",
+    "title": "ログインして続ける"
   },
   "navigation": {
+    "ai-generator": "AIジェネレーター",
+    "company": "会社概要",
+    "content": "内容",
+    "dashboard": "ダッシュボード",
+    "explore": "クリエイティブ・コミュニティ",
+    "flux-2-pro": "Flux 2 Pro",
+    "flux2ProDesc": "プロフェッショナルなデュアルモードAI画像生成",
+    "help": "ヘルプ",
     "home": "ホーム",
-    "ai-generator": "AI生成ツール",
+    "main": "メイン",
+    "models": "AIモデル",
+    "more": "もっと見る",
     "nano-banana-pro": "Nano Banana Pro",
     "nanoBananaProDesc": "高度なNano Banana画像生成",
-    "z-image": "Z-Image",
-    "zImageDesc": "高度なAI画像生成と編集",
-    "flux-2-pro": "Flux 2 Pro",
-    "flux2ProDesc": "プロフェッショナルデュアルモードAI画像生成",
-    "seedreamV45": "Seedream 4.5",
-    "seedreamV45Desc": "ByteDance 2K HD画像生成",
-    "explore": "クリエイティブコミュニティ",
-    "dashboard": "ダッシュボード",
-    "tasks": "履歴",
-    "quota": "クォータ",
-    "subscription": "サブスクリプション",
-    "pricing": "料金プラン",
-    "more": "その他",
-    "settings": "設定",
-    "help": "ヘルプ",
-    "terms": "利用規約",
-    "privacy": "プライバシーポリシー",
-    "main": "メイン",
-    "user": "ユーザー",
-    "content": "コンテンツ",
     "nav": "ナビゲーション",
-    "models": "AIモデル",
-    "company": "会社"
+    "pricing": "価格",
+    "privacy": "プライバシーポリシー",
+    "quota": "ノルマ",
+    "seedreamV45": "Seedream 4.5",
+    "seedreamV45Desc": "ByteDance2K HD画像生成",
+    "settings": "設定",
+    "subscription": "サブスクリプション",
+    "tasks": "歴史",
+    "terms": "利用規約",
+    "user": "ユーザー",
+    "z-image": "Z-Image",
+    "zImageDesc": "高度なAI画像生成と編集"
   },
-  "discordBanner": {
-    "title": "Discord コミュニティに参加",
-    "description": "最新情報、限定特典、無料ボーナスを獲得",
-    "joinButton": "今すぐ参加",
-    "closeLabel": "閉じる"
+  "seo": {
+    "description": "AIによる画像生成で、高品質なプロフェッショナル画像を瞬時に作成。シンプル、高速、パワフルな人工知能ツール。",
+    "keywords": "AI画像生成、AIアート、画像クリエーター、AIツール、プロフェッショナル画像",
+    "title": "{siteName} - AI画像生成ツール"
   }
 }

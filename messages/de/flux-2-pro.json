@@ -1,191 +1,185 @@
 {
-  "seo": {
-    "title": "Flux 2 Pro - Professioneller KI-Bildgenerator",
-    "description": "Professionelle KI-Bildgenerierung mit Flux 2 Pro. Text-zu-Bild- und Bild-zu-Bild-Modi mit präziser künstlerischer Kontrolle. Kommerzielle Qualität."
+  "cta": {
+    "note": "Keine Kreditkarte erforderlich - Professionelle Qualität - Dual-Mode-Erstellung",
+    "primary": "Versuchen Sie Flux 2 Pro Kostenlos",
+    "secondary": "Preispläne anzeigen",
+    "subtitle": "Nutzen Sie Flux 2 Pro, um hochwertige AI-Bilder für Ihre Projekte zu erstellen.",
+    "title": "Erstellen Sie professionelle Bilder mit Flux 2 Pro"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Flux 2 Pro ist ein professioneller AI-Bildgenerator, der sowohl den Text-zu-Bild- als auch den Bild-zu-Bild-Modus unterstützt. Das Besondere an diesem Programm ist die professionelle Ausgabequalität, das flexible System zur Erstellung von Bildern in zwei Modi, die präzise Steuerung der Parameter und die hochwertige Ausgabe in kommerzieller Qualität. Mit nur 25 Credits pro Bild bietet er ein außergewöhnliches Preis-Leistungs-Verhältnis.",
+        "question": "Was ist Flux 2 Pro und was macht ihn so besonders?"
+      },
+      {
+        "answer": "Im Text-zu-Bild-Modus können Sie aus Textbeschreibungen völlig neue Bilder erstellen, ideal für Konzeptdesign und kreative Erkundung. Im Modus Bild-zu-Bild können Sie vorhandene Bilder hochladen, um sie zu übertragen, zu verbessern oder kreativ umzugestalten - ideal für die Optimierung von Bildern und die Migration von Stilen. Beide Modi liefern professionelle Qualität.",
+        "question": "Was ist der Unterschied zwischen Text zu Bild und Bild zu Bild in Flux 2 Pro?"
+      },
+      {
+        "answer": "Flux 2 Pro erzeugt Bilder in professioneller Qualität, die sich für die kommerzielle Nutzung eignen. Die Bilder zeichnen sich durch hohe Auflösung, Detailreichtum, präzise Farbwiedergabe und ausgewogene Komposition aus. Ob für Printmedien, digitales Marketing oder soziale Medien - die Qualität entspricht professionellen Standards.",
+        "question": "Wie ist die Qualität der von Flux 2 Pro erzeugten Bilder?"
+      },
+      {
+        "answer": "Flux 2 Pro ermöglicht die Kontrolle des Seed-Wertes. Die Verwendung desselben Seeds und derselben Parameter führt zu identischen oder ähnlichen Ergebnissen. Dies ist von unschätzbarem Wert für die Erstellung von Bildserien, die Wahrung der Markenkonsistenz oder die Feinabstimmung bestimmter Effekte. Sie können erfolgreiche Parameterkombinationen zur späteren Verwendung speichern.",
+        "question": "Wie kann ich die Konsistenz der Generierungsergebnisse sicherstellen?"
+      },
+      {
+        "answer": "Flux 2 Pro eignet sich für eine Vielzahl professioneller Anwendungen: Marketing- und Werbekreativität, Erstellung von Inhalten für soziale Medien, Produktkonzeption, künstlerische Gestaltung und Illustration, Konzeptkunst für Spiele und Filme, visuelles Markendesign, Bildungs- und Schulungsmaterial. Das Dual-Mode-Design bewältigt verschiedene kreative Herausforderungen.",
+        "question": "Für welche Anwendungen ist Flux 2 Pro geeignet?"
+      },
+      {
+        "answer": "Nein! Flux 2 Pro ist so konzipiert, dass es für jeden einfach und intuitiv zu bedienen ist. Grundlegende Kenntnisse über Komposition und Farbprinzipien sind zwar hilfreich, aber die KI kümmert sich um alle technischen Details. Sie müssen nur Ihre kreative Vision klar beschreiben, und Flux 2 Pro verwandelt sie in professionelle Bilder.",
+        "question": "Brauche ich professionelle Designkenntnisse, um Flux 2 Pro zu verwenden?"
+      }
+    ],
+    "subtitle": "Allgemeine Fragen zu Flux 2 Pro AI Image Generator",
+    "title": "Flux 2 Pro Häufig gestellte Fragen"
+  },
+  "features": {
+    "items": {
+      "batch": {
+        "description": "Optimiertes Oberflächendesign und Funktionslayout für schnelle Erstellung und Stapelverarbeitung zur Steigerung der Produktivität.",
+        "title": "Effizienter Arbeitsablauf"
+      },
+      "control": {
+        "description": "Präzise Seed-Werte, Größenauswahl und erweiterte Parameter geben Ihnen die vollständige Kontrolle über den Erstellungsprozess und die Konsistenz der Ausgabe.",
+        "title": "Professionelle Parametersteuerung"
+      },
+      "quality": {
+        "description": "Erzeugen Sie hochauflösende, detailreiche Bilder mit ausgezeichneter Farbgenauigkeit und kompositorischer Ausgewogenheit.",
+        "title": "Außergewöhnliche Bildqualität"
+      },
+      "secure": {
+        "description": "Die Optionen für den privaten Modus sorgen dafür, dass Ihre Kreationen vertraulich bleiben, wobei alle Datenübertragungen zur Sicherheit verschlüsselt werden.",
+        "title": "Schutz der Privatsphäre"
+      },
+      "speed": {
+        "description": "Die effiziente Verarbeitungs-Engine sorgt für eine schnelle Generierung, die eine schnelle kreative Iteration und verbesserte Produktivität ermöglicht.",
+        "title": "Optimierte Generierungsgeschwindigkeit"
+      },
+      "variety": {
+        "description": "Von fotorealistischer bis zu künstlerischer Illustration, von Konzeptdesign bis zu abstrakter Kunst - wir unterstützen eine breite Palette visueller Stile.",
+        "title": "Diverse Style Support"
+      }
+    },
+    "subtitle": "Professionelles Funktionspaket für alle Ihre kreativen Anforderungen",
+    "title": "Flux 2 Pro AI Image Generator Eigenschaften"
   },
   "hero": {
-    
-    "title": {
-      "line1": "Flux 2 Pro",
-      "line2": "Professionelle KI-Generierung"
-    },
-    "subtitle": "Erleben Sie den KI-Bildgenerator der nächsten Generation Flux 2 Pro - eine hochwertige Bildgenerierungslösung für professionelle Schöpfer und Unternehmen. Unterstützt sowohl Text-zu-Bild- als auch Bild-zu-Bild-Modi mit außergewöhnlicher Qualität und präziser kreativer Kontrolle.",
     "cta": {
-      "primary": "Flux 2 Pro ausprobieren",
+      "primary": "Versuchen Sie Flux 2 Pro",
       "secondary": "Mehr erfahren"
     },
     "stats": {
-      "quality": {
-        "value": "Pro-Qualität",
-        "label": "Bildqualität"
-      },
       "features": {
-        "value": "Dualmodus",
-        "label": "Text- und Bildeingabe"
+        "label": "Text \u0026 Image Input",
+        "value": "Dualer Modus"
       },
       "professional": {
-        "value": "25 Guthaben",
-        "label": "Pro Bild"
-      }
-    }
-  },
-  "what": {
-    
-    "title": "Was ist Flux 2 Pro KI-Bildgenerator?",
-    "description": "Flux 2 Pro ist ein fortschrittlicher professioneller KI-Bildgenerator für Schöpfer und Unternehmen, die hochwertige visuelle Inhalte benötigen. Er bietet zwei leistungsstarke Generierungsmodi: Text-zu-Bild zum Erstellen von Bildern aus Beschreibungen und Bild-zu-Bild zum Transformieren und Verbessern vorhandener Bilder. Mit präziser Parametersteuerung und vielfältigen Stiloptionen ermöglicht Flux 2 Pro Ihnen die Erstellung professioneller Bilder, die kommerzielle Standards erfüllen.",
-    "demoPlaceholder": "Flux 2 Pro generiertes Bild",
-    "coreFeatures": {
-      "core1": {
-        "title": "Professionelle Bildqualität",
-        "description": "Flux 2 Pro nutzt hochmoderne KI-Technologie, um hochauflösende, detailreiche professionelle Bilder zu generieren. Jede Ausgabe ist für Farbgenauigkeit und ausgewogene Komposition optimiert und erfüllt strenge Standards für kommerzielle Veröffentlichungen und professionelles Design."
-      },
-      "core2": {
-        "title": "Dualmodus-Erstellungssystem",
-        "description": "Unterstützt sowohl Text-zu-Bild- als auch Bild-zu-Bild-Modi. Mit Text-zu-Bild können Sie völlig neue Bilder aus detaillierten Beschreibungen erstellen, während Sie mit Bild-zu-Bild vorhandene Bilder hochladen können, um Stilübertragung, Verbesserung oder kreative Transformation zu erreichen."
-      },
-      "core3": {
-        "title": "Präzise Parametersteuerung",
-        "description": "Professionelle kreative Kontrolle einschließlich Startwerteinstellungen, Größenauswahl und erweiterte Parameter. Diese feingefeilten Kontrollen gewährleisten Ausgabekonsistenz und ermöglichen die Erstellung markenkonformer Bildreihen für professionelle Projekte."
-      }
-    }
-  },
-  "why": {
-    
-    "title": "Warum sollten Sie Flux 2 Pro KI-Bildgenerator wählen",
-    "subtitle": "Flux 2 Pro revolutioniert Ihren kreativen Arbeitsablauf mit professioneller Qualität, Dualmodus-Erstellung und präziser Kontrolle.",
-    "comparison": {
-      "traditional": {
-        "title": "Traditionelle Bilderstellung",
-        "item1": "Teure Design-Software-Lizenzen und professionelle Schulung erforderlich",
-        "item2": "Stunden oder Tage werden zum Erstellen komplexer Bilder benötigt",
-        "item3": "Es ist schwierig, schnell zu iterieren und verschiedene kreative Richtungen zu erkunden",
-        "item4": "Sie müssen professionelle Designer oder Fotografen einstellen"
-      },
-      "product": {
-        "title": "Flux 2 Pro KI-Generator",
-        "item1": "Sofort einsatzbereit, keine Design-Kenntnisse erforderlich",
-        "item2": "Professionelle Bilder in Minuten generieren",
-        "item3": "Schnelle Iteration, um mehrere kreative Möglichkeiten zu erkunden",
-        "item4": "Erschwingliches Bezahl-pro-Nutzungs-Preismodell"
-      }
-    },
-    "benefits": {
-      "speed": {
-        "title": "Effizienter Erstellungsarbeitsablauf",
-        "description": "Der optimierte Generierungsprozess von Flux 2 Pro liefert hochwertige Ergebnisse schnell. Ob Text-zu-Bild oder Bild-zu-Bild, der Abschluss erfolgt schnell und verbessert Ihre kreative Effizienz erheblich."
+        "label": "Per Image",
+        "value": "25 Kredite"
       },
       "quality": {
-        "title": "Kommerzielle Ausgabequality",
-        "description": "Jedes von Flux 2 Pro generierte Bild erfüllt professionelle Standards und eignet sich für kommerzielle Projekte, Marketingmaterialien, soziale Medien und Druckveröffentlichungen. Präzise Detailbehandlung und Farbwiedergabe gewährleisten optimale visuelle Wirkung."
-      },
-      "cost": {
-        "title": "Transparentes Preismodell",
-        "description": "Festpreise von nur 25 Guthaben pro Bild ermöglichen genaue Projektbudgetierung. Keine versteckten Gebühren, keine Überraschungen - professionelle Bildgenerierung ist erschwinglicher denn je."
-      },
-      "flexibility": {
-        "title": "Flexible Erstellungsoptionen",
-        "description": "Das Dualmodus-Design ermöglicht die Erstellung von Grund auf oder Transformation vorhandener Materialien. Ob völlig neue Konzepte oder Stilübertragungen, Flux 2 Pro erfüllt alle Ihre kreativen Anforderungen."
-      },
-      "support": {
-        "title": "Professioneller Support",
-        "description": "Zugriff auf umfassenden technischen Support und detaillierte Dokumentation. Unser professionelles Team ist bereit, Ihnen dabei zu helfen, die leistungsstarken Funktionen von Flux 2 Pro optimal zu nutzen."
-      },
-      "security": {
-        "title": "Datensicherheitsgarantie",
-        "description": "Ihre Kreationen und Daten sind durch unternehmenseigene Sicherheitsmaßnahmen geschützt. Optionen für den privaten Modus gewährleisten, dass vertrauliche Projekte vertraulich bleiben und die strengsten Datenschutzstandards erfüllen."
+        "label": "Image Quality",
+        "value": "Profi-Note"
       }
+    },
+    "subtitle": "Erleben Sie die nächste Generation des Flux 2 Pro AI Image Generator - eine hochwertige Lösung zur Bilderzeugung, die für professionelle Kreative und Unternehmen entwickelt wurde. Er unterstützt sowohl den Text-zu-Bild- als auch den Bild-zu-Bild-Modus mit außergewöhnlicher Qualität und präziser kreativer Kontrolle.",
+    "title": {
+      "line1": "Flux 2 Pro",
+      "line2": "Professionelle AI-Erzeugung"
     }
   },
   "how": {
-    
-    "title": "Wie man Flux 2 Pro KI-Bildgenerator nutzt",
-    "subtitle": "Vier einfache Schritte vom Konzept zum professionellen Bild. Flux 2 Pro macht hochwertige KI-Bildgenerierung einfach und intuitiv.",
     "steps": {
       "step1": {
-        "title": "Wählen Sie Ihren Erstellungsmodus",
-        "description": "Beginnen Sie mit der Auswahl Ihres Erstellungsmodus: Text-zu-Bild zum Erstellen neuer Bilder von Grund auf oder Bild-zu-Bild zum Transformieren oder Verbessern vorhandener Bilder. Jeder Modus ist für spezifische Anwendungsfälle optimiert, um die besten Ergebnisse zu gewährleisten."
+        "description": "Wählen Sie zunächst Ihren Erstellungsmodus: Text-zu-Bild für die Erstellung neuer Bilder von Grund auf oder Bild-zu-Bild für die Umwandlung oder Verbesserung vorhandener Bilder. Jeder Modus ist für bestimmte Anwendungsfälle optimiert, um beste Ergebnisse zu gewährleisten.",
+        "title": "Wählen Sie Ihren Erstellungsmodus"
       },
       "step2": {
-        "title": "Geben Sie Ihren kreativen Inhalt ein",
-        "description": "Geben Sie für Text-zu-Bild detaillierte Textbeschreibungen einschließlich Motiv, Stil, Stimmung und spezifische Details ein. Laden Sie für Bild-zu-Bild Ihr Referenzbild hoch und beschreiben Sie Ihre gewünschte Transformation. Detailliertere Beschreibungen führen zu präziseren Ergebnissen."
+        "description": "Für Text-zu-Bild geben Sie detaillierte Textbeschreibungen ein, einschließlich Thema, Stil, Stimmung und spezifische Details. Für Bild-zu-Bild laden Sie Ihr Referenzbild hoch und beschreiben die gewünschte Umwandlung. Detailliertere Beschreibungen führen zu präziseren Ergebnissen.",
+        "title": "Eingabe Ihrer kreativen Inhalte"
       },
       "step3": {
-        "title": "Passen Sie Generierungsparameter an",
-        "description": "Wählen Sie die Ausgabegröße, legen Sie Startwerte fest (zum Reproduzieren von Ergebnissen) und passen Sie erweiterte Parameter an. Flux 2 Pro bietet professionelle Voreinstellungen und benutzerdefinierte Optionen für vollständige Kontrolle über den Generierungsprozess."
+        "description": "Wählen Sie die Ausgabegröße, legen Sie Seed-Werte (für die Ergebnisreproduktion) fest und passen Sie erweiterte Parameter an. Flux 2 Pro bietet professionelle Voreinstellungen und benutzerdefinierte Optionen für eine vollständige Kontrolle über den Erstellungsprozess.",
+        "title": "Generierungsparameter anpassen"
       },
       "step4": {
-        "title": "Generieren und verfeinern",
-        "description": "Klicken Sie auf Generieren und Flux 2 Pro verarbeitet Ihre Anfrage, um hochwertige Bilder zu erstellen. Sehen Sie sich die Ergebnisse an, und wenn Anpassungen erforderlich sind, ändern Sie Eingabeaufforderungen oder Parameter und generieren Sie erneut. Laden Sie Ihr hochauflösendes Meisterwerk herunter, wenn Sie zufrieden sind."
+        "description": "Klicken Sie auf \"Generieren\" und Flux 2 Pro wird Ihre Anfrage verarbeiten, um qualitativ hochwertige Bilder zu erstellen. Zeigen Sie die Ergebnisse in der Vorschau an und ändern Sie bei Bedarf die Eingabeaufforderungen oder Parameter und generieren Sie erneut. Laden Sie Ihr hochauflösendes Meisterwerk herunter, wenn Sie zufrieden sind.",
+        "title": "Generieren und verfeinern"
       }
-    }
+    },
+    "subtitle": "In vier einfachen Schritten vom Konzept zum professionellen Bild. Flux 2 Pro macht die Erzeugung hochwertiger KI-Bilder einfach und intuitiv.",
+    "title": "Wie man Flux 2 Pro verwendet AI Image Generator"
   },
-  "features": {
-    
-    "title": "Flux 2 Pro KI-Bildgenerator Merkmale",
-    "subtitle": "Professionelle Funktionssammlung zur Erfüllung aller Ihrer kreativen Anforderungen",
-    "items": {
-      "speed": {
-        "title": "Optimierte Generierungsgeschwindigkeit",
-        "description": "Die effiziente Verarbeitungs-Engine gewährleistet schnelle Generierung, ermöglicht schnelle kreative Iteration und verbesserte Produktivität."
+  "seo": {
+    "description": "Professionelle AI-Bilderzeugung mit Flux 2 Pro. Text-zu-Bild- und Bild-zu-Bild-Modi mit präziser künstlerischer Kontrolle. Kommerzielle Qualität.",
+    "title": "Flux 2 Pro - Professioneller AI-Bildgenerator"
+  },
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Flux 2 Pro nutzt modernste KI-Technologie, um hochauflösende, detailreiche professionelle Bilder zu erzeugen. Jede Ausgabe ist für Farbgenauigkeit und ausgewogene Komposition optimiert und erfüllt die strengen Standards für kommerzielle Veröffentlichungen und professionelles Design.",
+        "title": "Bildqualität in Profiqualität"
+      },
+      "core2": {
+        "description": "Unterstützt sowohl den Text-zu-Bild- als auch den Bild-zu-Bild-Modus. Mit Text-zu-Bild können Sie aus detaillierten Beschreibungen völlig neue Bilder erstellen, während Sie mit Bild-zu-Bild vorhandene Bilder hochladen können, um sie zu übertragen, zu verbessern oder kreativ zu gestalten.",
+        "title": "Dual-Mode-Erstellungssystem"
+      },
+      "core3": {
+        "description": "Professionelle kreative Kontrolle, einschließlich Seed-Wert-Einstellungen, Größenauswahl und erweiterte Parameter. Diese fein abgestimmten Steuerungen gewährleisten eine konsistente Ausgabe und ermöglichen die Erstellung markenkonformer Bildserien für professionelle Projekte.",
+        "title": "Präzise Parametersteuerung"
+      }
+    },
+    "demoPlaceholder": "Flux 2 Pro Generiertes Bild",
+    "description": "Flux 2 Pro ist ein fortschrittlicher, professioneller AI-Bildgenerator für Kreative und Unternehmen, die hochwertige visuelle Inhalte benötigen. Er bietet zwei leistungsstarke Generierungsmodi: Text-zu-Bild zum Erstellen von Bildern aus Beschreibungen und Bild-zu-Bild zum Umwandeln und Verbessern von vorhandenem Bildmaterial. Mit präziser Parametersteuerung und vielfältigen Stiloptionen ermöglicht Flux 2 Pro die Erstellung professioneller Bilder, die kommerziellen Standards entsprechen.",
+    "title": "Was ist Flux 2 Pro AI Image Generator?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Der Festpreis von nur 25 Credits pro Bild ermöglicht eine genaue Budgetierung des Projekts. Keine versteckten Gebühren, keine Überraschungen - so wird professionelle Bilderstellung erschwinglicher denn je.",
+        "title": "Transparentes Preismodell"
+      },
+      "flexibility": {
+        "description": "Das Dual-Mode-Design ermöglicht die Kreation von Grund auf oder die Umwandlung von bestehenden Materialien. Ob völlig neue Konzepte oder Stilübertragungen, Flux 2 Pro erfüllt alle Ihre kreativen Bedürfnisse.",
+        "title": "Flexible Erstellungsoptionen"
       },
       "quality": {
-        "title": "Außergewöhnliche Bildqualität",
-        "description": "Generieren Sie hochauflösende, detailreiche Bilder mit hervorragender Farbgenauigkeit und kompositorischem Gleichgewicht."
+        "description": "Jedes Flux 2 Pro erzeugte Bild entspricht professionellen Standards und eignet sich für kommerzielle Projekte, Marketingmaterialien, soziale Medien und Printmedien. Präzise Detailverarbeitung und Farbwiedergabe sorgen für eine optimale visuelle Wirkung.",
+        "title": "Kommerzieller Output"
       },
-      "variety": {
-        "title": "Vielfältige Stilunterstützung",
-        "description": "Von fotorealistisch bis künstlerische Illustration, Konzeptdesign bis abstrakte Kunst - unterstützt ein breites Spektrum visueller Stile."
+      "security": {
+        "description": "Ihre Kreationen und Daten werden durch Sicherheitsmaßnahmen auf Unternehmensniveau geschützt. Die Optionen für den privaten Modus stellen sicher, dass sensible Projekte vertraulich bleiben und die strengsten Datenschutzstandards eingehalten werden.",
+        "title": "Gewährleistung der Datensicherheit"
       },
-      "control": {
-        "title": "Professionelle Parametersteuerung",
-        "description": "Präzise Startwerte, Größenauswahl und erweiterte Parameter geben Ihnen vollständige Kontrolle über den Erstellungsprozess und die Ausgabekonsistenz."
+      "speed": {
+        "description": "Der optimierte Generierungsprozess von Flux 2 Pro liefert schnell hochwertige Ergebnisse. Ob Text-zu-Bild oder Bild-zu-Bild, die Fertigstellung erfolgt schnell und steigert Ihre kreative Effizienz erheblich.",
+        "title": "Effizienter Erstellungs-Workflow"
       },
-      "batch": {
-        "title": "Effizienter Arbeitsablauf",
-        "description": "Optimiertes Interface-Design und Funktionslayout unterstützen schnelle Erstellung und Batch-Verarbeitung für verbesserte Produktivität."
-      },
-      "secure": {
-        "title": "Datenschutz",
-        "description": "Optionen für den privaten Modus gewährleisten, dass Ihre Kreationen vertraulich bleiben, mit allen verschlüsselten Datenübertragungen zur Sicherheit."
+      "support": {
+        "description": "Nutzen Sie den umfassenden technischen Support und die detaillierte Dokumentation. Unser professionelles Team ist bereit, Ihnen zu helfen, die leistungsstarken Funktionen von Flux 2 Pro zu maximieren.",
+        "title": "Professionelle Unterstützung"
       }
-    }
-  },
-  "faq": {
-    
-    "title": "Flux 2 Pro häufig gestellte Fragen",
-    "subtitle": "Häufige Fragen zum Flux 2 Pro KI-Bildgenerator",
-    "items": [
-      {
-        "question": "Was ist Flux 2 Pro und was macht es besonders?",
-        "answer": "Flux 2 Pro ist ein professioneller KI-Bildgenerator, der sowohl Text-zu-Bild- als auch Bild-zu-Bild-Modi unterstützt. Das Besondere ist die professionelle Ausgabequality, das flexible Dualmodus-Erstellungssystem, die präzise Parametersteuerung und die kommerziebereit hochwertige Ausgabe. Bei nur 25 Guthaben pro Bild bietet es außergewöhnlichen Wert."
+    },
+    "comparison": {
+      "product": {
+        "item1": "Sofort einsatzbereit, keine Designkenntnisse erforderlich",
+        "item2": "Erstellen Sie professionelle Bilder in wenigen Minuten",
+        "item3": "Schnelle Iteration zur Erkundung verschiedener kreativer Möglichkeiten",
+        "item4": "Erschwingliches Preismodell mit nutzungsabhängiger Vergütung",
+        "title": "Flux 2 Pro AI-Generator"
       },
-      {
-        "question": "Was ist der Unterschied zwischen Text-zu-Bild und Bild-zu-Bild in Flux 2 Pro?",
-        "answer": "Der Text-zu-Bild-Modus ermöglicht es Ihnen, völlig neue Bilder aus Textbeschreibungen zu erstellen, ideal für Konzeptdesign und kreative Erkundung. Der Bild-zu-Bild-Modus ermöglicht Ihnen, vorhandene Bilder hochzuladen, um Stilübertragung, Verbesserung oder kreative Transformation durchzuführen, perfekt für Bildoptimierung und Stilmigration. Beide Modi bieten professionelle Qualität."
-      },
-      {
-        "question": "Wie ist die Qualität der von Flux 2 Pro generierten Bilder?",
-        "answer": "Flux 2 Pro generiert Bilder auf professionellem Niveau, die für kommerzielle Verwendung geeignet sind. Bilder zeichnen sich durch hohe Auflösung, reiche Details, genaue Farbwiedergabe und ausgewogene Komposition aus. Ob für Druckveröffentlichungen, digitales Marketing oder soziale Medien, die Qualität erfüllt professionelle Standards."
-      },
-      {
-        "question": "Wie kann ich Konsistenz in den Generierungsergebnissen gewährleisten?",
-        "answer": "Flux 2 Pro bietet Startwertsteuerung. Die Verwendung desselben Startwerts und derselben Parameter erzeugt identische oder ähnliche Ergebnisse. Dies ist von unschätzbarem Wert für die Erstellung von Bildreihen, die Erhaltung von Markenkonsistenz oder die Feinabstimmung spezifischer Effekte. Sie können erfolgreiche Parameterkombinationen zur zukünftigen Verwendung speichern."
-      },
-      {
-        "question": "Für welche Anwendungen eignet sich Flux 2 Pro?",
-        "answer": "Flux 2 Pro eignet sich für eine breite Palette professioneller Anwendungen: Marketing- und Werbekreaitve, Erstellung von Inhalten für soziale Medien, Produktkonzeptdesign, Kunsterstellung und Illustration, Konzeptkunst für Spiele und Filme, visuelles Markendesign, Bildungs- und Schulungsmaterialien. Das Dualmodus-Design bewältigt verschiedene kreative Herausforderungen."
-      },
-      {
-        "question": "Benötige ich professionelle Designfähigkeiten, um Flux 2 Pro zu nutzen?",
-        "answer": "Nein! Flux 2 Pro ist einfach und intuitiv für jeden zu bedienen. Während Verständnis grundlegender Kompositions- und Farbprinzipien hilft, kümmert sich die KI um alle technischen Details. Sie müssen nur Ihre kreative Vision klar beschreiben, und Flux 2 Pro verwandelt sie in professionelle Bilder."
+      "traditional": {
+        "item1": "Teure Lizenzen für Konstruktionssoftware und professionelle Schulungen erforderlich",
+        "item2": "Stunden oder Tage für die Erstellung komplexer Bilder",
+        "item3": "Es ist schwierig, schnell zu iterieren und verschiedene kreative Richtungen zu erkunden.",
+        "item4": "Notwendigkeit, professionelle Designer oder Fotografen zu beauftragen",
+        "title": "Traditionelle Bilderstellung"
       }
-    ]
-  },
-  "cta": {
-    "title": "Beginnen Sie mit der Erstellung professioneller Bilder mit Flux 2 Pro",
-    "subtitle": "Treten Sie professionellen Schöpfern bei, die Flux 2 Pro verwenden, um hochwertige KI-Bilder für ihre Projekte zu generieren.",
-    "primary": "Flux 2 Pro kostenlos ausprobieren",
-    "secondary": "Preispläne anzeigen",
-    "note": "Keine Kreditkarte erforderlich · Professionelle Qualität · Dualmodus-Erstellung"
+    },
+    "subtitle": "Flux 2 Pro revolutioniert Ihren kreativen Workflow mit professioneller Qualität, Dual-Mode-Erstellung und präziser Steuerung.",
+    "title": "Weshalb sollten Sie Flux 2 Pro AI Image Generator"
   }
 }

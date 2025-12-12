@@ -1,0 +1,280 @@
+{
+  "entries": {
+    "Access: Request a copy of the personal information we hold about you": {
+      "translation": "Accès à l'information : Demander une copie des informations personnelles que nous détenons à votre sujet",
+      "timestamp": 1765576846
+    },
+    "Account information: email address, username, password": {
+      "translation": "Informations sur le compte : adresse électronique, nom d'utilisateur, mot de passe",
+      "timestamp": 1765576846
+    },
+    "Analytics cookies: Help us understand usage patterns and improve our services": {
+      "translation": "Cookies analytiques : nous aident à comprendre les habitudes d'utilisation et à améliorer nos services",
+      "timestamp": 1765576846
+    },
+    "Automatically Collected Information": {
+      "translation": "Informations collectées automatiquement",
+      "timestamp": 1765576846
+    },
+    "By using our services through the {siteName} website, mobile applications, or APIs, you acknowledge that you have read, understood, and agree to the practices described in this Privacy Policy. This policy also informs you of your privacy rights and how the law protects you.": {
+      "translation": "En utilisant nos services par le biais du site web {siteName}, des applications mobiles ou des API, vous reconnaissez avoir lu, compris et accepté les pratiques décrites dans la présente Politique de confidentialité. Cette politique vous informe également de vos droits en matière de protection de la vie privée et de la manière dont la loi vous protège.",
+      "timestamp": 1765576846
+    },
+    "Changes to This Privacy Policy": {
+      "translation": "Modifications de la présente politique de confidentialité",
+      "timestamp": 1765576846
+    },
+    "Children's Privacy": {
+      "translation": "Vie privée des enfants",
+      "timestamp": 1765576846
+    },
+    "Communication data: feedback, support inquiries, or other messages you send to us": {
+      "translation": "Données de communication : commentaires, demandes d'assistance ou autres messages que vous nous envoyez",
+      "timestamp": 1765576846
+    },
+    "Complying with legal obligations and enforcing our terms of service": {
+      "translation": "Respecter les obligations légales et appliquer nos conditions de service",
+      "timestamp": 1765576846
+    },
+    "Contact Us": {
+      "translation": "Nous contacter",
+      "timestamp": 1765576846
+    },
+    "Content you create using our services, including AI-generated images, text prompts, uploaded images, and project data. We may temporarily store this content to provide our services and may use it to improve our AI models, subject to your consent.": {
+      "translation": "Le contenu que vous créez en utilisant nos services, y compris les images générées par l'IA, les invites textuelles, les images téléchargées et les données de projet. Nous pouvons stocker temporairement ce contenu pour fournir nos services et l'utiliser pour améliorer nos modèles d'IA, sous réserve de votre consentement.",
+      "timestamp": 1765576846
+    },
+    "Cookies and Tracking Technologies": {
+      "translation": "Cookies et technologies de suivi",
+      "timestamp": 1765576846
+    },
+    "Cookies and tracking technologies for analytics and functionality": {
+      "translation": "Cookies et technologies de suivi pour l'analyse et la fonctionnalité",
+      "timestamp": 1765576846
+    },
+    "Data Storage and Security": {
+      "translation": "Stockage et sécurité des données",
+      "timestamp": 1765576846
+    },
+    "Deletion: Request deletion of your personal data (\"right to be forgotten\")": {
+      "translation": "Suppression : Demander la suppression de vos données personnelles (\"droit à l'oubli\")",
+      "timestamp": 1765576846
+    },
+    "Depending on your location, you may have the following rights regarding your personal information:": {
+      "translation": "En fonction de votre lieu de résidence, vous pouvez bénéficier des droits suivants concernant vos informations personnelles :",
+      "timestamp": 1765576846
+    },
+    "Detecting, preventing, and addressing fraud, security issues, or technical problems": {
+      "translation": "Détecter, prévenir et traiter les fraudes, les questions de sécurité ou les problèmes techniques",
+      "timestamp": 1765576846
+    },
+    "Device data: device type, operating system, browser version, unique device identifiers": {
+      "translation": "Données relatives à l'appareil : type d'appareil, système d'exploitation, version du navigateur, identifiants uniques de l'appareil",
+      "timestamp": 1765576846
+    },
+    "Email": {
+      "translation": "Courriel",
+      "timestamp": 1765576846
+    },
+    "Essential cookies: Required for basic service functionality and authentication": {
+      "translation": "Cookies essentiels : Nécessaires à la fonctionnalité des services de base et à l'authentification",
+      "timestamp": 1765576846
+    },
+    "How We Use Your Information": {
+      "translation": "Comment nous utilisons vos informations",
+      "timestamp": 1765576846
+    },
+    "If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:": {
+      "translation": "Si vous avez des questions, des préoccupations ou des demandes concernant la présente politique de confidentialité ou nos pratiques en matière de données, veuillez nous contacter à l'adresse suivante",
+      "timestamp": 1765576846
+    },
+    "Improving our services through data analysis and usage pattern identification": {
+      "translation": "Améliorer nos services grâce à l'analyse des données et à l'identification des schémas d'utilisation",
+      "timestamp": 1765576846
+    },
+    "In connection with a merger, acquisition, or sale of assets, where information may be transferred as a business asset": {
+      "translation": "dans le cadre d'une fusion, d'une acquisition ou d'une vente d'actifs, lorsque les informations peuvent être transférées en tant qu'actif commercial",
+      "timestamp": 1765576846
+    },
+    "Information Sharing and Disclosure": {
+      "translation": "Partage et divulgation d'informations",
+      "timestamp": 1765576846
+    },
+    "Information We Collect": {
+      "translation": "Informations collectées",
+      "timestamp": 1765576846
+    },
+    "Information You Provide": {
+      "translation": "Informations que vous fournissez",
+      "timestamp": 1765576846
+    },
+    "Introduction": {
+      "translation": "Introduction",
+      "timestamp": 1765576846
+    },
+    "Last Updated": {
+      "translation": "Dernière mise à jour",
+      "timestamp": 1765576846
+    },
+    "Learn how {siteName} collects, uses, and protects your personal information. Our privacy policy covers data collection, usage, sharing, and your rights.": {
+      "translation": "Découvrez comment {siteName} recueille, utilise et protège vos informations personnelles. Notre politique de confidentialité couvre la collecte, l'utilisation et le partage des données, ainsi que vos droits.",
+      "timestamp": 1765576846
+    },
+    "Log data: IP address, access times, pages viewed, referring URLs": {
+      "translation": "Données du journal : Adresse IP, temps d'accès, pages consultées, URL de référence",
+      "timestamp": 1765576846
+    },
+    "Marketing cookies: Deliver relevant content and measure campaign effectiveness (with your consent)": {
+      "translation": "Cookies marketing : Fournir un contenu pertinent et mesurer l'efficacité des campagnes (avec votre consentement).",
+      "timestamp": 1765576846
+    },
+    "Objection: Object to processing of your information for certain purposes": {
+      "translation": "Objection : S'opposer au traitement de vos données à certaines fins",
+      "timestamp": 1765576846
+    },
+    "Opt-out: Unsubscribe from marketing communications": {
+      "translation": "Opt-out : Se désinscrire des communications marketing",
+      "timestamp": 1765576846
+    },
+    "Our services are not directed to individuals under the age of 13 (or equivalent minimum age in your jurisdiction). We do not knowingly collect personal information from children. If we become aware that we have collected data from a child without proper consent, we will take steps to delete it promptly.": {
+      "translation": "Nos services ne s'adressent pas aux personnes âgées de moins de 13 ans (ou de l'âge minimum équivalent dans votre juridiction). Nous ne recueillons pas sciemment d'informations personnelles auprès d'enfants. Si nous apprenons que nous avons recueilli des données auprès d'un enfant sans son consentement, nous prendrons des mesures pour les supprimer rapidement.",
+      "timestamp": 1765576846
+    },
+    "Our services may contain links to third-party websites, integrations, or services. We are not responsible for the privacy practices or content of these third parties. We encourage you to review their privacy policies before providing any personal information.": {
+      "translation": "Nos services peuvent contenir des liens vers des sites web, des intégrations ou des services de tiers. Nous ne sommes pas responsables des pratiques de confidentialité ou du contenu de ces tiers. Nous vous encourageons à consulter leurs politiques de confidentialité avant de fournir des informations personnelles.",
+      "timestamp": 1765576846
+    },
+    "Payment details: billing information, transaction history": {
+      "translation": "Détails de paiement : informations de facturation, historique des transactions",
+      "timestamp": 1765576846
+    },
+    "Portability: Receive your data in a structured, commonly used format": {
+      "translation": "Portabilité : recevoir vos données dans un format structuré et couramment utilisé",
+      "timestamp": 1765576846
+    },
+    "Preference cookies: Remember your settings and personalization choices": {
+      "translation": "Cookies de préférence : Mémoriser vos paramètres et vos choix de personnalisation",
+      "timestamp": 1765576846
+    },
+    "Privacy Policy | {siteName}": {
+      "translation": "Politique de confidentialité | {siteName}",
+      "timestamp": 1765576846
+    },
+    "Processing your transactions and managing your account": {
+      "translation": "Traitement de vos transactions et gestion de votre compte",
+      "timestamp": 1765576846
+    },
+    "Profile data: display name, avatar, bio": {
+      "translation": "Données du profil : nom d'affichage, avatar, biographie",
+      "timestamp": 1765576846
+    },
+    "Providing customer support and responding to your inquiries": {
+      "translation": "Fournir une assistance à la clientèle et répondre à vos demandes de renseignements",
+      "timestamp": 1765576846
+    },
+    "Providing, operating, and maintaining our AI image generation services": {
+      "translation": "Fournir, exploiter et maintenir nos services de génération d'images d'IA",
+      "timestamp": 1765576846
+    },
+    "Rectification: Correct inaccurate or incomplete information": {
+      "translation": "Rectification : Corriger les informations inexactes ou incomplètes",
+      "timestamp": 1765576846
+    },
+    "Restriction: Limit how we process your information": {
+      "translation": "Restriction : Limiter la façon dont nous traitons vos informations",
+      "timestamp": 1765576846
+    },
+    "Retention Period: We retain your personal information only for as long as necessary to fulfill the purposes outlined in this policy or as required by law. Generated content may be retained based on your account settings and subscription type.": {
+      "translation": "Période de conservation : Nous ne conservons vos informations personnelles que pendant la durée nécessaire à la réalisation des objectifs décrits dans la présente politique ou conformément à la loi. Le contenu généré peut être conservé en fonction des paramètres de votre compte et de votre type d'abonnement.",
+      "timestamp": 1765576846
+    },
+    "Security Measures: We implement industry-standard security practices including encryption (in transit and at rest), access controls, regular security audits, and secure authentication mechanisms. However, no method of transmission or storage is 100% secure.": {
+      "translation": "Mesures de sécurité : Nous mettons en œuvre des pratiques de sécurité conformes aux normes industrielles, notamment le cryptage (en transit et au repos), des contrôles d'accès, des audits de sécurité réguliers et des mécanismes d'authentification sécurisés. Toutefois, aucune méthode de transmission ou de stockage n'est sûre à 100 %.",
+      "timestamp": 1765576846
+    },
+    "Sending service notifications, updates, and promotional communications (with your consent)": {
+      "translation": "Envoi de notifications de service, de mises à jour et de communications promotionnelles (avec votre consentement)",
+      "timestamp": 1765576846
+    },
+    "Storage Location: Your information is stored on secure servers located in various regions globally to ensure optimal service performance and reliability. We use industry-leading cloud infrastructure providers.": {
+      "translation": "Lieu de stockage : Vos informations sont stockées sur des serveurs sécurisés situés dans différentes régions du monde afin de garantir une performance et une fiabilité optimales du service. Nous utilisons des fournisseurs d'infrastructure en nuage de premier plan.",
+      "timestamp": 1765576846
+    },
+    "Third-Party Services and Links": {
+      "translation": "Services et liens de tiers",
+      "timestamp": 1765576846
+    },
+    "To comply with legal obligations, court orders, or valid governmental requests": {
+      "translation": "pour se conformer à des obligations légales, à des ordonnances judiciaires ou à des demandes gouvernementales valables",
+      "timestamp": 1765576846
+    },
+    "To protect our rights, property, safety, or that of our users and the public": {
+      "translation": "pour protéger nos droits, notre propriété, notre sécurité ou celle de nos utilisateurs et du public",
+      "timestamp": 1765576846
+    },
+    "Training and enhancing our AI models to deliver better results": {
+      "translation": "Former et améliorer nos modèles d'IA pour obtenir de meilleurs résultats.",
+      "timestamp": 1765576846
+    },
+    "Usage information: features accessed, images generated, interaction patterns": {
+      "translation": "Informations sur l'utilisation : fonctions consultées, images générées, modèles d'interaction",
+      "timestamp": 1765576846
+    },
+    "User-Generated Content": {
+      "translation": "Contenu généré par l'utilisateur",
+      "timestamp": 1765576846
+    },
+    "We do not sell your personal information. We may share your information only in the following circumstances:": {
+      "translation": "Nous ne vendons pas vos informations personnelles. Nous pouvons partager vos informations uniquement dans les circonstances suivantes :",
+      "timestamp": 1765576846
+    },
+    "We may collect various types of information to provide and improve our services:": {
+      "translation": "Nous pouvons collecter différents types d'informations pour fournir et améliorer nos services :",
+      "timestamp": 1765576846
+    },
+    "We may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. We will notify you of material changes by posting the updated policy on this page with a revised \"Last Updated\" date. For significant changes, we may also provide notice via email or prominent notification on our platform. We encourage you to review this policy regularly.": {
+      "translation": "Nous pouvons mettre à jour la présente politique de confidentialité périodiquement pour refléter les changements dans nos pratiques ou les exigences légales. Nous vous informerons des changements importants en publiant la politique mise à jour sur cette page avec une date de \"dernière mise à jour\" révisée. Pour les changements importants, nous pouvons également vous avertir par courrier électronique ou par une notification bien visible sur notre plateforme. Nous vous encourageons à consulter régulièrement cette politique.",
+      "timestamp": 1765576846
+    },
+    "We use cookies and similar technologies to enhance your experience:": {
+      "translation": "Nous utilisons des cookies et des technologies similaires pour améliorer votre expérience :",
+      "timestamp": 1765576846
+    },
+    "We use the collected information for the following purposes:": {
+      "translation": "Nous utilisons les informations collectées aux fins suivantes :",
+      "timestamp": 1765576846
+    },
+    "With AI model providers for processing your generation requests, under strict data protection agreements": {
+      "translation": "Avec des fournisseurs de modèles d'IA pour le traitement de vos demandes de génération, dans le cadre d'accords stricts de protection des données.",
+      "timestamp": 1765576846
+    },
+    "With trusted service providers who assist in operating our platform (cloud hosting, payment processing, analytics)": {
+      "translation": "Avec des fournisseurs de services de confiance qui nous aident à exploiter notre plateforme (hébergement dans le nuage, traitement des paiements, analyse).",
+      "timestamp": 1765576846
+    },
+    "With your explicit consent or at your direction": {
+      "translation": "Avec votre consentement explicite ou selon vos instructions",
+      "timestamp": 1765576846
+    },
+    "Withdraw Consent: Revoke previously given consent at any time": {
+      "translation": "Retirer le consentement : Révoquer à tout moment un consentement donné antérieurement",
+      "timestamp": 1765576846
+    },
+    "You can control cookie preferences through your browser settings. Note that disabling certain cookies may limit functionality of our services.": {
+      "translation": "Vous pouvez contrôler les préférences en matière de cookies par le biais des paramètres de votre navigateur. Notez que la désactivation de certains cookies peut limiter la fonctionnalité de nos services.",
+      "timestamp": 1765576846
+    },
+    "Your Privacy Rights": {
+      "translation": "Vos droits en matière de protection de la vie privée",
+      "timestamp": 1765576846
+    },
+    "privacy policy, data protection, personal information, user privacy, data collection, GDPR, privacy rights": {
+      "translation": "politique de confidentialité, protection des données, informations personnelles, vie privée des utilisateurs, collecte de données, GDPR, droits à la vie privée",
+      "timestamp": 1765576846
+    },
+    "{siteName} (\"we,\" \"us,\" or \"our\") is committed to protecting your privacy and safeguarding your personal information. This Privacy Policy outlines our practices regarding the collection, storage, use, and sharing of your information when you access our AI-powered image generation services.": {
+      "translation": "{siteName} (\"nous\", \"notre\" ou \"nos\") s'engage à protéger votre vie privée et à sauvegarder vos informations personnelles. La présente politique de confidentialité décrit nos pratiques en matière de collecte, de stockage, d'utilisation et de partage de vos informations lorsque vous accédez à nos services de génération d'images assistée par ordinateur.",
+      "timestamp": 1765576846
+    }
+  }
+}

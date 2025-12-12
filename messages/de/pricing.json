@@ -1,153 +1,153 @@
 {
-  "meta": {
-    "title": "Preispläne",
-    "description": "Wählen Sie den perfekten Plan für Ihre Bedürfnisse. Flexible Preisoptionen für Privatpersonen und Unternehmen mit KI-gestützter Bildgenerierung."
+  "billing": {
+    "discount": "20% sparen",
+    "month": "Monat",
+    "monthly": "Monatlich",
+    "save": "Sparen Sie ${amount}",
+    "year": "Jahr",
+    "yearly": "Jährlich"
   },
-  "title": "Wählen Sie Ihren Plan",
-  "subtitle": "Flexible Preisoptionen, um die Bedürfnisse von Privatpersonen und Unternehmen zu erfüllen",
+  "faq": {
+    "badge": "FAQ",
+    "items": [
+      {
+        "answer": "Credits werden für die Erstellung von Bildern mit unseren KI-Modellen verwendet. Jede Bilderstellung verbraucht eine bestimmte Anzahl von Credits, je nach Auflösung und verwendetem Modell. Kostenlose Nutzer erhalten täglich 30 Credits, während Abonnenten des Basic-Tarifs monatlich 1.500 Credits (oder 18.000 pro Jahr) und Abonnenten des Pro-Tarifs monatlich 7.500 Credits (oder 90.000 pro Jahr) erhalten.",
+        "question": "Wie funktionieren die Kredite?"
+      },
+      {
+        "answer": "Jahrestarife bieten einen Rabatt von 20 % im Vergleich zu Monatstarifen. Das Basic-Monatsabonnement kostet beispielsweise 15 $/Monat (1.500 Credits), während das Basic-Jahresabonnement 144 $/Jahr (insgesamt 18.000 Credits) kostet. Mit Jahresabonnements sparen Sie Geld und erhalten einen größeren Nutzen.",
+        "question": "Was ist der Unterschied zwischen Monats- und Jahrestarifen?"
+      },
+      {
+        "answer": "Ja! Sie können Ihren Tarif jederzeit upgraden, wobei die Preisdifferenz anteilig berechnet wird. Bei einem Upgrade erhalten Sie sofort das volle Guthaben des neuen Tarifs. Downgrades werden zu Beginn des nächsten Abrechnungszeitraums wirksam.",
+        "question": "Kann ich meinen Tarif erhöhen oder herabstufen?"
+      },
+      {
+        "answer": "Bei kostenlosen Nutzern wird das tägliche Guthaben jeden Tag zurückgesetzt und sammelt sich nicht an. Für Abonnenten verfällt das Guthaben mit dem Verfallsdatum. Jedes Guthaben-Kontingent hat seine eigene Verfallszeit, und ungenutztes Guthaben verfällt automatisch nach Ablauf dieser Zeit.",
+        "question": "Was geschieht mit nicht genutzten Guthaben?"
+      },
+      {
+        "answer": "Bei monatlichen Tarifen erhalten Sie 100 Credits pro ausgegebenem Dollar. Bei Jahrestarifen erhalten Sie 100 Credits pro Dollar × 12 Monate. Zum Beispiel: Basic monatlich ($15) = 1.500 Credits, Basic jährlich ($144) = 18.000 Credits.",
+        "question": "Wie funktioniert die Berechnung der Kreditquote?"
+      },
+      {
+        "answer": "Ja! Der Wechsel von einem monatlichen zu einem jährlichen Tarif innerhalb derselben Tarifstufe (z. B. von einem monatlichen Basic-Tarif zu einem jährlichen Basic-Tarif) gilt als Wechsel, nicht als Upgrade. Der neue Abrechnungszyklus wird gemäß den Richtlinien für Tarifänderungen wirksam.",
+        "question": "Kann ich zwischen monatlicher und jährlicher Abrechnung wechseln?"
+      },
+      {
+        "answer": "Bei einem Upgrade wird Ihnen ein anteiliger Betrag für den Rest des aktuellen Abrechnungszeitraums in Rechnung gestellt. Sie erhalten sofort das volle Guthaben-Kontingent Ihres neuen Tarifs, und alle vorhandenen Guthaben bleiben bis zu ihrem Ablaufdatum verfügbar.",
+        "question": "Was passiert, wenn ich mitten im Zyklus ein Upgrade durchführe?"
+      },
+      {
+        "answer": "Nutzer des kostenlosen Plans können die generierten Bilder nur für persönliche Projekte verwenden. Sowohl Basic- als auch Pro-Abonnenten erhalten eine Lizenz für die kommerzielle Nutzung, mit der Sie die Bilder für geschäftliche Zwecke, Marketingmaterialien und Kundenprojekte verwenden können.",
+        "question": "Kann ich die erzeugten Bilder kommerziell nutzen?"
+      },
+      {
+        "answer": "Der Pro-Tarif bietet 5x mehr Credits als der Basic-Tarif sowie Zugang zu allen fortschrittlichen KI-Modellen, ultrahoher Auflösung (2048x2048), Stapelgenerierungsfunktionen und vorrangigem Kundensupport. Das Basic-Abo eignet sich für Einzelpersonen, während das Pro-Abo für professionelle Grafiker und Teams gedacht ist.",
+        "question": "Was ist der Unterschied zwischen Basic- und Pro-Tarifen?"
+      },
+      {
+        "answer": "Wir arbeiten mit der Zahlungsplattform Creem zusammen, die verschiedene Zahlungsarten unterstützt. Alle Transaktionen werden sicher über deren Payment Gateway verarbeitet.",
+        "question": "Welche Zahlungsarten akzeptieren Sie?"
+      },
+      {
+        "answer": "Ja, Sie können Ihr Abonnement jederzeit kündigen. Ihr Abonnement bleibt bis zum Ende des aktuellen Abrechnungszeitraums aktiv, und Sie können Ihr verbleibendes Guthaben bis zum Ablauf weiter nutzen.",
+        "question": "Kann ich mein Abonnement jederzeit kündigen?"
+      },
+      {
+        "answer": "Jedes Guthabenkontingent hat eine eigene Verfallszeit. Die genaue Dauer hängt von Ihrem Abonnementplan ab und davon, wann das Guthaben gewährt wurde. Sie können das Verfallsdatum Ihres Guthabens in Ihrem Konto-Dashboard überprüfen. Credits werden nach dem Prinzip \"Wer zuerst kommt, mahlt zuerst\" verbraucht.",
+        "question": "Wie lange sind die Guthaben nach dem Kauf gültig?"
+      }
+    ],
+    "subtitle": "Hier finden Sie Antworten auf häufige Fragen zu unseren Preisplänen und Dienstleistungen",
+    "title": "Häufig gestellte Fragen"
+  },
+  "meta": {
+    "description": "Wählen Sie den perfekten Plan für Ihre Bedürfnisse. Flexible Preisoptionen für Privatpersonen und Unternehmen mit KI-gestützter Bilderstellung.",
+    "title": "Preispläne"
+  },
   "recommended": "Am beliebtesten",
   "status": {
+    "configuring": "Konfigurieren...",
     "current": "Aktueller Plan",
+    "downgrade": "Herabstufung",
+    "loading": "Laden...",
+    "processing": "Verarbeitung...",
     "scheduled": "Geplant",
-    "upgrade": "Upgrade",
-    "downgrade": "Downgrade",
-    "configuring": "Wird konfiguriert...",
-    "loading": "Wird geladen...",
-    "processing": "Wird verarbeitet..."
+    "upgrade": "Upgrade"
   },
-  "billing": {
-    "monthly": "Monatlich",
-    "yearly": "Jährlich",
-    "year": "Jahr",
-    "month": "Monat",
-    "discount": "Sparen Sie 20%",
-    "save": "Sparen Sie ${amount}"
-  },
+  "subtitle": "Flexible Preisoptionen, die den Bedürfnissen von Privatpersonen und Unternehmen gerecht werden",
   "tiers": [
     {
-      "name": "Testversion",
-      "description": "{quota} Gutschein-Guthaben",
-      "cta": "Jetzt Testen",
+      "cta": "Jetzt ausprobieren",
+      "description": "{quota} Kontingentkredite",
       "features": [
-        "{quota} Gutschein-Guthaben",
-        "Kann bis zu {quota}/5 hochwertige Bilder generieren",
-        "Alle Standard-KI-Modelle",
-        "Hochauflösung (1024x1024)",
+        "{quota} Kreditquote",
+        "Kann bis zu {quota}/5 hochwertige Bilder erzeugen",
+        "Alle Standard AI-Modelle",
+        "Hohe Auflösung (1024x1024)",
         "Wasserzeichenfreier Export"
       ],
+      "name": "Versuch",
       "unsupportedFeatures": [
-        "Automatische Verlängerung",
+        "Auto-Erneuerung",
         "Ultrahohe Auflösung",
-        "Batch-Generierung",
-        "Priority-Support"
+        "Stapelverarbeitung",
+        "Vorrangige Unterstützung"
       ]
     },
     {
-      "name": "Basis",
-      "description": "Für Einzelnutzer und kleine Projekte",
       "cta": "Jetzt abonnieren",
+      "description": "Für Einzelanwender und kleine Projekte",
       "features": [
-        "{quota} Guthaben-Kontingent",
-        "Kann bis zu {quota}/5 hochwertige Bilder generieren",
-        "Standard-KI-Modelle",
-        "Hochauflösung (1024x1024)",
-        "Warteschlange mit Priorität",
+        "{quota} Kreditquote",
+        "Kann bis zu {quota}/5 hochwertige Bilder erzeugen",
+        "Standard AI-Modelle",
+        "Hohe Auflösung (1024x1024)",
+        "Warteschlange für die Prioritätserzeugung",
         "Wasserzeichenfreier Export",
-        "E-Mail-Kundensupport",
-        "Kommerzielle Nutzungslizenz"
+        "E-Mail-Kundendienst",
+        "Lizenz für kommerzielle Nutzung"
       ],
+      "name": "Grundlegend",
       "unsupportedFeatures": [
         "Ultrahohe Auflösung",
-        "Batch-Generierung"
+        "Stapelverarbeitung"
       ]
     },
     {
-      "name": "Pro",
-      "description": "Für professionelle Schöpfer und Teamzusammenarbeit",
       "cta": "Jetzt abonnieren",
+      "description": "Für professionelle Kreative und Teamarbeit",
       "features": [
-        "{quota} Guthaben-Kontingent",
-        "Kann bis zu {quota}/5 hochwertige Bilder generieren",
-        "Alle erweiterten KI-Modelle",
+        "{quota} Kreditquote",
+        "Kann bis zu {quota}/5 hochwertige Bilder erzeugen",
+        "Alle fortgeschrittenen AI-Modelle",
         "Ultrahohe Auflösung (2048x2048)",
-        "Höchste Warteschlange mit Priorität",
-        "Batch-Generierung",
+        "Warteschlange mit höchster Priorität",
+        "Stapelverarbeitung",
         "Wasserzeichenfreier Export",
-        "Prioritäts-Kundensupport",
-        "Kommerzielle Nutzungslizenz"
-      ]
+        "Vorrangige Kundenbetreuung",
+        "Lizenz für kommerzielle Nutzung"
+      ],
+      "name": "Pro"
     },
     {
-      "name": "Kostenlos",
-      "description": "Perfekt für persönliche Testversuche und leichte Nutzung",
-      "cta": "Erste Schritte",
+      "cta": "Los geht's",
+      "description": "Perfekt für persönliche Versuche und leichte Nutzung",
       "features": [
-        "{quota} Guthaben-Kontingent pro Tag",
-        "Kann bis zu {quota}/5 Bilder pro Tag generieren",
-        "Basis-KI-Modelle",
+        "{quota} Kreditquote pro Tag",
+        "Kann bis zu {quota}/5 Bilder pro Tag erzeugen",
+        "Grundlegende AI-Modelle",
         "Standardauflösung (512x512)"
       ],
+      "name": "Kostenlos",
       "unsupportedFeatures": [
-        "Hochauflösung",
-        "Warteschlange mit Priorität",
+        "Hohe Auflösung",
+        "Prioritäts-Warteschlange",
         "Wasserzeichenfreier Export",
-        "Kundensupport"
+        "Kundenbetreuung"
       ]
     }
   ],
-  "faq": {
-    "badge": "Häufig gestellte Fragen",
-    "title": "Häufig gestellte Fragen",
-    "subtitle": "Finden Sie Antworten auf häufig gestellte Fragen zu unseren Preisplänen und Services",
-    "items": [
-      {
-        "question": "Wie funktionieren Guthaben?",
-        "answer": "Guthaben werden zum Generieren von Bildern mit unseren KI-Modellen verwendet. Jede Bildgenerierung verbraucht je nach Auflösung und verwendetem Modell eine bestimmte Anzahl von Guthaben. Kostenlose Benutzer erhalten täglich 30 Guthaben, während Basis-Abonnenten monatlich 1.500 Guthaben (oder jährlich 18.000) und Pro-Abonnenten monatlich 7.500 Guthaben (oder jährlich 90.000) erhalten."
-      },
-      {
-        "question": "Was ist der Unterschied zwischen monatlichen und jährlichen Plänen?",
-        "answer": "Jährliche Pläne bieten eine 20% Rabatt gegenüber monatlichen Plänen. Zum Beispiel ist Basis monatlich $15/Monat (1.500 Guthaben), während Basis jährlich $144/Jahr (18.000 Guthaben gesamt) ist. Sie sparen Geld und erhalten mehr Wert mit jährlichen Abos."
-      },
-      {
-        "question": "Kann ich meinen Plan aktualisieren oder herabstufen?",
-        "answer": "Ja! Sie können Ihren Plan jederzeit aktualisieren, und der Preisunterschied wird anteilig berechnet. Bei einem Upgrade erhalten Sie sofort die volle Gutschrift-Kontingent des neuen Plans. Downgrades treten am Anfang Ihres nächsten Abrechnungszyklus in Kraft."
-      },
-      {
-        "question": "Was passiert mit ungenutzten Guthaben?",
-        "answer": "Bei kostenlosen Benutzern werden tägliche Guthaben jeden Tag zurückgesetzt und sammeln sich nicht an. Bei Abonnenten verfallen Guthaben basierend auf ihrem Ablaufdatum. Jedes Guthaben-Kontingent hat seinen eigenen Ablaufzeitraum, und ungenutztes Guthaben verfällt automatisch, wenn dieser Zeitraum endet."
-      },
-      {
-        "question": "Wie funktioniert die Guthaben-Kontingent-Berechnung?",
-        "answer": "Bei monatlichen Plänen erhalten Sie 100 Guthaben pro ausgegebenem Dollar. Bei jährlichen Plänen erhalten Sie 100 Guthaben pro Dollar × 12 Monate. Zum Beispiel: Basis monatlich ($15) = 1.500 Guthaben, Basis jährlich ($144) = 18.000 Guthaben."
-      },
-      {
-        "question": "Kann ich zwischen monatlicher und jährlicher Abrechnung wechseln?",
-        "answer": "Ja! Der Wechsel von monatlich zu jährlich innerhalb desselben Plan-Tiers (z. B. Basis monatlich zu Basis jährlich) wird als Änderung betrachtet, nicht als Upgrade. Der neue Abrechnungszyklus tritt nach der Plan-Änderungsrichtlinie in Kraft."
-      },
-      {
-        "question": "Was passiert, wenn ich während des Zyklus ein Upgrade durchführe?",
-        "answer": "Bei einem Upgrade werden Ihnen anteilig die restlichen Tage des aktuellen Abrechnungszeitraums berechnet. Sie erhalten sofort das vollständige Guthaben-Kontingent Ihres neuen Plans, und alle bestehenden Guthaben bleiben bis zu ihrem Ablaufdatum verfügbar."
-      },
-      {
-        "question": "Kann ich die generierten Bilder kommerziell nutzen?",
-        "answer": "Kostenlose Plan-Benutzer können generierte Bilder nur für persönliche Projekte verwenden. Sowohl Basis- als auch Pro-Plan-Abonnenten erhalten eine Lizenz zur kommerziellen Nutzung, die es Ihnen ermöglicht, die Bilder für geschäftliche Zwecke, Marketingmaterialien und Kundenprojekte zu verwenden."
-      },
-      {
-        "question": "Was ist der Unterschied zwischen Basis- und Pro-Plänen?",
-        "answer": "Der Pro-Plan bietet 5x mehr Guthaben als Basis, plus Zugriff auf alle erweiterten KI-Modelle, ultrahohe Auflösung (2048x2048), Batch-Generierungsfunktionen und Prioritäts-Kundensupport. Der Basis-Plan ist großartig für Einzelpersonen, während Pro für professionelle Schöpfer und Teams konzipiert ist."
-      },
-      {
-        "question": "Welche Zahlungsmethoden akzeptieren Sie?",
-        "answer": "Wir integrieren mit der Creem-Zahlungsplattform, die verschiedene Zahlungsmethoden unterstützt. Alle Transaktionen werden sicher über deren Zahlungs-Gateway verarbeitet."
-      },
-      {
-        "question": "Kann ich mein Abonnement jederzeit kündigen?",
-        "answer": "Ja, Sie können Ihr Abonnement jederzeit kündigen. Ihr Plan bleibt bis zum Ende Ihres aktuellen Abrechnungszeitraums aktiv, und Sie können Ihre restlichen Guthaben weiterhin verwenden, bis sie ablaufen."
-      },
-      {
-        "question": "Wie lange sind Guthaben nach dem Kauf gültig?",
-        "answer": "Jedes Guthaben-Kontingent hat seinen eigenen Ablaufzeitraum. Die genaue Dauer hängt von Ihrem Abonnement-Plan und davon ab, wann die Guthaben gewährt wurden. Sie können das Ablaufdatum Ihrer Guthaben auf Ihrem Account-Dashboard überprüfen. Guthaben werden nach dem FIFO-Prinzip verbraucht (First In, First Out)."
-      }
-    ]
-  }
+  "title": "Wählen Sie Ihren Plan"
 }

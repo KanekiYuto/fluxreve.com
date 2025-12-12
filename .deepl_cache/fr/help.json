@@ -1,0 +1,80 @@
+{
+  "entries": {
+    "Can I use the generated images commercially?": {
+      "translation": "Puis-je utiliser les images générées à des fins commerciales ?",
+      "timestamp": 1765576843
+    },
+    "Can't find what you're looking for? Contact our support team and we'll get back to you as soon as possible.": {
+      "translation": "Vous ne trouvez pas ce que vous cherchez ? Contactez notre équipe d'assistance et nous vous répondrons dans les plus brefs délais.",
+      "timestamp": 1765576843
+    },
+    "Contact Support": {
+      "translation": "Support de contact",
+      "timestamp": 1765576843
+    },
+    "Find answers to common questions about using our AI image generation platform": {
+      "translation": "Trouvez les réponses aux questions les plus courantes sur l'utilisation de notre plateforme de génération d'images par IA.",
+      "timestamp": 1765576843
+    },
+    "Find answers to common questions and get support": {
+      "translation": "Trouvez les réponses aux questions les plus courantes et obtenez de l'aide",
+      "timestamp": 1765576843
+    },
+    "Find answers to common questions and get support for {siteName} AI image generation platform": {
+      "translation": "Trouvez les réponses aux questions les plus fréquentes et obtenez de l'aide pour la plateforme de génération d'images d'IA {siteName}.",
+      "timestamp": 1765576843
+    },
+    "For better results, try to be specific and detailed in your prompts. Include information about style, colors, composition, and mood. Experiment with different models and settings to find what works best for your needs.": {
+      "translation": "Pour obtenir de meilleurs résultats, essayez d'être précis et détaillé dans vos questions. Incluez des informations sur le style, les couleurs, la composition et l'ambiance. Expérimentez différents modèles et paramètres pour trouver ce qui convient le mieux à vos besoins.",
+      "timestamp": 1765576843
+    },
+    "Frequently Asked Questions": {
+      "translation": "Questions fréquemment posées",
+      "timestamp": 1765576843
+    },
+    "Getting started is easy! Simply navigate to the AI Generator page, enter your prompt describing what you want to create, select your preferred settings, and click the generate button. Your AI-generated image will be ready in seconds.": {
+      "translation": "Pour commencer, rien de plus simple ! Il vous suffit de vous rendre sur la page du générateur AI, de saisir votre message décrivant ce que vous souhaitez créer, de sélectionner vos paramètres préférés et de cliquer sur le bouton \"Générer\". Votre image générée par l'IA sera prête en quelques secondes.",
+      "timestamp": 1765576843
+    },
+    "Help Center": {
+      "translation": "Centre d'aide",
+      "timestamp": 1765576843
+    },
+    "How can I improve my generation results?": {
+      "translation": "Comment puis-je améliorer les résultats de ma génération ?",
+      "timestamp": 1765576843
+    },
+    "How do I get started with AI Generator?": {
+      "translation": "Comment puis-je commencer à utiliser AI Generator ?",
+      "timestamp": 1765576843
+    },
+    "How many images can I generate?": {
+      "translation": "Combien d'images puis-je générer ?",
+      "timestamp": 1765576843
+    },
+    "If a generation fails, first try refreshing the page and attempting again. Make sure your prompt is clear and descriptive. If problems persist, please contact our support team with details about the issue.": {
+      "translation": "Si une génération échoue, essayez d'abord d'actualiser la page et de réessayer. Veillez à ce que votre message soit clair et descriptif. Si le problème persiste, veuillez contacter notre équipe d'assistance en précisant les détails du problème.",
+      "timestamp": 1765576843
+    },
+    "The number of images you can generate depends on your credit quota. Free users get 30 credits daily, while Basic plan subscribers get 1,500 credits monthly and Pro plan subscribers get 7,500 credits monthly. Check our Pricing page for more details.": {
+      "translation": "Le nombre d'images que vous pouvez générer dépend de votre quota de crédits. Les utilisateurs gratuits reçoivent 30 crédits par jour, les abonnés au plan Basic reçoivent 1 500 crédits par mois et les abonnés au plan Pro reçoivent 7 500 crédits par mois. Consultez notre page Tarifs pour plus de détails.",
+      "timestamp": 1765576843
+    },
+    "We support all common image formats including PNG, JPG, and WebP. You can download your generated images in the format that best suits your needs.": {
+      "translation": "Nous prenons en charge tous les formats d'image courants, y compris PNG, JPG et WebP. Vous pouvez télécharger les images générées dans le format qui vous convient le mieux.",
+      "timestamp": 1765576843
+    },
+    "What image formats are supported?": {
+      "translation": "Quels sont les formats d'image pris en charge ?",
+      "timestamp": 1765576843
+    },
+    "What should I do if the generation fails?": {
+      "translation": "Que dois-je faire si la génération échoue ?",
+      "timestamp": 1765576843
+    },
+    "Yes! Both Basic and Pro plan subscribers receive a commercial use license. Free plan users can use generated images for personal projects only.": {
+      "translation": "Oui, les abonnés aux plans Basic et Pro bénéficient d'une licence d'utilisation commerciale. Les utilisateurs du plan gratuit peuvent utiliser les images générées pour des projets personnels uniquement.",
+      "timestamp": 1765576843
+    }
+  }
+}

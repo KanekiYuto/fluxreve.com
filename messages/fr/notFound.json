@@ -1,6 +1,6 @@
 {
   "buttons": {
-    "home": "Retour à l'Accueil",
-    "dashboard": "Aller au Tableau de Bord"
+    "dashboard": "Accéder au tableau de bord",
+    "home": "Retour à l'accueil"
   }
 }

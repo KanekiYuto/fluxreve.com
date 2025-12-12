@@ -1,157 +1,152 @@
 {
-  "seo": {
-    "title": "Z-Image - Générateur d'images IA photorréaliste",
-    "description": "Images IA photorréalistes avec Z-Image. Vitesse de génération inférieure à la seconde avec rendu de texte chinois et anglais précis. Tarification abordable pour les professionnels."
+  "cta": {
+    "note": "Aucune carte de crédit n'est requise, l'inscription est gratuite",
+    "primary": "Commencez à créer maintenant",
+    "secondary": "Voir le prix",
+    "subtitle": "Essayez Z-Image maintenant pour une inférence en 8 étapes, une vitesse de génération inférieure à la seconde et un rendu de texte bilingue précis.",
+    "title": "Prêt à découvrir la génération d'images IA photoréalistes ?"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Z-Image atteint des performances comparables ou supérieures à celles des principaux concurrents avec seulement 8 étapes, offrant une latence d'inférence inférieure à la seconde sur les GPU H800 d'entreprise. de qualité professionnelle. Sur les appareils grand public tels que RTX 3090 ou 4090, il faut environ 2 à 3 secondes, et les cartes de milieu de gamme environ 4 à 5 secondes, en ne nécessitant que 16G VRAM.",
+        "question": "Quelle est la vitesse de génération de Z-Image ?"
+      },
+      {
+        "answer": "Z-Image rend avec précision des textes chinois et anglais complexes tout en préservant le réalisme des visages et la composition esthétique globale, avec des résultats comparables à ceux de modèles fermés de premier plan. Dans le domaine de la conception d'affiches, il fait preuve de solides compétences en matière de composition et de sens de la typographie, fournissant un texte de haute qualité même dans des scénarios difficiles avec des polices de petite taille.",
+        "question": "Quels sont les avantages de Z-Image en matière de rendu de texte ?"
+      },
+      {
+        "answer": "Prompt Enhancer (PE) utilise des chaînes de raisonnement structurées pour injecter de la logique et du bon sens, ce qui permet au modèle de transcender les descriptions superficielles et de puiser dans la connaissance du monde sous-jacent pour des tâches complexes telles que le \"problème de la poule et du lapin\" ou la visualisation de la poésie chinoise classique. Même avec des instructions ambiguës, il peut déduire l'intention sous-jacente pour obtenir des résultats logiquement cohérents.",
+        "question": "Qu'est-ce que la fonction d'amélioration de l'invite ?"
+      },
+      {
+        "answer": "Z-Image excelle dans la génération d'images photoréalistes avec un contrôle précis des détails, de l'éclairage et des textures. Il équilibre la haute fidélité avec une grande qualité esthétique dans la composition et l'ambiance générale. Les images générées sont non seulement réalistes, mais aussi visuellement attrayantes.",
+        "question": "Quelle est la qualité photoréaliste de Z-Image ?"
+      },
+      {
+        "answer": "Z-Image adopte une architecture de transformateur de diffusion évolutive à flux unique (S3-DiT). Le texte, les jetons sémantiques visuels et les jetons d'image VAE sont concaténés au niveau de la séquence pour servir de flux d'entrée unifié dans l'épine dorsale du transformateur, ce qui maximise l'efficacité des paramètres par rapport aux approches à deux flux.",
+        "question": "Quelle architecture utilise Z-Image ?"
+      },
+      {
+        "answer": "Selon l'évaluation des préférences humaines basée sur Elo (sur Alibaba AI Arena), Z-Image affiche des performances très compétitives par rapport à d'autres modèles de premier plan, tout en atteignant des résultats de pointe parmi les modèles à source ouverte.",
+        "question": "Comment le modèle Z-Image se compare-t-il aux autres modèles ?"
+      }
+    ],
+    "subtitle": "Questions courantes sur Z-Image",
+    "title": "Questions fréquemment posées"
   },
   "hero": {
-    
-    "title": {
-      "line1": "Z-Image",
-      "line2": "8 étapes d'inférence, génération inférieure à la seconde"
-    },
-    "subtitle": "Découvrez le service de génération d'images IA photorréaliste alimenté par le modèle Z-Image, avec rendu bilingue précis du texte. Nous fournissons une vitesse de génération inférieure à la seconde et une tarification abordable pour rendre la création d'images IA professionnelle accessible à tous.",
     "cta": {
-      "primary": "Commencer à créer maintenant",
+      "primary": "Commencez à créer maintenant",
       "secondary": "En savoir plus"
     },
     "stats": {
-      "speed": {
-        "label": "Génération inférieure à la seconde"
-      },
-      "quality": {
-        "label": "Qualité photorréaliste"
-      },
       "affordable": {
         "label": "Texte bilingue"
-      }
-    }
-  },
-  "what": {
-    
-    "title": "Qu'est-ce que Z-Image ?",
-    "description": "Z-Image est notre service de génération d'images IA photorréalistes, basé sur l'architecture avancée de Transformateur de diffusion single-stream scalable. Nous fournissons des solutions de génération d'images IA rapides, abordables et de haute qualité pour rendre la création professionnelle accessible.",
-    "demoPlaceholder": "Génération d'images IA photorréaliste",
-    "coreFeatures": {
-      "core1": {
-        "title": "Qualité photorréaliste",
-        "description": "Z-Image excelle dans la génération d'images photorréalistes avec un contrôle fin des détails, de l'éclairage et des textures. Il maintient une fidélité élevée tout en démontrant une forte qualité esthétique dans la composition et l'ambiance générale."
-      },
-      "core2": {
-        "title": "Rendu bilingue précis du texte",
-        "description": "Z-Image rend avec précision le texte chinois et anglais tout en préservant le réalisme des visages et la composition esthétique globale, avec des résultats comparables aux modèles fermés de premier plan. Dans la conception d'affiches, il démontre de fortes compétences compositionnelles et un sens de la typographie, offrant un texte de haute qualité même dans les scénarios difficiles avec de petites tailles de police."
-      },
-      "core3": {
-        "title": "Amélioration d'invite et raisonnement",
-        "description": "Le puissant améliorateur d'invite (PE) utilise des chaînes de raisonnement structurées pour injecter la logique et le sens commun, permettant au modèle de gérer des tâches complexes comme le 'Problème du poulet et du lapin' ou la visualisation de poésie classique chinoise. Dans les tâches d'édition, même avec des instructions ambiguës, le modèle peut déduire l'intention sous-jacente pour des résultats logiquement cohérents."
-      }
-    }
-  },
-  "why": {
-    
-    "title": "Pourquoi choisir notre service Z-Image ?",
-    "subtitle": "Notre service Z-Image rend la création d'images IA professionnelle simple et efficace avec une vitesse de génération inférieure à la seconde, un rendu de texte précis et une tarification abordable.",
-    "comparison": {
-      "traditional": {
-        "title": "Création d'images traditionnelle",
-        "item1": "Prend des heures ou des jours pour compléter une conception d'image professionnelle",
-        "item2": "Nécessite des licences logicielles coûteuses et des connaissances en conception professionnelle",
-        "item3": "Coûts élevés pour embaucher des designers ou acheter des outils de conception avancés",
-        "item4": "Les cycles d'itération lents rendent l'expérimentation créative impraticable"
-      },
-      "product": {
-        "title": "Service de génération Z-Image",
-        "item1": "Générez des images photorréalistes en moins d'une seconde",
-        "item2": "Aucune compétence en conception requise - les descriptions simples fonctionnent",
-        "item3": "Tarification abordable à l'usage",
-        "item4": "Génération instantanée, possibilités créatives illimitées"
-      }
-    },
-    "benefits": {
-      "speed": {
-        "title": "Génération ultrapide",
-        "description": "Notre service fournit une vitesse de génération d'images inférieure à la seconde, donnant vie à votre créativité instantanément. Aucune attente requise, création d'images IA professionnelle complète à tout moment, n'importe où."
       },
       "quality": {
-        "title": "Qualité photorréaliste",
-        "description": "Les images générées présentent des effets photorréalistes avec un contrôle fin des détails, de l'éclairage et des textures. Que ce soient des portraits ou des présentations de produits, obtenez d'excellents résultats visuels."
+        "label": "Qualité photoréaliste"
       },
-      "cost": {
-        "title": "Rendu de texte précis",
-        "description": "Prend en charge le rendu précis du texte chinois et anglais, parfait pour la conception d'affiches, la création de publicités, et plus. Même le texte de petite taille se rend clairement pour les conceptions professionnelles."
-      },
-      "flexibility": {
-        "title": "Compréhension intelligente des invites",
-        "description": "Notre service dispose de puissantes capacités de compréhension des invites, comprenant et générant avec précision les images attendues même à partir de descriptions complexes ou ambiguës."
-      },
-      "support": {
-        "title": "Facile à utiliser",
-        "description": "Aucune compétence en conception professionnelle requise. Décrivez simplement vos idées en langage naturel pour générer des images IA professionnelles. Rendant la création accessible à tous."
-      },
-      "security": {
-        "title": "Tarification abordable",
-        "description": "Modèle à l'usage avec tarification transparente et raisonnable. Réduit considérablement vos coûts de création par rapport aux services de conception traditionnels, rendant la création d'images IA professionnelle accessible à tous."
+      "speed": {
+        "label": "Génération en moins d'une seconde"
       }
+    },
+    "subtitle": "Faites l'expérience d'un service de génération d'images d'IA photoréalistes basé sur le modèle Z-Image, avec un rendu de texte bilingue précis. Nous offrons une vitesse de génération inférieure à la seconde et des prix abordables afin de rendre la création d'images d'IA professionnelles accessible à tous.",
+    "title": {
+      "line1": "Z-Image",
+      "line2": "Inférence en 8 étapes, génération en moins d'une seconde"
     }
   },
   "how": {
-    
-    "title": "Comment utiliser Z-Image ?",
-    "subtitle": "Quatre étapes simples pour commencer votre parcours créatif IA",
     "steps": {
       "step1": {
-        "title": "Entrez votre invite",
-        "description": "Décrivez l'image que vous souhaitez en texte simple. Supporte l'entrée en anglais et en chinois."
+        "description": "Décrivez l'image que vous souhaitez en texte simple. Prend en charge la saisie en anglais et en chinois.",
+        "title": "Saisissez votre message"
       },
       "step2": {
-        "title": "Choisir les paramètres",
-        "description": "Sélectionnez la taille de l'image, ajustez la graine aléatoire et d'autres paramètres pour personnaliser votre création."
+        "description": "Sélectionnez la taille de l'image, réglez la graine aléatoire et d'autres paramètres pour personnaliser votre création.",
+        "title": "Choisir les paramètres"
       },
       "step3": {
-        "title": "Cliquez sur Générer",
-        "description": "Cliquez sur le bouton générer et l'IA créera de belles images pour vous en quelques secondes."
+        "description": "Cliquez sur le bouton \"générer\" et AI créera de superbes images pour vous en quelques secondes.",
+        "title": "Cliquez sur Générer"
       },
       "step4": {
-        "title": "Télécharger et utiliser",
-        "description": "Une fois généré, prévisualisez, téléchargez ou partagez votre œuvre d'art."
+        "description": "Une fois généré, vous pouvez prévisualiser, télécharger ou partager votre œuvre d'art.",
+        "title": "Télécharger et utiliser"
       }
-    }
+    },
+    "subtitle": "Quatre étapes simples pour commencer votre voyage créatif en matière d'IA",
+    "title": "Comment utiliser Z-Image ?"
   },
-  "faq": {
-    
-    "title": "Questions fréquemment posées",
-    "subtitle": "Questions courantes sur Z-Image",
-    "items": [
-      {
-        "question": "Quelle est la rapidité de la génération Z-Image ?",
-        "answer": "Z-Image atteint des performances comparables ou supérieures aux principaux concurrents avec seulement 8 étapes, offrant une latence d'inférence inférieure à la seconde sur les GPU H800 de niveau entreprise. Sur les appareils grand public comme RTX 3090 ou 4090, cela prend environ 2-3 secondes, et les cartes milieu de gamme prennent environ 4-5 secondes, nécessitant seulement 16 Go de VRAM."
+  "seo": {
+    "description": "Images photoréalistes de l'IA avec Z-Image. Vitesse de génération inférieure à la seconde avec un rendu précis du texte en chinois et en anglais. Prix abordable pour les professionnels.",
+    "title": "Z-Image - Générateur d'images photoréalistes AI"
+  },
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Z-Image excelle dans la génération d'images photoréalistes avec un contrôle précis des détails, de l'éclairage et des textures. Il maintient une grande fidélité tout en démontrant une grande qualité esthétique dans la composition et l'ambiance générale.",
+        "title": "Qualité photoréaliste"
       },
-      {
-        "question": "Quels avantages Z-Image a-t-il dans le rendu de texte ?",
-        "answer": "Z-Image rend avec précision le texte chinois et anglais complexe tout en maintenant le réalisme des visages et la composition esthétique globale, avec des résultats comparables aux modèles fermés de premier plan. Dans la conception d'affiches, il démontre de fortes compétences compositionnelles et un sens de la typographie, offrant un texte de haute qualité même dans les scénarios difficiles avec de petites tailles de police."
+      "core2": {
+        "description": "Z-Image rend avec précision les textes chinois et anglais tout en préservant le réalisme des visages et la composition esthétique globale, avec des résultats comparables à ceux des modèles fermés de premier plan. Dans le domaine de la conception d'affiches, il fait preuve de solides compétences en matière de composition et de sens de la typographie, fournissant un texte de haute qualité même dans des scénarios difficiles avec des polices de petite taille.",
+        "title": "Rendu de texte bilingue précis"
       },
-      {
-        "question": "Qu'est-ce que la fonctionnalité Amélioration d'invite ?",
-        "answer": "L'améliorateur d'invite (PE) utilise des chaînes de raisonnement structurées pour injecter la logique et le sens commun, permettant au modèle de transcender les descriptions de surface et de exploiter les connaissances mondiales sous-jacentes pour les tâches complexes comme le 'Problème du poulet et du lapin' ou la visualisation de poésie classique chinoise. Même avec des instructions ambiguës, il peut déduire l'intention sous-jacente pour des résultats logiquement cohérents."
-      },
-      {
-        "question": "Quelle est la qualité photorréaliste de Z-Image ?",
-        "answer": "Z-Image excelle dans la génération d'images photorréalistes avec un contrôle fin des détails, de l'éclairage et des textures. Il équilibre la haute fidélité avec une forte qualité esthétique dans la composition et l'ambiance générale. Les images générées ne sont pas seulement réalistes mais aussi visuellement attrayantes."
-      },
-      {
-        "question": "Quelle architecture Z-Image utilise-t-il ?",
-        "answer": "Z-Image adopte une architecture de transformateur de diffusion single-stream scalable (S3-DiT). Le texte, les jetons sémantiques visuels et les jetons VAE d'image sont concaténés au niveau de la séquence pour servir de flux d'entrée unifié dans le squelette du transformateur, maximisant l'efficacité des paramètres par rapport aux approches dual-stream."
-      },
-      {
-        "question": "Comment Z-Image se compare-t-il à d'autres modèles ?",
-        "answer": "Selon l'évaluation de préférence humaine basée sur Elo (sur Alibaba AI Arena), Z-Image montre des performances hautement compétitives par rapport aux autres modèles leaders tout en obtenant des résultats de pointe parmi les modèles open-source."
+      "core3": {
+        "description": "Powerful Prompt Enhancer (PE) utilise des chaînes de raisonnement structurées pour injecter de la logique et du bon sens, ce qui permet au modèle de traiter des tâches complexes telles que le \"problème de la poule et du lapin\" ou la visualisation de la poésie chinoise classique. Dans les tâches d'édition, même avec des instructions ambiguës, le modèle peut déduire l'intention sous-jacente pour obtenir des résultats logiquement cohérents.",
+        "title": "Amélioration des messages et raisonnement"
       }
-    ]
+    },
+    "demoPlaceholder": "Génération d'images IA photoréalistes",
+    "description": "Z-Image est notre service de génération d'images d'IA photoréalistes, basé sur l'architecture avancée Scalable Single-Stream Diffusion Transformer. Nous fournissons des solutions de génération d'images d'IA rapides, abordables et de haute qualité pour rendre la création professionnelle accessible.",
+    "title": "Qu'est-ce que Z-Image ?"
   },
-  "cta": {
-    "title": "Prêt à découvrir la génération d'images IA photorréaliste ?",
-    "subtitle": "Essayez Z-Image maintenant pour 8 étapes d'inférence, une vitesse de génération inférieure à la seconde et un rendu bilingue précis du texte",
-    "primary": "Commencer à créer maintenant",
-    "secondary": "Afficher les tarifs",
-    "note": "Aucune carte de crédit requise, commencez par l'enregistrement"
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Prend en charge le rendu précis du texte chinois et anglais, parfait pour la conception d'affiches, la création de publicités, etc. Même les textes de petite taille sont rendus clairement pour des conceptions professionnelles.",
+        "title": "Rendu de texte précis"
+      },
+      "flexibility": {
+        "description": "Notre service est doté de puissantes capacités de compréhension rapide, qui permettent de comprendre et de générer avec précision les images attendues, même à partir de descriptions complexes ou ambiguës.",
+        "title": "Intelligent Prompt Compréhension"
+      },
+      "quality": {
+        "description": "Les images générées présentent des effets photoréalistes avec un contrôle précis des détails, de l'éclairage et des textures. Qu'il s'agisse de portraits ou de présentations de produits, vous obtiendrez d'excellents résultats visuels.",
+        "title": "Qualité photoréaliste"
+      },
+      "security": {
+        "description": "Modèle de paiement à l'utilisation avec des prix transparents et raisonnables. Réduit considérablement vos coûts de création par rapport aux services de conception traditionnels, rendant la création d'images d'IA professionnelles accessible à tous.",
+        "title": "Une tarification abordable"
+      },
+      "speed": {
+        "description": "Notre service offre une vitesse de génération d'images inférieure à la seconde, donnant instantanément vie à votre créativité. Aucune attente n'est nécessaire, la création d'images AI professionnelles est possible à tout moment et en tout lieu.",
+        "title": "Une génération rapide comme l'éclair"
+      },
+      "support": {
+        "description": "Aucune compétence professionnelle en matière de conception n'est requise. Il suffit de décrire vos idées en langage naturel pour générer des images d'IA professionnelles. La création est accessible à tous.",
+        "title": "Facile à utiliser"
+      }
+    },
+    "comparison": {
+      "product": {
+        "item1": "Générer des images photoréalistes en quelques secondes",
+        "item2": "Aucune compétence en matière de conception n'est nécessaire - de simples descriptions suffisent",
+        "item3": "Une tarification abordable en fonction de l'utilisation (pay-as-you-go)",
+        "item4": "Génération instantanée, possibilités créatives illimitées",
+        "title": "Z-Image Service de génération"
+      },
+      "traditional": {
+        "item1": "Il faut des heures ou des jours pour réaliser une conception d'image professionnelle",
+        "item2": "Nécessite des licences logicielles coûteuses et des connaissances professionnelles en matière de conception",
+        "item3": "Coûts élevés liés à l'embauche de concepteurs ou à l'achat d'outils de conception avancés",
+        "item4": "La lenteur des cycles d'itération rend l'expérimentation créative impraticable",
+        "title": "Création d'images traditionnelles"
+      }
+    },
+    "subtitle": "Notre service Z-Image rend la création d'images d'IA professionnelles simple et efficace grâce à une vitesse de génération inférieure à la seconde, à un rendu de texte précis et à des prix abordables.",
+    "title": "Pourquoi choisir notre Z-Image Service ?"
   }
 }

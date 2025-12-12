@@ -1,0 +1,120 @@
+{
+  "entries": {
+    "Active": {
+      "translation": "アクティブ",
+      "timestamp": 1765576980
+    },
+    "Active Quota": {
+      "translation": "アクティブ・クォータ",
+      "timestamp": 1765576980
+    },
+    "Amount": {
+      "translation": "金額",
+      "timestamp": 1765576980
+    },
+    "Available": {
+      "translation": "利用可能",
+      "timestamp": 1765576980
+    },
+    "Consumed": {
+      "translation": "消費済み",
+      "timestamp": 1765576980
+    },
+    "Daily Free Quota": {
+      "translation": "1日の無料枠",
+      "timestamp": 1765576980
+    },
+    "Depleted": {
+      "translation": "枯渇",
+      "timestamp": 1765576980
+    },
+    "Expired": {
+      "translation": "期限切れ",
+      "timestamp": 1765576980
+    },
+    "Expires At": {
+      "translation": "有効期限",
+      "timestamp": 1765576980
+    },
+    "Issued At": {
+      "translation": "発行元",
+      "timestamp": 1765576980
+    },
+    "Log in to view your quota usage and history": {
+      "translation": "ログインしてクォータの使用量と履歴を見る",
+      "timestamp": 1765576980
+    },
+    "Login to View Quota": {
+      "translation": "ログインしてクォータを見る",
+      "timestamp": 1765576980
+    },
+    "Manage and view your available quota": {
+      "translation": "利用可能なクォータの管理と表示",
+      "timestamp": 1765576980
+    },
+    "Manage and view your available quota usage and history": {
+      "translation": "利用可能なクォータの使用量と履歴の管理と表示",
+      "timestamp": 1765576980
+    },
+    "Monthly Basic": {
+      "translation": "月額基本料金",
+      "timestamp": 1765576980
+    },
+    "Monthly Pro": {
+      "translation": "月プロ",
+      "timestamp": 1765576980
+    },
+    "My Quota": {
+      "translation": "マイ・クォータ",
+      "timestamp": 1765576980
+    },
+    "Never": {
+      "translation": "決して",
+      "timestamp": 1765576980
+    },
+    "No active quota available": {
+      "translation": "利用可能なアクティブ・クォータなし",
+      "timestamp": 1765576980
+    },
+    "No expired quota": {
+      "translation": "期限切れ枠なし",
+      "timestamp": 1765576980
+    },
+    "Quota Pack": {
+      "translation": "クォータパック",
+      "timestamp": 1765576980
+    },
+    "Remaining": {
+      "translation": "残り",
+      "timestamp": 1765576980
+    },
+    "Subscription Change Compensation": {
+      "translation": "サブスクリプション変更補償",
+      "timestamp": 1765576980
+    },
+    "Total Available": {
+      "translation": "利用可能な合計",
+      "timestamp": 1765576980
+    },
+    "Type": {
+      "translation": "タイプ",
+      "timestamp": 1765576980
+    },
+    "Yearly Basic": {
+      "translation": "年間ベーシック",
+      "timestamp": 1765576980
+    },
+    "Yearly Pro": {
+      "translation": "年間プロ",
+      "timestamp": 1765576980
+    },
+    "You currently have no available quota. Please purchase quota to continue using the service": {
+      "translation": "現在利用可能なクォータがありません。引き続きご利用いただくには、クォータをご購入ください。",
+      "timestamp": 1765576980
+    },
+    "You have no expired quota records": {
+      "translation": "期限切れのクォータ記録はありません",
+      "timestamp": 1765576980
+    }
+  }
+}

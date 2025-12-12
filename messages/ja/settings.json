@@ -1,48 +1,48 @@
 {
-  "seo": {
-    "title": "設定",
-    "description": "アカウント設定と環境設定を管理"
-  },
-  "title": "設定",
-  "subtitle": "アカウント設定と環境設定を管理",
-  "loginRequired": {
-    "title": "サインインが必要です",
-    "description": "設定にアクセスしてアカウントを管理するには、サインインしてください。",
-    "cta": "今すぐサインイン"
-  },
-  "sections": {
-    "profile": {
-      "title": "プロフィール情報",
-      "name": "名前",
-      "email": "メールアドレス",
-      "plan": "現在のプラン",
-      "verified": "確認済み",
-      "notSet": "未設定"
-    },
-    "preferences": {
-      "title": "環境設定",
-      "notifications": "メール通知",
-      "notificationsDesc": "メールで更新情報と通知を受け取る"
-    },
-    "connections": {
-      "title": "接続済みアカウント",
-      "googleConnected": "Googleアカウントを使用してアカウントにサインインできます。",
-      "googleNotConnected": "このログイン方法を有効にするには、Googleアカウントを接続してください。",
-      "githubConnected": "GitHubアカウントを使用してアカウントにサインインできます。",
-      "githubNotConnected": "このログイン方法を有効にするには、GitHubアカウントを接続してください。",
-      "connected": "接続済み"
-    }
+  "about": {
+    "releaseDate": "発売日",
+    "title": "について",
+    "version": "バージョン"
   },
   "actions": {
-    "edit": "編集",
     "change": "変更",
-    "enable": "有効化",
-    "upgrade": "プランをアップグレード",
-    "copy": "コピー"
+    "copy": "コピー",
+    "edit": "編集",
+    "enable": "有効にする",
+    "upgrade": "アップグレードプラン"
   },
-  "about": {
-    "title": "について",
-    "version": "バージョン",
-    "releaseDate": "リリース日"
-  }
+  "loginRequired": {
+    "cta": "今すぐサインイン",
+    "description": "設定やアカウント管理にアクセスするには、サインインしてください。",
+    "title": "サインインが必要です"
+  },
+  "sections": {
+    "connections": {
+      "connected": "接続済み",
+      "githubConnected": "00001}アカウントを使ってサインインできます。",
+      "githubNotConnected": "このログイン方法を有効にするには、GitHubアカウントを接続してください。",
+      "googleConnected": "00002}アカウントを使ってサインインできます。",
+      "googleNotConnected": "このログイン方法を有効にするには、Googleアカウントを接続してください。",
+      "title": "接続アカウント"
+    },
+    "preferences": {
+      "notifications": "メール通知",
+      "notificationsDesc": "Eメールで最新情報と通知を受け取る",
+      "title": "好み"
+    },
+    "profile": {
+      "email": "メールアドレス",
+      "name": "名称",
+      "notSet": "未設定",
+      "plan": "現在の計画",
+      "title": "プロフィール",
+      "verified": "確認済み"
+    }
+  },
+  "seo": {
+    "description": "アカウント設定とプリファレンスの管理",
+    "title": "設定"
+  },
+  "subtitle": "アカウント設定とプリファレンスの管理",
+  "title": "設定"
 }

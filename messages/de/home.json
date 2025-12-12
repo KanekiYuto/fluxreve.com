@@ -1,53 +1,53 @@
 {
-  "metadata": {
-    "title": "{siteName} - KI-Bildgenerator | Professionelle Bilder schnell generieren",
-    "description": "Nutzen Sie fortschrittliche Künstliche-Intelligenz-Technologie, um schnell hochwertige professionelle Bilder zu generieren. Machen Sie die KI-Bilderstellung einfach und effizient."
-  },
-  "hero": {
-    "title": {
-      "line1": "Verwandeln Sie Ideen sofort in Realität",
-      "line2": "KI-gestützte professionelle Bildgenerierung"
-    },
-    "description": "Beschreiben Sie einfach, was Sie möchten, und erhalten Sie beeindruckende professionelle Bilder. Keine Designkenntnisse erforderlich – jeder kann ein Schöpfer sein.",
-    "buttons": {
-      "startCreate": "Jetzt erstellen",
-      "viewPricing": "Preise ansehen"
-    },
-    "features": {
-      "highQuality": "Hochwertige Ausgabe",
-      "fastGeneration": "Schnelle Generierung",
-      "easyToUse": "Einfach zu bedienen"
-    }
-  },
-  "features": {
-    "sectionTitle": "Warum uns wählen",
-    "sectionDescription": "Kombinieren Sie leistungsstarke KI-Technologie mit einer sauberen Benutzeroberfläche und machen Sie die Bilderstellung so einfach wie nie zuvor",
-    "items": [
-      {
-        "title": "Schnelle Generierung",
-        "description": "Leistungsstarke KI-Algorithmen generieren hochwertige Bilder in Sekunden und verbessern die kreative Effizienz erheblich."
-      },
-      {
-        "title": "Professionelle Qualität",
-        "description": "Verwenden Sie hochmoderne KI-Modelle für professionelle Bildqualität, um verschiedene kreative Anforderungen zu erfüllen."
-      },
-      {
-        "title": "Flexible Kontrolle",
-        "description": "Reichhaltige Parametereinstellungen und Stiloptionen ermöglichen Ihnen, jedes Detail der Bildgenerierung präzise zu steuern."
-      },
-      {
-        "title": "Einfach zu bedienen",
-        "description": "Intuitive Benutzeroberfläche, für die keine Fachkenntnisse erforderlich sind, sodass jeder einfach schöne Bilder erstellen kann."
-      }
-    ]
-  },
   "cta": {
-    "title": "Jetzt mit der Erstellung beginnen",
-    "description": "Schließen Sie sich Tausenden von Schöpfern an, die die Kraft der KI nutzen, um Ihre Ideen zum Leben zu erwecken",
     "buttons": {
       "freeTrial": "Kostenlose Testversion",
       "viewPricing": "Preise ansehen"
     },
-    "note": "Keine Kreditkarte erforderlich · Jetzt verwenden"
+    "description": "Schließen Sie sich Tausenden von Kreativen an, die die Macht der KI nutzen, um ihre Ideen zum Leben zu erwecken",
+    "note": "Keine Kreditkarte erforderlich - Jetzt loslegen",
+    "title": "Jetzt mit dem Erstellen beginnen"
+  },
+  "features": {
+    "items": [
+      {
+        "description": "Leistungsstarke KI-Algorithmen generieren in Sekundenschnelle qualitativ hochwertige Bilder und verbessern so die kreative Effizienz erheblich.",
+        "title": "Schnelle Erzeugung"
+      },
+      {
+        "description": "Modernste AI-Modelle sorgen für eine professionelle Bildqualität, die verschiedene kreative Anforderungen erfüllt.",
+        "title": "Professionelle Qualität"
+      },
+      {
+        "description": "Dank umfangreicher Parametereinstellungen und Stiloptionen können Sie jedes Detail der Bilderzeugung präzise steuern.",
+        "title": "Flexible Steuerung"
+      },
+      {
+        "description": "Intuitive Benutzeroberfläche, die keine Fachkenntnisse erfordert, so dass jeder problemlos schöne Bilder erstellen kann.",
+        "title": "Einfach zu benutzen"
+      }
+    ],
+    "sectionDescription": "Kombiniert leistungsstarke KI-Technologie mit einer übersichtlichen Benutzeroberfläche und macht die Bilderstellung einfacher als je zuvor",
+    "sectionTitle": "Warum uns wählen"
+  },
+  "hero": {
+    "buttons": {
+      "startCreate": "Erstellen beginnen",
+      "viewPricing": "Preise ansehen"
+    },
+    "description": "Beschreiben Sie einfach, was Sie wollen, und Sie erhalten atemberaubende Bilder in Profiqualität. Es sind keine Designkenntnisse erforderlich - jeder kann selbst zum Gestalter werden.",
+    "features": {
+      "easyToUse": "Einfach zu benutzen",
+      "fastGeneration": "Schnelle Erzeugung",
+      "highQuality": "Hohe Qualität der Ausgabe"
+    },
+    "title": {
+      "line1": "Ideen sofort in die Realität umsetzen",
+      "line2": "AI-gestützte professionelle Bilderzeugung"
+    }
+  },
+  "metadata": {
+    "description": "Durch den Einsatz fortschrittlicher Technologie der künstlichen Intelligenz können Sie schnell hochwertige professionelle Bilder erstellen. Einfaches und effizientes Erstellen von AI-Bildern.",
+    "title": "{siteName} - AI Image Generation Tool | Professionelle Bilder schnell generieren"
   }
 }

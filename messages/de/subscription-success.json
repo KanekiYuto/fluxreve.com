@@ -1,37 +1,37 @@
 {
-  "seo": {
-    "title": "Abonnement erfolgreich",
-    "description": "Danke für Ihr Abonnement! Ihr Konto wurde erfolgreich aktualisiert"
-  },
-  "title": "Abonnement erfolgreich!",
-  "description": "Danke für Ihr Abonnement. Ihr Konto wurde erfolgreich aktualisiert und Sie können nun alle Premium-Funktionen genießen.",
-  "loading": "Wird geladen...",
-  "notFound": "Abonnement nicht gefunden",
-  "details": {
-    "title": "Abonnementdetails",
-    "plan": "Plan",
-    "amount": "Betrag",
-    "status": "Status",
-    "statusActive": "Aktiv"
-  },
-  "nextSteps": {
-    "title": "Nächste Schritte",
-    "step1": "Besuchen Sie Ihr Dashboard, um alle verfügbaren Funktionen zu erkunden",
-    "step2": "Beginnen Sie mit KI-Generatoren, um beeindruckende Bilder zu erstellen",
-    "step3": "Sehen Sie sich Ihre Abonnementdetails auf der Abonnementverwaltungsseite an"
-  },
   "actions": {
-    "startUsing": "Jetzt verwenden",
-    "redirecting": "Wird umgeleitet...",
-    "viewSubscription": "Abonnement anzeigen"
+    "redirecting": "Umleitung...",
+    "startUsing": "Jetzt anfangen zu benutzen",
+    "viewSubscription": "Ansicht Abonnement"
   },
-  "autoRedirect": "Automatische Umleitung zum Dashboard in {seconds} Sekunden...",
+  "autoRedirect": "Automatische Weiterleitung zum Dashboard in {seconds} Sekunden...",
+  "description": "Vielen Dank für Ihr Abonnement. Ihr Konto wurde erfolgreich hochgestuft und Sie können nun alle Premium-Funktionen nutzen.",
+  "details": {
+    "amount": "Betrag",
+    "plan": "Plan",
+    "status": "Status",
+    "statusActive": "Aktiv",
+    "title": "Details zum Abonnement"
+  },
+  "loading": "Laden...",
+  "nextSteps": {
+    "step1": "Besuchen Sie Ihr Dashboard, um alle verfügbaren Funktionen zu erkunden",
+    "step2": "Verwenden Sie AI-Generatoren, um beeindruckende Bilder zu erstellen",
+    "step3": "Details zu Ihrem Abonnement auf der Seite zur Abonnementverwaltung anzeigen",
+    "title": "Was kommt als Nächstes?"
+  },
+  "notFound": "Abonnement nicht gefunden",
   "planTypes": {
-    "trial": "Testversion",
-    "monthly_basic": "Basis - Monatlich",
-    "yearly_basic": "Basis - Jährlich",
+    "monthly_basic": "Basic - Monatlich",
     "monthly_pro": "Pro - Monatlich",
-    "yearly_pro": "Pro - Jährlich",
-    "unknown": "Unbekannter Plan"
-  }
+    "trial": "Versuch",
+    "unknown": "Unbekannter Plan",
+    "yearly_basic": "Basic - Jährlich",
+    "yearly_pro": "Pro - Jährlich"
+  },
+  "seo": {
+    "description": "Vielen Dank für Ihr Abonnement! Ihr Konto wurde erfolgreich hochgestuft",
+    "title": "Abonnement erfolgreich"
+  },
+  "title": "Abonnement erfolgreich!"
 }

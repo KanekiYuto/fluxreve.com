@@ -1,48 +1,48 @@
 {
-  "seo": {
-    "title": "Einstellungen",
-    "description": "Verwalten Sie Ihre Kontoeinstellungen und Voreinstellungen"
-  },
-  "title": "Einstellungen",
-  "subtitle": "Verwalten Sie Ihre Kontoeinstellungen und Voreinstellungen",
-  "loginRequired": {
-    "title": "Anmeldung erforderlich",
-    "description": "Bitte melden Sie sich an, um auf Ihre Einstellungen zuzugreifen und Ihr Konto zu verwalten.",
-    "cta": "Jetzt anmelden"
-  },
-  "sections": {
-    "profile": {
-      "title": "Profilinformation",
-      "name": "Name",
-      "email": "E-Mail-Adresse",
-      "plan": "Aktueller Plan",
-      "verified": "Verifiziert",
-      "notSet": "Nicht gesetzt"
-    },
-    "preferences": {
-      "title": "Voreinstellungen",
-      "notifications": "E-Mail-Benachrichtigungen",
-      "notificationsDesc": "Erhalten Sie Updates und Benachrichtigungen per E-Mail"
-    },
-    "connections": {
-      "title": "Verbundene Konten",
-      "googleConnected": "Sie können Ihr Google-Konto verwenden, um sich in Ihr Konto anzumelden.",
-      "googleNotConnected": "Verbinden Sie Ihr Google-Konto, um diese Anmeldungsmethode zu aktivieren.",
-      "githubConnected": "Sie können Ihr GitHub-Konto verwenden, um sich in Ihr Konto anzumelden.",
-      "githubNotConnected": "Verbinden Sie Ihr GitHub-Konto, um diese Anmeldungsmethode zu aktivieren.",
-      "connected": "Verbunden"
-    }
+  "about": {
+    "releaseDate": "Datum der Veröffentlichung",
+    "title": "Über",
+    "version": "Version"
   },
   "actions": {
-    "edit": "Bearbeiten",
-    "change": "Ändern",
-    "enable": "Aktivieren",
-    "upgrade": "Plan aktualisieren",
-    "copy": "Kopieren"
+    "change": "Ändern Sie",
+    "copy": "Kopieren",
+    "edit": "bearbeiten",
+    "enable": "Aktivieren Sie",
+    "upgrade": "Upgrade-Plan"
   },
-  "about": {
-    "title": "Über",
-    "version": "Version",
-    "releaseDate": "Veröffentlichungsdatum"
-  }
+  "loginRequired": {
+    "cta": "Jetzt anmelden",
+    "description": "Bitte melden Sie sich an, um auf Ihre Einstellungen zuzugreifen und Ihr Konto zu verwalten.",
+    "title": "Anmeldung erforderlich"
+  },
+  "sections": {
+    "connections": {
+      "connected": "Verbunden",
+      "githubConnected": "Sie können Ihr GitHub Konto verwenden, um sich bei Ihrem Konto anzumelden.",
+      "githubNotConnected": "Verbinden Sie Ihr GitHub Konto, um diese Anmeldemethode zu aktivieren.",
+      "googleConnected": "Sie können Ihr Google Konto verwenden, um sich bei Ihrem Konto anzumelden.",
+      "googleNotConnected": "Verbinden Sie Ihr Google Konto, um diese Anmeldemethode zu aktivieren.",
+      "title": "Verbundene Konten"
+    },
+    "preferences": {
+      "notifications": "E-Mail-Benachrichtigungen",
+      "notificationsDesc": "Erhalten Sie Updates und Benachrichtigungen per E-Mail",
+      "title": "Präferenzen"
+    },
+    "profile": {
+      "email": "E-Mail Adresse",
+      "name": "Name",
+      "notSet": "Nicht festgelegt",
+      "plan": "Aktueller Plan",
+      "title": "Profil-Informationen",
+      "verified": "Geprüft"
+    }
+  },
+  "seo": {
+    "description": "Verwalten Sie Ihre Kontoeinstellungen und Präferenzen",
+    "title": "Einstellungen"
+  },
+  "subtitle": "Verwalten Sie Ihre Kontoeinstellungen und Präferenzen",
+  "title": "Einstellungen"
 }

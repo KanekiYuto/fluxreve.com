@@ -1,50 +1,50 @@
 {
-  "notFound": {
-    "title": "コンテンツが見つかりません",
-    "description": "この共有コンテンツは作成者によって削除されたか、非公開に設定されたか、リンクの有効期限が切れたか、または間違ったアドレスにアクセスした可能性があります",
-    "createButton": "AIアートワークを作成",
-    "homeButton": "ホームに戻る"
-  },
-  "nsfw": {
-    "warning": "センシティブコンテンツの警告",
-    "description": "このコンテンツにはアダルトまたはセンシティブな素材が含まれている可能性があります。ご注意ください",
-    "reveal": "18歳以上です、コンテンツを表示",
-    "imageAlt": "AI生成画像"
-  },
-  "processing": {
-    "title": "生成中...",
-    "description": "AIが現在のアートワークを作成しています。通常、数分かかります",
-    "tip": "後でページを更新して結果を表示してください"
-  },
   "actions": {
-    "copyLink": "共有リンクをコピー",
-    "linkCopied": "コピーしました",
-    "share": "共有",
-    "shareToX": "Xに共有",
-    "moreActions": "その他のアクション",
-    "downloadCurrent": "現在の画像をダウンロード",
+    "copyLink": "共有リンクをコピーする",
+    "createSimilar": "類似画像の作成",
     "downloadAll": "すべての画像をダウンロード",
-    "downloadCard": "共有カードをダウンロード",
-    "createSimilar": "類似の画像を作成"
+    "downloadCard": "シェアカードのダウンロード",
+    "downloadCurrent": "現在の画像をダウンロード",
+    "linkCopied": "コピー",
+    "moreActions": "その他のアクション",
+    "share": "シェア",
+    "shareToX": "Xにシェアする"
   },
   "details": {
-    "prompt": "プロンプト",
-    "promptCopied": "コピーしました",
-    "copyPrompt": "プロンプトをコピー",
     "aiModel": "AIモデル",
-    "resolution": "解像度",
     "aspectRatio": "アスペクト比",
-    "imageAlt": "画像",
-    "previousImage": "前の画像",
-    "nextImage": "次の画像",
-    "referenceImages": "入力画像",
-    "referenceImage": "入力画像",
+    "copyPrompt": "コピー・プロンプト",
     "generationResults": "AI画像生成結果",
+    "imageAlt": "画像",
     "imagePreview": "AI生成HD画像プレビュー",
-    "parametersInfo": "生成パラメータとモデル情報"
+    "nextImage": "次の画像",
+    "parametersInfo": "発電パラメータとモデル情報",
+    "previousImage": "前の画像",
+    "prompt": "プロンプト",
+    "promptCopied": "コピー",
+    "referenceImage": "入力画像",
+    "referenceImages": "入力画像",
+    "resolution": "決議"
   },
   "metadata": {
-    "descriptionPrefix": "{model} AIモデルで生成された高品質画像。プロンプト: ",
-    "ogDescriptionPrefix": "{model} AI生成 | "
+    "descriptionPrefix": "00001}AIモデルで生成された高画質画像。プロンプト",
+    "ogDescriptionPrefix": "{model}AIが生成した｜AIが生成した｜AIが生成した｜AIが生成した｜AIが生成した"
+  },
+  "notFound": {
+    "createButton": "AIアートワークの作成",
+    "description": "この共有コンテンツは、作成者によって削除されたか、非公開に設定されているか、リンクの有効期限が切れているか、間違ったアドレスにアクセスした可能性があります。",
+    "homeButton": "ホームへ戻る",
+    "title": "コンテンツが見つかりません"
+  },
+  "nsfw": {
+    "description": "このコンテンツには、アダルトまたはデリケートな内容が含まれている可能性があります。閲覧には十分ご注意ください。",
+    "imageAlt": "AIが生成した画像",
+    "reveal": "私は18歳以上です。",
+    "warning": "機微な内容に関する警告"
+  },
+  "processing": {
+    "description": "AIが現在のアートワークを作成している。",
+    "tip": "結果を表示するには、後でページを更新してください。",
+    "title": "生成..."
   }
 }

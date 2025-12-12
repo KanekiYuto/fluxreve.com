@@ -1,0 +1,88 @@
+{
+  "entries": {
+    "Auto redirecting to dashboard in {seconds} seconds...": {
+      "translation": "Redirection automatique vers le tableau de bord dans {seconds} secondes...",
+      "timestamp": 1765576849
+    },
+    "Basic - Monthly": {
+      "translation": "Base - Mensuelle",
+      "timestamp": 1765576849
+    },
+    "Basic - Yearly": {
+      "translation": "Base - Annuel",
+      "timestamp": 1765576849
+    },
+    "Plan": {
+      "translation": "Plan",
+      "timestamp": 1765576849
+    },
+    "Pro - Monthly": {
+      "translation": "Pro - Mensuel",
+      "timestamp": 1765576849
+    },
+    "Pro - Yearly": {
+      "translation": "Pro - Annuel",
+      "timestamp": 1765576849
+    },
+    "Redirecting...": {
+      "translation": "Redirection...",
+      "timestamp": 1765576849
+    },
+    "Start Using Now": {
+      "translation": "Commencez à utiliser dès maintenant",
+      "timestamp": 1765576849
+    },
+    "Start using AI generators to create stunning images": {
+      "translation": "Commencez à utiliser des générateurs d'IA pour créer des images époustouflantes",
+      "timestamp": 1765576849
+    },
+    "Status": {
+      "translation": "Statut",
+      "timestamp": 1765576849
+    },
+    "Subscription Details": {
+      "translation": "Détails de l'abonnement",
+      "timestamp": 1765576849
+    },
+    "Subscription Successful": {
+      "translation": "Abonnement réussi",
+      "timestamp": 1765576849
+    },
+    "Subscription Successful!": {
+      "translation": "Abonnement réussi !",
+      "timestamp": 1765576849
+    },
+    "Subscription not found": {
+      "translation": "Abonnement non trouvé",
+      "timestamp": 1765576849
+    },
+    "Thank you for subscribing! Your account has been successfully upgraded": {
+      "translation": "Merci de vous être abonné ! Votre compte a été mis à jour avec succès",
+      "timestamp": 1765576849
+    },
+    "Thank you for subscribing. Your account has been successfully upgraded and you can now enjoy all premium features.": {
+      "translation": "Merci de vous être abonné. Votre compte a été mis à jour avec succès et vous pouvez maintenant profiter de toutes les fonctionnalités premium.",
+      "timestamp": 1765576849
+    },
+    "Unknown Plan": {
+      "translation": "Plan inconnu",
+      "timestamp": 1765576849
+    },
+    "View Subscription": {
+      "translation": "Voir l'abonnement",
+      "timestamp": 1765576849
+    },
+    "View your subscription details in the subscription management page": {
+      "translation": "Consultez les détails de votre abonnement sur la page de gestion des abonnements",
+      "timestamp": 1765576849
+    },
+    "Visit your dashboard to explore all available features": {
+      "translation": "Visitez votre tableau de bord pour découvrir toutes les fonctionnalités disponibles",
+      "timestamp": 1765576849
+    },
+    "What's Next": {
+      "translation": "Prochaines étapes",
+      "timestamp": 1765576849
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "entries": {
+    "Canceled": {
+      "translation": "キャンセル",
+      "timestamp": 1765576983
+    },
+    "Canceled Date": {
+      "translation": "キャンセル日",
+      "timestamp": 1765576983
+    },
+    "Customer": {
+      "translation": "お客様",
+      "timestamp": 1765576983
+    },
+    "Expiry Date": {
+      "translation": "有効期限",
+      "timestamp": 1765576983
+    },
+    "Log in to view and manage your subscription information": {
+      "translation": "ログインして購読情報を確認・管理する",
+      "timestamp": 1765576983
+    },
+    "Login to View Subscriptions": {
+      "translation": "ログインして購読を見る",
+      "timestamp": 1765576983
+    },
+    "Manage Subscription": {
+      "translation": "サブスクリプションの管理",
+      "timestamp": 1765576983
+    },
+    "Next Billing Date": {
+      "translation": "次回請求日",
+      "timestamp": 1765576983
+    },
+    "Next renewal switches to": {
+      "translation": "次の更新は",
+      "timestamp": 1765576983
+    },
+    "No Subscriptions": {
+      "translation": "購読なし",
+      "timestamp": 1765576983
+    },
+    "Paused": {
+      "translation": "休止",
+      "timestamp": 1765576983
+    },
+    "Payment Platform": {
+      "translation": "決済プラットフォーム",
+      "timestamp": 1765576983
+    },
+    "Pending Payment": {
+      "translation": "支払い保留",
+      "timestamp": 1765576983
+    },
+    "Start Date": {
+      "translation": "開始日",
+      "timestamp": 1765576983
+    },
+    "Subscription Amount": {
+      "translation": "申込金額",
+      "timestamp": 1765576983
+    },
+    "Subscription Management": {
+      "translation": "サブスクリプション管理",
+      "timestamp": 1765576983
+    },
+    "View and manage your subscription information": {
+      "translation": "購読情報の確認と管理",
+      "timestamp": 1765576983
+    },
+    "View and manage your subscription plans and billing information": {
+      "translation": "購読プランと請求情報の確認と管理",
+      "timestamp": 1765576983
+    },
+    "You currently have no active subscriptions": {
+      "translation": "現在、アクティブなサブスクリプションはありません",
+      "timestamp": 1765576983
+    }
+  }
+}

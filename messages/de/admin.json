@@ -1,9 +1,9 @@
 {
   "unauthorized": {
-    "title": "Zugriff verweigert",
-    "description": "Entschuldigung, Sie haben keine Berechtigung, auf das Admin-Dashboard zuzugreifen. Nur Administratorkonten können auf diese Seite zugreifen.",
-    "helpTitle": "Benötigen Sie Hilfe?",
-    "helpDescription": "Wenn Sie der Meinung sind, dass dies ein Fehler ist, wenden Sie sich bitte an den Systemadministrator, um Zugriff anzufordern.",
-    "backToHome": "Zurück zur Startseite"
+    "backToHome": "Zurück zu Home",
+    "description": "Tut mir leid, Sie haben keine Berechtigung, auf das Admin-Dashboard zuzugreifen. Nur Administratorkonten können auf diese Seite zugreifen.",
+    "helpDescription": "Wenn Sie glauben, dass es sich um einen Fehler handelt, wenden Sie sich bitte an den Systemadministrator, um den Zugang zu beantragen.",
+    "helpTitle": "Brauchen Sie Hilfe?",
+    "title": "Zugang eingeschränkt"
   }
 }

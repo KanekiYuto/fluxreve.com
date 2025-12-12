@@ -1,76 +1,76 @@
 {
-  "title": "Nutzungsbedingungen | {siteName}",
-  "description": "Lesen Sie die Nutzungsbedingungen von {siteName} für die Verwendung unserer KI-Bildgenerierungsplattform. Deckt Benutzerkonten, Nutzungsregeln, Geistige Eigentumsrechte und Servicerichtlinien ab.",
-  "keywords": "Nutzungsbedingungen, Benutzervereinbarung, Service-Bedingungen, Rechtsvereinbarung, Nutzungsrichtlinie, Geistige Eigentumsrechte, Service-Vereinbarung",
-  "lastUpdated": "Zuletzt aktualisiert",
   "acceptance": {
-    "title": "Akzeptanz der Bedingungen",
-    "content1": "Willkommen bei {siteName}. Diese Nutzungsbedingungen (\"Bedingungen,\" \"Vereinbarung\") stellen eine rechtsverbindliche Vereinbarung dar zwischen Ihnen (\"Benutzer,\" \"Sie,\" oder \"Ihr\") und {siteName} (\"wir,\" \"uns,\" oder \"unser\"), die Ihren Zugriff auf und die Nutzung unserer KI-gestützten Bildgenerierungsplattform regelt, einschließlich unserer Website, mobiler Anwendungen, APIs und verwandter Services (insgesamt die \"Service\").",
-    "content2": "Durch den Zugriff auf, das Durchsuchen oder die Nutzung des Service in irgendeiner Weise bestätigen Sie, dass Sie diese Bedingungen und unsere Datenschutzrichtlinie gelesen haben, verstanden haben und sich an sie gebunden erklären. Wenn Sie diesen Bedingungen nicht zustimmen, müssen Sie die Nutzung des Service sofort einstellen."
-  },
-  "serviceDescription": {
-    "title": "Service-Übersicht",
-    "intro": "{siteName} bietet KI-gestützte kreative Tools und Services, einschließlich:",
-    "items": [
-      "KI-Bildgenerierung aus Texteingaben unter Verwendung fortgeschrittener Machine-Learning-Modelle",
-      "Bildbearbeitungs-, Verbesserungs- und Stilübertragungsfunktionen",
-      "Projektmanagement, Organisation und Cloud-Speicher für generierte Inhalte",
-      "API-Zugriff für Entwickler und Unternehmensintegration",
-      "Zusätzliche Premium-Funktionen und Tools, die von Zeit zu Zeit verfügbar gemacht werden"
-    ]
-  },
-  "userAccount": {
-    "title": "Benutzerkonten und Registrierung",
-    "registration": "Registrierung: Für den Zugriff auf bestimmte Funktionen müssen Sie ein Konto erstellen, indem Sie genaue, vollständige und aktuelle Informationen bereitstellen. Sie bestätigen, dass alle bereitgestellten Informationen wahrheitsgemäß sind und dass Sie die Genauigkeit dieser Informationen aufrechterhalten.",
-    "security": "Kontosicherheit: Sie sind allein verantwortlich für die Wahrung der Vertraulichkeit Ihrer Kontoanmeldedaten und für alle Aktivitäten, die unter Ihrem Konto stattfinden. Sie erklären sich damit einverstanden, uns sofort von unbefugtem Zugriff oder Sicherheitsverletzungen zu benachrichtigen.",
-    "transfer": "Kontoübertragung: Ihr Konto ist persönlich für Sie und kann ohne unsere vorherige schriftliche Zustimmung nicht auf Dritte übertragen, verkauft oder abgetreten werden."
-  },
-  "usageRules": {
-    "title": "Zulässige Nutzungsrichtlinie",
-    "intro": "Sie erklären sich damit einverstanden, den Service nicht zu verwenden, um Inhalte zu generieren, hochzuladen, zu teilen oder zu verteilen, die:",
-    "items": [
-      "Gegen geltende Gesetze, Vorschriften oder Rechte Dritter verstoßen",
-      "Illegale, schädliche, bedrohliche, missbräuchliche, belästigende, diffamierende oder obszöne Inhalte enthalten",
-      "Gewalt, Diskriminierung, Hass oder Intoleranz basierend auf geschützten Merkmalen darstellen oder fördern",
-      "Sexuell explizite, pornografische oder altersungeeignete Inhalte enthalten",
-      "Geistige Eigentumsrechte verletzen, einschließlich Urheberrechte, Marken oder Patente",
-      "Spam, Phishing, Malware oder Versuche bilden, die Plattformsicherheit zu gefährden",
-      "Jede Person oder Organisation darstellt oder Ihre Zugehörigkeit missverstellen",
-      "Automatisiertes Scraping, Mining oder unbefugten API-Einsatz beinhalten, der unsere Richtlinien verletzt",
-      "Minderjährige in irgendeiner Weise ausbeuten, verletzen oder versuchen auszubeuten",
-      "Falsche, irreführende oder täuschende Informationen enthalten, die als Tatsachen dargestellt werden"
-    ]
-  },
-  "intellectualProperty": {
-    "title": "Geistige Eigentumsrechte",
-    "platformContent": "Plattformbesitz: Alle Inhalte, Funktionen, Funktionalität, Software, Designs, Text, Grafiken, Logos und Marken auf dem Service sind Eigentum von {siteName} oder unseren Lizenzgebern und sind durch internationale Gesetze zum Schutz geistigen Eigentums geschützt. Sie dürfen keinen Teil des Service ohne Genehmigung kopieren, ändern, verteilen oder rückwärts konstruieren.",
-    "userContent": "Benutzergenerierte Inhalte: Sie behalten das Eigentum an Bildern und Inhalten, die Sie mit dem Service generieren, vorbehaltlich unserer eingeschränkten Lizenz unten. Sie sind jedoch allein verantwortlich dafür, dass Ihre Nutzung keine Rechte Dritter verletzt oder geltende Gesetze nicht verletzt.",
-    "license": "Lizenzgewährung: Durch die Nutzung des Service gewähren Sie uns eine weltweite, nicht ausschließliche, lizenzgebührenfreie Lizenz zur Nutzung, Vervielfältigung, Änderung und Anzeige Ihres generierten Inhalts ausschließlich für folgende Zwecke: (a) Bereitstellung und Verbesserung des Service, (b) Schulung und Verbesserung unserer KI-Modelle (mit Ihrer Zustimmung) und (c) Marketing- und Werbezwecke mit Ihrer ausdrücklichen Genehmigung."
-  },
-  "privacy": {
-    "title": "Datenschutz und Datenschutz",
-    "content": "Ihr Datenschutz ist uns wichtig. Die Erfassung, Nutzung und der Schutz Ihrer persönlichen Daten werden durch unsere Datenschutzrichtlinie geregelt, die durch Bezug in diese Bedingungen aufgenommen wird. Bitte lesen Sie unsere Datenschutzrichtlinie, um unsere Praktiken zu verstehen."
-  },
-  "serviceChanges": {
-    "title": "Service-Änderungen und Beendigung",
-    "modification": "Änderungen: Wir behalten uns das Recht vor, jeden Aspekt des Service jederzeit mit oder ohne Vorwarnung zu ändern, auszusetzen oder einzustellen. Wir können auch Grenzen für bestimmte Funktionen festlegen oder den Zugriff auf Teile des Service einschränken. Wir haften nicht für Änderungen oder Einstellungen.",
-    "termination": "Beendigung durch uns: Wir können Ihr Konto und den Zugriff auf den Service sofort und ohne vorherige Benachrichtigung aussetzen oder beenden, wenn Sie diese Bedingungen verletzen, an betrügerischen Aktivitäten beteiligt sind oder aus einem anderen Grund nach unserem alleinigen Ermessen.",
-    "dataRetention": "Auswirkung der Beendigung: Nach Beendigung endet Ihr Recht zur Nutzung des Service sofort. Wir können Ihre Kontodaten und generierten Inhalte löschen, obwohl einige Informationen wie gesetzlich erforderlich oder zu legitimen geschäftlichen Zwecken beibehalten werden können."
-  },
-  "disclaimer": {
-    "title": "Haftungsausschlüsse und Einschränkungen",
-    "asIs": "Wie-Es-Ist-Grundlage: Der Service wird \"wie er ist\" und \"wie verfügbar\" ohne jegliche Garantien, weder ausdrücklich noch stillschweigend, bereitgestellt, einschließlich, aber nicht begrenzt auf Garantien der Marktgängigkeit, Eignung für einen bestimmten Zweck oder Nichtverletzung. Wir garantieren nicht, dass der Service ununterbrochen, fehlerfrei oder sicher ist.",
-    "liability": "Haftungsbeschränkung: Im maximal gesetzlich zulässigen Umfang haften {siteName} und seine verbundenen Unternehmen nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, einschließlich Gewinn-, Daten- oder Goodwill-Verluste, die sich aus Ihrer Nutzung oder Unfähigkeit zur Nutzung des Service ergeben.",
-    "responsibility": "Benutzerverantwortung: Sie bestätigen, dass KI-generierte Inhalte zu unerwarteten oder ungenauen Ergebnissen führen können. Sie sind allein verantwortlich für die Überprüfung, Verifikation und Bestimmung der Angemessenheit von Inhalten, die durch den Service generiert werden, vor Nutzung, Veröffentlichung oder Verbreitung."
-  },
-  "legalJurisdiction": {
-    "title": "Anwendbares Recht und Streitbeilegung",
-    "law": "Anwendbares Recht: Diese Bedingungen unterliegen und werden nach den Gesetzen der Rechtsprechung, in der {siteName} registriert ist, ausgelegt, ohne Rücksicht auf ihre Konfliktgesetze.",
-    "disputes": "Streitbeilegung: Alle Streitigkeiten, die sich aus oder in Bezug auf diese Bedingungen oder den Service ergeben, sollen zunächst versucht werden, durch vertrauensvolle Verhandlungen beizulegen. Wenn Verhandlungen fehlschlagen, sollen Streitigkeiten durch verbindliche Schiedsgerichtlichkeit oder Gerichtsbarkeit in den Gerichten der zuständigen Gerichtsbarkeit, wie durch das anwendbare Recht bestimmt, beigelegt werden."
+    "content1": "Willkommen bei {siteName}. Diese Nutzungsbedingungen (\"Bedingungen\", \"Vereinbarung\") stellen eine rechtsverbindliche Vereinbarung zwischen Ihnen (\"Nutzer\", \"Sie\" oder \"Ihr\") und {siteName} (\"wir\", \"uns\" oder \"unser\") und regeln Ihren Zugang zu und Ihre Nutzung unserer KI-gestützten Bilderzeugungsplattform, einschließlich unserer Website, mobilen Anwendungen, APIs und zugehörigen Dienstleistungen (zusammenfassend der \"Dienst\").",
+    "content2": "Indem Sie auf den Dienst zugreifen, ihn durchsuchen oder ihn in irgendeiner Weise nutzen, bestätigen Sie, dass Sie diese Bedingungen und unsere Datenschutzrichtlinie gelesen und verstanden haben und damit einverstanden sind. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, müssen Sie die Nutzung des Dienstes unverzüglich einstellen.",
+    "title": "Akzeptanz der Bedingungen"
   },
   "contact": {
-    "title": "Kontaktinformationen",
+    "email": "E-Mail",
     "intro": "Wenn Sie Fragen, Bedenken oder Rückmeldungen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter:",
-    "email": "E-Mail"
+    "title": "Kontaktinformationen"
+  },
+  "description": "Lesen Sie die Nutzungsbedingungen von {siteName} für die Nutzung unserer KI-Bilderzeugungsplattform. Enthält Benutzerkonten, Nutzungsregeln, geistiges Eigentum und Service-Richtlinien.",
+  "disclaimer": {
+    "asIs": "Ohne Mängelgewähr: Der Dienst wird \"wie besehen\" und \"wie verfügbar\" zur Verfügung gestellt, ohne ausdrückliche oder stillschweigende Garantien jeglicher Art, einschließlich, aber nicht beschränkt auf Garantien der Marktgängigkeit, der Eignung für einen bestimmten Zweck oder der Nichtverletzung von Rechten. Wir garantieren nicht, dass der Dienst ohne Unterbrechung, fehlerfrei oder sicher ist.",
+    "liability": "Beschränkung der Haftung: Soweit gesetzlich zulässig, haften {siteName} und seine Partner nicht für indirekte, zufällige, besondere oder Folgeschäden, einschließlich entgangenen Gewinns, Datenverlusts oder Firmenwerts, die sich aus Ihrer Nutzung oder der Unfähigkeit zur Nutzung des Dienstes ergeben.",
+    "responsibility": "Verantwortung des Nutzers: Sie erkennen an, dass KI-generierte Inhalte unerwartete oder ungenaue Ergebnisse liefern können. Sie sind allein verantwortlich für die Überprüfung, Verifizierung und Bestimmung der Angemessenheit von Inhalten, die über den Service generiert werden, bevor Sie diese verwenden, veröffentlichen oder verbreiten.",
+    "title": "Haftungsausschlüsse und Beschränkungen"
+  },
+  "intellectualProperty": {
+    "license": "Lizenzerteilung: Durch die Nutzung des Dienstes gewähren Sie uns eine weltweite, nicht-exklusive, gebührenfreie Lizenz zur Nutzung, Reproduktion, Änderung und Anzeige Ihrer generierten Inhalte ausschließlich für die folgenden Zwecke: (a) Bereitstellung und Verbesserung des Dienstes, (b) Schulung und Verbesserung unserer KI-Modelle (mit Ihrer Zustimmung) und (c) Marketing- und Werbezwecke mit Ihrer ausdrücklichen Zustimmung.",
+    "platformContent": "Eigentum an der Plattform: Alle Inhalte, Merkmale, Funktionen, Software, Designs, Texte, Grafiken, Logos und Markenzeichen des Dienstes sind Eigentum von {siteName} oder unseren Lizenzgebern und sind durch internationale Gesetze zum Schutz des geistigen Eigentums geschützt. Sie sind nicht berechtigt, Teile des Dienstes ohne Genehmigung zu kopieren, zu verändern, zu vertreiben oder zurückzuentwickeln.",
+    "title": "Rechte an geistigem Eigentum",
+    "userContent": "Benutzergenerierte Inhalte: Sie bleiben Eigentümer der Bilder und Inhalte, die Sie mit Hilfe des Dienstes erstellen, vorbehaltlich unserer nachstehenden eingeschränkten Lizenz. Sie sind jedoch allein dafür verantwortlich, dass Ihre Nutzung nicht die Rechte Dritter verletzt oder gegen geltende Gesetze verstößt."
+  },
+  "keywords": "Nutzungsbedingungen, Nutzungsvereinbarung, Servicebedingungen, rechtliche Vereinbarung, Nutzungspolitik, geistiges Eigentum, Servicevereinbarung",
+  "lastUpdated": "Zuletzt aktualisiert",
+  "legalJurisdiction": {
+    "disputes": "Beilegung von Streitigkeiten: Alle Streitigkeiten, die sich aus diesen Bedingungen oder dem Dienst ergeben oder damit in Zusammenhang stehen, sind zunächst durch Verhandlungen in gutem Glauben zu lösen. Scheitern die Verhandlungen, werden die Streitigkeiten durch ein verbindliches Schiedsverfahren oder einen Rechtsstreit vor den Gerichten der jeweiligen Gerichtsbarkeit gelöst, wie es das geltende Recht vorsieht.",
+    "law": "Geltendes Recht: Diese Bedingungen unterliegen den Gesetzen der Gerichtsbarkeit, in der {siteName} registriert ist, und sind gemäß diesen Gesetzen auszulegen, ungeachtet der Grundsätze des Kollisionsrechts.",
+    "title": "Geltendes Recht und Streitbeilegung"
+  },
+  "privacy": {
+    "content": "Ihre Privatsphäre ist uns wichtig. Die Erfassung, Verwendung und der Schutz Ihrer persönlichen Daten wird durch unsere Datenschutzrichtlinie geregelt, die durch Verweis in diese Bedingungen aufgenommen wird. Bitte lesen Sie unsere Datenschutzrichtlinie, um unsere Praktiken zu verstehen.",
+    "title": "Privatsphäre und Datenschutz"
+  },
+  "serviceChanges": {
+    "dataRetention": "Auswirkung der Beendigung: Mit der Kündigung erlischt Ihr Recht zur Nutzung des Dienstes sofort. Wir sind berechtigt, Ihre Kontodaten und generierten Inhalte zu löschen, wobei einige Informationen aufbewahrt werden können, wenn dies gesetzlich vorgeschrieben ist oder für legitime Geschäftszwecke.",
+    "modification": "Änderungen: Wir behalten uns das Recht vor, jeden Aspekt des Dienstes jederzeit mit oder ohne Ankündigung zu ändern, auszusetzen oder einzustellen. Wir können auch bestimmte Funktionen einschränken oder den Zugang zu Teilen des Dienstes beschränken. Wir haften nicht für Änderungen oder Unterbrechungen.",
+    "termination": "Beendigung durch uns: Wir können Ihr Konto und Ihren Zugang zum Dienst sofort und ohne Vorankündigung aussetzen oder kündigen, wenn Sie gegen diese Bedingungen verstoßen, betrügerische Handlungen begehen oder aus einem anderen Grund nach unserem alleinigen Ermessen.",
+    "title": "Änderungen und Beendigung des Dienstes"
+  },
+  "serviceDescription": {
+    "intro": "{siteName} bietet KI-gestützte Kreativtools und -dienstleistungen, darunter:",
+    "items": [
+      "KI-Bilderzeugung aus Texteingaben mit Hilfe fortschrittlicher Modelle für maschinelles Lernen",
+      "Funktionen zur Bildbearbeitung, -verbesserung und Stilübertragung",
+      "Projektmanagement, Organisation und Cloud-Speicher für generierte Inhalte",
+      "API Zugang für Entwickler und Unternehmensintegration",
+      "Zusätzliche Premium-Funktionen und Tools, die von Zeit zu Zeit zur Verfügung gestellt werden"
+    ],
+    "title": "Service-Übersicht"
+  },
+  "title": "Servicebedingungen | {siteName}",
+  "usageRules": {
+    "intro": "Sie verpflichten sich, den Dienst nicht zu nutzen, um Inhalte zu erstellen, hochzuladen, zu teilen oder zu verbreiten, die:",
+    "items": [
+      "gegen geltende Gesetze, Vorschriften oder Rechte Dritter verstößt",
+      "illegales, schädliches, bedrohliches, beleidigendes, belästigendes, verleumderisches oder obszönes Material enthält",
+      "Gewalt, Diskriminierung, Hass oder Intoleranz aufgrund von geschützten Merkmalen darstellen oder fördern",
+      "Enthält sexuell eindeutige, pornografische oder altersunangemessene Inhalte",
+      "Verletzung von Rechten an geistigem Eigentum, einschließlich Urheberrechten, Marken oder Patenten",
+      "Spam, Phishing, Malware oder Versuche, die Sicherheit der Plattform zu gefährden",
+      "sich als eine natürliche oder juristische Person ausgibt oder Ihre Zugehörigkeit falsch darstellt",
+      "Automatisiertes Scraping, Mining oder nicht autorisierte API Nutzung, die gegen unsere Richtlinien verstößt",
+      "Minderjährige in irgendeiner Weise ausnutzt, schädigt oder versucht, sie auszubeuten",
+      "falsche, irreführende oder täuschende Informationen enthält, die als Tatsachen dargestellt werden"
+    ],
+    "title": "Richtlinie zur akzeptablen Nutzung"
+  },
+  "userAccount": {
+    "registration": "Registrierung: Um auf bestimmte Funktionen zugreifen zu können, müssen Sie ein Konto erstellen, indem Sie genaue, vollständige und aktuelle Informationen angeben. Sie versichern, dass alle von Ihnen angegebenen Informationen wahrheitsgemäß sind und dass Sie die Richtigkeit dieser Informationen aufrechterhalten werden.",
+    "security": "Sicherheit des Kontos: Sie sind allein verantwortlich für die Wahrung der Vertraulichkeit Ihrer Kontodaten und für alle Aktivitäten, die über Ihr Konto erfolgen. Sie verpflichten sich, uns unverzüglich über jeden unbefugten Zugriff oder Sicherheitsverstoß zu informieren.",
+    "title": "Benutzerkonten und Registrierung",
+    "transfer": "Übertragung des Kontos: Ihr Konto ist Ihr persönliches Konto und darf ohne unsere vorherige schriftliche Zustimmung nicht an Dritte übertragen, verkauft oder abgetreten werden."
   }
 }
