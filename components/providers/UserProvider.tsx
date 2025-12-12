@@ -158,9 +158,9 @@ export default function UserProvider({ children }: UserProviderProps) {
     }
   }, [session, isPending, setUser, setLoading, clearUser, setQuotaInfo, setQuotaLoading]);
 
-  // 初始化 Google One Tap (用户未登录时显示)
+  // 初始化 Google One Tap (用户未登录时显示，仅生产环境)
   useEffect(() => {
-    if (!session && typeof window !== 'undefined') {
+    if (!session && typeof window !== 'undefined' && process.env.NODE_ENV === 'production') {
       const initializeOneTap = async () => {
         try {
           await oneTap({
@@ -172,7 +172,7 @@ export default function UserProvider({ children }: UserProviderProps) {
       };
 
       // 延迟初始化，给 DOM 充足的时间
-      const timer = setTimeout(initializeOneTap, 3000);
+      const timer = setTimeout(initializeOneTap, 1000);
       return () => clearTimeout(timer);
     }
   }, [session]);

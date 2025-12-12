@@ -39,5 +39,10 @@
     "enable": "启用",
     "upgrade": "升级方案",
     "copy": "复制"
+  },
+  "about": {
+    "title": "关于",
+    "version": "版本",
+    "releaseDate": "发布日期"
   }
 }

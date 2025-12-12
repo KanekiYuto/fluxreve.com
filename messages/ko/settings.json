@@ -39,5 +39,10 @@
     "enable": "활성화",
     "upgrade": "플랜 업그레이드",
     "copy": "복사"
+  },
+  "about": {
+    "title": "정보",
+    "version": "버전",
+    "releaseDate": "출시일"
   }
 }

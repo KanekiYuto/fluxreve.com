@@ -39,5 +39,10 @@
     "enable": "有効化",
     "upgrade": "プランをアップグレード",
     "copy": "コピー"
+  },
+  "about": {
+    "title": "について",
+    "version": "バージョン",
+    "releaseDate": "リリース日"
   }
 }

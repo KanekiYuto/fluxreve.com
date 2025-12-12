@@ -39,5 +39,10 @@
     "enable": "Activer",
     "upgrade": "Mettre à Jour le Plan",
     "copy": "Copier"
+  },
+  "about": {
+    "title": "À propos",
+    "version": "Version",
+    "releaseDate": "Date de Publication"
   }
 }

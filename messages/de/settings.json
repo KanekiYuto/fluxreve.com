@@ -39,5 +39,10 @@
     "enable": "Aktivieren",
     "upgrade": "Plan aktualisieren",
     "copy": "Kopieren"
+  },
+  "about": {
+    "title": "Über",
+    "version": "Version",
+    "releaseDate": "Veröffentlichungsdatum"
   }
 }

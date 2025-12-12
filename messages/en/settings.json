@@ -39,5 +39,10 @@
     "enable": "Enable",
     "upgrade": "Upgrade Plan",
     "copy": "Copy"
+  },
+  "about": {
+    "title": "About",
+    "version": "Version",
+    "releaseDate": "Release Date"
   }
 }

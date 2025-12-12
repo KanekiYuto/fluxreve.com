@@ -39,5 +39,10 @@
     "enable": "تفعيل",
     "upgrade": "ترقية الخطة",
     "copy": "نسخ"
+  },
+  "about": {
+    "title": "حول",
+    "version": "الإصدار",
+    "releaseDate": "تاريخ الإصدار"
   }
 }

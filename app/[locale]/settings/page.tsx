@@ -55,36 +55,36 @@ export default function SettingsPage() {
       </div>
 
       {/* 设置内容 */}
-      <div className="container mx-auto px-4 py-8 max-w-4xl">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 max-w-4xl">
         {/* 个人信息设置 */}
-        <div className="mb-6 rounded-2xl gradient-border p-6">
-          <h2 className="text-xl font-bold text-white mb-6">{t('sections.profile.title')}</h2>
+        <div className="mb-6 rounded-2xl gradient-border p-4 sm:p-6">
+          <h2 className="text-lg sm:text-xl font-bold text-white mb-6">{t('sections.profile.title')}</h2>
           <div className="space-y-4">
             {/* 用户名 */}
-            <div className="flex items-center justify-between py-4 border-b border-border">
-              <div className="flex-1">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between py-4 border-b border-border gap-3 sm:gap-0">
+              <div className="flex-1 min-w-0">
                 <Label className="text-white">{t('sections.profile.name')}</Label>
-                <p className="text-sm text-text-muted mt-1">{user.name || t('sections.profile.notSet')}</p>
+                <p className="text-sm text-text-muted mt-1 truncate">{user.name || t('sections.profile.notSet')}</p>
               </div>
               <Button
                 variant="outline"
                 size="icon"
                 onClick={() => navigator.clipboard.writeText(user.name || '')}
                 title={t('actions.copy')}
-                className="hover:bg-primary/10"
+                className="hover:bg-primary/10 flex-shrink-0"
               >
                 <Copy className="w-4 h-4" />
               </Button>
             </div>
 
             {/* 邮箱 */}
-            <div className="flex items-center justify-between py-4 border-b border-border">
-              <div className="flex-1">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between py-4 border-b border-border gap-3 sm:gap-2">
+              <div className="flex-1 min-w-0">
                 <Label className="text-white">{t('sections.profile.email')}</Label>
-                <p className="text-sm text-text-muted mt-1">{user.email}</p>
+                <p className="text-sm text-text-muted mt-1 truncate">{user.email}</p>
               </div>
-              <div className="flex items-center gap-2">
-                <span className="px-3 py-1 text-xs rounded-full bg-green-500/10 text-green-400 border border-green-500/20">
+              <div className="flex items-center gap-2 flex-shrink-0">
+                <span className="px-3 py-1 text-xs rounded-full bg-green-500/10 text-green-400 border border-green-500/20 whitespace-nowrap">
                   {t('sections.profile.verified')}
                 </span>
                 <Button
@@ -100,13 +100,13 @@ export default function SettingsPage() {
             </div>
 
             {/* 用户类型 */}
-            <div className="flex items-center justify-between py-4">
-              <div className="flex-1">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between py-4 gap-3 sm:gap-0">
+              <div className="flex-1 min-w-0">
                 <Label className="text-white">{t('sections.profile.plan')}</Label>
                 <p className="text-sm text-text-muted mt-1 capitalize">{user.userType}</p>
               </div>
-              <Button asChild className="gradient-bg border-0 hover:brightness-110">
-                <Link href="/pricing" className="inline-flex items-center gap-2">
+              <Button asChild className="gradient-bg border-0 hover:brightness-110 w-full sm:w-auto">
+                <Link href="/pricing" className="inline-flex items-center justify-center gap-2">
                   <TrendingUp className="w-4 h-4" />
                   {t('actions.upgrade')}
                 </Link>
@@ -116,27 +116,29 @@ export default function SettingsPage() {
         </div>
 
         {/* 偏好设置 */}
-        <div className="mb-6 rounded-2xl gradient-border p-6">
-          <h2 className="text-xl font-bold text-white mb-6">{t('sections.preferences.title')}</h2>
+        <div className="mb-6 rounded-2xl gradient-border p-4 sm:p-6">
+          <h2 className="text-lg sm:text-xl font-bold text-white mb-6">{t('sections.preferences.title')}</h2>
           <div>
             {/* 通知设置 */}
-            <div className="flex items-center justify-between py-4">
-              <div className="flex-1">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between py-4 gap-3 sm:gap-0">
+              <div className="flex-1 min-w-0">
                 <Label className="text-white">{t('sections.preferences.notifications')}</Label>
                 <p className="text-sm text-text-muted mt-1">{t('sections.preferences.notificationsDesc')}</p>
               </div>
-              <Switch defaultChecked />
+              <div className="flex-shrink-0">
+                <Switch defaultChecked />
+              </div>
             </div>
           </div>
         </div>
 
         {/* 第三方账号连接 */}
-        <div className="mb-6 rounded-2xl gradient-border p-6">
-          <h2 className="text-xl font-bold text-white mb-6">{t('sections.connections.title')}</h2>
+        <div className="mb-6 rounded-2xl gradient-border p-4 sm:p-6">
+          <h2 className="text-lg sm:text-xl font-bold text-white mb-6">{t('sections.connections.title')}</h2>
           <div className="space-y-4">
             {/* Google 账号 */}
-            <div className="flex items-center justify-between py-4 border-b border-border">
-              <div className="flex items-center gap-3 flex-1">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between py-4 border-b border-border gap-3 sm:gap-0">
+              <div className="flex items-center gap-3 flex-1 min-w-0">
                 {/* Google Icon */}
                 <div className="w-10 h-10 rounded-lg gradient-bg flex items-center justify-center flex-shrink-0">
                   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-white fill-current">
@@ -154,15 +156,15 @@ export default function SettingsPage() {
                 </div>
               </div>
               {user.email && (
-                <span className="px-3 py-1 text-xs rounded-full bg-green-500/10 text-green-400 border border-green-500/20">
+                <span className="px-3 py-1 text-xs rounded-full bg-green-500/10 text-green-400 border border-green-500/20 whitespace-nowrap flex-shrink-0">
                   {t('sections.connections.connected')}
                 </span>
               )}
             </div>
 
             {/* GitHub 账号 */}
-            <div className="flex items-center justify-between py-4">
-              <div className="flex items-center gap-3 flex-1">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between py-4 gap-3 sm:gap-0">
+              <div className="flex items-center gap-3 flex-1 min-w-0">
                 {/* GitHub Icon */}
                 <div className="w-10 h-10 rounded-lg gradient-bg flex items-center justify-center flex-shrink-0">
                   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-white fill-current">
@@ -176,6 +178,28 @@ export default function SettingsPage() {
                     {t('sections.connections.githubNotConnected')}
                   </p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* 关于卡片 */}
+        <div className="mb-6 rounded-2xl gradient-border p-4 sm:p-6">
+          <h2 className="text-lg sm:text-xl font-bold text-white mb-6">{t('about.title')}</h2>
+          <div className="space-y-4">
+            {/* 版本号 */}
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between py-4 border-b border-border gap-3 sm:gap-0">
+              <div className="flex-1">
+                <Label className="text-white">{t('about.version')}</Label>
+                <p className="text-sm text-text-muted mt-1">v0.1.0</p>
+              </div>
+            </div>
+
+            {/* 发布日期 */}
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between py-4 gap-3 sm:gap-0">
+              <div className="flex-1">
+                <Label className="text-white">{t('about.releaseDate')}</Label>
+                <p className="text-sm text-text-muted mt-1">2025-12-12</p>
               </div>
             </div>
           </div>
