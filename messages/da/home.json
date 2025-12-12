@@ -1,0 +1,53 @@
+{
+  "cta": {
+    "buttons": {
+      "freeTrial": "Gratis prøveperiode",
+      "viewPricing": "Se priser"
+    },
+    "description": "Slut dig til tusindvis af skabere, der bruger AI&39;s kraft til at bringe dine ideer til live",
+    "note": "Intet kreditkort kræves · Begynd at bruge det nu",
+    "title": "Begynd at skabe nu"
+  },
+  "features": {
+    "items": [
+      {
+        "description": "Kraftfulde AI-algoritmer genererer billeder i høj kvalitet på få sekunder, hvilket forbedrer den kreative effektivitet dramatisk.",
+        "title": "Hurtig generation"
+      },
+      {
+        "description": "Brug af avancerede AI-modeller til at levere professionel billedkvalitet, der opfylder forskellige kreative behov.",
+        "title": "Professionel kvalitet"
+      },
+      {
+        "description": "Rige parameterindstillinger og stilmuligheder giver dig præcis kontrol over alle detaljer i billedgenereringen.",
+        "title": "Fleksibel kontrol"
+      },
+      {
+        "description": "Intuitiv brugerflade, der ikke kræver ekspertise, giver alle mulighed for nemt at skabe smukke billeder.",
+        "title": "Nem at bruge"
+      }
+    ],
+    "sectionDescription": "Kombination af kraftfuld AI-teknologi og en ren brugeroplevelse gør billedoprettelse nemmere end nogensinde før",
+    "sectionTitle": "Hvorfor vælge os"
+  },
+  "hero": {
+    "buttons": {
+      "startCreate": "Begynd at oprette",
+      "viewPricing": "Se priser"
+    },
+    "description": "Beskriv blot, hvad du ønsker, og få fantastiske billeder i professionel kvalitet. Ingen designfærdigheder kræves – alle kan være kreative.",
+    "features": {
+      "easyToUse": "Nem at bruge",
+      "fastGeneration": "Hurtig generation",
+      "highQuality": "Høj kvalitetsoutput"
+    },
+    "title": {
+      "line1": "Gør idéer til virkelighed med det samme",
+      "line2": "AI-drevet professionel billedgenerering"
+    }
+  },
+  "metadata": {
+    "description": "Brug af avanceret kunstig intelligens-teknologi til hurtigt at generere professionelle billeder i høj kvalitet. Gør AI-billedoprettelse enkel og effektiv.",
+    "title": "{siteName} - AI-billedgenereringsværktøj | Generer professionelle billeder hurtigt"
+  }
+}

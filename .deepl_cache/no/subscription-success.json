@@ -1,0 +1,88 @@
+{
+  "entries": {
+    "Auto redirecting to dashboard in {seconds} seconds...": {
+      "translation": "Automatisk omdirigering til dashbordet om {seconds} sekunder...",
+      "timestamp": 1765582138
+    },
+    "Basic - Monthly": {
+      "translation": "Grunnleggende - Månedlig",
+      "timestamp": 1765582138
+    },
+    "Basic - Yearly": {
+      "translation": "Grunnleggende - Årlig",
+      "timestamp": 1765582138
+    },
+    "Plan": {
+      "translation": "Plan",
+      "timestamp": 1765582138
+    },
+    "Pro - Monthly": {
+      "translation": "Pro - Månedlig",
+      "timestamp": 1765582138
+    },
+    "Pro - Yearly": {
+      "translation": "Pro - Årlig",
+      "timestamp": 1765582138
+    },
+    "Redirecting...": {
+      "translation": "Omdirigerer...",
+      "timestamp": 1765582138
+    },
+    "Start Using Now": {
+      "translation": "Begynn å bruke nå",
+      "timestamp": 1765582138
+    },
+    "Start using AI generators to create stunning images": {
+      "translation": "Begynn å bruke AI-generatorer for å lage fantastiske bilder",
+      "timestamp": 1765582138
+    },
+    "Status": {
+      "translation": "Status",
+      "timestamp": 1765582138
+    },
+    "Subscription Details": {
+      "translation": "Abonnementsdetaljer",
+      "timestamp": 1765582138
+    },
+    "Subscription Successful": {
+      "translation": "Abonnementet var vellykket",
+      "timestamp": 1765582138
+    },
+    "Subscription Successful!": {
+      "translation": "Abonnementet er vellykket!",
+      "timestamp": 1765582138
+    },
+    "Subscription not found": {
+      "translation": "Abonnementet ble ikke funnet",
+      "timestamp": 1765582138
+    },
+    "Thank you for subscribing! Your account has been successfully upgraded": {
+      "translation": "Takk for at du abonnerer! Kontoen din er oppgradert",
+      "timestamp": 1765582138
+    },
+    "Thank you for subscribing. Your account has been successfully upgraded and you can now enjoy all premium features.": {
+      "translation": "Takk for at du abonnerer. Kontoen din er oppgradert, og du kan nå nyte alle premiumfunksjonene.",
+      "timestamp": 1765582138
+    },
+    "Unknown Plan": {
+      "translation": "Ukjent plan",
+      "timestamp": 1765582138
+    },
+    "View Subscription": {
+      "translation": "Vis abonnement",
+      "timestamp": 1765582138
+    },
+    "View your subscription details in the subscription management page": {
+      "translation": "Se abonnementsdetaljene dine på siden for abonnementsadministrasjon",
+      "timestamp": 1765582138
+    },
+    "Visit your dashboard to explore all available features": {
+      "translation": "Gå til dashbordet ditt for å utforske alle tilgjengelige funksjoner",
+      "timestamp": 1765582138
+    },
+    "What's Next": {
+      "translation": "Hva skjer nå?",
+      "timestamp": 1765582138
+    }
+  }
+}

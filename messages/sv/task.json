@@ -1,0 +1,47 @@
+{
+  "details": {
+    "aiModel": "AI-modell",
+    "aspectRatio": "Bildförhållande",
+    "completedAt": "Avslutad kl.",
+    "copyPrompt": "Kopieringsuppmaning",
+    "createdAt": "Skapad vid",
+    "defaultPrompt": "AI-genererad bild",
+    "duration": "Varaktighet",
+    "generationResults": "Genereringsresultat",
+    "imageAlt": "Bild",
+    "imagePreview": "Förhandsgranskning av bild",
+    "isNsfw": "NSFW Innehåll",
+    "isPrivate": "Privat läge",
+    "metaDescription": "AI-bild genererad med {model}",
+    "nextImage": "Nästa bild",
+    "no": "Inga",
+    "parametersInfo": "Parameterinformation",
+    "previousImage": "Föregående bild",
+    "prompt": "Prompt",
+    "promptCopied": "Kopierad",
+    "quotaConsumed": "Använda krediter",
+    "referenceImage": "Inmatningsbild",
+    "referenceImages": "Inmatningsbilder",
+    "resolution": "Upplösning",
+    "seed": "Utsäde",
+    "size": "Storlek",
+    "steps": "Steg",
+    "yes": "Ja"
+  },
+  "notFound": {
+    "backToHome": "Tillbaka till startsidan",
+    "description": "Tyvärr kan inte uppgiften du söker hittas. Den kan ha tagits bort eller så är länken ogiltig.",
+    "title": "Uppgiften hittades inte"
+  },
+  "processing": {
+    "description": "Din bild genereras, vänligen vänta ett ögonblick...",
+    "failedDescription": "Tyvärr misslyckades det med att generera bilden. Försök igen senare eller kontakta supporten.",
+    "failedTitle": "Uppgiften misslyckades",
+    "tip": "Tar vanligtvis några sekunder till några minuter",
+    "title": "Uppgiftsbearbetning"
+  },
+  "seo": {
+    "description": "Visa detaljer och resultat för din AI-bildgenereringsuppgift",
+    "title": "Uppgiftsdetaljer"
+  }
+}

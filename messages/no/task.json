@@ -1,0 +1,47 @@
+{
+  "details": {
+    "aiModel": "AI-modell",
+    "aspectRatio": "Sideforhold",
+    "completedAt": "Fullført kl.",
+    "copyPrompt": "Kopieringsspørsmål",
+    "createdAt": "Opprettet kl.",
+    "defaultPrompt": "AI-generert bilde",
+    "duration": "Varighet",
+    "generationResults": "Generasjonsresultater",
+    "imageAlt": "Bilde",
+    "imagePreview": "Forhåndsvisning av bilde",
+    "isNsfw": "NSFW Innhold",
+    "isPrivate": "Privatmodus",
+    "metaDescription": "AI-bilde generert ved hjelp av {model}",
+    "nextImage": "Neste bilde",
+    "no": "Ingen",
+    "parametersInfo": "Parameterinformasjon",
+    "previousImage": "Forrige bilde",
+    "prompt": "Spørsmål",
+    "promptCopied": "Kopiert",
+    "quotaConsumed": "Brukte kreditter",
+    "referenceImage": "Inndatabilde",
+    "referenceImages": "Inndatabilder",
+    "resolution": "Oppløsning",
+    "seed": "Frø",
+    "size": "Størrelse",
+    "steps": "Trinn",
+    "yes": "Ja"
+  },
+  "notFound": {
+    "backToHome": "Tilbake til hjemmet",
+    "description": "Beklager, oppgaven du leter etter finnes ikke. Den kan ha blitt slettet, eller lenken er ugyldig.",
+    "title": "Oppgaven ble ikke funnet"
+  },
+  "processing": {
+    "description": "Bildet ditt genereres, vennligst vent litt ...",
+    "failedDescription": "Beklager, bildegenereringen mislyktes. Prøv på nytt senere, eller kontakt kundestøtte.",
+    "failedTitle": "Oppgaven mislyktes",
+    "tip": "Tar vanligvis noen få sekunder til noen få minutter",
+    "title": "Oppgavebehandling"
+  },
+  "seo": {
+    "description": "Se detaljer og resultater for genereringsoppgaver for AI-bilder",
+    "title": "Oppgavedetaljer"
+  }
+}

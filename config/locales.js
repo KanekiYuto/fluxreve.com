@@ -3,7 +3,7 @@
  * 这个文件用于 JavaScript 配置（如 next-sitemap.config.js）
  */
 
-const locales = ['en', 'zh-CN', 'zh-TW', 'ja', 'ko', 'ar', 'fr', 'de', 'it', 'es'];
+const locales = ['en', 'zh-CN', 'zh-TW', 'ja', 'ko', 'ar', 'fr', 'de', 'it', 'es', 'sv', 'no', 'da', 'fi'];
 const defaultLocale = 'en';
 
 const localeNames = {
@@ -17,6 +17,10 @@ const localeNames = {
   de: 'Deutsch',
   it: 'Italiano',
   es: 'Español',
+  sv: 'Svenska',
+  no: 'Norsk',
+  da: 'Dansk',
+  fi: 'Suomi',
 };
 
 const rtlLocales = ['ar', 'he'];

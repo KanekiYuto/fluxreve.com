@@ -1,0 +1,104 @@
+{
+  "entries": {
+    "About": {
+      "translation": "Om",
+      "timestamp": 1765582137
+    },
+    "Change": {
+      "translation": "Endre",
+      "timestamp": 1765582137
+    },
+    "Connect your GitHub account to enable this login method.": {
+      "translation": "Koble til GitHub-kontoen din for å aktivere denne påloggingsmetoden.",
+      "timestamp": 1765582137
+    },
+    "Connect your Google account to enable this login method.": {
+      "translation": "Koble til Google-kontoen din for å aktivere denne påloggingsmetoden.",
+      "timestamp": 1765582137
+    },
+    "Connected": {
+      "translation": "Tilkoblet",
+      "timestamp": 1765582137
+    },
+    "Connected Accounts": {
+      "translation": "Tilkoblede kontoer",
+      "timestamp": 1765582137
+    },
+    "Copy": {
+      "translation": "Kopiere",
+      "timestamp": 1765582137
+    },
+    "Edit": {
+      "translation": "Redigere",
+      "timestamp": 1765582137
+    },
+    "Email Address": {
+      "translation": "E-postadresse",
+      "timestamp": 1765582137
+    },
+    "Email Notifications": {
+      "translation": "E-postvarsler",
+      "timestamp": 1765582137
+    },
+    "Enable": {
+      "translation": "Aktiver",
+      "timestamp": 1765582137
+    },
+    "Manage your account settings and preferences": {
+      "translation": "Administrer kontoinnstillingene og preferansene dine",
+      "timestamp": 1765582137
+    },
+    "Name": {
+      "translation": "Navn",
+      "timestamp": 1765582137
+    },
+    "Not set": {
+      "translation": "Ikke angitt",
+      "timestamp": 1765582137
+    },
+    "Please sign in to access your settings and manage your account.": {
+      "translation": "Vennligst logg inn for å få tilgang til innstillingene dine og administrere kontoen din.",
+      "timestamp": 1765582137
+    },
+    "Preferences": {
+      "translation": "Innstillinger",
+      "timestamp": 1765582137
+    },
+    "Profile Information": {
+      "translation": "Profilinformasjon",
+      "timestamp": 1765582137
+    },
+    "Receive updates and notifications via email": {
+      "translation": "Motta oppdateringer og varsler via e-post",
+      "timestamp": 1765582137
+    },
+    "Release Date": {
+      "translation": "Utgivelsesdato",
+      "timestamp": 1765582137
+    },
+    "Sign In Required": {
+      "translation": "Pålogging kreves",
+      "timestamp": 1765582137
+    },
+    "Upgrade Plan": {
+      "translation": "Oppgraderingsplan",
+      "timestamp": 1765582137
+    },
+    "Verified": {
+      "translation": "Verifisert",
+      "timestamp": 1765582137
+    },
+    "Version": {
+      "translation": "Versjon",
+      "timestamp": 1765582137
+    },
+    "You can use your GitHub account to sign in to your account.": {
+      "translation": "Du kan bruke GitHub-kontoen din til å logge på kontoen din.",
+      "timestamp": 1765582137
+    },
+    "You can use your Google account to sign in to your account.": {
+      "translation": "Du kan bruke Google-kontoen din til å logge på kontoen din.",
+      "timestamp": 1765582137
+    }
+  }
+}

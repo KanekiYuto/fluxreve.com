@@ -1,0 +1,76 @@
+{
+  "acceptance": {
+    "content1": "Välkommen till {siteName}. Dessa användarvillkor (&quot;Villkor&quot;, &quot;Avtal&quot;) utgör ett juridiskt bindande avtal mellan dig (&quot;Användare&quot;, &quot;du&quot; eller &quot;din&quot;) och {siteName} (&quot;vi&quot;, &quot;oss&quot; eller &quot;vår&quot;) som reglerar din åtkomst till och användning av vår AI-drivna bildgenereringsplattform, inklusive vår webbplats, mobilapplikationer, APIs och relaterade tjänster (gemensamt kallade &quot;Tjänsten&quot;).",
+    "content2": "Genom att besöka, surfa på eller använda Tjänsten på något sätt bekräftar du att du har läst, förstått och samtycker till att vara bunden av dessa Villkor och vår Integritetspolicy. Om du inte godkänner dessa Villkor måste du omedelbart upphöra med att använda Tjänsten.",
+    "title": "Godkännande av villkor"
+  },
+  "contact": {
+    "email": "E-post",
+    "intro": "Om du har några frågor, funderingar eller feedback angående dessa användarvillkor, vänligen kontakta oss på:",
+    "title": "Kontaktinformation"
+  },
+  "description": "Läs {siteName} användarvillkor för användning av vår plattform för AI-bildgenerering. Omfattar användarkonton, användningsregler, immateriella rättigheter och servicepolicyer.",
+  "disclaimer": {
+    "asIs": "I befintligt skick: Tjänsten tillhandahålls &quot;i befintligt skick&quot; och &quot;som tillgänglig&quot; utan några garantier av något slag, vare sig uttryckliga eller underförstådda, inklusive men inte begränsat till garantier om säljbarhet, lämplighet för ett visst ändamål eller icke-intrång. Vi garanterar inte att Tjänsten kommer att vara oavbruten, felfri eller säker.",
+    "liability": "Ansvarsbegränsning: I den utsträckning det är tillåtet enligt lag ska {siteName} och dess dotterbolag inte vara ansvariga för några indirekta, tillfälliga, särskilda, följdskador eller straffskador, inklusive förlust av vinst, data eller goodwill, som uppstår till följd av din användning eller oförmåga att använda Tjänsten.",
+    "responsibility": "Användaransvar: Du bekräftar att AI-genererat innehåll kan ge oväntade eller felaktiga resultat. Du är ensam ansvarig för att granska, verifiera och fastställa lämpligheten av allt innehåll som genereras via Tjänsten före användning, publicering eller distribution.",
+    "title": "Friskrivningar och begränsningar"
+  },
+  "intellectualProperty": {
+    "license": "Licensbeviljande: Genom att använda Tjänsten beviljar du oss en global, icke-exklusiv, royaltyfri licens att använda, reproducera, modifiera och visa ditt genererade innehåll enbart i syfte att: (a) tillhandahålla och förbättra Tjänsten, (b) utbilda och förbättra våra AI-modeller (med ditt samtycke), och (c) marknadsförings- och reklamändamål med ditt uttryckliga tillstånd.",
+    "platformContent": "Plattformsägande: Allt innehåll, funktioner, funktionalitet, programvara, design, text, grafik, logotyper och varumärken på Tjänsten ägs av {siteName} eller våra licensgivare och är skyddade av internationella immaterialrättslagar. Du får inte kopiera, modifiera, distribuera eller bakåtkompilera någon del av Tjänsten utan tillstånd.",
+    "title": "Immateriella rättigheter",
+    "userContent": "Användargenererat innehåll: Du behåller äganderätten till bilder och innehåll som du genererar med hjälp av Tjänsten, i enlighet med vår begränsade licens nedan. Du är dock ensamt ansvarig för att säkerställa att din användning inte kränker tredje parts rättigheter eller bryter mot gällande lagar."
+  },
+  "keywords": "användarvillkor, användaravtal, servicevillkor, juridiskt avtal, användningspolicy, immateriella rättigheter, serviceavtal",
+  "lastUpdated": "Senast uppdaterad",
+  "legalJurisdiction": {
+    "disputes": "Tvistlösning: Eventuella tvister som uppstår på grund av eller i samband med dessa Villkor eller Tjänsten ska först försökas lösas genom förhandlingar i god tro. Om förhandlingarna misslyckas ska tvister lösas genom bindande skiljeförfarande eller rättstvister i domstolarna i tillämplig jurisdiktion, i enlighet med gällande lag.",
+    "law": "Tillämplig lag: Dessa villkor ska regleras av och tolkas i enlighet med lagarna i den jurisdiktion där {siteName} är registrerat, utan hänsyn till dess principer om lagval.",
+    "title": "Tillämplig lag och tvistlösning"
+  },
+  "privacy": {
+    "content": "Din integritet är viktig för oss. Vår insamling, användning och skydd av dina personuppgifter regleras av vår integritetspolicy, som är införlivad i dessa villkor genom hänvisning. Vänligen granska vår integritetspolicy för att förstå våra rutiner.",
+    "title": "Integritet och dataskydd"
+  },
+  "serviceChanges": {
+    "dataRetention": "Effekt av uppsägning: Vid uppsägning upphör din rätt att använda Tjänsten omedelbart. Vi kan komma att radera dina kontouppgifter och genererat innehåll, även om viss information kan komma att behållas enligt lag eller för legitima affärsändamål.",
+    "modification": "Ändringar: Vi förbehåller oss rätten att när som helst ändra, stänga av eller avbryta någon aspekt av Tjänsten, med eller utan föregående meddelande. Vi kan också införa begränsningar för vissa funktioner eller begränsa åtkomsten till delar av Tjänsten. Vi är inte ansvariga för några ändringar eller avbrott.",
+    "termination": "Uppsägning från vår sida: Vi kan efter eget gottfinnande stänga av eller säga upp ditt konto och din åtkomst till Tjänsten omedelbart, utan föregående meddelande, om du bryter mot dessa Villkor, ägnar dig åt bedräglig verksamhet eller av någon annan anledning.",
+    "title": "Tjänständringar och uppsägning"
+  },
+  "serviceDescription": {
+    "intro": "{siteName} tillhandahåller AI-drivna kreativa verktyg och tjänster, inklusive:",
+    "items": [
+      "AI-bildgenerering från textmeddelanden med hjälp av avancerade maskininlärningsmodeller",
+      "Bildredigering, förbättring och stilöverföringsfunktioner",
+      "Projektledning, organisation och molnlagring för genererat innehåll",
+      "API åtkomst för utvecklare och företagsintegration",
+      "Ytterligare premiumfunktioner och verktyg som blir tillgängliga då och då"
+    ],
+    "title": "Tjänsteöversikt"
+  },
+  "title": "Användarvillkor | {siteName}",
+  "usageRules": {
+    "intro": "Du samtycker till att inte använda Tjänsten för att generera, ladda upp, dela eller distribuera innehåll som:",
+    "items": [
+      "Bryter mot tillämpliga lagar, förordningar eller tredje parts rättigheter",
+      "Innehåller olagligt, skadligt, hotfullt, kränkande, trakasserande, ärekränkande eller obscent material",
+      "Avbildar eller främjar våld, diskriminering, hat eller intolerans baserat på skyddade egenskaper",
+      "Innehåller sexuellt explicit, pornografiskt eller åldersopassande innehåll",
+      "Inkräktar på immateriella rättigheter, inklusive upphovsrätt, varumärken eller patent",
+      "Utgör spam, nätfiske, skadlig kod eller försök att äventyra plattformens säkerhet",
+      "Utger sig för att vara någon annan person eller enhet eller ger en felaktig bild av din anknytning",
+      "Innebär automatiserad scraping, mining eller obehörig användning som bryter mot våra riktlinjer",
+      "Utnyttjar, skadar eller försöker utnyttja minderåriga på något sätt",
+      "Innehåller falsk, vilseledande eller bedräglig information som presenteras som fakta"
+    ],
+    "title": "Policy för godtagbar användning"
+  },
+  "userAccount": {
+    "registration": "Registrering: För att få tillgång till vissa funktioner måste du skapa ett konto genom att ange korrekt, fullständig och aktuell information. Du försäkrar att all information du lämnar är sanningsenlig och att du kommer att upprätthålla riktigheten i sådan information.",
+    "security": "Kontosäkerhet: Du är ensamt ansvarig för att upprätthålla sekretessen för dina kontouppgifter och för alla aktiviteter som sker under ditt konto. Du samtycker till att omedelbart meddela oss om obehörig åtkomst eller säkerhetsintrång.",
+    "title": "Användarkonton och registrering",
+    "transfer": "Kontoöverföring: Ditt konto är personligt och får inte överföras, säljas eller överlåtas till någon tredje part utan vårt föregående skriftliga medgivande."
+  }
+}

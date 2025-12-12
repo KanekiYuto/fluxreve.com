@@ -1,0 +1,50 @@
+{
+  "actions": {
+    "copyLink": "Kopioi jakolinkki",
+    "createSimilar": "Luo samanlainen kuva",
+    "downloadAll": "Lataa kaikki kuvat",
+    "downloadCard": "Lataa jakokortti",
+    "downloadCurrent": "Lataa nykyinen kuva",
+    "linkCopied": "Kopioitu",
+    "moreActions": "Lisää toimintoja",
+    "share": "Jakaa",
+    "shareToX": "Jaa X:ään"
+  },
+  "details": {
+    "aiModel": "Tekoälymalli",
+    "aspectRatio": "Kuvasuhde",
+    "copyPrompt": "Kopioi kehote",
+    "generationResults": "Tekoälykuvien luomisen tulokset",
+    "imageAlt": "Kuva",
+    "imagePreview": "Tekoälyn luoma HD-kuvan esikatselu",
+    "nextImage": "Seuraava kuva",
+    "parametersInfo": "Sukupolviparametrit ja mallitiedot",
+    "previousImage": "Edellinen kuva",
+    "prompt": "Kehote",
+    "promptCopied": "Kopioitu",
+    "referenceImage": "Syötekuva",
+    "referenceImages": "Syötetyt kuvat",
+    "resolution": "Resoluutio"
+  },
+  "metadata": {
+    "descriptionPrefix": "Korkealaatuinen kuva, joka on luotu {model} tekoälymallilla. Kehote: ",
+    "ogDescriptionPrefix": "{model} Tekoälyn luoma | "
+  },
+  "notFound": {
+    "createButton": "Luo tekoälytaidetta",
+    "description": "Jaettu sisältö on saattanut olla luojan poistama, yksityiseksi asetettu, linkki on saattanut vanhentua tai olet saattanut käyttää väärää osoitetta.",
+    "homeButton": "Takaisin kotisivulle",
+    "title": "Sisältöä ei löytynyt"
+  },
+  "nsfw": {
+    "description": "Tämä sisältö saattaa sisältää aikuisille suunnattua tai arkaluontoista materiaalia. Katsojan harkintavalta on suositeltavaa.",
+    "imageAlt": "Tekoälyn luoma kuva",
+    "reveal": "Olen yli 18-vuotias, katso sisältö",
+    "warning": "Varoitus arkaluontoisesta sisällöstä"
+  },
+  "processing": {
+    "description": "Tekoäly luo nykyistä taideteosta, tämä kestää yleensä muutaman minuutin.",
+    "tip": "Päivitä sivu myöhemmin nähdäksesi tuloksen",
+    "title": "Luodaan..."
+  }
+}

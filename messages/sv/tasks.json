@@ -1,0 +1,85 @@
+{
+  "card": {
+    "cancelDelete": "Avboka",
+    "confirmDelete": "Radera",
+    "confirmDeleteMessage": "Är du säker på att du vill ta bort den här uppgiften? Åtgärden kan inte ångras.",
+    "confirmDeleteTitle": "Ta bort uppgift",
+    "delete": "Radera",
+    "deleting": "Tar bort...",
+    "makePrivate": "Gör privat",
+    "makePublic": "Gör offentlig",
+    "private": "Privat",
+    "public": "Offentlig"
+  },
+  "empty": {
+    "cta": "Börja skapa",
+    "filteredSubtitle": "Försök att ändra filteralternativen",
+    "filteredTitle": "Inga matchande uppgifter",
+    "subtitle": "Börja skapa din första AI-bild",
+    "title": "Inga uppgifter ännu"
+  },
+  "errors": {
+    "fetchFailed": "Misslyckades med att hämta uppgifter",
+    "retry": "Försöka igen"
+  },
+  "filter": {
+    "all": "Alla",
+    "clearAll": "Rensa",
+    "completed": "Avslutad",
+    "failed": "Misslyckades",
+    "model": {
+      "all": "Alla",
+      "flux-2-pro": "FLUX 2 Pro",
+      "nano-banana-pro": "Nano Banana Pro",
+      "z-image": "Z-Image",
+      "z-image-lora": "Z-Image LoRA"
+    },
+    "modelLabel": "Modell",
+    "nsfw": {
+      "nsfw": "NSFW",
+      "safe": "Säker"
+    },
+    "nsfwLabel": "Innehåll",
+    "pending": "I avvaktan på",
+    "privacy": {
+      "private": "Privat",
+      "public": "Offentlig"
+    },
+    "privacyLabel": "Privatliv",
+    "processing": "Bearbetning",
+    "selectPlaceholder": "Välja...",
+    "selectedCount": "{count} vald",
+    "statusLabel": "Status",
+    "taskType": {
+      "all": "Alla",
+      "image-to-image": "Bild till bild",
+      "text-to-image": "Text till bild"
+    },
+    "taskTypeLabel": "Typ",
+    "title": "Filter"
+  },
+  "header": {
+    "subtitle": "Visa och hantera all din generationshistorik",
+    "title": "Historia"
+  },
+  "loginPrompt": {
+    "cta": "Logga in",
+    "description": "Logga in för att se din historik över generering av AI-bilder",
+    "title": "Logga in för att visa historik"
+  },
+  "noPrompt": "Ingen uppmaning",
+  "pagination": {
+    "next": "Nästa",
+    "prev": "Tidigare"
+  },
+  "seo": {
+    "description": "Visa och hantera all din AI-bildgenereringshistorik",
+    "title": "Historia"
+  },
+  "status": {
+    "completed": "Avslutad",
+    "failed": "Misslyckades",
+    "pending": "I avvaktan på",
+    "processing": "Bearbetning"
+  }
+}

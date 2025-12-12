@@ -1,0 +1,36 @@
+{
+  "card": {
+    "createdAt": "Oprettet",
+    "viewDetail": "Se detaljer"
+  },
+  "createSimilar": "Opret lignende",
+  "empty": {
+    "cta": "Begynd at oprette",
+    "subtitle": "Ingen offentlige kunstværker er endnu delt. Vær den første til at dele din kreation!",
+    "title": "Ingen kunstværker endnu"
+  },
+  "errors": {
+    "fetchFailed": "Kunne ikke indlæse indhold. Prøv igen.",
+    "retry": "Prøv igen"
+  },
+  "gallery": {
+    "loadMore": "Indlæs mere",
+    "loading": "Indlæser...",
+    "noMore": "Ingen flere varer"
+  },
+  "header": {
+    "subtitle": "Udforsk fantastiske kreationer fra vores fællesskab og find din inspiration",
+    "title": "Kreativt fællesskab"
+  },
+  "nsfw": {
+    "badge": "Følsomt indhold",
+    "cancel": "Tilbage",
+    "confirm": "Jeg er 18+, Vis indhold",
+    "description": "Dette indhold kan indeholde materiale for voksne eller følsomt materiale. Bekræft venligst, at du er 18+ år, før du ser det.",
+    "warning": "Advarsel om følsomt indhold"
+  },
+  "seo": {
+    "description": "Gennemse smukke AI-genererede billeder skabt af vores fællesskabsmedlemmer, bliv inspireret og opdag fantastiske kunstværker",
+    "title": "Kreativt fællesskab - Udforsk fantastisk AI-kunst"
+  }
+}

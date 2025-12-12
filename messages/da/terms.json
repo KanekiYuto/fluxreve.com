@@ -1,0 +1,76 @@
+{
+  "acceptance": {
+    "content1": "Velkommen til {siteName}. Disse servicevilkår (&quot;Vilkår&quot;, &quot;Aftale&quot;) udgør en juridisk bindende aftale mellem dig (&quot;Bruger&quot;, &quot;du&quot; eller &quot;din&quot;) og {siteName} (&quot;vi&quot;, &quot;os&quot; eller &quot;vores&quot;), der regulerer din adgang til og brug af vores AI-drevne billedgenereringsplatform, herunder vores hjemmeside, mobilapplikationer, API&39;er og relaterede tjenester (samlet kaldet &quot;Tjenesten&quot;).",
+    "content2": "Ved at tilgå, browse eller bruge Tjenesten på nogen måde, bekræfter du, at du har læst, forstået og accepterer at være bundet af disse Vilkår og vores Privatlivspolitik. Hvis du ikke accepterer disse Vilkår, skal du straks ophøre med at bruge Tjenesten.",
+    "title": "Accept af vilkår"
+  },
+  "contact": {
+    "email": "E-mail",
+    "intro": "Hvis du har spørgsmål, bekymringer eller feedback vedrørende disse servicevilkår, bedes du kontakte os på:",
+    "title": "Kontaktoplysninger"
+  },
+  "description": "Læs {siteName}&39;s servicevilkår for brug af vores platform til generering af AI-billeder. Dækker brugerkonti, brugsregler, intellektuel ejendom og servicepolitikker.",
+  "disclaimer": {
+    "asIs": "Som-er-princippet: Tjenesten leveres &quot;som den er&quot; og &quot;som tilgængelig&quot; uden nogen form for garantier, hverken udtrykkelige eller underforståede, herunder, men ikke begrænset til, garantier for salgbarhed, egnethed til et bestemt formål eller ikke-krænkelse af rettigheder. Vi garanterer ikke, at Tjenesten vil være uafbrudt, fejlfri eller sikker.",
+    "liability": "Ansvarsbegrænsning: I det videst mulige omfang, der er tilladt ved lov, er {siteName} og dets tilknyttede selskaber ikke ansvarlige for indirekte, tilfældige, særlige, følgeskader eller pønalerstatninger, herunder tab af fortjeneste, data eller goodwill, der opstår som følge af din brug eller manglende evne til at bruge Tjenesten.",
+    "responsibility": "Brugeransvar: Du anerkender, at AI-genereret indhold kan give uventede eller unøjagtige resultater. Du er eneansvarlig for at gennemgå, verificere og fastslå passendeheden af ethvert indhold genereret via Tjenesten før brug, offentliggørelse eller distribution.",
+    "title": "Ansvarsfraskrivelser og begrænsninger"
+  },
+  "intellectualProperty": {
+    "license": "Licenstilladelse: Ved at bruge Tjenesten giver du os en verdensomspændende, ikke-eksklusiv, royaltyfri licens til at bruge, reproducere, ændre og vise dit genererede indhold udelukkende med det formål at: (a) levere og forbedre Tjenesten, (b) træne og forbedre vores AI-modeller (med dit samtykke) og (c) markedsførings- og salgsfremmende formål med din udtrykkelige tilladelse.",
+    "platformContent": "Platformejerskab: Alt indhold, funktioner, funktionalitet, software, design, tekst, grafik, logoer og varemærker på Tjenesten ejes af {siteName} eller vores licensgivere og er beskyttet af international intellektuel ejendomsret. Du må ikke kopiere, ændre, distribuere eller foretage reverse engineering af nogen del af Tjenesten uden tilladelse.",
+    "title": "Intellektuelle ejendomsrettigheder",
+    "userContent": "Brugergenereret indhold: Du bevarer ejerskabet af billeder og indhold, du genererer ved hjælp af Tjenesten, underlagt vores begrænsede licens nedenfor. Du er dog eneansvarlig for at sikre, at din brug ikke krænker tredjepartsrettigheder eller gældende love."
+  },
+  "keywords": "servicevilkår, brugeraftale, servicevilkår, juridisk aftale, brugspolitik, intellektuel ejendomsret, serviceaftale",
+  "lastUpdated": "Sidst opdateret",
+  "legalJurisdiction": {
+    "disputes": "Tvistbilæggelse: Enhver tvist, der opstår som følge af eller i forbindelse med disse vilkår eller tjenesten, skal først forsøges løst gennem forhandlinger i god tro. Hvis forhandlingerne mislykkes, skal tvister løses gennem bindende voldgift eller retssager ved domstolene i den gældende jurisdiktion, som bestemt af den gældende lov.",
+    "law": "Gældende lov: Disse vilkår er underlagt og skal fortolkes i overensstemmelse med lovgivningen i den jurisdiktion, hvor {siteName} er registreret, uden hensyntagen til dens principper om lovvalgsregler.",
+    "title": "Gældende lov og tvistbilæggelse"
+  },
+  "privacy": {
+    "content": "Dit privatliv er vigtigt for os. Vores indsamling, brug og beskyttelse af dine personlige oplysninger er underlagt vores privatlivspolitik, som er indarbejdet i disse vilkår ved henvisning. Gennemgå venligst vores privatlivspolitik for at forstå vores praksis.",
+    "title": "Privatliv og databeskyttelse"
+  },
+  "serviceChanges": {
+    "dataRetention": "Virkning af opsigelse: Ved opsigelse ophører din ret til at bruge Tjenesten øjeblikkeligt. Vi kan slette dine kontodata og genereret indhold, selvom nogle oplysninger kan opbevares som påkrævet ved lov eller til legitime forretningsformål.",
+    "modification": "Ændringer: Vi forbeholder os retten til at ændre, suspendere eller afbryde ethvert aspekt af Tjenesten når som helst, med eller uden varsel. Vi kan også indføre begrænsninger på visse funktioner eller begrænse adgangen til dele af Tjenesten. Vi er ikke ansvarlige for ændringer eller afbrydelser.",
+    "termination": "Opsigelse fra vores side: Vi kan suspendere eller opsige din konto og adgang til Tjenesten med øjeblikkelig virkning og uden forudgående varsel, hvis du overtræder disse Vilkår, deltager i svigagtig aktivitet eller af enhver anden grund efter vores eget skøn.",
+    "title": "Ændringer og opsigelse af tjenesten"
+  },
+  "serviceDescription": {
+    "intro": "{siteName} leverer AI-drevne kreative værktøjer og tjenester, herunder:",
+    "items": [
+      "AI-billedgenerering fra tekstprompter ved hjælp af avancerede maskinlæringsmodeller",
+      "Billedredigering, forbedring og stiloverførselsfunktioner",
+      "Projektstyring, organisering og cloudlagring af genereret indhold",
+      "API adgang for udviklere og virksomhedsintegration",
+      "Yderligere premium-funktioner og -værktøjer, der stilles til rådighed fra tid til anden"
+    ],
+    "title": "Serviceoversigt"
+  },
+  "title": "Servicevilkår | {siteName}",
+  "usageRules": {
+    "intro": "Du accepterer ikke at bruge Tjenesten til at generere, uploade, dele eller distribuere indhold, der:",
+    "items": [
+      "Overtræder gældende love, regler eller tredjepartsrettigheder",
+      "Indeholder ulovligt, skadeligt, truende, krænkende, chikanerende, ærekrænkende eller obskønt materiale",
+      "Skildrer eller fremmer vold, diskrimination, had eller intolerance baseret på beskyttede karakteristika",
+      "Indeholder seksuelt eksplicit, pornografisk eller aldersupassende indhold",
+      "Krænker immaterielle rettigheder, herunder ophavsrettigheder, varemærker eller patenter",
+      "Udgør spam, phishing, malware eller forsøg på at kompromittere platformsikkerheden",
+      "Udgiver sig for at være en anden person eller enhed eller giver et forkert billede af sin tilknytning",
+      "Involverer automatiseret scraping, mining eller uautoriseret brug, der overtræder vores retningslinjer.",
+      "Udnytter, skader eller forsøger at udnytte mindreårige på nogen måde",
+      "Indeholder falske, vildledende eller bedrageriske oplysninger, der præsenteres som faktuelle"
+    ],
+    "title": "Politik for acceptabel brug"
+  },
+  "userAccount": {
+    "registration": "Registrering: For at få adgang til visse funktioner skal du oprette en konto ved at angive nøjagtige, fuldstændige og aktuelle oplysninger. Du erklærer, at alle oplysninger, du giver, er sandfærdige, og at du vil opretholde nøjagtigheden af disse oplysninger.",
+    "security": "Kontosikkerhed: Du er eneansvarlig for at opretholde fortroligheden af dine kontooplysninger og for alle aktiviteter, der finder sted under din konto. Du accepterer straks at underrette os om enhver uautoriseret adgang eller sikkerhedsbrud.",
+    "title": "Brugerkonti og registrering",
+    "transfer": "Kontooverførsel: Din konto er personlig og må ikke overføres, sælges eller overdrages til tredjepart uden vores forudgående skriftlige samtykke."
+  }
+}

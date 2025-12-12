@@ -1,0 +1,111 @@
+{
+  "childrenPrivacy": {
+    "content": "Vores tjenester er ikke rettet mod personer under 13 år (eller tilsvarende minimumsalder i din jurisdiktion). Vi indsamler ikke bevidst personlige oplysninger fra børn. Hvis vi bliver opmærksomme på, at vi har indsamlet data fra et barn uden behørigt samtykke, vil vi straks slette dem.",
+    "title": "Børns privatliv"
+  },
+  "contact": {
+    "email": "E-mail",
+    "intro": "Hvis du har spørgsmål, bekymringer eller anmodninger vedrørende denne privatlivspolitik eller vores databehandlingspraksis, bedes du kontakte os på:",
+    "title": "Kontakt os"
+  },
+  "cookies": {
+    "intro": "Vi bruger cookies og lignende teknologier til at forbedre din oplevelse:",
+    "items": [
+      "Essentielle cookies: Påkrævet for grundlæggende servicefunktionalitet og godkendelse",
+      "Præferencecookies: Husk dine indstillinger og personlige valg",
+      "Analysecookies: Hjælper os med at forstå brugsmønstre og forbedre vores tjenester",
+      "Marketingcookies: Lever relevant indhold og mål kampagneeffektivitet (med dit samtykke)"
+    ],
+    "note": "Du kan kontrollere cookiepræferencer via dine browserindstillinger. Bemærk, at deaktivering af visse cookies kan begrænse funktionaliteten af vores tjenester.",
+    "title": "Cookies og sporingsteknologier"
+  },
+  "dataCollection": {
+    "automaticInfo": {
+      "items": [
+        "Enhedsdata: enhedstype, operativsystem, browserversion, unikke enhedsidentifikatorer",
+        "Brugsoplysninger: tilgængelige funktioner, genererede billeder, interaktionsmønstre",
+        "Logdata: IP-adresse, adgangstider, viste sider, henvisende URL&39;er",
+        "Cookies og sporingsteknologier til analyse og funktionalitet"
+      ],
+      "title": "Automatisk indsamlede oplysninger"
+    },
+    "intro": "Vi kan indsamle forskellige typer oplysninger for at levere og forbedre vores tjenester:",
+    "providedInfo": {
+      "items": [
+        "Kontooplysninger: e-mailadresse, brugernavn, adgangskode",
+        "Profildata: vist navn, avatar, biografi",
+        "Betalingsoplysninger: faktureringsoplysninger, transaktionshistorik",
+        "Kommunikationsdata: feedback, supportforespørgsler eller andre beskeder, du sender til os"
+      ],
+      "title": "Oplysninger du giver"
+    },
+    "title": "Oplysninger vi indsamler",
+    "userContent": {
+      "description": "Indhold, du opretter ved hjælp af vores tjenester, herunder AI-genererede billeder, tekstprompter, uploadede billeder og projektdata. Vi kan midlertidigt gemme dette indhold for at levere vores tjenester og kan bruge det til at forbedre vores AI-modeller, med forbehold af dit samtykke.",
+      "title": "Brugergenereret indhold"
+    }
+  },
+  "dataSharing": {
+    "intro": "Vi sælger ikke dine personlige oplysninger. Vi må kun dele dine oplysninger under følgende omstændigheder:",
+    "items": [
+      "Med dit udtrykkelige samtykke eller efter din anvisning",
+      "Med betroede tjenesteudbydere, der hjælper med at drive vores platform (cloud-hosting, betalingsbehandling, analyser)",
+      "Med AI-modeludbydere til behandling af dine generationsanmodninger, under strenge databeskyttelsesaftaler",
+      "For at overholde juridiske forpligtelser, retskendelser eller gyldige anmodninger fra myndighederne",
+      "For at beskytte vores rettigheder, ejendom, sikkerhed eller vores brugeres og offentlighedens rettigheder, ejendom, sikkerhed",
+      "I forbindelse med en fusion, et opkøb eller et salg af aktiver, hvor oplysninger kan overføres som et forretningsaktiv"
+    ],
+    "title": "Informationsdeling og -offentliggørelse"
+  },
+  "dataStorage": {
+    "duration": "Opbevaringsperiode: Vi opbevarer kun dine personlige oplysninger, så længe det er nødvendigt for at opfylde de formål, der er beskrevet i denne politik, eller som påkrævet ved lov. Genereret indhold kan opbevares baseret på dine kontoindstillinger og abonnementstype.",
+    "location": "Lagringsplacering: Dine oplysninger gemmes på sikre servere placeret i forskellige regioner globalt for at sikre optimal serviceydelse og pålidelighed. Vi bruger brancheførende cloud-infrastrukturudbydere.",
+    "security": "Sikkerhedsforanstaltninger: Vi implementerer sikkerhedspraksis i henhold til branchestandarder, herunder kryptering (under transit og i hvile), adgangskontrol, regelmæssige sikkerhedsrevisioner og sikre godkendelsesmekanismer. Ingen transmissions- eller lagringsmetode er dog 100 % sikker.",
+    "title": "Datalagring og sikkerhed"
+  },
+  "dataUsage": {
+    "intro": "Vi bruger de indsamlede oplysninger til følgende formål:",
+    "items": [
+      "Levering, drift og vedligeholdelse af vores AI-billedgenereringstjenester",
+      "Behandling af dine transaktioner og administration af din konto",
+      "Forbedring af vores tjenester gennem dataanalyse og identifikation af brugsmønstre",
+      "Træning og forbedring af vores AI-modeller for at levere bedre resultater",
+      "Afsendelse af servicemeddelelser, opdateringer og salgsfremmende kommunikation (med dit samtykke)",
+      "Opdagelse, forebyggelse og håndtering af svindel, sikkerhedsproblemer eller tekniske problemer",
+      "Overholdelse af juridiske forpligtelser og håndhævelse af vores servicevilkår",
+      "Yde kundesupport og besvarelse af dine forespørgsler"
+    ],
+    "title": "Sådan bruger vi dine oplysninger"
+  },
+  "description": "Lær hvordan {siteName} indsamler, bruger og beskytter dine personlige oplysninger. Vores privatlivspolitik dækker dataindsamling, brug, deling og dine rettigheder.",
+  "introduction": {
+    "content1": "{siteName} (&quot;vi&quot;, &quot;os&quot; eller &quot;vores&quot;) er forpligtet til at beskytte dit privatliv og dine personlige oplysninger. Denne privatlivspolitik beskriver vores praksis vedrørende indsamling, opbevaring, brug og deling af dine oplysninger, når du tilgår vores AI-drevne billedgenereringstjenester.",
+    "content2": "Ved at bruge vores tjenester via {siteName} hjemmesiden, mobilapplikationer eller APIs, bekræfter du, at du har læst, forstået og accepterer de praksisser, der er beskrevet i denne privatlivspolitik. Denne politik informerer dig også om dine rettigheder til privatliv og hvordan loven beskytter dig.",
+    "title": "Indledning"
+  },
+  "keywords": "privatlivspolitik, databeskyttelse, personlige oplysninger, brugernes privatliv, dataindsamling, GDPR, privatlivsrettigheder",
+  "lastUpdated": "Sidst opdateret",
+  "policyUpdates": {
+    "content": "Vi kan opdatere denne privatlivspolitik med jævne mellemrum for at afspejle ændringer i vores praksis eller juridiske krav. Vi vil underrette dig om væsentlige ændringer ved at offentliggøre den opdaterede politik på denne side med en revideret &quot;Sidst opdateret&quot;-dato. Ved væsentlige ændringer kan vi også give besked via e-mail eller en tydelig meddelelse på vores platform. Vi opfordrer dig til at gennemgå denne politik regelmæssigt.",
+    "title": "Ændringer i denne privatlivspolitik"
+  },
+  "thirdPartyLinks": {
+    "content": "Vores tjenester kan indeholde links til tredjepartswebsteder, integrationer eller tjenester. Vi er ikke ansvarlige for disse tredjeparters privatlivspraksis eller indhold. Vi opfordrer dig til at gennemgå deres privatlivspolitikker, før du afgiver personlige oplysninger.",
+    "title": "Tredjepartstjenester og links"
+  },
+  "title": "Privatlivspolitik | {siteName}",
+  "userRights": {
+    "intro": "Afhængigt af din placering kan du have følgende rettigheder vedrørende dine personoplysninger:",
+    "items": [
+      "Adgang: Anmod om en kopi af de personlige oplysninger, vi har om dig",
+      "Berigtigelse: Rettelse af unøjagtige eller ufuldstændige oplysninger",
+      "Sletning: Anmod om sletning af dine personoplysninger (&quot;retten til at blive glemt&quot;)",
+      "Begrænsning: Begræns hvordan vi behandler dine oplysninger",
+      "Portabilitet: Modtag dine data i et struktureret, almindeligt anvendt format",
+      "Indsigelse: Indsigelse mod behandling af dine oplysninger til bestemte formål",
+      "Tilbagekald samtykke: Tilbagekald tidligere givet samtykke når som helst",
+      "Framelding: Afmeld abonnement på markedsføringskommunikation"
+    ],
+    "title": "Dine rettigheder til privatliv"
+  }
+}

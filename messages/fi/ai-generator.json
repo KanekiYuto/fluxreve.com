@@ -1,0 +1,214 @@
+{
+  "comingSoon": {
+    "badge": "Tulossa pian",
+    "defaultDescription": "Teemme kovasti töitä tuodaksemme sinulle upeita uusia ominaisuuksia. Pysy kuulolla päivitysten varalta!",
+    "defaultTitle": "Jännittäviä ominaisuuksia tulossa",
+    "feature1Desc": "Huipputeknologiaa",
+    "feature1Title": "Tehokas tekoäly",
+    "feature2Desc": "Älykäs automaatio",
+    "feature2Title": "Älykkäät ominaisuudet",
+    "feature3Desc": "Salamannopeita tuloksia",
+    "feature3Title": "Nopea käsittely",
+    "moreTools": {
+      "description": "Tutustu tehokkaisiin kuvankäsittelytyökaluihin, kuten skaalaukseen, parannukseen, formaatin muuntamiseen ja eräkäsittelyyn",
+      "title": "Lisää kuvatyökaluja"
+    },
+    "progressHint": "Odotetaan lanseerausta pian",
+    "progressLabel": "Kehityksen edistyminen"
+  },
+  "credits": {
+    "quota": "Kiintiö",
+    "refresh": "Päivitä kiintiö"
+  },
+  "error": {
+    "credits": "Tekijät",
+    "current": "Nykyinen",
+    "generationFailed": "Sukupolvi epäonnistui",
+    "imageGenerationFailed": "Kuvan luonti epäonnistui",
+    "insufficientCredits": "Riittämättömät krediitit",
+    "parameterError": "Parametrivirhe",
+    "pleaseRecharge": "Lataa akku ja yritä uudelleen",
+    "promptRequired": "Anna kehote",
+    "queryStatusFailed": "Kyselyn tila epäonnistui",
+    "required": "Pakollinen",
+    "subscribe": "Tilaa",
+    "unableToQueryStatus": "Tehtävän tilan kysely epäonnistui"
+  },
+  "examples": {
+    "clickToUse": "Napsauta käyttääksesi tätä esimerkkiä",
+    "description": "Aloita luominen napsauttamalla alla olevaa esimerkkiä tai täytä vasemmalla oleva lomake mukauttaaksesi sitä",
+    "goToExample": "Siirry esimerkkiin {index}",
+    "noExamples": "Ei esimerkkejä saatavilla",
+    "title": "Pika-aloitus",
+    "useExample": "Käytä tätä esimerkkiä"
+  },
+  "form": {
+    "add": "Lisätä",
+    "addImageUrl": "Lisää kuvan URL-osoite",
+    "addItem": "Lisää kohde",
+    "addLora": "Lisää LoRA",
+    "advancedSettings": "Lisäasetukset",
+    "aspectRatio": "Kuvasuhde",
+    "aspectRatioPlaceholder": "Valitse kuvasuhde",
+    "aspectRatios": {
+      "16:9": "16:9 (Vaakasuunta)",
+      "1:1": "1:1 (neliö)",
+      "21:9": "21:9 (ultralaajakulma)",
+      "3:4": "3:4 (Muotokuva)",
+      "4:3": "4:3 (vakio)",
+      "9:16": "9:16 (Muotokuva)"
+    },
+    "cancel": "Peruuttaa",
+    "clickAddLoraToStart": "Klikkaa yllä olevaa painiketta lisätäksesi LoRA kokoonpanon",
+    "configuration": "Kokoonpano",
+    "imageUrlPlaceholder": "Anna kuvan URL-osoite",
+    "loraConfig": "LoRA Määritys",
+    "loraConfigHint": "Syötä LoRA konfiguraatio JSON-muodossa, esim. mallin nimi, paino ja muut parametrit",
+    "mode": {
+      "imageToImage": "Kuvasta kuvaan",
+      "textToImage": "Teksti kuvaksi"
+    },
+    "noLoraConfigured": "Ei LoRA vielä määritetty",
+    "outputFormat": "Tulostemuoto",
+    "outputFormatPlaceholder": "Valitse tulostusmuoto",
+    "privateMode": "Yksityinen tila",
+    "privateModeDesc": "Tulokset näkyvät vain sinulle",
+    "privateModeSubscriptionRequired": "Tilaa ottaaksesi käyttöön yksityisen tilan",
+    "prompt": "Kehote",
+    "promptPlaceholder": "Kuvaile kuvaa, jonka haluat luoda...",
+    "resolution": "Resoluutio",
+    "resolutionPlaceholder": "Valitse resoluutio",
+    "seed": "Siemen",
+    "seedPlaceholder": "Jätä tyhjäksi satunnaista varten",
+    "selectPlaceholder": "Valitse",
+    "size": "Koko",
+    "sizePlaceholder": "Valitse kuvan koko",
+    "status": {
+      "loading": "Ladataan..."
+    },
+    "steps": "Askeleet",
+    "uploadHint": "Vihje: Voit vetää ja pudottaa tiedoston tai napsauttaa ladataksesi sen.",
+    "uploadImage": "Lataa kuva",
+    "uploading": "Ladataan..."
+  },
+  "generate": {
+    "generateImage": "Luo kuva (kustannus {credits} kiintiö)",
+    "generating": "Luodaan... {progress}%"
+  },
+  "loading": {
+    "creating": "Tekoälyn luominen",
+    "initializing": "Alustaminen",
+    "message": "Luomme sinulle mahtavaa sisältöä, odota hetki..."
+  },
+  "lora": {
+    "addLora": "Lisää LoRA",
+    "cancel": "Peruuttaa",
+    "clickAddLoraToStart": "Aloita konfigurointi napsauttamalla &quot;Lisää LoRA&quot; -painiketta",
+    "clickToSelect": "Valitse napsauttamalla vasemmalla olevaa LoRA-korttia",
+    "configuration": "Kokoonpano",
+    "confirm": "Vahvistaa",
+    "loading": "Ladataan...",
+    "loraConfig": "LoRA Määritys",
+    "loraConfigHint": "Anna kelvollinen JSON-muotoinen määritys",
+    "manage": "Hallitse",
+    "modalSubtitle": "Valitse LoRA -kirjastosta ja mukauta mittakaavaa henkilökohtaisten tyylien luomiseksi",
+    "modalTitle": "Valitse malli LoRA",
+    "noLoraAvailable": "Ei LoRA saatavilla",
+    "noLoraConfigured": "Ei LoRA määritetty",
+    "noLoraHint": "Luo tai tuo ensin LoRA mallia",
+    "noSearchResults": "Ei osumia LoRA",
+    "noSelectedLoras": "Ei valittu LoRA",
+    "scale": "Skaala",
+    "searchPlaceholder": "Hae LoRA nimeä, kuvausta tai haun laukaisevaa sanaa...",
+    "selectLora": "Valitse LoRA",
+    "selectMore": "Hallinta LoRA",
+    "selectedCount": "{count} LoRA valittu",
+    "selectedLoras": "Valittu"
+  },
+  "modelGroups": {
+    "flux": "Flux Sarja",
+    "nano": "Nano-sarja",
+    "seedream": "Seedream Series",
+    "zImage": "Z-Image Sarja"
+  },
+  "models": {
+    "flux2Pro": {
+      "description": "Ammattitason kuvanluontimalli, tukee tekstistä kuvaksi ja kuvasta kuvaksi -muunnoksia korkealaatuisella tulostolla",
+      "tags": {
+        "highQuality": "Korkea laatu",
+        "professional": "Ammattilainen",
+        "versatile": "Monipuolinen"
+      }
+    },
+    "nanoBananaPro": {
+      "description": "Salamannopea generointi, optimoitu korkealaatuiseen luovaan tuotokseen poikkeuksellisella nopeudella",
+      "tags": {
+        "fast": "Nopeasti",
+        "highQuality": "Korkea laatu",
+        "latest": "Uusin"
+      }
+    },
+    "seedream": {
+      "description": "ByteDance Seedream 4.5, erittäin korkealaatuinen kuvanmuodostus suurella resoluutiolla",
+      "tags": {
+        "bytedance": "ByteDance",
+        "creative": "Luova",
+        "ultraHD": "Ultra HD"
+      }
+    },
+    "zImage": {
+      "description": "Fotorealistinen tekoälykuvien luonti tarkalla kaksikielisellä tekstin renderöinnillä alle sekunnin nopeudella",
+      "tags": {
+        "affordable": "Fotorealistinen",
+        "quality": "Tekstin renderöinti",
+        "ultraFast": "Alle sekunnin"
+      }
+    },
+    "zImageLora": {
+      "description": "Z-Image Turbo LoRA versio, jossa on mukautettu LoRA mallituki tyylitellyille luomuksille",
+      "tags": {
+        "customizable": "Mukautettava",
+        "lora": "LoRA Tuki",
+        "stylized": "Tyylitelty"
+      }
+    }
+  },
+  "page": {
+    "description": "Luo upeaa sisältöä tehokkailla tekoälymalleilla",
+    "loading": "Ladataan...",
+    "title": "Tekoälygeneraattori"
+  },
+  "results": {
+    "completedTime": "Valmistumisaika",
+    "downloadAll": "Lataa kaikki ({count})",
+    "downloadCurrent": "Lataa nykyinen",
+    "fileCount": "{count} tiedosto(a)",
+    "generationTime": "Sukupolven aika",
+    "prompt": "Kehote",
+    "seconds": "{seconds}s",
+    "title": "Luodut tulokset"
+  },
+  "seo": {
+    "description": "Luo upeita tekoälyn luomia kuvia tehokkaalla tekoälykuvanluontityökalullamme. Nopea, ammattimainen ja helppokäyttöinen.",
+    "title": "Tekoälygeneraattori"
+  },
+  "tabs": {
+    "imageToImage": "Kuvasta kuvaan",
+    "more": "Lisää",
+    "textToImage": "Teksti kuvaksi"
+  },
+  "tags": {
+    "art-gallery": "Taidegalleria",
+    "currency": "Valuutta",
+    "education": "Koulutus",
+    "film-style": "Elokuvatyyli",
+    "math": "Matematiikka",
+    "minimalist": "Minimalistinen",
+    "moody": "Oikukas",
+    "photorealistic": "Fotorealistinen",
+    "portrait": "Muotokuva",
+    "professional": "Ammattilainen",
+    "retro": "Retro",
+    "text-render": "Tekstin renderöinti"
+  }
+}

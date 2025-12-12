@@ -1,0 +1,153 @@
+{
+  "billing": {
+    "discount": "Spar 20 %",
+    "month": "måned",
+    "monthly": "Månedlig",
+    "save": "Spar ${amount}",
+    "year": "år",
+    "yearly": "Årlig"
+  },
+  "faq": {
+    "badge": "Vanlige spørsmål",
+    "items": [
+      {
+        "answer": "Kreditter brukes til å generere bilder med våre AI-modeller. Hver bildegenerering bruker et visst antall kreditter, avhengig av oppløsningen og modellen som brukes. Gratisbrukere får 30 kreditter daglig, mens abonnenter på Basic-planen får 1500 kreditter månedlig (eller 18 000 årlig), og abonnenter på Pro-planen får 7500 kreditter månedlig (eller 90 000 årlig).",
+        "question": "Hvordan fungerer kreditter?"
+      },
+      {
+        "answer": "Årsplaner tilbyr 20 % rabatt sammenlignet med månedsplaner. For eksempel koster Basic månedlig $15/måned (1500 kreditter), mens Basic årlig koster $144/år (totalt 18 000 kreditter). Du sparer penger og får mer verdi med årlige abonnementer.",
+        "question": "Hva er forskjellen mellom månedlige og årlige planer?"
+      },
+      {
+        "answer": "Ja! Du kan oppgradere abonnementet ditt når som helst, og prisforskjellen vil bli forholdsmessig fordelt. Når du oppgraderer, mottar du hele kreditten for det nye abonnementet umiddelbart. Nedgraderinger trer i kraft ved starten av neste faktureringsperiode.",
+        "question": "Kan jeg oppgradere eller nedgradere planen min?"
+      },
+      {
+        "answer": "For gratisbrukere nullstilles de daglige kredittene hver dag og akkumuleres ikke. For abonnenter utløper kredittene basert på utløpsdatoen. Hver kredittkvote har sin egen utløpsperiode, og ubrukte kreditter utløper automatisk når den perioden er over.",
+        "question": "Hva skjer med ubrukte kreditter?"
+      },
+      {
+        "answer": "For månedlige abonnementer får du 100 kreditter per dollar du bruker. For årsplaner får du 100 kreditter per dollar × 12 måneder. For eksempel: Basis månedlig ($15) = 1500 kreditter, Basis årlig ($144) = 18 000 kreditter.",
+        "question": "Hvordan fungerer beregning av kredittkvote?"
+      },
+      {
+        "answer": "Ja! Å bytte fra månedlig til årlig innenfor samme plannivå (f.eks. Basic månedlig til Basic årlig) regnes som en endring, ikke en oppgradering. Den nye faktureringsperioden trer i kraft i henhold til retningslinjene for planendring.",
+        "question": "Kan jeg bytte mellom månedlig og årlig fakturering?"
+      },
+      {
+        "answer": "Når du oppgraderer, blir du belastet et forholdsmessig beløp for resten av den nåværende faktureringsperioden. Du vil umiddelbart motta hele kreditten for den nye planen din, og eventuelle eksisterende kreditter forblir tilgjengelige frem til utløpsdatoen.",
+        "question": "Hva skjer når jeg oppgraderer midt i en syklus?"
+      },
+      {
+        "answer": "Brukere av gratisabonnementet kan kun bruke genererte bilder til personlige prosjekter. Både Basic- og Pro-abonnementsbrukere får en kommersiell brukslisens, som lar deg bruke bildene til forretningsformål, markedsføringsmateriell og kundeprosjekter.",
+        "question": "Kan jeg bruke de genererte bildene kommersielt?"
+      },
+      {
+        "answer": "Pro-planen tilbyr 5 ganger flere kreditter enn Basic, pluss tilgang til alle avanserte AI-modeller, ultrahøy oppløsning (2048x2048), funksjoner for batchgenerering og prioritert kundesupport. Basic-planen er flott for enkeltpersoner, mens Pro er utviklet for profesjonelle skapere og team.",
+        "question": "Hva er forskjellen mellom Basic- og Pro-abonnementene?"
+      },
+      {
+        "answer": "Vi integrerer med betalingsplattformen Creem som støtter ulike betalingsmetoder. Alle transaksjoner behandles sikkert gjennom betalingsgatewayen deres.",
+        "question": "Hvilke betalingsmåter aksepterer dere?"
+      },
+      {
+        "answer": "Ja, du kan når som helst kansellere abonnementet ditt. Abonnementet ditt vil forbli aktivt til slutten av den nåværende faktureringsperioden, og du kan fortsette å bruke de gjenværende kredittene dine til de utløper.",
+        "question": "Kan jeg når som helst kansellere abonnementet mitt?"
+      },
+      {
+        "answer": "Hver kredittkvote har sin egen utløpsperiode. Den nøyaktige varigheten avhenger av abonnementet ditt og når kredittene ble tildelt. Du kan sjekke utløpsdatoen for kredittene dine i kontodashbordet ditt. Kreditter forbrukes etter først inn, først ut-prinsippet.",
+        "question": "Hvor lenge varer kreditter etter kjøp?"
+      }
+    ],
+    "subtitle": "Finn svar på vanlige spørsmål om våre prisplaner og tjenester",
+    "title": "Ofte stilte spørsmål"
+  },
+  "meta": {
+    "description": "Velg den perfekte planen for dine behov. Fleksible prisalternativer for enkeltpersoner og bedrifter med AI-drevet bildegenerering.",
+    "title": "Prisplaner"
+  },
+  "recommended": "Mest populær",
+  "status": {
+    "configuring": "Konfigurerer...",
+    "current": "Gjeldende plan",
+    "downgrade": "Nedgrader",
+    "loading": "Laster inn...",
+    "processing": "Behandling...",
+    "scheduled": "Planlagt",
+    "upgrade": "Oppgrader"
+  },
+  "subtitle": "Fleksible prisalternativer for å møte behovene til enkeltpersoner og bedrifter",
+  "tiers": [
+    {
+      "cta": "Prøv nå",
+      "description": "{quota} kvotekreditter",
+      "features": [
+        "{quota} studiepoengskvote",
+        "Kan generere opptil {quota}/5 bilder av høy kvalitet",
+        "Alle standard AI-modeller",
+        "Høy oppløsning (1024x1024)",
+        "Eksport uten vannmerke"
+      ],
+      "name": "Rettssak",
+      "unsupportedFeatures": [
+        "Automatisk fornyelse",
+        "Ultrahøy oppløsning",
+        "Batchgenerering",
+        "Prioritert støtte"
+      ]
+    },
+    {
+      "cta": "Abonner nå",
+      "description": "For individuelle brukere og små prosjekter",
+      "features": [
+        "{quota} studiepoengskvote",
+        "Kan generere opptil {quota}/5 bilder av høy kvalitet",
+        "Standard AI-modeller",
+        "Høy oppløsning (1024x1024)",
+        "Prioritetsgenereringskø",
+        "Eksport uten vannmerke",
+        "Send e-post til kundestøtte",
+        "Kommersiell brukslisens"
+      ],
+      "name": "Grunnleggende",
+      "unsupportedFeatures": [
+        "Ultrahøy oppløsning",
+        "Batchgenerering"
+      ]
+    },
+    {
+      "cta": "Abonner nå",
+      "description": "For profesjonelle skapere og teamsamarbeid",
+      "features": [
+        "{quota} studiepoengskvote",
+        "Kan generere opptil {quota}/5 bilder av høy kvalitet",
+        "Alle avanserte AI-modeller",
+        "Ultrahøy oppløsning (2048x2048)",
+        "Kø med høyest prioritet",
+        "Batchgenerering",
+        "Eksport uten vannmerke",
+        "Prioritert kundestøtte",
+        "Kommersiell brukslisens"
+      ],
+      "name": "Proff"
+    },
+    {
+      "cta": "Kom i gang",
+      "description": "Perfekt for personlig prøveperiode og lett bruk",
+      "features": [
+        "{quota} kredittkvote per dag",
+        "Kan generere opptil {quota}/5 bilder per dag",
+        "Grunnleggende AI-modeller",
+        "Standardoppløsning (512x512)"
+      ],
+      "name": "Gratis",
+      "unsupportedFeatures": [
+        "Høy oppløsning",
+        "Prioritert kø",
+        "Eksport uten vannmerke",
+        "Kundestøtte"
+      ]
+    }
+  ],
+  "title": "Velg din plan"
+}

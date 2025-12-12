@@ -1,0 +1,9 @@
+{
+  "unauthorized": {
+    "backToHome": "Tilbage til forsiden",
+    "description": "Beklager, du har ikke tilladelse til at få adgang til administratordashboardet. Kun administratorkonti har adgang til denne side.",
+    "helpDescription": "Hvis du mener, at dette er en fejl, bedes du kontakte systemadministratoren for at anmode om adgang.",
+    "helpTitle": "Brug for hjælp?",
+    "title": "Adgang begrænset"
+  }
+}

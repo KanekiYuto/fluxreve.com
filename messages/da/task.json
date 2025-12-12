@@ -1,0 +1,47 @@
+{
+  "details": {
+    "aiModel": "AI-model",
+    "aspectRatio": "Billedformat",
+    "completedAt": "Færdiggjort kl.",
+    "copyPrompt": "Kopiérprompt",
+    "createdAt": "Oprettet ved",
+    "defaultPrompt": "AI-genereret billede",
+    "duration": "Varighed",
+    "generationResults": "Generationsresultater",
+    "imageAlt": "Billede",
+    "imagePreview": "Forhåndsvisning af billede",
+    "isNsfw": "NSFW Indhold",
+    "isPrivate": "Privat tilstand",
+    "metaDescription": "AI-billede genereret ved hjælp af {model}",
+    "nextImage": "Næste billede",
+    "no": "Ingen",
+    "parametersInfo": "Parameterinfo",
+    "previousImage": "Forrige billede",
+    "prompt": "Hurtig",
+    "promptCopied": "Kopieret",
+    "quotaConsumed": "Brugte kreditter",
+    "referenceImage": "Inputbillede",
+    "referenceImages": "Inputbilleder",
+    "resolution": "Opløsning",
+    "seed": "Frø",
+    "size": "Størrelse",
+    "steps": "Trin",
+    "yes": "Ja"
+  },
+  "notFound": {
+    "backToHome": "Tilbage til forsiden",
+    "description": "Beklager, den opgave, du leder efter, kan ikke findes. Den er muligvis blevet slettet, eller linket er ugyldigt.",
+    "title": "Opgaven blev ikke fundet"
+  },
+  "processing": {
+    "description": "Dit billede genereres, vent venligst et øjeblik...",
+    "failedDescription": "Beklager, billedgenerering mislykkedes. Prøv igen senere, eller kontakt support.",
+    "failedTitle": "Opgave mislykkedes",
+    "tip": "Tager normalt et par sekunder til et par minutter",
+    "title": "Opgavebehandling"
+  },
+  "seo": {
+    "description": "Se detaljer og resultater af din AI-billedgenereringsopgave",
+    "title": "Opgavedetaljer"
+  }
+}

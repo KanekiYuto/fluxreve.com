@@ -1,0 +1,76 @@
+{
+  "acceptance": {
+    "content1": "Tervetuloa {siteName}-sivustolle. Nämä käyttöehdot (&quot;Ehdot&quot;, &quot;Sopimus&quot;) muodostavat oikeudellisesti sitovan sopimuksen sinun (&quot;Käyttäjä&quot;, &quot;sinä&quot; tai &quot;sinun&quot;) ja {siteName} (&quot;me&quot;, &quot;meidän&quot;) välillä. Nämä ehdot koskevat pääsyäsi tekoälyllä toimivaan kuvanluontialustamme, mukaan lukien verkkosivustomme, mobiilisovelluksemme ja niihin liittyvät palvelut (yhdessä &quot;Palvelu&quot;), ja sen käyttöä.",
+    "content2": "Käyttämällä Palvelua millä tahansa tavalla hyväksyt, että olet lukenut, ymmärtänyt ja sitoudut noudattamaan näitä ehtoja ja tietosuojakäytäntöämme. Jos et hyväksy näitä ehtoja, sinun on välittömästi lopetettava Palvelun käyttö.",
+    "title": "Ehtojen hyväksyminen"
+  },
+  "contact": {
+    "email": "Sähköposti",
+    "intro": "Jos sinulla on kysyttävää, huolenaiheita tai palautetta näistä käyttöehdoista, ota meihin yhteyttä osoitteessa:",
+    "title": "Yhteystiedot"
+  },
+  "description": "Lue {siteName}:n käyttöehdot tekoälykuvien luontialustamme käytöstä. Ne käsittelevät käyttäjätilejä, käyttösääntöjä, immateriaalioikeuksia ja palvelukäytäntöjä.",
+  "disclaimer": {
+    "asIs": "Sellaisenaan: Palvelu tarjotaan &quot;sellaisenaan&quot; ja &quot;saatavuuden mukaan&quot; ilman minkäänlaisia takuita, olivatpa ne nimenomaisia tai epäsuoria, mukaan lukien rajoituksetta takuut myyntikelpoisuudesta, soveltuvuudesta tiettyyn tarkoitukseen tai loukkaamattomuudesta. Emme takaa, että Palvelu on keskeytyksetön, virheetön tai turvallinen.",
+    "liability": "Vastuunrajoitus: Lain sallimissa rajoissa {siteName} ja sen tytäryhtiöt eivät ole vastuussa mistään epäsuorista, satunnaisista, erityisistä, seuraamuksellisista tai rankaisevista vahingoista, mukaan lukien voittojen, tietojen tai liikearvon menetys, jotka johtuvat Palvelun käytöstäsi tai kyvyttömyydestäsi käyttää sitä.",
+    "responsibility": "Käyttäjän vastuu: Hyväksyt, että tekoälyn luoma sisältö voi tuottaa odottamattomia tai epätarkkoja tuloksia. Olet yksin vastuussa Palvelun kautta luodun sisällön tarkistamisesta, varmentamisesta ja asianmukaisuuden määrittämisestä ennen sen käyttöä, julkaisemista tai jakelua.",
+    "title": "Vastuuvapauslausekkeet ja rajoitukset"
+  },
+  "intellectualProperty": {
+    "license": "Lisenssin myöntäminen: Käyttämällä Palvelua myönnät meille maailmanlaajuisen, ei-yksinomaisen ja rojaltivapaan lisenssin käyttää, kopioida, muokata ja näyttää luomaasi sisältöä ainoastaan seuraaviin tarkoituksiin: (a) Palvelun tarjoaminen ja parantaminen, (b) tekoälymalliemme kouluttaminen ja tehostaminen (suostumuksellasi) ja (c) markkinointi- ja myynninedistämistarkoitukset nimenomaisella luvallasi.",
+    "platformContent": "Alustan omistajuus: Kaikki Palvelun sisältö, ominaisuudet, toiminnallisuus, ohjelmistot, mallit, teksti, grafiikka, logot ja tavaramerkit ovat {siteName}:n tai lisenssinhaltijoiden omaisuutta, ja niitä suojaavat kansainväliset immateriaalioikeuslait. Et saa kopioida, muokata, jakaa tai takaisinmallintaa mitään Palvelun osaa ilman lupaa.",
+    "title": "Immateriaalioikeudet",
+    "userContent": "Käyttäjän luoma sisältö: Säilytät omistusoikeuden Palvelun avulla luomiisi kuviin ja sisältöön alla olevan rajoitetun lisenssin mukaisesti. Olet kuitenkin yksin vastuussa siitä, että käyttösi ei loukkaa kolmansien osapuolten oikeuksia tai riko sovellettavia lakeja."
+  },
+  "keywords": "käyttöehdot, käyttäjäsopimus, palveluehdot, oikeudellinen sopimus, käyttöehdot, immateriaalioikeudet, palvelusopimus",
+  "lastUpdated": "Viimeksi päivitetty",
+  "legalJurisdiction": {
+    "disputes": "Riitojenratkaisu: Näistä Ehdoista tai Palvelusta johtuvat tai niihin liittyvät riidat pyritään ensisijaisesti ratkaisemaan vilpittömässä mielessä neuvottelemalla. Jos neuvottelut epäonnistuvat, riidat ratkaistaan sitovalla välimiesmenettelyllä tai oikeudenkäynnillä sovellettavan lain mukaisessa tuomioistuimessa.",
+    "law": "Sovellettava laki: Näihin ehtoihin sovelletaan ja niitä tulkitaan sen lainkäyttöalueen lakien mukaisesti, jossa {siteName} on rekisteröity, riippumatta sen lainvalintasäännöistä.",
+    "title": "Sovellettava laki ja riitojenratkaisu"
+  },
+  "privacy": {
+    "content": "Tietosuojasi on meille tärkeää. Henkilötietojesi keräämistä, käyttöä ja suojaamista säätelee tietosuojakäytäntömme, joka on sisällytetty näihin ehtoihin viittauksella. Tutustu tietosuojakäytäntöömme ymmärtääksesi käytäntömme.",
+    "title": "Tietosuoja ja tietosuoja"
+  },
+  "serviceChanges": {
+    "dataRetention": "Irtisanomisen vaikutus: Irtisanomisen yhteydessä oikeutesi käyttää Palvelua lakkaa välittömästi. Saatamme poistaa tilitietosi ja luomasi sisällön, vaikka joitakin tietoja voidaan säilyttää lain edellyttämällä tavalla tai oikeutettuihin liiketoimintatarkoituksiin.",
+    "modification": "Muutokset: Pidätämme oikeuden muokata, keskeyttää tai lopettaa mitä tahansa Palvelun osaa milloin tahansa, ilmoituksella tai ilman ilmoitusta. Voimme myös asettaa rajoituksia tietyille ominaisuuksille tai rajoittaa pääsyä Palvelun osiin. Emme ole vastuussa mistään muutoksista tai lopettamisista.",
+    "termination": "Irtisanominen meidän toimestamme: Voimme oman harkintamme mukaan keskeyttää tai irtisanoa tilisi ja pääsysi Palveluun välittömästi ilman ennakkoilmoitusta, jos rikot näitä Ehtoja, harjoitat petollista toimintaa tai mistä tahansa muusta syystä.",
+    "title": "Palvelun muutokset ja irtisanominen"
+  },
+  "serviceDescription": {
+    "intro": "{siteName} tarjoaa tekoälypohjaisia luovia työkaluja ja palveluita, mukaan lukien:",
+    "items": [
+      "Tekoälykuvien luominen tekstikehotteista edistyneiden koneoppimismallien avulla",
+      "Kuvanmuokkaus-, parannus- ja tyylinsiirto-ominaisuudet",
+      "Projektinhallinta, organisointi ja pilvitallennus luodulle sisällölle",
+      "API käyttöoikeus kehittäjille ja yritysintegraatioille",
+      "Lisäominaisuuksia ja -työkaluja, joita tulee saataville aika ajoin"
+    ],
+    "title": "Palvelun yleiskatsaus"
+  },
+  "title": "Käyttöehdot | {siteName}",
+  "usageRules": {
+    "intro": "Sitoudut olemaan käyttämättä Palvelua sellaisen sisällön luomiseen, lataamiseen, jakamiseen tai levittämiseen, joka:",
+    "items": [
+      "Rikkoo sovellettavia lakeja, määräyksiä tai kolmansien osapuolten oikeuksia",
+      "Sisältää laitonta, haitallista, uhkaavaa, loukkaavaa, häiritsevää, herjaavaa tai säädytöntä materiaalia",
+      "Kuvaa tai edistää väkivaltaa, syrjintää, vihaa tai suvaitsemattomuutta suojattujen ominaisuuksien perusteella",
+      "Sisältää seksuaalisesti vihjailevaa, pornografista tai ikätasolle sopimatonta sisältöä",
+      "Loukkaa immateriaalioikeuksia, mukaan lukien tekijänoikeuksia, tavaramerkkejä tai patentteja",
+      "Täyttää roskapostin, tietojenkalastelu-, haittaohjelma- tai alustan tietoturvan vaarantamisyritykset",
+      "Esiinny toisena henkilönä tai yhteisönä tai vääristelee yhteyksiäsi",
+      "Sisältää automaattista tiedonkeruua, louhintaa tai luvatonta API käyttöä, joka rikkoo ohjeitamme",
+      "Hyväksikäyttää, vahingoittaa tai yrittää hyväksikäyttää alaikäisiä millään tavalla",
+      "Sisältää väärää, harhaanjohtavaa tai petollista tietoa, joka esitetään tosiasioina"
+    ],
+    "title": "Hyväksyttävän käytön käytäntö"
+  },
+  "userAccount": {
+    "registration": "Rekisteröityminen: Jotta voit käyttää tiettyjä ominaisuuksia, sinun on luotava tili antamalla tarkkoja, täydellisiä ja ajantasaisia tietoja. Vakuutat, että kaikki antamasi tiedot ovat totuudenmukaisia ja että pidät kyseiset tiedot oikein.",
+    "security": "Tilin turvallisuus: Olet yksin vastuussa tilisi tunnistetietojen luottamuksellisuuden säilyttämisestä ja kaikesta tililläsi tapahtuvasta toiminnasta. Sitoudut ilmoittamaan meille välittömästi luvattomasta käytöstä tai tietoturvaloukkauksesta.",
+    "title": "Käyttäjätilit ja rekisteröityminen",
+    "transfer": "Tilin siirto: Tilisi on henkilökohtainen, eikä sitä saa siirtää, myydä tai luovuttaa kolmannelle osapuolelle ilman etukäteen antamaamme kirjallista suostumusta."
+  }
+}

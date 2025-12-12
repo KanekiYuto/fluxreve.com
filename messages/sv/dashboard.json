@@ -1,0 +1,63 @@
+{
+  "guestSubtitle": "Vänligen logga in för att komma åt din instrumentpanel och börja skapa",
+  "guestWelcome": "Välkommen till instrumentpanelen",
+  "loginPrompt": {
+    "cta": "Logga in nu",
+    "description": "Skapa ett konto eller logga in för att låsa upp alla funktioner, spåra din användning och hantera dina projekt.",
+    "features": {
+      "analytics": "Analys och statistik",
+      "analyticsDesc": "Visa detaljerad statistik och prestationsmått",
+      "projects": "Projektledning",
+      "projectsDesc": "Organisera och hantera alla dina kreativa projekt",
+      "quota": "Användningskvot",
+      "quotaDesc": "Spåra din generationskvot och användningshistorik"
+    },
+    "title": "Logga in för att komma åt din instrumentpanel"
+  },
+  "marketing": {
+    "description": "Uppgradera ditt abonnemang för att få fler krediter, ultrahög upplösning, batchgenerering och prioriterad support.",
+    "learnMoreButton": "Läs mer",
+    "title": "Lås upp fler kraftfulla funktioner",
+    "upgradeButton": "Uppgradera nu"
+  },
+  "quickActions": {
+    "newProject": "Nytt projekt",
+    "templates": "Mallar",
+    "title": "Snabbstart",
+    "tutorial": "Handledning",
+    "uploadImage": "Ladda upp bild"
+  },
+  "recent": {
+    "empty": {
+      "cta": "Generera nu",
+      "subtitle": "Börja generera din första bild",
+      "title": "Inget innehåll genererat denna vecka"
+    },
+    "loading": "Belastning...",
+    "subtitle": "Visar endast innehåll från den senaste veckan",
+    "title": "Senaste generationerna",
+    "viewAll": "Visa alla"
+  },
+  "seo": {
+    "description": "Hantera dina AI-bildgenereringsprojekt, spåra användningen och få tillgång till alla funktioner",
+    "title": "Instrumentpanel"
+  },
+  "stats": {
+    "images": "Uppladdade bildresurser",
+    "projects": "Totalt antal projekt",
+    "quota": {
+      "expires": "löper ut",
+      "remaining": "Återstående generationskvot",
+      "unlimited": "Obegränsad generationskvot"
+    },
+    "templates": "Skapade mallar"
+  },
+  "subtitle": "Börja skapa ditt fantastiska innehåll",
+  "userType": {
+    "basic": "Grundläggande",
+    "free": "Gratis",
+    "pro": "Pro",
+    "trial": "Rättegång"
+  },
+  "welcome": "Välkommen tillbaka, {name}"
+}

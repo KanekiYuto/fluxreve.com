@@ -1,0 +1,53 @@
+{
+  "empty": {
+    "active": "Ingen aktiv kvote tilgængelig",
+    "activeDesc": "Du har i øjeblikket ingen tilgængelig kvote. Køb venligst kvoten for at fortsætte med at bruge tjenesten.",
+    "expired": "Ingen udløbet kvote",
+    "expiredDesc": "Du har ingen udløbne kvoteposter"
+  },
+  "loginRequired": {
+    "description": "Log ind for at se dit kvoteforbrug og din historik",
+    "title": "Log ind for at se kvote"
+  },
+  "quotaTypes": {
+    "daily_free": "Daglig gratis kvote",
+    "monthly_basic": "Månedlig basis",
+    "monthly_pro": "Månedlig Pro",
+    "quota_pack": "Kvotepakke",
+    "subscription_change_compensation": "Kompensation for ændring af abonnement",
+    "trial": "Forsøg",
+    "yearly_basic": "Årlig basis",
+    "yearly_pro": "Årlig Pro"
+  },
+  "seo": {
+    "description": "Administrer og se din tilgængelige kvoteforbrug og historik",
+    "title": "Min kvote"
+  },
+  "stats": {
+    "consumed": "Forbrugt",
+    "remaining": "Resterende"
+  },
+  "status": {
+    "active": "Aktiv",
+    "depleted": "Udtømt"
+  },
+  "subtitle": "Administrer og se din tilgængelige kvote",
+  "summary": {
+    "credits": "Kreditter",
+    "title": "Total tilgængelig"
+  },
+  "table": {
+    "amount": "Beløb",
+    "available": "Tilgængelig",
+    "consumed": "Forbrugt",
+    "expiresAt": "Udløber kl.",
+    "issuedAt": "Udstedt ved",
+    "noExpiry": "Aldrig",
+    "type": "Type"
+  },
+  "tabs": {
+    "active": "Aktiv kvote",
+    "expired": "Udløbet"
+  },
+  "title": "Min kvote"
+}

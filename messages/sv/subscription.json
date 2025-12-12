@@ -1,0 +1,43 @@
+{
+  "card": {
+    "amount": "Prenumerationsbelopp",
+    "canceledDate": "Avbrutet datum",
+    "customerId": "Kund",
+    "expiryDate": "Utgångsdatum",
+    "manageButton": "Hantera prenumeration",
+    "nextBillingDate": "Nästa faktureringsdatum",
+    "nextRenewal": "Nästa förnyelse växlar till",
+    "planTypes": {
+      "monthly_basic": "Grundläggande - Månadsvis",
+      "monthly_pro": "Pro - Månadsvis",
+      "trial": "Rättegång",
+      "yearly_basic": "Grundläggande - Årlig",
+      "yearly_pro": "Pro - Årlig"
+    },
+    "platform": "Betalningsplattform",
+    "startDate": "Startdatum",
+    "status": {
+      "active": "Aktiv",
+      "canceled": "Avbruten",
+      "expired": "Utgången",
+      "paused": "Pausad",
+      "pending": "Väntande betalning"
+    },
+    "subscriptionId": "Prenumeration"
+  },
+  "empty": {
+    "action": "Visa prisplaner",
+    "description": "Du har för närvarande inga aktiva prenumerationer",
+    "title": "Inga prenumerationer"
+  },
+  "login": {
+    "description": "Logga in för att visa och hantera din prenumerationsinformation",
+    "title": "Logga in för att se prenumerationer"
+  },
+  "seo": {
+    "description": "Visa och hantera dina prenumerationsplaner och faktureringsinformation",
+    "title": "Prenumerationshantering"
+  },
+  "subtitle": "Visa och hantera din prenumerationsinformation",
+  "title": "Prenumerationshantering"
+}

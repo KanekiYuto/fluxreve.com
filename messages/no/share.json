@@ -1,0 +1,50 @@
+{
+  "actions": {
+    "copyLink": "Kopier delingslenke",
+    "createSimilar": "Lag lignende bilde",
+    "downloadAll": "Last ned alle bilder",
+    "downloadCard": "Last ned delingskortet",
+    "downloadCurrent": "Last ned gjeldende bilde",
+    "linkCopied": "Kopiert",
+    "moreActions": "Flere handlinger",
+    "share": "Dele",
+    "shareToX": "Del til X"
+  },
+  "details": {
+    "aiModel": "AI-modell",
+    "aspectRatio": "Sideforhold",
+    "copyPrompt": "Kopieringsspørsmål",
+    "generationResults": "Resultater av AI-bildegenerering",
+    "imageAlt": "Bilde",
+    "imagePreview": "AI-generert HD-bildeforhåndsvisning",
+    "nextImage": "Neste bilde",
+    "parametersInfo": "Generasjonsparametere og modellinformasjon",
+    "previousImage": "Forrige bilde",
+    "prompt": "Spørsmål",
+    "promptCopied": "Kopiert",
+    "referenceImage": "Inndatabilde",
+    "referenceImages": "Inndatabilder",
+    "resolution": "Oppløsning"
+  },
+  "metadata": {
+    "descriptionPrefix": "Høykvalitetsbilde generert med {model} AI-modell. Spørsmål: ",
+    "ogDescriptionPrefix": "{model} AI-generert | "
+  },
+  "notFound": {
+    "createButton": "Lag AI-kunstverk",
+    "description": "Dette delte innholdet kan ha blitt slettet av skaperen, satt til privat, lenken kan ha utløpt, eller du kan ha tilgang til feil adresse",
+    "homeButton": "Tilbake til hjemmet",
+    "title": "Innhold ikke funnet"
+  },
+  "nsfw": {
+    "description": "Dette innholdet kan inneholde materiale for voksne eller sensitivt materiale. Seerne anbefales å utvise skjønn.",
+    "imageAlt": "AI-generert bilde",
+    "reveal": "Jeg er 18+, Se innhold",
+    "warning": "Advarsel om sensitivt innhold"
+  },
+  "processing": {
+    "description": "AI lager det nåværende kunstverket, dette tar vanligvis noen få minutter",
+    "tip": "Vennligst oppdater siden senere for å se resultatet",
+    "title": "Genererer..."
+  }
+}

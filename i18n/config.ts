@@ -1,7 +1,7 @@
 /**
  * 语言配置 - 需要与 config/locales.js 保持同步
  */
-export const locales = ['en', 'zh-CN', 'zh-TW', 'ja', 'ko', 'ar', 'fr', 'de', 'it', 'es'] as const;
+export const locales = ['en', 'zh-CN', 'zh-TW', 'ja', 'ko', 'ar', 'fr', 'de', 'it', 'es', 'sv', 'no', 'da', 'fi'] as const;
 export type Locale = (typeof locales)[number];
 
 export const defaultLocale: Locale = 'en';
@@ -17,6 +17,10 @@ export const localeNames: Record<Locale, string> = {
   de: 'Deutsch',
   it: 'Italiano',
   es: 'Español',
+  sv: 'Svenska',
+  no: 'Norsk',
+  da: 'Dansk',
+  fi: 'Suomi',
 };
 
 // RTL 语言列表

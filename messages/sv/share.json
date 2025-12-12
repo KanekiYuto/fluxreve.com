@@ -1,0 +1,50 @@
+{
+  "actions": {
+    "copyLink": "Kopiera delningslänk",
+    "createSimilar": "Skapa liknande bild",
+    "downloadAll": "Ladda ner alla bilder",
+    "downloadCard": "Ladda ner delningskort",
+    "downloadCurrent": "Ladda ner aktuell bild",
+    "linkCopied": "Kopierad",
+    "moreActions": "Fler åtgärder",
+    "share": "Dela",
+    "shareToX": "Dela till X"
+  },
+  "details": {
+    "aiModel": "AI-modell",
+    "aspectRatio": "Bildförhållande",
+    "copyPrompt": "Kopieringsuppmaning",
+    "generationResults": "Resultat av AI-bildgenerering",
+    "imageAlt": "Bild",
+    "imagePreview": "AI-genererad HD-bildförhandsvisning",
+    "nextImage": "Nästa bild",
+    "parametersInfo": "Genereringsparametrar och modellinformation",
+    "previousImage": "Föregående bild",
+    "prompt": "Prompt",
+    "promptCopied": "Kopierad",
+    "referenceImage": "Inmatningsbild",
+    "referenceImages": "Inmatningsbilder",
+    "resolution": "Upplösning"
+  },
+  "metadata": {
+    "descriptionPrefix": "Högkvalitativ bild genererad med AI-modellen {model}. Uppmaning: ",
+    "ogDescriptionPrefix": "{model} AI-genererad | "
+  },
+  "notFound": {
+    "createButton": "Skapa AI-konstverk",
+    "description": "Det här delade innehållet kan ha raderats av skaparen, ställts in som privat, länken kan ha upphört att gälla eller så kan du ha angett fel adress",
+    "homeButton": "Tillbaka till startsidan",
+    "title": "Innehåll hittades inte"
+  },
+  "nsfw": {
+    "description": "Detta innehåll kan innehålla material för vuxna eller känsligt material. Tittare rekommenderas att iaktta diskretion.",
+    "imageAlt": "AI-genererad bild",
+    "reveal": "Jag är 18+, Visa innehåll",
+    "warning": "Varning om känsligt innehåll"
+  },
+  "processing": {
+    "description": "AI skapar den aktuella bilden, detta tar vanligtvis några minuter",
+    "tip": "Uppdatera sidan senare för att se resultatet",
+    "title": "Alstrande..."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "about": {
+    "releaseDate": "Julkaisupäivä",
+    "title": "Noin",
+    "version": "Versio"
+  },
+  "actions": {
+    "change": "Muuttaa",
+    "copy": "Kopioida",
+    "edit": "Muokata",
+    "enable": "Ota käyttöön",
+    "upgrade": "Päivityssuunnitelma"
+  },
+  "loginRequired": {
+    "cta": "Kirjaudu sisään nyt",
+    "description": "Kirjaudu sisään käyttääksesi asetuksiasi ja hallitaksesi tiliäsi.",
+    "title": "Kirjaudu sisään"
+  },
+  "sections": {
+    "connections": {
+      "connected": "Yhdistetty",
+      "githubConnected": "Voit kirjautua tilillesi GitHub-tililläsi.",
+      "githubNotConnected": "Yhdistä GitHub tilisi ottaaksesi tämän kirjautumistavan käyttöön.",
+      "googleConnected": "Voit kirjautua tilillesi Google-tililläsi.",
+      "googleNotConnected": "Yhdistä Google tilisi ottaaksesi tämän kirjautumistavan käyttöön.",
+      "title": "Yhdistetyt tilit"
+    },
+    "preferences": {
+      "notifications": "Sähköposti-ilmoitukset",
+      "notificationsDesc": "Vastaanota päivityksiä ja ilmoituksia sähköpostitse",
+      "title": "Asetukset"
+    },
+    "profile": {
+      "email": "Sähköpostiosoite",
+      "name": "Nimi",
+      "notSet": "Ei asetettu",
+      "plan": "Nykyinen suunnitelma",
+      "title": "Profiilitiedot",
+      "verified": "Vahvistettu"
+    }
+  },
+  "seo": {
+    "description": "Hallinnoi tilisi asetuksia ja mieltymyksiä",
+    "title": "Asetukset"
+  },
+  "subtitle": "Hallinnoi tilisi asetuksia ja mieltymyksiä",
+  "title": "Asetukset"
+}

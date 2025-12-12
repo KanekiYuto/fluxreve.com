@@ -5,44 +5,44 @@
     "version": "版本"
   },
   "actions": {
-    "change": "变化",
+    "change": "改变",
     "copy": "复制",
     "edit": "编辑",
-    "enable": "启用",
+    "enable": "使能够",
     "upgrade": "升级计划"
   },
   "loginRequired": {
     "cta": "立即登录",
-    "description": "请登录以访问您的设置并管理您的账户。",
+    "description": "请登录以访问您的设置并管理您的帐户。",
     "title": "需要登录"
   },
   "sections": {
     "connections": {
       "connected": "已连接",
-      "githubConnected": "您可以使用您的 GitHub 账户登录您的账户。",
-      "githubNotConnected": "连接您的 GitHub 账户以启用此登录方法。",
-      "googleConnected": "您可以使用您的 Google 账户登录您的账户。",
-      "googleNotConnected": "连接您的 Google 账户以启用此登录方法。",
-      "title": "联网账户"
+      "githubConnected": "您可以使用您的 GitHub 帐户登录您的帐户。",
+      "githubNotConnected": "请连接您的 GitHub 帐户以启用此登录方式。",
+      "googleConnected": "您可以使用您的 Google 帐户登录您的帐户。",
+      "googleNotConnected": "请连接您的 Google 帐户以启用此登录方式。",
+      "title": "关联账户"
     },
     "preferences": {
       "notifications": "电子邮件通知",
       "notificationsDesc": "通过电子邮件接收更新和通知",
-      "title": "首选项"
+      "title": "偏好"
     },
     "profile": {
-      "email": "电子邮件地址",
-      "name": "名称",
+      "email": "电子邮件",
+      "name": "姓名",
       "notSet": "未设置",
       "plan": "当前计划",
-      "title": "简介信息",
+      "title": "个人资料",
       "verified": "已验证"
     }
   },
   "seo": {
-    "description": "管理账户设置和偏好",
+    "description": "管理您的帐户设置和偏好",
     "title": "设置"
   },
-  "subtitle": "管理账户设置和偏好",
+  "subtitle": "管理您的帐户设置和偏好",
   "title": "设置"
 }

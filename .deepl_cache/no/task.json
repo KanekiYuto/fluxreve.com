@@ -1,0 +1,84 @@
+{
+  "entries": {
+    "AI image generated using {model}": {
+      "translation": "AI-bilde generert ved hjelp av {model}",
+      "timestamp": 1765582139
+    },
+    "Completed At": {
+      "translation": "Fullført kl.",
+      "timestamp": 1765582139
+    },
+    "Created At": {
+      "translation": "Opprettet kl.",
+      "timestamp": 1765582139
+    },
+    "Credits Used": {
+      "translation": "Brukte kreditter",
+      "timestamp": 1765582139
+    },
+    "Duration": {
+      "translation": "Varighet",
+      "timestamp": 1765582139
+    },
+    "Generation Results": {
+      "translation": "Generasjonsresultater",
+      "timestamp": 1765582139
+    },
+    "Image Preview": {
+      "translation": "Forhåndsvisning av bilde",
+      "timestamp": 1765582139
+    },
+    "NSFW Content": {
+      "translation": "NSFW Innhold",
+      "timestamp": 1765582139
+    },
+    "No": {
+      "translation": "Ingen",
+      "timestamp": 1765582139
+    },
+    "Parameters Info": {
+      "translation": "Parameterinformasjon",
+      "timestamp": 1765582139
+    },
+    "Sorry, image generation failed. Please try again later or contact support.": {
+      "translation": "Beklager, bildegenereringen mislyktes. Prøv på nytt senere, eller kontakt kundestøtte.",
+      "timestamp": 1765582139
+    },
+    "Sorry, the task you are looking for cannot be found. It may have been deleted or the link is invalid.": {
+      "translation": "Beklager, oppgaven du leter etter finnes ikke. Den kan ha blitt slettet, eller lenken er ugyldig.",
+      "timestamp": 1765582139
+    },
+    "Task Details": {
+      "translation": "Oppgavedetaljer",
+      "timestamp": 1765582139
+    },
+    "Task Failed": {
+      "translation": "Oppgaven mislyktes",
+      "timestamp": 1765582139
+    },
+    "Task Not Found": {
+      "translation": "Oppgaven ble ikke funnet",
+      "timestamp": 1765582139
+    },
+    "Task Processing": {
+      "translation": "Oppgavebehandling",
+      "timestamp": 1765582139
+    },
+    "Usually takes a few seconds to a few minutes": {
+      "translation": "Tar vanligvis noen få sekunder til noen få minutter",
+      "timestamp": 1765582139
+    },
+    "View your AI image generation task details and results": {
+      "translation": "Se detaljer og resultater for genereringsoppgaver for AI-bilder",
+      "timestamp": 1765582139
+    },
+    "Yes": {
+      "translation": "Ja",
+      "timestamp": 1765582139
+    },
+    "Your image is being generated, please wait a moment...": {
+      "translation": "Bildet ditt genereres, vennligst vent litt ...",
+      "timestamp": 1765582139
+    }
+  }
+}

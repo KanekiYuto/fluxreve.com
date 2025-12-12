@@ -1,0 +1,53 @@
+{
+  "empty": {
+    "active": "Ei aktiivista kiintiötä saatavilla",
+    "activeDesc": "Sinulla ei ole tällä hetkellä käytettävissä olevaa kiintiötä. Osta kiintiö jatkaaksesi palvelun käyttöä.",
+    "expired": "Ei vanhentunutta kiintiötä",
+    "expiredDesc": "Sinulla ei ole vanhentuneita kiintiötietueita"
+  },
+  "loginRequired": {
+    "description": "Kirjaudu sisään nähdäksesi kiintiösi käytön ja historian",
+    "title": "Kirjaudu sisään nähdäksesi kiintiön"
+  },
+  "quotaTypes": {
+    "daily_free": "Päivittäinen ilmainen kiintiö",
+    "monthly_basic": "Kuukausittainen perusmaksu",
+    "monthly_pro": "Kuukausittainen ammattilainen",
+    "quota_pack": "Kiintiöpaketti",
+    "subscription_change_compensation": "Tilauksen muutoskorvaus",
+    "trial": "Oikeudenkäynti",
+    "yearly_basic": "Vuosittainen perusmaksu",
+    "yearly_pro": "Vuosittainen ammattilainen"
+  },
+  "seo": {
+    "description": "Hallitse ja tarkastele käytettävissä olevan kiintiön käyttöä ja historiaa",
+    "title": "Kiintiöni"
+  },
+  "stats": {
+    "consumed": "Kulutettu",
+    "remaining": "Jäljellä"
+  },
+  "status": {
+    "active": "Aktiivinen",
+    "depleted": "Köyhdyttynyt"
+  },
+  "subtitle": "Hallitse ja tarkastele käytettävissä olevaa kiintiötäsi",
+  "summary": {
+    "credits": "Tekijät",
+    "title": "Yhteensä käytettävissä"
+  },
+  "table": {
+    "amount": "Määrä",
+    "available": "Saatavilla",
+    "consumed": "Kulutettu",
+    "expiresAt": "Vanhenee klo",
+    "issuedAt": "Myönnetty",
+    "noExpiry": "Ei koskaan",
+    "type": "Tyyppi"
+  },
+  "tabs": {
+    "active": "Aktiivinen kiintiö",
+    "expired": "Vanhentunut"
+  },
+  "title": "Kiintiöni"
+}

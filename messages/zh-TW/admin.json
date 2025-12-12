@@ -1,8 +1,8 @@
 {
   "unauthorized": {
     "backToHome": "返回首页",
-    "description": "抱歉，您没有权限访问管理员仪表板。只有管理员账户才能访问此页面。",
-    "helpDescription": "如果您认为这是一个错误，请联系系统管理员申请访问。",
+    "description": "抱歉，您没有权限访问管理员控制面板。只有管理员账户才能访问此页面。",
+    "helpDescription": "如果您认为这是一个错误，请联系系统管理员申请访问权限。",
     "helpTitle": "需要帮助吗？",
     "title": "访问受限"
   }

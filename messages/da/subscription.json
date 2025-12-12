@@ -1,0 +1,43 @@
+{
+  "card": {
+    "amount": "Abonnementsbeløb",
+    "canceledDate": "Annulleret dato",
+    "customerId": "Kunde",
+    "expiryDate": "Udløbsdato",
+    "manageButton": "Administrer abonnement",
+    "nextBillingDate": "Næste faktureringsdato",
+    "nextRenewal": "Næste fornyelse skifter til",
+    "planTypes": {
+      "monthly_basic": "Basis - Månedlig",
+      "monthly_pro": "Pro - Månedlig",
+      "trial": "Forsøg",
+      "yearly_basic": "Basis - Årlig",
+      "yearly_pro": "Pro - Årlig"
+    },
+    "platform": "Betalingsplatform",
+    "startDate": "Startdato",
+    "status": {
+      "active": "Aktiv",
+      "canceled": "Annulleret",
+      "expired": "Udløbet",
+      "paused": "Pausesat",
+      "pending": "Afventer betaling"
+    },
+    "subscriptionId": "Abonnement"
+  },
+  "empty": {
+    "action": "Se prisplaner",
+    "description": "Du har i øjeblikket ingen aktive abonnementer",
+    "title": "Ingen abonnementer"
+  },
+  "login": {
+    "description": "Log ind for at se og administrere dine abonnementsoplysninger",
+    "title": "Log ind for at se abonnementer"
+  },
+  "seo": {
+    "description": "Se og administrer dine abonnementer og faktureringsoplysninger",
+    "title": "Abonnementsadministration"
+  },
+  "subtitle": "Se og administrer dine abonnementsoplysninger",
+  "title": "Abonnementsadministration"
+}

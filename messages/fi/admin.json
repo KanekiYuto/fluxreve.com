@@ -1,0 +1,9 @@
+{
+  "unauthorized": {
+    "backToHome": "Takaisin kotisivulle",
+    "description": "Sinulla ei valitettavasti ole oikeutta käyttää järjestelmänvalvojan hallintapaneelia. Vain järjestelmänvalvojan tilejä käyttävät käyttäjät voivat käyttää tätä sivua.",
+    "helpDescription": "Jos uskot tämän olevan virhe, ota yhteyttä järjestelmänvalvojaan ja pyydä käyttöoikeutta.",
+    "helpTitle": "Tarvitsetko apua?",
+    "title": "Pääsy rajoitettu"
+  }
+}

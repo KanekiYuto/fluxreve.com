@@ -1,0 +1,36 @@
+{
+  "card": {
+    "createdAt": "Skapad",
+    "viewDetail": "Visa detaljer"
+  },
+  "createSimilar": "Skapa liknande",
+  "empty": {
+    "cta": "Börja skapa",
+    "subtitle": "Inga offentliga konstverk delade än. Bli först med att dela din skapelse!",
+    "title": "Inga konstverk ännu"
+  },
+  "errors": {
+    "fetchFailed": "Misslyckades med att ladda innehållet, försök igen",
+    "retry": "Försöka igen"
+  },
+  "gallery": {
+    "loadMore": "Ladda mer",
+    "loading": "Belastning...",
+    "noMore": "Inga fler föremål"
+  },
+  "header": {
+    "subtitle": "Utforska fantastiska skapelser från vår community och upptäck din inspiration",
+    "title": "Kreativ gemenskap"
+  },
+  "nsfw": {
+    "badge": "Känsligt innehåll",
+    "cancel": "Tillbaka",
+    "confirm": "Jag är 18+, Visa innehåll",
+    "description": "Detta innehåll kan innehålla material för vuxna eller känsligt material. Vänligen bekräfta att du är 18 år eller äldre innan du tittar.",
+    "warning": "Varning om känsligt innehåll"
+  },
+  "seo": {
+    "description": "Bläddra bland vackra AI-genererade bilder skapade av våra communitymedlemmar, bli inspirerad och upptäck fantastiska konstverk",
+    "title": "Kreativ gemenskap - Utforska fantastisk AI-konst"
+  }
+}

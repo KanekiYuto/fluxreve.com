@@ -1,0 +1,152 @@
+{
+  "entries": {
+    "Analytics \u0026 Stats": {
+      "translation": "Analytiikka ja tilastot",
+      "timestamp": 1765582217
+    },
+    "Basic": {
+      "translation": "Perus",
+      "timestamp": 1765582217
+    },
+    "Create an account or sign in to unlock all features, track your usage, and manage your projects.": {
+      "translation": "Luo tili tai kirjaudu sisään saadaksesi käyttöösi kaikki ominaisuudet, seurataksesi käyttöäsi ja hallitaksesi projektejasi.",
+      "timestamp": 1765582217
+    },
+    "Created Templates": {
+      "translation": "Luodut mallit",
+      "timestamp": 1765582217
+    },
+    "Free": {
+      "translation": "Ilmainen",
+      "timestamp": 1765582217
+    },
+    "Generate Now": {
+      "translation": "Luo nyt",
+      "timestamp": 1765582217
+    },
+    "Learn More": {
+      "translation": "Lue lisää",
+      "timestamp": 1765582217
+    },
+    "Manage your AI image generation projects, track usage, and access all features": {
+      "translation": "Hallitse tekoälykuvien luontiprojektejasi, seuraa käyttöä ja käytä kaikkia ominaisuuksia",
+      "timestamp": 1765582217
+    },
+    "New Project": {
+      "translation": "Uusi projekti",
+      "timestamp": 1765582217
+    },
+    "No content generated this week": {
+      "translation": "Ei sisältöä tällä viikolla",
+      "timestamp": 1765582217
+    },
+    "Organize and manage all your creative projects": {
+      "translation": "Järjestä ja hallinnoi kaikkia luovia projektejasi",
+      "timestamp": 1765582217
+    },
+    "Please sign in to access your dashboard and start creating": {
+      "translation": "Kirjaudu sisään päästäksesi hallintapaneeliisi ja aloittaaksesi luomisen",
+      "timestamp": 1765582217
+    },
+    "Pro": {
+      "translation": "Ammattilainen",
+      "timestamp": 1765582217
+    },
+    "Project Management": {
+      "translation": "Projektinhallinta",
+      "timestamp": 1765582217
+    },
+    "Recent Generations": {
+      "translation": "Viimeaikaiset sukupolvet",
+      "timestamp": 1765582217
+    },
+    "Remaining Generation Quota": {
+      "translation": "Jäljellä oleva tuotantokiintiö",
+      "timestamp": 1765582217
+    },
+    "Showing content from the past week only": {
+      "translation": "Näytetään vain viime viikon sisältö",
+      "timestamp": 1765582217
+    },
+    "Sign In Now": {
+      "translation": "Kirjaudu sisään nyt",
+      "timestamp": 1765582217
+    },
+    "Sign In to Access Your Dashboard": {
+      "translation": "Kirjaudu sisään käyttääksesi hallintapaneeliasi",
+      "timestamp": 1765582217
+    },
+    "Start creating your amazing content": {
+      "translation": "Aloita upean sisällön luominen",
+      "timestamp": 1765582217
+    },
+    "Start generating your first image": {
+      "translation": "Aloita ensimmäisen kuvasi luominen",
+      "timestamp": 1765582217
+    },
+    "Templates": {
+      "translation": "Mallit",
+      "timestamp": 1765582217
+    },
+    "Total Projects": {
+      "translation": "Projektien kokonaismäärä",
+      "timestamp": 1765582217
+    },
+    "Track your generation quota and usage history": {
+      "translation": "Seuraa tuotantokiintiötäsi ja käyttöhistoriaasi",
+      "timestamp": 1765582217
+    },
+    "Trial": {
+      "translation": "Oikeudenkäynti",
+      "timestamp": 1765582217
+    },
+    "Tutorial": {
+      "translation": "Opastus",
+      "timestamp": 1765582217
+    },
+    "Unlimited Generation Quota": {
+      "translation": "Rajoittamaton sukupolvikiintiö",
+      "timestamp": 1765582217
+    },
+    "Unlock More Powerful Features": {
+      "translation": "Avaa tehokkaampia ominaisuuksia",
+      "timestamp": 1765582217
+    },
+    "Upgrade Now": {
+      "translation": "Päivitä nyt",
+      "timestamp": 1765582217
+    },
+    "Upgrade your plan to get more credits, ultra-high resolution, batch generation, and priority support.": {
+      "translation": "Päivitä sopimuksesi saadaksesi enemmän krediittejä, erittäin korkean resoluution, erägeneroinnin ja priorisoidun tuen.",
+      "timestamp": 1765582217
+    },
+    "Uploaded Image Assets": {
+      "translation": "Ladatut kuvaresurssit",
+      "timestamp": 1765582217
+    },
+    "Usage Quota": {
+      "translation": "Käyttökiintiö",
+      "timestamp": 1765582217
+    },
+    "View All": {
+      "translation": "Näytä kaikki",
+      "timestamp": 1765582217
+    },
+    "View detailed statistics and performance metrics": {
+      "translation": "Tarkastele yksityiskohtaisia tilastoja ja suorituskykymittareita",
+      "timestamp": 1765582217
+    },
+    "Welcome back, {name}": {
+      "translation": "Tervetuloa takaisin, {name}",
+      "timestamp": 1765582217
+    },
+    "Welcome to Dashboard": {
+      "translation": "Tervetuloa kojelautaan",
+      "timestamp": 1765582217
+    },
+    "expires": {
+      "translation": "vanhenee",
+      "timestamp": 1765582217
+    }
+  }
+}

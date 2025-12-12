@@ -5,17 +5,17 @@
     "confirmDeleteMessage": "您确定要删除此任务吗？此操作无法撤销。",
     "confirmDeleteTitle": "删除任务",
     "delete": "删除",
-    "deleting": "删除...",
-    "makePrivate": "使私人",
+    "deleting": "正在删除……",
+    "makePrivate": "设为私密",
     "makePublic": "公开",
-    "private": "私人",
-    "public": "公众"
+    "private": "私人的",
+    "public": "民众"
   },
   "empty": {
     "cta": "开始创建",
-    "filteredSubtitle": "尝试更改过滤器选项",
-    "filteredTitle": "无匹配任务",
-    "subtitle": "开始创建第一张人工智能图像",
+    "filteredSubtitle": "尝试更改筛选选项",
+    "filteredTitle": "没有匹配的任务",
+    "subtitle": "开始创建你的第一个AI图像",
     "title": "暂无任务"
   },
   "errors": {
@@ -24,9 +24,9 @@
   },
   "filter": {
     "all": "全部",
-    "clearAll": "清晰",
-    "completed": "已完成",
-    "failed": "失败",
+    "clearAll": "清除",
+    "completed": "完全的",
+    "failed": "失败的",
     "model": {
       "all": "全部",
       "flux-2-pro": "FLUX 2 Pro",
@@ -37,49 +37,49 @@
     "modelLabel": "模型",
     "nsfw": {
       "nsfw": "NSFW",
-      "safe": "安全"
+      "safe": "安全的"
     },
     "nsfwLabel": "内容",
-    "pending": "待定",
+    "pending": "待办的",
     "privacy": {
-      "private": "私人",
-      "public": "公众"
+      "private": "私人的",
+      "public": "民众"
     },
-    "privacyLabel": "隐私权",
+    "privacyLabel": "隐私",
     "processing": "加工",
     "selectPlaceholder": "选择...",
-    "selectedCount": "{count} selected",
-    "statusLabel": "现状",
+    "selectedCount": "{count} 已选择",
+    "statusLabel": "地位",
     "taskType": {
       "all": "全部",
       "image-to-image": "图像到图像",
-      "text-to-image": "文本到图像"
+      "text-to-image": "文字转图像"
     },
     "taskTypeLabel": "类型",
     "title": "过滤器"
   },
   "header": {
-    "subtitle": "查看和管理所有生成历史",
+    "subtitle": "查看和管理您的所有世代历史记录",
     "title": "历史"
   },
   "loginPrompt": {
-    "cta": "登录",
-    "description": "登录以查看所有人工智能图像生成历史记录",
-    "title": "登录查看历史"
+    "cta": "登入",
+    "description": "登录以查看您的所有 AI 图像生成历史记录",
+    "title": "登录查看历史记录"
   },
-  "noPrompt": "在提示符下",
+  "noPrompt": "没有提示",
   "pagination": {
-    "next": "下一页",
-    "prev": "上一页"
+    "next": "下一个",
+    "prev": "以前的"
   },
   "seo": {
-    "description": "查看和管理所有人工智能图像生成历史记录",
+    "description": "查看和管理您的所有 AI 图像生成历史记录",
     "title": "历史"
   },
   "status": {
-    "completed": "已完成",
-    "failed": "失败",
-    "pending": "待定",
+    "completed": "完全的",
+    "failed": "失败的",
+    "pending": "待办的",
     "processing": "加工"
   }
 }

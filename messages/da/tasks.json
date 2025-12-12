@@ -1,0 +1,85 @@
+{
+  "card": {
+    "cancelDelete": "Ophæve",
+    "confirmDelete": "Slet",
+    "confirmDeleteMessage": "Er du sikker på, at du vil slette denne opgave? Denne handling kan ikke fortrydes.",
+    "confirmDeleteTitle": "Slet opgave",
+    "delete": "Slet",
+    "deleting": "Sletter...",
+    "makePrivate": "Gør privat",
+    "makePublic": "Offentliggør",
+    "private": "Privat",
+    "public": "Offentlig"
+  },
+  "empty": {
+    "cta": "Begynd at oprette",
+    "filteredSubtitle": "Prøv at ændre filterindstillingerne",
+    "filteredTitle": "Ingen matchende opgaver",
+    "subtitle": "Begynd at oprette dit første AI-billede",
+    "title": "Ingen opgaver endnu"
+  },
+  "errors": {
+    "fetchFailed": "Opgaver kunne ikke hentes",
+    "retry": "Prøv igen"
+  },
+  "filter": {
+    "all": "Alle",
+    "clearAll": "Klar",
+    "completed": "Færdiggjort",
+    "failed": "Mislykkedes",
+    "model": {
+      "all": "Alle",
+      "flux-2-pro": "FLUX 2 Pro",
+      "nano-banana-pro": "Nano Banana Pro",
+      "z-image": "Z-Image",
+      "z-image-lora": "Z-Image LoRA"
+    },
+    "modelLabel": "Model",
+    "nsfw": {
+      "nsfw": "NSFW",
+      "safe": "Sikker"
+    },
+    "nsfwLabel": "Tilfreds",
+    "pending": "Indtil",
+    "privacy": {
+      "private": "Privat",
+      "public": "Offentlig"
+    },
+    "privacyLabel": "Privatliv",
+    "processing": "Forarbejdning",
+    "selectPlaceholder": "Vælge...",
+    "selectedCount": "{count} valgt",
+    "statusLabel": "Status",
+    "taskType": {
+      "all": "Alle",
+      "image-to-image": "Billede til billede",
+      "text-to-image": "Tekst til billede"
+    },
+    "taskTypeLabel": "Type",
+    "title": "Filtre"
+  },
+  "header": {
+    "subtitle": "Se og administrer al din generationshistorik",
+    "title": "Historie"
+  },
+  "loginPrompt": {
+    "cta": "Log ind",
+    "description": "Log ind for at se din historik for generering af AI-billeder",
+    "title": "Log ind for at se historik"
+  },
+  "noPrompt": "Ingen prompt",
+  "pagination": {
+    "next": "Næste",
+    "prev": "Tidligere"
+  },
+  "seo": {
+    "description": "Se og administrer al din AI-billedgenereringshistorik",
+    "title": "Historie"
+  },
+  "status": {
+    "completed": "Færdiggjort",
+    "failed": "Mislykkedes",
+    "pending": "Indtil",
+    "processing": "Forarbejdning"
+  }
+}

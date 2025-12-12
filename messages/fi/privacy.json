@@ -1,0 +1,111 @@
+{
+  "childrenPrivacy": {
+    "content": "Palveluitamme ei ole suunnattu alle 13-vuotiaille (tai vastaavalle vähimmäisikärajalle lainkäyttöalueellasi). Emme tietoisesti kerää lasten henkilötietoja. Jos saamme tietää, että olemme keränneet lapsen tietoja ilman asianmukaista suostumusta, ryhdymme toimiin niiden poistamiseksi viipymättä.",
+    "title": "Lasten yksityisyys"
+  },
+  "contact": {
+    "email": "Sähköposti",
+    "intro": "Jos sinulla on kysyttävää, huolenaiheita tai pyyntöjä tästä tietosuojakäytännöstä tai tietojenkäsittelykäytännöistämme, ota meihin yhteyttä osoitteessa:",
+    "title": "Ota yhteyttä"
+  },
+  "cookies": {
+    "intro": "Käytämme evästeitä ja vastaavia tekniikoita parantaaksemme käyttökokemustasi:",
+    "items": [
+      "Välttämättömät evästeet: Vaaditaan palvelun perustoiminnoille ja todennukselle",
+      "Mieltymysevästeet: Muistavat asetuksesi ja mukautusvalinnat",
+      "Analytiikkaevästeet: Auttavat meitä ymmärtämään käyttömalleja ja parantamaan palveluitamme",
+      "Markkinointievästeet: Toimitamme relevanttia sisältöä ja mittaamme kampanjoiden tehokkuutta (suostumuksellasi)"
+    ],
+    "note": "Voit hallita evästeasetuksiasi selaimesi asetuksista. Huomaa, että tiettyjen evästeiden poistaminen käytöstä voi rajoittaa palvelujemme toimivuutta.",
+    "title": "Evästeet ja seurantatekniikat"
+  },
+  "dataCollection": {
+    "automaticInfo": {
+      "items": [
+        "Laitetiedot: laitteen tyyppi, käyttöjärjestelmä, selainversio, yksilölliset laitetunnisteet",
+        "Käyttötiedot: käytetyt ominaisuudet, luodut kuvat, vuorovaikutusmallit",
+        "Lokitiedot: IP-osoite, käyttöajat, katsotut sivut, viittaavat URL-osoitteet",
+        "Evästeet ja seurantatekniikat analytiikkaa ja toiminnallisuutta varten"
+      ],
+      "title": "Automaattisesti kerätyt tiedot"
+    },
+    "intro": "Saatamme kerätä erityyppisiä tietoja palvelujemme tarjoamiseksi ja parantamiseksi:",
+    "providedInfo": {
+      "items": [
+        "Tilitiedot: sähköpostiosoite, käyttäjätunnus, salasana",
+        "Profiilitiedot: näyttönimi, avatar, bio",
+        "Maksutiedot: laskutustiedot, tapahtumahistoria",
+        "Viestintätiedot: palaute, tukikyselyt tai muut meille lähettämäsi viestit"
+      ],
+      "title": "Antamasi tiedot"
+    },
+    "title": "Keräämämme tiedot",
+    "userContent": {
+      "description": "Palveluidemme avulla luomasi sisältö, mukaan lukien tekoälyn luomat kuvat, tekstikehotteet, ladatut kuvat ja projektitiedot. Voimme tallentaa tätä sisältöä tilapäisesti palveluidemme tarjoamiseksi ja käyttää sitä tekoälymalliemme parantamiseen suostumuksellasi.",
+      "title": "Käyttäjien luoma sisältö"
+    }
+  },
+  "dataSharing": {
+    "intro": "Emme myy henkilötietojasi. Voimme jakaa tietojasi vain seuraavissa tilanteissa:",
+    "items": [
+      "Nimenomaisella suostumuksellasi tai sinun ohjeistasi",
+      "Luotettavien palveluntarjoajien kanssa, jotka auttavat alustamme toiminnassa (pilvipalvelu, maksujen käsittely, analytiikka)",
+      "Tekoälymallien tarjoajien kanssa sukupolvipyyntöjesi käsittelyyn tiukkojen tietosuojasopimusten mukaisesti",
+      "Lakisääteisten velvoitteiden, tuomioistuimen määräysten tai pätevien viranomaisten pyyntöjen noudattamiseksi",
+      "Suojellaksemme oikeuksiamme, omaisuuttamme, turvallisuuttamme tai käyttäjiemme ja yleisön oikeuksia",
+      "Fuusion, yrityskaupan tai omaisuuden myynnin yhteydessä, jossa tietoja voidaan siirtää liiketoimintaomaisuutena"
+    ],
+    "title": "Tietojen jakaminen ja luovuttaminen"
+  },
+  "dataStorage": {
+    "duration": "Säilytysaika: Säilytämme henkilötietojasi vain niin kauan kuin on tarpeen tässä käytännössä määriteltyjen tarkoitusten täyttämiseksi tai lain edellyttämän ajan. Luotua sisältöä voidaan säilyttää tilisi asetuksista ja tilaustyypistä riippuen.",
+    "location": "Tallennuspaikka: Tietosi tallennetaan suojatuille palvelimille eri puolilla maailmaa palvelun optimaalisen suorituskyvyn ja luotettavuuden varmistamiseksi. Käytämme alan johtavia pilvi-infrastruktuurin tarjoajia.",
+    "security": "Turvatoimet: Käytämme alan standardin mukaisia turvallisuuskäytäntöjä, kuten salausta (sekä siirron aikana että tallennettuna), käyttöoikeuksien hallintaa, säännöllisiä turvallisuustarkastuksia ja turvallisia todennusmekanismeja. Mikään siirto- tai tallennusmenetelmä ei kuitenkaan ole 100 % turvallinen.",
+    "title": "Tietojen tallennus ja turvallisuus"
+  },
+  "dataUsage": {
+    "intro": "Käytämme kerättyjä tietoja seuraaviin tarkoituksiin:",
+    "items": [
+      "Tekoälykuvien luontipalveluidemme tarjoaminen, käyttö ja ylläpito",
+      "Maksutapahtumiesi käsittely ja tilisi hallinta",
+      "Palveluidemme parantaminen data-analyysin ja käyttömallien tunnistamisen avulla",
+      "Tekoälymalliemme kouluttaminen ja parantaminen parempien tulosten saavuttamiseksi",
+      "Palveluilmoitusten, päivitysten ja mainosviestien lähettäminen (suostumuksellasi)",
+      "Petosten, tietoturvaongelmien tai teknisten ongelmien havaitseminen, estäminen ja ratkaiseminen",
+      "Lakisääteisten velvoitteiden noudattaminen ja palveluehtojemme täytäntöönpano",
+      "Asiakastuen tarjoaminen ja tiedusteluihisi vastaaminen"
+    ],
+    "title": "Kuinka käytämme tietojasi"
+  },
+  "description": "Lue, miten {siteName} kerää, käyttää ja suojaa henkilötietojasi. Tietosuojakäytäntömme kattaa tietojen keräämisen, käytön, jakamisen ja oikeutesi.",
+  "introduction": {
+    "content1": "{siteName} (&quot;me&quot;, &quot;meitä&quot; tai &quot;meidän&quot;) on sitoutunut suojaamaan yksityisyyttäsi ja henkilötietojasi. Tässä tietosuojakäytännössä esitetään käytäntömme tietojesi keräämisessä, tallentamisessa, käytössä ja jakamisessa, kun käytät tekoälypohjaisia kuvanluontipalveluitamme.",
+    "content2": "Käyttämällä palveluitamme {siteName} verkkosivuston, mobiilisovellusten tai APIs kautta hyväksyt, että olet lukenut, ymmärtänyt ja hyväksyt tässä tietosuojakäytännössä kuvatut käytännöt. Tämä käytäntö kertoo sinulle myös yksityisyyteen liittyvistä oikeuksistasi ja siitä, miten laki suojaa sinua.",
+    "title": "Johdanto"
+  },
+  "keywords": "tietosuojakäytäntö, tietosuoja, henkilötiedot, käyttäjän yksityisyys, tiedonkeruu, GDPR, yksityisyydensuojaoikeudet",
+  "lastUpdated": "Viimeksi päivitetty",
+  "policyUpdates": {
+    "content": "Saatamme päivittää tätä tietosuojakäytäntöä ajoittain vastaamaan käytäntöjemme tai lakisääteisten vaatimusten muutoksia. Ilmoitamme sinulle olennaisista muutoksista julkaisemalla päivitetyn käytännön tällä sivulla tarkistetulla &quot;Viimeksi päivitetty&quot; -päivämäärällä. Merkittävistä muutoksista voimme myös ilmoittaa niistä sähköpostitse tai näkyvästi alustallamme. Kehotamme sinua tarkistamaan tämän käytännön säännöllisesti.",
+    "title": "Muutokset tähän tietosuojakäytäntöön"
+  },
+  "thirdPartyLinks": {
+    "content": "Palvelumme saattavat sisältää linkkejä kolmansien osapuolten verkkosivustoille, integraatioihin tai palveluihin. Emme ole vastuussa näiden kolmansien osapuolten tietosuojakäytännöistä tai sisällöstä. Kehotamme sinua tutustumaan heidän tietosuojakäytäntöihinsä ennen henkilötietojen antamista.",
+    "title": "Kolmannen osapuolen palvelut ja linkit"
+  },
+  "title": "Tietosuojakäytäntö | {siteName}",
+  "userRights": {
+    "intro": "Sijainnistasi riippuen sinulla voi olla seuraavat oikeudet henkilötietoihisi liittyen:",
+    "items": [
+      "Pääsy tietoihin: Pyydä kopio hallussamme olevista sinua koskevista henkilötiedoista",
+      "Korjaus: Korjaa virheelliset tai puutteelliset tiedot",
+      "Poistaminen: Pyytää henkilötietojesi poistamista (&quot;oikeus tulla unohdetuksi&quot;)",
+      "Rajoitus: Rajoita tapaa, jolla käsittelemme tietojasi",
+      "Siirrettävyys: Saat tietosi jäsennellyssä, yleisesti käytetyssä muodossa",
+      "Vastustaminen: Vastustaa tietojesi käsittelyä tiettyihin tarkoituksiin",
+      "Peruuta suostumus: Voit peruuttaa aiemmin antamasi suostumuksen milloin tahansa",
+      "Kieltäydy: Peruuta markkinointiviestien tilaus"
+    ],
+    "title": "Tietosuojaoikeutesi"
+  }
+}

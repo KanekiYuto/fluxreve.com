@@ -1,0 +1,53 @@
+{
+  "empty": {
+    "active": "Ingen aktiv kvot tillgänglig",
+    "activeDesc": "Du har för närvarande ingen tillgänglig kvot. Vänligen köp en kvot för att fortsätta använda tjänsten.",
+    "expired": "Ingen utgången kvot",
+    "expiredDesc": "Du har inga utgångna kvotposter"
+  },
+  "loginRequired": {
+    "description": "Logga in för att se din kvotanvändning och historik",
+    "title": "Logga in för att se kvoten"
+  },
+  "quotaTypes": {
+    "daily_free": "Daglig gratis kvot",
+    "monthly_basic": "Månadsbas",
+    "monthly_pro": "Månadsproffs",
+    "quota_pack": "Kvotpaket",
+    "subscription_change_compensation": "Ersättning för byte av prenumeration",
+    "trial": "Rättegång",
+    "yearly_basic": "Årlig grund",
+    "yearly_pro": "Årlig Pro"
+  },
+  "seo": {
+    "description": "Hantera och visa din tillgängliga kvotanvändning och historik",
+    "title": "Min kvot"
+  },
+  "stats": {
+    "consumed": "Förbrukad",
+    "remaining": "Återstående"
+  },
+  "status": {
+    "active": "Aktiv",
+    "depleted": "Utarmad"
+  },
+  "subtitle": "Hantera och visa din tillgängliga kvot",
+  "summary": {
+    "credits": "Krediter",
+    "title": "Totalt tillgängligt"
+  },
+  "table": {
+    "amount": "Belopp",
+    "available": "Tillgänglig",
+    "consumed": "Förbrukad",
+    "expiresAt": "Utgår vid",
+    "issuedAt": "Utfärdad vid",
+    "noExpiry": "Aldrig",
+    "type": "Typ"
+  },
+  "tabs": {
+    "active": "Aktiv kvot",
+    "expired": "Utgången"
+  },
+  "title": "Min kvot"
+}

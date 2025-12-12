@@ -14,13 +14,6 @@ import (
 	"time"
 )
 
-// DeepL API 响应结构
-type DeepLResponse struct {
-	Translations []struct {
-		Text string `json:"text"`
-	} `json:"translations"`
-}
-
 // 缓存条目结构（包含时间戳）
 type CacheEntry struct {
 	Translation string    `json:"translation"`
@@ -112,8 +105,80 @@ func loadProperNounsConfig(configPath string) error {
 	return nil
 }
 
-// 批量调用 DeepL API 翻译文本
-func translateWithDeepLBatch(apiKey string, texts []string, targetLang string, fileCache map[string]CacheEntry) (map[string]string, error) {
+// 调用 Google Cloud Translation API 翻译单批文本（最多 128 个）
+func translateSingleBatch(apiKey string, batchTexts []string, targetLang string) ([]string, error) {
+	// Google Cloud Translation API 端点
+	url := "https://translation.googleapis.com/language/translate/v2"
+	requestURL := fmt.Sprintf("%s?key=%s", url, apiKey)
+
+	// 构建请求体
+	type GoogleTranslateRequest struct {
+		Q      []string `json:"q"`
+		Target string   `json:"target"`
+	}
+
+	payload := GoogleTranslateRequest{
+		Q:      batchTexts,
+		Target: mapLanguageCode(targetLang),
+	}
+
+	jsonData, _ := json.Marshal(payload)
+
+	req, _ := http.NewRequest("POST", requestURL, bytes.NewBuffer(jsonData))
+	req.Header.Set("Content-Type", "application/json")
+	req.Header.Set("User-Agent", "FluxReve-Translator/1.0")
+
+	// 发送请求
+	client := &http.Client{Timeout: 30 * time.Second}
+	resp, err := client.Do(req)
+	if err != nil {
+		return nil, fmt.Errorf("网络错误: %v", err)
+	}
+	defer resp.Body.Close()
+
+	body, _ := ioutil.ReadAll(resp.Body)
+
+	// 检查响应状态码
+	if resp.StatusCode == 401 {
+		return nil, fmt.Errorf("API 验证失败 (401): 检查 API 密钥是否正确")
+	}
+	if resp.StatusCode == 429 {
+		return nil, fmt.Errorf("触发速率限制 (429)")
+	}
+	if resp.StatusCode != 200 {
+		return nil, fmt.Errorf("API 错误 (%d): %s", resp.StatusCode, string(body))
+	}
+
+	// 解析 Google API 响应
+	type GoogleTranslationData struct {
+		TranslatedText string `json:"translatedText"`
+	}
+	type GoogleTranslateResponse struct {
+		Data struct {
+			Translations []GoogleTranslationData `json:"translations"`
+		} `json:"data"`
+	}
+
+	var googleResult GoogleTranslateResponse
+	if err := json.Unmarshal(body, &googleResult); err != nil {
+		return nil, fmt.Errorf("响应解析失败: %v", err)
+	}
+
+	if len(googleResult.Data.Translations) == 0 {
+		return nil, fmt.Errorf("没有返回翻译结果")
+	}
+
+	// 转换为字符串数组
+	translations := make([]string, len(googleResult.Data.Translations))
+	for i, t := range googleResult.Data.Translations {
+		translations[i] = t.TranslatedText
+	}
+
+	return translations, nil
+}
+
+// 批量调用 Google Cloud Translation API 翻译文本
+func translateWithGoogleBatch(apiKey string, texts []string, targetLang string, fileCache map[string]CacheEntry) (map[string]string, error) {
 	// 分离需要翻译和已缓存的文本
 	toTranslate := []string{}
 	toTranslateOriginals := []string{} // 保存原始文本（包含占位符）
@@ -164,64 +229,48 @@ func translateWithDeepLBatch(apiKey string, texts []string, targetLang string, f
 		return results, nil
 	}
 
-	// 速率限制
-	elapsed := time.Since(lastRequestTime).Seconds()
-	if elapsed < 0.5 {
-		time.Sleep(time.Duration((0.5 - elapsed) * float64(time.Second)))
+	// Google Cloud Translation API 有限制：最多 128 个文本/请求
+	const maxBatchSize = 128
+	type TranslationItem struct {
+		Text string `json:"text"`
 	}
-	lastRequestTime = time.Now()
+	allTranslations := make([]TranslationItem, 0)
 
-	// 确定 API 端点
-	url := "https://api-free.deepl.com/v2/translate"
-	if !strings.HasSuffix(apiKey, ":fx") {
-		url = "https://api.deepl.com/v2/translate"
-	}
+	// 分批处理文本
+	for batchStart := 0; batchStart < len(toTranslate); batchStart += maxBatchSize {
+		batchEnd := batchStart + maxBatchSize
+		if batchEnd > len(toTranslate) {
+			batchEnd = len(toTranslate)
+		}
+		batchTexts := toTranslate[batchStart:batchEnd]
 
-	// 构建批量请求
-	payload := map[string]interface{}{
-		"text":        toTranslate,
-		"target_lang": mapLanguageCode(targetLang),
-	}
+		// 速率限制
+		elapsed := time.Since(lastRequestTime).Seconds()
+		if elapsed < 0.5 {
+			time.Sleep(time.Duration((0.5 - elapsed) * float64(time.Second)))
+		}
+		lastRequestTime = time.Now()
 
-	jsonData, _ := json.Marshal(payload)
+		// 调用单批翻译函数
+		batchResults, err := translateSingleBatch(apiKey, batchTexts, targetLang)
+		if err != nil {
+			return nil, fmt.Errorf("翻译批次失败: %v", err)
+		}
 
-	req, _ := http.NewRequest("POST", url, bytes.NewBuffer(jsonData))
-	req.Header.Set("Content-Type", "application/json")
-	req.Header.Set("Authorization", fmt.Sprintf("DeepL-Auth-Key %s", apiKey))
-	req.Header.Set("User-Agent", "FluxReve-Translator/1.0")
+		// 累加结果
+		for _, text := range batchResults {
+			allTranslations = append(allTranslations, TranslationItem{Text: text})
+		}
 
-	// 发送请求
-	client := &http.Client{Timeout: 30 * time.Second}
-	resp, err := client.Do(req)
-	if err != nil {
-		return nil, fmt.Errorf("网络错误: %v", err)
-	}
-	defer resp.Body.Close()
-
-	body, _ := ioutil.ReadAll(resp.Body)
-
-	// 检查响应状态码
-	if resp.StatusCode == 403 {
-		return nil, fmt.Errorf("API 验证失败 (403): 检查 API 密钥是否正确")
-	}
-	if resp.StatusCode == 429 {
-		// 速率限制，等待后重试
-		fmt.Printf("⚠️  触发速率限制，等待 5 秒...\n")
-		time.Sleep(5 * time.Second)
-		return translateWithDeepLBatch(apiKey, texts, targetLang, fileCache)
-	}
-	if resp.StatusCode != 200 {
-		return nil, fmt.Errorf("API 错误 (%d): %s", resp.StatusCode, string(body))
+		fmt.Printf("  ✓ 已处理批次: %d/%d\n", batchEnd, len(toTranslate))
 	}
 
-	// 解析响应
-	var result DeepLResponse
-	if err := json.Unmarshal(body, &result); err != nil {
-		return nil, fmt.Errorf("响应解析失败: %v", err)
+	// 构建兼容格式的结果
+	type CompatibleResponse struct {
+		Translations []TranslationItem `json:"translations"`
 	}
-
-	if len(result.Translations) == 0 {
-		return nil, fmt.Errorf("没有返回翻译结果")
+	result := CompatibleResponse{
+		Translations: allTranslations,
 	}
 
 	// 保存翻译结果
@@ -298,6 +347,8 @@ func inferLanguageFromDir(dirPath string) string {
 		"da":     "DA",
 		"pl":     "PL",
 		"tr":     "TR",
+		"no":     "NO",
+		"fi":     "FI",
 	}
 
 	// 统一转小写并去除连字符变体，查询映射表
@@ -317,30 +368,38 @@ func inferLanguageFromDir(dirPath string) string {
 	return "IT" // 默认语言（保持原逻辑）
 }
 
-// 将语言代码映射到 DeepL 格式
+// 将语言代码映射到 Google Cloud Translation 格式
+// Google 使用 ISO 639-1 代码 (en, zh, ja, ko, ar 等)
 func mapLanguageCode(code string) string {
 	mapping := map[string]string{
-		"EN": "EN",
-		"ZH": "ZH",
-		"DE": "DE",
-		"FR": "FR",
-		"IT": "IT",
-		"ES": "ES",
-		"PT": "PT-BR",
-		"RU": "RU",
-		"JA": "JA",
-		"KO": "KO",
-		"AR": "AR",
-		"NL": "NL",
-		"SV": "SV",
-		"DA": "DA",
-		"PL": "PL",
-		"TR": "TR",
+		"EN":     "en",
+		"ZH":     "zh-CN",  // 简体中文
+		"ZH-CN": "zh-CN",
+		"ZH-TW": "zh-TW",  // 繁体中文
+		"DE":     "de",
+		"FR":     "fr",
+		"IT":     "it",
+		"ES":     "es",
+		"PT":     "pt",
+		"PT-BR": "pt",
+		"RU":     "ru",
+		"JA":     "ja",
+		"KO":     "ko",
+		"AR":     "ar",
+		"NL":     "nl",
+		"SV":     "sv",
+		"DA":     "da",
+		"PL":     "pl",
+		"TR":     "tr",
+		"NO":     "no",
+		"FI":     "fi",
 	}
-	if val, ok := mapping[strings.ToUpper(code)]; ok {
+
+	upperCode := strings.ToUpper(code)
+	if val, ok := mapping[upperCode]; ok {
 		return val
 	}
-	return "EN" // 默认英文
+	return "en" // 默认英文
 }
 
 // 检查是否为纯占位符 - 只有占位符，没有其他文本
@@ -449,9 +508,6 @@ func restoreProtectedContent(text string, protected map[string]string) string {
 	return result
 }
 
-
-
-
 // 第一步：收集所有需要翻译的文本
 func collectTexts(data interface{}, texts map[string]bool) {
 	switch v := data.(type) {
@@ -529,7 +585,7 @@ func processFile(sourceFile, targetDir, apiKey, targetLang string) error {
 	}
 
 	// 第二步：批量翻译
-	translations, err := translateWithDeepLBatch(apiKey, textArray, targetLang, fileCache)
+	translations, err := translateWithGoogleBatch(apiKey, textArray, targetLang, fileCache)
 	if err != nil {
 		return fmt.Errorf("翻译失败: %v", err)
 	}
@@ -622,12 +678,12 @@ func main() {
 	}
 
 	if *apiKey == "" {
-		fmt.Println("❌ 错误: 必须提供 -key 参数（DeepL API 密钥）")
+		fmt.Println("❌ 错误: 必须提供 -key 参数（Google Cloud Translation API 密钥）")
 		fmt.Println("\n📖 使用方法:")
 		fmt.Println("  批量翻译 (自动推断语言):  go run translate-deepl.go -key YOUR_API_KEY -target ./messages/zh-CN")
 		fmt.Println("  单个文件 (自动推断语言):  go run translate-deepl.go -key YOUR_API_KEY -file ./messages/en/common.json -target ./messages/it")
 		fmt.Println("  指定语言 (手动覆盖):    go run translate-deepl.go -key YOUR_API_KEY -target ./messages/fr -lang FR")
-		fmt.Println("\n💡 获取 API 密钥: https://www.deepl.com/pro-api")
+		fmt.Println("\n💡 获取 API 密钥: https://cloud.google.com/docs/authentication/api-keys")
 		os.Exit(1)
 	}
 
@@ -637,7 +693,7 @@ func main() {
 	}
 
 	fmt.Printf("\n%s\n", strings.Repeat("=", 60))
-	fmt.Printf("🌐 DeepL 翻译脚本 (带缓存机制)\n")
+	fmt.Printf("🌐 Google Cloud Translation 翻译脚本 (带缓存机制)\n")
 	fmt.Printf("%s\n", strings.Repeat("=", 60))
 	fmt.Printf("📍 源目录:   %s\n", *sourceDir)
 	fmt.Printf("📍 目标目录: %s\n", *targetDir)

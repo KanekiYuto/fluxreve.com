@@ -1,0 +1,80 @@
+{
+  "entries": {
+    "Can I use the generated images commercially?": {
+      "translation": "Kan jeg bruke de genererte bildene kommersielt?",
+      "timestamp": 1765582133
+    },
+    "Can't find what you're looking for? Contact our support team and we'll get back to you as soon as possible.": {
+      "translation": "Finner du ikke det du leter etter? Kontakt supportteamet vårt, så tar vi kontakt med deg så snart som mulig.",
+      "timestamp": 1765582133
+    },
+    "Contact Support": {
+      "translation": "Kontakt kundestøtte",
+      "timestamp": 1765582133
+    },
+    "Find answers to common questions about using our AI image generation platform": {
+      "translation": "Finn svar på vanlige spørsmål om bruk av vår plattform for AI-bildegenerering",
+      "timestamp": 1765582133
+    },
+    "Find answers to common questions and get support": {
+      "translation": "Finn svar på vanlige spørsmål og få støtte",
+      "timestamp": 1765582133
+    },
+    "Find answers to common questions and get support for {siteName} AI image generation platform": {
+      "translation": "Finn svar på vanlige spørsmål og få støtte for {siteName} AI-bildegenereringsplattform",
+      "timestamp": 1765582133
+    },
+    "For better results, try to be specific and detailed in your prompts. Include information about style, colors, composition, and mood. Experiment with different models and settings to find what works best for your needs.": {
+      "translation": "For bedre resultater, prøv å være spesifikk og detaljert i spørsmålene dine. Ta med informasjon om stil, farger, komposisjon og stemning. Eksperimenter med forskjellige modeller og innstillinger for å finne ut hva som fungerer best for dine behov.",
+      "timestamp": 1765582133
+    },
+    "Frequently Asked Questions": {
+      "translation": "Ofte stilte spørsmål",
+      "timestamp": 1765582133
+    },
+    "Getting started is easy! Simply navigate to the AI Generator page, enter your prompt describing what you want to create, select your preferred settings, and click the generate button. Your AI-generated image will be ready in seconds.": {
+      "translation": "Det er enkelt å komme i gang! Bare naviger til AI-generatorsiden, skriv inn ledeteksten din som beskriver hva du vil lage, velg dine foretrukne innstillinger og klikk på generer-knappen. Det AI-genererte bildet ditt vil være klart i løpet av sekunder.",
+      "timestamp": 1765582133
+    },
+    "Help Center": {
+      "translation": "Hjelpesenter",
+      "timestamp": 1765582133
+    },
+    "How can I improve my generation results?": {
+      "translation": "Hvordan kan jeg forbedre generasjonsresultatene mine?",
+      "timestamp": 1765582133
+    },
+    "How do I get started with AI Generator?": {
+      "translation": "Hvordan kommer jeg i gang med AI-generator?",
+      "timestamp": 1765582133
+    },
+    "How many images can I generate?": {
+      "translation": "Hvor mange bilder kan jeg generere?",
+      "timestamp": 1765582133
+    },
+    "If a generation fails, first try refreshing the page and attempting again. Make sure your prompt is clear and descriptive. If problems persist, please contact our support team with details about the issue.": {
+      "translation": "Hvis en generering mislykkes, prøv først å oppdatere siden og prøv på nytt. Sørg for at meldingen er tydelig og beskrivende. Hvis problemene vedvarer, kan du kontakte supportteamet vårt med detaljer om problemet.",
+      "timestamp": 1765582133
+    },
+    "The number of images you can generate depends on your credit quota. Free users get 30 credits daily, while Basic plan subscribers get 1,500 credits monthly and Pro plan subscribers get 7,500 credits monthly. Check our Pricing page for more details.": {
+      "translation": "Antall bilder du kan generere avhenger av kredittkvoten din. Gratisbrukere får 30 kreditter daglig, mens abonnenter på Basic-planen får 1500 kreditter månedlig og abonnenter på Pro-planen får 7500 kreditter månedlig. Sjekk prissiden vår for mer informasjon.",
+      "timestamp": 1765582133
+    },
+    "We support all common image formats including PNG, JPG, and WebP. You can download your generated images in the format that best suits your needs.": {
+      "translation": "Vi støtter alle vanlige bildeformater, inkludert PNG, JPG og WebP. Du kan laste ned de genererte bildene i formatet som passer best til dine behov.",
+      "timestamp": 1765582133
+    },
+    "What image formats are supported?": {
+      "translation": "Hvilke bildeformater støttes?",
+      "timestamp": 1765582133
+    },
+    "What should I do if the generation fails?": {
+      "translation": "Hva skal jeg gjøre hvis generasjonen svikter?",
+      "timestamp": 1765582133
+    },
+    "Yes! Both Basic and Pro plan subscribers receive a commercial use license. Free plan users can use generated images for personal projects only.": {
+      "translation": "Ja! Både Basic- og Pro-abonnementsbrukere får en kommersiell brukslisens. Brukere av gratisabonnementet kan kun bruke genererte bilder til personlige prosjekter.",
+      "timestamp": 1765582133
+    }
+  }
+}

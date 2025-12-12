@@ -1,0 +1,148 @@
+{
+  "entries": {
+    "All": {
+      "translation": "Alle",
+      "timestamp": 1765582185
+    },
+    "Are you sure you want to delete this task? This action cannot be undone.": {
+      "translation": "Er du sikker på, at du vil slette denne opgave? Denne handling kan ikke fortrydes.",
+      "timestamp": 1765582185
+    },
+    "Clear": {
+      "translation": "Klar",
+      "timestamp": 1765582185
+    },
+    "Completed": {
+      "translation": "Færdiggjort",
+      "timestamp": 1765582185
+    },
+    "Delete": {
+      "translation": "Slet",
+      "timestamp": 1765582185
+    },
+    "Delete Task": {
+      "translation": "Slet opgave",
+      "timestamp": 1765582185
+    },
+    "Deleting...": {
+      "translation": "Sletter...",
+      "timestamp": 1765582185
+    },
+    "FLUX 2 Pro": {
+      "translation": "FLUX 2 Pro",
+      "timestamp": 1765582185
+    },
+    "Failed": {
+      "translation": "Mislykkedes",
+      "timestamp": 1765582185
+    },
+    "Failed to fetch tasks": {
+      "translation": "Opgaver kunne ikke hentes",
+      "timestamp": 1765582185
+    },
+    "Filters": {
+      "translation": "Filtre",
+      "timestamp": 1765582185
+    },
+    "Login to View History": {
+      "translation": "Log ind for at se historik",
+      "timestamp": 1765582185
+    },
+    "Make Private": {
+      "translation": "Gør privat",
+      "timestamp": 1765582185
+    },
+    "Make Public": {
+      "translation": "Offentliggør",
+      "timestamp": 1765582185
+    },
+    "Model": {
+      "translation": "Model",
+      "timestamp": 1765582185
+    },
+    "NSFW": {
+      "translation": "NSFW",
+      "timestamp": 1765582185
+    },
+    "Next": {
+      "translation": "Næste",
+      "timestamp": 1765582185
+    },
+    "No Matching Tasks": {
+      "translation": "Ingen matchende opgaver",
+      "timestamp": 1765582185
+    },
+    "No Tasks Yet": {
+      "translation": "Ingen opgaver endnu",
+      "timestamp": 1765582185
+    },
+    "No prompt": {
+      "translation": "Ingen prompt",
+      "timestamp": 1765582185
+    },
+    "Pending": {
+      "translation": "Indtil",
+      "timestamp": 1765582185
+    },
+    "Previous": {
+      "translation": "Tidligere",
+      "timestamp": 1765582185
+    },
+    "Privacy": {
+      "translation": "Privatliv",
+      "timestamp": 1765582185
+    },
+    "Private": {
+      "translation": "Privat",
+      "timestamp": 1765582185
+    },
+    "Processing": {
+      "translation": "Forarbejdning",
+      "timestamp": 1765582185
+    },
+    "Public": {
+      "translation": "Offentlig",
+      "timestamp": 1765582185
+    },
+    "Safe": {
+      "translation": "Sikker",
+      "timestamp": 1765582185
+    },
+    "Select...": {
+      "translation": "Vælge...",
+      "timestamp": 1765582185
+    },
+    "Sign In": {
+      "translation": "Log ind",
+      "timestamp": 1765582185
+    },
+    "Sign in to view all your AI image generation history": {
+      "translation": "Log ind for at se din historik for generering af AI-billeder",
+      "timestamp": 1765582185
+    },
+    "Start creating your first AI image": {
+      "translation": "Begynd at oprette dit første AI-billede",
+      "timestamp": 1765582185
+    },
+    "Try changing the filter options": {
+      "translation": "Prøv at ændre filterindstillingerne",
+      "timestamp": 1765582185
+    },
+    "View and manage all your AI image generation history": {
+      "translation": "Se og administrer al din AI-billedgenereringshistorik",
+      "timestamp": 1765582185
+    },
+    "View and manage all your generation history": {
+      "translation": "Se og administrer al din generationshistorik",
+      "timestamp": 1765582185
+    },
+    "Z-Image LoRA": {
+      "translation": "Z-Image LoRA",
+      "timestamp": 1765582185
+    },
+    "{count} selected": {
+      "translation": "{count} valgt",
+      "timestamp": 1765582185
+    }
+  }
+}

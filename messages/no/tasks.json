@@ -1,0 +1,85 @@
+{
+  "card": {
+    "cancelDelete": "Kansellere",
+    "confirmDelete": "Slett",
+    "confirmDeleteMessage": "Er du sikker på at du vil slette denne oppgaven? Denne handlingen kan ikke angres.",
+    "confirmDeleteTitle": "Slett oppgave",
+    "delete": "Slett",
+    "deleting": "Sletter...",
+    "makePrivate": "Gjør privat",
+    "makePublic": "Gjør offentlig",
+    "private": "Privat",
+    "public": "Offentlig"
+  },
+  "empty": {
+    "cta": "Begynn å lage",
+    "filteredSubtitle": "Prøv å endre filteralternativene",
+    "filteredTitle": "Ingen samsvarende oppgaver",
+    "subtitle": "Begynn å lage ditt første AI-bilde",
+    "title": "Ingen oppgaver ennå"
+  },
+  "errors": {
+    "fetchFailed": "Kunne ikke hente oppgaver",
+    "retry": "Prøv på nytt"
+  },
+  "filter": {
+    "all": "Alle",
+    "clearAll": "Klar",
+    "completed": "Fullført",
+    "failed": "Mislyktes",
+    "model": {
+      "all": "Alle",
+      "flux-2-pro": "FLUX 2 Pro",
+      "nano-banana-pro": "Nano Banana Pro",
+      "z-image": "Z-Image",
+      "z-image-lora": "Z-Image LoRA"
+    },
+    "modelLabel": "Modell",
+    "nsfw": {
+      "nsfw": "NSFW",
+      "safe": "Sikker"
+    },
+    "nsfwLabel": "Innhold",
+    "pending": "I påvente av",
+    "privacy": {
+      "private": "Privat",
+      "public": "Offentlig"
+    },
+    "privacyLabel": "Privatliv",
+    "processing": "Behandling",
+    "selectPlaceholder": "Velge...",
+    "selectedCount": "{count} valgt",
+    "statusLabel": "Status",
+    "taskType": {
+      "all": "Alle",
+      "image-to-image": "Bilde til bilde",
+      "text-to-image": "Tekst til bilde"
+    },
+    "taskTypeLabel": "Type",
+    "title": "Filtre"
+  },
+  "header": {
+    "subtitle": "Se og administrer all generasjonshistorikken din",
+    "title": "Historie"
+  },
+  "loginPrompt": {
+    "cta": "Logg inn",
+    "description": "Logg inn for å se hele historikken din for generering av AI-bilder",
+    "title": "Logg inn for å se historikk"
+  },
+  "noPrompt": "Ingen spørsmål",
+  "pagination": {
+    "next": "Neste",
+    "prev": "Tidligere"
+  },
+  "seo": {
+    "description": "Se og administrer all genereringshistorikk for AI-bilder",
+    "title": "Historie"
+  },
+  "status": {
+    "completed": "Fullført",
+    "failed": "Mislyktes",
+    "pending": "I påvente av",
+    "processing": "Behandling"
+  }
+}

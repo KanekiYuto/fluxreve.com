@@ -1,0 +1,53 @@
+{
+  "cta": {
+    "buttons": {
+      "freeTrial": "Gratis provperiod",
+      "viewPricing": "Visa priser"
+    },
+    "description": "Gå med tusentals skapare som använder kraften i AI för att förverkliga dina idéer",
+    "note": "Inget kreditkort krävs · Börja använda nu",
+    "title": "Börja skapa nu"
+  },
+  "features": {
+    "items": [
+      {
+        "description": "Kraftfulla AI-algoritmer genererar högkvalitativa bilder på några sekunder, vilket dramatiskt förbättrar den kreativa effektiviteten.",
+        "title": "Snabb generation"
+      },
+      {
+        "description": "Använder toppmoderna AI-modeller för att producera bildkvalitet av professionell kvalitet, vilket möter olika kreativa behov.",
+        "title": "Professionell kvalitet"
+      },
+      {
+        "description": "Rika parameterinställningar och stilalternativ låter dig exakt kontrollera varje detalj i bildgenereringen.",
+        "title": "Flexibel kontroll"
+      },
+      {
+        "description": "Intuitivt gränssnitt som inte kräver någon expertis, vilket gör att vem som helst enkelt kan skapa vackra bilder.",
+        "title": "Lätt att använda"
+      }
+    ],
+    "sectionDescription": "Kombinerar kraftfull AI-teknik med en ren användarupplevelse, vilket gör bildskapandet enklare än någonsin",
+    "sectionTitle": "Varför välja oss"
+  },
+  "hero": {
+    "buttons": {
+      "startCreate": "Börja skapa",
+      "viewPricing": "Visa priser"
+    },
+    "description": "Beskriv bara vad du vill ha och få fantastiska bilder i professionell kvalitet. Inga designkunskaper krävs – alla kan bli kreatörer.",
+    "features": {
+      "easyToUse": "Lätt att använda",
+      "fastGeneration": "Snabb generation",
+      "highQuality": "Högkvalitativ utskrift"
+    },
+    "title": {
+      "line1": "Förvandla idéer till verklighet direkt",
+      "line2": "AI-driven professionell bildgenerering"
+    }
+  },
+  "metadata": {
+    "description": "Använder avancerad artificiell intelligens för att snabbt generera högkvalitativa professionella bilder. Gör det enkelt och effektivt att skapa bilder med AI.",
+    "title": "{siteName} - AI-bildgenereringsverktyg | Generera professionella bilder snabbt"
+  }
+}

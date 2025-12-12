@@ -1,0 +1,37 @@
+{
+  "actions": {
+    "redirecting": "Omdirigerar...",
+    "startUsing": "Börja använda nu",
+    "viewSubscription": "Visa prenumeration"
+  },
+  "autoRedirect": "Automatisk omdirigering till instrumentpanelen om {seconds} sekunder...",
+  "description": "Tack för att du prenumererar. Ditt konto har uppgraderats och du kan nu använda alla premiumfunktioner.",
+  "details": {
+    "amount": "Belopp",
+    "plan": "Planera",
+    "status": "Status",
+    "statusActive": "Aktiv",
+    "title": "Prenumerationsinformation"
+  },
+  "loading": "Belastning...",
+  "nextSteps": {
+    "step1": "Besök din instrumentpanel för att utforska alla tillgängliga funktioner",
+    "step2": "Börja använda AI-generatorer för att skapa fantastiska bilder",
+    "step3": "Visa dina prenumerationsuppgifter på sidan för prenumerationshantering",
+    "title": "Vad händer härnäst"
+  },
+  "notFound": "Prenumerationen hittades inte",
+  "planTypes": {
+    "monthly_basic": "Grundläggande - Månadsvis",
+    "monthly_pro": "Pro - Månadsvis",
+    "trial": "Rättegång",
+    "unknown": "Okänd plan",
+    "yearly_basic": "Grundläggande - Årlig",
+    "yearly_pro": "Pro - Årlig"
+  },
+  "seo": {
+    "description": "Tack för att du prenumererar! Ditt konto har uppgraderats",
+    "title": "Prenumerationen lyckades"
+  },
+  "title": "Prenumerationen lyckades!"
+}

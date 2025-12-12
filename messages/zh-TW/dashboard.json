@@ -1,23 +1,23 @@
 {
   "guestSubtitle": "请登录以访问您的仪表板并开始创建",
-  "guestWelcome": "欢迎访问仪表板",
+  "guestWelcome": "欢迎来到仪表盘",
   "loginPrompt": {
     "cta": "立即登录",
-    "description": "创建账户或登录后，即可解锁所有功能、跟踪使用情况并管理项目。",
+    "description": "创建账户或登录即可解锁所有功能、跟踪使用情况和管理项目。",
     "features": {
       "analytics": "分析与统计",
-      "analyticsDesc": "查看详细的统计数据和性能指标",
+      "analyticsDesc": "查看详细统计数据和性能指标",
       "projects": "项目管理",
-      "projectsDesc": "组织和管理所有创意项目",
+      "projectsDesc": "组织和管理你所有的创意项目",
       "quota": "使用配额",
-      "quotaDesc": "跟踪您的发电配额和使用历史"
+      "quotaDesc": "跟踪您的发电配额和使用历史记录"
     },
-    "title": "登录以访问您的控制面板"
+    "title": "登录以访问您的仪表盘"
   },
   "marketing": {
-    "description": "升级计划可获得更多点数、超高分辨率、批量生成和优先支持。",
+    "description": "升级您的套餐，即可获得更多积分、超高分辨率、批量生成和优先支持。",
     "learnMoreButton": "了解更多",
-    "title": "解锁更强大的功能",
+    "title": "解锁更多强大功能",
     "upgradeButton": "立即升级"
   },
   "quickActions": {
@@ -30,34 +30,34 @@
   "recent": {
     "empty": {
       "cta": "立即生成",
-      "subtitle": "开始生成第一张图片",
-      "title": "本周无内容生成"
+      "subtitle": "开始生成你的第一张图片",
+      "title": "本周未生成任何内容"
     },
-    "loading": "正在加载...",
+    "loading": "加载中...",
     "subtitle": "仅显示过去一周的内容",
-    "title": "最近几代人",
+    "title": "近几代人",
     "viewAll": "查看全部"
   },
   "seo": {
-    "description": "管理人工智能图像生成项目、跟踪使用情况并访问所有功能",
+    "description": "管理您的 AI 图像生成项目、跟踪使用情况并访问所有功能",
     "title": "仪表板"
   },
   "stats": {
-    "images": "上传的图像资产",
+    "images": "上传的图像素材",
     "projects": "项目总数",
     "quota": {
       "expires": "到期",
-      "remaining": "剩余发电配额",
-      "unlimited": "无限生成配额"
+      "remaining": "剩余世代配额",
+      "unlimited": "无限世代配额"
     },
     "templates": "创建的模板"
   },
-  "subtitle": "开始创建您的精彩内容",
+  "subtitle": "开始创作你的精彩内容",
   "userType": {
-    "basic": "基本",
-    "free": "免费",
-    "pro": "专业",
-    "trial": "试用"
+    "basic": "基本的",
+    "free": "自由的",
+    "pro": "专业版",
+    "trial": "审判"
   },
   "welcome": "欢迎回来，{name}"
 }

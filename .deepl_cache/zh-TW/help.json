@@ -1,80 +1,80 @@
 {
   "entries": {
     "Can I use the generated images commercially?": {
-      "translation": "能否将生成的图像用于商业用途？",
-      "timestamp": 1765575347
+      "translation": "我可以将生成的图像用于商业用途吗？",
+      "timestamp": 1765580813
     },
     "Can't find what you're looking for? Contact our support team and we'll get back to you as soon as possible.": {
-      "translation": "找不到您要的内容？请联系我们的支持团队，我们会尽快给您回复。",
-      "timestamp": 1765575347
+      "translation": "找不到您要找的内容？请联系我们的支持团队，我们会尽快回复您。",
+      "timestamp": 1765580813
     },
     "Contact Support": {
-      "translation": "联系支持",
-      "timestamp": 1765575347
+      "translation": "联系客服",
+      "timestamp": 1765580813
     },
     "Find answers to common questions about using our AI image generation platform": {
-      "translation": "查找有关使用我们的人工智能图像生成平台的常见问题的答案",
-      "timestamp": 1765575347
+      "translation": "查找有关使用我们人工智能图像生成平台的常见问题的答案",
+      "timestamp": 1765580813
     },
     "Find answers to common questions and get support": {
       "translation": "查找常见问题的答案并获得支持",
-      "timestamp": 1765575347
+      "timestamp": 1765580813
     },
     "Find answers to common questions and get support for {siteName} AI image generation platform": {
-      "translation": "查找常见问题的答案并获得 {siteName} AI 图像生成平台的支持",
-      "timestamp": 1765575347
+      "translation": "查找常见问题的答案并获取 {siteName} AI 图像生成平台的支持",
+      "timestamp": 1765580813
     },
     "For better results, try to be specific and detailed in your prompts. Include information about style, colors, composition, and mood. Experiment with different models and settings to find what works best for your needs.": {
-      "translation": "为了取得更好的效果，请在提示中尽量具体详细。包括风格、颜色、构图和情绪等信息。尝试使用不同的模式和设置，找到最适合您需要的方法。",
-      "timestamp": 1765575347
+      "translation": "为了获得更好的效果，请在描述中尽量具体详细。包括风格、颜色、构图和氛围等方面的信息。尝试不同的模型和设置，找到最符合您需求的方案。",
+      "timestamp": 1765580813
     },
     "Frequently Asked Questions": {
-      "translation": "常见问题",
-      "timestamp": 1765575347
+      "translation": "常见问题解答",
+      "timestamp": 1765580813
     },
     "Getting started is easy! Simply navigate to the AI Generator page, enter your prompt describing what you want to create, select your preferred settings, and click the generate button. Your AI-generated image will be ready in seconds.": {
-      "translation": "开始操作非常简单！只需导航到 AI 生成器页面，输入您想要创建的内容，选择您喜欢的设置，然后点击生成按钮。您的 AI 生成图像将在几秒钟内准备就绪。",
-      "timestamp": 1765575347
+      "translation": "入门非常简单！只需前往 AI 生成器页面，输入描述您想要创建的内容的提示信息，选择您喜欢的设置，然后点击生成按钮。您的 AI 生成图像将在几秒钟内完成。",
+      "timestamp": 1765580813
     },
     "Help Center": {
       "translation": "帮助中心",
-      "timestamp": 1765575347
+      "timestamp": 1765580813
     },
     "How can I improve my generation results?": {
-      "translation": "如何改进生成结果？",
-      "timestamp": 1765575347
+      "translation": "如何提高我的生成结果？",
+      "timestamp": 1765580813
     },
     "How do I get started with AI Generator?": {
-      "translation": "如何开始使用 AI 生成器？",
-      "timestamp": 1765575347
+      "translation": "我该如何开始使用AI生成器？",
+      "timestamp": 1765580813
     },
     "How many images can I generate?": {
-      "translation": "我可以生成多少图像？",
-      "timestamp": 1765575347
+      "translation": "我最多可以生成多少张图片？",
+      "timestamp": 1765580813
     },
     "If a generation fails, first try refreshing the page and attempting again. Make sure your prompt is clear and descriptive. If problems persist, please contact our support team with details about the issue.": {
-      "translation": "如果生成失败，请首先尝试刷新页面并再次尝试。确保您的提示清晰明了。如果问题仍然存在，请联系我们的支持团队并提供有关问题的详细信息。",
-      "timestamp": 1765575347
+      "translation": "如果生成失败，请先尝试刷新页面并重试。请确保您的提示信息清晰明了。如果问题仍然存在，请联系我们的支持团队并提供问题详情。",
+      "timestamp": 1765580813
     },
     "The number of images you can generate depends on your credit quota. Free users get 30 credits daily, while Basic plan subscribers get 1,500 credits monthly and Pro plan subscribers get 7,500 credits monthly. Check our Pricing page for more details.": {
-      "translation": "您可以生成的图片数量取决于您的信用额度。免费用户每天可获得 30 个信用点数，基本计划用户每月可获得 1,500 个信用点数，专业计划用户每月可获得 7,500 个信用点数。更多详情请查看我们的定价页面。",
-      "timestamp": 1765575347
+      "translation": "您可以生成的图片数量取决于您的积分额度。免费用户每天可获得 30 个积分，基础套餐用户每月可获得 1,500 个积分，专业套餐用户每月可获得 7,500 个积分。请访问我们的定价页面了解更多详情。",
+      "timestamp": 1765580813
     },
     "We support all common image formats including PNG, JPG, and WebP. You can download your generated images in the format that best suits your needs.": {
-      "translation": "我们支持所有常见的图片格式，包括 PNG、JPG 和 WebP。您可以根据自己的需要下载生成的图像格式。",
-      "timestamp": 1765575347
+      "translation": "我们支持所有常见的图像格式，包括 PNG、JPG 和 WebP。您可以根据需要下载生成的图像格式。",
+      "timestamp": 1765580813
     },
     "What image formats are supported?": {
       "translation": "支持哪些图像格式？",
-      "timestamp": 1765575347
+      "timestamp": 1765580813
     },
     "What should I do if the generation fails?": {
-      "translation": "如果生成失败，我该怎么办？",
-      "timestamp": 1765575347
+      "translation": "如果生成失败该怎么办？",
+      "timestamp": 1765580813
     },
     "Yes! Both Basic and Pro plan subscribers receive a commercial use license. Free plan users can use generated images for personal projects only.": {
-      "translation": "是的！基本计划和专业计划用户均可获得商业使用许可证。免费计划用户只能将生成的图像用于个人项目。",
-      "timestamp": 1765575347
+      "translation": "是的！基础版和专业版用户均可获得商业用途许可。免费版用户仅可将生成的图像用于个人项目。",
+      "timestamp": 1765580813
     }
   }
 }

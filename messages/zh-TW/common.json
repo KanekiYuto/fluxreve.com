@@ -1,32 +1,32 @@
 {
   "discordBanner": {
     "closeLabel": "关闭",
-    "description": "获取最新更新、独家优惠和免费奖金",
+    "description": "获取最新资讯、专属福利和免费奖励",
     "joinButton": "立即加入",
     "title": "加入我们的 Discord 社区"
   },
   "language": "语言",
-  "loading": "正在加载...",
+  "loading": "加载中...",
   "loginRequired": {
     "buttonText": "立即登录",
-    "description": "登录以访问全部功能",
+    "description": "登录即可使用全部功能",
     "title": "登录以继续"
   },
   "navigation": {
-    "ai-generator": "人工智能生成器",
-    "company": "公司名称",
+    "ai-generator": "AI生成器",
+    "company": "公司",
     "content": "内容",
     "dashboard": "仪表板",
     "explore": "创意社区",
     "flux-2-pro": "Flux 2 Pro",
-    "flux2ProDesc": "专业双模式人工智能图像生成",
+    "flux2ProDesc": "专业双模AI图像生成",
     "help": "帮助",
-    "home": "首页",
-    "main": "主页",
+    "home": "家",
+    "main": "主要的",
     "models": "人工智能模型",
-    "more": "更多信息",
+    "more": "更多的",
     "nano-banana-pro": "Nano Banana Pro",
-    "nanoBananaProDesc": "高级 Nano Banana 图像生成",
+    "nanoBananaProDesc": "高级图像生成",
     "nav": "导航",
     "pricing": "定价",
     "privacy": "隐私政策",
@@ -42,8 +42,8 @@
     "zImageDesc": "高级人工智能图像生成和编辑"
   },
   "seo": {
-    "description": "利用人工智能图像生成功能，在数秒内创建高质量的专业图像。简单、快速、强大的人工智能工具。",
-    "keywords": "人工智能图像生成、人工智能艺术、图像创建器、人工智能工具、专业图像",
-    "title": "{siteName} - AI 图像生成工具"
+    "description": "借助人工智能图像生成技术，在几秒钟内创建高质量的专业图像。简单、快速、强大的AI工具。",
+    "keywords": "AI图像生成、AI艺术、图像创作、AI工具、专业图像",
+    "title": "{siteName} - AI图像生成工具"
   }
 }

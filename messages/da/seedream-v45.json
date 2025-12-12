@@ -1,0 +1,185 @@
+{
+  "cta": {
+    "note": "Intet kreditkort kræves • 2K HD billeder • Generering af dobbelttilstand",
+    "primary": "Prøv Seedream 4.5 Gratis",
+    "secondary": "Se prisplaner",
+    "subtitle": "Slut dig til adskillige professionelle, der bruger Seedream 4.5 til at generere HD AI-billeder til design, marketing og kreative projekter.",
+    "title": "Begynd at skabe med Seedream 4.5 AI-billedgenerator"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Seedream 4.5 er en avanceret AI-billedgenerator udviklet af ByteDance, der tilbyder to tilstande med tekst-til-billede og billede-til-billede. I modsætning til andre AI-billedgeneratorer leverer Seedream 4.5 2K HD output, kraftfulde billedredigeringsfunktioner og hurtige genereringshastigheder. Den udmærker sig ved billedkvalitet, redigeringsfleksibilitet og omkostningseffektivitet.",
+        "question": "Hvad er Seedream 4.5, og hvordan adskiller det sig fra andre AI-billedgeneratorer?"
+      },
+      {
+        "answer": "Seedream 4.5 kan hurtigt generere 2K (2048x2048) billeder i høj opløsning. Uanset om det er i tekst-til-billede eller billede-til-billede-tilstand, fuldføres genereringen på kort tid, hvilket forbedrer den kreative effektivitet betydeligt. Denne hurtige genereringskapacitet gør Seedream 4.5 ideel til hurtig prototyping og indholdsskabelse i store mængder.",
+        "question": "Hvor hurtig er Seedream 4.5&39;s AI-billedgenerering?"
+      },
+      {
+        "answer": "Seedream 4.5 understøtter 2K HD output (2048x2048 pixels). Billederne har fremragende detaljer, præcis farvegengivelse og professionel kvalitet, der er egnet til digitale medier, sociale platforme og kommercielle projekter. Denne opløsning opnår en perfekt balance mellem kvalitet og filstørrelse.",
+        "question": "Hvilken billedopløsning understøtter Seedream 4.5?"
+      },
+      {
+        "answer": "Det er nemt at bruge Seedream 4.5&39;s billede-til-billede-funktion! Du skal blot uploade et eksisterende billede og derefter indtaste en tekstbeskrivelse, der forklarer de ønskede ændringer. AI&39;en vil forstå din hensigt og bevare det originale billedes pose og struktur, samtidig med at den foretager præcise redigeringer i henhold til din beskrivelse. Dette er perfekt til billedoptimering, stiloverførsel og kreativ transformation.",
+        "question": "Hvordan bruger jeg Seedream 4.5&39;s billede-til-billede-funktion?"
+      },
+      {
+        "answer": "Seedream 4.5 bruger 30 kreditter pr. generation, uanset om det er i tekst-til-billede- eller billede-til-billede-tilstand. Dette giver en omkostningseffektiv professionel AI-billedgenereringsløsning, der giver dig mulighed for at skabe omfattende uden at bekymre dig om høje omkostninger.",
+        "question": "Hvad koster det at generere billeder med Seedream 4.5?"
+      },
+      {
+        "answer": "Absolut! Seedream 4.5 er designet til professionelle og kommercielle applikationer. Med 2K HD opløsning, kraftfulde redigeringskontroller, dual-mode genereringsfunktioner og datasikkerhedsgarantier opfylder Seedream 4.5 behovene hos virksomheder, bureauer og skabere, der kræver professionel AI-billedgenerering.",
+        "question": "Er Seedream 4.5 egnet til kommerciel brug?"
+      }
+    ],
+    "subtitle": "Almindelige spørgsmål om Seedream 4.5 AI-billedgenerator",
+    "title": "Seedream 4.5 Ofte stillede spørgsmål"
+  },
+  "features": {
+    "items": {
+      "control": {
+        "description": "Opnå præcis billedgenerering og redigeringskontrol gennem beskrivelser i naturligt sprog, uden komplekse parameterindstillinger for at få ideelle resultater.",
+        "title": "Præcis redigeringskontrol"
+      },
+      "efficient": {
+        "description": "Kun 30 kreditter pr. generation, hvilket giver en omkostningseffektiv professionel AI-billedgenereringsløsning, der er velegnet til kreative behov med store mængder.",
+        "title": "Effektiv kreditudnyttelse"
+      },
+      "quality": {
+        "description": "Skab fantastiske billeder på 2048x2048 pixels med fremragende detaljer, farvenøjagtighed og professionel kvalitet, der er velegnede til kommercielle anvendelser.",
+        "title": "2K HD Udgang"
+      },
+      "secure": {
+        "description": "Dit kreative arbejde er beskyttet med kryptering og strenge privatlivspolitikker. Seedream 4.5 deler aldrig dine AI-genererede billeder uden tilladelse.",
+        "title": "Datasikkerhed"
+      },
+      "speed": {
+        "description": "Generer billeder i 2K-opløsning hurtigt med Seedream 4.5&39;s optimerede AI-modeller - en effektiv professionel AI-billedgenerator.",
+        "title": "Hurtig 2K-generation"
+      },
+      "variety": {
+        "description": "Understøtter både tekst-til-billede og billede-til-billede-tilstande. Opret fra bunden eller rediger eksisterende billeder - Seedream 4.5 opfylder alle kreative behov.",
+        "title": "Dobbelttilstandsgenerering"
+      }
+    },
+    "subtitle": "Omfattende AI-billedgenereringsfunktioner drevet af ByteDance teknologi",
+    "title": "Seedream 4.5 Funktioner til AI-billedgenerator"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Prøv Seedream 4.5",
+      "secondary": "Lær mere"
+    },
+    "stats": {
+      "quality": {
+        "label": "Høj opløsning",
+        "value": "2K HD"
+      },
+      "speed": {
+        "label": "Billedgenerering",
+        "value": "Hurtig"
+      },
+      "users": {
+        "label": "Tekst- og billedinput",
+        "value": "Dobbelttilstand"
+      }
+    },
+    "subtitle": "Oplev ByteDance&39;s Seedream 4.5 - en kraftfuld AI-billedgenerator med 2K-opløsning, præcis billedredigering og exceptionelle detaljer. Generer hurtigt professionelle billeder, der opfylder dine kreative behov.",
+    "title": {
+      "line1": "Seedream 4.5",
+      "line2": "ByteDance Generering af kunstig intelligens-billeder"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Vælg tekst-til-billede eller billede-til-billede-tilstand baseret på dine behov. Tekst-til-billede-tilstand opretter fra bunden, mens billede-til-billede-tilstand redigerer og transformerer eksisterende billeder. Begge tilstande leverer kraftfulde AI-funktioner.",
+        "title": "Vælg genereringstilstand"
+      },
+      "step2": {
+        "description": "Indtast en detaljeret tekstbeskrivelse af det billede, du vil oprette eller ændre. Seedream 4.5&39;s AI forstår komplekse prompter. Medtag specifikke detaljer om stil, komposition, belysning, farver og stemning for at opnå optimale resultater med AI-billedgenerering.",
+        "title": "Indtast beskrivelse af annoncen"
+      },
+      "step3": {
+        "description": "Seedream 4.5&39;s AI-model behandler hurtigt dine krav og genererer 2K-billeder i høj kvalitet. AI&39;en forstår dine intentioner og skaber professionelle billeder, der opfylder dine forventninger, hvilket sikrer overlegen outputkvalitet.",
+        "title": "AI genererer HD-billeder"
+      },
+      "step4": {
+        "description": "Se et eksempel på dit AI-genererede billede med det samme. Tilfreds med resultatet? Download det med det samme til brug. Har du brug for justeringer? Rediger din prompt eller skift tilstande og regenerer - gentag så mange gange som nødvendigt med Seedream 4.5&39;s hurtige genereringsfunktioner.",
+        "title": "Forhåndsvisning, download og optimering"
+      }
+    },
+    "subtitle": "Fra koncept til professionelt 2K AI-genereret billede i enkle trin. Seedream 4.5 gør avanceret AI-billedgenerering intuitiv og tilgængelig.",
+    "title": "Sådan bruger du Seedream 4.5 AI-billedgeneratoren"
+  },
+  "seo": {
+    "description": "Skab 2K HD billeder med Seedream 4.5. ByteDance&39;s AI understøtter tekst-til-billede og billede-til-billede generering. 30 kreditter pr. billede.",
+    "title": "Seedream 4.5 - ByteDance AI-billedgenerator | 2K HD"
+  },
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Seedream 4.5 genererer hurtigt 2K (2048x2048) HD-billeder. Denne AI-billedgenerator leverer exceptionelle detaljer, farvenøjagtighed og billedkvalitet, der opfylder professionelle standarder for digital markedsføring, sociale medier og kommercielle projekter.",
+        "title": "2K højopløsnings AI-billedgenerering"
+      },
+      "core2": {
+        "description": "I modsætning til traditionelle AI-billedgeneratorer opnår Seedream 4.5 banebrydende muligheder inden for billed-til-billed-redigering. Upload eksisterende billeder og foretag præcise redigeringer gennem tekstbeskrivelser - perfekt til billedoptimering, stiloverførsel og kreativ transformation.",
+        "title": "Kraftig billede-til-billede-redigering"
+      },
+      "core3": {
+        "description": "Understøtter både tekst-til-billede og billede-til-billede-tilstande, hvilket giver omfattende kreativ frihed. Skab nye billeder fra bunden, eller transformer eksisterende for at imødekomme forskellige kreative scenarier.",
+        "title": "Fleksibel dobbelttilstandsgenerering"
+      }
+    },
+    "demoPlaceholder": "Seedream 4.5 Genereret billede",
+    "description": "Seedream 4.5, udviklet af ByteDance, er en avanceret AI-billedgenerator, der kombinerer kraftfulde tekst-til-billede- og billede-til-billede-funktioner. Denne professionelle AI-billedgenereringsplatform leverer 2K-billeder i høj opløsning med høj hastighed og kvalitet, perfekt til designere, marketingfolk og indholdsskabere, der kræver AI-genererede billeder i professionel kvalitet.",
+    "title": "Hvad er Seedream 4.5 AI-billedgenerator?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Eliminer dyre designsoftwarelicenser og designergebyrer. Seedream 4.5 tilbyder fleksible abonnementsplaner, der gør professionel AI-billedgenerering tilgængelig for virksomheder i alle størrelser med kun 30 kreditter pr. generation.",
+        "title": "Omkostningseffektiv AI-billedgenerering"
+      },
+      "flexibility": {
+        "description": "Eksperimentér med ubegrænsede iterationer, flere kunstneriske stilarter og forskellige kreative retninger. Seedream 4.5&39;s dual-mode generation tilpasser sig dine behov og muliggør hurtig prototyping og ubegrænset kreativ udforskning.",
+        "title": "Kreativ frihed med AI"
+      },
+      "quality": {
+        "description": "Oplev 2K (2048x2048) HD-output med fremragende detaljer, præcis farvegengivelse og professionel billedkvalitet. Seedream 4.5 AI-billeder opfylder standarderne for kommercielle projekter, digitale medier og virksomhedsapplikationer.",
+        "title": "Professionel 2K-billedkvalitet"
+      },
+      "security": {
+        "description": "Al dataoverførsel og -lagring bruger krypteringsbeskyttelse. Dine AI-genererede billeder og kreative arbejde forbliver private og sikre med strenge databeskyttelsespolitikker.",
+        "title": "Datasikkerhed og privatliv"
+      },
+      "speed": {
+        "description": "Seedream 4.5&39;s optimerede genereringsmotor skaber hurtigt 2K-billeder i høj opløsning. Få dramatisk fart på din kreative arbejdsgang med effektiv AI-billedgenerering, hvilket sparer værdifuld tid.",
+        "title": "Højhastigheds AI-billedgenerering"
+      },
+      "support": {
+        "description": "Få adgang til teknisk support, omfattende dokumentation og brugervejledninger. Seedream 4.5 leverer den professionelle support, din virksomhed har brug for til arbejdsgange inden for generering af AI-billeder.",
+        "title": "Professionel teknisk support"
+      }
+    },
+    "comparison": {
+      "product": {
+        "item1": "Generer hurtigt professionelle 2K-billeder med AI",
+        "item2": "Ingen designfærdigheder kræves - beskriv dine ideer i naturligt sprog",
+        "item3": "Omkostningseffektive abonnementsplaner med fleksible betalingsmuligheder",
+        "item4": "Øjeblikkelige iterationer og ubegrænset kreativ eksperimentering med AI",
+        "title": "Seedream 4.5 AI-generator"
+      },
+      "traditional": {
+        "item1": "Nødvendige timer til professionelt billeddesign og -redigering",
+        "item2": "Dyre softwarelicenser og professionelle designfærdigheder kræves",
+        "item3": "Høje omkostninger ved at ansætte designere eller købe premium designværktøjer",
+        "item4": "Langsomme iterationscyklusser begrænser kreativ eksperimentering",
+        "title": "Traditionel billedskabelse"
+      }
+    },
+    "subtitle": "Seedream 4.5, drevet af ByteDance&39;s avancerede teknologi, overgår traditionelle billedoprettelsesmetoder og konkurrerende AI-billedgeneratorer med højhastighedsgenerering, 2K-opløsning og kraftfulde billedredigeringsfunktioner.",
+    "title": "Hvorfor vælge Seedream 4.5 AI-billedgenerator"
+  }
+}

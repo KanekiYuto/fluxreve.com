@@ -1,0 +1,296 @@
+{
+  "entries": {
+    "All advanced AI models": {
+      "translation": "Alle avanserte AI-modeller",
+      "timestamp": 1765582135
+    },
+    "All standard AI models": {
+      "translation": "Alle standard AI-modeller",
+      "timestamp": 1765582135
+    },
+    "Auto-renewal": {
+      "translation": "Automatisk fornyelse",
+      "timestamp": 1765582135
+    },
+    "Basic AI models": {
+      "translation": "Grunnleggende AI-modeller",
+      "timestamp": 1765582135
+    },
+    "Batch generation": {
+      "translation": "Batchgenerering",
+      "timestamp": 1765582135
+    },
+    "Can I cancel my subscription anytime?": {
+      "translation": "Kan jeg når som helst kansellere abonnementet mitt?",
+      "timestamp": 1765582135
+    },
+    "Can I switch between monthly and yearly billing?": {
+      "translation": "Kan jeg bytte mellom månedlig og årlig fakturering?",
+      "timestamp": 1765582135
+    },
+    "Can I upgrade or downgrade my plan?": {
+      "translation": "Kan jeg oppgradere eller nedgradere planen min?",
+      "timestamp": 1765582135
+    },
+    "Can generate up to {quota}/5 high-quality images": {
+      "translation": "Kan generere opptil {quota}/5 bilder av høy kvalitet",
+      "timestamp": 1765582135
+    },
+    "Can generate up to {quota}/5 images per day": {
+      "translation": "Kan generere opptil {quota}/5 bilder per dag",
+      "timestamp": 1765582135
+    },
+    "Choose Your Plan": {
+      "translation": "Velg din plan",
+      "timestamp": 1765582135
+    },
+    "Choose the perfect plan for your needs. Flexible pricing options for individuals and businesses with AI-powered image generation.": {
+      "translation": "Velg den perfekte planen for dine behov. Fleksible prisalternativer for enkeltpersoner og bedrifter med AI-drevet bildegenerering.",
+      "timestamp": 1765582135
+    },
+    "Commercial use license": {
+      "translation": "Kommersiell brukslisens",
+      "timestamp": 1765582135
+    },
+    "Configuring...": {
+      "translation": "Konfigurerer...",
+      "timestamp": 1765582135
+    },
+    "Credits are used to generate images with our AI models. Each image generation consumes a certain number of credits depending on the resolution and model used. Free users get 30 credits daily, while Basic plan subscribers get 1,500 credits monthly (or 18,000 yearly) and Pro plan subscribers get 7,500 credits monthly (or 90,000 yearly).": {
+      "translation": "Kreditter brukes til å generere bilder med våre AI-modeller. Hver bildegenerering bruker et visst antall kreditter, avhengig av oppløsningen og modellen som brukes. Gratisbrukere får 30 kreditter daglig, mens abonnenter på Basic-planen får 1500 kreditter månedlig (eller 18 000 årlig), og abonnenter på Pro-planen får 7500 kreditter månedlig (eller 90 000 årlig).",
+      "timestamp": 1765582135
+    },
+    "Current Plan": {
+      "translation": "Gjeldende plan",
+      "timestamp": 1765582135
+    },
+    "Customer support": {
+      "translation": "Kundestøtte",
+      "timestamp": 1765582135
+    },
+    "Downgrade": {
+      "translation": "Nedgrader",
+      "timestamp": 1765582135
+    },
+    "Each credit quota comes with its own expiration period. The exact duration depends on your subscription plan and when the credits were granted. You can check the expiration date of your credits in your account dashboard. Credits are consumed on a first-in, first-out basis.": {
+      "translation": "Hver kredittkvote har sin egen utløpsperiode. Den nøyaktige varigheten avhenger av abonnementet ditt og når kredittene ble tildelt. Du kan sjekke utløpsdatoen for kredittene dine i kontodashbordet ditt. Kreditter forbrukes etter først inn, først ut-prinsippet.",
+      "timestamp": 1765582135
+    },
+    "Email customer support": {
+      "translation": "Send e-post til kundestøtte",
+      "timestamp": 1765582135
+    },
+    "FAQ": {
+      "translation": "Vanlige spørsmål",
+      "timestamp": 1765582135
+    },
+    "Find answers to common questions about our pricing plans and services": {
+      "translation": "Finn svar på vanlige spørsmål om våre prisplaner og tjenester",
+      "timestamp": 1765582135
+    },
+    "Flexible pricing options to meet the needs of individuals and businesses": {
+      "translation": "Fleksible prisalternativer for å møte behovene til enkeltpersoner og bedrifter",
+      "timestamp": 1765582135
+    },
+    "For free users, daily credits reset every day and don't accumulate. For subscribers, credits expire based on their expiration date. Each credit quota has its own expiration period, and unused credits will automatically expire when that period ends.": {
+      "translation": "For gratisbrukere nullstilles de daglige kredittene hver dag og akkumuleres ikke. For abonnenter utløper kredittene basert på utløpsdatoen. Hver kredittkvote har sin egen utløpsperiode, og ubrukte kreditter utløper automatisk når den perioden er over.",
+      "timestamp": 1765582135
+    },
+    "For individual users and small projects": {
+      "translation": "For individuelle brukere og små prosjekter",
+      "timestamp": 1765582135
+    },
+    "For monthly plans, you get 100 credits per dollar spent. For yearly plans, you get 100 credits per dollar × 12 months. For example: Basic monthly ($15) = 1,500 credits, Basic yearly ($144) = 18,000 credits.": {
+      "translation": "For månedlige abonnementer får du 100 kreditter per dollar du bruker. For årsplaner får du 100 kreditter per dollar × 12 måneder. For eksempel: Basis månedlig ($15) = 1500 kreditter, Basis årlig ($144) = 18 000 kreditter.",
+      "timestamp": 1765582135
+    },
+    "For professional creators and team collaboration": {
+      "translation": "For profesjonelle skapere og teamsamarbeid",
+      "timestamp": 1765582135
+    },
+    "Free plan users can use generated images for personal projects only. Both Basic and Pro plan subscribers receive a commercial use license, allowing you to use the images for business purposes, marketing materials, and client projects.": {
+      "translation": "Brukere av gratisabonnementet kan kun bruke genererte bilder til personlige prosjekter. Både Basic- og Pro-abonnementsbrukere får en kommersiell brukslisens, som lar deg bruke bildene til forretningsformål, markedsføringsmateriell og kundeprosjekter.",
+      "timestamp": 1765582135
+    },
+    "Get Started": {
+      "translation": "Kom i gang",
+      "timestamp": 1765582135
+    },
+    "High resolution": {
+      "translation": "Høy oppløsning",
+      "timestamp": 1765582135
+    },
+    "High resolution (1024x1024)": {
+      "translation": "Høy oppløsning (1024x1024)",
+      "timestamp": 1765582135
+    },
+    "Highest priority queue": {
+      "translation": "Kø med høyest prioritet",
+      "timestamp": 1765582135
+    },
+    "How do credits work?": {
+      "translation": "Hvordan fungerer kreditter?",
+      "timestamp": 1765582135
+    },
+    "How does credit quota calculation work?": {
+      "translation": "Hvordan fungerer beregning av kredittkvote?",
+      "timestamp": 1765582135
+    },
+    "How long do credits last after purchase?": {
+      "translation": "Hvor lenge varer kreditter etter kjøp?",
+      "timestamp": 1765582135
+    },
+    "Monthly": {
+      "translation": "Månedlig",
+      "timestamp": 1765582135
+    },
+    "Most Popular": {
+      "translation": "Mest populær",
+      "timestamp": 1765582135
+    },
+    "Perfect for personal trial and light usage": {
+      "translation": "Perfekt for personlig prøveperiode og lett bruk",
+      "timestamp": 1765582135
+    },
+    "Pricing Plans": {
+      "translation": "Prisplaner",
+      "timestamp": 1765582135
+    },
+    "Priority customer support": {
+      "translation": "Prioritert kundestøtte",
+      "timestamp": 1765582135
+    },
+    "Priority generation queue": {
+      "translation": "Prioritetsgenereringskø",
+      "timestamp": 1765582135
+    },
+    "Priority queue": {
+      "translation": "Prioritert kø",
+      "timestamp": 1765582135
+    },
+    "Priority support": {
+      "translation": "Prioritert støtte",
+      "timestamp": 1765582135
+    },
+    "Pro plan offers 5x more credits than Basic, plus access to all advanced AI models, ultra-high resolution (2048x2048), batch generation features, and priority customer support. Basic plan is great for individuals, while Pro is designed for professional creators and teams.": {
+      "translation": "Pro-planen tilbyr 5 ganger flere kreditter enn Basic, pluss tilgang til alle avanserte AI-modeller, ultrahøy oppløsning (2048x2048), funksjoner for batchgenerering og prioritert kundesupport. Basic-planen er flott for enkeltpersoner, mens Pro er utviklet for profesjonelle skapere og team.",
+      "timestamp": 1765582135
+    },
+    "Processing...": {
+      "translation": "Behandling...",
+      "timestamp": 1765582135
+    },
+    "Save ${amount}": {
+      "translation": "Spar ${amount}",
+      "timestamp": 1765582135
+    },
+    "Save 20%": {
+      "translation": "Spar 20 %",
+      "timestamp": 1765582135
+    },
+    "Scheduled": {
+      "translation": "Planlagt",
+      "timestamp": 1765582135
+    },
+    "Standard AI models": {
+      "translation": "Standard AI-modeller",
+      "timestamp": 1765582135
+    },
+    "Standard resolution (512x512)": {
+      "translation": "Standardoppløsning (512x512)",
+      "timestamp": 1765582135
+    },
+    "Subscribe Now": {
+      "translation": "Abonner nå",
+      "timestamp": 1765582135
+    },
+    "Try Now": {
+      "translation": "Prøv nå",
+      "timestamp": 1765582135
+    },
+    "Ultra-high resolution": {
+      "translation": "Ultrahøy oppløsning",
+      "timestamp": 1765582135
+    },
+    "Ultra-high resolution (2048x2048)": {
+      "translation": "Ultrahøy oppløsning (2048x2048)",
+      "timestamp": 1765582135
+    },
+    "Upgrade": {
+      "translation": "Oppgrader",
+      "timestamp": 1765582135
+    },
+    "Watermark-free export": {
+      "translation": "Eksport uten vannmerke",
+      "timestamp": 1765582135
+    },
+    "We integrate with Creem payment platform which supports various payment methods. All transactions are processed securely through their payment gateway.": {
+      "translation": "Vi integrerer med betalingsplattformen Creem som støtter ulike betalingsmetoder. Alle transaksjoner behandles sikkert gjennom betalingsgatewayen deres.",
+      "timestamp": 1765582135
+    },
+    "What happens to unused credits?": {
+      "translation": "Hva skjer med ubrukte kreditter?",
+      "timestamp": 1765582135
+    },
+    "What happens when I upgrade mid-cycle?": {
+      "translation": "Hva skjer når jeg oppgraderer midt i en syklus?",
+      "timestamp": 1765582135
+    },
+    "What payment methods do you accept?": {
+      "translation": "Hvilke betalingsmåter aksepterer dere?",
+      "timestamp": 1765582135
+    },
+    "What's the difference between Basic and Pro plans?": {
+      "translation": "Hva er forskjellen mellom Basic- og Pro-abonnementene?",
+      "timestamp": 1765582135
+    },
+    "What's the difference between monthly and yearly plans?": {
+      "translation": "Hva er forskjellen mellom månedlige og årlige planer?",
+      "timestamp": 1765582135
+    },
+    "When you upgrade, you'll be charged a prorated amount for the remainder of your current billing period. You'll immediately receive the full credit quota of your new plan, and any existing credits remain available until their expiration date.": {
+      "translation": "Når du oppgraderer, blir du belastet et forholdsmessig beløp for resten av den nåværende faktureringsperioden. Du vil umiddelbart motta hele kreditten for den nye planen din, og eventuelle eksisterende kreditter forblir tilgjengelige frem til utløpsdatoen.",
+      "timestamp": 1765582135
+    },
+    "Yearly": {
+      "translation": "Årlig",
+      "timestamp": 1765582135
+    },
+    "Yearly plans offer a 20% discount compared to monthly plans. For example, Basic monthly is $15/month (1,500 credits), while Basic yearly is $144/year (18,000 credits total). You save money and get more value with yearly subscriptions.": {
+      "translation": "Årsplaner tilbyr 20 % rabatt sammenlignet med månedsplaner. For eksempel koster Basic månedlig $15/måned (1500 kreditter), mens Basic årlig koster $144/år (totalt 18 000 kreditter). Du sparer penger og får mer verdi med årlige abonnementer.",
+      "timestamp": 1765582135
+    },
+    "Yes! Switching from monthly to yearly within the same plan tier (e.g., Basic monthly to Basic yearly) is considered a change, not an upgrade. The new billing cycle will take effect according to the plan change policy.": {
+      "translation": "Ja! Å bytte fra månedlig til årlig innenfor samme plannivå (f.eks. Basic månedlig til Basic årlig) regnes som en endring, ikke en oppgradering. Den nye faktureringsperioden trer i kraft i henhold til retningslinjene for planendring.",
+      "timestamp": 1765582135
+    },
+    "Yes! You can upgrade your plan at any time, and the price difference will be prorated. When upgrading, you'll receive the full credit quota of the new plan immediately. Downgrades take effect at the start of your next billing cycle.": {
+      "translation": "Ja! Du kan oppgradere abonnementet ditt når som helst, og prisforskjellen vil bli forholdsmessig fordelt. Når du oppgraderer, mottar du hele kreditten for det nye abonnementet umiddelbart. Nedgraderinger trer i kraft ved starten av neste faktureringsperiode.",
+      "timestamp": 1765582135
+    },
+    "Yes, you can cancel your subscription at any time. Your plan will remain active until the end of your current billing period, and you can continue using your remaining credits until they expire.": {
+      "translation": "Ja, du kan når som helst kansellere abonnementet ditt. Abonnementet ditt vil forbli aktivt til slutten av den nåværende faktureringsperioden, og du kan fortsette å bruke de gjenværende kredittene dine til de utløper.",
+      "timestamp": 1765582135
+    },
+    "month": {
+      "translation": "måned",
+      "timestamp": 1765582135
+    },
+    "year": {
+      "translation": "år",
+      "timestamp": 1765582135
+    },
+    "{quota} credits quota": {
+      "translation": "{quota} studiepoengskvote",
+      "timestamp": 1765582135
+    },
+    "{quota} credits quota per day": {
+      "translation": "{quota} kredittkvote per dag",
+      "timestamp": 1765582135
+    },
+    "{quota} quota credits": {
+      "translation": "{quota} kvotekreditter",
+      "timestamp": 1765582135
+    }
+  }
+}

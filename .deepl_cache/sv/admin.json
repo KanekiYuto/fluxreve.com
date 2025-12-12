@@ -1,0 +1,24 @@
+{
+  "entries": {
+    "Access Restricted": {
+      "translation": "Åtkomst begränsad",
+      "timestamp": 1765581935
+    },
+    "Back to Home": {
+      "translation": "Tillbaka till startsidan",
+      "timestamp": 1765581935
+    },
+    "If you believe this is an error, please contact the system administrator to request access.": {
+      "translation": "Om du tror att detta är ett fel, vänligen kontakta systemadministratören för att begära åtkomst.",
+      "timestamp": 1765581935
+    },
+    "Need Help?": {
+      "translation": "Behöver du hjälp?",
+      "timestamp": 1765581935
+    },
+    "Sorry, you don't have permission to access the admin dashboard. Only administrator accounts can access this page.": {
+      "translation": "Du har tyvärr inte behörighet att komma åt administratörspanelen. Endast administratörskonton har åtkomst till den här sidan.",
+      "timestamp": 1765581935
+    }
+  }
+}

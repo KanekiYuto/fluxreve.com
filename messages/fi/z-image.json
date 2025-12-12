@@ -1,0 +1,152 @@
+{
+  "cta": {
+    "note": "Luottokorttia ei tarvita, aloita rekisteröitymisellä",
+    "primary": "Aloita luominen nyt",
+    "secondary": "Katso hinnoittelu",
+    "subtitle": "Kokeile Z-Image nyt ja saat 8-vaiheisen päättelyn, alle sekunnin sukupolven nopeuden ja tarkan kaksikielisen tekstin renderöinnin.",
+    "title": "Oletko valmis kokemaan fotorealistisen tekoälyn avulla luodun kuvan?"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Z-Image saavuttaa johtavien kilpailijoiden kanssa vertailukelpoisen tai niitä paremman suorituskyvyn vain kahdeksalla askeleella, mikä tarjoaa alle sekunnin päättelylatenssin yritystason H800 näytönohjaimilla. Kuluttajalaitteilla, kuten RTX 3090 tai 4090, se kestää noin 2–3 sekuntia, ja keskitason näytönohjaimilla noin 4–5 sekuntia, vaatien vain 16 Gt:n VRAM.",
+        "question": "Kuinka nopea Z-Image sukupolvi on?"
+      },
+      {
+        "answer": "Z-Image renderöi tarkasti monimutkaisen kiinan- ja englanninkielisen tekstin säilyttäen samalla kasvojen realismin ja yleisen esteettisen sommittelun, ja tulokset ovat verrattavissa huippuluokan suljetun lähdekoodin malleihin. Julistesuunnittelussa se osoittaa vahvaa sommittelutaitoa ja typografista tajua, tuottaen korkealaatuista tekstiä jopa haastavissa tilanteissa, joissa käytetään pieniä fonttikokoja.",
+        "question": "Mitä etuja Z-Image:lla on tekstin renderöinnissä?"
+      },
+      {
+        "answer": "Prompt Enhancer (PE) käyttää strukturoituja päättelyketjuja logiikan ja maalaisjärjen lisäämiseen, jolloin malli pystyy ylittämään pinnallisen tason kuvaukset ja hyödyntämään taustalla olevaa maailmantietoa monimutkaisissa tehtävissä, kuten &quot;Kana ja kani -ongelmassa&quot; tai klassisen kiinalaisen runouden visualisoinnissa. Se voi päätellä taustalla olevan tarkoituksen loogisesti johdonmukaisten tulosten saavuttamiseksi, vaikka ohjeet olisivat epäselviä.",
+        "question": "Mikä on kehotteen parannusominaisuus?"
+      },
+      {
+        "answer": "Z-Image loistaa fotorealististen kuvien luomisessa ja yksityiskohtien, valaistuksen ja tekstuurien hienossa hallinnassa. Se tasapainottaa korkean tarkkuuden vahvaan esteettiseen laatuun sommittelussa ja yleisessä tunnelmassa. Luodut kuvat ovat paitsi realistisia myös visuaalisesti miellyttäviä.",
+        "question": "Millainen on Z-Image:n fotorealistinen laatu?"
+      },
+      {
+        "answer": "Z-Image käyttää skaalautuvaa yksivirtaista diffuusiomuuntajaa (S3-DiT). Teksti, visuaaliset semanttiset tunnukset ja kuvatunnukset VAE yhdistetään sekvenssitasolla yhtenäiseksi syötevirraksi Transformer-runkoverkkoon, mikä maksimoi parametrien tehokkuuden verrattuna kaksivirtaisiin lähestymistapoihin.",
+        "question": "Mitä arkkitehtuuria Z-Image käyttää?"
+      },
+      {
+        "answer": "Elo-pohjaisen Human Preference Evaluation -analyysin (Alibaba AI Arenalla) mukaan Z-Image osoittaa erittäin kilpailukykyistä suorituskykyä muihin johtaviin malleihin verrattuna ja samalla huippuluokan tuloksia avoimen lähdekoodin mallien joukossa.",
+        "question": "Miten Z-Image vertautuu muihin malleihin?"
+      }
+    ],
+    "subtitle": "Yleisiä kysymyksiä aiheesta Z-Image",
+    "title": "Usein kysytyt kysymykset"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Aloita luominen nyt",
+      "secondary": "Lue lisää"
+    },
+    "stats": {
+      "affordable": {
+        "label": "Kaksikielinen teksti"
+      },
+      "quality": {
+        "label": "Fotorealistinen laatu"
+      },
+      "speed": {
+        "label": "Alle toisen sukupolven"
+      }
+    },
+    "subtitle": "Koe fotorealistinen tekoälyllä toimiva kuvienluontipalvelu, jonka tehostaa Z-Image -malli ja jossa on tarkka kaksikielinen tekstin renderöinti. Tarjoamme alle sekunnin sukupolven nopeutta ja edullisen hinnoittelun, jotta ammattimainen tekoälyllä tehty kuvienluonti olisi kaikkien saatavilla.",
+    "title": {
+      "line1": "Z-Image",
+      "line2": "8-askeleen päättely, alle toisen sukupolven"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Kuvaile haluamaasi kuvaa yksinkertaisella tekstillä. Tukee englannin- ja kiinankielistä syöttöä.",
+        "title": "Kirjoita kehotteesi"
+      },
+      "step2": {
+        "description": "Valitse kuvan koko, säädä satunnaisia siemeniä ja muita parametreja mukauttaaksesi luomustasi.",
+        "title": "Valitse parametrit"
+      },
+      "step3": {
+        "description": "Napsauta Luo-painiketta, niin tekoäly luo sinulle kauniita kuvia sekunneissa.",
+        "title": "Napsauta Luo"
+      },
+      "step4": {
+        "description": "Kun olet luonut taideteoksesi, esikatsele, lataa tai jaa se.",
+        "title": "Lataa ja käytä"
+      }
+    },
+    "subtitle": "Neljä yksinkertaista vaihetta tekoälyyn perustuvan luovan matkan aloittamiseen",
+    "title": "Kuinka käyttää Z-Image?"
+  },
+  "seo": {
+    "description": "Fotorealistisia tekoälykuvia Z-Image -tekniikalla. Alle sekunnin sukupolven nopeus ja tarkka kiinan- ja englanninkielisen tekstin renderöinti. Edullinen hinta ammattilaisille.",
+    "title": "Z-Image - Fotorealistinen tekoälykuvien generaattori"
+  },
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Z-Image loistaa fotorealistisen kuvan luomisessa ja yksityiskohtien, valaistuksen ja tekstuurien hienosäätämisessä. Se säilyttää korkean tarkkuuden samalla, kun se osoittaa vahvaa esteettistä laatua sommittelussa ja yleisessä tunnelmassa.",
+        "title": "Fotorealistinen laatu"
+      },
+      "core2": {
+        "description": "Z-Image renderöi kiinan- ja englanninkielisen tekstin tarkasti säilyttäen kasvojen realismin ja yleisen esteettisen sommittelun, ja tulokset ovat verrattavissa huippuluokan suljetun lähdekoodin malleihin. Julistesuunnittelussa se osoittaa vahvoja sommittelutaitoja ja typografista tajua, tuottaen korkealaatuista tekstiä jopa haastavissa tilanteissa, joissa käytetään pieniä fonttikokoja.",
+        "title": "Tarkka kaksikielinen tekstin renderöinti"
+      },
+      "core3": {
+        "description": "Tehokas kehotteiden tehostaja (PE) käyttää strukturoituja päättelyketjuja logiikan ja maalaisjärjen lisäämiseen, minkä ansiosta malli pystyy käsittelemään monimutkaisia tehtäviä, kuten &quot;kana ja kani -ongelmaa&quot; tai visualisoimaan klassista kiinalaista runoutta. Muokkaustehtävissä, jopa epäselvien ohjeiden kanssa, malli voi päätellä taustalla olevan tarkoituksen loogisesti johdonmukaisten tulosten saavuttamiseksi.",
+        "title": "Kehotuksen ja päättelyn kehittäminen"
+      }
+    },
+    "demoPlaceholder": "Fotorealistinen tekoälykuvien luonti",
+    "description": "Z-Image on fotorealistinen tekoälyyn perustuva kuvanluontipalvelumme, joka perustuu edistyneeseen skaalautuvaan yksivirtaiseen diffuusiomuuntaja-arkkitehtuuriin. Tarjoamme nopeita, edullisia ja korkealaatuisia tekoälyyn perustuvia kuvanluontiratkaisuja, jotka tekevät ammattimaisesta luovasta työstä helppoa.",
+    "title": "Mikä on Z-Image?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Tukee tarkkaa kiinan- ja englanninkielisen tekstin renderöintiä, mikä sopii täydellisesti julisteiden suunnitteluun, mainosten luomiseen ja muuhun. Jopa pienikokoinen teksti renderöityy selkeästi ammattimaisia suunnitteluja varten.",
+        "title": "Tarkka tekstin renderöinti"
+      },
+      "flexibility": {
+        "description": "Palvelumme tarjoaa tehokkaat nopean ymmärtämisen ominaisuudet, jotka ymmärtävät tarkasti ja luovat odotettuja kuvia jopa monimutkaisista tai epäselvistä kuvauksista.",
+        "title": "Älykäs nopea ymmärtäminen"
+      },
+      "quality": {
+        "description": "Luoduissa kuvissa on fotorealistisia tehosteita, ja yksityiskohtia, valaistusta ja tekstuureja voidaan hallita tarkasti. Olipa kyseessä muotokuvia tai tuote-esittelyjä, saavutat erinomaisia visuaalisia tuloksia.",
+        "title": "Fotorealistinen laatu"
+      },
+      "security": {
+        "description": "Maksa käytön mukaan -malli läpinäkyvällä ja kohtuullisella hinnoittelulla. Alentaa merkittävästi luomiskustannuksiasi perinteisiin suunnittelupalveluihin verrattuna, tehden ammattimaisen tekoälyllä tehdyn kuvienluonnin kaikkien saataville.",
+        "title": "Edullinen hinnoittelu"
+      },
+      "speed": {
+        "description": "Palvelumme tarjoaa alle sekunnin nopeuden kuvien luomiseen, herättäen luovuutesi eloon välittömästi. Ei odottelua, täydellinen ammattimainen tekoälyllä tehty kuvienluonti milloin ja missä tahansa.",
+        "title": "Salamannopea sukupolvi"
+      },
+      "support": {
+        "description": "Ei vaadi ammattimaista suunnittelutaitoa. Kuvaile ideasi luonnollisella kielellä luodaksesi ammattimaisia tekoälykuvia. Luominen on kaikkien saatavilla.",
+        "title": "Helppokäyttöinen"
+      }
+    },
+    "comparison": {
+      "product": {
+        "item1": "Luo fotorealistisia kuvia alle sekunnissa",
+        "item2": "Suunnittelutaitoja ei tarvita - yksinkertaiset kuvaukset toimivat",
+        "item3": "Edullinen maksu käytön mukaan -hinnoittelu",
+        "item4": "Välitön luominen, rajattomat luovat mahdollisuudet",
+        "title": "Z-Image Sukupolvipalvelu"
+      },
+      "traditional": {
+        "item1": "Ammattimaisen kuvasuunnittelun valmistuminen vie tunteja tai päiviä",
+        "item2": "Vaatii kalliita ohjelmistolisenssejä ja ammattimaista suunnitteluosaamista",
+        "item3": "Korkeat kustannukset suunnittelijoiden palkkaamisesta tai edistyneiden suunnittelutyökalujen ostamisesta",
+        "item4": "Hitaat iteraatiosyklit tekevät luovasta kokeilusta epäkäytännöllistä",
+        "title": "Perinteinen kuvan luominen"
+      }
+    },
+    "subtitle": "Z-Image palvelumme tekee ammattimaisesta tekoälykuvien luonnista yksinkertaista ja tehokasta alle sekunnin sukupolven nopeudella, tarkalla tekstin renderöinnillä ja edullisella hinnalla.",
+    "title": "Miksi valita Z-Image -palvelumme?"
+  }
+}

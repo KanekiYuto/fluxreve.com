@@ -1,53 +1,53 @@
 {
   "empty": {
-    "active": "没有可用配额",
-    "activeDesc": "您目前没有可用配额。请购买配额以继续使用服务",
-    "expired": "没有过期配额",
-    "expiredDesc": "您没有过期配额记录"
+    "active": "目前没有可用配额",
+    "activeDesc": "您目前没有可用配额。请购买配额以继续使用此服务。",
+    "expired": "无过期配额",
+    "expiredDesc": "您没有过期的配额记录"
   },
   "loginRequired": {
-    "description": "登录以查看配额使用情况和历史记录",
+    "description": "登录查看您的配额使用情况和历史记录",
     "title": "登录查看配额"
   },
   "quotaTypes": {
     "daily_free": "每日免费配额",
-    "monthly_basic": "每月基本费用",
-    "monthly_pro": "专业月刊",
+    "monthly_basic": "月基本费用",
+    "monthly_pro": "月度专业版",
     "quota_pack": "配额包",
-    "subscription_change_compensation": "认购变更补偿",
-    "trial": "试用",
-    "yearly_basic": "每年基本",
-    "yearly_pro": "年度专业"
+    "subscription_change_compensation": "订阅变更补偿",
+    "trial": "审判",
+    "yearly_basic": "年度基本",
+    "yearly_pro": "年度专业版"
   },
   "seo": {
-    "description": "管理并查看可用配额的使用情况和历史记录",
+    "description": "管理和查看您的可用配额使用情况和历史记录",
     "title": "我的配额"
   },
   "stats": {
-    "consumed": "已消费",
-    "remaining": "剩余"
+    "consumed": "已消耗",
+    "remaining": "其余的"
   },
   "status": {
-    "active": "活跃",
+    "active": "积极的",
     "depleted": "耗尽"
   },
-  "subtitle": "管理和查看可用配额",
+  "subtitle": "管理和查看您的可用配额",
   "summary": {
-    "credits": "荣誉",
-    "title": "可用总数"
+    "credits": "鸣谢",
+    "title": "总可用"
   },
   "table": {
-    "amount": "金额",
-    "available": "可用",
-    "consumed": "已消费",
-    "expiresAt": "到期日",
-    "issuedAt": "发布于",
-    "noExpiry": "从不",
+    "amount": "数量",
+    "available": "可用的",
+    "consumed": "已消耗",
+    "expiresAt": "到期时间",
+    "issuedAt": "发布时间",
+    "noExpiry": "绝不",
     "type": "类型"
   },
   "tabs": {
-    "active": "活动配额",
-    "expired": "已过期"
+    "active": "有效配额",
+    "expired": "已到期"
   },
   "title": "我的配额"
 }

@@ -1,0 +1,37 @@
+{
+  "actions": {
+    "redirecting": "Uudelleenohjataan...",
+    "startUsing": "Aloita käyttö nyt",
+    "viewSubscription": "Näytä tilaus"
+  },
+  "autoRedirect": "Automaattinen uudelleenohjaus kojelautaan {seconds} sekunnin kuluttua...",
+  "description": "Kiitos tilauksestasi. Tilisi on päivitetty onnistuneesti, ja voit nyt nauttia kaikista premium-ominaisuuksista.",
+  "details": {
+    "amount": "Määrä",
+    "plan": "Suunnitelma",
+    "status": "Status",
+    "statusActive": "Aktiivinen",
+    "title": "Tilauksen tiedot"
+  },
+  "loading": "Ladataan...",
+  "nextSteps": {
+    "step1": "Käy kojelaudassasi tutustuaksesi kaikkiin käytettävissä oleviin ominaisuuksiin",
+    "step2": "Aloita tekoälygeneraattoreiden käyttö upeiden kuvien luomiseen",
+    "step3": "Näytä tilauksesi tiedot tilausten hallintasivulla",
+    "title": "Mitä seuraavaksi"
+  },
+  "notFound": "Tilausta ei löytynyt",
+  "planTypes": {
+    "monthly_basic": "Perus - Kuukausittainen",
+    "monthly_pro": "Pro - Kuukausittainen",
+    "trial": "Oikeudenkäynti",
+    "unknown": "Tuntematon suunnitelma",
+    "yearly_basic": "Perus - Vuosittainen",
+    "yearly_pro": "Pro - Vuosittainen"
+  },
+  "seo": {
+    "description": "Kiitos tilauksestasi! Tilisi on päivitetty onnistuneesti.",
+    "title": "Tilaus onnistui"
+  },
+  "title": "Tilaus onnistui!"
+}

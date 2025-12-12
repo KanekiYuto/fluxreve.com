@@ -1,41 +1,41 @@
 {
   "card": {
-    "amount": "认购金额",
+    "amount": "订阅金额",
     "canceledDate": "取消日期",
-    "customerId": "客户",
-    "expiryDate": "有效期",
+    "customerId": "顾客",
+    "expiryDate": "到期日",
     "manageButton": "管理订阅",
-    "nextBillingDate": "下一次账单日期",
-    "nextRenewal": "下一次更新转为",
+    "nextBillingDate": "下一个账单日期",
+    "nextRenewal": "下一次续订将切换到",
     "planTypes": {
-      "monthly_basic": "基本 - 每月",
-      "monthly_pro": "专业 - 每月",
-      "trial": "试用",
-      "yearly_basic": "基本 - 每年",
-      "yearly_pro": "专业 - 每年"
+      "monthly_basic": "基本 - 月付",
+      "monthly_pro": "专业版 - 月度",
+      "trial": "审判",
+      "yearly_basic": "基本 - 年度",
+      "yearly_pro": "专业版 - 年度版"
     },
     "platform": "支付平台",
     "startDate": "开始日期",
     "status": {
-      "active": "活跃",
-      "canceled": "已取消",
-      "expired": "已过期",
+      "active": "积极的",
+      "canceled": "取消",
+      "expired": "已到期",
       "paused": "暂停",
       "pending": "待付款"
     },
     "subscriptionId": "订阅"
   },
   "empty": {
-    "action": "查看定价计划",
-    "description": "您目前没有激活的订阅",
-    "title": "无订阅"
+    "action": "查看价格方案",
+    "description": "您目前没有任何有效的订阅。",
+    "title": "无需订阅"
   },
   "login": {
     "description": "登录以查看和管理您的订阅信息",
-    "title": "登录查看订阅"
+    "title": "登录查看订阅信息"
   },
   "seo": {
-    "description": "查看和管理订阅计划和账单信息",
+    "description": "查看和管理您的订阅计划和账单信息",
     "title": "订阅管理"
   },
   "subtitle": "查看和管理您的订阅信息",

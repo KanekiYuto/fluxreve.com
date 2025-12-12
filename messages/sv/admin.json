@@ -1,0 +1,9 @@
+{
+  "unauthorized": {
+    "backToHome": "Tillbaka till startsidan",
+    "description": "Du har tyvärr inte behörighet att komma åt administratörspanelen. Endast administratörskonton har åtkomst till den här sidan.",
+    "helpDescription": "Om du tror att detta är ett fel, vänligen kontakta systemadministratören för att begära åtkomst.",
+    "helpTitle": "Behöver du hjälp?",
+    "title": "Åtkomst begränsad"
+  }
+}

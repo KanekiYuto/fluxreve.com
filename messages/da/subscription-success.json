@@ -1,0 +1,37 @@
+{
+  "actions": {
+    "redirecting": "Omdirigerer...",
+    "startUsing": "Begynd at bruge nu",
+    "viewSubscription": "Se abonnement"
+  },
+  "autoRedirect": "Automatisk omdirigering til dashboard om {seconds} sekunder...",
+  "description": "Tak for dit abonnement. Din konto er blevet opgraderet, og du kan nu nyde alle premium-funktioner.",
+  "details": {
+    "amount": "Beløb",
+    "plan": "Plan",
+    "status": "Status",
+    "statusActive": "Aktiv",
+    "title": "Abonnementsoplysninger"
+  },
+  "loading": "Indlæser...",
+  "nextSteps": {
+    "step1": "Besøg dit dashboard for at udforske alle tilgængelige funktioner",
+    "step2": "Begynd at bruge AI-generatorer til at skabe fantastiske billeder",
+    "step3": "Se dine abonnementsoplysninger på siden for abonnementsadministration",
+    "title": "Hvad er det næste"
+  },
+  "notFound": "Abonnementet blev ikke fundet",
+  "planTypes": {
+    "monthly_basic": "Basis - Månedlig",
+    "monthly_pro": "Pro - Månedlig",
+    "trial": "Forsøg",
+    "unknown": "Ukendt plan",
+    "yearly_basic": "Basis - Årlig",
+    "yearly_pro": "Pro - Årlig"
+  },
+  "seo": {
+    "description": "Tak for din tilmelding! Din konto er blevet opgraderet",
+    "title": "Abonnementet er gennemført"
+  },
+  "title": "Abonnement gennemført!"
+}

@@ -1,0 +1,53 @@
+{
+  "empty": {
+    "active": "Ingen aktiv kvote tilgjengelig",
+    "activeDesc": "Du har for øyeblikket ingen tilgjengelig kvote. Vennligst kjøp kvote for å fortsette å bruke tjenesten.",
+    "expired": "Ingen utløpt kvote",
+    "expiredDesc": "Du har ingen utløpte kvoteposter"
+  },
+  "loginRequired": {
+    "description": "Logg inn for å se kvotebruken og historikken din",
+    "title": "Logg inn for å se kvote"
+  },
+  "quotaTypes": {
+    "daily_free": "Daglig gratis kvote",
+    "monthly_basic": "Månedlig basis",
+    "monthly_pro": "Månedlig proff",
+    "quota_pack": "Kvotepakke",
+    "subscription_change_compensation": "Kompensasjon for endring av abonnement",
+    "trial": "Rettssak",
+    "yearly_basic": "Årlig basis",
+    "yearly_pro": "Årlig Pro"
+  },
+  "seo": {
+    "description": "Administrer og se din tilgjengelige kvotebruk og -historikk",
+    "title": "Min kvote"
+  },
+  "stats": {
+    "consumed": "Forbrukt",
+    "remaining": "Gjenværende"
+  },
+  "status": {
+    "active": "Aktiv",
+    "depleted": "Uttømt"
+  },
+  "subtitle": "Administrer og se den tilgjengelige kvoten din",
+  "summary": {
+    "credits": "Studiepoeng",
+    "title": "Totalt tilgjengelig"
+  },
+  "table": {
+    "amount": "Beløp",
+    "available": "Tilgjengelig",
+    "consumed": "Forbrukt",
+    "expiresAt": "Utløper kl.",
+    "issuedAt": "Utstedt på",
+    "noExpiry": "Aldri",
+    "type": "Type"
+  },
+  "tabs": {
+    "active": "Aktiv kvote",
+    "expired": "Utløpt"
+  },
+  "title": "Min kvote"
+}

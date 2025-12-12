@@ -1,0 +1,80 @@
+{
+  "entries": {
+    "Canceled": {
+      "translation": "Peruutettu",
+      "timestamp": 1765582225
+    },
+    "Canceled Date": {
+      "translation": "Peruutettu päivämäärä",
+      "timestamp": 1765582225
+    },
+    "Customer": {
+      "translation": "Asiakas",
+      "timestamp": 1765582225
+    },
+    "Expiry Date": {
+      "translation": "Voimassaolopäivä",
+      "timestamp": 1765582225
+    },
+    "Log in to view and manage your subscription information": {
+      "translation": "Kirjaudu sisään tarkastellaksesi ja hallitaksesi tilaustietojasi",
+      "timestamp": 1765582225
+    },
+    "Login to View Subscriptions": {
+      "translation": "Kirjaudu sisään nähdäksesi tilaukset",
+      "timestamp": 1765582225
+    },
+    "Manage Subscription": {
+      "translation": "Hallinnoi tilausta",
+      "timestamp": 1765582225
+    },
+    "Next Billing Date": {
+      "translation": "Seuraava laskutuspäivä",
+      "timestamp": 1765582225
+    },
+    "Next renewal switches to": {
+      "translation": "Seuraava uusinta siirtyy",
+      "timestamp": 1765582225
+    },
+    "No Subscriptions": {
+      "translation": "Ei tilauksia",
+      "timestamp": 1765582225
+    },
+    "Paused": {
+      "translation": "Keskeytetty",
+      "timestamp": 1765582225
+    },
+    "Payment Platform": {
+      "translation": "Maksualusta",
+      "timestamp": 1765582225
+    },
+    "Pending Payment": {
+      "translation": "Maksu odottaa",
+      "timestamp": 1765582225
+    },
+    "Start Date": {
+      "translation": "Aloituspäivämäärä",
+      "timestamp": 1765582225
+    },
+    "Subscription Amount": {
+      "translation": "Tilausmäärä",
+      "timestamp": 1765582225
+    },
+    "Subscription Management": {
+      "translation": "Tilausten hallinta",
+      "timestamp": 1765582225
+    },
+    "View and manage your subscription information": {
+      "translation": "Tarkastele ja hallinnoi tilaustietojasi",
+      "timestamp": 1765582225
+    },
+    "View and manage your subscription plans and billing information": {
+      "translation": "Tarkastele ja hallinnoi tilauspakettejasi ja laskutustietojasi",
+      "timestamp": 1765582225
+    },
+    "You currently have no active subscriptions": {
+      "translation": "Sinulla ei ole tällä hetkellä aktiivisia tilauksia",
+      "timestamp": 1765582225
+    }
+  }
+}

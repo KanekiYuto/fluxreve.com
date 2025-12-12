@@ -1,0 +1,104 @@
+{
+  "entries": {
+    "About": {
+      "translation": "Om",
+      "timestamp": 1765582182
+    },
+    "Change": {
+      "translation": "Forandring",
+      "timestamp": 1765582182
+    },
+    "Connect your GitHub account to enable this login method.": {
+      "translation": "Forbind din GitHub konto for at aktivere denne loginmetode.",
+      "timestamp": 1765582182
+    },
+    "Connect your Google account to enable this login method.": {
+      "translation": "Forbind din Google konto for at aktivere denne loginmetode.",
+      "timestamp": 1765582182
+    },
+    "Connected": {
+      "translation": "Forbundet",
+      "timestamp": 1765582182
+    },
+    "Connected Accounts": {
+      "translation": "Forbundne konti",
+      "timestamp": 1765582182
+    },
+    "Copy": {
+      "translation": "Kopi",
+      "timestamp": 1765582182
+    },
+    "Edit": {
+      "translation": "Redigere",
+      "timestamp": 1765582182
+    },
+    "Email Address": {
+      "translation": "E-mailadresse",
+      "timestamp": 1765582182
+    },
+    "Email Notifications": {
+      "translation": "E-mail-notifikationer",
+      "timestamp": 1765582182
+    },
+    "Enable": {
+      "translation": "Aktivér",
+      "timestamp": 1765582182
+    },
+    "Manage your account settings and preferences": {
+      "translation": "Administrer dine kontoindstillinger og præferencer",
+      "timestamp": 1765582182
+    },
+    "Name": {
+      "translation": "Navn",
+      "timestamp": 1765582182
+    },
+    "Not set": {
+      "translation": "Ikke indstillet",
+      "timestamp": 1765582182
+    },
+    "Please sign in to access your settings and manage your account.": {
+      "translation": "Log venligst ind for at få adgang til dine indstillinger og administrere din konto.",
+      "timestamp": 1765582182
+    },
+    "Preferences": {
+      "translation": "Præferencer",
+      "timestamp": 1765582182
+    },
+    "Profile Information": {
+      "translation": "Profiloplysninger",
+      "timestamp": 1765582182
+    },
+    "Receive updates and notifications via email": {
+      "translation": "Modtag opdateringer og notifikationer via e-mail",
+      "timestamp": 1765582182
+    },
+    "Release Date": {
+      "translation": "Udgivelsesdato",
+      "timestamp": 1765582182
+    },
+    "Sign In Required": {
+      "translation": "Log ind påkrævet",
+      "timestamp": 1765582182
+    },
+    "Upgrade Plan": {
+      "translation": "Opgraderingsplan",
+      "timestamp": 1765582182
+    },
+    "Verified": {
+      "translation": "Bekræftet",
+      "timestamp": 1765582182
+    },
+    "Version": {
+      "translation": "Version",
+      "timestamp": 1765582182
+    },
+    "You can use your GitHub account to sign in to your account.": {
+      "translation": "Du kan bruge din GitHub konto til at logge ind på din konto.",
+      "timestamp": 1765582182
+    },
+    "You can use your Google account to sign in to your account.": {
+      "translation": "Du kan bruge din Google konto til at logge ind på din konto.",
+      "timestamp": 1765582182
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "comingSoon": {
+    "badge": "Kommer snart",
+    "defaultDescription": "Vi arbejder hårdt på at give dig fantastiske nye muligheder. Hold øje med opdateringer!",
+    "defaultTitle": "Spændende funktioner på vej",
+    "feature1Desc": "Avanceret teknologi",
+    "feature1Title": "Kraftfuld AI",
+    "feature2Desc": "Intelligent automatisering",
+    "feature2Title": "Smarte funktioner",
+    "feature3Desc": "Lynhurtige resultater",
+    "feature3Title": "Hurtig behandling",
+    "moreTools": {
+      "description": "Udforsk effektive billedværktøjer, herunder opskalering, forbedring, formatkonvertering og batchbehandling",
+      "title": "Flere billedværktøjer"
+    },
+    "progressHint": "Forventes at lanceres snart",
+    "progressLabel": "Udviklingsfremskridt"
+  },
+  "credits": {
+    "quota": "Kvota",
+    "refresh": "Opdater kvote"
+  },
+  "error": {
+    "credits": "Kreditter",
+    "current": "Strøm",
+    "generationFailed": "Generation mislykkedes",
+    "imageGenerationFailed": "Billedgenerering mislykkedes",
+    "insufficientCredits": "Utilstrækkelige kreditter",
+    "parameterError": "Parameterfejl",
+    "pleaseRecharge": "Genoplad venligst og prøv igen",
+    "promptRequired": "Indtast venligst en prompt",
+    "queryStatusFailed": "Forespørgselsstatus mislykkedes",
+    "required": "Påkrævet",
+    "subscribe": "Abonner",
+    "unableToQueryStatus": "Kan ikke forespørge om opgavestatus"
+  },
+  "examples": {
+    "clickToUse": "Klik for at bruge dette eksempel",
+    "description": "Klik på et eksempel nedenfor for at begynde at oprette, eller udfyld formularen til venstre for at tilpasse",
+    "goToExample": "Gå til eksempel {index}",
+    "noExamples": "Ingen eksempler tilgængelige",
+    "title": "Hurtig start",
+    "useExample": "Brug dette eksempel"
+  },
+  "form": {
+    "add": "Tilføje",
+    "addImageUrl": "Tilføj billed-URL",
+    "addItem": "Tilføj element",
+    "addLora": "Tilføj LoRA",
+    "advancedSettings": "Avancerede indstillinger",
+    "aspectRatio": "Billedformat",
+    "aspectRatioPlaceholder": "Vælg billedformat",
+    "aspectRatios": {
+      "16:9": "16:9 (Landskab)",
+      "1:1": "1:1 (Firkant)",
+      "21:9": "21:9 (Ultrawide)",
+      "3:4": "3:4 (Portræt)",
+      "4:3": "4:3 (Standard)",
+      "9:16": "9:16 (Portræt)"
+    },
+    "cancel": "Ophæve",
+    "clickAddLoraToStart": "Klik på knappen ovenfor for at tilføje LoRA konfigurationen",
+    "configuration": "Konfiguration",
+    "imageUrlPlaceholder": "Indtast billedets URL",
+    "loraConfig": "LoRA Konfiguration",
+    "loraConfigHint": "Indtast LoRA konfiguration i JSON-format, f.eks. modelnavn, vægt og andre parametre",
+    "mode": {
+      "imageToImage": "Billede til billede",
+      "textToImage": "Tekst til billede"
+    },
+    "noLoraConfigured": "Ingen LoRA konfigureret endnu",
+    "outputFormat": "Outputformat",
+    "outputFormatPlaceholder": "Vælg outputformat",
+    "privateMode": "Privat tilstand",
+    "privateModeDesc": "Resultaterne vil kun være synlige for dig",
+    "privateModeSubscriptionRequired": "Abonner for at aktivere privat tilstand",
+    "prompt": "Hurtig",
+    "promptPlaceholder": "Beskriv det billede, du ønsker at generere...",
+    "resolution": "Opløsning",
+    "resolutionPlaceholder": "Vælg opløsning",
+    "seed": "Frø",
+    "seedPlaceholder": "Lad være tomt for tilfældig",
+    "selectPlaceholder": "Vælg venligst",
+    "size": "Størrelse",
+    "sizePlaceholder": "Vælg billedstørrelse",
+    "status": {
+      "loading": "Indlæser..."
+    },
+    "steps": "Trin",
+    "uploadHint": "Tip: Du kan trække og slippe en fil eller klikke for at uploade",
+    "uploadImage": "Upload billede",
+    "uploading": "Uploader..."
+  },
+  "generate": {
+    "generateImage": "Generer billede (omkostningsnr. {credits} kvote)",
+    "generating": "Genererer... {progress}%"
+  },
+  "loading": {
+    "creating": "AI-skabelse",
+    "initializing": "Initialiserer",
+    "message": "Genererer fantastisk indhold til dig, vent venligst..."
+  },
+  "lora": {
+    "addLora": "Tilføj LoRA",
+    "cancel": "Ophæve",
+    "clickAddLoraToStart": "Klik på knappen &quot;Tilføj LoRA&quot; for at starte konfigurationen",
+    "clickToSelect": "Klik på et LoRA kort til venstre for at vælge",
+    "configuration": "Konfiguration",
+    "confirm": "Bekræfte",
+    "loading": "Indlæser...",
+    "loraConfig": "LoRA Konfiguration",
+    "loraConfigHint": "Indtast venligst en gyldig JSON-formatkonfiguration",
+    "manage": "Styre",
+    "modalSubtitle": "Vælg fra LoRA biblioteket og tilpas skalaen for at få personlige stilarter",
+    "modalTitle": "Vælg LoRA Model",
+    "noLoraAvailable": "Ingen LoRA tilgængelig",
+    "noLoraConfigured": "Ingen LoRA konfigureret",
+    "noLoraHint": "Opret eller importer venligst LoRA modeller først",
+    "noSearchResults": "Ingen matchende LoRA fundet",
+    "noSelectedLoras": "Ingen LoRA valgt",
+    "scale": "Skala",
+    "searchPlaceholder": "Søg efter LoRA navn, beskrivelse eller triggerord...",
+    "selectLora": "Vælg LoRA",
+    "selectMore": "Administrer LoRA",
+    "selectedCount": "{count} LoRA(er) valgt",
+    "selectedLoras": "Valgt"
+  },
+  "modelGroups": {
+    "flux": "Flux Serie",
+    "nano": "Nano-serien",
+    "seedream": "Seedream Series",
+    "zImage": "Z-Image Serie"
+  },
+  "models": {
+    "flux2Pro": {
+      "description": "Professionel billedgenereringsmodel, understøtter tekst-til-billede og billede-til-billede med output i høj kvalitet",
+      "tags": {
+        "highQuality": "Høj kvalitet",
+        "professional": "Professionel",
+        "versatile": "Alsidig"
+      }
+    },
+    "nanoBananaPro": {
+      "description": "Lynhurtig generering, optimeret til kreativt output i høj kvalitet med exceptionel hastighed",
+      "tags": {
+        "fast": "Hurtig",
+        "highQuality": "Høj kvalitet",
+        "latest": "Seneste"
+      }
+    },
+    "seedream": {
+      "description": "ByteDance Seedream 4.5, billedgenerering i ultrahøj kvalitet med høj opløsning",
+      "tags": {
+        "bytedance": "ByteDance",
+        "creative": "Kreativ",
+        "ultraHD": "Ultra HD"
+      }
+    },
+    "zImage": {
+      "description": "Fotorealistisk AI-billedgenerering med præcis tosproget tekstgengivelse, hastighed på under et sekund",
+      "tags": {
+        "affordable": "Fotorealistisk",
+        "quality": "Tekstgengivelse",
+        "ultraFast": "Undersekund"
+      }
+    },
+    "zImageLora": {
+      "description": "Z-Image Turbo LoRA version med brugerdefineret LoRA modelunderstøttelse til stiliserede kreationer",
+      "tags": {
+        "customizable": "Kan tilpasses",
+        "lora": "LoRA Støtte",
+        "stylized": "Stiliseret"
+      }
+    }
+  },
+  "page": {
+    "description": "Skab fantastisk indhold med kraftfulde AI-modeller",
+    "loading": "Indlæser...",
+    "title": "AI-generator"
+  },
+  "results": {
+    "completedTime": "Færdig tid",
+    "downloadAll": "Download alle ({count})",
+    "downloadCurrent": "Download nuværende",
+    "fileCount": "{count} fil(er)",
+    "generationTime": "Generationstid",
+    "prompt": "Hurtig",
+    "seconds": "{seconds}s",
+    "title": "Genererede resultater"
+  },
+  "seo": {
+    "description": "Skab fantastiske AI-genererede billeder med vores kraftfulde AI-billedgenereringsværktøj. Hurtigt, professionelt og nemt at bruge.",
+    "title": "AI-generator"
+  },
+  "tabs": {
+    "imageToImage": "Billede til billede",
+    "more": "Mere",
+    "textToImage": "Tekst til billede"
+  },
+  "tags": {
+    "art-gallery": "Kunstgalleri",
+    "currency": "Valuta",
+    "education": "Undervisning",
+    "film-style": "Filmstil",
+    "math": "Matematik",
+    "minimalist": "Minimalistisk",
+    "moody": "Humørsyg",
+    "photorealistic": "Fotorealistisk",
+    "portrait": "Portræt",
+    "professional": "Professionel",
+    "retro": "Retro",
+    "text-render": "Tekstgengivelse"
+  }
+}

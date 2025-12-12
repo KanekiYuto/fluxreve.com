@@ -1,0 +1,36 @@
+{
+  "card": {
+    "createdAt": "Luotu",
+    "viewDetail": "Näytä tiedot"
+  },
+  "createSimilar": "Luo samanlaisia",
+  "empty": {
+    "cta": "Aloita luominen",
+    "subtitle": "Ei vielä jaettuja julkisia taideteoksia. Ole ensimmäinen, joka jakaa luomuksesi!",
+    "title": "Ei vielä taideteoksia"
+  },
+  "errors": {
+    "fetchFailed": "Sisällön lataaminen epäonnistui, yritä uudelleen.",
+    "retry": "Yritä uudelleen"
+  },
+  "gallery": {
+    "loadMore": "Lataa lisää",
+    "loading": "Ladataan...",
+    "noMore": "Ei enää kohteita"
+  },
+  "header": {
+    "subtitle": "Tutustu yhteisömme upeisiin luomuksiin ja löydä inspiraatiosi",
+    "title": "Luova yhteisö"
+  },
+  "nsfw": {
+    "badge": "Arkaluontoinen sisältö",
+    "cancel": "Takaisin",
+    "confirm": "Olen yli 18-vuotias, näytä sisältö",
+    "description": "Tämä sisältö saattaa sisältää aikuisille suunnattua tai arkaluontoista materiaalia. Vahvista, että olet vähintään 18-vuotias ennen katselua.",
+    "warning": "Varoitus arkaluontoisesta sisällöstä"
+  },
+  "seo": {
+    "description": "Selaa yhteisömme jäsenten luomia kauniita tekoälyn luomia kuvia, inspiroidu ja löydä upeita taideteoksia",
+    "title": "Luova yhteisö - Tutustu upeaan tekoälytaiteeseen"
+  }
+}

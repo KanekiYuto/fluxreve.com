@@ -1,0 +1,63 @@
+{
+  "guestSubtitle": "Logg inn for å få tilgang til dashbordet ditt og begynne å lage",
+  "guestWelcome": "Velkommen til dashbordet",
+  "loginPrompt": {
+    "cta": "Logg inn nå",
+    "description": "Opprett en konto eller logg inn for å låse opp alle funksjoner, spore bruken din og administrere prosjektene dine.",
+    "features": {
+      "analytics": "Analyse og statistikk",
+      "analyticsDesc": "Se detaljert statistikk og ytelsesmålinger",
+      "projects": "Prosjektledelse",
+      "projectsDesc": "Organiser og administrer alle dine kreative prosjekter",
+      "quota": "Brukskvote",
+      "quotaDesc": "Spor generasjonskvoten og brukshistorikken din"
+    },
+    "title": "Logg inn for å få tilgang til dashbordet ditt"
+  },
+  "marketing": {
+    "description": "Oppgrader planen din for å få flere kreditter, ultrahøy oppløsning, batchgenerering og prioritert støtte.",
+    "learnMoreButton": "Lær mer",
+    "title": "Lås opp flere kraftige funksjoner",
+    "upgradeButton": "Oppgrader nå"
+  },
+  "quickActions": {
+    "newProject": "Nytt prosjekt",
+    "templates": "Maler",
+    "title": "Hurtigstart",
+    "tutorial": "Veiledning",
+    "uploadImage": "Last opp bilde"
+  },
+  "recent": {
+    "empty": {
+      "cta": "Generer nå",
+      "subtitle": "Begynn å generere ditt første bilde",
+      "title": "Ingen innhold generert denne uken"
+    },
+    "loading": "Laster inn...",
+    "subtitle": "Viser kun innhold fra forrige uke",
+    "title": "Nyere generasjoner",
+    "viewAll": "Vis alle"
+  },
+  "seo": {
+    "description": "Administrer dine AI-bildegenereringsprosjekter, spor bruk og få tilgang til alle funksjoner",
+    "title": "Dashbord"
+  },
+  "stats": {
+    "images": "Opplastede bilderessurser",
+    "projects": "Totalt antall prosjekter",
+    "quota": {
+      "expires": "utløper",
+      "remaining": "Gjenværende generasjonskvote",
+      "unlimited": "Ubegrenset generasjonskvote"
+    },
+    "templates": "Opprettede maler"
+  },
+  "subtitle": "Begynn å lage ditt fantastiske innhold",
+  "userType": {
+    "basic": "Grunnleggende",
+    "free": "Gratis",
+    "pro": "Proff",
+    "trial": "Rettssak"
+  },
+  "welcome": "Velkommen tilbake, {name}"
+}

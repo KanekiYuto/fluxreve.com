@@ -1,0 +1,49 @@
+{
+  "discordBanner": {
+    "closeLabel": "Nära",
+    "description": "Få de senaste uppdateringarna, exklusiva förmåner och gratisbonusar",
+    "joinButton": "Gå med nu",
+    "title": "Gå med i vår Discord-gemenskap"
+  },
+  "language": "Språk",
+  "loading": "Belastning...",
+  "loginRequired": {
+    "buttonText": "Logga in nu",
+    "description": "Logga in för att få tillgång till alla funktioner",
+    "title": "Logga in för att fortsätta"
+  },
+  "navigation": {
+    "ai-generator": "AI-generator",
+    "company": "Företag",
+    "content": "Innehåll",
+    "dashboard": "Instrumentpanel",
+    "explore": "Kreativ gemenskap",
+    "flux-2-pro": "Flux 2 Pro",
+    "flux2ProDesc": "Professionell AI-bildgenerering med dubbla lägen",
+    "help": "Hjälp",
+    "home": "Hem",
+    "main": "Huvudsaklig",
+    "models": "AI-modeller",
+    "more": "Mer",
+    "nano-banana-pro": "Nano Banana Pro",
+    "nanoBananaProDesc": "Avancerad Nano Banana bildgenerering",
+    "nav": "Navigering",
+    "pricing": "Prissättning",
+    "privacy": "Integritetspolicy",
+    "quota": "Kvot",
+    "seedreamV45": "Seedream 4.5",
+    "seedreamV45Desc": "ByteDance 2K HD bildgenerering",
+    "settings": "Inställningar",
+    "subscription": "Prenumeration",
+    "tasks": "Historia",
+    "terms": "Användarvillkor",
+    "user": "Användare",
+    "z-image": "Z-Image",
+    "zImageDesc": "Avancerad AI-bildgenerering och -redigering"
+  },
+  "seo": {
+    "description": "Skapa högkvalitativa professionella bilder på några sekunder med AI-driven bildgenerering. Enkla, snabba och kraftfulla verktyg för artificiell intelligens.",
+    "keywords": "AI-bildgenerering, AI-konst, bildskapare, AI-verktyg, professionella bilder",
+    "title": "{siteName} - AI-bildgenereringsverktyg"
+  }
+}

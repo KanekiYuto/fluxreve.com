@@ -1,0 +1,152 @@
+{
+  "cta": {
+    "note": "Ingen kredittkort nødvendig, start med registrering",
+    "primary": "Begynn å lage nå",
+    "secondary": "Se priser",
+    "subtitle": "Prøv Z-Image nå for 8-trinns inferens, generasjonshastighet på under et sekund og nøyaktig tospråklig tekstgjengivelse",
+    "title": "Klar til å oppleve fotorealistisk AI-bildegenerering?"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Z-Image oppnår ytelse som er sammenlignbar med eller overgår ledende konkurrenter med bare 8 trinn, og leverer inferensforsinkelse på under et sekund på GPU-er i bedriftsklassen H800. På forbrukerenheter som RTX 3090 eller 4090 tar det omtrent 2–3 sekunder, og kort i mellomklassen tar omtrent 4–5 sekunder, og krever bare 16G VRAM.",
+        "question": "Hvor rask er Z-Image generasjonen?"
+      },
+      {
+        "answer": "Z-Image gjengir nøyaktig kompleks kinesisk og engelsk tekst samtidig som den opprettholder ansiktsrealisme og generell estetisk komposisjon, med resultater som kan sammenlignes med toppmodeller med lukket kildekode. I plakatdesign demonstrerer den sterke komposisjonsevner og typografisk sans, og leverer tekst av høy kvalitet selv i utfordrende situasjoner med små skriftstørrelser.",
+        "question": "Hvilke fordeler har Z-Image innen tekstgjengivelse?"
+      },
+      {
+        "answer": "Prompt Enhancer (PE) bruker strukturerte resonneringskjeder for å injisere logikk og sunn fornuft, slik at modellen kan overskride overflatebeskrivelser og benytte seg av underliggende verdenskunnskap for komplekse oppgaver som «Kylling og kanin-problemet» eller visualisering av klassisk kinesisk poesi. Selv med tvetydige instruksjoner kan den utlede underliggende intensjon for logisk sammenhengende resultater.",
+        "question": "Hva er funksjonen for forbedring av spørsmål?"
+      },
+      {
+        "answer": "Z-Image utmerker seg ved fotorealistisk bildegenerering med fin kontroll over detaljer, belysning og teksturer. Den balanserer høy gjengivelse med sterk estetisk kvalitet i komposisjon og generell stemning. Genererte bilder er ikke bare realistiske, men også visuelt tiltalende.",
+        "question": "Hvordan er den fotorealistiske kvaliteten på Z-Image?"
+      },
+      {
+        "answer": "Z-Image bruker en skalerbar enkeltstrømsdiffusjonstransformator (S3-DiT)-arkitektur. Tekst, visuelle semantiske tokener og bildetokener er sammenkoblet på sekvensnivå for å fungere som en enhetlig inndatastrøm inn i transformatorens ryggrad, noe som maksimerer parametereffektiviteten sammenlignet med tostrømsmetoder.",
+        "question": "Hvilken arkitektur bruker Z-Image?"
+      },
+      {
+        "answer": "I følge Elo-basert Human Preference Evaluation (på Alibaba AI Arena), viser Z-Image svært konkurransedyktig ytelse mot andre ledende modeller, samtidig som den oppnår toppmoderne resultater blant modeller med åpen kildekode.",
+        "question": "Hvordan er Z-Image sammenlignet med andre modeller?"
+      }
+    ],
+    "subtitle": "Vanlige spørsmål om Z-Image",
+    "title": "Ofte stilte spørsmål"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Begynn å lage nå",
+      "secondary": "Lær mer"
+    },
+    "stats": {
+      "affordable": {
+        "label": "Tospråklig tekst"
+      },
+      "quality": {
+        "label": "Fotorealistisk kvalitet"
+      },
+      "speed": {
+        "label": "Sub-andre generasjon"
+      }
+    },
+    "subtitle": "Opplev fotorealistisk AI-bildegenereringstjeneste drevet av Z-Image-modellen, med nøyaktig tospråklig tekstgjengivelse. Vi tilbyr hastighet på under en sekund og rimelige priser for å gjøre profesjonell AI-bildegenerering tilgjengelig for alle.",
+    "title": {
+      "line1": "Z-Image",
+      "line2": "8-trinns inferens, subsekundsgenerasjon"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Beskriv bildet du ønsker i enkel tekst. Støtter engelsk og kinesisk inndata.",
+        "title": "Skriv inn spørringen din"
+      },
+      "step2": {
+        "description": "Velg bildestørrelse, juster tilfeldig frø og andre parametere for å tilpasse kreasjonen din.",
+        "title": "Velg parametere"
+      },
+      "step3": {
+        "description": "Klikk på generer-knappen, så vil AI lage vakre bilder for deg på sekunder.",
+        "title": "Klikk på Generer"
+      },
+      "step4": {
+        "description": "Når kunstverket er generert, kan du forhåndsvise det, laste det ned eller dele det.",
+        "title": "Last ned og bruk"
+      }
+    },
+    "subtitle": "Fire enkle trinn for å starte din kreative AI-reise",
+    "title": "Hvordan bruke Z-Image?"
+  },
+  "seo": {
+    "description": "Fotorealistiske AI-bilder med Z-Image. Hastighet på under en sekund generasjon med nøyaktig gjengivelse av kinesisk og engelsk tekst. Rimelige priser for profesjonelle.",
+    "title": "Z-Image - Fotorealistisk AI-bildegenerator"
+  },
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Z-Image utmerker seg ved fotorealistisk bildegenerering med fin kontroll over detaljer, belysning og teksturer. Den opprettholder høy gjengivelse samtidig som den demonstrerer sterk estetisk kvalitet i komposisjon og generell stemning.",
+        "title": "Fotorealistisk kvalitet"
+      },
+      "core2": {
+        "description": "Z-Image gjengir nøyaktig kinesisk og engelsk tekst samtidig som den bevarer ansiktsrealismen og den generelle estetiske komposisjonen, med resultater som kan sammenlignes med toppmodeller med lukket kildekode. I plakatdesign demonstrerer den sterke komposisjonsevner og typografisk sans, og leverer tekst av høy kvalitet selv i utfordrende situasjoner med små skriftstørrelser.",
+        "title": "Nøyaktig tospråklig tekstgjengivelse"
+      },
+      "core3": {
+        "description": "Kraftig Prompt Enhancer (PE) bruker strukturerte resonneringskjeder for å introdusere logikk og sunn fornuft, slik at modellen kan håndtere komplekse oppgaver som «Kylling og kanin-problemet» eller visualisere klassisk kinesisk poesi. I redigeringsoppgaver, selv med tvetydige instruksjoner, kan modellen utlede underliggende intensjon for logisk sammenhengende resultater.",
+        "title": "Rask forbedring og resonnering"
+      }
+    },
+    "demoPlaceholder": "Fotorealistisk AI-bildegenerering",
+    "description": "Z-Image er vår fotorealistiske AI-bildegenereringstjeneste, basert på avansert skalerbar enkeltstrømsdiffusjonstransformatorarkitektur. Vi tilbyr raske, rimelige og høykvalitets AI-bildegenereringsløsninger for å gjøre profesjonell skapelse tilgjengelig.",
+    "title": "Hva er Z-Image?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Støtter nøyaktig gjengivelse av kinesisk og engelsk tekst, perfekt for plakatdesign, reklameproduksjon og mer. Selv tekst i liten størrelse gjengis tydelig for profesjonelle design.",
+        "title": "Nøyaktig tekstgjengivelse"
+      },
+      "flexibility": {
+        "description": "Tjenesten vår har kraftige funksjoner for rask forståelse, og kan nøyaktig forstå og generere forventede bilder selv fra komplekse eller tvetydige beskrivelser.",
+        "title": "Intelligent spørsmålsforståelse"
+      },
+      "quality": {
+        "description": "Genererte bilder har fotorealistiske effekter med fin kontroll over detaljer, belysning og teksturer. Enten det er portretter eller produktutstillinger, oppnår du utmerkede visuelle resultater.",
+        "title": "Fotorealistisk kvalitet"
+      },
+      "security": {
+        "description": "Betal etter bruk-modell med transparent og rimelig prising. Reduserer produksjonskostnadene dine betydelig sammenlignet med tradisjonelle designtjenester, noe som gjør profesjonell AI-bildeproduksjon tilgjengelig for alle.",
+        "title": "Rimelige priser"
+      },
+      "speed": {
+        "description": "Tjenesten vår gir rask bildegenerering på under et sekund, noe som gir liv til kreativiteten din umiddelbart. Ingen venting, komplett profesjonell AI-bildeproduksjon når som helst og hvor som helst.",
+        "title": "Lynrask generasjon"
+      },
+      "support": {
+        "description": "Ingen profesjonelle designferdigheter kreves. Bare beskriv ideene dine på naturlig språk for å generere profesjonelle AI-bilder. Gjør kreativiteten tilgjengelig for alle.",
+        "title": "Enkel å bruke"
+      }
+    },
+    "comparison": {
+      "product": {
+        "item1": "Generer fotorealistiske bilder på under sekunder",
+        "item2": "Ingen designferdigheter nødvendig – enkle beskrivelser fungerer",
+        "item3": "Rimelige betal-etter-bruk-priser",
+        "item4": "Øyeblikkelig generering, ubegrensede kreative muligheter",
+        "title": "Z-Image Generasjonstjeneste"
+      },
+      "traditional": {
+        "item1": "Tar timer eller dager å fullføre profesjonell bildedesign",
+        "item2": "Krever dyre programvarelisenser og profesjonell designkunnskap",
+        "item3": "Høye kostnader for å ansette designere eller kjøpe avanserte designverktøy",
+        "item4": "Langsomme iterasjonssykluser gjør kreativ eksperimentering upraktisk",
+        "title": "Tradisjonell bildeoppretting"
+      }
+    },
+    "subtitle": "Vår Z-Image-tjeneste gjør profesjonell AI-bildeproduksjon enkel og effektiv med hastighet på under en sekund, nøyaktig tekstgjengivelse og rimelige priser.",
+    "title": "Hvorfor velge vår Z-Image-tjeneste?"
+  }
+}

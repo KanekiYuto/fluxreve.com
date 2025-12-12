@@ -1,0 +1,43 @@
+{
+  "contact": {
+    "description": "Etkö löydä etsimääsi? Ota yhteyttä tukitiimiimme, niin otamme sinuun yhteyttä mahdollisimman pian.",
+    "email": "Ota yhteyttä tukeen",
+    "title": "Tarvitsetko apua?"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Aloittaminen on helppoa! Siirry vain tekoälygeneraattorin sivulle, kirjoita kehotteeseesi kuvaus siitä, mitä haluat luoda, valitse haluamasi asetukset ja napsauta luo-painiketta. Tekoälyn luoma kuva on valmis sekunneissa.",
+        "question": "Miten pääsen alkuun tekoälygeneraattorin kanssa?"
+      },
+      {
+        "answer": "Tuemme kaikkia yleisiä kuvamuotoja, mukaan lukien PNG, JPG ja WebP. Voit ladata luomasi kuvat tarpeisiisi parhaiten sopivassa muodossa.",
+        "question": "Mitä kuvamuotoja tuetaan?"
+      },
+      {
+        "answer": "Luotavien kuvien määrä riippuu krediittikiintiöstäsi. Ilmaisversion käyttäjät saavat 30 krediittiä päivässä, perusversion tilaajat 1 500 krediittiä kuukaudessa ja Pro-version tilaajat 7 500 krediittiä kuukaudessa. Katso lisätietoja hinnoittelusivultamme.",
+        "question": "Kuinka monta kuvaa voin luoda?"
+      },
+      {
+        "answer": "Kyllä! Sekä Basic- että Pro-tilaajat saavat kaupallisen käytön lisenssin. Ilmaistilauksen käyttäjät voivat käyttää luotuja kuvia vain henkilökohtaisiin projekteihin.",
+        "question": "Voinko käyttää luotuja kuvia kaupallisesti?"
+      },
+      {
+        "answer": "Jos luonti epäonnistuu, kokeile ensin sivun päivittämistä ja uudelleenyritystä. Varmista, että kehotteesi on selkeä ja kuvaava. Jos ongelmat jatkuvat, ota yhteyttä tukitiimiimme ja kerro ongelmasta tarkemmin.",
+        "question": "Mitä minun pitäisi tehdä, jos sukupolvi epäonnistuu?"
+      },
+      {
+        "answer": "Parempien tulosten saavuttamiseksi yritä olla täsmällinen ja yksityiskohtainen kehotteissasi. Sisällytä tietoa tyylistä, väreistä, sommittelusta ja tunnelmasta. Kokeile eri malleja ja asetuksia löytääksesi tarpeisiisi parhaiten sopivan.",
+        "question": "Miten voin parantaa sukupolvieni tuloksia?"
+      }
+    ],
+    "subtitle": "Löydä vastauksia usein kysyttyihin kysymyksiin tekoälykuvien luontialustamme käytöstä",
+    "title": "Usein kysytyt kysymykset"
+  },
+  "seo": {
+    "description": "Löydä vastauksia yleisiin kysymyksiin ja saat tukea {siteName} tekoälykuvien luontialustalle",
+    "title": "Ohjekeskus"
+  },
+  "subtitle": "Löydä vastauksia yleisiin kysymyksiin ja hae tukea",
+  "title": "Ohjekeskus"
+}

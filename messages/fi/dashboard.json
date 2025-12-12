@@ -1,0 +1,63 @@
+{
+  "guestSubtitle": "Kirjaudu sisään päästäksesi hallintapaneeliisi ja aloittaaksesi luomisen",
+  "guestWelcome": "Tervetuloa kojelautaan",
+  "loginPrompt": {
+    "cta": "Kirjaudu sisään nyt",
+    "description": "Luo tili tai kirjaudu sisään saadaksesi käyttöösi kaikki ominaisuudet, seurataksesi käyttöäsi ja hallitaksesi projektejasi.",
+    "features": {
+      "analytics": "Analytiikka ja tilastot",
+      "analyticsDesc": "Tarkastele yksityiskohtaisia tilastoja ja suorituskykymittareita",
+      "projects": "Projektinhallinta",
+      "projectsDesc": "Järjestä ja hallinnoi kaikkia luovia projektejasi",
+      "quota": "Käyttökiintiö",
+      "quotaDesc": "Seuraa tuotantokiintiötäsi ja käyttöhistoriaasi"
+    },
+    "title": "Kirjaudu sisään käyttääksesi hallintapaneeliasi"
+  },
+  "marketing": {
+    "description": "Päivitä sopimuksesi saadaksesi enemmän krediittejä, erittäin korkean resoluution, erägeneroinnin ja priorisoidun tuen.",
+    "learnMoreButton": "Lue lisää",
+    "title": "Avaa tehokkaampia ominaisuuksia",
+    "upgradeButton": "Päivitä nyt"
+  },
+  "quickActions": {
+    "newProject": "Uusi projekti",
+    "templates": "Mallit",
+    "title": "Pika-aloitus",
+    "tutorial": "Opastus",
+    "uploadImage": "Lataa kuva"
+  },
+  "recent": {
+    "empty": {
+      "cta": "Luo nyt",
+      "subtitle": "Aloita ensimmäisen kuvasi luominen",
+      "title": "Ei sisältöä tällä viikolla"
+    },
+    "loading": "Ladataan...",
+    "subtitle": "Näytetään vain viime viikon sisältö",
+    "title": "Viimeaikaiset sukupolvet",
+    "viewAll": "Näytä kaikki"
+  },
+  "seo": {
+    "description": "Hallitse tekoälykuvien luontiprojektejasi, seuraa käyttöä ja käytä kaikkia ominaisuuksia",
+    "title": "Kojelauta"
+  },
+  "stats": {
+    "images": "Ladatut kuvaresurssit",
+    "projects": "Projektien kokonaismäärä",
+    "quota": {
+      "expires": "vanhenee",
+      "remaining": "Jäljellä oleva tuotantokiintiö",
+      "unlimited": "Rajoittamaton sukupolvikiintiö"
+    },
+    "templates": "Luodut mallit"
+  },
+  "subtitle": "Aloita upean sisällön luominen",
+  "userType": {
+    "basic": "Perus",
+    "free": "Ilmainen",
+    "pro": "Ammattilainen",
+    "trial": "Oikeudenkäynti"
+  },
+  "welcome": "Tervetuloa takaisin, {name}"
+}

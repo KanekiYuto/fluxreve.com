@@ -4,47 +4,47 @@
     "createSimilar": "创建相似图像",
     "downloadAll": "下载所有图片",
     "downloadCard": "下载分享卡",
-    "downloadCurrent": "下载当前图片",
-    "linkCopied": "复制的",
-    "moreActions": "更多行动",
+    "downloadCurrent": "下载当前图像",
+    "linkCopied": "已复制",
+    "moreActions": "更多操作",
     "share": "分享",
-    "shareToX": "分享到 X"
+    "shareToX": "分享至 X"
   },
   "details": {
     "aiModel": "人工智能模型",
     "aspectRatio": "宽高比",
     "copyPrompt": "复制提示",
-    "generationResults": "人工智能图像生成结果",
-    "imageAlt": "图片",
-    "imagePreview": "人工智能生成的高清图像预览",
+    "generationResults": "AI图像生成结果",
+    "imageAlt": "图像",
+    "imagePreview": "AI生成的高清图像预览",
     "nextImage": "下一张图片",
-    "parametersInfo": "发电参数和模型信息",
+    "parametersInfo": "生成参数和模型信息",
     "previousImage": "上一张图片",
-    "prompt": "提示",
-    "promptCopied": "复制的",
+    "prompt": "迅速的",
+    "promptCopied": "已复制",
     "referenceImage": "输入图像",
     "referenceImages": "输入图像",
-    "resolution": "决议"
+    "resolution": "解决"
   },
   "metadata": {
-    "descriptionPrefix": "使用 {model} AI 模型生成的高质量图像。提示：",
-    "ogDescriptionPrefix": "{model} AI 生成 | 生成"
+    "descriptionPrefix": "使用 {model} AI 模型生成的高质量图像。提示： ",
+    "ogDescriptionPrefix": "{model} 人工智能生成 | "
   },
   "notFound": {
-    "createButton": "创建 AI 艺术品",
-    "description": "该共享内容可能已被创建者删除、设置为非公开、链接可能已过期，或者您可能访问了错误的地址",
+    "createButton": "创作人工智能艺术作品",
+    "description": "此共享内容可能已被创建者删除、设置为私有、链接已过期，或者您可能访问了错误的地址。",
     "homeButton": "返回首页",
     "title": "未找到内容"
   },
   "nsfw": {
-    "description": "本内容可能包含成人或敏感内容。建议观众谨慎观看",
+    "description": "本内容可能包含成人或敏感内容，敬请观众酌情观看。",
     "imageAlt": "人工智能生成的图像",
-    "reveal": "我已年满 18 岁, 查看内容",
+    "reveal": "我已年满18岁，查看内容",
     "warning": "敏感内容警告"
   },
   "processing": {
-    "description": "人工智能正在创建当前艺术品，这通常需要几分钟时间",
-    "tip": "请稍后刷新页面以查看结果",
-    "title": "生成..."
+    "description": "人工智能正在创作当前的艺术作品，这通常需要几分钟时间。",
+    "tip": "请稍后刷新页面查看结果",
+    "title": "正在生成..."
   }
 }

@@ -1,0 +1,53 @@
+{
+  "cta": {
+    "buttons": {
+      "freeTrial": "Ilmainen kokeilu",
+      "viewPricing": "Katso hinnoittelu"
+    },
+    "description": "Liity tuhansien luovien joukkoon, jotka hyödyntävät tekoälyn voimaa herättääkseen ideasi eloon",
+    "note": "Ei vaadi luottokorttia · Aloita käyttö nyt",
+    "title": "Aloita luominen nyt"
+  },
+  "features": {
+    "items": [
+      {
+        "description": "Tehokkaat tekoälyalgoritmit tuottavat korkealaatuisia kuvia sekunneissa, mikä parantaa merkittävästi luovaa tehokkuutta.",
+        "title": "Nopea sukupolvi"
+      },
+      {
+        "description": "Huippuluokan tekoälymallien avulla tuotetaan ammattitason kuvanlaatua, joka vastaa erilaisiin luoviin tarpeisiin.",
+        "title": "Ammattimainen laatu"
+      },
+      {
+        "description": "Runsaat parametriasetukset ja tyylivaihtoehdot antavat sinun hallita tarkasti kuvan luomisen jokaista yksityiskohtaa.",
+        "title": "Joustava hallinta"
+      },
+      {
+        "description": "Intuitiivinen käyttöliittymä ei vaadi asiantuntemusta, joten kuka tahansa voi helposti luoda kauniita kuvia.",
+        "title": "Helppokäyttöinen"
+      }
+    ],
+    "sectionDescription": "Yhdistää tehokkaan tekoälyteknologian selkeään käyttökokemukseen, mikä tekee kuvien luomisesta helpompaa kuin koskaan",
+    "sectionTitle": "Miksi valita meidät"
+  },
+  "hero": {
+    "buttons": {
+      "startCreate": "Aloita luominen",
+      "viewPricing": "Katso hinnoittelu"
+    },
+    "description": "Kuvaile vain, mitä haluat, ja saat upeita ammattitason kuvia. Suunnittelutaitoja ei tarvita – kuka tahansa voi olla luoja.",
+    "features": {
+      "easyToUse": "Helppokäyttöinen",
+      "fastGeneration": "Nopea sukupolvi",
+      "highQuality": "Korkealaatuinen tulostusjälki"
+    },
+    "title": {
+      "line1": "Tee ideoista totta hetkessä",
+      "line2": "Tekoälyllä toimiva ammattimainen kuvien luonti"
+    }
+  },
+  "metadata": {
+    "description": "Käyttämällä edistynyttä tekoälyteknologiaa voit luoda nopeasti korkealaatuisia ammattimaisia kuvia. Tekoälyllä luotujen kuvien luominen on yksinkertaista ja tehokasta.",
+    "title": "{siteName} - Tekoälykuvien luontityökalu | Luo ammattimaisia kuvia nopeasti"
+  }
+}

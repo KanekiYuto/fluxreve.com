@@ -1,0 +1,111 @@
+{
+  "childrenPrivacy": {
+    "content": "Våra tjänster riktar sig inte till personer under 13 år (eller motsvarande minimiålder i din jurisdiktion). Vi samlar inte medvetet in personuppgifter från barn. Om vi blir medvetna om att vi har samlat in uppgifter från ett barn utan vederbörligt samtycke kommer vi att vidta åtgärder för att omedelbart radera dem.",
+    "title": "Barns integritet"
+  },
+  "contact": {
+    "email": "E-post",
+    "intro": "Om du har frågor, funderingar eller förfrågningar angående denna integritetspolicy eller våra databehandlingsrutiner, vänligen kontakta oss på:",
+    "title": "Kontakta oss"
+  },
+  "cookies": {
+    "intro": "Vi använder cookies och liknande tekniker för att förbättra din upplevelse:",
+    "items": [
+      "Nödvändiga cookies: Krävs för grundläggande tjänstfunktionalitet och autentisering",
+      "Preferenscookies: Kom ihåg dina inställningar och personaliseringsval",
+      "Analyscookies: Hjälper oss att förstå användningsmönster och förbättra våra tjänster",
+      "Marknadsföringscookies: Leverera relevant innehåll och mäta kampanjers effektivitet (med ditt samtycke)"
+    ],
+    "note": "Du kan styra cookieinställningarna via dina webbläsarinställningar. Observera att inaktivering av vissa cookies kan begränsa funktionaliteten hos våra tjänster.",
+    "title": "Cookies och spårningstekniker"
+  },
+  "dataCollection": {
+    "automaticInfo": {
+      "items": [
+        "Enhetsdata: enhetstyp, operativsystem, webbläsarversion, unika enhetsidentifierare",
+        "Användningsinformation: aktiverade funktioner, genererade bilder, interaktionsmönster",
+        "Loggdata: IP-adress, åtkomsttider, visade sidor, hänvisande URL:er",
+        "Cookies och spårningstekniker för analys och funktionalitet"
+      ],
+      "title": "Automatiskt insamlad information"
+    },
+    "intro": "Vi kan komma att samla in olika typer av information för att tillhandahålla och förbättra våra tjänster:",
+    "providedInfo": {
+      "items": [
+        "Kontoinformation: e-postadress, användarnamn, lösenord",
+        "Profildata: visningsnamn, avatar, biografi",
+        "Betalningsuppgifter: faktureringsinformation, transaktionshistorik",
+        "Kommunikationsdata: feedback, supportförfrågningar eller andra meddelanden som du skickar till oss"
+      ],
+      "title": "Information du tillhandahåller"
+    },
+    "title": "Information vi samlar in",
+    "userContent": {
+      "description": "Innehåll som du skapar med våra tjänster, inklusive AI-genererade bilder, textmeddelanden, uppladdade bilder och projektdata. Vi kan komma att lagra detta innehåll tillfälligt för att tillhandahålla våra tjänster och kan komma att använda det för att förbättra våra AI-modeller, med ditt samtycke.",
+      "title": "Användargenererat innehåll"
+    }
+  },
+  "dataSharing": {
+    "intro": "Vi säljer inte dina personuppgifter. Vi får endast dela dina uppgifter under följande omständigheter:",
+    "items": [
+      "Med ditt uttryckliga samtycke eller på din anvisning",
+      "Med betrodda tjänsteleverantörer som hjälper till med driften av vår plattform (molnhosting, betalningshantering, analys)",
+      "Med leverantörer av AI-modeller för att behandla dina generationsförfrågningar, under strikta dataskyddsavtal",
+      "För att följa rättsliga skyldigheter, domstolsbeslut eller giltiga myndighetsförfrågningar",
+      "För att skydda våra rättigheter, egendom, säkerhet eller våra användares och allmänhetens rättigheter",
+      "I samband med en fusion, ett förvärv eller en försäljning av tillgångar, där information kan överföras som en affärstillgång"
+    ],
+    "title": "Informationsdelning och utlämnande"
+  },
+  "dataStorage": {
+    "duration": "Lagringsperiod: Vi lagrar dina personuppgifter endast så länge som det är nödvändigt för att uppfylla de syften som anges i denna policy eller enligt lag. Genererat innehåll kan komma att lagras baserat på dina kontoinställningar och prenumerationstyp.",
+    "location": "Lagringsplats: Din information lagras på säkra servrar i olika regioner globalt för att säkerställa optimal serviceprestanda och tillförlitlighet. Vi använder branschledande leverantörer av molninfrastruktur.",
+    "security": "Säkerhetsåtgärder: Vi implementerar säkerhetsrutiner enligt branschstandard, inklusive kryptering (under överföring och i vila), åtkomstkontroller, regelbundna säkerhetsrevisioner och säkra autentiseringsmekanismer. Ingen överförings- eller lagringsmetod är dock 100 % säker.",
+    "title": "Datalagring och säkerhet"
+  },
+  "dataUsage": {
+    "intro": "Vi använder den insamlade informationen för följande ändamål:",
+    "items": [
+      "Tillhandahålla, driva och underhålla våra AI-bildgenereringstjänster",
+      "Bearbeta dina transaktioner och hantera ditt konto",
+      "Förbättra våra tjänster genom dataanalys och identifiering av användningsmönster",
+      "Träna och förbättra våra AI-modeller för att leverera bättre resultat",
+      "Skicka servicemeddelanden, uppdateringar och marknadsföringsmeddelanden (med ditt samtycke)",
+      "Upptäcka, förebygga och åtgärda bedrägerier, säkerhetsproblem eller tekniska problem",
+      "Att följa rättsliga skyldigheter och tillämpa våra användarvillkor",
+      "Tillhandahålla kundsupport och svara på dina frågor"
+    ],
+    "title": "Hur vi använder din information"
+  },
+  "description": "Läs om hur {siteName} samlar in, använder och skyddar dina personuppgifter. Vår integritetspolicy omfattar datainsamling, användning, delning och dina rättigheter.",
+  "introduction": {
+    "content1": "{siteName} (&quot;vi&quot;, &quot;oss&quot; eller &quot;vår&quot;) har åtagit sig att skydda din integritet och dina personuppgifter. Denna integritetspolicy beskriver våra rutiner gällande insamling, lagring, användning och delning av din information när du använder våra AI-drivna bildgenereringstjänster.",
+    "content2": "Genom att använda våra tjänster via webbplatsen {siteName}, mobilapplikationer eller APIs, bekräftar du att du har läst, förstått och godkänner de rutiner som beskrivs i denna integritetspolicy. Denna policy informerar dig också om dina rättigheter till integritet och hur lagen skyddar dig.",
+    "title": "Introduktion"
+  },
+  "keywords": "integritetspolicy, dataskydd, personuppgifter, användarsekretess, datainsamling, GDPR, integritetsrättigheter",
+  "lastUpdated": "Senast uppdaterad",
+  "policyUpdates": {
+    "content": "Vi kan komma att uppdatera denna integritetspolicy regelbundet för att återspegla förändringar i våra rutiner eller juridiska krav. Vi kommer att meddela dig om väsentliga ändringar genom att publicera den uppdaterade policyn på denna sida med ett reviderat &quot;Senast uppdaterad&quot;-datum. Vid väsentliga ändringar kan vi också meddela detta via e-post eller tydliga meddelanden på vår plattform. Vi uppmuntrar dig att granska denna policy regelbundet.",
+    "title": "Ändringar i denna integritetspolicy"
+  },
+  "thirdPartyLinks": {
+    "content": "Våra tjänster kan innehålla länkar till webbplatser, integrationer eller tjänster från tredje part. Vi ansvarar inte för dessa tredje parters integritetspraxis eller innehåll. Vi uppmuntrar dig att granska deras integritetspolicyer innan du lämnar ut någon personlig information.",
+    "title": "Tredjepartstjänster och länkar"
+  },
+  "title": "Integritetspolicy | {siteName}",
+  "userRights": {
+    "intro": "Beroende på var du befinner dig kan du ha följande rättigheter gällande dina personuppgifter:",
+    "items": [
+      "Åtkomst: Begär en kopia av de personuppgifter vi har om dig",
+      "Rättelse: Rätta felaktig eller ofullständig information",
+      "Radering: Begär radering av dina personuppgifter (&quot;rätten att bli bortglömd&quot;)",
+      "Begränsning: Begränsa hur vi behandlar din information",
+      "Portabilitet: Ta emot dina data i ett strukturerat, vanligt förekommande format",
+      "Invändning: Invända mot behandling av dina uppgifter för vissa ändamål",
+      "Återkalla samtycke: Återkalla tidigare lämnat samtycke när som helst",
+      "Avregistrera dig: Avsluta prenumerationen på marknadsföringskommunikation"
+    ],
+    "title": "Dina rättigheter till integritet"
+  }
+}

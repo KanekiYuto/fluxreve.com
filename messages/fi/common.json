@@ -1,0 +1,49 @@
+{
+  "discordBanner": {
+    "closeLabel": "Lähellä",
+    "description": "Hanki uusimmat päivitykset, ainutlaatuiset edut ja ilmaiset bonukset",
+    "joinButton": "Liity nyt",
+    "title": "Liity Discord yhteisöömme"
+  },
+  "language": "Kieli",
+  "loading": "Ladataan...",
+  "loginRequired": {
+    "buttonText": "Kirjaudu sisään nyt",
+    "description": "Kirjaudu sisään käyttääksesi kaikkia ominaisuuksia",
+    "title": "Kirjaudu sisään jatkaaksesi"
+  },
+  "navigation": {
+    "ai-generator": "Tekoälygeneraattori",
+    "company": "Yritys",
+    "content": "Sisältö",
+    "dashboard": "Kojelauta",
+    "explore": "Luova yhteisö",
+    "flux-2-pro": "Flux 2 Pro",
+    "flux2ProDesc": "Ammattimainen kaksitilainen tekoälykuvien luonti",
+    "help": "Auttaa",
+    "home": "Kotiin",
+    "main": "Pääasiallinen",
+    "models": "Tekoälymallit",
+    "more": "Lisää",
+    "nano-banana-pro": "Nano Banana Pro",
+    "nanoBananaProDesc": "Edistynyt Nano Banana kuvien luonti",
+    "nav": "Navigointi",
+    "pricing": "Hinnoittelu",
+    "privacy": "Tietosuojakäytäntö",
+    "quota": "Kiintiö",
+    "seedreamV45": "Seedream 4.5",
+    "seedreamV45Desc": "ByteDance 2K HD kuvan luonti",
+    "settings": "Asetukset",
+    "subscription": "Tilaus",
+    "tasks": "Historia",
+    "terms": "Palveluehdot",
+    "user": "Käyttäjä",
+    "z-image": "Z-Image",
+    "zImageDesc": "Edistynyt tekoälykuvien luonti ja muokkaus"
+  },
+  "seo": {
+    "description": "Luo korkealaatuisia ammattimaisia kuvia sekunneissa tekoälypohjaisella kuvanluonnilla. Yksinkertaiset, nopeat ja tehokkaat tekoälytyökalut.",
+    "keywords": "Tekoälykuvien luonti, tekoälytaide, kuvanluonti, tekoälytyökalut, ammattimaiset kuvat",
+    "title": "{siteName} - Tekoälykuvien luontityökalu"
+  }
+}

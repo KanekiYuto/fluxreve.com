@@ -1,0 +1,48 @@
+{
+  "about": {
+    "releaseDate": "Utgivelsesdato",
+    "title": "Om",
+    "version": "Versjon"
+  },
+  "actions": {
+    "change": "Endre",
+    "copy": "Kopiere",
+    "edit": "Redigere",
+    "enable": "Aktiver",
+    "upgrade": "Oppgraderingsplan"
+  },
+  "loginRequired": {
+    "cta": "Logg inn nå",
+    "description": "Vennligst logg inn for å få tilgang til innstillingene dine og administrere kontoen din.",
+    "title": "Pålogging kreves"
+  },
+  "sections": {
+    "connections": {
+      "connected": "Tilkoblet",
+      "githubConnected": "Du kan bruke GitHub-kontoen din til å logge på kontoen din.",
+      "githubNotConnected": "Koble til GitHub-kontoen din for å aktivere denne påloggingsmetoden.",
+      "googleConnected": "Du kan bruke Google-kontoen din til å logge på kontoen din.",
+      "googleNotConnected": "Koble til Google-kontoen din for å aktivere denne påloggingsmetoden.",
+      "title": "Tilkoblede kontoer"
+    },
+    "preferences": {
+      "notifications": "E-postvarsler",
+      "notificationsDesc": "Motta oppdateringer og varsler via e-post",
+      "title": "Innstillinger"
+    },
+    "profile": {
+      "email": "E-postadresse",
+      "name": "Navn",
+      "notSet": "Ikke angitt",
+      "plan": "Gjeldende plan",
+      "title": "Profilinformasjon",
+      "verified": "Verifisert"
+    }
+  },
+  "seo": {
+    "description": "Administrer kontoinnstillingene og preferansene dine",
+    "title": "Innstillinger"
+  },
+  "subtitle": "Administrer kontoinnstillingene og preferansene dine",
+  "title": "Innstillinger"
+}

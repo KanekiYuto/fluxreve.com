@@ -1,0 +1,124 @@
+{
+  "entries": {
+    "AI Generated HD Image Preview": {
+      "translation": "AI-generert HD-bildeforhåndsvisning",
+      "timestamp": 1765582137
+    },
+    "AI Generated Image": {
+      "translation": "AI-generert bilde",
+      "timestamp": 1765582137
+    },
+    "AI Image Generation Results": {
+      "translation": "Resultater av AI-bildegenerering",
+      "timestamp": 1765582137
+    },
+    "AI Model": {
+      "translation": "AI-modell",
+      "timestamp": 1765582137
+    },
+    "AI is creating the current artwork, this usually takes a few minutes": {
+      "translation": "AI lager det nåværende kunstverket, dette tar vanligvis noen få minutter",
+      "timestamp": 1765582137
+    },
+    "Content Not Found": {
+      "translation": "Innhold ikke funnet",
+      "timestamp": 1765582137
+    },
+    "Copied": {
+      "translation": "Kopiert",
+      "timestamp": 1765582137
+    },
+    "Copy Prompt": {
+      "translation": "Kopieringsspørsmål",
+      "timestamp": 1765582137
+    },
+    "Copy Share Link": {
+      "translation": "Kopier delingslenke",
+      "timestamp": 1765582137
+    },
+    "Create AI Artwork": {
+      "translation": "Lag AI-kunstverk",
+      "timestamp": 1765582137
+    },
+    "Create Similar Image": {
+      "translation": "Lag lignende bilde",
+      "timestamp": 1765582137
+    },
+    "Download All Images": {
+      "translation": "Last ned alle bilder",
+      "timestamp": 1765582137
+    },
+    "Download Current Image": {
+      "translation": "Last ned gjeldende bilde",
+      "timestamp": 1765582137
+    },
+    "Download Share Card": {
+      "translation": "Last ned delingskortet",
+      "timestamp": 1765582137
+    },
+    "Generating...": {
+      "translation": "Genererer...",
+      "timestamp": 1765582137
+    },
+    "Generation Parameters and Model Info": {
+      "translation": "Generasjonsparametere og modellinformasjon",
+      "timestamp": 1765582137
+    },
+    "High-quality image generated with {model} AI model. Prompt: ": {
+      "translation": "Høykvalitetsbilde generert med {model} AI-modell. Spørsmål: ",
+      "timestamp": 1765582137
+    },
+    "I am 18+, View Content": {
+      "translation": "Jeg er 18+, Se innhold",
+      "timestamp": 1765582137
+    },
+    "Image": {
+      "translation": "Bilde",
+      "timestamp": 1765582137
+    },
+    "Input Image": {
+      "translation": "Inndatabilde",
+      "timestamp": 1765582137
+    },
+    "Input Images": {
+      "translation": "Inndatabilder",
+      "timestamp": 1765582137
+    },
+    "More Actions": {
+      "translation": "Flere handlinger",
+      "timestamp": 1765582137
+    },
+    "Next Image": {
+      "translation": "Neste bilde",
+      "timestamp": 1765582137
+    },
+    "Please refresh the page later to view the result": {
+      "translation": "Vennligst oppdater siden senere for å se resultatet",
+      "timestamp": 1765582137
+    },
+    "Previous Image": {
+      "translation": "Forrige bilde",
+      "timestamp": 1765582137
+    },
+    "Share": {
+      "translation": "Dele",
+      "timestamp": 1765582137
+    },
+    "Share to X": {
+      "translation": "Del til X",
+      "timestamp": 1765582137
+    },
+    "This content may contain adult or sensitive material. Viewer discretion is advised": {
+      "translation": "Dette innholdet kan inneholde materiale for voksne eller sensitivt materiale. Seerne anbefales å utvise skjønn.",
+      "timestamp": 1765582137
+    },
+    "This shared content may have been deleted by the creator, set to private, the link may have expired, or you may have accessed the wrong address": {
+      "translation": "Dette delte innholdet kan ha blitt slettet av skaperen, satt til privat, lenken kan ha utløpt, eller du kan ha tilgang til feil adresse",
+      "timestamp": 1765582137
+    },
+    "{model} AI Generated | ": {
+      "translation": "{model} AI-generert | ",
+      "timestamp": 1765582137
+    }
+  }
+}

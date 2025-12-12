@@ -1,0 +1,43 @@
+{
+  "contact": {
+    "description": "Finner du ikke det du leter etter? Kontakt supportteamet vårt, så tar vi kontakt med deg så snart som mulig.",
+    "email": "Kontakt kundestøtte",
+    "title": "Trenger du hjelp?"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Det er enkelt å komme i gang! Bare naviger til AI-generatorsiden, skriv inn ledeteksten din som beskriver hva du vil lage, velg dine foretrukne innstillinger og klikk på generer-knappen. Det AI-genererte bildet ditt vil være klart i løpet av sekunder.",
+        "question": "Hvordan kommer jeg i gang med AI-generator?"
+      },
+      {
+        "answer": "Vi støtter alle vanlige bildeformater, inkludert PNG, JPG og WebP. Du kan laste ned de genererte bildene i formatet som passer best til dine behov.",
+        "question": "Hvilke bildeformater støttes?"
+      },
+      {
+        "answer": "Antall bilder du kan generere avhenger av kredittkvoten din. Gratisbrukere får 30 kreditter daglig, mens abonnenter på Basic-planen får 1500 kreditter månedlig og abonnenter på Pro-planen får 7500 kreditter månedlig. Sjekk prissiden vår for mer informasjon.",
+        "question": "Hvor mange bilder kan jeg generere?"
+      },
+      {
+        "answer": "Ja! Både Basic- og Pro-abonnementsbrukere får en kommersiell brukslisens. Brukere av gratisabonnementet kan kun bruke genererte bilder til personlige prosjekter.",
+        "question": "Kan jeg bruke de genererte bildene kommersielt?"
+      },
+      {
+        "answer": "Hvis en generering mislykkes, prøv først å oppdatere siden og prøv på nytt. Sørg for at meldingen er tydelig og beskrivende. Hvis problemene vedvarer, kan du kontakte supportteamet vårt med detaljer om problemet.",
+        "question": "Hva skal jeg gjøre hvis generasjonen svikter?"
+      },
+      {
+        "answer": "For bedre resultater, prøv å være spesifikk og detaljert i spørsmålene dine. Ta med informasjon om stil, farger, komposisjon og stemning. Eksperimenter med forskjellige modeller og innstillinger for å finne ut hva som fungerer best for dine behov.",
+        "question": "Hvordan kan jeg forbedre generasjonsresultatene mine?"
+      }
+    ],
+    "subtitle": "Finn svar på vanlige spørsmål om bruk av vår plattform for AI-bildegenerering",
+    "title": "Ofte stilte spørsmål"
+  },
+  "seo": {
+    "description": "Finn svar på vanlige spørsmål og få støtte for {siteName} AI-bildegenereringsplattform",
+    "title": "Hjelpesenter"
+  },
+  "subtitle": "Finn svar på vanlige spørsmål og få støtte",
+  "title": "Hjelpesenter"
+}

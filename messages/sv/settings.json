@@ -1,0 +1,48 @@
+{
+  "about": {
+    "releaseDate": "Utgivningsdatum",
+    "title": "Om",
+    "version": "Version"
+  },
+  "actions": {
+    "change": "Ändra",
+    "copy": "Kopiera",
+    "edit": "Redigera",
+    "enable": "Aktivera",
+    "upgrade": "Uppgraderingsplan"
+  },
+  "loginRequired": {
+    "cta": "Logga in nu",
+    "description": "Vänligen logga in för att komma åt dina inställningar och hantera ditt konto.",
+    "title": "Inloggning krävs"
+  },
+  "sections": {
+    "connections": {
+      "connected": "Ansluten",
+      "githubConnected": "Du kan använda ditt GitHub-konto för att logga in på ditt konto.",
+      "githubNotConnected": "Anslut ditt GitHub-konto för att aktivera den här inloggningsmetoden.",
+      "googleConnected": "Du kan använda ditt Google-konto för att logga in på ditt konto.",
+      "googleNotConnected": "Anslut ditt Google-konto för att aktivera den här inloggningsmetoden.",
+      "title": "Anslutna konton"
+    },
+    "preferences": {
+      "notifications": "E-postmeddelanden",
+      "notificationsDesc": "Få uppdateringar och aviseringar via e-post",
+      "title": "Inställningar"
+    },
+    "profile": {
+      "email": "E-postadress",
+      "name": "Namn",
+      "notSet": "Inte inställd",
+      "plan": "Nuvarande plan",
+      "title": "Profilinformation",
+      "verified": "Verifierad"
+    }
+  },
+  "seo": {
+    "description": "Hantera dina kontoinställningar och preferenser",
+    "title": "Inställningar"
+  },
+  "subtitle": "Hantera dina kontoinställningar och preferenser",
+  "title": "Inställningar"
+}

@@ -1,0 +1,104 @@
+{
+  "entries": {
+    "About": {
+      "translation": "Noin",
+      "timestamp": 1765582223
+    },
+    "Change": {
+      "translation": "Muuttaa",
+      "timestamp": 1765582223
+    },
+    "Connect your GitHub account to enable this login method.": {
+      "translation": "Yhdistä GitHub tilisi ottaaksesi tämän kirjautumistavan käyttöön.",
+      "timestamp": 1765582223
+    },
+    "Connect your Google account to enable this login method.": {
+      "translation": "Yhdistä Google tilisi ottaaksesi tämän kirjautumistavan käyttöön.",
+      "timestamp": 1765582223
+    },
+    "Connected": {
+      "translation": "Yhdistetty",
+      "timestamp": 1765582223
+    },
+    "Connected Accounts": {
+      "translation": "Yhdistetyt tilit",
+      "timestamp": 1765582223
+    },
+    "Copy": {
+      "translation": "Kopioida",
+      "timestamp": 1765582223
+    },
+    "Edit": {
+      "translation": "Muokata",
+      "timestamp": 1765582223
+    },
+    "Email Address": {
+      "translation": "Sähköpostiosoite",
+      "timestamp": 1765582223
+    },
+    "Email Notifications": {
+      "translation": "Sähköposti-ilmoitukset",
+      "timestamp": 1765582223
+    },
+    "Enable": {
+      "translation": "Ota käyttöön",
+      "timestamp": 1765582223
+    },
+    "Manage your account settings and preferences": {
+      "translation": "Hallinnoi tilisi asetuksia ja mieltymyksiä",
+      "timestamp": 1765582223
+    },
+    "Name": {
+      "translation": "Nimi",
+      "timestamp": 1765582223
+    },
+    "Not set": {
+      "translation": "Ei asetettu",
+      "timestamp": 1765582223
+    },
+    "Please sign in to access your settings and manage your account.": {
+      "translation": "Kirjaudu sisään käyttääksesi asetuksiasi ja hallitaksesi tiliäsi.",
+      "timestamp": 1765582223
+    },
+    "Preferences": {
+      "translation": "Asetukset",
+      "timestamp": 1765582223
+    },
+    "Profile Information": {
+      "translation": "Profiilitiedot",
+      "timestamp": 1765582223
+    },
+    "Receive updates and notifications via email": {
+      "translation": "Vastaanota päivityksiä ja ilmoituksia sähköpostitse",
+      "timestamp": 1765582223
+    },
+    "Release Date": {
+      "translation": "Julkaisupäivä",
+      "timestamp": 1765582223
+    },
+    "Sign In Required": {
+      "translation": "Kirjaudu sisään",
+      "timestamp": 1765582223
+    },
+    "Upgrade Plan": {
+      "translation": "Päivityssuunnitelma",
+      "timestamp": 1765582223
+    },
+    "Verified": {
+      "translation": "Vahvistettu",
+      "timestamp": 1765582223
+    },
+    "Version": {
+      "translation": "Versio",
+      "timestamp": 1765582223
+    },
+    "You can use your GitHub account to sign in to your account.": {
+      "translation": "Voit kirjautua tilillesi GitHub-tililläsi.",
+      "timestamp": 1765582223
+    },
+    "You can use your Google account to sign in to your account.": {
+      "translation": "Voit kirjautua tilillesi Google-tililläsi.",
+      "timestamp": 1765582223
+    }
+  }
+}

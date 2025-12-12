@@ -1,0 +1,43 @@
+{
+  "card": {
+    "amount": "Tilausmäärä",
+    "canceledDate": "Peruutettu päivämäärä",
+    "customerId": "Asiakas",
+    "expiryDate": "Voimassaolopäivä",
+    "manageButton": "Hallinnoi tilausta",
+    "nextBillingDate": "Seuraava laskutuspäivä",
+    "nextRenewal": "Seuraava uusinta siirtyy",
+    "planTypes": {
+      "monthly_basic": "Perus - Kuukausittainen",
+      "monthly_pro": "Pro - Kuukausittainen",
+      "trial": "Oikeudenkäynti",
+      "yearly_basic": "Perus - Vuosittainen",
+      "yearly_pro": "Pro - Vuosittainen"
+    },
+    "platform": "Maksualusta",
+    "startDate": "Aloituspäivämäärä",
+    "status": {
+      "active": "Aktiivinen",
+      "canceled": "Peruutettu",
+      "expired": "Vanhentunut",
+      "paused": "Keskeytetty",
+      "pending": "Maksu odottaa"
+    },
+    "subscriptionId": "Tilaus"
+  },
+  "empty": {
+    "action": "Näytä hinnoittelusuunnitelmat",
+    "description": "Sinulla ei ole tällä hetkellä aktiivisia tilauksia",
+    "title": "Ei tilauksia"
+  },
+  "login": {
+    "description": "Kirjaudu sisään tarkastellaksesi ja hallitaksesi tilaustietojasi",
+    "title": "Kirjaudu sisään nähdäksesi tilaukset"
+  },
+  "seo": {
+    "description": "Tarkastele ja hallinnoi tilauspakettejasi ja laskutustietojasi",
+    "title": "Tilausten hallinta"
+  },
+  "subtitle": "Tarkastele ja hallinnoi tilaustietojasi",
+  "title": "Tilausten hallinta"
+}

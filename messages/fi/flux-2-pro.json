@@ -1,0 +1,185 @@
+{
+  "cta": {
+    "note": "Ei vaadi luottokorttia • Ammattimainen laatu • Kaksitilainen luonti",
+    "primary": "Kokeile Flux 2 Pro ilmaiseksi",
+    "secondary": "Näytä hinnoittelusuunnitelmat",
+    "subtitle": "Liity ammattimaisten luojien joukkoon, jotka käyttävät Flux 2 Pro luodakseen korkealaatuisia tekoälykuvia projekteihinsa.",
+    "title": "Aloita ammattimaisten kuvien luominen Flux 2 Pro -sovelluksella"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Flux 2 Pro on ammattilaistason tekoälykuvageneraattori, joka tukee sekä tekstistä kuvaksi- että kuvasta kuvaksi -tiloja. Sen erityispiirteitä ovat ammattimainen tulostuslaatu, joustava kaksoistilaluontijärjestelmä, tarkka parametrien hallinta ja kaupallisesti valmis korkealaatuinen tulostusjälki. Vain 25 krediitin hinnalla kuvaa kohden se tarjoaa poikkeuksellisen vastineen rahalle.",
+        "question": "Mikä on Flux 2 Pro ja mikä tekee siitä erityisen?"
+      },
+      {
+        "answer": "Tekstistä kuvaksi -tilassa voit luoda kokonaan uusia kuvia tekstikuvauksista, mikä on ihanteellista konseptisuunnitteluun ja luovaan tutkimiseen. Kuvasta kuvaksi -tilassa voit ladata olemassa olevia kuvia tyylin siirtoa, parannusta tai luovaa muuntamista varten, mikä on täydellistä kuvien optimointiin ja tyylien siirtoon. Molemmat tilat tarjoavat ammattimaista laatua.",
+        "question": "Mitä eroa on tekstistä kuvaksi ja kuvasta kuvaksi -menetelmillä Flux 2 Pro -komennossa?"
+      },
+      {
+        "answer": "Flux 2 Pro luo ammattitason kuvia, jotka sopivat kaupalliseen käyttöön. Kuvissa on korkea resoluutio, runsaasti yksityiskohtia, tarkka värintoisto ja tasapainoinen sommittelu. Olipa kyseessä sitten painettu julkaisu, digitaalinen markkinointi tai sosiaalinen media, laatu täyttää ammattilaisten standardit.",
+        "question": "Millainen on Flux 2 Pro:n luomien kuvien laatu?"
+      },
+      {
+        "answer": "Flux 2 Pro tarjoaa siemenarvon hallinnan. Samojen siementen ja parametrien käyttäminen tuottaa identtisiä tai samankaltaisia tuloksia. Tämä on korvaamatonta kuvasarjojen luomisessa, brändin yhtenäisyyden ylläpitämisessä tai tiettyjen tehosteiden hienosäädössä. Voit tallentaa onnistuneet parametriyhdistelmät myöhempää käyttöä varten.",
+        "question": "Miten voin varmistaa tulosten yhdenmukaisuuden?"
+      },
+      {
+        "answer": "Flux 2 Pro sopii laajaan valikoimaan ammattimaisia käyttötarkoituksia: markkinointiin ja mainontaan, sosiaalisen median sisällöntuotantoon, tuotekonseptisuunnitteluun, taiteen luomiseen ja kuvitustyöhön, pelien ja elokuvien konseptitaiteeseen, brändien visuaaliseen suunnitteluun sekä koulutus- ja harjoittelumateriaaleihin. Kaksoismuotoinen muotoilu käsittelee erilaisia luovia haasteita.",
+        "question": "Mihin sovelluksiin Flux 2 Pro sopii?"
+      },
+      {
+        "answer": "Ei! Flux 2 Pro on suunniteltu yksinkertaiseksi ja intuitiiviseksi kenen tahansa käytettäväksi. Vaikka peruskompositioiden ja värien periaatteiden ymmärtäminen auttaa, tekoäly hoitaa kaikki tekniset yksityiskohdat. Sinun tarvitsee vain kuvailla luova visiosi selkeästi, ja Flux 2 Pro muuntaa sen ammattimaisiksi kuviksi.",
+        "question": "Tarvitsenko ammattimaisia suunnittelutaitoja käyttääkseni Flux 2 Pro?"
+      }
+    ],
+    "subtitle": "Usein kysyttyjä kysymyksiä Flux 2 Pro tekoälykuvageneraattorista",
+    "title": "Flux 2 Pro Usein kysytyt kysymykset"
+  },
+  "features": {
+    "items": {
+      "batch": {
+        "description": "Optimoitu käyttöliittymäsuunnittelu ja ominaisuuksien asettelu tukevat nopeaa luontia ja eräajokäsittelyä tuottavuuden parantamiseksi.",
+        "title": "Tehokas työnkulku"
+      },
+      "control": {
+        "description": "Tarkat siemenarvot, koon valinta ja edistyneet parametrit antavat sinulle täyden hallinnan luontiprosessista ja tulosteen yhdenmukaisuudesta.",
+        "title": "Ammattimainen parametrien hallinta"
+      },
+      "quality": {
+        "description": "Luo tarkkoja, yksityiskohtaisia kuvia, joissa on erinomainen värien tarkkuus ja sommittelutasapaino.",
+        "title": "Poikkeuksellinen kuvanlaatu"
+      },
+      "secure": {
+        "description": "Yksityisen tilan asetukset varmistavat, että luomuksesi pysyvät luottamuksellisina, ja kaikki tiedonsiirrot salataan turvallisuuden takaamiseksi.",
+        "title": "Yksityisyyden suoja"
+      },
+      "speed": {
+        "description": "Tehokas prosessointimoottori varmistaa nopean luomisen, mikä mahdollistaa nopean luovan iteroinnin ja parantaa tuottavuutta.",
+        "title": "Optimoitu generointinopeus"
+      },
+      "variety": {
+        "description": "Fotorealistisesta taiteelliseen kuvittamiseen, konseptisuunnittelusta abstraktiin taiteeseen – tukien laajaa kirjoa visuaalisia tyylejä.",
+        "title": "Monipuolinen tyylituki"
+      }
+    },
+    "subtitle": "Ammattimainen ominaisuuspaketti, joka vastaa kaikkiin luoviin tarpeisiisi",
+    "title": "Flux 2 Pro Tekoälykuvageneraattorin ominaisuudet"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Kokeile Flux 2 Pro",
+      "secondary": "Lue lisää"
+    },
+    "stats": {
+      "features": {
+        "label": "Teksti- ja kuvasyöttö",
+        "value": "Kaksoistila"
+      },
+      "professional": {
+        "label": "Kuvaa kohden",
+        "value": "25 opintopistettä"
+      },
+      "quality": {
+        "label": "Kuvanlaatu",
+        "value": "Ammattilaisluokka"
+      }
+    },
+    "subtitle": "Koe seuraavan sukupolven Flux 2 Pro tekoälyllä toimiva kuvageneraattori – korkealaatuinen kuvanluontiratkaisu, joka on rakennettu ammattimaisille sisällöntuottajille ja yrityksille. Tukee sekä tekstistä kuvaksi- että kuvasta kuvaksi -tiloja poikkeuksellisen laadulla ja tarkalla luovalla hallinnalla.",
+    "title": {
+      "line1": "Flux 2 Pro",
+      "line2": "Ammattimainen tekoälyn sukupolvi"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Aloita valitsemalla luontitila: tekstistä kuvaksi uusien kuvien luomiseen tyhjästä tai kuvasta kuvaksi olemassa olevien kuvien muuntamiseen tai parantamiseen. Jokainen tila on optimoitu tiettyihin käyttötapauksiin parhaiden tulosten varmistamiseksi.",
+        "title": "Valitse luontitilasi"
+      },
+      "step2": {
+        "description": "Tekstistä kuvaksi -muunnoksen osalta anna yksityiskohtaiset tekstikuvaukset, mukaan lukien aihe, tyyli, tunnelma ja tarkat yksityiskohdat. Kuvasta kuvaksi -muunnoksen osalta lataa referenssikuvasi ja kuvaile haluamaasi muutosta. Yksityiskohtaisemmat kuvaukset antavat tarkempia tuloksia.",
+        "title": "Syötä luova sisältösi"
+      },
+      "step3": {
+        "description": "Valitse tulostuskoko, aseta siemenarvot (tuloksen toistamista varten) ja säädä lisäparametreja. Flux 2 Pro tarjoaa ammattimaisia esiasetuksia ja mukautettuja vaihtoehtoja täydelliseen hallintaan luontiprosessissa.",
+        "title": "Säädä sukupolviparametreja"
+      },
+      "step4": {
+        "description": "Napsauta &quot;Luo&quot; ja Flux 2 Pro käsittelee pyyntösi luodakseen korkealaatuisia kuvia. Esikatsele tuloksia ja jos säätöjä tarvitaan, muokkaa kehotteita tai parametreja ja luo ne uudelleen. Lataa korkearesoluutioinen mestariteoksesi, kun olet tyytyväinen.",
+        "title": "Luo ja tarkenna"
+      }
+    },
+    "subtitle": "Neljä yksinkertaista vaihetta ideasta ammattimaiseksi kuvaksi. Flux 2 Pro tekee korkealaatuisten tekoälykuvien luomisesta yksinkertaista ja intuitiivista.",
+    "title": "Kuinka käyttää Flux 2 Pro tekoälykuvageneraattoria"
+  },
+  "seo": {
+    "description": "Ammattimainen tekoälykuvien luonti Flux 2 Pro:lla. Tekstistä kuvaksi- ja kuvasta kuvaksi -tilat tarkalla taiteellisella ohjauksella. Ammattitason laatu.",
+    "title": "Flux 2 Pro - Ammattimainen tekoälykuvageneraattori"
+  },
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Flux 2 Pro hyödyntää huippuluokan tekoälyteknologiaa luodakseen korkearesoluutioisia, yksityiskohtaisia ja ammattimaisia kuvia. Jokainen tuloste on optimoitu värien tarkkuuden ja tasapainoisen sommittelun osalta, mikä täyttää kaupallisen julkaisemisen ja ammattimaisen suunnittelun tiukat standardit.",
+        "title": "Ammattitason kuvanlaatu"
+      },
+      "core2": {
+        "description": "Tukee sekä tekstistä kuvaksi- että kuvasta kuvaksi -tiloja. Tekstistä kuvaksi -tilassa voit luoda kokonaan uusia kuvia yksityiskohtaisten kuvausten pohjalta, kun taas kuvasta kuvaksi -tilassa voit ladata olemassa olevia kuvia tyylinsiirtoa, parannusta tai luovaa muuntamista varten.",
+        "title": "Kaksitilainen luontijärjestelmä"
+      },
+      "core3": {
+        "description": "Ammattitason luova hallinta, mukaan lukien siemenarvojen asetukset, koon valinta ja edistyneet parametrit. Nämä hienosäädetyt säätimet varmistavat tulosteen yhdenmukaisuuden ja mahdollistavat brändiyhteensopivien kuvasarjojen luomisen ammattimaisiin projekteihin.",
+        "title": "Tarkka parametrien hallinta"
+      }
+    },
+    "demoPlaceholder": "Flux 2 Pro Luotu kuva",
+    "description": "Flux 2 Pro on edistynyt ammattilaistason tekoälykuvageneraattori, joka on suunniteltu sisällöntuottajille ja yrityksille, jotka tarvitsevat korkealaatuista visuaalista sisältöä. Se tarjoaa kaksi tehokasta luontitilaa: tekstistä kuvaksi kuvien luomiseen kuvauksista ja kuvasta kuvaksi -tilan olemassa olevien visuaalien muuntamiseen ja parantamiseen. Tarkan parametrien hallinnan ja monipuolisten tyylivaihtoehtojen ansiosta Flux 2 Pro antaa sinulle mahdollisuuden luoda ammattimaisia kuvia, jotka täyttävät kaupalliset standardit.",
+    "title": "Mikä on Flux 2 Pro tekoälykuvageneraattori?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Kiinteä hinnoittelu, vain 25 krediittiä kuvaa kohden, mahdollistaa tarkan projektibudjetoinnin. Ei piilokuluja, ei yllätyksiä – ammattimaisen kuvien luominen on edullisempaa kuin koskaan.",
+        "title": "Läpinäkyvä hinnoittelumalli"
+      },
+      "flexibility": {
+        "description": "Kaksoismuotoinen suunnittelu mahdollistaa luomisen tyhjästä tai olemassa olevien materiaalien muuntamisen. Olipa kyse sitten täysin uusista konsepteista tai tyylinsiirroista, Flux 2 Pro täyttää kaikki luovat tarpeesi.",
+        "title": "Joustavat luontivaihtoehdot"
+      },
+      "quality": {
+        "description": "Jokainen Flux 2 Pro luotu kuva täyttää ammattilaisten standardit ja sopii kaupallisiin projekteihin, markkinointimateriaaleihin, sosiaaliseen mediaan ja painettuihin julkaisuihin. Tarkka yksityiskohtien käsittely ja värien toisto takaavat optimaalisen visuaalisen vaikutelman.",
+        "title": "Kaupallisen luokan tuotos"
+      },
+      "security": {
+        "description": "Luomuksesi ja tietosi on suojattu yritystason turvatoimilla. Yksityisen tilan vaihtoehdot varmistavat, että arkaluontoiset projektit pysyvät luottamuksellisina ja täyttävät tiukimmatkin yksityisyysstandardit.",
+        "title": "Tietoturvan varmistus"
+      },
+      "speed": {
+        "description": "Flux 2 Pro:n optimoitu luontiprosessi tuottaa korkealaatuisia tuloksia nopeasti. Olipa kyseessä sitten tekstistä kuvaksi tai kuvasta kuvaksi -muunnos, valmistuu nopeasti, mikä parantaa merkittävästi luovaa tehokkuuttasi.",
+        "title": "Tehokas luontityönkulku"
+      },
+      "support": {
+        "description": "Käytä kattavaa teknistä tukea ja yksityiskohtaista dokumentaatiota. Ammattitaitoinen tiimimme on valmiina auttamaan sinua maksimoimaan Flux 2 Pro:n tehokkaat ominaisuudet.",
+        "title": "Ammattimainen tuki"
+      }
+    },
+    "comparison": {
+      "product": {
+        "item1": "Heti käyttövalmis, ei vaadi suunnittelutaitoja",
+        "item2": "Luo ammattimaisia kuvia minuuteissa",
+        "item3": "Nopea iterointi useiden luovien mahdollisuuksien tutkimiseksi",
+        "item4": "Edullinen käyttökertakohtainen hinnoittelumalli",
+        "title": "Flux 2 Pro Tekoälygeneraattori"
+      },
+      "traditional": {
+        "item1": "Kalliit suunnitteluohjelmistolisenssit ja ammatillinen koulutus vaaditaan",
+        "item2": "Tunteja tai päiviä, jotka tarvitaan monimutkaisten kuvien luomiseen",
+        "item3": "Vaikea iteroida nopeasti ja tutkia erilaisia luovia suuntia",
+        "item4": "Tarvitsetko ammattimaisia suunnittelijoita tai valokuvaajia?",
+        "title": "Perinteinen kuvan luominen"
+      }
+    },
+    "subtitle": "Flux 2 Pro mullistaa luovan työnkulkusi ammattimaisella laadulla, kaksoistilaisella luonnilla ja tarkalla ohjauksella.",
+    "title": "Miksi valita Flux 2 Pro tekoälykuvageneraattori"
+  }
+}

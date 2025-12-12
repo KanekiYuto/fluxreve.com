@@ -1,0 +1,153 @@
+{
+  "billing": {
+    "discount": "Säästä 20 %",
+    "month": "kuukausi",
+    "monthly": "Kuukausittain",
+    "save": "Säästä ${amount}",
+    "year": "vuosi",
+    "yearly": "Vuosittain"
+  },
+  "faq": {
+    "badge": "Usein kysytyt kysymykset",
+    "items": [
+      {
+        "answer": "Krediittejä käytetään kuvien luomiseen tekoälymalleillamme. Jokainen kuvan luonti kuluttaa tietyn määrän krediittejä käytetystä resoluutiosta ja mallista riippuen. Ilmaisversion käyttäjät saavat 30 krediittiä päivittäin, perusversion tilaajat saavat 1 500 krediittiä kuukaudessa (tai 18 000 vuodessa) ja Pro-version tilaajat saavat 7 500 krediittiä kuukaudessa (tai 90 000 vuodessa).",
+        "question": "Miten opintopisteet toimivat?"
+      },
+      {
+        "answer": "Vuositilaukset tarjoavat 20 % alennuksen kuukausitilauksiin verrattuna. Esimerkiksi Basic-kuukausitilaus maksaa 15 dollaria/kk (1 500 krediittiä), kun taas Basic-vuositilaus maksaa 144 dollaria/vuosi (yhteensä 18 000 krediittiä). Säästät rahaa ja saat enemmän vastinetta rahalle vuositilauksilla.",
+        "question": "Mitä eroa on kuukausi- ja vuositilauksilla?"
+      },
+      {
+        "answer": "Kyllä! Voit päivittää pakettiasi milloin tahansa, ja hintaero hyvitetään sinulle. Päivittäessäsi saat uuden sopimuksen täyden luottokiintiön välittömästi. Alentuneet päivitykset tulevat voimaan seuraavan laskutusjakson alussa.",
+        "question": "Voinko päivittää tai alentaa liittymääni?"
+      },
+      {
+        "answer": "Ilmaiskäyttäjillä päivittäiset krediitit nollautuvat päivittäin eivätkä kerry. Tilaajilla krediitit vanhenevat niiden viimeisen voimassaolopäivän mukaisesti. Jokaisella krediittikiintiöllä on oma vanhenemisaikansa, ja käyttämättömät krediitit vanhenevat automaattisesti kyseisen ajan päättyessä.",
+        "question": "Mitä käyttämättömille krediiteille tapahtuu?"
+      },
+      {
+        "answer": "Kuukausitilauksissa saat 100 krediittiä jokaista käytettyä dollaria kohden. Vuositilauksissa saat 100 krediittiä jokaista käytettyä dollaria × 12 kuukautta kohden. Esimerkiksi: Peruskuukausitilaus (15 dollaria) = 1 500 krediittiä, Perusvuositilaus (144 dollaria) = 18 000 krediittiä.",
+        "question": "Miten luottokiintiön laskenta toimii?"
+      },
+      {
+        "answer": "Kyllä! Vaihtaminen kuukausitilauksesta vuositilaukseen saman pakettitason sisällä (esim. peruskuukausitilauksesta perusvuositilaukseen) katsotaan muutokseksi, ei päivitykseksi. Uusi laskutusjakso tulee voimaan pakettimuutoskäytännön mukaisesti.",
+        "question": "Voinko vaihtaa kuukausittaisen ja vuosittaisen laskutuksen välillä?"
+      },
+      {
+        "answer": "Kun päivität, sinulta veloitetaan suhteellinen summa jäljellä olevasta laskutuskaudesta. Saat heti uuden sopimuksesi täyden luottokiintiön, ja kaikki olemassa olevat luottot pysyvät käytettävissä niiden vanhenemispäivään asti.",
+        "question": "Mitä tapahtuu, kun päivitän kesken syklin?"
+      },
+      {
+        "answer": "Ilmaisversion käyttäjät voivat käyttää luotuja kuvia vain henkilökohtaisiin projekteihin. Sekä Basic- että Pro-version tilaajat saavat kaupallisen käyttöoikeuden, jonka avulla voit käyttää kuvia liiketoimintatarkoituksiin, markkinointimateriaaleihin ja asiakasprojekteihin.",
+        "question": "Voinko käyttää luotuja kuvia kaupallisesti?"
+      },
+      {
+        "answer": "Pro-paketti tarjoaa viisi kertaa enemmän krediittejä kuin Basic, sekä pääsyn kaikkiin edistyneisiin tekoälymalleihin, erittäin korkean resoluution (2048x2048), erägenerointiominaisuudet ja priorisoidun asiakastuen. Basic-paketti sopii erinomaisesti yksityishenkilöille, kun taas Pro on suunniteltu ammattimaisille sisällöntuottajille ja tiimeille.",
+        "question": "Mitä eroa on Basic- ja Pro-tilauksilla?"
+      },
+      {
+        "answer": "Integroimme Creem maksualustaan, joka tukee useita maksutapoja. Kaikki tapahtumat käsitellään turvallisesti heidän maksuyhdyskäytävänsä kautta.",
+        "question": "Mitä maksutapoja hyväksytte?"
+      },
+      {
+        "answer": "Kyllä, voit peruuttaa tilauksesi milloin tahansa. Tilauksesi pysyy aktiivisena nykyisen laskutusjaksosi loppuun asti, ja voit jatkaa jäljellä olevien krediittiesi käyttöä niiden vanhenemiseen asti.",
+        "question": "Voinko peruuttaa tilaukseni milloin tahansa?"
+      },
+      {
+        "answer": "Jokaisella luottokiintiöllä on oma voimassaoloaikansa. Tarkka kesto riippuu tilauspaketistasi ja luottojen myöntämisajankohdasta. Voit tarkistaa luottojesi voimassaoloajan tilisi hallintapaneelista. Krediittejä käytetään &quot;ensimmäinen sisään, ensimmäinen ulos&quot; -periaatteella.",
+        "question": "Kuinka kauan hyvitykset ovat voimassa oston jälkeen?"
+      }
+    ],
+    "subtitle": "Löydä vastauksia usein kysyttyihin kysymyksiin hinnoittelusuunnitelmistamme ja palveluistamme",
+    "title": "Usein kysytyt kysymykset"
+  },
+  "meta": {
+    "description": "Valitse tarpeisiisi sopiva paketti. Joustavia hinnoitteluvaihtoehtoja yksityishenkilöille ja yrityksille tekoälypohjaisen kuvien luonnin avulla.",
+    "title": "Hinnoittelusuunnitelmat"
+  },
+  "recommended": "Suosituimmat",
+  "status": {
+    "configuring": "Määritetään...",
+    "current": "Nykyinen suunnitelma",
+    "downgrade": "Alentaa",
+    "loading": "Ladataan...",
+    "processing": "Käsitellään...",
+    "scheduled": "Ajoitettu",
+    "upgrade": "Päivitä"
+  },
+  "subtitle": "Joustavat hinnoitteluvaihtoehdot yksityishenkilöiden ja yritysten tarpeisiin",
+  "tiers": [
+    {
+      "cta": "Kokeile nyt",
+      "description": "{quota} kiintiöhyvityksiä",
+      "features": [
+        "{quota} krediittikiintiö",
+        "Voi luoda jopa {quota}/5 korkealaatuista kuvaa",
+        "Kaikki tekoälyn vakiomallit",
+        "Korkea resoluutio (1024x1024)",
+        "Vesileimaton vienti"
+      ],
+      "name": "Oikeudenkäynti",
+      "unsupportedFeatures": [
+        "Automaattinen uusiminen",
+        "Erittäin korkea resoluutio",
+        "Erägenerointi",
+        "Prioriteettituki"
+      ]
+    },
+    {
+      "cta": "Tilaa nyt",
+      "description": "Yksittäisille käyttäjille ja pienille projekteille",
+      "features": [
+        "{quota} krediittikiintiö",
+        "Voi luoda jopa {quota}/5 korkealaatuista kuvaa",
+        "Standardi tekoälymallit",
+        "Korkea resoluutio (1024x1024)",
+        "Prioriteettigenerointijono",
+        "Vesileimaton vienti",
+        "Sähköpostitse asiakastukeen",
+        "Kaupallisen käytön lisenssi"
+      ],
+      "name": "Perus",
+      "unsupportedFeatures": [
+        "Erittäin korkea resoluutio",
+        "Erägenerointi"
+      ]
+    },
+    {
+      "cta": "Tilaa nyt",
+      "description": "Ammattilaisille sisällöntuottajille ja tiimityöskentelyyn",
+      "features": [
+        "{quota} krediittikiintiö",
+        "Voi luoda jopa {quota}/5 korkealaatuista kuvaa",
+        "Kaikki edistyneet tekoälymallit",
+        "Erittäin korkea resoluutio (2048x2048)",
+        "Korkeimman prioriteetin jono",
+        "Erägenerointi",
+        "Vesileimaton vienti",
+        "Prioriteettiasiakastuki",
+        "Kaupallisen käytön lisenssi"
+      ],
+      "name": "Ammattilainen"
+    },
+    {
+      "cta": "Aloita",
+      "description": "Täydellinen henkilökohtaiseen kokeiluun ja kevyeen käyttöön",
+      "features": [
+        "{quota} krediittikiintiö päivässä",
+        "Voi luoda jopa {quota}/5 kuvaa päivässä",
+        "Perustekoälymallit",
+        "Vakioresoluutio (512x512)"
+      ],
+      "name": "Ilmainen",
+      "unsupportedFeatures": [
+        "Korkea resoluutio",
+        "Prioriteettijono",
+        "Vesileimaton vienti",
+        "Asiakastuki"
+      ]
+    }
+  ],
+  "title": "Valitse sopimuksesi"
+}

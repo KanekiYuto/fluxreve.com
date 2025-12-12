@@ -1,0 +1,48 @@
+{
+  "about": {
+    "releaseDate": "Udgivelsesdato",
+    "title": "Om",
+    "version": "Version"
+  },
+  "actions": {
+    "change": "Forandring",
+    "copy": "Kopi",
+    "edit": "Redigere",
+    "enable": "Aktivér",
+    "upgrade": "Opgraderingsplan"
+  },
+  "loginRequired": {
+    "cta": "Log ind nu",
+    "description": "Log venligst ind for at få adgang til dine indstillinger og administrere din konto.",
+    "title": "Log ind påkrævet"
+  },
+  "sections": {
+    "connections": {
+      "connected": "Forbundet",
+      "githubConnected": "Du kan bruge din GitHub konto til at logge ind på din konto.",
+      "githubNotConnected": "Forbind din GitHub konto for at aktivere denne loginmetode.",
+      "googleConnected": "Du kan bruge din Google konto til at logge ind på din konto.",
+      "googleNotConnected": "Forbind din Google konto for at aktivere denne loginmetode.",
+      "title": "Forbundne konti"
+    },
+    "preferences": {
+      "notifications": "E-mail-notifikationer",
+      "notificationsDesc": "Modtag opdateringer og notifikationer via e-mail",
+      "title": "Præferencer"
+    },
+    "profile": {
+      "email": "E-mailadresse",
+      "name": "Navn",
+      "notSet": "Ikke indstillet",
+      "plan": "Nuværende plan",
+      "title": "Profiloplysninger",
+      "verified": "Bekræftet"
+    }
+  },
+  "seo": {
+    "description": "Administrer dine kontoindstillinger og præferencer",
+    "title": "Indstillinger"
+  },
+  "subtitle": "Administrer dine kontoindstillinger og præferencer",
+  "title": "Indstillinger"
+}

@@ -1,0 +1,63 @@
+{
+  "guestSubtitle": "Log venligst ind for at få adgang til dit dashboard og begynde at oprette",
+  "guestWelcome": "Velkommen til Dashboard",
+  "loginPrompt": {
+    "cta": "Log ind nu",
+    "description": "Opret en konto eller log ind for at låse op for alle funktioner, spore dit forbrug og administrere dine projekter.",
+    "features": {
+      "analytics": "Analyse og statistik",
+      "analyticsDesc": "Se detaljerede statistikker og præstationsmålinger",
+      "projects": "Projektledelse",
+      "projectsDesc": "Organiser og administrer alle dine kreative projekter",
+      "quota": "Brugskvote",
+      "quotaDesc": "Spor din generationskvote og brugshistorik"
+    },
+    "title": "Log ind for at få adgang til dit dashboard"
+  },
+  "marketing": {
+    "description": "Opgrader din plan for at få flere kreditter, ultrahøj opløsning, batchgenerering og prioriteret support.",
+    "learnMoreButton": "Lær mere",
+    "title": "Lås op for flere kraftfulde funktioner",
+    "upgradeButton": "Opgrader nu"
+  },
+  "quickActions": {
+    "newProject": "Nyt projekt",
+    "templates": "Skabeloner",
+    "title": "Hurtig start",
+    "tutorial": "Vejledning",
+    "uploadImage": "Upload billede"
+  },
+  "recent": {
+    "empty": {
+      "cta": "Generer nu",
+      "subtitle": "Begynd at generere dit første billede",
+      "title": "Intet indhold genereret denne uge"
+    },
+    "loading": "Indlæser...",
+    "subtitle": "Viser kun indhold fra den seneste uge",
+    "title": "Nyere generationer",
+    "viewAll": "Se alle"
+  },
+  "seo": {
+    "description": "Administrer dine AI-billedgenereringsprojekter, spor brugen og få adgang til alle funktioner",
+    "title": "Dashboard"
+  },
+  "stats": {
+    "images": "Uploadede billedelementer",
+    "projects": "Samlede projekter",
+    "quota": {
+      "expires": "udløber",
+      "remaining": "Resterende generationskvote",
+      "unlimited": "Ubegrænset generationskvote"
+    },
+    "templates": "Oprettede skabeloner"
+  },
+  "subtitle": "Begynd at skabe dit fantastiske indhold",
+  "userType": {
+    "basic": "Grundlæggende",
+    "free": "Gratis",
+    "pro": "Professionel",
+    "trial": "Forsøg"
+  },
+  "welcome": "Velkommen tilbage, {name}"
+}

@@ -1,0 +1,84 @@
+{
+  "entries": {
+    "AI image generated using {model}": {
+      "translation": "Tekoälykuva luotu käyttämällä {model}",
+      "timestamp": 1765582225
+    },
+    "Completed At": {
+      "translation": "Valmistui klo",
+      "timestamp": 1765582225
+    },
+    "Created At": {
+      "translation": "Luotu",
+      "timestamp": 1765582225
+    },
+    "Credits Used": {
+      "translation": "Käytetyt krediitit",
+      "timestamp": 1765582225
+    },
+    "Duration": {
+      "translation": "Kesto",
+      "timestamp": 1765582225
+    },
+    "Generation Results": {
+      "translation": "Sukupolvien tulokset",
+      "timestamp": 1765582225
+    },
+    "Image Preview": {
+      "translation": "Kuvan esikatselu",
+      "timestamp": 1765582225
+    },
+    "NSFW Content": {
+      "translation": "NSFW Sisältö",
+      "timestamp": 1765582225
+    },
+    "No": {
+      "translation": "Ei",
+      "timestamp": 1765582225
+    },
+    "Parameters Info": {
+      "translation": "Parametritiedot",
+      "timestamp": 1765582225
+    },
+    "Sorry, image generation failed. Please try again later or contact support.": {
+      "translation": "Kuvan luominen epäonnistui. Yritä myöhemmin uudelleen tai ota yhteyttä tukeen.",
+      "timestamp": 1765582225
+    },
+    "Sorry, the task you are looking for cannot be found. It may have been deleted or the link is invalid.": {
+      "translation": "Valitettavasti etsimääsi tehtävää ei löydy. Se on ehkä poistettu tai linkki on virheellinen.",
+      "timestamp": 1765582225
+    },
+    "Task Details": {
+      "translation": "Tehtävän tiedot",
+      "timestamp": 1765582225
+    },
+    "Task Failed": {
+      "translation": "Tehtävä epäonnistui",
+      "timestamp": 1765582225
+    },
+    "Task Not Found": {
+      "translation": "Tehtävää ei löytynyt",
+      "timestamp": 1765582225
+    },
+    "Task Processing": {
+      "translation": "Tehtävien käsittely",
+      "timestamp": 1765582225
+    },
+    "Usually takes a few seconds to a few minutes": {
+      "translation": "Yleensä kestää muutamasta sekunnista muutamaan minuuttiin",
+      "timestamp": 1765582225
+    },
+    "View your AI image generation task details and results": {
+      "translation": "Tarkastele tekoälykuvan luontitehtäväsi tietoja ja tuloksia",
+      "timestamp": 1765582225
+    },
+    "Yes": {
+      "translation": "Kyllä",
+      "timestamp": 1765582225
+    },
+    "Your image is being generated, please wait a moment...": {
+      "translation": "Kuvaasi luodaan, odota hetki...",
+      "timestamp": 1765582225
+    }
+  }
+}

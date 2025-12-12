@@ -2,151 +2,159 @@
   "entries": {
     "Analytics \u0026 Stats": {
       "translation": "分析与统计",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
     },
     "Basic": {
-      "translation": "基本",
-      "timestamp": 1765575345
+      "translation": "基本的",
+      "timestamp": 1765580811
     },
     "Create an account or sign in to unlock all features, track your usage, and manage your projects.": {
-      "translation": "创建账户或登录后，即可解锁所有功能、跟踪使用情况并管理项目。",
-      "timestamp": 1765575345
+      "translation": "创建账户或登录即可解锁所有功能、跟踪使用情况和管理项目。",
+      "timestamp": 1765580811
     },
     "Created Templates": {
       "translation": "创建的模板",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
     },
     "Free": {
-      "translation": "免费",
-      "timestamp": 1765575345
+      "translation": "自由的",
+      "timestamp": 1765580811
     },
     "Generate Now": {
       "translation": "立即生成",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
     },
     "Learn More": {
       "translation": "了解更多",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
     },
     "Manage your AI image generation projects, track usage, and access all features": {
-      "translation": "管理人工智能图像生成项目、跟踪使用情况并访问所有功能",
-      "timestamp": 1765575345
+      "translation": "管理您的 AI 图像生成项目、跟踪使用情况并访问所有功能",
+      "timestamp": 1765580811
     },
     "New Project": {
       "translation": "新项目",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
     },
     "No content generated this week": {
-      "translation": "本周无内容生成",
-      "timestamp": 1765575345
+      "translation": "本周未生成任何内容",
+      "timestamp": 1765580811
     },
     "Organize and manage all your creative projects": {
-      "translation": "组织和管理所有创意项目",
-      "timestamp": 1765575345
+      "translation": "组织和管理你所有的创意项目",
+      "timestamp": 1765580811
     },
     "Please sign in to access your dashboard and start creating": {
       "translation": "请登录以访问您的仪表板并开始创建",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
     },
     "Pro": {
-      "translation": "专业",
-      "timestamp": 1765575345
+      "translation": "专业版",
+      "timestamp": 1765580811
     },
     "Project Management": {
       "translation": "项目管理",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
+    },
+    "Quick Start": {
+      "translation": "快速入门",
+      "timestamp": 1765580811
     },
     "Recent Generations": {
-      "translation": "最近几代人",
-      "timestamp": 1765575345
+      "translation": "近几代人",
+      "timestamp": 1765580811
     },
     "Remaining Generation Quota": {
-      "translation": "剩余发电配额",
-      "timestamp": 1765575345
+      "translation": "剩余世代配额",
+      "timestamp": 1765580811
     },
     "Showing content from the past week only": {
       "translation": "仅显示过去一周的内容",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
     },
     "Sign In Now": {
       "translation": "立即登录",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
     },
     "Sign In to Access Your Dashboard": {
-      "translation": "登录以访问您的控制面板",
-      "timestamp": 1765575345
+      "translation": "登录以访问您的仪表盘",
+      "timestamp": 1765580811
     },
     "Start creating your amazing content": {
-      "translation": "开始创建您的精彩内容",
-      "timestamp": 1765575345
+      "translation": "开始创作你的精彩内容",
+      "timestamp": 1765580811
     },
     "Start generating your first image": {
-      "translation": "开始生成第一张图片",
-      "timestamp": 1765575345
+      "translation": "开始生成你的第一张图片",
+      "timestamp": 1765580811
     },
     "Templates": {
       "translation": "模板",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
     },
     "Total Projects": {
       "translation": "项目总数",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
     },
     "Track your generation quota and usage history": {
-      "translation": "跟踪您的发电配额和使用历史",
-      "timestamp": 1765575345
+      "translation": "跟踪您的发电配额和使用历史记录",
+      "timestamp": 1765580811
     },
     "Trial": {
-      "translation": "试用",
-      "timestamp": 1765575345
+      "translation": "审判",
+      "timestamp": 1765580811
     },
     "Tutorial": {
       "translation": "教程",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
     },
     "Unlimited Generation Quota": {
-      "translation": "无限生成配额",
-      "timestamp": 1765575345
+      "translation": "无限世代配额",
+      "timestamp": 1765580811
     },
     "Unlock More Powerful Features": {
-      "translation": "解锁更强大的功能",
-      "timestamp": 1765575345
+      "translation": "解锁更多强大功能",
+      "timestamp": 1765580811
     },
     "Upgrade Now": {
       "translation": "立即升级",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
     },
     "Upgrade your plan to get more credits, ultra-high resolution, batch generation, and priority support.": {
-      "translation": "升级计划可获得更多点数、超高分辨率、批量生成和优先支持。",
-      "timestamp": 1765575345
+      "translation": "升级您的套餐，即可获得更多积分、超高分辨率、批量生成和优先支持。",
+      "timestamp": 1765580811
+    },
+    "Upload Image": {
+      "translation": "上传图片",
+      "timestamp": 1765580811
     },
     "Uploaded Image Assets": {
-      "translation": "上传的图像资产",
-      "timestamp": 1765575345
+      "translation": "上传的图像素材",
+      "timestamp": 1765580811
     },
     "Usage Quota": {
       "translation": "使用配额",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
     },
     "View All": {
       "translation": "查看全部",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
     },
     "View detailed statistics and performance metrics": {
-      "translation": "查看详细的统计数据和性能指标",
-      "timestamp": 1765575345
+      "translation": "查看详细统计数据和性能指标",
+      "timestamp": 1765580811
     },
     "Welcome back, {name}": {
       "translation": "欢迎回来，{name}",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
     },
     "Welcome to Dashboard": {
-      "translation": "欢迎访问仪表板",
-      "timestamp": 1765575345
+      "translation": "欢迎来到仪表盘",
+      "timestamp": 1765580811
     },
     "expires": {
       "translation": "到期",
-      "timestamp": 1765575345
+      "timestamp": 1765580811
     }
   }
 }

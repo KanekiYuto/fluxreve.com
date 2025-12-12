@@ -1,0 +1,80 @@
+{
+  "entries": {
+    "Canceled": {
+      "translation": "Avbruten",
+      "timestamp": 1765581945
+    },
+    "Canceled Date": {
+      "translation": "Avbrutet datum",
+      "timestamp": 1765581945
+    },
+    "Customer": {
+      "translation": "Kund",
+      "timestamp": 1765581945
+    },
+    "Expiry Date": {
+      "translation": "Utgångsdatum",
+      "timestamp": 1765581945
+    },
+    "Log in to view and manage your subscription information": {
+      "translation": "Logga in för att visa och hantera din prenumerationsinformation",
+      "timestamp": 1765581945
+    },
+    "Login to View Subscriptions": {
+      "translation": "Logga in för att se prenumerationer",
+      "timestamp": 1765581945
+    },
+    "Manage Subscription": {
+      "translation": "Hantera prenumeration",
+      "timestamp": 1765581945
+    },
+    "Next Billing Date": {
+      "translation": "Nästa faktureringsdatum",
+      "timestamp": 1765581945
+    },
+    "Next renewal switches to": {
+      "translation": "Nästa förnyelse växlar till",
+      "timestamp": 1765581945
+    },
+    "No Subscriptions": {
+      "translation": "Inga prenumerationer",
+      "timestamp": 1765581945
+    },
+    "Paused": {
+      "translation": "Pausad",
+      "timestamp": 1765581945
+    },
+    "Payment Platform": {
+      "translation": "Betalningsplattform",
+      "timestamp": 1765581945
+    },
+    "Pending Payment": {
+      "translation": "Väntande betalning",
+      "timestamp": 1765581945
+    },
+    "Start Date": {
+      "translation": "Startdatum",
+      "timestamp": 1765581945
+    },
+    "Subscription Amount": {
+      "translation": "Prenumerationsbelopp",
+      "timestamp": 1765581945
+    },
+    "Subscription Management": {
+      "translation": "Prenumerationshantering",
+      "timestamp": 1765581945
+    },
+    "View and manage your subscription information": {
+      "translation": "Visa och hantera din prenumerationsinformation",
+      "timestamp": 1765581945
+    },
+    "View and manage your subscription plans and billing information": {
+      "translation": "Visa och hantera dina prenumerationsplaner och faktureringsinformation",
+      "timestamp": 1765581945
+    },
+    "You currently have no active subscriptions": {
+      "translation": "Du har för närvarande inga aktiva prenumerationer",
+      "timestamp": 1765581945
+    }
+  }
+}

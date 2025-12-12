@@ -1,0 +1,148 @@
+{
+  "entries": {
+    "All": {
+      "translation": "Alla",
+      "timestamp": 1765581946
+    },
+    "Are you sure you want to delete this task? This action cannot be undone.": {
+      "translation": "Är du säker på att du vill ta bort den här uppgiften? Åtgärden kan inte ångras.",
+      "timestamp": 1765581946
+    },
+    "Clear": {
+      "translation": "Rensa",
+      "timestamp": 1765581946
+    },
+    "Completed": {
+      "translation": "Avslutad",
+      "timestamp": 1765581946
+    },
+    "Delete": {
+      "translation": "Radera",
+      "timestamp": 1765581946
+    },
+    "Delete Task": {
+      "translation": "Ta bort uppgift",
+      "timestamp": 1765581946
+    },
+    "Deleting...": {
+      "translation": "Tar bort...",
+      "timestamp": 1765581946
+    },
+    "FLUX 2 Pro": {
+      "translation": "FLUX 2 Pro",
+      "timestamp": 1765581946
+    },
+    "Failed": {
+      "translation": "Misslyckades",
+      "timestamp": 1765581946
+    },
+    "Failed to fetch tasks": {
+      "translation": "Misslyckades med att hämta uppgifter",
+      "timestamp": 1765581946
+    },
+    "Filters": {
+      "translation": "Filter",
+      "timestamp": 1765581946
+    },
+    "Login to View History": {
+      "translation": "Logga in för att visa historik",
+      "timestamp": 1765581946
+    },
+    "Make Private": {
+      "translation": "Gör privat",
+      "timestamp": 1765581946
+    },
+    "Make Public": {
+      "translation": "Gör offentlig",
+      "timestamp": 1765581946
+    },
+    "Model": {
+      "translation": "Modell",
+      "timestamp": 1765581946
+    },
+    "NSFW": {
+      "translation": "NSFW",
+      "timestamp": 1765581946
+    },
+    "Next": {
+      "translation": "Nästa",
+      "timestamp": 1765581946
+    },
+    "No Matching Tasks": {
+      "translation": "Inga matchande uppgifter",
+      "timestamp": 1765581946
+    },
+    "No Tasks Yet": {
+      "translation": "Inga uppgifter ännu",
+      "timestamp": 1765581946
+    },
+    "No prompt": {
+      "translation": "Ingen uppmaning",
+      "timestamp": 1765581946
+    },
+    "Pending": {
+      "translation": "I avvaktan på",
+      "timestamp": 1765581946
+    },
+    "Previous": {
+      "translation": "Tidigare",
+      "timestamp": 1765581946
+    },
+    "Privacy": {
+      "translation": "Privatliv",
+      "timestamp": 1765581946
+    },
+    "Private": {
+      "translation": "Privat",
+      "timestamp": 1765581946
+    },
+    "Processing": {
+      "translation": "Bearbetning",
+      "timestamp": 1765581946
+    },
+    "Public": {
+      "translation": "Offentlig",
+      "timestamp": 1765581946
+    },
+    "Safe": {
+      "translation": "Säker",
+      "timestamp": 1765581946
+    },
+    "Select...": {
+      "translation": "Välja...",
+      "timestamp": 1765581946
+    },
+    "Sign In": {
+      "translation": "Logga in",
+      "timestamp": 1765581946
+    },
+    "Sign in to view all your AI image generation history": {
+      "translation": "Logga in för att se din historik över generering av AI-bilder",
+      "timestamp": 1765581946
+    },
+    "Start creating your first AI image": {
+      "translation": "Börja skapa din första AI-bild",
+      "timestamp": 1765581946
+    },
+    "Try changing the filter options": {
+      "translation": "Försök att ändra filteralternativen",
+      "timestamp": 1765581946
+    },
+    "View and manage all your AI image generation history": {
+      "translation": "Visa och hantera all din AI-bildgenereringshistorik",
+      "timestamp": 1765581946
+    },
+    "View and manage all your generation history": {
+      "translation": "Visa och hantera all din generationshistorik",
+      "timestamp": 1765581946
+    },
+    "Z-Image LoRA": {
+      "translation": "Z-Image LoRA",
+      "timestamp": 1765581946
+    },
+    "{count} selected": {
+      "translation": "{count} vald",
+      "timestamp": 1765581946
+    }
+  }
+}

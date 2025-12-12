@@ -1,0 +1,47 @@
+{
+  "details": {
+    "aiModel": "Tekoälymalli",
+    "aspectRatio": "Kuvasuhde",
+    "completedAt": "Valmistui klo",
+    "copyPrompt": "Kopioi kehote",
+    "createdAt": "Luotu",
+    "defaultPrompt": "Tekoälyn luoma kuva",
+    "duration": "Kesto",
+    "generationResults": "Sukupolvien tulokset",
+    "imageAlt": "Kuva",
+    "imagePreview": "Kuvan esikatselu",
+    "isNsfw": "NSFW Sisältö",
+    "isPrivate": "Yksityinen tila",
+    "metaDescription": "Tekoälykuva luotu käyttämällä {model}",
+    "nextImage": "Seuraava kuva",
+    "no": "Ei",
+    "parametersInfo": "Parametritiedot",
+    "previousImage": "Edellinen kuva",
+    "prompt": "Kehote",
+    "promptCopied": "Kopioitu",
+    "quotaConsumed": "Käytetyt krediitit",
+    "referenceImage": "Syötekuva",
+    "referenceImages": "Syötetyt kuvat",
+    "resolution": "Resoluutio",
+    "seed": "Siemen",
+    "size": "Koko",
+    "steps": "Askeleet",
+    "yes": "Kyllä"
+  },
+  "notFound": {
+    "backToHome": "Takaisin kotisivulle",
+    "description": "Valitettavasti etsimääsi tehtävää ei löydy. Se on ehkä poistettu tai linkki on virheellinen.",
+    "title": "Tehtävää ei löytynyt"
+  },
+  "processing": {
+    "description": "Kuvaasi luodaan, odota hetki...",
+    "failedDescription": "Kuvan luominen epäonnistui. Yritä myöhemmin uudelleen tai ota yhteyttä tukeen.",
+    "failedTitle": "Tehtävä epäonnistui",
+    "tip": "Yleensä kestää muutamasta sekunnista muutamaan minuuttiin",
+    "title": "Tehtävien käsittely"
+  },
+  "seo": {
+    "description": "Tarkastele tekoälykuvan luontitehtäväsi tietoja ja tuloksia",
+    "title": "Tehtävän tiedot"
+  }
+}

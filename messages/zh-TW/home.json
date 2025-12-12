@@ -2,52 +2,52 @@
   "cta": {
     "buttons": {
       "freeTrial": "免费试用",
-      "viewPricing": "查看定价"
+      "viewPricing": "查看价格"
     },
-    "description": "与成千上万的创作者一起，利用人工智能的力量将您的创意变为现实",
-    "note": "无需信用卡 - 立即开始使用",
-    "title": "现在就开始创作"
+    "description": "加入数千名创作者的行列，利用人工智能的力量将您的创意变为现实。",
+    "note": "无需信用卡 · 立即开始使用",
+    "title": "立即开始创作"
   },
   "features": {
     "items": [
       {
-        "description": "强大的人工智能算法可在数秒内生成高质量图像，显著提高创作效率。",
-        "title": "快速生成"
+        "description": "强大的AI算法可在几秒钟内生成高质量图像，从而大幅提高创作效率。",
+        "title": "快速世代"
       },
       {
-        "description": "使用最先进的人工智能模型，输出专业级图像质量，满足各种创作需求。",
+        "description": "采用最先进的人工智能模型输出专业级图像质量，满足各种创意需求。",
         "title": "专业品质"
       },
       {
-        "description": "丰富的参数设置和样式选项可让您精确控制图像生成的每个细节。",
+        "description": "丰富的参数设置和样式选项，让您可以精确控制图像生成的每一个细节。",
         "title": "灵活控制"
       },
       {
-        "description": "直观的界面无需专业知识，任何人都能轻松创建精美图片。",
-        "title": "易于使用"
+        "description": "直观的界面，无需任何专业知识，任何人都可以轻松创作出精美的图像。",
+        "title": "便于使用"
       }
     ],
-    "sectionDescription": "将强大的人工智能技术与简洁的用户体验相结合，让图像创建变得前所未有的简单",
+    "sectionDescription": "结合强大的AI技术和简洁的用户体验，让图像创作比以往任何时候都更加轻松。",
     "sectionTitle": "为什么选择我们"
   },
   "hero": {
     "buttons": {
       "startCreate": "开始创建",
-      "viewPricing": "查看定价"
+      "viewPricing": "查看价格"
     },
-    "description": "只需描述您的需求，即可获得令人惊叹的专业级图片。无需设计技能，人人都能成为创作者。",
+    "description": "只需描述您的需求，即可获得精美绝伦的专业级图片。无需任何设计技能——人人都能成为创作者。",
     "features": {
-      "easyToUse": "易于使用",
-      "fastGeneration": "快速生成",
+      "easyToUse": "便于使用",
+      "fastGeneration": "快速世代",
       "highQuality": "高质量输出"
     },
     "title": {
-      "line1": "瞬间将创意变为现实",
-      "line2": "人工智能驱动的专业图像生成"
+      "line1": "瞬间将想法变为现实",
+      "line2": "AI驱动的专业图像生成"
     }
   },
   "metadata": {
-    "description": "利用先进的人工智能技术快速生成高质量的专业图像。让人工智能图像创建变得简单高效。",
-    "title": "{siteName} - AI 图像生成工具 | 快速生成专业图像"
+    "description": "利用先进的人工智能技术快速生成高质量的专业图像，使AI图像创作变得简单高效。",
+    "title": "{siteName} - AI图像生成工具 | 快速生成专业图像"
   }
 }

@@ -1,0 +1,85 @@
+{
+  "card": {
+    "cancelDelete": "Peruuttaa",
+    "confirmDelete": "Poistaa",
+    "confirmDeleteMessage": "Haluatko varmasti poistaa tämän tehtävän? Tätä toimintoa ei voi perua.",
+    "confirmDeleteTitle": "Poista tehtävä",
+    "delete": "Poistaa",
+    "deleting": "Poistetaan...",
+    "makePrivate": "Tee yksityiseksi",
+    "makePublic": "Julkistaa",
+    "private": "Yksityinen",
+    "public": "Julkinen"
+  },
+  "empty": {
+    "cta": "Aloita luominen",
+    "filteredSubtitle": "Kokeile muuttaa suodatinasetuksia",
+    "filteredTitle": "Ei vastaavia tehtäviä",
+    "subtitle": "Aloita ensimmäisen tekoälykuvasi luominen",
+    "title": "Ei vielä tehtäviä"
+  },
+  "errors": {
+    "fetchFailed": "Tehtävien hakeminen epäonnistui",
+    "retry": "Yritä uudelleen"
+  },
+  "filter": {
+    "all": "Kaikki",
+    "clearAll": "Tyhjennä",
+    "completed": "Valmis",
+    "failed": "Epäonnistui",
+    "model": {
+      "all": "Kaikki",
+      "flux-2-pro": "FLUX 2 Pro",
+      "nano-banana-pro": "Nano Banana Pro",
+      "z-image": "Z-Image",
+      "z-image-lora": "Z-Image LoRA"
+    },
+    "modelLabel": "Malli",
+    "nsfw": {
+      "nsfw": "NSFW",
+      "safe": "Turvallinen"
+    },
+    "nsfwLabel": "Sisältö",
+    "pending": "Odottaa",
+    "privacy": {
+      "private": "Yksityinen",
+      "public": "Julkinen"
+    },
+    "privacyLabel": "Tietosuoja",
+    "processing": "Käsittely",
+    "selectPlaceholder": "Valitse...",
+    "selectedCount": "{count} valittu",
+    "statusLabel": "Status",
+    "taskType": {
+      "all": "Kaikki",
+      "image-to-image": "Kuvasta kuvaan",
+      "text-to-image": "Teksti kuvaksi"
+    },
+    "taskTypeLabel": "Tyyppi",
+    "title": "Suodattimet"
+  },
+  "header": {
+    "subtitle": "Tarkastele ja hallinnoi kaikkea sukupolviesi historiaa",
+    "title": "Historia"
+  },
+  "loginPrompt": {
+    "cta": "Kirjaudu sisään",
+    "description": "Kirjaudu sisään nähdäksesi kaiken tekoälykuviesi luontihistorian",
+    "title": "Kirjaudu sisään nähdäksesi historian"
+  },
+  "noPrompt": "Ei kehotetta",
+  "pagination": {
+    "next": "Seuraava",
+    "prev": "Edellinen"
+  },
+  "seo": {
+    "description": "Tarkastele ja hallinnoi kaikkea tekoälykuvien luontihistoriaasi",
+    "title": "Historia"
+  },
+  "status": {
+    "completed": "Valmis",
+    "failed": "Epäonnistui",
+    "pending": "Odottaa",
+    "processing": "Käsittely"
+  }
+}
