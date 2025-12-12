@@ -11,6 +11,7 @@ import {
 } from '@/components/landing-page';
 import AIGenerator from '@/components/ai-generator/AIGenerator';
 import Divider from '@/components/Divider';
+import GoogleAdsConversion from '@/components/GoogleAdsConversion';
 
 export default function LandingContent() {
   const { data: session } = useCachedSession();
@@ -18,6 +19,13 @@ export default function LandingContent() {
 
   return (
     <div className="min-h-screen">
+      {/* Google Ads Conversion Tracking */}
+      <GoogleAdsConversion
+        conversionId="AW-17790324344/3nVPCOWCmtAbEPici6NC"
+        value={5.0}
+        currency="USD"
+      />
+
       {/* Hero 区域 - 吸引注意力 */}
       <div className={isLoggedIn ? 'sr-only' : ''}>
         <LandingHero
