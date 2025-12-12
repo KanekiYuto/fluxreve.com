@@ -62,12 +62,12 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale} dir={dir}>
       <body className="antialiased">
-        {/* Google Ads (gtag.js) - 延迟加载，避免阻塞首屏 */}
+        {/* Google Ads (gtag.js) - 更早加载以支持转换追踪 */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17790324344"
-          strategy="lazyOnload"
+          strategy="afterInteractive"
         />
-        <Script id="google-ads" strategy="lazyOnload">
+        <Script id="google-ads" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}

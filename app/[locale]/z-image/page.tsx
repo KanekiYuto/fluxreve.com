@@ -18,19 +18,27 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default function ZImagePage() {
   return (
     <>
-      {/* Google Ads Conversion Tracking - 放在 head 中，在 Google Ads 脚本之后执行 */}
+      {/* Google Ads Conversion Tracking - 网页浏览转换 */}
       <Script
         id="google-ads-conversion"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
-            if (typeof gtag !== 'undefined') {
-              gtag('event', 'conversion', {
-                'send_to': 'AW-17790324344/3nVPCOWCmtAbEPici6NC',
-                'value': 5.0,
-                'currency': 'USD'
-              });
-            }
+            // 确保 gtag 已初始化，最多等待 3 秒
+            let attempts = 0;
+            const trackConversion = () => {
+              if (typeof gtag !== 'undefined') {
+                gtag('event', 'conversion', {
+                  'send_to': 'AW-17790324344/3nVPCOWCmtAbEPici6NC',
+                  'value': 5.0,
+                  'currency': 'USD'
+                });
+              } else if (attempts < 30) {
+                attempts++;
+                setTimeout(trackConversion, 100);
+              }
+            };
+            trackConversion();
           `,
         }}
       />
