@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { siteConfig } from '@/config/site';
 import { footerSections } from '@/config/navigation';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 export default function Footer() {
   const t = useTranslations('common');
@@ -62,8 +63,12 @@ export default function Footer() {
             &copy; {currentYear} {siteConfig.name}. All rights reserved.
           </p>
 
-          {/* 社交媒体图标 */}
-          <div className="flex items-center gap-4">
+          {/* 语言切换器和社交媒体图标 */}
+          <div className="flex items-center gap-6">
+            <LanguageSwitcher />
+
+            {/* 社交媒体图标 */}
+            <div className="flex items-center gap-4">
             {siteConfig.social?.telegram && (
               <a
                 href={siteConfig.social.telegram}
@@ -109,6 +114,7 @@ export default function Footer() {
                 </svg>
               </a>
             )}
+            </div>
           </div>
         </div>
       </div>
