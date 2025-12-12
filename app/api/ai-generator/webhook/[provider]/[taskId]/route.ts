@@ -212,83 +212,96 @@ async function performNSFWCheckAsync(taskId: string, imageUrl: string) {
 }
 
 /**
+ * 异步处理任务完成：转存图片和更新数据库
+ */
+async function transferAndUpdateTask(
+  taskId: string,
+  outputs: string[],
+  model: string
+) {
+  try {
+    // 1. 转存图片到 R2
+    const transferredImages = await Promise.all(
+      outputs.map((url, index) => transferImageToR2(url, taskId, index, model))
+    );
+
+    // 2. 构建结果数组：包含原始地址和水印地址
+    const results = transferredImages.map((transferred, index) => {
+      if (transferred) {
+        return {
+          url: transferred.url,
+          watermarkUrl: transferred.watermarkUrl,
+          type: 'image',
+        };
+      }
+      // 如果转存失败，保留原始地址
+      return {
+        url: outputs[index],
+        type: 'image',
+      };
+    });
+
+    // 3. 转存完成后，更新数据库
+    await db
+      .update(mediaGenerationTask)
+      .set({
+        results,
+        updatedAt: new Date(),
+      })
+      .where(eq(mediaGenerationTask.taskId, taskId));
+
+    console.log(`Task completed and images transferred for task ${taskId}`);
+
+    // 4. 只对配置中指定的模型进行 NSFW 检查
+    const shouldCheckNSFW = NSFW_CHECK_MODELS.includes(model as any);
+    if (shouldCheckNSFW && results.length > 0) {
+      performNSFWCheckAsync(taskId, results[0].url).catch((error) => {
+        console.error(`[NSFW Check] Async execution failed for task ${taskId}:`, error);
+      });
+      console.log(`[NSFW Check] Async check scheduled for task ${taskId}`);
+    }
+  } catch (error) {
+    console.error(`Failed to transfer images for task ${taskId}:`, error);
+  }
+}
+
+/**
  * 处理任务完成
  */
 async function handleTaskCompleted(taskId: string, outputs: string[], startedAt: Date | null, model: string) {
   const durationMs = calculateDuration(startedAt);
 
-  // 异步处理图片转存和数据库更新（不阻塞 webhook 响应）
-  const processCompletedTask = async () => {
-    try {
-      // 1. 转存图片到 R2
-      const transferredImages = await Promise.all(
-        outputs.map((url, index) => transferImageToR2(url, taskId, index, model))
-      );
+  // 快速更新任务状态为完成（使用原始 URL）
+  const results = outputs.map((url) => ({
+    url,
+    type: 'image',
+  }));
 
-      // 2. 构建结果数组：包含原始地址和水印地址
-      const results = transferredImages.map((transferred, index) => {
-        if (transferred) {
-          return {
-            url: transferred.url,
-            watermarkUrl: transferred.watermarkUrl,
-            type: 'image',
-          };
-        }
-        // 如果转存失败，保留原始地址
-        return {
-          url: outputs[index],
-          type: 'image',
-        };
-      });
+  try {
+    await db
+      .update(mediaGenerationTask)
+      .set({
+        status: 'completed',
+        progress: 100,
+        results,
+        completedAt: new Date(),
+        durationMs,
+        updatedAt: new Date(),
+      })
+      .where(eq(mediaGenerationTask.taskId, taskId));
 
-      // 3. 等待图片转存完成后，更新数据库
-      await db
-        .update(mediaGenerationTask)
-        .set({
-          status: 'completed',
-          progress: 100,
-          results,
-          completedAt: new Date(),
-          durationMs,
-          updatedAt: new Date(),
-        })
-        .where(eq(mediaGenerationTask.taskId, taskId));
+    console.log(
+      `Task completed: ${taskId}, duration: ${durationMs}ms, model: ${model}, resultsCount: ${results.length}`
+    );
+  } catch (dbError) {
+    console.error(`Failed to update task status for ${taskId}:`, dbError);
+  }
 
-      console.log(`Task completed and images transferred for task ${taskId}`);
-
-      // 4. 只对配置中指定的模型进行 NSFW 检查
-      const shouldCheckNSFW = NSFW_CHECK_MODELS.includes(model as any);
-      if (shouldCheckNSFW && results.length > 0) {
-        performNSFWCheckAsync(taskId, results[0].url).catch((error) => {
-          console.error(`[NSFW Check] Async execution failed for task ${taskId}:`, error);
-        });
-        console.log(`[NSFW Check] Async check scheduled for task ${taskId}`);
-      }
-    } catch (error) {
-      console.error(`Failed to process completed task ${taskId}:`, error);
-      // 即使处理失败，也要更新任务状态
-      await db
-        .update(mediaGenerationTask)
-        .set({
-          status: 'completed',
-          progress: 100,
-          completedAt: new Date(),
-          durationMs,
-          updatedAt: new Date(),
-        })
-        .where(eq(mediaGenerationTask.taskId, taskId))
-        .catch((dbError) => {
-          console.error(`Failed to update task status for ${taskId}:`, dbError);
-        });
-    }
-  };
-
-  // 异步处理，不阻塞 webhook 响应
-  processCompletedTask().catch((error) => {
-    console.error(`[Process Completed Task] Error for task ${taskId}:`, error);
+  // 异步转存图片到 R2，不阻塞 webhook 响应
+  // 这会在后台进行，最终使用 R2 URL 和水印 URL 更新数据库
+  transferAndUpdateTask(taskId, outputs, model).catch((error) => {
+    console.error(`[Image Transfer] Async execution failed for task ${taskId}:`, error);
   });
-
-  console.log(`Task ${taskId} processing started (async), duration: ${durationMs}ms, model: ${model}`);
 }
 
 /**
