@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && pnpm postbuild",
+    "build": "pnpm update:version && next build && pnpm postbuild",
     "start": "next start",
     "lint": "eslint",
+    "update:version": "tsx scripts/update-version.ts",
     "postbuild": "pnpm generate:sitemap-tasks && next-sitemap",
     "generate:sitemap-tasks": "tsx scripts/generate-public-tasks.ts",
     "db:generate": "drizzle-kit generate",

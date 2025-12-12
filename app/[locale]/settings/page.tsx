@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import useUserStore from '@/store/useUserStore';
@@ -9,9 +10,35 @@ import { Button } from '@/components/ui/button';
 import { Copy, TrendingUp } from 'lucide-react';
 import LoginRequired from '@/components/common/LoginRequired';
 
+interface VersionInfo {
+  version: string;
+  releaseDate: string;
+}
+
 export default function SettingsPage() {
   const { user } = useUserStore();
   const t = useTranslations('settings');
+  const [versionInfo, setVersionInfo] = useState<VersionInfo>({
+    version: '0.1.0',
+    releaseDate: '2025-12-12',
+  });
+
+  // 从服务器读取版本信息
+  useEffect(() => {
+    fetch('/api/version')
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.success) {
+          setVersionInfo({
+            version: data.data.version,
+            releaseDate: data.data.releaseDate,
+          });
+        }
+      })
+      .catch((error) => {
+        console.error('[Version] Failed to fetch version info:', error);
+      });
+  }, []);
 
   // 未登录状态
   if (!user) {
@@ -191,7 +218,7 @@ export default function SettingsPage() {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between py-4 border-b border-border gap-3 sm:gap-0">
               <div className="flex-1">
                 <Label className="text-white">{t('about.version')}</Label>
-                <p className="text-sm text-text-muted mt-1">v0.1.0</p>
+                <p className="text-sm text-text-muted mt-1">v{versionInfo.version}</p>
               </div>
             </div>
 
@@ -199,7 +226,7 @@ export default function SettingsPage() {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between py-4 gap-3 sm:gap-0">
               <div className="flex-1">
                 <Label className="text-white">{t('about.releaseDate')}</Label>
-                <p className="text-sm text-text-muted mt-1">2025-12-12</p>
+                <p className="text-sm text-text-muted mt-1">{versionInfo.releaseDate}</p>
               </div>
             </div>
           </div>
