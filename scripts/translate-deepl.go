@@ -32,8 +32,17 @@ type FileCacheMetadata struct {
 	Entries map[string]CacheEntry `json:"entries"`
 }
 
+// 专有名词配置结构
+type ProperNounsConfig struct {
+	Description string   `json:"description"`
+	ProperNouns []string `json:"properNouns"`
+}
+
 // 翻译缓存（内存）
 var translationCache = make(map[string]string)
+
+// 专有名词列表（从配置文件加载）
+var properNouns []string
 
 // 缓存根目录
 var cacheRootDir = ""
@@ -81,6 +90,26 @@ func saveFileCache(targetDir, fileName string, cache map[string]CacheEntry) erro
 // 检查缓存条目是否过期（24小时）
 func isCacheExpired(timestamp int64) bool {
 	return time.Since(time.Unix(timestamp, 0)) > 24*time.Hour
+}
+
+// 加载专有名词配置
+func loadProperNounsConfig(configPath string) error {
+	data, err := ioutil.ReadFile(configPath)
+	if err != nil {
+		// 如果文件不存在，使用默认的空列表
+		fmt.Printf("⚠️  未找到专有名词配置文件: %s，将使用空列表\n", configPath)
+		properNouns = []string{}
+		return nil
+	}
+
+	var config ProperNounsConfig
+	if err := json.Unmarshal(data, &config); err != nil {
+		return fmt.Errorf("解析专有名词配置失败: %v", err)
+	}
+
+	properNouns = config.ProperNouns
+	fmt.Printf("✅ 成功加载 %d 个专有名词\n", len(properNouns))
+	return nil
 }
 
 // 批量调用 DeepL API 翻译文本
@@ -500,6 +529,11 @@ func main() {
 
 	// 初始化缓存根目录 - .deepl_cache
 	cacheRootDir = ".deepl_cache"
+
+	// 加载专有名词配置
+	if err := loadProperNounsConfig("./config/proper-nouns.json"); err != nil {
+		fmt.Printf("⚠️  警告: 加载专有名词配置失败: %v\n", err)
+	}
 
 	if *apiKey == "" {
 		fmt.Println("❌ 错误: 必须提供 -key 参数（DeepL API 密钥）")
