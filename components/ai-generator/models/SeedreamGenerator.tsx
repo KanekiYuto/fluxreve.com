@@ -237,6 +237,8 @@ export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-t
           maxCount={5}
           required
           id="inputImages"
+          modelName="seedream"
+          generatorType="image-to-image"
         />
       )}
 

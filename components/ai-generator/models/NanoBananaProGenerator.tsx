@@ -270,6 +270,8 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
           maxCount={5}
           required
           id="inputImages"
+          modelName="nano-banana-pro"
+          generatorType="image-to-image"
         />
       )}
 

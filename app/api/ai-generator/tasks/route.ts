@@ -3,6 +3,7 @@ import { db } from '@/lib/db';
 import { mediaGenerationTask } from '@/lib/db/schema';
 import { eq, and, isNull, desc, inArray, count, or } from 'drizzle-orm';
 import { auth } from '@/lib/auth';
+import { processImageResults, UserType } from '@/lib/image/resource';
 
 /**
  * GET /api/ai-generator/tasks
@@ -148,9 +149,16 @@ export async function GET(request: NextRequest) {
     const total = totalCountResult[0]?.count || 0;
     const totalPages = Math.ceil(total / limit);
 
+    // 处理任务结果 - 根据用户类型返回对应的图片URL
+    const userType = session.user.userType as UserType;
+    const processedTasks = tasks.map(task => ({
+      ...task,
+      results: processImageResults(task.results, userType),
+    }));
+
     return NextResponse.json({
       success: true,
-      data: tasks,
+      data: processedTasks,
       pagination: {
         page,
         limit,

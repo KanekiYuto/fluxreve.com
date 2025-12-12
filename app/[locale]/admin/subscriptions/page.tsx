@@ -66,7 +66,7 @@ export default function AdminSubscriptionsPage() {
 
       if (result.success) {
         setSubscriptions(result.data || []);
-        setStats(result.stats || stats);
+        setStats(result.stats);
       } else {
         throw new Error(result.error || 'Unknown error');
       }
@@ -84,7 +84,7 @@ export default function AdminSubscriptionsPage() {
     } finally {
       setIsLoading(false);
     }
-  }, [stats]);
+  }, []);
 
   useEffect(() => {
     fetchSubscriptions();

@@ -34,6 +34,10 @@ interface ImageUploadProps {
   required?: boolean;
   /** 组件 ID */
   id?: string;
+  /** AI 模型名称（用于上传分类） */
+  modelName?: string;
+  /** 生成器类型（如：'text-to-image'、'image-to-image'） */
+  generatorType?: string;
 }
 
 // ==================== 主组件 ====================
@@ -45,6 +49,8 @@ export default function ImageUpload({
   maxCount = 10,
   required = false,
   id,
+  modelName,
+  generatorType,
 }: ImageUploadProps) {
   const t = useTranslations('ai-generator.form');
   const valueRef = useRef<ImageItem[]>(value);
@@ -117,7 +123,14 @@ export default function ImageUpload({
         const formData = new FormData();
         formData.append('file', file);
 
-        const response = await fetch('/api/upload', {
+        // 构建上传 URL 参数
+        const params = new URLSearchParams();
+        if (generatorType) params.append('modelType', generatorType);
+        if (modelName) params.append('modelName', modelName);
+
+        const uploadUrl = `/api/upload${params.toString() ? '?' + params.toString() : ''}`;
+
+        const response = await fetch(uploadUrl, {
           method: 'POST',
           body: formData,
         });
@@ -190,7 +203,14 @@ export default function ImageUpload({
         const formData = new FormData();
         formData.append('file', file);
 
-        const response = await fetch('/api/upload', {
+        // 构建上传 URL 参数
+        const params = new URLSearchParams();
+        if (generatorType) params.append('modelType', generatorType);
+        if (modelName) params.append('modelName', modelName);
+
+        const uploadUrl = `/api/upload${params.toString() ? '?' + params.toString() : ''}`;
+
+        const response = await fetch(uploadUrl, {
           method: 'POST',
           body: formData,
         });

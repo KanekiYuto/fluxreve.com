@@ -5,6 +5,7 @@ import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 import { Download, MoreVertical, Link2, Check } from 'lucide-react';
 import { downloadImage, downloadImages } from '@/lib/download';
+import { generateShareUrlWithUtm } from '@/lib/urls';
 import {
   Popover,
   PopoverContent,
@@ -27,10 +28,11 @@ export default function ActionButtons({ shareId, imageUrl, allImages, isPrivate 
 
   const handleCopyLink = async () => {
     if (!shareId) return;
-    
+
     try {
-      // 构建分享链接 /t/{shareId}
-      const shareUrl = `${window.location.origin}/t/${shareId}`;
+      // 构建分享链接 /t/{shareId} 并添加 UTM 参数
+      const baseShareUrl = `${window.location.origin}/t/${shareId}`;
+      const shareUrl = generateShareUrlWithUtm(baseShareUrl, 'task-share-link');
       await navigator.clipboard.writeText(shareUrl);
       setLinkCopied(true);
       setTimeout(() => setLinkCopied(false), 2000);

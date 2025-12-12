@@ -5,6 +5,9 @@ import { eq, and } from 'drizzle-orm';
 import { refundQuota } from '@/lib/quota';
 import { checkImageNSFWWithDetails } from '@/lib/wavespeed';
 import { NSFW_CHECK_MODELS } from '@/config/ai-generator';
+import { uploadToR2 } from '@/lib/storage/r2';
+import { generateShareUrlWithUtm } from '@/lib/urls';
+import { addWatermark } from '@/lib/image/watermark';
 
 // 通用任务状态
 type TaskStatus = 'pending' | 'processing' | 'completed' | 'failed';
@@ -110,6 +113,77 @@ function calculateDuration(startedAt: Date | null): number | null {
 }
 
 /**
+ * 从 URL 下载图片
+ */
+async function downloadImage(imageUrl: string): Promise<Buffer> {
+  try {
+    const response = await fetch(imageUrl);
+    if (!response.ok) {
+      throw new Error(`Failed to download image: ${response.statusText}`);
+    }
+    return Buffer.from(await response.arrayBuffer());
+  } catch (error) {
+    console.error(`Failed to download image from ${imageUrl}:`, error);
+    throw error;
+  }
+}
+
+/**
+ * 转存图片到 R2 并返回原始地址和带水印地址
+ */
+async function transferImageToR2(
+  originalUrl: string,
+  taskId: string,
+  index: number,
+  model: string
+): Promise<{ url: string; watermarkUrl: string } | null> {
+  try {
+    // 下载原始图片
+    const imageBuffer = await downloadImage(originalUrl);
+
+    // 获取文件扩展名
+    const urlPath = new URL(originalUrl).pathname;
+    const ext = urlPath.split('.').pop() || 'jpg';
+    const fileName = `${taskId}-${index}.${ext}`;
+    const contentType = `image/${ext === 'jpg' ? 'jpeg' : ext}`;
+
+    // 1. 上传原始图片到 R2
+    const uploadResult = await uploadToR2({
+      file: imageBuffer,
+      fileName,
+      contentType,
+      prefix: `text-to-image/${model}`,
+    });
+
+    // 2. 生成带水印的图片
+    const watermarkedBuffer = await addWatermark(imageBuffer);
+
+    // 3. 上传带水印的图片到 R2
+    const watermarkFileName = `${taskId}-${index}-watermark.${ext}`;
+    const watermarkUploadResult = await uploadToR2({
+      file: watermarkedBuffer,
+      fileName: watermarkFileName,
+      contentType,
+      prefix: `text-to-image/${model}`,
+    });
+
+    console.log(`Image transferred for task ${taskId}:`, {
+      original: originalUrl,
+      r2: uploadResult.url,
+      watermark: watermarkUploadResult.url,
+    });
+
+    return {
+      url: uploadResult.url,
+      watermarkUrl: watermarkUploadResult.url,
+    };
+  } catch (error) {
+    console.error(`Failed to transfer image to R2:`, error);
+    return null;
+  }
+}
+
+/**
  * 异步执行 NSFW 检查并更新任务
  */
 async function performNSFWCheckAsync(taskId: string, imageUrl: string) {
@@ -141,46 +215,80 @@ async function performNSFWCheckAsync(taskId: string, imageUrl: string) {
  * 处理任务完成
  */
 async function handleTaskCompleted(taskId: string, outputs: string[], startedAt: Date | null, model: string) {
-  // 保存所有生成的图片结果
-  const results = outputs.map((url) => ({
-    url,
-    type: 'image',
-  }));
-
   const durationMs = calculateDuration(startedAt);
 
-  // 先快速更新任务状态为完成
-  await db
-    .update(mediaGenerationTask)
-    .set({
-      status: 'completed',
-      progress: 100,
-      results,
-      completedAt: new Date(),
-      durationMs,
-      updatedAt: new Date(),
-    })
-    .where(eq(mediaGenerationTask.taskId, taskId));
+  // 异步处理图片转存和数据库更新（不阻塞 webhook 响应）
+  const processCompletedTask = async () => {
+    try {
+      // 1. 转存图片到 R2
+      const transferredImages = await Promise.all(
+        outputs.map((url, index) => transferImageToR2(url, taskId, index, model))
+      );
 
-  console.log(
-    `Task completed: ${taskId}, duration: ${durationMs}ms, model: ${model}, resultsCount: ${results.length}`
-  );
+      // 2. 构建结果数组：包含原始地址和水印地址
+      const results = transferredImages.map((transferred, index) => {
+        if (transferred) {
+          return {
+            url: transferred.url,
+            watermarkUrl: transferred.watermarkUrl,
+            type: 'image',
+          };
+        }
+        // 如果转存失败，保留原始地址
+        return {
+          url: outputs[index],
+          type: 'image',
+        };
+      });
 
-  // 只对配置中指定的模型进行 NSFW 检查
-  const shouldCheckNSFW = NSFW_CHECK_MODELS.includes(model as any);
+      // 3. 等待图片转存完成后，更新数据库
+      await db
+        .update(mediaGenerationTask)
+        .set({
+          status: 'completed',
+          progress: 100,
+          results,
+          completedAt: new Date(),
+          durationMs,
+          updatedAt: new Date(),
+        })
+        .where(eq(mediaGenerationTask.taskId, taskId));
 
-  // 异步执行 NSFW 检查，不阻塞 webhook 响应
-  // 这样可以快速响应 webhook（避免超时重试），NSFW 检查在后台完成
-  // NSFW 检查可能需要 10+ 秒，如果同步执行会导致：
-  // 1. Webhook 响应超时，对方会重试发送
-  // 2. 重复的 webhook 会触发重复的 NSFW 检查
-  if (shouldCheckNSFW && outputs.length > 0) {
-    // 使用 Promise 异步执行，不等待结果
-    performNSFWCheckAsync(taskId, outputs[0]).catch((error) => {
-      console.error(`[NSFW Check] Async execution failed for task ${taskId}:`, error);
-    });
-    console.log(`[NSFW Check] Async check scheduled for task ${taskId}`);
-  }
+      console.log(`Task completed and images transferred for task ${taskId}`);
+
+      // 4. 只对配置中指定的模型进行 NSFW 检查
+      const shouldCheckNSFW = NSFW_CHECK_MODELS.includes(model as any);
+      if (shouldCheckNSFW && results.length > 0) {
+        performNSFWCheckAsync(taskId, results[0].url).catch((error) => {
+          console.error(`[NSFW Check] Async execution failed for task ${taskId}:`, error);
+        });
+        console.log(`[NSFW Check] Async check scheduled for task ${taskId}`);
+      }
+    } catch (error) {
+      console.error(`Failed to process completed task ${taskId}:`, error);
+      // 即使处理失败，也要更新任务状态
+      await db
+        .update(mediaGenerationTask)
+        .set({
+          status: 'completed',
+          progress: 100,
+          completedAt: new Date(),
+          durationMs,
+          updatedAt: new Date(),
+        })
+        .where(eq(mediaGenerationTask.taskId, taskId))
+        .catch((dbError) => {
+          console.error(`Failed to update task status for ${taskId}:`, dbError);
+        });
+    }
+  };
+
+  // 异步处理，不阻塞 webhook 响应
+  processCompletedTask().catch((error) => {
+    console.error(`[Process Completed Task] Error for task ${taskId}:`, error);
+  });
+
+  console.log(`Task ${taskId} processing started (async), duration: ${durationMs}ms, model: ${model}`);
 }
 
 /**

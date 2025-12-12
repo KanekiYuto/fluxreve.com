@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/db';
 import { mediaGenerationTask } from '@/lib/db/schema';
 import { eq, and, isNull, isNotNull, desc, count } from 'drizzle-orm';
+import { processImageResults } from '@/lib/image/resource';
 
 /**
  * GET /api/explore
@@ -56,9 +57,16 @@ export async function GET(request: NextRequest) {
     const total = totalCountResult[0]?.count || 0;
     const totalPages = Math.ceil(total / limit);
 
+    // 处理任务结果 - 公开页面，未登录返回水印版本
+    // 由于这是公开接口，不需要传递 userType，默认返回水印版本
+    const processedTasks = tasks.map(task => ({
+      ...task,
+      results: processImageResults(task.results, undefined),
+    }));
+
     return NextResponse.json({
       success: true,
-      data: tasks,
+      data: processedTasks,
       pagination: {
         page,
         limit,

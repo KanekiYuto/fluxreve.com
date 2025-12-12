@@ -8,6 +8,12 @@ import { randomUUID } from 'crypto';
 
 // ==================== 配置 ====================
 
+/**
+ * R2 存储版本前缀
+ * 用于文件上传目录的版本管理和兼容性处理
+ */
+const STORAGE_VERSION = 'beta';
+
 const STORAGE_CONFIG = {
   region: process.env.STORAGE_REGION || 'auto',
   endpoint: process.env.STORAGE_ENDPOINT,
@@ -71,8 +77,9 @@ function createR2Client(): S3Client {
 
 /**
  * 生成唯一的文件 key
+ * 自动添加版本前缀以便于版本管理和兼容性
  * @param fileName 原始文件名
- * @param prefix 可选的路径前缀
+ * @param prefix 可选的路径前缀（在版本前缀之后）
  * @returns 文件 key
  */
 export function generateFileKey(fileName: string, prefix?: string): string {
@@ -82,7 +89,10 @@ export function generateFileKey(fileName: string, prefix?: string): string {
 
   const baseKey = ext ? `${uuid}-${timestamp}.${ext}` : `${uuid}-${timestamp}`;
 
-  return prefix ? `${prefix}/${baseKey}` : baseKey;
+  // 构建完整的 key：版本/可选前缀/文件名
+  const versionedKey = `${STORAGE_VERSION}/${prefix ? `${prefix}/` : ''}${baseKey}`;
+
+  return versionedKey;
 }
 
 /**

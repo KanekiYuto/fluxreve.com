@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/db';
 import { mediaGenerationTask } from '@/lib/db/schema';
 import { eq } from 'drizzle-orm';
+import { processImageResults } from '@/lib/image/resource';
 
 /**
  * GET /api/ai-generator/share/[shareId]
@@ -50,6 +51,7 @@ export async function GET(
     const task = tasks[0];
 
     // 返回任务信息
+    // 公开分享链接，返回水印版本（userType=undefined）
     return NextResponse.json({
       success: true,
       data: {
@@ -59,7 +61,7 @@ export async function GET(
         model: task.model,
         task_type: task.taskType,
         parameters: task.parameters,
-        results: task.results,
+        results: processImageResults(task.results, undefined),
         created_at: task.createdAt,
         completed_at: task.completedAt,
         error: task.errorMessage,

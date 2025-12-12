@@ -245,6 +245,8 @@ export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-t
           maxCount={5}
           required
           id="inputImages"
+          modelName="flux-2-pro"
+          generatorType="image-to-image"
         />
       )}
 

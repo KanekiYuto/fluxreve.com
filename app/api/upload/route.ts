@@ -8,7 +8,11 @@ import { validateFile, FILE_LIMITS, formatFileSize } from '@/lib/storage/validat
  * 上传文件到 R2 存储
  *
  * 支持的查询参数:
- * - prefix: 文件存储路径前缀(默认: uploads)
+ * - modelType: AI 生成器的类型(例如: text-to-image, image-to-image)
+ * - modelName: AI 模型的名称(例如: z-image, flux)
+ * - prefix: 自定义文件存储路径前缀(可选，会追加到模型目录后面)
+ *
+ * 优先级：modelType/modelName > prefix > 默认(uploads)
  *
  * 请求体: FormData
  * - file: 要上传的文件
@@ -28,7 +32,20 @@ export async function POST(request: NextRequest) {
     }
 
     // 解析查询参数
-    const prefix = request.nextUrl.searchParams.get('prefix') || 'uploads';
+    const modelType = request.nextUrl.searchParams.get('modelType');
+    const modelName = request.nextUrl.searchParams.get('modelName');
+    const customPrefix = request.nextUrl.searchParams.get('prefix');
+
+    // 生成上传目录前缀：modelType/modelName > customPrefix > uploads
+    let prefix = 'uploads';
+    if (modelType && modelName) {
+      prefix = `${modelType}/${modelName}`;
+      if (customPrefix) {
+        prefix = `${prefix}/${customPrefix}`;
+      }
+    } else if (customPrefix) {
+      prefix = customPrefix;
+    }
 
     // 解析 FormData
     const formData = await request.formData();

@@ -3,6 +3,7 @@ import { db } from '@/lib/db';
 import { mediaGenerationTask } from '@/lib/db/schema';
 import { eq, and, gte, isNull, desc } from 'drizzle-orm';
 import { auth } from '@/lib/auth';
+import { processImageResults, UserType } from '@/lib/image/resource';
 
 /**
  * GET /api/ai-generator/tasks/recent
@@ -52,9 +53,16 @@ export async function GET(request: NextRequest) {
       .orderBy(desc(mediaGenerationTask.createdAt))
       .limit(12);
 
+    // 处理任务结果 - 根据用户类型返回对应的图片URL
+    const userType = session.user.userType as UserType;
+    const processedTasks = tasks.map(task => ({
+      ...task,
+      results: processImageResults(task.results, userType),
+    }));
+
     return NextResponse.json({
       success: true,
-      data: tasks,
+      data: processedTasks,
     });
   } catch (error) {
     console.error('Recent tasks query error:', error);

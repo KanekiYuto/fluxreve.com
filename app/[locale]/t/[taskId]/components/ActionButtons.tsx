@@ -5,6 +5,7 @@ import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 import { Share2, Download, MoreVertical } from 'lucide-react';
 import { downloadImage, downloadImages } from '@/lib/download';
+import { generateShareUrlWithUtm } from '@/lib/urls';
 import {
   Tooltip,
   TooltipContent,
@@ -36,11 +37,20 @@ export default function ActionButtons({ shareUrl, prompt, imageUrl, allImages, m
   const [downloading, setDownloading] = useState(false);
   const [downloadingAll, setDownloadingAll] = useState(false);
 
+  // 生成带 UTM 参数的分享链接（用于复制）
+  const shareUrlWithUtm = generateShareUrlWithUtm(shareUrl, 't-share-link', model);
+
+  // 生成带 UTM 参数的 Twitter 分享链接
+  const twitterShareUrl = generateShareUrlWithUtm(shareUrl, 'twitter', model);
+
+  // 生成带 UTM 参数的分享卡片下载链接
+  const downloadCardShareUrl = generateShareUrlWithUtm(shareUrl, 't-download-card', model);
+
   const handleCopyLink = async () => {
     if (copied) return;
 
     try {
-      await navigator.clipboard.writeText(shareUrl);
+      await navigator.clipboard.writeText(shareUrlWithUtm);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch (err) {
@@ -128,7 +138,7 @@ export default function ActionButtons({ shareUrl, prompt, imageUrl, allImages, m
             <div className="flex flex-col gap-2">
               <ShareToX
                 text={prompt}
-                url={shareUrl}
+                url={twitterShareUrl}
                 className="flex items-center gap-2 px-3 py-2 rounded-md hover:bg-zinc-700/50 transition-colors text-white text-sm"
               />
             </div>
@@ -195,7 +205,7 @@ export default function ActionButtons({ shareUrl, prompt, imageUrl, allImages, m
                   imageUrl={imageUrl}
                   prompt={prompt}
                   model={model}
-                  shareUrl={shareUrl}
+                  shareUrl={downloadCardShareUrl}
                 />
               )}
             </div>

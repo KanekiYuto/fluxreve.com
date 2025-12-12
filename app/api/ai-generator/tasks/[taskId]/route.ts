@@ -3,6 +3,7 @@ import { db } from '@/lib/db';
 import { mediaGenerationTask, quotaTransaction } from '@/lib/db/schema';
 import { eq, and, isNull } from 'drizzle-orm';
 import { auth } from '@/lib/auth';
+import { processImageResults, UserType } from '@/lib/image/resource';
 
 /**
  * GET /api/ai-generator/tasks/[taskId]
@@ -80,6 +81,7 @@ export async function GET(
     }
 
     const task = tasks[0];
+    const userType = session.user.userType as UserType;
 
     // 返回任务数据
     return NextResponse.json({
@@ -93,7 +95,7 @@ export async function GET(
         status: task.status,
         progress: task.progress,
         parameters: task.parameters,
-        results: task.results,
+        results: processImageResults(task.results, userType),
         errorMessage: task.errorMessage,
         createdAt: task.createdAt,
         startedAt: task.startedAt,
