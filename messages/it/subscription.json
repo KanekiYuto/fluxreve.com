@@ -1,0 +1,43 @@
+{
+  "card": {
+    "amount": "Importo della sottoscrizione",
+    "canceledDate": "Data di annullamento",
+    "customerId": "Cliente",
+    "expiryDate": "Data di scadenza",
+    "manageButton": "Gestire l'abbonamento",
+    "nextBillingDate": "Data di fatturazione successiva",
+    "nextRenewal": "Il prossimo rinnovo passa a",
+    "planTypes": {
+      "monthly_basic": "Base - Mensile",
+      "monthly_pro": "Pro - Mensile",
+      "trial": "Processo",
+      "yearly_basic": "Base - Annuale",
+      "yearly_pro": "Pro - Annuale"
+    },
+    "platform": "Piattaforma di pagamento",
+    "startDate": "Data di inizio",
+    "status": {
+      "active": "Attivo",
+      "canceled": "Annullato",
+      "expired": "Scaduto",
+      "paused": "In pausa",
+      "pending": "In attesa di pagamento"
+    },
+    "subscriptionId": "Abbonamento"
+  },
+  "empty": {
+    "action": "Visualizza i piani tariffari",
+    "description": "Al momento non ci sono abbonamenti attivi",
+    "title": "Nessun abbonamento"
+  },
+  "login": {
+    "description": "Accedere per visualizzare e gestire le informazioni sull'abbonamento",
+    "title": "Accedi per visualizzare gli abbonamenti"
+  },
+  "seo": {
+    "description": "Visualizzare e gestire i piani di abbonamento e le informazioni di fatturazione",
+    "title": "Gestione degli abbonamenti"
+  },
+  "subtitle": "Visualizzare e gestire le informazioni sull'abbonamento",
+  "title": "Gestione degli abbonamenti"
+}

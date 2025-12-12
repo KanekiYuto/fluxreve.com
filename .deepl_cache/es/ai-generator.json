@@ -1,0 +1,536 @@
+{
+  "entries": {
+    "16:9 (Landscape)": {
+      "translation": "16:9 (paesaggio)",
+      "timestamp": 1765569875
+    },
+    "1:1 (Square)": {
+      "translation": "1:1 (quadrato)",
+      "timestamp": 1765569875
+    },
+    "21:9 (Ultrawide)": {
+      "translation": "21:9 (Ultrawide)",
+      "timestamp": 1765569875
+    },
+    "3:4 (Portrait)": {
+      "translation": "3:4 (Ritratto)",
+      "timestamp": 1765569875
+    },
+    "4:3 (Standard)": {
+      "translation": "4:3 (standard)",
+      "timestamp": 1765569875
+    },
+    "9:16 (Portrait)": {
+      "translation": "9:16 (Ritratto)",
+      "timestamp": 1765569875
+    },
+    "AI Creating": {
+      "translation": "Creazione di intelligenza artificiale",
+      "timestamp": 1765569875
+    },
+    "AI Generator": {
+      "translation": "Generatore di intelligenza artificiale",
+      "timestamp": 1765569875
+    },
+    "Add": {
+      "translation": "Aggiungi",
+      "timestamp": 1765569875
+    },
+    "Add Image URL": {
+      "translation": "Aggiungi URL immagine",
+      "timestamp": 1765569875
+    },
+    "Add Item": {
+      "translation": "Aggiungi articolo",
+      "timestamp": 1765569875
+    },
+    "Add LoRA": {
+      "translation": "Aggiungi LoRA",
+      "timestamp": 1765569875
+    },
+    "Advanced Settings": {
+      "translation": "Impostazioni avanzate",
+      "timestamp": 1765569875
+    },
+    "Art Gallery": {
+      "translation": "Galleria d'arte",
+      "timestamp": 1765569875
+    },
+    "Aspect Ratio": {
+      "translation": "Rapporto d'aspetto",
+      "timestamp": 1765569875
+    },
+    "ByteDance": {
+      "translation": "ByteDance",
+      "timestamp": 1765569875
+    },
+    "ByteDance Seedream 4.5, ultra-high quality image generation with large resolution output": {
+      "translation": "ByteDance Seedream 4.5, generazione di immagini di altissima qualità con uscita a grande risoluzione",
+      "timestamp": 1765569875
+    },
+    "Cancel": {
+      "translation": "Annullamento",
+      "timestamp": 1765569875
+    },
+    "Choose from the LoRA library and customize scale for personalized styles": {
+      "translation": "Scegliere dalla libreria LoRA e personalizzare la scala per ottenere stili personalizzati",
+      "timestamp": 1765569875
+    },
+    "Click \"Add LoRA\" button to start configuration": {
+      "translation": "Fare clic sul pulsante \"Aggiungi LoRA\" per avviare la configurazione.",
+      "timestamp": 1765569875
+    },
+    "Click a LoRA card on the left to select": {
+      "translation": "Fare clic su una scheda LoRA a sinistra per selezionarla.",
+      "timestamp": 1765569875
+    },
+    "Click an example below to start creating, or fill out the form on the left to customize": {
+      "translation": "Fate clic su un esempio qui sotto per iniziare a creare, oppure compilate il modulo a sinistra per personalizzarlo.",
+      "timestamp": 1765569875
+    },
+    "Click the button above to add LoRA configuration": {
+      "translation": "Fare clic sul pulsante qui sopra per aggiungere la configurazione LoRA",
+      "timestamp": 1765569875
+    },
+    "Click to use this example": {
+      "translation": "Fare clic per utilizzare questo esempio",
+      "timestamp": 1765569875
+    },
+    "Coming Soon": {
+      "translation": "In arrivo",
+      "timestamp": 1765569875
+    },
+    "Completed Time": {
+      "translation": "Tempo di completamento",
+      "timestamp": 1765569875
+    },
+    "Configuration": {
+      "translation": "Configurazione",
+      "timestamp": 1765569875
+    },
+    "Confirm": {
+      "translation": "Confermare",
+      "timestamp": 1765569875
+    },
+    "Create amazing content with powerful AI models": {
+      "translation": "Creare contenuti sorprendenti con potenti modelli di intelligenza artificiale",
+      "timestamp": 1765569875
+    },
+    "Create stunning AI-generated images with our powerful AI image generation tool. Fast, professional, and easy to use.": {
+      "translation": "Create splendide immagini generate da AI con il nostro potente strumento di generazione di immagini AI. Veloce, professionale e facile da usare.",
+      "timestamp": 1765569875
+    },
+    "Creative": {
+      "translation": "Creativo",
+      "timestamp": 1765569875
+    },
+    "Credits": {
+      "translation": "Crediti",
+      "timestamp": 1765569875
+    },
+    "Currency": {
+      "translation": "Valuta",
+      "timestamp": 1765569875
+    },
+    "Current": {
+      "translation": "Attuale",
+      "timestamp": 1765569875
+    },
+    "Customizable": {
+      "translation": "Personalizzabile",
+      "timestamp": 1765569875
+    },
+    "Describe the image you want to generate...": {
+      "translation": "Descrivete l'immagine che volete generare...",
+      "timestamp": 1765569875
+    },
+    "Development Progress": {
+      "translation": "Progressi nello sviluppo",
+      "timestamp": 1765569875
+    },
+    "Download Current": {
+      "translation": "Scaricare Corrente",
+      "timestamp": 1765569875
+    },
+    "Education": {
+      "translation": "Istruzione",
+      "timestamp": 1765569875
+    },
+    "Enter LoRA configuration in JSON format, e.g., model name, weight, and other parameters": {
+      "translation": "Inserire la configurazione di LoRA in formato JSON, ad esempio il nome del modello, il peso e altri parametri.",
+      "timestamp": 1765569875
+    },
+    "Enter image URL": {
+      "translation": "Inserire l'URL dell'immagine",
+      "timestamp": 1765569875
+    },
+    "Exciting Features on the Way": {
+      "translation": "Funzionalità interessanti in arrivo",
+      "timestamp": 1765569875
+    },
+    "Expected to launch soon": {
+      "translation": "Il lancio è previsto a breve",
+      "timestamp": 1765569875
+    },
+    "Explore powerful image utilities including upscaling, enhancement, format conversion, and batch processing": {
+      "translation": "Esplorate le potenti utility per le immagini, tra cui l'upscaling, il miglioramento, la conversione di formato e l'elaborazione in batch.",
+      "timestamp": 1765569875
+    },
+    "Fast": {
+      "translation": "Quasi",
+      "timestamp": 1765569875
+    },
+    "Fast Processing": {
+      "translation": "Elaborazione rapida",
+      "timestamp": 1765569875
+    },
+    "Film Style": {
+      "translation": "Stile cinematografico",
+      "timestamp": 1765569875
+    },
+    "Flux Series": {
+      "translation": "Serie Flux",
+      "timestamp": 1765569875
+    },
+    "Generated Results": {
+      "translation": "Risultati generati",
+      "timestamp": 1765569875
+    },
+    "Generating amazing content for you, please wait...": {
+      "translation": "Generare contenuti incredibili per voi, attendere prego...",
+      "timestamp": 1765569875
+    },
+    "Generation Failed": {
+      "translation": "Generazione fallita",
+      "timestamp": 1765569875
+    },
+    "Generation Time": {
+      "translation": "Tempo di generazione",
+      "timestamp": 1765569875
+    },
+    "High Quality": {
+      "translation": "Alta qualità",
+      "timestamp": 1765569875
+    },
+    "Hint: You can drag and drop a file or click to upload": {
+      "translation": "Suggerimento: è possibile trascinare e rilasciare un file o fare clic per caricarlo.",
+      "timestamp": 1765569875
+    },
+    "Image generation failed": {
+      "translation": "Generazione dell'immagine non riuscita",
+      "timestamp": 1765569875
+    },
+    "Image to Image": {
+      "translation": "Da immagine a immagine",
+      "timestamp": 1765569875
+    },
+    "Initializing": {
+      "translation": "Inizializzazione",
+      "timestamp": 1765569875
+    },
+    "Insufficient Credits": {
+      "translation": "Crediti insufficienti",
+      "timestamp": 1765569875
+    },
+    "Intelligent automation": {
+      "translation": "Automazione intelligente",
+      "timestamp": 1765569875
+    },
+    "Latest": {
+      "translation": "Ultime novità",
+      "timestamp": 1765569875
+    },
+    "Leave blank for random": {
+      "translation": "Lasciare in bianco per il caso",
+      "timestamp": 1765569875
+    },
+    "Lightning-fast generation, optimized for high-quality creative output with exceptional speed": {
+      "translation": "Generazione fulminea, ottimizzata per una produzione creativa di alta qualità con una velocità eccezionale",
+      "timestamp": 1765569875
+    },
+    "Lightning-fast results": {
+      "translation": "Risultati rapidi e veloci",
+      "timestamp": 1765569875
+    },
+    "LoRA Config": {
+      "translation": "Configurazione LoRA",
+      "timestamp": 1765569875
+    },
+    "LoRA Support": {
+      "translation": "Supporto LoRA",
+      "timestamp": 1765569875
+    },
+    "Loading...": {
+      "translation": "Caricamento...",
+      "timestamp": 1765569875
+    },
+    "Manage": {
+      "translation": "Gestire",
+      "timestamp": 1765569875
+    },
+    "Manage LoRA": {
+      "translation": "Gestire la LoRA",
+      "timestamp": 1765569875
+    },
+    "Math": {
+      "translation": "Matematica",
+      "timestamp": 1765569875
+    },
+    "Minimalist": {
+      "translation": "Minimalista",
+      "timestamp": 1765569875
+    },
+    "Moody": {
+      "translation": "Umano",
+      "timestamp": 1765569875
+    },
+    "More": {
+      "translation": "Di più",
+      "timestamp": 1765569875
+    },
+    "More Image Tools": {
+      "translation": "Altri strumenti per le immagini",
+      "timestamp": 1765569875
+    },
+    "Nano Series": {
+      "translation": "Nano Series",
+      "timestamp": 1765569875
+    },
+    "No LoRA available": {
+      "translation": "Nessuna LoRA disponibile",
+      "timestamp": 1765569875
+    },
+    "No LoRA configured": {
+      "translation": "Nessun LoRA configurato",
+      "timestamp": 1765569875
+    },
+    "No LoRA configured yet": {
+      "translation": "Nessun LoRA ancora configurato",
+      "timestamp": 1765569875
+    },
+    "No LoRA selected": {
+      "translation": "Nessuna LoRA selezionata",
+      "timestamp": 1765569875
+    },
+    "No examples available": {
+      "translation": "Nessun esempio disponibile",
+      "timestamp": 1765569875
+    },
+    "No matching LoRA found": {
+      "translation": "Non è stata trovata alcuna corrispondenza con LoRA",
+      "timestamp": 1765569875
+    },
+    "Output Format": {
+      "translation": "Formato di uscita",
+      "timestamp": 1765569875
+    },
+    "Parameter Error": {
+      "translation": "Errore di parametro",
+      "timestamp": 1765569875
+    },
+    "Photorealistic": {
+      "translation": "Fotorealistico",
+      "timestamp": 1765569875
+    },
+    "Photorealistic AI image generation with accurate bilingual text rendering, sub-second speed": {
+      "translation": "Generazione di immagini AI fotorealistiche con accurato rendering del testo bilingue, velocità inferiore al secondo",
+      "timestamp": 1765569875
+    },
+    "Please create or import LoRA models first": {
+      "translation": "Creare o importare prima i modelli LoRA",
+      "timestamp": 1765569875
+    },
+    "Please enter a prompt": {
+      "translation": "Inserire una richiesta",
+      "timestamp": 1765569875
+    },
+    "Please enter valid JSON format configuration": {
+      "translation": "Inserire una configurazione valida in formato JSON",
+      "timestamp": 1765569875
+    },
+    "Please recharge and try again": {
+      "translation": "Ricaricare e riprovare",
+      "timestamp": 1765569875
+    },
+    "Please select": {
+      "translation": "Selezionare",
+      "timestamp": 1765569875
+    },
+    "Portrait": {
+      "translation": "Ritratto",
+      "timestamp": 1765569875
+    },
+    "Powerful AI": {
+      "translation": "Intelligenza Artificiale potente",
+      "timestamp": 1765569875
+    },
+    "Private Mode": {
+      "translation": "Moda privata",
+      "timestamp": 1765569875
+    },
+    "Professional": {
+      "translation": "Professionale",
+      "timestamp": 1765569875
+    },
+    "Professional-grade image generation model, supports text-to-image and image-to-image with high-quality output": {
+      "translation": "Modello di generazione di immagini di livello professionale, supporta il text-to-image e l'image-to-image con output di alta qualità",
+      "timestamp": 1765569875
+    },
+    "Prompt": {
+      "translation": "Prompt",
+      "timestamp": 1765569875
+    },
+    "Query Status Failed": {
+      "translation": "Stato dell'interrogazione non riuscito",
+      "timestamp": 1765569875
+    },
+    "Quick Start": {
+      "translation": "Avvio rapido",
+      "timestamp": 1765569875
+    },
+    "Quota": {
+      "translation": "Quota",
+      "timestamp": 1765569875
+    },
+    "Refresh quota": {
+      "translation": "Aggiornare la quota",
+      "timestamp": 1765569875
+    },
+    "Required": {
+      "translation": "Richiesto",
+      "timestamp": 1765569875
+    },
+    "Resolution": {
+      "translation": "Risoluzione",
+      "timestamp": 1765569875
+    },
+    "Results will only be visible to you": {
+      "translation": "I risultati saranno visibili solo a voi",
+      "timestamp": 1765569875
+    },
+    "Retro": {
+      "translation": "Retro",
+      "timestamp": 1765569875
+    },
+    "Scale": {
+      "translation": "Scale",
+      "timestamp": 1765569875
+    },
+    "Search LoRA name, description, or trigger word...": {
+      "translation": "Ricerca nome LoRA, descrizione o parola chiave...",
+      "timestamp": 1765569875
+    },
+    "Seed": {
+      "translation": "Seme",
+      "timestamp": 1765569875
+    },
+    "Seedream Series": {
+      "translation": "Serie Seedream",
+      "timestamp": 1765569875
+    },
+    "Select LoRA": {
+      "translation": "Selezionare LoRA",
+      "timestamp": 1765569875
+    },
+    "Select LoRA Model": {
+      "translation": "Selezionare il modello LoRA",
+      "timestamp": 1765569875
+    },
+    "Select aspect ratio": {
+      "translation": "Selezionare il rapporto d'aspetto",
+      "timestamp": 1765569875
+    },
+    "Select image size": {
+      "translation": "Selezionare le dimensioni dell'immagine",
+      "timestamp": 1765569875
+    },
+    "Select output format": {
+      "translation": "Selezionare il formato di uscita",
+      "timestamp": 1765569875
+    },
+    "Select resolution": {
+      "translation": "Selezionare la risoluzione",
+      "timestamp": 1765569875
+    },
+    "Selected": {
+      "translation": "Selezionato",
+      "timestamp": 1765569875
+    },
+    "Size": {
+      "translation": "Dimensione",
+      "timestamp": 1765569875
+    },
+    "Smart Features": {
+      "translation": "Caratteristiche intelligenti",
+      "timestamp": 1765569875
+    },
+    "State-of-the-art technology": {
+      "translation": "Tecnologia all'avanguardia",
+      "timestamp": 1765569875
+    },
+    "Steps": {
+      "translation": "Passi",
+      "timestamp": 1765569875
+    },
+    "Stylized": {
+      "translation": "Stilizzato",
+      "timestamp": 1765569875
+    },
+    "Sub-second": {
+      "translation": "Sub-secondo",
+      "timestamp": 1765569875
+    },
+    "Subscribe": {
+      "translation": "Abbonarsi",
+      "timestamp": 1765569875
+    },
+    "Subscribe to enable private mode": {
+      "translation": "Sottoscrivere per abilitare la modalità privata",
+      "timestamp": 1765569875
+    },
+    "Text Render": {
+      "translation": "Rendering del testo",
+      "timestamp": 1765569875
+    },
+    "Text to Image": {
+      "translation": "Da testo a immagine",
+      "timestamp": 1765569875
+    },
+    "Ultra HD": {
+      "translation": "Ultra HD",
+      "timestamp": 1765569875
+    },
+    "Unable to query task status": {
+      "translation": "Impossibile interrogare lo stato dell'attività",
+      "timestamp": 1765569875
+    },
+    "Upload Image": {
+      "translation": "Carica immagine",
+      "timestamp": 1765569875
+    },
+    "Uploading...": {
+      "translation": "Caricamento...",
+      "timestamp": 1765569875
+    },
+    "Use This Example": {
+      "translation": "Utilizzate questo esempio",
+      "timestamp": 1765569875
+    },
+    "Versatile": {
+      "translation": "Versatile",
+      "timestamp": 1765569875
+    },
+    "We're working hard to bring you amazing new capabilities. Stay tuned for updates!": {
+      "translation": "Stiamo lavorando sodo per offrirvi nuove e straordinarie funzionalità. Restate sintonizzati per gli aggiornamenti!",
+      "timestamp": 1765569875
+    },
+    "Z-Image Series": {
+      "translation": "Serie Z-Image",
+      "timestamp": 1765569875
+    },
+    "Z-Image Turbo LoRA version with custom LoRA model support for stylized creations": {
+      "translation": "Z-Image versione Turbo LoRA con supporto di modelli LoRA personalizzati per creazioni stilizzate",
+      "timestamp": 1765569875
+    }
+  }
+}

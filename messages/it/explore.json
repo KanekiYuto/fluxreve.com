@@ -1,0 +1,36 @@
+{
+  "card": {
+    "createdAt": "Creato",
+    "viewDetail": "Visualizza dettagli"
+  },
+  "createSimilar": "Creare simili",
+  "empty": {
+    "cta": "Iniziare a creare",
+    "subtitle": "Nessuna opera d'arte pubblica è stata ancora condivisa. Sii il primo a condividere la tua creazione!",
+    "title": "Non ci sono ancora opere d'arte"
+  },
+  "errors": {
+    "fetchFailed": "Impossibile caricare il contenuto, riprovare",
+    "retry": "Riprova"
+  },
+  "gallery": {
+    "loadMore": "Per saperne di più",
+    "loading": "Caricamento...",
+    "noMore": "Non ci sono più articoli"
+  },
+  "header": {
+    "subtitle": "Esplorate le incredibili creazioni della nostra comunità e scoprite la vostra ispirazione",
+    "title": "Comunità creativa"
+  },
+  "nsfw": {
+    "badge": "Contenuti sensibili",
+    "cancel": "Indietro",
+    "confirm": "Sono 18+, Mostra contenuto",
+    "description": "Questo contenuto può contenere materiale per adulti o sensibile. Si prega di confermare di avere più di 18 anni prima della visione.",
+    "warning": "Avvertenza sui contenuti sensibili"
+  },
+  "seo": {
+    "description": "Sfogliate le splendide immagini generate dall'intelligenza artificiale create dai membri della nostra comunità, lasciatevi ispirare e scoprite opere d'arte straordinarie.",
+    "title": "Comunità creativa - Esplora l'incredibile arte dell'intelligenza artificiale"
+  }
+}

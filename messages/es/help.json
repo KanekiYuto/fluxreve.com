@@ -1,0 +1,43 @@
+{
+  "contact": {
+    "description": "Non riuscite a trovare quello che state cercando? Contattate il nostro team di assistenza e vi risponderemo al più presto.",
+    "email": "Contatto con l'assistenza",
+    "title": "Avete bisogno di aiuto?"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Iniziare è facile! È sufficiente navigare nella pagina del Generatore AI, inserire la richiesta che descrive ciò che si desidera creare, selezionare le impostazioni preferite e fare clic sul pulsante Genera. L'immagine generata dall'AI sarà pronta in pochi secondi.",
+        "question": "Come si inizia con AI Generator?"
+      },
+      {
+        "answer": "Supportiamo tutti i formati di immagine più comuni, tra cui PNG, JPG e WebP. È possibile scaricare le immagini generate nel formato più adatto alle proprie esigenze.",
+        "question": "Quali sono i formati di immagine supportati?"
+      },
+      {
+        "answer": "Il numero di immagini che potete generare dipende dalla vostra quota di crediti. Gli utenti gratuiti ricevono 30 crediti al giorno, mentre gli abbonati al piano Basic ricevono 1.500 crediti al mese e gli abbonati al piano Pro ricevono 7.500 crediti al mese. Per maggiori dettagli, consultate la pagina Prezzi.",
+        "question": "Quante immagini posso generare?"
+      },
+      {
+        "answer": "Gli abbonati ai piani Basic e Pro ricevono una licenza per uso commerciale. Gli utenti del piano Free possono utilizzare le immagini generate solo per progetti personali.",
+        "question": "Posso utilizzare le immagini generate a fini commerciali?"
+      },
+      {
+        "answer": "Se la generazione non riesce, provate prima ad aggiornare la pagina e a riprovare. Assicurarsi che la richiesta sia chiara e descrittiva. Se i problemi persistono, contattate il nostro team di supporto con i dettagli del problema.",
+        "question": "Cosa devo fare se la generazione non funziona?"
+      },
+      {
+        "answer": "Per ottenere risultati migliori, cercate di essere specifici e dettagliati nei vostri suggerimenti. Includete informazioni sullo stile, i colori, la composizione e l'atmosfera. Sperimentate con diversi modelli e impostazioni per trovare quello che funziona meglio per le vostre esigenze.",
+        "question": "Come posso migliorare i risultati della mia generazione?"
+      }
+    ],
+    "subtitle": "Trovate le risposte alle domande più comuni sull'utilizzo della nostra piattaforma di generazione di immagini AI",
+    "title": "Domande frequenti"
+  },
+  "seo": {
+    "description": "Find answers to common questions and get support for {siteName} AI image generation platform",
+    "title": "Centro assistenza"
+  },
+  "subtitle": "Trova le risposte alle domande più comuni e ottieni assistenza",
+  "title": "Centro assistenza"
+}

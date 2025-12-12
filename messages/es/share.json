@@ -1,0 +1,50 @@
+{
+  "actions": {
+    "copyLink": "Copiare il link di condivisione",
+    "createSimilar": "Creare un'immagine simile",
+    "downloadAll": "Scarica tutte le immagini",
+    "downloadCard": "Scarica la scheda di condivisione",
+    "downloadCurrent": "Scarica l'immagine corrente",
+    "linkCopied": "Copiato",
+    "moreActions": "Altre azioni",
+    "share": "Condividi",
+    "shareToX": "Condividi con X"
+  },
+  "details": {
+    "aiModel": "Modello AI",
+    "aspectRatio": "Rapporto d'aspetto",
+    "copyPrompt": "Prompt di copia",
+    "generationResults": "Risultati della generazione di immagini AI",
+    "imageAlt": "Immagine",
+    "imagePreview": "Anteprima dell'immagine HD generata dall'intelligenza artificiale",
+    "nextImage": "Immagine successiva",
+    "parametersInfo": "Parametri di generazione e informazioni sul modello",
+    "previousImage": "Immagine precedente",
+    "prompt": "Prompt",
+    "promptCopied": "Copiato",
+    "referenceImage": "Immagine di ingresso",
+    "referenceImages": "Immagini in ingresso",
+    "resolution": "Risoluzione"
+  },
+  "metadata": {
+    "descriptionPrefix": "High-quality image generated with {model} AI model. Prompt: ",
+    "ogDescriptionPrefix": "{model} AI Generated | "
+  },
+  "notFound": {
+    "createButton": "Creare opere d'arte AI",
+    "description": "Questo contenuto condiviso potrebbe essere stato cancellato dal creatore, impostato come privato, il link potrebbe essere scaduto, oppure potreste aver effettuato l'accesso all'indirizzo sbagliato.",
+    "homeButton": "Torna a casa",
+    "title": "Contenuto non trovato"
+  },
+  "nsfw": {
+    "description": "Questo contenuto può contenere materiale per adulti o sensibile. Si consiglia la discrezione degli spettatori",
+    "imageAlt": "Immagine generata dall'intelligenza artificiale",
+    "reveal": "Sono 18+, Visualizza contenuto",
+    "warning": "Avvertenza sui contenuti sensibili"
+  },
+  "processing": {
+    "description": "L'IA sta creando l'opera d'arte corrente; di solito questo richiede pochi minuti.",
+    "tip": "Aggiornare la pagina più tardi per visualizzare il risultato.",
+    "title": "Generare..."
+  }
+}

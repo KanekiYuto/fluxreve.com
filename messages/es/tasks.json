@@ -1,0 +1,85 @@
+{
+  "card": {
+    "cancelDelete": "Annullamento",
+    "confirmDelete": "Cancellare",
+    "confirmDeleteMessage": "Siete sicuri di voler eliminare questa attività? Questa azione non può essere annullata.",
+    "confirmDeleteTitle": "Eliminazione dell'attività",
+    "delete": "Cancellare",
+    "deleting": "Eliminazione...",
+    "makePrivate": "Rendere privato",
+    "makePublic": "Rendere pubblico",
+    "private": "Privato",
+    "public": "Pubblico"
+  },
+  "empty": {
+    "cta": "Iniziare a creare",
+    "filteredSubtitle": "Provare a cambiare le opzioni del filtro",
+    "filteredTitle": "Nessun compito corrispondente",
+    "subtitle": "Iniziare a creare la prima immagine AI",
+    "title": "Nessun compito ancora"
+  },
+  "errors": {
+    "fetchFailed": "Impossibile recuperare le attività",
+    "retry": "Riprova"
+  },
+  "filter": {
+    "all": "Tutti",
+    "clearAll": "Libero",
+    "completed": "Completato",
+    "failed": "Fallito",
+    "model": {
+      "all": "Tutti",
+      "flux-2-pro": "FLUX 2 Pro",
+      "nano-banana-pro": "Nano Banana Pro",
+      "z-image": "Immagine Z",
+      "z-image-lora": "Immagine Z LoRA"
+    },
+    "modelLabel": "Modello",
+    "nsfw": {
+      "nsfw": "NSFW",
+      "safe": "Sicuro"
+    },
+    "nsfwLabel": "Content",
+    "pending": "In attesa",
+    "privacy": {
+      "private": "Privato",
+      "public": "Pubblico"
+    },
+    "privacyLabel": "Privacy",
+    "processing": "Elaborazione",
+    "selectPlaceholder": "Selezionare...",
+    "selectedCount": "{count} selected",
+    "statusLabel": "Stato",
+    "taskType": {
+      "all": "Tutti",
+      "image-to-image": "Da immagine a immagine",
+      "text-to-image": "Da testo a immagine"
+    },
+    "taskTypeLabel": "Tipo",
+    "title": "Filtri"
+  },
+  "header": {
+    "subtitle": "Visualizzare e gestire tutta la cronologia delle generazioni",
+    "title": "La storia"
+  },
+  "loginPrompt": {
+    "cta": "Accedi",
+    "description": "Accedi per visualizzare tutta la cronologia della generazione di immagini AI",
+    "title": "Accedi per visualizzare la cronologia"
+  },
+  "noPrompt": "Al prompt",
+  "pagination": {
+    "next": "Avanti",
+    "prev": "Precedente"
+  },
+  "seo": {
+    "description": "Visualizzare e gestire tutta la cronologia della generazione di immagini AI",
+    "title": "La storia"
+  },
+  "status": {
+    "completed": "Completato",
+    "failed": "Fallito",
+    "pending": "In attesa",
+    "processing": "Elaborazione"
+  }
+}

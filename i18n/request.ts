@@ -13,7 +13,7 @@ const fileToKeyMap: Record<string, string> = {
 
 /**
  * 动态加载指定语言的所有翻译文件
- * @param locale - 语言代码 (en, zh-CN, zh-TW, ja)
+ * @param locale - 语言代码 (en, zh-CN, zh-TW, ja, ko, ar, fr, de, it, es)
  * @returns 该语言的所有翻译消息对象
  */
 async function loadMessages(locale: string) {

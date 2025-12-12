@@ -1,0 +1,80 @@
+{
+  "entries": {
+    "Canceled": {
+      "translation": "Annullato",
+      "timestamp": 1765569887
+    },
+    "Canceled Date": {
+      "translation": "Data di annullamento",
+      "timestamp": 1765569887
+    },
+    "Customer": {
+      "translation": "Cliente",
+      "timestamp": 1765569887
+    },
+    "Expiry Date": {
+      "translation": "Data di scadenza",
+      "timestamp": 1765569887
+    },
+    "Log in to view and manage your subscription information": {
+      "translation": "Accedere per visualizzare e gestire le informazioni sull'abbonamento",
+      "timestamp": 1765569887
+    },
+    "Login to View Subscriptions": {
+      "translation": "Accedi per visualizzare gli abbonamenti",
+      "timestamp": 1765569887
+    },
+    "Manage Subscription": {
+      "translation": "Gestire l'abbonamento",
+      "timestamp": 1765569887
+    },
+    "Next Billing Date": {
+      "translation": "Data di fatturazione successiva",
+      "timestamp": 1765569887
+    },
+    "Next renewal switches to": {
+      "translation": "Il prossimo rinnovo passa a",
+      "timestamp": 1765569887
+    },
+    "No Subscriptions": {
+      "translation": "Nessun abbonamento",
+      "timestamp": 1765569887
+    },
+    "Paused": {
+      "translation": "In pausa",
+      "timestamp": 1765569887
+    },
+    "Payment Platform": {
+      "translation": "Piattaforma di pagamento",
+      "timestamp": 1765569887
+    },
+    "Pending Payment": {
+      "translation": "In attesa di pagamento",
+      "timestamp": 1765569887
+    },
+    "Start Date": {
+      "translation": "Data di inizio",
+      "timestamp": 1765569887
+    },
+    "Subscription Amount": {
+      "translation": "Importo della sottoscrizione",
+      "timestamp": 1765569887
+    },
+    "Subscription Management": {
+      "translation": "Gestione degli abbonamenti",
+      "timestamp": 1765569887
+    },
+    "View and manage your subscription information": {
+      "translation": "Visualizzare e gestire le informazioni sull'abbonamento",
+      "timestamp": 1765569887
+    },
+    "View and manage your subscription plans and billing information": {
+      "translation": "Visualizzare e gestire i piani di abbonamento e le informazioni di fatturazione",
+      "timestamp": 1765569887
+    },
+    "You currently have no active subscriptions": {
+      "translation": "Al momento non ci sono abbonamenti attivi",
+      "timestamp": 1765569887
+    }
+  }
+}

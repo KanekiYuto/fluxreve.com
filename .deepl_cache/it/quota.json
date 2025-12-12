@@ -1,0 +1,120 @@
+{
+  "entries": {
+    "Active": {
+      "translation": "Attivo",
+      "timestamp": 1765569857
+    },
+    "Active Quota": {
+      "translation": "Quota attiva",
+      "timestamp": 1765569857
+    },
+    "Amount": {
+      "translation": "Importo",
+      "timestamp": 1765569857
+    },
+    "Available": {
+      "translation": "Disponibile",
+      "timestamp": 1765569857
+    },
+    "Consumed": {
+      "translation": "Consumato",
+      "timestamp": 1765569857
+    },
+    "Daily Free Quota": {
+      "translation": "Quota libera giornaliera",
+      "timestamp": 1765569857
+    },
+    "Depleted": {
+      "translation": "Impoverito",
+      "timestamp": 1765569857
+    },
+    "Expired": {
+      "translation": "Scaduto",
+      "timestamp": 1765569857
+    },
+    "Expires At": {
+      "translation": "Scade a",
+      "timestamp": 1765569857
+    },
+    "Issued At": {
+      "translation": "Rilasciato a",
+      "timestamp": 1765569857
+    },
+    "Log in to view your quota usage and history": {
+      "translation": "Accedere per visualizzare l'utilizzo della quota e la cronologia",
+      "timestamp": 1765569857
+    },
+    "Login to View Quota": {
+      "translation": "Accesso per visualizzare la quota",
+      "timestamp": 1765569857
+    },
+    "Manage and view your available quota": {
+      "translation": "Gestire e visualizzare la quota disponibile",
+      "timestamp": 1765569857
+    },
+    "Manage and view your available quota usage and history": {
+      "translation": "Gestire e visualizzare l'utilizzo e la cronologia delle quote disponibili",
+      "timestamp": 1765569857
+    },
+    "Monthly Basic": {
+      "translation": "Mensile di base",
+      "timestamp": 1765569857
+    },
+    "Monthly Pro": {
+      "translation": "Mensile Pro",
+      "timestamp": 1765569857
+    },
+    "My Quota": {
+      "translation": "My Quota",
+      "timestamp": 1765569857
+    },
+    "Never": {
+      "translation": "Mai",
+      "timestamp": 1765569857
+    },
+    "No active quota available": {
+      "translation": "Nessuna quota attiva disponibile",
+      "timestamp": 1765569857
+    },
+    "No expired quota": {
+      "translation": "Nessuna quota scaduta",
+      "timestamp": 1765569857
+    },
+    "Quota Pack": {
+      "translation": "Quota Pack",
+      "timestamp": 1765569857
+    },
+    "Remaining": {
+      "translation": "Rimanente",
+      "timestamp": 1765569857
+    },
+    "Subscription Change Compensation": {
+      "translation": "Sottoscrizione Modifica Compensazione",
+      "timestamp": 1765569857
+    },
+    "Total Available": {
+      "translation": "Totale disponibile",
+      "timestamp": 1765569857
+    },
+    "Type": {
+      "translation": "Tipo",
+      "timestamp": 1765569857
+    },
+    "Yearly Basic": {
+      "translation": "Annuale di base",
+      "timestamp": 1765569857
+    },
+    "Yearly Pro": {
+      "translation": "Annuale Pro",
+      "timestamp": 1765569857
+    },
+    "You currently have no available quota. Please purchase quota to continue using the service": {
+      "translation": "Al momento non avete quote disponibili. Si prega di acquistare una quota per continuare a utilizzare il servizio",
+      "timestamp": 1765569857
+    },
+    "You have no expired quota records": {
+      "translation": "Non ci sono registrazioni di quote scadute",
+      "timestamp": 1765569857
+    }
+  }
+}

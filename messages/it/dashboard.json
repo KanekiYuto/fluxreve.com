@@ -1,0 +1,63 @@
+{
+  "guestSubtitle": "Effettuare l'accesso per accedere alla propria dashboard e cominciare a creare",
+  "guestWelcome": "Benvenuti in Dashboard",
+  "loginPrompt": {
+    "cta": "Accedi ora",
+    "description": "Create un account o accedete per sbloccare tutte le funzioni, monitorare l'utilizzo e gestire i vostri progetti.",
+    "features": {
+      "analytics": "Analisi e statistiche",
+      "analyticsDesc": "Visualizzare statistiche dettagliate e metriche delle prestazioni",
+      "projects": "Gestione del progetto",
+      "projectsDesc": "Organizzare e gestire tutti i progetti creativi",
+      "quota": "Quota di utilizzo",
+      "quotaDesc": "Tracciare la quota di generazione e la cronologia di utilizzo"
+    },
+    "title": "Accedi per accedere al tuo cruscotto"
+  },
+  "marketing": {
+    "description": "Aggiornate il vostro piano per ottenere più crediti, altissima risoluzione, generazione di batch e assistenza prioritaria.",
+    "learnMoreButton": "Per saperne di più",
+    "title": "Sbloccare funzioni più potenti",
+    "upgradeButton": "Aggiorna ora"
+  },
+  "quickActions": {
+    "newProject": "Nuovo progetto",
+    "templates": "Modelli",
+    "title": "Avvio rapido",
+    "tutorial": "Tutorial",
+    "uploadImage": "Carica immagine"
+  },
+  "recent": {
+    "empty": {
+      "cta": "Generare ora",
+      "subtitle": "Iniziare a generare la prima immagine",
+      "title": "Nessun contenuto generato questa settimana"
+    },
+    "loading": "Caricamento...",
+    "subtitle": "Mostra i contenuti solo dell'ultima settimana",
+    "title": "Generazioni recenti",
+    "viewAll": "Visualizza tutti"
+  },
+  "seo": {
+    "description": "Gestite i vostri progetti di generazione di immagini AI, tracciate l'utilizzo e accedete a tutte le funzionalità",
+    "title": "Cruscotto"
+  },
+  "stats": {
+    "images": "Risorse di immagine caricate",
+    "projects": "Totale progetti",
+    "quota": {
+      "expires": "Scade",
+      "remaining": "Quota di generazione rimanente",
+      "unlimited": "Quota di generazione illimitata"
+    },
+    "templates": "Modelli creati"
+  },
+  "subtitle": "Iniziate a creare i vostri fantastici contenuti",
+  "userType": {
+    "basic": "Base",
+    "free": "Gratuito",
+    "pro": "Pro",
+    "trial": "Processo"
+  },
+  "welcome": "Welcome back, {name}"
+}

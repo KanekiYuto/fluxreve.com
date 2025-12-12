@@ -1,4 +1,7 @@
-export const locales = ['en', 'zh-CN', 'zh-TW', 'ja', 'ko', 'ar', 'fr', 'de'] as const;
+/**
+ * 语言配置 - 需要与 config/locales.js 保持同步
+ */
+export const locales = ['en', 'zh-CN', 'zh-TW', 'ja', 'ko', 'ar', 'fr', 'de', 'it', 'es'] as const;
 export type Locale = (typeof locales)[number];
 
 export const defaultLocale: Locale = 'en';
@@ -12,6 +15,8 @@ export const localeNames: Record<Locale, string> = {
   ar: 'العربية',
   fr: 'Français',
   de: 'Deutsch',
+  it: 'Italiano',
+  es: 'Español',
 };
 
 // RTL 语言列表

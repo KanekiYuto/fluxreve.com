@@ -1,0 +1,48 @@
+{
+  "about": {
+    "releaseDate": "Data di uscita",
+    "title": "Circa",
+    "version": "Versione"
+  },
+  "actions": {
+    "change": "Cambiamento",
+    "copy": "Copia",
+    "edit": "Modifica",
+    "enable": "Abilitazione",
+    "upgrade": "Piano di aggiornamento"
+  },
+  "loginRequired": {
+    "cta": "Accedi ora",
+    "description": "Effettuare l'accesso per accedere alle impostazioni e gestire l'account.",
+    "title": "Accesso richiesto"
+  },
+  "sections": {
+    "connections": {
+      "connected": "Collegato",
+      "githubConnected": "È possibile utilizzare il proprio account GitHub per accedere al proprio account.",
+      "githubNotConnected": "Collegare il proprio account GitHub per abilitare questo metodo di accesso.",
+      "googleConnected": "È possibile utilizzare il proprio account Google per accedere al proprio account.",
+      "googleNotConnected": "Collegare l'account Google per abilitare questo metodo di accesso.",
+      "title": "Conti collegati"
+    },
+    "preferences": {
+      "notifications": "Notifiche via e-mail",
+      "notificationsDesc": "Ricevere aggiornamenti e notifiche via e-mail",
+      "title": "Preferenze"
+    },
+    "profile": {
+      "email": "Indirizzo e-mail",
+      "name": "Nome",
+      "notSet": "Non impostato",
+      "plan": "Piano attuale",
+      "title": "Informazioni sul profilo",
+      "verified": "Verificato"
+    }
+  },
+  "seo": {
+    "description": "Gestire le impostazioni e le preferenze dell'account",
+    "title": "Impostazioni"
+  },
+  "subtitle": "Gestire le impostazioni e le preferenze dell'account",
+  "title": "Impostazioni"
+}

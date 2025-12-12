@@ -1,0 +1,76 @@
+{
+  "acceptance": {
+    "content1": "Welcome to {siteName}. These Terms of Service (\"Terms,\" \"Agreement\") constitute a legally binding agreement between you (\"User,\" \"you,\" or \"your\") and {siteName} (\"we,\" \"us,\" or \"our\") governing your access to and use of our AI-powered image generation platform, including our website, mobile applications, APIs, and related services (collectively, the \"Service\").",
+    "content2": "Accedendo, navigando o utilizzando il Servizio in qualsiasi modo, l'utente riconosce di aver letto, compreso e accettato di essere vincolato dai presenti Termini e dalla nostra Informativa sulla privacy. Se l'utente non accetta le presenti Condizioni, deve interrompere immediatamente l'utilizzo del Servizio.",
+    "title": "Accettazione dei termini"
+  },
+  "contact": {
+    "email": "Email",
+    "intro": "In caso di domande, dubbi o feedback relativi ai presenti Termini di servizio, si prega di contattarci all'indirizzo:",
+    "title": "Informazioni di contatto"
+  },
+  "description": "Read {siteName}'s terms of service for using our AI image generation platform. Covers user accounts, usage rules, intellectual property, and service policies.",
+  "disclaimer": {
+    "asIs": "Così com'è: Il Servizio viene fornito \"così com'è\" e \"come disponibile\" senza garanzie di alcun tipo, espresse o implicite, incluse, a titolo esemplificativo e non esaustivo, le garanzie di commerciabilità, idoneità per uno scopo particolare o non violazione. Non garantiamo che il Servizio sia ininterrotto, privo di errori o sicuro.",
+    "liability": "Limitation of Liability: To the maximum extent permitted by law, {siteName} and its affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or goodwill, arising from your use or inability to use the Service.",
+    "responsibility": "Responsabilità dell'utente: L'utente riconosce che i contenuti generati dall'intelligenza artificiale possono produrre risultati imprevisti o inaccurati. L'utente è l'unico responsabile dell'esame, della verifica e della determinazione dell'adeguatezza di qualsiasi contenuto generato attraverso il Servizio prima dell'uso, della pubblicazione o della distribuzione.",
+    "title": "Esclusioni di responsabilità e limitazioni"
+  },
+  "intellectualProperty": {
+    "license": "Concessione di licenza: Utilizzando il Servizio, l'utente ci concede una licenza mondiale, non esclusiva ed esente da royalty per l'utilizzo, la riproduzione, la modifica e la visualizzazione dei contenuti generati dall'utente al solo scopo di: (a) fornire e migliorare il Servizio, (b) addestrare e migliorare i nostri modelli di intelligenza artificiale (con il consenso dell'utente) e (c) scopi promozionali e di marketing con il consenso esplicito dell'utente.",
+    "platformContent": "Platform Ownership: All content, features, functionality, software, designs, text, graphics, logos, and trademarks on the Service are owned by {siteName} or our licensors and are protected by international intellectual property laws. You may not copy, modify, distribute, or reverse engineer any part of the Service without authorization.",
+    "title": "Diritti di proprietà intellettuale",
+    "userContent": "Contenuto generato dall'utente: L'utente conserva la proprietà delle immagini e dei contenuti generati utilizzando il Servizio, in base alla licenza limitata di cui sotto. Tuttavia, l'utente è l'unico responsabile di garantire che il suo utilizzo non violi i diritti di terzi o le leggi vigenti."
+  },
+  "keywords": "termini di servizio, accordo con l'utente, termini di servizio, accordo legale, politica di utilizzo, proprietà intellettuale, accordo di servizio",
+  "lastUpdated": "Ultimo aggiornamento",
+  "legalJurisdiction": {
+    "disputes": "Risoluzione delle controversie: Qualsiasi controversia derivante da o relativa ai presenti Termini o al Servizio dovrà essere risolta in primo luogo mediante trattative in buona fede. In caso di fallimento delle trattative, le controversie saranno risolte mediante arbitrato vincolante o controversia nei tribunali della giurisdizione applicabile, come stabilito dalla legge vigente.",
+    "law": "Governing Law: These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which {siteName} is registered, without regard to its conflict of law principles.",
+    "title": "Legge applicabile e risoluzione delle controversie"
+  },
+  "privacy": {
+    "content": "La vostra privacy è importante per noi. La raccolta, l'utilizzo e la protezione dei dati personali sono regolati dalla nostra Informativa sulla privacy, che è incorporata nelle presenti Condizioni per riferimento. Vi invitiamo a consultare la nostra Informativa sulla privacy per comprendere le nostre pratiche.",
+    "title": "Privacy e protezione dei dati"
+  },
+  "serviceChanges": {
+    "dataRetention": "Effetto della risoluzione: In caso di risoluzione, il diritto dell'utente di utilizzare il Servizio cessa immediatamente. Possiamo cancellare i dati dell'account e i contenuti generati, anche se alcune informazioni possono essere conservate come richiesto dalla legge o per scopi commerciali legittimi.",
+    "modification": "Modifiche: Ci riserviamo il diritto di modificare, sospendere o interrompere qualsiasi aspetto del Servizio in qualsiasi momento, con o senza preavviso. Possiamo anche imporre limiti a determinate funzionalità o limitare l'accesso a parti del Servizio. Non siamo responsabili di eventuali modifiche o interruzioni.",
+    "termination": "Risoluzione da parte nostra: Possiamo sospendere o terminare l'account dell'utente e l'accesso al Servizio immediatamente, senza preavviso, in caso di violazione dei presenti Termini, di attività fraudolente o per qualsiasi altro motivo a nostra esclusiva discrezione.",
+    "title": "Modifiche e cessazione del servizio"
+  },
+  "serviceDescription": {
+    "intro": "{siteName} provides AI-powered creative tools and services, including:",
+    "items": [
+      "Generazione di immagini AI da messaggi di testo utilizzando modelli di apprendimento automatico avanzati",
+      "Funzionalità di modifica, miglioramento e trasferimento di stile delle immagini",
+      "Gestione dei progetti, organizzazione e archiviazione in cloud dei contenuti generati",
+      "Accesso API per sviluppatori e integrazione aziendale",
+      "Funzionalità e strumenti premium aggiuntivi resi disponibili di volta in volta"
+    ],
+    "title": "Panoramica del servizio"
+  },
+  "title": "Terms of Service | {siteName}",
+  "usageRules": {
+    "intro": "L'utente accetta di non utilizzare il Servizio per generare, caricare, condividere o distribuire contenuti che:",
+    "items": [
+      "Violazione di leggi, regolamenti o diritti di terze parti.",
+      "Contiene materiale illegale, dannoso, minaccioso, abusivo, molesto, diffamatorio o osceno.",
+      "Raffigura o promuove la violenza, la discriminazione, l'odio o l'intolleranza sulla base di caratteristiche protette.",
+      "Include contenuti sessualmente espliciti, pornografici o non adatti all'età.",
+      "Violazione dei diritti di proprietà intellettuale, compresi i diritti d'autore, i marchi o i brevetti.",
+      "Costituiscono spam, phishing, malware o tentativi di compromettere la sicurezza della piattaforma.",
+      "Impersonare qualsiasi persona o entità o travisare la propria affiliazione",
+      "Coinvolge lo scraping automatico, il mining o l'uso non autorizzato di API che viola le nostre linee guida.",
+      "Sfrutta, danneggia o tenta di sfruttare i minori in qualsiasi modo",
+      "Contiene informazioni false, fuorvianti o ingannevoli presentate come dati di fatto."
+    ],
+    "title": "Politica di utilizzo accettabile"
+  },
+  "userAccount": {
+    "registration": "Registrazione: Per accedere a determinate funzioni, è necessario creare un account fornendo informazioni accurate, complete e aggiornate. L'utente dichiara che tutte le informazioni fornite sono veritiere e che manterrà l'accuratezza di tali informazioni.",
+    "security": "Sicurezza dell'account: L'utente è l'unico responsabile del mantenimento della riservatezza delle credenziali del proprio account e di tutte le attività che si svolgono nell'ambito del proprio account. L'utente accetta di notificare immediatamente qualsiasi accesso non autorizzato o violazione della sicurezza.",
+    "title": "Account utente e registrazione",
+    "transfer": "Trasferimento dell'account: Il vostro account è personale e non può essere trasferito, venduto o assegnato a terzi senza il nostro preventivo consenso scritto."
+  }
+}

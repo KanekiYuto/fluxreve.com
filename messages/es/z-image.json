@@ -1,0 +1,152 @@
+{
+  "cta": {
+    "note": "Non è richiesta la carta di credito, si inizia con la registrazione",
+    "primary": "Iniziare a creare ora",
+    "secondary": "Visualizza i prezzi",
+    "subtitle": "Provate subito Z-Image per un'inferenza in 8 fasi, una velocità di generazione inferiore al secondo e un'accurata resa del testo bilingue.",
+    "title": "Siete pronti a sperimentare la generazione di immagini AI fotorealistiche?"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Z-Image raggiunge prestazioni paragonabili o superiori ai principali concorrenti con soli 8 passaggi, offrendo una latenza di inferenza inferiore al secondo su GPU H800 di livello enterprise. Su dispositivi consumer come RTX 3090 o 4090, sono necessari circa 2-3 secondi, mentre le schede di fascia media impiegano circa 4-5 secondi, richiedendo solo 16G di VRAM.",
+        "question": "Quanto è veloce la generazione di immagini Z?"
+      },
+      {
+        "answer": "Z-Image rende accuratamente testi complessi in cinese e inglese mantenendo il realismo facciale e la composizione estetica complessiva, con risultati paragonabili ai modelli closed-source di alto livello. Nel campo della cartellonistica, dimostra forti capacità compositive e senso tipografico, fornendo testi di alta qualità anche in scenari difficili con caratteri di piccole dimensioni.",
+        "question": "Quali vantaggi offre Z-Image nel rendering del testo?"
+      },
+      {
+        "answer": "Prompt Enhancer (PE) utilizza catene di ragionamento strutturate per iniettare logica e buon senso, consentendo al modello di trascendere le descrizioni di superficie e di attingere alla conoscenza del mondo sottostante per compiti complessi come il \"problema del pollo e del coniglio\" o la visualizzazione della poesia classica cinese. Anche in presenza di istruzioni ambigue, il modello è in grado di dedurre l'intento sottostante per ottenere risultati logicamente coerenti.",
+        "question": "Che cos'è la funzione Prompt Enhancement?"
+      },
+      {
+        "answer": "Z-Image eccelle nella generazione di immagini fotorealistiche con un controllo preciso su dettagli, illuminazione e texture. Bilancia l'alta fedeltà con una forte qualità estetica nella composizione e nell'atmosfera generale. Le immagini generate non sono solo realistiche, ma anche visivamente accattivanti.",
+        "question": "Com'è la qualità fotorealistica di Z-Image?"
+      },
+      {
+        "answer": "Z-Image adotta un'architettura Scalable Single-Stream Diffusion Transformer (S3-DiT). Testo, token semantici visivi e token VAE dell'immagine sono concatenati a livello di sequenza per servire come flusso di input unificato nella struttura portante del trasformatore, massimizzando l'efficienza dei parametri rispetto agli approcci a doppio flusso.",
+        "question": "Quale architettura utilizza Z-Image?"
+      },
+      {
+        "answer": "Secondo la valutazione delle preferenze umane basata su Elo (su Alibaba AI Arena), Z-Image mostra prestazioni altamente competitive rispetto ad altri modelli leader e raggiunge risultati all'avanguardia tra i modelli open-source.",
+        "question": "Come si colloca Z-Image rispetto ad altri modelli?"
+      }
+    ],
+    "subtitle": "Domande comuni su Z-Image",
+    "title": "Domande frequenti"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Iniziare a creare ora",
+      "secondary": "Per saperne di più"
+    },
+    "stats": {
+      "affordable": {
+        "label": "Testo bilingue"
+      },
+      "quality": {
+        "label": "Qualità fotorealistica"
+      },
+      "speed": {
+        "label": "Generazione sub-secondo"
+      }
+    },
+    "subtitle": "Provate il servizio di generazione di immagini AI fotorealistiche basato sul modello Z-Image, con un accurato rendering del testo bilingue. Offriamo una velocità di generazione inferiore al secondo e prezzi accessibili per rendere la creazione di immagini AI professionali accessibile a tutti.",
+    "title": {
+      "line1": "Immagine Z",
+      "line2": "Inferenza in 8 fasi, generazione in meno di un secondo"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Descrivete l'immagine desiderata con un semplice testo. Supporta l'input in inglese e cinese.",
+        "title": "Inserite il vostro prompt"
+      },
+      "step2": {
+        "description": "Selezionate le dimensioni dell'immagine, regolate il seme casuale e altri parametri per personalizzare la vostra creazione.",
+        "title": "Scegliere i parametri"
+      },
+      "step3": {
+        "description": "Fate clic sul pulsante \"Genera\" e l'AI creerà per voi splendide immagini in pochi secondi.",
+        "title": "Fare clic su Genera"
+      },
+      "step4": {
+        "description": "Una volta generata, è possibile visualizzare l'anteprima, scaricare o condividere l'opera d'arte.",
+        "title": "Scaricare e utilizzare"
+      }
+    },
+    "subtitle": "Quattro semplici passi per iniziare il vostro viaggio creativo nell'IA",
+    "title": "Come utilizzare Z-Image?"
+  },
+  "seo": {
+    "description": "Immagini AI fotorealistiche con Z-Image. Velocità di generazione inferiore al secondo con rendering accurato del testo cinese e inglese. Prezzi accessibili per i professionisti.",
+    "title": "Z-Image - Generatore di immagini AI fotorealistiche"
+  },
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Z-Image eccelle nella generazione di immagini fotorealistiche con un controllo preciso su dettagli, illuminazione e texture. Mantiene un'elevata fedeltà, dimostrando al contempo una forte qualità estetica nella composizione e nell'atmosfera generale.",
+        "title": "Qualità fotorealistica"
+      },
+      "core2": {
+        "description": "Z-Image esegue un rendering accurato del testo cinese e inglese, preservando il realismo facciale e la composizione estetica complessiva, con risultati paragonabili ai migliori modelli closed-source. Nel campo della cartellonistica, dimostra una forte capacità compositiva e un senso della tipografia, offrendo testi di alta qualità anche in scenari difficili con caratteri di piccole dimensioni.",
+        "title": "Rendering accurato del testo bilingue"
+      },
+      "core3": {
+        "description": "Powerful Prompt Enhancer (PE) utilizza catene di ragionamento strutturate per iniettare logica e buon senso, consentendo al modello di gestire compiti complessi come il \"problema del pollo e del coniglio\" o la visualizzazione di poesie classiche cinesi. Nei compiti di editing, anche in presenza di istruzioni ambigue, il modello è in grado di dedurre l'intento sottostante per ottenere risultati logicamente coerenti.",
+        "title": "Miglioramento e ragionamento dei prompt"
+      }
+    },
+    "demoPlaceholder": "Generazione di immagini AI fotorealistiche",
+    "description": "Z-Image è il nostro servizio di generazione di immagini AI fotorealistiche, basato sull'architettura avanzata Scalable Single-Stream Diffusion Transformer. Forniamo soluzioni di generazione di immagini AI veloci, convenienti e di alta qualità per rendere accessibile la creazione professionale.",
+    "title": "Che cos'è Z-Image?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Supporta il rendering accurato del testo cinese e inglese, perfetto per la progettazione di poster, la creazione di pubblicità e altro ancora. Anche i testi di piccole dimensioni vengono resi in modo chiaro per progetti professionali.",
+        "title": "Rendering accurato del testo"
+      },
+      "flexibility": {
+        "description": "Il nostro servizio è dotato di potenti capacità di comprensione immediata, in grado di comprendere e generare con precisione le immagini attese anche da descrizioni complesse o ambigue.",
+        "title": "Comprensione intelligente e immediata"
+      },
+      "quality": {
+        "description": "Le immagini generate presentano effetti fotorealistici con un controllo preciso su dettagli, illuminazione e texture. Che si tratti di ritratti o di esposizioni di prodotti, si ottengono risultati visivi eccellenti.",
+        "title": "Qualità fotorealistica"
+      },
+      "security": {
+        "description": "Modello pay-as-you-go con prezzi trasparenti e ragionevoli. Riduce notevolmente i costi di creazione rispetto ai servizi di design tradizionali, rendendo accessibile a tutti la creazione di immagini AI professionali.",
+        "title": "Prezzi convenienti"
+      },
+      "speed": {
+        "description": "Il nostro servizio offre una velocità di generazione delle immagini inferiore al secondo, dando vita alla vostra creatività all'istante. Non è necessaria alcuna attesa, la creazione di immagini AI professionali è completa, sempre e ovunque.",
+        "title": "Generazione veloce come un fulmine"
+      },
+      "support": {
+        "description": "Non sono richieste competenze professionali di progettazione. È sufficiente descrivere le proprie idee in linguaggio naturale per generare immagini AI professionali. Rendendo la creazione accessibile a tutti.",
+        "title": "Facile da usare"
+      }
+    },
+    "comparison": {
+      "product": {
+        "item1": "Generazione di immagini fotorealistiche in pochi secondi",
+        "item2": "Non sono necessarie competenze di progettazione: le descrizioni sono semplici",
+        "item3": "Prezzi convenienti a consumo",
+        "item4": "Generazione istantanea, possibilità creative illimitate",
+        "title": "Servizio di generazione di immagini Z"
+      },
+      "traditional": {
+        "item1": "Ci vogliono ore o giorni per completare un'immagine professionale.",
+        "item2": "Richiede costose licenze software e conoscenze professionali di progettazione",
+        "item3": "Costi elevati per l'assunzione di progettisti o per l'acquisto di strumenti di progettazione avanzati",
+        "item4": "I cicli di iterazione lenti rendono impraticabile la sperimentazione creativa",
+        "title": "Creazione di immagini tradizionali"
+      }
+    },
+    "subtitle": "Il nostro servizio Z-Image rende semplice ed efficiente la creazione di immagini AI professionali con una velocità di generazione inferiore al secondo, un rendering accurato del testo e un prezzo accessibile.",
+    "title": "Perché scegliere il nostro servizio Z-Image?"
+  }
+}

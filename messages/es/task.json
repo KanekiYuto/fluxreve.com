@@ -1,0 +1,47 @@
+{
+  "details": {
+    "aiModel": "Modello AI",
+    "aspectRatio": "Rapporto d'aspetto",
+    "completedAt": "Completato a",
+    "copyPrompt": "Prompt di copia",
+    "createdAt": "Creato a",
+    "defaultPrompt": "Immagine generata dall'intelligenza artificiale",
+    "duration": "Durata",
+    "generationResults": "Risultati della generazione",
+    "imageAlt": "Immagine",
+    "imagePreview": "Anteprima dell'immagine",
+    "isNsfw": "NSFW Content",
+    "isPrivate": "Moda privata",
+    "metaDescription": "AI image generated using {model}",
+    "nextImage": "Immagine successiva",
+    "no": "No",
+    "parametersInfo": "Info sui parametri",
+    "previousImage": "Immagine precedente",
+    "prompt": "Prompt",
+    "promptCopied": "Copiato",
+    "quotaConsumed": "Crediti utilizzati",
+    "referenceImage": "Immagine di ingresso",
+    "referenceImages": "Immagini in ingresso",
+    "resolution": "Risoluzione",
+    "seed": "Seme",
+    "size": "Dimensione",
+    "steps": "Passi",
+    "yes": "Sì"
+  },
+  "notFound": {
+    "backToHome": "Torna a casa",
+    "description": "Siamo spiacenti, l'attività che state cercando non può essere trovata. Potrebbe essere stato eliminato o il link non è valido.",
+    "title": "Attività non trovata"
+  },
+  "processing": {
+    "description": "L'immagine è in fase di generazione, attendere un attimo...",
+    "failedDescription": "Spiacente, la generazione dell'immagine non è riuscita. Riprovare più tardi o contattare l'assistenza.",
+    "failedTitle": "Attività fallita",
+    "tip": "Di solito richiede da pochi secondi a qualche minuto.",
+    "title": "Elaborazione dei compiti"
+  },
+  "seo": {
+    "description": "Visualizzare i dettagli e i risultati dell'attività di generazione di immagini AI",
+    "title": "Dettagli dell'attività"
+  }
+}

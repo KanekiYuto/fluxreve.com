@@ -1,0 +1,53 @@
+{
+  "cta": {
+    "buttons": {
+      "freeTrial": "Prova gratuita",
+      "viewPricing": "Visualizza i prezzi"
+    },
+    "description": "Unisciti a migliaia di creatori che utilizzano la potenza dell'IA per dare vita alle tue idee",
+    "note": "Non è necessaria la carta di credito - Iniziate a usarlo ora",
+    "title": "Iniziare a creare ora"
+  },
+  "features": {
+    "items": [
+      {
+        "description": "Potenti algoritmi di intelligenza artificiale generano immagini di alta qualità in pochi secondi, migliorando notevolmente l'efficienza creativa.",
+        "title": "Generazione veloce"
+      },
+      {
+        "description": "Utilizza modelli AI all'avanguardia per produrre immagini di qualità professionale e soddisfare le diverse esigenze creative.",
+        "title": "Professional Quality"
+      },
+      {
+        "description": "Le ricche impostazioni dei parametri e le opzioni di stile consentono di controllare con precisione ogni dettaglio della generazione dell'immagine.",
+        "title": "Controllo flessibile"
+      },
+      {
+        "description": "Interfaccia intuitiva che non richiede alcuna competenza e che consente a chiunque di creare facilmente splendide immagini.",
+        "title": "Facile da usare"
+      }
+    ],
+    "sectionDescription": "Combinando una potente tecnologia AI con un'esperienza utente pulita, la creazione di immagini è più facile che mai.",
+    "sectionTitle": "Perché scegliere noi"
+  },
+  "hero": {
+    "buttons": {
+      "startCreate": "Iniziare a creare",
+      "viewPricing": "Visualizza i prezzi"
+    },
+    "description": "Basta descrivere ciò che si desidera e si ottengono splendide immagini di livello professionale. Non sono richieste competenze di design: tutti possono essere creatori.",
+    "features": {
+      "easyToUse": "Facile da usare",
+      "fastGeneration": "Generazione veloce",
+      "highQuality": "Produzione di alta qualità"
+    },
+    "title": {
+      "line1": "Trasformare le idee in realtà all'istante",
+      "line2": "Generazione di immagini professionali potenziate dall'intelligenza artificiale"
+    }
+  },
+  "metadata": {
+    "description": "Utilizzando una tecnologia avanzata di intelligenza artificiale per generare rapidamente immagini professionali di alta qualità. Creazione di immagini AI semplice ed efficiente.",
+    "title": "{siteName} - AI Image Generation Tool | Generate Professional Images Fast"
+  }
+}

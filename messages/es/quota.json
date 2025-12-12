@@ -1,0 +1,53 @@
+{
+  "empty": {
+    "active": "Nessuna quota attiva disponibile",
+    "activeDesc": "Al momento non avete quote disponibili. Si prega di acquistare una quota per continuare a utilizzare il servizio",
+    "expired": "Nessuna quota scaduta",
+    "expiredDesc": "Non ci sono registrazioni di quote scadute"
+  },
+  "loginRequired": {
+    "description": "Accedere per visualizzare l'utilizzo della quota e la cronologia",
+    "title": "Accesso per visualizzare la quota"
+  },
+  "quotaTypes": {
+    "daily_free": "Quota libera giornaliera",
+    "monthly_basic": "Mensile di base",
+    "monthly_pro": "Mensile Pro",
+    "quota_pack": "Quota Pack",
+    "subscription_change_compensation": "Sottoscrizione Modifica Compensazione",
+    "trial": "Processo",
+    "yearly_basic": "Annuale di base",
+    "yearly_pro": "Annuale Pro"
+  },
+  "seo": {
+    "description": "Gestire e visualizzare l'utilizzo e la cronologia delle quote disponibili",
+    "title": "My Quota"
+  },
+  "stats": {
+    "consumed": "Consumato",
+    "remaining": "Rimanente"
+  },
+  "status": {
+    "active": "Attivo",
+    "depleted": "Impoverito"
+  },
+  "subtitle": "Gestire e visualizzare la quota disponibile",
+  "summary": {
+    "credits": "Crediti",
+    "title": "Totale disponibile"
+  },
+  "table": {
+    "amount": "Importo",
+    "available": "Disponibile",
+    "consumed": "Consumato",
+    "expiresAt": "Scade a",
+    "issuedAt": "Rilasciato a",
+    "noExpiry": "Mai",
+    "type": "Tipo"
+  },
+  "tabs": {
+    "active": "Quota attiva",
+    "expired": "Scaduto"
+  },
+  "title": "My Quota"
+}

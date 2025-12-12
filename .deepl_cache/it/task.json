@@ -1,0 +1,80 @@
+{
+  "entries": {
+    "Completed At": {
+      "translation": "Completato a",
+      "timestamp": 1765569862
+    },
+    "Created At": {
+      "translation": "Creato a",
+      "timestamp": 1765569862
+    },
+    "Credits Used": {
+      "translation": "Crediti utilizzati",
+      "timestamp": 1765569862
+    },
+    "Duration": {
+      "translation": "Durata",
+      "timestamp": 1765569862
+    },
+    "Generation Results": {
+      "translation": "Risultati della generazione",
+      "timestamp": 1765569862
+    },
+    "Image Preview": {
+      "translation": "Anteprima dell'immagine",
+      "timestamp": 1765569862
+    },
+    "NSFW Content": {
+      "translation": "NSFW Content",
+      "timestamp": 1765569862
+    },
+    "No": {
+      "translation": "No",
+      "timestamp": 1765569862
+    },
+    "Parameters Info": {
+      "translation": "Info sui parametri",
+      "timestamp": 1765569862
+    },
+    "Sorry, image generation failed. Please try again later or contact support.": {
+      "translation": "Spiacente, la generazione dell'immagine non è riuscita. Riprovare più tardi o contattare l'assistenza.",
+      "timestamp": 1765569862
+    },
+    "Sorry, the task you are looking for cannot be found. It may have been deleted or the link is invalid.": {
+      "translation": "Siamo spiacenti, l'attività che state cercando non può essere trovata. Potrebbe essere stato eliminato o il link non è valido.",
+      "timestamp": 1765569862
+    },
+    "Task Details": {
+      "translation": "Dettagli dell'attività",
+      "timestamp": 1765569862
+    },
+    "Task Failed": {
+      "translation": "Attività fallita",
+      "timestamp": 1765569862
+    },
+    "Task Not Found": {
+      "translation": "Attività non trovata",
+      "timestamp": 1765569862
+    },
+    "Task Processing": {
+      "translation": "Elaborazione dei compiti",
+      "timestamp": 1765569862
+    },
+    "Usually takes a few seconds to a few minutes": {
+      "translation": "Di solito richiede da pochi secondi a qualche minuto",
+      "timestamp": 1765569862
+    },
+    "View your AI image generation task details and results": {
+      "translation": "Visualizzare i dettagli e i risultati dell'attività di generazione di immagini AI",
+      "timestamp": 1765569862
+    },
+    "Yes": {
+      "translation": "Sì",
+      "timestamp": 1765569862
+    },
+    "Your image is being generated, please wait a moment...": {
+      "translation": "L'immagine è in fase di generazione, attendere un attimo...",
+      "timestamp": 1765569862
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "cta": {
+    "note": "Nessuna carta di credito richiesta - Immagini in 4K - Meno di 10 secondi",
+    "primary": "Provate gratuitamente Nano Banana Pro",
+    "secondary": "Visualizza i piani tariffari",
+    "subtitle": "Unisciti alle migliaia di professionisti che utilizzano Nano Banana Pro (Gemini 3 Pro Image) per generare immagini AI 4K per progetti di design, marketing e creatività.",
+    "title": "Iniziare a creare con il generatore di immagini AI Nano Banana Pro"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Nano Banana Pro è il modello di immagine Gemini 3 Pro di Google DeepMind, un generatore di immagini AI avanzato che utilizza la generazione guidata dal ragionamento per creare immagini 4K ad alta risoluzione. A differenza di altri generatori di immagini AI, Nano Banana Pro offre un output 4K nativo, un accurato rendering del testo multilingue, la coerenza dei caratteri fino a 5 e una velocità di generazione inferiore a 10 secondi. Supera i concorrenti per quanto riguarda l'accuratezza del testo, l'aderenza ai tempi e le capacità di editing professionale.",
+        "question": "Che cos'è Nano Banana Pro e come si differenzia dagli altri generatori di immagini AI?"
+      },
+      {
+        "answer": "Nano Banana Pro genera immagini ad alta risoluzione 4K (4096x4096) in meno di 10 secondi, molto più velocemente dei generatori di immagini AI della concorrenza. Per le richieste complesse, l'IA può creare immagini intermedie per testare la composizione e la logica, ma anche con le fasi di ragionamento, la generazione si completa in genere in pochi secondi. Questa velocità senza precedenti rende Nano Banana Pro ideale per la prototipazione rapida, la creazione di contenuti in grandi quantità e i progetti sensibili ai tempi.",
+        "question": "Quanto è veloce la generazione di immagini AI di Nano Banana Pro?"
+      },
+      {
+        "answer": "Nano Banana Pro supporta l'output nativo 4K ad altissima definizione (4096x4096 pixel), la più alta risoluzione disponibile tra i generatori di immagini AI mainstream. Le immagini presentano dettagli eccezionali, una riproduzione accurata dei colori, un'illuminazione adeguata e una qualità di livello professionale adatta a supporti di stampa, display di grande formato, progetti commerciali e applicazioni aziendali. Sono disponibili anche risoluzioni inferiori (1024x1024, 2048x2048) per una generazione più rapida o per file di dimensioni ridotte.",
+        "question": "Quale risoluzione e qualità delle immagini supporta Nano Banana Pro?"
+      },
+      {
+        "answer": "Sì! Nano Banana Pro raggiunge una precisione rivoluzionaria nel rendering del testo, un progresso significativo rispetto ai precedenti generatori di immagini AI. L'intelligenza artificiale è in grado di generare testo leggibile e correttamente scritto in più lingue direttamente all'interno delle immagini, rendendolo perfetto per la creazione di mockup, poster, infografiche, materiali di marketing e contenuti multilingue. Questa capacità risolve uno dei limiti più impegnativi della generazione di immagini AI.",
+        "question": "Nano Banana Pro è in grado di generare testo nelle immagini in modo accurato?"
+      },
+      {
+        "answer": "Nano Banana Pro garantisce una coerenza superiore dei personaggi su più immagini, supportando fino a 5 personaggi distinti. Ciò significa che è possibile generare una serie di immagini con gli stessi personaggi con aspetto, tratti del viso, abbigliamento e stile coerenti, essenziali per lo storytelling, le mascotte dei marchi, il design dei personaggi e la creazione di contenuti sequenziali. Questo livello di coerenza supera la maggior parte dei generatori di immagini AI della concorrenza.",
+        "question": "Come funziona la coerenza dei caratteri in Nano Banana Pro?"
+      },
+      {
+        "answer": "Assolutamente! Nano Banana Pro è progettato per applicazioni professionali, commerciali e aziendali. Grazie alla risoluzione nativa 4K, alla generazione ragionata per requisiti complessi, ai controlli di editing avanzati, all'elaborazione in batch, alla sicurezza di livello aziendale e all'assistenza dedicata con garanzie SLA, Nano Banana Pro soddisfa le esigenze di aziende, agenzie e grandi organizzazioni che richiedono la generazione di immagini AI professionali su scala.",
+        "question": "Nano Banana Pro è adatto all'uso commerciale e aziendale?"
+      }
+    ],
+    "subtitle": "Domande comuni sul generatore di immagini AI Nano Banana Pro",
+    "title": "Domande frequenti su Nano Banana Pro"
+  },
+  "features": {
+    "items": {
+      "batch": {
+        "description": "Supporto per la generazione in batch di più immagini per aumentare significativamente la produttività. Perfetto per progetti professionali e applicazioni aziendali che richiedono grandi volumi di risorse di immagini.",
+        "title": "Elaborazione in lotti"
+      },
+      "control": {
+        "description": "La generazione di immagini AI può essere perfezionata con controlli di livello professionale, tra cui suggerimenti personalizzabili, selezione del rapporto di aspetto, opzioni di risoluzione e regolazioni dei parametri per un controllo creativo preciso.",
+        "title": "Controlli creativi avanzati"
+      },
+      "quality": {
+        "description": "Create immagini straordinarie da 4096x4096 pixel con dettagli eccezionali, accuratezza del colore e qualità di livello professionale, adatte ad applicazioni commerciali e aziendali.",
+        "title": "Uscita 4K UHD nativa"
+      },
+      "secure": {
+        "description": "Il vostro lavoro creativo è protetto da una crittografia di livello aziendale, da politiche di privacy rigorose e dalla conformità agli standard internazionali di protezione dei dati. Nano Banana Pro non condivide mai le vostre immagini generate dall'intelligenza artificiale senza un'autorizzazione esplicita.",
+        "title": "Sicurezza aziendale"
+      },
+      "speed": {
+        "description": "Generate immagini native a risoluzione 4K in meno di 10 secondi con i modelli AI ottimizzati di Nano Banana Pro, il più veloce generatore di immagini AI professionale disponibile.",
+        "title": "Generazione 4K ultraveloce"
+      },
+      "variety": {
+        "description": "Scegliete tra stili fotorealistici, illustrativi, artistici, concettuali e specializzati. Nano Banana Pro si adatta a ogni preferenza estetica, dal realismo all'arte creativa.",
+        "title": "Diversi stili artistici"
+      }
+    },
+    "subtitle": "Funzionalità complete di generazione di immagini AI grazie alla tecnologia Gemini 3 Pro Image di Google DeepMind",
+    "title": "Nano Banana Pro AI Image Generator Caratteristiche"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Provate Nano Banana Pro",
+      "secondary": "Per saperne di più"
+    },
+    "stats": {
+      "quality": {
+        "label": "Risoluzione nativa",
+        "value": "4K UHD"
+      },
+      "speed": {
+        "label": "Generazione di immagini 4K",
+        "value": "\u003c10s"
+      },
+      "users": {
+        "label": "Coerenza del carattere",
+        "value": "5 caratteri"
+      }
+    },
+    "subtitle": "Provate Nano Banana Pro (Gemini 3 Pro Image) di Google DeepMind, l'innovativo generatore di immagini AI con risoluzione 4K, rendering accurato del testo multilingue e coerenza dei caratteri. Crea immagini professionali in meno di 10 secondi grazie alla generazione guidata dal ragionamento.",
+    "title": {
+      "line1": "Nano Banana Pro",
+      "line2": "Gemini 3 Pro Image Generation"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Inserire una descrizione dettagliata dell'immagine che si desidera creare. L'intelligenza artificiale di Nano Banana Pro, guidata dal ragionamento, interpreta le richieste complesse con una comprensione ricca di sfumature. Includete dettagli specifici sullo stile, la composizione, l'illuminazione, i colori e lo stato d'animo per ottenere risultati ottimali nella generazione di immagini AI.",
+        "title": "Descrivete la vostra visione creativa"
+      },
+      "step2": {
+        "description": "Selezionate la risoluzione dell'immagine (fino a 4K), il rapporto d'aspetto, lo stile artistico, le condizioni di illuminazione e gli angoli di ripresa. Nano Banana Pro offre preimpostazioni professionali e controlli granulari per una precisa personalizzazione delle immagini generate dall'intelligenza artificiale. Scegliete tra stili fotorealistici, artistici, illustrativi e specializzati.",
+        "title": "Configurazione dei parametri avanzati dell'IA"
+      },
+      "step3": {
+        "description": "Il modello di immagine Gemini 3 Pro di Nano Banana Pro elabora i requisiti utilizzando un ragionamento avanzato e genera immagini 4K ad alta fedeltà in meno di 10 secondi. L'intelligenza artificiale può creare immagini intermedie per testare la composizione e la logica di richieste complesse, garantendo una qualità di output superiore.",
+        "title": "L'intelligenza artificiale genera immagini in 4K"
+      },
+      "step4": {
+        "description": "Anteprima dell'immagine generata dall'AI all'istante. Siete soddisfatti del risultato? Scaricatela in formato ad alta risoluzione per utilizzarla immediatamente. Avete bisogno di aggiustamenti? È sufficiente modificare la richiesta o i parametri e rigenerare - iterando tutte le volte necessarie con le capacità di generazione rapida di Nano Banana Pro.",
+        "title": "Anteprima, download e iterazione"
+      }
+    },
+    "subtitle": "Dall'idea all'immagine professionale 4K generata dall'intelligenza artificiale in quattro semplici passi. Nano Banana Pro rende intuitiva e accessibile la generazione di immagini AI avanzate.",
+    "title": "Come utilizzare il generatore di immagini AI Nano Banana Pro"
+  },
+  "seo": {
+    "description": "Generate immagini 4K in meno di 10 secondi con Nano Banana Pro. Gemini 3 Pro di Google DeepMind Modello di immagine con rendering accurato del testo e coerenza dei caratteri.",
+    "title": "Nano Banana Pro - Gemini 3 Pro AI Generator | 4K"
+  },
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Nano Banana Pro genera immagini native 4K (4096x4096) ad altissima definizione in meno di 10 secondi. Questo generatore di immagini AI offre dettagli eccezionali, accuratezza del colore e qualità dell'immagine che soddisfa gli standard professionali per la stampa, il marketing digitale e i progetti commerciali.",
+        "title": "Generazione di immagini AI 4K ad alta risoluzione"
+      },
+      "core2": {
+        "description": "A differenza di altri generatori di immagini AI, Nano Banana Pro raggiunge una precisione rivoluzionaria nella resa del testo in più lingue. Crea mockup, poster, infografiche e materiali di marketing generati dall'intelligenza artificiale con caratteri tipografici leggibili direttamente all'interno delle immagini, perfetti per il branding internazionale e la creazione di contenuti multilingue.",
+        "title": "Rendering accurato del testo multilingue"
+      },
+      "core3": {
+        "description": "Generate immagini di qualità professionale con controlli creativi avanzati, tra cui opzioni di risoluzione multiple, vari rapporti di aspetto e parametri personalizzabili. Perfetto per creare contenuti visivi coerenti in tutti i progetti con una generazione di immagini AI affidabile e di alta qualità.",
+        "title": "Output professionale e controlli flessibili"
+      }
+    },
+    "demoPlaceholder": "Immagine generata da Nano Banana Pro",
+    "description": "Nano Banana Pro, alimentato dal modello di immagine Gemini 3 Pro di Google DeepMind, è un generatore di immagini AI all'avanguardia che combina il ragionamento avanzato con la conoscenza del mondo reale. Questa piattaforma professionale di generazione di immagini AI fornisce immagini 4K ad alta risoluzione con una velocità e una precisione senza precedenti, perfetta per i designer, i marketer e i creatori di contenuti che richiedono immagini generate dall'AI di qualità professionale.",
+    "title": "Che cos'è Nano Banana Pro AI Image Generator?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Eliminate le costose licenze di software di progettazione e le spese di progettazione. Nano Banana Pro offre piani di abbonamento flessibili e opzioni di pagamento per immagine, rendendo la generazione di immagini AI professionali accessibile e conveniente per le aziende di tutte le dimensioni.",
+        "title": "Generazione di immagini AI a costi contenuti"
+      },
+      "flexibility": {
+        "description": "Sperimentate iterazioni illimitate, stili artistici multipli e direzioni creative diverse. La generazione guidata dal ragionamento di Nano Banana Pro si adatta alle vostre preferenze, consentendo una rapida prototipazione e un'esplorazione creativa senza vincoli.",
+        "title": "Libertà creativa illimitata con l'intelligenza artificiale"
+      },
+      "quality": {
+        "description": "Provate l'output nativo 4K (4096x4096) ad altissima definizione con dettagli eccezionali, riproduzione accurata dei colori e qualità dell'immagine di livello professionale. Le immagini di Nano Banana Pro AI soddisfano gli standard esigenti di progetti commerciali, stampa e applicazioni aziendali.",
+        "title": "Qualità d'immagine professionale 4K"
+      },
+      "security": {
+        "description": "Tutte le trasmissioni e l'archiviazione dei dati di Nano Banana Pro utilizzano una crittografia di livello aziendale. Le immagini generate dall'intelligenza artificiale e il lavoro creativo rimangono privati e sicuri, grazie a politiche di protezione dei dati rigorose e alla conformità con gli standard internazionali sulla privacy.",
+        "title": "Sicurezza aziendale e privacy"
+      },
+      "speed": {
+        "description": "Il modello di immagine ottimizzato Gemini 3 Pro di Nano Banana Pro genera immagini 4K ad alta risoluzione in meno di 10 secondi, fino a 10 volte più velocemente dei generatori di immagini AI della concorrenza. Accelerate drasticamente il vostro flusso di lavoro creativo con una generazione di immagini AI incredibilmente veloce.",
+        "title": "Velocità di generazione dell'intelligenza artificiale senza precedenti"
+      },
+      "support": {
+        "description": "Accesso a un supporto tecnico dedicato, documentazione completa, assistenza per l'elaborazione dei batch e garanzie SLA aziendali. Nano Banana Pro fornisce l'infrastruttura di supporto professionale di cui la vostra azienda ha bisogno per i flussi di lavoro mission-critical di generazione di immagini AI.",
+        "title": "Supporto di livello aziendale"
+      }
+    },
+    "comparison": {
+      "product": {
+        "item1": "Generare immagini professionali 4K in meno di 10 secondi con l'AI",
+        "item2": "Non sono richieste competenze di progettazione - descrivete la vostra visione in linguaggio naturale",
+        "item3": "Piani di abbonamento convenienti con opzioni flessibili pay-as-you-go",
+        "item4": "Iterazioni istantanee e sperimentazione creativa illimitata con l'IA",
+        "title": "Nano Banana Pro AI Generator"
+      },
+      "traditional": {
+        "item1": "Ore o giorni necessari per la progettazione e l'editing di immagini professionali",
+        "item2": "Sono necessarie costose licenze software e competenze professionali di progettazione.",
+        "item3": "Costi elevati per l'assunzione di designer o per l'acquisto di strumenti di progettazione premium",
+        "item4": "I cicli di iterazione lenti rendono impraticabile la sperimentazione creativa",
+        "title": "Creazione di immagini tradizionali"
+      }
+    },
+    "subtitle": "Nano Banana Pro supera i metodi tradizionali di creazione delle immagini e i generatori di immagini AI della concorrenza grazie alla generazione ragionata, alla risoluzione 4K e alle capacità di editing professionale offerte dalla tecnologia Gemini 3 Pro Image.",
+    "title": "Perché scegliere il generatore di immagini AI di Nano Banana Pro?"
+  }
+}

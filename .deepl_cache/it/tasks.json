@@ -1,0 +1,144 @@
+{
+  "entries": {
+    "All": {
+      "translation": "Tutti",
+      "timestamp": 1765569862
+    },
+    "Are you sure you want to delete this task? This action cannot be undone.": {
+      "translation": "Siete sicuri di voler eliminare questa attività? Questa azione non può essere annullata.",
+      "timestamp": 1765569862
+    },
+    "Clear": {
+      "translation": "Libero",
+      "timestamp": 1765569862
+    },
+    "Completed": {
+      "translation": "Completato",
+      "timestamp": 1765569862
+    },
+    "Delete": {
+      "translation": "Cancellare",
+      "timestamp": 1765569862
+    },
+    "Delete Task": {
+      "translation": "Eliminazione dell'attività",
+      "timestamp": 1765569862
+    },
+    "Deleting...": {
+      "translation": "Eliminazione...",
+      "timestamp": 1765569862
+    },
+    "FLUX 2 Pro": {
+      "translation": "FLUX 2 Pro",
+      "timestamp": 1765569862
+    },
+    "Failed": {
+      "translation": "Fallito",
+      "timestamp": 1765569862
+    },
+    "Failed to fetch tasks": {
+      "translation": "Impossibile recuperare le attività",
+      "timestamp": 1765569862
+    },
+    "Filters": {
+      "translation": "Filtri",
+      "timestamp": 1765569862
+    },
+    "Login to View History": {
+      "translation": "Accedi per visualizzare la cronologia",
+      "timestamp": 1765569862
+    },
+    "Make Private": {
+      "translation": "Rendere privato",
+      "timestamp": 1765569862
+    },
+    "Make Public": {
+      "translation": "Rendere pubblico",
+      "timestamp": 1765569862
+    },
+    "Model": {
+      "translation": "Modello",
+      "timestamp": 1765569862
+    },
+    "NSFW": {
+      "translation": "NSFW",
+      "timestamp": 1765569862
+    },
+    "Next": {
+      "translation": "Avanti",
+      "timestamp": 1765569862
+    },
+    "No Matching Tasks": {
+      "translation": "Nessun compito corrispondente",
+      "timestamp": 1765569862
+    },
+    "No Tasks Yet": {
+      "translation": "Nessun compito ancora",
+      "timestamp": 1765569862
+    },
+    "No prompt": {
+      "translation": "Al prompt",
+      "timestamp": 1765569862
+    },
+    "Pending": {
+      "translation": "In attesa",
+      "timestamp": 1765569862
+    },
+    "Previous": {
+      "translation": "Precedente",
+      "timestamp": 1765569862
+    },
+    "Privacy": {
+      "translation": "Privacy",
+      "timestamp": 1765569862
+    },
+    "Private": {
+      "translation": "Privato",
+      "timestamp": 1765569862
+    },
+    "Processing": {
+      "translation": "Elaborazione",
+      "timestamp": 1765569862
+    },
+    "Public": {
+      "translation": "Pubblico",
+      "timestamp": 1765569862
+    },
+    "Safe": {
+      "translation": "Sicuro",
+      "timestamp": 1765569862
+    },
+    "Select...": {
+      "translation": "Selezionare...",
+      "timestamp": 1765569862
+    },
+    "Sign In": {
+      "translation": "Accedi",
+      "timestamp": 1765569862
+    },
+    "Sign in to view all your AI image generation history": {
+      "translation": "Accedi per visualizzare tutta la cronologia della generazione di immagini AI",
+      "timestamp": 1765569862
+    },
+    "Start creating your first AI image": {
+      "translation": "Iniziare a creare la prima immagine AI",
+      "timestamp": 1765569862
+    },
+    "Try changing the filter options": {
+      "translation": "Provare a cambiare le opzioni del filtro",
+      "timestamp": 1765569862
+    },
+    "View and manage all your AI image generation history": {
+      "translation": "Visualizzare e gestire tutta la cronologia della generazione di immagini AI",
+      "timestamp": 1765569862
+    },
+    "View and manage all your generation history": {
+      "translation": "Visualizzare e gestire tutta la cronologia delle generazioni",
+      "timestamp": 1765569862
+    },
+    "Z-Image LoRA": {
+      "translation": "Immagine Z LoRA",
+      "timestamp": 1765569862
+    }
+  }
+}

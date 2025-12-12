@@ -1,0 +1,111 @@
+{
+  "childrenPrivacy": {
+    "content": "I nostri servizi non sono rivolti a persone di età inferiore ai 13 anni (o all'età minima equivalente nella vostra giurisdizione). Non raccogliamo consapevolmente informazioni personali da bambini. Se veniamo a conoscenza di aver raccolto dati da un bambino senza un adeguato consenso, provvederemo a cancellarli tempestivamente.",
+    "title": "Privacy dei bambini"
+  },
+  "contact": {
+    "email": "Email",
+    "intro": "In caso di domande, dubbi o richieste relative alla presente Informativa sulla privacy o alle nostre pratiche di trattamento dei dati, si prega di contattarci all'indirizzo:",
+    "title": "Contatto"
+  },
+  "cookies": {
+    "intro": "Utilizziamo cookie e tecnologie simili per migliorare la vostra esperienza:",
+    "items": [
+      "Cookie essenziali: Necessari per le funzionalità di base del servizio e per l'autenticazione",
+      "Cookie di preferenza: Ricordano le impostazioni e le scelte di personalizzazione dell'utente",
+      "Cookie analitici: Ci aiutano a capire i modelli di utilizzo e a migliorare i nostri servizi",
+      "Cookie di marketing: Fornire contenuti pertinenti e misurare l'efficacia della campagna (con il consenso dell'utente)"
+    ],
+    "note": "È possibile controllare le preferenze relative ai cookie attraverso le impostazioni del browser. Si noti che la disabilitazione di alcuni cookie può limitare la funzionalità dei nostri servizi.",
+    "title": "Cookie e tecnologie di tracciamento"
+  },
+  "dataCollection": {
+    "automaticInfo": {
+      "items": [
+        "Dati del dispositivo: tipo di dispositivo, sistema operativo, versione del browser, identificatori univoci del dispositivo",
+        "Informazioni sull'uso: funzioni a cui si accede, immagini generate, modelli di interazione.",
+        "Dati di log: Indirizzo IP, tempi di accesso, pagine visualizzate, URL di riferimento",
+        "Cookie e tecnologie di tracciamento per analisi e funzionalità"
+      ],
+      "title": "Informazioni raccolte automaticamente"
+    },
+    "intro": "Possiamo raccogliere vari tipi di informazioni per fornire e migliorare i nostri servizi:",
+    "providedInfo": {
+      "items": [
+        "Informazioni sull'account: indirizzo e-mail, nome utente, password",
+        "Profile data: display name, avatar, bio",
+        "Dettagli di pagamento: informazioni di fatturazione, cronologia delle transazioni",
+        "Dati di comunicazione: feedback, richieste di assistenza o altri messaggi inviati dall'utente"
+      ],
+      "title": "Informazioni fornite dall'utente"
+    },
+    "title": "Informazioni raccolte",
+    "userContent": {
+      "description": "Contenuto creato dall'utente utilizzando i nostri servizi, comprese le immagini generate dall'IA, le richieste di testo, le immagini caricate e i dati del progetto. Possiamo archiviare temporaneamente questi contenuti per fornire i nostri servizi e utilizzarli per migliorare i nostri modelli di IA, previo consenso dell'utente.",
+      "title": "Contenuti generati dagli utenti"
+    }
+  },
+  "dataSharing": {
+    "intro": "Non vendiamo le vostre informazioni personali. Possiamo condividere le vostre informazioni solo nelle seguenti circostanze:",
+    "items": [
+      "Con il vostro esplicito consenso o su vostra indicazione",
+      "Con fornitori di servizi di fiducia che ci assistono nella gestione della nostra piattaforma (cloud hosting, elaborazione dei pagamenti, analisi).",
+      "Con i fornitori di modelli di intelligenza artificiale per l'elaborazione delle vostre richieste di generazione, in base a rigorosi accordi sulla protezione dei dati.",
+      "Per ottemperare a obblighi legali, ordini del tribunale o richieste governative valide.",
+      "Per proteggere i nostri diritti, la nostra proprietà, la nostra sicurezza o quella dei nostri utenti e del pubblico",
+      "In relazione a una fusione, un'acquisizione o una vendita di attività, dove le informazioni possono essere trasferite come attività aziendali"
+    ],
+    "title": "Condivisione e divulgazione delle informazioni"
+  },
+  "dataStorage": {
+    "duration": "Periodo di conservazione: Conserviamo le informazioni personali dell'utente solo per il tempo necessario a soddisfare gli scopi delineati nella presente informativa o come richiesto dalla legge. I contenuti generati possono essere conservati in base alle impostazioni dell'account e al tipo di abbonamento.",
+    "location": "Luogo di archiviazione: Le informazioni dell'utente vengono memorizzate su server sicuri situati in varie regioni del mondo per garantire prestazioni e affidabilità ottimali del servizio. Utilizziamo fornitori di infrastrutture cloud leader del settore.",
+    "security": "Misure di sicurezza: Implementiamo pratiche di sicurezza standard del settore, tra cui la crittografia (in transito e a riposo), controlli di accesso, verifiche periodiche della sicurezza e meccanismi di autenticazione sicuri. Tuttavia, nessun metodo di trasmissione o archiviazione è sicuro al 100%.",
+    "title": "Archiviazione e sicurezza dei dati"
+  },
+  "dataUsage": {
+    "intro": "Utilizziamo le informazioni raccolte per i seguenti scopi:",
+    "items": [
+      "Fornitura, gestione e manutenzione dei nostri servizi di generazione di immagini AI",
+      "Elaborare le vostre transazioni e gestire il vostro conto",
+      "Migliorare i nostri servizi attraverso l'analisi dei dati e l'identificazione dei modelli di utilizzo.",
+      "Addestrare e migliorare i nostri modelli di intelligenza artificiale per ottenere risultati migliori.",
+      "Invio di notifiche di servizio, aggiornamenti e comunicazioni promozionali (con il vostro consenso)",
+      "Rilevare, prevenire e risolvere frodi, problemi di sicurezza o problemi tecnici.",
+      "Adempiere agli obblighi di legge e far rispettare i nostri termini di servizio.",
+      "Fornire assistenza ai clienti e rispondere alle loro domande"
+    ],
+    "title": "Come utilizziamo le vostre informazioni"
+  },
+  "description": "Learn how {siteName} collects, uses, and protects your personal information. Our privacy policy covers data collection, usage, sharing, and your rights.",
+  "introduction": {
+    "content1": "{siteName} (\"we,\" \"us,\" or \"our\") is committed to protecting your privacy and safeguarding your personal information. This Privacy Policy outlines our practices regarding the collection, storage, use, and sharing of your information when you access our AI-powered image generation services.",
+    "content2": "By using our services through the {siteName} website, mobile applications, or APIs, you acknowledge that you have read, understood, and agree to the practices described in this Privacy Policy. This policy also informs you of your privacy rights and how the law protects you.",
+    "title": "Introduzione"
+  },
+  "keywords": "Informativa sulla privacy, protezione dei dati, informazioni personali, privacy degli utenti, raccolta dati, GDPR, diritti alla privacy",
+  "lastUpdated": "Ultimo aggiornamento",
+  "policyUpdates": {
+    "content": "Potremmo aggiornare periodicamente la presente Informativa sulla privacy per riflettere le modifiche apportate alle nostre pratiche o ai requisiti legali. Notificheremo all'utente le modifiche sostanziali pubblicando l'informativa aggiornata su questa pagina con la data di \"Ultimo aggiornamento\". In caso di modifiche significative, potremmo anche fornire un avviso via e-mail o una notifica in evidenza sulla nostra piattaforma. Vi invitiamo a rivedere regolarmente questa informativa.",
+    "title": "Modifiche alla presente Informativa sulla privacy"
+  },
+  "thirdPartyLinks": {
+    "content": "I nostri servizi possono contenere link a siti web, integrazioni o servizi di terzi. Non siamo responsabili delle pratiche sulla privacy o dei contenuti di queste terze parti. Vi invitiamo a prendere visione delle loro politiche sulla privacy prima di fornire qualsiasi informazione personale.",
+    "title": "Servizi e link di terze parti"
+  },
+  "title": "Privacy Policy | {siteName}",
+  "userRights": {
+    "intro": "A seconda del luogo in cui vi trovate, potreste avere i seguenti diritti in merito ai vostri dati personali:",
+    "items": [
+      "Accesso: Richiedere una copia delle informazioni personali in nostro possesso.",
+      "Rettifica: Correggere informazioni inesatte o incomplete",
+      "Cancellazione: Richiedere la cancellazione dei propri dati personali (\"diritto all'oblio\").",
+      "Limitazione: Limitare le modalità di trattamento delle informazioni",
+      "Portabilità: Ricevere i dati in un formato strutturato e comunemente utilizzato.",
+      "Obiezione: Opporsi al trattamento delle informazioni per determinati scopi",
+      "Ritirare il consenso: Revocare in qualsiasi momento il consenso precedentemente dato",
+      "Opt-out: Annullare l'iscrizione alle comunicazioni di marketing"
+    ],
+    "title": "I vostri diritti alla privacy"
+  }
+}
