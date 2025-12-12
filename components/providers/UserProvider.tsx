@@ -2,6 +2,7 @@
 
 import { useEffect, startTransition } from 'react';
 import { useCachedSession } from '@/hooks/useCachedSession';
+import { oneTap } from '@/lib/auth-client';
 import useUserStore from '@/store/useUserStore';
 import { USER_TYPE } from '@/config/constants';
 import { getUtmParamsFromCookie } from '@/lib/utils/user-tracking';
@@ -156,6 +157,25 @@ export default function UserProvider({ children }: UserProviderProps) {
       });
     }
   }, [session, isPending, setUser, setLoading, clearUser, setQuotaInfo, setQuotaLoading]);
+
+  // 初始化 Google One Tap (用户未登录时显示)
+  useEffect(() => {
+    if (!session && typeof window !== 'undefined') {
+      const initializeOneTap = async () => {
+        try {
+          await oneTap({
+            callbackURL: '/ai-generator',
+          });
+        } catch (error) {
+          console.error('[Auth] One Tap initialization failed:', error);
+        }
+      };
+
+      // 延迟初始化，给 DOM 充足的时间
+      const timer = setTimeout(initializeOneTap, 500);
+      return () => clearTimeout(timer);
+    }
+  }, [session]);
 
   return <>{children}</>;
 }

@@ -48,45 +48,45 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
 
   return (
     <div
-      className="fixed inset-0 z-[999999] flex items-center justify-center bg-black/60 backdrop-blur-sm animate-in fade-in duration-200"
-      onClick={handleBackdropClick}
-    >
-      <div className="relative w-full max-w-md mx-4 bg-bg-elevated rounded-2xl shadow-2xl border border-border animate-in zoom-in-95 duration-200">
-        {/* 关闭按钮 */}
-        <button
-          onClick={onClose}
-          className="absolute top-4 right-4 p-2 text-text-muted hover:text-text hover:bg-bg-hover rounded-lg transition-colors cursor-pointer"
-          disabled={isLoading}
-        >
-          <svg
-            className="w-5 h-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
+        className="fixed inset-0 z-[999999] flex items-center justify-center bg-black/60 backdrop-blur-sm animate-in fade-in duration-200"
+        onClick={handleBackdropClick}
+      >
+        <div className="relative w-full max-w-md mx-4 bg-bg-elevated rounded-2xl shadow-2xl border border-border animate-in zoom-in-95 duration-200">
+          {/* 关闭按钮 */}
+          <button
+            onClick={onClose}
+            className="absolute top-4 right-4 p-2 text-text-muted hover:text-text hover:bg-bg-hover rounded-lg transition-colors cursor-pointer"
+            disabled={isLoading}
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
-        </button>
+            <svg
+              className="w-5 h-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
 
-        {/* 模态框内容 */}
-        <div className="p-8">
-          {/* 标题 */}
-          <div className="text-center mb-8">
-            <h2 className="text-2xl font-bold text-white mb-2">
-              {t('modal.title')}
-            </h2>
-            <p className="text-sm text-text-muted">
-              {t('modal.subtitle')}
-            </p>
-          </div>
+          {/* 模态框内容 */}
+          <div className="p-8">
+            {/* 标题 */}
+            <div className="text-center mb-8">
+              <h2 className="text-2xl font-bold text-white mb-2">
+                {t('modal.title')}
+              </h2>
+              <p className="text-sm text-text-muted">
+                {t('modal.subtitle')}
+              </p>
+            </div>
 
-          {/* 登录按钮 */}
-          <div className="space-y-4">
+            {/* 登录按钮 */}
+            <div className="space-y-4">
             {/* Google 登录 */}
             <button
               onClick={handleGoogleSignIn}
@@ -144,21 +144,21 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
             </button>
           </div>
 
-          {/* 底部提示 */}
-          <div className="mt-6 text-center">
-            <p className="text-xs text-text-muted">
-              {t('modal.terms')}
-              <Link href="/terms" className="text-primary hover:underline ml-1">
-                {t('modal.termsOfService')}
-              </Link>
-              {t('modal.and')}
-              <Link href="/privacy" className="text-primary hover:underline ml-1">
-                {t('modal.privacyPolicy')}
-              </Link>
-            </p>
+            {/* 底部提示 */}
+            <div className="mt-6 text-center">
+              <p className="text-xs text-text-muted">
+                {t('modal.terms')}
+                <Link href="/terms" className="text-primary hover:underline ml-1">
+                  {t('modal.termsOfService')}
+                </Link>
+                {t('modal.and')}
+                <Link href="/privacy" className="text-primary hover:underline ml-1">
+                  {t('modal.privacyPolicy')}
+                </Link>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   );
 }

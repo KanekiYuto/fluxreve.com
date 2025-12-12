@@ -1,6 +1,7 @@
 import { betterAuth } from 'better-auth';
 import { nextCookies } from 'better-auth/next-js';
 import { drizzleAdapter } from 'better-auth/adapters/drizzle';
+import { oneTap } from 'better-auth/plugins';
 import { db } from './db';
 import * as schema from './db/schema';
 
@@ -98,8 +99,11 @@ export const auth = betterAuth({
     },
   },
 
-  // 使用 Next.js Cookie 适配器
-  plugins: [nextCookies()],
+  // 使用 Next.js Cookie 适配器和 One Tap 插件
+  plugins: [
+    nextCookies(),
+    oneTap({}),
+  ],
 
   // 其他配置
   advanced: {
