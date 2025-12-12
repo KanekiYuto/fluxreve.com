@@ -72,7 +72,9 @@ export default async function LocaleLayout({ children, params }: Props) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-17790324344');
+            gtag('config', 'AW-17790324344', {
+              'page_path': window.location.pathname
+            });
           `}
         </Script>
 

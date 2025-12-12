@@ -29,9 +29,9 @@ export default function ZImagePage() {
             const trackConversion = () => {
               if (typeof gtag !== 'undefined') {
                 gtag('event', 'conversion', {
-                  'send_to': 'AW-17790324344/3nVPCOWCmtAbEPici6NC',
-                  'value': 5.0,
-                  'currency': 'USD'
+                  'send_to': 'AW-17790324344/yF9ACKjYmtAbEPici6NC',
+                  'value': 1.0,
+                  'currency': 'CNY'
                 });
               } else if (attempts < 30) {
                 attempts++;
