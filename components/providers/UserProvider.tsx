@@ -172,7 +172,7 @@ export default function UserProvider({ children }: UserProviderProps) {
       };
 
       // 延迟初始化，给 DOM 充足的时间
-      const timer = setTimeout(initializeOneTap, 500);
+      const timer = setTimeout(initializeOneTap, 3000);
       return () => clearTimeout(timer);
     }
   }, [session]);
