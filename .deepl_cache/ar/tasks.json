@@ -1,0 +1,148 @@
+{
+  "entries": {
+    "All": {
+      "translation": "الكل",
+      "timestamp": 1765576632
+    },
+    "Are you sure you want to delete this task? This action cannot be undone.": {
+      "translation": "هل تريد بالتأكيد حذف هذه المهمة؟ لا يمكن التراجع عن هذا الإجراء.",
+      "timestamp": 1765576632
+    },
+    "Clear": {
+      "translation": "واضح",
+      "timestamp": 1765576632
+    },
+    "Completed": {
+      "translation": "مكتمل",
+      "timestamp": 1765576632
+    },
+    "Delete": {
+      "translation": "حذف",
+      "timestamp": 1765576632
+    },
+    "Delete Task": {
+      "translation": "حذف المهمة",
+      "timestamp": 1765576632
+    },
+    "Deleting...": {
+      "translation": "حذف...",
+      "timestamp": 1765576632
+    },
+    "FLUX 2 Pro": {
+      "translation": "FLUX 2 Pro",
+      "timestamp": 1765576632
+    },
+    "Failed": {
+      "translation": "فشل",
+      "timestamp": 1765576632
+    },
+    "Failed to fetch tasks": {
+      "translation": "فشل في جلب المهام",
+      "timestamp": 1765576632
+    },
+    "Filters": {
+      "translation": "الفلاتر",
+      "timestamp": 1765576632
+    },
+    "Login to View History": {
+      "translation": "تسجيل الدخول لعرض السجل",
+      "timestamp": 1765576632
+    },
+    "Make Private": {
+      "translation": "اجعلها خاصة",
+      "timestamp": 1765576632
+    },
+    "Make Public": {
+      "translation": "اجعلها عامة",
+      "timestamp": 1765576632
+    },
+    "Model": {
+      "translation": "الطراز",
+      "timestamp": 1765576632
+    },
+    "NSFW": {
+      "translation": "NSFW",
+      "timestamp": 1765576632
+    },
+    "Next": {
+      "translation": "التالي",
+      "timestamp": 1765576632
+    },
+    "No Matching Tasks": {
+      "translation": "لا توجد مهام مطابقة",
+      "timestamp": 1765576632
+    },
+    "No Tasks Yet": {
+      "translation": "لا توجد مهام بعد",
+      "timestamp": 1765576632
+    },
+    "No prompt": {
+      "translation": "عند المطالبة",
+      "timestamp": 1765576632
+    },
+    "Pending": {
+      "translation": "قيد الانتظار",
+      "timestamp": 1765576632
+    },
+    "Previous": {
+      "translation": "السابق",
+      "timestamp": 1765576632
+    },
+    "Privacy": {
+      "translation": "الخصوصية",
+      "timestamp": 1765576632
+    },
+    "Private": {
+      "translation": "خاص",
+      "timestamp": 1765576632
+    },
+    "Processing": {
+      "translation": "المعالجة",
+      "timestamp": 1765576632
+    },
+    "Public": {
+      "translation": "عام",
+      "timestamp": 1765576632
+    },
+    "Safe": {
+      "translation": "الأمان",
+      "timestamp": 1765576632
+    },
+    "Select...": {
+      "translation": "اختر...",
+      "timestamp": 1765576632
+    },
+    "Sign In": {
+      "translation": "تسجيل الدخول",
+      "timestamp": 1765576632
+    },
+    "Sign in to view all your AI image generation history": {
+      "translation": "تسجيل الدخول لعرض كل سجل إنشاء صور الذكاء الاصطناعي الخاصة بك",
+      "timestamp": 1765576632
+    },
+    "Start creating your first AI image": {
+      "translation": "ابدأ في إنشاء أول صورة بالذكاء الاصطناعي",
+      "timestamp": 1765576632
+    },
+    "Try changing the filter options": {
+      "translation": "حاول تغيير خيارات التصفية",
+      "timestamp": 1765576632
+    },
+    "View and manage all your AI image generation history": {
+      "translation": "عرض جميع سجلات إنشاء صور الذكاء الاصطناعي وإدارتها",
+      "timestamp": 1765576632
+    },
+    "View and manage all your generation history": {
+      "translation": "عرض جميع سجلات الجيل الخاص بك وإدارتها",
+      "timestamp": 1765576632
+    },
+    "Z-Image LoRA": {
+      "translation": "Z-Image LoRA",
+      "timestamp": 1765576632
+    },
+    "{count} selected": {
+      "translation": "{count} المحدد",
+      "timestamp": 1765576632
+    }
+  }
+}

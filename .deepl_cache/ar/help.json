@@ -1,0 +1,80 @@
+{
+  "entries": {
+    "Can I use the generated images commercially?": {
+      "translation": "هل يمكنني استخدام الصور التي تم إنشاؤها تجارياً؟",
+      "timestamp": 1765576625
+    },
+    "Can't find what you're looking for? Contact our support team and we'll get back to you as soon as possible.": {
+      "translation": "لا يمكنك العثور على ما تبحث عنه؟ اتصل بفريق الدعم لدينا وسنعاود الاتصال بك في أقرب وقت ممكن.",
+      "timestamp": 1765576625
+    },
+    "Contact Support": {
+      "translation": "الاتصال بالدعم",
+      "timestamp": 1765576625
+    },
+    "Find answers to common questions about using our AI image generation platform": {
+      "translation": "اعثر على إجابات للأسئلة الشائعة حول استخدام منصة إنشاء الصور بالذكاء الاصطناعي",
+      "timestamp": 1765576625
+    },
+    "Find answers to common questions and get support": {
+      "translation": "اعثر على إجابات للأسئلة الشائعة واحصل على الدعم",
+      "timestamp": 1765576625
+    },
+    "Find answers to common questions and get support for {siteName} AI image generation platform": {
+      "translation": "اعثر على إجابات للأسئلة الشائعة واحصل على الدعم لمنصة توليد الصور بالذكاء الاصطناعي {siteName}",
+      "timestamp": 1765576625
+    },
+    "For better results, try to be specific and detailed in your prompts. Include information about style, colors, composition, and mood. Experiment with different models and settings to find what works best for your needs.": {
+      "translation": "للحصول على نتائج أفضل، حاول أن تكون محددًا ومفصلاً في مطالباتك. قم بتضمين معلومات حول الأسلوب والألوان والتكوين والحالة المزاجية. جرّب نماذج وإعدادات مختلفة للعثور على أفضل ما يناسب احتياجاتك.",
+      "timestamp": 1765576625
+    },
+    "Frequently Asked Questions": {
+      "translation": "الأسئلة المتداولة",
+      "timestamp": 1765576625
+    },
+    "Getting started is easy! Simply navigate to the AI Generator page, enter your prompt describing what you want to create, select your preferred settings, and click the generate button. Your AI-generated image will be ready in seconds.": {
+      "translation": "البدء سهل! ما عليك سوى الانتقال إلى صفحة مولد الذكاء الاصطناعي، وأدخل مطالبتك التي تصف ما تريد إنشاءه، وحدد الإعدادات المفضلة لديك، وانقر على زر الإنشاء. ستكون صورتك التي تم إنشاؤها بالذكاء الاصطناعي جاهزة في ثوانٍ.",
+      "timestamp": 1765576625
+    },
+    "Help Center": {
+      "translation": "مركز المساعدة",
+      "timestamp": 1765576625
+    },
+    "How can I improve my generation results?": {
+      "translation": "كيف يمكنني تحسين نتائج جيلي؟",
+      "timestamp": 1765576625
+    },
+    "How do I get started with AI Generator?": {
+      "translation": "كيف أبدأ باستخدام مولد الذكاء الاصطناعي؟",
+      "timestamp": 1765576625
+    },
+    "How many images can I generate?": {
+      "translation": "كم عدد الصور التي يمكنني إنشاؤها؟",
+      "timestamp": 1765576625
+    },
+    "If a generation fails, first try refreshing the page and attempting again. Make sure your prompt is clear and descriptive. If problems persist, please contact our support team with details about the issue.": {
+      "translation": "إذا فشل التوليد، حاول أولاً تحديث الصفحة والمحاولة مرة أخرى. تأكد من أن المطالبة واضحة وواصفة. إذا استمرت المشاكل، يُرجى الاتصال بفريق الدعم لدينا مع تقديم تفاصيل حول المشكلة.",
+      "timestamp": 1765576625
+    },
+    "The number of images you can generate depends on your credit quota. Free users get 30 credits daily, while Basic plan subscribers get 1,500 credits monthly and Pro plan subscribers get 7,500 credits monthly. Check our Pricing page for more details.": {
+      "translation": "يعتمد عدد الصور التي يمكنك إنشاؤها على حصتك من الرصيد. يحصل المستخدمون المجانيون على 30 رصيدًا يوميًا، بينما يحصل المشتركون في الباقة الأساسية على 1500 رصيد شهريًا، ويحصل المشتركون في الباقة الاحترافية على 7500 رصيد شهريًا. راجع صفحة التسعير لمزيد من التفاصيل.",
+      "timestamp": 1765576625
+    },
+    "We support all common image formats including PNG, JPG, and WebP. You can download your generated images in the format that best suits your needs.": {
+      "translation": "نحن ندعم جميع تنسيقات الصور الشائعة بما في ذلك PNG و JPG و WebP. يمكنك تنزيل الصور التي تم إنشاؤها بالتنسيق الذي يناسب احتياجاتك.",
+      "timestamp": 1765576625
+    },
+    "What image formats are supported?": {
+      "translation": "ما هي تنسيقات الصور المدعومة؟",
+      "timestamp": 1765576625
+    },
+    "What should I do if the generation fails?": {
+      "translation": "ماذا أفعل إذا فشل التوليد؟",
+      "timestamp": 1765576625
+    },
+    "Yes! Both Basic and Pro plan subscribers receive a commercial use license. Free plan users can use generated images for personal projects only.": {
+      "translation": "نعم، يحصل مشتركو الخطتين الأساسية والاحترافية على ترخيص استخدام تجاري. يمكن لمستخدمي الخطة المجانية استخدام الصور التي تم إنشاؤها للمشاريع الشخصية فقط.",
+      "timestamp": 1765576625
+    }
+  }
+}

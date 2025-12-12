@@ -1,53 +1,53 @@
 {
-  "seo": {
-    "title": "حصتي",
-    "description": "إدارة وعرض استخدام وتاريخ الحصة المتاحة"
+  "empty": {
+    "active": "لا توجد حصة نشطة متاحة",
+    "activeDesc": "ليس لديك حالياً حصة متوفرة. يرجى شراء حصة لمواصلة استخدام الخدمة",
+    "expired": "لا توجد حصة منتهية الصلاحية",
+    "expiredDesc": "ليس لديك سجلات حصص منتهية الصلاحية"
   },
-  "title": "حصتي",
-  "subtitle": "إدارة وعرض الحصة المتاحة",
   "loginRequired": {
-    "title": "سجل الدخول لعرض الحصة",
-    "description": "سجل الدخول لعرض استخدام وتاريخ حصتك"
+    "description": "سجّل الدخول لعرض استخدامك لحصتك وتاريخها",
+    "title": "تسجيل الدخول لعرض الحصة"
   },
+  "quotaTypes": {
+    "daily_free": "الحصة اليومية المجانية",
+    "monthly_basic": "الأساسيات الشهرية",
+    "monthly_pro": "المحترف الشهري",
+    "quota_pack": "حزمة الحصص",
+    "subscription_change_compensation": "تعويضات تغيير الاشتراك",
+    "trial": "المحاكمة",
+    "yearly_basic": "أساسي سنوي",
+    "yearly_pro": "محترف سنوي"
+  },
+  "seo": {
+    "description": "إدارة وعرض استخدام حصتك المتاحة وسجل الحصص المتوفرة لديك واستخدامها",
+    "title": "حصتي"
+  },
+  "stats": {
+    "consumed": "مستهلك",
+    "remaining": "المتبقي"
+  },
+  "status": {
+    "active": "نشط",
+    "depleted": "مستنفد"
+  },
+  "subtitle": "إدارة حصتك المتاحة وعرضها",
   "summary": {
-    "title": "الإجمالي المتاح",
-    "credits": "رصيد"
+    "credits": "الاعتمادات",
+    "title": "المجموع المتاح"
+  },
+  "table": {
+    "amount": "المبلغ",
+    "available": "متوفرة",
+    "consumed": "مستهلك",
+    "expiresAt": "تنتهي صلاحيتها في",
+    "issuedAt": "صدر في",
+    "noExpiry": "أبداً",
+    "type": "النوع"
   },
   "tabs": {
     "active": "الحصة النشطة",
     "expired": "منتهية الصلاحية"
   },
-  "table": {
-    "type": "النوع",
-    "amount": "الكمية",
-    "consumed": "المستهلك",
-    "available": "المتاح",
-    "issuedAt": "تاريخ الإصدار",
-    "expiresAt": "تاريخ الانتهاء",
-    "noExpiry": "أبداً"
-  },
-  "quotaTypes": {
-    "daily_free": "حصة يومية مجانية",
-    "trial": "تجريبي",
-    "monthly_basic": "شهري أساسي",
-    "monthly_pro": "شهري احترافي",
-    "yearly_basic": "سنوي أساسي",
-    "yearly_pro": "سنوي احترافي",
-    "quota_pack": "حزمة حصة",
-    "subscription_change_compensation": "تعويض تغيير الاشتراك"
-  },
-  "empty": {
-    "active": "لا توجد حصة نشطة متاحة",
-    "activeDesc": "ليس لديك حصة متاحة حالياً. يرجى شراء حصة للمتابعة في استخدام الخدمة",
-    "expired": "لا توجد حصة منتهية الصلاحية",
-    "expiredDesc": "ليس لديك سجلات حصة منتهية الصلاحية"
-  },
-  "status": {
-    "active": "نشط",
-    "depleted": "مستنفذ"
-  },
-  "stats": {
-    "consumed": "مستهلك",
-    "remaining": "متبقي"
-  }
+  "title": "حصتي"
 }

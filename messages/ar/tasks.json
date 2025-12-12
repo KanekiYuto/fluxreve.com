@@ -1,85 +1,85 @@
 {
-  "seo": {
-    "title": "السجل",
-    "description": "عرض وإدارة كل سجل توليد الصور بالذكاء الاصطناعي الخاص بك"
+  "card": {
+    "cancelDelete": "إلغاء",
+    "confirmDelete": "حذف",
+    "confirmDeleteMessage": "هل تريد بالتأكيد حذف هذه المهمة؟ لا يمكن التراجع عن هذا الإجراء.",
+    "confirmDeleteTitle": "حذف المهمة",
+    "delete": "حذف",
+    "deleting": "حذف...",
+    "makePrivate": "اجعلها خاصة",
+    "makePublic": "اجعلها عامة",
+    "private": "خاص",
+    "public": "عام"
   },
-  "header": {
-    "title": "السجل",
-    "subtitle": "عرض وإدارة كل سجل التوليد الخاص بك"
+  "empty": {
+    "cta": "بدء الإنشاء",
+    "filteredSubtitle": "حاول تغيير خيارات التصفية",
+    "filteredTitle": "لا توجد مهام مطابقة",
+    "subtitle": "ابدأ في إنشاء أول صورة بالذكاء الاصطناعي",
+    "title": "لا توجد مهام بعد"
   },
-  "loginPrompt": {
-    "title": "تسجيل الدخول لعرض السجل",
-    "description": "سجل الدخول لعرض كل سجل توليد الصور بالذكاء الاصطناعي الخاص بك",
-    "cta": "تسجيل الدخول"
+  "errors": {
+    "fetchFailed": "فشل في جلب المهام",
+    "retry": "إعادة المحاولة"
   },
   "filter": {
     "all": "الكل",
-    "completed": "مكتملة",
-    "processing": "جاري المعالجة",
-    "pending": "في انتظار",
-    "failed": "فشلت",
-    "statusLabel": "الحالة",
-    "taskTypeLabel": "النوع",
-    "taskType": {
-      "all": "الكل",
-      "text-to-image": "نص إلى صورة",
-      "image-to-image": "صورة إلى صورة"
-    },
-    "modelLabel": "النموذج",
+    "clearAll": "واضح",
+    "completed": "مكتمل",
+    "failed": "فشل",
     "model": {
       "all": "الكل",
+      "flux-2-pro": "FLUX 2 Pro",
       "nano-banana-pro": "Nano Banana Pro",
       "z-image": "Z-Image",
-      "z-image-lora": "Z-Image LoRA",
-      "flux-2-pro": "FLUX 2 Pro"
+      "z-image-lora": "Z-Image LoRA"
     },
-    "privacyLabel": "الخصوصية",
+    "modelLabel": "الطراز",
+    "nsfw": {
+      "nsfw": "NSFW",
+      "safe": "الأمان"
+    },
+    "nsfwLabel": "المحتوى",
+    "pending": "قيد الانتظار",
     "privacy": {
       "private": "خاص",
       "public": "عام"
     },
-    "nsfwLabel": "المحتوى",
-    "nsfw": {
-      "safe": "آمن",
-      "nsfw": "للبالغين"
-    },
+    "privacyLabel": "الخصوصية",
+    "processing": "المعالجة",
     "selectPlaceholder": "اختر...",
-    "selectedCount": "{count} محدد",
-    "title": "المرشحات",
-    "clearAll": "مسح"
+    "selectedCount": "{count} المحدد",
+    "statusLabel": "الحالة",
+    "taskType": {
+      "all": "الكل",
+      "image-to-image": "من صورة إلى صورة",
+      "text-to-image": "تحويل النص إلى صورة"
+    },
+    "taskTypeLabel": "النوع",
+    "title": "الفلاتر"
+  },
+  "header": {
+    "subtitle": "عرض جميع سجلات الجيل الخاص بك وإدارتها",
+    "title": "التاريخ"
+  },
+  "loginPrompt": {
+    "cta": "تسجيل الدخول",
+    "description": "تسجيل الدخول لعرض كل سجل إنشاء صور الذكاء الاصطناعي الخاصة بك",
+    "title": "تسجيل الدخول لعرض السجل"
+  },
+  "noPrompt": "عند المطالبة",
+  "pagination": {
+    "next": "التالي",
+    "prev": "السابق"
+  },
+  "seo": {
+    "description": "عرض جميع سجلات إنشاء صور الذكاء الاصطناعي وإدارتها",
+    "title": "التاريخ"
   },
   "status": {
-    "completed": "مكتملة",
-    "processing": "جاري المعالجة",
-    "pending": "في انتظار",
-    "failed": "فشلت"
-  },
-  "empty": {
-    "title": "لا توجد مهام بعد",
-    "subtitle": "ابدأ بإنشاء صورتك الأولى بالذكاء الاصطناعي",
-    "filteredTitle": "لا توجد مهام مطابقة",
-    "filteredSubtitle": "حاول تغيير خيارات المرشح",
-    "cta": "ابدأ الإنشاء"
-  },
-  "noPrompt": "لا يوجد وصف",
-  "card": {
-    "delete": "حذف",
-    "confirmDelete": "حذف",
-    "confirmDeleteTitle": "حذف المهمة",
-    "confirmDeleteMessage": "هل أنت متأكد من رغبتك في حذف هذه المهمة؟ لا يمكن التراجع عن هذا الإجراء.",
-    "cancelDelete": "إلغاء",
-    "deleting": "جاري الحذف...",
-    "private": "خاص",
-    "public": "عام",
-    "makePrivate": "جعل خاص",
-    "makePublic": "جعل عام"
-  },
-  "errors": {
-    "fetchFailed": "فشل في جلب المهام",
-    "retry": "إعادة محاولة"
-  },
-  "pagination": {
-    "prev": "السابق",
-    "next": "التالي"
+    "completed": "مكتمل",
+    "failed": "فشل",
+    "pending": "قيد الانتظار",
+    "processing": "المعالجة"
   }
 }

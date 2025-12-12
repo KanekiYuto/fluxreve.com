@@ -1,214 +1,214 @@
 {
-  "seo": {
-    "title": "مولد الذكاء الاصطناعي",
-    "description": "أنشئ صوراً مذهلة بالذكاء الاصطناعي باستخدام أداة توليد الصور القوية لدينا. سريع واحترافي وسهل الاستخدام."
-  },
-  "page": {
-    "title": "مولد الذكاء الاصطناعي",
-    "description": "أنشئ محتوى مذهلاً باستخدام نماذج الذكاء الاصطناعي القوية",
-    "loading": "جاري التحميل..."
-  },
-  "tabs": {
-    "textToImage": "من نص إلى صورة",
-    "imageToImage": "من صورة إلى صورة",
-    "more": "المزيد"
-  },
-  "examples": {
-    "title": "البدء السريع",
-    "description": "انقر على مثال أدناه لبدء الإنشاء، أو املأ النموذج على اليسار للتخصيص",
-    "useExample": "استخدم هذا المثال",
-    "goToExample": "انتقل إلى المثال {index}",
-    "clickToUse": "انقر لاستخدام هذا المثال",
-    "noExamples": "لا توجد أمثلة متاحة"
-  },
-  "tags": {
-    "film-style": "نمط سينمائي",
-    "moody": "مزاجي",
-    "retro": "كلاسيكي",
-    "currency": "عملة",
-    "portrait": "بورتريه",
-    "photorealistic": "واقعي",
-    "art-gallery": "معرض فني",
-    "minimalist": "بسيط",
-    "professional": "احترافي",
-    "education": "تعليمي",
-    "math": "رياضيات",
-    "text-render": "عرض نص"
-  },
-  "results": {
-    "title": "النتائج المولدة",
-    "fileCount": "{count} ملف",
-    "downloadCurrent": "تنزيل الحالي",
-    "downloadAll": "تنزيل الكل ({count})",
-    "generationTime": "وقت التوليد",
-    "completedTime": "وقت الإكمال",
-    "seconds": "{seconds} ث",
-    "prompt": "الوصف"
-  },
-  "loading": {
-    "initializing": "جاري التهيئة",
-    "creating": "الذكاء الاصطناعي يعمل",
-    "message": "جاري إنشاء محتوى رائع لك، يرجى الانتظار..."
+  "comingSoon": {
+    "badge": "قريباً",
+    "defaultDescription": "نحن نعمل بجد لنقدم لك إمكانيات جديدة مذهلة. ترقبوا التحديثات!",
+    "defaultTitle": "ميزات مثيرة في الطريق",
+    "feature1Desc": "أحدث ما توصلت إليه التكنولوجيا",
+    "feature1Title": "ذكاء اصطناعي قوي",
+    "feature2Desc": "الأتمتة الذكية",
+    "feature2Title": "الميزات الذكية",
+    "feature3Desc": "نتائج فائقة السرعة",
+    "feature3Title": "المعالجة السريعة",
+    "moreTools": {
+      "description": "استكشف الأدوات المساعدة القوية للصور بما في ذلك الترقية، والتحسين، وتحويل التنسيق، ومعالجة الدُفعات",
+      "title": "المزيد من أدوات الصور"
+    },
+    "progressHint": "من المتوقع إطلاقه قريباً",
+    "progressLabel": "التقدم المحرز في التنمية"
   },
   "credits": {
     "quota": "الحصة",
     "refresh": "تحديث الحصة"
   },
+  "error": {
+    "credits": "الاعتمادات",
+    "current": "الحالي",
+    "generationFailed": "فشل التوليد",
+    "imageGenerationFailed": "فشل توليد الصور",
+    "insufficientCredits": "الاعتمادات غير كافية",
+    "parameterError": "خطأ في المعلمة",
+    "pleaseRecharge": "يرجى إعادة الشحن والمحاولة مرة أخرى",
+    "promptRequired": "الرجاء إدخال مطالبة",
+    "queryStatusFailed": "فشل حالة الاستعلام",
+    "required": "مطلوب",
+    "subscribe": "اشتراك",
+    "unableToQueryStatus": "تعذر الاستعلام عن حالة المهمة"
+  },
+  "examples": {
+    "clickToUse": "انقر لاستخدام هذا المثال",
+    "description": "انقر فوق أحد الأمثلة أدناه لبدء الإنشاء، أو املأ النموذج الموجود على اليسار للتخصيص",
+    "goToExample": "انتقل إلى المثال {index}",
+    "noExamples": "لا توجد أمثلة متاحة",
+    "title": "بداية سريعة",
+    "useExample": "استخدم هذا المثال"
+  },
   "form": {
-    "mode": {
-      "textToImage": "من نص إلى صورة",
-      "imageToImage": "من صورة إلى صورة"
-    },
-    "advancedSettings": "إعدادات متقدمة",
-    "seed": "البذرة",
-    "seedPlaceholder": "اتركه فارغاً للعشوائية",
-    "steps": "الخطوات",
-    "selectPlaceholder": "يرجى الاختيار",
-    "prompt": "الوصف",
-    "promptPlaceholder": "صف الصورة التي تريد إنشاءها...",
-    "aspectRatio": "نسبة العرض إلى الارتفاع",
-    "aspectRatioPlaceholder": "اختر نسبة العرض إلى الارتفاع",
-    "aspectRatios": {
-      "1:1": "1:1 (مربع)",
-      "16:9": "16:9 (أفقي)",
-      "9:16": "9:16 (عمودي)",
-      "4:3": "4:3 (قياسي)",
-      "3:4": "3:4 (عمودي)",
-      "21:9": "21:9 (عريض جداً)"
-    },
-    "resolution": "الدقة",
-    "resolutionPlaceholder": "اختر الدقة",
-    "size": "الحجم",
-    "sizePlaceholder": "اختر حجم الصورة",
-    "outputFormat": "صيغة الإخراج",
-    "outputFormatPlaceholder": "اختر صيغة الإخراج",
-    "uploadImage": "رفع صورة",
-    "addImageUrl": "إضافة رابط صورة",
-    "imageUrlPlaceholder": "أدخل رابط الصورة",
     "add": "إضافة",
-    "cancel": "إلغاء",
-    "uploadHint": "تلميح: يمكنك سحب وإفلات ملف أو النقر للرفع",
-    "uploading": "جاري الرفع...",
+    "addImageUrl": "إضافة عنوان URL للصور",
     "addItem": "إضافة عنصر",
-    "privateMode": "الوضع الخاص",
+    "addLora": "إضافة LoRA",
+    "advancedSettings": "الإعدادات المتقدمة",
+    "aspectRatio": "نسبة العرض إلى الارتفاع",
+    "aspectRatioPlaceholder": "تحديد نسبة العرض إلى الارتفاع",
+    "aspectRatios": {
+      "16:9": "16:9 (أفقي)",
+      "1:1": "1:1 (مربع)",
+      "21:9": "21:9 (فائقة العرض)",
+      "3:4": "3:4 (صورة شخصية)",
+      "4:3": "4:3 (قياسي)",
+      "9:16": "9:16 (صورة شخصية)"
+    },
+    "cancel": "إلغاء",
+    "clickAddLoraToStart": "انقر فوق الزر أعلاه لإضافة LoRA التكوين",
+    "configuration": "التكوين",
+    "imageUrlPlaceholder": "أدخل عنوان URL الصورة",
+    "loraConfig": "LoRA التكوين",
+    "loraConfigHint": "أدخل LoRA التكوين بتنسيق JSON، على سبيل المثال، اسم النموذج والوزن والمعلمات الأخرى",
+    "mode": {
+      "imageToImage": "من صورة إلى صورة",
+      "textToImage": "تحويل النص إلى صورة"
+    },
+    "noLoraConfigured": "لم يتم تكوين LoRA بعد",
+    "outputFormat": "تنسيق الإخراج",
+    "outputFormatPlaceholder": "تحديد تنسيق الإخراج",
+    "privateMode": "أزياء خاصة",
     "privateModeDesc": "ستكون النتائج مرئية لك فقط",
-    "privateModeSubscriptionRequired": "اشترك لتفعيل الوضع الخاص",
+    "privateModeSubscriptionRequired": "اشترك لتمكين الوضع الخاص",
+    "prompt": "موجه",
+    "promptPlaceholder": "صِف الصورة التي تريد توليدها...",
+    "resolution": "القرار",
+    "resolutionPlaceholder": "تحديد الدقة",
+    "seed": "البذور",
+    "seedPlaceholder": "اتركه فارغاً للعشوائية",
+    "selectPlaceholder": "يرجى تحديد",
+    "size": "الحجم",
+    "sizePlaceholder": "تحديد حجم الصورة",
     "status": {
       "loading": "جاري التحميل..."
     },
-    "configuration": "التكوين",
-    "addLora": "إضافة LoRA",
-    "noLoraConfigured": "لم يتم تكوين LoRA بعد",
-    "clickAddLoraToStart": "انقر على الزر أعلاه لإضافة تكوين LoRA",
-    "loraConfig": "تكوين LoRA",
-    "loraConfigHint": "أدخل تكوين LoRA بصيغة JSON، مثل اسم النموذج والوزن والمعاملات الأخرى"
-  },
-  "error": {
-    "required": "مطلوب",
-    "current": "الحالي",
-    "credits": "الرصيد",
-    "parameterError": "خطأ في المعاملات",
-    "promptRequired": "يرجى إدخال وصف",
-    "insufficientCredits": "رصيد غير كافٍ",
-    "pleaseRecharge": "يرجى إعادة الشحن والمحاولة مرة أخرى",
-    "queryStatusFailed": "فشل الاستعلام عن الحالة",
-    "unableToQueryStatus": "تعذر الاستعلام عن حالة المهمة",
-    "generationFailed": "فشل التوليد",
-    "imageGenerationFailed": "فشل توليد الصورة",
-    "subscribe": "اشترك"
+    "steps": "الخطوات",
+    "uploadHint": "تلميح: يمكنك سحب ملف وإفلاته أو النقر عليه للتحميل",
+    "uploadImage": "تحميل صورة",
+    "uploading": "تحميل..."
   },
   "generate": {
-    "generating": "جاري التوليد... {progress}%",
-    "generateImage": "توليد صورة (التكلفة {credits} حصة)"
+    "generateImage": "توليد صورة (التكلفة {credits} حصة {credits} التكلفة)",
+    "generating": "توليد... {progress}%"
+  },
+  "loading": {
+    "creating": "إنشاء الذكاء الاصطناعي",
+    "initializing": "التهيئة",
+    "message": "إنشاء محتوى مذهل من أجلك، يرجى الانتظار..."
+  },
+  "lora": {
+    "addLora": "إضافة LoRA",
+    "cancel": "إلغاء",
+    "clickAddLoraToStart": "انقر فوق الزر \"إضافة LoRA\" لبدء التهيئة",
+    "clickToSelect": "انقر على بطاقة LoRA على اليسار لتحديد",
+    "configuration": "التكوين",
+    "confirm": "تأكيد",
+    "loading": "جاري التحميل...",
+    "loraConfig": "LoRA التكوين",
+    "loraConfigHint": "الرجاء إدخال تكوين تنسيق JSON صالح",
+    "manage": "الإدارة",
+    "modalSubtitle": "اختر من مكتبة LoRA وقم بتخصيص المقياس لأنماط مخصصة",
+    "modalTitle": "اختر LoRA الموديل",
+    "noLoraAvailable": "لا يتوفر LoRA",
+    "noLoraConfigured": "لا LoRA تم تكوينه",
+    "noLoraHint": "يرجى إنشاء أو استيراد نماذج LoRA أولاً",
+    "noSearchResults": "لم يتم العثور على LoRA مطابقة",
+    "noSelectedLoras": "لا يوجد LoRA محدد",
+    "scale": "السلالم",
+    "searchPlaceholder": "بحث LoRA الاسم أو الوصف أو الكلمة المحفزة...",
+    "selectLora": "حدد LoRA",
+    "selectMore": "إدارة LoRA",
+    "selectedCount": "{count} تم تحديد LoRA (ق)",
+    "selectedLoras": "مختارة"
   },
   "modelGroups": {
-    "nano": "سلسلة Nano",
-    "zImage": "سلسلة Z-Image",
-    "flux": "سلسلة Flux",
-    "seedream": "سلسلة Seedream"
+    "flux": "Flux السلسلة",
+    "nano": "سلسلة نانو",
+    "seedream": "Seedream Series",
+    "zImage": "Z-Image السلسلة"
   },
   "models": {
-    "nanoBananaPro": {
-      "description": "توليد فائق السرعة، محسّن لإنتاج إبداعي عالي الجودة بسرعة استثنائية",
+    "flux2Pro": {
+      "description": "نموذج توليد صور احترافي، يدعم تحويل النص إلى صورة وصورة إلى صورة مع إخراج عالي الجودة",
       "tags": {
-        "fast": "سريع",
+        "highQuality": "جودة عالية",
+        "professional": "محترف",
+        "versatile": "متعدد الاستخدامات"
+      }
+    },
+    "nanoBananaPro": {
+      "description": "توليد بسرعة البرق، مُحسَّن للحصول على مخرجات إبداعية عالية الجودة مع سرعة استثنائية",
+      "tags": {
+        "fast": "تقريباً",
         "highQuality": "جودة عالية",
         "latest": "الأحدث"
       }
     },
-    "zImage": {
-      "description": "توليد صور واقعية بالذكاء الاصطناعي مع عرض نص ثنائي اللغة دقيق، سرعة أقل من ثانية",
+    "seedream": {
+      "description": "ByteDance Seedream 4.5، توليد صور فائقة الجودة مع إخراج دقة كبيرة",
       "tags": {
-        "ultraFast": "أقل من ثانية",
-        "affordable": "واقعي",
-        "quality": "عرض نص"
+        "bytedance": "ByteDance",
+        "creative": "إبداعي",
+        "ultraHD": "فائق الوضوح (Ultra HD)"
+      }
+    },
+    "zImage": {
+      "description": "توليد صور واقعية بالذكاء الاصطناعي مع عرض دقيق للنصوص ثنائية اللغة، وسرعة أقل من الثانية",
+      "tags": {
+        "affordable": "صورة واقعية",
+        "quality": "عرض النص",
+        "ultraFast": "دون الثانية"
       }
     },
     "zImageLora": {
-      "description": "إصدار Z-Image Turbo LoRA مع دعم نماذج LoRA مخصصة للإبداعات المنمقة",
+      "description": "Z-Image Turbo LoRA إصدار مع دعم نموذج LoRA مخصص Z-Image Turbo LoRA للإبداعات المنمقة",
       "tags": {
         "customizable": "قابل للتخصيص",
-        "stylized": "منمق",
-        "lora": "دعم LoRA"
-      }
-    },
-    "flux2Pro": {
-      "description": "نموذج توليد صور احترافي، يدعم من نص إلى صورة ومن صورة إلى صورة بإخراج عالي الجودة",
-      "tags": {
-        "professional": "احترافي",
-        "highQuality": "جودة عالية",
-        "versatile": "متعدد الاستخدامات"
-      }
-    },
-    "seedream": {
-      "description": "ByteDance Seedream 4.5، توليد صور بجودة فائقة مع إخراج بدقة كبيرة",
-      "tags": {
-        "bytedance": "ByteDance",
-        "ultraHD": "Ultra HD",
-        "creative": "إبداعي"
+        "lora": "LoRA الدعم",
+        "stylized": "منمق"
       }
     }
   },
-  "lora": {
-    "scale": "المقياس",
-    "addLora": "إضافة LoRA",
+  "page": {
+    "description": "إنشاء محتوى مذهل باستخدام نماذج ذكاء اصطناعي قوية",
     "loading": "جاري التحميل...",
-    "noLoraAvailable": "لا يوجد LoRA متاح",
-    "noLoraHint": "يرجى إنشاء أو استيراد نماذج LoRA أولاً",
-    "configuration": "التكوين",
-    "loraConfig": "تكوين LoRA",
-    "loraConfigHint": "يرجى إدخال تكوين بصيغة JSON صالحة",
-    "noLoraConfigured": "لم يتم تكوين LoRA",
-    "clickAddLoraToStart": "انقر على زر \"إضافة LoRA\" لبدء التكوين",
-    "modalTitle": "اختر نموذج LoRA",
-    "modalSubtitle": "اختر من مكتبة LoRA وخصص المقياس للأنماط الشخصية",
-    "searchPlaceholder": "ابحث عن اسم LoRA أو الوصف أو كلمة التشغيل...",
-    "selectedLoras": "المحدد",
-    "noSelectedLoras": "لم يتم تحديد LoRA",
-    "clickToSelect": "انقر على بطاقة LoRA على اليسار للتحديد",
-    "noSearchResults": "لم يتم العثور على LoRA مطابق",
-    "confirm": "تأكيد",
-    "cancel": "إلغاء",
-    "selectLora": "اختر LoRA",
-    "selectMore": "إدارة LoRA",
-    "selectedCount": "تم تحديد {count} LoRA",
-    "manage": "إدارة"
+    "title": "مولد الذكاء الاصطناعي"
   },
-  "comingSoon": {
-    "badge": "قريباً",
-    "defaultTitle": "ميزات مثيرة في الطريق",
-    "defaultDescription": "نعمل بجد لنقدم لك قدرات جديدة رائعة. ترقب التحديثات!",
-    "feature1Title": "ذكاء اصطناعي قوي",
-    "feature1Desc": "تقنية متطورة",
-    "feature2Title": "ميزات ذكية",
-    "feature2Desc": "أتمتة ذكية",
-    "feature3Title": "معالجة سريعة",
-    "feature3Desc": "نتائج فائقة السرعة",
-    "progressLabel": "تقدم التطوير",
-    "progressHint": "من المتوقع الإطلاق قريباً",
-    "moreTools": {
-      "title": "المزيد من أدوات الصور",
-      "description": "استكشف أدوات الصور القوية بما في ذلك تحسين الجودة والتحسين وتحويل الصيغة والمعالجة الدفعية"
-    }
+  "results": {
+    "completedTime": "الوقت المكتمل",
+    "downloadAll": "تنزيل الكل ({count})",
+    "downloadCurrent": "التنزيل الحالي",
+    "fileCount": "ملف (ملفات) {count}",
+    "generationTime": "وقت التوليد",
+    "prompt": "موجه",
+    "seconds": "{seconds}s",
+    "title": "النتائج المتولدة"
+  },
+  "seo": {
+    "description": "تمتع بتصميم صور مذهلة تم إنشاؤها بالذكاء الاصطناعي باستخدام أداة إنشاء صور الذكاء الاصطناعي القوية. سريعة واحترافية وسهلة الاستخدام.",
+    "title": "مولد الذكاء الاصطناعي"
+  },
+  "tabs": {
+    "imageToImage": "من صورة إلى صورة",
+    "more": "المزيد",
+    "textToImage": "تحويل النص إلى صورة"
+  },
+  "tags": {
+    "art-gallery": "معرض الفنون",
+    "currency": "العملة",
+    "education": "التعليم",
+    "film-style": "أسلوب الفيلم",
+    "math": "الرياضيات",
+    "minimalist": "الحد الأدنى",
+    "moody": "مودي",
+    "photorealistic": "صورة واقعية",
+    "portrait": "صورة شخصية",
+    "professional": "محترف",
+    "retro": "ريترو",
+    "text-render": "عرض النص"
   }
 }

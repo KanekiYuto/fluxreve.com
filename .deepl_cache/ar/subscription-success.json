@@ -1,0 +1,88 @@
+{
+  "entries": {
+    "Auto redirecting to dashboard in {seconds} seconds...": {
+      "translation": "إعادة التوجيه التلقائي إلى لوحة التحكم خلال {seconds} ثانية...",
+      "timestamp": 1765576631
+    },
+    "Basic - Monthly": {
+      "translation": "أساسي - شهرياً",
+      "timestamp": 1765576631
+    },
+    "Basic - Yearly": {
+      "translation": "أساسي - سنوي",
+      "timestamp": 1765576631
+    },
+    "Plan": {
+      "translation": "الخطة",
+      "timestamp": 1765576631
+    },
+    "Pro - Monthly": {
+      "translation": "محترف - شهرياً",
+      "timestamp": 1765576631
+    },
+    "Pro - Yearly": {
+      "translation": "محترف - سنوي",
+      "timestamp": 1765576631
+    },
+    "Redirecting...": {
+      "translation": "إعادة توجيه...",
+      "timestamp": 1765576631
+    },
+    "Start Using Now": {
+      "translation": "ابدأ الاستخدام الآن",
+      "timestamp": 1765576631
+    },
+    "Start using AI generators to create stunning images": {
+      "translation": "ابدأ باستخدام مولدات الذكاء الاصطناعي لإنشاء صور مذهلة",
+      "timestamp": 1765576631
+    },
+    "Status": {
+      "translation": "الحالة",
+      "timestamp": 1765576631
+    },
+    "Subscription Details": {
+      "translation": "تفاصيل الاشتراك",
+      "timestamp": 1765576631
+    },
+    "Subscription Successful": {
+      "translation": "الاشتراك ناجح",
+      "timestamp": 1765576631
+    },
+    "Subscription Successful!": {
+      "translation": "الاشتراك ناجح!",
+      "timestamp": 1765576631
+    },
+    "Subscription not found": {
+      "translation": "لم يتم العثور على الاشتراك",
+      "timestamp": 1765576631
+    },
+    "Thank you for subscribing! Your account has been successfully upgraded": {
+      "translation": "شكراً لاشتراكك! تمت ترقية حسابك بنجاح",
+      "timestamp": 1765576631
+    },
+    "Thank you for subscribing. Your account has been successfully upgraded and you can now enjoy all premium features.": {
+      "translation": "شكراً لاشتراكك. تمت ترقية حسابك بنجاح ويمكنك الآن الاستمتاع بجميع الميزات المميزة.",
+      "timestamp": 1765576631
+    },
+    "Unknown Plan": {
+      "translation": "خطة غير معروفة",
+      "timestamp": 1765576631
+    },
+    "View Subscription": {
+      "translation": "عرض الاشتراك",
+      "timestamp": 1765576631
+    },
+    "View your subscription details in the subscription management page": {
+      "translation": "عرض تفاصيل اشتراكك في صفحة إدارة الاشتراكات",
+      "timestamp": 1765576631
+    },
+    "Visit your dashboard to explore all available features": {
+      "translation": "قم بزيارة لوحة التحكم الخاصة بك لاستكشاف جميع الميزات المتاحة",
+      "timestamp": 1765576631
+    },
+    "What's Next": {
+      "translation": "ما التالي",
+      "timestamp": 1765576631
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "entries": {
+    "Canceled": {
+      "translation": "تم الإلغاء",
+      "timestamp": 1765576631
+    },
+    "Canceled Date": {
+      "translation": "تاريخ الإلغاء",
+      "timestamp": 1765576631
+    },
+    "Customer": {
+      "translation": "العميل",
+      "timestamp": 1765576631
+    },
+    "Expiry Date": {
+      "translation": "تاريخ انتهاء الصلاحية",
+      "timestamp": 1765576631
+    },
+    "Log in to view and manage your subscription information": {
+      "translation": "سجّل الدخول لعرض معلومات اشتراكك وإدارتها",
+      "timestamp": 1765576631
+    },
+    "Login to View Subscriptions": {
+      "translation": "تسجيل الدخول لعرض الاشتراكات",
+      "timestamp": 1765576631
+    },
+    "Manage Subscription": {
+      "translation": "إدارة الاشتراك",
+      "timestamp": 1765576631
+    },
+    "Next Billing Date": {
+      "translation": "تاريخ الفاتورة التالية",
+      "timestamp": 1765576631
+    },
+    "Next renewal switches to": {
+      "translation": "يتحول التجديد التالي إلى",
+      "timestamp": 1765576631
+    },
+    "No Subscriptions": {
+      "translation": "لا توجد اشتراكات",
+      "timestamp": 1765576631
+    },
+    "Paused": {
+      "translation": "متوقف مؤقتاً",
+      "timestamp": 1765576631
+    },
+    "Payment Platform": {
+      "translation": "منصة الدفع",
+      "timestamp": 1765576631
+    },
+    "Pending Payment": {
+      "translation": "في انتظار السداد",
+      "timestamp": 1765576631
+    },
+    "Start Date": {
+      "translation": "تاريخ البدء",
+      "timestamp": 1765576631
+    },
+    "Subscription Amount": {
+      "translation": "مبلغ الاشتراك",
+      "timestamp": 1765576631
+    },
+    "Subscription Management": {
+      "translation": "إدارة الاشتراكات",
+      "timestamp": 1765576631
+    },
+    "View and manage your subscription information": {
+      "translation": "عرض معلومات اشتراكك وإدارتها",
+      "timestamp": 1765576631
+    },
+    "View and manage your subscription plans and billing information": {
+      "translation": "عرض خطط الاشتراك ومعلومات الفوترة وإدارتها",
+      "timestamp": 1765576631
+    },
+    "You currently have no active subscriptions": {
+      "translation": "ليس لديك حالياً أي اشتراكات نشطة",
+      "timestamp": 1765576631
+    }
+  }
+}

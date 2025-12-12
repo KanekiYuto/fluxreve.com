@@ -1,0 +1,104 @@
+{
+  "entries": {
+    "About": {
+      "translation": "نبذة عن",
+      "timestamp": 1765576630
+    },
+    "Change": {
+      "translation": "التغيير",
+      "timestamp": 1765576630
+    },
+    "Connect your GitHub account to enable this login method.": {
+      "translation": "قم بتوصيل حسابك GitHub لتمكين طريقة تسجيل الدخول هذه.",
+      "timestamp": 1765576630
+    },
+    "Connect your Google account to enable this login method.": {
+      "translation": "قم بتوصيل حسابك Google لتمكين طريقة تسجيل الدخول هذه.",
+      "timestamp": 1765576630
+    },
+    "Connected": {
+      "translation": "متصل",
+      "timestamp": 1765576630
+    },
+    "Connected Accounts": {
+      "translation": "الحسابات المتصلة",
+      "timestamp": 1765576630
+    },
+    "Copy": {
+      "translation": "نسخ",
+      "timestamp": 1765576630
+    },
+    "Edit": {
+      "translation": "تحرير",
+      "timestamp": 1765576630
+    },
+    "Email Address": {
+      "translation": "عنوان البريد الإلكتروني",
+      "timestamp": 1765576630
+    },
+    "Email Notifications": {
+      "translation": "إشعارات البريد الإلكتروني",
+      "timestamp": 1765576630
+    },
+    "Enable": {
+      "translation": "التمكين",
+      "timestamp": 1765576630
+    },
+    "Manage your account settings and preferences": {
+      "translation": "إدارة إعدادات حسابك وتفضيلاتك",
+      "timestamp": 1765576630
+    },
+    "Name": {
+      "translation": "الاسم",
+      "timestamp": 1765576630
+    },
+    "Not set": {
+      "translation": "غير محدد",
+      "timestamp": 1765576630
+    },
+    "Please sign in to access your settings and manage your account.": {
+      "translation": "يُرجى تسجيل الدخول للوصول إلى إعداداتك وإدارة حسابك.",
+      "timestamp": 1765576630
+    },
+    "Preferences": {
+      "translation": "التفضيلات",
+      "timestamp": 1765576630
+    },
+    "Profile Information": {
+      "translation": "معلومات الملف الشخصي",
+      "timestamp": 1765576630
+    },
+    "Receive updates and notifications via email": {
+      "translation": "تلقي التحديثات والإشعارات عبر البريد الإلكتروني",
+      "timestamp": 1765576630
+    },
+    "Release Date": {
+      "translation": "تاريخ الإصدار",
+      "timestamp": 1765576630
+    },
+    "Sign In Required": {
+      "translation": "تسجيل الدخول مطلوب",
+      "timestamp": 1765576630
+    },
+    "Upgrade Plan": {
+      "translation": "خطة الترقية",
+      "timestamp": 1765576630
+    },
+    "Verified": {
+      "translation": "تم التحقق",
+      "timestamp": 1765576630
+    },
+    "Version": {
+      "translation": "الإصدار",
+      "timestamp": 1765576630
+    },
+    "You can use your GitHub account to sign in to your account.": {
+      "translation": "يمكنك استخدام حسابك GitHub لتسجيل الدخول إلى حسابك.",
+      "timestamp": 1765576630
+    },
+    "You can use your Google account to sign in to your account.": {
+      "translation": "يمكنك استخدام حسابك Google لتسجيل الدخول إلى حسابك.",
+      "timestamp": 1765576630
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "entries": {
+    "Active": {
+      "translation": "نشط",
+      "timestamp": 1765576628
+    },
+    "Active Quota": {
+      "translation": "الحصة النشطة",
+      "timestamp": 1765576628
+    },
+    "Amount": {
+      "translation": "المبلغ",
+      "timestamp": 1765576628
+    },
+    "Available": {
+      "translation": "متوفرة",
+      "timestamp": 1765576628
+    },
+    "Consumed": {
+      "translation": "مستهلك",
+      "timestamp": 1765576628
+    },
+    "Daily Free Quota": {
+      "translation": "الحصة اليومية المجانية",
+      "timestamp": 1765576628
+    },
+    "Depleted": {
+      "translation": "مستنفد",
+      "timestamp": 1765576628
+    },
+    "Expired": {
+      "translation": "منتهية الصلاحية",
+      "timestamp": 1765576628
+    },
+    "Expires At": {
+      "translation": "تنتهي صلاحيتها في",
+      "timestamp": 1765576628
+    },
+    "Issued At": {
+      "translation": "صدر في",
+      "timestamp": 1765576628
+    },
+    "Log in to view your quota usage and history": {
+      "translation": "سجّل الدخول لعرض استخدامك لحصتك وتاريخها",
+      "timestamp": 1765576628
+    },
+    "Login to View Quota": {
+      "translation": "تسجيل الدخول لعرض الحصة",
+      "timestamp": 1765576628
+    },
+    "Manage and view your available quota": {
+      "translation": "إدارة حصتك المتاحة وعرضها",
+      "timestamp": 1765576628
+    },
+    "Manage and view your available quota usage and history": {
+      "translation": "إدارة وعرض استخدام حصتك المتاحة وسجل الحصص المتوفرة لديك واستخدامها",
+      "timestamp": 1765576628
+    },
+    "Monthly Basic": {
+      "translation": "الأساسيات الشهرية",
+      "timestamp": 1765576628
+    },
+    "Monthly Pro": {
+      "translation": "المحترف الشهري",
+      "timestamp": 1765576628
+    },
+    "My Quota": {
+      "translation": "حصتي",
+      "timestamp": 1765576628
+    },
+    "Never": {
+      "translation": "أبداً",
+      "timestamp": 1765576628
+    },
+    "No active quota available": {
+      "translation": "لا توجد حصة نشطة متاحة",
+      "timestamp": 1765576628
+    },
+    "No expired quota": {
+      "translation": "لا توجد حصة منتهية الصلاحية",
+      "timestamp": 1765576628
+    },
+    "Quota Pack": {
+      "translation": "حزمة الحصص",
+      "timestamp": 1765576628
+    },
+    "Remaining": {
+      "translation": "المتبقي",
+      "timestamp": 1765576628
+    },
+    "Subscription Change Compensation": {
+      "translation": "تعويضات تغيير الاشتراك",
+      "timestamp": 1765576628
+    },
+    "Total Available": {
+      "translation": "المجموع المتاح",
+      "timestamp": 1765576628
+    },
+    "Type": {
+      "translation": "النوع",
+      "timestamp": 1765576628
+    },
+    "Yearly Basic": {
+      "translation": "أساسي سنوي",
+      "timestamp": 1765576628
+    },
+    "Yearly Pro": {
+      "translation": "محترف سنوي",
+      "timestamp": 1765576628
+    },
+    "You currently have no available quota. Please purchase quota to continue using the service": {
+      "translation": "ليس لديك حالياً حصة متوفرة. يرجى شراء حصة لمواصلة استخدام الخدمة",
+      "timestamp": 1765576628
+    },
+    "You have no expired quota records": {
+      "translation": "ليس لديك سجلات حصص منتهية الصلاحية",
+      "timestamp": 1765576628
+    }
+  }
+}

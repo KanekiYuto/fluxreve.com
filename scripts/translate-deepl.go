@@ -2,7 +2,6 @@ package main
 
 import (
 	"bytes"
-	"crypto/rand"
 	"encoding/json"
 	"flag"
 	"fmt"
@@ -121,6 +120,9 @@ func translateWithDeepLBatch(apiKey string, texts []string, targetLang string, f
 	toTranslateProtectedMaps := []map[string]string{} // 保存每个文本的 keep 内容映射
 	results := make(map[string]string)
 
+	// 为这个批次创建占位符生成器
+	placeholderGen := NewPlaceholderGenerator()
+
 	for _, text := range texts {
 		if len(text) == 0 {
 			results[text] = text
@@ -152,7 +154,7 @@ func translateWithDeepLBatch(apiKey string, texts []string, targetLang string, f
 		toTranslateOriginals = append(toTranslateOriginals, text)
 
 		// 客户端处理：将占位符和专有名词替换为特殊标记，这样 DeepL 完全不会翻译它们
-		textToTranslate, protectedMap := protectAllContent(text)
+		textToTranslate, protectedMap := protectAllContentWithGenerator(text, placeholderGen)
 		toTranslate = append(toTranslate, textToTranslate)
 		toTranslateProtectedMaps = append(toTranslateProtectedMaps, protectedMap)
 	}
@@ -230,8 +232,19 @@ func translateWithDeepLBatch(apiKey string, texts []string, targetLang string, f
 			translatedText := translation.Text
 			protectedMap := toTranslateProtectedMaps[i]
 
+			// 详细日志：显示保护映射
+			fmt.Printf("  [DEBUG] 翻译结果 %d:\n", i)
+			fmt.Printf("    原始文本: %s\n", originalText)
+			fmt.Printf("    翻译文本 (保护前): %s\n", translatedText)
+			fmt.Printf("    保护映射数量: %d\n", len(protectedMap))
+			for placeholder, content := range protectedMap {
+				fmt.Printf("      %s -> %s\n", placeholder, content)
+			}
+
 			// 还原被保护的内容（占位符和专有名词）
 			finalTranslation := restoreProtectedContent(translatedText, protectedMap)
+
+			fmt.Printf("    翻译文本 (还原后): %s\n", finalTranslation)
 
 			// 使用原始文本作为键保存结果
 			results[originalText] = finalTranslation
@@ -330,21 +343,27 @@ func isPlaceholder(text string) bool {
 	return re.MatchString(text)
 }
 
-// 生成 UUID 格式的占位符
-func generateUUIDPlaceholder() string {
-	b := make([]byte, 16)
-	_, err := rand.Read(b)
-	if err != nil {
-		// 如果生成失败，使用时间戳作为备选
-		return fmt.Sprintf("00000000-0000-0000-0000-%012d", time.Now().UnixNano()%1000000000000)
-	}
-	// 标准 UUID 格式：xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
-	return fmt.Sprintf("%08x-%04x-%04x-%04x-%012x",
-		b[0:4], b[4:6], b[6:8], b[8:10], b[10:16])
+// 用于在单个翻译批次中生成唯一的数值占位符
+type PlaceholderGenerator struct {
+	counter int
 }
 
-// 客户端保护：将占位符和专有名词替换为 UUID 格式的特殊标记，这样 DeepL 不会翻译它们
-func protectAllContent(text string) (string, map[string]string) {
+// 创建新的占位符生成器
+func NewPlaceholderGenerator() *PlaceholderGenerator {
+	return &PlaceholderGenerator{counter: 0}
+}
+
+// 生成特殊占位符 - 使用 {} 包裹的纯数字，避免被翻译或修改
+// 例如：{00001}、{00002}等
+// 纯数字占位符不会被 DeepL 修改或改变
+func (pg *PlaceholderGenerator) Generate() string {
+	pg.counter++
+	// 使用 5 位数字，范围从 00001 到 99999
+	return fmt.Sprintf("{%05d}", pg.counter)
+}
+
+// 客户端保护：将占位符和专有名词替换为特殊标记，这样 DeepL 不会翻译它们
+func protectAllContentWithGenerator(text string, placeholderGen *PlaceholderGenerator) (string, map[string]string) {
 	result := text
 	protected := make(map[string]string)
 
@@ -369,16 +388,17 @@ func protectAllContent(text string) (string, map[string]string) {
 
 	for _, nl := range nouns {
 		if strings.Contains(result, nl.noun) {
-			placeholder := generateUUIDPlaceholder()
+			placeholder := placeholderGen.Generate()
 			protected[placeholder] = nl.noun
 			result = strings.ReplaceAll(result, nl.noun, placeholder)
 		}
 	}
 
 	// 第二步：保护占位符（如 {name}, {count} 等）
-	placeholderRegex := regexp.MustCompile(`\{[a-zA-Z0-9_]+\}`)
-	result = placeholderRegex.ReplaceAllStringFunc(result, func(match string) string {
-		placeholder := generateUUIDPlaceholder()
+	// 只匹配原始占位符（包含字母下划线的），不匹配已生成的数字占位符
+	originalPlaceholderRegex := regexp.MustCompile(`\{[a-zA-Z_][a-zA-Z0-9_]*\}`)
+	result = originalPlaceholderRegex.ReplaceAllStringFunc(result, func(match string) string {
+		placeholder := placeholderGen.Generate()
 		protected[placeholder] = match
 		return placeholder
 	})
@@ -386,7 +406,7 @@ func protectAllContent(text string) (string, map[string]string) {
 	return result, protected
 }
 
-// 还原被保护的内容
+// 还原被保护的内容（纯数字占位符不会被 DeepL 修改，直接精确替换）
 func restoreProtectedContent(text string, protected map[string]string) string {
 	result := text
 	for placeholder, content := range protected {
