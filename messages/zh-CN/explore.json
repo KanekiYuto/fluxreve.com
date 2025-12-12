@@ -1,36 +1,36 @@
 {
-  "seo": {
-    "title": "创意社区 - 探索精彩 AI 艺术作品",
-    "description": "浏览社区用户创作的精彩 AI 生成图像，获取创作灵感，分享和发现优秀作品"
-  },
-  "header": {
-    "title": "创意社区",
-    "subtitle": "探索社区用户的精彩创作，激发你的创意灵感"
-  },
-  "gallery": {
-    "loading": "加载中...",
-    "loadMore": "加载更多",
-    "noMore": "没有更多了"
-  },
   "card": {
-    "createdAt": "创建于",
+    "createdAt": "创建",
     "viewDetail": "查看详情"
   },
-  "createSimilar": "创建相似图片",
-  "nsfw": {
-    "warning": "敏感内容警告",
-    "description": "此内容可能包含成人或敏感素材。确认后才能查看，请确保你已年满 18 岁。",
-    "confirm": "我已年满 18 岁，查看内容",
-    "cancel": "返回",
-    "badge": "敏感内容"
-  },
+  "createSimilar": "创建类似",
   "empty": {
-    "title": "暂无作品",
-    "subtitle": "社区还没有公开分享的作品，成为第一个分享的人吧！",
-    "cta": "开始创作"
+    "cta": "开始创建",
+    "subtitle": "尚未分享任何公共艺术作品。成为第一个分享您的创作的人！",
+    "title": "暂无作品"
   },
   "errors": {
-    "fetchFailed": "加载失败，请重试",
+    "fetchFailed": "加载内容失败，请重试",
     "retry": "重试"
+  },
+  "gallery": {
+    "loadMore": "加载更多",
+    "loading": "正在加载...",
+    "noMore": "没有更多项目"
+  },
+  "header": {
+    "subtitle": "探索来自我们社区的精彩创作，发现您的灵感源泉",
+    "title": "创意社区"
+  },
+  "nsfw": {
+    "badge": "敏感内容",
+    "cancel": "返回",
+    "confirm": "我已满 18 岁, 显示内容",
+    "description": "本内容可能包含成人或敏感内容。观看前请确认您已年满 18 周岁。",
+    "warning": "敏感内容警告"
+  },
+  "seo": {
+    "description": "浏览由社区成员创作的人工智能生成的精美图片，获得灵感，发现令人惊叹的艺术作品",
+    "title": "创意社区 - 探索令人惊叹的人工智能艺术"
   }
 }

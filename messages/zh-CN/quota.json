@@ -1,53 +1,53 @@
 {
-  "seo": {
-    "title": "我的配额",
-    "description": "管理和查看您的可用配额使用情况和历史记录"
+  "empty": {
+    "active": "没有可用配额",
+    "activeDesc": "您目前没有可用配额。请购买配额以继续使用服务",
+    "expired": "没有过期配额",
+    "expiredDesc": "您没有过期配额记录"
   },
-  "title": "我的配额",
-  "subtitle": "管理和查看您的可用配额",
   "loginRequired": {
-    "title": "登入查看配额",
-    "description": "登入后即可查看您的配额使用情况和历史记录"
-  },
-  "summary": {
-    "title": "总可用额度",
-    "credits": "点数"
-  },
-  "tabs": {
-    "active": "有效配额",
-    "expired": "已过期"
-  },
-  "table": {
-    "type": "类型",
-    "amount": "总额",
-    "consumed": "已使用",
-    "available": "可用",
-    "issuedAt": "发放时间",
-    "expiresAt": "过期时间",
-    "noExpiry": "永不过期"
+    "description": "登录以查看配额使用情况和历史记录",
+    "title": "登录查看配额"
   },
   "quotaTypes": {
     "daily_free": "每日免费配额",
-    "trial": "体验版",
-    "monthly_basic": "月度基础版",
-    "monthly_pro": "月度专业版",
-    "yearly_basic": "年度基础版",
-    "yearly_pro": "年度专业版",
+    "monthly_basic": "每月基本费用",
+    "monthly_pro": "专业月刊",
     "quota_pack": "配额包",
-    "subscription_change_compensation": "订阅变更补偿"
+    "subscription_change_compensation": "认购变更补偿",
+    "trial": "试用",
+    "yearly_basic": "每年基本",
+    "yearly_pro": "年度专业"
   },
-  "empty": {
-    "active": "暂无有效配额",
-    "activeDesc": "您当前没有可用的配额，请购买配额后继续使用服务",
-    "expired": "暂无过期配额",
-    "expiredDesc": "您没有已过期的配额记录"
-  },
-  "status": {
-    "active": "有效",
-    "depleted": "已用完"
+  "seo": {
+    "description": "管理并查看可用配额的使用情况和历史记录",
+    "title": "我的配额"
   },
   "stats": {
-    "consumed": "已使用",
+    "consumed": "已消费",
     "remaining": "剩余"
-  }
+  },
+  "status": {
+    "active": "活跃",
+    "depleted": "耗尽"
+  },
+  "subtitle": "管理和查看可用配额",
+  "summary": {
+    "credits": "荣誉",
+    "title": "可用总数"
+  },
+  "table": {
+    "amount": "金额",
+    "available": "可用",
+    "consumed": "已消费",
+    "expiresAt": "到期日",
+    "issuedAt": "发布于",
+    "noExpiry": "从不",
+    "type": "类型"
+  },
+  "tabs": {
+    "active": "活动配额",
+    "expired": "已过期"
+  },
+  "title": "我的配额"
 }

@@ -76,6 +76,10 @@
       "translation": "Legge applicabile e risoluzione delle controversie",
       "timestamp": 1765569863
     },
+    "Governing Law: These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which {siteName} is registered, without regard to its conflict of law principles.": {
+      "translation": "Legge applicabile: Le presenti Condizioni saranno disciplinate e interpretate in conformità alle leggi della giurisdizione in cui {siteName} è registrato, senza tener conto dei principi di conflitto di leggi.",
+      "timestamp": 1765571045
+    },
     "If you have any questions, concerns, or feedback regarding these Terms of Service, please contact us at:": {
       "translation": "In caso di domande, dubbi o feedback relativi ai presenti Termini di servizio, si prega di contattarci all'indirizzo:",
       "timestamp": 1765569863
@@ -108,9 +112,17 @@
       "translation": "Concessione di licenza: Utilizzando il Servizio, l'utente ci concede una licenza mondiale, non esclusiva ed esente da royalty per l'utilizzo, la riproduzione, la modifica e la visualizzazione dei contenuti generati dall'utente al solo scopo di: (a) fornire e migliorare il Servizio, (b) addestrare e migliorare i nostri modelli di intelligenza artificiale (con il consenso dell'utente) e (c) scopi promozionali e di marketing con il consenso esplicito dell'utente.",
       "timestamp": 1765569863
     },
+    "Limitation of Liability: To the maximum extent permitted by law, {siteName} and its affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or goodwill, arising from your use or inability to use the Service.": {
+      "translation": "Limitazione di responsabilità: Nella misura massima consentita dalla legge, {siteName} e le sue affiliate non saranno responsabili per danni indiretti, incidentali, speciali, consequenziali o punitivi, compresa la perdita di profitti, dati o avviamento, derivanti dall'uso o dall'impossibilità di usare il Servizio.",
+      "timestamp": 1765571045
+    },
     "Modifications: We reserve the right to modify, suspend, or discontinue any aspect of the Service at any time, with or without notice. We may also impose limits on certain features or restrict access to parts of the Service. We are not liable for any modifications or discontinuations.": {
       "translation": "Modifiche: Ci riserviamo il diritto di modificare, sospendere o interrompere qualsiasi aspetto del Servizio in qualsiasi momento, con o senza preavviso. Possiamo anche imporre limiti a determinate funzionalità o limitare l'accesso a parti del Servizio. Non siamo responsabili di eventuali modifiche o interruzioni.",
       "timestamp": 1765569863
+    },
+    "Platform Ownership: All content, features, functionality, software, designs, text, graphics, logos, and trademarks on the Service are owned by {siteName} or our licensors and are protected by international intellectual property laws. You may not copy, modify, distribute, or reverse engineer any part of the Service without authorization.": {
+      "translation": "Proprietà della piattaforma: Tutti i contenuti, le caratteristiche, le funzionalità, il software, i disegni, il testo, la grafica, i loghi e i marchi del Servizio sono di proprietà di {siteName} o dei suoi licenziatari e sono protetti dalle leggi internazionali sulla proprietà intellettuale. Non è consentito copiare, modificare, distribuire o decodificare alcuna parte del Servizio senza autorizzazione.",
+      "timestamp": 1765571045
     },
     "Privacy and Data Protection": {
       "translation": "Privacy e protezione dei dati",
@@ -119,6 +131,10 @@
     "Project management, organization, and cloud storage for generated content": {
       "translation": "Gestione dei progetti, organizzazione e archiviazione in cloud dei contenuti generati",
       "timestamp": 1765569863
+    },
+    "Read {siteName}'s terms of service for using our AI image generation platform. Covers user accounts, usage rules, intellectual property, and service policies.": {
+      "translation": "Leggi i termini di servizio di {siteName} per l'utilizzo della nostra piattaforma di generazione di immagini AI. Riguardano gli account utente, le regole di utilizzo, la proprietà intellettuale e le politiche di servizio.",
+      "timestamp": 1765571045
     },
     "Registration: To access certain features, you must create an account by providing accurate, complete, and current information. You represent that all information you provide is truthful and that you will maintain the accuracy of such information.": {
       "translation": "Registrazione: Per accedere a determinate funzioni, è necessario creare un account fornendo informazioni accurate, complete e aggiornate. L'utente dichiara che tutte le informazioni fornite sono veritiere e che manterrà l'accuratezza di tali informazioni.",
@@ -136,6 +152,10 @@
       "translation": "Risoluzione da parte nostra: Possiamo sospendere o terminare l'account dell'utente e l'accesso al Servizio immediatamente, senza preavviso, in caso di violazione dei presenti Termini, di attività fraudolente o per qualsiasi altro motivo a nostra esclusiva discrezione.",
       "timestamp": 1765569863
     },
+    "Terms of Service | {siteName}": {
+      "translation": "Termini di servizio | {siteName}",
+      "timestamp": 1765571045
+    },
     "User Accounts and Registration": {
       "translation": "Account utente e registrazione",
       "timestamp": 1765569863
@@ -152,6 +172,10 @@
       "translation": "Violazione di leggi, regolamenti o diritti di terze parti.",
       "timestamp": 1765569863
     },
+    "Welcome to {siteName}. These Terms of Service (\"Terms,\" \"Agreement\") constitute a legally binding agreement between you (\"User,\" \"you,\" or \"your\") and {siteName} (\"we,\" \"us,\" or \"our\") governing your access to and use of our AI-powered image generation platform, including our website, mobile applications, APIs, and related services (collectively, the \"Service\").": {
+      "translation": "Benvenuti su {siteName}. I presenti Termini di servizio (\"Termini\", \"Contratto\") costituiscono un accordo legalmente vincolante tra l'utente (\"Utente\", \"tu\" o \"tuo\") e {siteName} (\"noi\", \"ci\" o \"nostro\") che disciplina l'accesso e l'uso della nostra piattaforma di generazione di immagini alimentata dall'intelligenza artificiale, compresi il nostro sito web, le applicazioni mobili, le API e i servizi correlati (collettivamente, il \"Servizio\").",
+      "timestamp": 1765571045
+    },
     "You agree not to use the Service to generate, upload, share, or distribute content that:": {
       "translation": "L'utente accetta di non utilizzare il Servizio per generare, caricare, condividere o distribuire contenuti che:",
       "timestamp": 1765569863
@@ -163,6 +187,10 @@
     "terms of service, user agreement, service terms, legal agreement, usage policy, intellectual property, service agreement": {
       "translation": "termini di servizio, accordo con l'utente, termini di servizio, accordo legale, politica di utilizzo, proprietà intellettuale, accordo di servizio",
       "timestamp": 1765569863
+    },
+    "{siteName} provides AI-powered creative tools and services, including:": {
+      "translation": "{siteName} fornisce strumenti e servizi creativi basati sull'intelligenza artificiale, tra cui:",
+      "timestamp": 1765571045
     }
   }
 }

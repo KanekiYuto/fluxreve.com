@@ -79,6 +79,10 @@
     "Why Choose Us": {
       "translation": "Perché scegliere noi",
       "timestamp": 1765569880
+    },
+    "{siteName} - AI Image Generation Tool | Generate Professional Images Fast": {
+      "translation": "- AI Image Generation Tool | Genere imágenes profesionales rápidamente {siteName}",
+      "timestamp": 1765571277
     }
   }
 }

@@ -1,53 +1,53 @@
 {
-  "metadata": {
-    "title": "{siteName} - AI 图像生成工具 | 快速生成专业图像",
-    "description": "使用先进的人工智能技术,快速生成高品质的专业图像。让 AI 图像创作变得简单高效。"
-  },
-  "hero": {
-    "title": {
-      "line1": "让创意瞬间成为现实",
-      "line2": "AI 驱动的专业图像生成"
-    },
-    "description": "只需输入简单描述,即可获得精美的专业级图像。无需设计技能,让每个人都能成为创作者。",
-    "buttons": {
-      "startCreate": "开始创作",
-      "viewPricing": "查看定价"
-    },
-    "features": {
-      "highQuality": "高品质输出",
-      "fastGeneration": "快速生成",
-      "easyToUse": "简单易用"
-    }
-  },
-  "features": {
-    "sectionTitle": "为什么选择我们",
-    "sectionDescription": "结合强大的 AI 技术与简洁的用户体验，让图像创作变得前所未有的简单",
-    "items": [
-      {
-        "title": "快速生成",
-        "description": "强大的 AI 演算法，几秒钟内即可生成高品质图像，大幅提升创作效率。"
-      },
-      {
-        "title": "专业品质",
-        "description": "采用最先进的 AI 模型，输出专业级别的图像品质，满足各种创作需求。"
-      },
-      {
-        "title": "灵活控制",
-        "description": "提供丰富的参数设置和风格选项，让您精确控制图像生成的每个细节。"
-      },
-      {
-        "title": "简单易用",
-        "description": "直观的操作介面，无需专业知识，任何人都能轻松上手创作精美图像。"
-      }
-    ]
-  },
   "cta": {
-    "title": "立即开始创作",
-    "description": "加入数千名创作者，使用 AI 的力量将您的创意变为现实",
     "buttons": {
       "freeTrial": "免费试用",
       "viewPricing": "查看定价"
     },
-    "note": "无需信用卡 · 即刻开始使用"
+    "description": "与成千上万的创作者一起，利用人工智能的力量将您的创意变为现实",
+    "note": "无需信用卡 - 立即开始使用",
+    "title": "现在就开始创作"
+  },
+  "features": {
+    "items": [
+      {
+        "description": "强大的人工智能算法可在数秒内生成高质量图像，显著提高创作效率。",
+        "title": "快速生成"
+      },
+      {
+        "description": "使用最先进的人工智能模型，输出专业级图像质量，满足各种创作需求。",
+        "title": "专业品质"
+      },
+      {
+        "description": "丰富的参数设置和样式选项可让您精确控制图像生成的每个细节。",
+        "title": "灵活控制"
+      },
+      {
+        "description": "直观的界面无需专业知识，任何人都能轻松创建精美图片。",
+        "title": "易于使用"
+      }
+    ],
+    "sectionDescription": "将强大的人工智能技术与简洁的用户体验相结合，让图像创建变得前所未有的简单",
+    "sectionTitle": "为什么选择我们"
+  },
+  "hero": {
+    "buttons": {
+      "startCreate": "开始创建",
+      "viewPricing": "查看定价"
+    },
+    "description": "只需描述您的需求，就能获得令人惊叹的专业级图片。无需设计技能，人人都能成为创作者。",
+    "features": {
+      "easyToUse": "易于使用",
+      "fastGeneration": "快速生成",
+      "highQuality": "高质量输出"
+    },
+    "title": {
+      "line1": "瞬间将创意变为现实",
+      "line2": "人工智能驱动的专业图像生成"
+    }
+  },
+  "metadata": {
+    "description": "利用先进的人工智能技术快速生成高质量的专业图像。让人工智能图像创建变得简单高效。",
+    "title": "{siteName} - AI 图像生成工具 | 快速生成专业图像"
   }
 }

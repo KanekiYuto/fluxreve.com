@@ -3,7 +3,7 @@
     "discount": "Risparmiare il 20%",
     "month": "mese",
     "monthly": "Mensile",
-    "save": "Save ${amount}",
+    "save": "Ahorra $ {amount}",
     "year": "anno",
     "yearly": "Annuale"
   },
@@ -80,10 +80,10 @@
   "tiers": [
     {
       "cta": "Prova ora",
-      "description": "{quota} quota credits",
+      "description": "créditos contingentarios {quota}",
       "features": [
-        "{quota} credits quota",
-        "Can generate up to {quota}/5 high-quality images",
+        "cuota de créditos {quota}",
+        "Puede generar hasta /5 imágenes de alta calidad {quota}",
         "Tutti i modelli AI standard",
         "Alta risoluzione (1024x1024)",
         "Esportazione senza filigrana"
@@ -100,8 +100,8 @@
       "cta": "Iscriviti ora",
       "description": "Per singoli utenti e piccoli progetti",
       "features": [
-        "{quota} credits quota",
-        "Can generate up to {quota}/5 high-quality images",
+        "cuota de créditos {quota}",
+        "Puede generar hasta /5 imágenes de alta calidad {quota}",
         "Modelli AI standard",
         "Alta risoluzione (1024x1024)",
         "Coda di generazione prioritaria",
@@ -119,8 +119,8 @@
       "cta": "Iscriviti ora",
       "description": "Per i creatori professionisti e la collaborazione in team",
       "features": [
-        "{quota} credits quota",
-        "Can generate up to {quota}/5 high-quality images",
+        "cuota de créditos {quota}",
+        "Puede generar hasta /5 imágenes de alta calidad {quota}",
         "Tutti i modelli AI avanzati",
         "Risoluzione altissima (2048x2048)",
         "Coda a priorità massima",
@@ -135,8 +135,8 @@
       "cta": "Iniziare",
       "description": "Perfetto per la prova personale e l'uso leggero",
       "features": [
-        "{quota} credits quota per day",
-        "Can generate up to {quota}/5 images per day",
+        "cuota de créditos por día {quota}",
+        "Puede generar hasta /5 imágenes al día {quota}",
         "Modelli di AI di base",
         "Risoluzione standard (512x512)"
       ],

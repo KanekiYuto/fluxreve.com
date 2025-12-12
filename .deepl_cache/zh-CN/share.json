@@ -1,0 +1,124 @@
+{
+  "entries": {
+    "AI Generated HD Image Preview": {
+      "translation": "人工智能生成的高清图像预览",
+      "timestamp": 1765570361
+    },
+    "AI Generated Image": {
+      "translation": "人工智能生成的图像",
+      "timestamp": 1765570361
+    },
+    "AI Image Generation Results": {
+      "translation": "人工智能图像生成结果",
+      "timestamp": 1765570361
+    },
+    "AI Model": {
+      "translation": "人工智能模型",
+      "timestamp": 1765570361
+    },
+    "AI is creating the current artwork, this usually takes a few minutes": {
+      "translation": "人工智能正在创建当前艺术品，这通常需要几分钟时间",
+      "timestamp": 1765570361
+    },
+    "Content Not Found": {
+      "translation": "未找到内容",
+      "timestamp": 1765570361
+    },
+    "Copied": {
+      "translation": "复制的",
+      "timestamp": 1765570361
+    },
+    "Copy Prompt": {
+      "translation": "复制提示",
+      "timestamp": 1765570361
+    },
+    "Copy Share Link": {
+      "translation": "复制分享链接",
+      "timestamp": 1765570361
+    },
+    "Create AI Artwork": {
+      "translation": "创建 AI 艺术品",
+      "timestamp": 1765570361
+    },
+    "Create Similar Image": {
+      "translation": "创建相似图像",
+      "timestamp": 1765570361
+    },
+    "Download All Images": {
+      "translation": "下载所有图片",
+      "timestamp": 1765570361
+    },
+    "Download Current Image": {
+      "translation": "下载当前图片",
+      "timestamp": 1765570361
+    },
+    "Download Share Card": {
+      "translation": "下载分享卡",
+      "timestamp": 1765570361
+    },
+    "Generating...": {
+      "translation": "生成...",
+      "timestamp": 1765570361
+    },
+    "Generation Parameters and Model Info": {
+      "translation": "发电参数和模型信息",
+      "timestamp": 1765570361
+    },
+    "High-quality image generated with {model} AI model. Prompt: ": {
+      "translation": "使用 {model} 生成的高质量图像人工智能模型。提示：",
+      "timestamp": 1765570820
+    },
+    "I am 18+, View Content": {
+      "translation": "我已年满 18 岁, 查看内容",
+      "timestamp": 1765570361
+    },
+    "Image": {
+      "translation": "图片",
+      "timestamp": 1765570361
+    },
+    "Input Image": {
+      "translation": "输入图像",
+      "timestamp": 1765570361
+    },
+    "Input Images": {
+      "translation": "输入图像",
+      "timestamp": 1765570361
+    },
+    "More Actions": {
+      "translation": "更多行动",
+      "timestamp": 1765570361
+    },
+    "Next Image": {
+      "translation": "下一张图片",
+      "timestamp": 1765570361
+    },
+    "Please refresh the page later to view the result": {
+      "translation": "请稍后刷新页面以查看结果",
+      "timestamp": 1765570361
+    },
+    "Previous Image": {
+      "translation": "上一张图片",
+      "timestamp": 1765570361
+    },
+    "Share": {
+      "translation": "分享",
+      "timestamp": 1765570361
+    },
+    "Share to X": {
+      "translation": "分享到 X",
+      "timestamp": 1765570361
+    },
+    "This content may contain adult or sensitive material. Viewer discretion is advised": {
+      "translation": "本内容可能包含成人或敏感内容。建议观众谨慎观看",
+      "timestamp": 1765570361
+    },
+    "This shared content may have been deleted by the creator, set to private, the link may have expired, or you may have accessed the wrong address": {
+      "translation": "该共享内容可能已被创建者删除、设置为非公开、链接可能已过期，或者您可能访问了错误的地址",
+      "timestamp": 1765570361
+    },
+    "{model} AI Generated | ": {
+      "translation": "{模型｝人工智能生成 {model}",
+      "timestamp": 1765570820
+    }
+  }
+}

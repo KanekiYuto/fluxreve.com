@@ -1,0 +1,80 @@
+{
+  "entries": {
+    "Canceled": {
+      "translation": "已取消",
+      "timestamp": 1765570632
+    },
+    "Canceled Date": {
+      "translation": "取消日期",
+      "timestamp": 1765570632
+    },
+    "Customer": {
+      "translation": "客户",
+      "timestamp": 1765570632
+    },
+    "Expiry Date": {
+      "translation": "有效期",
+      "timestamp": 1765570632
+    },
+    "Log in to view and manage your subscription information": {
+      "translation": "登录以查看和管理您的订阅信息",
+      "timestamp": 1765570632
+    },
+    "Login to View Subscriptions": {
+      "translation": "登录查看订阅",
+      "timestamp": 1765570632
+    },
+    "Manage Subscription": {
+      "translation": "管理订阅",
+      "timestamp": 1765570632
+    },
+    "Next Billing Date": {
+      "translation": "下一次账单日期",
+      "timestamp": 1765570632
+    },
+    "Next renewal switches to": {
+      "translation": "下一次更新转为",
+      "timestamp": 1765570632
+    },
+    "No Subscriptions": {
+      "translation": "无订阅",
+      "timestamp": 1765570632
+    },
+    "Paused": {
+      "translation": "暂停",
+      "timestamp": 1765570632
+    },
+    "Payment Platform": {
+      "translation": "支付平台",
+      "timestamp": 1765570632
+    },
+    "Pending Payment": {
+      "translation": "待付款",
+      "timestamp": 1765570632
+    },
+    "Start Date": {
+      "translation": "开始日期",
+      "timestamp": 1765570632
+    },
+    "Subscription Amount": {
+      "translation": "认购金额",
+      "timestamp": 1765570632
+    },
+    "Subscription Management": {
+      "translation": "订阅管理",
+      "timestamp": 1765570632
+    },
+    "View and manage your subscription information": {
+      "translation": "查看和管理您的订阅信息",
+      "timestamp": 1765570632
+    },
+    "View and manage your subscription plans and billing information": {
+      "translation": "查看和管理订阅计划和账单信息",
+      "timestamp": 1765570632
+    },
+    "You currently have no active subscriptions": {
+      "translation": "您目前没有激活的订阅",
+      "timestamp": 1765570632
+    }
+  }
+}

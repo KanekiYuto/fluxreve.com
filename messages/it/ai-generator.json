@@ -37,7 +37,7 @@
   "examples": {
     "clickToUse": "Fare clic per utilizzare questo esempio",
     "description": "Fate clic su un esempio qui sotto per iniziare a creare, oppure compilate il modulo a sinistra per personalizzarlo.",
-    "goToExample": "Go to example {index}",
+    "goToExample": "Vai all'esempio {index}",
     "noExamples": "Nessun esempio disponibile",
     "title": "Avvio rapido",
     "useExample": "Utilizzate questo esempio"
@@ -92,8 +92,8 @@
     "uploading": "Caricamento..."
   },
   "generate": {
-    "generateImage": "Generate Image (Cost {credits} Quota)",
-    "generating": "Generating... {progress}%"
+    "generateImage": "Generare l'immagine (Costo Quota {credits})",
+    "generating": "Generazione... SEGNAPOSTO_AVANZAMENTO%"
   },
   "loading": {
     "creating": "Creazione di intelligenza artificiale",
@@ -122,7 +122,7 @@
     "searchPlaceholder": "Ricerca nome LoRA, descrizione o parola chiave...",
     "selectLora": "Selezionare LoRA",
     "selectMore": "Gestire la LoRA",
-    "selectedCount": "{count} LoRA(s) selected",
+    "selectedCount": "{count} LoRA(s) selezionato(i)",
     "selectedLoras": "Selezionato"
   },
   "modelGroups": {
@@ -180,12 +180,12 @@
   },
   "results": {
     "completedTime": "Tempo di completamento",
-    "downloadAll": "Download All ({count})",
+    "downloadAll": "Scaricare tutti ({count})",
     "downloadCurrent": "Scaricare Corrente",
-    "fileCount": "{count} file(s)",
+    "fileCount": "file {count}",
     "generationTime": "Tempo di generazione",
     "prompt": "Prompt",
-    "seconds": "{seconds}s",
+    "seconds": "SEGNALE DI POSTO_SECONDI",
     "title": "Risultati generati"
   },
   "seo": {

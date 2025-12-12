@@ -16,6 +16,10 @@
       "translation": "Informazioni raccolte automaticamente",
       "timestamp": 1765569857
     },
+    "By using our services through the {siteName} website, mobile applications, or APIs, you acknowledge that you have read, understood, and agree to the practices described in this Privacy Policy. This policy also informs you of your privacy rights and how the law protects you.": {
+      "translation": "Utilizzando i nostri servizi attraverso il sito web, le applicazioni mobili o le API di {siteName}, l'utente dichiara di aver letto, compreso e accettato le pratiche descritte nella presente Informativa sulla privacy. La presente informativa informa inoltre l'utente sui suoi diritti in materia di privacy e su come la legge lo protegge.",
+      "timestamp": 1765571042
+    },
     "Changes to This Privacy Policy": {
       "translation": "Modifiche alla presente Informativa sulla privacy",
       "timestamp": 1765569857
@@ -112,6 +116,10 @@
       "translation": "Ultimo aggiornamento",
       "timestamp": 1765569857
     },
+    "Learn how {siteName} collects, uses, and protects your personal information. Our privacy policy covers data collection, usage, sharing, and your rights.": {
+      "translation": "Scopri come {siteName} raccoglie, utilizza e protegge i tuoi dati personali. La nostra politica sulla privacy riguarda la raccolta, l'utilizzo, la condivisione dei dati e i vostri diritti.",
+      "timestamp": 1765571042
+    },
     "Log data: IP address, access times, pages viewed, referring URLs": {
       "translation": "Dati di log: Indirizzo IP, tempi di accesso, pagine visualizzate, URL di riferimento",
       "timestamp": 1765569857
@@ -147,6 +155,10 @@
     "Preference cookies: Remember your settings and personalization choices": {
       "translation": "Cookie di preferenza: Ricordano le impostazioni e le scelte di personalizzazione dell'utente",
       "timestamp": 1765569857
+    },
+    "Privacy Policy | {siteName}": {
+      "translation": "Informativa sulla privacy | {siteName}",
+      "timestamp": 1765571042
     },
     "Processing your transactions and managing your account": {
       "translation": "Elaborare le vostre transazioni e gestire il vostro conto",
@@ -259,6 +271,10 @@
     "privacy policy, data protection, personal information, user privacy, data collection, GDPR, privacy rights": {
       "translation": "Informativa sulla privacy, protezione dei dati, informazioni personali, privacy degli utenti, raccolta dati, GDPR, diritti alla privacy",
       "timestamp": 1765569857
+    },
+    "{siteName} (\"we,\" \"us,\" or \"our\") is committed to protecting your privacy and safeguarding your personal information. This Privacy Policy outlines our practices regarding the collection, storage, use, and sharing of your information when you access our AI-powered image generation services.": {
+      "translation": "{siteName} (\"noi\", \"ci\" o \"nostro\") si impegna a proteggere la vostra privacy e a salvaguardare le vostre informazioni personali. La presente Informativa sulla privacy illustra le nostre pratiche relative alla raccolta, all'archiviazione, all'utilizzo e alla condivisione dei vostri dati quando accedete ai nostri servizi di generazione di immagini basati sull'intelligenza artificiale.",
+      "timestamp": 1765571042
     }
   }
 }

@@ -64,6 +64,10 @@
       "translation": "Parametri di generazione e informazioni sul modello",
       "timestamp": 1765569860
     },
+    "High-quality image generated with {model} AI model. Prompt: ": {
+      "translation": "Immagine di alta qualità generata con il modello AI {model}. Prompt:",
+      "timestamp": 1765571043
+    },
     "I am 18+, View Content": {
       "translation": "Sono 18+, Visualizza contenuto",
       "timestamp": 1765569860
@@ -111,6 +115,10 @@
     "This shared content may have been deleted by the creator, set to private, the link may have expired, or you may have accessed the wrong address": {
       "translation": "Questo contenuto condiviso potrebbe essere stato cancellato dal creatore, impostato come privato, il link potrebbe essere scaduto, oppure potreste aver effettuato l'accesso all'indirizzo sbagliato.",
       "timestamp": 1765569860
+    },
+    "{model} AI Generated | ": {
+      "translation": "{model} Generato dall'AI.",
+      "timestamp": 1765571043
     }
   }
 }

@@ -148,6 +148,10 @@
       "translation": "Progressi nello sviluppo",
       "timestamp": 1765569846
     },
+    "Download All ({count})": {
+      "translation": "Scaricare tutti ({count})",
+      "timestamp": 1765571039
+    },
     "Download Current": {
       "translation": "Scaricare Corrente",
       "timestamp": 1765569846
@@ -192,6 +196,10 @@
       "translation": "Serie Flux",
       "timestamp": 1765569846
     },
+    "Generate Image (Cost {credits} Quota)": {
+      "translation": "Generare l'immagine (Costo Quota {credits})",
+      "timestamp": 1765571039
+    },
     "Generated Results": {
       "translation": "Risultati generati",
       "timestamp": 1765569846
@@ -200,6 +208,10 @@
       "translation": "Generare contenuti straordinari per voi, attendere prego...",
       "timestamp": 1765569846
     },
+    "Generating... {progress}%": {
+      "translation": "Generazione... SEGNAPOSTO_AVANZAMENTO%",
+      "timestamp": 1765571039
+    },
     "Generation Failed": {
       "translation": "Generazione fallita",
       "timestamp": 1765569846
@@ -207,6 +219,10 @@
     "Generation Time": {
       "translation": "Tempo di generazione",
       "timestamp": 1765569846
+    },
+    "Go to example {index}": {
+      "translation": "Vai all'esempio {index}",
+      "timestamp": 1765571039
     },
     "High Quality": {
       "translation": "Alta qualità",
@@ -531,6 +547,18 @@
     "Z-Image Turbo LoRA version with custom LoRA model support for stylized creations": {
       "translation": "Z-Image versione Turbo LoRA con supporto di modelli LoRA personalizzati per creazioni stilizzate",
       "timestamp": 1765569846
+    },
+    "{count} LoRA(s) selected": {
+      "translation": "{count} LoRA(s) selezionato(i)",
+      "timestamp": 1765571039
+    },
+    "{count} file(s)": {
+      "translation": "file {count}",
+      "timestamp": 1765571039
+    },
+    "{seconds}s": {
+      "translation": "SEGNALE DI POSTO_SECONDI",
+      "timestamp": 1765571039
     }
   }
 }

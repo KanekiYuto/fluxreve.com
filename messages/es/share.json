@@ -27,8 +27,8 @@
     "resolution": "Risoluzione"
   },
   "metadata": {
-    "descriptionPrefix": "High-quality image generated with {model} AI model. Prompt: ",
-    "ogDescriptionPrefix": "{model} AI Generated | "
+    "descriptionPrefix": "Imagen de alta calidad generada con modelo AI. Prompt: {model}",
+    "ogDescriptionPrefix": "Generado por IA | {model}"
   },
   "notFound": {
     "createButton": "Creare opere d'arte AI",

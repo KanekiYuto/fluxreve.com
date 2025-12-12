@@ -3,7 +3,7 @@
     "discount": "Risparmiare il 20%",
     "month": "mese",
     "monthly": "Mensile",
-    "save": "Save ${amount}",
+    "save": "Salvare ${amount}",
     "year": "anno",
     "yearly": "Annuale"
   },
@@ -82,8 +82,8 @@
       "cta": "Prova ora",
       "description": "{quota} quota credits",
       "features": [
-        "{quota} credits quota",
-        "Can generate up to {quota}/5 high-quality images",
+        "{quota} Quota di credito",
+        "Può generare fino a {quota}/5 immagini di alta qualità",
         "Tutti i modelli AI standard",
         "Alta risoluzione (1024x1024)",
         "Esportazione senza filigrana"
@@ -100,8 +100,8 @@
       "cta": "Iscriviti ora",
       "description": "Per singoli utenti e piccoli progetti",
       "features": [
-        "{quota} credits quota",
-        "Can generate up to {quota}/5 high-quality images",
+        "{quota} Quota di credito",
+        "Può generare fino a {quota}/5 immagini di alta qualità",
         "Modelli AI standard",
         "Alta risoluzione (1024x1024)",
         "Coda di generazione prioritaria",
@@ -119,8 +119,8 @@
       "cta": "Iscriviti ora",
       "description": "Per i creatori professionisti e la collaborazione in team",
       "features": [
-        "{quota} credits quota",
-        "Can generate up to {quota}/5 high-quality images",
+        "{quota} Quota di credito",
+        "Può generare fino a {quota}/5 immagini di alta qualità",
         "Tutti i modelli AI avanzati",
         "Risoluzione altissima (2048x2048)",
         "Coda a priorità massima",
@@ -135,8 +135,8 @@
       "cta": "Iniziare",
       "description": "Perfetto per la prova personale e l'uso leggero",
       "features": [
-        "{quota} credits quota per day",
-        "Can generate up to {quota}/5 images per day",
+        "{quota} quota di crediti al giorno",
+        "Può generare fino a {quota}/5 immagini al giorno",
         "Modelli di AI di base",
         "Risoluzione standard (512x512)"
       ],

@@ -1,5 +1,9 @@
 {
   "entries": {
+    "Auto redirecting to dashboard in {seconds} seconds...": {
+      "translation": "Redirección automática al salpicadero en segundos... {seconds}",
+      "timestamp": 1765571279
+    },
     "Basic - Monthly": {
       "translation": "Base - Mensile",
       "timestamp": 1765569886

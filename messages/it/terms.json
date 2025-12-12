@@ -1,6 +1,6 @@
 {
   "acceptance": {
-    "content1": "Welcome to {siteName}. These Terms of Service (\"Terms,\" \"Agreement\") constitute a legally binding agreement between you (\"User,\" \"you,\" or \"your\") and {siteName} (\"we,\" \"us,\" or \"our\") governing your access to and use of our AI-powered image generation platform, including our website, mobile applications, APIs, and related services (collectively, the \"Service\").",
+    "content1": "Benvenuti su {siteName}. I presenti Termini di servizio (\"Termini\", \"Contratto\") costituiscono un accordo legalmente vincolante tra l'utente (\"Utente\", \"tu\" o \"tuo\") e {siteName} (\"noi\", \"ci\" o \"nostro\") che disciplina l'accesso e l'uso della nostra piattaforma di generazione di immagini alimentata dall'intelligenza artificiale, compresi il nostro sito web, le applicazioni mobili, le API e i servizi correlati (collettivamente, il \"Servizio\").",
     "content2": "Accedendo, navigando o utilizzando il Servizio in qualsiasi modo, l'utente riconosce di aver letto, compreso e accettato di essere vincolato dai presenti Termini e dalla nostra Informativa sulla privacy. Se l'utente non accetta le presenti Condizioni, deve interrompere immediatamente l'utilizzo del Servizio.",
     "title": "Accettazione dei termini"
   },
@@ -9,16 +9,16 @@
     "intro": "In caso di domande, dubbi o feedback relativi ai presenti Termini di servizio, si prega di contattarci all'indirizzo:",
     "title": "Informazioni di contatto"
   },
-  "description": "Read {siteName}'s terms of service for using our AI image generation platform. Covers user accounts, usage rules, intellectual property, and service policies.",
+  "description": "Leggi i termini di servizio di {siteName} per l'utilizzo della nostra piattaforma di generazione di immagini AI. Riguardano gli account utente, le regole di utilizzo, la proprietà intellettuale e le politiche di servizio.",
   "disclaimer": {
     "asIs": "Così com'è: Il Servizio viene fornito \"così com'è\" e \"come disponibile\" senza garanzie di alcun tipo, espresse o implicite, incluse, a titolo esemplificativo e non esaustivo, le garanzie di commerciabilità, idoneità per uno scopo particolare o non violazione. Non garantiamo che il Servizio sia ininterrotto, privo di errori o sicuro.",
-    "liability": "Limitation of Liability: To the maximum extent permitted by law, {siteName} and its affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or goodwill, arising from your use or inability to use the Service.",
+    "liability": "Limitazione di responsabilità: Nella misura massima consentita dalla legge, {siteName} e le sue affiliate non saranno responsabili per danni indiretti, incidentali, speciali, consequenziali o punitivi, compresa la perdita di profitti, dati o avviamento, derivanti dall'uso o dall'impossibilità di usare il Servizio.",
     "responsibility": "Responsabilità dell'utente: L'utente riconosce che i contenuti generati dall'intelligenza artificiale possono produrre risultati imprevisti o inaccurati. L'utente è l'unico responsabile dell'esame, della verifica e della determinazione dell'adeguatezza di qualsiasi contenuto generato attraverso il Servizio prima dell'uso, della pubblicazione o della distribuzione.",
     "title": "Esclusioni di responsabilità e limitazioni"
   },
   "intellectualProperty": {
     "license": "Concessione di licenza: Utilizzando il Servizio, l'utente ci concede una licenza mondiale, non esclusiva ed esente da royalty per l'utilizzo, la riproduzione, la modifica e la visualizzazione dei contenuti generati dall'utente al solo scopo di: (a) fornire e migliorare il Servizio, (b) addestrare e migliorare i nostri modelli di intelligenza artificiale (con il consenso dell'utente) e (c) scopi promozionali e di marketing con il consenso esplicito dell'utente.",
-    "platformContent": "Platform Ownership: All content, features, functionality, software, designs, text, graphics, logos, and trademarks on the Service are owned by {siteName} or our licensors and are protected by international intellectual property laws. You may not copy, modify, distribute, or reverse engineer any part of the Service without authorization.",
+    "platformContent": "Proprietà della piattaforma: Tutti i contenuti, le caratteristiche, le funzionalità, il software, i disegni, il testo, la grafica, i loghi e i marchi del Servizio sono di proprietà di {siteName} o dei suoi licenziatari e sono protetti dalle leggi internazionali sulla proprietà intellettuale. Non è consentito copiare, modificare, distribuire o decodificare alcuna parte del Servizio senza autorizzazione.",
     "title": "Diritti di proprietà intellettuale",
     "userContent": "Contenuto generato dall'utente: L'utente conserva la proprietà delle immagini e dei contenuti generati utilizzando il Servizio, in base alla licenza limitata di cui sotto. Tuttavia, l'utente è l'unico responsabile di garantire che il suo utilizzo non violi i diritti di terzi o le leggi vigenti."
   },
@@ -26,7 +26,7 @@
   "lastUpdated": "Ultimo aggiornamento",
   "legalJurisdiction": {
     "disputes": "Risoluzione delle controversie: Qualsiasi controversia derivante da o relativa ai presenti Termini o al Servizio dovrà essere risolta in primo luogo mediante trattative in buona fede. In caso di fallimento delle trattative, le controversie saranno risolte mediante arbitrato vincolante o controversia nei tribunali della giurisdizione applicabile, come stabilito dalla legge vigente.",
-    "law": "Governing Law: These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which {siteName} is registered, without regard to its conflict of law principles.",
+    "law": "Legge applicabile: Le presenti Condizioni saranno disciplinate e interpretate in conformità alle leggi della giurisdizione in cui {siteName} è registrato, senza tener conto dei principi di conflitto di leggi.",
     "title": "Legge applicabile e risoluzione delle controversie"
   },
   "privacy": {
@@ -40,7 +40,7 @@
     "title": "Modifiche e cessazione del servizio"
   },
   "serviceDescription": {
-    "intro": "{siteName} provides AI-powered creative tools and services, including:",
+    "intro": "{siteName} fornisce strumenti e servizi creativi basati sull'intelligenza artificiale, tra cui:",
     "items": [
       "Generazione di immagini AI da messaggi di testo utilizzando modelli di apprendimento automatico avanzati",
       "Funzionalità di modifica, miglioramento e trasferimento di stile delle immagini",
@@ -50,7 +50,7 @@
     ],
     "title": "Panoramica del servizio"
   },
-  "title": "Terms of Service | {siteName}",
+  "title": "Termini di servizio | {siteName}",
   "usageRules": {
     "intro": "L'utente accetta di non utilizzare il Servizio per generare, caricare, condividere o distribuire contenuti che:",
     "items": [

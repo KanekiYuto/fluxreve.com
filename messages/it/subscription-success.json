@@ -4,7 +4,7 @@
     "startUsing": "Iniziare a usarlo ora",
     "viewSubscription": "Visualizza l'abbonamento"
   },
-  "autoRedirect": "Auto redirecting to dashboard in {seconds} seconds...",
+  "autoRedirect": "Reindirizzamento automatico al cruscotto in {seconds} secondi...",
   "description": "Grazie per esservi abbonati. Il suo account è stato aggiornato con successo e ora può usufruire di tutte le funzioni premium.",
   "details": {
     "amount": "Importo",

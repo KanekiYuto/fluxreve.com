@@ -1,0 +1,84 @@
+{
+  "entries": {
+    "AI image generated using {model}": {
+      "translation": "使用 {模型}生成的 AI 图像 {model}",
+      "timestamp": 1765570821
+    },
+    "Completed At": {
+      "translation": "在",
+      "timestamp": 1765570633
+    },
+    "Created At": {
+      "translation": "创建于",
+      "timestamp": 1765570633
+    },
+    "Credits Used": {
+      "translation": "使用的学分",
+      "timestamp": 1765570633
+    },
+    "Duration": {
+      "translation": "持续时间",
+      "timestamp": 1765570633
+    },
+    "Generation Results": {
+      "translation": "生成结果",
+      "timestamp": 1765570633
+    },
+    "Image Preview": {
+      "translation": "图片预览",
+      "timestamp": 1765570633
+    },
+    "NSFW Content": {
+      "translation": "NSFW 内容",
+      "timestamp": 1765570633
+    },
+    "No": {
+      "translation": "没有",
+      "timestamp": 1765570633
+    },
+    "Parameters Info": {
+      "translation": "参数信息",
+      "timestamp": 1765570633
+    },
+    "Sorry, image generation failed. Please try again later or contact support.": {
+      "translation": "抱歉，图像生成失败。请稍后再试或联系技术支持。",
+      "timestamp": 1765570633
+    },
+    "Sorry, the task you are looking for cannot be found. It may have been deleted or the link is invalid.": {
+      "translation": "对不起，找不到您要查找的任务。它可能已被删除或链接无效。",
+      "timestamp": 1765570633
+    },
+    "Task Details": {
+      "translation": "任务详情",
+      "timestamp": 1765570633
+    },
+    "Task Failed": {
+      "translation": "任务失败",
+      "timestamp": 1765570633
+    },
+    "Task Not Found": {
+      "translation": "未找到任务",
+      "timestamp": 1765570633
+    },
+    "Task Processing": {
+      "translation": "任务处理",
+      "timestamp": 1765570633
+    },
+    "Usually takes a few seconds to a few minutes": {
+      "translation": "通常需要几秒钟到几分钟的时间",
+      "timestamp": 1765570633
+    },
+    "View your AI image generation task details and results": {
+      "translation": "查看人工智能图像生成任务的详细信息和结果",
+      "timestamp": 1765570633
+    },
+    "Yes": {
+      "translation": "是",
+      "timestamp": 1765570633
+    },
+    "Your image is being generated, please wait a moment...": {
+      "translation": "正在生成您的图像，请稍候...",
+      "timestamp": 1765570633
+    }
+  }
+}

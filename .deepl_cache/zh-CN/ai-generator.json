@@ -1,0 +1,564 @@
+{
+  "entries": {
+    "16:9 (Landscape)": {
+      "translation": "16:9（横向）",
+      "timestamp": 1765570348
+    },
+    "1:1 (Square)": {
+      "translation": "1:1（正方形）",
+      "timestamp": 1765570348
+    },
+    "21:9 (Ultrawide)": {
+      "translation": "21:9（超宽）",
+      "timestamp": 1765570348
+    },
+    "3:4 (Portrait)": {
+      "translation": "3:4 （肖像）",
+      "timestamp": 1765570348
+    },
+    "4:3 (Standard)": {
+      "translation": "4:3（标准）",
+      "timestamp": 1765570348
+    },
+    "9:16 (Portrait)": {
+      "translation": "9:16 （肖像）",
+      "timestamp": 1765570348
+    },
+    "AI Creating": {
+      "translation": "人工智能创建",
+      "timestamp": 1765570348
+    },
+    "AI Generator": {
+      "translation": "人工智能生成器",
+      "timestamp": 1765570348
+    },
+    "Add": {
+      "translation": "添加",
+      "timestamp": 1765570348
+    },
+    "Add Image URL": {
+      "translation": "添加图片 URL",
+      "timestamp": 1765570348
+    },
+    "Add Item": {
+      "translation": "添加项目",
+      "timestamp": 1765570348
+    },
+    "Add LoRA": {
+      "translation": "添加 LoRA",
+      "timestamp": 1765570348
+    },
+    "Advanced Settings": {
+      "translation": "高级设置",
+      "timestamp": 1765570348
+    },
+    "Art Gallery": {
+      "translation": "艺术画廊",
+      "timestamp": 1765570348
+    },
+    "Aspect Ratio": {
+      "translation": "宽高比",
+      "timestamp": 1765570348
+    },
+    "ByteDance": {
+      "translation": "字节舞",
+      "timestamp": 1765570348
+    },
+    "ByteDance Seedream 4.5, ultra-high quality image generation with large resolution output": {
+      "translation": "ByteDance Seedream 4.5，超高质量图像生成，大分辨率输出",
+      "timestamp": 1765570348
+    },
+    "Cancel": {
+      "translation": "取消",
+      "timestamp": 1765570348
+    },
+    "Choose from the LoRA library and customize scale for personalized styles": {
+      "translation": "从 LoRA 库中进行选择，并自定义刻度，实现个性化风格",
+      "timestamp": 1765570348
+    },
+    "Click \"Add LoRA\" button to start configuration": {
+      "translation": "单击 \"添加 LoRA \"按钮开始配置",
+      "timestamp": 1765570348
+    },
+    "Click a LoRA card on the left to select": {
+      "translation": "点击左侧的 LoRA 卡，选择",
+      "timestamp": 1765570348
+    },
+    "Click an example below to start creating, or fill out the form on the left to customize": {
+      "translation": "点击下面的示例开始创建，或填写左边的表格进行定制",
+      "timestamp": 1765570348
+    },
+    "Click the button above to add LoRA configuration": {
+      "translation": "单击上面的按钮添加 LoRA 配置",
+      "timestamp": 1765570348
+    },
+    "Click to use this example": {
+      "translation": "点击使用此示例",
+      "timestamp": 1765570348
+    },
+    "Coming Soon": {
+      "translation": "即将推出",
+      "timestamp": 1765570348
+    },
+    "Completed Time": {
+      "translation": "完成时间",
+      "timestamp": 1765570348
+    },
+    "Configuration": {
+      "translation": "配置",
+      "timestamp": 1765570348
+    },
+    "Confirm": {
+      "translation": "确认",
+      "timestamp": 1765570348
+    },
+    "Create amazing content with powerful AI models": {
+      "translation": "利用强大的人工智能模型创建精彩内容",
+      "timestamp": 1765570348
+    },
+    "Create stunning AI-generated images with our powerful AI image generation tool. Fast, professional, and easy to use.": {
+      "translation": "使用我们强大的 AI 图像生成工具，创建令人惊叹的 AI 图像。快速、专业、易用。",
+      "timestamp": 1765570348
+    },
+    "Creative": {
+      "translation": "创意",
+      "timestamp": 1765570348
+    },
+    "Credits": {
+      "translation": "荣誉",
+      "timestamp": 1765570348
+    },
+    "Currency": {
+      "translation": "货币",
+      "timestamp": 1765570348
+    },
+    "Current": {
+      "translation": "当前",
+      "timestamp": 1765570348
+    },
+    "Customizable": {
+      "translation": "可定制",
+      "timestamp": 1765570348
+    },
+    "Describe the image you want to generate...": {
+      "translation": "描述您想要生成的图像...",
+      "timestamp": 1765570348
+    },
+    "Development Progress": {
+      "translation": "发展进度",
+      "timestamp": 1765570348
+    },
+    "Download All ({count})": {
+      "translation": "全部下载 ({count})",
+      "timestamp": 1765570816
+    },
+    "Download Current": {
+      "translation": "下载电流",
+      "timestamp": 1765570348
+    },
+    "Education": {
+      "translation": "教育",
+      "timestamp": 1765570348
+    },
+    "Enter LoRA configuration in JSON format, e.g., model name, weight, and other parameters": {
+      "translation": "以 JSON 格式输入 LoRA 配置，例如模型名称、重量和其他参数",
+      "timestamp": 1765570348
+    },
+    "Enter image URL": {
+      "translation": "输入图片 URL",
+      "timestamp": 1765570348
+    },
+    "Exciting Features on the Way": {
+      "translation": "即将推出的精彩功能",
+      "timestamp": 1765570348
+    },
+    "Expected to launch soon": {
+      "translation": "预计很快推出",
+      "timestamp": 1765570348
+    },
+    "Explore powerful image utilities including upscaling, enhancement, format conversion, and batch processing": {
+      "translation": "探索功能强大的图像实用程序，包括放大、增强、格式转换和批处理",
+      "timestamp": 1765570348
+    },
+    "Fast": {
+      "translation": "几乎",
+      "timestamp": 1765570348
+    },
+    "Fast Processing": {
+      "translation": "快速处理",
+      "timestamp": 1765570348
+    },
+    "Film Style": {
+      "translation": "电影风格",
+      "timestamp": 1765570348
+    },
+    "Flux Series": {
+      "translation": "通量系列",
+      "timestamp": 1765570348
+    },
+    "Generate Image (Cost {credits} Quota)": {
+      "translation": "生成图像（成本 {信用点数} 配额） {credits}",
+      "timestamp": 1765570816
+    },
+    "Generated Results": {
+      "translation": "生成结果",
+      "timestamp": 1765570348
+    },
+    "Generating amazing content for you, please wait...": {
+      "translation": "为您生成精彩内容，请稍候...",
+      "timestamp": 1765570348
+    },
+    "Generating... {progress}%": {
+      "translation": "正在生成...{progress}%",
+      "timestamp": 1765570816
+    },
+    "Generation Failed": {
+      "translation": "一代失败",
+      "timestamp": 1765570348
+    },
+    "Generation Time": {
+      "translation": "生成时间",
+      "timestamp": 1765570348
+    },
+    "Go to example {index}": {
+      "translation": "转到示例 {index}",
+      "timestamp": 1765570816
+    },
+    "High Quality": {
+      "translation": "高质量",
+      "timestamp": 1765570348
+    },
+    "Hint: You can drag and drop a file or click to upload": {
+      "translation": "提示：您可以拖放文件或点击上传",
+      "timestamp": 1765570348
+    },
+    "Image generation failed": {
+      "translation": "图像生成失败",
+      "timestamp": 1765570348
+    },
+    "Image to Image": {
+      "translation": "图像到图像",
+      "timestamp": 1765570348
+    },
+    "Initializing": {
+      "translation": "初始化",
+      "timestamp": 1765570348
+    },
+    "Insufficient Credits": {
+      "translation": "学分不足",
+      "timestamp": 1765570348
+    },
+    "Intelligent automation": {
+      "translation": "智能自动化",
+      "timestamp": 1765570348
+    },
+    "Latest": {
+      "translation": "最新",
+      "timestamp": 1765570348
+    },
+    "Leave blank for random": {
+      "translation": "留空表示随机",
+      "timestamp": 1765570348
+    },
+    "Lightning-fast generation, optimized for high-quality creative output with exceptional speed": {
+      "translation": "快如闪电的生成速度，优化了高质量的创意输出，速度非凡",
+      "timestamp": 1765570348
+    },
+    "Lightning-fast results": {
+      "translation": "快如闪电的结果",
+      "timestamp": 1765570348
+    },
+    "LoRA Config": {
+      "translation": "LoRA 配置",
+      "timestamp": 1765570348
+    },
+    "LoRA Support": {
+      "translation": "LoRA 支持",
+      "timestamp": 1765570348
+    },
+    "Loading...": {
+      "translation": "正在加载...",
+      "timestamp": 1765570348
+    },
+    "Manage": {
+      "translation": "管理",
+      "timestamp": 1765570348
+    },
+    "Manage LoRA": {
+      "translation": "管理 LoRA",
+      "timestamp": 1765570348
+    },
+    "Math": {
+      "translation": "数学",
+      "timestamp": 1765570348
+    },
+    "Minimalist": {
+      "translation": "极简主义",
+      "timestamp": 1765570348
+    },
+    "Moody": {
+      "translation": "穆迪",
+      "timestamp": 1765570348
+    },
+    "More": {
+      "translation": "更多信息",
+      "timestamp": 1765570348
+    },
+    "More Image Tools": {
+      "translation": "更多图像工具",
+      "timestamp": 1765570348
+    },
+    "Nano Series": {
+      "translation": "纳米系列",
+      "timestamp": 1765570348
+    },
+    "No LoRA available": {
+      "translation": "没有 LoRA",
+      "timestamp": 1765570348
+    },
+    "No LoRA configured": {
+      "translation": "未配置 LoRA",
+      "timestamp": 1765570348
+    },
+    "No LoRA configured yet": {
+      "translation": "尚未配置 LoRA",
+      "timestamp": 1765570348
+    },
+    "No LoRA selected": {
+      "translation": "未选择 LoRA",
+      "timestamp": 1765570348
+    },
+    "No examples available": {
+      "translation": "没有实例",
+      "timestamp": 1765570348
+    },
+    "No matching LoRA found": {
+      "translation": "未找到匹配的 LoRA",
+      "timestamp": 1765570348
+    },
+    "Output Format": {
+      "translation": "输出格式",
+      "timestamp": 1765570348
+    },
+    "Parameter Error": {
+      "translation": "参数误差",
+      "timestamp": 1765570348
+    },
+    "Photorealistic": {
+      "translation": "逼真",
+      "timestamp": 1765570348
+    },
+    "Photorealistic AI image generation with accurate bilingual text rendering, sub-second speed": {
+      "translation": "逼真的人工智能图像生成，精确的双语文本渲染，亚秒级速度",
+      "timestamp": 1765570348
+    },
+    "Please create or import LoRA models first": {
+      "translation": "请先创建或导入 LoRA 模型",
+      "timestamp": 1765570348
+    },
+    "Please enter a prompt": {
+      "translation": "请输入提示",
+      "timestamp": 1765570348
+    },
+    "Please enter valid JSON format configuration": {
+      "translation": "请输入有效的 JSON 格式配置",
+      "timestamp": 1765570348
+    },
+    "Please recharge and try again": {
+      "translation": "请充值后再试一次",
+      "timestamp": 1765570348
+    },
+    "Please select": {
+      "translation": "请选择",
+      "timestamp": 1765570348
+    },
+    "Portrait": {
+      "translation": "肖像",
+      "timestamp": 1765570348
+    },
+    "Powerful AI": {
+      "translation": "强大的人工智能",
+      "timestamp": 1765570348
+    },
+    "Private Mode": {
+      "translation": "私人时装",
+      "timestamp": 1765570348
+    },
+    "Professional": {
+      "translation": "专业人员",
+      "timestamp": 1765570348
+    },
+    "Professional-grade image generation model, supports text-to-image and image-to-image with high-quality output": {
+      "translation": "专业级图像生成模式，支持文本到图像和图像到图像的高质量输出",
+      "timestamp": 1765570348
+    },
+    "Prompt": {
+      "translation": "提示",
+      "timestamp": 1765570348
+    },
+    "Query Status Failed": {
+      "translation": "查询状态失败",
+      "timestamp": 1765570348
+    },
+    "Quick Start": {
+      "translation": "快速入门",
+      "timestamp": 1765570348
+    },
+    "Quota": {
+      "translation": "配额",
+      "timestamp": 1765570348
+    },
+    "Refresh quota": {
+      "translation": "刷新配额",
+      "timestamp": 1765570348
+    },
+    "Required": {
+      "translation": "需要",
+      "timestamp": 1765570348
+    },
+    "Resolution": {
+      "translation": "决议",
+      "timestamp": 1765570348
+    },
+    "Results will only be visible to you": {
+      "translation": "结果只对您可见",
+      "timestamp": 1765570348
+    },
+    "Retro": {
+      "translation": "复古",
+      "timestamp": 1765570348
+    },
+    "Scale": {
+      "translation": "楼梯",
+      "timestamp": 1765570348
+    },
+    "Search LoRA name, description, or trigger word...": {
+      "translation": "搜索 LoRA 名称、描述或触发词...",
+      "timestamp": 1765570348
+    },
+    "Seed": {
+      "translation": "种子",
+      "timestamp": 1765570348
+    },
+    "Seedream Series": {
+      "translation": "种子流系列",
+      "timestamp": 1765570348
+    },
+    "Select LoRA": {
+      "translation": "选择 LoRA",
+      "timestamp": 1765570348
+    },
+    "Select LoRA Model": {
+      "translation": "选择 LoRA 型号",
+      "timestamp": 1765570348
+    },
+    "Select aspect ratio": {
+      "translation": "选择宽高比",
+      "timestamp": 1765570348
+    },
+    "Select image size": {
+      "translation": "选择图像大小",
+      "timestamp": 1765570348
+    },
+    "Select output format": {
+      "translation": "选择输出格式",
+      "timestamp": 1765570348
+    },
+    "Select resolution": {
+      "translation": "选择分辨率",
+      "timestamp": 1765570348
+    },
+    "Selected": {
+      "translation": "精选",
+      "timestamp": 1765570348
+    },
+    "Size": {
+      "translation": "尺寸",
+      "timestamp": 1765570348
+    },
+    "Smart Features": {
+      "translation": "智能功能",
+      "timestamp": 1765570348
+    },
+    "State-of-the-art technology": {
+      "translation": "最先进的技术",
+      "timestamp": 1765570348
+    },
+    "Steps": {
+      "translation": "步骤",
+      "timestamp": 1765570348
+    },
+    "Stylized": {
+      "translation": "风格化",
+      "timestamp": 1765570348
+    },
+    "Sub-second": {
+      "translation": "亚秒级",
+      "timestamp": 1765570348
+    },
+    "Subscribe": {
+      "translation": "订阅",
+      "timestamp": 1765570348
+    },
+    "Subscribe to enable private mode": {
+      "translation": "订阅以启用专用模式",
+      "timestamp": 1765570348
+    },
+    "Text Render": {
+      "translation": "文本渲染",
+      "timestamp": 1765570348
+    },
+    "Text to Image": {
+      "translation": "文本到图像",
+      "timestamp": 1765570348
+    },
+    "Ultra HD": {
+      "translation": "超高清",
+      "timestamp": 1765570348
+    },
+    "Unable to query task status": {
+      "translation": "无法查询任务状态",
+      "timestamp": 1765570348
+    },
+    "Upload Image": {
+      "translation": "上传图片",
+      "timestamp": 1765570348
+    },
+    "Uploading...": {
+      "translation": "上传...",
+      "timestamp": 1765570348
+    },
+    "Use This Example": {
+      "translation": "以此为例",
+      "timestamp": 1765570348
+    },
+    "Versatile": {
+      "translation": "多用途",
+      "timestamp": 1765570348
+    },
+    "We're working hard to bring you amazing new capabilities. Stay tuned for updates!": {
+      "translation": "我们正在努力为您带来令人惊叹的新功能。请继续关注我们的更新！",
+      "timestamp": 1765570348
+    },
+    "Z-Image Series": {
+      "translation": "Z 图像系列",
+      "timestamp": 1765570348
+    },
+    "Z-Image Turbo LoRA version with custom LoRA model support for stylized creations": {
+      "translation": "Z-Image Turbo LoRA 版本支持自定义 LoRA 模型，可进行风格化创作",
+      "timestamp": 1765570348
+    },
+    "{count} LoRA(s) selected": {
+      "translation": "{计数｝选择的 LoRA {count}",
+      "timestamp": 1765570816
+    },
+    "{count} file(s)": {
+      "translation": "{个}文件 {count}",
+      "timestamp": 1765570816
+    },
+    "{seconds}s": {
+      "translation": "{秒}s {seconds}",
+      "timestamp": 1765570816
+    }
+  }
+}

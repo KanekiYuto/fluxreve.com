@@ -32,6 +32,14 @@
       "translation": "Posso aggiornare o ridurre il mio piano?",
       "timestamp": 1765569882
     },
+    "Can generate up to {quota}/5 high-quality images": {
+      "translation": "Puede generar hasta /5 imágenes de alta calidad {quota}",
+      "timestamp": 1765571277
+    },
+    "Can generate up to {quota}/5 images per day": {
+      "translation": "Puede generar hasta /5 imágenes al día {quota}",
+      "timestamp": 1765571277
+    },
     "Choose Your Plan": {
       "translation": "Scegliete il vostro piano",
       "timestamp": 1765569882
@@ -172,6 +180,10 @@
       "translation": "Elaborazione...",
       "timestamp": 1765569882
     },
+    "Save ${amount}": {
+      "translation": "Ahorra $ {amount}",
+      "timestamp": 1765571277
+    },
     "Save 20%": {
       "translation": "Risparmiare il 20%",
       "timestamp": 1765569882
@@ -267,6 +279,18 @@
     "year": {
       "translation": "anno",
       "timestamp": 1765569882
+    },
+    "{quota} credits quota": {
+      "translation": "cuota de créditos {quota}",
+      "timestamp": 1765571277
+    },
+    "{quota} credits quota per day": {
+      "translation": "cuota de créditos por día {quota}",
+      "timestamp": 1765571277
+    },
+    "{quota} quota credits": {
+      "translation": "créditos contingentarios {quota}",
+      "timestamp": 1765571277
     }
   }
 }

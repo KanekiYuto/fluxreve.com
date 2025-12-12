@@ -136,6 +136,10 @@
       "translation": "Visualizzare statistiche dettagliate e metriche delle prestazioni",
       "timestamp": 1765569877
     },
+    "Welcome back, {name}": {
+      "translation": "Bienvenido de nuevo, {name}",
+      "timestamp": 1765571276
+    },
     "Welcome to Dashboard": {
       "translation": "Benvenuti in Dashboard",
       "timestamp": 1765569877

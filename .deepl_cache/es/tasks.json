@@ -139,6 +139,10 @@
     "Z-Image LoRA": {
       "translation": "Immagine Z LoRA",
       "timestamp": 1765569888
+    },
+    "{count} selected": {
+      "translation": "seleccionado {count}",
+      "timestamp": 1765571280
     }
   }
 }

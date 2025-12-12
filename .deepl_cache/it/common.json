@@ -115,6 +115,10 @@
     "Z-Image": {
       "translation": "Immagine Z",
       "timestamp": 1765569847
+    },
+    "{siteName} - AI Image Generation Tool": {
+      "translation": "{siteName} - Strumento di generazione di immagini AI",
+      "timestamp": 1765571039
     }
   }
 }

@@ -87,6 +87,7 @@ func isCacheExpired(timestamp int64) bool {
 func translateWithDeepLBatch(apiKey string, texts []string, targetLang string, fileCache map[string]CacheEntry) (map[string]string, error) {
 	// 分离需要翻译和已缓存的文本
 	toTranslate := []string{}
+	toTranslateOriginals := []string{} // 保存原始文本（包含占位符）
 	toTranslateIndices := []int{}
 	results := make(map[string]string)
 
@@ -96,8 +97,8 @@ func translateWithDeepLBatch(apiKey string, texts []string, targetLang string, f
 			continue
 		}
 
-		// 如果是完全占位符（如 "{name}"），直接跳过
-		if isPlaceholder(text) && !strings.Contains(text, " ") {
+		// 如果是纯占位符（如 "{name}"），直接跳过翻译
+		if isPlaceholder(text) {
 			results[text] = text
 			continue
 		}
@@ -117,7 +118,12 @@ func translateWithDeepLBatch(apiKey string, texts []string, targetLang string, f
 			continue
 		}
 
-		toTranslate = append(toTranslate, text)
+		// 保存原始文本
+		toTranslateOriginals = append(toTranslateOriginals, text)
+
+		// 移除占位符后再发送给 API（保护占位符不被翻译）
+		textWithoutPlaceholders := removePlaceholders(text)
+		toTranslate = append(toTranslate, textWithoutPlaceholders)
 		toTranslateIndices = append(toTranslateIndices, i)
 	}
 
@@ -189,18 +195,18 @@ func translateWithDeepLBatch(apiKey string, texts []string, targetLang string, f
 	// 保存翻译结果
 	for i, translation := range result.Translations {
 		if i < len(toTranslate) {
-			text := toTranslate[i]
-			translated := translation.Text
+			// 获取原始文本和翻译后的文本
+			originalText := toTranslateOriginals[i]
+			translatedText := translation.Text
 
-			// 如果原文包含占位符，需要还原它们
-			if strings.Contains(text, "{") && strings.Contains(text, "}") {
-				translated = restorePlaceholders(translated, text)
-			}
+			// 把占位符还原回去
+			finalTranslation := restorePlaceholdersToText(translatedText, originalText)
 
-			results[text] = translated
-			translationCache[text] = translated
-			fileCache[text] = CacheEntry{
-				Translation: translated,
+			// 使用原始文本作为键保存结果
+			results[originalText] = finalTranslation
+			translationCache[originalText] = finalTranslation
+			fileCache[originalText] = CacheEntry{
+				Translation: finalTranslation,
 				Timestamp:   time.Now().Unix(),
 			}
 		}
@@ -210,6 +216,50 @@ func translateWithDeepLBatch(apiKey string, texts []string, targetLang string, f
 	requestCount++
 	fmt.Printf("🔄 批量翻译 %d 个文本 (缓存命中: %d)\n", len(toTranslate), len(texts)-len(toTranslate))
 	return results, nil
+}
+
+// 根据目录名推断目标语言代码
+func inferLanguageFromDir(dirPath string) string {
+	// 从路径中提取目录名 (例如 "messages/zh-CN" -> "zh-CN")
+	dirName := filepath.Base(dirPath)
+
+	// 映射目录名到 DeepL 语言代码
+	dirMapping := map[string]string{
+		"en":     "EN",
+		"zh-cn":  "ZH",
+		"zh-tw":  "ZH",
+		"ja":     "JA",
+		"ko":     "KO",
+		"ar":     "AR",
+		"fr":     "FR",
+		"de":     "DE",
+		"it":     "IT",
+		"es":     "ES",
+		"pt":     "PT-BR",
+		"pt-br":  "PT-BR",
+		"ru":     "RU",
+		"nl":     "NL",
+		"sv":     "SV",
+		"da":     "DA",
+		"pl":     "PL",
+		"tr":     "TR",
+	}
+
+	// 统一转小写并去除连字符变体，查询映射表
+	normalized := strings.ToLower(dirName)
+	if val, ok := dirMapping[normalized]; ok {
+		return val
+	}
+
+	// 如果精确匹配失败，尝试只用前两个字母匹配 (例如 "zh-CN" -> "zh")
+	parts := strings.Split(normalized, "-")
+	if len(parts) > 0 {
+		if val, ok := dirMapping[parts[0]]; ok {
+			return val
+		}
+	}
+
+	return "IT" // 默认语言（保持原逻辑）
 }
 
 // 将语言代码映射到 DeepL 格式
@@ -238,18 +288,23 @@ func mapLanguageCode(code string) string {
 	return "EN" // 默认英文
 }
 
-// 检查是否为占位符 - 自动检测 {xxx} 格式的占位符
+// 检查是否为纯占位符 - 只有占位符，没有其他文本
 func isPlaceholder(text string) bool {
 	// 如果文本完全由占位符组成，跳过翻译
 	// 例如："{name}", "{count}", "{progress}" 等
+	// 但 "Welcome back, {name}" 包含实际文本，应该被翻译
 
-	// 检查是否包含花括号占位符 {xxx}
-	if strings.Contains(text, "{") && strings.Contains(text, "}") {
-		// 使用正则表达式检测 {xxx} 模式
-		re := regexp.MustCompile(`\{[a-zA-Z0-9_]+\}`)
-		return re.MatchString(text)
-	}
-	return false
+	// 使用正则表达式检测纯占位符模式（只能是 {xxx}）
+	re := regexp.MustCompile(`^\{[a-zA-Z0-9_]+\}$`)
+	return re.MatchString(text)
+}
+
+// 移除文本中的所有占位符（保护占位符不被翻译）
+func removePlaceholders(text string) string {
+	// 完全移除占位符，只保留实际文本
+	// 例如："Welcome, {name}!" -> "Welcome, !"
+	re := regexp.MustCompile(`\s*\{[a-zA-Z0-9_]+\}\s*`)
+	return strings.TrimSpace(re.ReplaceAllString(text, " "))
 }
 
 // 提取文本中的占位符和实际文本
@@ -265,27 +320,28 @@ func extractPlaceholdersAndText(text string) (string, []string) {
 }
 
 // 将占位符还原到翻译后的文本
-func restorePlaceholders(translatedText string, originalText string) string {
-	// 如果原文和翻译文本都不为空，直接替换占位符
-	// 这确保占位符不会被翻译
+func restorePlaceholdersToText(translatedText string, originalText string) string {
+	// 从原文中提取占位符列表（按出现顺序）
 	re := regexp.MustCompile(`\{[a-zA-Z0-9_]+\}`)
+	placeholders := re.FindAllString(originalText, -1)
 
-	// 从原文中提取占位符
-	originalPlaceholders := re.FindAllString(originalText, -1)
-	translatedPlaceholders := re.FindAllString(translatedText, -1)
-
-	// 如果翻译后的文本中没有占位符，但原文有，需要还原
-	if len(originalPlaceholders) > 0 && len(translatedPlaceholders) == 0 {
-		// 使用原文的占位符替换翻译文本中对应位置的内容
-		// 这是一个简单的策略：将翻译后的文本与原文的占位符组合
-		result := translatedText
-		for _, ph := range originalPlaceholders {
-			result += " " + ph
-		}
-		return result
+	if len(placeholders) == 0 {
+		return translatedText // 原文没有占位符，直接返回翻译结果
 	}
 
-	return translatedText
+	// 从翻译文本中移除多余的空格（因为我们在移除占位符时添加了空格）
+	result := strings.TrimSpace(translatedText)
+
+	// 简单策略：在翻译文本末尾附加所有占位符
+	// 这确保占位符不会被修改或翻译
+	// 例如："Bentornato" + " {name}" = "Bentornato {name}"
+	for _, ph := range placeholders {
+		if !strings.Contains(result, ph) {
+			result += " " + ph
+		}
+	}
+
+	return result
 }
 
 // 第一步：收集所有需要翻译的文本
@@ -437,7 +493,7 @@ func main() {
 	apiKey := flag.String("key", "", "DeepL API 密钥 (必需)")
 	sourceDir := flag.String("source", "./messages/en", "源文件目录")
 	targetDir := flag.String("target", "./messages/it", "目标文件目录")
-	targetLang := flag.String("lang", "IT", "目标语言代码 (默认: IT)")
+	targetLang := flag.String("lang", "", "目标语言代码 (可选，默认从目标目录名自动推断)")
 	singleFile := flag.String("file", "", "单个文件模式: 要翻译的文件路径")
 
 	flag.Parse()
@@ -448,12 +504,16 @@ func main() {
 	if *apiKey == "" {
 		fmt.Println("❌ 错误: 必须提供 -key 参数（DeepL API 密钥）")
 		fmt.Println("\n📖 使用方法:")
-		fmt.Println("  批量翻译:    go run translate-deepl.go -key YOUR_API_KEY")
-		fmt.Println("  单个文件:    go run translate-deepl.go -key YOUR_API_KEY -file ./messages/en/common.json")
-		fmt.Println("  其他语言:    go run translate-deepl.go -key YOUR_API_KEY -lang FR")
-		fmt.Println("  自定义缓存:  go run translate-deepl.go -key YOUR_API_KEY -cache ./my_cache")
+		fmt.Println("  批量翻译 (自动推断语言):  go run translate-deepl.go -key YOUR_API_KEY -target ./messages/zh-CN")
+		fmt.Println("  单个文件 (自动推断语言):  go run translate-deepl.go -key YOUR_API_KEY -file ./messages/en/common.json -target ./messages/it")
+		fmt.Println("  指定语言 (手动覆盖):    go run translate-deepl.go -key YOUR_API_KEY -target ./messages/fr -lang FR")
 		fmt.Println("\n💡 获取 API 密钥: https://www.deepl.com/pro-api")
 		os.Exit(1)
+	}
+
+	// 如果未提供 -lang 参数，根据目标目录自动推断语言代码
+	if *targetLang == "" {
+		*targetLang = inferLanguageFromDir(*targetDir)
 	}
 
 	fmt.Printf("\n%s\n", strings.Repeat("=", 60))

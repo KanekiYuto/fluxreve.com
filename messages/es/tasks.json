@@ -48,7 +48,7 @@
     "privacyLabel": "Privacy",
     "processing": "Elaborazione",
     "selectPlaceholder": "Selezionare...",
-    "selectedCount": "{count} selected",
+    "selectedCount": "seleccionado {count}",
     "statusLabel": "Stato",
     "taskType": {
       "all": "Tutti",

@@ -1,0 +1,120 @@
+{
+  "entries": {
+    "Active": {
+      "translation": "活跃",
+      "timestamp": 1765570358
+    },
+    "Active Quota": {
+      "translation": "活动配额",
+      "timestamp": 1765570358
+    },
+    "Amount": {
+      "translation": "金额",
+      "timestamp": 1765570358
+    },
+    "Available": {
+      "translation": "可用",
+      "timestamp": 1765570358
+    },
+    "Consumed": {
+      "translation": "已消费",
+      "timestamp": 1765570358
+    },
+    "Daily Free Quota": {
+      "translation": "每日免费配额",
+      "timestamp": 1765570358
+    },
+    "Depleted": {
+      "translation": "耗尽",
+      "timestamp": 1765570358
+    },
+    "Expired": {
+      "translation": "已过期",
+      "timestamp": 1765570358
+    },
+    "Expires At": {
+      "translation": "到期日",
+      "timestamp": 1765570358
+    },
+    "Issued At": {
+      "translation": "发布于",
+      "timestamp": 1765570358
+    },
+    "Log in to view your quota usage and history": {
+      "translation": "登录以查看配额使用情况和历史记录",
+      "timestamp": 1765570358
+    },
+    "Login to View Quota": {
+      "translation": "登录查看配额",
+      "timestamp": 1765570358
+    },
+    "Manage and view your available quota": {
+      "translation": "管理和查看可用配额",
+      "timestamp": 1765570358
+    },
+    "Manage and view your available quota usage and history": {
+      "translation": "管理并查看可用配额的使用情况和历史记录",
+      "timestamp": 1765570358
+    },
+    "Monthly Basic": {
+      "translation": "每月基本费用",
+      "timestamp": 1765570358
+    },
+    "Monthly Pro": {
+      "translation": "专业月刊",
+      "timestamp": 1765570358
+    },
+    "My Quota": {
+      "translation": "我的配额",
+      "timestamp": 1765570358
+    },
+    "Never": {
+      "translation": "从不",
+      "timestamp": 1765570358
+    },
+    "No active quota available": {
+      "translation": "没有可用配额",
+      "timestamp": 1765570358
+    },
+    "No expired quota": {
+      "translation": "没有过期配额",
+      "timestamp": 1765570358
+    },
+    "Quota Pack": {
+      "translation": "配额包",
+      "timestamp": 1765570358
+    },
+    "Remaining": {
+      "translation": "剩余",
+      "timestamp": 1765570358
+    },
+    "Subscription Change Compensation": {
+      "translation": "认购变更补偿",
+      "timestamp": 1765570358
+    },
+    "Total Available": {
+      "translation": "可用总数",
+      "timestamp": 1765570358
+    },
+    "Type": {
+      "translation": "类型",
+      "timestamp": 1765570358
+    },
+    "Yearly Basic": {
+      "translation": "每年基本",
+      "timestamp": 1765570358
+    },
+    "Yearly Pro": {
+      "translation": "年度专业",
+      "timestamp": 1765570358
+    },
+    "You currently have no available quota. Please purchase quota to continue using the service": {
+      "translation": "您目前没有可用配额。请购买配额以继续使用服务",
+      "timestamp": 1765570358
+    },
+    "You have no expired quota records": {
+      "translation": "您没有过期配额记录",
+      "timestamp": 1765570358
+    }
+  }
+}

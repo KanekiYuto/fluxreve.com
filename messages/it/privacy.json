@@ -77,10 +77,10 @@
     ],
     "title": "Come utilizziamo le vostre informazioni"
   },
-  "description": "Learn how {siteName} collects, uses, and protects your personal information. Our privacy policy covers data collection, usage, sharing, and your rights.",
+  "description": "Scopri come {siteName} raccoglie, utilizza e protegge i tuoi dati personali. La nostra politica sulla privacy riguarda la raccolta, l'utilizzo, la condivisione dei dati e i vostri diritti.",
   "introduction": {
-    "content1": "{siteName} (\"we,\" \"us,\" or \"our\") is committed to protecting your privacy and safeguarding your personal information. This Privacy Policy outlines our practices regarding the collection, storage, use, and sharing of your information when you access our AI-powered image generation services.",
-    "content2": "By using our services through the {siteName} website, mobile applications, or APIs, you acknowledge that you have read, understood, and agree to the practices described in this Privacy Policy. This policy also informs you of your privacy rights and how the law protects you.",
+    "content1": "{siteName} (\"noi\", \"ci\" o \"nostro\") si impegna a proteggere la vostra privacy e a salvaguardare le vostre informazioni personali. La presente Informativa sulla privacy illustra le nostre pratiche relative alla raccolta, all'archiviazione, all'utilizzo e alla condivisione dei vostri dati quando accedete ai nostri servizi di generazione di immagini basati sull'intelligenza artificiale.",
+    "content2": "Utilizzando i nostri servizi attraverso il sito web, le applicazioni mobili o le API di {siteName}, l'utente dichiara di aver letto, compreso e accettato le pratiche descritte nella presente Informativa sulla privacy. La presente informativa informa inoltre l'utente sui suoi diritti in materia di privacy e su come la legge lo protegge.",
     "title": "Introduzione"
   },
   "keywords": "Informativa sulla privacy, protezione dei dati, informazioni personali, privacy degli utenti, raccolta dati, GDPR, diritti alla privacy",
@@ -93,7 +93,7 @@
     "content": "I nostri servizi possono contenere link a siti web, integrazioni o servizi di terzi. Non siamo responsabili delle pratiche sulla privacy o dei contenuti di queste terze parti. Vi invitiamo a prendere visione delle loro politiche sulla privacy prima di fornire qualsiasi informazione personale.",
     "title": "Servizi e link di terze parti"
   },
-  "title": "Privacy Policy | {siteName}",
+  "title": "Informativa sulla privacy | {siteName}",
   "userRights": {
     "intro": "A seconda del luogo in cui vi trovate, potreste avere i seguenti diritti in merito ai vostri dati personali:",
     "items": [

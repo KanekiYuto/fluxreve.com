@@ -1,5 +1,9 @@
 {
   "entries": {
+    "AI image generated using {model}": {
+      "translation": "Immagine AI generata con {model}",
+      "timestamp": 1765571044
+    },
     "Completed At": {
       "translation": "Completato a",
       "timestamp": 1765569862
