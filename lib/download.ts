@@ -53,17 +53,15 @@ export async function downloadImage(imageUrl: string): Promise<void> {
  * 批量下载图片
  * @param imageUrls 图片 URL 数组
  * @param delay 下载间隔（毫秒），默认 300ms
- * @param options 下载选项
  * @returns Promise<void>
  */
 export async function downloadImages(
   imageUrls: string[],
-  delay: number = 300,
-  options?: DownloadOptions
+  delay: number = 300
 ): Promise<void> {
   for (let i = 0; i < imageUrls.length; i++) {
-    // 使用原始文件名，不传 filename 参数
-    await downloadImage(imageUrls[i], options);
+    // 使用原始文件名
+    await downloadImage(imageUrls[i]);
     // 添加延迟避免浏览器阻止多个下载
     if (i < imageUrls.length - 1) {
       await new Promise(resolve => setTimeout(resolve, delay));
