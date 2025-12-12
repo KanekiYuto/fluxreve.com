@@ -2,79 +2,79 @@
   "entries": {
     "Can I use the generated images commercially?": {
       "translation": "Posso utilizzare le immagini generate a fini commerciali?",
-      "timestamp": 1765569851
+      "timestamp": 1765575479
     },
     "Can't find what you're looking for? Contact our support team and we'll get back to you as soon as possible.": {
       "translation": "Non riuscite a trovare quello che state cercando? Contattate il nostro team di assistenza e vi risponderemo al più presto.",
-      "timestamp": 1765569851
+      "timestamp": 1765575479
     },
     "Contact Support": {
       "translation": "Contatto con l'assistenza",
-      "timestamp": 1765569851
+      "timestamp": 1765575479
     },
     "Find answers to common questions about using our AI image generation platform": {
-      "translation": "Trovate le risposte alle domande più comuni sull'uso della nostra piattaforma di generazione di immagini AI",
-      "timestamp": 1765569851
+      "translation": "Trovate le risposte alle domande più comuni sull'utilizzo della nostra piattaforma di generazione di immagini AI",
+      "timestamp": 1765575479
     },
     "Find answers to common questions and get support": {
       "translation": "Trova le risposte alle domande più comuni e ottieni assistenza",
-      "timestamp": 1765569851
+      "timestamp": 1765575479
     },
     "Find answers to common questions and get support for {siteName} AI image generation platform": {
       "translation": "Trova le risposte alle domande più comuni e ottieni supporto per la piattaforma di generazione di immagini AI {siteName}",
-      "timestamp": 1765571040
+      "timestamp": 1765575479
     },
     "For better results, try to be specific and detailed in your prompts. Include information about style, colors, composition, and mood. Experiment with different models and settings to find what works best for your needs.": {
       "translation": "Per ottenere risultati migliori, cercate di essere specifici e dettagliati nei vostri suggerimenti. Includete informazioni sullo stile, i colori, la composizione e l'atmosfera. Sperimentate con diversi modelli e impostazioni per trovare quello che funziona meglio per le vostre esigenze.",
-      "timestamp": 1765569851
+      "timestamp": 1765575479
     },
     "Frequently Asked Questions": {
       "translation": "Domande frequenti",
-      "timestamp": 1765569851
+      "timestamp": 1765575479
     },
     "Getting started is easy! Simply navigate to the AI Generator page, enter your prompt describing what you want to create, select your preferred settings, and click the generate button. Your AI-generated image will be ready in seconds.": {
-      "translation": "Iniziare è facile! È sufficiente navigare nella pagina del Generatore AI, inserire la richiesta che descrive ciò che si desidera creare, selezionare le impostazioni preferite e fare clic sul pulsante Genera. L'immagine generata dall'AI sarà pronta in pochi secondi.",
-      "timestamp": 1765569851
+      "translation": "Iniziare è facile! Basta navigare nella pagina del Generatore AI, inserire la richiesta che descrive ciò che si desidera creare, selezionare le impostazioni preferite e fare clic sul pulsante Genera. L'immagine generata dall'AI sarà pronta in pochi secondi.",
+      "timestamp": 1765575479
     },
     "Help Center": {
       "translation": "Centro assistenza",
-      "timestamp": 1765569851
+      "timestamp": 1765575479
     },
     "How can I improve my generation results?": {
       "translation": "Come posso migliorare i risultati della mia generazione?",
-      "timestamp": 1765569851
+      "timestamp": 1765575479
     },
     "How do I get started with AI Generator?": {
       "translation": "Come si inizia con AI Generator?",
-      "timestamp": 1765569851
+      "timestamp": 1765575479
     },
     "How many images can I generate?": {
       "translation": "Quante immagini posso generare?",
-      "timestamp": 1765569851
+      "timestamp": 1765575479
     },
     "If a generation fails, first try refreshing the page and attempting again. Make sure your prompt is clear and descriptive. If problems persist, please contact our support team with details about the issue.": {
       "translation": "Se la generazione non riesce, provate prima ad aggiornare la pagina e a riprovare. Assicurarsi che la richiesta sia chiara e descrittiva. Se i problemi persistono, contattate il nostro team di assistenza con i dettagli del problema.",
-      "timestamp": 1765569851
+      "timestamp": 1765575479
     },
     "The number of images you can generate depends on your credit quota. Free users get 30 credits daily, while Basic plan subscribers get 1,500 credits monthly and Pro plan subscribers get 7,500 credits monthly. Check our Pricing page for more details.": {
       "translation": "Il numero di immagini che potete generare dipende dalla vostra quota di crediti. Gli utenti gratuiti ricevono 30 crediti al giorno, mentre gli abbonati al piano Basic ricevono 1.500 crediti al mese e gli abbonati al piano Pro ricevono 7.500 crediti al mese. Per maggiori dettagli, consultate la pagina Prezzi.",
-      "timestamp": 1765569851
+      "timestamp": 1765575479
     },
     "We support all common image formats including PNG, JPG, and WebP. You can download your generated images in the format that best suits your needs.": {
       "translation": "Supportiamo tutti i formati di immagine più comuni, tra cui PNG, JPG e WebP. È possibile scaricare le immagini generate nel formato più adatto alle proprie esigenze.",
-      "timestamp": 1765569851
+      "timestamp": 1765575479
     },
     "What image formats are supported?": {
       "translation": "Quali sono i formati di immagine supportati?",
-      "timestamp": 1765569851
+      "timestamp": 1765575479
     },
     "What should I do if the generation fails?": {
       "translation": "Cosa devo fare se la generazione non funziona?",
-      "timestamp": 1765569851
+      "timestamp": 1765575479
     },
     "Yes! Both Basic and Pro plan subscribers receive a commercial use license. Free plan users can use generated images for personal projects only.": {
       "translation": "Gli abbonati ai piani Basic e Pro ricevono una licenza per uso commerciale. Gli utenti del piano Free possono utilizzare le immagini generate solo per progetti personali.",
-      "timestamp": 1765569851
+      "timestamp": 1765575479
     }
   }
 }

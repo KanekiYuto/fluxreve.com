@@ -1,43 +1,43 @@
 {
   "card": {
-    "amount": "Importo della sottoscrizione",
-    "canceledDate": "Data di annullamento",
+    "amount": "Importe de la suscripción",
+    "canceledDate": "Fecha de cancelación",
     "customerId": "Cliente",
-    "expiryDate": "Data di scadenza",
-    "manageButton": "Gestire l'abbonamento",
-    "nextBillingDate": "Data di fatturazione successiva",
-    "nextRenewal": "Il prossimo rinnovo passa a",
+    "expiryDate": "Fecha de expiración",
+    "manageButton": "Gestionar suscripción",
+    "nextBillingDate": "Próxima fecha de facturación",
+    "nextRenewal": "La próxima renovación pasa a",
     "planTypes": {
-      "monthly_basic": "Base - Mensile",
-      "monthly_pro": "Pro - Mensile",
-      "trial": "Processo",
-      "yearly_basic": "Base - Annuale",
-      "yearly_pro": "Pro - Annuale"
+      "monthly_basic": "Básico - Mensual",
+      "monthly_pro": "Pro - Mensual",
+      "trial": "Ensayo",
+      "yearly_basic": "Básico - Anual",
+      "yearly_pro": "Pro - Anual"
     },
-    "platform": "Piattaforma di pagamento",
-    "startDate": "Data di inizio",
+    "platform": "Plataforma de pago",
+    "startDate": "Fecha de inicio",
     "status": {
-      "active": "Attivo",
-      "canceled": "Annullato",
-      "expired": "Scaduto",
-      "paused": "In pausa",
-      "pending": "In attesa di pagamento"
+      "active": "Activo",
+      "canceled": "Cancelado",
+      "expired": "Caducado",
+      "paused": "En pausa",
+      "pending": "Pago pendiente"
     },
-    "subscriptionId": "Abbonamento"
+    "subscriptionId": "Suscripción"
   },
   "empty": {
-    "action": "Visualizza i piani tariffari",
-    "description": "Al momento non ci sono abbonamenti attivi",
-    "title": "Nessun abbonamento"
+    "action": "Ver planes de precios",
+    "description": "Actualmente no tiene ninguna suscripción activa",
+    "title": "Sin suscripciones"
   },
   "login": {
-    "description": "Accedere per visualizzare e gestire le informazioni sull'abbonamento",
-    "title": "Accedi per visualizzare gli abbonamenti"
+    "description": "Inicie sesión para ver y gestionar su información de suscripción",
+    "title": "Iniciar sesión para ver las suscripciones"
   },
   "seo": {
-    "description": "Visualizzare e gestire i piani di abbonamento e le informazioni di fatturazione",
-    "title": "Gestione degli abbonamenti"
+    "description": "Ver y gestionar los planes de suscripción y la información de facturación",
+    "title": "Gestión de suscripciones"
   },
-  "subtitle": "Visualizzare e gestire le informazioni sull'abbonamento",
-  "title": "Gestione degli abbonamenti"
+  "subtitle": "Ver y gestionar su información de suscripción",
+  "title": "Gestión de suscripciones"
 }

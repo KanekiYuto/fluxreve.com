@@ -12,7 +12,7 @@
     "imagePreview": "Anteprima dell'immagine",
     "isNsfw": "NSFW Content",
     "isPrivate": "Moda privata",
-    "metaDescription": "Immagine AI generata con {model}",
+    "metaDescription": "Immagine AI generata utilizzando {model}",
     "nextImage": "Immagine successiva",
     "no": "No",
     "parametersInfo": "Info sui parametri",

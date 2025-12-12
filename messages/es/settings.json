@@ -1,48 +1,48 @@
 {
   "about": {
-    "releaseDate": "Data di uscita",
-    "title": "Circa",
-    "version": "Versione"
+    "releaseDate": "Fecha de publicación",
+    "title": "Acerca de",
+    "version": "Versión"
   },
   "actions": {
-    "change": "Cambiamento",
+    "change": "Cambia",
     "copy": "Copia",
-    "edit": "Modifica",
-    "enable": "Abilitazione",
-    "upgrade": "Piano di aggiornamento"
+    "edit": "Editar",
+    "enable": "Activar",
+    "upgrade": "Plan de actualización"
   },
   "loginRequired": {
-    "cta": "Accedi ora",
-    "description": "Effettuare l'accesso per accedere alle impostazioni e gestire l'account.",
-    "title": "Accesso richiesto"
+    "cta": "Regístrese ahora",
+    "description": "Inicia sesión para acceder a tu configuración y gestionar tu cuenta.",
+    "title": "Inicio de sesión obligatorio"
   },
   "sections": {
     "connections": {
-      "connected": "Collegato",
-      "githubConnected": "È possibile utilizzare il proprio account GitHub per accedere al proprio account.",
-      "githubNotConnected": "Collegare l'account GitHub per abilitare questo metodo di accesso.",
-      "googleConnected": "È possibile utilizzare il proprio account Google per accedere al proprio account.",
-      "googleNotConnected": "Collegare l'account Google per abilitare questo metodo di accesso.",
-      "title": "Conti collegati"
+      "connected": "Conectado",
+      "githubConnected": "Puedes utilizar tu cuenta GitHub para acceder a tu cuenta.",
+      "githubNotConnected": "Conecta tu cuenta GitHub para activar este método de inicio de sesión.",
+      "googleConnected": "Puede utilizar su cuenta Google para acceder a su cuenta.",
+      "googleNotConnected": "Conecta tu cuenta Google para activar este método de inicio de sesión.",
+      "title": "Cuentas conectadas"
     },
     "preferences": {
-      "notifications": "Notifiche via e-mail",
-      "notificationsDesc": "Ricevere aggiornamenti e notifiche via e-mail",
-      "title": "Preferenze"
+      "notifications": "Notificaciones por correo electrónico",
+      "notificationsDesc": "Recibir actualizaciones y notificaciones por correo electrónico",
+      "title": "Preferencias"
     },
     "profile": {
-      "email": "Indirizzo e-mail",
-      "name": "Nome",
-      "notSet": "Non impostato",
-      "plan": "Piano attuale",
-      "title": "Informazioni sul profilo",
-      "verified": "Verificato"
+      "email": "Dirección de correo electrónico",
+      "name": "Nombre",
+      "notSet": "No fijado",
+      "plan": "Plan actual",
+      "title": "Información sobre el perfil",
+      "verified": "Verificado"
     }
   },
   "seo": {
-    "description": "Gestire le impostazioni e le preferenze dell'account",
-    "title": "Impostazioni"
+    "description": "Gestionar la configuración y las preferencias de su cuenta",
+    "title": "Ajustes"
   },
-  "subtitle": "Gestire le impostazioni e le preferenze dell'account",
-  "title": "Impostazioni"
+  "subtitle": "Gestionar la configuración y las preferencias de su cuenta",
+  "title": "Ajustes"
 }

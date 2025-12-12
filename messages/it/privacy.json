@@ -14,7 +14,7 @@
       "Cookie essenziali: Necessari per le funzionalità di base del servizio e per l'autenticazione",
       "Cookie di preferenza: Ricordano le impostazioni e le scelte di personalizzazione dell'utente",
       "Cookie analitici: Ci aiutano a capire i modelli di utilizzo e a migliorare i nostri servizi",
-      "Cookie di marketing: Fornire contenuti pertinenti e misurare l'efficacia della campagna (con il consenso dell'utente)"
+      "Cookie di marketing: Fornire contenuti pertinenti e misurare l'efficacia delle campagne (con il consenso dell'utente)"
     ],
     "note": "È possibile controllare le preferenze relative ai cookie attraverso le impostazioni del browser. Si noti che la disabilitazione di alcuni cookie può limitare la funzionalità dei nostri servizi.",
     "title": "Cookie e tecnologie di tracciamento"
@@ -79,11 +79,11 @@
   },
   "description": "Scopri come {siteName} raccoglie, utilizza e protegge i tuoi dati personali. La nostra politica sulla privacy riguarda la raccolta, l'utilizzo, la condivisione dei dati e i vostri diritti.",
   "introduction": {
-    "content1": "{siteName} (\"noi\", \"ci\" o \"nostro\") si impegna a proteggere la vostra privacy e a salvaguardare le vostre informazioni personali. La presente Informativa sulla privacy illustra le nostre pratiche relative alla raccolta, all'archiviazione, all'utilizzo e alla condivisione dei vostri dati quando accedete ai nostri servizi di generazione di immagini basati sull'intelligenza artificiale.",
-    "content2": "Utilizzando i nostri servizi attraverso il sito web, le applicazioni mobili o le API di {siteName}, l'utente dichiara di aver letto, compreso e accettato le pratiche descritte nella presente Informativa sulla privacy. La presente informativa informa inoltre l'utente sui suoi diritti in materia di privacy e su come la legge lo protegge.",
+    "content1": "{siteName} (\"noi\", \"ci\" o \"nostro\") si impegna a proteggere la vostra privacy e a tutelare i vostri dati personali. La presente Informativa sulla privacy illustra le nostre pratiche relative alla raccolta, all'archiviazione, all'utilizzo e alla condivisione dei vostri dati quando accedete ai nostri servizi di generazione di immagini basati sull'intelligenza artificiale.",
+    "content2": "Utilizzando i nostri servizi attraverso il sito web {siteName}, le applicazioni mobili o APIs, l'utente riconosce di aver letto, compreso e accettato le pratiche descritte nella presente Informativa sulla privacy. Questa informativa informa inoltre l'utente sui suoi diritti in materia di privacy e su come la legge lo protegge.",
     "title": "Introduzione"
   },
-  "keywords": "Informativa sulla privacy, protezione dei dati, informazioni personali, privacy degli utenti, raccolta dati, GDPR, diritti alla privacy",
+  "keywords": "informativa sulla privacy, protezione dei dati, informazioni personali, privacy degli utenti, raccolta dati, GDPR, diritti alla privacy",
   "lastUpdated": "Ultimo aggiornamento",
   "policyUpdates": {
     "content": "Potremmo aggiornare periodicamente la presente Informativa sulla privacy per riflettere le modifiche apportate alle nostre pratiche o ai requisiti legali. Notificheremo all'utente le modifiche sostanziali pubblicando l'informativa aggiornata su questa pagina con la data di \"Ultimo aggiornamento\". In caso di modifiche significative, potremmo anche fornire un avviso via e-mail o una notifica in evidenza sulla nostra piattaforma. Vi invitiamo a rivedere regolarmente questa informativa.",

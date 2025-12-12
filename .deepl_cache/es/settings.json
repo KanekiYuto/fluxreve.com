@@ -1,104 +1,104 @@
 {
   "entries": {
     "About": {
-      "translation": "Circa",
-      "timestamp": 1765569885
+      "translation": "Acerca de",
+      "timestamp": 1765575457
     },
     "Change": {
-      "translation": "Cambiamento",
-      "timestamp": 1765569885
+      "translation": "Cambia",
+      "timestamp": 1765575457
     },
     "Connect your GitHub account to enable this login method.": {
-      "translation": "Collegare l'account GitHub per abilitare questo metodo di accesso.",
-      "timestamp": 1765569885
+      "translation": "Conecta tu cuenta GitHub para activar este método de inicio de sesión.",
+      "timestamp": 1765575457
     },
     "Connect your Google account to enable this login method.": {
-      "translation": "Collegare l'account Google per abilitare questo metodo di accesso.",
-      "timestamp": 1765569885
+      "translation": "Conecta tu cuenta Google para activar este método de inicio de sesión.",
+      "timestamp": 1765575457
     },
     "Connected": {
-      "translation": "Collegato",
-      "timestamp": 1765569885
+      "translation": "Conectado",
+      "timestamp": 1765575457
     },
     "Connected Accounts": {
-      "translation": "Conti collegati",
-      "timestamp": 1765569885
+      "translation": "Cuentas conectadas",
+      "timestamp": 1765575457
     },
     "Copy": {
       "translation": "Copia",
-      "timestamp": 1765569885
+      "timestamp": 1765575457
     },
     "Edit": {
-      "translation": "Modifica",
-      "timestamp": 1765569885
+      "translation": "Editar",
+      "timestamp": 1765575457
     },
     "Email Address": {
-      "translation": "Indirizzo e-mail",
-      "timestamp": 1765569885
+      "translation": "Dirección de correo electrónico",
+      "timestamp": 1765575457
     },
     "Email Notifications": {
-      "translation": "Notifiche via e-mail",
-      "timestamp": 1765569885
+      "translation": "Notificaciones por correo electrónico",
+      "timestamp": 1765575457
     },
     "Enable": {
-      "translation": "Abilitazione",
-      "timestamp": 1765569885
+      "translation": "Activar",
+      "timestamp": 1765575457
     },
     "Manage your account settings and preferences": {
-      "translation": "Gestire le impostazioni e le preferenze dell'account",
-      "timestamp": 1765569885
+      "translation": "Gestionar la configuración y las preferencias de su cuenta",
+      "timestamp": 1765575457
     },
     "Name": {
-      "translation": "Nome",
-      "timestamp": 1765569885
+      "translation": "Nombre",
+      "timestamp": 1765575457
     },
     "Not set": {
-      "translation": "Non impostato",
-      "timestamp": 1765569885
+      "translation": "No fijado",
+      "timestamp": 1765575457
     },
     "Please sign in to access your settings and manage your account.": {
-      "translation": "Effettuare l'accesso per accedere alle impostazioni e gestire l'account.",
-      "timestamp": 1765569885
+      "translation": "Inicia sesión para acceder a tu configuración y gestionar tu cuenta.",
+      "timestamp": 1765575457
     },
     "Preferences": {
-      "translation": "Preferenze",
-      "timestamp": 1765569885
+      "translation": "Preferencias",
+      "timestamp": 1765575457
     },
     "Profile Information": {
-      "translation": "Informazioni sul profilo",
-      "timestamp": 1765569885
+      "translation": "Información sobre el perfil",
+      "timestamp": 1765575457
     },
     "Receive updates and notifications via email": {
-      "translation": "Ricevere aggiornamenti e notifiche via e-mail",
-      "timestamp": 1765569885
+      "translation": "Recibir actualizaciones y notificaciones por correo electrónico",
+      "timestamp": 1765575457
     },
     "Release Date": {
-      "translation": "Data di uscita",
-      "timestamp": 1765569885
+      "translation": "Fecha de publicación",
+      "timestamp": 1765575457
     },
     "Sign In Required": {
-      "translation": "Accesso richiesto",
-      "timestamp": 1765569885
+      "translation": "Inicio de sesión obligatorio",
+      "timestamp": 1765575457
     },
     "Upgrade Plan": {
-      "translation": "Piano di aggiornamento",
-      "timestamp": 1765569885
+      "translation": "Plan de actualización",
+      "timestamp": 1765575457
     },
     "Verified": {
-      "translation": "Verificato",
-      "timestamp": 1765569885
+      "translation": "Verificado",
+      "timestamp": 1765575457
     },
     "Version": {
-      "translation": "Versione",
-      "timestamp": 1765569885
+      "translation": "Versión",
+      "timestamp": 1765575457
     },
     "You can use your GitHub account to sign in to your account.": {
-      "translation": "È possibile utilizzare il proprio account GitHub per accedere al proprio account.",
-      "timestamp": 1765569885
+      "translation": "Puedes utilizar tu cuenta GitHub para acceder a tu cuenta.",
+      "timestamp": 1765575457
     },
     "You can use your Google account to sign in to your account.": {
-      "translation": "È possibile utilizzare il proprio account Google per accedere al proprio account.",
-      "timestamp": 1765569885
+      "translation": "Puede utilizar su cuenta Google para acceder a su cuenta.",
+      "timestamp": 1765575457
     }
   }
 }

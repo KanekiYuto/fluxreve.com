@@ -1,53 +1,53 @@
 {
   "empty": {
-    "active": "Nessuna quota attiva disponibile",
-    "activeDesc": "Al momento non avete quote disponibili. Si prega di acquistare una quota per continuare a utilizzare il servizio",
-    "expired": "Nessuna quota scaduta",
-    "expiredDesc": "Non ci sono registrazioni di quote scadute"
+    "active": "No hay cuotas activas disponibles",
+    "activeDesc": "Actualmente no tiene cuota disponible. Por favor, compre cuota para seguir utilizando el servicio",
+    "expired": "Ninguna cuota caducada",
+    "expiredDesc": "No tiene registros de cuotas caducados"
   },
   "loginRequired": {
-    "description": "Accedere per visualizzare l'utilizzo della quota e la cronologia",
-    "title": "Accesso per visualizzare la quota"
+    "description": "Inicie sesión para ver el uso y el historial de su cuota",
+    "title": "Conectarse para ver la cuota"
   },
   "quotaTypes": {
-    "daily_free": "Quota libera giornaliera",
-    "monthly_basic": "Mensile di base",
-    "monthly_pro": "Mensile Pro",
-    "quota_pack": "Quota Pack",
-    "subscription_change_compensation": "Sottoscrizione Modifica Compensazione",
-    "trial": "Processo",
-    "yearly_basic": "Annuale di base",
-    "yearly_pro": "Annuale Pro"
+    "daily_free": "Cuota diaria libre",
+    "monthly_basic": "Básico mensual",
+    "monthly_pro": "Pro mensual",
+    "quota_pack": "Paquete de cuotas",
+    "subscription_change_compensation": "Suscripción Cambio Compensación",
+    "trial": "Ensayo",
+    "yearly_basic": "Básico anual",
+    "yearly_pro": "Anual Pro"
   },
   "seo": {
-    "description": "Gestire e visualizzare l'utilizzo e la cronologia delle quote disponibili",
-    "title": "My Quota"
+    "description": "Gestiona y consulta el uso y el historial de tu cuota disponible",
+    "title": "Mi cuota"
   },
   "stats": {
-    "consumed": "Consumato",
-    "remaining": "Rimanente"
+    "consumed": "Consumido",
+    "remaining": "Resto"
   },
   "status": {
-    "active": "Attivo",
-    "depleted": "Impoverito"
+    "active": "Activo",
+    "depleted": "Agotado"
   },
-  "subtitle": "Gestire e visualizzare la quota disponibile",
+  "subtitle": "Gestione y consulte su cuota disponible",
   "summary": {
-    "credits": "Crediti",
-    "title": "Totale disponibile"
+    "credits": "Créditos",
+    "title": "Total disponible"
   },
   "table": {
-    "amount": "Importo",
-    "available": "Disponibile",
-    "consumed": "Consumato",
-    "expiresAt": "Scade a",
-    "issuedAt": "Rilasciato a",
-    "noExpiry": "Mai",
+    "amount": "Importe",
+    "available": "Disponible",
+    "consumed": "Consumido",
+    "expiresAt": "Caduca en",
+    "issuedAt": "Emitido en",
+    "noExpiry": "Nunca",
     "type": "Tipo"
   },
   "tabs": {
-    "active": "Quota attiva",
-    "expired": "Scaduto"
+    "active": "Cuota activa",
+    "expired": "Caducado"
   },
-  "title": "My Quota"
+  "title": "Mi cuota"
 }

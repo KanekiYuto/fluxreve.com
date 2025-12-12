@@ -1,85 +1,85 @@
 {
   "card": {
-    "cancelDelete": "Annullamento",
-    "confirmDelete": "Cancellare",
-    "confirmDeleteMessage": "Siete sicuri di voler eliminare questa attività? Questa azione non può essere annullata.",
-    "confirmDeleteTitle": "Eliminazione dell'attività",
-    "delete": "Cancellare",
-    "deleting": "Eliminazione...",
-    "makePrivate": "Rendere privato",
-    "makePublic": "Rendere pubblico",
-    "private": "Privato",
-    "public": "Pubblico"
+    "cancelDelete": "Cancelar",
+    "confirmDelete": "Borrar",
+    "confirmDeleteMessage": "¿Está seguro de que desea eliminar esta tarea? Esta acción no se puede deshacer.",
+    "confirmDeleteTitle": "Eliminar tarea",
+    "delete": "Borrar",
+    "deleting": "Borrar...",
+    "makePrivate": "Hacer privado",
+    "makePublic": "Hacer público",
+    "private": "Privado",
+    "public": "Público"
   },
   "empty": {
-    "cta": "Iniziare a creare",
-    "filteredSubtitle": "Provare a cambiare le opzioni del filtro",
-    "filteredTitle": "Nessun compito corrispondente",
-    "subtitle": "Iniziare a creare la prima immagine AI",
-    "title": "Nessun compito ancora"
+    "cta": "Empezar a crear",
+    "filteredSubtitle": "Prueba a cambiar las opciones de filtro",
+    "filteredTitle": "Sin tareas coincidentes",
+    "subtitle": "Empieza a crear tu primera imagen AI",
+    "title": "Aún no hay tareas"
   },
   "errors": {
-    "fetchFailed": "Impossibile recuperare le attività",
-    "retry": "Riprova"
+    "fetchFailed": "Fallo al recuperar tareas",
+    "retry": "Reintentar"
   },
   "filter": {
-    "all": "Tutti",
-    "clearAll": "Libero",
-    "completed": "Completato",
-    "failed": "Fallito",
+    "all": "Todos",
+    "clearAll": "Claro",
+    "completed": "Completado",
+    "failed": "Fallido",
     "model": {
-      "all": "Tutti",
+      "all": "Todos",
       "flux-2-pro": "FLUX 2 Pro",
       "nano-banana-pro": "Nano Banana Pro",
-      "z-image": "Immagine Z",
-      "z-image-lora": "Immagine Z LoRA"
+      "z-image": "Z-Image",
+      "z-image-lora": "Z-Image LoRA"
     },
-    "modelLabel": "Modello",
+    "modelLabel": "Modelo",
     "nsfw": {
       "nsfw": "NSFW",
-      "safe": "Sicuro"
+      "safe": "Seguro"
     },
-    "nsfwLabel": "Content",
-    "pending": "In attesa",
+    "nsfwLabel": "Contenido",
+    "pending": "Pendiente",
     "privacy": {
-      "private": "Privato",
-      "public": "Pubblico"
+      "private": "Privado",
+      "public": "Público"
     },
-    "privacyLabel": "Privacy",
-    "processing": "Elaborazione",
-    "selectPlaceholder": "Selezionare...",
-    "selectedCount": "seleccionado {count}",
-    "statusLabel": "Stato",
+    "privacyLabel": "Privacidad",
+    "processing": "Tratamiento",
+    "selectPlaceholder": "Seleccione...",
+    "selectedCount": "{count} selected",
+    "statusLabel": "Estado",
     "taskType": {
-      "all": "Tutti",
-      "image-to-image": "Da immagine a immagine",
-      "text-to-image": "Da testo a immagine"
+      "all": "Todos",
+      "image-to-image": "Imagen a imagen",
+      "text-to-image": "Texto a imagen"
     },
     "taskTypeLabel": "Tipo",
-    "title": "Filtri"
+    "title": "Filtros"
   },
   "header": {
-    "subtitle": "Visualizzare e gestire tutta la cronologia delle generazioni",
-    "title": "La storia"
+    "subtitle": "Consulta y gestiona todo tu historial de generaciones",
+    "title": "Historia"
   },
   "loginPrompt": {
-    "cta": "Accedi",
-    "description": "Accedi per visualizzare tutta la cronologia della generazione di immagini AI",
-    "title": "Accedi per visualizzare la cronologia"
+    "cta": "Iniciar sesión",
+    "description": "Inicia sesión para ver todo tu historial de generación de imágenes AI",
+    "title": "Iniciar sesión para ver el historial"
   },
-  "noPrompt": "Al prompt",
+  "noPrompt": "En el indicador",
   "pagination": {
-    "next": "Avanti",
-    "prev": "Precedente"
+    "next": "Siguiente",
+    "prev": "Anterior"
   },
   "seo": {
-    "description": "Visualizzare e gestire tutta la cronologia della generazione di immagini AI",
-    "title": "La storia"
+    "description": "Visualiza y gestiona todo tu historial de generación de imágenes de IA",
+    "title": "Historia"
   },
   "status": {
-    "completed": "Completato",
-    "failed": "Fallito",
-    "pending": "In attesa",
-    "processing": "Elaborazione"
+    "completed": "Completado",
+    "failed": "Fallido",
+    "pending": "Pendiente",
+    "processing": "Tratamiento"
   }
 }

@@ -1,88 +1,88 @@
 {
   "entries": {
     "Auto redirecting to dashboard in {seconds} seconds...": {
-      "translation": "Reindirizzamento automatico al cruscotto in {seconds} secondi...",
-      "timestamp": 1765571043
+      "translation": "Reindirizzamento automatico alla dashboard in {seconds} secondi...",
+      "timestamp": 1765575487
     },
     "Basic - Monthly": {
       "translation": "Base - Mensile",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "Basic - Yearly": {
       "translation": "Base - Annuale",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "Plan": {
       "translation": "Piano",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "Pro - Monthly": {
       "translation": "Pro - Mensile",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "Pro - Yearly": {
       "translation": "Pro - Annuale",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "Redirecting...": {
       "translation": "Reindirizzamento...",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "Start Using Now": {
       "translation": "Iniziare a usarlo ora",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "Start using AI generators to create stunning images": {
       "translation": "Iniziare a utilizzare i generatori di intelligenza artificiale per creare immagini straordinarie",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "Status": {
       "translation": "Stato",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "Subscription Details": {
       "translation": "Dettagli sull'abbonamento",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "Subscription Successful": {
       "translation": "Abbonamento riuscito",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "Subscription Successful!": {
       "translation": "Abbonamento riuscito!",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "Subscription not found": {
       "translation": "Abbonamento non trovato",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "Thank you for subscribing! Your account has been successfully upgraded": {
       "translation": "Grazie per esserti abbonato! Il tuo account è stato aggiornato con successo",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "Thank you for subscribing. Your account has been successfully upgraded and you can now enjoy all premium features.": {
       "translation": "Grazie per esservi abbonati. Il suo account è stato aggiornato con successo e ora può usufruire di tutte le funzioni premium.",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "Unknown Plan": {
       "translation": "Piano sconosciuto",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "View Subscription": {
       "translation": "Visualizza l'abbonamento",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "View your subscription details in the subscription management page": {
       "translation": "Visualizzare i dettagli dell'abbonamento nella pagina di gestione degli abbonamenti",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "Visit your dashboard to explore all available features": {
       "translation": "Visitate il vostro cruscotto per esplorare tutte le funzioni disponibili.",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     },
     "What's Next": {
       "translation": "Cosa c'è dopo",
-      "timestamp": 1765569861
+      "timestamp": 1765575487
     }
   }
 }

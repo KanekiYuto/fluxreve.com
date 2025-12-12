@@ -1,63 +1,63 @@
 {
-  "guestSubtitle": "Effettuare l'accesso per accedere alla propria dashboard e cominciare a creare",
-  "guestWelcome": "Benvenuti in Dashboard",
+  "guestSubtitle": "Inicia sesión para acceder a tu panel de control y empezar a crear",
+  "guestWelcome": "Bienvenido a Dashboard",
   "loginPrompt": {
-    "cta": "Accedi ora",
-    "description": "Create un account o accedete per sbloccare tutte le funzioni, monitorare l'utilizzo e gestire i vostri progetti.",
+    "cta": "Regístrese ahora",
+    "description": "Cree una cuenta o inicie sesión para desbloquear todas las funciones, realizar un seguimiento de su uso y gestionar sus proyectos.",
     "features": {
-      "analytics": "Analisi e statistiche",
-      "analyticsDesc": "Visualizzare statistiche dettagliate e metriche delle prestazioni",
-      "projects": "Gestione del progetto",
-      "projectsDesc": "Organizzare e gestire tutti i progetti creativi",
-      "quota": "Quota di utilizzo",
-      "quotaDesc": "Tracciare la quota di generazione e la cronologia di utilizzo"
+      "analytics": "Análisis y estadísticas",
+      "analyticsDesc": "Ver estadísticas detalladas y métricas de rendimiento",
+      "projects": "Gestión de proyectos",
+      "projectsDesc": "Organice y gestione todos sus proyectos creativos",
+      "quota": "Cuota de uso",
+      "quotaDesc": "Seguimiento de la cuota de generación y del historial de uso"
     },
-    "title": "Accedi per accedere al tuo cruscotto"
+    "title": "Inicie sesión para acceder a su panel de control"
   },
   "marketing": {
-    "description": "Aggiornate il vostro piano per ottenere più crediti, altissima risoluzione, generazione di batch e assistenza prioritaria.",
-    "learnMoreButton": "Per saperne di più",
-    "title": "Sbloccare funzioni più potenti",
-    "upgradeButton": "Aggiorna ora"
+    "description": "Actualice su plan para obtener más créditos, resolución ultra alta, generación de lotes y asistencia prioritaria.",
+    "learnMoreButton": "Más información",
+    "title": "Desbloquea funciones más potentes",
+    "upgradeButton": "Actualizar ahora"
   },
   "quickActions": {
-    "newProject": "Nuovo progetto",
-    "templates": "Modelli",
-    "title": "Avvio rapido",
+    "newProject": "Nuevo proyecto",
+    "templates": "Plantillas",
+    "title": "Inicio rápido",
     "tutorial": "Tutorial",
-    "uploadImage": "Carica immagine"
+    "uploadImage": "Cargar imagen"
   },
   "recent": {
     "empty": {
-      "cta": "Generare ora",
-      "subtitle": "Iniziare a generare la prima immagine",
-      "title": "Nessun contenuto generato questa settimana"
+      "cta": "Generar ahora",
+      "subtitle": "Empieza a generar tu primera imagen",
+      "title": "No se han generado contenidos esta semana"
     },
-    "loading": "Caricamento...",
-    "subtitle": "Mostra i contenuti solo dell'ultima settimana",
-    "title": "Generazioni recenti",
-    "viewAll": "Visualizza tutti"
+    "loading": "Cargando...",
+    "subtitle": "Mostrar sólo el contenido de la última semana",
+    "title": "Generaciones recientes",
+    "viewAll": "Ver todos"
   },
   "seo": {
-    "description": "Gestite i vostri progetti di generazione di immagini AI, tracciate l'utilizzo e accedete a tutte le funzionalità",
-    "title": "Cruscotto"
+    "description": "Gestione sus proyectos de generación de imágenes AI, realice un seguimiento del uso y acceda a todas las funciones.",
+    "title": "Cuadro de mandos"
   },
   "stats": {
-    "images": "Risorse di immagine caricate",
-    "projects": "Totale progetti",
+    "images": "Activos de imagen cargados",
+    "projects": "Total de proyectos",
     "quota": {
-      "expires": "Scade",
-      "remaining": "Quota di generazione rimanente",
-      "unlimited": "Quota di generazione illimitata"
+      "expires": "caduca en",
+      "remaining": "Cuota de generación restante",
+      "unlimited": "Cuota de generación ilimitada"
     },
-    "templates": "Modelli creati"
+    "templates": "Plantillas creadas"
   },
-  "subtitle": "Iniziate a creare i vostri fantastici contenuti",
+  "subtitle": "Empieza a crear tus increíbles contenidos",
   "userType": {
-    "basic": "Base",
-    "free": "Gratuito",
+    "basic": "Básico",
+    "free": "Gratis",
     "pro": "Pro",
-    "trial": "Processo"
+    "trial": "Ensayo"
   },
   "welcome": "Bienvenido de nuevo, {name}"
 }

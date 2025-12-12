@@ -1,214 +1,214 @@
 {
-  "seo": {
-    "title": "AI 產生器",
-    "description": "使用強大的 AI 圖像產生工具建立令人驚艷的圖像。快速、專業且易於使用。"
-  },
-  "page": {
-    "title": "AI 產生器",
-    "description": "使用強大的 AI 模型建立各種精彩內容",
-    "loading": "載入中..."
-  },
-  "tabs": {
-    "textToImage": "文字生圖",
-    "imageToImage": "圖生圖",
-    "more": "更多"
-  },
-  "examples": {
-    "title": "快速開始",
-    "description": "點擊下方示例快速開始創作，或填寫左側表單自定義生成",
-    "useExample": "使用此示例",
-    "goToExample": "切換到示例 {index}",
-    "clickToUse": "點擊使用此示例",
-    "noExamples": "暫無示例"
-  },
-  "tags": {
-    "film-style": "電影風格",
-    "moody": "情緒化",
-    "retro": "復古",
-    "currency": "貨幣",
-    "portrait": "肖像",
-    "photorealistic": "寫實",
-    "art-gallery": "藝術畫廊",
-    "minimalist": "極簡主義",
-    "professional": "專業級",
-    "education": "教育",
-    "math": "數學",
-    "text-render": "文字渲染"
-  },
-  "results": {
-    "title": "產生結果",
-    "fileCount": "{count} 個檔案",
-    "downloadCurrent": "下載目前圖片",
-    "downloadAll": "下載全部 ({count})",
-    "generationTime": "產生耗時",
-    "completedTime": "完成時間",
-    "seconds": "{seconds}秒",
-    "prompt": "提示詞"
-  },
-  "loading": {
-    "initializing": "初始化中",
-    "creating": "AI 創作中",
-    "message": "正在為您產生精彩內容，請稍候..."
+  "comingSoon": {
+    "badge": "即将推出",
+    "defaultDescription": "我们正在努力为您带来令人惊叹的新功能。请继续关注我们的更新！",
+    "defaultTitle": "即将推出的精彩功能",
+    "feature1Desc": "最先进的技术",
+    "feature1Title": "强大的人工智能",
+    "feature2Desc": "智能自动化",
+    "feature2Title": "智能功能",
+    "feature3Desc": "快如闪电的结果",
+    "feature3Title": "快速处理",
+    "moreTools": {
+      "description": "探索功能强大的图像实用程序，包括放大、增强、格式转换和批处理",
+      "title": "更多图像工具"
+    },
+    "progressHint": "预计很快推出",
+    "progressLabel": "发展进度"
   },
   "credits": {
-    "quota": "配額",
-    "refresh": "刷新配額"
-  },
-  "form": {
-    "mode": {
-      "textToImage": "文字生圖",
-      "imageToImage": "圖片生圖"
-    },
-    "advancedSettings": "進階選項",
-    "seed": "隨機種子",
-    "seedPlaceholder": "留空隨機產生",
-    "steps": "步數",
-    "selectPlaceholder": "請選擇",
-    "prompt": "提示詞",
-    "promptPlaceholder": "描述你想要產生的圖像...",
-    "aspectRatio": "寬高比",
-    "aspectRatioPlaceholder": "選擇寬高比",
-    "aspectRatios": {
-      "1:1": "1:1 (正方形)",
-      "16:9": "16:9 (橫向)",
-      "9:16": "9:16 (直向)",
-      "4:3": "4:3 (標準)",
-      "3:4": "3:4 (直向)",
-      "21:9": "21:9 (超寬)"
-    },
-    "resolution": "解析度",
-    "resolutionPlaceholder": "選擇解析度",
-    "size": "尺寸",
-    "sizePlaceholder": "選擇圖片尺寸",
-    "outputFormat": "輸出格式",
-    "outputFormatPlaceholder": "選擇輸出格式",
-    "uploadImage": "上傳圖片",
-    "addImageUrl": "新增圖片連結",
-    "imageUrlPlaceholder": "請輸入圖片連結地址",
-    "add": "新增",
-    "cancel": "取消",
-    "uploadHint": "提示：您可以拖放檔案或點擊上傳",
-    "uploading": "上傳中...",
-    "addItem": "新增項目",
-    "privateMode": "私有模式",
-    "privateModeDesc": "開啟後生成結果僅自己可見",
-    "privateModeSubscriptionRequired": "訂閱以啟用私有模式",
-    "status": {
-      "loading": "載入中..."
-    },
-    "configuration": "設定",
-    "addLora": "新增 LoRA",
-    "noLoraConfigured": "尚未設定 LoRA",
-    "clickAddLoraToStart": "點擊上方按鈕新增 LoRA 設定",
-    "loraConfig": "LoRA 設定",
-    "loraConfigHint": "輸入 JSON 格式的 LoRA 設定，例如模型名稱、權重等參數"
+    "quota": "配额",
+    "refresh": "刷新配额"
   },
   "error": {
+    "credits": "荣誉",
+    "current": "当前",
+    "generationFailed": "一代失败",
+    "imageGenerationFailed": "图像生成失败",
+    "insufficientCredits": "学分不足",
+    "parameterError": "参数误差",
+    "pleaseRecharge": "请充值后再试一次",
+    "promptRequired": "请输入提示",
+    "queryStatusFailed": "查询状态失败",
     "required": "需要",
-    "current": "目前",
-    "credits": "配額",
-    "parameterError": "參數錯誤",
-    "promptRequired": "請輸入提示詞",
-    "insufficientCredits": "配額不足",
-    "pleaseRecharge": "請儲值後再試",
-    "queryStatusFailed": "查詢狀態失敗",
-    "unableToQueryStatus": "無法查詢任務狀態",
-    "generationFailed": "產生失敗",
-    "imageGenerationFailed": "圖片產生失敗",
-    "subscribe": "訂閱"
+    "subscribe": "订阅",
+    "unableToQueryStatus": "无法查询任务状态"
+  },
+  "examples": {
+    "clickToUse": "点击使用此示例",
+    "description": "点击下面的示例开始创建，或填写左边的表格进行定制",
+    "goToExample": "转到示例 {index}",
+    "noExamples": "没有实例",
+    "title": "快速入门",
+    "useExample": "以此为例"
+  },
+  "form": {
+    "add": "添加",
+    "addImageUrl": "添加图片 URL",
+    "addItem": "添加项目",
+    "addLora": "Add LoRA",
+    "advancedSettings": "高级设置",
+    "aspectRatio": "宽高比",
+    "aspectRatioPlaceholder": "选择宽高比",
+    "aspectRatios": {
+      "16:9": "16:9（横向）",
+      "1:1": "1:1（正方形）",
+      "21:9": "21:9（超宽）",
+      "3:4": "3:4 （肖像）",
+      "4:3": "4:3（标准）",
+      "9:16": "9:16 （肖像）"
+    },
+    "cancel": "取消",
+    "clickAddLoraToStart": "单击上面的按钮添加 LoRA 配置",
+    "configuration": "配置",
+    "imageUrlPlaceholder": "输入图片 URL",
+    "loraConfig": "LoRA Config",
+    "loraConfigHint": "以 JSON 格式输入 LoRA 配置，例如模型名称、重量和其他参数",
+    "mode": {
+      "imageToImage": "图像到图像",
+      "textToImage": "文本到图像"
+    },
+    "noLoraConfigured": "尚未配置 LoRA",
+    "outputFormat": "输出格式",
+    "outputFormatPlaceholder": "选择输出格式",
+    "privateMode": "私人时装",
+    "privateModeDesc": "结果只对您可见",
+    "privateModeSubscriptionRequired": "订阅以启用专用模式",
+    "prompt": "提示",
+    "promptPlaceholder": "描述您想要生成的图像...",
+    "resolution": "决议",
+    "resolutionPlaceholder": "选择分辨率",
+    "seed": "种子",
+    "seedPlaceholder": "留空表示随机",
+    "selectPlaceholder": "请选择",
+    "size": "尺寸",
+    "sizePlaceholder": "选择图像大小",
+    "status": {
+      "loading": "正在加载..."
+    },
+    "steps": "步骤",
+    "uploadHint": "提示：您可以拖放文件或点击上传",
+    "uploadImage": "上传图片",
+    "uploading": "上传..."
   },
   "generate": {
-    "generating": "產生中... {progress}%",
-    "generateImage": "產生圖像 (消耗 {credits} 配額)"
+    "generateImage": "生成图像（成本 {credits} 配额）",
+    "generating": "Generating... {progress}%"
+  },
+  "loading": {
+    "creating": "人工智能创建",
+    "initializing": "初始化",
+    "message": "为您生成精彩内容，请稍候..."
+  },
+  "lora": {
+    "addLora": "Add LoRA",
+    "cancel": "取消",
+    "clickAddLoraToStart": "单击 \"添加 LoRA \"按钮开始配置",
+    "clickToSelect": "点击左侧的 LoRA 卡，选择",
+    "configuration": "配置",
+    "confirm": "确认",
+    "loading": "正在加载...",
+    "loraConfig": "LoRA Config",
+    "loraConfigHint": "请输入有效的 JSON 格式配置",
+    "manage": "管理",
+    "modalSubtitle": "从 LoRA 库中选择，并自定义比例以获得个性化风格",
+    "modalTitle": "选择 LoRA 型号",
+    "noLoraAvailable": "无可用 LoRA",
+    "noLoraConfigured": "未配置 LoRA",
+    "noLoraHint": "请先创建或导入 LoRA 模型",
+    "noSearchResults": "未找到匹配的 LoRA",
+    "noSelectedLoras": "未选中 LoRA",
+    "scale": "楼梯",
+    "searchPlaceholder": "搜索 LoRA 名称、描述或触发词...",
+    "selectLora": "Select LoRA",
+    "selectMore": "Manage LoRA",
+    "selectedCount": "{count} LoRA(s) selected",
+    "selectedLoras": "精选"
   },
   "modelGroups": {
-    "nano": "Nano 系列",
-    "zImage": "Z-Image 系列",
-    "flux": "Flux 系列",
-    "seedream": "Seedream 系列"
+    "flux": "Flux Series",
+    "nano": "纳米系列",
+    "seedream": "Seedream Series",
+    "zImage": "Z-Image Series"
   },
   "models": {
-    "nanoBananaPro": {
-      "description": "超快速產生，專為高效率創作與優質輸出而最佳化",
+    "flux2Pro": {
+      "description": "专业级图像生成模式，支持文本到图像和图像到图像的高质量输出",
       "tags": {
-        "fast": "極速",
-        "highQuality": "高品質",
+        "highQuality": "高质量",
+        "professional": "专业人员",
+        "versatile": "多用途"
+      }
+    },
+    "nanoBananaPro": {
+      "description": "快如闪电的生成速度，优化了高质量的创意输出和超凡的速度",
+      "tags": {
+        "fast": "几乎",
+        "highQuality": "高质量",
         "latest": "最新"
       }
     },
-    "zImage": {
-      "description": "照片級寫實AI圖像生成，精準中英文文字渲染，亞秒級生成",
+    "seedream": {
+      "description": "ByteDance Seedream 4.5，超高画质图像生成，大分辨率输出",
       "tags": {
-        "ultraFast": "亞秒級",
-        "affordable": "寫實品質",
-        "quality": "文字渲染"
+        "bytedance": "ByteDance",
+        "creative": "创意",
+        "ultraHD": "超高清"
+      }
+    },
+    "zImage": {
+      "description": "逼真的人工智能图像生成，精确的双语文本渲染，亚秒级速度",
+      "tags": {
+        "affordable": "逼真",
+        "quality": "文本渲染",
+        "ultraFast": "亚秒级"
       }
     },
     "zImageLora": {
-      "description": "Z-Image Turbo LoRA 版本，支援自訂 LoRA 模型，實現風格化創作",
+      "description": "Z-Image Turbo LoRA 版本带有自定义 LoRA 模型，支持风格化创作",
       "tags": {
-        "customizable": "可客製化",
-        "stylized": "風格化",
-        "lora": "LoRA 支援"
-      }
-    },
-    "flux2Pro": {
-      "description": "專業級圖像生成模型，支援文生圖和圖生圖，高品質輸出",
-      "tags": {
-        "professional": "專業級",
-        "highQuality": "高品質",
-        "versatile": "多功能"
-      }
-    },
-    "seedream": {
-      "description": "字節跳動 Seedream 4.5，超高品質圖像生成，支援超大尺寸輸出",
-      "tags": {
-        "bytedance": "字節跳動",
-        "ultraHD": "超高清",
-        "creative": "創意生成"
+        "customizable": "可定制",
+        "lora": "LoRA Support",
+        "stylized": "风格化"
       }
     }
   },
-  "lora": {
-    "scale": "縮放值",
-    "addLora": "新增 LoRA",
-    "loading": "載入中...",
-    "noLoraAvailable": "暫無可用的 LoRA",
-    "noLoraHint": "請先建立或匯入 LoRA 模型",
-    "configuration": "配置",
-    "loraConfig": "LoRA 配置",
-    "loraConfigHint": "請輸入有效的 JSON 格式配置",
-    "noLoraConfigured": "暫未配置 LoRA",
-    "clickAddLoraToStart": "點擊\"新增 LoRA\"按鈕開始配置",
-    "modalTitle": "選擇 LoRA 模型",
-    "modalSubtitle": "從 LoRA 庫中選擇模型，自訂縮放值以實現個性化風格",
-    "searchPlaceholder": "搜尋 LoRA 名稱、描述或觸發詞...",
-    "selectedLoras": "已選擇",
-    "noSelectedLoras": "暫未選擇 LoRA",
-    "clickToSelect": "點擊左側 LoRA 卡片進行選擇",
-    "noSearchResults": "未找到符合的 LoRA",
-    "confirm": "確認",
-    "cancel": "取消",
-    "selectLora": "選擇 LoRA",
-    "selectMore": "管理 LoRA",
-    "selectedCount": "已選擇 {count} 個 LoRA",
-    "manage": "管理"
+  "page": {
+    "description": "利用强大的人工智能模型创建精彩内容",
+    "loading": "正在加载...",
+    "title": "人工智能生成器"
   },
-  "comingSoon": {
-    "badge": "即將推出",
-    "defaultTitle": "令人期待的新功能",
-    "defaultDescription": "我們正在努力為您打造全新的強大功能，敬請期待！",
-    "feature1Title": "強大 AI",
-    "feature1Desc": "頂尖技術驅動",
-    "feature2Title": "智慧功能",
-    "feature2Desc": "自動化處理",
-    "feature3Title": "極速處理",
-    "feature3Desc": "閃電般快速",
-    "progressLabel": "開發進度",
-    "progressHint": "即將上線",
-    "moreTools": {
-      "title": "更多圖像工具",
-      "description": "探索強大的圖像工具，包括圖像放大、增強最佳化、格式轉換、批次處理等實用功能"
-    }
+  "results": {
+    "completedTime": "完成时间",
+    "downloadAll": "下载全部 ({count})",
+    "downloadCurrent": "下载电流",
+    "fileCount": "{count} file(s)",
+    "generationTime": "生成时间",
+    "prompt": "提示",
+    "seconds": "{seconds}s",
+    "title": "生成结果"
+  },
+  "seo": {
+    "description": "使用我们强大的 AI 图像生成工具，创建令人惊叹的 AI 图像。快速、专业、易用。",
+    "title": "人工智能生成器"
+  },
+  "tabs": {
+    "imageToImage": "图像到图像",
+    "more": "更多信息",
+    "textToImage": "文本到图像"
+  },
+  "tags": {
+    "art-gallery": "艺术画廊",
+    "currency": "货币",
+    "education": "教育",
+    "film-style": "电影风格",
+    "math": "数学",
+    "minimalist": "极简主义",
+    "moody": "穆迪",
+    "photorealistic": "逼真",
+    "portrait": "肖像",
+    "professional": "专业人员",
+    "retro": "复古",
+    "text-render": "文本渲染"
   }
 }

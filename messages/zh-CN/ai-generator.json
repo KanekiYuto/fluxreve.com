@@ -46,7 +46,7 @@
     "add": "添加",
     "addImageUrl": "添加图片 URL",
     "addItem": "添加项目",
-    "addLora": "添加 LoRA",
+    "addLora": "Add LoRA",
     "advancedSettings": "高级设置",
     "aspectRatio": "宽高比",
     "aspectRatioPlaceholder": "选择宽高比",
@@ -62,7 +62,7 @@
     "clickAddLoraToStart": "单击上面的按钮添加 LoRA 配置",
     "configuration": "配置",
     "imageUrlPlaceholder": "输入图片 URL",
-    "loraConfig": "LoRA 配置",
+    "loraConfig": "LoRA Config",
     "loraConfigHint": "以 JSON 格式输入 LoRA 配置，例如模型名称、重量和其他参数",
     "mode": {
       "imageToImage": "图像到图像",
@@ -92,8 +92,8 @@
     "uploading": "上传..."
   },
   "generate": {
-    "generateImage": "生成图像（成本 {信用点数} 配额） {credits}",
-    "generating": "正在生成...{progress}%"
+    "generateImage": "生成图像（成本 {credits} 配额）",
+    "generating": "Generating... {progress}%"
   },
   "loading": {
     "creating": "人工智能创建",
@@ -101,35 +101,35 @@
     "message": "为您生成精彩内容，请稍候..."
   },
   "lora": {
-    "addLora": "添加 LoRA",
+    "addLora": "Add LoRA",
     "cancel": "取消",
     "clickAddLoraToStart": "单击 \"添加 LoRA \"按钮开始配置",
     "clickToSelect": "点击左侧的 LoRA 卡，选择",
     "configuration": "配置",
     "confirm": "确认",
     "loading": "正在加载...",
-    "loraConfig": "LoRA 配置",
+    "loraConfig": "LoRA Config",
     "loraConfigHint": "请输入有效的 JSON 格式配置",
     "manage": "管理",
-    "modalSubtitle": "从 LoRA 库中进行选择，并自定义刻度，实现个性化风格",
+    "modalSubtitle": "从 LoRA 库中选择，并自定义比例，以获得个性化风格",
     "modalTitle": "选择 LoRA 型号",
-    "noLoraAvailable": "没有 LoRA",
+    "noLoraAvailable": "无 LoRA 可用信息",
     "noLoraConfigured": "未配置 LoRA",
     "noLoraHint": "请先创建或导入 LoRA 模型",
     "noSearchResults": "未找到匹配的 LoRA",
-    "noSelectedLoras": "未选择 LoRA",
+    "noSelectedLoras": "未选中 LoRA",
     "scale": "楼梯",
     "searchPlaceholder": "搜索 LoRA 名称、描述或触发词...",
-    "selectLora": "选择 LoRA",
-    "selectMore": "管理 LoRA",
-    "selectedCount": "{计数｝选择的 LoRA {count}",
+    "selectLora": "Select LoRA",
+    "selectMore": "Manage LoRA",
+    "selectedCount": "{count} LoRA(s) selected",
     "selectedLoras": "精选"
   },
   "modelGroups": {
-    "flux": "通量系列",
+    "flux": "Flux Series",
     "nano": "纳米系列",
-    "seedream": "种子流系列",
-    "zImage": "Z 图像系列"
+    "seedream": "Seedream Series",
+    "zImage": "Z-Image Series"
   },
   "models": {
     "flux2Pro": {
@@ -149,9 +149,9 @@
       }
     },
     "seedream": {
-      "description": "ByteDance Seedream 4.5，超高质量图像生成，大分辨率输出",
+      "description": "ByteDance Seedream 4.5，超高画质图像生成，大分辨率输出",
       "tags": {
-        "bytedance": "字节舞",
+        "bytedance": "ByteDance",
         "creative": "创意",
         "ultraHD": "超高清"
       }
@@ -165,10 +165,10 @@
       }
     },
     "zImageLora": {
-      "description": "Z-Image Turbo LoRA 版本支持自定义 LoRA 模型，可进行风格化创作",
+      "description": "Z-Image Turbo LoRA 版本带有自定义 LoRA 模型，支持风格化创作",
       "tags": {
         "customizable": "可定制",
-        "lora": "LoRA 支持",
+        "lora": "LoRA Support",
         "stylized": "风格化"
       }
     }
@@ -182,10 +182,10 @@
     "completedTime": "完成时间",
     "downloadAll": "全部下载 ({count})",
     "downloadCurrent": "下载电流",
-    "fileCount": "{个}文件 {count}",
+    "fileCount": "{count} file(s)",
     "generationTime": "生成时间",
     "prompt": "提示",
-    "seconds": "{秒}s {seconds}",
+    "seconds": "{seconds}s",
     "title": "生成结果"
   },
   "seo": {

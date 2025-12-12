@@ -1,53 +1,53 @@
 {
-  "seo": {
-    "title": "我的配額",
-    "description": "管理和查看您的可用配額使用情況和歷史記錄"
+  "empty": {
+    "active": "没有可用配额",
+    "activeDesc": "您目前没有可用配额。请购买配额以继续使用服务",
+    "expired": "没有过期配额",
+    "expiredDesc": "您没有过期配额记录"
   },
-  "title": "我的配額",
-  "subtitle": "管理和查看您的可用配額",
   "loginRequired": {
-    "title": "登入查看配額",
-    "description": "登入後即可查看您的配額使用情況和歷史記錄"
-  },
-  "summary": {
-    "title": "總可用額度",
-    "credits": "點數"
-  },
-  "tabs": {
-    "active": "有效配額",
-    "expired": "已過期"
-  },
-  "table": {
-    "type": "類型",
-    "amount": "總額",
-    "consumed": "已使用",
-    "available": "可用",
-    "issuedAt": "發放時間",
-    "expiresAt": "過期時間",
-    "noExpiry": "永不過期"
+    "description": "登录以查看配额使用情况和历史记录",
+    "title": "登录查看配额"
   },
   "quotaTypes": {
-    "daily_free": "每日免費配額",
-    "trial": "體驗版",
-    "monthly_basic": "月度基礎版",
-    "monthly_pro": "月度專業版",
-    "yearly_basic": "年度基礎版",
-    "yearly_pro": "年度專業版",
-    "quota_pack": "配額包",
-    "subscription_change_compensation": "訂閱變更補償"
+    "daily_free": "每日免费配额",
+    "monthly_basic": "每月基本费用",
+    "monthly_pro": "专业月刊",
+    "quota_pack": "配额包",
+    "subscription_change_compensation": "认购变更补偿",
+    "trial": "试用",
+    "yearly_basic": "每年基本",
+    "yearly_pro": "年度专业"
   },
-  "empty": {
-    "active": "暫無有效配額",
-    "activeDesc": "您目前沒有可用的配額，請購買配額後繼續使用服務",
-    "expired": "暫無過期配額",
-    "expiredDesc": "您沒有已過期的配額記錄"
-  },
-  "status": {
-    "active": "有效",
-    "depleted": "已用完"
+  "seo": {
+    "description": "管理并查看可用配额的使用情况和历史记录",
+    "title": "我的配额"
   },
   "stats": {
-    "consumed": "已使用",
-    "remaining": "剩餘"
-  }
+    "consumed": "已消费",
+    "remaining": "剩余"
+  },
+  "status": {
+    "active": "活跃",
+    "depleted": "耗尽"
+  },
+  "subtitle": "管理和查看可用配额",
+  "summary": {
+    "credits": "荣誉",
+    "title": "可用总数"
+  },
+  "table": {
+    "amount": "金额",
+    "available": "可用",
+    "consumed": "已消费",
+    "expiresAt": "到期日",
+    "issuedAt": "发布于",
+    "noExpiry": "从不",
+    "type": "类型"
+  },
+  "tabs": {
+    "active": "活动配额",
+    "expired": "已过期"
+  },
+  "title": "我的配额"
 }

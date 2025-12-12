@@ -1,9 +1,9 @@
 {
   "unauthorized": {
-    "backToHome": "Torna a casa",
-    "description": "Spiacente, non hai i permessi per accedere alla dashboard di amministrazione. Solo gli account di amministratore possono accedere a questa pagina.",
-    "helpDescription": "Se si ritiene che si tratti di un errore, contattare l'amministratore del sistema per richiedere l'accesso.",
-    "helpTitle": "Avete bisogno di aiuto?",
-    "title": "Accesso limitato"
+    "backToHome": "Volver al inicio",
+    "description": "Lo sentimos, no tienes permiso para acceder al panel de control del administrador. Sólo las cuentas de administrador pueden acceder a esta página.",
+    "helpDescription": "Si cree que se trata de un error, póngase en contacto con el administrador del sistema para solicitar acceso.",
+    "helpTitle": "¿Necesita ayuda?",
+    "title": "Acceso restringido"
   }
 }

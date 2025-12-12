@@ -30,8 +30,8 @@
     "model": {
       "all": "全部",
       "flux-2-pro": "FLUX 2 Pro",
-      "nano-banana-pro": "纳米香蕉 Pro",
-      "z-image": "Z 图像",
+      "nano-banana-pro": "Nano Banana Pro",
+      "z-image": "Z-Image",
       "z-image-lora": "Z-Image LoRA"
     },
     "modelLabel": "模型",
@@ -48,7 +48,7 @@
     "privacyLabel": "隐私权",
     "processing": "加工",
     "selectPlaceholder": "选择...",
-    "selectedCount": "已选择 {count}",
+    "selectedCount": "{count} selected",
     "statusLabel": "现状",
     "taskType": {
       "all": "全部",

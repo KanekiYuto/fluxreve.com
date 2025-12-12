@@ -1,50 +1,50 @@
 {
   "actions": {
-    "copyLink": "Copiare il link di condivisione",
-    "createSimilar": "Creare un'immagine simile",
-    "downloadAll": "Scarica tutte le immagini",
-    "downloadCard": "Scarica la scheda di condivisione",
-    "downloadCurrent": "Scarica l'immagine corrente",
-    "linkCopied": "Copiato",
-    "moreActions": "Altre azioni",
-    "share": "Condividi",
-    "shareToX": "Condividi con X"
+    "copyLink": "Copiar enlace para compartir",
+    "createSimilar": "Crear imagen similar",
+    "downloadAll": "Descargar todas las imágenes",
+    "downloadCard": "Descargar Share Card",
+    "downloadCurrent": "Descargar imagen actual",
+    "linkCopied": "Copied",
+    "moreActions": "Más acciones",
+    "share": "Compartir",
+    "shareToX": "Compartir a X"
   },
   "details": {
-    "aiModel": "Modello AI",
-    "aspectRatio": "Rapporto d'aspetto",
-    "copyPrompt": "Prompt di copia",
-    "generationResults": "Risultati della generazione di immagini AI",
-    "imageAlt": "Immagine",
-    "imagePreview": "Anteprima dell'immagine HD generata dall'intelligenza artificiale",
-    "nextImage": "Immagine successiva",
-    "parametersInfo": "Parametri di generazione e informazioni sul modello",
-    "previousImage": "Immagine precedente",
-    "prompt": "Prompt",
-    "promptCopied": "Copiato",
-    "referenceImage": "Immagine di ingresso",
-    "referenceImages": "Immagini in ingresso",
-    "resolution": "Risoluzione"
+    "aiModel": "Modelo de IA",
+    "aspectRatio": "Relación de aspecto",
+    "copyPrompt": "Aviso de copia",
+    "generationResults": "Resultados de la generación de imágenes AI",
+    "imageAlt": "Imagen",
+    "imagePreview": "Previsualización de imágenes HD generadas por IA",
+    "nextImage": "Imagen siguiente",
+    "parametersInfo": "Parámetros de generación e información sobre el modelo",
+    "previousImage": "Imagen anterior",
+    "prompt": "Pregunte a",
+    "promptCopied": "Copied",
+    "referenceImage": "Imagen de entrada",
+    "referenceImages": "Imágenes de entrada",
+    "resolution": "Resolución"
   },
   "metadata": {
-    "descriptionPrefix": "Imagen de alta calidad generada con modelo AI. Prompt: {model}",
-    "ogDescriptionPrefix": "Generado por IA | {model}"
+    "descriptionPrefix": "Imagen de alta calidad generada con el modelo AI {model}. Preguntar:",
+    "ogDescriptionPrefix": "{model} AI Generated |"
   },
   "notFound": {
-    "createButton": "Creare opere d'arte AI",
-    "description": "Questo contenuto condiviso potrebbe essere stato cancellato dal creatore, impostato come privato, il link potrebbe essere scaduto, oppure potreste aver effettuato l'accesso all'indirizzo sbagliato.",
-    "homeButton": "Torna a casa",
-    "title": "Contenuto non trovato"
+    "createButton": "Crear ilustraciones AI",
+    "description": "Este contenido compartido puede haber sido eliminado por el creador, configurado como privado, el enlace puede haber caducado o puede que haya accedido a la dirección incorrecta.",
+    "homeButton": "Volver al inicio",
+    "title": "Contenido no encontrado"
   },
   "nsfw": {
-    "description": "Questo contenuto può contenere materiale per adulti o sensibile. Si consiglia la discrezione degli spettatori",
-    "imageAlt": "Immagine generata dall'intelligenza artificiale",
-    "reveal": "Sono 18+, Visualizza contenuto",
-    "warning": "Avvertenza sui contenuti sensibili"
+    "description": "Este contenido puede contener material para adultos o sensible. Se recomienda discreción al espectador",
+    "imageAlt": "Imagen generada por IA",
+    "reveal": "Soy mayor de 18 años, Ver contenido",
+    "warning": "Aviso de contenido sensible"
   },
   "processing": {
-    "description": "L'IA sta creando l'opera d'arte corrente; di solito questo richiede pochi minuti.",
-    "tip": "Aggiornare la pagina più tardi per visualizzare il risultato.",
-    "title": "Generare..."
+    "description": "AI está creando la obra de arte actual, esto suele tardar unos minutos",
+    "tip": "Actualice la página más tarde para ver el resultado",
+    "title": "Generar..."
   }
 }

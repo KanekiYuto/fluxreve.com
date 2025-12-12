@@ -1,47 +1,47 @@
 {
-  "seo": {
-    "title": "任務詳情",
-    "description": "查看您的 AI 圖像生成任務詳細資訊和結果"
-  },
   "details": {
-    "generationResults": "生成結果",
-    "imagePreview": "圖片預覽",
-    "imageAlt": "圖片",
-    "parametersInfo": "參數資訊",
-    "aiModel": "AI 模型",
+    "aiModel": "人工智能模型",
+    "aspectRatio": "宽高比",
+    "completedAt": "在",
+    "copyPrompt": "复制提示",
+    "createdAt": "创建于",
+    "defaultPrompt": "人工智能生成的图像",
+    "duration": "持续时间",
+    "generationResults": "生成结果",
+    "imageAlt": "图片",
+    "imagePreview": "图片预览",
+    "isNsfw": "NSFW Content",
+    "isPrivate": "私人时装",
+    "metaDescription": "使用 {model} 生成的 AI 图像",
+    "nextImage": "下一张图片",
+    "no": "没有",
+    "parametersInfo": "参数信息",
+    "previousImage": "上一张图片",
+    "prompt": "提示",
+    "promptCopied": "复制的",
+    "quotaConsumed": "使用的学分",
+    "referenceImage": "输入图像",
+    "referenceImages": "输入图像",
+    "resolution": "决议",
+    "seed": "种子",
     "size": "尺寸",
-    "resolution": "解析度",
-    "aspectRatio": "寬高比",
-    "seed": "隨機種子",
-    "steps": "步數",
-    "duration": "生成耗時",
-    "quotaConsumed": "消耗積分",
-    "isPrivate": "私有模式",
-    "isNsfw": "NSFW 內容",
-    "yes": "是",
-    "no": "否",
-    "createdAt": "創建時間",
-    "completedAt": "完成時間",
-    "prompt": "提示詞",
-    "copyPrompt": "複製提示詞",
-    "promptCopied": "已複製",
-    "previousImage": "上一張圖片",
-    "nextImage": "下一張圖片",
-    "referenceImages": "輸入圖片",
-    "referenceImage": "輸入圖片",
-    "metaDescription": "使用 {model} 生成的 AI 圖像",
-    "defaultPrompt": "AI 生成的圖像"
-  },
-  "processing": {
-    "title": "任務處理中",
-    "description": "您的圖像正在生成中，請稍候片刻...",
-    "tip": "通常需要幾秒到幾分鐘時間",
-    "failedTitle": "任務失敗",
-    "failedDescription": "抱歉，圖像生成失敗。請稍後重試或聯絡客服。"
+    "steps": "步骤",
+    "yes": "是"
   },
   "notFound": {
-    "title": "任務不存在",
-    "description": "抱歉，找不到您要查看的任務。任務可能已被刪除或連結無效。",
-    "backToHome": "返回首頁"
+    "backToHome": "返回首页",
+    "description": "对不起，找不到您要查找的任务。它可能已被删除或链接无效。",
+    "title": "未找到任务"
+  },
+  "processing": {
+    "description": "正在生成您的图像，请稍候...",
+    "failedDescription": "抱歉，图像生成失败。请稍后再试或联系技术支持。",
+    "failedTitle": "任务失败",
+    "tip": "通常需要几秒钟到几分钟的时间",
+    "title": "任务处理"
+  },
+  "seo": {
+    "description": "查看人工智能图像生成任务的详细信息和结果",
+    "title": "任务详情"
   }
 }

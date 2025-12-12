@@ -1,36 +1,36 @@
 {
   "card": {
-    "createdAt": "Creato",
-    "viewDetail": "Visualizza dettagli"
+    "createdAt": "Creado",
+    "viewDetail": "Ver detalles"
   },
-  "createSimilar": "Creare simili",
+  "createSimilar": "Crear similares",
   "empty": {
-    "cta": "Iniziare a creare",
-    "subtitle": "Nessuna opera d'arte pubblica è stata ancora condivisa. Sii il primo a condividere la tua creazione!",
-    "title": "Non ci sono ancora opere d'arte"
+    "cta": "Empezar a crear",
+    "subtitle": "Aún no se ha compartido ninguna obra de arte pública. ¡Sé el primero en compartir tu creación!",
+    "title": "Aún no hay obras"
   },
   "errors": {
-    "fetchFailed": "Impossibile caricare il contenuto, riprovare",
-    "retry": "Riprova"
+    "fetchFailed": "No se ha podido cargar el contenido, inténtelo de nuevo",
+    "retry": "Reintentar"
   },
   "gallery": {
-    "loadMore": "Per saperne di più",
-    "loading": "Caricamento...",
-    "noMore": "Non ci sono più articoli"
+    "loadMore": "Más información",
+    "loading": "Cargando...",
+    "noMore": "No más artículos"
   },
   "header": {
-    "subtitle": "Esplorate le incredibili creazioni della nostra comunità e scoprite la vostra ispirazione",
-    "title": "Comunità creativa"
+    "subtitle": "Explora las increíbles creaciones de nuestra comunidad y descubre tu inspiración",
+    "title": "Comunidad creativa"
   },
   "nsfw": {
-    "badge": "Contenuti sensibili",
-    "cancel": "Indietro",
-    "confirm": "Sono 18+, Mostra contenuto",
-    "description": "Questo contenuto può contenere materiale per adulti o sensibile. Si prega di confermare di avere più di 18 anni prima della visione.",
-    "warning": "Avvertenza sui contenuti sensibili"
+    "badge": "Contenido sensible",
+    "cancel": "Volver",
+    "confirm": "Soy mayor de 18 años, Mostrar contenido",
+    "description": "Este contenido puede contener material para adultos o sensible. Por favor, confirme que es mayor de 18 años antes de verlo.",
+    "warning": "Aviso de contenido sensible"
   },
   "seo": {
-    "description": "Sfogliate le splendide immagini generate dall'intelligenza artificiale create dai membri della nostra comunità, lasciatevi ispirare e scoprite opere d'arte straordinarie.",
-    "title": "Comunità creativa - Esplora l'incredibile arte dell'intelligenza artificiale"
+    "description": "Navega por las bellas imágenes generadas por IA creadas por los miembros de nuestra comunidad, inspírate y descubre obras de arte asombrosas.",
+    "title": "Comunidad creativa - Explora el asombroso arte de la IA"
   }
 }

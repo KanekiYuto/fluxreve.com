@@ -27,8 +27,8 @@
     "resolution": "决议"
   },
   "metadata": {
-    "descriptionPrefix": "使用 {model} 生成的高质量图像人工智能模型。提示：",
-    "ogDescriptionPrefix": "{模型｝人工智能生成 {model}"
+    "descriptionPrefix": "使用 {model} AI 模型生成的高质量图像。提示：",
+    "ogDescriptionPrefix": "{model} AI 生成 |"
   },
   "notFound": {
     "createButton": "创建 AI 艺术品",

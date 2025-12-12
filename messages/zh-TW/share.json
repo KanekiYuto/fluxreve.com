@@ -1,50 +1,50 @@
 {
-  "notFound": {
-    "title": "內容不存在",
-    "description": "該分享內容可能已被創作者刪除、設為私密、連結已過期，或者您訪問的地址有誤",
-    "createButton": "創建 AI 作品",
-    "homeButton": "返回首頁"
-  },
-  "nsfw": {
-    "warning": "敏感內容警告",
-    "description": "此內容可能包含成人或敏感素材，僅限成年人查看",
-    "reveal": "我已年滿18歲，查看內容",
-    "imageAlt": "AI 生成圖像"
-  },
-  "processing": {
-    "title": "生成中...",
-    "description": "AI 正在創作當前的作品，通常需要幾分鐘時間",
-    "tip": "請稍後刷新頁面查看結果"
-  },
   "actions": {
-    "copyLink": "複製分享連結",
-    "linkCopied": "已複製",
+    "copyLink": "复制分享链接",
+    "createSimilar": "创建相似图像",
+    "downloadAll": "下载所有图片",
+    "downloadCard": "下载分享卡",
+    "downloadCurrent": "下载当前图片",
+    "linkCopied": "复制的",
+    "moreActions": "更多行动",
     "share": "分享",
-    "shareToX": "分享到 X",
-    "moreActions": "更多操作",
-    "downloadCurrent": "下載當前圖片",
-    "downloadAll": "下載全部圖片",
-    "downloadCard": "下載分享卡片",
-    "createSimilar": "創建相似圖片"
+    "shareToX": "分享到 X"
   },
   "details": {
-    "prompt": "提示詞",
-    "promptCopied": "已複製",
-    "copyPrompt": "複製提示詞",
-    "aiModel": "AI 模型",
-    "resolution": "解析度",
-    "aspectRatio": "寬高比",
-    "imageAlt": "圖片",
-    "previousImage": "上一張圖片",
-    "nextImage": "下一張圖片",
-    "referenceImages": "輸入圖片",
-    "referenceImage": "輸入圖片",
-    "generationResults": "AI 圖片生成結果展示",
-    "imagePreview": "AI 生成的高清圖片預覽",
-    "parametersInfo": "圖片生成參數與模型資訊"
+    "aiModel": "人工智能模型",
+    "aspectRatio": "宽高比",
+    "copyPrompt": "复制提示",
+    "generationResults": "人工智能图像生成结果",
+    "imageAlt": "图片",
+    "imagePreview": "人工智能生成的高清图像预览",
+    "nextImage": "下一张图片",
+    "parametersInfo": "发电参数和模型信息",
+    "previousImage": "上一张图片",
+    "prompt": "提示",
+    "promptCopied": "复制的",
+    "referenceImage": "输入图像",
+    "referenceImages": "输入图像",
+    "resolution": "决议"
   },
   "metadata": {
-    "descriptionPrefix": "使用 {model} AI 模型生成的高質量圖片。提示詞: ",
-    "ogDescriptionPrefix": "{model} AI 生成 | "
+    "descriptionPrefix": "使用 {model} AI 模型生成的高质量图像。提示：",
+    "ogDescriptionPrefix": "{model} AI 生成 | 生成"
+  },
+  "notFound": {
+    "createButton": "创建 AI 艺术品",
+    "description": "该共享内容可能已被创建者删除、设置为非公开、链接可能已过期，或者您可能访问了错误的地址",
+    "homeButton": "返回首页",
+    "title": "未找到内容"
+  },
+  "nsfw": {
+    "description": "本内容可能包含成人或敏感内容。建议观众谨慎观看",
+    "imageAlt": "人工智能生成的图像",
+    "reveal": "我已年满 18 岁, 查看内容",
+    "warning": "敏感内容警告"
+  },
+  "processing": {
+    "description": "人工智能正在创建当前艺术品，这通常需要几分钟时间",
+    "tip": "请稍后刷新页面以查看结果",
+    "title": "生成..."
   }
 }

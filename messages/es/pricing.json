@@ -1,153 +1,153 @@
 {
   "billing": {
-    "discount": "Risparmiare il 20%",
-    "month": "mese",
-    "monthly": "Mensile",
-    "save": "Ahorra $ {amount}",
-    "year": "anno",
-    "yearly": "Annuale"
+    "discount": "Ahorra un 20%.",
+    "month": "mes",
+    "monthly": "Mensualmente",
+    "save": "Save ${amount}",
+    "year": "año",
+    "yearly": "Anualmente"
   },
   "faq": {
-    "badge": "FAQ",
+    "badge": "PREGUNTAS FRECUENTES",
     "items": [
       {
-        "answer": "I crediti vengono utilizzati per generare immagini con i nostri modelli AI. Ogni generazione di immagini consuma un certo numero di crediti a seconda della risoluzione e del modello utilizzato. Gli utenti gratuiti ricevono 30 crediti al giorno, mentre gli abbonati al piano Basic ricevono 1.500 crediti al mese (o 18.000 all'anno) e gli abbonati al piano Pro ricevono 7.500 crediti al mese (o 90.000 all'anno).",
-        "question": "Come funzionano i crediti?"
+        "answer": "Los créditos se utilizan para generar imágenes con nuestros modelos de IA. Cada generación de imágenes consume un determinado número de créditos en función de la resolución y el modelo utilizados. Los usuarios gratuitos obtienen 30 créditos diarios, mientras que los suscriptores del plan Básico obtienen 1.500 créditos mensuales (o 18.000 anuales) y los suscriptores del plan Pro 7.500 créditos mensuales (o 90.000 anuales).",
+        "question": "¿Cómo funcionan los créditos?"
       },
       {
-        "answer": "I piani annuali offrono uno sconto del 20% rispetto ai piani mensili. Ad esempio, Basic mensile costa 15 dollari al mese (1.500 crediti), mentre Basic annuale costa 144 dollari all'anno (18.000 crediti in totale). Con gli abbonamenti annuali si risparmia e si ottiene un valore maggiore.",
-        "question": "Qual è la differenza tra i piani mensili e annuali?"
+        "answer": "Los planes anuales ofrecen un 20% de descuento en comparación con los planes mensuales. Por ejemplo, Basic mensual cuesta 15 $/mes (1.500 créditos), mientras que Basic anual cuesta 144 $/año (18.000 créditos en total). Ahorras dinero y obtienes más valor con las suscripciones anuales.",
+        "question": "¿Cuál es la diferencia entre los planes mensuales y anuales?"
       },
       {
-        "answer": "Sì! Potete aggiornare il vostro piano in qualsiasi momento e la differenza di prezzo sarà proporzionale. Quando si effettua un upgrade, si riceve immediatamente l'intera quota di credito del nuovo piano. I downgrade entrano in vigore all'inizio del ciclo di fatturazione successivo.",
-        "question": "Posso aggiornare o ridurre il mio piano?"
+        "answer": "Sí, puede cambiar de plan en cualquier momento y la diferencia de precio se prorrateará. Al cambiar de plan, recibirá inmediatamente toda la cuota de crédito del nuevo plan. Las reducciones de plan entran en vigor al inicio del siguiente ciclo de facturación.",
+        "question": "¿Puedo cambiar de plan?"
       },
       {
-        "answer": "Per gli utenti gratuiti, i crediti giornalieri si azzerano ogni giorno e non si accumulano. Per gli abbonati, i crediti scadono in base alla data di scadenza. Ogni quota di credito ha un proprio periodo di scadenza e i crediti non utilizzati scadono automaticamente al termine di tale periodo.",
-        "question": "Cosa succede ai crediti non utilizzati?"
+        "answer": "Para los usuarios gratuitos, los créditos diarios se reinician cada día y no se acumulan. Para los suscriptores, los créditos caducan en función de su fecha de vencimiento. Cada cuota de créditos tiene su propio periodo de caducidad, y los créditos no utilizados caducarán automáticamente cuando finalice dicho periodo.",
+        "question": "¿Qué ocurre con los créditos no utilizados?"
       },
       {
-        "answer": "Per i piani mensili, si ottengono 100 crediti per ogni dollaro speso. Per i piani annuali, si ottengono 100 crediti per dollaro per 12 mesi. Ad esempio: Basic mensile (15 dollari) = 1.500 crediti, Basic annuale (144 dollari) = 18.000 crediti.",
-        "question": "Come funziona il calcolo della quota di credito?"
+        "answer": "En los planes mensuales, se obtienen 100 créditos por dólar gastado. En los planes anuales, se obtienen 100 créditos por dólar gastado × 12 meses. Por ejemplo: Básico mensual (15 $) = 1.500 créditos, Básico anual (144 $) = 18.000 créditos.",
+        "question": "¿Cómo se calcula la cuota de crédito?"
       },
       {
-        "answer": "Sì! Il passaggio da mensile ad annuale all'interno dello stesso livello di piano (ad esempio, da Basic mensile a Basic annuale) è considerato un cambiamento, non un aggiornamento. Il nuovo ciclo di fatturazione entrerà in vigore in base alla politica di modifica del piano.",
-        "question": "Posso passare dalla fatturazione mensile a quella annuale?"
+        "answer": "Sí. El cambio de mensual a anual dentro del mismo nivel de plan (por ejemplo, de Básico mensual a Básico anual) se considera un cambio, no una actualización. El nuevo ciclo de facturación entrará en vigor de acuerdo con la política de cambio de plan.",
+        "question": "¿Puedo cambiar entre facturación mensual y anual?"
       },
       {
-        "answer": "Quando si effettua l'aggiornamento, viene addebitato un importo proporzionale per il resto del periodo di fatturazione corrente. Riceverete immediatamente l'intera quota di credito del nuovo piano, mentre i crediti esistenti rimarranno disponibili fino alla loro data di scadenza.",
-        "question": "Cosa succede se faccio un upgrade a metà ciclo?"
+        "answer": "Cuando actualice su plan, se le cobrará una cantidad prorrateada por el resto de su periodo de facturación actual. Recibirás inmediatamente la cuota completa de créditos de tu nuevo plan, y los créditos existentes seguirán disponibles hasta su fecha de caducidad.",
+        "question": "¿Qué pasa si actualizo a mitad de ciclo?"
       },
       {
-        "answer": "Gli utenti del piano gratuito possono utilizzare le immagini generate solo per progetti personali. Gli abbonati ai piani Basic e Pro ricevono una licenza per uso commerciale, che consente di utilizzare le immagini per scopi commerciali, materiali di marketing e progetti dei clienti.",
-        "question": "Posso utilizzare le immagini generate a fini commerciali?"
+        "answer": "Los usuarios del plan gratuito sólo pueden utilizar las imágenes generadas para proyectos personales. Los suscriptores de los planes Basic y Pro reciben una licencia de uso comercial que les permite utilizar las imágenes para fines comerciales, materiales de marketing y proyectos de clientes.",
+        "question": "¿Puedo utilizar comercialmente las imágenes generadas?"
       },
       {
-        "answer": "Il piano Pro offre un numero di crediti 5 volte superiore a quello del piano Basic, oltre all'accesso a tutti i modelli AI avanzati, all'altissima risoluzione (2048x2048), alle funzioni di generazione di batch e all'assistenza clienti prioritaria. Il piano Basic è ideale per i singoli, mentre Pro è pensato per i creatori e i team professionali.",
-        "question": "Qual è la differenza tra i piani Basic e Pro?"
+        "answer": "El plan Pro ofrece 5 veces más créditos que el Basic, además de acceso a todos los modelos avanzados de IA, resolución ultra alta (2048x2048), funciones de generación por lotes y atención al cliente prioritaria. El plan Basic es ideal para particulares, mientras que el Pro está diseñado para creadores profesionales y equipos.",
+        "question": "¿Cuál es la diferencia entre los planes Basic y Pro?"
       },
       {
-        "answer": "Ci integriamo con la piattaforma di pagamento Creem che supporta diversi metodi di pagamento. Tutte le transazioni vengono elaborate in modo sicuro attraverso il loro gateway di pagamento.",
-        "question": "Quali metodi di pagamento accettate?"
+        "answer": "Integramos con Creem plataforma de pago que soporta varios métodos de pago. Todas las transacciones se procesan de forma segura a través de su pasarela de pago.",
+        "question": "¿Qué métodos de pago aceptan?"
       },
       {
-        "answer": "Sì, è possibile annullare l'abbonamento in qualsiasi momento. Il vostro piano rimarrà attivo fino alla fine del periodo di fatturazione corrente e potrete continuare a utilizzare i crediti rimanenti fino alla loro scadenza.",
-        "question": "Posso cancellare il mio abbonamento in qualsiasi momento?"
+        "answer": "Sí, puede cancelar su suscripción en cualquier momento. Tu plan permanecerá activo hasta el final del periodo de facturación actual y podrás seguir utilizando los créditos restantes hasta que caduquen.",
+        "question": "¿Puedo cancelar mi suscripción en cualquier momento?"
       },
       {
-        "answer": "Ogni quota di credito ha un proprio periodo di scadenza. La durata esatta dipende dal piano di abbonamento e dal momento in cui i crediti sono stati concessi. È possibile controllare la data di scadenza dei crediti nel cruscotto del proprio account. I crediti vengono consumati in base al principio \"primo entrato, primo uscito\".",
-        "question": "Quanto durano i crediti dopo l'acquisto?"
+        "answer": "Cada cuota de créditos tiene su propio periodo de caducidad. La duración exacta depende de su plan de suscripción y de cuándo se concedieron los créditos. Puede consultar la fecha de caducidad de sus créditos en el panel de control de su cuenta. Los créditos se consumen por orden de llegada.",
+        "question": "¿Cuánto duran los créditos después de la compra?"
       }
     ],
-    "subtitle": "Trovate le risposte alle domande più comuni sui nostri piani tariffari e sui nostri servizi.",
-    "title": "Domande frequenti"
+    "subtitle": "Respuestas a las preguntas más frecuentes sobre nuestros planes de precios y servicios",
+    "title": "Preguntas frecuentes"
   },
   "meta": {
-    "description": "Scegliete il piano perfetto per le vostre esigenze. Opzioni di prezzo flessibili per privati e aziende, con generazione di immagini basata sull'intelligenza artificiale.",
-    "title": "Piani tariffari"
+    "description": "Elija el plan perfecto para sus necesidades. Opciones de precios flexibles para particulares y empresas con generación de imágenes basada en IA.",
+    "title": "Planes de precios"
   },
-  "recommended": "I più popolari",
+  "recommended": "Más populares",
   "status": {
-    "configuring": "Configurazione...",
-    "current": "Piano attuale",
-    "downgrade": "Declassamento",
-    "loading": "Caricamento...",
-    "processing": "Elaborazione...",
-    "scheduled": "In programma",
-    "upgrade": "Aggiornamento"
+    "configuring": "Configurar...",
+    "current": "Plan actual",
+    "downgrade": "Baja de categoría",
+    "loading": "Cargando...",
+    "processing": "Procesando...",
+    "scheduled": "Programado",
+    "upgrade": "Actualizar"
   },
-  "subtitle": "Opzioni di prezzo flessibili per soddisfare le esigenze di privati e aziende",
+  "subtitle": "Opciones de precios flexibles para satisfacer las necesidades de particulares y empresas",
   "tiers": [
     {
-      "cta": "Prova ora",
-      "description": "créditos contingentarios {quota}",
+      "cta": "Pruebe ahora",
+      "description": "{quota} compartir créditos",
       "features": [
-        "cuota de créditos {quota}",
-        "Puede generar hasta /5 imágenes de alta calidad {quota}",
-        "Tutti i modelli AI standard",
-        "Alta risoluzione (1024x1024)",
-        "Esportazione senza filigrana"
+        "{quota} créditos cuota",
+        "Puede generar hasta {quota}/5 imágenes de alta calidad",
+        "Todos los modelos estándar de IA",
+        "Alta resolución (1024x1024)",
+        "Exportación sin marcas de agua"
       ],
-      "name": "Processo",
+      "name": "Ensayo",
       "unsupportedFeatures": [
-        "Rinnovo automatico",
-        "Risoluzione ultraelevata",
-        "Generazione di lotti",
-        "Assistenza prioritaria"
+        "Renovación automática",
+        "Resolución ultra alta",
+        "Generación de lotes",
+        "Asistencia prioritaria"
       ]
     },
     {
-      "cta": "Iscriviti ora",
-      "description": "Per singoli utenti e piccoli progetti",
+      "cta": "Suscríbase ahora",
+      "description": "Para usuarios particulares y pequeños proyectos",
       "features": [
-        "cuota de créditos {quota}",
-        "Puede generar hasta /5 imágenes de alta calidad {quota}",
-        "Modelli AI standard",
-        "Alta risoluzione (1024x1024)",
-        "Coda di generazione prioritaria",
-        "Esportazione senza filigrana",
-        "Assistenza clienti via e-mail",
-        "Licenza per uso commerciale"
+        "{quota} créditos cuota",
+        "Puede generar hasta {quota}/5 imágenes de alta calidad",
+        "Modelos estándar de IA",
+        "Alta resolución (1024x1024)",
+        "Cola de generación de prioridades",
+        "Exportación sin marcas de agua",
+        "Atención al cliente por correo electrónico",
+        "Licencia de uso comercial"
       ],
-      "name": "Base",
+      "name": "Básico",
       "unsupportedFeatures": [
-        "Risoluzione ultraelevata",
-        "Generazione di lotti"
+        "Resolución ultra alta",
+        "Generación de lotes"
       ]
     },
     {
-      "cta": "Iscriviti ora",
-      "description": "Per i creatori professionisti e la collaborazione in team",
+      "cta": "Suscríbase ahora",
+      "description": "Para creadores profesionales y colaboración en equipo",
       "features": [
-        "cuota de créditos {quota}",
-        "Puede generar hasta /5 imágenes de alta calidad {quota}",
-        "Tutti i modelli AI avanzati",
-        "Risoluzione altissima (2048x2048)",
-        "Coda a priorità massima",
-        "Generazione di lotti",
-        "Esportazione senza filigrana",
-        "Assistenza clienti prioritaria",
-        "Licenza per uso commerciale"
+        "{quota} créditos cuota",
+        "Puede generar hasta {quota}/5 imágenes de alta calidad",
+        "Todos los modelos avanzados de IA",
+        "Resolución ultra alta (2048x2048)",
+        "Cola de mayor prioridad",
+        "Generación de lotes",
+        "Exportación sin marcas de agua",
+        "Atención al cliente prioritaria",
+        "Licencia de uso comercial"
       ],
       "name": "Pro"
     },
     {
-      "cta": "Iniziare",
-      "description": "Perfetto per la prova personale e l'uso leggero",
+      "cta": "Comenzar",
+      "description": "Perfecto para pruebas personales y un uso ligero",
       "features": [
-        "cuota de créditos por día {quota}",
-        "Puede generar hasta /5 imágenes al día {quota}",
-        "Modelli di AI di base",
-        "Risoluzione standard (512x512)"
+        "{quota} cuota de créditos por día",
+        "Puede generar hasta {quota}/5 imágenes al día",
+        "Modelos básicos de IA",
+        "Resolución estándar (512x512)"
       ],
-      "name": "Gratuito",
+      "name": "Gratis",
       "unsupportedFeatures": [
-        "Alta risoluzione",
-        "Coda di priorità",
-        "Esportazione senza filigrana",
-        "Assistenza clienti"
+        "Alta resolución",
+        "Cola prioritaria",
+        "Exportación sin marcas de agua",
+        "Atención al cliente"
       ]
     }
   ],
-  "title": "Scegliete il vostro piano"
+  "title": "Elija su plan"
 }

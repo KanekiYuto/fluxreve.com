@@ -31,8 +31,8 @@
       "all": "Tutti",
       "flux-2-pro": "FLUX 2 Pro",
       "nano-banana-pro": "Nano Banana Pro",
-      "z-image": "Immagine Z",
-      "z-image-lora": "Immagine Z LoRA"
+      "z-image": "Z-Image",
+      "z-image-lora": "Z-Image LoRA"
     },
     "modelLabel": "Modello",
     "nsfw": {
@@ -48,7 +48,7 @@
     "privacyLabel": "Privacy",
     "processing": "Elaborazione",
     "selectPlaceholder": "Selezionare...",
-    "selectedCount": "{count} selezionato",
+    "selectedCount": "{count} selected",
     "statusLabel": "Stato",
     "taskType": {
       "all": "Tutti",

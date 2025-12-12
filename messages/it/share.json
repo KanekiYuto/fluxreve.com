@@ -28,7 +28,7 @@
   },
   "metadata": {
     "descriptionPrefix": "Immagine di alta qualità generata con il modello AI {model}. Prompt:",
-    "ogDescriptionPrefix": "{model} Generato dall'AI."
+    "ogDescriptionPrefix": "{model} AI Generato |"
   },
   "notFound": {
     "createButton": "Creare opere d'arte AI",

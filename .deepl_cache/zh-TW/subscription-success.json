@@ -1,0 +1,88 @@
+{
+  "entries": {
+    "Auto redirecting to dashboard in {seconds} seconds...": {
+      "translation": "在 {seconds} 秒内自动重定向到仪表板...",
+      "timestamp": 1765575353
+    },
+    "Basic - Monthly": {
+      "translation": "基本 - 每月",
+      "timestamp": 1765575353
+    },
+    "Basic - Yearly": {
+      "translation": "基本 - 每年",
+      "timestamp": 1765575353
+    },
+    "Plan": {
+      "translation": "计划",
+      "timestamp": 1765575353
+    },
+    "Pro - Monthly": {
+      "translation": "专业 - 每月",
+      "timestamp": 1765575353
+    },
+    "Pro - Yearly": {
+      "translation": "专业 - 每年",
+      "timestamp": 1765575353
+    },
+    "Redirecting...": {
+      "translation": "重定向...",
+      "timestamp": 1765575353
+    },
+    "Start Using Now": {
+      "translation": "立即开始使用",
+      "timestamp": 1765575353
+    },
+    "Start using AI generators to create stunning images": {
+      "translation": "开始使用人工智能生成器创建令人惊叹的图像",
+      "timestamp": 1765575353
+    },
+    "Status": {
+      "translation": "现状",
+      "timestamp": 1765575353
+    },
+    "Subscription Details": {
+      "translation": "订阅详情",
+      "timestamp": 1765575353
+    },
+    "Subscription Successful": {
+      "translation": "订阅成功",
+      "timestamp": 1765575353
+    },
+    "Subscription Successful!": {
+      "translation": "订阅成功！",
+      "timestamp": 1765575353
+    },
+    "Subscription not found": {
+      "translation": "未找到订阅",
+      "timestamp": 1765575353
+    },
+    "Thank you for subscribing! Your account has been successfully upgraded": {
+      "translation": "感谢您的订阅！您的账户已成功升级",
+      "timestamp": 1765575353
+    },
+    "Thank you for subscribing. Your account has been successfully upgraded and you can now enjoy all premium features.": {
+      "translation": "感谢您的订阅。您的账户已成功升级，现在可以享受所有高级功能。",
+      "timestamp": 1765575353
+    },
+    "Unknown Plan": {
+      "translation": "未知计划",
+      "timestamp": 1765575353
+    },
+    "View Subscription": {
+      "translation": "查看订阅",
+      "timestamp": 1765575353
+    },
+    "View your subscription details in the subscription management page": {
+      "translation": "在订阅管理页面查看订阅详情",
+      "timestamp": 1765575353
+    },
+    "Visit your dashboard to explore all available features": {
+      "translation": "访问您的仪表板，了解所有可用功能",
+      "timestamp": 1765575353
+    },
+    "What's Next": {
+      "translation": "下一步行动",
+      "timestamp": 1765575353
+    }
+  }
+}

@@ -1,37 +1,37 @@
 {
-  "seo": {
-    "title": "訂閱成功",
-    "description": "感謝您的訂閱！您的帳戶已成功升級"
-  },
-  "title": "訂閱成功！",
-  "description": "感謝您的訂閱，您的帳戶已成功升級。現在即可享受所有高級功能。",
-  "loading": "載入中...",
-  "notFound": "未找到訂閱資訊",
-  "details": {
-    "title": "訂閱詳情",
-    "plan": "訂閱方案",
-    "amount": "訂閱金額",
-    "status": "狀態",
-    "statusActive": "已激活"
-  },
-  "nextSteps": {
-    "title": "接下來您可以",
-    "step1": "訪問您的儀表板，查看所有可用功能",
-    "step2": "開始使用 AI 生成器創建精美圖像",
-    "step3": "在訂閱管理頁面查看您的訂閱詳情"
-  },
   "actions": {
-    "startUsing": "立即開始使用",
-    "redirecting": "跳轉中...",
-    "viewSubscription": "查看訂閱詳情"
+    "redirecting": "重定向...",
+    "startUsing": "立即开始使用",
+    "viewSubscription": "查看订阅"
   },
-  "autoRedirect": "{seconds} 秒後自動跳轉至儀表板...",
+  "autoRedirect": "在 {seconds} 秒内自动重定向到仪表板...",
+  "description": "感谢您的订阅。您的账户已成功升级，现在可以享受所有高级功能。",
+  "details": {
+    "amount": "金额",
+    "plan": "计划",
+    "status": "现状",
+    "statusActive": "活跃",
+    "title": "订阅详情"
+  },
+  "loading": "正在加载...",
+  "nextSteps": {
+    "step1": "访问您的仪表板，了解所有可用功能",
+    "step2": "开始使用人工智能生成器创建令人惊叹的图像",
+    "step3": "在订阅管理页面查看订阅详情",
+    "title": "下一步行动"
+  },
+  "notFound": "未找到订阅",
   "planTypes": {
-    "trial": "試用版",
-    "monthly_basic": "基礎版 - 月付",
-    "yearly_basic": "基礎版 - 年付",
-    "monthly_pro": "專業版 - 月付",
-    "yearly_pro": "專業版 - 年付",
-    "unknown": "未知方案"
-  }
+    "monthly_basic": "基本 - 每月",
+    "monthly_pro": "专业 - 每月",
+    "trial": "试用",
+    "unknown": "未知计划",
+    "yearly_basic": "基本 - 每年",
+    "yearly_pro": "专业 - 每年"
+  },
+  "seo": {
+    "description": "感谢您的订阅！您的账户已成功升级",
+    "title": "订阅成功"
+  },
+  "title": "订阅成功！"
 }

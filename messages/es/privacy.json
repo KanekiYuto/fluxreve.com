@@ -1,111 +1,111 @@
 {
   "childrenPrivacy": {
-    "content": "I nostri servizi non sono rivolti a persone di età inferiore ai 13 anni (o all'età minima equivalente nella vostra giurisdizione). Non raccogliamo consapevolmente informazioni personali da bambini. Se veniamo a conoscenza di aver raccolto dati da un bambino senza un adeguato consenso, provvederemo a cancellarli tempestivamente.",
-    "title": "Privacy dei bambini"
+    "content": "Nuestros servicios no están dirigidos a personas menores de 13 años (o la edad mínima equivalente en su jurisdicción). No recopilamos conscientemente información personal de niños. Si tenemos conocimiento de que hemos recopilado datos de un niño sin el debido consentimiento, tomaremos medidas para eliminarlos rápidamente.",
+    "title": "Privacidad infantil"
   },
   "contact": {
-    "email": "Email",
-    "intro": "In caso di domande, dubbi o richieste relative alla presente Informativa sulla privacy o alle nostre pratiche di trattamento dei dati, si prega di contattarci all'indirizzo:",
-    "title": "Contatto"
+    "email": "Correo electrónico",
+    "intro": "Si tiene alguna pregunta, duda o solicitud en relación con esta Política de Privacidad o nuestras prácticas de datos, póngase en contacto con nosotros en",
+    "title": "Contacte con nosotros"
   },
   "cookies": {
-    "intro": "Utilizziamo cookie e tecnologie simili per migliorare la vostra esperienza:",
+    "intro": "Utilizamos cookies y tecnologías similares para mejorar su experiencia:",
     "items": [
-      "Cookie essenziali: Necessari per le funzionalità di base del servizio e per l'autenticazione",
-      "Cookie di preferenza: Ricordano le impostazioni e le scelte di personalizzazione dell'utente",
-      "Cookie analitici: Ci aiutano a capire i modelli di utilizzo e a migliorare i nostri servizi",
-      "Cookie di marketing: Fornire contenuti pertinenti e misurare l'efficacia delle campagne (con il consenso dell'utente)"
+      "Cookies esenciales: Necesarias para la funcionalidad básica del servicio y la autenticación",
+      "Cookies de preferencias: Recuerdan tus ajustes y opciones de personalización",
+      "Cookies analíticas: Nos ayudan a entender los patrones de uso y mejorar nuestros servicios",
+      "Cookies de marketing: Ofrecer contenido relevante y medir la eficacia de las campañas (con su consentimiento)."
     ],
-    "note": "È possibile controllare le preferenze relative ai cookie attraverso le impostazioni del browser. Si noti che la disabilitazione di alcuni cookie può limitare la funzionalità dei nostri servizi.",
-    "title": "Cookie e tecnologie di tracciamento"
+    "note": "Puede controlar las preferencias de cookies a través de la configuración de su navegador. Tenga en cuenta que deshabilitar determinadas cookies puede limitar la funcionalidad de nuestros servicios.",
+    "title": "Cookies y tecnologías de seguimiento"
   },
   "dataCollection": {
     "automaticInfo": {
       "items": [
-        "Dati del dispositivo: tipo di dispositivo, sistema operativo, versione del browser, identificatori univoci del dispositivo",
-        "Informazioni sull'uso: funzioni a cui si accede, immagini generate, modelli di interazione.",
-        "Dati di log: Indirizzo IP, tempi di accesso, pagine visualizzate, URL di riferimento",
-        "Cookie e tecnologie di tracciamento per analisi e funzionalità"
+        "Datos del dispositivo: tipo de dispositivo, sistema operativo, versión del navegador, identificadores únicos del dispositivo.",
+        "Información de uso: funciones a las que se accede, imágenes generadas, patrones de interacción",
+        "Datos de registro: Dirección IP, horas de acceso, páginas vistas, URL de referencia",
+        "Cookies y tecnologías de seguimiento para análisis y funcionalidad"
       ],
-      "title": "Informazioni raccolte automaticamente"
+      "title": "Información recopilada automáticamente"
     },
-    "intro": "Possiamo raccogliere vari tipi di informazioni per fornire e migliorare i nostri servizi:",
+    "intro": "Podemos recopilar diversos tipos de información para prestar y mejorar nuestros servicios:",
     "providedInfo": {
       "items": [
-        "Informazioni sull'account: indirizzo e-mail, nome utente, password",
-        "Profile data: display name, avatar, bio",
-        "Dettagli di pagamento: informazioni di fatturazione, cronologia delle transazioni",
-        "Dati di comunicazione: feedback, richieste di assistenza o altri messaggi inviati dall'utente"
+        "Información de la cuenta: dirección de correo electrónico, nombre de usuario, contraseña",
+        "Datos del perfil: nombre para mostrar, avatar, biografía",
+        "Datos de pago: información de facturación, historial de transacciones",
+        "Datos de comunicación: comentarios, consultas de asistencia u otros mensajes que nos envíe."
       ],
-      "title": "Informazioni fornite dall'utente"
+      "title": "Información que facilita"
     },
-    "title": "Informazioni raccolte",
+    "title": "Información que recopilamos",
     "userContent": {
-      "description": "Contenuto creato dall'utente utilizzando i nostri servizi, comprese le immagini generate dall'IA, le richieste di testo, le immagini caricate e i dati del progetto. Possiamo archiviare temporaneamente questi contenuti per fornire i nostri servizi e utilizzarli per migliorare i nostri modelli di IA, previo consenso dell'utente.",
-      "title": "Contenuti generati dagli utenti"
+      "description": "Contenido creado por usted utilizando nuestros servicios, incluidas imágenes generadas por IA, mensajes de texto, imágenes cargadas y datos de proyectos. Podemos almacenar temporalmente este contenido para prestar nuestros servicios y utilizarlo para mejorar nuestros modelos de IA, previo consentimiento del usuario.",
+      "title": "Contenidos generados por los usuarios"
     }
   },
   "dataSharing": {
-    "intro": "Non vendiamo le vostre informazioni personali. Possiamo condividere le vostre informazioni solo nelle seguenti circostanze:",
+    "intro": "No vendemos su información personal. Podemos compartir su información sólo en las siguientes circunstancias:",
     "items": [
-      "Con il vostro esplicito consenso o su vostra indicazione",
-      "Con fornitori di servizi di fiducia che ci assistono nella gestione della nostra piattaforma (cloud hosting, elaborazione dei pagamenti, analisi).",
-      "Con i fornitori di modelli di intelligenza artificiale per l'elaborazione delle vostre richieste di generazione, in base a rigorosi accordi sulla protezione dei dati.",
-      "Per ottemperare a obblighi legali, ordini del tribunale o richieste governative valide.",
-      "Per proteggere i nostri diritti, la nostra proprietà, la nostra sicurezza o quella dei nostri utenti e del pubblico",
-      "In relazione a una fusione, un'acquisizione o una vendita di attività, dove le informazioni possono essere trasferite come attività aziendali"
+      "Con su consentimiento explícito o por indicación suya",
+      "Con proveedores de servicios de confianza que colaboran en el funcionamiento de nuestra plataforma (alojamiento en la nube, procesamiento de pagos, análisis).",
+      "Con proveedores de modelos de IA para procesar sus solicitudes de generación, bajo estrictos acuerdos de protección de datos",
+      "Cumplir con obligaciones legales, órdenes judiciales o solicitudes gubernamentales válidas.",
+      "Para proteger nuestros derechos, propiedad, seguridad o los de nuestros usuarios y el público en general.",
+      "En relación con una fusión, adquisición o venta de activos, cuando la información pueda transferirse como un activo empresarial."
     ],
-    "title": "Condivisione e divulgazione delle informazioni"
+    "title": "Intercambio y divulgación de información"
   },
   "dataStorage": {
-    "duration": "Periodo di conservazione: Conserviamo le informazioni personali dell'utente solo per il tempo necessario a soddisfare gli scopi delineati nella presente informativa o come richiesto dalla legge. I contenuti generati possono essere conservati in base alle impostazioni dell'account e al tipo di abbonamento.",
-    "location": "Luogo di archiviazione: Le informazioni dell'utente vengono archiviate su server sicuri situati in varie regioni del mondo per garantire prestazioni e affidabilità ottimali del servizio. Utilizziamo fornitori di infrastrutture cloud leader del settore.",
-    "security": "Misure di sicurezza: Implementiamo pratiche di sicurezza standard del settore, tra cui la crittografia (in transito e a riposo), controlli di accesso, verifiche periodiche della sicurezza e meccanismi di autenticazione sicuri. Tuttavia, nessun metodo di trasmissione o archiviazione è sicuro al 100%.",
-    "title": "Archiviazione e sicurezza dei dati"
+    "duration": "Período de conservación: Conservamos su información personal solo durante el tiempo necesario para cumplir los fines descritos en esta política o según lo exija la ley. Los contenidos generados pueden conservarse en función de la configuración de su cuenta y del tipo de suscripción.",
+    "location": "Ubicación de almacenamiento: Su información se almacena en servidores seguros ubicados en varias regiones a nivel mundial para garantizar un rendimiento y una fiabilidad óptimos del servicio. Utilizamos proveedores de infraestructura en la nube líderes del sector.",
+    "security": "Medidas de seguridad: Aplicamos prácticas de seguridad estándar en el sector, incluido el cifrado (en tránsito y en reposo), controles de acceso, auditorías de seguridad periódicas y mecanismos de autenticación seguros. Sin embargo, ningún método de transmisión o almacenamiento es 100% seguro.",
+    "title": "Almacenamiento de datos y seguridad"
   },
   "dataUsage": {
-    "intro": "Utilizziamo le informazioni raccolte per i seguenti scopi:",
+    "intro": "Utilizamos la información recopilada para los siguientes fines:",
     "items": [
-      "Fornitura, gestione e manutenzione dei nostri servizi di generazione di immagini AI",
-      "Elaborare le vostre transazioni e gestire il vostro conto",
-      "Migliorare i nostri servizi attraverso l'analisi dei dati e l'identificazione dei modelli di utilizzo.",
-      "Addestrare e migliorare i nostri modelli di intelligenza artificiale per ottenere risultati migliori.",
-      "Invio di notifiche di servizio, aggiornamenti e comunicazioni promozionali (con il vostro consenso)",
-      "Rilevare, prevenire e risolvere frodi, problemi di sicurezza o problemi tecnici.",
-      "Adempiere agli obblighi di legge e far rispettare i nostri termini di servizio.",
-      "Fornire assistenza ai clienti e rispondere alle loro domande"
+      "Prestación, explotación y mantenimiento de nuestros servicios de generación de imágenes de IA",
+      "Procesar sus transacciones y gestionar su cuenta",
+      "Mejorar nuestros servicios mediante el análisis de datos y la identificación de patrones de uso",
+      "Formación y mejora de nuestros modelos de IA para obtener mejores resultados",
+      "Envío de notificaciones de servicio, actualizaciones y comunicaciones promocionales (con su consentimiento)",
+      "Detección, prevención y resolución de fraudes, problemas de seguridad o problemas técnicos",
+      "Cumplir las obligaciones legales y hacer cumplir nuestras condiciones de servicio",
+      "Proporcionar atención al cliente y responder a sus consultas"
     ],
-    "title": "Come utilizziamo le vostre informazioni"
+    "title": "Cómo utilizamos su información"
   },
-  "description": "Sepa cómo recopilamos, utilizamos y protegemos su información personal. Nuestra política de privacidad abarca la recopilación, el uso y el intercambio de datos, así como sus derechos. {siteName}",
+  "description": "Sepa cómo {siteName} recopila, utiliza y protege su información personal. Nuestra política de privacidad abarca la recopilación, el uso y el intercambio de datos, así como sus derechos.",
   "introduction": {
-    "content1": "(\"nosotros\", \"nos\" o \"nuestro\") se compromete a proteger su privacidad y salvaguardar su información personal. Esta política de privacidad describe nuestras prácticas en relación con la recopilación, el almacenamiento, el uso y el intercambio de su información cuando accede a nuestros servicios de generación de imágenes basados en IA. {siteName}",
-    "content2": "Al utilizar nuestros servicios a través del sitio web, las aplicaciones móviles o las API, usted reconoce que ha leído, comprendido y aceptado las prácticas descritas en la presente Política de Privacidad. Esta política también le informa de sus derechos de privacidad y de cómo le protege la ley. {siteName}",
-    "title": "Introduzione"
+    "content1": "{siteName} (\"nosotros\", \"nos\" o \"nuestro\") se compromete a proteger su privacidad y a salvaguardar su información personal. La presente Política de Privacidad describe nuestras prácticas en relación con la recopilación, almacenamiento, uso e intercambio de su información cuando accede a nuestros servicios de generación de imágenes basados en IA.",
+    "content2": "Al utilizar nuestros servicios a través del sitio web {siteName}, aplicaciones móviles o APIs, usted reconoce que ha leído, comprendido y aceptado las prácticas descritas en la presente Política de Privacidad. Esta política también le informa de sus derechos de privacidad y de cómo le protege la ley.",
+    "title": "Introducción"
   },
-  "keywords": "Informativa sulla privacy, protezione dei dati, informazioni personali, privacy degli utenti, raccolta dati, GDPR, diritti alla privacy",
-  "lastUpdated": "Ultimo aggiornamento",
+  "keywords": "política de privacidad, protección de datos, información personal, privacidad del usuario, recopilación de datos, GDPR, derechos de privacidad",
+  "lastUpdated": "Última actualización",
   "policyUpdates": {
-    "content": "La presente Informativa sulla privacy può essere aggiornata periodicamente per riflettere le modifiche apportate alle nostre prassi o ai requisiti legali. Notificheremo all'utente le modifiche sostanziali pubblicando l'informativa aggiornata su questa pagina con la data di \"Ultimo aggiornamento\". In caso di modifiche significative, potremmo anche fornire una notifica via e-mail o una notifica in evidenza sulla nostra piattaforma. Vi invitiamo a rivedere regolarmente questa informativa.",
-    "title": "Modifiche alla presente Informativa sulla privacy"
+    "content": "Podemos actualizar esta Política de Privacidad periódicamente para reflejar cambios en nuestras prácticas o requisitos legales. Le notificaremos los cambios materiales publicando la política actualizada en esta página con una fecha revisada de \"Última actualización\". En caso de cambios significativos, es posible que también le avisemos por correo electrónico o mediante una notificación destacada en nuestra plataforma. Le recomendamos que revise esta política con regularidad.",
+    "title": "Cambios en esta política de privacidad"
   },
   "thirdPartyLinks": {
-    "content": "I nostri servizi possono contenere link a siti web, integrazioni o servizi di terzi. Non siamo responsabili delle pratiche sulla privacy o dei contenuti di queste terze parti. Vi invitiamo a prendere visione delle loro politiche sulla privacy prima di fornire qualsiasi informazione personale.",
-    "title": "Servizi e link di terze parti"
+    "content": "Nuestros servicios pueden contener enlaces a sitios web, integraciones o servicios de terceros. No somos responsables de las prácticas de privacidad ni del contenido de estos terceros. Le recomendamos que revise sus políticas de privacidad antes de proporcionar cualquier información personal.",
+    "title": "Servicios y enlaces de terceros"
   },
-  "title": "Política de privacidad {siteName}",
+  "title": "Política de privacidad | {siteName}",
   "userRights": {
-    "intro": "A seconda del luogo in cui vi trovate, potreste avere i seguenti diritti in merito ai vostri dati personali:",
+    "intro": "Dependiendo de su ubicación, puede tener los siguientes derechos en relación con su información personal:",
     "items": [
-      "Accesso: Richiedere una copia delle informazioni personali in nostro possesso.",
-      "Rettifica: Correggere informazioni inesatte o incomplete",
-      "Cancellazione: Richiedere la cancellazione dei propri dati personali (\"diritto all'oblio\").",
-      "Limitazione: Limitare le modalità di trattamento delle informazioni",
-      "Portabilità: Ricevere i dati in un formato strutturato e comunemente utilizzato.",
-      "Obiezione: Opporsi al trattamento delle informazioni per determinati scopi",
-      "Ritirare il consenso: Revocare in qualsiasi momento il consenso precedentemente dato",
-      "Opt-out: Annullare l'iscrizione alle comunicazioni di marketing"
+      "Acceso: Solicitar una copia de la información personal que tenemos sobre usted",
+      "Rectificación: Corregir información inexacta o incompleta",
+      "Supresión: Solicitar la supresión de sus datos personales (\"derecho al olvido\")",
+      "Restricción: Limitar cómo procesamos su información",
+      "Portabilidad: Reciba sus datos en un formato estructurado y de uso común",
+      "Oposición: Oponerse al tratamiento de sus datos para determinados fines",
+      "Retirar el consentimiento: Revocar en cualquier momento el consentimiento previamente otorgado",
+      "Darse de baja: Darse de baja de las comunicaciones comerciales"
     ],
-    "title": "I vostri diritti alla privacy"
+    "title": "Sus derechos de privacidad"
   }
 }

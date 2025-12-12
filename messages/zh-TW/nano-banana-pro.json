@@ -1,191 +1,185 @@
 {
-  "seo": {
-    "title": "Nano Banana Pro - Gemini 3 Pro 圖像 AI 生成器 | 4K 圖像生成",
-    "description": "Nano Banana Pro (Gemini 3 Pro Image) - Google DeepMind 先進 AI 圖像生成器。10 秒內生成 4K 高解析度圖像，支援精準文字渲染、角色一致性及專業編輯功能。"
+  "cta": {
+    "note": "无需信用卡 - 4K 图像 - 10 秒内",
+    "primary": "试用 Nano Banana Pro 免费",
+    "secondary": "查看定价计划",
+    "subtitle": "与成千上万的专业人士一起使用 Nano Banana Pro (Gemini 3 Pro Image) 生成 4K AI 图像，用于设计、营销和创意项目。",
+    "title": "使用 Nano Banana Pro AI 图像生成器开始创建"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Nano Banana Pro 是 Google DeepMind 的 Gemini 3 Pro Image 模型--一款先进的 AI 图像生成器，它使用推理引导生成技术来创建 4K 高分辨率图像。与其他人工智能图像生成器不同，Nano Banana Pro 提供本地 4K 输出、准确的多语言文本渲染、多达 5 个字符的字符一致性以及低于 10 秒的生成速度。它在文本准确性、及时性和专业编辑能力方面均优于竞争对手。",
+        "question": "什么是 Nano Banana Pro，它与其他 AI 图像生成器有何不同？"
+      },
+      {
+        "answer": "Nano Banana Pro 可在 10 秒内生成 4K (4096x4096) 高分辨率图像，大大快于同类人工智能图像生成器。对于复杂的提示，人工智能可能会创建临时图像来测试构图和逻辑，但即使有推理步骤，通常也能在数秒内完成生成。这种前所未有的速度使 Nano Banana Pro 成为快速原型开发、大量内容创建和时间敏感型项目的理想选择。",
+        "question": "Nano Banana Pro 的人工智能图像生成速度有多快？"
+      },
+      {
+        "answer": "Nano Banana Pro 支持本地 4K 超高清（4096x4096 像素）输出，这是目前主流 AI 图像生成器的最高分辨率。图像具有超凡的细节、准确的色彩还原、适当的照明和专业级质量，适合印刷媒体、大幅面显示器、商业项目和企业应用。还提供更低的分辨率（1024x1024、2048x2048），以加快生成速度或缩小文件大小。",
+        "question": "Nano Banana Pro 支持什么图像分辨率和质量？"
+      },
+      {
+        "answer": "是的！Nano Banana Pro 在文本渲染方面实现了突破性的准确性，与早期的人工智能图像生成器相比，这是一项重大进步。人工智能可以直接在图像中生成清晰可读、拼写正确的多语言文本，使其成为创建模型、海报、信息图表、营销材料和多语言内容的完美工具。这一功能解决了人工智能图像生成中最具挑战性的限制之一。",
+        "question": "Nano Banana Pro 能否准确生成图像中的文本？"
+      },
+      {
+        "answer": "Nano Banana Pro 可确保多个图像中的角色具有卓越的一致性，最多可支持 5 个不同的角色。这意味着您可以生成一系列具有相同角色的图像，这些角色的外观、面部特征、服装和风格都是一致的，这对于讲故事、品牌吉祥物、角色设计和连续内容创作都是至关重要的。这种一致性超越了大多数同类人工智能图像生成器。",
+        "question": "Nano Banana Pro 中的字符一致性是如何实现的？"
+      },
+      {
+        "answer": "当然！Nano Banana Pro 专为专业、商业和企业应用而设计。Nano Banana Pro 具有 4K 本机分辨率、针对复杂需求的推理指导生成、高级编辑控件、批处理、企业级安全性以及 SLA 保证的专门支持，可满足企业、机构和大型组织对专业人工智能图像生成的大规模需求。",
+        "question": "Nano Banana Pro 是否适合商业和企业使用？"
+      }
+    ],
+    "subtitle": "关于 Nano Banana Pro AI 图像生成器的常见问题",
+    "title": "Nano Banana Pro 常见问题"
+  },
+  "features": {
+    "items": {
+      "batch": {
+        "description": "支持批量生成多个图像，大大提高了工作效率。非常适合需要大量图像资产的专业项目和企业应用。",
+        "title": "批量处理"
+      },
+      "control": {
+        "description": "利用专业级控制功能对 AI 图像生成进行微调，包括可定制的提示、宽高比选择、分辨率选项和参数调整，以实现精确的创意控制。",
+        "title": "高级创意控制"
+      },
+      "quality": {
+        "description": "创建令人惊叹的 4096x4096 像素图像，具有卓越的细节、色彩准确性和专业级质量，适合商业和企业应用。",
+        "title": "本地 4K UHD 输出"
+      },
+      "secure": {
+        "description": "Nano Banana Pro 绝不会在未经明确许可的情况下共享人工智能生成的图像。",
+        "title": "企业安全"
+      },
+      "speed": {
+        "description": "使用 Nano Banana Pro 的优化 AI 模型，在 10 秒内生成原始 4K 分辨率图像，这是目前最快的专业 AI 图像生成器。",
+        "title": "超快 4K 代"
+      },
+      "variety": {
+        "description": "您可以从写实、插图、艺术、概念和特殊风格中进行选择。Nano Banana Pro 可适应从写实到创意艺术的各种审美偏好。",
+        "title": "多样的艺术风格"
+      }
+    },
+    "subtitle": "由 Google DeepMind 的 Gemini 3 Pro Image 技术提供的全面人工智能图像生成功能",
+    "title": "Nano Banana Pro AI 图像生成器功能"
   },
   "hero": {
-    
-    "title": {
-      "line1": "Nano Banana Pro",
-      "line2": "Gemini 3 Pro 圖像生成"
-    },
-    "subtitle": "體驗 Google DeepMind 的 Nano Banana Pro (Gemini 3 Pro Image) - 突破性 AI 圖像生成器，提供 4K 解析度、精準多語言文字渲染及角色一致性。10 秒內透過推理引導生成專業圖像。",
     "cta": {
-      "primary": "試用 Nano Banana Pro",
+      "primary": "Try Nano Banana Pro",
       "secondary": "了解更多"
     },
     "stats": {
-      "speed": {
-        "value": "<10秒",
-        "label": "4K 圖像生成"
-      },
       "quality": {
-        "value": "4K UHD",
-        "label": "原生解析度"
+        "label": "本机分辨率",
+        "value": "4K UHD"
+      },
+      "speed": {
+        "label": "4K 图像生成",
+        "value": "\u003c10s"
       },
       "users": {
-        "value": "5角色",
-        "label": "角色一致性"
-      }
-    }
-  },
-  "what": {
-    
-    "title": "什麼是 Nano Banana Pro AI 圖像生成器？",
-    "description": "Nano Banana Pro 由 Google DeepMind 的 Gemini 3 Pro Image 模型驅動，是結合先進推理與真實世界知識的最先進 AI 圖像生成器。這個專業 AI 圖像生成平台以前所未有的速度和準確度提供 4K 高解析度圖像，完美適合要求專業品質 AI 生成圖像的設計師、行銷人員和內容創作者。",
-    "demoPlaceholder": "Nano Banana Pro 生成圖像",
-    "coreFeatures": {
-      "core1": {
-        "title": "4K 高解析度 AI 圖像生成",
-        "description": "Nano Banana Pro 在 10 秒內生成原生 4K (4096x4096) 超高清圖像。這款 AI 圖像生成器提供卓越的細節、色彩準確度和符合專業標準的圖像品質，適用於印刷、數位行銷和商業專案。"
-      },
-      "core2": {
-        "title": "精準多語言文字渲染",
-        "description": "不同於其他 AI 圖像生成器，Nano Banana Pro 在多語言文字渲染上實現突破性準確度。創建包含清晰字體的 AI 生成模型、海報、資訊圖表和行銷素材 - 完美適合國際品牌和多語言內容創作。"
-      },
-      "core3": {
-        "title": "專業輸出與靈活控制",
-        "description": "生成專業品質圖像，配備進階創意控制，包括多種解析度選項、各種長寬比和可客製化參數。完美適合在專案中創建一致的視覺內容，提供可靠的高品質 AI 圖像生成。"
-      }
-    }
-  },
-  "why": {
-    
-    "title": "為何選擇 Nano Banana Pro AI 圖像生成器",
-    "subtitle": "Nano Banana Pro 透過 Gemini 3 Pro Image 技術驅動的推理引導生成、4K 解析度輸出和專業編輯功能，超越傳統圖像創作方法和競爭的 AI 圖像生成器。",
-    "comparison": {
-      "traditional": {
-        "title": "傳統圖像創作",
-        "item1": "專業圖像設計和編輯需要數小時或數天",
-        "item2": "需要昂貴的軟體授權和專業設計專業知識",
-        "item3": "聘請設計師或購買進階設計工具的高成本",
-        "item4": "緩慢的迭代週期使創意實驗變得不切實際"
-      },
-      "product": {
-        "title": "Nano Banana Pro AI 生成器",
-        "item1": "使用 AI 在 10 秒內生成 4K 專業圖像",
-        "item2": "無需設計技能 - 用自然語言描述您的願景",
-        "item3": "具彈性隨用隨付選項的經濟實惠訂閱方案",
-        "item4": "使用 AI 即時迭代和無限創意實驗"
+        "label": "角色一致性",
+        "value": "5 个字符"
       }
     },
-    "benefits": {
-      "speed": {
-        "title": "前所未有的 AI 生成速度",
-        "description": "Nano Banana Pro 優化的 Gemini 3 Pro Image 模型在 10 秒內生成 4K 高解析度圖像 - 比競爭的 AI 圖像生成器快 10 倍。透過極速 AI 圖像生成大幅加速您的創意工作流程。"
-      },
-      "quality": {
-        "title": "專業 4K 圖像品質",
-        "description": "體驗原生 4K (4096x4096) 超高清輸出，具備卓越的細節、精準的色彩還原和專業級圖像品質。Nano Banana Pro AI 圖像符合商業專案、印刷媒體和企業應用的嚴格標準。"
-      },
-      "cost": {
-        "title": "經濟實惠的 AI 圖像生成",
-        "description": "消除昂貴的設計軟體授權和設計師費用。Nano Banana Pro 提供彈性訂閱方案和按圖像付費選項，讓各種規模的企業都能負擔專業 AI 圖像生成。"
-      },
-      "flexibility": {
-        "title": "AI 無限創意自由",
-        "description": "嘗試無限次迭代、多種藝術風格和多樣化的創意方向。Nano Banana Pro 的推理引導生成適應您的偏好，實現快速原型設計和無約束的創意探索。"
-      },
-      "support": {
-        "title": "企業級支援",
-        "description": "獲得專屬技術支援、完整文件、完整文檔和企業 SLA 保證。Nano Banana Pro 為您的業務提供關鍵任務 AI 圖像生成工作流程所需的專業支援基礎設施。"
-      },
-      "security": {
-        "title": "企業安全與隱私",
-        "description": "所有 Nano Banana Pro 資料傳輸和儲存都使用企業級加密。您的 AI 生成圖像和創意作品透過嚴格的資料保護政策和符合國際隱私標準保持私密和安全。"
-      }
+    "subtitle": "体验 Google DeepMind 的 Nano Banana Pro (Gemini 3 Pro Image) - 具有 4K 分辨率的突破性 AI 图像生成器、准确的多语言文本渲染和字符一致性。利用推理引导生成功能，在 10 秒内创建专业图像。",
+    "title": {
+      "line1": "Nano Banana Pro",
+      "line2": "Gemini 3 Pro Image Generation"
     }
   },
   "how": {
-    
-    "title": "如何使用 Nano Banana Pro AI 圖像生成器",
-    "subtitle": "從概念到專業 4K AI 生成圖像，只需四個簡單步驟。Nano Banana Pro 讓先進的 AI 圖像生成變得直覺且易於使用。",
     "steps": {
       "step1": {
-        "title": "描述您的創意願景",
-        "description": "輸入您想創建的圖像的詳細文字描述。Nano Banana Pro 的推理引導 AI 以細緻的理解詮釋複雜提示。包含關於風格、構圖、光線、顏色和氛圍的具體細節，以獲得最佳的 AI 圖像生成結果。"
+        "description": "输入您要创建的图像的详细文字描述。Nano Banana Pro 的推理引导型人工智能能以细微的理解来解释复杂的提示。请包含有关风格、构图、光线、色彩和情绪的具体细节，以获得最佳的人工智能图像生成效果。",
+        "title": "描述您的创意愿景"
       },
       "step2": {
-        "title": "配置進階 AI 參數",
-        "description": "選擇圖像解析度（最高 4K）、長寬比、藝術風格、光線條件和相機角度。Nano Banana Pro 提供專業預設和細緻控制，精準客製化您的 AI 生成圖像。從寫實、藝術、插畫和專業風格中選擇。"
+        "description": "选择图像分辨率（最高可达 4K）、宽高比、艺术风格、照明条件和拍摄角度。Nano Banana Pro 提供专业的预设和细粒度控制，可精确定制人工智能生成的图像。您可以选择逼真、艺术、插图和特殊风格。",
+        "title": "配置高级人工智能参数"
       },
       "step3": {
-        "title": "AI 生成 4K 圖像",
-        "description": "Nano Banana Pro 的 Gemini 3 Pro Image 模型使用先進推理處理您的需求，並在 10 秒內生成高保真 4K 圖像。對於複雜提示，AI 可能會創建中間圖像來測試構圖和邏輯，確保卓越的輸出品質。"
+        "description": "Nano Banana Pro 的 Gemini 3 Pro Image 模型可使用高级推理处理您的要求，并在 10 秒内生成高保真 4K 图像。人工智能可创建临时图像，以测试复杂提示的构图和逻辑，确保卓越的输出质量。",
+        "title": "人工智能生成 4K 图像"
       },
       "step4": {
-        "title": "預覽、下載與迭代",
-        "description": "即時預覽您的 AI 生成圖像。對結果滿意？以高解析度格式下載立即使用。需要調整？只需修改提示或參數並重新生成 - 使用 Nano Banana Pro 的快速生成功能進行無限次迭代。"
+        "description": "立即预览人工智能生成的图像。对结果满意吗？下载高分辨率格式，立即使用。需要调整？只需修改提示或参数并重新生成即可--Nano Banana Pro 的快速生成功能可根据需要多次重复生成。",
+        "title": "预览、下载和迭代"
       }
-    }
+    },
+    "subtitle": "从概念到专业的 4K AI 生成图像，只需四个简单步骤。Nano Banana Pro 让高级 AI 图像生成变得直观易用。",
+    "title": "如何使用 Nano Banana Pro AI 图像生成器"
   },
-  "features": {
-    
-    "title": "Nano Banana Pro AI 圖像生成器功能",
-    "subtitle": "由 Google DeepMind 的 Gemini 3 Pro Image 技術驅動的全面 AI 圖像生成功能",
-    "items": {
-      "speed": {
-        "title": "超快 4K 生成",
-        "description": "使用 Nano Banana Pro 優化的 AI 模型在 10 秒內生成原生 4K 解析度圖像 - 可用的最快專業 AI 圖像生成器。"
+  "seo": {
+    "description": "使用 Nano Banana Pro 在 10 秒内生成 4K 图像。Google DeepMind 的 Gemini 3 Pro Image 模型可实现精确的文本渲染和字符一致性。",
+    "title": "Nano Banana Pro - 双子座 3 Pro AI 生成器 | 4K"
+  },
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Nano Banana Pro 可在 10 秒内生成原生 4K (4096x4096) 超高清图像。这款 AI 图像生成器可提供卓越的细节、色彩准确度和图像质量，符合印刷、数字营销和商业项目的专业标准。",
+        "title": "4K 生成高分辨率 AI 图像"
+      },
+      "core2": {
+        "description": "与其他 AI 图像生成器不同，Nano Banana Pro 在多语言文本渲染方面实现了突破性的准确性。创建 AI 生成的模型、海报、信息图表和营销材料时，可直接在图像中使用清晰易读的排版--非常适合国际品牌推广和多语言内容创建。",
+        "title": "准确的多语言文本渲染"
+      },
+      "core3": {
+        "description": "利用先进的创意控制生成专业品质的图像，包括多种分辨率选项、各种宽高比和可定制参数。通过可靠、高质量的 AI 图像生成功能，完美地在项目中创建一致的视觉内容。",
+        "title": "专业输出和灵活控制"
+      }
+    },
+    "demoPlaceholder": "Nano Banana Pro 生成的图像",
+    "description": "Nano Banana Pro 由 Google DeepMind 的 Gemini 3 Pro Image 模型提供支持，是最先进的人工智能图像生成器，将高级推理与现实世界的知识相结合。这个专业的人工智能图像生成平台能以前所未有的速度和准确性生成 4K 高分辨率图像，非常适合需要专业品质人工智能生成图像的设计师、营销人员和内容创作者。",
+    "title": "什么是 Nano Banana Pro AI 图像生成器？"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "省去昂贵的设计软件许可证和设计师费用。Nano Banana Pro 提供灵活的订阅计划和按图像付费选项，让各种规模的企业都能负担得起专业 AI 图像生成的费用。",
+        "title": "经济高效的人工智能图像生成"
+      },
+      "flexibility": {
+        "description": "尝试无限制的迭代、多种艺术风格和多样化的创作方向。Nano Banana Pro 的推理引导生成功能可根据您的偏好进行调整，实现快速原型设计和创意探索，不受任何限制。",
+        "title": "人工智能带来无限创意自由"
       },
       "quality": {
-        "title": "原生 4K UHD 輸出",
-        "description": "創建令人驚艷的 4096x4096 像素圖像，具備卓越的細節、色彩準確度和適合商業和企業應用的專業級品質。"
+        "description": "体验原生 4K (4096x4096) 超高清输出，感受非凡细节、准确色彩还原和专业级图像质量。Nano Banana Pro AI 图像符合商业项目、印刷媒体和企业应用的苛刻标准。",
+        "title": "专业 4K 图像质量"
       },
-      "variety": {
-        "title": "多樣化藝術風格",
-        "description": "從寫實、插畫、藝術、概念和專業風格中選擇。Nano Banana Pro 適應從寫實到創意藝術的每種美學偏好。"
+      "security": {
+        "description": "所有 Nano Banana Pro 数据传输和存储均采用企业级加密。通过严格的数据保护政策和国际隐私标准，您的人工智能生成的图像和创意作品将保持私密性和安全性。",
+        "title": "企业安全与隐私"
       },
-      "control": {
-        "title": "進階創意控制",
-        "description": "使用專業級控制微調您的 AI 圖像生成，包括可客製化提示、長寬比選擇、解析度選項和參數調整，實現精準的創意控制。"
+      "speed": {
+        "description": "Nano Banana Pro 的优化 Gemini 3 Pro Image 模型可在 10 秒内生成 4K 高分辨率图像，比同类 AI 图像生成器快达 10 倍。利用超快的 AI 图像生成速度，大大加快你的创意工作流程。",
+        "title": "前所未有的人工智能生成速度"
       },
-      "batch": {
-        "title": "批量處理功能",
-        "description": "支援批量生成多張圖像，大幅提升工作效率。適合需要大量圖像素材的專業專案和企業應用場景。"
-      },
-      "secure": {
-        "title": "企業安全",
-        "description": "您的創意作品受到企業級加密、嚴格隱私政策和符合國際資料保護標準的保護。Nano Banana Pro 絕不會在未經明確許可的情況下分享您的 AI 生成圖像。"
+      "support": {
+        "description": "Nano Banana Pro 为您的企业提供关键任务 AI 图像生成工作流所需的专业支持基础架构。",
+        "title": "企业级支持"
       }
-    }
-  },
-  "faq": {
-    
-    "title": "Nano Banana Pro 常見問題",
-    "subtitle": "關於 Nano Banana Pro AI 圖像生成器的常見問題",
-    "items": [
-      {
-        "question": "什麼是 Nano Banana Pro，與其他 AI 圖像生成器有何不同？",
-        "answer": "Nano Banana Pro 是 Google DeepMind 的 Gemini 3 Pro Image 模型 - 一個使用推理引導生成來創建 4K 高解析度圖像的先進 AI 圖像生成器。與其他 AI 圖像生成器不同，Nano Banana Pro 提供原生 4K 輸出、精準的多語言文字渲染、最多 5 個角色的角色一致性，以及 10 秒內的生成速度。它在文字準確度、提示遵循度和專業編輯功能方面超越競爭對手。"
+    },
+    "comparison": {
+      "product": {
+        "item1": "使用 AI 在 10 秒内生成 4K 专业图像",
+        "item2": "无需设计技能--用自然语言描述您的愿景",
+        "item3": "具有成本效益的订阅计划，灵活的现收现付选择",
+        "item4": "利用人工智能进行即时迭代和无限创意实验",
+        "title": "Nano Banana Pro AI 生成器"
       },
-      {
-        "question": "Nano Banana Pro 的 AI 圖像生成速度有多快？",
-        "answer": "Nano Banana Pro 在 10 秒內生成 4K (4096x4096) 高解析度圖像 - 明顯快於競爭的 AI 圖像生成器。對於複雜提示，AI 可能會創建中間圖像來測試構圖和邏輯，但即使有推理步驟，生成通常也會在幾秒內完成。這種前所未有的速度使 Nano Banana Pro 成為快速原型設計、大量內容創作和時間緊迫專案的理想選擇。"
-      },
-      {
-        "question": "Nano Banana Pro 支援什麼圖像解析度和品質？",
-        "answer": "Nano Banana Pro 支援原生 4K 超高清 (4096x4096 像素) 輸出 - 主流 AI 圖像生成器中可用的最高解析度。圖像具有卓越的細節、精準的色彩還原、適當的光線和適合印刷媒體、大型顯示器、商業專案和企業應用的專業級品質。也提供較低解析度（1024x1024、2048x2048）以實現更快的生成或更小的檔案大小。"
-      },
-      {
-        "question": "Nano Banana Pro 能否精準地在圖像中生成文字？",
-        "answer": "是的！Nano Banana Pro 在文字渲染方面實現突破性準確度 - 這是相較於早期 AI 圖像生成器的重大進步。AI 可以在圖像中直接生成多種語言的清晰、拼寫正確的文字，使其成為創建模型、海報、資訊圖表、行銷素材和多語言內容的完美選擇。這項功能解決了 AI 圖像生成中最具挑戰性的限制之一。"
-      },
-      {
-        "question": "Nano Banana Pro 的角色一致性如何運作？",
-        "answer": "Nano Banana Pro 確保多張圖像中卓越的角色一致性，支援最多 5 個不同的角色。這意味著您可以生成一系列具有一致外觀、面部特徵、服裝和風格的相同角色的圖像 - 這對說故事、品牌吉祥物、角色設計和連續內容創作至關重要。這種一致性水平超越了大多數競爭的 AI 圖像生成器。"
-      },
-      {
-        "question": "Nano Banana Pro 適合商業和企業使用嗎？",
-        "answer": "絕對適合！Nano Banana Pro 專為專業、商業和企業應用而設計。憑藉 4K 原生解析度、針對複雜需求的推理引導生成、進階編輯控制、批量處理功能、企業級安全性和具有 SLA 保證的專屬支援，Nano Banana Pro 滿足需要大規模專業 AI 圖像生成的企業、機構和大型組織的嚴格需求。"
+      "traditional": {
+        "item1": "专业图像设计和编辑所需的小时或天数",
+        "item2": "需要昂贵的软件许可证和专业设计知识",
+        "item3": "聘请设计师或购买高级设计工具的成本高昂",
+        "item4": "缓慢的迭代周期使创造性实验变得不切实际",
+        "title": "传统图像创作"
       }
-    ]
-  },
-  "cta": {
-    "title": "開始使用 Nano Banana Pro AI 圖像生成器創作",
-    "subtitle": "加入數千名專業人士使用 Nano Banana Pro (Gemini 3 Pro Image) 為設計、行銷和創意專案生成 4K AI 圖像。",
-    "primary": "免費試用 Nano Banana Pro",
-    "secondary": "查看價格方案",
-    "note": "無需信用卡 • 4K 圖像 • 10 秒內完成"
+    },
+    "subtitle": "Nano Banana Pro 通过推理引导生成、4K 分辨率输出以及由 Gemini 3 Pro Image 技术提供的专业编辑功能，超越了传统图像创建方法和同类人工智能图像生成器。",
+    "title": "为什么选择 Nano Banana Pro AI 图像生成器？"
   }
 }

@@ -4,7 +4,7 @@
     "startUsing": "立即开始使用",
     "viewSubscription": "查看订阅"
   },
-  "autoRedirect": "在 {seconds} 秒后自动重定向到仪表板...",
+  "autoRedirect": "在 {seconds} 秒内自动重定向到仪表板...",
   "description": "感谢您的订阅。您的账户已成功升级，现在可以享受所有高级功能。",
   "details": {
     "amount": "金额",

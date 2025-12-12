@@ -3,7 +3,7 @@
     "discount": "Risparmiare il 20%",
     "month": "mese",
     "monthly": "Mensile",
-    "save": "Salvare ${amount}",
+    "save": "Save ${amount}",
     "year": "anno",
     "yearly": "Annuale"
   },
@@ -82,7 +82,7 @@
       "cta": "Prova ora",
       "description": "{quota} quota credits",
       "features": [
-        "{quota} Quota di credito",
+        "{quota} crediti quota",
         "Può generare fino a {quota}/5 immagini di alta qualità",
         "Tutti i modelli AI standard",
         "Alta risoluzione (1024x1024)",
@@ -100,7 +100,7 @@
       "cta": "Iscriviti ora",
       "description": "Per singoli utenti e piccoli progetti",
       "features": [
-        "{quota} Quota di credito",
+        "{quota} crediti quota",
         "Può generare fino a {quota}/5 immagini di alta qualità",
         "Modelli AI standard",
         "Alta risoluzione (1024x1024)",
@@ -119,7 +119,7 @@
       "cta": "Iscriviti ora",
       "description": "Per i creatori professionisti e la collaborazione in team",
       "features": [
-        "{quota} Quota di credito",
+        "{quota} crediti quota",
         "Può generare fino a {quota}/5 immagini di alta qualità",
         "Tutti i modelli AI avanzati",
         "Risoluzione altissima (2048x2048)",

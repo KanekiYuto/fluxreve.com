@@ -1,53 +1,53 @@
 {
-  "metadata": {
-    "title": "{siteName} - AI 圖像生成工具 | 快速生成專業圖像",
-    "description": "使用先進的人工智慧技術,快速生成高品質的專業圖像。讓 AI 圖像創作變得簡單高效。"
-  },
-  "hero": {
-    "title": {
-      "line1": "讓創意瞬間成為現實",
-      "line2": "AI 驅動的專業圖像生成"
-    },
-    "description": "只需輸入簡單描述,即可獲得精美的專業級圖像。無需設計技能,讓每個人都能成為創作者。",
+  "cta": {
     "buttons": {
-      "startCreate": "開始創作",
+      "freeTrial": "免费试用",
       "viewPricing": "查看定价"
     },
-    "features": {
-      "highQuality": "高品質輸出",
-      "fastGeneration": "快速生成",
-      "easyToUse": "簡單易用"
-    }
+    "description": "与成千上万的创作者一起，利用人工智能的力量将您的创意变为现实",
+    "note": "无需信用卡 - 立即开始使用",
+    "title": "现在就开始创作"
   },
   "features": {
-    "sectionTitle": "為什麼選擇我們",
-    "sectionDescription": "結合強大的 AI 技術與簡潔的使用者體驗，讓圖像創作變得前所未有的簡單",
     "items": [
       {
-        "title": "快速生成",
-        "description": "強大的 AI 演算法，幾秒鐘內即可生成高品質圖像，大幅提升創作效率。"
+        "description": "强大的人工智能算法可在数秒内生成高质量图像，显著提高创作效率。",
+        "title": "快速生成"
       },
       {
-        "title": "專業品質",
-        "description": "採用最先進的 AI 模型，輸出專業級別的圖像品質，滿足各種創作需求。"
+        "description": "使用最先进的人工智能模型，输出专业级图像质量，满足各种创作需求。",
+        "title": "专业品质"
       },
       {
-        "title": "靈活控制",
-        "description": "提供豐富的參數設定和風格選項，讓您精確控制圖像生成的每個細節。"
+        "description": "丰富的参数设置和样式选项可让您精确控制图像生成的每个细节。",
+        "title": "灵活控制"
       },
       {
-        "title": "簡單易用",
-        "description": "直觀的操作介面，無需專業知識，任何人都能輕鬆上手創作精美圖像。"
+        "description": "直观的界面无需专业知识，任何人都能轻松创建精美图片。",
+        "title": "易于使用"
       }
-    ]
+    ],
+    "sectionDescription": "将强大的人工智能技术与简洁的用户体验相结合，让图像创建变得前所未有的简单",
+    "sectionTitle": "为什么选择我们"
   },
-  "cta": {
-    "title": "立即開始創作",
-    "description": "加入數千名創作者，使用 AI 的力量將您的創意變為現實",
+  "hero": {
     "buttons": {
-      "freeTrial": "免費試用",
+      "startCreate": "开始创建",
       "viewPricing": "查看定价"
     },
-    "note": "無需信用卡 · 即刻開始使用"
+    "description": "只需描述您的需求，即可获得令人惊叹的专业级图片。无需设计技能，人人都能成为创作者。",
+    "features": {
+      "easyToUse": "易于使用",
+      "fastGeneration": "快速生成",
+      "highQuality": "高质量输出"
+    },
+    "title": {
+      "line1": "瞬间将创意变为现实",
+      "line2": "人工智能驱动的专业图像生成"
+    }
+  },
+  "metadata": {
+    "description": "利用先进的人工智能技术快速生成高质量的专业图像。让人工智能图像创建变得简单高效。",
+    "title": "{siteName} - AI 图像生成工具 | 快速生成专业图像"
   }
 }

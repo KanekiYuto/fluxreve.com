@@ -19,10 +19,10 @@
   "sections": {
     "connections": {
       "connected": "已连接",
-      "githubConnected": "您可以使用 GitHub 账户登录您的账户。",
-      "githubNotConnected": "连接 GitHub 帐户以启用此登录方法。",
-      "googleConnected": "您可以使用 Google 帐户登录您的帐户。",
-      "googleNotConnected": "连接 Google 帐户以启用此登录方法。",
+      "githubConnected": "您可以使用您的 GitHub 账户登录您的账户。",
+      "githubNotConnected": "连接您的 GitHub 账户以启用此登录方法。",
+      "googleConnected": "您可以使用您的 Google 账户登录您的账户。",
+      "googleNotConnected": "连接您的 Google 账户以启用此登录方法。",
       "title": "联网账户"
     },
     "preferences": {

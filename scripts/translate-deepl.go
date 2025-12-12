@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"crypto/rand"
 	"encoding/json"
 	"flag"
 	"fmt"
@@ -117,10 +118,10 @@ func translateWithDeepLBatch(apiKey string, texts []string, targetLang string, f
 	// 分离需要翻译和已缓存的文本
 	toTranslate := []string{}
 	toTranslateOriginals := []string{} // 保存原始文本（包含占位符）
-	toTranslateIndices := []int{}
+	toTranslateProtectedMaps := []map[string]string{} // 保存每个文本的 keep 内容映射
 	results := make(map[string]string)
 
-	for i, text := range texts {
+	for _, text := range texts {
 		if len(text) == 0 {
 			results[text] = text
 			continue
@@ -150,10 +151,10 @@ func translateWithDeepLBatch(apiKey string, texts []string, targetLang string, f
 		// 保存原始文本
 		toTranslateOriginals = append(toTranslateOriginals, text)
 
-		// 移除占位符后再发送给 API（保护占位符不被翻译）
-		textWithoutPlaceholders := removePlaceholders(text)
-		toTranslate = append(toTranslate, textWithoutPlaceholders)
-		toTranslateIndices = append(toTranslateIndices, i)
+		// 客户端处理：将占位符和专有名词替换为特殊标记，这样 DeepL 完全不会翻译它们
+		textToTranslate, protectedMap := protectAllContent(text)
+		toTranslate = append(toTranslate, textToTranslate)
+		toTranslateProtectedMaps = append(toTranslateProtectedMaps, protectedMap)
 	}
 
 	// 如果没有需要翻译的文本，直接返回
@@ -227,9 +228,10 @@ func translateWithDeepLBatch(apiKey string, texts []string, targetLang string, f
 			// 获取原始文本和翻译后的文本
 			originalText := toTranslateOriginals[i]
 			translatedText := translation.Text
+			protectedMap := toTranslateProtectedMaps[i]
 
-			// 把占位符还原回去
-			finalTranslation := restorePlaceholdersToText(translatedText, originalText)
+			// 还原被保护的内容（占位符和专有名词）
+			finalTranslation := restoreProtectedContent(translatedText, protectedMap)
 
 			// 使用原始文本作为键保存结果
 			results[originalText] = finalTranslation
@@ -328,50 +330,73 @@ func isPlaceholder(text string) bool {
 	return re.MatchString(text)
 }
 
-// 移除文本中的所有占位符（保护占位符不被翻译）
-func removePlaceholders(text string) string {
-	// 完全移除占位符，只保留实际文本
-	// 例如："Welcome, {name}!" -> "Welcome, !"
-	re := regexp.MustCompile(`\s*\{[a-zA-Z0-9_]+\}\s*`)
-	return strings.TrimSpace(re.ReplaceAllString(text, " "))
-}
-
-// 提取文本中的占位符和实际文本
-func extractPlaceholdersAndText(text string) (string, []string) {
-	// 使用正则表达式提取所有占位符
-	re := regexp.MustCompile(`\{[a-zA-Z0-9_]+\}`)
-	placeholders := re.FindAllString(text, -1)
-
-	// 删除占位符，获取实际要翻译的文本
-	contentWithoutPlaceholders := re.ReplaceAllString(text, "")
-
-	return strings.TrimSpace(contentWithoutPlaceholders), placeholders
-}
-
-// 将占位符还原到翻译后的文本
-func restorePlaceholdersToText(translatedText string, originalText string) string {
-	// 从原文中提取占位符列表（按出现顺序）
-	re := regexp.MustCompile(`\{[a-zA-Z0-9_]+\}`)
-	placeholders := re.FindAllString(originalText, -1)
-
-	if len(placeholders) == 0 {
-		return translatedText // 原文没有占位符，直接返回翻译结果
+// 生成 UUID 格式的占位符
+func generateUUIDPlaceholder() string {
+	b := make([]byte, 16)
+	_, err := rand.Read(b)
+	if err != nil {
+		// 如果生成失败，使用时间戳作为备选
+		return fmt.Sprintf("00000000-0000-0000-0000-%012d", time.Now().UnixNano()%1000000000000)
 	}
+	// 标准 UUID 格式：xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+	return fmt.Sprintf("%08x-%04x-%04x-%04x-%012x",
+		b[0:4], b[4:6], b[6:8], b[8:10], b[10:16])
+}
 
-	// 从翻译文本中移除多余的空格（因为我们在移除占位符时添加了空格）
-	result := strings.TrimSpace(translatedText)
+// 客户端保护：将占位符和专有名词替换为 UUID 格式的特殊标记，这样 DeepL 不会翻译它们
+func protectAllContent(text string) (string, map[string]string) {
+	result := text
+	protected := make(map[string]string)
 
-	// 简单策略：在翻译文本末尾附加所有占位符
-	// 这确保占位符不会被修改或翻译
-	// 例如："Bentornato" + " {name}" = "Bentornato {name}"
-	for _, ph := range placeholders {
-		if !strings.Contains(result, ph) {
-			result += " " + ph
+	// 第一步：保护专有名词（先处理长的，避免部分替换）
+	// 按长度降序排列专有名词
+	type nounLen struct {
+		noun string
+		len  int
+	}
+	nouns := make([]nounLen, len(properNouns))
+	for i, noun := range properNouns {
+		nouns[i] = nounLen{noun, len(noun)}
+	}
+	// 简单的降序排序（按长度）
+	for i := 0; i < len(nouns); i++ {
+		for j := i + 1; j < len(nouns); j++ {
+			if nouns[j].len > nouns[i].len {
+				nouns[i], nouns[j] = nouns[j], nouns[i]
+			}
 		}
 	}
 
+	for _, nl := range nouns {
+		if strings.Contains(result, nl.noun) {
+			placeholder := generateUUIDPlaceholder()
+			protected[placeholder] = nl.noun
+			result = strings.ReplaceAll(result, nl.noun, placeholder)
+		}
+	}
+
+	// 第二步：保护占位符（如 {name}, {count} 等）
+	placeholderRegex := regexp.MustCompile(`\{[a-zA-Z0-9_]+\}`)
+	result = placeholderRegex.ReplaceAllStringFunc(result, func(match string) string {
+		placeholder := generateUUIDPlaceholder()
+		protected[placeholder] = match
+		return placeholder
+	})
+
+	return result, protected
+}
+
+// 还原被保护的内容
+func restoreProtectedContent(text string, protected map[string]string) string {
+	result := text
+	for placeholder, content := range protected {
+		result = strings.ReplaceAll(result, placeholder, content)
+	}
 	return result
 }
+
+
+
 
 // 第一步：收集所有需要翻译的文本
 func collectTexts(data interface{}, texts map[string]bool) {

@@ -1,37 +1,37 @@
 {
   "actions": {
-    "redirecting": "Reindirizzamento...",
-    "startUsing": "Iniziare a usarlo ora",
-    "viewSubscription": "Visualizza l'abbonamento"
+    "redirecting": "Redirigiendo...",
+    "startUsing": "Empezar a usar ahora",
+    "viewSubscription": "Ver suscripción"
   },
-  "autoRedirect": "Redirección automática al salpicadero en segundos... {seconds}",
-  "description": "Grazie per esservi abbonati. Il suo account è stato aggiornato con successo e ora può usufruire di tutte le funzioni premium.",
+  "autoRedirect": "Redirección automática al salpicadero en {seconds} segundos...",
+  "description": "Gracias por suscribirse. Su cuenta se ha actualizado correctamente y ya puede disfrutar de todas las funciones Premium.",
   "details": {
-    "amount": "Importo",
-    "plan": "Piano",
-    "status": "Stato",
-    "statusActive": "Attivo",
-    "title": "Dettagli sull'abbonamento"
+    "amount": "Importe",
+    "plan": "Plan",
+    "status": "Estado",
+    "statusActive": "Activo",
+    "title": "Detalles de la suscripción"
   },
-  "loading": "Caricamento...",
+  "loading": "Cargando...",
   "nextSteps": {
-    "step1": "Visitate il vostro cruscotto per esplorare tutte le funzioni disponibili.",
-    "step2": "Iniziare a utilizzare i generatori di intelligenza artificiale per creare immagini straordinarie",
-    "step3": "Visualizzare i dettagli dell'abbonamento nella pagina di gestione degli abbonamenti",
-    "title": "Cosa c'è dopo"
+    "step1": "Visita tu panel de control para explorar todas las funciones disponibles",
+    "step2": "Empieza a utilizar generadores de IA para crear imágenes asombrosas",
+    "step3": "Ver los detalles de su suscripción en la página de gestión de suscripciones",
+    "title": "El futuro"
   },
-  "notFound": "Abbonamento non trovato",
+  "notFound": "Suscripción no encontrada",
   "planTypes": {
-    "monthly_basic": "Base - Mensile",
-    "monthly_pro": "Pro - Mensile",
-    "trial": "Processo",
-    "unknown": "Piano sconosciuto",
-    "yearly_basic": "Base - Annuale",
-    "yearly_pro": "Pro - Annuale"
+    "monthly_basic": "Básico - Mensual",
+    "monthly_pro": "Pro - Mensual",
+    "trial": "Ensayo",
+    "unknown": "Plan Desconocido",
+    "yearly_basic": "Básico - Anual",
+    "yearly_pro": "Pro - Anual"
   },
   "seo": {
-    "description": "Grazie per esserti abbonato! Il tuo account è stato aggiornato con successo",
-    "title": "Abbonamento riuscito"
+    "description": "Gracias por suscribirse Su cuenta se ha actualizado correctamente",
+    "title": "Suscripción correcta"
   },
-  "title": "Abbonamento riuscito!"
+  "title": "Suscripción realizada con éxito"
 }

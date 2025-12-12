@@ -1,80 +1,80 @@
 {
   "entries": {
     "Canceled": {
-      "translation": "Annullato",
-      "timestamp": 1765569887
+      "translation": "Cancelado",
+      "timestamp": 1765575459
     },
     "Canceled Date": {
-      "translation": "Data di annullamento",
-      "timestamp": 1765569887
+      "translation": "Fecha de cancelación",
+      "timestamp": 1765575459
     },
     "Customer": {
       "translation": "Cliente",
-      "timestamp": 1765569887
+      "timestamp": 1765575459
     },
     "Expiry Date": {
-      "translation": "Data di scadenza",
-      "timestamp": 1765569887
+      "translation": "Fecha de expiración",
+      "timestamp": 1765575459
     },
     "Log in to view and manage your subscription information": {
-      "translation": "Accedere per visualizzare e gestire le informazioni sull'abbonamento",
-      "timestamp": 1765569887
+      "translation": "Inicie sesión para ver y gestionar su información de suscripción",
+      "timestamp": 1765575459
     },
     "Login to View Subscriptions": {
-      "translation": "Accedi per visualizzare gli abbonamenti",
-      "timestamp": 1765569887
+      "translation": "Iniciar sesión para ver las suscripciones",
+      "timestamp": 1765575459
     },
     "Manage Subscription": {
-      "translation": "Gestire l'abbonamento",
-      "timestamp": 1765569887
+      "translation": "Gestionar suscripción",
+      "timestamp": 1765575459
     },
     "Next Billing Date": {
-      "translation": "Data di fatturazione successiva",
-      "timestamp": 1765569887
+      "translation": "Próxima fecha de facturación",
+      "timestamp": 1765575459
     },
     "Next renewal switches to": {
-      "translation": "Il prossimo rinnovo passa a",
-      "timestamp": 1765569887
+      "translation": "La próxima renovación pasa a",
+      "timestamp": 1765575459
     },
     "No Subscriptions": {
-      "translation": "Nessun abbonamento",
-      "timestamp": 1765569887
+      "translation": "Sin suscripciones",
+      "timestamp": 1765575459
     },
     "Paused": {
-      "translation": "In pausa",
-      "timestamp": 1765569887
+      "translation": "En pausa",
+      "timestamp": 1765575459
     },
     "Payment Platform": {
-      "translation": "Piattaforma di pagamento",
-      "timestamp": 1765569887
+      "translation": "Plataforma de pago",
+      "timestamp": 1765575459
     },
     "Pending Payment": {
-      "translation": "In attesa di pagamento",
-      "timestamp": 1765569887
+      "translation": "Pago pendiente",
+      "timestamp": 1765575459
     },
     "Start Date": {
-      "translation": "Data di inizio",
-      "timestamp": 1765569887
+      "translation": "Fecha de inicio",
+      "timestamp": 1765575459
     },
     "Subscription Amount": {
-      "translation": "Importo della sottoscrizione",
-      "timestamp": 1765569887
+      "translation": "Importe de la suscripción",
+      "timestamp": 1765575459
     },
     "Subscription Management": {
-      "translation": "Gestione degli abbonamenti",
-      "timestamp": 1765569887
+      "translation": "Gestión de suscripciones",
+      "timestamp": 1765575459
     },
     "View and manage your subscription information": {
-      "translation": "Visualizzare e gestire le informazioni sull'abbonamento",
-      "timestamp": 1765569887
+      "translation": "Ver y gestionar su información de suscripción",
+      "timestamp": 1765575459
     },
     "View and manage your subscription plans and billing information": {
-      "translation": "Visualizzare e gestire i piani di abbonamento e le informazioni di fatturazione",
-      "timestamp": 1765569887
+      "translation": "Ver y gestionar los planes de suscripción y la información de facturación",
+      "timestamp": 1765575459
     },
     "You currently have no active subscriptions": {
-      "translation": "Al momento non ci sono abbonamenti attivi",
-      "timestamp": 1765569887
+      "translation": "Actualmente no tiene ninguna suscripción activa",
+      "timestamp": 1765575459
     }
   }
 }

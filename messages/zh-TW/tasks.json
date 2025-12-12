@@ -1,86 +1,85 @@
 {
-  "seo": {
-    "title": "歷史記錄",
-    "description": "查看和管理您的所有 AI 圖像生成歷史"
+  "card": {
+    "cancelDelete": "取消",
+    "confirmDelete": "删除",
+    "confirmDeleteMessage": "您确定要删除此任务吗？此操作无法撤销。",
+    "confirmDeleteTitle": "删除任务",
+    "delete": "删除",
+    "deleting": "删除...",
+    "makePrivate": "使私人",
+    "makePublic": "公开",
+    "private": "私人",
+    "public": "公众"
   },
-  "header": {
-    "title": "歷史記錄",
-    "subtitle": "查看和管理您的所有生成記錄"
+  "empty": {
+    "cta": "开始创建",
+    "filteredSubtitle": "尝试更改过滤器选项",
+    "filteredTitle": "无匹配任务",
+    "subtitle": "开始创建第一张人工智能图像",
+    "title": "暂无任务"
   },
-  "loginPrompt": {
-    "title": "登入查看歷史",
-    "description": "登入後即可查看您的所有 AI 圖像生成歷史",
-    "cta": "立即登入"
+  "errors": {
+    "fetchFailed": "获取任务失败",
+    "retry": "重试"
   },
   "filter": {
     "all": "全部",
+    "clearAll": "清晰",
     "completed": "已完成",
-    "processing": "生成中",
-    "pending": "排隊中",
-    "failed": "失敗",
-    "statusLabel": "狀態",
-    "taskTypeLabel": "類型",
-    "taskType": {
-      "all": "全部",
-      "text-to-image": "文生圖",
-      "image-to-image": "圖生圖"
-    },
-    "modelLabel": "模型",
+    "failed": "失败",
     "model": {
       "all": "全部",
+      "flux-2-pro": "FLUX 2 Pro",
       "nano-banana-pro": "Nano Banana Pro",
       "z-image": "Z-Image",
-      "z-image-lora": "Z-Image LoRA",
-      "flux-2-pro": "FLUX 2 Pro"
+      "z-image-lora": "Z-Image LoRA"
     },
-    "privacyLabel": "隱私",
-    "privacy": {
-      "private": "私有",
-      "public": "公開"
-    },
-    "nsfwLabel": "內容",
+    "modelLabel": "模型",
     "nsfw": {
-      "safe": "安全",
-      "nsfw": "NSFW"
+      "nsfw": "NSFW",
+      "safe": "安全"
     },
-    "selectPlaceholder": "請選擇...",
-    "selectedCount": "{count} 項已選",
-    "title": "篩選",
-    "clearAll": "清空"
+    "nsfwLabel": "内容",
+    "pending": "待定",
+    "privacy": {
+      "private": "私人",
+      "public": "公众"
+    },
+    "privacyLabel": "隐私权",
+    "processing": "加工",
+    "selectPlaceholder": "选择...",
+    "selectedCount": "{count} selected",
+    "statusLabel": "现状",
+    "taskType": {
+      "all": "全部",
+      "image-to-image": "图像到图像",
+      "text-to-image": "文本到图像"
+    },
+    "taskTypeLabel": "类型",
+    "title": "过滤器"
+  },
+  "header": {
+    "subtitle": "查看和管理所有生成历史",
+    "title": "历史"
+  },
+  "loginPrompt": {
+    "cta": "登录",
+    "description": "登录以查看所有人工智能图像生成历史记录",
+    "title": "登录查看历史"
+  },
+  "noPrompt": "在提示符下",
+  "pagination": {
+    "next": "下一页",
+    "prev": "上一页"
+  },
+  "seo": {
+    "description": "查看和管理所有人工智能图像生成历史记录",
+    "title": "历史"
   },
   "status": {
     "completed": "已完成",
-    "processing": "生成中",
-    "pending": "排隊中",
-    "failed": "失敗"
-  },
-  "empty": {
-    "title": "暫無任務",
-    "subtitle": "開始創作您的第一張 AI 圖像吧",
-    "filteredTitle": "沒有符合條件的任務",
-    "filteredSubtitle": "嘗試切換其他篩選條件",
-    "cta": "開始創作"
-  },
-  "noPrompt": "無提示詞",
-  "card": {
-    "delete": "刪除",
-    "confirmDelete": "確認刪除",
-    "confirmDeleteTitle": "刪除任務",
-    "confirmDeleteMessage": "確定要刪除這個任務嗎？此操作無法撤銷。",
-    "cancelDelete": "取消",
-    "deleting": "刪除中...",
-    "private": "私有",
-    "public": "公開",
-    "makePrivate": "設為私有",
-    "makePublic": "設為公開"
-  },
-  "errors": {
-    "fetchFailed": "獲取任務列表失敗",
-    "retry": "重試"
-  },
-  "pagination": {
-    "prev": "上一頁",
-    "next": "下一頁"
+    "failed": "失败",
+    "pending": "待定",
+    "processing": "加工"
   }
 }
-

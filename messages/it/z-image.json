@@ -9,15 +9,15 @@
   "faq": {
     "items": [
       {
-        "answer": "Z-Image raggiunge prestazioni paragonabili o superiori ai principali concorrenti con soli 8 passaggi, offrendo una latenza di inferenza inferiore al secondo su GPU H800 di livello enterprise. Su dispositivi consumer come RTX 3090 o 4090, sono necessari circa 2-3 secondi, mentre le schede di fascia media impiegano circa 4-5 secondi, richiedendo solo 16G di VRAM.",
-        "question": "Quanto è veloce la generazione di immagini Z?"
+        "answer": "Z-Image raggiunge prestazioni paragonabili o superiori ai principali concorrenti con soli 8 passaggi, offrendo una latenza di inferenza inferiore al secondo su GPU H800 di livello enterprise. Su dispositivi consumer come RTX 3090 o 4090, ci vogliono circa 2-3 secondi, mentre le schede di fascia media impiegano circa 4-5 secondi, richiedendo solo 16G VRAM.",
+        "question": "Quanto è veloce la generazione di Z-Image?"
       },
       {
-        "answer": "Z-Image rende accuratamente testi complessi in cinese e inglese mantenendo il realismo facciale e la composizione estetica complessiva, con risultati paragonabili ai modelli closed-source di alto livello. Nel campo della cartellonistica, dimostra forti capacità compositive e senso tipografico, fornendo testi di alta qualità anche in scenari difficili con caratteri di piccole dimensioni.",
-        "question": "Quali vantaggi offre Z-Image nel rendering del testo?"
+        "answer": "Z-Image rende accuratamente testi complessi in cinese e inglese mantenendo il realismo facciale e la composizione estetica complessiva, con risultati paragonabili a modelli closed-source di alto livello. Per quanto riguarda la cartellonistica, dimostra forti capacità compositive e senso tipografico, fornendo testi di alta qualità anche in scenari difficili con caratteri di piccole dimensioni.",
+        "question": "Quali vantaggi offre Z-Image nella resa del testo?"
       },
       {
-        "answer": "Prompt Enhancer (PE) utilizza catene di ragionamento strutturate per iniettare logica e buon senso, consentendo al modello di trascendere le descrizioni di superficie e di attingere alla conoscenza del mondo sottostante per compiti complessi come il \"problema del pollo e del coniglio\" o la visualizzazione della poesia classica cinese. Anche in presenza di istruzioni ambigue, il modello è in grado di dedurre l'intento sottostante per ottenere risultati logicamente coerenti.",
+        "answer": "Prompt Enhancer (PE) utilizza catene di ragionamento strutturate per iniettare logica e buon senso, consentendo al modello di trascendere le descrizioni di superficie e di attingere alla conoscenza del mondo sottostante per compiti complessi come il \"Problema del pollo e del coniglio\" o la visualizzazione della poesia classica cinese. Anche in presenza di istruzioni ambigue, è in grado di dedurre l'intento sottostante per ottenere risultati logicamente coerenti.",
         "question": "Che cos'è la funzione Prompt Enhancement?"
       },
       {
@@ -25,11 +25,11 @@
         "question": "Com'è la qualità fotorealistica di Z-Image?"
       },
       {
-        "answer": "Z-Image adotta un'architettura Scalable Single-Stream Diffusion Transformer (S3-DiT). Testo, token semantici visivi e token VAE dell'immagine sono concatenati a livello di sequenza per servire come flusso di input unificato nella struttura portante del trasformatore, massimizzando l'efficienza dei parametri rispetto agli approcci a doppio flusso.",
+        "answer": "Z-Image adotta un'architettura Scalable Single-Stream Diffusion Transformer (S3-DiT). Testo, token semantici visivi e token di immagini VAE sono concatenati a livello di sequenza per servire come flusso di input unificato nella dorsale del trasformatore, massimizzando l'efficienza dei parametri rispetto agli approcci a doppio flusso.",
         "question": "Quale architettura utilizza Z-Image?"
       },
       {
-        "answer": "Secondo la valutazione delle preferenze umane basata su Elo (su Alibaba AI Arena), Z-Image mostra prestazioni altamente competitive rispetto ad altri modelli leader e raggiunge risultati all'avanguardia tra i modelli open-source.",
+        "answer": "Secondo la valutazione delle preferenze umane basata su Elo (su Alibaba AI Arena), Z-Image mostra prestazioni altamente competitive rispetto ad altri modelli leader, raggiungendo al contempo risultati all'avanguardia tra i modelli open-source.",
         "question": "Come si colloca Z-Image rispetto ad altri modelli?"
       }
     ],
@@ -54,7 +54,7 @@
     },
     "subtitle": "Provate il servizio di generazione di immagini AI fotorealistiche basato sul modello Z-Image, con un accurato rendering del testo bilingue. Offriamo una velocità di generazione inferiore al secondo e prezzi accessibili per rendere la creazione di immagini AI professionali accessibile a tutti.",
     "title": {
-      "line1": "Immagine Z",
+      "line1": "Z-Image",
       "line2": "Inferenza in 8 fasi, generazione in meno di un secondo"
     }
   },
@@ -91,11 +91,11 @@
         "title": "Qualità fotorealistica"
       },
       "core2": {
-        "description": "Z-Image esegue un rendering accurato del testo cinese e inglese, preservando il realismo facciale e la composizione estetica complessiva, con risultati paragonabili ai migliori modelli closed-source. Nel campo della cartellonistica, dimostra forti capacità compositive e senso tipografico, fornendo testi di alta qualità anche in scenari difficili con caratteri di piccole dimensioni.",
+        "description": "Z-Image rende accuratamente il testo cinese e inglese preservando il realismo facciale e la composizione estetica complessiva, con risultati paragonabili ai migliori modelli closed-source. Per quanto riguarda la cartellonistica, dimostra forti capacità compositive e senso tipografico, fornendo testi di alta qualità anche in scenari difficili con caratteri di piccole dimensioni.",
         "title": "Rendering accurato del testo bilingue"
       },
       "core3": {
-        "description": "Powerful Prompt Enhancer (PE) utilizza catene di ragionamento strutturate per iniettare logica e buon senso, consentendo al modello di gestire compiti complessi come il \"problema del pollo e del coniglio\" o la visualizzazione di poesie classiche cinesi. Nei compiti di editing, anche in presenza di istruzioni ambigue, il modello è in grado di dedurre l'intento sottostante per ottenere risultati logicamente coerenti.",
+        "description": "Powerful Prompt Enhancer (PE) utilizza catene di ragionamento strutturate per iniettare logica e buon senso, consentendo al modello di gestire compiti complessi come il \"Problema del pollo e del coniglio\" o la visualizzazione della poesia cinese classica. Nei compiti di editing, anche in presenza di istruzioni ambigue, il modello è in grado di dedurre l'intento sottostante per ottenere risultati logicamente coerenti.",
         "title": "Miglioramento e ragionamento dei prompt"
       }
     },
@@ -136,7 +136,7 @@
         "item2": "Non sono necessarie competenze di progettazione: le descrizioni sono semplici",
         "item3": "Prezzi convenienti a consumo",
         "item4": "Generazione istantanea, possibilità creative illimitate",
-        "title": "Servizio di generazione di immagini Z"
+        "title": "Z-Image Servizio di Generazione"
       },
       "traditional": {
         "item1": "Ci vogliono ore o giorni per completare un'immagine professionale.",
@@ -146,7 +146,7 @@
         "title": "Creazione di immagini tradizionali"
       }
     },
-    "subtitle": "Il nostro servizio Z-Image rende semplice ed efficiente la creazione di immagini AI professionali con una velocità di generazione inferiore al secondo, un rendering accurato del testo e un prezzo accessibile.",
+    "subtitle": "Il nostro servizio Z-Image rende semplice ed efficiente la creazione di immagini AI professionali con una velocità di generazione inferiore al secondo, un rendering accurato del testo e prezzi accessibili.",
     "title": "Perché scegliere il nostro servizio Z-Image?"
   }
 }

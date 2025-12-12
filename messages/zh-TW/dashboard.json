@@ -1,63 +1,63 @@
 {
-  "seo": {
-    "title": "儀表板",
-    "description": "管理您的 AI 圖像生成專案，追蹤使用情況並存取所有功能"
-  },
-  "welcome": "歡迎回來，{name}",
-  "subtitle": "開始創作您的精彩內容",
-  "guestWelcome": "歡迎來到儀表板",
-  "guestSubtitle": "請登入以存取您的儀表板並開始創作",
+  "guestSubtitle": "请登录以访问您的仪表板并开始创建",
+  "guestWelcome": "欢迎访问仪表板",
   "loginPrompt": {
-    "title": "登入以存取您的儀表板",
-    "description": "建立帳號或登入以解鎖所有功能，追蹤使用情況並管理您的專案。",
-    "cta": "立即登入",
+    "cta": "立即登录",
+    "description": "创建账户或登录后，即可解锁所有功能、跟踪使用情况并管理项目。",
     "features": {
-      "quota": "使用配額",
-      "quotaDesc": "追蹤您的生成配額和使用歷史記錄",
-      "projects": "專案管理",
-      "projectsDesc": "組織和管理您的所有創意專案",
-      "analytics": "分析與統計",
-      "analyticsDesc": "查看詳細的統計數據和效能指標"
-    }
-  },
-  "userType": {
-    "pro": "專業版",
-    "basic": "基礎版",
-    "trial": "體驗版",
-    "free": "免費版"
-  },
-  "stats": {
-    "quota": {
-      "remaining": "剩餘生成配額",
-      "unlimited": "無限生成配額",
-      "expires": "過期"
+      "analytics": "分析与统计",
+      "analyticsDesc": "查看详细的统计数据和性能指标",
+      "projects": "项目管理",
+      "projectsDesc": "组织和管理所有创意项目",
+      "quota": "使用配额",
+      "quotaDesc": "跟踪您的发电配额和使用历史"
     },
-    "projects": "我的專案總數",
-    "images": "已上傳圖片素材",
-    "templates": "已建立範本數"
-  },
-  "quickActions": {
-    "title": "快速開始",
-    "newProject": "新建專案",
-    "uploadImage": "上傳圖片",
-    "templates": "範本庫",
-    "tutorial": "使用教學"
-  },
-  "recent": {
-    "title": "最近生成",
-    "subtitle": "僅展示近一週的生成內容",
-    "viewAll": "查看全部",
-    "loading": "載入中...",
-    "empty": {
-      "title": "近一週還沒有生成內容",
-      "subtitle": "開始生成您的第一張圖片",
-      "cta": "去生成"
-    }
+    "title": "登录以访问您的控制面板"
   },
   "marketing": {
-    "title": "解鎖更多強大功能",
-    "description": "升級訂閱方案，獲得更多積分配額、超高畫質解析度、批次生成功能以及優先客服支援。",
-    "upgradeButton": "立即升級",
-    "learnMoreButton": "了解更多"
-  }
+    "description": "升级计划可获得更多点数、超高分辨率、批量生成和优先支持。",
+    "learnMoreButton": "了解更多",
+    "title": "解锁更强大的功能",
+    "upgradeButton": "立即升级"
+  },
+  "quickActions": {
+    "newProject": "新项目",
+    "templates": "模板",
+    "title": "快速入门",
+    "tutorial": "教程",
+    "uploadImage": "上传图片"
+  },
+  "recent": {
+    "empty": {
+      "cta": "立即生成",
+      "subtitle": "开始生成第一张图片",
+      "title": "本周无内容生成"
+    },
+    "loading": "正在加载...",
+    "subtitle": "仅显示过去一周的内容",
+    "title": "最近几代人",
+    "viewAll": "查看全部"
+  },
+  "seo": {
+    "description": "管理人工智能图像生成项目、跟踪使用情况并访问所有功能",
+    "title": "仪表板"
+  },
+  "stats": {
+    "images": "上传的图像资产",
+    "projects": "项目总数",
+    "quota": {
+      "expires": "到期",
+      "remaining": "剩余发电配额",
+      "unlimited": "无限生成配额"
+    },
+    "templates": "创建的模板"
+  },
+  "subtitle": "开始创建您的精彩内容",
+  "userType": {
+    "basic": "基本",
+    "free": "免费",
+    "pro": "专业",
+    "trial": "试用"
+  },
+  "welcome": "欢迎回来，{name}"
 }

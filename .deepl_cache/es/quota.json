@@ -1,120 +1,120 @@
 {
   "entries": {
     "Active": {
-      "translation": "Attivo",
-      "timestamp": 1765569884
+      "translation": "Activo",
+      "timestamp": 1765575456
     },
     "Active Quota": {
-      "translation": "Quota attiva",
-      "timestamp": 1765569884
+      "translation": "Cuota activa",
+      "timestamp": 1765575456
     },
     "Amount": {
-      "translation": "Importo",
-      "timestamp": 1765569884
+      "translation": "Importe",
+      "timestamp": 1765575456
     },
     "Available": {
-      "translation": "Disponibile",
-      "timestamp": 1765569884
+      "translation": "Disponible",
+      "timestamp": 1765575456
     },
     "Consumed": {
-      "translation": "Consumato",
-      "timestamp": 1765569884
+      "translation": "Consumido",
+      "timestamp": 1765575456
     },
     "Daily Free Quota": {
-      "translation": "Quota libera giornaliera",
-      "timestamp": 1765569884
+      "translation": "Cuota diaria libre",
+      "timestamp": 1765575456
     },
     "Depleted": {
-      "translation": "Impoverito",
-      "timestamp": 1765569884
+      "translation": "Agotado",
+      "timestamp": 1765575456
     },
     "Expired": {
-      "translation": "Scaduto",
-      "timestamp": 1765569884
+      "translation": "Caducado",
+      "timestamp": 1765575456
     },
     "Expires At": {
-      "translation": "Scade a",
-      "timestamp": 1765569884
+      "translation": "Caduca en",
+      "timestamp": 1765575456
     },
     "Issued At": {
-      "translation": "Rilasciato a",
-      "timestamp": 1765569884
+      "translation": "Emitido en",
+      "timestamp": 1765575456
     },
     "Log in to view your quota usage and history": {
-      "translation": "Accedere per visualizzare l'utilizzo della quota e la cronologia",
-      "timestamp": 1765569884
+      "translation": "Inicie sesión para ver el uso y el historial de su cuota",
+      "timestamp": 1765575456
     },
     "Login to View Quota": {
-      "translation": "Accesso per visualizzare la quota",
-      "timestamp": 1765569884
+      "translation": "Conectarse para ver la cuota",
+      "timestamp": 1765575456
     },
     "Manage and view your available quota": {
-      "translation": "Gestire e visualizzare la quota disponibile",
-      "timestamp": 1765569884
+      "translation": "Gestione y consulte su cuota disponible",
+      "timestamp": 1765575456
     },
     "Manage and view your available quota usage and history": {
-      "translation": "Gestire e visualizzare l'utilizzo e la cronologia delle quote disponibili",
-      "timestamp": 1765569884
+      "translation": "Gestiona y consulta el uso y el historial de tu cuota disponible",
+      "timestamp": 1765575456
     },
     "Monthly Basic": {
-      "translation": "Mensile di base",
-      "timestamp": 1765569884
+      "translation": "Básico mensual",
+      "timestamp": 1765575456
     },
     "Monthly Pro": {
-      "translation": "Mensile Pro",
-      "timestamp": 1765569884
+      "translation": "Pro mensual",
+      "timestamp": 1765575456
     },
     "My Quota": {
-      "translation": "My Quota",
-      "timestamp": 1765569884
+      "translation": "Mi cuota",
+      "timestamp": 1765575456
     },
     "Never": {
-      "translation": "Mai",
-      "timestamp": 1765569884
+      "translation": "Nunca",
+      "timestamp": 1765575456
     },
     "No active quota available": {
-      "translation": "Nessuna quota attiva disponibile",
-      "timestamp": 1765569884
+      "translation": "No hay cuotas activas disponibles",
+      "timestamp": 1765575456
     },
     "No expired quota": {
-      "translation": "Nessuna quota scaduta",
-      "timestamp": 1765569884
+      "translation": "Ninguna cuota caducada",
+      "timestamp": 1765575456
     },
     "Quota Pack": {
-      "translation": "Quota Pack",
-      "timestamp": 1765569884
+      "translation": "Paquete de cuotas",
+      "timestamp": 1765575456
     },
     "Remaining": {
-      "translation": "Rimanente",
-      "timestamp": 1765569884
+      "translation": "Resto",
+      "timestamp": 1765575456
     },
     "Subscription Change Compensation": {
-      "translation": "Sottoscrizione Modifica Compensazione",
-      "timestamp": 1765569884
+      "translation": "Suscripción Cambio Compensación",
+      "timestamp": 1765575456
     },
     "Total Available": {
-      "translation": "Totale disponibile",
-      "timestamp": 1765569884
+      "translation": "Total disponible",
+      "timestamp": 1765575456
     },
     "Type": {
       "translation": "Tipo",
-      "timestamp": 1765569884
+      "timestamp": 1765575456
     },
     "Yearly Basic": {
-      "translation": "Annuale di base",
-      "timestamp": 1765569884
+      "translation": "Básico anual",
+      "timestamp": 1765575456
     },
     "Yearly Pro": {
-      "translation": "Annuale Pro",
-      "timestamp": 1765569884
+      "translation": "Anual Pro",
+      "timestamp": 1765575456
     },
     "You currently have no available quota. Please purchase quota to continue using the service": {
-      "translation": "Al momento non avete quote disponibili. Si prega di acquistare una quota per continuare a utilizzare il servizio",
-      "timestamp": 1765569884
+      "translation": "Actualmente no tiene cuota disponible. Por favor, compre cuota para seguir utilizando el servicio",
+      "timestamp": 1765575456
     },
     "You have no expired quota records": {
-      "translation": "Non ci sono registrazioni di quote scadute",
-      "timestamp": 1765569884
+      "translation": "No tiene registros de cuotas caducados",
+      "timestamp": 1765575456
     }
   }
 }

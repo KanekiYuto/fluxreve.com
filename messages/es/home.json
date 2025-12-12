@@ -1,53 +1,53 @@
 {
   "cta": {
     "buttons": {
-      "freeTrial": "Prova gratuita",
-      "viewPricing": "Visualizza i prezzi"
+      "freeTrial": "Prueba gratuita",
+      "viewPricing": "Ver precios"
     },
-    "description": "Unisciti a migliaia di creatori che usano la potenza dell'IA per dare vita alle tue idee",
-    "note": "Non è necessaria la carta di credito - Iniziate a usarlo ora",
-    "title": "Iniziare a creare ora"
+    "description": "Únete a miles de creadores que utilizan el poder de la IA para dar vida a tus ideas",
+    "note": "No necesita tarjeta de crédito - Empiece a utilizarlo ahora",
+    "title": "Empezar a crear ahora"
   },
   "features": {
     "items": [
       {
-        "description": "Potenti algoritmi di intelligenza artificiale generano immagini di alta qualità in pochi secondi, migliorando notevolmente l'efficienza creativa.",
-        "title": "Generazione veloce"
+        "description": "Los potentes algoritmos de IA generan imágenes de alta calidad en segundos, lo que mejora drásticamente la eficacia creativa.",
+        "title": "Generación rápida"
       },
       {
-        "description": "Utilizza modelli AI all'avanguardia per produrre immagini di qualità professionale e soddisfare le diverse esigenze creative.",
-        "title": "Professional Quality"
+        "description": "Utiliza modelos de IA de última generación para obtener una calidad de imagen profesional que satisfaga diversas necesidades creativas.",
+        "title": "Calidad profesional"
       },
       {
-        "description": "Le ricche impostazioni dei parametri e le opzioni di stile consentono di controllare con precisione ogni dettaglio della generazione dell'immagine.",
-        "title": "Controllo flessibile"
+        "description": "Los numerosos ajustes de parámetros y opciones de estilo le permiten controlar con precisión todos los detalles de la generación de imágenes.",
+        "title": "Control flexible"
       },
       {
-        "description": "Interfaccia intuitiva che non richiede alcuna competenza e che consente a chiunque di creare facilmente splendide immagini.",
-        "title": "Facile da usare"
+        "description": "Interfaz intuitiva que no requiere conocimientos técnicos y permite a cualquiera crear fácilmente bellas imágenes.",
+        "title": "Fácil de usar"
       }
     ],
-    "sectionDescription": "Combinando una potente tecnologia AI con un'esperienza utente pulita, la creazione di immagini è più facile che mai.",
-    "sectionTitle": "Perché scegliere noi"
+    "sectionDescription": "Combinando una potente tecnología de IA con una experiencia de usuario limpia, la creación de imágenes es más fácil que nunca.",
+    "sectionTitle": "Por qué elegirnos"
   },
   "hero": {
     "buttons": {
-      "startCreate": "Iniziare a creare",
-      "viewPricing": "Visualizza i prezzi"
+      "startCreate": "Empezar a crear",
+      "viewPricing": "Ver precios"
     },
-    "description": "Basta descrivere ciò che si desidera e si ottengono splendide immagini di livello professionale. Non sono richieste competenze di design: tutti possono essere creatori.",
+    "description": "Sólo tiene que describir lo que desea y obtendrá unas imágenes impresionantes de calidad profesional. No se requieren conocimientos de diseño: todo el mundo puede ser un creador.",
     "features": {
-      "easyToUse": "Facile da usare",
-      "fastGeneration": "Generazione veloce",
-      "highQuality": "Produzione di alta qualità"
+      "easyToUse": "Fácil de usar",
+      "fastGeneration": "Generación rápida",
+      "highQuality": "Alta calidad"
     },
     "title": {
-      "line1": "Trasformare le idee in realtà all'istante",
-      "line2": "Generazione di immagini professionali potenziate dall'intelligenza artificiale"
+      "line1": "Convierta las ideas en realidad al instante",
+      "line2": "Generación de imágenes profesionales con IA"
     }
   },
   "metadata": {
-    "description": "Utilizzando una tecnologia avanzata di intelligenza artificiale per generare rapidamente immagini professionali di alta qualità. Creazione di immagini AI semplice ed efficiente.",
-    "title": "- AI Image Generation Tool | Genere imágenes profesionales rápidamente {siteName}"
+    "description": "Utilizando tecnología avanzada de inteligencia artificial para generar rápidamente imágenes profesionales de alta calidad. Haciendo que la creación de imágenes AI sea simple y eficiente.",
+    "title": "{siteName} - Herramienta de Generación de Imágenes AI | Genera Imágenes Profesionales Rápido"
   }
 }

@@ -1,155 +1,155 @@
 {
   "comingSoon": {
-    "badge": "In arrivo",
-    "defaultDescription": "Stiamo lavorando sodo per offrirvi nuove e straordinarie funzionalità. Restate sintonizzati per gli aggiornamenti!",
-    "defaultTitle": "Funzionalità interessanti in arrivo",
-    "feature1Desc": "Tecnologia all'avanguardia",
-    "feature1Title": "Intelligenza Artificiale potente",
-    "feature2Desc": "Automazione intelligente",
-    "feature2Title": "Caratteristiche intelligenti",
-    "feature3Desc": "Risultati rapidi e veloci",
-    "feature3Title": "Elaborazione rapida",
+    "badge": "Próximamente",
+    "defaultDescription": "Estamos trabajando duro para ofrecerte nuevas e increíbles funciones. Mantente al tanto de las novedades.",
+    "defaultTitle": "Funciones emocionantes en camino",
+    "feature1Desc": "Tecnología punta",
+    "feature1Title": "Potente IA",
+    "feature2Desc": "Automatización inteligente",
+    "feature2Title": "Funciones inteligentes",
+    "feature3Desc": "Resultados rapidísimos",
+    "feature3Title": "Procesamiento rápido",
     "moreTools": {
-      "description": "Esplorate le potenti utility per le immagini, tra cui l'upscaling, il miglioramento, la conversione di formato e l'elaborazione in batch.",
-      "title": "Altri strumenti per le immagini"
+      "description": "Explora las potentes utilidades de imagen, como el aumento de escala, la mejora, la conversión de formatos y el procesamiento por lotes.",
+      "title": "Más herramientas de imagen"
     },
-    "progressHint": "Il lancio è previsto a breve",
-    "progressLabel": "Progressi nello sviluppo"
+    "progressHint": "Lanzamiento previsto en breve",
+    "progressLabel": "Avances en el desarrollo"
   },
   "credits": {
-    "quota": "Quota",
-    "refresh": "Aggiornare la quota"
+    "quota": "Cuota",
+    "refresh": "Actualizar cuota"
   },
   "error": {
-    "credits": "Crediti",
-    "current": "Attuale",
-    "generationFailed": "Generazione fallita",
-    "imageGenerationFailed": "Generazione dell'immagine non riuscita",
-    "insufficientCredits": "Crediti insufficienti",
-    "parameterError": "Errore di parametro",
-    "pleaseRecharge": "Ricaricare e riprovare",
-    "promptRequired": "Inserire una richiesta",
-    "queryStatusFailed": "Stato dell'interrogazione non riuscito",
-    "required": "Richiesto",
-    "subscribe": "Abbonarsi",
-    "unableToQueryStatus": "Impossibile interrogare lo stato dell'attività"
+    "credits": "Créditos",
+    "current": "Actual",
+    "generationFailed": "Generación fallida",
+    "imageGenerationFailed": "Error en la generación de imágenes",
+    "insufficientCredits": "Créditos insuficientes",
+    "parameterError": "Error de parámetro",
+    "pleaseRecharge": "Por favor, recargue e inténtelo de nuevo",
+    "promptRequired": "Introduzca un mensaje",
+    "queryStatusFailed": "Estado de la consulta Fallida",
+    "required": "Requerido",
+    "subscribe": "Suscríbase a",
+    "unableToQueryStatus": "No se puede consultar el estado de la tarea"
   },
   "examples": {
-    "clickToUse": "Fare clic per utilizzare questo esempio",
-    "description": "Fate clic su un esempio qui sotto per iniziare a creare, oppure compilate il modulo a sinistra per personalizzarlo.",
+    "clickToUse": "Haga clic para utilizar este ejemplo",
+    "description": "Haga clic en uno de los ejemplos siguientes para empezar a crear, o rellene el formulario de la izquierda para personalizarlo",
     "goToExample": "Ir al ejemplo {index}",
-    "noExamples": "Nessun esempio disponibile",
-    "title": "Avvio rapido",
-    "useExample": "Utilizzate questo esempio"
+    "noExamples": "No hay ejemplos disponibles",
+    "title": "Inicio rápido",
+    "useExample": "Utilice este ejemplo"
   },
   "form": {
-    "add": "Aggiungi",
-    "addImageUrl": "Aggiungi URL immagine",
-    "addItem": "Aggiungi articolo",
-    "addLora": "Aggiungi LoRA",
-    "advancedSettings": "Impostazioni avanzate",
-    "aspectRatio": "Rapporto d'aspetto",
-    "aspectRatioPlaceholder": "Selezionare il rapporto d'aspetto",
+    "add": "Añadir",
+    "addImageUrl": "Añadir URL de imagen",
+    "addItem": "Añadir artículo",
+    "addLora": "Add LoRA",
+    "advancedSettings": "Configuración avanzada",
+    "aspectRatio": "Relación de aspecto",
+    "aspectRatioPlaceholder": "Seleccionar relación de aspecto",
     "aspectRatios": {
-      "16:9": "16:9 (paesaggio)",
-      "1:1": "1:1 (quadrato)",
+      "16:9": "16:9 (Paisaje)",
+      "1:1": "1:1 (Cuadrado)",
       "21:9": "21:9 (Ultrawide)",
-      "3:4": "3:4 (Ritratto)",
-      "4:3": "4:3 (standard)",
-      "9:16": "9:16 (Ritratto)"
+      "3:4": "3:4 (Retrato)",
+      "4:3": "4:3 (estándar)",
+      "9:16": "9:16 (Retrato)"
     },
-    "cancel": "Annullamento",
-    "clickAddLoraToStart": "Fare clic sul pulsante qui sopra per aggiungere la configurazione LoRA",
-    "configuration": "Configurazione",
-    "imageUrlPlaceholder": "Inserire l'URL dell'immagine",
-    "loraConfig": "Configurazione LoRA",
-    "loraConfigHint": "Inserire la configurazione di LoRA in formato JSON, ad esempio il nome del modello, il peso e altri parametri.",
+    "cancel": "Cancelar",
+    "clickAddLoraToStart": "Haga clic en el botón de arriba para añadir la configuración LoRA",
+    "configuration": "Configuración",
+    "imageUrlPlaceholder": "Introduzca la URL de la imagen",
+    "loraConfig": "LoRA Config",
+    "loraConfigHint": "Introducir la configuración LoRA en formato JSON, por ejemplo, nombre del modelo, peso y otros parámetros.",
     "mode": {
-      "imageToImage": "Da immagine a immagine",
-      "textToImage": "Da testo a immagine"
+      "imageToImage": "Imagen a imagen",
+      "textToImage": "Texto a imagen"
     },
-    "noLoraConfigured": "Nessun LoRA ancora configurato",
-    "outputFormat": "Formato di uscita",
-    "outputFormatPlaceholder": "Selezionare il formato di uscita",
-    "privateMode": "Moda privata",
-    "privateModeDesc": "I risultati saranno visibili solo a voi",
-    "privateModeSubscriptionRequired": "Sottoscrivere per abilitare la modalità privata",
-    "prompt": "Prompt",
-    "promptPlaceholder": "Descrivete l'immagine che volete generare...",
-    "resolution": "Risoluzione",
-    "resolutionPlaceholder": "Selezionare la risoluzione",
-    "seed": "Seme",
-    "seedPlaceholder": "Lasciare in bianco per il caso",
-    "selectPlaceholder": "Selezionare",
-    "size": "Dimensione",
-    "sizePlaceholder": "Selezionare le dimensioni dell'immagine",
+    "noLoraConfigured": "Aún no se ha configurado LoRA",
+    "outputFormat": "Formato de salida",
+    "outputFormatPlaceholder": "Seleccionar formato de salida",
+    "privateMode": "Moda privada",
+    "privateModeDesc": "Los resultados sólo serán visibles para ti",
+    "privateModeSubscriptionRequired": "Suscribirse para activar el modo privado",
+    "prompt": "Pregunte a",
+    "promptPlaceholder": "Describa la imagen que desea generar...",
+    "resolution": "Resolución",
+    "resolutionPlaceholder": "Seleccione la resolución",
+    "seed": "Semilla",
+    "seedPlaceholder": "Dejar en blanco para aleatorio",
+    "selectPlaceholder": "Seleccione una opción",
+    "size": "Talla",
+    "sizePlaceholder": "Selecciona el tamaño de la imagen",
     "status": {
-      "loading": "Caricamento..."
+      "loading": "Cargando..."
     },
-    "steps": "Passi",
-    "uploadHint": "Suggerimento: è possibile trascinare e rilasciare un file o fare clic per caricarlo.",
-    "uploadImage": "Carica immagine",
-    "uploading": "Caricamento..."
+    "steps": "Pasos",
+    "uploadHint": "Sugerencia: Puede arrastrar y soltar un archivo o hacer clic para cargarlo.",
+    "uploadImage": "Cargar imagen",
+    "uploading": "Cargando..."
   },
   "generate": {
-    "generateImage": "Generar imagen (Cuota de costes) {credits}",
-    "generating": "Generar... % {progress}"
+    "generateImage": "Generar imagen (Coste {credits} Cuota)",
+    "generating": "Generating... {progress}%"
   },
   "loading": {
-    "creating": "Creazione di intelligenza artificiale",
-    "initializing": "Inizializzazione",
-    "message": "Generare contenuti incredibili per voi, attendere prego..."
+    "creating": "Creación de IA",
+    "initializing": "Inicialización de",
+    "message": "Generando contenidos increíbles para usted, por favor espere..."
   },
   "lora": {
-    "addLora": "Aggiungi LoRA",
-    "cancel": "Annullamento",
-    "clickAddLoraToStart": "Fare clic sul pulsante \"Aggiungi LoRA\" per avviare la configurazione.",
-    "clickToSelect": "Fare clic su una scheda LoRA a sinistra per selezionarla.",
-    "configuration": "Configurazione",
-    "confirm": "Confermare",
-    "loading": "Caricamento...",
-    "loraConfig": "Configurazione LoRA",
-    "loraConfigHint": "Inserire una configurazione valida in formato JSON",
-    "manage": "Gestire",
-    "modalSubtitle": "Scegliere dalla libreria LoRA e personalizzare la scala per ottenere stili personalizzati",
-    "modalTitle": "Selezionare il modello LoRA",
-    "noLoraAvailable": "Nessuna LoRA disponibile",
-    "noLoraConfigured": "Nessun LoRA configurato",
-    "noLoraHint": "Creare o importare prima i modelli LoRA",
-    "noSearchResults": "Non è stata trovata alcuna corrispondenza con LoRA",
-    "noSelectedLoras": "Nessuna LoRA selezionata",
-    "scale": "Scale",
-    "searchPlaceholder": "Ricerca nome LoRA, descrizione o parola chiave...",
-    "selectLora": "Selezionare LoRA",
-    "selectMore": "Gestire la LoRA",
-    "selectedCount": "LoRA(s) seleccionado(s) {count}",
-    "selectedLoras": "Selezionato"
+    "addLora": "Add LoRA",
+    "cancel": "Cancelar",
+    "clickAddLoraToStart": "Haga clic en el botón \"Añadir LoRA\" para iniciar la configuración.",
+    "clickToSelect": "Haga clic en una tarjeta LoRA de la izquierda para seleccionarla.",
+    "configuration": "Configuración",
+    "confirm": "Confirme",
+    "loading": "Cargando...",
+    "loraConfig": "LoRA Config",
+    "loraConfigHint": "Por favor, introduzca una configuración válida en formato JSON",
+    "manage": "Gestione",
+    "modalSubtitle": "Elija de la biblioteca LoRA y personalice la escala para estilos personalizados",
+    "modalTitle": "Seleccione el modelo LoRA",
+    "noLoraAvailable": "No LoRA disponible",
+    "noLoraConfigured": "No LoRA configurado",
+    "noLoraHint": "Cree o importe primero modelos LoRA",
+    "noSearchResults": "No matching LoRA found",
+    "noSelectedLoras": "No LoRA seleccionado",
+    "scale": "Escaleras",
+    "searchPlaceholder": "Buscar LoRA nombre, descripción o palabra desencadenante...",
+    "selectLora": "Select LoRA",
+    "selectMore": "Manage LoRA",
+    "selectedCount": "{count} LoRA(s) selected",
+    "selectedLoras": "Selección"
   },
   "modelGroups": {
-    "flux": "Serie Flux",
-    "nano": "Nano Series",
-    "seedream": "Serie Seedream",
-    "zImage": "Serie Z-Image"
+    "flux": "Flux Series",
+    "nano": "Serie Nano",
+    "seedream": "Seedream Series",
+    "zImage": "Z-Image Series"
   },
   "models": {
     "flux2Pro": {
-      "description": "Modello di generazione di immagini di livello professionale, supporta il text-to-image e l'image-to-image con output di alta qualità",
+      "description": "Modelo de generación de imágenes de nivel profesional, compatible con la conversión de texto a imagen y de imagen a imagen con resultados de alta calidad",
       "tags": {
-        "highQuality": "Alta qualità",
-        "professional": "Professionale",
-        "versatile": "Versatile"
+        "highQuality": "Alta calidad",
+        "professional": "Profesional",
+        "versatile": "Versátil"
       }
     },
     "nanoBananaPro": {
-      "description": "Generazione fulminea, ottimizzata per una produzione creativa di alta qualità con una velocità eccezionale",
+      "description": "Generación ultrarrápida, optimizada para obtener resultados creativos de alta calidad con una velocidad excepcional",
       "tags": {
-        "fast": "Quasi",
-        "highQuality": "Alta qualità",
-        "latest": "Ultime novità"
+        "fast": "Casi",
+        "highQuality": "Alta calidad",
+        "latest": "Última"
       }
     },
     "seedream": {
-      "description": "ByteDance Seedream 4.5, generazione di immagini di altissima qualità con uscita a grande risoluzione",
+      "description": "ByteDance Seedream 4.5, generación de imágenes de altísima calidad con salida de gran resolución",
       "tags": {
         "bytedance": "ByteDance",
         "creative": "Creativo",
@@ -157,58 +157,58 @@
       }
     },
     "zImage": {
-      "description": "Generazione di immagini AI fotorealistiche con accurato rendering del testo bilingue, velocità inferiore al secondo",
+      "description": "Generación de imágenes fotorrealistas con inteligencia artificial y renderización precisa de texto bilingüe, a una velocidad inferior al segundo",
       "tags": {
-        "affordable": "Fotorealistico",
-        "quality": "Rendering del testo",
-        "ultraFast": "Sub-secondo"
+        "affordable": "Fotorrealista",
+        "quality": "Renderizado de texto",
+        "ultraFast": "Sub-segundo"
       }
     },
     "zImageLora": {
-      "description": "Z-Image versione Turbo LoRA con supporto di modelli LoRA personalizzati per creazioni stilizzate",
+      "description": "Z-Image Turbo LoRA versión con soporte para modelos LoRA personalizados para creaciones estilizadas",
       "tags": {
-        "customizable": "Personalizzabile",
-        "lora": "Supporto LoRA",
-        "stylized": "Stilizzato"
+        "customizable": "Personalizable",
+        "lora": "LoRA Support",
+        "stylized": "Estilizado"
       }
     }
   },
   "page": {
-    "description": "Creare contenuti sorprendenti con potenti modelli di intelligenza artificiale",
-    "loading": "Caricamento...",
-    "title": "Generatore di intelligenza artificiale"
+    "description": "Cree contenidos sorprendentes con potentes modelos de IA",
+    "loading": "Cargando...",
+    "title": "AI Generator"
   },
   "results": {
-    "completedTime": "Tempo di completamento",
-    "downloadAll": "Descargar todo ( ) {count}",
-    "downloadCurrent": "Scaricare Corrente",
-    "fileCount": "archivo(s) {count}",
-    "generationTime": "Tempo di generazione",
-    "prompt": "Prompt",
-    "seconds": "s {seconds}",
-    "title": "Risultati generati"
+    "completedTime": "Tiempo completado",
+    "downloadAll": "Descargar todo ({count})",
+    "downloadCurrent": "Descargar actual",
+    "fileCount": "{count} file(s)",
+    "generationTime": "Tiempo de generación",
+    "prompt": "Pregunte a",
+    "seconds": "{seconds}s",
+    "title": "Resultados generados"
   },
   "seo": {
-    "description": "Create splendide immagini generate da AI con il nostro potente strumento di generazione di immagini AI. Veloce, professionale e facile da usare.",
-    "title": "Generatore di intelligenza artificiale"
+    "description": "Cree impresionantes imágenes generadas por IA con nuestra potente herramienta de generación de imágenes de IA. Rápido, profesional y fácil de usar.",
+    "title": "AI Generator"
   },
   "tabs": {
-    "imageToImage": "Da immagine a immagine",
-    "more": "Di più",
-    "textToImage": "Da testo a immagine"
+    "imageToImage": "Imagen a imagen",
+    "more": "Más",
+    "textToImage": "Texto a imagen"
   },
   "tags": {
-    "art-gallery": "Galleria d'arte",
-    "currency": "Valuta",
-    "education": "Istruzione",
-    "film-style": "Stile cinematografico",
-    "math": "Matematica",
+    "art-gallery": "Galería de arte",
+    "currency": "Moneda",
+    "education": "Educación",
+    "film-style": "Estilo cinematográfico",
+    "math": "Matemáticas",
     "minimalist": "Minimalista",
-    "moody": "Umano",
-    "photorealistic": "Fotorealistico",
-    "portrait": "Ritratto",
-    "professional": "Professionale",
+    "moody": "Moody",
+    "photorealistic": "Fotorrealista",
+    "portrait": "Retrato",
+    "professional": "Profesional",
     "retro": "Retro",
-    "text-render": "Rendering del testo"
+    "text-render": "Renderizado de texto"
   }
 }

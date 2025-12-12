@@ -1,6 +1,6 @@
 {
   "acceptance": {
-    "content1": "Benvenuti su {siteName}. I presenti Termini di servizio (\"Termini\", \"Contratto\") costituiscono un accordo legalmente vincolante tra l'utente (\"Utente\", \"tu\" o \"tuo\") e {siteName} (\"noi\", \"ci\" o \"nostro\") che disciplina l'accesso e l'uso della nostra piattaforma di generazione di immagini alimentata dall'intelligenza artificiale, compresi il nostro sito web, le applicazioni mobili, le API e i servizi correlati (collettivamente, il \"Servizio\").",
+    "content1": "Benvenuti su {siteName}. I presenti Termini di servizio (\"Termini\", \"Contratto\") costituiscono un accordo legalmente vincolante tra l'utente (\"Utente\", \"tu\" o \"tuo\") e {siteName} (\"noi\", \"ci\" o \"nostro\") che regola l'accesso e l'utilizzo della nostra piattaforma di generazione di immagini alimentata dall'intelligenza artificiale,\" o \"nostro\") che regola l'accesso e l'uso della nostra piattaforma di generazione di immagini con intelligenza artificiale, compresi il nostro sito web, le applicazioni mobili, APIs e i servizi correlati (collettivamente, il \"Servizio\").",
     "content2": "Accedendo, navigando o utilizzando il Servizio in qualsiasi modo, l'utente riconosce di aver letto, compreso e accettato di essere vincolato dai presenti Termini e dalla nostra Informativa sulla privacy. Se l'utente non accetta le presenti Condizioni, deve interrompere immediatamente l'utilizzo del Servizio.",
     "title": "Accettazione dei termini"
   },
@@ -9,16 +9,16 @@
     "intro": "In caso di domande, dubbi o feedback relativi ai presenti Termini di servizio, si prega di contattarci all'indirizzo:",
     "title": "Informazioni di contatto"
   },
-  "description": "Leggi i termini di servizio di {siteName} per l'utilizzo della nostra piattaforma di generazione di immagini AI. Riguardano gli account utente, le regole di utilizzo, la proprietà intellettuale e le politiche di servizio.",
+  "description": "Leggete i termini di servizio di {siteName} per l'utilizzo della nostra piattaforma di generazione di immagini AI. Coprono gli account utente, le regole di utilizzo, la proprietà intellettuale e le politiche di servizio.",
   "disclaimer": {
     "asIs": "Così com'è: Il Servizio viene fornito \"così com'è\" e \"come disponibile\" senza garanzie di alcun tipo, espresse o implicite, incluse, a titolo esemplificativo e non esaustivo, le garanzie di commerciabilità, idoneità per uno scopo particolare o non violazione. Non garantiamo che il Servizio sia ininterrotto, privo di errori o sicuro.",
-    "liability": "Limitazione di responsabilità: Nella misura massima consentita dalla legge, {siteName} e le sue affiliate non saranno responsabili per danni indiretti, incidentali, speciali, consequenziali o punitivi, compresa la perdita di profitti, dati o avviamento, derivanti dall'uso o dall'impossibilità di usare il Servizio.",
+    "liability": "Limitazione di responsabilità: Nella misura massima consentita dalla legge, {siteName} e le sue affiliate non saranno responsabili per danni indiretti, incidentali, speciali, consequenziali o punitivi, inclusa la perdita di profitti, dati o avviamento, derivanti dall'uso o dall'impossibilità di usare il Servizio.",
     "responsibility": "Responsabilità dell'utente: L'utente riconosce che i contenuti generati dall'intelligenza artificiale possono produrre risultati imprevisti o inaccurati. L'utente è l'unico responsabile dell'esame, della verifica e della determinazione dell'adeguatezza di qualsiasi contenuto generato attraverso il Servizio prima dell'uso, della pubblicazione o della distribuzione.",
     "title": "Esclusioni di responsabilità e limitazioni"
   },
   "intellectualProperty": {
     "license": "Concessione di licenza: Utilizzando il Servizio, l'utente ci concede una licenza mondiale, non esclusiva ed esente da royalty per l'utilizzo, la riproduzione, la modifica e la visualizzazione dei contenuti generati dall'utente al solo scopo di: (a) fornire e migliorare il Servizio, (b) addestrare e migliorare i nostri modelli di intelligenza artificiale (con il consenso dell'utente) e (c) scopi promozionali e di marketing con il consenso esplicito dell'utente.",
-    "platformContent": "Proprietà della piattaforma: Tutti i contenuti, le caratteristiche, le funzionalità, il software, i disegni, il testo, la grafica, i loghi e i marchi del Servizio sono di proprietà di {siteName} o dei suoi licenziatari e sono protetti dalle leggi internazionali sulla proprietà intellettuale. Non è consentito copiare, modificare, distribuire o decodificare alcuna parte del Servizio senza autorizzazione.",
+    "platformContent": "Proprietà della piattaforma: Tutti i contenuti, le caratteristiche, le funzionalità, il software, i disegni, il testo, la grafica, i loghi e i marchi del Servizio sono di proprietà di {siteName} o dei nostri licenziatari e sono protetti dalle leggi internazionali sulla proprietà intellettuale. Non è consentito copiare, modificare, distribuire o decodificare alcuna parte del Servizio senza autorizzazione.",
     "title": "Diritti di proprietà intellettuale",
     "userContent": "Contenuto generato dall'utente: L'utente conserva la proprietà delle immagini e dei contenuti generati utilizzando il Servizio, in base alla licenza limitata di cui sotto. Tuttavia, l'utente è l'unico responsabile di garantire che il suo utilizzo non violi i diritti di terzi o le leggi vigenti."
   },
@@ -26,7 +26,7 @@
   "lastUpdated": "Ultimo aggiornamento",
   "legalJurisdiction": {
     "disputes": "Risoluzione delle controversie: Qualsiasi controversia derivante da o relativa ai presenti Termini o al Servizio dovrà essere risolta in primo luogo mediante trattative in buona fede. In caso di fallimento delle trattative, le controversie saranno risolte mediante arbitrato vincolante o controversia nei tribunali della giurisdizione applicabile, come stabilito dalla legge vigente.",
-    "law": "Legge applicabile: Le presenti Condizioni saranno disciplinate e interpretate in conformità alle leggi della giurisdizione in cui {siteName} è registrato, senza tener conto dei principi di conflitto di leggi.",
+    "law": "Legge applicabile: Le presenti Condizioni saranno disciplinate e interpretate in conformità alle leggi della giurisdizione in cui {siteName} è registrato, senza tenere conto dei principi di conflitto di leggi.",
     "title": "Legge applicabile e risoluzione delle controversie"
   },
   "privacy": {
@@ -45,7 +45,7 @@
       "Generazione di immagini AI da messaggi di testo utilizzando modelli di apprendimento automatico avanzati",
       "Funzionalità di modifica, miglioramento e trasferimento di stile delle immagini",
       "Gestione dei progetti, organizzazione e archiviazione in cloud dei contenuti generati",
-      "Accesso API per sviluppatori e integrazione aziendale",
+      "API accesso per sviluppatori e integrazione aziendale",
       "Funzionalità e strumenti premium aggiuntivi resi disponibili di volta in volta"
     ],
     "title": "Panoramica del servizio"
@@ -61,7 +61,7 @@
       "Violazione dei diritti di proprietà intellettuale, compresi i diritti d'autore, i marchi o i brevetti.",
       "Costituiscono spam, phishing, malware o tentativi di compromettere la sicurezza della piattaforma.",
       "Impersonare qualsiasi persona o entità o travisare la propria affiliazione",
-      "Coinvolge lo scraping automatico, il mining o l'uso non autorizzato di API che viola le nostre linee guida.",
+      "Comporta lo scraping automatico, il mining o l'utilizzo non autorizzato API che viola le nostre linee guida",
       "Sfrutta, danneggia o tenta di sfruttare i minori in qualsiasi modo",
       "Contiene informazioni false, fuorvianti o ingannevoli presentate come dati di fatto."
     ],

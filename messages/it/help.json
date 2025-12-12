@@ -7,7 +7,7 @@
   "faq": {
     "items": [
       {
-        "answer": "Iniziare è facile! È sufficiente navigare nella pagina del Generatore AI, inserire la richiesta che descrive ciò che si desidera creare, selezionare le impostazioni preferite e fare clic sul pulsante Genera. L'immagine generata dall'AI sarà pronta in pochi secondi.",
+        "answer": "Iniziare è facile! Basta navigare nella pagina del Generatore AI, inserire la richiesta che descrive ciò che si desidera creare, selezionare le impostazioni preferite e fare clic sul pulsante Genera. L'immagine generata dall'AI sarà pronta in pochi secondi.",
         "question": "Come si inizia con AI Generator?"
       },
       {
@@ -31,7 +31,7 @@
         "question": "Come posso migliorare i risultati della mia generazione?"
       }
     ],
-    "subtitle": "Trovate le risposte alle domande più comuni sull'uso della nostra piattaforma di generazione di immagini AI",
+    "subtitle": "Trovate le risposte alle domande più comuni sull'utilizzo della nostra piattaforma di generazione di immagini AI",
     "title": "Domande frequenti"
   },
   "seo": {

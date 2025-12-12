@@ -1,49 +1,49 @@
 {
-  "language": "語言",
-  "loading": "載入中...",
-  "loginRequired": {
-    "title": "登入以繼續",
-    "description": "登入後即可使用完整功能",
-    "buttonText": "立即登入"
+  "discordBanner": {
+    "closeLabel": "关闭",
+    "description": "获取最新更新、独家优惠和免费奖金",
+    "joinButton": "立即加入",
+    "title": "加入我们的 Discord 社区"
   },
-  "seo": {
-    "title": "{siteName} - AI 圖像生成工具",
-    "description": "使用先進的人工智慧技術，快速生成高品質的專業圖像。簡單、快速、強大的 AI 圖像創作工具。",
-    "keywords": "AI圖像生成, AI繪畫, 圖像創作, 人工智慧工具, 專業圖像"
+  "language": "语言",
+  "loading": "正在加载...",
+  "loginRequired": {
+    "buttonText": "立即登录",
+    "description": "登录以访问全部功能",
+    "title": "登录以继续"
   },
   "navigation": {
-    "home": "首頁",
-    "ai-generator": "AI 生成器",
-    "nano-banana-pro": "Nano Banana Pro",
-    "nanoBananaProDesc": "進階 Nano Banana 圖像生成",
-    "z-image": "Z-Image",
-    "zImageDesc": "進階 AI 圖像生成與編輯",
+    "ai-generator": "人工智能生成器",
+    "company": "公司名称",
+    "content": "内容",
+    "dashboard": "仪表板",
+    "explore": "创意社区",
     "flux-2-pro": "Flux 2 Pro",
-    "flux2ProDesc": "專業級雙模式 AI 圖像生成",
+    "flux2ProDesc": "专业双模式人工智能图像生成",
+    "help": "帮助",
+    "home": "首页",
+    "main": "主页",
+    "models": "人工智能模型",
+    "more": "更多信息",
+    "nano-banana-pro": "Nano Banana Pro",
+    "nanoBananaProDesc": "高级 Nano Banana 图像生成",
+    "nav": "导航",
+    "pricing": "定价",
+    "privacy": "隐私政策",
+    "quota": "配额",
     "seedreamV45": "Seedream 4.5",
-    "seedreamV45Desc": "字節跳動 2K 高清圖像生成",
-    "explore": "創意社區",
-    "dashboard": "儀表板",
-    "tasks": "歷史記錄",
-    "quota": "配額管理",
-    "subscription": "訂閱管理",
-    "pricing": "定價方案",
-    "more": "更多",
-    "settings": "設定",
-    "help": "幫助",
-    "terms": "服務條款",
-    "privacy": "隱私政策",
-    "main": "主要",
-    "user": "用戶",
-    "content": "內容",
-    "nav": "導航",
-    "models": "AI 模型",
-    "company": "公司"
+    "seedreamV45Desc": "ByteDance 2K HD 图像生成",
+    "settings": "设置",
+    "subscription": "订阅",
+    "tasks": "历史",
+    "terms": "服务条款",
+    "user": "用户",
+    "z-image": "Z-Image",
+    "zImageDesc": "高级人工智能图像生成和编辑"
   },
-  "discordBanner": {
-    "title": "加入 Discord 社區",
-    "description": "獲取最新資訊、獨家福利和免費贈品",
-    "joinButton": "立即加入",
-    "closeLabel": "關閉"
+  "seo": {
+    "description": "利用人工智能图像生成功能，在数秒内创建高质量的专业图像。简单、快速、强大的人工智能工具。",
+    "keywords": "人工智能图像生成、人工智能艺术、图像创建器、人工智能工具、专业图像",
+    "title": "{siteName} - AI 图像生成工具"
   }
 }

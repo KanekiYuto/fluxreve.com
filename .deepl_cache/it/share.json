@@ -2,123 +2,123 @@
   "entries": {
     "AI Generated HD Image Preview": {
       "translation": "Anteprima dell'immagine HD generata dall'intelligenza artificiale",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "AI Generated Image": {
       "translation": "Immagine generata dall'intelligenza artificiale",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "AI Image Generation Results": {
       "translation": "Risultati della generazione di immagini AI",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "AI Model": {
       "translation": "Modello AI",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "AI is creating the current artwork, this usually takes a few minutes": {
       "translation": "L'IA sta creando l'opera d'arte corrente; di solito questo richiede pochi minuti.",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Content Not Found": {
       "translation": "Contenuto non trovato",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Copied": {
       "translation": "Copiato",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Copy Prompt": {
       "translation": "Prompt di copia",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Copy Share Link": {
       "translation": "Copiare il link di condivisione",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Create AI Artwork": {
       "translation": "Creare opere d'arte AI",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Create Similar Image": {
       "translation": "Creare un'immagine simile",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Download All Images": {
       "translation": "Scarica tutte le immagini",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Download Current Image": {
       "translation": "Scarica l'immagine corrente",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Download Share Card": {
       "translation": "Scarica la scheda di condivisione",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Generating...": {
       "translation": "Generare...",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Generation Parameters and Model Info": {
       "translation": "Parametri di generazione e informazioni sul modello",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "High-quality image generated with {model} AI model. Prompt: ": {
       "translation": "Immagine di alta qualità generata con il modello AI {model}. Prompt:",
-      "timestamp": 1765571043
+      "timestamp": 1765575487
     },
     "I am 18+, View Content": {
       "translation": "Sono 18+, Visualizza contenuto",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Image": {
       "translation": "Immagine",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Input Image": {
       "translation": "Immagine di ingresso",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Input Images": {
       "translation": "Immagini in ingresso",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "More Actions": {
       "translation": "Altre azioni",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Next Image": {
       "translation": "Immagine successiva",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Please refresh the page later to view the result": {
       "translation": "Aggiornare la pagina più tardi per visualizzare il risultato.",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Previous Image": {
       "translation": "Immagine precedente",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Share": {
       "translation": "Condividi",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "Share to X": {
       "translation": "Condividi con X",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "This content may contain adult or sensitive material. Viewer discretion is advised": {
       "translation": "Questo contenuto può contenere materiale per adulti o sensibile. Si consiglia la discrezione degli spettatori",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "This shared content may have been deleted by the creator, set to private, the link may have expired, or you may have accessed the wrong address": {
       "translation": "Questo contenuto condiviso potrebbe essere stato cancellato dal creatore, impostato come privato, il link potrebbe essere scaduto, oppure potreste aver effettuato l'accesso all'indirizzo sbagliato.",
-      "timestamp": 1765569860
+      "timestamp": 1765575487
     },
     "{model} AI Generated | ": {
-      "translation": "{model} Generato dall'AI.",
-      "timestamp": 1765571043
+      "translation": "{model} AI Generato |",
+      "timestamp": 1765575487
     }
   }
 }

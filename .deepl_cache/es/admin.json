@@ -1,24 +1,24 @@
 {
   "entries": {
     "Access Restricted": {
-      "translation": "Accesso limitato",
-      "timestamp": 1765569875
+      "translation": "Acceso restringido",
+      "timestamp": 1765575447
     },
     "Back to Home": {
-      "translation": "Torna a casa",
-      "timestamp": 1765569875
+      "translation": "Volver al inicio",
+      "timestamp": 1765575447
     },
     "If you believe this is an error, please contact the system administrator to request access.": {
-      "translation": "Se si ritiene che si tratti di un errore, contattare l'amministratore del sistema per richiedere l'accesso.",
-      "timestamp": 1765569875
+      "translation": "Si cree que se trata de un error, póngase en contacto con el administrador del sistema para solicitar acceso.",
+      "timestamp": 1765575447
     },
     "Need Help?": {
-      "translation": "Avete bisogno di aiuto?",
-      "timestamp": 1765569875
+      "translation": "¿Necesita ayuda?",
+      "timestamp": 1765575447
     },
     "Sorry, you don't have permission to access the admin dashboard. Only administrator accounts can access this page.": {
-      "translation": "Spiacente, non hai i permessi per accedere alla dashboard di amministrazione. Solo gli account di amministratore possono accedere a questa pagina.",
-      "timestamp": 1765569875
+      "translation": "Lo sentimos, no tienes permiso para acceder al panel de control del administrador. Sólo las cuentas de administrador pueden acceder a esta página.",
+      "timestamp": 1765575447
     }
   }
 }

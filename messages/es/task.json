@@ -1,47 +1,47 @@
 {
   "details": {
-    "aiModel": "Modello AI",
-    "aspectRatio": "Rapporto d'aspetto",
-    "completedAt": "Completato a",
-    "copyPrompt": "Prompt di copia",
-    "createdAt": "Creato a",
-    "defaultPrompt": "Immagine generata dall'intelligenza artificiale",
-    "duration": "Durata",
-    "generationResults": "Risultati della generazione",
-    "imageAlt": "Immagine",
-    "imagePreview": "Anteprima dell'immagine",
+    "aiModel": "Modelo de IA",
+    "aspectRatio": "Relación de aspecto",
+    "completedAt": "Completado en",
+    "copyPrompt": "Aviso de copia",
+    "createdAt": "Creado en",
+    "defaultPrompt": "Imagen generada por IA",
+    "duration": "Duración",
+    "generationResults": "Resultados de la generación",
+    "imageAlt": "Imagen",
+    "imagePreview": "Vista previa de la imagen",
     "isNsfw": "NSFW Content",
-    "isPrivate": "Moda privata",
-    "metaDescription": "Imagen de IA generada mediante {model}",
-    "nextImage": "Immagine successiva",
+    "isPrivate": "Moda privada",
+    "metaDescription": "Imagen AI generada usando {model}",
+    "nextImage": "Imagen siguiente",
     "no": "No",
-    "parametersInfo": "Info sui parametri",
-    "previousImage": "Immagine precedente",
-    "prompt": "Prompt",
-    "promptCopied": "Copiato",
-    "quotaConsumed": "Crediti utilizzati",
-    "referenceImage": "Immagine di ingresso",
-    "referenceImages": "Immagini in ingresso",
-    "resolution": "Risoluzione",
-    "seed": "Seme",
-    "size": "Dimensione",
-    "steps": "Passi",
-    "yes": "Sì"
+    "parametersInfo": "Parámetros Información",
+    "previousImage": "Imagen anterior",
+    "prompt": "Pregunte a",
+    "promptCopied": "Copied",
+    "quotaConsumed": "Créditos utilizados",
+    "referenceImage": "Imagen de entrada",
+    "referenceImages": "Imágenes de entrada",
+    "resolution": "Resolución",
+    "seed": "Semilla",
+    "size": "Talla",
+    "steps": "Pasos",
+    "yes": "Sí"
   },
   "notFound": {
-    "backToHome": "Torna a casa",
-    "description": "Siamo spiacenti, l'attività che state cercando non può essere trovata. Potrebbe essere stato eliminato o il link non è valido.",
-    "title": "Attività non trovata"
+    "backToHome": "Volver al inicio",
+    "description": "Lo sentimos, la tarea que busca no se encuentra. Puede que se haya eliminado o que el enlace no sea válido.",
+    "title": "Tarea no encontrada"
   },
   "processing": {
-    "description": "L'immagine è in fase di generazione, attendere un attimo...",
-    "failedDescription": "Spiacente, la generazione dell'immagine non è riuscita. Riprovare più tardi o contattare l'assistenza.",
-    "failedTitle": "Attività fallita",
-    "tip": "Di solito richiede da pochi secondi a qualche minuto.",
-    "title": "Elaborazione dei compiti"
+    "description": "Su imagen se está generando, por favor espere un momento...",
+    "failedDescription": "Lo sentimos, la generación de la imagen ha fallado. Vuelva a intentarlo más tarde o póngase en contacto con el servicio de asistencia.",
+    "failedTitle": "Tarea fallida",
+    "tip": "Suele tardar entre unos segundos y unos minutos",
+    "title": "Procesamiento de tareas"
   },
   "seo": {
-    "description": "Visualizzare i dettagli e i risultati dell'attività di generazione di immagini AI",
-    "title": "Dettagli dell'attività"
+    "description": "Vea los detalles y resultados de su tarea de generación de imágenes AI",
+    "title": "Detalles de la tarea"
   }
 }

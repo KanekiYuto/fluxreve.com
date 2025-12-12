@@ -2,295 +2,295 @@
   "entries": {
     "All advanced AI models": {
       "translation": "Tutti i modelli AI avanzati",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "All standard AI models": {
       "translation": "Tutti i modelli AI standard",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Auto-renewal": {
       "translation": "Rinnovo automatico",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Basic AI models": {
       "translation": "Modelli di AI di base",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Batch generation": {
       "translation": "Generazione di lotti",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Can I cancel my subscription anytime?": {
       "translation": "Posso cancellare il mio abbonamento in qualsiasi momento?",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Can I switch between monthly and yearly billing?": {
       "translation": "Posso passare dalla fatturazione mensile a quella annuale?",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Can I upgrade or downgrade my plan?": {
       "translation": "Posso aggiornare o ridurre il mio piano?",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Can generate up to {quota}/5 high-quality images": {
       "translation": "Può generare fino a {quota}/5 immagini di alta qualità",
-      "timestamp": 1765571041
+      "timestamp": 1765575483
     },
     "Can generate up to {quota}/5 images per day": {
       "translation": "Può generare fino a {quota}/5 immagini al giorno",
-      "timestamp": 1765571041
+      "timestamp": 1765575483
     },
     "Choose Your Plan": {
       "translation": "Scegliete il vostro piano",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Choose the perfect plan for your needs. Flexible pricing options for individuals and businesses with AI-powered image generation.": {
       "translation": "Scegliete il piano perfetto per le vostre esigenze. Opzioni di prezzo flessibili per privati e aziende, con generazione di immagini basata sull'intelligenza artificiale.",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Commercial use license": {
       "translation": "Licenza per uso commerciale",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Configuring...": {
       "translation": "Configurazione...",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Credits are used to generate images with our AI models. Each image generation consumes a certain number of credits depending on the resolution and model used. Free users get 30 credits daily, while Basic plan subscribers get 1,500 credits monthly (or 18,000 yearly) and Pro plan subscribers get 7,500 credits monthly (or 90,000 yearly).": {
       "translation": "I crediti vengono utilizzati per generare immagini con i nostri modelli AI. Ogni generazione di immagini consuma un certo numero di crediti a seconda della risoluzione e del modello utilizzato. Gli utenti gratuiti ricevono 30 crediti al giorno, mentre gli abbonati al piano Basic ricevono 1.500 crediti al mese (o 18.000 all'anno) e gli abbonati al piano Pro ricevono 7.500 crediti al mese (o 90.000 all'anno).",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Current Plan": {
       "translation": "Piano attuale",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Customer support": {
       "translation": "Assistenza clienti",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Downgrade": {
       "translation": "Declassamento",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Each credit quota comes with its own expiration period. The exact duration depends on your subscription plan and when the credits were granted. You can check the expiration date of your credits in your account dashboard. Credits are consumed on a first-in, first-out basis.": {
       "translation": "Ogni quota di credito ha un proprio periodo di scadenza. La durata esatta dipende dal piano di abbonamento e dal momento in cui i crediti sono stati concessi. È possibile controllare la data di scadenza dei crediti nel cruscotto del proprio account. I crediti vengono consumati in base al principio \"primo entrato, primo uscito\".",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Email customer support": {
       "translation": "Assistenza clienti via e-mail",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "FAQ": {
       "translation": "FAQ",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Find answers to common questions about our pricing plans and services": {
       "translation": "Trovate le risposte alle domande più comuni sui nostri piani tariffari e sui nostri servizi.",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Flexible pricing options to meet the needs of individuals and businesses": {
       "translation": "Opzioni di prezzo flessibili per soddisfare le esigenze di privati e aziende",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "For free users, daily credits reset every day and don't accumulate. For subscribers, credits expire based on their expiration date. Each credit quota has its own expiration period, and unused credits will automatically expire when that period ends.": {
       "translation": "Per gli utenti gratuiti, i crediti giornalieri si azzerano ogni giorno e non si accumulano. Per gli abbonati, i crediti scadono in base alla data di scadenza. Ogni quota di credito ha un proprio periodo di scadenza e i crediti non utilizzati scadono automaticamente al termine di tale periodo.",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "For individual users and small projects": {
       "translation": "Per singoli utenti e piccoli progetti",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "For monthly plans, you get 100 credits per dollar spent. For yearly plans, you get 100 credits per dollar × 12 months. For example: Basic monthly ($15) = 1,500 credits, Basic yearly ($144) = 18,000 credits.": {
       "translation": "Per i piani mensili, si ottengono 100 crediti per ogni dollaro speso. Per i piani annuali, si ottengono 100 crediti per dollaro per 12 mesi. Ad esempio: Basic mensile (15 dollari) = 1.500 crediti, Basic annuale (144 dollari) = 18.000 crediti.",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "For professional creators and team collaboration": {
       "translation": "Per i creatori professionisti e la collaborazione in team",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Free plan users can use generated images for personal projects only. Both Basic and Pro plan subscribers receive a commercial use license, allowing you to use the images for business purposes, marketing materials, and client projects.": {
       "translation": "Gli utenti del piano gratuito possono utilizzare le immagini generate solo per progetti personali. Gli abbonati ai piani Basic e Pro ricevono una licenza per uso commerciale, che consente di utilizzare le immagini per scopi commerciali, materiali di marketing e progetti dei clienti.",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Get Started": {
       "translation": "Iniziare",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "High resolution": {
       "translation": "Alta risoluzione",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "High resolution (1024x1024)": {
       "translation": "Alta risoluzione (1024x1024)",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Highest priority queue": {
       "translation": "Coda a priorità massima",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "How do credits work?": {
       "translation": "Come funzionano i crediti?",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "How does credit quota calculation work?": {
       "translation": "Come funziona il calcolo della quota di credito?",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "How long do credits last after purchase?": {
       "translation": "Quanto durano i crediti dopo l'acquisto?",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Monthly": {
       "translation": "Mensile",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Most Popular": {
       "translation": "I più popolari",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Perfect for personal trial and light usage": {
       "translation": "Perfetto per la prova personale e l'uso leggero",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Pricing Plans": {
       "translation": "Piani tariffari",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Priority customer support": {
       "translation": "Assistenza clienti prioritaria",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Priority generation queue": {
       "translation": "Coda di generazione prioritaria",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Priority queue": {
       "translation": "Coda di priorità",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Priority support": {
       "translation": "Assistenza prioritaria",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Pro plan offers 5x more credits than Basic, plus access to all advanced AI models, ultra-high resolution (2048x2048), batch generation features, and priority customer support. Basic plan is great for individuals, while Pro is designed for professional creators and teams.": {
       "translation": "Il piano Pro offre un numero di crediti 5 volte superiore a quello del piano Basic, oltre all'accesso a tutti i modelli AI avanzati, all'altissima risoluzione (2048x2048), alle funzioni di generazione di batch e all'assistenza clienti prioritaria. Il piano Basic è ideale per i singoli, mentre Pro è pensato per i creatori e i team professionali.",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Processing...": {
       "translation": "Elaborazione...",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Save ${amount}": {
-      "translation": "Salvare ${amount}",
-      "timestamp": 1765571041
+      "translation": "Save ${amount}",
+      "timestamp": 1765575483
     },
     "Save 20%": {
       "translation": "Risparmiare il 20%",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Scheduled": {
       "translation": "In programma",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Standard AI models": {
       "translation": "Modelli AI standard",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Standard resolution (512x512)": {
       "translation": "Risoluzione standard (512x512)",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Subscribe Now": {
       "translation": "Iscriviti ora",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Try Now": {
       "translation": "Prova ora",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Ultra-high resolution": {
       "translation": "Risoluzione ultraelevata",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Ultra-high resolution (2048x2048)": {
       "translation": "Risoluzione altissima (2048x2048)",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Upgrade": {
       "translation": "Aggiornamento",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Watermark-free export": {
       "translation": "Esportazione senza filigrana",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "We integrate with Creem payment platform which supports various payment methods. All transactions are processed securely through their payment gateway.": {
       "translation": "Ci integriamo con la piattaforma di pagamento Creem che supporta diversi metodi di pagamento. Tutte le transazioni vengono elaborate in modo sicuro attraverso il loro gateway di pagamento.",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "What happens to unused credits?": {
       "translation": "Cosa succede ai crediti non utilizzati?",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "What happens when I upgrade mid-cycle?": {
       "translation": "Cosa succede se faccio un upgrade a metà ciclo?",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "What payment methods do you accept?": {
       "translation": "Quali metodi di pagamento accettate?",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "What's the difference between Basic and Pro plans?": {
       "translation": "Qual è la differenza tra i piani Basic e Pro?",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "What's the difference between monthly and yearly plans?": {
       "translation": "Qual è la differenza tra i piani mensili e annuali?",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "When you upgrade, you'll be charged a prorated amount for the remainder of your current billing period. You'll immediately receive the full credit quota of your new plan, and any existing credits remain available until their expiration date.": {
       "translation": "Quando si effettua l'aggiornamento, viene addebitato un importo proporzionale per il resto del periodo di fatturazione corrente. Riceverete immediatamente l'intera quota di credito del nuovo piano, mentre i crediti esistenti rimarranno disponibili fino alla loro data di scadenza.",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Yearly": {
       "translation": "Annuale",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Yearly plans offer a 20% discount compared to monthly plans. For example, Basic monthly is $15/month (1,500 credits), while Basic yearly is $144/year (18,000 credits total). You save money and get more value with yearly subscriptions.": {
       "translation": "I piani annuali offrono uno sconto del 20% rispetto ai piani mensili. Ad esempio, Basic mensile costa 15 dollari al mese (1.500 crediti), mentre Basic annuale costa 144 dollari all'anno (18.000 crediti in totale). Con gli abbonamenti annuali si risparmia e si ottiene un valore maggiore.",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Yes! Switching from monthly to yearly within the same plan tier (e.g., Basic monthly to Basic yearly) is considered a change, not an upgrade. The new billing cycle will take effect according to the plan change policy.": {
       "translation": "Sì! Il passaggio da mensile ad annuale all'interno dello stesso livello di piano (ad esempio, da Basic mensile a Basic annuale) è considerato un cambiamento, non un aggiornamento. Il nuovo ciclo di fatturazione entrerà in vigore in base alla politica di modifica del piano.",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Yes! You can upgrade your plan at any time, and the price difference will be prorated. When upgrading, you'll receive the full credit quota of the new plan immediately. Downgrades take effect at the start of your next billing cycle.": {
       "translation": "Sì! Potete aggiornare il vostro piano in qualsiasi momento e la differenza di prezzo sarà proporzionale. Quando si effettua un upgrade, si riceve immediatamente l'intera quota di credito del nuovo piano. I downgrade entrano in vigore all'inizio del ciclo di fatturazione successivo.",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "Yes, you can cancel your subscription at any time. Your plan will remain active until the end of your current billing period, and you can continue using your remaining credits until they expire.": {
       "translation": "Sì, è possibile annullare l'abbonamento in qualsiasi momento. Il vostro piano rimarrà attivo fino alla fine del periodo di fatturazione corrente e potrete continuare a utilizzare i crediti rimanenti fino alla loro scadenza.",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "month": {
       "translation": "mese",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "year": {
       "translation": "anno",
-      "timestamp": 1765569856
+      "timestamp": 1765575483
     },
     "{quota} credits quota": {
-      "translation": "{quota} Quota di credito",
-      "timestamp": 1765571041
+      "translation": "{quota} crediti quota",
+      "timestamp": 1765575483
     },
     "{quota} credits quota per day": {
       "translation": "{quota} quota di crediti al giorno",
-      "timestamp": 1765571041
+      "timestamp": 1765575483
     },
     "{quota} quota credits": {
       "translation": "{quota} quota credits",
-      "timestamp": 1765571041
+      "timestamp": 1765575483
     }
   }
 }

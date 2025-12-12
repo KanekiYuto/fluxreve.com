@@ -1,9 +1,9 @@
 {
   "unauthorized": {
-    "title": "訪問受限",
-    "description": "抱歉，您沒有訪問管理後台的權限。只有管理員帳戶才能訪問此頁面。",
-    "helpTitle": "需要幫助？",
-    "helpDescription": "如果您認為這是一個錯誤，請聯繫系統管理員獲取訪問權限。",
-    "backToHome": "返回首頁"
+    "backToHome": "返回首页",
+    "description": "抱歉，您没有权限访问管理员仪表板。只有管理员账户才能访问此页面。",
+    "helpDescription": "如果您认为这是一个错误，请联系系统管理员申请访问。",
+    "helpTitle": "需要帮助吗？",
+    "title": "访问受限"
   }
 }

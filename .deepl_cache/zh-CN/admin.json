@@ -2,23 +2,23 @@
   "entries": {
     "Access Restricted": {
       "translation": "访问受限",
-      "timestamp": 1765570347
+      "timestamp": 1765575412
     },
     "Back to Home": {
       "translation": "返回首页",
-      "timestamp": 1765570347
+      "timestamp": 1765575412
     },
     "If you believe this is an error, please contact the system administrator to request access.": {
       "translation": "如果您认为这是一个错误，请联系系统管理员申请访问。",
-      "timestamp": 1765570347
+      "timestamp": 1765575412
     },
     "Need Help?": {
       "translation": "需要帮助吗？",
-      "timestamp": 1765570347
+      "timestamp": 1765575412
     },
     "Sorry, you don't have permission to access the admin dashboard. Only administrator accounts can access this page.": {
       "translation": "抱歉，您没有权限访问管理员仪表板。只有管理员账户才能访问此页面。",
-      "timestamp": 1765570347
+      "timestamp": 1765575412
     }
   }
 }

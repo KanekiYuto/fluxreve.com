@@ -20,7 +20,7 @@
     "connections": {
       "connected": "Collegato",
       "githubConnected": "È possibile utilizzare il proprio account GitHub per accedere al proprio account.",
-      "githubNotConnected": "Collegare il proprio account GitHub per abilitare questo metodo di accesso.",
+      "githubNotConnected": "Collegare l'account GitHub per abilitare questo metodo di accesso.",
       "googleConnected": "È possibile utilizzare il proprio account Google per accedere al proprio account.",
       "googleNotConnected": "Collegare l'account Google per abilitare questo metodo di accesso.",
       "title": "Conti collegati"

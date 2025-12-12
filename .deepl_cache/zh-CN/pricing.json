@@ -2,295 +2,295 @@
   "entries": {
     "All advanced AI models": {
       "translation": "所有高级人工智能模型",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "All standard AI models": {
       "translation": "所有标准人工智能型号",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Auto-renewal": {
       "translation": "自动续订",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Basic AI models": {
       "translation": "基本人工智能模型",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Batch generation": {
       "translation": "批量生成",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Can I cancel my subscription anytime?": {
       "translation": "我可以随时取消订阅吗？",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Can I switch between monthly and yearly billing?": {
       "translation": "我可以在按月计费和按年计费之间切换吗？",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Can I upgrade or downgrade my plan?": {
       "translation": "我可以升级或降级我的计划吗？",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Can generate up to {quota}/5 high-quality images": {
-      "translation": "最多可生成 {quota}/5 幅高质量图像",
-      "timestamp": 1765570819
+      "translation": "可生成多达 {quota}/5 的高质量图像",
+      "timestamp": 1765575420
     },
     "Can generate up to {quota}/5 images per day": {
       "translation": "每天最多可生成 {quota}/5 幅图像",
-      "timestamp": 1765570819
+      "timestamp": 1765575420
     },
     "Choose Your Plan": {
       "translation": "选择您的计划",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Choose the perfect plan for your needs. Flexible pricing options for individuals and businesses with AI-powered image generation.": {
-      "translation": "选择最适合您需求的计划。针对个人和企业的灵活定价选项，以及人工智能图像生成功能。",
-      "timestamp": 1765570357
+      "translation": "选择最适合您需求的计划。针对个人和企业的灵活定价选项，以及人工智能驱动的图像生成功能。",
+      "timestamp": 1765575420
     },
     "Commercial use license": {
       "translation": "商业使用许可证",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Configuring...": {
       "translation": "配置...",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Credits are used to generate images with our AI models. Each image generation consumes a certain number of credits depending on the resolution and model used. Free users get 30 credits daily, while Basic plan subscribers get 1,500 credits monthly (or 18,000 yearly) and Pro plan subscribers get 7,500 credits monthly (or 90,000 yearly).": {
       "translation": "信用点数用于使用我们的人工智能模型生成图像。每次生成图像都会消耗一定数量的信用点数，具体取决于分辨率和使用的模型。免费用户每天可获得 30 个信用点，基本计划用户每月可获得 1,500 个信用点（或每年 18,000 个），专业计划用户每月可获得 7,500 个信用点（或每年 90,000 个）。",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Current Plan": {
       "translation": "当前计划",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Customer support": {
       "translation": "客户支持",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Downgrade": {
       "translation": "降级",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Each credit quota comes with its own expiration period. The exact duration depends on your subscription plan and when the credits were granted. You can check the expiration date of your credits in your account dashboard. Credits are consumed on a first-in, first-out basis.": {
-      "translation": "每个信用额度都有自己的有效期。具体期限取决于您的订购计划和积分发放时间。您可以在账户仪表板中查看点数的到期日期。点数的消耗以先进先出为原则。",
-      "timestamp": 1765570357
+      "translation": "每个信用额度都有自己的有效期。具体期限取决于您的订购计划和积分发放时间。您可以在账户控制面板中查看点数的到期日期。点数的消耗以先进先出为原则。",
+      "timestamp": 1765575420
     },
     "Email customer support": {
       "translation": "电子邮件客户支持",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "FAQ": {
       "translation": "常见问题",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Find answers to common questions about our pricing plans and services": {
       "translation": "查找有关我们定价计划和服务的常见问题的答案",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Flexible pricing options to meet the needs of individuals and businesses": {
       "translation": "灵活的定价方案，满足个人和企业的需求",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "For free users, daily credits reset every day and don't accumulate. For subscribers, credits expire based on their expiration date. Each credit quota has its own expiration period, and unused credits will automatically expire when that period ends.": {
       "translation": "对于免费用户，每日点数每天重置，不会累积。对于订户，点数会根据到期日过期。每个点数配额都有自己的过期时间，未使用的点数会在过期时间结束时自动过期。",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "For individual users and small projects": {
       "translation": "适用于个人用户和小型项目",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "For monthly plans, you get 100 credits per dollar spent. For yearly plans, you get 100 credits per dollar × 12 months. For example: Basic monthly ($15) = 1,500 credits, Basic yearly ($144) = 18,000 credits.": {
       "translation": "对于包月计划，每消费一美元可获得 100 个信用点数。对于包年计划，每消费一美元可获得 100 点数 × 12 个月。例如基本包月（15 美元）= 1,500 个信用点数，基本包年（144 美元）= 18,000 个信用点数。",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "For professional creators and team collaboration": {
       "translation": "适用于专业创作者和团队协作",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Free plan users can use generated images for personal projects only. Both Basic and Pro plan subscribers receive a commercial use license, allowing you to use the images for business purposes, marketing materials, and client projects.": {
       "translation": "免费计划用户只能将生成的图像用于个人项目。基本计划和专业计划用户可获得商业使用许可证，允许您将图像用于商业目的、营销材料和客户项目。",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Get Started": {
       "translation": "开始",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "High resolution": {
       "translation": "高分辨率",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "High resolution (1024x1024)": {
       "translation": "高分辨率（1024x1024）",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Highest priority queue": {
       "translation": "最高优先级队列",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "How do credits work?": {
       "translation": "学分如何使用？",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "How does credit quota calculation work?": {
       "translation": "如何计算信贷配额？",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "How long do credits last after purchase?": {
       "translation": "购买点数后可使用多长时间？",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Monthly": {
       "translation": "每月",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Most Popular": {
       "translation": "最受欢迎",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Perfect for personal trial and light usage": {
       "translation": "非常适合个人试用和轻度使用",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Pricing Plans": {
       "translation": "定价计划",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Priority customer support": {
       "translation": "优先客户支持",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Priority generation queue": {
       "translation": "优先生成队列",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Priority queue": {
       "translation": "优先队列",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Priority support": {
       "translation": "优先支持",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Pro plan offers 5x more credits than Basic, plus access to all advanced AI models, ultra-high resolution (2048x2048), batch generation features, and priority customer support. Basic plan is great for individuals, while Pro is designed for professional creators and teams.": {
       "translation": "专业计划提供比基本计划多 5 倍的点数，还可使用所有高级人工智能模型、超高分辨率（2048x2048）、批量生成功能和优先客户支持。基本计划非常适合个人使用，而专业计划则专为专业创作者和团队设计。",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Processing...": {
       "translation": "处理...",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Save ${amount}": {
-      "translation": "节省 ${ 金额｝ {amount}",
-      "timestamp": 1765570819
+      "translation": "Save ${amount}",
+      "timestamp": 1765575420
     },
     "Save 20%": {
       "translation": "节省 20",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Scheduled": {
       "translation": "计划",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Standard AI models": {
       "translation": "标准人工智能模型",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Standard resolution (512x512)": {
       "translation": "标准分辨率（512x512）",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Subscribe Now": {
       "translation": "立即订阅",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Try Now": {
       "translation": "立即试用",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Ultra-high resolution": {
       "translation": "超高分辨率",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Ultra-high resolution (2048x2048)": {
       "translation": "超高分辨率（2048x2048）",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Upgrade": {
       "translation": "升级",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Watermark-free export": {
       "translation": "无水印导出",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "We integrate with Creem payment platform which supports various payment methods. All transactions are processed securely through their payment gateway.": {
-      "translation": "我们与 Creem 支付平台整合，该平台支持各种支付方式。所有交易均通过其支付网关安全处理。",
-      "timestamp": 1765570357
+      "translation": "我们与 Creem 支付平台集成，该平台支持多种支付方式。所有交易均通过其支付网关安全处理。",
+      "timestamp": 1765575420
     },
     "What happens to unused credits?": {
       "translation": "如何处理未使用的积分？",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "What happens when I upgrade mid-cycle?": {
       "translation": "如果我在周期中期升级，会发生什么情况？",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "What payment methods do you accept?": {
       "translation": "你们接受哪些付款方式？",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "What's the difference between Basic and Pro plans?": {
       "translation": "基本计划和专业计划有什么区别？",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "What's the difference between monthly and yearly plans?": {
       "translation": "月度计划和年度计划有什么区别？",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "When you upgrade, you'll be charged a prorated amount for the remainder of your current billing period. You'll immediately receive the full credit quota of your new plan, and any existing credits remain available until their expiration date.": {
       "translation": "升级时，将按比例收取当前账单期剩余时间的费用。您将立即收到新计划的全部点数配额，而现有的点数在到期前仍可使用。",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Yearly": {
       "translation": "每年",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Yearly plans offer a 20% discount compared to monthly plans. For example, Basic monthly is $15/month (1,500 credits), while Basic yearly is $144/year (18,000 credits total). You save money and get more value with yearly subscriptions.": {
       "translation": "与包月计划相比，包年计划提供 20% 的折扣。例如，基本包月计划每月 15 美元（1,500 点数），而基本包年计划每年 144 美元（共 18,000 点数）。按年订购既省钱又超值。",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Yes! Switching from monthly to yearly within the same plan tier (e.g., Basic monthly to Basic yearly) is considered a change, not an upgrade. The new billing cycle will take effect according to the plan change policy.": {
       "translation": "是的！在同一计划层级内从包月计划转为包年计划（例如，从基本包月计划转为基本包年计划）被视为变更，而非升级。新的计费周期将根据计划变更政策生效。",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Yes! You can upgrade your plan at any time, and the price difference will be prorated. When upgrading, you'll receive the full credit quota of the new plan immediately. Downgrades take effect at the start of your next billing cycle.": {
       "translation": "可以！您可以随时升级计划，差价将按比例计算。升级时，您将立即收到新计划的全部积分配额。降级在下一个账单周期开始时生效。",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "Yes, you can cancel your subscription at any time. Your plan will remain active until the end of your current billing period, and you can continue using your remaining credits until they expire.": {
-      "translation": "是的，您可以随时取消订阅。在当前账单期结束前，您的计划将保持有效，您可以继续使用剩余的点数，直到过期为止。",
-      "timestamp": 1765570357
+      "translation": "是的，您可以随时取消订阅。在当前账单期结束前，您的计划仍将有效，您可以继续使用剩余的点数，直到过期为止。",
+      "timestamp": 1765575420
     },
     "month": {
       "translation": "月",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "year": {
       "translation": "年",
-      "timestamp": 1765570357
+      "timestamp": 1765575420
     },
     "{quota} credits quota": {
-      "translation": "{配额}学分配额 {quota}",
-      "timestamp": 1765570819
+      "translation": "{quota} 学分配额",
+      "timestamp": 1765575420
     },
     "{quota} credits quota per day": {
-      "translation": "{配额} 每天的学分配额 {quota}",
-      "timestamp": 1765570819
+      "translation": "{quota} 积分每日配额",
+      "timestamp": 1765575420
     },
     "{quota} quota credits": {
-      "translation": "配额 {quota}",
-      "timestamp": 1765570819
+      "translation": "{quota} 共享点数",
+      "timestamp": 1765575420
     }
   }
 }
