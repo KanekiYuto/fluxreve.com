@@ -45,7 +45,7 @@ export async function addWatermark(imageBuffer: Buffer): Promise<Buffer> {
           dominant-baseline="text-top"
           filter="url(#shadow)"
         >
-          ${siteName}
+          FluxReve
         </text>
         <text
           x="${width - watermarkPadding}"
@@ -58,7 +58,7 @@ export async function addWatermark(imageBuffer: Buffer): Promise<Buffer> {
           dominant-baseline="text-top"
           filter="url(#shadow)"
         >
-          ${domain}
+          fluxreve.com
         </text>
       </svg>
     `;
