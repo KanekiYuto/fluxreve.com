@@ -2,103 +2,103 @@
   "entries": {
     "About": {
       "translation": "について",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Change": {
       "translation": "変更",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Connect your GitHub account to enable this login method.": {
       "translation": "このログイン方法を有効にするには、GitHubアカウントを接続してください。",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Connect your Google account to enable this login method.": {
       "translation": "このログイン方法を有効にするには、Googleアカウントを接続してください。",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Connected": {
       "translation": "接続済み",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Connected Accounts": {
       "translation": "接続アカウント",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Copy": {
       "translation": "コピー",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Edit": {
       "translation": "編集",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Email Address": {
       "translation": "メールアドレス",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Email Notifications": {
       "translation": "メール通知",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Enable": {
       "translation": "有効にする",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Manage your account settings and preferences": {
       "translation": "アカウント設定とプリファレンスの管理",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Name": {
       "translation": "名称",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Not set": {
       "translation": "未設定",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Please sign in to access your settings and manage your account.": {
       "translation": "設定やアカウント管理にアクセスするには、サインインしてください。",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Preferences": {
       "translation": "好み",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Profile Information": {
       "translation": "プロフィール",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Receive updates and notifications via email": {
       "translation": "Eメールで最新情報と通知を受け取る",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Release Date": {
       "translation": "発売日",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Sign In Required": {
       "translation": "サインインが必要です",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Upgrade Plan": {
       "translation": "アップグレードプラン",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Verified": {
       "translation": "確認済み",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "Version": {
       "translation": "バージョン",
-      "timestamp": 1765576981
+      "timestamp": 1765580388
     },
     "You can use your GitHub account to sign in to your account.": {
-      "translation": "00001}アカウントを使ってサインインできます。",
-      "timestamp": 1765576981
+      "translation": "あなたのGitHubアカウントを使ってサインインできます。",
+      "timestamp": 1765580388
     },
     "You can use your Google account to sign in to your account.": {
-      "translation": "00002}アカウントを使ってサインインできます。",
-      "timestamp": 1765576981
+      "translation": "あなたのGoogleアカウントを使ってサインインできます。",
+      "timestamp": 1765580388
     }
   }
 }

@@ -19,9 +19,9 @@
   "sections": {
     "connections": {
       "connected": "接続済み",
-      "githubConnected": "00001}アカウントを使ってサインインできます。",
+      "githubConnected": "あなたのGitHubアカウントを使ってサインインできます。",
       "githubNotConnected": "このログイン方法を有効にするには、GitHubアカウントを接続してください。",
-      "googleConnected": "00002}アカウントを使ってサインインできます。",
+      "googleConnected": "あなたのGoogleアカウントを使ってサインインできます。",
       "googleNotConnected": "このログイン方法を有効にするには、Googleアカウントを接続してください。",
       "title": "接続アカウント"
     },

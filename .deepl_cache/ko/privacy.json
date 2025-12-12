@@ -2,279 +2,279 @@
   "entries": {
     "Access: Request a copy of the personal information we hold about you": {
       "translation": "액세스: 당사가 보유한 귀하의 개인 정보 사본 요청하기",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Account information: email address, username, password": {
       "translation": "계정 정보: 이메일 주소, 사용자 아이디, 비밀번호",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Analytics cookies: Help us understand usage patterns and improve our services": {
       "translation": "분석 쿠키: 사용 패턴을 이해하고 서비스를 개선하는 데 도움이 됩니다.",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Automatically Collected Information": {
       "translation": "자동으로 수집되는 정보",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "By using our services through the {siteName} website, mobile applications, or APIs, you acknowledge that you have read, understood, and agree to the practices described in this Privacy Policy. This policy also informs you of your privacy rights and how the law protects you.": {
-      "translation": "003} 웹사이트, 모바일 애플리케이션 또는 API를 통해 당사의 서비스를 이용함으로써 귀하는 본 개인정보 처리방침에 설명된 관행을 읽고 이해했으며 이에 동의함을 인정하는 것입니다. 이 정책은 또한 귀하의 개인정보 보호 권리와 법이 어떻게 귀하를 보호하는지 알려줍니다.",
-      "timestamp": 1765576932
+      "translation": "{siteName} 웹사이트, 모바일 애플리케이션 또는 API을 통해 당사의 서비스를 이용함으로써 귀하는 본 개인정보 처리방침에 설명된 관행을 읽고 이해했으며 이에 동의함을 인정하는 것입니다. 또한 본 정책은 회원님의 개인정보 보호 권리와 법이 회원님을 어떻게 보호하는지 알려드립니다.",
+      "timestamp": 1765580354
     },
     "Changes to This Privacy Policy": {
       "translation": "본 개인정보 처리방침의 변경 사항",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Children's Privacy": {
       "translation": "어린이 개인정보 보호",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Communication data: feedback, support inquiries, or other messages you send to us": {
       "translation": "커뮤니케이션 데이터: 피드백, 지원 문의 또는 귀하가 당사에 보내는 기타 메시지",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Complying with legal obligations and enforcing our terms of service": {
       "translation": "법적 의무 준수 및 서비스 약관 시행",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Contact Us": {
       "translation": "문의하기",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Content you create using our services, including AI-generated images, text prompts, uploaded images, and project data. We may temporarily store this content to provide our services and may use it to improve our AI models, subject to your consent.": {
       "translation": "AI 생성 이미지, 텍스트 프롬프트, 업로드된 이미지, 프로젝트 데이터 등 사용자가 서비스를 사용하여 생성한 콘텐츠. 당사는 서비스를 제공하기 위해 이 콘텐츠를 일시적으로 저장할 수 있으며, 귀하의 동의에 따라 AI 모델을 개선하는 데 사용할 수 있습니다.",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Cookies and Tracking Technologies": {
       "translation": "쿠키 및 추적 기술",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Cookies and tracking technologies for analytics and functionality": {
       "translation": "분석 및 기능을 위한 쿠키 및 추적 기술",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Data Storage and Security": {
       "translation": "데이터 저장 및 보안",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Deletion: Request deletion of your personal data (\"right to be forgotten\")": {
       "translation": "삭제: 삭제: 개인 데이터 삭제 요청(\"잊혀질 권리\")",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Depending on your location, you may have the following rights regarding your personal information:": {
       "translation": "회원님의 위치에 따라 회원님은 개인정보와 관련하여 다음과 같은 권리를 가질 수 있습니다:",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Detecting, preventing, and addressing fraud, security issues, or technical problems": {
       "translation": "사기, 보안 문제 또는 기술적 문제 감지, 예방 및 해결",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Device data: device type, operating system, browser version, unique device identifiers": {
       "translation": "디바이스 데이터: 디바이스 유형, 운영 체제, 브라우저 버전, 고유 디바이스 식별자",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Email": {
       "translation": "이메일",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Essential cookies: Required for basic service functionality and authentication": {
       "translation": "필수 쿠키: 기본 서비스 기능 및 인증에 필요",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "How We Use Your Information": {
       "translation": "당사가 귀하의 정보를 사용하는 방법",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:": {
       "translation": "본 개인정보 처리방침 또는 데이터 관행과 관련하여 질문, 우려 사항 또는 요청 사항이 있는 경우 다음 주소로 문의하시기 바랍니다:",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Improving our services through data analysis and usage pattern identification": {
       "translation": "데이터 분석 및 사용 패턴 파악을 통한 서비스 개선",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "In connection with a merger, acquisition, or sale of assets, where information may be transferred as a business asset": {
       "translation": "합병, 인수 또는 자산 매각과 관련하여 정보가 사업 자산으로 이전될 수 있는 경우",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Information Sharing and Disclosure": {
       "translation": "정보 공유 및 공개",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Information We Collect": {
       "translation": "당사가 수집하는 정보",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Information You Provide": {
       "translation": "사용자가 제공하는 정보",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Introduction": {
       "translation": "소개",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Last Updated": {
       "translation": "마지막 업데이트",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Learn how {siteName} collects, uses, and protects your personal information. Our privacy policy covers data collection, usage, sharing, and your rights.": {
-      "translation": "0000004}에서 개인정보를 수집, 사용 및 보호하는 방법을 알아보세요. 당사의 개인정보 처리방침은 데이터 수집, 사용, 공유 및 귀하의 권리를 다룹니다.",
-      "timestamp": 1765576932
+      "translation": "{siteName}이 개인정보를 수집, 사용 및 보호하는 방법을 알아보세요. Facebook의 개인정보 처리방침은 데이터 수집, 사용, 공유 및 회원님의 권리를 다룹니다.",
+      "timestamp": 1765580354
     },
     "Log data: IP address, access times, pages viewed, referring URLs": {
       "translation": "로그 데이터: IP 주소, 접속 시간, 조회한 페이지, 참조 URL",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Marketing cookies: Deliver relevant content and measure campaign effectiveness (with your consent)": {
       "translation": "마케팅 쿠키: 관련 콘텐츠 제공 및 캠페인 효과 측정(사용자 동의 시)",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Objection: Object to processing of your information for certain purposes": {
       "translation": "이의 제기: 특정 목적을 위한 귀하의 정보 처리에 대한 이의 제기",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Opt-out: Unsubscribe from marketing communications": {
       "translation": "옵트아웃: 마케팅 커뮤니케이션 수신 거부",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Our services are not directed to individuals under the age of 13 (or equivalent minimum age in your jurisdiction). We do not knowingly collect personal information from children. If we become aware that we have collected data from a child without proper consent, we will take steps to delete it promptly.": {
-      "translation": "당사의 서비스는 만 13세 미만(또는 해당 관할권의 최소 연령)의 개인을 대상으로 하지 않습니다. 당사는 고의로 아동의 개인정보를 수집하지 않습니다. 적절한 동의 없이 아동으로부터 데이터를 수집한 사실을 알게 되는 경우, 당사는 즉시 삭제 조치를 취할 것입니다.",
-      "timestamp": 1765576932
+      "translation": "당사의 서비스는 13세 미만(또는 해당 관할권의 최소 연령)의 개인을 대상으로 하지 않습니다. 당사는 고의로 아동의 개인정보를 수집하지 않습니다. 적절한 동의 없이 아동으로부터 데이터를 수집했다는 사실을 알게 되는 경우, 당사는 즉시 삭제 조치를 취할 것입니다.",
+      "timestamp": 1765580354
     },
     "Our services may contain links to third-party websites, integrations, or services. We are not responsible for the privacy practices or content of these third parties. We encourage you to review their privacy policies before providing any personal information.": {
       "translation": "당사의 서비스에는 타사 웹사이트, 통합 또는 서비스로 연결되는 링크가 포함되어 있을 수 있습니다. 당사는 이러한 제3자의 개인정보 보호 관행이나 콘텐츠에 대해 책임을 지지 않습니다. 개인정보를 제공하기 전에 해당 제3자의 개인정보 처리방침을 검토하시기 바랍니다.",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Payment details: billing information, transaction history": {
       "translation": "결제 세부 정보: 청구 정보, 거래 내역",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Portability: Receive your data in a structured, commonly used format": {
       "translation": "휴대성: 구조화되고 일반적으로 사용되는 형식으로 데이터를 수신합니다.",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Preference cookies: Remember your settings and personalization choices": {
       "translation": "환경설정 쿠키: 설정 및 개인화 선택 사항 기억",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Privacy Policy | {siteName}": {
-      "translation": "개인정보 보호정책 | {siteName}",
-      "timestamp": 1765576932
+      "translation": "개인정보처리방침 | {siteName}",
+      "timestamp": 1765580354
     },
     "Processing your transactions and managing your account": {
       "translation": "거래 처리 및 계정 관리",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Profile data: display name, avatar, bio": {
       "translation": "프로필 데이터: 표시 이름, 아바타, 자기소개",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Providing customer support and responding to your inquiries": {
       "translation": "고객 지원 제공 및 문의에 응답하기",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Providing, operating, and maintaining our AI image generation services": {
       "translation": "AI 이미지 생성 서비스 제공, 운영 및 유지 관리",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Rectification: Correct inaccurate or incomplete information": {
       "translation": "수정: 부정확하거나 불완전한 정보 수정하기",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Restriction: Limit how we process your information": {
       "translation": "제한: 사용자 정보 처리 방법 제한",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Retention Period: We retain your personal information only for as long as necessary to fulfill the purposes outlined in this policy or as required by law. Generated content may be retained based on your account settings and subscription type.": {
       "translation": "보유 기간: 당사는 본 정책에 명시된 목적을 달성하는 데 필요한 기간 동안 또는 법률에서 요구하는 기간 동안만 회원님의 개인정보를 보유합니다. 생성된 콘텐츠는 계정 설정 및 구독 유형에 따라 보관될 수 있습니다.",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Security Measures: We implement industry-standard security practices including encryption (in transit and at rest), access controls, regular security audits, and secure authentication mechanisms. However, no method of transmission or storage is 100% secure.": {
       "translation": "보안 조치: 당사는 암호화(전송 중 및 미사용 시), 액세스 제어, 정기 보안 감사, 보안 인증 메커니즘을 포함한 업계 표준 보안 관행을 구현합니다. 그러나 100% 안전한 전송 또는 저장 방법은 없습니다.",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Sending service notifications, updates, and promotional communications (with your consent)": {
       "translation": "서비스 알림, 업데이트 및 홍보성 커뮤니케이션 전송(회원님의 동의가 있는 경우)",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Storage Location: Your information is stored on secure servers located in various regions globally to ensure optimal service performance and reliability. We use industry-leading cloud infrastructure providers.": {
       "translation": "저장 위치: 회원님의 정보는 최적의 서비스 성능과 안정성을 보장하기 위해 전 세계 여러 지역에 위치한 보안 서버에 저장됩니다. 당사는 업계 최고의 클라우드 인프라 제공업체를 사용합니다.",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Third-Party Services and Links": {
       "translation": "타사 서비스 및 링크",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "To comply with legal obligations, court orders, or valid governmental requests": {
       "translation": "법적 의무, 법원 명령 또는 유효한 정부 요청을 준수하기 위해",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "To protect our rights, property, safety, or that of our users and the public": {
       "translation": "당사의 권리, 재산, 안전 또는 사용자 및 대중의 권리, 재산, 안전을 보호하기 위해",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Training and enhancing our AI models to deliver better results": {
       "translation": "더 나은 결과를 제공하기 위한 AI 모델 학습 및 향상",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Usage information: features accessed, images generated, interaction patterns": {
-      "translation": "사용 정보: 액세스한 기능, 생성된 이미지, 상호 작용 패턴",
-      "timestamp": 1765576932
+      "translation": "사용 정보: 액세스한 기능, 생성된 이미지, 상호작용 패턴",
+      "timestamp": 1765580354
     },
     "User-Generated Content": {
       "translation": "사용자 제작 콘텐츠",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "We do not sell your personal information. We may share your information only in the following circumstances:": {
       "translation": "당사는 회원님의 개인정보를 판매하지 않습니다. 당사는 다음과 같은 경우에만 귀하의 정보를 공유할 수 있습니다:",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "We may collect various types of information to provide and improve our services:": {
       "translation": "당사는 서비스 제공 및 개선을 위해 다양한 유형의 정보를 수집할 수 있습니다:",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "We may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. We will notify you of material changes by posting the updated policy on this page with a revised \"Last Updated\" date. For significant changes, we may also provide notice via email or prominent notification on our platform. We encourage you to review this policy regularly.": {
       "translation": "당사는 관행 또는 법적 요건의 변화를 반영하기 위해 본 개인정보 처리방침을 주기적으로 업데이트할 수 있습니다. 중요한 변경사항이 있는 경우 당사는 이 페이지에 업데이트된 정책을 '최종 업데이트' 날짜와 함께 게시하여 사용자에게 알립니다. 중요한 변경사항의 경우, 이메일 또는 플랫폼에서 눈에 잘 띄는 알림을 통해 통지할 수도 있습니다. 본 정책을 정기적으로 검토하시기 바랍니다.",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "We use cookies and similar technologies to enhance your experience:": {
       "translation": "당사는 쿠키 및 이와 유사한 기술을 사용하여 사용자 경험을 향상시킵니다:",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "We use the collected information for the following purposes:": {
       "translation": "당사는 수집한 정보를 다음 목적을 위해 사용합니다:",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "With AI model providers for processing your generation requests, under strict data protection agreements": {
       "translation": "엄격한 데이터 보호 계약에 따라 생성 요청을 처리하기 위한 AI 모델 제공업체와 함께합니다.",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "With trusted service providers who assist in operating our platform (cloud hosting, payment processing, analytics)": {
       "translation": "플랫폼 운영을 지원하는 신뢰할 수 있는 서비스 제공업체(클라우드 호스팅, 결제 처리, 애널리틱스)와 함께합니다.",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "With your explicit consent or at your direction": {
       "translation": "사용자의 명시적 동의 또는 사용자의 지시에 따른 경우",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Withdraw Consent: Revoke previously given consent at any time": {
       "translation": "동의 철회: 이전에 제공한 동의를 언제든지 철회할 수 있습니다.",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "You can control cookie preferences through your browser settings. Note that disabling certain cookies may limit functionality of our services.": {
       "translation": "브라우저 설정을 통해 쿠키 기본 설정을 제어할 수 있습니다. 특정 쿠키를 비활성화하면 서비스 기능이 제한될 수 있다는 점에 유의하세요.",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "Your Privacy Rights": {
       "translation": "사용자의 개인정보 보호 권리",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "privacy policy, data protection, personal information, user privacy, data collection, GDPR, privacy rights": {
       "translation": "개인 정보 보호 정책, 데이터 보호, 개인 정보, 사용자 개인 정보 보호, 데이터 수집, GDPR, 개인 정보 보호 권리",
-      "timestamp": 1765576932
+      "timestamp": 1765580354
     },
     "{siteName} (\"we,\" \"us,\" or \"our\") is committed to protecting your privacy and safeguarding your personal information. This Privacy Policy outlines our practices regarding the collection, storage, use, and sharing of your information when you access our AI-powered image generation services.": {
-      "translation": "{siteName}(\"당사\", \"당사\" 또는 \"당사\")는 귀하의 개인정보를 보호하고 개인정보를 안전하게 보호하기 위해 최선을 다하고 있습니다. 본 개인정보 처리방침은 귀하가 당사의 AI 기반 이미지 생성 서비스에 액세스할 때 귀하의 정보를 수집, 저장, 사용 및 공유하는 것에 관한 당사의 관행을 간략하게 설명합니다.",
-      "timestamp": 1765576932
+      "translation": "{siteName}(\"당사\", \"저희\" 또는 \"저희\")는 귀하의 개인정보를 보호하고 개인정보를 안전하게 보호하기 위해 최선을 다하고 있습니다. 본 개인정보 처리방침은 귀하가 당사의 AI 기반 이미지 생성 서비스에 액세스할 때 귀하의 정보를 수집, 저장, 사용 및 공유하는 것에 관한 당사의 관행을 간략하게 설명합니다.",
+      "timestamp": 1765580354
     }
   }
 }

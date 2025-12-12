@@ -37,7 +37,7 @@
   "examples": {
     "clickToUse": "この例を使用するにはクリックしてください。",
     "description": "下の例をクリックして作成を開始するか、左のフォームに記入してカスタマイズしてください。",
-    "goToExample": "00023}の例へ",
+    "goToExample": "例題{index}へ",
     "noExamples": "例なし",
     "title": "クイックスタート",
     "useExample": "この例を使う"
@@ -46,7 +46,7 @@
     "add": "追加",
     "addImageUrl": "画像URLの追加",
     "addItem": "アイテムを追加",
-    "addLora": "00032}を追加",
+    "addLora": "LoRAを追加",
     "advancedSettings": "詳細設定",
     "aspectRatio": "アスペクト比",
     "aspectRatioPlaceholder": "アスペクト比の選択",
@@ -59,16 +59,16 @@
       "9:16": "9:16 (ポートレート)"
     },
     "cancel": "キャンセル",
-    "clickAddLoraToStart": "00012}の設定を追加するには、上のボタンをクリックしてください。",
+    "clickAddLoraToStart": "上のボタンをクリックしてLoRAコンフィギュレーションを追加してください。",
     "configuration": "構成",
     "imageUrlPlaceholder": "画像のURLを入力",
-    "loraConfig": "LoRA設定",
-    "loraConfigHint": "00005}設定をJSON形式で入力（モデル名、体重、その他のパラメータなど",
+    "loraConfig": "コンフィグ",
+    "loraConfigHint": "モデル名、体重、その他のパラメーターなど、JSON形式でLoRA設定を入力する。",
     "mode": {
       "imageToImage": "画像から画像へ",
       "textToImage": "テキストから画像へ"
     },
-    "noLoraConfigured": "00001}はまだ設定されていない",
+    "noLoraConfigured": "まだLoRAは設定されていない",
     "outputFormat": "出力フォーマット",
     "outputFormatPlaceholder": "出力形式の選択",
     "privateMode": "プライベート・ファッション",
@@ -92,8 +92,8 @@
     "uploading": "アップロード..."
   },
   "generate": {
-    "generateImage": "画像の生成 (コスト {credits} クォータ)",
-    "generating": "生成中...{progress}%"
+    "generateImage": "画像の生成（コスト{credits}シェア）",
+    "generating": "生成...{progress}%"
   },
   "loading": {
     "creating": "AIの創造",
@@ -101,39 +101,39 @@
     "message": "あなたのために素晴らしいコンテンツを生成しています。"
   },
   "lora": {
-    "addLora": "00032}を追加",
+    "addLora": "LoRAを追加",
     "cancel": "キャンセル",
     "clickAddLoraToStart": "Add LoRA」ボタンをクリックして設定を開始します。",
     "clickToSelect": "左のLoRAカードをクリックして選択する",
     "configuration": "構成",
     "confirm": "確認",
     "loading": "読み込み中...",
-    "loraConfig": "LoRA設定",
+    "loraConfig": "コンフィグ",
     "loraConfigHint": "有効なJSON形式の設定を入力してください。",
     "manage": "管理",
-    "modalSubtitle": "00013}ライブラリから選択し、パーソナライズされたスタイルのためにスケールをカスタマイズする",
-    "modalTitle": "00024}を選択モデル",
-    "noLoraAvailable": "00007}はありません",
-    "noLoraConfigured": "設定されていない{00034｝",
-    "noLoraHint": "00020}モデルを作成またはインポートしてください。",
-    "noSearchResults": "一致するLoRAが見つからない",
-    "noSelectedLoras": "00025}が選択されていない",
+    "modalSubtitle": "LoRAライブラリから選択し、スケールをカスタマイズしてパーソナライズされたスタイルを実現",
+    "modalTitle": "LoRAモデルを選択",
+    "noLoraAvailable": "利用可能なLoRAはありません",
+    "noLoraConfigured": "なし LoRA構成",
+    "noLoraHint": "最初にLoRAモデルを作成またはインポートしてください。",
+    "noSearchResults": "一致するLoRAは見つかりませんでした",
+    "noSelectedLoras": "なし LoRA 選択",
     "scale": "階段",
-    "searchPlaceholder": "検索 LoRA名前、説明、またはトリガーワード...",
-    "selectLora": "00002}を選択する。",
-    "selectMore": "00033}を管理する",
-    "selectedCount": "{count}LoRA(s)を選択",
+    "searchPlaceholder": "検索LoRA名前、説明、またはトリガーワード...",
+    "selectLora": "LoRAを選択",
+    "selectMore": "管理 LoRA",
+    "selectedCount": "{count} LoRA(s) selected",
     "selectedLoras": "厳選された"
   },
   "modelGroups": {
-    "flux": "Fluxシリーズ",
+    "flux": "シリーズ",
     "nano": "ナノシリーズ",
     "seedream": "Seedream Series",
-    "zImage": "Z-Imageシリーズ"
+    "zImage": "シリーズ"
   },
   "models": {
     "flux2Pro": {
-      "description": "プロ仕様の画像生成モデル、テキストから画像へ、画像から画像への高品質出力をサポート",
+      "description": "プロ仕様の画像生成モデル。テキストから画像、画像から画像への高品質出力をサポート。",
       "tags": {
         "highQuality": "高品質",
         "professional": "プロフェッショナル",
@@ -149,7 +149,7 @@
       }
     },
     "seedream": {
-      "description": "ByteDanceSeedream 4.5、大解像度出力による超高画質画像生成",
+      "description": "ByteDance Seedream 4.5, 大解像度出力による超高画質画像生成",
       "tags": {
         "bytedance": "ByteDance",
         "creative": "クリエイティブ",
@@ -165,7 +165,7 @@
       }
     },
     "zImageLora": {
-      "description": "Z-Image Turbo LoRAバージョン、カスタムLoRAモデルをサポート、スタイル化された作品に対応",
+      "description": "カスタムLoRAモデルをサポートしたZ-Image Turbo LoRAバージョンで、スタイル化された作品に対応。",
       "tags": {
         "customizable": "カスタマイズ可能",
         "lora": "LoRAサポート",
@@ -182,7 +182,7 @@
     "completedTime": "完了時間",
     "downloadAll": "すべてダウンロード ({count})",
     "downloadCurrent": "ダウンロード",
-    "fileCount": "{count}ファイル",
+    "fileCount": "ファイル",
     "generationTime": "ジェネレーション・タイム",
     "prompt": "プロンプト",
     "seconds": "{seconds}s",

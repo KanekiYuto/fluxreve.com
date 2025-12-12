@@ -78,7 +78,7 @@
       },
       "speed": {
         "label": "4K Generazione immagine",
-        "value": "\u003c10s"
+        "value": "<10s"
       },
       "users": {
         "label": "Coerenza del carattere",

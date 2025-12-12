@@ -232,19 +232,30 @@ func translateWithDeepLBatch(apiKey string, texts []string, targetLang string, f
 			translatedText := translation.Text
 			protectedMap := toTranslateProtectedMaps[i]
 
-			// 详细日志：显示保护映射
-			fmt.Printf("  [DEBUG] 翻译结果 %d:\n", i)
-			fmt.Printf("    原始文本: %s\n", originalText)
-			fmt.Printf("    翻译文本 (保护前): %s\n", translatedText)
-			fmt.Printf("    保护映射数量: %d\n", len(protectedMap))
-			for placeholder, content := range protectedMap {
-				fmt.Printf("      %s -> %s\n", placeholder, content)
+			// 调试日志：显示翻译前后的状态（仅当有保护映射时）
+			if len(protectedMap) > 0 {
+				fmt.Printf("\n[#%d] ", i+1)
+				fmt.Printf("原文: %s | ", originalText)
+				fmt.Printf("映射: %d\n", len(protectedMap))
 			}
 
 			// 还原被保护的内容（占位符和专有名词）
 			finalTranslation := restoreProtectedContent(translatedText, protectedMap)
 
-			fmt.Printf("    翻译文本 (还原后): %s\n", finalTranslation)
+			if len(protectedMap) > 0 {
+				if finalTranslation != translatedText {
+					fmt.Printf("     还原成功\n")
+				} else {
+					fmt.Printf("     ⚠️  警告: 没有还原任何内容！原文: %s | 翻译: %s\n", originalText, translatedText)
+				}
+
+				// 检测是否有未还原的占位符
+				unrestoredPattern := regexp.MustCompile(`〈\d{4}〉`)
+				if unrestoredPattern.MatchString(finalTranslation) {
+					unrestoredMatches := unrestoredPattern.FindAllString(finalTranslation, -1)
+					fmt.Printf("     ❌ 错误: 检测到 %d 个未还原的占位符: %v\n", len(unrestoredMatches), unrestoredMatches)
+				}
+			}
 
 			// 使用原始文本作为键保存结果
 			results[originalText] = finalTranslation
@@ -343,9 +354,9 @@ func isPlaceholder(text string) bool {
 	return re.MatchString(text)
 }
 
-// 用于在单个翻译批次中生成唯一的数值占位符
+// 用于在单个翻译批次中生成唯一的占位符
 type PlaceholderGenerator struct {
-	counter int
+	counter int64
 }
 
 // 创建新的占位符生成器
@@ -353,13 +364,13 @@ func NewPlaceholderGenerator() *PlaceholderGenerator {
 	return &PlaceholderGenerator{counter: 0}
 }
 
-// 生成特殊占位符 - 使用 {} 包裹的纯数字，避免被翻译或修改
-// 例如：{00001}、{00002}等
-// 纯数字占位符不会被 DeepL 修改或改变
+// 生成特殊占位符 - 使用不可翻译的格式
+// 格式：##XXXX##（四位数字）
+// 例如：##0001##、##0002##等
+// 双井号 + 数字的组合 DeepL 不会修改
 func (pg *PlaceholderGenerator) Generate() string {
 	pg.counter++
-	// 使用 5 位数字，范围从 00001 到 99999
-	return fmt.Sprintf("{%05d}", pg.counter)
+	return fmt.Sprintf("##%04d##", pg.counter)
 }
 
 // 客户端保护：将占位符和专有名词替换为特殊标记，这样 DeepL 不会翻译它们
@@ -406,12 +417,35 @@ func protectAllContentWithGenerator(text string, placeholderGen *PlaceholderGene
 	return result, protected
 }
 
-// 还原被保护的内容（纯数字占位符不会被 DeepL 修改，直接精确替换）
+// 还原被保护的内容
+// 占位符格式：##XXXX##（四位数字）
+// 还原步骤：
+// 1. 从 protected map 中提取所有数字 ID
+// 2. 先删除所有 # 字符
+// 3. 用纯数字去匹配并替换
 func restoreProtectedContent(text string, protected map[string]string) string {
-	result := text
+	// 构建数字ID到内容的映射
+	// 从 protected map 中提取数字 ID
+	idMap := make(map[string]string)
 	for placeholder, content := range protected {
-		result = strings.ReplaceAll(result, placeholder, content)
+		// 从 ##0001## 中提取 0001（删除所有 #）
+		numID := strings.Trim(placeholder, "#")
+		idMap[numID] = content
 	}
+
+	// 第一步：删除所有的 # 字符
+	result := strings.ReplaceAll(text, "#", "")
+
+	// 第二步：用正则表达式匹配所有 4 位数字，检查是否在 idMap 中
+	// 只替换那些在 idMap 中的数字
+	digitPattern := regexp.MustCompile(`\d{4}`)
+	result = digitPattern.ReplaceAllStringFunc(result, func(match string) string {
+		if originalContent, ok := idMap[match]; ok {
+			return originalContent
+		}
+		return match
+	})
+
 	return result
 }
 
@@ -504,10 +538,17 @@ func processFile(sourceFile, targetDir, apiKey, targetLang string) error {
 	translatedData := translateJSON(jsonData, translations)
 
 	// 转换回 JSON（带缩进）
-	translated, err := json.MarshalIndent(translatedData, "", "  ")
-	if err != nil {
+	// 使用自定义 encoder 来避免 HTML 转义
+	var buf bytes.Buffer
+	encoder := json.NewEncoder(&buf)
+	encoder.SetEscapeHTML(false)  // 禁用 HTML 转义，保持原样输出
+	encoder.SetIndent("", "  ")
+	if err := encoder.Encode(translatedData); err != nil {
 		return fmt.Errorf("序列化 JSON 失败: %v", err)
 	}
+	translated := buf.Bytes()
+	// 移除末尾的换行符（Encode 会添加一个）
+	translated = bytes.TrimSuffix(translated, []byte("\n"))
 
 	// 确保目标目录存在
 	if err := os.MkdirAll(targetDir, 0755); err != nil {

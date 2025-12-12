@@ -4,7 +4,7 @@
     "startUsing": "今すぐ利用を開始する",
     "viewSubscription": "購読を見る"
   },
-  "autoRedirect": "00001}秒後にダッシュボードに自動リダイレクト...",
+  "autoRedirect": "ダッシュボードへの自動リダイレクトは{seconds}秒...",
   "description": "ご登録ありがとうございます。アカウントは正常にアップグレードされ、すべてのプレミアム機能をご利用いただけるようになりました。",
   "details": {
     "amount": "金額",

@@ -19,9 +19,9 @@
   "sections": {
     "connections": {
       "connected": "연결됨",
-      "githubConnected": "002} 계정을 사용하여 계정에 로그인할 수 있습니다.",
+      "githubConnected": "GitHub 계정을 사용하여 계정에 로그인할 수 있습니다.",
       "githubNotConnected": "이 로그인 방법을 사용하려면 GitHub 계정을 연결하세요.",
-      "googleConnected": "00001} 계정을 사용하여 계정에 로그인할 수 있습니다.",
+      "googleConnected": "Google 계정을 사용하여 계정에 로그인할 수 있습니다.",
       "googleNotConnected": "이 로그인 방법을 사용하려면 Google 계정을 연결하세요.",
       "title": "연결된 계정"
     },

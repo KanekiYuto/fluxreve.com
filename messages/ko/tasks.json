@@ -64,7 +64,7 @@
   },
   "loginPrompt": {
     "cta": "로그인",
-    "description": "로그인하여 모든 AI 이미지 생성 내역을 확인하세요.",
+    "description": "로그인하여 모든 AI 이미지 생성 기록을 확인하세요.",
     "title": "로그인하여 기록 보기"
   },
   "noPrompt": "프롬프트에서",
@@ -73,7 +73,7 @@
     "prev": "이전 게시물"
   },
   "seo": {
-    "description": "모든 AI 이미지 생성 내역 보기 및 관리",
+    "description": "모든 AI 이미지 생성 기록 보기 및 관리",
     "title": "역사"
   },
   "status": {

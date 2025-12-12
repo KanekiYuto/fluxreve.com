@@ -4,7 +4,7 @@
     "startUsing": "지금 사용 시작",
     "viewSubscription": "구독 보기"
   },
-  "autoRedirect": "00001}초 후에 대시보드로 자동 리디렉션...",
+  "autoRedirect": "{seconds}초 후 대시보드로 자동 리디렉션...",
   "description": "구독해 주셔서 감사합니다. 계정이 성공적으로 업그레이드되었으며 이제 모든 프리미엄 기능을 이용할 수 있습니다.",
   "details": {
     "amount": "금액",

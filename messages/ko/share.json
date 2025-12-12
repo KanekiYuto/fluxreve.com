@@ -27,7 +27,7 @@
     "resolution": "해상도"
   },
   "metadata": {
-    "descriptionPrefix": "00002}로 생성된 고품질 이미지 AI 모델로 생성된 고품질 이미지입니다. 프롬프트:",
+    "descriptionPrefix": "{model} AI 모델로 생성된 고품질 이미지입니다. 프롬프트:",
     "ogDescriptionPrefix": "{model} AI 생성됨 |"
   },
   "notFound": {

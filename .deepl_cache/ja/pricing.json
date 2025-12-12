@@ -2,295 +2,295 @@
   "entries": {
     "All advanced AI models": {
       "translation": "すべての高度なAIモデル",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "All standard AI models": {
       "translation": "すべての標準AIモデル",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Auto-renewal": {
       "translation": "自動更新",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Basic AI models": {
       "translation": "基本的なAIモデル",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Batch generation": {
       "translation": "バッチ生成",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Can I cancel my subscription anytime?": {
       "translation": "いつでも解約できますか？",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Can I switch between monthly and yearly billing?": {
       "translation": "月払いと年払いを切り替えることはできますか？",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Can I upgrade or downgrade my plan?": {
       "translation": "プランをアップグレードまたはダウングレードできますか？",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Can generate up to {quota}/5 high-quality images": {
-      "translation": "最大{quota}/5の高画質画像を生成可能",
-      "timestamp": 1765576979
+      "translation": "最大{quota}/5枚の高画質画像を生成可能",
+      "timestamp": 1765580386
     },
     "Can generate up to {quota}/5 images per day": {
-      "translation": "1日に最大{quota}/5枚の画像を生成可能",
-      "timestamp": 1765576979
+      "translation": "1日あたり最大{quota}5枚の画像を生成可能",
+      "timestamp": 1765580386
     },
     "Choose Your Plan": {
       "translation": "プランの選択",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Choose the perfect plan for your needs. Flexible pricing options for individuals and businesses with AI-powered image generation.": {
       "translation": "お客様のニーズに最適なプランをお選びください。AIを活用した画像生成で、個人・法人を問わず柔軟な価格設定が可能です。",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Commercial use license": {
       "translation": "商用利用ライセンス",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Configuring...": {
       "translation": "設定...",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Credits are used to generate images with our AI models. Each image generation consumes a certain number of credits depending on the resolution and model used. Free users get 30 credits daily, while Basic plan subscribers get 1,500 credits monthly (or 18,000 yearly) and Pro plan subscribers get 7,500 credits monthly (or 90,000 yearly).": {
       "translation": "クレジットは、当社のAIモデルで画像を生成するために使用されます。各画像生成には、使用する解像度とモデルに応じて一定数のクレジットを消費します。無料ユーザーは毎日30クレジット、ベーシックプラン契約者は毎月1,500クレジット（または年間18,000クレジット）、プロプラン契約者は毎月7,500クレジット（または年間90,000クレジット）を得ることができます。",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Current Plan": {
       "translation": "現在の計画",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Customer support": {
       "translation": "カスタマーサポート",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Downgrade": {
       "translation": "格下げ",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Each credit quota comes with its own expiration period. The exact duration depends on your subscription plan and when the credits were granted. You can check the expiration date of your credits in your account dashboard. Credits are consumed on a first-in, first-out basis.": {
       "translation": "各クレジット枠にはそれぞれ有効期限があります。正確な有効期限は、お客様のサブスクリプションプランとクレジットの付与時期によって異なります。クレジットの有効期限は、アカウントダッシュボードで確認できます。クレジットは先着順で消費されます。",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Email customer support": {
       "translation": "電子メールによるカスタマーサポート",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "FAQ": {
       "translation": "よくあるご質問",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Find answers to common questions about our pricing plans and services": {
       "translation": "料金プランとサービスに関する一般的な質問に対する回答をご覧ください。",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Flexible pricing options to meet the needs of individuals and businesses": {
       "translation": "個人および企業のニーズに応える柔軟な料金オプション",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "For free users, daily credits reset every day and don't accumulate. For subscribers, credits expire based on their expiration date. Each credit quota has its own expiration period, and unused credits will automatically expire when that period ends.": {
       "translation": "無料ユーザーの場合、デイリークレジットは毎日リセットされ、蓄積されることはありません。購読者の場合、クレジットは有効期限に基づいて失効します。各クレジット枠にはそれぞれ有効期限があり、未使用のクレジットはその期間が終了すると自動的に失効します。",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "For individual users and small projects": {
       "translation": "個人ユーザーや小規模プロジェクト向け",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "For monthly plans, you get 100 credits per dollar spent. For yearly plans, you get 100 credits per dollar × 12 months. For example: Basic monthly ($15) = 1,500 credits, Basic yearly ($144) = 18,000 credits.": {
-      "translation": "月額プランの場合、1ドルにつき100クレジット。年間プランの場合、1ドルにつき100クレジット×12ヶ月。例えば月額ベーシック（15ドル）＝1,500クレジット、年間ベーシック（144ドル）＝18,000クレジット。",
-      "timestamp": 1765576979
+      "translation": "月額プランの場合、1ドルにつき100クレジット。年間プランの場合、1ドルにつき100クレジット×12ヶ月。例えば月額ベーシック（15ドル）= 1,500クレジット、年間ベーシック（144ドル）= 18,000クレジット。",
+      "timestamp": 1765580386
     },
     "For professional creators and team collaboration": {
       "translation": "プロのクリエイターとチームのコラボレーションに",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Free plan users can use generated images for personal projects only. Both Basic and Pro plan subscribers receive a commercial use license, allowing you to use the images for business purposes, marketing materials, and client projects.": {
       "translation": "無料プランのユーザーは、生成された画像を個人的なプロジェクトにのみ使用できます。ベーシックプランとプロプランのご契約者には商用利用ライセンスが付与され、ビジネス目的、マーケティング資料、クライアントプロジェクトに画像をご利用いただけます。",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Get Started": {
       "translation": "スタート",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "High resolution": {
       "translation": "高解像度",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "High resolution (1024x1024)": {
       "translation": "高解像度（1024x1024）",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Highest priority queue": {
       "translation": "最優先キュー",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "How do credits work?": {
       "translation": "クレジットの仕組み",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "How does credit quota calculation work?": {
       "translation": "クレジット枠の計算方法は？",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "How long do credits last after purchase?": {
       "translation": "クレジットの有効期限は？",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Monthly": {
       "translation": "毎月",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Most Popular": {
       "translation": "一番人気",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Perfect for personal trial and light usage": {
       "translation": "個人的な試用や軽い使用に最適",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Pricing Plans": {
       "translation": "料金プラン",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Priority customer support": {
       "translation": "優先カスタマー・サポート",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Priority generation queue": {
       "translation": "優先順位生成キュー",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Priority queue": {
       "translation": "優先キュー",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Priority support": {
       "translation": "優先サポート",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Pro plan offers 5x more credits than Basic, plus access to all advanced AI models, ultra-high resolution (2048x2048), batch generation features, and priority customer support. Basic plan is great for individuals, while Pro is designed for professional creators and teams.": {
       "translation": "プロプランでは、ベーシックの5倍のクレジットに加え、すべての高度なAIモデル、超高解像度（2048x2048）、バッチ生成機能、優先カスタマーサポートをご利用いただけます。ベーシックプランは個人の方に最適で、プロプランはプロのクリエイターやチームのために設計されています。",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Processing...": {
       "translation": "処理...",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Save ${amount}": {
-      "translation": "00004}ドル節約",
-      "timestamp": 1765576979
+      "translation": "セーブ ${amount}",
+      "timestamp": 1765580386
     },
     "Save 20%": {
-      "translation": "20％割引",
-      "timestamp": 1765576979
+      "translation": "20%割引",
+      "timestamp": 1765580386
     },
     "Scheduled": {
       "translation": "予定",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Standard AI models": {
       "translation": "AI標準モデル",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Standard resolution (512x512)": {
       "translation": "標準解像度（512x512）",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Subscribe Now": {
       "translation": "今すぐ申し込む",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Try Now": {
       "translation": "今すぐ試す",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Ultra-high resolution": {
       "translation": "超高解像度",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Ultra-high resolution (2048x2048)": {
       "translation": "超高解像度 (2048x2048)",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Upgrade": {
       "translation": "アップグレード",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Watermark-free export": {
       "translation": "透かしなしのエクスポート",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "We integrate with Creem payment platform which supports various payment methods. All transactions are processed securely through their payment gateway.": {
-      "translation": "弊社は様々な支払い方法をサポートするCreem支払いプラットフォームと統合しています。すべての取引は、同社の決済ゲートウェイを通じて安全に処理されます。",
-      "timestamp": 1765576979
+      "translation": "私たちは、様々な支払い方法をサポートするCreem支払いプラットフォームと統合しています。すべての取引は、同社の決済ゲートウェイを通じて安全に処理されます。",
+      "timestamp": 1765580386
     },
     "What happens to unused credits?": {
       "translation": "未使用のクレジットはどうなりますか？",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "What happens when I upgrade mid-cycle?": {
-      "translation": "サイクルの途中でアップグレードするとどうなりますか？",
-      "timestamp": 1765576979
+      "translation": "サイクルの途中でアップグレードした場合はどうなりますか？",
+      "timestamp": 1765580386
     },
     "What payment methods do you accept?": {
       "translation": "どのような支払い方法がありますか？",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "What's the difference between Basic and Pro plans?": {
       "translation": "ベーシックプランとプロプランの違いは何ですか？",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "What's the difference between monthly and yearly plans?": {
       "translation": "月額プランと年間プランの違いは何ですか？",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "When you upgrade, you'll be charged a prorated amount for the remainder of your current billing period. You'll immediately receive the full credit quota of your new plan, and any existing credits remain available until their expiration date.": {
       "translation": "アップグレードすると、現在の請求期間の残りが日割り計算で請求されます。また、既存のクレジットは有効期限までご利用いただけます。",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Yearly": {
       "translation": "年間",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Yearly plans offer a 20% discount compared to monthly plans. For example, Basic monthly is $15/month (1,500 credits), while Basic yearly is $144/year (18,000 credits total). You save money and get more value with yearly subscriptions.": {
       "translation": "年間プランは、月間プランに比べて20％の割引があります。例えば、月額ベーシックは$15/月（1,500クレジット）、年間ベーシックは$144/年（合計18,000クレジット）です。年間プランの方がお得です。",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Yes! Switching from monthly to yearly within the same plan tier (e.g., Basic monthly to Basic yearly) is considered a change, not an upgrade. The new billing cycle will take effect according to the plan change policy.": {
       "translation": "はい！同じプラン・ティア（例：ベーシック・マンスリーからベーシック・イヤー）の中でマンスリーからイヤーに変更することは、アップグレードではなく、変更とみなされます。新しい請求サイクルは、プラン変更ポリシーに従って有効になります。",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Yes! You can upgrade your plan at any time, and the price difference will be prorated. When upgrading, you'll receive the full credit quota of the new plan immediately. Downgrades take effect at the start of your next billing cycle.": {
       "translation": "はい！いつでもプランのアップグレードが可能です。アップグレードの際には、新しいプランのクレジット枠をすぐに全額受け取ることができます。ダウングレードは、次の請求サイクルの開始時に有効になります。",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "Yes, you can cancel your subscription at any time. Your plan will remain active until the end of your current billing period, and you can continue using your remaining credits until they expire.": {
       "translation": "はい、サブスクリプションはいつでもキャンセルできます。プランの有効期限は現在の請求期間が終了するまでとなり、残りのクレジットは有効期限が切れるまでご利用いただけます。",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "month": {
       "translation": "月",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "year": {
       "translation": "年",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     },
     "{quota} credits quota": {
-      "translation": "{quota}クレジット・クォータ",
-      "timestamp": 1765576979
+      "translation": "{quota} クレジット・クォータ",
+      "timestamp": 1765580386
     },
     "{quota} credits quota per day": {
-      "translation": "{quota}1日あたりのクレジット割り当て",
-      "timestamp": 1765576979
+      "translation": "{quota}1日あたりのクレジット割当数",
+      "timestamp": 1765580386
     },
     "{quota} quota credits": {
       "translation": "{quota} クォータ・クレジット",
-      "timestamp": 1765576979
+      "timestamp": 1765580386
     }
   }
 }

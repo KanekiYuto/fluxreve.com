@@ -12,7 +12,7 @@
     "imagePreview": "이미지 미리보기",
     "isNsfw": "NSFW 콘텐츠",
     "isPrivate": "개인 패션",
-    "metaDescription": "를 사용하여 생성된 AI 이미지 {model}",
+    "metaDescription": "{model}을 사용하여 생성된 AI 이미지",
     "nextImage": "다음 이미지",
     "no": "아니요",
     "parametersInfo": "매개변수 정보",

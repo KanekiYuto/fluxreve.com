@@ -27,8 +27,8 @@
     "resolution": "決議"
   },
   "metadata": {
-    "descriptionPrefix": "00001}AIモデルで生成された高画質画像。プロンプト",
-    "ogDescriptionPrefix": "{model}AIが生成した｜AIが生成した｜AIが生成した｜AIが生成した｜AIが生成した"
+    "descriptionPrefix": "AIモデル{model}で生成された高画質画像。プロンプト",
+    "ogDescriptionPrefix": "{model} AIが生成した｜AIが生成した｜AIが生成した｜AIが生成した｜AIが生成した｜AIが生成した"
   },
   "notFound": {
     "createButton": "AIアートワークの作成",

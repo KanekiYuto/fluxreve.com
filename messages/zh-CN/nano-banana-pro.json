@@ -78,7 +78,7 @@
       },
       "speed": {
         "label": "4K 图像生成",
-        "value": "\u003c10s"
+        "value": "<10s"
       },
       "users": {
         "label": "角色一致性",

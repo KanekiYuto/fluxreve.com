@@ -3,7 +3,7 @@
     "closeLabel": "閉じる",
     "description": "最新情報、限定特典、無料ボーナスをゲットしよう",
     "joinButton": "今すぐ参加する",
-    "title": "00006}コミュニティに参加しようコミュニティ"
+    "title": "コミュニティへの参加"
   },
   "language": "言語",
   "loading": "読み込み中...",
@@ -32,7 +32,7 @@
     "privacy": "プライバシーポリシー",
     "quota": "ノルマ",
     "seedreamV45": "Seedream 4.5",
-    "seedreamV45Desc": "ByteDance2K HD画像生成",
+    "seedreamV45Desc": "ByteDance 2K HD 画像生成",
     "settings": "設定",
     "subscription": "サブスクリプション",
     "tasks": "歴史",

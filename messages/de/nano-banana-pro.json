@@ -78,7 +78,7 @@
       },
       "speed": {
         "label": "4K Bilderzeugung",
-        "value": "\u003c10s"
+        "value": "<10s"
       },
       "users": {
         "label": "Konsistenz des Charakters",

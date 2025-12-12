@@ -2,123 +2,123 @@
   "entries": {
     "AI Generated HD Image Preview": {
       "translation": "AI 생성 HD 이미지 미리보기",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "AI Generated Image": {
       "translation": "AI 생성 이미지",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "AI Image Generation Results": {
       "translation": "AI 이미지 생성 결과",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "AI Model": {
       "translation": "AI 모델",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "AI is creating the current artwork, this usually takes a few minutes": {
       "translation": "AI가 현재 아트웍을 만들고 있으며, 보통 몇 분 정도 걸립니다.",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Content Not Found": {
       "translation": "콘텐츠를 찾을 수 없음",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Copied": {
       "translation": "복사됨",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Copy Prompt": {
       "translation": "복사 프롬프트",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Copy Share Link": {
       "translation": "복사 공유 링크",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Create AI Artwork": {
       "translation": "AI 아트웍 만들기",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Create Similar Image": {
       "translation": "유사한 이미지 만들기",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Download All Images": {
       "translation": "모든 이미지 다운로드",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Download Current Image": {
       "translation": "현재 이미지 다운로드",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Download Share Card": {
       "translation": "공유 카드 다운로드",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Generating...": {
       "translation": "생성...",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Generation Parameters and Model Info": {
       "translation": "생성 매개변수 및 모델 정보",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "High-quality image generated with {model} AI model. Prompt: ": {
-      "translation": "00002}로 생성된 고품질 이미지 AI 모델로 생성된 고품질 이미지입니다. 프롬프트:",
-      "timestamp": 1765576934
+      "translation": "{model} AI 모델로 생성된 고품질 이미지입니다. 프롬프트:",
+      "timestamp": 1765580356
     },
     "I am 18+, View Content": {
       "translation": "18세 이상, 콘텐츠 보기",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Image": {
       "translation": "이미지",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Input Image": {
       "translation": "입력 이미지",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Input Images": {
       "translation": "이미지 입력",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "More Actions": {
       "translation": "더 많은 작업",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Next Image": {
       "translation": "다음 이미지",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Please refresh the page later to view the result": {
       "translation": "결과를 보려면 나중에 페이지를 새로고침하세요.",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Previous Image": {
       "translation": "이전 이미지",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Share": {
       "translation": "공유",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "Share to X": {
       "translation": "X로 공유",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "This content may contain adult or sensitive material. Viewer discretion is advised": {
       "translation": "이 콘텐츠에는 성인용 또는 민감한 자료가 포함되어 있을 수 있습니다. 시청자의 재량을 권장합니다.",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "This shared content may have been deleted by the creator, set to private, the link may have expired, or you may have accessed the wrong address": {
       "translation": "이 공유 콘텐츠는 작성자가 삭제했거나 비공개로 설정했거나 링크가 만료되었거나 잘못된 주소에 액세스했을 수 있습니다.",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     },
     "{model} AI Generated | ": {
       "translation": "{model} AI 생성됨 |",
-      "timestamp": 1765576934
+      "timestamp": 1765580356
     }
   }
 }

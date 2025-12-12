@@ -2,123 +2,123 @@
   "entries": {
     "AI Generated HD Image Preview": {
       "translation": "AI生成HD画像プレビュー",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "AI Generated Image": {
       "translation": "AIが生成した画像",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "AI Image Generation Results": {
       "translation": "AI画像生成結果",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "AI Model": {
       "translation": "AIモデル",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "AI is creating the current artwork, this usually takes a few minutes": {
       "translation": "AIが現在のアートワークを作成している。",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Content Not Found": {
       "translation": "コンテンツが見つかりません",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Copied": {
       "translation": "コピー",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Copy Prompt": {
       "translation": "コピー・プロンプト",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Copy Share Link": {
       "translation": "共有リンクをコピーする",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Create AI Artwork": {
       "translation": "AIアートワークの作成",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Create Similar Image": {
       "translation": "類似画像の作成",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Download All Images": {
       "translation": "すべての画像をダウンロード",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Download Current Image": {
       "translation": "現在の画像をダウンロード",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Download Share Card": {
       "translation": "シェアカードのダウンロード",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Generating...": {
       "translation": "生成...",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Generation Parameters and Model Info": {
       "translation": "発電パラメータとモデル情報",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "High-quality image generated with {model} AI model. Prompt: ": {
-      "translation": "00001}AIモデルで生成された高画質画像。プロンプト",
-      "timestamp": 1765576982
+      "translation": "AIモデル{model}で生成された高画質画像。プロンプト",
+      "timestamp": 1765580389
     },
     "I am 18+, View Content": {
       "translation": "私は18歳以上です。",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Image": {
       "translation": "画像",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Input Image": {
       "translation": "入力画像",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Input Images": {
       "translation": "入力画像",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "More Actions": {
       "translation": "その他のアクション",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Next Image": {
       "translation": "次の画像",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Please refresh the page later to view the result": {
       "translation": "結果を表示するには、後でページを更新してください。",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Previous Image": {
       "translation": "前の画像",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Share": {
       "translation": "シェア",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "Share to X": {
       "translation": "Xにシェアする",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "This content may contain adult or sensitive material. Viewer discretion is advised": {
       "translation": "このコンテンツには、アダルトまたはデリケートな内容が含まれている可能性があります。閲覧には十分ご注意ください。",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "This shared content may have been deleted by the creator, set to private, the link may have expired, or you may have accessed the wrong address": {
       "translation": "この共有コンテンツは、作成者によって削除されたか、非公開に設定されているか、リンクの有効期限が切れているか、間違ったアドレスにアクセスした可能性があります。",
-      "timestamp": 1765576982
+      "timestamp": 1765580389
     },
     "{model} AI Generated | ": {
-      "translation": "{model}AIが生成した｜AIが生成した｜AIが生成した｜AIが生成した｜AIが生成した",
-      "timestamp": 1765576982
+      "translation": "{model} AIが生成した｜AIが生成した｜AIが生成した｜AIが生成した｜AIが生成した｜AIが生成した",
+      "timestamp": 1765580389
     }
   }
 }
