@@ -172,6 +172,14 @@
         "lora": "LoRA Støtte",
         "stylized": "Stiliseret"
       }
+    },
+    "imageUpscaler": {
+      "description": "Forstør og forbedre billeder med AI-drevet teknologi, forbedre opløsning og kvalitet samtidig med at detaljer bevares",
+      "tags": {
+        "enhancement": "Forbedring",
+        "quality": "Kvalitetsforbedring",
+        "efficient": "Effektiv"
+      }
     }
   },
   "page": {

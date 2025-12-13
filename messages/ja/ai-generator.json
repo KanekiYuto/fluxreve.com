@@ -172,6 +172,14 @@
         "lora": "LoRAサポート",
         "stylized": "スタイライズド"
       }
+    },
+    "imageUpscaler": {
+      "description": "AI技���を使用して画像をアップスケールおよび強化し、解像度と品質を向上させながら詳細を保持します",
+      "tags": {
+        "enhancement": "エンハンスメント",
+        "quality": "品質改善",
+        "efficient": "効率的"
+      }
     }
   },
   "page": {

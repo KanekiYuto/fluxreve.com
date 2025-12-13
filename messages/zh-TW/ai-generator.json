@@ -172,6 +172,14 @@
         "lora": "LoRA 支持",
         "stylized": "风格化的"
       }
+    },
+    "imageUpscaler": {
+      "description": "使用人工智能技術放大和增強圖像，提高分辨率和質量，同時保留細節",
+      "tags": {
+        "enhancement": "增強",
+        "quality": "質量提升",
+        "efficient": "高效"
+      }
     }
   },
   "page": {

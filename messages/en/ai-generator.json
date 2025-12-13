@@ -168,6 +168,14 @@
         "ultraHD": "Ultra HD",
         "creative": "Creative"
       }
+    },
+    "imageUpscaler": {
+      "description": "Upscale and enhance images with AI-powered technology, improving resolution and quality while preserving details",
+      "tags": {
+        "enhancement": "Enhancement",
+        "quality": "Quality Improvement",
+        "efficient": "Efficient"
+      }
     }
   },
   "lora": {

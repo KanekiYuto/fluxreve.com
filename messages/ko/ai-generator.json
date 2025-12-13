@@ -172,6 +172,14 @@
         "lora": "LoRA 지원",
         "stylized": "양식화"
       }
+    },
+    "imageUpscaler": {
+      "description": "AI 기술을 사용하여 이미지를 확대 및 개선하고 해상도와 품질을 개선하면서 세부 사항을 보존합니다",
+      "tags": {
+        "enhancement": "강화",
+        "quality": "품질 개선",
+        "efficient": "효율적"
+      }
     }
   },
   "page": {

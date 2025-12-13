@@ -172,6 +172,14 @@
         "lora": "LoRA Soutien",
         "stylized": "Stylisé"
       }
+    },
+    "imageUpscaler": {
+      "description": "Augmentez et améliorez les images avec la technologie alimentée par l'IA, améliorant la résolution et la qualité tout en préservant les détails",
+      "tags": {
+        "enhancement": "Amélioration",
+        "quality": "Amélioration de la qualité",
+        "efficient": "Efficace"
+      }
     }
   },
   "page": {

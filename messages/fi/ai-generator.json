@@ -172,6 +172,14 @@
         "lora": "LoRA Tuki",
         "stylized": "Tyylitelty"
       }
+    },
+    "imageUpscaler": {
+      "description": "Suurenna ja paranna kuvia tekoälyyn perustuvalla tekniikalla, parannetaan resoluutio ja laatu säilyttäen yksityiskohdat",
+      "tags": {
+        "enhancement": "Parannus",
+        "quality": "Laadun parantaminen",
+        "efficient": "Tehokas"
+      }
     }
   },
   "page": {

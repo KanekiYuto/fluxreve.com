@@ -172,6 +172,14 @@
         "lora": "LoRA Unterstützung",
         "stylized": "Stilisierte"
       }
+    },
+    "imageUpscaler": {
+      "description": "Bilder mit KI-gestützter Technologie hochskalieren und verbessern, Auflösung und Qualität verbessern und gleichzeitig Details bewahren",
+      "tags": {
+        "enhancement": "Verbesserung",
+        "quality": "Qualitätsverbesserung",
+        "efficient": "Effizient"
+      }
     }
   },
   "page": {
