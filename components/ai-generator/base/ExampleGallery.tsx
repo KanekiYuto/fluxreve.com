@@ -16,12 +16,14 @@ interface ExamplePreviewProps {
   examples: ExampleItem[];
   onSelectExample?: (example: ExampleItem) => void;
   autoPlayInterval?: number; // 自动播放间隔（毫秒），0 表示不自动播放
+  enableSelectExample?: boolean; // 是否启用"使用示例"功能，默认为 true
 }
 
 export default function ExamplePreview({
   examples,
   onSelectExample,
   autoPlayInterval = 5000,
+  enableSelectExample = true,
 }: ExamplePreviewProps) {
   const t = useTranslations('ai-generator.examples');
   const tTags = useTranslations('ai-generator.tags');
@@ -75,19 +77,19 @@ export default function ExamplePreview({
 
       {/* 轮播主体 */}
       <div className="flex-1 flex flex-col">
-        {/* 图片容器 - 固定宽高比 */}
-        <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden">
+        {/* 图片容器 - 自适应高度 */}
+        <div className="relative w-full rounded-lg overflow-hidden bg-white">
           {/* 图片 */}
           <div
-            className="group relative w-full h-full cursor-pointer"
+            className="group relative w-full cursor-pointer flex items-center justify-center"
             onClick={() => onSelectExample?.(currentExample)}
           >
-            <div className="relative w-full h-full bg-bg-elevated">
+            <div className="relative w-full flex items-center justify-center">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={currentExample.thumbnail}
                 alt={currentExample.prompt}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
               />
 
               {/* 渐变遮罩 */}
@@ -113,24 +115,26 @@ export default function ExamplePreview({
               </div>
 
               {/* 悬浮提示 */}
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <div className="text-center">
-                  <svg
-                    className="w-12 h-12 text-white mx-auto mb-3"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-                    />
-                  </svg>
-                  <p className="text-white text-base font-medium">{t('clickToUse')}</p>
+              {enableSelectExample && (
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <div className="text-center">
+                    <svg
+                      className="w-12 h-12 text-white mx-auto mb-3"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
+                      />
+                    </svg>
+                    <p className="text-white text-base font-medium">{t('clickToUse')}</p>
+                  </div>
                 </div>
-              </div>
+              )}
             </div>
           </div>
 
@@ -187,21 +191,23 @@ export default function ExamplePreview({
         )}
 
         {/* 使用按钮 */}
-        <Button
-          type="button"
-          onClick={() => onSelectExample?.(currentExample)}
-          className="mt-4 w-full cursor-pointer"
-        >
-          <svg className="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-            />
-          </svg>
-          {t('useExample')}
-        </Button>
+        {enableSelectExample && (
+          <Button
+            type="button"
+            onClick={() => onSelectExample?.(currentExample)}
+            className="mt-4 w-full cursor-pointer"
+          >
+            <svg className="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
+              />
+            </svg>
+            {t('useExample')}
+          </Button>
+        )}
       </div>
     </div>
   );

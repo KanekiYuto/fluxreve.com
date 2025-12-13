@@ -19,7 +19,6 @@ interface ImageUpscalerGeneratorProps {
 // ==================== 常量配置 ====================
 
 const RESOLUTION_OPTIONS = [
-  { value: 'auto', label: 'Auto' },
   { value: '1k', label: '1K' },
   { value: '2k', label: '2K' },
   { value: '4k', label: '4K' },
@@ -34,8 +33,8 @@ const OUTPUT_FORMAT_OPTIONS = [
 const EXAMPLES: ExampleItem[] = [
   {
     id: '1',
-    thumbnail: '/material/models/image-upscaler/example-1.jpg',
-    prompt: 'Low resolution photo upscaled to 4K',
+    thumbnail: '/material/models/image-upscaler/723518b0-61c5-44d3-8284-fa281ce550d9.webp',
+    prompt: '',
     tags: ['photorealistic', 'professional'],
   },
 ];
@@ -62,7 +61,7 @@ export default function ImageUpscalerGenerator({
       : []
   );
   const [targetResolution, setTargetResolution] = useState(
-    defaultParameters?.targetResolution || '4k'
+    defaultParameters?.targetResolution || '1k'
   );
   const [outputFormat, setOutputFormat] = useState(defaultParameters?.outputFormat || 'jpeg');
   const [isPrivate, setIsPrivate] = useState(false);
@@ -187,7 +186,8 @@ export default function ImageUpscalerGenerator({
       formContent={formContent}
       onGenerate={handleGenerate}
       examples={EXAMPLES}
-      onSelectExample={() => { }}
+      onSelectExample={() => {}}
+      enableSelectExample={false}
       generator={generator}
     />
   );

@@ -7,6 +7,8 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { FolderOpen, Trash2, Plus, Loader2, ZoomIn } from 'lucide-react';
 import useImagePreviewStore from '@/store/useImagePreviewStore';
+import useUserStore from '@/store/useUserStore';
+import useModalStore from '@/store/useModalStore';
 
 // ==================== 类型定义 ====================
 
@@ -55,6 +57,17 @@ export default function ImageUpload({
   const t = useTranslations('ai-generator.form');
   const valueRef = useRef<ImageItem[]>(value);
   const openImagePreview = useImagePreviewStore((state) => state.open);
+  const user = useUserStore((state) => state.user);
+  const openLoginModal = useModalStore((state) => state.openLoginModal);
+
+  // 检查用户是否已登录
+  const checkUserLoggedIn = useCallback(() => {
+    if (!user) {
+      openLoginModal();
+      return false;
+    }
+    return true;
+  }, [user, openLoginModal]);
 
   // 获取所有有效图片的 URL
   const getValidImageUrls = useCallback(() => {
@@ -109,6 +122,9 @@ export default function ImageUpload({
   // 文件上传（针对特定图片项）
   const handleFileChange = useCallback(
     async (id: string, e: React.ChangeEvent<HTMLInputElement>) => {
+      // 检查用户是否已登录
+      if (!checkUserLoggedIn()) return;
+
       const file = e.target.files?.[0];
       if (!file) return;
 
@@ -162,14 +178,17 @@ export default function ImageUpload({
       }
 
     },
-    [value, onChange]
+    [value, onChange, checkUserLoggedIn]
   );
 
   // 打开文件选择（针对特定图片项）
   const handleSelectFiles = useCallback((id: string) => {
+    // 检查用户是否已登录
+    if (!checkUserLoggedIn()) return;
+
     const input = document.getElementById(`file-input-${id}`) as HTMLInputElement;
     input?.click();
-  }, []);
+  }, [checkUserLoggedIn]);
 
   // 处理拖拽进入
   const handleDragOver = useCallback((e: React.DragEvent) => {
@@ -182,6 +201,9 @@ export default function ImageUpload({
     async (id: string, e: React.DragEvent) => {
       e.preventDefault();
       e.stopPropagation();
+
+      // 检查用户是否已登录
+      if (!checkUserLoggedIn()) return;
 
       const files = e.dataTransfer.files;
       if (!files || files.length === 0) return;
@@ -241,7 +263,7 @@ export default function ImageUpload({
         alert('Upload failed, please try again');
       }
     },
-    [value, onChange]
+    [value, onChange, checkUserLoggedIn]
   );
 
   return (

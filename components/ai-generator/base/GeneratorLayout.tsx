@@ -41,6 +41,7 @@ interface GeneratorLayoutProps {
   // 示例配置
   examples?: ExampleItem[];
   onSelectExample?: (example: ExampleItem) => void;
+  enableSelectExample?: boolean; // 是否启用"使用示例"功能，默认为 true
 }
 
 export default function GeneratorLayout({
@@ -61,6 +62,7 @@ export default function GeneratorLayout({
   taskInfo,
   examples,
   onSelectExample,
+  enableSelectExample = true,
 }: GeneratorLayoutProps) {
   const tGenerate = useTranslations('ai-generator.generate');
   const tAuth = useTranslations('auth');
@@ -108,6 +110,7 @@ export default function GeneratorLayout({
           examples={examples}
           onSelectExample={onSelectExample}
           autoPlayInterval={0}
+          enableSelectExample={enableSelectExample}
         />
       );
     }

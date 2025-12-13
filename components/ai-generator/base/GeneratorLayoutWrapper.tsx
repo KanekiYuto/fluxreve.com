@@ -7,8 +7,9 @@ interface GeneratorLayoutWrapperProps {
   modelSelector: React.ReactNode;
   formContent: React.ReactNode;
   onGenerate: () => void;
-  examples: ExampleItem[];
-  onSelectExample: (example: ExampleItem) => void;
+  examples?: ExampleItem[];
+  onSelectExample?: (example: ExampleItem) => void;
+  enableSelectExample?: boolean; // 是否启用"使用示例"功能，默认为 true
   generator: {
     requiredCredits: number;
     isLoading: boolean;
@@ -28,6 +29,7 @@ export default function GeneratorLayoutWrapper({
   onGenerate,
   examples,
   onSelectExample,
+  enableSelectExample = true,
   generator,
 }: GeneratorLayoutWrapperProps) {
   return (
@@ -57,6 +59,7 @@ export default function GeneratorLayoutWrapper({
       taskInfo={generator.taskInfo}
       examples={examples}
       onSelectExample={onSelectExample}
+      enableSelectExample={enableSelectExample}
     />
   );
 }
