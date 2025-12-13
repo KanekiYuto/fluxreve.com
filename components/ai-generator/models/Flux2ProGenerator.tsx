@@ -73,11 +73,11 @@ export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-t
   });
 
   // 从持久化状态中解包各个字段
-  const prompt = state.prompt;
-  const inputImages = state.inputImages;
-  const size = state.size;
-  const seed = state.seed;
-  const isPrivate = state.isPrivate;
+  const prompt = state.prompt || '';
+  const inputImages = state.inputImages || [];
+  const size = state.size || '1024*1024';
+  const seed = state.seed || '';
+  const isPrivate = state.isPrivate || false;
 
   // 使用 WebHook 生成器 Hook
   const generator = useWebHookGenerator({

@@ -87,13 +87,13 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
   });
 
   // 从持久化状态中解包各个字段
-  const prompt = state.prompt;
-  const inputImages = state.inputImages;
-  const aspectRatio = state.aspectRatio;
-  const seed = state.seed;
-  const resolution = state.resolution;
-  const outputFormat = state.outputFormat;
-  const isPrivate = state.isPrivate;
+  const prompt = state.prompt || '';
+  const inputImages = state.inputImages || [];
+  const aspectRatio = state.aspectRatio || '1:1';
+  const seed = state.seed || '';
+  const resolution = state.resolution || '1k';
+  const outputFormat = state.outputFormat || 'png';
+  const isPrivate = state.isPrivate || false;
 
   // 使用 WebHook 生成器 Hook
   const generator = useWebHookGenerator({

@@ -60,11 +60,11 @@ export default function ZImageLoraGenerator({ modelSelector, defaultParameters, 
   });
 
   // 从持久化状态中解包各个字段
-  const prompt = state.prompt;
-  const size = state.size;
-  const seed = state.seed;
-  const loras = state.loras;
-  const isPrivate = state.isPrivate;
+  const prompt = state.prompt || '';
+  const size = state.size || '1024*1536';
+  const seed = state.seed || '';
+  const loras = state.loras || [];
+  const isPrivate = state.isPrivate || false;
 
   // 使用 WebHook 生成器 Hook
   const generator = useWebHookGenerator({
@@ -131,7 +131,7 @@ export default function ZImageLoraGenerator({ modelSelector, defaultParameters, 
   // 生成图像
   const handleGenerate = useCallback(() => {
     // 转换 LoRA 配置格式，只传递 ID 和 scale，其他信息由后端查询
-    const lorasForApi = loras.map(lora => ({
+    const lorasForApi = loras.map((lora: LoraConfig) => ({
       id: lora.id,
       scale: lora.scale,
     }));

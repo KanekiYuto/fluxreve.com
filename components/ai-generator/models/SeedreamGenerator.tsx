@@ -72,7 +72,10 @@ export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-t
   });
 
   // 从 state 中提取表单字段
-  const { prompt, inputImages, size, isPrivate } = state;
+  const prompt = state.prompt || '';
+  const inputImages = state.inputImages || [];
+  const size = state.size || '2048*2048';
+  const isPrivate = state.isPrivate || false;
 
   // 使用 WebHook 生成器 Hook
   const generator = useWebHookGenerator({
