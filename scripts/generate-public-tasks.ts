@@ -43,7 +43,7 @@ async function generatePublicTasks() {
           isNull(mediaGenerationTask.deletedAt)
         )
       )
-      .limit(1000); // 限制数量,避免 sitemap 过大
+      .limit(100); // 限制数量,避免 sitemap 过大
 
     const publicTasks = tasks.map(task => `/t/${task.shareId}`);
 

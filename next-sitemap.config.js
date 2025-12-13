@@ -88,22 +88,29 @@ module.exports = {
 
     // 获取公开分享页面
     const publicSharePages = getPublicSharePages();
-    
-    // 合并所有路由
-    const allRoutes = [...staticRoutes, ...publicSharePages];
 
+    // 公开分享页面只需要默认语言版本，不需要多语言
+    publicSharePages.forEach((route) => {
+      paths.push({
+        loc: route,
+        changefreq: 'monthly',
+        priority: 0.6,
+        lastmod: new Date().toISOString(),
+      });
+    });
+
+    // 静态页面生成所有语言版本
     locales.forEach((locale) => {
-      allRoutes.forEach((route) => {
+      staticRoutes.forEach((route) => {
         const isHome = route === '';
-        const isSharePage = route.startsWith('/t/');
         const path = locale === defaultLocale
           ? route || '/'
           : `/${locale}${route}`;
 
         paths.push({
           loc: path,
-          changefreq: isHome ? 'daily' : isSharePage ? 'monthly' : 'weekly',
-          priority: isHome ? 1.0 : isSharePage ? 0.6 : 0.8,
+          changefreq: isHome ? 'daily' : 'weekly',
+          priority: isHome ? 1.0 : 0.8,
           lastmod: new Date().toISOString(),
         });
       });
