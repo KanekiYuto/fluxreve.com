@@ -13,7 +13,6 @@ import { useDirectGenerator } from '@/hooks/useDirectGenerator';
 
 interface ImageUpscalerGeneratorProps {
   modelSelector: React.ReactNode;
-  defaultParameters?: any;
 }
 
 // ==================== 常量配置 ====================
@@ -43,27 +42,17 @@ const EXAMPLES: ExampleItem[] = [
 
 export default function ImageUpscalerGenerator({
   modelSelector,
-  defaultParameters,
 }: ImageUpscalerGeneratorProps) {
+
   const tForm = useTranslations('ai-generator.form');
   const tError = useTranslations('ai-generator.error');
 
   // ==================== 状态管理 ====================
 
   // 表单状态
-  const [inputImages, setInputImages] = useState<ImageItem[]>(
-    defaultParameters?.images
-      ? defaultParameters.images.map((url: string, index: number) => ({
-        id: `image-${index}`,
-        url,
-        file: null,
-      }))
-      : []
-  );
-  const [targetResolution, setTargetResolution] = useState(
-    defaultParameters?.targetResolution || '1k'
-  );
-  const [outputFormat, setOutputFormat] = useState(defaultParameters?.outputFormat || 'jpeg');
+  const [inputImages, setInputImages] = useState<ImageItem[]>([]);
+  const [targetResolution, setTargetResolution] = useState('1k');
+  const [outputFormat, setOutputFormat] = useState('jpeg');
   const [isPrivate, setIsPrivate] = useState(false);
 
   // 使用 Direct 生成器 Hook
@@ -89,24 +78,6 @@ export default function ImageUpscalerGenerator({
       output_format: outputFormat,
     },
   });
-
-  // 当 defaultParameters 变化时更新表单状态
-  useEffect(() => {
-    if (defaultParameters) {
-      if (defaultParameters.targetResolution) setTargetResolution(defaultParameters.targetResolution);
-      if (defaultParameters.outputFormat) setOutputFormat(defaultParameters.outputFormat);
-
-      // 处理输入图片
-      if (defaultParameters.images && Array.isArray(defaultParameters.images)) {
-        const images = defaultParameters.images.map((url: string, index: number) => ({
-          id: `image-${index}`,
-          url,
-          file: null,
-        }));
-        setInputImages(images);
-      }
-    }
-  }, [defaultParameters]);
 
 
   // ==================== 事件处理函数 ====================

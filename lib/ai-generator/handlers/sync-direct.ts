@@ -7,7 +7,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { auth } from '@/lib/auth';
 import { getAvailableQuota, consumeQuota } from '@/lib/quota';
-import { getRequiredCredits } from '@/config/ai-generator';
+import { getRequiredCredits, TaskType } from '@/config/ai-generator';
 import { standardizeAndRespond } from '../response-standardizer';
 
 // ==================== 类型定义 ====================
@@ -22,7 +22,7 @@ export interface SyncDirectConfig {
   /** API 端点路径 */
   endpoint: string;
   /** 任务类型 */
-  taskType: string;
+  taskType: TaskType;
   /** 模型名称 */
   model: string;
   /** 参数处理回调函数 */

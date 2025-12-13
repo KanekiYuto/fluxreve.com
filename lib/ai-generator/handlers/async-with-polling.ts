@@ -6,6 +6,7 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 import { handleWavespeedRequest } from '../handleWavespeedRequest';
+import { TaskType } from '@/config/ai-generator';
 
 // ==================== 类型定义 ====================
 
@@ -13,7 +14,7 @@ export interface AsyncWithPollingConfig {
   /** API 端点路径 (例如: 'wavespeed-ai/flux-2-pro/text-to-image') */
   endpoint: string;
   /** 任务类型 */
-  taskType: string;
+  taskType: TaskType;
   /** 模型名称 */
   model: string;
   /** 参数处理回调函数 */

@@ -51,7 +51,6 @@ export default function MoreGenerator({
         return (
           <ImageUpscalerGenerator
             modelSelector={modelSelector}
-            defaultParameters={defaultParameters}
           />
         );
       default:
