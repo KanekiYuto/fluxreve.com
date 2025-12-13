@@ -10,12 +10,14 @@ import SeedInput from '../form/SeedInput';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { useWebHookGenerator } from '@/hooks/useWebHookGenerator';
+import { usePersistentFormState } from '@/hooks/useGeneratorFormPersistence';
 
 // ==================== 类型定义 ====================
 
 interface ZImageGeneratorProps {
   modelSelector: React.ReactNode;
   defaultParameters?: any;
+  onFormStateChange?: (state: any) => void;
 }
 
 // ==================== 常量配置 ====================
@@ -39,25 +41,25 @@ const EXAMPLES: ExampleItem[] = [
 
 // ==================== 主组件 ====================
 
-export default function ZImageGenerator({ modelSelector, defaultParameters }: ZImageGeneratorProps) {
+export default function ZImageGenerator({ modelSelector, defaultParameters, onFormStateChange }: ZImageGeneratorProps) {
   const tForm = useTranslations('ai-generator.form');
   const tError = useTranslations('ai-generator.error');
 
   // ==================== 状态管理 ====================
 
-  const [prompt, setPrompt] = useState(defaultParameters?.prompt || '');
-  const [size, setSize] = useState(defaultParameters?.size || '1024*1024');
-  const [seed, setSeed] = useState(defaultParameters?.seed || '');
-  const [isPrivate, setIsPrivate] = useState(false);
+  // 使用持久化表单状态 Hook
+  const { state, updateState } = usePersistentFormState('z-image', {
+    prompt: defaultParameters?.prompt || '',
+    size: defaultParameters?.size || '1024*1024',
+    seed: defaultParameters?.seed || '',
+    isPrivate: false,
+  });
 
-  // 当 defaultParameters 变化时更新表单状态
-  useEffect(() => {
-    if (defaultParameters) {
-      if (defaultParameters.prompt) setPrompt(defaultParameters.prompt);
-      if (defaultParameters.size) setSize(defaultParameters.size);
-      if (defaultParameters.seed) setSeed(defaultParameters.seed);
-    }
-  }, [defaultParameters]);
+  // 从持久化状态中解包各个字段
+  const prompt = state.prompt;
+  const size = state.size;
+  const seed = state.seed;
+  const isPrivate = state.isPrivate;
 
   // 使用 WebHook 生成器 Hook
   const generator = useWebHookGenerator({
@@ -92,11 +94,23 @@ export default function ZImageGenerator({ modelSelector, defaultParameters }: ZI
     },
   });
 
+  // 通知父组件表单状态变化，用于自动保存到 sessionStorage
+  useEffect(() => {
+    if (onFormStateChange) {
+      onFormStateChange({
+        prompt,
+        size,
+        seed,
+        isPrivate,
+      });
+    }
+  }, [prompt, size, seed, isPrivate]);
+
   // ==================== 事件处理函数 ====================
 
   const handleSelectExample = useCallback((example: ExampleItem) => {
-    setPrompt(example.prompt);
-  }, []);
+    updateState({ prompt: example.prompt });
+  }, [updateState]);
 
   const handleGenerate = useCallback(() => {
     generator.handleGenerate(
@@ -120,7 +134,7 @@ export default function ZImageGenerator({ modelSelector, defaultParameters }: ZI
         },
       }
     );
-  }, [generator, prompt, size, seed, isPrivate, tError]);
+  }, [generator, prompt, size, seed, isPrivate, tError, updateState]);
 
   // ==================== 渲染函数 ====================
 
@@ -134,7 +148,7 @@ export default function ZImageGenerator({ modelSelector, defaultParameters }: ZI
         <Textarea
           id="prompt"
           value={prompt}
-          onChange={(e) => setPrompt(e.target.value)}
+          onChange={(e) => updateState({ prompt: e.target.value })}
           placeholder={tForm('promptPlaceholder')}
           className="h-32 resize-none"
         />
@@ -145,14 +159,14 @@ export default function ZImageGenerator({ modelSelector, defaultParameters }: ZI
         id="size"
         label={tForm('size')}
         value={size}
-        onChange={setSize}
+        onChange={(value) => updateState({ size: value })}
         options={SIZE_OPTIONS}
         placeholder={tForm('sizePlaceholder')}
       />
 
       {/* 高级选项 */}
-      <AdvancedSettings isPrivate={isPrivate} onPrivateChange={setIsPrivate}>
-        <SeedInput value={seed} onChange={setSeed} />
+      <AdvancedSettings isPrivate={isPrivate} onPrivateChange={(value) => updateState({ isPrivate: value })}>
+        <SeedInput value={seed} onChange={(value) => updateState({ seed: value })} />
       </AdvancedSettings>
     </div>
   );

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import ModelSelector, { type ModelGroup } from './base/ModelSelector';
 import NanoBananaProGenerator from './models/NanoBananaProGenerator';
@@ -8,6 +8,7 @@ import ZImageGenerator from './models/ZImageGenerator';
 import ZImageLoraGenerator from './models/ZImageLoraGenerator';
 import Flux2ProGenerator from './models/Flux2ProGenerator';
 import SeedreamGenerator from './models/SeedreamGenerator';
+import { useAutoSaveFormState } from '@/hooks/useGeneratorFormPersistence';
 
 interface TextToImageGeneratorProps {
   defaultModel?: string;
@@ -18,11 +19,21 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro',
   const t = useTranslations('ai-generator.models');
   const tGroups = useTranslations('ai-generator.modelGroups');
   const [selectedModel, setSelectedModel] = useState(defaultModel);
+  // 存储当前活跃的模型表单数据，用于在模型切换时保存
+  const [formStateData, setFormStateData] = useState<any>({});
+
+  // 自动保存表单状态到 sessionStorage
+  useAutoSaveFormState(selectedModel, formStateData, 500);
 
   // 当 defaultModel 变化时更新
   useEffect(() => {
     setSelectedModel(defaultModel);
   }, [defaultModel]);
+
+  // 处理模型选择变化（保存当前表单状态后再切换）
+  const handleModelChange = useCallback((newModel: string) => {
+    setSelectedModel(newModel);
+  }, []);
 
   // 模型选项（分组格式）
   const modelOptions: ModelGroup[] = [
@@ -105,17 +116,50 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro',
 
   // ModelSelector 组件
   const modelSelector = (
-    <ModelSelector options={modelOptions} value={selectedModel} onChange={setSelectedModel} />
+    <ModelSelector options={modelOptions} value={selectedModel} onChange={handleModelChange} />
   );
 
   return (
     <div className="space-y-6">
       {/* 根据选择的模型渲染对应的生成器 */}
-      {selectedModel === 'nano-banana-pro' && <NanoBananaProGenerator modelSelector={modelSelector} defauldMode='text-to-image' defaultParameters={defaultParameters} />}
-      {selectedModel === 'z-image' && <ZImageGenerator modelSelector={modelSelector} defaultParameters={defaultParameters} />}
-      {selectedModel === 'z-image-lora' && <ZImageLoraGenerator modelSelector={modelSelector} defaultParameters={defaultParameters} />}
-      {selectedModel === 'flux-2-pro' && <Flux2ProGenerator modelSelector={modelSelector} defauldMode='text-to-image' defaultParameters={defaultParameters} />}
-      {selectedModel === 'seedream-v4.5' && <SeedreamGenerator modelSelector={modelSelector} defauldMode='text-to-image' defaultParameters={defaultParameters} />}
+      {selectedModel === 'nano-banana-pro' && (
+        <NanoBananaProGenerator
+          modelSelector={modelSelector}
+          defauldMode='text-to-image'
+          defaultParameters={defaultParameters}
+          onFormStateChange={setFormStateData}
+        />
+      )}
+      {selectedModel === 'z-image' && (
+        <ZImageGenerator
+          modelSelector={modelSelector}
+          defaultParameters={defaultParameters}
+          onFormStateChange={setFormStateData}
+        />
+      )}
+      {selectedModel === 'z-image-lora' && (
+        <ZImageLoraGenerator
+          modelSelector={modelSelector}
+          defaultParameters={defaultParameters}
+          onFormStateChange={setFormStateData}
+        />
+      )}
+      {selectedModel === 'flux-2-pro' && (
+        <Flux2ProGenerator
+          modelSelector={modelSelector}
+          defauldMode='text-to-image'
+          defaultParameters={defaultParameters}
+          onFormStateChange={setFormStateData}
+        />
+      )}
+      {selectedModel === 'seedream-v4.5' && (
+        <SeedreamGenerator
+          modelSelector={modelSelector}
+          defauldMode='text-to-image'
+          defaultParameters={defaultParameters}
+          onFormStateChange={setFormStateData}
+        />
+      )}
     </div>
   );
 }

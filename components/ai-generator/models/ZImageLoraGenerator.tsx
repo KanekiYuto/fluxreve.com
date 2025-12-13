@@ -11,12 +11,14 @@ import LoraSelector, { LoraConfig } from '../base/LoraSelector';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { useWebHookGenerator } from '@/hooks/useWebHookGenerator';
+import { usePersistentFormState } from '@/hooks/useGeneratorFormPersistence';
 
 // ==================== 类型定义 ====================
 
 interface ZImageLoraGeneratorProps {
   modelSelector: React.ReactNode;
   defaultParameters?: any;
+  onFormStateChange?: (state: any) => void;
 }
 
 // ==================== 常量配置 ====================
@@ -42,18 +44,27 @@ const EXAMPLES: ExampleItem[] = [
 
 // ==================== 主组件 ====================
 
-export default function ZImageLoraGenerator({ modelSelector, defaultParameters }: ZImageLoraGeneratorProps) {
+export default function ZImageLoraGenerator({ modelSelector, defaultParameters, onFormStateChange }: ZImageLoraGeneratorProps) {
   const tForm = useTranslations('ai-generator.form');
   const tError = useTranslations('ai-generator.error');
 
   // ==================== 状态管理 ====================
 
-  // 表单状态
-  const [prompt, setPrompt] = useState(defaultParameters?.prompt || '');
-  const [size, setSize] = useState(defaultParameters?.size || '1024*1536');
-  const [seed, setSeed] = useState(defaultParameters?.seed || '');
-  const [loras, setLoras] = useState<LoraConfig[]>([]);
-  const [isPrivate, setIsPrivate] = useState(false);
+  // 使用持久化表单状态 Hook
+  const { state, updateState } = usePersistentFormState('z-image-lora', {
+    prompt: defaultParameters?.prompt || '',
+    size: defaultParameters?.size || '1024*1536',
+    seed: defaultParameters?.seed || '',
+    loras: [],
+    isPrivate: false,
+  });
+
+  // 从持久化状态中解包各个字段
+  const prompt = state.prompt;
+  const size = state.size;
+  const seed = state.seed;
+  const loras = state.loras;
+  const isPrivate = state.isPrivate;
 
   // 使用 WebHook 生成器 Hook
   const generator = useWebHookGenerator({
@@ -90,71 +101,32 @@ export default function ZImageLoraGenerator({ modelSelector, defaultParameters }
     },
   });
 
-  // 当 defaultParameters 变化时更新表单状态
+  // 通知父组件表单状态变化，用于自动保存到 sessionStorage
   useEffect(() => {
-    if (defaultParameters) {
-      if (defaultParameters.prompt) setPrompt(defaultParameters.prompt);
-      if (defaultParameters.size) setSize(defaultParameters.size);
-      if (defaultParameters.seed) setSeed(defaultParameters.seed);
-
-      // 处理 loras - 如果只有 id 和 scale，需要获取完整信息
-      if (defaultParameters.loras && Array.isArray(defaultParameters.loras) && defaultParameters.loras.length > 0) {
-        const lorasFromDb = defaultParameters.loras;
-
-        // 检查是否需要补充 LoRA 信息
-        const needsFetch = lorasFromDb.some((lora: any) => !lora.url);
-
-        if (needsFetch) {
-          // 如果 LoRA 信息不完整，需要从 API 获取
-          const fetchLoraDetails = async () => {
-            try {
-              const loraIds = lorasFromDb.map((lora: any) => lora.id);
-              const response = await fetch(`/api/lora?ids=${loraIds.join(',')}`);
-              if (response.ok) {
-                const { data: loraDetails } = await response.json();
-
-                // 合并数据库中的 scale 信息和 API 返回的详细信息
-                const enrichedLoras = lorasFromDb.map((dbLora: any) => {
-                  const detail = loraDetails.find((d: any) => d.id === dbLora.id);
-                  return {
-                    ...detail,
-                    scale: dbLora.scale,
-                  };
-                });
-
-                setLoras(enrichedLoras);
-              } else {
-                // 如果 API 失败，显示错误但不设置不完整的数据
-                console.error('Failed to fetch LoRA details: API returned error');
-              }
-            } catch (error) {
-              console.error('Failed to fetch LoRA details:', error);
-              // 如果出错，不设置任何数据，保持加载状态
-            }
-          };
-
-          fetchLoraDetails();
-        } else {
-          // 如果信息完整，直接使用
-          setLoras(lorasFromDb);
-        }
-      }
+    if (onFormStateChange) {
+      onFormStateChange({
+        prompt,
+        size,
+        seed,
+        loras,
+        isPrivate,
+      });
     }
-  }, [defaultParameters]);
+  }, [prompt, size, seed, loras, isPrivate]);
 
   // ==================== LoRA 管理函数 ====================
 
   // 更新 LoRA 配置
   const handleLoraChange = useCallback((newLoras: LoraConfig[]) => {
-    setLoras(newLoras);
-  }, []);
+    updateState({ loras: newLoras });
+  }, [updateState]);
 
   // ==================== 事件处理函数 ====================
 
   // 选择示例
   const handleSelectExample = useCallback((example: ExampleItem) => {
-    setPrompt(example.prompt);
-  }, []);
+    updateState({ prompt: example.prompt });
+  }, [updateState]);
 
   // 生成图像
   const handleGenerate = useCallback(() => {
@@ -187,7 +159,7 @@ export default function ZImageLoraGenerator({ modelSelector, defaultParameters }
         },
       }
     );
-  }, [generator, prompt, size, seed, loras, isPrivate, tError]);
+  }, [generator, prompt, size, seed, loras, isPrivate, tError, updateState]);
 
   // ==================== 渲染函数 ====================
 
@@ -201,7 +173,7 @@ export default function ZImageLoraGenerator({ modelSelector, defaultParameters }
         <Textarea
           id="prompt"
           value={prompt}
-          onChange={(e) => setPrompt(e.target.value)}
+          onChange={(e) => updateState({ prompt: e.target.value })}
           placeholder={tForm('promptPlaceholder')}
           className="h-32 resize-none"
         />
@@ -212,7 +184,7 @@ export default function ZImageLoraGenerator({ modelSelector, defaultParameters }
         id="size"
         label={tForm('size')}
         value={size}
-        onChange={setSize}
+        onChange={(value) => updateState({ size: value })}
         options={SIZE_OPTIONS}
         placeholder={tForm('sizePlaceholder')}
       />
@@ -230,8 +202,8 @@ export default function ZImageLoraGenerator({ modelSelector, defaultParameters }
       </div>
 
       {/* 高级选项 */}
-      <AdvancedSettings isPrivate={isPrivate} onPrivateChange={setIsPrivate}>
-        <SeedInput value={seed} onChange={setSeed} />
+      <AdvancedSettings isPrivate={isPrivate} onPrivateChange={(value) => updateState({ isPrivate: value })}>
+        <SeedInput value={seed} onChange={(value) => updateState({ seed: value })} />
       </AdvancedSettings>
     </div>
   );

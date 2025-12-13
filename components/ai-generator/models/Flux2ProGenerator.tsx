@@ -12,6 +12,7 @@ import ModeSwitcher from '../form/ModeSwitcher';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { useWebHookGenerator } from '@/hooks/useWebHookGenerator';
+import { usePersistentFormState } from '@/hooks/useGeneratorFormPersistence';
 
 // ==================== 类型定义 ====================
 
@@ -21,6 +22,7 @@ interface Flux2ProGeneratorProps {
   modelSelector: React.ReactNode;
   defauldMode?: Mode;
   defaultParameters?: any;
+  onFormStateChange?: (state: any) => void;
 }
 
 // ==================== 常量配置 ====================
@@ -46,7 +48,7 @@ const EXAMPLES: ExampleItem[] = [
 
 // ==================== 主组件 ====================
 
-export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-to-image', defaultParameters }: Flux2ProGeneratorProps) {
+export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-to-image', defaultParameters, onFormStateChange }: Flux2ProGeneratorProps) {
   const tForm = useTranslations('ai-generator.form');
   const tError = useTranslations('ai-generator.error');
 
@@ -55,20 +57,27 @@ export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-t
   // 模式状态
   const [mode, setMode] = useState<Mode>(defauldMode);
 
-  // 表单状态
-  const [prompt, setPrompt] = useState(defaultParameters?.prompt || '');
-  const [inputImages, setInputImages] = useState<ImageItem[]>(
-    defaultParameters?.images
+  // 使用持久化表单状态 Hook
+  const { state, updateState } = usePersistentFormState('flux-2-pro', {
+    prompt: defaultParameters?.prompt || '',
+    inputImages: defaultParameters?.images
       ? defaultParameters.images.map((url: string, index: number) => ({
           id: `image-${index}`,
           url,
           file: null,
         }))
-      : []
-  );
-  const [size, setSize] = useState(defaultParameters?.size || '1024*1024');
-  const [seed, setSeed] = useState(defaultParameters?.seed || '');
-  const [isPrivate, setIsPrivate] = useState(false);
+      : [],
+    size: defaultParameters?.size || '1024*1024',
+    seed: defaultParameters?.seed || '',
+    isPrivate: false,
+  });
+
+  // 从持久化状态中解包各个字段
+  const prompt = state.prompt;
+  const inputImages = state.inputImages;
+  const size = state.size;
+  const seed = state.seed;
+  const isPrivate = state.isPrivate;
 
   // 使用 WebHook 生成器 Hook
   const generator = useWebHookGenerator({
@@ -107,32 +116,48 @@ export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-t
     },
   });
 
+  // 通知父组件表单状态变化
+  useEffect(() => {
+    onFormStateChange?.({
+      prompt,
+      inputImages,
+      size,
+      seed,
+      isPrivate,
+    });
+  }, [prompt, inputImages, size, seed, isPrivate]);
+
   // 当 defaultParameters 变化时更新表单状态
   useEffect(() => {
     if (defaultParameters) {
-      if (defaultParameters.prompt) setPrompt(defaultParameters.prompt);
-      if (defaultParameters.size) setSize(defaultParameters.size);
-      if (defaultParameters.seed) setSeed(defaultParameters.seed);
+      const updates: any = {};
+
+      if (defaultParameters.prompt) updates.prompt = defaultParameters.prompt;
+      if (defaultParameters.size) updates.size = defaultParameters.size;
+      if (defaultParameters.seed) updates.seed = defaultParameters.seed;
 
       // 处理输入图片
       if (defaultParameters.images && Array.isArray(defaultParameters.images)) {
-        const images = defaultParameters.images.map((url: string, index: number) => ({
+        updates.inputImages = defaultParameters.images.map((url: string, index: number) => ({
           id: `image-${index}`,
           url,
           file: null,
         }));
-        setInputImages(images);
+      }
+
+      if (Object.keys(updates).length > 0) {
+        updateState(updates);
       }
     }
-  }, [defaultParameters]);
+  }, [defaultParameters, updateState]);
 
 
   // ==================== 事件处理函数 ====================
 
   // 选择示例
   const handleSelectExample = useCallback((example: ExampleItem) => {
-    setPrompt(example.prompt);
-  }, []);
+    updateState({ prompt: example.prompt });
+  }, [updateState]);
 
   // 生成图像
   const handleGenerate = useCallback(() => {
@@ -167,7 +192,7 @@ export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-t
         },
       }
     );
-  }, [generator, mode, prompt, size, seed, inputImages, isPrivate, tError]);
+  }, [generator, mode, prompt, size, seed, inputImages, isPrivate, tError, updateState]);
 
   // ==================== 渲染函数 ====================
 
@@ -184,7 +209,7 @@ export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-t
         <Textarea
           id="prompt"
           value={prompt}
-          onChange={(e) => setPrompt(e.target.value)}
+          onChange={(e) => updateState({ prompt: e.target.value })}
           placeholder={tForm('promptPlaceholder')}
           className="h-32 resize-none"
         />
@@ -194,7 +219,7 @@ export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-t
       {mode === 'image-to-image' && (
         <ImageUpload
           value={inputImages}
-          onChange={setInputImages}
+          onChange={(images) => updateState({ inputImages: images })}
           label={tForm('uploadImage')}
           maxCount={5}
           required
@@ -210,15 +235,15 @@ export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-t
           id="size"
           label={tForm('size')}
           value={size}
-          onChange={setSize}
+          onChange={(value) => updateState({ size: value })}
           options={SIZE_OPTIONS}
           placeholder={tForm('sizePlaceholder')}
         />
       )}
 
       {/* 高级选项 */}
-      <AdvancedSettings isPrivate={isPrivate} onPrivateChange={setIsPrivate}>
-        <SeedInput value={seed} onChange={setSeed} />
+      <AdvancedSettings isPrivate={isPrivate} onPrivateChange={(value) => updateState({ isPrivate: value })}>
+        <SeedInput value={seed} onChange={(value) => updateState({ seed: value })} />
       </AdvancedSettings>
     </div>
   );

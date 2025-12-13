@@ -1,11 +1,12 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import ModelSelector, { type ModelGroup } from './base/ModelSelector';
 import NanoBananaProGenerator from './models/NanoBananaProGenerator';
 import Flux2ProGenerator from './models/Flux2ProGenerator';
 import SeedreamGenerator from './models/SeedreamGenerator';
+import { useAutoSaveFormState } from '@/hooks/useGeneratorFormPersistence';
 
 interface ImageToImageGeneratorProps {
   defaultModel?: string;
@@ -22,12 +23,22 @@ export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro'
   // 如果 defaultModel 不支持图生图，回退到第一个支持的模型
   const initialModel = SUPPORTED_MODELS.includes(defaultModel) ? defaultModel : SUPPORTED_MODELS[0];
   const [selectedModel, setSelectedModel] = useState(initialModel);
+  // 存储当前活跃的模型表单数据，用于在模型切换时保存
+  const [formStateData, setFormStateData] = useState<any>({});
+
+  // 自动保存表单状态到 sessionStorage
+  useAutoSaveFormState(selectedModel, formStateData, 500);
 
   // 当 defaultModel 变化时更新
   useEffect(() => {
     const model = SUPPORTED_MODELS.includes(defaultModel) ? defaultModel : SUPPORTED_MODELS[0];
     setSelectedModel(model);
   }, [defaultModel]);
+
+  // 处理模型选择变化（保存当前表单状态后再切换）
+  const handleModelChange = useCallback((newModel: string) => {
+    setSelectedModel(newModel);
+  }, []);
 
   // 模型选项（分组格式）- 只包含支持 image-to-image 的模型
   const modelOptions: ModelGroup[] = [
@@ -81,20 +92,48 @@ export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro'
 
   // ModelSelector 组件
   const modelSelector = (
-    <ModelSelector options={modelOptions} value={selectedModel} onChange={setSelectedModel} />
+    <ModelSelector options={modelOptions} value={selectedModel} onChange={handleModelChange} />
   );
 
   // 渲染对应的生成器
   const renderGenerator = () => {
     switch (selectedModel) {
       case 'nano-banana-pro':
-        return <NanoBananaProGenerator modelSelector={modelSelector} defauldMode="image-to-image" defaultParameters={defaultParameters} />;
+        return (
+          <NanoBananaProGenerator
+            modelSelector={modelSelector}
+            defauldMode="image-to-image"
+            defaultParameters={defaultParameters}
+            onFormStateChange={setFormStateData}
+          />
+        );
       case 'flux-2-pro':
-        return <Flux2ProGenerator modelSelector={modelSelector} defauldMode="image-to-image" defaultParameters={defaultParameters} />;
+        return (
+          <Flux2ProGenerator
+            modelSelector={modelSelector}
+            defauldMode="image-to-image"
+            defaultParameters={defaultParameters}
+            onFormStateChange={setFormStateData}
+          />
+        );
       case 'seedream-v4.5':
-        return <SeedreamGenerator modelSelector={modelSelector} defauldMode="image-to-image" defaultParameters={defaultParameters} />;
+        return (
+          <SeedreamGenerator
+            modelSelector={modelSelector}
+            defauldMode="image-to-image"
+            defaultParameters={defaultParameters}
+            onFormStateChange={setFormStateData}
+          />
+        );
       default:
-        return <NanoBananaProGenerator modelSelector={modelSelector} defauldMode="image-to-image" defaultParameters={defaultParameters} />;
+        return (
+          <NanoBananaProGenerator
+            modelSelector={modelSelector}
+            defauldMode="image-to-image"
+            defaultParameters={defaultParameters}
+            onFormStateChange={setFormStateData}
+          />
+        );
     }
   };
 

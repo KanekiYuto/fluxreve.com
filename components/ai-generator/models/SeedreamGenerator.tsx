@@ -11,6 +11,7 @@ import ModeSwitcher from '../form/ModeSwitcher';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { useWebHookGenerator } from '@/hooks/useWebHookGenerator';
+import { usePersistentFormState } from '@/hooks/useGeneratorFormPersistence';
 
 // ==================== 类型定义 ====================
 
@@ -20,6 +21,7 @@ interface SeedreamGeneratorProps {
   modelSelector: React.ReactNode;
   defauldMode?: Mode;
   defaultParameters?: any;
+  onFormStateChange?: (state: any) => void;
 }
 
 // ==================== 常量配置 ====================
@@ -46,7 +48,7 @@ const EXAMPLES: ExampleItem[] = [
 
 // ==================== 主组件 ====================
 
-export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-to-image', defaultParameters }: SeedreamGeneratorProps) {
+export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-to-image', defaultParameters, onFormStateChange }: SeedreamGeneratorProps) {
   const tForm = useTranslations('ai-generator.form');
   const tError = useTranslations('ai-generator.error');
 
@@ -55,19 +57,22 @@ export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-t
   // 模式状态
   const [mode, setMode] = useState<Mode>(defauldMode);
 
-  // 表单状态
-  const [prompt, setPrompt] = useState(defaultParameters?.prompt || '');
-  const [inputImages, setInputImages] = useState<ImageItem[]>(
-    defaultParameters?.images
+  // 表单状态（使用持久化）
+  const { state, updateState } = usePersistentFormState('seedream-v4.5', {
+    prompt: defaultParameters?.prompt || '',
+    inputImages: defaultParameters?.images
       ? defaultParameters.images.map((url: string, index: number) => ({
           id: `image-${index}`,
           url,
           file: null,
         }))
-      : []
-  );
-  const [size, setSize] = useState(defaultParameters?.size || '2048*2048');
-  const [isPrivate, setIsPrivate] = useState(false);
+      : [],
+    size: defaultParameters?.size || '2048*2048',
+    isPrivate: false,
+  });
+
+  // 从 state 中提取表单字段
+  const { prompt, inputImages, size, isPrivate } = state;
 
   // 使用 WebHook 生成器 Hook
   const generator = useWebHookGenerator({
@@ -103,31 +108,20 @@ export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-t
     },
   });
 
-  // 当 defaultParameters 变化时更新表单状态
+  // 通知父组件表单状态变化
   useEffect(() => {
-    if (defaultParameters) {
-      if (defaultParameters.prompt) setPrompt(defaultParameters.prompt);
-      if (defaultParameters.size) setSize(defaultParameters.size);
-
-      // 处理输入图片
-      if (defaultParameters.images && Array.isArray(defaultParameters.images)) {
-        const images = defaultParameters.images.map((url: string, index: number) => ({
-          id: `image-${index}`,
-          url,
-          file: null,
-        }));
-        setInputImages(images);
-      }
+    if (onFormStateChange) {
+      onFormStateChange(state);
     }
-  }, [defaultParameters]);
+  }, [state]);
 
 
   // ==================== 事件处理函数 ====================
 
   // 选择示例
   const handleSelectExample = useCallback((example: ExampleItem) => {
-    setPrompt(example.prompt);
-  }, []);
+    updateState({ prompt: example.prompt });
+  }, [updateState]);
 
   // 生成图像
   const handleGenerate = useCallback(() => {
@@ -161,7 +155,7 @@ export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-t
         },
       }
     );
-  }, [generator, mode, prompt, size, inputImages, isPrivate, tError]);
+  }, [generator, mode, prompt, size, inputImages, isPrivate, updateState, tError]);
 
   // ==================== 渲染函数 ====================
 
@@ -178,7 +172,7 @@ export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-t
         <Textarea
           id="prompt"
           value={prompt}
-          onChange={(e) => setPrompt(e.target.value)}
+          onChange={(e) => updateState({ prompt: e.target.value })}
           placeholder={tForm('promptPlaceholder')}
           className="h-32 resize-none"
         />
@@ -188,7 +182,7 @@ export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-t
       {mode === 'image-to-image' && (
         <ImageUpload
           value={inputImages}
-          onChange={setInputImages}
+          onChange={(images) => updateState({ inputImages: images })}
           label={tForm('uploadImage')}
           maxCount={5}
           required
@@ -204,14 +198,14 @@ export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-t
           id="size"
           label={tForm('size')}
           value={size}
-          onChange={setSize}
+          onChange={(value) => updateState({ size: value })}
           options={SIZE_OPTIONS}
           placeholder={tForm('sizePlaceholder')}
         />
       )}
 
       {/* 高级选项 */}
-      <AdvancedSettings isPrivate={isPrivate} onPrivateChange={setIsPrivate}>
+      <AdvancedSettings isPrivate={isPrivate} onPrivateChange={(value) => updateState({ isPrivate: value })}>
         {/* Seedream 暂无额外高级选项 */}
         <></>
       </AdvancedSettings>
