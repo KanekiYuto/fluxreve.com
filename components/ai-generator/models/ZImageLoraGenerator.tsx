@@ -68,9 +68,9 @@ export default function ZImageLoraGenerator({ modelSelector, defaultParameters, 
 
   // 使用 WebHook 生成器 Hook
   const generator = useWebHookGenerator({
-    apiEndpoint: '/api/ai-generator/provider/wavespeed/z-image-lora/text-to-image',
+    apiEndpoint: '/api/ai-generator/provider/wavespeed/z-image/turbo-lora',
     serviceType: 'text-to-image',
-    serviceSubType: 'z-image-lora',
+    serviceSubType: 'z-image',
     statusEndpoint: '/api/ai-generator/status',
     pollingConfig: {
       interval: 500,

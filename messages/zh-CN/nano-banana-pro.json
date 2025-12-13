@@ -115,7 +115,7 @@
   },
   "seo": {
     "description": "使用 Nano Banana Pro.Google DeepMind 的 Gemini 3 Pro Image 模型，在 10 秒内生成 4K 图像，并实现精确的文本渲染和字符一致性。",
-    "title": "Nano Banana Pro - 双子座 3 Pro AI 生成器 | 4K"
+    "title": "Nano Banana Pro - Gemini 3 Pro AI 生成器 | 4K"
   },
   "what": {
     "coreFeatures": {
