@@ -9,6 +9,7 @@ const fileToKeyMap: Record<string, string> = {
   'z-image': 'zImage',
   'flux-2-pro': 'flux2Pro',
   'seedream-v45': 'seedreamV45',
+  'image-upscaler': 'imageUpscaler',
 };
 
 /**
@@ -42,6 +43,7 @@ async function loadMessages(locale: string) {
     'subscription',
     'terms',
     'subscription-success',
+    'image-upscaler',
   ];
 
   // 并行动态导入所有翻译文件

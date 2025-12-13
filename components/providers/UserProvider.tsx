@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, startTransition } from 'react';
+import { usePathname } from '@/i18n/routing';
 import { useCachedSession } from '@/hooks/useCachedSession';
 import { oneTap } from '@/lib/auth-client';
 import useUserStore from '@/store/useUserStore';
@@ -12,6 +13,7 @@ interface UserProviderProps {
 }
 
 export default function UserProvider({ children }: UserProviderProps) {
+  const pathname = usePathname();
   const { data: session, isPending } = useCachedSession();
   const { setUser, setLoading, clearUser, setQuotaInfo, setQuotaLoading } = useUserStore();
 
@@ -163,8 +165,10 @@ export default function UserProvider({ children }: UserProviderProps) {
     if (!session && typeof window !== 'undefined' && process.env.NODE_ENV === 'production') {
       const initializeOneTap = async () => {
         try {
+          // One Tap 成功后重定向到当前页面，如果是首页则重定向到 /ai-generator
+          const callbackURL = pathname === '/' ? '/ai-generator' : pathname;
           await oneTap({
-            callbackURL: '/ai-generator',
+            callbackURL,
           });
         } catch (error) {
           console.error('[Auth] One Tap initialization failed:', error);
@@ -175,7 +179,7 @@ export default function UserProvider({ children }: UserProviderProps) {
       const timer = setTimeout(initializeOneTap, 1000);
       return () => clearTimeout(timer);
     }
-  }, [session]);
+  }, [session, pathname]);
 
   return <>{children}</>;
 }

@@ -33,6 +33,8 @@
     "quota": "ノルマ",
     "seedreamV45": "Seedream 4.5",
     "seedreamV45Desc": "ByteDance 2K HD 画像生成",
+    "image-upscaler": "画像アップスケーラー",
+    "imageUpscalerDesc": "AIを使用して画像を4K解像度に強化",
     "settings": "設定",
     "subscription": "サブスクリプション",
     "tasks": "歴史",

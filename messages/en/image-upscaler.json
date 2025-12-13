@@ -1,0 +1,187 @@
+{
+  "cta": {
+    "note": "No credit card required • Upscale multiple images • Fast processing",
+    "primary": "Start Free Image Upscaling",
+    "secondary": "View Pricing Plans",
+    "subtitle": "Join thousands of professionals using Image Upscaler AI to transform your low-resolution images into high-quality 4K pictures. Perfect for photography, design, marketing, and creative projects.",
+    "title": "Enhance Your Image Quality with AI Image Upscaler"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Image Upscaler is an advanced AI-powered image upscaling tool that intelligently enlarges your images while enhancing details. Using deep learning technology, it transforms low-resolution images into high-quality, high-resolution versions while maintaining natural appearance and detail. This tool is especially suitable for photographers, designers, and content creators.",
+        "question": "What is Image Upscaler? How does it work?"
+      },
+      {
+        "answer": "Image Upscaler supports upscaling images to 2K and 4K resolution. Whether your original image is 1024x1024 or 512x512, our AI can intelligently increase the size and improve image quality, making it suitable for printing, large displays, or high-resolution needs.",
+        "question": "What is the maximum resolution Image Upscaler can achieve?"
+      },
+      {
+        "answer": "Yes! Image Upscaler can enhance various types of images, including photos, illustrations, digital art, and scanned documents. Whether it's personal photos, professional photography, or artwork, our AI can effectively improve quality and resolution.",
+        "question": "What types of images can Image Upscaler process?"
+      },
+      {
+        "answer": "The upscaling process is very fast, usually completing within seconds. Depending on the original image size and your chosen target resolution, most images can be processed within 10-30 seconds.",
+        "question": "How long does image upscaling take?"
+      },
+      {
+        "answer": "Image Upscaler supports multiple output formats, including JPEG, PNG, and WebP. You can choose the most suitable format based on your needs - PNG for images requiring transparency, while JPEG is better for photos and web use.",
+        "question": "What output formats are supported?"
+      },
+      {
+        "answer": "Absolutely! Image Upscaler is perfect for commercial and professional use. For paid plan subscribers, all generated images can be used for commercial projects, marketing materials, client deliverables, and professional applications. This makes it an ideal tool for professional photographers, design agencies, and businesses.",
+        "question": "Can Image Upscaler be used for commercial purposes?"
+      }
+    ],
+    "subtitle": "Common questions about Image Upscaler AI tool",
+    "title": "Image Upscaler FAQ"
+  },
+  "features": {
+    "items": {
+      "ai-enhancement": {
+        "description": "Leverage advanced AI technology to automatically improve image details, colors, and contrast, making your pictures look more professional and vivid.",
+        "title": "AI Smart Enhancement"
+      },
+      "batch": {
+        "description": "Support batch processing of multiple images, significantly improving work efficiency. Perfect for photographers and designers who need to process large volumes of images.",
+        "title": "Batch Processing"
+      },
+      "formats": {
+        "description": "Support multiple output formats (JPEG, PNG, WebP), allowing you to flexibly choose the most suitable format based on your needs.",
+        "title": "Multiple Output Formats"
+      },
+      "quality": {
+        "description": "Upscale your images to up to 4K resolution (4096x4096), maintaining excellent detail and color accuracy.",
+        "title": "4K Ultra HD Output"
+      },
+      "secure": {
+        "description": "Your images are protected by enterprise-grade encryption and strict privacy policies. We will not share or use your images without your explicit permission.",
+        "title": "Enterprise-Grade Security"
+      },
+      "speed": {
+        "description": "Fast processing - most images are upscaled within seconds. The efficient AI engine ensures you can complete projects quickly.",
+        "title": "Fast Processing"
+      }
+    },
+    "subtitle": "Complete image upscaling features powered by advanced AI technology",
+    "title": "Image Upscaler Features"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Start Free Trial",
+      "secondary": "Learn More"
+    },
+    "stats": {
+      "quality": {
+        "label": "Max Resolution",
+        "value": "4K UHD"
+      },
+      "speed": {
+        "label": "Average Processing Time",
+        "value": "< 10 sec"
+      },
+      "users": {
+        "label": "Satisfied Users",
+        "value": "50K+"
+      }
+    },
+    "subtitle": "Transform your images into high-quality 4K versions using AI-powered image upscaling technology",
+    "title": {
+      "line1": "Smart Image Upscaling",
+      "line2": "4K High-Quality Output"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Select the image you want to upscale. Supports JPG, PNG, and other common formats. You can upload from your computer, cloud storage, or directly upload high-quality images.",
+        "title": "Upload Your Image"
+      },
+      "step2": {
+        "description": "Choose your target resolution (2K or 4K) and output format (JPEG, PNG, or WebP). Adjust AI parameters based on your specific needs for optimal results.",
+        "title": "Select Upscaling Settings"
+      },
+      "step3": {
+        "description": "Click the 'Generate' button. Our AI engine will immediately start analyzing your image and apply smart upscaling technology. Most images are processed within 10 seconds.",
+        "title": "AI Starts Upscaling"
+      },
+      "step4": {
+        "description": "Preview the upscaled result. Satisfied with the quality? Download the high-quality image for immediate use. Need adjustments? Simply modify settings and regenerate.",
+        "title": "Download Your Image"
+      }
+    },
+    "subtitle": "Upscale your images to 4K resolution in just four simple steps",
+    "title": "How to Use Image Upscaler"
+  },
+  "seo": {
+    "description": "Transform low-resolution images into high-quality 4K pictures using AI-powered image upscaling tools. Supports batch processing, multiple formats, and enterprise-grade security.",
+    "title": "AI Image Upscaler - Upscale Images to 4K Resolution"
+  },
+  "subtitle": "Enhance and upscale your images using advanced AI technology",
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Our AI can intelligently upscale your images to up to 4096x4096 pixels while maintaining excellent detail and clarity. Using deep learning technology to achieve high-quality upscaling results, suitable for printing, large displays, and professional applications.",
+        "title": "4K Ultra HD Upscaling"
+      },
+      "core2": {
+        "description": "Unlike traditional simple scaling, our AI intelligently reconstructs and enhances image details. Using advanced neural network technology, it automatically improves colors, contrast, and sharpness, making your images look more professional.",
+        "title": "Smart Detail Enhancement"
+      },
+      "core3": {
+        "description": "Supports multiple output formats and flexible upscaling options. You can choose the resolution, format, and quality settings that best suit your needs, providing optimal solutions for various uses - from web publishing to high-quality printing.",
+        "title": "Flexible Output Options"
+      }
+    },
+    "demoPlaceholder": "Image upscaled by Image Upscaler",
+    "description": "Image Upscaler is an advanced AI-powered image upscaling tool designed for photographers, designers, and content creators. It uses the latest deep learning technology to intelligently transform your low-resolution images into high-quality, high-resolution versions. Whether you need to optimize images for the web, prepare print materials, or create professional content, Image Upscaler delivers exceptional results at blazing speeds.",
+    "title": "What is Image Upscaler?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Compared to professional retouching software or hiring designers, Image Upscaler offers affordable subscription plans. Flexible pricing options make it accessible for businesses and individuals of all sizes.",
+        "title": "Cost-Effective Solution"
+      },
+      "flexibility": {
+        "description": "Quickly experiment with different settings and output formats. Image Upscaler's instant processing speed lets you iterate rapidly to find the best results for your project.",
+        "title": "Flexible Adjustment Options"
+      },
+      "quality": {
+        "description": "Leverage advanced AI technology to achieve 4K quality upscaling results. Your images will maintain natural appearance while gaining enhanced details and clarity - suitable for professional applications and commercial projects.",
+        "title": "Professional-Grade Image Quality"
+      },
+      "security": {
+        "description": "Your images and privacy are protected by enterprise-grade encryption. We comply with international data protection standards, ensuring your creative work remains absolutely secure.",
+        "title": "Enterprise-Grade Security & Privacy"
+      },
+      "speed": {
+        "description": "Most images are upscaled within 10 seconds. Image Upscaler's efficient AI engine ensures you can complete projects quickly without long wait times.",
+        "title": "Lightning-Fast Processing Speed"
+      },
+      "support": {
+        "description": "Get professional technical support and comprehensive usage guides. Our team is dedicated to helping you make the most of all Image Upscaler features.",
+        "title": "Quality Technical Support"
+      }
+    },
+    "comparison": {
+      "product": {
+        "title": "Image Upscaler AI Tool",
+        "item1": "Use AI to upscale images to 4K resolution in seconds",
+        "item2": "No professional skills required - simple and easy-to-use interface",
+        "item3": "Affordable pricing with flexible payment options",
+        "item4": "Fast iteration and instant preview of results"
+      },
+      "traditional": {
+        "title": "Traditional Image Upscaling Methods",
+        "item1": "Traditional upscaling methods cause image blur and quality loss",
+        "item2": "Requires expensive professional image editing software and technical knowledge",
+        "item3": "Manual editing requires significant time and money investment",
+        "item4": "Difficult to maintain natural appearance and details"
+      }
+    },
+    "subtitle": "Image Upscaler leverages the latest AI technology to outperform traditional image upscaling methods in both performance and ease of use, delivering professional-grade results.",
+    "title": "Why Choose Image Upscaler"
+  },
+  "title": "AI Image Upscaler - Enhance Images to 4K"
+}

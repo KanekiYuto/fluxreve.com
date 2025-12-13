@@ -1,0 +1,187 @@
+{
+  "cta": {
+    "note": "Ei luottokorttia vaadittu • Suurenna useita kuvia • Nopea käsittely",
+    "primary": "Aloita ilmainen kuvien suurentaminen",
+    "secondary": "Näytä hinnoittelusuunnitelmat",
+    "subtitle": "Liity tuhansiin ammattilaisiin, jotka käyttävät Image Upscaler AI:a matalaresoluutioisten kuviesi muuttamiseksi korkealaatuisiksi 4K-kuville. Sopii valokuvaukseen, suunnitteluun, markkinointiin ja luoviin projekteihin.",
+    "title": "Paranna kuvien laatu AI Image Upscalerilla"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Image Upscaler on kehittynyt tekoäly-pohjaistoinen kuvien suurentamistyökalu, joka suurentaa kuviasi älykkäällä tavalla samalla kun parantaa yksityiskohtia. Syvän oppimisen tekniikkaa käyttäen se muuttaa matalaresoluutioisia kuvia korkealaatuisiksi, korkearesoluutioiksi versioiksi säilyttäen samalla luonnollisen ulkonäön ja yksityiskohdat. Tämä työkalu on erityisen sopiva valokuvaajille, suunnittelijoille ja sisältöntekijöille.",
+        "question": "Mikä on Image Upscaler? Miten se toimii?"
+      },
+      {
+        "answer": "Image Upscaler tukee kuvien suurentamista 2K ja 4K resoluutioon. Riippumatta siitä, onko alkuperäinen kuva 1024x1024 tai 512x512, tekoälymme voi älykkäällä tavalla lisätä kokoa ja parantaa kuvanlaatua, jolloin se sopii tulostukseen, suuriin näyttöihin tai korkean resoluution tarpeisiin.",
+        "question": "Mikä on suurin resoluutio, jonka Image Upscaler voi saavuttaa?"
+      },
+      {
+        "answer": "Kyllä! Image Upscaler voi parantaa erilaisia kuvia, kuten valokuvia, kuvituksia, digitaalitaidetta ja skannattuja asiakirjoja. Olivatpa ne henkilökohtaisia valokuvia, ammattimaista valokuvaa tai taideteoksia, tekoälymme voi tehokkaasti parantaa laatua ja resoluutiota.",
+        "question": "Millaisia kuvia Image Upscaler voi käsitellä?"
+      },
+      {
+        "answer": "Suurentamisprosessi on erittäin nopea, yleensä valmis muutamassa sekunnissa. Alkuperäisen kuvan koosta ja valitsemastasi kohderesoluutiosta riippuen useimmat kuvat voidaan käsitellä 10-30 sekunnissa.",
+        "question": "Kuinka kauan kuvien suurentaminen kestää?"
+      },
+      {
+        "answer": "Image Upscaler tukee useita tulostumuotoja, mukaan lukien JPEG, PNG ja WebP. Voit valita sopivimman muodon tarpeidesi perusteella - PNG läpinäkyvyyttä vaativiin kuviin, kun taas JPEG on parempi valokuville ja web-käyttöön.",
+        "question": "Mitä tulostumuotoja tuetaan?"
+      },
+      {
+        "answer": "Ehdottomasti! Image Upscaler on täydellinen kaupalliseen ja ammattimaiseen käyttöön. Maksettujen suunnitelmien tilaajille kaikki luodut kuvat voidaan käyttää kaupallisiin projekteihin, markkinointimateriaaleihin, asiakastoimituksiin ja ammattisovelluksiin. Tämä tekee siitä ihanteellisen työkalun ammattivalokuvaajille, suunnittelutoimistoille ja yrityksille.",
+        "question": "Voiko Image Scaleria käyttää kaupallisiin tarkoituksiin?"
+      }
+    ],
+    "subtitle": "Usein kysyttyjä kysymyksiä Image Upscaler AI -työkalusta",
+    "title": "Image Upscaler Usein kysyttyjä kysymyksiä"
+  },
+  "features": {
+    "items": {
+      "ai-enhancement": {
+        "description": "Hyödynnä edistynyttä tekoälyteknologiaa kuvan yksityiskohtien, värien ja kontrastin automaattiseen parantamiseen, jolloin valokuvistasi tulee ammattimaisempia ja elävämpiä.",
+        "title": "Tekoäly-pohjainen älykäs parantaminen"
+      },
+      "batch": {
+        "description": "Tuki useiden kuvien eräkäsittelylle, mikä parantaa työn tehokkuutta merkittävästi. Täydellinen valokuvaajille ja suunnittelijoille, joiden on käsiteltävä suuria määriä kuvia.",
+        "title": "Eräkäsittely"
+      },
+      "formats": {
+        "description": "Useiden tulostumuotojen tuki (JPEG, PNG, WebP), mikä antaa sinulle mahdollisuuden valita joustavasti sopivimman muodon tarpeidesi perusteella.",
+        "title": "Useat tulostumuodot"
+      },
+      "quality": {
+        "description": "Suurenna kuviasi jopa 4K-resoluutioon (4096x4096), säilyttäen samalla erinomaisen yksityiskohtaisuuden ja värien tarkkuuden.",
+        "title": "4K Ultra HD -tulostus"
+      },
+      "secure": {
+        "description": "Kuviasi suojataan yritystasoisella salauksella ja tiukalla yksityisyyskäytännöllä. Emme jaa tai käytä kuvia ilman nimenomaista lupaa.",
+        "title": "Yritystason turvallisuus"
+      },
+      "speed": {
+        "description": "Nopea käsittely - useimmat kuvat suurentuvat muutamassa sekunnissa. Tehokas tekoälymoottori varmistaa, että pystyt suorittamaan projekteja nopeasti.",
+        "title": "Nopea käsittely"
+      }
+    },
+    "subtitle": "Täydelliset kuvien suurentamisominaisuudet, joita ohjaa kehittynyt tekoälyteknologia",
+    "title": "Image Upscaler -ominaisuudet"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Aloita ilmainen kokeilujakso",
+      "secondary": "Lue lisää"
+    },
+    "stats": {
+      "quality": {
+        "label": "Suurin resoluutio",
+        "value": "4K UHD"
+      },
+      "speed": {
+        "label": "Keskimääräinen käsittelyaika",
+        "value": "< 10 sek"
+      },
+      "users": {
+        "label": "Tyytyväiset käyttäjät",
+        "value": "50K+"
+      }
+    },
+    "subtitle": "Muunna kuviasi korkealaatuisiksi 4K-versioiksi tekoäly-pohjaisella kuvien suurentamisteknologialla",
+    "title": {
+      "line1": "Älykäs kuvien suurentaminen",
+      "line2": "4K korkealaatuinen tulostus"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Valitse suurentaa haluamasi kuva. Tukee JPG, PNG ja muita yleisiä muotoja. Voit ladata tietokoneestasi, pilvipalvelusta tai ladata korkealaatuisia kuvia suoraan.",
+        "title": "Lataa kuvasi"
+      },
+      "step2": {
+        "description": "Valitse kohderyhmä resoluutio (2K tai 4K) ja tulostumuoto (JPEG, PNG tai WebP). Säädä tekoälyparametreja tarpeidesi mukaan optimaalisten tulosten saamiseksi.",
+        "title": "Valitse suurentamisasetukset"
+      },
+      "step3": {
+        "description": "Napsauta \"Luo\" -painiketta. Tekoälymoottori alkaa välittömästi analysoida kuvaa ja soveltaa älykästä suurentamisen teknologiaa. Useimmat kuvat käsitellään 10 sekunnissa.",
+        "title": "Tekoäly aloittaa suurentamisen"
+      },
+      "step4": {
+        "description": "Esikatsele suurennettua tulosta. Tyytyväinen laatuun? Lataa korkealaatuinen kuva välittömään käyttöön. Tarvitsenko säätöjä? Muuta vain asetuksia ja luo uudelleen.",
+        "title": "Lataa kuvasi"
+      }
+    },
+    "subtitle": "Suurenna kuviasi 4K-resoluutioon vain neljässä yksinkertaisessa vaiheessa",
+    "title": "Kuinka käyttää Image Scaleria"
+  },
+  "seo": {
+    "description": "Muunna matalaresoluutioisia kuvia korkealaatuisiksi 4K-kuville tekoäly-pohjaisella kuvien suurentamistyökalulla. Tukee eräkäsittelyä, useita muotoja ja yritystason turvallisuutta.",
+    "title": "Tekoäly-pohjainen kuvien suurentaja - Suurenna kuvia 4K-resoluutioon"
+  },
+  "subtitle": "Paranna ja suurenna kuvia kehittyneen tekoälyteknologian avulla",
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Tekoälymme voi älykkäällä tavalla suurentaa kuviasi jopa 4096×4096 pikseliin säilyttäen samalla erinomaisen yksityiskohtaisuuden ja selkeyden. Syvän oppimisen tekniikkaa käyttäen korkealaatuisten suurentamisen tulosten saavuttamiseksi, sopii tulostukseen, suuriin näyttöihin ja ammattisovelluksiin.",
+        "title": "4K Ultra HD -suurentaminen"
+      },
+      "core2": {
+        "description": "Toisin kuin perinteinen yksinkertainen skaalaus, tekoälymme älykkäällä tavalla rekonstruoi ja parantaa kuvan yksityiskohtia. Edistyneen hermoverkkotekniikan avulla se parantaa automaattisesti värejä, kontrastia ja terävyyttä, mikä tekee kuvaistasi ammattimaisempia.",
+        "title": "Älykäs yksityiskohtien parantaminen"
+      },
+      "core3": {
+        "description": "Useiden tulostumuotojen ja joustava suurentamisvaihtoehtojen tuki. Voit valita resoluution, muodon ja laadun asetukset, jotka parhaiten vastaavat tarpeisiasi, tarjoamalla optimaalisia ratkaisuja erilaisiin käyttötarkoituksiin - web-julkaisusta korkealaatuiseen tulostukseen.",
+        "title": "Joustavat tulostusvaihtoehdot"
+      }
+    },
+    "demoPlaceholder": "Image Scalerin suurentama kuva",
+    "description": "Image Upscaler on kehittynyt tekoäly-pohjainen kuvien suurentamistyökalu, joka on suunniteltu valokuvaajille, suunnittelijoille ja sisältöntekijöille. Se käyttää uusinta syvän oppimisen teknologiaa matalaresoluutioisten kuvia älykkäällä tavalla muuttaakseen korkealaatuisiksi, korkearesoluutioiksi versioiksi. Riippumatta siitä, tarvitseeko kuvien optimointia verkkoon, tulostusmateriaalien valmistamista vai ammattimaisen sisällön luomista, Image Upscaler tuottaa poikkeuksellisia tuloksia hätkäisevällä nopeudella.",
+    "title": "Mikä on Image Upscaler?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Ammattimaisen retusoitavan ohjelmiston tai suunnittelijoiden palkkaamiseen verrattuna Image Upscaler tarjoaa kohtuullisia tilaussuunnitelmia. Joustavat hinnoitteluvaihtoehdot tekevät sen saavutettavaksi kaikenkokoisille yrityksille ja yksityishenkilöille.",
+        "title": "Kustannustehokas ratkaisu"
+      },
+      "flexibility": {
+        "description": "Kokeile nopeasti erilaisia asetuksia ja tulostumuotoja. Image Scalerin välitöntä käsittelynopeutta voidaan nopeasti toistaa parhaiden tulosten löytämiseksi projektille.",
+        "title": "Joustavat säätövaihtoehdot"
+      },
+      "quality": {
+        "description": "Hyödynnä edistynyttä tekoälyteknologiaa 4K-laatuisten suurentamisen tulosten saavuttamiseksi. Kuvasi säilyttävät luonnollisen ulkonäön samalla kun saat parannettuja yksityiskohtia ja selkeyyttä - sopii ammattisovelluksiin ja kaupallisiin projekteihin.",
+        "title": "Ammattimaisen tason kuvan laatu"
+      },
+      "security": {
+        "description": "Kuviasi ja yksityisyyttäsi suojaavat yritystason salaus. Noudatamme kansainvälisiä tietosuojanormeja ja takaamme luovan työsi ehdottoman turvallisuuden.",
+        "title": "Yritystason turvallisuus ja yksityisyys"
+      },
+      "speed": {
+        "description": "Useimmat kuvat suurentuvat 10 sekunnissa. Image Scalerin tehokas tekoälymoottori varmistaa, että pystyt suorittamaan projekteja nopeasti ilman pitkiä odotusaikoja.",
+        "title": "Salaman nopea käsittelynopeus"
+      },
+      "support": {
+        "description": "Saa ammattimaista teknistä tukea ja kattavaa käyttöopasta. Tiimimme on omistautunut auttamaan sinua saamaan eniten irti kaikista Image Scalerin ominaisuuksista.",
+        "title": "Laadukas tekninen tuki"
+      }
+    },
+    "comparison": {
+      "product": {
+        "title": "Image Upscaler AI -työkalu",
+        "item1": "Käytä tekoälyä kuvien suurentamiseen 4K-resoluutioon sekunneissa",
+        "item2": "Ammattimaisia taitoja ei vaadita - yksinkertainen ja käyttäjäystävällinen käyttöliittymä",
+        "item3": "Kohtuulliset hinnat joustavilla maksuvaihtoehdoilla",
+        "item4": "Nopea iteraatio ja välitön tulosten esikatselu"
+      },
+      "traditional": {
+        "title": "Perinteinen kuvien suurentamisen menetelmät",
+        "item1": "Perinteiset suurentamisen menetelmät aiheuttavat kuvan epäterävyyttä ja laadun menetystä",
+        "item2": "Vaatii kallista ammattimaista kuvankäsittelyohjelmistoa ja teknisiä tietoja",
+        "item3": "Manuaalinen muokkaus vaatii merkittävää aika- ja rahasijoitusta",
+        "item4": "Luonnollisen ulkonäön ja yksityiskohtien säilyttäminen on vaikeaa"
+      }
+    },
+    "subtitle": "Image Upscaler hyödyntää uusinta tekoälyteknologiaa perinteisten kuvien suurentamisen menetelmien ylittämiseksi suorituskyky ja käyttäjäystävällisyydessä, tarjoten ammattitasoisia tuloksia.",
+    "title": "Miksi valita Image Upscaler"
+  },
+  "title": "Tekoäly Image Upscaler - Paranna kuvia 4K:lla"
+}

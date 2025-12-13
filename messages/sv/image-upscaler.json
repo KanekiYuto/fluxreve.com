@@ -1,0 +1,187 @@
+{
+  "cta": {
+    "note": "Inget kreditkort krävs • Förstora flera bilder • Snabb bearbetning",
+    "primary": "Starta gratis bildförstoring",
+    "secondary": "Visa prisplaner",
+    "subtitle": "Anslut dig till tusentals proffs som använder Image Upscaler AI för att omvandla dina låglösningsbilder till högkvalitativa 4K-bilder. Perfekt för fotografi, design, marknadsföring och kreativa projekt.",
+    "title": "Förbättra din bildkvalitet med AI Image Upscaler"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Image Upscaler är ett avancerat AI-drivet bildförstoringverktyg som på ett intelligent sätt förstorar dina bilder medan det förbättrar detaljer. Med hjälp av deep learning-teknologi omvandlar det låglösningsbilder till högkvalitativa versioner med högre upplösning medan det bevarar naturligt utseende och detaljer. Detta verktyg är särskilt lämpat för fotografer, designers och innehållsskapare.",
+        "question": "Vad är Image Upscaler? Hur fungerar det?"
+      },
+      {
+        "answer": "Image Upscaler stöder förstoring av bilder till 2K- och 4K-upplösning. Oavsett om din originalbild är 1024x1024 eller 512x512, kan vår AI på ett intelligent sätt öka storleken och förbättra bildkvaliteten, vilket gör den lämplig för utskrift, storaDisplayer eller behov av högre upplösning.",
+        "question": "Vilken maximal upplösning kan Image Upscaler uppnå?"
+      },
+      {
+        "answer": "Ja! Image Upscaler kan förbättra olika typer av bilder, inklusive foton, illustrationer, digital konst och skannade dokument. Oavsett om det är personliga foton, professionell fotografering eller konstverk kan vår AI effektivt förbättra kvalitet och upplösning.",
+        "question": "Vilka typer av bilder kan Image Upscaler bearbeta?"
+      },
+      {
+        "answer": "Förstoringen går mycket snabbt, normalt slutförd på några sekunder. Beroende på storleken på originalbilden och målupplösningen du väljer kan de flesta bilder bearbetas inom 10-30 sekunder.",
+        "question": "Hur lång tid tar bildförstoringen?"
+      },
+      {
+        "answer": "Image Upscaler stöder flera utdataformat, inklusive JPEG, PNG och WebP. Du kan välja det format som passar bäst för dina behov - PNG för bilder som kräver transparens, medan JPEG är bättre för foton och webbanvändning.",
+        "question": "Vilka utdataformat stöds?"
+      },
+      {
+        "answer": "Absolut! Image Upscaler är perfekt för kommersiell och professionell användning. För prenumeranter på betalda planer kan alla genererade bilder användas för kommersiella projekt, marknadsföringsmaterial, kundfinaliseringar och professionella applikationer. Detta gör det till ett idealiskt verktyg för professionella fotografer, designbyråer och företag.",
+        "question": "Kan Image Upscaler användas för kommersiella ändamål?"
+      }
+    ],
+    "subtitle": "Vanliga frågor om Image Upscaler AI-verktyget",
+    "title": "Vanliga frågor om Image Upscaler"
+  },
+  "features": {
+    "items": {
+      "ai-enhancement": {
+        "description": "Använd avancerad AI-teknologi för att automatiskt förbättra bilddetaljer, färger och kontrast, vilket gör dina foton mer professionella och levande.",
+        "title": "AI Smart Enhancement"
+      },
+      "batch": {
+        "description": "Stöd för batchbearbetning av flera bilder, vilket avsevärt förbättrar arbetseffektiviteten. Perfekt för fotografer och designers som behöver bearbeta stora mängder bilder.",
+        "title": "Batchbearbetning"
+      },
+      "formats": {
+        "description": "Stöd för flera utdataformat (JPEG, PNG, WebP), vilket ger dig möjlighet att flexibelt välja det mest lämpliga formatet enligt dina behov.",
+        "title": "Flera utdataformat"
+      },
+      "quality": {
+        "description": "Förstora dina bilder upp till 4K-upplösning (4096x4096), med bibehållet utmärkta detaljer och färgkorrekthet.",
+        "title": "4K Ultra HD-utdata"
+      },
+      "secure": {
+        "description": "Dina bilder är skyddade av företagsklassig kryptering och strikta integritetspolicyer. Vi kommer inte att dela eller använda dina bilder utan ditt uttryckliga samtycke.",
+        "title": "Företagsklassig säkerhet"
+      },
+      "speed": {
+        "description": "Snabb bearbetning - de flesta bilder förstoras inom några sekunder. Den effektiva AI-motorn säkerställer att du kan slutföra projekt snabbt.",
+        "title": "Snabb bearbetning"
+      }
+    },
+    "subtitle": "Kompletta bildförstoringsfunktioner drivna av avancerad AI-teknologi",
+    "title": "Image Upscaler-funktioner"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Börja gratis provperiod",
+      "secondary": "Läs mer"
+    },
+    "stats": {
+      "quality": {
+        "label": "Maximal upplösning",
+        "value": "4K UHD"
+      },
+      "speed": {
+        "label": "Genomsnittlig bearbetningstid",
+        "value": "< 10 sek"
+      },
+      "users": {
+        "label": "Nöjda användare",
+        "value": "50K+"
+      }
+    },
+    "subtitle": "Omvandla dina bilder till högkvalitativa 4K-versioner med AI-driven bildförstoringsteknologi",
+    "title": {
+      "line1": "Smart bildförstoring",
+      "line2": "4K högkvalitativ utdata"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Välj den bild du vill förstora. Stöder JPG, PNG och andra vanliga format. Du kan ladda upp från din dator, molnlagring eller ladda upp högkvalitativa bilder direkt.",
+        "title": "Ladda upp din bild"
+      },
+      "step2": {
+        "description": "Välj din målupplösning (2K eller 4K) och utdataformat (JPEG, PNG eller WebP). Justera AI-parametrar enligt dina specifika behov för optimala resultat.",
+        "title": "Välj förstoringsinställningar"
+      },
+      "step3": {
+        "description": "Klicka på \"Generera\"-knappen. Vår AI-motor börjar omedelbar analysera din bild och tillämpar smart förstoringsteknologi. De flesta bilder bearbetas inom 10 sekunder.",
+        "title": "AI startar förgrößeringen"
+      },
+      "step4": {
+        "description": "Förhandsgranska det förstorade resultatet. Nöjd med kvaliteten? Ladda ned högkvalitativbilden för omedelbar användning. Behöver justeringar? Ändra enkelt inställningarna och återskapa.",
+        "title": "Ladda ned din bild"
+      }
+    },
+    "subtitle": "Förstora dina bilder till 4K-upplösning i bara fyra enkla steg",
+    "title": "Hur man använder Image Upscaler"
+  },
+  "seo": {
+    "description": "Omvandla låglösningsbilder till högkvalitativa 4K-bilder med AI-driven bildförsteringsverktyg. Stöder batchbearbetning, flera format och företagsklassig säkerhet.",
+    "title": "AI Image Upscaler - Förstora bilder till 4K-upplösning"
+  },
+  "subtitle": "Förbättra och förstora dina bilder med avancerad AI-teknologi",
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Vår AI kan på ett intelligent sätt förstora dina bilder upp till 4096x4096 pixlar medan utmärkta detaljer och klarhet bevaras. Med hjälp av deep learning-teknologi för högkvalitativa förstoningsresultat, lämpliga för utskrift, stora skärmar och professionella applikationer.",
+        "title": "4K Ultra HD-förstoring"
+      },
+      "core2": {
+        "description": "Till skillnad från traditionell enkel skalning rekonstruerar och förbättrar vår AI på ett intelligent sätt bilddetaljer. Med hjälp av avancerad neuralt nätverk-teknologi förbättrar det automatiskt färger, kontrast och skärpa, vilket gör dina bilder mer professionella.",
+        "title": "Smart detalj-förbättring"
+      },
+      "core3": {
+        "description": "Stöd för flera utdataformat och flexibla förstoringalternativ. Du kan välja upplösningen, formatet och kvalitetsinställningarna som passar dina behov bäst, vilket ger optimala lösningar för olika användningsfall - från webbpublicering till högkvalitativ utskrift.",
+        "title": "Flexibla utdataalternativ"
+      }
+    },
+    "demoPlaceholder": "Bild förstorad av Image Upscaler",
+    "description": "Image Upscaler är ett avancerat AI-drivet bildförstoringverktyg utformat för fotografer, designers och innehållsskapare. Det använder den senaste deep learning-teknologin för att på ett intelligent sätt omvandla dina låglösningsbilder till högkvalitativa versioner med högre upplösning. Oavsett om du behöver optimera bilder för webben, förbereda tryckmaterial eller skapa professionellt innehåll, levererar Image Upscaler exceptionella resultat med blixtrande hastighet.",
+    "title": "Vad är Image Upscaler?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Jämfört med professionell retuscheringsprogramvara eller anställning av designers erbjuder Image Upscaler prisvärda prenumerationsplaner. Flexibla prisalternativ gör det tillgängligt för företag och privatpersoner i alla storlekar.",
+        "title": "Kostnadseffektiv lösning"
+      },
+      "flexibility": {
+        "description": "Experimentera snabbt med olika inställningar och utdataformat. Image Upscalers omedelbara bearbetningshastighet låter dig snabbt iterera för att hitta de bästa resultaten för ditt projekt.",
+        "title": "Flexibla justeringsalternativ"
+      },
+      "quality": {
+        "description": "Använd avancerad AI-teknologi för att uppnå 4K-kvalitetsförstoningsresultat. Dina bilder kommer att behålla ett naturligt utseende samtidigt som de får förbättrade detaljer och klarhet - lämpligt för professionella applikationer och kommersiella projekt.",
+        "title": "Bildkvalitet i professionell klass"
+      },
+      "security": {
+        "description": "Dina bilder och integritet är skyddade av företagsklassig kryptering. Vi följer internationella dataskyddsstandarder och garanterar absolut säkerhet för ditt kreativa arbete.",
+        "title": "Företagsklassig säkerhet och integritet"
+      },
+      "speed": {
+        "description": "De flesta bilder förstoras inom 10 sekunder. Image Upscalers effektiva AI-motor säkerställer att du kan slutföra projekt snabbt utan långa väntetider.",
+        "title": "Blixtsnabb bearbetningshastighet"
+      },
+      "support": {
+        "description": "Få professionell teknisk support och omfattande användarguider. Vårt team är dedikerat att hjälpa dig att få ut det mesta av alla Image Upscaler-funktioner.",
+        "title": "Kvalitativ teknisk support"
+      }
+    },
+    "comparison": {
+      "product": {
+        "title": "Image Upscaler AI-verktyg",
+        "item1": "Använd AI för att förstora bilder till 4K-upplösning på sekunder",
+        "item2": "Inga professionella färdigheter krävs - enkelt och användarvänligt gränssnitt",
+        "item3": "Prisvärt pris med flexibla betalningsalternativ",
+        "item4": "Snabb iteration och omedelbar förhandsgranskning av resultat"
+      },
+      "traditional": {
+        "title": "Traditionella bildförstoringmetoder",
+        "item1": "Traditionella förstoringmetoder orsakar bildoskärpa och kvalitetsförlust",
+        "item2": "Kräver dyr professionell bildredigeringsprogramvara och teknisk kunskap",
+        "item3": "Manuell redigering kräver betydande tid- och penginvestering",
+        "item4": "Svårt att bibehålla naturligt utseende och detaljer"
+      }
+    },
+    "subtitle": "Image Upscaler utnyttjar den senaste AI-teknologin för att överträffa traditionella bildförstoringmetoder när det gäller prestanda och användarvänlighet, vilket ger resultat i professionell klass.",
+    "title": "Varför väljer Image Upscaler"
+  },
+  "title": "AI Image Upscaler - Förbättra bilder till 4K"
+}

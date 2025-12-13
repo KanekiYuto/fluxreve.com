@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { usePathname } from '@/i18n/routing';
 import { signIn } from '@/lib/auth-client';
 
 interface SignInButtonProps {
@@ -11,12 +12,15 @@ interface SignInButtonProps {
 // Google 登录按钮组件
 export default function SignInButton({ className, children }: SignInButtonProps) {
   const t = useTranslations('auth');
+  const pathname = usePathname();
 
   const handleGoogleSignIn = async () => {
     try {
+      // 登录成功后重定向到当前页面，如果是首页则重定向到 /ai-generator
+      const callbackURL = pathname === '/' ? '/ai-generator' : pathname;
       await signIn.social({
         provider: 'google',
-        callbackURL: '/', // 登录成功后跳转到仪表板
+        callbackURL,
       });
     } catch (error) {
       console.error('Login failed:', error);

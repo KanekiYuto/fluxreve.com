@@ -33,6 +33,8 @@
     "quota": "할당량",
     "seedreamV45": "Seedream 4.5",
     "seedreamV45Desc": "ByteDance 2K HD 이미지 생성",
+    "image-upscaler": "이미지 확대",
+    "imageUpscalerDesc": "AI를 사용하여 이미지를 4K 해상도로 향상",
     "settings": "설정",
     "subscription": "구독",
     "tasks": "역사",

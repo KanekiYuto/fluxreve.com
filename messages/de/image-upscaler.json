@@ -1,0 +1,187 @@
+{
+  "cta": {
+    "note": "Keine Kreditkarte erforderlich • Mehrere Bilder hochskalieren • Schnelle Verarbeitung",
+    "primary": "Kostenlose Bildvergrößerung starten",
+    "secondary": "Preispläne anzeigen",
+    "subtitle": "Schließen Sie sich Tausenden von Fachleuten an, die Image Upscaler AI nutzen, um Ihre niedrig auflösenden Bilder in hochwertige 4K-Bilder zu verwandeln. Perfekt für Fotografie, Design, Marketing und kreative Projekte.",
+    "title": "Verbessern Sie Ihre Bildqualität mit AI Image Upscaler"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Image Upscaler ist ein fortschrittliches KI-gestütztes Bildvergrößerungstool, das Ihre Bilder intelligent vergrößert und dabei Details verbessert. Mit Hilfe von Deep-Learning-Technologie wandelt es niedrig aufgelöste Bilder in hochwertige, hochauflösende Versionen um und bewahrt dabei das natürliche Aussehen und die Details. Dieses Tool ist besonders für Fotografen, Designer und Content Creator geeignet.",
+        "question": "Was ist Image Upscaler? Wie funktioniert es?"
+      },
+      {
+        "answer": "Image Upscaler unterstützt die Vergrößerung von Bildern auf 2K- und 4K-Auflösung. Egal ob Ihr Originalbild 1024x1024 oder 512x512 ist, unsere KI kann die Größe intelligent erhöhen und die Bildqualität verbessern, so dass es sich für den Druck, große Displays oder Anforderungen mit hoher Auflösung eignet.",
+        "question": "Welche maximale Auflösung kann Image Upscaler erreichen?"
+      },
+      {
+        "answer": "Ja! Image Upscaler kann verschiedene Arten von Bildern verbessern, darunter Fotos, Illustrationen, digitale Kunst und gescannte Dokumente. Ob persönliche Fotos, professionelle Fotografie oder Kunstwerke - unsere KI kann Qualität und Auflösung effektiv verbessern.",
+        "question": "Welche Arten von Bildern kann Image Upscaler verarbeiten?"
+      },
+      {
+        "answer": "Der Vergrößerungsprozess ist sehr schnell und wird normalerweise in wenigen Sekunden abgeschlossen. Je nach Größe des Originalbildes und der von Ihnen gewählten Zielauflösung können die meisten Bilder in 10-30 Sekunden verarbeitet werden.",
+        "question": "Wie lange dauert die Bildvergrößerung?"
+      },
+      {
+        "answer": "Image Upscaler unterstützt mehrere Ausgabeformate, darunter JPEG, PNG und WebP. Sie können das für Ihre Anforderungen am besten geeignete Format wählen - PNG für Bilder, die Transparenz benötigen, während JPEG besser für Fotos und die Webnutzung geeignet ist.",
+        "question": "Welche Ausgabeformate werden unterstützt?"
+      },
+      {
+        "answer": "Absolut! Image Upscaler ist perfekt für kommerzielle und professionelle Nutzung. Für Abonnenten von kostenpflichtigen Plänen können alle generierten Bilder für kommerzielle Projekte, Marketingmaterialien, Kundenlieferungen und professionelle Anwendungen verwendet werden. Dies macht es zu einem idealen Tool für professionelle Fotografen, Design-Agenturen und Unternehmen.",
+        "question": "Kann Image Upscaler für kommerzielle Zwecke verwendet werden?"
+      }
+    ],
+    "subtitle": "Häufig gestellte Fragen zum Image Upscaler AI-Tool",
+    "title": "Image Upscaler Häufig gestellte Fragen"
+  },
+  "features": {
+    "items": {
+      "ai-enhancement": {
+        "description": "Nutzen Sie fortschrittliche KI-Technologie, um Bilddetails, Farben und Kontraste automatisch zu verbessern und Ihre Fotos professioneller und lebendiger wirken zu lassen.",
+        "title": "KI Smart Enhancement"
+      },
+      "batch": {
+        "description": "Unterstützen Sie die Stapelverarbeitung mehrerer Bilder und verbessern Sie die Arbeitseffizienz erheblich. Perfekt für Fotografen und Designer, die große Mengen an Bildern verarbeiten müssen.",
+        "title": "Stapelverarbeitung"
+      },
+      "formats": {
+        "description": "Unterstützen Sie mehrere Ausgabeformate (JPEG, PNG, WebP) und ermöglichen Sie Ihnen, flexibel das am besten geeignete Format für Ihre Anforderungen zu wählen.",
+        "title": "Mehrere Ausgabeformate"
+      },
+      "quality": {
+        "description": "Vergrößern Sie Ihre Bilder auf bis zu 4K-Auflösung (4096x4096) und behalten Sie dabei hervorragende Details und Farbgenauigkeit.",
+        "title": "4K Ultra HD Ausgabe"
+      },
+      "secure": {
+        "description": "Ihre Bilder sind durch Enterprise-Grade-Verschlüsselung und strenge Datenschutzrichtlinien geschützt. Wir werden Ihre Bilder nicht ohne Ihre ausdrückliche Genehmigung teilen oder verwenden.",
+        "title": "Enterprise-Grade-Sicherheit"
+      },
+      "speed": {
+        "description": "Schnelle Verarbeitung - die meisten Bilder werden in Sekunden vergrößert. Die effiziente KI-Engine stellt sicher, dass Sie Projekte schnell abschließen können.",
+        "title": "Schnelle Verarbeitung"
+      }
+    },
+    "subtitle": "Komplette Bildvergrößerungsfunktionen, powered von fortschrittlicher KI-Technologie",
+    "title": "Image Upscaler Funktionen"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Kostenlose Testversion starten",
+      "secondary": "Mehr erfahren"
+    },
+    "stats": {
+      "quality": {
+        "label": "Maximale Auflösung",
+        "value": "4K UHD"
+      },
+      "speed": {
+        "label": "Durchschnittliche Verarbeitungszeit",
+        "value": "< 10 Sek"
+      },
+      "users": {
+        "label": "Zufriedene Benutzer",
+        "value": "50K+"
+      }
+    },
+    "subtitle": "Verwandeln Sie Ihre Bilder in hochwertige 4K-Versionen mit KI-gestützter Bildvergrößerungstechnologie",
+    "title": {
+      "line1": "Intelligente Bildvergrößerung",
+      "line2": "4K hochwertige Ausgabe"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Wählen Sie das Bild aus, das Sie vergrößern möchten. Unterstützt JPG, PNG und andere gängige Formate. Sie können von Ihrem Computer, Cloud-Speicher hochladen oder direkt hochwertige Bilder hochladen.",
+        "title": "Laden Sie Ihr Bild hoch"
+      },
+      "step2": {
+        "description": "Wählen Sie Ihre Zielauflösung (2K oder 4K) und das Ausgabeformat (JPEG, PNG oder WebP). Passen Sie KI-Parameter nach Ihren spezifischen Anforderungen an, um optimale Ergebnisse zu erhalten.",
+        "title": "Wählen Sie Vergrößerungseinstellungen"
+      },
+      "step3": {
+        "description": "Klicken Sie auf die Schaltfläche \"Generieren\". Unsere KI-Engine beginnt sofort mit der Analyse Ihres Bildes und wendet intelligente Vergrößerungstechnologie an. Die meisten Bilder werden in 10 Sekunden verarbeitet.",
+        "title": "KI startet die Vergrößerung"
+      },
+      "step4": {
+        "description": "Zeigen Sie das vergrößerte Ergebnis an. Zufrieden mit der Qualität? Laden Sie das hochwertige Bild zur sofortigen Nutzung herunter. Benötigen Sie Anpassungen? Ändern Sie einfach die Einstellungen und generieren Sie erneut.",
+        "title": "Laden Sie Ihr Bild herunter"
+      }
+    },
+    "subtitle": "Vergrößern Sie Ihre Bilder in nur vier einfachen Schritten auf 4K-Auflösung",
+    "title": "Wie man Image Upscaler verwendet"
+  },
+  "seo": {
+    "description": "Verwandeln Sie niedrig aufgelöste Bilder in hochwertige 4K-Bilder mit KI-gestütztem Bildvergrößerungstool. Unterstützt Stapelverarbeitung, mehrere Formate und Enterprise-Grade-Sicherheit.",
+    "title": "AI Image Upscaler - Bilder auf 4K-Auflösung hochskalieren"
+  },
+  "subtitle": "Verbessern und vergrößern Sie Ihre Bilder mit fortschrittlicher KI-Technologie",
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Unsere KI kann Ihre Bilder intelligent auf bis zu 4096x4096 Pixel vergrößern und dabei hervorragende Details und Klarheit bewahren. Mit Deep-Learning-Technologie für hochwertige Vergrößerungsergebnisse, geeignet für Druck, große Displays und professionelle Anwendungen.",
+        "title": "4K Ultra HD Vergrößerung"
+      },
+      "core2": {
+        "description": "Im Gegensatz zur traditionellen einfachen Skalierung rekonstruiert und verbessert unsere KI intelligent die Bilddetails. Mit fortschrittlicher neuronaler Netzwerktechnologie verbessert sie automatisch Farben, Kontrast und Schärfe und macht Ihre Bilder professioneller.",
+        "title": "Intelligente Detail-Verbesserung"
+      },
+      "core3": {
+        "description": "Unterstützen Sie mehrere Ausgabeformate und flexible Vergrößerungsoptionen. Sie können die für Ihre Anforderungen am besten geeignete Auflösung, Format und Qualitätseinstellungen wählen und optimale Lösungen für verschiedene Zwecke bieten - von der Webveröffentlichung bis zum hochwertigen Druck.",
+        "title": "Flexible Ausgabeoptionen"
+      }
+    },
+    "demoPlaceholder": "Von Image Upscaler vergrößertes Bild",
+    "description": "Image Upscaler ist ein fortschrittliches KI-gestütztes Bildvergrößerungstool, das für Fotografen, Designer und Content Creator konzipiert ist. Es nutzt die neueste Deep-Learning-Technologie, um Ihre niedrig aufgelösten Bilder intelligent in hochwertige, hochauflösende Versionen umzuwandeln. Egal ob Sie Bilder für das Web optimieren, Druckmaterialien vorbereiten oder professionelle Inhalte erstellen - Image Upscaler liefert mit erstaunlicher Geschwindigkeit außergewöhnliche Ergebnisse.",
+    "title": "Was ist Image Upscaler?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Im Vergleich zu professioneller Retuschsoftware oder der Einstellung von Designern bietet Image Upscaler erschwingliche Abonnementpläne. Flexible Preisoptionen machen es für Unternehmen und Privatpersonen aller Größen zugänglich.",
+        "title": "Kosteneffiziente Lösung"
+      },
+      "flexibility": {
+        "description": "Experimentieren Sie schnell mit verschiedenen Einstellungen und Ausgabeformaten. Die sofortige Verarbeitungsgeschwindigkeit von Image Upscaler ermöglicht es Ihnen, schnell zu iterieren, um die besten Ergebnisse für Ihr Projekt zu finden.",
+        "title": "Flexible Anpassungsoptionen"
+      },
+      "quality": {
+        "description": "Nutzen Sie fortschrittliche KI-Technologie, um 4K-Qualitäts-Vergrößerungsergebnisse zu erzielen. Ihre Bilder behalten ein natürliches Aussehen, während sie verbesserte Details und Klarheit gewinnen - geeignet für professionelle Anwendungen und kommerzielle Projekte.",
+        "title": "Bildqualität in professionellem Standard"
+      },
+      "security": {
+        "description": "Ihre Bilder und Datenschutz sind durch Enterprise-Grade-Verschlüsselung geschützt. Wir befolgen internationale Datenschutzstandards und gewährleisten absolute Sicherheit Ihrer kreativen Arbeiten.",
+        "title": "Enterprise-Grade-Sicherheit und Datenschutz"
+      },
+      "speed": {
+        "description": "Die meisten Bilder werden in 10 Sekunden vergrößert. Die effiziente KI-Engine von Image Upscaler stellt sicher, dass Sie Projekte schnell abschließen können, ohne lange Wartezeiten.",
+        "title": "Blitzschnelle Verarbeitungsgeschwindigkeit"
+      },
+      "support": {
+        "description": "Erhalten Sie professionellen technischen Support und umfassende Nutzungsanleitungen. Unser Team ist bestrebt, Ihnen zu helfen, alle Image Upscaler-Funktionen optimal zu nutzen.",
+        "title": "Qualitativ hochwertiger technischer Support"
+      }
+    },
+    "comparison": {
+      "product": {
+        "title": "Image Upscaler AI-Tool",
+        "item1": "Verwenden Sie KI, um Bilder in Sekunden auf 4K-Auflösung hochzuskalieren",
+        "item2": "Keine professionellen Fähigkeiten erforderlich - einfach und benutzerfreundlich",
+        "item3": "Erschwingliche Preise mit flexiblen Zahlungsoptionen",
+        "item4": "Schnelle Iteration und sofortige Vorschau der Ergebnisse"
+      },
+      "traditional": {
+        "title": "Traditionelle Bildvergrößerungsmethoden",
+        "item1": "Traditionelle Vergrößerungsmethoden führen zu Bildunschärfe und Qualitätsverlust",
+        "item2": "Erfordert teure professionelle Bildbearbeitungssoftware und technische Kenntnisse",
+        "item3": "Manuelle Bearbeitung erfordert erhebliche Zeit- und Geldinvestitionen",
+        "item4": "Es ist schwierig, ein natürliches Aussehen und Details zu bewahren"
+      }
+    },
+    "subtitle": "Image Upscaler nutzt die neueste KI-Technologie, um traditionelle Bildvergrößerungsmethoden in Leistung und Benutzerfreundlichkeit zu übertreffen und professionelle Ergebnisse zu liefern.",
+    "title": "Warum Image Upscaler wählen"
+  },
+  "title": "AI Image Upscaler - Bilder auf 4K verbessern"
+}

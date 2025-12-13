@@ -29,6 +29,24 @@ const disallowPaths = [
   '/task/', // 用户私有任务详情页
 ];
 
+// 高价值语言配置（按消费能力和市场价值排序）
+const highValueLocales = {
+  en: 0.90,       // 英文 - 默认语言，全球消费能力最强
+  de: 0.86,       // 德语 - 欧洲经济强国，消费能力高
+  fr: 0.85,       // 法语 - 欧洲和非洲市场，消费能力高
+  es: 0.83,       // 西班牙语 - 西班牙和拉美市场，消费能力中等偏高
+  it: 0.82,       // 意大利语 - 欧洲发达国家，消费能力高
+  sv: 0.81,       // 瑞典语 - 北欧富裕国家，人均消费能力最强
+  no: 0.81,       // 挪威语 - 北欧富裕国家，人均消费能力最强
+  da: 0.80,       // 丹麦语 - 北欧富裕国家，人均消费能力强
+  fi: 0.80,       // 芬兰语 - 北欧富裕国家，人均消费能力强
+  ar: 0.72,       // 阿拉伯语 - 中东市场，消费能力中等
+  ja: 0.70,       // 日语 - 日本市场，消费能力强但市场饱和
+  ko: 0.68,       // 韩语 - 韩国市场，消费能力较强
+  'zh-TW': 0.62,  // 繁体中文 - 台湾、香港市场，消费能力较强
+  'zh-CN': 0.60,  // 简体中文 - 中国市场，最低权重
+};
+
 // 静态页面路由
 const staticRoutes = [
   '', // 首页
@@ -43,6 +61,7 @@ const staticRoutes = [
   '/z-image',
   '/flux-2-pro',
   '/seedream-v45',
+  '/image-upscaler',
 ];
 
 // 从预生成的 JSON 文件读取公开分享的任务链接
@@ -107,10 +126,13 @@ module.exports = {
           ? route || '/'
           : `/${locale}${route}`;
 
+        // 根据语言获取对应的权重，默认为 0.6
+        const localePriority = highValueLocales[locale] || 0.6;
+
         paths.push({
           loc: path,
           changefreq: isHome ? 'daily' : 'weekly',
-          priority: isHome ? 1.0 : 0.8,
+          priority: isHome ? 1.0 : localePriority,
           lastmod: new Date().toISOString(),
         });
       });

@@ -22,6 +22,8 @@
     "flux2ProDesc": "Professional dual-mode AI image generation",
     "seedreamV45": "Seedream 4.5",
     "seedreamV45Desc": "ByteDance 2K HD image generation",
+    "image-upscaler": "Image Upscaler",
+    "imageUpscalerDesc": "Enhance images to 4K resolution with AI",
     "explore": "Creative Community",
     "dashboard": "Dashboard",
     "tasks": "History",

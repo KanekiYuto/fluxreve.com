@@ -1,0 +1,187 @@
+{
+  "cta": {
+    "note": "Sin tarjeta de crédito requerida • Amplíe múltiples imágenes • Procesamiento rápido",
+    "primary": "Comience la ampliación gratuita de imágenes",
+    "secondary": "Ver planes de precios",
+    "subtitle": "Únase a miles de profesionales que utilizan Image Upscaler AI para transformar sus imágenes de baja resolución en imágenes 4K de alta calidad. Perfecto para fotografía, diseño, marketing y proyectos creativos.",
+    "title": "Mejore la calidad de sus imágenes con AI Image Upscaler"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Image Upscaler es una herramienta avanzada de ampliación de imágenes impulsada por IA que amplía inteligentemente sus imágenes mientras mejora los detalles. Utilizando la tecnología de aprendizaje profundo, transforma imágenes de baja resolución en versiones de alta calidad y alta resolución manteniendo una apariencia natural y detallada. Esta herramienta es especialmente adecuada para fotógrafos, diseñadores y creadores de contenido.",
+        "question": "¿Qué es Image Upscaler? ¿Cómo funciona?"
+      },
+      {
+        "answer": "Image Upscaler admite ampliar imágenes a resolución 2K y 4K. Ya sea que su imagen original sea 1024x1024 o 512x512, nuestra IA puede aumentar inteligentemente el tamaño y mejorar la calidad de la imagen, haciéndola adecuada para impresión, pantallas grandes o requisitos de alta resolución.",
+        "question": "¿Cuál es la resolución máxima que puede lograr Image Upscaler?"
+      },
+      {
+        "answer": "¡Sí! Image Upscaler puede mejorar varios tipos de imágenes, incluidas fotos, ilustraciones, arte digital y documentos escaneados. Ya sean fotos personales, fotografía profesional u obras de arte, nuestra IA puede mejorar efectivamente la calidad y la resolución.",
+        "question": "¿Qué tipos de imágenes puede procesar Image Upscaler?"
+      },
+      {
+        "answer": "El proceso de ampliación es muy rápido, generalmente se completa en segundos. Dependiendo del tamaño de la imagen original y la resolución objetivo que elija, la mayoría de las imágenes se pueden procesar en 10-30 segundos.",
+        "question": "¿Cuánto tiempo tarda la ampliación de imágenes?"
+      },
+      {
+        "answer": "Image Upscaler admite múltiples formatos de salida, incluidos JPEG, PNG y WebP. Puede elegir el formato más apropiado según sus necesidades: PNG para imágenes que requieren transparencia, mientras que JPEG es mejor para fotos y uso web.",
+        "question": "¿Qué formatos de salida se admiten?"
+      },
+      {
+        "answer": "¡Absolutamente! Image Upscaler es perfecto para uso comercial y profesional. Para los suscriptores de planes pagados, todas las imágenes generadas se pueden usar para proyectos comerciales, materiales de marketing, entregas de clientes y aplicaciones profesionales. Esto lo convierte en una herramienta ideal para fotógrafos profesionales, agencias de diseño y empresas.",
+        "question": "¿Se puede usar Image Upscaler con fines comerciales?"
+      }
+    ],
+    "subtitle": "Preguntas frecuentes sobre la herramienta AI Image Upscaler",
+    "title": "Preguntas frecuentes sobre Image Upscaler"
+  },
+  "features": {
+    "items": {
+      "ai-enhancement": {
+        "description": "Aproveche la tecnología de IA avanzada para mejorar automáticamente los detalles, colores y contraste de la imagen, haciendo que sus fotos se vean más profesionales y vibrantes.",
+        "title": "Mejora inteligente con IA"
+      },
+      "batch": {
+        "description": "Admite el procesamiento por lotes de múltiples imágenes, mejorando significativamente la eficiencia del trabajo. Perfecto para fotógrafos y diseñadores que necesitan procesar grandes cantidades de imágenes.",
+        "title": "Procesamiento por lotes"
+      },
+      "formats": {
+        "description": "Admite múltiples formatos de salida (JPEG, PNG, WebP), permitiéndole elegir flexiblemente el formato más apropiado según sus necesidades.",
+        "title": "Múltiples formatos de salida"
+      },
+      "quality": {
+        "description": "Amplíe sus imágenes hasta la resolución 4K (4096x4096), manteniendo un detalle y precisión de color excelentes.",
+        "title": "Salida 4K Ultra HD"
+      },
+      "secure": {
+        "description": "Sus imágenes están protegidas por cifrado de nivel empresarial y políticas de privacidad estrictas. No compartiremos ni usaremos sus imágenes sin su permiso explícito.",
+        "title": "Seguridad de nivel empresarial"
+      },
+      "speed": {
+        "description": "Procesamiento rápido: la mayoría de las imágenes se amplían en segundos. El motor de IA eficiente garantiza que pueda completar proyectos rápidamente.",
+        "title": "Procesamiento rápido"
+      }
+    },
+    "subtitle": "Características completas de ampliación de imágenes impulsadas por tecnología IA avanzada",
+    "title": "Características de Image Upscaler"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Comenzar prueba gratuita",
+      "secondary": "Más información"
+    },
+    "stats": {
+      "quality": {
+        "label": "Resolución máxima",
+        "value": "4K UHD"
+      },
+      "speed": {
+        "label": "Tiempo de procesamiento promedio",
+        "value": "< 10 seg"
+      },
+      "users": {
+        "label": "Usuarios satisfechos",
+        "value": "50K+"
+      }
+    },
+    "subtitle": "Transforme sus imágenes en versiones 4K de alta calidad utilizando tecnología de ampliación de imágenes impulsada por IA",
+    "title": {
+      "line1": "Ampliación inteligente de imágenes",
+      "line2": "Salida 4K de alta calidad"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Seleccione la imagen que desea ampliar. Admite JPG, PNG y otros formatos comunes. Puede cargar desde su computadora, almacenamiento en la nube o cargar directamente imágenes de alta calidad.",
+        "title": "Cargue su imagen"
+      },
+      "step2": {
+        "description": "Elija su resolución objetivo (2K o 4K) y formato de salida (JPEG, PNG o WebP). Ajuste los parámetros de IA según sus necesidades específicas para obtener los mejores resultados.",
+        "title": "Seleccione la configuración de ampliación"
+      },
+      "step3": {
+        "description": "Haga clic en el botón \"Generar\". Nuestro motor de IA comenzará inmediatamente a analizar su imagen y aplicará tecnología de ampliación inteligente. La mayoría de las imágenes se procesan en 10 segundos.",
+        "title": "La IA comienza la ampliación"
+      },
+      "step4": {
+        "description": "Vista previa del resultado ampliado. ¿Satisfecho con la calidad? Descargue la imagen de alta calidad para uso inmediato. ¿Necesita ajustes? Simplemente modifique la configuración y regenere.",
+        "title": "Descargue su imagen"
+      }
+    },
+    "subtitle": "Amplíe sus imágenes a 4K de resolución en solo cuatro pasos simples",
+    "title": "Cómo utilizar Image Upscaler"
+  },
+  "seo": {
+    "description": "Transforme imágenes de baja resolución en imágenes 4K de alta calidad utilizando la herramienta de ampliación de imágenes impulsada por IA. Admite procesamiento por lotes, múltiples formatos y seguridad de nivel empresarial.",
+    "title": "AI Image Upscaler - Amplíe imágenes a 4K de resolución"
+  },
+  "subtitle": "Mejore y amplíe sus imágenes utilizando tecnología de IA avanzada",
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Nuestra IA puede ampliar inteligentemente sus imágenes hasta 4096x4096 píxeles manteniendo un detalle y claridad excelentes. Utilizando la tecnología de aprendizaje profundo para lograr resultados de ampliación de alta calidad, adecuado para impresión, pantallas grandes y aplicaciones profesionales.",
+        "title": "Ampliación 4K Ultra HD"
+      },
+      "core2": {
+        "description": "A diferencia del escalado simple tradicional, nuestra IA reconstruye y mejora inteligentemente los detalles de la imagen. Utilizando la tecnología avanzada de redes neuronales, mejora automáticamente los colores, el contraste y la nitidez, haciendo que sus imágenes se vean más profesionales.",
+        "title": "Mejora inteligente de detalles"
+      },
+      "core3": {
+        "description": "Admite múltiples formatos de salida y opciones de ampliación flexibles. Puede elegir la resolución, el formato y la configuración de calidad más apropiados para sus necesidades, proporcionando soluciones óptimas para diversos usos: desde publicación web hasta impresión de alta calidad.",
+        "title": "Opciones de salida flexibles"
+      }
+    },
+    "demoPlaceholder": "Imagen ampliada por Image Upscaler",
+    "description": "Image Upscaler es una herramienta avanzada de ampliación de imágenes impulsada por IA diseñada para fotógrafos, diseñadores y creadores de contenido. Utiliza la última tecnología de aprendizaje profundo para transformar inteligentemente sus imágenes de baja resolución en versiones de alta calidad y alta resolución. Ya sea que necesite optimizar imágenes para la web, preparar materiales de impresión o crear contenido profesional, Image Upscaler ofrece resultados excepcionales a una velocidad asombrosa.",
+    "title": "¿Qué es Image Upscaler?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "En comparación con software de retoque profesional o contratación de diseñadores, Image Upscaler ofrece planes de suscripción asequibles. Las opciones de precios flexibles lo hacen accesible para empresas e individuos de todos los tamaños.",
+        "title": "Solución económica"
+      },
+      "flexibility": {
+        "description": "Experimente rápidamente con diferentes configuraciones y formatos de salida. La velocidad de procesamiento instantáneo de Image Upscaler le permite iterar rápidamente para encontrar los mejores resultados para su proyecto.",
+        "title": "Opciones de ajuste flexible"
+      },
+      "quality": {
+        "description": "Aproveche la tecnología de IA avanzada para lograr resultados de ampliación de calidad 4K. Sus imágenes mantendrán una apariencia natural mientras ganan detalle y claridad mejorados: adecuado para aplicaciones profesionales y proyectos comerciales.",
+        "title": "Calidad de imagen de nivel profesional"
+      },
+      "security": {
+        "description": "Sus imágenes y privacidad están protegidas por cifrado de nivel empresarial. Cumplimos con los estándares internacionales de protección de datos, garantizando una seguridad absoluta de su trabajo creativo.",
+        "title": "Seguridad y privacidad de nivel empresarial"
+      },
+      "speed": {
+        "description": "La mayoría de las imágenes se amplían en 10 segundos. El motor de IA eficiente de Image Upscaler garantiza que pueda completar proyectos rápidamente sin tiempos de espera prolongados.",
+        "title": "Velocidad de procesamiento ultrarrápida"
+      },
+      "support": {
+        "description": "Obtenga soporte técnico profesional y guías de uso completas. Nuestro equipo se dedica a ayudarle a aprovechar al máximo todas las características de Image Upscaler.",
+        "title": "Soporte técnico de calidad"
+      }
+    },
+    "comparison": {
+      "product": {
+        "title": "Herramienta Image Upscaler AI",
+        "item1": "Use IA para ampliar imágenes a 4K de resolución en segundos",
+        "item2": "Sin habilidades profesionales requeridas - interfaz simple y fácil de usar",
+        "item3": "Precios asequibles con opciones de pago flexibles",
+        "item4": "Iteración rápida y vista previa instantánea de resultados"
+      },
+      "traditional": {
+        "title": "Métodos tradicionales de ampliación de imágenes",
+        "item1": "Los métodos de ampliación tradicionales causan desenfoque de imagen y pérdida de calidad",
+        "item2": "Requiere software de edición de imágenes profesional costoso y conocimientos técnicos",
+        "item3": "La edición manual requiere una inversión significativa de tiempo y dinero",
+        "item4": "Difícil de mantener la apariencia natural y los detalles"
+      }
+    },
+    "subtitle": "Image Upscaler aprovecha la última tecnología de IA para superar los métodos tradicionales de ampliación de imágenes en rendimiento y facilidad de uso, proporcionando resultados de nivel profesional.",
+    "title": "¿Por qué elegir Image Upscaler?"
+  },
+  "title": "AI Image Upscaler - Mejore imágenes a 4K"
+}

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
+import { usePathname } from '@/i18n/routing';
 import { Link } from '@/i18n/routing';
 import { signIn } from '@/lib/auth-client';
 import { useCachedSession } from '@/hooks/useCachedSession';
@@ -13,6 +14,7 @@ interface LoginModalProps {
 
 export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
   const t = useTranslations('auth');
+  const pathname = usePathname();
   const { data: session } = useCachedSession();
   const [isLoading, setIsLoading] = useState(false);
 
@@ -34,9 +36,11 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
   const handleGoogleSignIn = async () => {
     try {
       setIsLoading(true);
+      // 登录成功后重定向到当前页面，如果是首页则重定向到 /ai-generator
+      const callbackURL = pathname === '/' ? '/ai-generator' : pathname;
       await signIn.social({
         provider: 'google',
-        callbackURL: '/',
+        callbackURL,
       });
     } catch (error) {
       console.error('Login failed:', error);

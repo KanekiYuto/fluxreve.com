@@ -43,6 +43,7 @@ export const headerNavigation: HeaderNavEntry[] = [
       { name: 'z-image', href: '/z-image', icon: 'zap', description: 'zImageDesc' },
       { name: 'flux-2-pro', href: '/flux-2-pro', icon: 'sparkles', description: 'flux2ProDesc' },
       { name: 'seedreamV45', href: '/seedream-v45', icon: 'sparkles', description: 'seedreamV45Desc' },
+      { name: 'image-upscaler', href: '/image-upscaler', icon: 'sparkles', description: 'imageUpscalerDesc' },
     ],
   },
   { type: 'link', name: 'explore', href: '/explore' },
@@ -91,6 +92,7 @@ export const navigationGroups: NavGroup[] = [
       { name: 'z-image', href: '/z-image', icon: 'sparkles' },
       { name: 'flux-2-pro', href: '/flux-2-pro', icon: 'sparkles' },
       { name: 'seedreamV45', href: '/seedream-v45', icon: 'sparkles' },
+      { name: 'image-upscaler', href: '/image-upscaler', icon: 'sparkles' },
     ],
   },
   {
@@ -133,6 +135,7 @@ export const footerSections: FooterSection[] = [
       { name: 'z-image', href: '/z-image' },
       { name: 'flux-2-pro', href: '/flux-2-pro' },
       { name: 'seedreamV45', href: '/seedream-v45' },
+      { name: 'image-upscaler', href: '/image-upscaler' },
     ],
   },
   {
