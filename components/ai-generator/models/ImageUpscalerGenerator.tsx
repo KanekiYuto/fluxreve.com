@@ -18,9 +18,9 @@ interface ImageUpscalerGeneratorProps {
 // ==================== 常量配置 ====================
 
 const RESOLUTION_OPTIONS = [
-  { value: '1k', label: '1K' },
   { value: '2k', label: '2K' },
   { value: '4k', label: '4K' },
+  { value: '8k', label: '8K' },
 ];
 
 const OUTPUT_FORMAT_OPTIONS = [
@@ -51,7 +51,7 @@ export default function ImageUpscalerGenerator({
 
   // 表单状态
   const [inputImages, setInputImages] = useState<ImageItem[]>([]);
-  const [targetResolution, setTargetResolution] = useState('1k');
+  const [targetResolution, setTargetResolution] = useState('2k');
   const [outputFormat, setOutputFormat] = useState('jpeg');
   const [isPrivate, setIsPrivate] = useState(false);
 

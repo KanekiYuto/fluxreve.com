@@ -5,7 +5,7 @@ import { standardizeResponse } from '@/lib/ai-generator/response-standardizer';
 // 请求参数接口
 interface ImageUpscalerRequest {
   image: string; // 图片 URL
-  target_resolution: 'auto' | '1k' | '2k' | '4k';
+  target_resolution: '2k' | '4k' | '8k';
   output_format?: 'jpeg' | 'png' | 'webp';
   enable_base64_output?: boolean;
 }
@@ -47,7 +47,7 @@ export async function POST(request: NextRequest) {
       }
 
       // 验证分辨率格式
-      const validResolutions = ['auto', '1k', '2k', '4k'];
+      const validResolutions = ['2k', '4k', '8k'];
       if (!validResolutions.includes(target_resolution)) {
         return NextResponse.json(
           {

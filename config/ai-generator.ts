@@ -201,11 +201,11 @@ function calculateImageUpscalerCredits(model: string, parameters: Record<string,
   const { target_resolution } = parameters;
 
   switch (target_resolution) {
-    case '4k':
+    case '8k':
       return 20;
-    case '2k':
+    case '4k':
       return 15;
-    case '1k':
+    case '2k':
     default:
       return 10;
   }
