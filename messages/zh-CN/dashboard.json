@@ -10,7 +10,7 @@
       "projects": "项目管理",
       "projectsDesc": "组织和管理所有创意项目",
       "quota": "使用配额",
-      "quotaDesc": "跟踪您的发电配额和使用历史"
+      "quotaDesc": "跟踪您的生成配额和使用历史"
     },
     "title": "登录以访问您的控制面板"
   },
@@ -35,7 +35,7 @@
     },
     "loading": "正在加载...",
     "subtitle": "仅显示过去一周的内容",
-    "title": "最近几代人",
+    "title": "最近生成",
     "viewAll": "查看全部"
   },
   "seo": {
@@ -47,7 +47,7 @@
     "projects": "项目总数",
     "quota": {
       "expires": "到期",
-      "remaining": "剩余发电配额",
+      "remaining": "剩余配额",
       "unlimited": "无限生成配额"
     },
     "templates": "创建的模板"

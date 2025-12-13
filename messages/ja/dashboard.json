@@ -10,7 +10,7 @@
       "projects": "プロジェクト管理",
       "projectsDesc": "クリエイティブなプロジェクトを整理・管理",
       "quota": "利用枠",
-      "quotaDesc": "世代クォータと使用履歴を追跡"
+      "quotaDesc": "生成可能なクォータと使用履歴を追跡"
     },
     "title": "サインインしてダッシュボードにアクセスする"
   },
@@ -35,7 +35,7 @@
     },
     "loading": "読み込み中...",
     "subtitle": "過去1週間のコンテンツのみを表示",
-    "title": "最近の世代",
+    "title": "最近の生成",
     "viewAll": "全てを見る"
   },
   "seo": {
@@ -47,8 +47,8 @@
     "projects": "プロジェクト合計",
     "quota": {
       "expires": "期限切れ",
-      "remaining": "残りの発電枠",
-      "unlimited": "世代数無制限"
+      "remaining": "残り利用枠",
+      "unlimited": "無制限の生成"
     },
     "templates": "作成されたテンプレート"
   },
