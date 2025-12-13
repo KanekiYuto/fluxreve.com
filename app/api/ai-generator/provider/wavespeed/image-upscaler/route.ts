@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { handleWavespeedSyncRequest } from '@/lib/ai-generator/handleWavespeedSyncRequest';
-import { ProcessSyncParamsResult } from '@/lib/ai-generator/handleWavespeedSyncRequest';
+import { handleSyncDirect, ProcessSyncParamsResult } from '@/lib/ai-generator/handlers/sync-direct';
+import { standardizeResponse } from '@/lib/ai-generator/response-standardizer';
 
 // 请求参数接口
 interface ImageUpscalerRequest {
@@ -10,12 +10,13 @@ interface ImageUpscalerRequest {
   enable_base64_output?: boolean;
 }
 
+
 /**
  * POST /api/ai-generator/provider/wavespeed/image-upscaler
  * 图片放大 API (同步模式，直接返回结果)
  */
 export async function POST(request: NextRequest) {
-  return handleWavespeedSyncRequest(request, {
+  return handleSyncDirect(request, {
     endpoint: 'wavespeed-ai/image-upscaler',
     taskType: 'image-upscaler',
     model: 'wavespeed-image-upscaler',
@@ -77,6 +78,15 @@ export async function POST(request: NextRequest) {
         // 配额消费描述
         description: `Image upscaler: ${target_resolution} (from ${image.substring(0, 50)}...)`,
       };
+    },
+
+    // API 响应处理回调函数 - 标准化 Wavespeed 响应格式
+    handleResponse: (apiResponse: any) => {
+      const standardized = standardizeResponse(apiResponse, {
+        provider: 'wavespeed',
+        model: 'wavespeed-image-upscaler',
+      });
+      return NextResponse.json(standardized);
     },
   });
 }

@@ -1,21 +1,4 @@
 {
-  "comingSoon": {
-    "badge": "곧 출시 예정",
-    "defaultDescription": "놀라운 새 기능을 제공하기 위해 열심히 노력하고 있습니다. 업데이트를 계속 지켜봐 주세요!",
-    "defaultTitle": "흥미로운 기능 추가",
-    "feature1Desc": "최첨단 기술",
-    "feature1Title": "강력한 AI",
-    "feature2Desc": "지능형 자동화",
-    "feature2Title": "스마트 기능",
-    "feature3Desc": "초고속 결과",
-    "feature3Title": "빠른 처리",
-    "moreTools": {
-      "description": "업스케일링, 향상, 형식 변환, 일괄 처리 등 강력한 이미지 유틸리티 살펴보기",
-      "title": "더 많은 이미지 도구"
-    },
-    "progressHint": "곧 출시 예정",
-    "progressLabel": "개발 진행 상황"
-  },
   "credits": {
     "quota": "할당량",
     "refresh": "새로 고침 할당량"
@@ -71,6 +54,9 @@
     "noLoraConfigured": "아직 LoRA이 구성되지 않았습니다.",
     "outputFormat": "출력 형식",
     "outputFormatPlaceholder": "출력 형식 선택",
+    "targetResolution": "목표 해상도",
+    "targetResolutionPlaceholder": "목표 해상도 선택",
+    "uploadImageRequired": "업스케일할 이미지를 최소 1개 이상 업로드하십시오",
     "privateMode": "개인 모드",
     "privateModeDesc": "결과는 본인에게만 표시됩니다.",
     "privateModeSubscriptionRequired": "비공개 모드를 활성화하려면 구독하세요.",

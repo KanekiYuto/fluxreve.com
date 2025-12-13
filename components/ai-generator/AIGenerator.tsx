@@ -7,7 +7,6 @@ import TextToImageGenerator from './TextToImageGenerator';
 import ImageToImageGenerator from './ImageToImageGenerator';
 import MoreGenerator from './MoreGenerator';
 import Tabs, { type TabItem } from './base/Tabs';
-import ComingSoon from './base/ComingSoon';
 
 interface AIGeneratorProps {
   defaultTab?: string;
@@ -17,7 +16,6 @@ interface AIGeneratorProps {
 
 export default function AIGenerator({ defaultTab = 'text-to-image', defaultModel, defaultParameters }: AIGeneratorProps) {
   const tTabs = useTranslations('ai-generator.tabs');
-  const tComingSoon = useTranslations('ai-generator.comingSoon');
 
   // 定义所有 tabs
   const tabs: TabItem[] = [

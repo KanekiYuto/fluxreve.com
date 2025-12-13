@@ -1,21 +1,4 @@
 {
-  "comingSoon": {
-    "badge": "In arrivo",
-    "defaultDescription": "Stiamo lavorando sodo per offrirvi nuove incredibili funzionalità. Restate sintonizzati per gli aggiornamenti!",
-    "defaultTitle": "Funzionalità interessanti in arrivo",
-    "feature1Desc": "Tecnologia all'avanguardia",
-    "feature1Title": "Intelligenza Artificiale potente",
-    "feature2Desc": "Automazione intelligente",
-    "feature2Title": "Caratteristiche intelligenti",
-    "feature3Desc": "Risultati rapidi e veloci",
-    "feature3Title": "Elaborazione rapida",
-    "moreTools": {
-      "description": "Esplorate le potenti utility per le immagini, tra cui l'upscaling, il miglioramento, la conversione di formato e l'elaborazione in batch.",
-      "title": "Altri strumenti per le immagini"
-    },
-    "progressHint": "Il lancio è previsto a breve",
-    "progressLabel": "Progressi nello sviluppo"
-  },
   "credits": {
     "quota": "Quota",
     "refresh": "Aggiornare la quota"
@@ -71,6 +54,9 @@
     "noLoraConfigured": "Non è ancora configurato LoRA",
     "outputFormat": "Formato di uscita",
     "outputFormatPlaceholder": "Selezionare il formato di uscita",
+    "targetResolution": "Risoluzione target",
+    "targetResolutionPlaceholder": "Selezionare la risoluzione target",
+    "uploadImageRequired": "Caricare almeno un'immagine da ingrandire",
     "privateMode": "Modalità privata",
     "privateModeDesc": "I risultati saranno visibili solo a voi",
     "privateModeSubscriptionRequired": "Sottoscrivere per abilitare la modalità privata",

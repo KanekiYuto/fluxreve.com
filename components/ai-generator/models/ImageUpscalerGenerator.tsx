@@ -2,14 +2,12 @@
 
 import { useState, useCallback, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
-import GeneratorLayout from '../base/GeneratorLayout';
+import GeneratorLayoutWrapper from '../base/GeneratorLayoutWrapper';
 import { ExampleItem } from '../base/ExampleGallery';
 import AdvancedSettings from '../base/AdvancedSettings';
 import FormSelect from '../form/FormSelect';
 import ImageUpload, { ImageItem } from '../form/ImageUpload';
-import { Label } from '@/components/ui/label';
-import { useRequiredCredits } from '@/hooks/useRequiredCredits';
-import { useImageGenerator, ErrorState } from '@/hooks/useImageGenerator';
+import { useDirectGenerator } from '@/hooks/useDirectGenerator';
 
 // ==================== 类型定义 ====================
 
@@ -57,10 +55,10 @@ export default function ImageUpscalerGenerator({
   const [inputImages, setInputImages] = useState<ImageItem[]>(
     defaultParameters?.images
       ? defaultParameters.images.map((url: string, index: number) => ({
-          id: `image-${index}`,
-          url,
-          file: null,
-        }))
+        id: `image-${index}`,
+        url,
+        file: null,
+      }))
       : []
   );
   const [targetResolution, setTargetResolution] = useState(
@@ -69,24 +67,29 @@ export default function ImageUpscalerGenerator({
   const [outputFormat, setOutputFormat] = useState(defaultParameters?.outputFormat || 'jpeg');
   const [isPrivate, setIsPrivate] = useState(false);
 
-  // 积分计算
-  const requiredCredits = useRequiredCredits('image-upscaler', 'wavespeed-image-upscaler', {
-    target_resolution: targetResolution,
+  // 使用 Direct 生成器 Hook
+  const generator = useDirectGenerator({
+    apiEndpoint: '/api/ai-generator/provider/wavespeed/image-upscaler',
+    serviceType: 'image-upscaler',
+    serviceSubType: 'wavespeed-image-upscaler',
+    buildRequestBody: (params) => ({
+      image: params.image,
+      target_resolution: params.target_resolution,
+      output_format: params.output_format,
+      enable_base64_output: false,
+    }),
+    processResponse: (results) => (results || []).map((item: any) =>
+      typeof item === 'string' ? item : item.url
+    ),
+    extractCreditsParams: (requestBody) => ({
+      target_resolution: requestBody.target_resolution,
+    }),
+    currentParams: {
+      image: inputImages[0]?.url,
+      target_resolution: targetResolution,
+      output_format: outputFormat,
+    },
   });
-
-  // 使用通用图像生成 Hook
-  const {
-    isLoading,
-    progress,
-    generatedImages,
-    taskInfo,
-    error,
-    credits,
-    isCreditsLoading,
-    generate,
-    setError,
-    refreshCredits,
-  } = useImageGenerator();
 
   // 当 defaultParameters 变化时更新表单状态
   useEffect(() => {
@@ -106,62 +109,32 @@ export default function ImageUpscalerGenerator({
     }
   }, [defaultParameters]);
 
-  // 验证表单
-  const validateForm = useCallback((): ErrorState | null => {
-    // 检查是否上传了图片
-    if (inputImages.length === 0) {
-      return {
-        title: tError('parameterError'),
-        message: 'Please upload at least one image to upscale',
-      };
-    }
-
-    // 检查积分是否充足
-    if (credits !== null && credits < requiredCredits) {
-      return {
-        title: tError('insufficientCredits'),
-        message: tError('pleaseRecharge'),
-        variant: 'credits',
-        creditsInfo: {
-          required: requiredCredits,
-          current: credits,
-        },
-      };
-    }
-
-    return null;
-  }, [inputImages, credits, requiredCredits, tError]);
 
   // ==================== 事件处理函数 ====================
 
   // 生成（放大）图像
-  const handleGenerate = useCallback(async () => {
-    // 表单验证
-    const validationError = validateForm();
-    if (validationError) {
-      setError(validationError);
-      return;
-    }
-
-    // API 端点
-    const endpoint = '/api/ai-generator/provider/wavespeed/image-upscaler';
-
-    // 构建请求参数
-    const body: Record<string, any> = {
-      image: inputImages[0].url, // 图片放大一次只处理一张图片
-      target_resolution: targetResolution,
-      output_format: outputFormat,
-      enable_base64_output: false,
-      is_private: isPrivate,
-    };
-
-    // 调用生成方法
-    await generate({
-      endpoint,
-      body,
-      currentPrompt: `Image upscaler: ${targetResolution}`,
-    });
-  }, [inputImages, targetResolution, outputFormat, isPrivate, validateForm, setError, generate]);
+  const handleGenerate = useCallback(() => {
+    generator.handleGenerate(
+      {
+        image: inputImages[0]?.url,
+        target_resolution: targetResolution,
+        output_format: outputFormat,
+      },
+      {
+        validateCredits: true,
+        customValidation: (params: any) => {
+          if (!params.image) {
+            return {
+              type: 'validation_error',
+              title: tError('parameterError'),
+              message: tForm('uploadImageRequired'),
+            };
+          }
+          return null;
+        },
+      }
+    );
+  }, [generator, inputImages, targetResolution, outputFormat, tError, tForm]);
 
   // ==================== 渲染函数 ====================
 
@@ -182,29 +155,25 @@ export default function ImageUpscalerGenerator({
       {/* 目标分辨率选择 */}
       <FormSelect
         id="targetResolution"
-        label="Target Resolution"
+        label={tForm('targetResolution')}
         value={targetResolution}
         onChange={setTargetResolution}
         options={RESOLUTION_OPTIONS}
-        placeholder="Select target resolution"
-      />
-
-      {/* 输出格式选择 */}
-      <FormSelect
-        id="outputFormat"
-        label="Output Format"
-        value={outputFormat}
-        onChange={setOutputFormat}
-        options={OUTPUT_FORMAT_OPTIONS}
-        placeholder="Select output format"
+        placeholder={tForm('targetResolutionPlaceholder')}
       />
 
       {/* 高级选项 */}
       <AdvancedSettings isPrivate={isPrivate} onPrivateChange={setIsPrivate}>
         <div className="space-y-3">
-          <div className="text-sm text-[#A1A1AA]">
-            额外选项可在此处添加
-          </div>
+          {/* 输出格式选择 */}
+          <FormSelect
+            id="outputFormat"
+            label={tForm('outputFormat')}
+            value={outputFormat}
+            onChange={setOutputFormat}
+            options={OUTPUT_FORMAT_OPTIONS}
+            placeholder={tForm('outputFormatPlaceholder')}
+          />
         </div>
       </AdvancedSettings>
     </div>
@@ -213,21 +182,13 @@ export default function ImageUpscalerGenerator({
   // ==================== 主渲染 ====================
 
   return (
-    <GeneratorLayout
-      headerContent={modelSelector}
+    <GeneratorLayoutWrapper
+      modelSelector={modelSelector}
       formContent={formContent}
       onGenerate={handleGenerate}
-      requiredCredits={requiredCredits}
-      isLoading={isLoading}
-      progress={progress}
-      error={error}
-      credits={credits}
-      isCreditsLoading={isCreditsLoading}
-      onCreditsRefresh={refreshCredits}
-      generatedItems={generatedImages}
-      taskInfo={taskInfo}
       examples={EXAMPLES}
-      onSelectExample={() => {}}
+      onSelectExample={() => { }}
+      generator={generator}
     />
   );
 }

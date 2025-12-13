@@ -1,21 +1,4 @@
 {
-  "comingSoon": {
-    "badge": "近日公開",
-    "defaultDescription": "私たちは、皆様に素晴らしい新機能をお届けできるよう努力しています。アップデートにご期待ください！",
-    "defaultTitle": "エキサイティングな機能の登場",
-    "feature1Desc": "最先端技術",
-    "feature1Title": "強力なAI",
-    "feature2Desc": "インテリジェント・オートメーション",
-    "feature2Title": "スマートな機能",
-    "feature3Desc": "光速の結果",
-    "feature3Title": "高速処理",
-    "moreTools": {
-      "description": "アップスケール、エンハンス、フォーマット変換、バッチ処理など、強力な画像ユーティリティを利用できます。",
-      "title": "その他の画像ツール"
-    },
-    "progressHint": "近日発売予定",
-    "progressLabel": "開発の進捗状況"
-  },
   "credits": {
     "quota": "ノルマ",
     "refresh": "リフレッシュ・クォータ"
@@ -71,12 +54,15 @@
     "noLoraConfigured": "まだLoRAは設定されていない",
     "outputFormat": "出力フォーマット",
     "outputFormatPlaceholder": "出力形式の選択",
+    "targetResolution": "目標解像度",
+    "targetResolutionPlaceholder": "目標解像度を選択",
+    "uploadImageRequired": "アップスケールする最低1つの画像をアップロードしてください",
     "privateMode": "プライベートモード",
     "privateModeDesc": "結果はあなたにのみ表示されます。",
     "privateModeSubscriptionRequired": "プライベートモードを有効にする",
     "prompt": "プロンプト",
     "promptPlaceholder": "生成したいイメージを記述する...",
-    "resolution": "決議",
+    "resolution": "解像度",
     "resolutionPlaceholder": "解像度を選択",
     "seed": "シード",
     "seedPlaceholder": "ランダムの場合は空白のまま",

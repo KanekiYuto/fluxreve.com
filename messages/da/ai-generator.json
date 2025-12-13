@@ -1,21 +1,4 @@
 {
-  "comingSoon": {
-    "badge": "Kommer snart",
-    "defaultDescription": "Vi arbejder hårdt på at give dig fantastiske nye muligheder. Hold øje med opdateringer!",
-    "defaultTitle": "Spændende funktioner på vej",
-    "feature1Desc": "Avanceret teknologi",
-    "feature1Title": "Kraftfuld AI",
-    "feature2Desc": "Intelligent automatisering",
-    "feature2Title": "Smarte funktioner",
-    "feature3Desc": "Lynhurtige resultater",
-    "feature3Title": "Hurtig behandling",
-    "moreTools": {
-      "description": "Udforsk effektive billedværktøjer, herunder opskalering, forbedring, formatkonvertering og batchbehandling",
-      "title": "Flere billedværktøjer"
-    },
-    "progressHint": "Forventes at lanceres snart",
-    "progressLabel": "Udviklingsfremskridt"
-  },
   "credits": {
     "quota": "Kvota",
     "refresh": "Opdater kvote"
@@ -71,6 +54,9 @@
     "noLoraConfigured": "Ingen LoRA konfigureret endnu",
     "outputFormat": "Outputformat",
     "outputFormatPlaceholder": "Vælg outputformat",
+    "targetResolution": "Målopløsning",
+    "targetResolutionPlaceholder": "Vælg målopløsning",
+    "uploadImageRequired": "Venligst upload mindst et billede for at forstørre",
     "privateMode": "Privat tilstand",
     "privateModeDesc": "Resultaterne vil kun være synlige for dig",
     "privateModeSubscriptionRequired": "Abonner for at aktivere privat tilstand",

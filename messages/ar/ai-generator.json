@@ -1,21 +1,4 @@
 {
-  "comingSoon": {
-    "badge": "قريباً",
-    "defaultDescription": "نحن نعمل بجد لنقدم لك إمكانيات جديدة مذهلة. ترقبوا التحديثات!",
-    "defaultTitle": "ميزات مثيرة في الطريق",
-    "feature1Desc": "أحدث ما توصلت إليه التكنولوجيا",
-    "feature1Title": "ذكاء اصطناعي قوي",
-    "feature2Desc": "الأتمتة الذكية",
-    "feature2Title": "الميزات الذكية",
-    "feature3Desc": "نتائج فائقة السرعة",
-    "feature3Title": "المعالجة السريعة",
-    "moreTools": {
-      "description": "استكشف الأدوات المساعدة القوية للصور بما في ذلك الترقية، والتحسين، وتحويل التنسيق، ومعالجة الدُفعات",
-      "title": "المزيد من أدوات الصور"
-    },
-    "progressHint": "من المتوقع إطلاقه قريباً",
-    "progressLabel": "التقدم المحرز في التنمية"
-  },
   "credits": {
     "quota": "الحصة",
     "refresh": "تحديث الحصة"
@@ -71,6 +54,9 @@
     "noLoraConfigured": "لم يتم تكوين LoRA بعد",
     "outputFormat": "تنسيق الإخراج",
     "outputFormatPlaceholder": "تحديد تنسيق الإخراج",
+    "targetResolution": "الدقة المستهدفة",
+    "targetResolutionPlaceholder": "حدد الدقة المستهدفة",
+    "uploadImageRequired": "يرجى تحميل صورة واحدة على الأقل لتكبيرها",
     "privateMode": "الوضع الخاص",
     "privateModeDesc": "ستكون النتائج مرئية لك فقط",
     "privateModeSubscriptionRequired": "اشترك لتمكين الوضع الخاص",

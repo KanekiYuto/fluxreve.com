@@ -1,21 +1,4 @@
 {
-  "comingSoon": {
-    "badge": "Demnächst verfügbar",
-    "defaultDescription": "Wir arbeiten hart daran, Ihnen erstaunliche neue Möglichkeiten zu bieten. Bleiben Sie dran für Updates!",
-    "defaultTitle": "Spannende Funktionen in Vorbereitung",
-    "feature1Desc": "Modernste Technologie",
-    "feature1Title": "Leistungsstarke KI",
-    "feature2Desc": "Intelligente Automatisierung",
-    "feature2Title": "Intelligente Funktionen",
-    "feature3Desc": "Blitzschnelle Ergebnisse",
-    "feature3Title": "Schnelle Verarbeitung",
-    "moreTools": {
-      "description": "Leistungsstarke Bildbearbeitungsprogramme wie Hochskalierung, Verbesserung, Formatkonvertierung und Stapelverarbeitung",
-      "title": "Weitere Image Tools"
-    },
-    "progressHint": "Voraussichtlich baldige Markteinführung",
-    "progressLabel": "Fortschritte in der Entwicklung"
-  },
   "credits": {
     "quota": "Kontingent",
     "refresh": "Quote aktualisieren"
@@ -71,6 +54,9 @@
     "noLoraConfigured": "Noch keine LoRA konfiguriert",
     "outputFormat": "Ausgabeformat",
     "outputFormatPlaceholder": "Ausgabeformat wählen",
+    "targetResolution": "Zielauflösung",
+    "targetResolutionPlaceholder": "Zielauflösung auswählen",
+    "uploadImageRequired": "Bitte laden Sie mindestens ein Bild zum Hochskalieren hoch",
     "privateMode": "Privater Modus",
     "privateModeDesc": "Die Ergebnisse werden nur für Sie sichtbar sein",
     "privateModeSubscriptionRequired": "Abonnieren, um den privaten Modus zu aktivieren",

@@ -82,6 +82,9 @@
     "sizePlaceholder": "Select image size",
     "outputFormat": "Output Format",
     "outputFormatPlaceholder": "Select output format",
+    "targetResolution": "Target Resolution",
+    "targetResolutionPlaceholder": "Select target resolution",
+    "uploadImageRequired": "Please upload at least one image to upscale",
     "uploadImage": "Upload Image",
     "addImageUrl": "Add Image URL",
     "imageUrlPlaceholder": "Enter image URL",
@@ -202,22 +205,5 @@
     "selectMore": "Manage LoRA",
     "selectedCount": "{count} LoRA(s) selected",
     "manage": "Manage"
-  },
-  "comingSoon": {
-    "badge": "Coming Soon",
-    "defaultTitle": "Exciting Features on the Way",
-    "defaultDescription": "We're working hard to bring you amazing new capabilities. Stay tuned for updates!",
-    "feature1Title": "Powerful AI",
-    "feature1Desc": "State-of-the-art technology",
-    "feature2Title": "Smart Features",
-    "feature2Desc": "Intelligent automation",
-    "feature3Title": "Fast Processing",
-    "feature3Desc": "Lightning-fast results",
-    "progressLabel": "Development Progress",
-    "progressHint": "Expected to launch soon",
-    "moreTools": {
-      "title": "More Image Tools",
-      "description": "Explore powerful image utilities including upscaling, enhancement, format conversion, and batch processing"
-    }
   }
 }

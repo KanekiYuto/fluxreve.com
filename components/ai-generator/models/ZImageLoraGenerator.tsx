@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
-import GeneratorLayout from '../base/GeneratorLayout';
+import GeneratorLayoutWrapper from '../base/GeneratorLayoutWrapper';
 import { ExampleItem } from '../base/ExampleGallery';
 import AdvancedSettings from '../base/AdvancedSettings';
 import FormSelect from '../form/FormSelect';
@@ -10,8 +10,7 @@ import SeedInput from '../form/SeedInput';
 import LoraSelector, { LoraConfig } from '../base/LoraSelector';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { useRequiredCredits } from '@/hooks/useRequiredCredits';
-import { useImageGenerator, ErrorState } from '@/hooks/useImageGenerator';
+import { useWebHookGenerator } from '@/hooks/useWebHookGenerator';
 
 // ==================== 类型定义 ====================
 
@@ -55,6 +54,41 @@ export default function ZImageLoraGenerator({ modelSelector, defaultParameters }
   const [seed, setSeed] = useState(defaultParameters?.seed || '');
   const [loras, setLoras] = useState<LoraConfig[]>([]);
   const [isPrivate, setIsPrivate] = useState(false);
+
+  // 使用 WebHook 生成器 Hook
+  const generator = useWebHookGenerator({
+    apiEndpoint: '/api/ai-generator/provider/wavespeed/z-image-lora/text-to-image',
+    serviceType: 'text-to-image',
+    serviceSubType: 'z-image-lora',
+    statusEndpoint: '/api/ai-generator/status',
+    pollingConfig: {
+      interval: 500,
+      timeout: 300000,
+    },
+    buildRequestBody: (params) => ({
+      prompt: params.prompt,
+      size: params.size,
+      seed: params.seed ? parseInt(params.seed, 10) : -1,
+      loras: params.loras,
+      enable_base64_output: false,
+      enable_sync_mode: false,
+      is_private: params.isPrivate,
+    }),
+    processResponse: (results) => (results || []).map((item: any) =>
+      typeof item === 'string' ? item : item.url
+    ),
+    extractCreditsParams: (requestBody) => ({
+      size: requestBody.size,
+      seed: requestBody.seed,
+    }),
+    currentParams: {
+      prompt,
+      size,
+      seed,
+      loras,
+      isPrivate,
+    },
+  });
 
   // 当 defaultParameters 变化时更新表单状态
   useEffect(() => {
@@ -108,51 +142,6 @@ export default function ZImageLoraGenerator({ modelSelector, defaultParameters }
     }
   }, [defaultParameters]);
 
-  // 积分计算 - Z-Image Turbo LoRA 固定 10 积分
-  const requiredCredits = useRequiredCredits('text-to-image', 'z-image-lora', {
-    size,
-    seed,
-    loras_count: loras.length,
-  });
-
-  // 使用通用图像生成 Hook
-  const {
-    isLoading,
-    progress,
-    generatedImages,
-    taskInfo,
-    error,
-    credits,
-    isCreditsLoading,
-    generate,
-    setError,
-    refreshCredits,
-  } = useImageGenerator();
-
-  // 验证表单
-  const validateForm = useCallback((): ErrorState | null => {
-    if (!prompt.trim()) {
-      return {
-        title: tError('parameterError'),
-        message: tError('promptRequired'),
-      };
-    }
-
-    if (credits !== null && credits < requiredCredits) {
-      return {
-        title: tError('insufficientCredits'),
-        message: tError('pleaseRecharge'),
-        variant: 'credits',
-        creditsInfo: {
-          required: requiredCredits,
-          current: credits,
-        },
-      };
-    }
-
-    return null;
-  }, [prompt, credits, requiredCredits, tError]);
-
   // ==================== LoRA 管理函数 ====================
 
   // 更新 LoRA 配置
@@ -168,42 +157,37 @@ export default function ZImageLoraGenerator({ modelSelector, defaultParameters }
   }, []);
 
   // 生成图像
-  const handleGenerate = useCallback(async () => {
-    // 表单验证
-    const validationError = validateForm();
-    if (validationError) {
-      setError(validationError);
-      return;
-    }
-
+  const handleGenerate = useCallback(() => {
     // 转换 LoRA 配置格式，只传递 ID 和 scale，其他信息由后端查询
     const lorasForApi = loras.map(lora => ({
       id: lora.id,
       scale: lora.scale,
     }));
 
-    // 构建请求参数
-    const body: Record<string, any> = {
-      prompt,
-      size,
-      enable_base64_output: false,
-      enable_sync_mode: false,
-      loras: lorasForApi,
-      is_private: isPrivate,
-    };
+    generator.handleGenerate(
+      {
+        prompt,
+        size,
+        seed,
+        loras: lorasForApi,
+        isPrivate,
+      },
+      {
+        validateCredits: true,
+        customValidation: (params: any) => {
+          if (!params.prompt.trim()) {
+            return {
+              type: 'validation_error',
+              title: tError('parameterError'),
+              message: tError('promptRequired'),
+            };
+          }
 
-    // 如果设置了 seed，添加到参数中
-    if (seed) {
-      body.seed = parseInt(seed, 10);
-    }
-
-    // 调用生成方法
-    await generate({
-      endpoint: '/api/ai-generator/provider/wavespeed/z-image/turbo-lora',
-      body,
-      currentPrompt: prompt,
-    });
-  }, [prompt, size, seed, loras, isPrivate, validateForm, setError, generate]);
+          return null;
+        },
+      }
+    );
+  }, [generator, prompt, size, seed, loras, isPrivate, tError]);
 
   // ==================== 渲染函数 ====================
 
@@ -255,21 +239,13 @@ export default function ZImageLoraGenerator({ modelSelector, defaultParameters }
   // ==================== 主渲染 ====================
 
   return (
-    <GeneratorLayout
-      headerContent={modelSelector}
+    <GeneratorLayoutWrapper
+      modelSelector={modelSelector}
       formContent={formContent}
       onGenerate={handleGenerate}
-      requiredCredits={requiredCredits}
-      isLoading={isLoading}
-      progress={progress}
-      error={error}
-      credits={credits}
-      isCreditsLoading={isCreditsLoading}
-      onCreditsRefresh={refreshCredits}
-      generatedItems={generatedImages}
-      taskInfo={taskInfo}
       examples={EXAMPLES}
       onSelectExample={handleSelectExample}
+      generator={generator}
     />
   );
 }

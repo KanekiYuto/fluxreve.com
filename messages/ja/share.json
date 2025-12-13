@@ -24,7 +24,7 @@
     "promptCopied": "コピー",
     "referenceImage": "入力画像",
     "referenceImages": "入力画像",
-    "resolution": "決議"
+    "resolution": "解像度"
   },
   "metadata": {
     "descriptionPrefix": "AIモデル{model}で生成された高画質画像。プロンプト",

@@ -2,17 +2,16 @@
 
 import { useState, useCallback, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
-import GeneratorLayout from '../base/GeneratorLayout';
+import GeneratorLayoutWrapper from '../base/GeneratorLayoutWrapper';
 import { ExampleItem } from '../base/ExampleGallery';
 import AdvancedSettings from '../base/AdvancedSettings';
 import FormSelect from '../form/FormSelect';
 import SeedInput from '../form/SeedInput';
 import ImageUpload, { ImageItem } from '../form/ImageUpload';
+import ModeSwitcher from '../form/ModeSwitcher';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { useRequiredCredits } from '@/hooks/useRequiredCredits';
-import { useImageGenerator, ErrorState } from '@/hooks/useImageGenerator';
-import useModalStore from '@/store/useModalStore';
+import { useWebHookGenerator } from '@/hooks/useWebHookGenerator';
 
 // ==================== 类型定义 ====================
 
@@ -85,37 +84,47 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
   const [outputFormat, setOutputFormat] = useState<OutputFormat>((defaultParameters?.output_format || 'png') as OutputFormat);
   const [isPrivate, setIsPrivate] = useState(false);
 
-  // 积分计算
-  const requiredCredits = useRequiredCredits('text-to-image', 'nano-banana-pro', {
-    resolution,
-    aspect_ratio: aspectRatio,
-    seed,
-    output_format: outputFormat,
+  // 使用 WebHook 生成器 Hook
+  const generator = useWebHookGenerator({
+    apiEndpoint: mode === 'text-to-image'
+      ? '/api/ai-generator/provider/wavespeed/nano-banana-pro/text-to-image'
+      : '/api/ai-generator/provider/wavespeed/nano-banana-pro/image-to-image',
+    serviceType: mode,
+    serviceSubType: 'nano-banana-pro',
+    statusEndpoint: '/api/ai-generator/status',
+    pollingConfig: {
+      interval: 500,
+      timeout: 300000,
+    },
+    buildRequestBody: (params) => ({
+      prompt: params.prompt,
+      aspect_ratio: params.aspect_ratio,
+      resolution: params.resolution,
+      seed: params.seed ? parseInt(params.seed, 10) : -1,
+      output_format: params.output_format,
+      images: params.images,
+      enable_base64_output: false,
+      enable_sync_mode: false,
+      is_private: params.isPrivate,
+    }),
+    processResponse: (results) => (results || []).map((item: any) =>
+      typeof item === 'string' ? item : item.url
+    ),
+    extractCreditsParams: (requestBody) => ({
+      aspect_ratio: requestBody.aspect_ratio,
+      resolution: requestBody.resolution,
+      seed: requestBody.seed,
+    }),
+    currentParams: {
+      prompt,
+      aspect_ratio: aspectRatio,
+      resolution,
+      seed,
+      output_format: outputFormat,
+      images: mode === 'image-to-image' ? inputImages.map((img) => img.url) : undefined,
+      isPrivate,
+    },
   });
-
-  // 使用通用图像生成 Hook
-  const {
-    isLoading,
-    progress,
-    generatedImages,
-    taskInfo,
-    error,
-    credits,
-    isCreditsLoading,
-    generate,
-    setError,
-    refreshCredits,
-  } = useImageGenerator();
-
-  // Modal 状态管理
-  const { openSubscriptionModal } = useModalStore();
-
-  // 监听积分不足错误，自动打开订阅 modal
-  useEffect(() => {
-    if (error?.variant === 'credits') {
-      openSubscriptionModal();
-    }
-  }, [error, openSubscriptionModal]);
 
   // 当 defaultParameters 变化时更新表单状态
   useEffect(() => {
@@ -138,37 +147,6 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
     }
   }, [defaultParameters]);
 
-  // 验证表单
-  const validateForm = useCallback((): ErrorState | null => {
-    if (!prompt.trim()) {
-      return {
-        title: tError('parameterError'),
-        message: tError('promptRequired'),
-      };
-    }
-
-    // 图片生图模式需要至少一张输入图片
-    if (mode === 'image-to-image' && inputImages.length === 0) {
-      return {
-        title: tError('parameterError'),
-        message: 'Please upload at least one input image',
-      };
-    }
-
-    if (credits !== null && credits < requiredCredits) {
-      return {
-        title: tError('insufficientCredits'),
-        message: tError('pleaseRecharge'),
-        variant: 'credits',
-        creditsInfo: {
-          required: requiredCredits,
-          current: credits,
-        },
-      };
-    }
-
-    return null;
-  }, [prompt, mode, inputImages, credits, requiredCredits, tError]);
 
   // ==================== 事件处理函数 ====================
 
@@ -178,74 +156,48 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
   }, []);
 
   // 生成图像
-  const handleGenerate = useCallback(async () => {
-    // 表单验证
-    const validationError = validateForm();
-    if (validationError) {
-      setError(validationError);
-      return;
-    }
+  const handleGenerate = useCallback(() => {
+    generator.handleGenerate(
+      {
+        prompt,
+        aspect_ratio: aspectRatio,
+        resolution,
+        seed,
+        output_format: outputFormat,
+        images: mode === 'image-to-image' ? inputImages.map((img) => img.url) : undefined,
+        isPrivate,
+      },
+      {
+        validateCredits: true,
+        customValidation: (params: any) => {
+          if (!params.prompt.trim()) {
+            return {
+              type: 'validation_error',
+              title: tError('parameterError'),
+              message: tError('promptRequired'),
+            };
+          }
 
-    // 根据模式选择不同的 API 端点
-    const endpoint =
-      mode === 'text-to-image'
-        ? '/api/ai-generator/provider/wavespeed/nano-banana-pro/text-to-image'
-        : '/api/ai-generator/provider/wavespeed/nano-banana-pro/image-to-image';
+          if (mode === 'image-to-image' && inputImages.length === 0) {
+            return {
+              type: 'validation_error',
+              title: tError('parameterError'),
+              message: 'Please upload at least one input image',
+            };
+          }
 
-    // 构建请求参数
-    const body: Record<string, any> = {
-      prompt,
-      output_format: outputFormat,
-      is_private: isPrivate,
-    };
-
-    // 文生图模式的参数
-    if (mode === 'text-to-image') {
-      body.aspect_ratio = aspectRatio;
-      body.resolution = resolution;
-      if (seed) body.seed = seed;
-    }
-
-    // 图生图模式的参数
-    if (mode === 'image-to-image') {
-      body.images = inputImages.map((img) => img.url);
-    }
-
-    // 调用生成方法
-    await generate({
-      endpoint,
-      body,
-      currentPrompt: prompt,
-    });
-  }, [mode, prompt, aspectRatio, resolution, outputFormat, seed, inputImages, isPrivate, validateForm, setError, generate]);
+          return null;
+        },
+      }
+    );
+  }, [generator, mode, prompt, aspectRatio, resolution, seed, outputFormat, inputImages, isPrivate, tError]);
 
   // ==================== 渲染函数 ====================
 
   const formContent = (
     <div className="space-y-6">
-      {/* 模式切换 Tab */}
-      <div className="flex gap-1 p-1 bg-[#161618] border border-[#27272A] rounded-lg">
-        <button
-          type="button"
-          onClick={() => setMode('text-to-image')}
-          className={`flex-1 px-3 py-2 text-sm font-medium rounded-md transition-all cursor-pointer ${mode === 'text-to-image'
-            ? 'bg-primary text-white shadow-sm'
-            : 'text-[#A1A1AA] hover:text-white hover:bg-[#27272A]'
-            }`}
-        >
-          {tForm('mode.textToImage')}
-        </button>
-        <button
-          type="button"
-          onClick={() => setMode('image-to-image')}
-          className={`flex-1 px-3 py-2 text-sm font-medium rounded-md transition-all cursor-pointer ${mode === 'image-to-image'
-            ? 'bg-primary text-white shadow-sm'
-            : 'text-[#A1A1AA] hover:text-white hover:bg-[#27272A]'
-            }`}
-        >
-          {tForm('mode.imageToImage')}
-        </button>
-      </div>
+      {/* 模式切换 */}
+      <ModeSwitcher mode={mode} onModeChange={setMode} />
 
       {/* 提示词输入 */}
       <div className="space-y-2">
@@ -318,21 +270,13 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
   // ==================== 主渲染 ====================
 
   return (
-    <GeneratorLayout
-      headerContent={modelSelector}
+    <GeneratorLayoutWrapper
+      modelSelector={modelSelector}
       formContent={formContent}
       onGenerate={handleGenerate}
-      requiredCredits={requiredCredits}
-      isLoading={isLoading}
-      progress={progress}
-      error={error}
-      credits={credits}
-      isCreditsLoading={isCreditsLoading}
-      onCreditsRefresh={refreshCredits}
-      generatedItems={generatedImages}
-      taskInfo={taskInfo}
       examples={EXAMPLES}
       onSelectExample={handleSelectExample}
+      generator={generator}
     />
   );
 }

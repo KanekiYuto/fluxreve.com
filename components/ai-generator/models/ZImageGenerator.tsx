@@ -1,16 +1,15 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
-import GeneratorLayout from '../base/GeneratorLayout';
+import GeneratorLayoutWrapper from '../base/GeneratorLayoutWrapper';
 import { ExampleItem } from '../base/ExampleGallery';
 import AdvancedSettings from '../base/AdvancedSettings';
 import FormSelect from '../form/FormSelect';
 import SeedInput from '../form/SeedInput';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { useRequiredCredits } from '@/hooks/useRequiredCredits';
-import { useImageGenerator, ErrorState } from '@/hooks/useImageGenerator';
+import { useWebHookGenerator } from '@/hooks/useWebHookGenerator';
 
 // ==================== 类型定义 ====================
 
@@ -46,93 +45,82 @@ export default function ZImageGenerator({ modelSelector, defaultParameters }: ZI
 
   // ==================== 状态管理 ====================
 
-  // 表单状态
   const [prompt, setPrompt] = useState(defaultParameters?.prompt || '');
   const [size, setSize] = useState(defaultParameters?.size || '1024*1024');
   const [seed, setSeed] = useState(defaultParameters?.seed || '');
   const [isPrivate, setIsPrivate] = useState(false);
 
-  // 积分计算 - Z-Image Turbo 固定 5 积分
-  const requiredCredits = useRequiredCredits('text-to-image', 'z-image', {
-    size,
-    seed,
+  // 当 defaultParameters 变化时更新表单状态
+  useEffect(() => {
+    if (defaultParameters) {
+      if (defaultParameters.prompt) setPrompt(defaultParameters.prompt);
+      if (defaultParameters.size) setSize(defaultParameters.size);
+      if (defaultParameters.seed) setSeed(defaultParameters.seed);
+    }
+  }, [defaultParameters]);
+
+  // 使用 WebHook 生成器 Hook
+  const generator = useWebHookGenerator({
+    apiEndpoint: '/api/ai-generator/provider/wavespeed/z-image/turbo',
+    serviceType: 'text-to-image',
+    serviceSubType: 'z-image',
+    statusEndpoint: '/api/ai-generator/status',
+    pollingConfig: {
+      interval: 500,
+      timeout: 300000,
+    },
+    buildRequestBody: (params) => ({
+      prompt: params.prompt,
+      size: params.size,
+      seed: params.seed ? parseInt(params.seed, 10) : -1,
+      enable_base64_output: false,
+      enable_sync_mode: false,
+      is_private: params.isPrivate,
+    }),
+    processResponse: (results) => (results || []).map((item: any) =>
+      typeof item === 'string' ? item : item.url
+    ),
+    extractCreditsParams: (requestBody) => ({
+      size: requestBody.size,
+      seed: requestBody.seed,
+    }),
+    currentParams: {
+      prompt,
+      size,
+      seed,
+      isPrivate,
+    },
   });
-
-  // 使用通用图像生成 Hook
-  const {
-    isLoading,
-    progress,
-    generatedImages,
-    taskInfo,
-    error,
-    credits,
-    isCreditsLoading,
-    generate,
-    setError,
-    refreshCredits,
-  } = useImageGenerator();
-
-  // 验证表单
-  const validateForm = useCallback((): ErrorState | null => {
-    if (!prompt.trim()) {
-      return {
-        title: tError('parameterError'),
-        message: tError('promptRequired'),
-      };
-    }
-
-    if (credits !== null && credits < requiredCredits) {
-      return {
-        title: tError('insufficientCredits'),
-        message: tError('pleaseRecharge'),
-        variant: 'credits',
-        creditsInfo: {
-          required: requiredCredits,
-          current: credits,
-        },
-      };
-    }
-
-    return null;
-  }, [prompt, credits, requiredCredits, tError]);
 
   // ==================== 事件处理函数 ====================
 
-  // 选择示例
   const handleSelectExample = useCallback((example: ExampleItem) => {
     setPrompt(example.prompt);
   }, []);
 
-  // 生成图像
-  const handleGenerate = useCallback(async () => {
-    // 表单验证
-    const validationError = validateForm();
-    if (validationError) {
-      setError(validationError);
-      return;
-    }
-
-    // 构建请求参数
-    const body: Record<string, any> = {
-      prompt,
-      size,
-      enable_base64_output: false,
-      enable_sync_mode: false,
-      is_private: isPrivate,
-    };
-
-    // 如果设置了 seed，添加到参数中
-    if (seed) {
-      body.seed = parseInt(seed, 10);
-    }
-
-    // 调用生成方法
-    await generate({
-      endpoint: '/api/ai-generator/provider/wavespeed/z-image/turbo',
-      body,
-      currentPrompt: prompt,
-    });
-  }, [prompt, size, seed, isPrivate, validateForm, setError, generate]);
+  const handleGenerate = useCallback(() => {
+    generator.handleGenerate(
+      {
+        prompt,
+        size,
+        seed,
+        isPrivate,
+      },
+      {
+        validateCredits: true,
+        customValidation: (params: any) => {
+          if (!params.prompt.trim()) {
+            return {
+              type: 'validation_error',
+              title: tError('parameterError'),
+              message: tError('promptRequired'),
+            };
+          }
+          return null;
+        },
+      }
+    );
+  }, [generator, prompt, size, seed, isPrivate, tError]);
 
   // ==================== 渲染函数 ====================
 
@@ -172,21 +160,13 @@ export default function ZImageGenerator({ modelSelector, defaultParameters }: ZI
   // ==================== 主渲染 ====================
 
   return (
-    <GeneratorLayout
-      headerContent={modelSelector}
+    <GeneratorLayoutWrapper
+      modelSelector={modelSelector}
       formContent={formContent}
       onGenerate={handleGenerate}
-      requiredCredits={requiredCredits}
-      isLoading={isLoading}
-      progress={progress}
-      error={error}
-      credits={credits}
-      isCreditsLoading={isCreditsLoading}
-      onCreditsRefresh={refreshCredits}
-      generatedItems={generatedImages}
-      taskInfo={taskInfo}
       examples={EXAMPLES}
       onSelectExample={handleSelectExample}
+      generator={generator}
     />
   );
 }

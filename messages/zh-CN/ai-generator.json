@@ -1,21 +1,4 @@
 {
-  "comingSoon": {
-    "badge": "即将推出",
-    "defaultDescription": "我们正在努力为您带来令人惊叹的新功能。请继续关注我们的更新！",
-    "defaultTitle": "即将推出的精彩功能",
-    "feature1Desc": "最先进的技术",
-    "feature1Title": "强大的人工智能",
-    "feature2Desc": "智能自动化",
-    "feature2Title": "智能功能",
-    "feature3Desc": "快如闪电的结果",
-    "feature3Title": "快速处理",
-    "moreTools": {
-      "description": "探索功能强大的图像实用程序，包括放大、增强、格式转换和批处理",
-      "title": "更多图像工具"
-    },
-    "progressHint": "预计很快推出",
-    "progressLabel": "发展进度"
-  },
   "credits": {
     "quota": "配额",
     "refresh": "刷新配额"
@@ -71,12 +54,15 @@
     "noLoraConfigured": "尚未配置 LoRA",
     "outputFormat": "输出格式",
     "outputFormatPlaceholder": "选择输出格式",
+    "targetResolution": "目标分辨率",
+    "targetResolutionPlaceholder": "选择目标分辨率",
+    "uploadImageRequired": "请上传至少一个要放大的图像",
     "privateMode": "隐私模式",
     "privateModeDesc": "结果只对您可见",
     "privateModeSubscriptionRequired": "订阅以启用专用模式",
     "prompt": "提示",
     "promptPlaceholder": "描述您想要生成的图像...",
-    "resolution": "决议",
+    "resolution": "分辨率",
     "resolutionPlaceholder": "选择分辨率",
     "seed": "种子",
     "seedPlaceholder": "留空表示随机",

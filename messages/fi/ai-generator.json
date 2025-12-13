@@ -1,21 +1,4 @@
 {
-  "comingSoon": {
-    "badge": "Tulossa pian",
-    "defaultDescription": "Teemme kovasti töitä tuodaksemme sinulle upeita uusia ominaisuuksia. Pysy kuulolla päivitysten varalta!",
-    "defaultTitle": "Jännittäviä ominaisuuksia tulossa",
-    "feature1Desc": "Huipputeknologiaa",
-    "feature1Title": "Tehokas tekoäly",
-    "feature2Desc": "Älykäs automaatio",
-    "feature2Title": "Älykkäät ominaisuudet",
-    "feature3Desc": "Salamannopeita tuloksia",
-    "feature3Title": "Nopea käsittely",
-    "moreTools": {
-      "description": "Tutustu tehokkaisiin kuvankäsittelytyökaluihin, kuten skaalaukseen, parannukseen, formaatin muuntamiseen ja eräkäsittelyyn",
-      "title": "Lisää kuvatyökaluja"
-    },
-    "progressHint": "Odotetaan lanseerausta pian",
-    "progressLabel": "Kehityksen edistyminen"
-  },
   "credits": {
     "quota": "Kiintiö",
     "refresh": "Päivitä kiintiö"
@@ -71,6 +54,9 @@
     "noLoraConfigured": "Ei LoRA vielä määritetty",
     "outputFormat": "Tulostemuoto",
     "outputFormatPlaceholder": "Valitse tulostusmuoto",
+    "targetResolution": "Tavoiteresoluutio",
+    "targetResolutionPlaceholder": "Valitse tavoiteresoluutio",
+    "uploadImageRequired": "Lataa vähintään yksi kuva suurentamiseen",
     "privateMode": "Yksityinen tila",
     "privateModeDesc": "Tulokset näkyvät vain sinulle",
     "privateModeSubscriptionRequired": "Tilaa ottaaksesi käyttöön yksityisen tilan",
