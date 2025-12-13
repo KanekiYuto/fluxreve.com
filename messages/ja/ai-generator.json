@@ -23,11 +23,11 @@
   "error": {
     "credits": "クレジット",
     "current": "現在",
-    "generationFailed": "世代が失敗",
+    "generationFailed": "生成失敗",
     "imageGenerationFailed": "画像生成に失敗",
-    "insufficientCredits": "単位不足",
+    "insufficientCredits": "クレジット不足",
     "parameterError": "パラメーター・エラー",
-    "pleaseRecharge": "リチャージして再試行してください。",
+    "pleaseRecharge": "リチャージして再試行してください",
     "promptRequired": "プロンプトを入力してください",
     "queryStatusFailed": "クエリー・ステータスが失敗",
     "required": "必須",
@@ -71,7 +71,7 @@
     "noLoraConfigured": "まだLoRAは設定されていない",
     "outputFormat": "出力フォーマット",
     "outputFormatPlaceholder": "出力形式の選択",
-    "privateMode": "プライベート・ファッション",
+    "privateMode": "プライベートモード",
     "privateModeDesc": "結果はあなたにのみ表示されます。",
     "privateModeSubscriptionRequired": "プライベートモードを有効にする",
     "prompt": "プロンプト",
@@ -118,7 +118,7 @@
     "noLoraHint": "最初にLoRAモデルを作成またはインポートしてください。",
     "noSearchResults": "一致するLoRAは見つかりませんでした",
     "noSelectedLoras": "なし LoRA 選択",
-    "scale": "階段",
+    "scale": "スケール",
     "searchPlaceholder": "検索LoRA名前、説明、またはトリガーワード...",
     "selectLora": "LoRAを選択",
     "selectMore": "管理 LoRA",
@@ -126,10 +126,11 @@
     "selectedLoras": "厳選された"
   },
   "modelGroups": {
-    "flux": "シリーズ",
-    "nano": "ナノシリーズ",
-    "seedream": "Seedream Series",
-    "zImage": "シリーズ"
+    "flux": "Flux シリーズ",
+    "nano": "Nano Banana シリーズ",
+    "seedream": "Seedream シリーズ",
+    "zImage": "Z-Image シリーズ",
+    "more": "詳細"
   },
   "models": {
     "flux2Pro": {
@@ -143,7 +144,7 @@
     "nanoBananaPro": {
       "description": "高品質なクリエイティブアウトプットのために最適化された、光速ジェネレーション。",
       "tags": {
-        "fast": "ほとんど",
+        "fast": "高速",
         "highQuality": "高品質",
         "latest": "最新"
       }

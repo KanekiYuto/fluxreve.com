@@ -71,7 +71,7 @@
     "noLoraConfigured": "Aún no se ha configurado LoRA",
     "outputFormat": "Formato de salida",
     "outputFormatPlaceholder": "Seleccionar formato de salida",
-    "privateMode": "Moda privada",
+    "privateMode": "Modo privado",
     "privateModeDesc": "Los resultados sólo serán visibles para ti",
     "privateModeSubscriptionRequired": "Suscribirse para activar el modo privado",
     "prompt": "Pregunte a",
@@ -93,7 +93,7 @@
   },
   "generate": {
     "generateImage": "Generar imagen (Coste {credits} Cuota)",
-    "generating": "Generating... {progress}%"
+    "generating": "Generando... {progress}%"
   },
   "loading": {
     "creating": "Creación de IA",
@@ -118,7 +118,7 @@
     "noLoraHint": "Cree o importe primero modelos LoRA",
     "noSearchResults": "No matching LoRA found",
     "noSelectedLoras": "No LoRA seleccionado",
-    "scale": "Escaleras",
+    "scale": "Escala",
     "searchPlaceholder": "Buscar LoRA nombre, descripción o palabra desencadenante...",
     "selectLora": "Select LoRA",
     "selectMore": "Manage LoRA",
@@ -127,9 +127,10 @@
   },
   "modelGroups": {
     "flux": "Flux Series",
-    "nano": "Serie Nano",
+    "nano": "Nano Banana Series",
     "seedream": "Seedream Series",
-    "zImage": "Z-Image Series"
+    "zImage": "Z-Image Series",
+    "more": "Más"
   },
   "models": {
     "flux2Pro": {
@@ -143,7 +144,7 @@
     "nanoBananaPro": {
       "description": "Generación ultrarrápida, optimizada para obtener resultados creativos de alta calidad con una velocidad excepcional",
       "tags": {
-        "fast": "Casi",
+        "fast": "Rápido",
         "highQuality": "Alta calidad",
         "latest": "Última"
       }

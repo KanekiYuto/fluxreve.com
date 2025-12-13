@@ -71,7 +71,7 @@
     "noLoraConfigured": "لم يتم تكوين LoRA بعد",
     "outputFormat": "تنسيق الإخراج",
     "outputFormatPlaceholder": "تحديد تنسيق الإخراج",
-    "privateMode": "أزياء خاصة",
+    "privateMode": "الوضع الخاص",
     "privateModeDesc": "ستكون النتائج مرئية لك فقط",
     "privateModeSubscriptionRequired": "اشترك لتمكين الوضع الخاص",
     "prompt": "موجه",
@@ -118,7 +118,7 @@
     "noLoraHint": "يرجى إنشاء أو استيراد نماذج LoRA أولاً",
     "noSearchResults": "لم يتم العثور على LoRA مطابقة",
     "noSelectedLoras": "لا يوجد LoRA محدد",
-    "scale": "السلالم",
+    "scale": "المقياس",
     "searchPlaceholder": "بحث LoRA الاسم أو الوصف أو الكلمة المحفزة...",
     "selectLora": "حدد LoRA",
     "selectMore": "إدارة LoRA",
@@ -127,9 +127,10 @@
   },
   "modelGroups": {
     "flux": "Flux السلسلة",
-    "nano": "سلسلة نانو",
-    "seedream": "Seedream Series",
-    "zImage": "Z-Image السلسلة"
+    "nano": "Nano Banana السلسلة",
+    "seedream": "Seedream السلسلة",
+    "zImage": "Z-Image السلسلة",
+    "more": "المزيد"
   },
   "models": {
     "flux2Pro": {
@@ -143,7 +144,7 @@
     "nanoBananaPro": {
       "description": "توليد بسرعة البرق، مُحسَّن للحصول على مخرجات إبداعية عالية الجودة مع سرعة استثنائية",
       "tags": {
-        "fast": "تقريباً",
+        "fast": "سريع",
         "highQuality": "جودة عالية",
         "latest": "الأحدث"
       }

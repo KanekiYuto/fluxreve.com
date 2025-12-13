@@ -23,16 +23,16 @@
   "error": {
     "credits": "크레딧",
     "current": "현재",
-    "generationFailed": "세대 실패",
+    "generationFailed": "생성 실패",
     "imageGenerationFailed": "이미지 생성 실패",
     "insufficientCredits": "크레딧 부족",
     "parameterError": "매개변수 오류",
-    "pleaseRecharge": "재충전 후 다시 시도하세요.",
-    "promptRequired": "프롬프트를 입력하세요.",
+    "pleaseRecharge": "재충전 후 다시 시도하세요",
+    "promptRequired": "프롬프트를 입력하세요",
     "queryStatusFailed": "쿼리 상태 실패",
     "required": "필수",
     "subscribe": "구독",
-    "unableToQueryStatus": "작업 상태를 조회할 수 없습니다."
+    "unableToQueryStatus": "작업 상태를 조회할 수 없습니다"
   },
   "examples": {
     "clickToUse": "이 예제를 사용하려면 클릭하세요.",
@@ -71,7 +71,7 @@
     "noLoraConfigured": "아직 LoRA이 구성되지 않았습니다.",
     "outputFormat": "출력 형식",
     "outputFormatPlaceholder": "출력 형식 선택",
-    "privateMode": "개인 패션",
+    "privateMode": "개인 모드",
     "privateModeDesc": "결과는 본인에게만 표시됩니다.",
     "privateModeSubscriptionRequired": "비공개 모드를 활성화하려면 구독하세요.",
     "prompt": "프롬프트",
@@ -118,7 +118,7 @@
     "noLoraHint": "먼저 LoRA 모델을 생성하거나 가져오세요.",
     "noSearchResults": "일치하는 LoRA을 찾을 수 없습니다.",
     "noSelectedLoras": "아니요 LoRA 선택됨",
-    "scale": "계단",
+    "scale": "스케일",
     "searchPlaceholder": "검색 LoRA 이름, 설명 또는 트리거 단어...",
     "selectLora": "선택 LoRA",
     "selectMore": "관리 LoRA",
@@ -127,9 +127,10 @@
   },
   "modelGroups": {
     "flux": "Flux 시리즈",
-    "nano": "나노 시리즈",
-    "seedream": "Seedream Series",
-    "zImage": "Z-Image 시리즈"
+    "nano": "Nano Banana 시리즈",
+    "seedream": "Seedream 시리즈",
+    "zImage": "Z-Image 시리즈",
+    "more": "더보기"
   },
   "models": {
     "flux2Pro": {
@@ -143,7 +144,7 @@
     "nanoBananaPro": {
       "description": "탁월한 속도로 고품질 크리에이티브 출력에 최적화된 초고속 세대",
       "tags": {
-        "fast": "거의",
+        "fast": "빠름",
         "highQuality": "고품질",
         "latest": "최신"
       }

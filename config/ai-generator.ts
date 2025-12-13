@@ -3,8 +3,14 @@
  * 用于配置各个生成器模型的配额消耗
  */
 
-// 生成器类型
-export type TaskType = 'text-to-image' | 'image-to-image';
+// 主要生成器类型
+type MainTaskType = 'text-to-image' | 'image-to-image';
+
+// 更多生成器类型
+type MoreTaskType = 'image-upscaler';
+
+// 生成器类型（包括主要类型和更多类型）
+export type TaskType = MainTaskType | MoreTaskType;
 
 // 默认配额常量（未匹配到任何生成器时使用）
 export const DEFAULT_CREDITS = 88888888;
@@ -37,6 +43,9 @@ export function getRequiredCredits(
 
     case 'image-to-image':
       return calculateImageToImageCredits(model, parameters);
+
+    case 'image-upscaler':
+      return calculateImageUpscalerCredits(model, parameters);
 
     default:
       // 未匹配到任务类型，返回默认配额
@@ -180,4 +189,24 @@ function seedreamImageToImageCredits(_parameters: Record<string, any>): number {
  */
 function zImageLoraTextToImageCredits(_parameters: Record<string, any>): number {
   return 10;
+}
+
+// ============ 更多生成器的配额计算函数 ============
+
+/**
+ * 图片放大配额计算
+ */
+function calculateImageUpscalerCredits(model: string, parameters: Record<string, any>): number {
+  // 根据目标分辨率计算配额
+  const { target_resolution } = parameters;
+
+  switch (target_resolution) {
+    case '4k':
+      return 15;
+    case '2k':
+      return 10;
+    case '1k':
+    default:
+      return 5;
+  }
 }

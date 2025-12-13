@@ -122,10 +122,11 @@
     "generateImage": "Generate Image (Cost {credits} Quota)"
   },
   "modelGroups": {
-    "nano": "Nano Series",
+    "nano": "Nano Banana Series",
     "zImage": "Z-Image Series",
     "flux": "Flux Series",
-    "seedream": "Seedream Series"
+    "seedream": "Seedream Series",
+    "more": "More"
   },
   "models": {
     "nanoBananaPro": {

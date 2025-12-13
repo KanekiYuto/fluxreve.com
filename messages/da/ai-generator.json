@@ -22,8 +22,8 @@
   },
   "error": {
     "credits": "Kreditter",
-    "current": "Strøm",
-    "generationFailed": "Generation mislykkedes",
+    "current": "Nuværende",
+    "generationFailed": "Generering mislykkedes",
     "imageGenerationFailed": "Billedgenerering mislykkedes",
     "insufficientCredits": "Utilstrækkelige kreditter",
     "parameterError": "Parameterfejl",
@@ -74,7 +74,7 @@
     "privateMode": "Privat tilstand",
     "privateModeDesc": "Resultaterne vil kun være synlige for dig",
     "privateModeSubscriptionRequired": "Abonner for at aktivere privat tilstand",
-    "prompt": "Hurtig",
+    "prompt": "Prompt",
     "promptPlaceholder": "Beskriv det billede, du ønsker at generere...",
     "resolution": "Opløsning",
     "resolutionPlaceholder": "Vælg opløsning",
@@ -127,9 +127,10 @@
   },
   "modelGroups": {
     "flux": "Flux Serie",
-    "nano": "Nano-serien",
-    "seedream": "Seedream Series",
-    "zImage": "Z-Image Serie"
+    "nano": "Nano Banana Serie",
+    "seedream": "Seedream Serie",
+    "zImage": "Z-Image Serie",
+    "more": "Mere"
   },
   "models": {
     "flux2Pro": {
@@ -184,7 +185,7 @@
     "downloadCurrent": "Download nuværende",
     "fileCount": "{count} fil(er)",
     "generationTime": "Generationstid",
-    "prompt": "Hurtig",
+    "prompt": "Prompt",
     "seconds": "{seconds}s",
     "title": "Genererede resultater"
   },

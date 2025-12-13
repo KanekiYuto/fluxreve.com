@@ -44,7 +44,7 @@
   },
   "form": {
     "add": "Ajouter",
-    "addImageUrl": "Add Image URL",
+    "addImageUrl": "Ajouter une URL d'image",
     "addItem": "Ajouter un article",
     "addLora": "Ajouter LoRA",
     "advancedSettings": "Paramètres avancés",
@@ -118,7 +118,7 @@
     "noLoraHint": "Veuillez d'abord créer ou importer des modèles LoRA.",
     "noSearchResults": "Aucune correspondance LoRA n'a été trouvée",
     "noSelectedLoras": "Non LoRA sélectionné",
-    "scale": "Escaliers",
+    "scale": "Échelle",
     "searchPlaceholder": "Rechercher LoRA le nom, la description ou le mot déclencheur...",
     "selectLora": "Sélectionner LoRA",
     "selectMore": "Gérer LoRA",
@@ -127,9 +127,10 @@
   },
   "modelGroups": {
     "flux": "Flux Série",
-    "nano": "Série Nano",
-    "seedream": "Seedream Series",
-    "zImage": "Z-Image Série"
+    "nano": "Nano Banana Série",
+    "seedream": "Seedream Série",
+    "zImage": "Z-Image Série",
+    "more": "Plus"
   },
   "models": {
     "flux2Pro": {
@@ -143,7 +144,7 @@
     "nanoBananaPro": {
       "description": "Génération rapide comme l'éclair, optimisée pour une production créative de haute qualité à une vitesse exceptionnelle",
       "tags": {
-        "fast": "Presque",
+        "fast": "Rapide",
         "highQuality": "Haute qualité",
         "latest": "Dernières nouvelles"
       }

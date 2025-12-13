@@ -44,7 +44,7 @@
   },
   "form": {
     "add": "hinzufügen",
-    "addImageUrl": "Add Image URL",
+    "addImageUrl": "Bild-URL hinzufügen",
     "addItem": "Artikel hinzufügen",
     "addLora": "Hinzufügen LoRA",
     "advancedSettings": "Erweiterte Einstellungen",
@@ -71,7 +71,7 @@
     "noLoraConfigured": "Noch keine LoRA konfiguriert",
     "outputFormat": "Ausgabeformat",
     "outputFormatPlaceholder": "Ausgabeformat wählen",
-    "privateMode": "Private Mode",
+    "privateMode": "Privater Modus",
     "privateModeDesc": "Die Ergebnisse werden nur für Sie sichtbar sein",
     "privateModeSubscriptionRequired": "Abonnieren, um den privaten Modus zu aktivieren",
     "prompt": "Prompt",
@@ -118,7 +118,7 @@
     "noLoraHint": "Bitte erstellen oder importieren Sie zuerst LoRA Modelle",
     "noSearchResults": "Keine passenden LoRA gefunden",
     "noSelectedLoras": "Nein LoRA ausgewählt",
-    "scale": "Treppe",
+    "scale": "Skalierung",
     "searchPlaceholder": "Suche LoRA Name, Beschreibung oder Auslösewort...",
     "selectLora": "Wählen Sie LoRA",
     "selectMore": "Verwalten LoRA",
@@ -127,9 +127,10 @@
   },
   "modelGroups": {
     "flux": "Flux Reihe",
-    "nano": "Nano-Serie",
-    "seedream": "Seedream Series",
-    "zImage": "Z-Image Reihe"
+    "nano": "Nano Banana Reihe",
+    "seedream": "Seedream Reihe",
+    "zImage": "Z-Image Reihe",
+    "more": "Mehr"
   },
   "models": {
     "flux2Pro": {
@@ -143,7 +144,7 @@
     "nanoBananaPro": {
       "description": "Blitzschnelle Generierung, optimiert für hochwertige kreative Ausgabe mit außergewöhnlicher Geschwindigkeit",
       "tags": {
-        "fast": "Fast",
+        "fast": "Schnell",
         "highQuality": "Hohe Qualität",
         "latest": "Neueste"
       }

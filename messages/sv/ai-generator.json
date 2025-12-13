@@ -127,9 +127,10 @@
   },
   "modelGroups": {
     "flux": "Flux Serie",
-    "nano": "Nano-serien",
-    "seedream": "Seedream Series",
-    "zImage": "Z-Image Serie"
+    "nano": "Nano Banana Serie",
+    "seedream": "Seedream Serie",
+    "zImage": "Z-Image Serie",
+    "more": "Mer"
   },
   "models": {
     "flux2Pro": {

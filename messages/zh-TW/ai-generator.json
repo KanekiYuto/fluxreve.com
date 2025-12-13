@@ -21,16 +21,16 @@
     "refresh": "刷新配额"
   },
   "error": {
-    "credits": "鸣谢",
-    "current": "当前的",
-    "generationFailed": "一代失败者",
+    "credits": "配额",
+    "current": "当前",
+    "generationFailed": "生成失败",
     "imageGenerationFailed": "图像生成失败",
-    "insufficientCredits": "学分不足",
+    "insufficientCredits": "配额不足",
     "parameterError": "参数错误",
-    "pleaseRecharge": "请充电后再试。",
+    "pleaseRecharge": "请充值后再试一次",
     "promptRequired": "请输入提示",
     "queryStatusFailed": "查询状态失败",
-    "required": "必需的",
+    "required": "必需",
     "subscribe": "订阅",
     "unableToQueryStatus": "无法查询任务状态"
   },
@@ -74,9 +74,9 @@
     "privateMode": "隐私模式",
     "privateModeDesc": "结果仅对您可见。",
     "privateModeSubscriptionRequired": "订阅即可启用私密模式",
-    "prompt": "迅速的",
+    "prompt": "提示",
     "promptPlaceholder": "描述您想要生成的图像……",
-    "resolution": "解决",
+    "resolution": "分辨率",
     "resolutionPlaceholder": "选择分辨率",
     "seed": "种子",
     "seedPlaceholder": "留空表示随机",
@@ -127,9 +127,10 @@
   },
   "modelGroups": {
     "flux": "Flux 系列",
-    "nano": "纳米系列",
-    "seedream": "Seedream Series",
-    "zImage": "Z-Image 系列"
+    "nano": "Nano Banana 系列",
+    "seedream": "Seedream 系列",
+    "zImage": "Z-Image 系列",
+    "more": "更多"
   },
   "models": {
     "flux2Pro": {
@@ -143,7 +144,7 @@
     "nanoBananaPro": {
       "description": "闪电般快速的生成速度，针对高质量创意输出进行了优化，速度卓越",
       "tags": {
-        "fast": "快速地",
+        "fast": "快速",
         "highQuality": "高质量",
         "latest": "最新的"
       }
@@ -183,8 +184,8 @@
     "downloadAll": "下载全部 ({count})",
     "downloadCurrent": "下载当前版本",
     "fileCount": "{count} 文件",
-    "generationTime": "世代时间",
-    "prompt": "迅速的",
+    "generationTime": "生成时间",
+    "prompt": "提示",
     "seconds": "{seconds}s",
     "title": "生成结果"
   },

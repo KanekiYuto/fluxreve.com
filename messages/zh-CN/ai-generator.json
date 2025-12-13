@@ -21,16 +21,16 @@
     "refresh": "刷新配额"
   },
   "error": {
-    "credits": "荣誉",
+    "credits": "配额",
     "current": "当前",
-    "generationFailed": "一代失败",
+    "generationFailed": "生成失败",
     "imageGenerationFailed": "图像生成失败",
-    "insufficientCredits": "学分不足",
-    "parameterError": "参数误差",
+    "insufficientCredits": "配额不足",
+    "parameterError": "参数错误",
     "pleaseRecharge": "请充值后再试一次",
     "promptRequired": "请输入提示",
     "queryStatusFailed": "查询状态失败",
-    "required": "需要",
+    "required": "必需",
     "subscribe": "订阅",
     "unableToQueryStatus": "无法查询任务状态"
   },
@@ -62,8 +62,8 @@
     "clickAddLoraToStart": "单击上面的按钮添加 LoRA 配置",
     "configuration": "配置",
     "imageUrlPlaceholder": "输入图片 URL",
-    "loraConfig": "LoRA Config",
-    "loraConfigHint": "以 JSON 格式输入 LoRA 配置，例如模型名称、重量和其他参数",
+    "loraConfig": "LoRA 配置",
+    "loraConfigHint": "以 JSON 格式输入 LoRA 配置，例如模型名称、权重和其他参数",
     "mode": {
       "imageToImage": "图像到图像",
       "textToImage": "文本到图像"
@@ -71,7 +71,7 @@
     "noLoraConfigured": "尚未配置 LoRA",
     "outputFormat": "输出格式",
     "outputFormatPlaceholder": "选择输出格式",
-    "privateMode": "私人时装",
+    "privateMode": "隐私模式",
     "privateModeDesc": "结果只对您可见",
     "privateModeSubscriptionRequired": "订阅以启用专用模式",
     "prompt": "提示",
@@ -93,7 +93,7 @@
   },
   "generate": {
     "generateImage": "生成图像（成本 {credits} 配额）",
-    "generating": "Generating... {progress}%"
+    "generating": "正在生成... {progress}%"
   },
   "loading": {
     "creating": "人工智能创建",
@@ -113,12 +113,12 @@
     "manage": "管理",
     "modalSubtitle": "从 LoRA 库中选择，并自定义比例，以获得个性化风格",
     "modalTitle": "选择 LoRA 型号",
-    "noLoraAvailable": "无 LoRA 可用信息",
+    "noLoraAvailable": "暂无可用 LoRA",
     "noLoraConfigured": "未配置 LoRA",
     "noLoraHint": "请先创建或导入 LoRA 模型",
     "noSearchResults": "未找到匹配的 LoRA",
     "noSelectedLoras": "未选中 LoRA",
-    "scale": "楼梯",
+    "scale": "缩放比例",
     "searchPlaceholder": "搜索 LoRA 名称、描述或触发词...",
     "selectLora": "Select LoRA",
     "selectMore": "Manage LoRA",
@@ -126,10 +126,11 @@
     "selectedLoras": "精选"
   },
   "modelGroups": {
-    "flux": "Flux Series",
-    "nano": "纳米系列",
-    "seedream": "Seedream Series",
-    "zImage": "Z-Image Series"
+    "flux": "Flux 系列",
+    "nano": "Nano Banana 系列",
+    "seedream": "Seedream 系列",
+    "zImage": "Z-Image 系列",
+    "more": "更多"
   },
   "models": {
     "flux2Pro": {
@@ -143,7 +144,7 @@
     "nanoBananaPro": {
       "description": "快如闪电的生成速度，优化了高质量的创意输出，速度非凡",
       "tags": {
-        "fast": "几乎",
+        "fast": "快速",
         "highQuality": "高质量",
         "latest": "最新"
       }
@@ -181,8 +182,8 @@
   "results": {
     "completedTime": "完成时间",
     "downloadAll": "全部下载 ({count})",
-    "downloadCurrent": "下载电流",
-    "fileCount": "{count} file(s)",
+    "downloadCurrent": "下载当前",
+    "fileCount": "{count} 个文件",
     "generationTime": "生成时间",
     "prompt": "提示",
     "seconds": "{seconds}s",

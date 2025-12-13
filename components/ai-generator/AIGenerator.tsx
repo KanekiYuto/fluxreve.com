@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import TextToImageGenerator from './TextToImageGenerator';
 import ImageToImageGenerator from './ImageToImageGenerator';
+import MoreGenerator from './MoreGenerator';
 import Tabs, { type TabItem } from './base/Tabs';
 import ComingSoon from './base/ComingSoon';
 
@@ -33,22 +34,7 @@ export default function AIGenerator({ defaultTab = 'text-to-image', defaultModel
     {
       key: 'more',
       label: tTabs('more'),
-      component: (
-        <ComingSoon
-          icon={
-            <svg className="w-10 h-10 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-              />
-            </svg>
-          }
-          title={tComingSoon('moreTools.title')}
-          description={tComingSoon('moreTools.description')}
-        />
-      ),
+      component: <MoreGenerator defaultModel={defaultModel} defaultParameters={defaultParameters} />,
     },
   ];
 

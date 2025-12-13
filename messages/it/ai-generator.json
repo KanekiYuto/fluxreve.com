@@ -46,7 +46,7 @@
     "add": "Aggiungi",
     "addImageUrl": "Aggiungi URL immagine",
     "addItem": "Aggiungi articolo",
-    "addLora": "Add LoRA",
+    "addLora": "Aggiungi LoRA",
     "advancedSettings": "Impostazioni avanzate",
     "aspectRatio": "Rapporto d'aspetto",
     "aspectRatioPlaceholder": "Selezionare il rapporto d'aspetto",
@@ -62,8 +62,8 @@
     "clickAddLoraToStart": "Fare clic sul pulsante qui sopra per aggiungere la configurazione LoRA",
     "configuration": "Configurazione",
     "imageUrlPlaceholder": "Inserire l'URL dell'immagine",
-    "loraConfig": "LoRA Config",
-    "loraConfigHint": "Inserire la configurazione LoRA in formato JSON, ad esempio il nome del modello, il peso e altri parametri.",
+    "loraConfig": "Configurazione LoRA",
+    "loraConfigHint": "Inserire la configurazione LoRA in formato JSON, ad esempio il nome del modello, il peso e altri parametri",
     "mode": {
       "imageToImage": "Da immagine a immagine",
       "textToImage": "Da testo a immagine"
@@ -71,7 +71,7 @@
     "noLoraConfigured": "Non è ancora configurato LoRA",
     "outputFormat": "Formato di uscita",
     "outputFormatPlaceholder": "Selezionare il formato di uscita",
-    "privateMode": "Moda privata",
+    "privateMode": "Modalità privata",
     "privateModeDesc": "I risultati saranno visibili solo a voi",
     "privateModeSubscriptionRequired": "Sottoscrivere per abilitare la modalità privata",
     "prompt": "Prompt",
@@ -101,35 +101,36 @@
     "message": "Generare contenuti straordinari per voi, attendere prego..."
   },
   "lora": {
-    "addLora": "Add LoRA",
-    "cancel": "Annullamento",
+    "addLora": "Aggiungi LoRA",
+    "cancel": "Annulla",
     "clickAddLoraToStart": "Fare clic sul pulsante \"Aggiungi LoRA\" per avviare la configurazione.",
     "clickToSelect": "Fare clic su una scheda LoRA a sinistra per selezionarla.",
     "configuration": "Configurazione",
     "confirm": "Confermare",
     "loading": "Caricamento...",
-    "loraConfig": "LoRA Config",
+    "loraConfig": "Configurazione LoRA",
     "loraConfigHint": "Inserire una configurazione valida in formato JSON",
     "manage": "Gestire",
     "modalSubtitle": "Scegliete dalla libreria LoRA e personalizzate la scala per ottenere uno stile personalizzato.",
     "modalTitle": "Selezionare il modello LoRA",
     "noLoraAvailable": "Non è disponibile LoRA",
-    "noLoraConfigured": "No LoRA configured",
+    "noLoraConfigured": "Nessun LoRA configurato",
     "noLoraHint": "Creare o importare prima i modelli LoRA",
     "noSearchResults": "Nessuna corrispondenza con LoRA trovata",
-    "noSelectedLoras": "No LoRA selezionato",
-    "scale": "Scale",
+    "noSelectedLoras": "Nessun LoRA selezionato",
+    "scale": "Scala",
     "searchPlaceholder": "Cerca LoRA nome, descrizione o parola chiave...",
-    "selectLora": "Select LoRA",
-    "selectMore": "Manage LoRA",
-    "selectedCount": "{count} LoRA(s) selected",
+    "selectLora": "Seleziona LoRA",
+    "selectMore": "Gestisci LoRA",
+    "selectedCount": "{count} LoRA(s) selezionato(i)",
     "selectedLoras": "Selezionato"
   },
   "modelGroups": {
-    "flux": "Flux Series",
-    "nano": "Nano Series",
-    "seedream": "Seedream Series",
-    "zImage": "Z-Image Series"
+    "flux": "Serie Flux",
+    "nano": "Serie Nano Banana",
+    "seedream": "Serie Seedream",
+    "zImage": "Serie Z-Image",
+    "more": "Di più"
   },
   "models": {
     "flux2Pro": {
@@ -143,7 +144,7 @@
     "nanoBananaPro": {
       "description": "Generazione fulminea, ottimizzata per una produzione creativa di alta qualità con una velocità eccezionale",
       "tags": {
-        "fast": "Quasi",
+        "fast": "Veloce",
         "highQuality": "Alta qualità",
         "latest": "Ultime novità"
       }

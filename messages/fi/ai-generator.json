@@ -21,9 +21,9 @@
     "refresh": "Päivitä kiintiö"
   },
   "error": {
-    "credits": "Tekijät",
+    "credits": "Krediitit",
     "current": "Nykyinen",
-    "generationFailed": "Sukupolvi epäonnistui",
+    "generationFailed": "Luonti epäonnistui",
     "imageGenerationFailed": "Kuvan luonti epäonnistui",
     "insufficientCredits": "Riittämättömät krediitit",
     "parameterError": "Parametrivirhe",
@@ -127,9 +127,10 @@
   },
   "modelGroups": {
     "flux": "Flux Sarja",
-    "nano": "Nano-sarja",
-    "seedream": "Seedream Series",
-    "zImage": "Z-Image Sarja"
+    "nano": "Nano Banana Sarja",
+    "seedream": "Seedream Sarja",
+    "zImage": "Z-Image Sarja",
+    "more": "Lisää"
   },
   "models": {
     "flux2Pro": {
