@@ -9,7 +9,7 @@ import {
   LandingFAQ,
   LandingCTA
 } from '@/components/landing-page';
-import MoreGenerator from '@/components/ai-generator/MoreGenerator';
+import AIGenerator from '@/components/ai-generator/AIGenerator';
 import Divider from '@/components/Divider';
 
 export default function LandingContent() {
@@ -31,7 +31,7 @@ export default function LandingContent() {
       {/* AI Generator - 功能演示 */}
       <section id="generator" className="py-8 sm:py-10 md:py-12 bg-bg-base">
         <div className="max-w-7xl mx-auto">
-          <MoreGenerator defaultModel="image-upscaler" />
+          <AIGenerator defaultTab="more" defaultModel="image-upscaler" />
         </div>
       </section>
 
