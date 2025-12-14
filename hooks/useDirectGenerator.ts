@@ -7,6 +7,7 @@
 import { useState, useCallback, useMemo } from 'react';
 import { useTranslations } from 'next-intl';
 import { useCredits } from '@/hooks/useCredits';
+import useModalStore from '@/store/useModalStore';
 import { getRequiredCredits } from '@/config/ai-generator';
 
 // ==================== 类型定义 ====================
@@ -77,6 +78,7 @@ export function useDirectGenerator(config: DirectGeneratorConfig) {
   } = config;
 
   const tError = useTranslations('ai-generator.error');
+  const { openSubscriptionModal } = useModalStore();
 
   // ==================== 状态管理 ====================
 
@@ -232,6 +234,8 @@ export function useDirectGenerator(config: DirectGeneratorConfig) {
               current: credits,
             },
           });
+          // 同时打开订阅模态框
+          openSubscriptionModal();
           return;
         }
       }
