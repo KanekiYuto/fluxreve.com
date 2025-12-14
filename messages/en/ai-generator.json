@@ -55,8 +55,8 @@
     "message": "Generating amazing content for you, please wait..."
   },
   "credits": {
-    "quota": "Quota",
-    "refresh": "Refresh quota"
+    "quota": "Credits",
+    "refresh": "Refresh credits"
   },
   "form": {
     "mode": {

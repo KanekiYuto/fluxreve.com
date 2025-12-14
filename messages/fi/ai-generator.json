@@ -1,7 +1,7 @@
 {
   "credits": {
-    "quota": "Kiintiö",
-    "refresh": "Päivitä kiintiö"
+    "quota": "Krediitit",
+    "refresh": "Päivitä krediitit"
   },
   "error": {
     "credits": "Krediitit",

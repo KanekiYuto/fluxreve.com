@@ -1,7 +1,7 @@
 {
   "credits": {
-    "quota": "Kvote",
-    "refresh": "Oppdater kvoten"
+    "quota": "Kreditter",
+    "refresh": "Oppdater kreditter"
   },
   "error": {
     "credits": "Kreditter",

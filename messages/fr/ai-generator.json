@@ -1,7 +1,7 @@
 {
   "credits": {
-    "quota": "Quota",
-    "refresh": "Actualiser le quota"
+    "quota": "Crédits",
+    "refresh": "Actualiser les crédits"
   },
   "error": {
     "credits": "Crédits",

@@ -1,7 +1,7 @@
 {
   "credits": {
-    "quota": "ノルマ",
-    "refresh": "リフレッシュ・クォータ"
+    "quota": "クレジット",
+    "refresh": "クレジットを更新"
   },
   "error": {
     "credits": "クレジット",

@@ -1,14 +1,14 @@
 {
   "credits": {
-    "quota": "配额",
-    "refresh": "刷新配额"
+    "quota": "积分",
+    "refresh": "刷新积分"
   },
   "error": {
-    "credits": "配额",
+    "credits": "积分",
     "current": "当前",
     "generationFailed": "生成失败",
     "imageGenerationFailed": "图像生成失败",
-    "insufficientCredits": "配额不足",
+    "insufficientCredits": "积分不足",
     "parameterError": "参数错误",
     "pleaseRecharge": "请充值后再试一次",
     "promptRequired": "请输入提示",
@@ -79,7 +79,7 @@
     "uploading": "上传..."
   },
   "generate": {
-    "generateImage": "生成 ({credits} 配额)",
+    "generateImage": "生成 ({credits} 积分)",
     "generating": "正在生成... {progress}%"
   },
   "loading": {

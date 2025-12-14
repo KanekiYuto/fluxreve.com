@@ -1,7 +1,7 @@
 {
   "credits": {
-    "quota": "할당량",
-    "refresh": "새로 고침 할당량"
+    "quota": "크레딧",
+    "refresh": "크레딧 새로고침"
   },
   "error": {
     "credits": "크레딧",
