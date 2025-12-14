@@ -14,7 +14,7 @@ interface GeneratorLayoutWrapperProps {
     requiredCredits: number;
     isLoading: boolean;
     progress: number;
-    errorInfo: { title: string; message: string } | null;
+    errorInfo: { title: string; message: string; variant?: string; creditsInfo?: { required: number; current: number } } | null;
     credits: number | null;
     creditsLoading: boolean;
     refreshCredits: () => void;
@@ -45,6 +45,8 @@ export default function GeneratorLayoutWrapper({
           ? {
               title: generator.errorInfo.title,
               message: generator.errorInfo.message,
+              variant: generator.errorInfo.variant as 'error' | 'credits' | undefined,
+              creditsInfo: generator.errorInfo.creditsInfo,
             }
           : undefined
       }

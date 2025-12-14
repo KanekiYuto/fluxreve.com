@@ -272,6 +272,11 @@ export function useWebHookGenerator(config: WebHookGeneratorConfig) {
             type: 'insufficient_credits',
             title: tError('insufficientCredits'),
             message: tError('pleaseRecharge'),
+            variant: 'credits',
+            creditsInfo: {
+              required: requiredCredits,
+              current: credits,
+            },
           });
           return;
         }

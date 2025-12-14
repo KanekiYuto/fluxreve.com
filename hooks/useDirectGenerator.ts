@@ -219,9 +219,6 @@ export function useDirectGenerator(config: DirectGeneratorConfig) {
         customValidation,
       } = validators;
 
-      // 构建请求体
-      const requestBody = buildRequestBody ? buildRequestBody(params) : params;
-
       // 检查积分
       if (validateCredits) {
         if (credits !== null && credits < requiredCredits) {
@@ -229,6 +226,11 @@ export function useDirectGenerator(config: DirectGeneratorConfig) {
             type: 'insufficient_credits',
             title: tError('insufficientCredits'),
             message: tError('pleaseRecharge'),
+            variant: 'credits',
+            creditsInfo: {
+              required: requiredCredits,
+              current: credits,
+            },
           });
           return;
         }
