@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { headers } from 'next/headers';
 import { Metadata } from 'next';
 import { format } from 'date-fns';
 import { getTranslations } from 'next-intl/server';
@@ -73,6 +74,14 @@ export default async function SharePage({ params }: PageProps) {
     notFound();
   }
 
+  // 获取当前请求头以记录访问
+  const headersList = await headers();
+
+  // 异步记录访问（不阻塞页面渲染）
+  recordTaskView(task.task_id, headersList).catch(error => {
+    console.error('Failed to record task view:', error);
+  });
+
   // 任务未完成
   if (task.status !== 'completed' || !task.results || !task.completed_at) {
     return <ProcessingPage />;
@@ -84,11 +93,11 @@ export default async function SharePage({ params }: PageProps) {
   const resolution = task.parameters?.resolution;
   const aspectRatio = task.parameters?.aspect_ratio;
   const siteUrl = getSiteUrl();
-  
+
   // NSFW 内容使用通用描述，避免敏感提示词被 SEO 收录
   const isNsfw = task.is_nsfw;
   const displayPrompt = isNsfw ? tNsfw('imageAlt') : rawPrompt;
-  
+
   // NSFW 内容不生成结构化数据
   const structuredData = isNsfw ? null : generateStructuredData(task, rawPrompt, model, siteUrl);
 
@@ -145,4 +154,43 @@ export default async function SharePage({ params }: PageProps) {
       </article>
     </>
   );
+}
+
+/**
+ * 记录任务访问
+ * 异步函数，不阻塞页面渲染
+ */
+async function recordTaskView(taskId: string, headersList: Awaited<ReturnType<typeof headers>>): Promise<void> {
+  try {
+    const baseUrl = process.env.NEXT_PUBLIC_APP_URL || `${headersList.get('x-forwarded-proto') || 'https'}://${headersList.get('host')}`;
+    const viewUrl = `${baseUrl}/api/ai-generator/tasks/${taskId}/view`;
+
+    // 构建请求头，包含原始请求的信息
+    const viewHeaders: Record<string, string> = {
+      'User-Agent': headersList.get('user-agent') || '',
+    };
+
+    // 传递 IP 相关的 header
+    const realIp = headersList.get('x-real-ip');
+    if (realIp) {
+      viewHeaders['x-real-ip'] = realIp;
+    }
+
+    const forwardedFor = headersList.get('x-forwarded-for');
+    if (forwardedFor) {
+      viewHeaders['x-forwarded-for'] = forwardedFor;
+    }
+
+    const cfCountry = headersList.get('cf-ipcountry');
+    if (cfCountry) {
+      viewHeaders['cf-ipcountry'] = cfCountry;
+    }
+
+    await fetch(viewUrl, {
+      method: 'POST',
+      headers: viewHeaders,
+    });
+  } catch (error) {
+    console.error('Failed to record share view:', error);
+  }
 }

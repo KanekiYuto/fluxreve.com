@@ -57,6 +57,7 @@ export async function GET(
         durationMs: mediaGenerationTask.durationMs,
         isPrivate: mediaGenerationTask.isPrivate,
         isNsfw: mediaGenerationTask.isNsfw,
+        viewCount: mediaGenerationTask.viewCount,
         quotaConsumed: quotaTransaction.amount,
       })
       .from(mediaGenerationTask)
@@ -103,6 +104,7 @@ export async function GET(
         durationMs: task.durationMs,
         isPrivate: task.isPrivate,
         isNsfw: task.isNsfw,
+        viewCount: task.viewCount,
         quotaConsumed: task.quotaConsumed ? Math.abs(task.quotaConsumed) : null,
       },
     });

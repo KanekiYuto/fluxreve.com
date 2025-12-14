@@ -13,6 +13,7 @@ export async function fetchTaskData(shareId: string): Promise<TaskData | null> {
   try {
     const tasks = await db
       .select({
+        taskId: mediaGenerationTask.taskId,
         shareId: mediaGenerationTask.shareId,
         status: mediaGenerationTask.status,
         progress: mediaGenerationTask.progress,
@@ -42,6 +43,7 @@ export async function fetchTaskData(shareId: string): Promise<TaskData | null> {
     const task = tasks[0];
 
     return {
+      task_id: task.taskId,
       share_id: task.shareId,
       status: task.status,
       progress: task.progress,

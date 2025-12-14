@@ -2,6 +2,7 @@
  * 任务数据接口
  */
 export interface TaskData {
+  task_id: string;
   share_id: string;
   status: string;
   progress: number;

@@ -133,6 +133,7 @@ export async function GET(request: NextRequest) {
         errorMessage: mediaGenerationTask.errorMessage,
         isPrivate: mediaGenerationTask.isPrivate,
         isNsfw: mediaGenerationTask.isNsfw,
+        viewCount: mediaGenerationTask.viewCount,
       })
       .from(mediaGenerationTask)
       .where(and(...conditions))

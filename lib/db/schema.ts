@@ -1,4 +1,4 @@
-import { pgTable, text, timestamp, boolean, integer, uuid, jsonb, index } from 'drizzle-orm/pg-core';
+import { pgTable, text, timestamp, boolean, integer, uuid, jsonb, index, uniqueIndex } from 'drizzle-orm/pg-core';
 
 // Better Auth 用户表
 export const user = pgTable('user', {
@@ -254,6 +254,8 @@ export const mediaGenerationTask = pgTable('media_generation_task', {
   isNsfw: boolean('is_nsfw').notNull().default(false),
   // NSFW 内容审核详情 (JSON 格式: {harassment, hate, sexual, sexual/minors, violence})
   nsfwDetails: jsonb('nsfw_details'),
+  // 访问计数 (统计任务被浏览的次数)
+  viewCount: integer('view_count').notNull().default(0),
 }, (table) => ({
   // 用户任务查询、状态过滤
   userIdIdx: index('media_generation_task_user_id_idx').on(table.userId),
@@ -271,6 +273,8 @@ export const mediaGenerationTask = pgTable('media_generation_task', {
   taskTypeIdx: index('media_generation_task_task_type_idx').on(table.taskType),
   // webhook 回调查询
   providerRequestIdIdx: index('media_generation_task_provider_request_id_idx').on(table.providerRequestId),
+  // 访问量排序（用于热门任务排序）
+  viewCountIdx: index('media_generation_task_view_count_idx').on(table.viewCount),
 }));
 
 // 配额交易记录表
@@ -342,4 +346,42 @@ export const lora = pgTable('loras', {
   triggerWordIdx: index('lora_trigger_word_idx').on(table.triggerWord),
   // 创建时间排序
   createdAtIdx: index('lora_created_at_idx').on(table.createdAt),
+}));
+
+// 任务访问记录表 (记录每次任务的访问详情，用于统计和分析)
+export const taskViewRecord = pgTable('task_view_record', {
+  // UUID 主键
+  id: uuid('id').primaryKey().defaultRandom(),
+
+  // 关联的任务ID (使用 task_id，不是主键 id)
+  taskId: uuid('task_id')
+    .notNull()
+    .references(() => mediaGenerationTask.taskId, { onDelete: 'cascade' }),
+
+  // 访问者IP地址
+  ipAddress: text('ip_address').notNull(),
+
+  // 访问者用户ID（已登录用户，可选）
+  userId: text('user_id').references(() => user.id, { onDelete: 'set null' }),
+
+  // User Agent
+  userAgent: text('user_agent'),
+
+  // 国家代码（从IP或headers获取，可选）
+  country: text('country'),
+
+  // 访问时间
+  createdAt: timestamp('created_at').notNull().defaultNow(),
+}, (table) => ({
+  // 核心索引：按任务ID查询访问记录
+  taskIdIdx: index('task_view_record_task_id_idx').on(table.taskId),
+
+  // 防刷索引：确保同一任务下IP不重复（唯一约束）
+  taskIdIpUniqueIdx: uniqueIndex('task_view_record_task_id_ip_unique_idx').on(table.taskId, table.ipAddress),
+
+  // 用户访问记录查询
+  userIdIdx: index('task_view_record_user_id_idx').on(table.userId),
+
+  // 时间范围查询
+  createdAtIdx: index('task_view_record_created_at_idx').on(table.createdAt),
 }));

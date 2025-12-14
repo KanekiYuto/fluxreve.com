@@ -148,6 +148,13 @@
       "when": 1765465400615,
       "tag": "0020_striped_dragon_lord",
       "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1765714383300,
+      "tag": "0021_flaky_angel",
+      "breakpoints": true
     }
   ]
 }
