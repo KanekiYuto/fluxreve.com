@@ -117,6 +117,7 @@
     "nano": "Nano Banana 系列",
     "seedream": "Seedream 系列",
     "zImage": "Z-Image 系列",
+    "effects": "效果",
     "more": "更多"
   },
   "models": {
@@ -183,6 +184,14 @@
         "quality": "质量保留",
         "efficient": "快速处理"
       }
+    },
+    "lofiPixelCharacter": {
+      "description": "将图像转换为像素艺术风格",
+      "tags": {
+        "retro": "复古风格",
+        "professional": "专业风格",
+        "creative": "创意"
+      }
     }
   },
   "page": {
@@ -206,6 +215,7 @@
   },
   "tabs": {
     "imageToImage": "图像到图像",
+    "effects": "效果",
     "more": "更多信息",
     "textToImage": "文本到图像"
   },

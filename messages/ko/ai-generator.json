@@ -117,6 +117,7 @@
     "nano": "Nano Banana 시리즈",
     "seedream": "Seedream 시리즈",
     "zImage": "Z-Image 시리즈",
+    "effects": "이펙트",
     "more": "더보기"
   },
   "models": {
@@ -183,6 +184,14 @@
         "quality": "품질 보존",
         "efficient": "빠른 처리"
       }
+    },
+    "lofiPixelCharacter": {
+      "description": "이미지를 픽셀 아트 스타일로 변환",
+      "tags": {
+        "retro": "레트로",
+        "professional": "전문가",
+        "creative": "창의적인"
+      }
     }
   },
   "page": {
@@ -206,6 +215,7 @@
   },
   "tabs": {
     "imageToImage": "이미지에서 이미지로",
+    "effects": "이펙트",
     "more": "자세히 보기",
     "textToImage": "텍스트를 이미지로"
   },

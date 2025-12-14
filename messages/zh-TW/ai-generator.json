@@ -74,7 +74,7 @@
       "loading": "加载中..."
     },
     "steps": "步骤",
-    "uploadHint": "提示：您可以拖放文件或点击上传。",
+    "uploadHint": "提示:您可以拖放文件或点击上传。",
     "uploadImage": "上传图片",
     "uploading": "正在上传..."
   },
@@ -117,6 +117,7 @@
     "nano": "Nano Banana 系列",
     "seedream": "Seedream 系列",
     "zImage": "Z-Image 系列",
+    "effects": "效果",
     "more": "更多"
   },
   "models": {
@@ -183,6 +184,14 @@
         "quality": "質量保留",
         "efficient": "快速處理"
       }
+    },
+    "lofiPixelCharacter": {
+      "description": "將圖像轉換為像素藝術風格",
+      "tags": {
+        "retro": "復古風格",
+        "professional": "專業風格",
+        "creative": "創意"
+      }
     }
   },
   "page": {
@@ -206,6 +215,7 @@
   },
   "tabs": {
     "imageToImage": "图像到图像",
+    "effects": "效果",
     "more": "更多的",
     "textToImage": "文字转图像"
   },

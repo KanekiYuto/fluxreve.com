@@ -9,8 +9,11 @@ type MainTaskType = 'text-to-image' | 'image-to-image';
 // 更多生成器类型
 type MoreTaskType = 'image-upscaler' | 'image-watermark-remover';
 
-// 生成器类型（包括主要类型和更多类型）
-export type TaskType = MainTaskType | MoreTaskType;
+// 效果生成器类型
+type EffectsTaskType = 'image-effects';
+
+// 生成器类型（包括主要类型、更多类型和效果类型）
+export type TaskType = MainTaskType | MoreTaskType | EffectsTaskType;
 
 // 默认配额常量（未匹配到任何生成器时使用）
 export const DEFAULT_CREDITS = 88888888;
@@ -49,6 +52,9 @@ export function getRequiredCredits(
 
     case 'image-watermark-remover':
       return calculateImageWatermarkRemoverCredits(model, parameters);
+
+    case 'image-effects':
+      return calculateImageEffectsCredits(model, parameters);
 
     default:
       // 未匹配到任务类型，返回默认配额
@@ -234,4 +240,19 @@ function calculateImageUpscalerCredits(model: string, parameters: Record<string,
 function calculateImageWatermarkRemoverCredits(model: string, parameters: Record<string, any>): number {
   // 去水印每张图 20 积分
   return 20;
+}
+
+/**
+ * 图像效果配额计算
+ */
+function calculateImageEffectsCredits(model: string, parameters: Record<string, any>): number {
+  // 根据效果类型计算配额
+  switch (model) {
+    case 'lofi-pixel-character-mini-card':
+      // 像素艺术效果每张图 20 积分
+      return 20;
+    default:
+      // 未匹配到效果模型，返回默认配额
+      return 20;
+  }
 }

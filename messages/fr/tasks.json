@@ -19,12 +19,12 @@
     "title": "Pas encore de tâches"
   },
   "errors": {
-    "fetchFailed": "Échec de l'extraction des tâches",
+    "fetchFailed": "Échec de la récupération des tâches",
     "retry": "Réessayer"
   },
   "filter": {
     "all": "Tous",
-    "clearAll": "Clair",
+    "clearAll": "Effacer tout",
     "completed": "Terminé",
     "failed": "Échec",
     "model": {
@@ -45,36 +45,36 @@
       "private": "Privé",
       "public": "Public"
     },
-    "privacyLabel": "Vie privée",
+    "privacyLabel": "Confidentialité",
     "processing": "Traitement",
     "selectPlaceholder": "Sélectionner...",
-    "selectedCount": "{count} sélectionné",
+    "selectedCount": "{count} sélectionné(s)",
     "statusLabel": "Statut",
     "taskType": {
       "all": "Tous",
       "image-to-image": "Image à image",
-      "text-to-image": "Du texte à l'image"
+      "text-to-image": "Texte à image"
     },
     "taskTypeLabel": "Type",
     "title": "Filtres"
   },
   "header": {
-    "subtitle": "Consultez et gérez l'historique de vos générations",
-    "title": "L'histoire"
+    "subtitle": "Consultez et gérez l'historique de toutes vos générations",
+    "title": "Historique"
   },
   "loginPrompt": {
-    "cta": "S'inscrire",
-    "description": "Connectez-vous pour consulter l'historique de votre génération d'images d'IA",
+    "cta": "Se connecter",
+    "description": "Connectez-vous pour consulter l'historique complet de vos générations d'images IA",
     "title": "Se connecter pour voir l'historique"
   },
-  "noPrompt": "A l'invite",
+  "noPrompt": "Pas de prompt",
   "pagination": {
     "next": "Suivant",
     "prev": "Précédent"
   },
   "seo": {
-    "description": "Visualisez et gérez l'historique de la génération d'images d'IA",
-    "title": "L'histoire"
+    "description": "Consultez et gérez l'historique complet de vos générations d'images IA",
+    "title": "Historique"
   },
   "status": {
     "completed": "Terminé",

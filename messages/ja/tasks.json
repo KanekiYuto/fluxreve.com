@@ -46,7 +46,7 @@
       "public": "パブリック"
     },
     "privacyLabel": "プライバシー",
-    "processing": "加工",
+    "processing": "処理中",
     "selectPlaceholder": "選択...",
     "selectedCount": "{count}を選択",
     "statusLabel": "ステータス",
@@ -67,7 +67,7 @@
     "description": "サインインして、すべてのAI画像生成履歴を見る",
     "title": "ログインして履歴を見る"
   },
-  "noPrompt": "プロンプトで",
+  "noPrompt": "プロンプトなし",
   "pagination": {
     "next": "次のページ",
     "prev": "前へ"
@@ -80,6 +80,6 @@
     "completed": "完成",
     "failed": "失敗",
     "pending": "申請中",
-    "processing": "加工"
+    "processing": "処理中"
   }
 }

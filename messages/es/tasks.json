@@ -24,7 +24,7 @@
   },
   "filter": {
     "all": "Todos",
-    "clearAll": "Claro",
+    "clearAll": "Limpiar todo",
     "completed": "Completado",
     "failed": "Fallido",
     "model": {
@@ -48,7 +48,7 @@
     "privacyLabel": "Privacidad",
     "processing": "Tratamiento",
     "selectPlaceholder": "Seleccione...",
-    "selectedCount": "{count} selected",
+    "selectedCount": "{count} seleccionado(s)",
     "statusLabel": "Estado",
     "taskType": {
       "all": "Todos",
@@ -60,21 +60,21 @@
   },
   "header": {
     "subtitle": "Consulta y gestiona todo tu historial de generaciones",
-    "title": "Historia"
+    "title": "Historial"
   },
   "loginPrompt": {
     "cta": "Iniciar sesión",
     "description": "Inicia sesión para ver todo tu historial de generación de imágenes AI",
     "title": "Iniciar sesión para ver el historial"
   },
-  "noPrompt": "En el indicador",
+  "noPrompt": "Sin prompt",
   "pagination": {
     "next": "Siguiente",
     "prev": "Anterior"
   },
   "seo": {
     "description": "Visualiza y gestiona todo tu historial de generación de imágenes de IA",
-    "title": "Historia"
+    "title": "Historial"
   },
   "status": {
     "completed": "Completado",

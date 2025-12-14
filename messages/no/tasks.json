@@ -24,7 +24,7 @@
   },
   "filter": {
     "all": "Alle",
-    "clearAll": "Klar",
+    "clearAll": "Slett alt",
     "completed": "Fullført",
     "failed": "Mislyktes",
     "model": {

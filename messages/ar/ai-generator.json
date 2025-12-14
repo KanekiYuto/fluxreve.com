@@ -117,6 +117,7 @@
     "nano": "Nano Banana السلسلة",
     "seedream": "Seedream السلسلة",
     "zImage": "Z-Image السلسلة",
+    "effects": "التأثيرات",
     "more": "المزيد"
   },
   "models": {
@@ -183,6 +184,14 @@
         "quality": "الحفاظ على الجودة",
         "efficient": "معالجة سريعة"
       }
+    },
+    "lofiPixelCharacter": {
+      "description": "تحويل الصور إلى نمط فن البكسل",
+      "tags": {
+        "retro": "ريترو",
+        "professional": "مهني",
+        "creative": "إبداعي"
+      }
     }
   },
   "page": {
@@ -206,6 +215,7 @@
   },
   "tabs": {
     "imageToImage": "من صورة إلى صورة",
+    "effects": "التأثيرات",
     "more": "المزيد",
     "textToImage": "تحويل النص إلى صورة"
   },

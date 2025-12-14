@@ -24,7 +24,7 @@
   },
   "filter": {
     "all": "Alle",
-    "clearAll": "Klar",
+    "clearAll": "Ryd alt",
     "completed": "Færdiggjort",
     "failed": "Mislykkedes",
     "model": {
@@ -79,7 +79,7 @@
   "status": {
     "completed": "Færdiggjort",
     "failed": "Mislykkedes",
-    "pending": "Indtil",
+    "pending": "Afventer",
     "processing": "Forarbejdning"
   }
 }

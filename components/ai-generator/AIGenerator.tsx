@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import TextToImageGenerator from './TextToImageGenerator';
 import ImageToImageGenerator from './ImageToImageGenerator';
+import EffectsGenerator from './EffectsGenerator';
 import MoreGenerator from './MoreGenerator';
 import Tabs, { type TabItem } from './base/Tabs';
 
@@ -28,6 +29,11 @@ export default function AIGenerator({ defaultTab = 'text-to-image', defaultModel
       key: 'image-to-image',
       label: tTabs('imageToImage'),
       component: <ImageToImageGenerator defaultModel={defaultModel} defaultParameters={defaultParameters} />,
+    },
+    {
+      key: 'effects',
+      label: tTabs('effects'),
+      component: <EffectsGenerator defaultModel={defaultModel} defaultParameters={defaultParameters} />,
     },
     {
       key: 'more',

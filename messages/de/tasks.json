@@ -24,7 +24,7 @@
   },
   "filter": {
     "all": "Alle",
-    "clearAll": "Klar",
+    "clearAll": "Alles löschen",
     "completed": "Abgeschlossen",
     "failed": "Gescheitert",
     "model": {
@@ -56,25 +56,25 @@
       "text-to-image": "Text zu Bild"
     },
     "taskTypeLabel": "Typ",
-    "title": "Filters"
+    "title": "Filter"
   },
   "header": {
     "subtitle": "Anzeigen und Verwalten Ihrer gesamten Generationshistorie",
-    "title": "Geschichte"
+    "title": "Verlauf"
   },
   "loginPrompt": {
-    "cta": "Eintragen",
+    "cta": "Anmelden",
     "description": "Melden Sie sich an, um den gesamten Verlauf Ihrer AI-Bilderzeugung anzuzeigen",
-    "title": "Einloggen, um Geschichte zu sehen"
+    "title": "Anmelden, um Verlauf zu sehen"
   },
-  "noPrompt": "Bei der Eingabeaufforderung",
+  "noPrompt": "Kein Prompt",
   "pagination": {
     "next": "Weiter",
     "prev": "Vorherige"
   },
   "seo": {
     "description": "Anzeigen und Verwalten des gesamten Verlaufs Ihrer AI-Bilderzeugung",
-    "title": "Geschichte"
+    "title": "Verlauf"
   },
   "status": {
     "completed": "Abgeschlossen",

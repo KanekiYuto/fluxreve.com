@@ -11,6 +11,7 @@
   "tabs": {
     "textToImage": "Text to Image",
     "imageToImage": "Image to Image",
+    "effects": "Effects",
     "more": "More"
   },
   "examples": {
@@ -133,6 +134,7 @@
     "zImage": "Z-Image Series",
     "flux": "Flux Series",
     "seedream": "Seedream Series",
+    "effects": "Effects",
     "more": "More"
   },
   "models": {
@@ -198,6 +200,14 @@
         "removal": "Watermark Removal",
         "quality": "Quality Preservation",
         "efficient": "Fast Processing"
+      }
+    },
+    "lofiPixelCharacter": {
+      "description": "Convert images to pixel art style",
+      "tags": {
+        "retro": "Retro",
+        "professional": "Professional",
+        "creative": "Creative"
       }
     }
   },

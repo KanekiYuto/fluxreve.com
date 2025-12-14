@@ -6,10 +6,10 @@
     "confirmDeleteTitle": "删除任务",
     "delete": "删除",
     "deleting": "删除...",
-    "makePrivate": "使私人",
-    "makePublic": "公开",
+    "makePrivate": "设为私人",
+    "makePublic": "设为公开",
     "private": "私人",
-    "public": "公众"
+    "public": "公开"
   },
   "empty": {
     "cta": "开始创建",
@@ -24,7 +24,7 @@
   },
   "filter": {
     "all": "全部",
-    "clearAll": "清晰",
+    "clearAll": "清除",
     "completed": "已完成",
     "failed": "失败",
     "model": {
@@ -46,40 +46,40 @@
       "public": "公众"
     },
     "privacyLabel": "隐私权",
-    "processing": "加工",
+    "processing": "处理中",
     "selectPlaceholder": "选择...",
-    "selectedCount": "{count} selected",
-    "statusLabel": "现状",
+    "selectedCount": "{count} 个已选择",
+    "statusLabel": "状态",
     "taskType": {
       "all": "全部",
       "image-to-image": "图像到图像",
       "text-to-image": "文本到图像"
     },
     "taskTypeLabel": "类型",
-    "title": "过滤器"
+    "title": "筛选"
   },
   "header": {
-    "subtitle": "查看和管理所有生成历史",
-    "title": "历史"
+    "subtitle": "查看和管理你的所有生成历史",
+    "title": "历史记录"
   },
   "loginPrompt": {
     "cta": "登录",
-    "description": "登录以查看所有人工智能图像生成历史记录",
+    "description": "登录以查看你的所有AI图像生成历史",
     "title": "登录查看历史"
   },
-  "noPrompt": "在提示符下",
+  "noPrompt": "无提示词",
   "pagination": {
     "next": "下一页",
     "prev": "上一页"
   },
   "seo": {
-    "description": "查看和管理所有人工智能图像生成历史记录",
+    "description": "查看和管理你的所有AI图像生成历史",
     "title": "历史"
   },
   "status": {
     "completed": "已完成",
     "failed": "失败",
     "pending": "待定",
-    "processing": "加工"
+    "processing": "处理中"
   }
 }

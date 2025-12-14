@@ -24,7 +24,7 @@
   },
   "filter": {
     "all": "Tutti",
-    "clearAll": "Libero",
+    "clearAll": "Cancella tutto",
     "completed": "Completato",
     "failed": "Fallito",
     "model": {
@@ -39,7 +39,7 @@
       "nsfw": "NSFW",
       "safe": "Sicuro"
     },
-    "nsfwLabel": "Content",
+    "nsfwLabel": "Contenuto",
     "pending": "In attesa",
     "privacy": {
       "private": "Privato",
@@ -48,7 +48,7 @@
     "privacyLabel": "Privacy",
     "processing": "Elaborazione",
     "selectPlaceholder": "Selezionare...",
-    "selectedCount": "{count} selected",
+    "selectedCount": "{count} selezionato/i",
     "statusLabel": "Stato",
     "taskType": {
       "all": "Tutti",
@@ -60,21 +60,21 @@
   },
   "header": {
     "subtitle": "Visualizzare e gestire tutta la cronologia delle generazioni",
-    "title": "La storia"
+    "title": "Cronologia"
   },
   "loginPrompt": {
     "cta": "Accedi",
     "description": "Accedi per visualizzare tutta la cronologia della generazione di immagini AI",
     "title": "Accedi per visualizzare la cronologia"
   },
-  "noPrompt": "Al prompt",
+  "noPrompt": "Nessun prompt",
   "pagination": {
     "next": "Avanti",
     "prev": "Precedente"
   },
   "seo": {
     "description": "Visualizzare e gestire tutta la cronologia della generazione di immagini AI",
-    "title": "La storia"
+    "title": "Cronologia"
   },
   "status": {
     "completed": "Completato",

@@ -67,10 +67,10 @@
     "description": "로그인하여 모든 AI 이미지 생성 기록을 확인하세요.",
     "title": "로그인하여 기록 보기"
   },
-  "noPrompt": "프롬프트에서",
+  "noPrompt": "프롬프트 없음",
   "pagination": {
     "next": "다음",
-    "prev": "이전 게시물"
+    "prev": "이전"
   },
   "seo": {
     "description": "모든 AI 이미지 생성 기록 보기 및 관리",

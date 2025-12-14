@@ -117,6 +117,7 @@
     "nano": "Nano Banana Sarja",
     "seedream": "Seedream Sarja",
     "zImage": "Z-Image Sarja",
+    "effects": "Efektit",
     "more": "Lisää"
   },
   "models": {
@@ -183,6 +184,14 @@
         "quality": "Laadun sailyttaeminen",
         "efficient": "Nopea kaesittely"
       }
+    },
+    "lofiPixelCharacter": {
+      "description": "Muunna kuvat pikseliintyyliin",
+      "tags": {
+        "retro": "Retro",
+        "professional": "Ammattimainen",
+        "creative": "Luova"
+      }
     }
   },
   "page": {
@@ -206,6 +215,7 @@
   },
   "tabs": {
     "imageToImage": "Kuvasta kuvaan",
+    "effects": "Efektit",
     "more": "Lisää",
     "textToImage": "Teksti kuvaksi"
   },

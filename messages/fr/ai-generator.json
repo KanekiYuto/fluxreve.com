@@ -117,6 +117,7 @@
     "nano": "Nano Banana Série",
     "seedream": "Seedream Série",
     "zImage": "Z-Image Série",
+    "effects": "Effets",
     "more": "Plus"
   },
   "models": {
@@ -183,6 +184,14 @@
         "quality": "Preservation de la qualite",
         "efficient": "Traitement rapide"
       }
+    },
+    "lofiPixelCharacter": {
+      "description": "Convertir les images en style art pixel",
+      "tags": {
+        "retro": "Rétro",
+        "professional": "Professionnel",
+        "creative": "Créatif"
+      }
     }
   },
   "page": {
@@ -206,6 +215,7 @@
   },
   "tabs": {
     "imageToImage": "Image à image",
+    "effects": "Effets",
     "more": "Plus d'informations",
     "textToImage": "Du texte à l'image"
   },

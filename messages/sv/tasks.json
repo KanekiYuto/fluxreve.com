@@ -79,7 +79,7 @@
   "status": {
     "completed": "Avslutad",
     "failed": "Misslyckades",
-    "pending": "I avvaktan på",
+    "pending": "Väntar",
     "processing": "Bearbetning"
   }
 }

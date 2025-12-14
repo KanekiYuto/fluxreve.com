@@ -24,7 +24,7 @@
   },
   "filter": {
     "all": "الكل",
-    "clearAll": "واضح",
+    "clearAll": "امسح الكل",
     "completed": "مكتمل",
     "failed": "فشل",
     "model": {
