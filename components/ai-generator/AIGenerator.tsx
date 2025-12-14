@@ -44,10 +44,8 @@ export default function AIGenerator({ defaultTab = 'text-to-image', defaultModel
 
   return (
     <div className="space-y-6 pb-8">
-      {/* Tab 切换按钮 */}
-      <div className="px-6">
-        <Tabs tabs={tabs} activeTab={activeTab} onTabChange={setActiveTab} />
-      </div>
+      {/* Tab 切换按钮 - 在移动端可水平滚动，PC 占满宽度 */}
+      <Tabs tabs={tabs} activeTab={activeTab} onTabChange={setActiveTab} />
 
       {/* Tab 内容区域 */}
       <div className="px-6">

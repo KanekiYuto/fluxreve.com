@@ -16,7 +16,7 @@ interface TabsProps {
 
 export default function Tabs({ tabs, activeTab, onTabChange }: TabsProps) {
   return (
-    <div className="flex flex-wrap items-center gap-3">
+    <div className="flex items-center overflow-x-auto gap-3 pb-2 px-6 scrollbar-hide md:justify-start">
       {tabs.map((tab, index) => {
         const isActive = activeTab === tab.key;
 
@@ -25,7 +25,7 @@ export default function Tabs({ tabs, activeTab, onTabChange }: TabsProps) {
             key={tab.key}
             type="button"
             onClick={() => onTabChange(tab.key)}
-            className="relative flex-[0_0_calc(50%-0.375rem)] sm:flex-[0_0_calc(33.333%-0.5rem)] lg:flex-1 cursor-pointer group"
+            className="relative flex-shrink-0 md:flex-1 cursor-pointer group"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.05, duration: 0.3 }}
@@ -33,7 +33,7 @@ export default function Tabs({ tabs, activeTab, onTabChange }: TabsProps) {
           >
             {/* 按钮内容 */}
             <div
-              className={`relative rounded-xl px-5 py-3 bg-card transition-all duration-300 ${
+              className={`relative rounded-xl px-6 py-3 bg-card transition-all duration-300 whitespace-nowrap md:whitespace-normal ${
                 isActive ? 'gradient-border-colorful' : 'gradient-border'
               }`}
             >
@@ -43,7 +43,7 @@ export default function Tabs({ tabs, activeTab, onTabChange }: TabsProps) {
               )}
               {/* 文字内容 */}
               <span
-                className={`relative z-10 text-base font-semibold flex items-center justify-center transition-colors duration-200 ${
+                className={`relative z-10 text-sm sm:text-base font-semibold flex items-center justify-center transition-colors duration-200 ${
                   isActive ? 'gradient-text' : ''
                 }`}
               >

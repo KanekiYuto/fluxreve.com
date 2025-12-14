@@ -18,8 +18,8 @@ export default function LandingContent() {
 
   return (
     <div className="min-h-screen">
-      {/* Hero 区域 - 吸引注意力 */}
-      <div className={isLoggedIn ? 'sr-only' : ''}>
+      {/* Hero 区域 - 对所有用户隐藏，但 SEO 内容通过 metadata 保留 */}
+      <div className="sr-only">
         <LandingHero
           namespace="imageUpscaler"
           colors={['#4f46e5', '#818cf8', '#6366f1', '#a5b4fc']}
