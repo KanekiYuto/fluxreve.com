@@ -1,0 +1,187 @@
+{
+  "cta": {
+    "note": "Intet kreditkort påkrævet • Fjern vandmærker øjeblikkeligt • Hurtig behandling",
+    "primary": "Start gratis vandmærkeborttagelse",
+    "secondary": "Se prisplaner",
+    "subtitle": "Slut dig til tusinder af brugere, der stoler på AI-drevet billedvandmærkeborttagelse til at rydde op i deres billeder. Perfekt for fotografer, indholdsskabere, marketingfolk og virksomheder. Fjern uønskede vandmærker, logoer og tekst på sekunder.",
+    "title": "Fjern vandmærker fra billeder med AI-drevet vandmærkeborttagelsesværktøj"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Billedvandmærkeborttagelsesværktøjet er et avanceret AI-drevet værktøj, der intelligent fjerner vandmærker, logoer, tekst og andre uønskede elementer fra dine billeder. Ved hjælp af deep learning-teknologi analyserer det omliggende billedindhold og rekonstruerer intelligent det berørte område, hvilket gør fjernelsen problemfri og naturlig.",
+        "question": "Hvad er billedvandmærkeborttagelsesværktøjet? Hvordan fungerer det?"
+      },
+      {
+        "answer": "Billedvandmærkeborttagelsesværktøjet kan håndtere forskellige typer vandmærker, herunder tekstvandmærker, logogvandmærker, fotovandmærker og andre overlejringer. Det fungerer bedst med vandmærker, der har klare kanter og distinkte farveskilte fra baggrunden, men avanceret AI håndterer også komplekse fjernelsesscenarier.",
+        "question": "Hvilke typer vandmærker kan det fjerne?"
+      },
+      {
+        "answer": "Ja! Billedvandmærkeborttagelsesværktøjet kan effektivt fjerne vandmærker fra fotos, skærmbilleder, designfiler og illustrationer. Uanset om det drejer sig om personlige fotos, professionelt indhold eller kunstværker, kan vores AI intelligent identificere og fjerne uønskede elementer, mens billedkvaliteten bevares.",
+        "question": "Hvilke typer billeder kan det behandle?"
+      },
+      {
+        "answer": "Vandmærkeborttagelsesprocessen er ekstremt hurtig, normalt gennemført på få sekunder. De fleste billeder med vandmærker kan behandles og ryddes op på 5-15 sekunder, så du kan effektivt batch-behandle flere billeder.",
+        "question": "Hvor lang tid tager vandmærkeborttagelse?"
+      },
+      {
+        "answer": "Billedvandmærkeborttagelsesværktøjet understøtter flere outputformater, herunder JPEG, PNG og WebP. Du kan vælge det mest passende format til dine behov - PNG til billeder, der kræver gennemsigtighed, mens JPEG fungerer godt til fotos og webdrift.",
+        "question": "Hvilke outputformater understøttes?"
+      },
+      {
+        "answer": "Absolut! Billedvandmærkeborttagelsesværktøjet er perfekt til kommerciel og professionel brug. For abonnenter på betalte planer kan alle ryddede billeder bruges til kommercielle projekter, videresalg, klientarbejde og professionelle applikationer. Dette gør det ideelt for fotografer, bureauer og indholdsskabere.",
+        "question": "Kan det bruges til kommercielle formål?"
+      }
+    ],
+    "subtitle": "Ofte stillede spørgsmål om AI-drevet billedvandmærkeborttagelsesværktøj",
+    "title": "Ofte stillede spørgsmål om billedvandmærkeborttagelse"
+  },
+  "features": {
+    "items": {
+      "ai-enhancement": {
+        "description": "Udnyt avanceret AI-teknologi ikke blot til at fjerne vandmærker, men også til at forbedre og gendanne billeddetaljer, farver og kvalitet for resultater af professionel kvalitet.",
+        "title": "Intelligent indholdsgenopretning"
+      },
+      "batch": {
+        "description": "Understøtter batchbehandling af flere vandmærkede billeder samtidigt. Perfekt til fotografer og indholdsskabere, der skal rydde op i store mængder billeder.",
+        "title": "Batchbehandling"
+      },
+      "formats": {
+        "description": "Understøtter flere outputformater (JPEG, PNG, WebP), så du fleksibelt kan vælge det mest passende format baseret på dine specifikke behov.",
+        "title": "Flere outputformater"
+      },
+      "quality": {
+        "description": "Bevarer original billedkvalitet mens vandmærker fjernes. Vores AI bevarer intelligent vigtige detaljer og producerer rene, naturligudseende resultater.",
+        "title": "Høj kvalitetsoutput"
+      },
+      "secure": {
+        "description": "Dine billeder er beskyttet af kryptering på virksomhedsniveau og strenge privatlivspolitikker. Vi deler eller bruger dine billeder ikke uden dit udtrykkelige samtykke.",
+        "title": "Sikkerhed på virksomhedsniveau"
+      },
+      "speed": {
+        "description": "Hurtig behandling - de fleste vandmærker fjernes på sekunder. Den effektive AI-motor sikrer, at du hurtigt kan gennemføre projekter.",
+        "title": "Lynhurtig behandling"
+      }
+    },
+    "subtitle": "Fuldstændig vandmærkeborttagelsesfunktionalitet drevet af avanceret AI-teknologi",
+    "title": "Funktioner i billedvandmærkeborttagelsesværktøjet"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Start gratis prøveperiode",
+      "secondary": "Læs mere"
+    },
+    "stats": {
+      "efficiency": {
+        "label": "Gennemsnitlig behandlingstid",
+        "value": "< 10 sec"
+      },
+      "quality": {
+        "label": "Fjernelsesnøjagtighed",
+        "value": "99%+"
+      },
+      "users": {
+        "label": "Tilfredse brugere",
+        "value": "100K+"
+      }
+    },
+    "subtitle": "Fjern vandmærker fra dine billeder øjeblikkeligt ved hjælp af AI-drevet vandmærkeborttagelsesteknologi",
+    "title": {
+      "line1": "Intelligent vandmærkeborttagelse",
+      "line2": "Krystalklare resultater"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Vælg billedet med vandmærker, du ønsker at fjerne. Understøtter JPG, PNG og andre almindelige formater. Du kan uploade fra din computer, cloudlager eller direkte fra din enhed.",
+        "title": "Upload vandmærket billede"
+      },
+      "step2": {
+        "description": "Vælg dit outputformat (JPEG, PNG eller WebP) baseret på dine specifikke behov. AI vil automatisk analysere billedet og identificere vandmærkeområder.",
+        "title": "Vælg outputformat"
+      },
+      "step3": {
+        "description": "Klik på knappen \"Generer\". Vores AI-motor starter straks med at analysere og fjerne vandmærket. De fleste vandmærker fjernes fuldstændig inden for 10 sekunder.",
+        "title": "AI fjerner vandmærket"
+      },
+      "step4": {
+        "description": "Forhåndsvis det ryddede resultat. Tilfreds med kvaliteten? Download dit billede uden vandmærker til øjeblikkelig brug. Det fjernede vandmærke påvirker ikke den endelige kvalitet.",
+        "title": "Download rent billede"
+      }
+    },
+    "subtitle": "Fjern vandmærker fra dine billeder i blot fire enkle trin",
+    "title": "Sådan fjerner du vandmærker"
+  },
+  "seo": {
+    "description": "Fjern vandmærker fra billeder øjeblikkeligt ved hjælp af AI-drevet vandmærkeborttagelsesteknologi. Hurtigt, præcist og understøtter flere formater. Perfekt til fotografer og indholdsskabere.",
+    "title": "AI-drevet vandmærkeborttagelsesværktøj - Fjern vandmærker fra billeder øjeblikkeligt"
+  },
+  "subtitle": "Fjern vandmærker og uønskede elementer ved hjælp af avanceret AI-teknologi",
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Vores AI registrerer og fjerner intelligent vandmærker, samtidig med at billedkvaliteten bevares. Ved hjælp af deep learning-teknologi analyserer den omgivende indhold og rekonstruerer problemfrit det berørte område, hvilket producerer naturligudseende, vandmærkefrie billeder.",
+        "title": "Intelligent vandmærkeopdagelse og -fjernelse"
+      },
+      "core2": {
+        "description": "I modsætning til grundlæggende fjernelsesværktøjer rekonstruerer og forbedrer vores AI intelligent det ryddede område. Den analyserer omgivende pixels og udfylder intelligent pladsen, bevarer naturligt udseende og konsistens med resten af billedet.",
+        "title": "Intelligent indholdsrekonstruktion"
+      },
+      "core3": {
+        "description": "Understøtter flere outputformater og fleksible behandlingsindstillinger. Håndterer vandmærker af alle slag, størrelse eller kompleksitet. Uanset om det er tekst, logoer eller komplekse overlejringer, leverer vores AI professionelle resultater.",
+        "title": "Fleksible behandlingsindstillinger"
+      }
+    },
+    "demoPlaceholder": "Billede med vandmærke fjernet af billedvandmærkeborttagelsesværktøjet",
+    "description": "Billedvandmærkeborttagelsesværktøjet er et avanceret AI-drevet værktøj designet til fotografer, indholdsskabere og virksomheder. Det bruger banebrydende deep learning-teknologi til intelligent at fjerne vandmærker, logoer, tekst og andre uønskede elementer fra billeder, samtidig med at kvaliteten bevares. Perfekt til at rydde op i fotos, forberede indhold til videresalg eller fjerne uønskede overlejringer fra digitale billeder.",
+    "title": "Hvad er billedvandmærkeborttagelsesværktøjet?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Sammenlignet med dyr redigeringssoftware eller ansættelse af fagfolk tilbyder billedvandmærkeborttagelsesværktøjet overkommelige abonnementsplaner. Fleksibel prissætning gør professionel vandmærkeborttagelse tilgængelig for alle.",
+        "title": "Omkostningseffektiv løsning"
+      },
+      "flexibility": {
+        "description": "Fjern øjeblikkeligt forskellige typer vandmærker. Behandl flere billeder hurtigt uden behov for tekniske færdigheder eller manuel redigering.",
+        "title": "Håndter alle vandmærketyper"
+      },
+      "quality": {
+        "description": "Opnå resultater af professionel standard med vores avanceret AI-teknologi. Dine billeder vil se naturlige og rene ud, passende til professionelle applikationer og kommerciel brug.",
+        "title": "Resultater af professionel standard"
+      },
+      "security": {
+        "description": "Dine billeder og dit privatliv er beskyttet af virksomhedsgradig kryptering. Vi overholder internationale datastandarder, hvilket sikrer, at dit kreative arbejde forbliver fuldstændig sikkert.",
+        "title": "Sikkerhed på virksomhedsniveau"
+      },
+      "speed": {
+        "description": "De fleste vandmærker fjernes på sekunder. Vores effektive AI-motor sikrer, at du hurtigt kan behandle store mængder billeder uden at vente.",
+        "title": "Lynhurtig behandling"
+      },
+      "support": {
+        "description": "Få professionel teknisk support og omfattende brugervejledninger. Vores team er dedikeret til at hjælpe dig med at opnå perfekte resultater til vandmærkeborttagelse.",
+        "title": "Teknisk support af høj kvalitet"
+      }
+    },
+    "comparison": {
+      "product": {
+        "title": "AI-drevet billedvandmærkeborttagelsesværktøj",
+        "item1": "Fjern vandmærker intelligent på sekunder med avanceret AI",
+        "item2": "Ingen faglige færdigheder påkrævet - enkelt og brugervenligt interface",
+        "item3": "Overkommelige priser med fleksible betalingsmuligheder",
+        "item4": "Effektiv batchbehandling af flere billeder"
+      },
+      "traditional": {
+        "title": "Traditionelle vandmærkeborttagelsesmetoder",
+        "item1": "Manuel redigering er tidskrævende og kræver faglige færdigheder",
+        "item2": "Kræver dyr professionel billedredigeringssoftware",
+        "item3": "Manuelt arbejde øger projektomkostningerne betydeligt",
+        "item4": "Resultaterne ser ofte unaturlige eller af dårlig kvalitet ud"
+      }
+    },
+    "subtitle": "Billedvandmærkeborttagelsesværktøjet udnytter banebrydende AI-teknologi for at overgå traditionelle vandmærkeborttagelsesmetoder, og leverer professionelle resultater hurtigere og billigere.",
+    "title": "Hvorfor vælge billedvandmærkeborttagelsesværktøjet"
+  },
+  "title": "AI-drevet vandmærkeborttagelsesværktøj - Fjern vandmærker øjeblikkeligt"
+}

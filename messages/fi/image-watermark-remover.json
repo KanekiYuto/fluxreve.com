@@ -1,0 +1,187 @@
+{
+  "cta": {
+    "note": "Luottokorttia ei tarvita • Poista vesileima välittömästi • Nopea käsittely",
+    "primary": "Aloita ilmainen vesileiman poistaminen",
+    "secondary": "Näytä hinnoittelusuunnitelmat",
+    "subtitle": "Liity tuhansiin käyttäjiin, jotka luottavat AI-pohjaiseen kuvan vesileiman poistamiseen kuvanaan puhdistamiseen. Täydellinen valokuvataiteilijoille, sisällön luojille, markkinoijille ja yrityksille. Poista ei-toivotut vesileima, logot ja teksti sekunneissa.",
+    "title": "Poista vesileima kuvista AI-pohjaisella vesileiman poistamistyökalulla"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Kuvan vesileiman poistamistyökalu on kehittynyt AI-pohjainen työkalu, joka poistaa älykkäästi vesileimoja, logoja, tekstejä ja muita ei-toivottuja elementtejä kuvistasi. Deep learning -tekniikan avulla se analysoi ympäröivää kuvasisältöä ja rakentaa älykkäästi uudelleen vaikutusalueen, jolloin poistaminen on saumatonta ja luonnollista.",
+        "question": "Mikä on kuvan vesileiman poistamistyökalu? Miten se toimii?"
+      },
+      {
+        "answer": "Kuvan vesileiman poistamistyökalu voi käsitellä erilaisia vesileiman tyyppejä, mukaan lukien teksti vesileima, logo vesileima, valokuva vesileima ja muut peitteet. Se toimii parhaiten vesileimalla, joilla on selkeät reunat ja erilaiset väriset erot taustasta, mutta kehittynyt tekoäly käsittelee myös monimutkaisia poistamistilanteita.",
+        "question": "Millaisia vesileimoja se voi poistaa?"
+      },
+      {
+        "answer": "Kyllä! Kuvan vesileiman poistamistyökalu voi tehokkaasti poistaa vesileimoja valokuvista, näyttökaappausista, suunnittelutiedostoista ja kuvituksista. Olipa kyseessä henkilökohtaiset valokuvat, ammattimaiset sisällöt tai taideteokset, meidän tekoäly voi älykkäästi tunnistaa ja poistaa ei-toivotut elementit samalla kun kuvan laatu säilyy.",
+        "question": "Mitä kuvatyyppejä se voi käsitellä?"
+      },
+      {
+        "answer": "Vesileiman poistoprosessi on erittäin nopea, yleensä valmis muutamassa sekunnissa. Useimmat vesileimalla varustetut kuvat voidaan käsitellä ja puhdistaa 5-15 sekunnissa, jolloin voit tehokkaasti käsitellä useita kuvia erillä.",
+        "question": "Kuinka kauan vesileiman poistaminen kestää?"
+      },
+      {
+        "answer": "Kuvan vesileiman poistamistyökalu tukee useita tulostusmuotoja, mukaan lukien JPEG, PNG ja WebP. Voit valita tarpeisiisi sopivimman muodon - PNG kuvissa, jotka vaativat läpinäkyvyyttä, kun taas JPEG toimii hyvin valokuvissa ja verkon käytössä.",
+        "question": "Mitä tulostusmuotoja tuetaan?"
+      },
+      {
+        "answer": "Ehdottomasti! Kuvan vesileiman poistamistyökalu on täydellinen kaupalliseen ja ammatilliseen käyttöön. Maksettujen suunnitelmien tilaajille kaikki puhdistetut kuvat voidaan käyttää kaupallisiin hankkeisiin, jälleenmyyntiin, asiakasprojekteihin ja ammatillisiin sovelluksiin. Tämä tekee siitä ihanteellisen valokuvataiteilijoille, toimistoille ja sisällön luojille.",
+        "question": "Voidaanko sitä käyttää kaupallisiin tarkoituksiin?"
+      }
+    ],
+    "subtitle": "Usein kysytyt kysymykset AI-pohjaisesta kuvan vesileiman poistamistyökalusta",
+    "title": "Kuvan vesileiman poiston usein kysytyt kysymykset"
+  },
+  "features": {
+    "items": {
+      "ai-enhancement": {
+        "description": "Hyödynnä kehittynyttä tekoäly-tekniikkaa, jotta voit paitsi poistaa vesileimoja, myös parantaa ja palauttaa kuvadetaljeja, värejä ja laatua ammattitason tuloksille.",
+        "title": "Älykäs sisällön palautus"
+      },
+      "batch": {
+        "description": "Tukee useiden vesileimalla varustettujen kuvien erillä käsittelyä samanaikaisesti. Täydellinen valokuvataiteilijoille ja sisällön luojille, joiden on puhdistettava suuri määrä kuvia.",
+        "title": "Erillä käsittely"
+      },
+      "formats": {
+        "description": "Tukee useita tulostusmuotoja (JPEG, PNG, WebP), jolloin voit joustavasti valita sopivimman muodon omien erityistarpeidesi perusteella.",
+        "title": "Useat tulostusmuodot"
+      },
+      "quality": {
+        "description": "Säilyttää alkuperäisen kuvan laadun samalla kun poistat vesileimoja. Meidän tekoäly säilyttää älykkäästi tärkeitä yksityiskohtia ja tuottaa puhtaita, luonnollisen näköisiä tuloksia.",
+        "title": "Korkealaatuinen tuloste"
+      },
+      "secure": {
+        "description": "Kuvasi on suojattu yritystason salauksella ja tiukalla tietosuojakäytännöillä. Emme jaa tai käytä kuvia ilman sinun nimenomaista lupaa.",
+        "title": "Yritystason turvallisuus"
+      },
+      "speed": {
+        "description": "Nopea käsittely - useimmat vesileima poistetaan sekunneissa. Tehokas tekoäly-moottori varmistaa, että voit suorittaa projektit nopeasti.",
+        "title": "Salaman nopea käsittely"
+      }
+    },
+    "subtitle": "Täydellinen vesileiman poistotoiminto, jonka takana on kehittynyt tekoäly-teknologia",
+    "title": "Kuvan vesileiman poistamistyökalun ominaisuudet"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Aloita ilmainen kokeilujakso",
+      "secondary": "Lue lisää"
+    },
+    "stats": {
+      "efficiency": {
+        "label": "Keskimääräinen käsittelyaika",
+        "value": "< 10 sec"
+      },
+      "quality": {
+        "label": "Poiston tarkkuus",
+        "value": "99%+"
+      },
+      "users": {
+        "label": "Tyytyväiset käyttäjät",
+        "value": "100K+"
+      }
+    },
+    "subtitle": "Poista vesileima kuvistasi välittömästi AI-pohjaisella vesileiman poistoteknologialla",
+    "title": {
+      "line1": "Älykäs vesileiman poisto",
+      "line2": "Kirkasta kirkkaita tuloksia"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Valitse kuva, josta haluat poistaa vesileiman. Tukee JPG, PNG ja muita yleisiä muotoja. Voit ladata tietokoneeltasi, pilvitallennuksesta tai suoraan laitteeltasi.",
+        "title": "Lataa vesileima kuva"
+      },
+      "step2": {
+        "description": "Valitse tulostusmuoto (JPEG, PNG tai WebP) omien erityistarpeidesi perusteella. Tekoäly analysoi automaattisesti kuvan ja tunnistaa vesileima-alueet.",
+        "title": "Valitse tulostusmuoto"
+      },
+      "step3": {
+        "description": "Napsauta \"Luo\" -painiketta. Meidän tekoäly-moottori alkaa heti analysoida ja poistaa vesileiman. Useimmat vesileima poistetaan täysin 10 sekunnissa.",
+        "title": "Tekoäly poistaa vesileiman"
+      },
+      "step4": {
+        "description": "Esikatsele puhdistettua tulosta. Tyytyväinen laatuun? Lataa vesileimaton kuva välittömiä käyttöä varten. Poistettu vesileima ei vaikuta lopulliseen laatuun.",
+        "title": "Lataa puhdas kuva"
+      }
+    },
+    "subtitle": "Poista vesileima kuvistasi vain neljässä yksinkertaisessa vaiheessa",
+    "title": "Kuinka poistaa vesileima"
+  },
+  "seo": {
+    "description": "Poista vesileima kuvista välittömästi AI-pohjaisella vesileiman poistoteknologialla. Nopea, tarkka ja tukee useita muotoja. Täydellinen valokuvataiteilijoille ja sisällön luojille.",
+    "title": "AI-pohjainen vesileiman poistamistyökalu - Poista vesileima kuvista välittömästi"
+  },
+  "subtitle": "Poista vesileima ja ei-toivotut elementit kehittyneen tekoäly-tekniikan avulla",
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Meidän tekoäly havaitsee ja poistaa älykkäästi vesileima samalla kun kuvan laatu säilyy. Deep learning -tekniikan avulla se analysoi ympäröivää sisältöä ja rakentaa uudelleen saumattomasti vaikutusalueen, jolloin tuloksena on luonnollisen näköiset, vesileimattomien kuvat.",
+        "title": "Älykäs vesileiman havaitseminen ja poisto"
+      },
+      "core2": {
+        "description": "Toisin kuin peruspoisto-työkalut, meidän tekoäly rakentaa älykkäästi uudelleen ja parantaa puhdistettua aluetta. Se analysoi ympäröiviä pikselejä ja täyttää älykkäästi tilaa, säilyttäen luonnollisen ulkonäön ja johdonmukaisuuden kuvan muun osan kanssa.",
+        "title": "Älykäs sisällön uudelleenrakentaminen"
+      },
+      "core3": {
+        "description": "Tukee useita tulostusmuotoja ja joustavia käsittelyvaihtoehtoja. Käsittelee vesileimoja kaikentyyppisiä, kokoisia tai monimutkaisuudeltaan. Olipa kyseessä teksti, logot tai monimutkaiset peitteet, meidän tekoäly toimittaa ammattilaistuotteet.",
+        "title": "Joustavat käsittelyvaihtoehdot"
+      }
+    },
+    "demoPlaceholder": "Kuva, josta vesileima on poistettu kuvan vesileiman poistamistyökalulla",
+    "description": "Kuvan vesileiman poistamistyökalu on kehittynyt AI-pohjainen työkalu, joka on suunniteltu valokuvataiteilijoille, sisällön luojille ja yrityksille. Se käyttää kehittynyttä deep learning -tekniikkaa älykkäästi poistaakseen vesileimoja, logoja, tekstejä ja muita ei-toivottuja elementtejä kuvista säilyttäen samalla laadun. Täydellinen valokuvien puhdistamiseen, sisällön valmistamiseen jälleenmyyntiä varten tai ei-toivottujen peitteiden poistamiseen digitaalisista kuvista.",
+    "title": "Mikä on kuvan vesileiman poistamistyökalu?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Verrattuna kalliiseen muokkausohjelmaistoon tai ammattilaisten palkkaamisen, kuvan vesileiman poistamistyökalu tarjoaa kohtuuhintaisia tilaussuunnitelmia. Joustava hinnoittelu tekee ammattilaismaisen vesileiman poiston kaikkien saavutettavissa.",
+        "title": "Kustannustehokas ratkaisu"
+      },
+      "flexibility": {
+        "description": "Poista välittömästi erilaisia vesileimoja. Käsittele useita kuvia nopeasti ilman teknisiä taitoja tai manuaalisen muokkauksen kokemusta.",
+        "title": "Käsittele kaikentyyppisiä vesileimoja"
+      },
+      "quality": {
+        "description": "Saavuta ammattitason tulokset meidän kehittyneen tekoäly-tekniikan avulla. Kuvasi näyttävät luonnollisilta ja puhtailta, sopivat ammattilaissoveluksiin ja kaupalliseen käyttöön.",
+        "title": "Ammattitason tuloksia"
+      },
+      "security": {
+        "description": "Kuvasi ja yksityisyytesi on suojattu yritystason salauksella. Noudatamme kansainvälisiä tietosuojastandardeja, varmistaen että luova työtäsi on täysin turvallinen.",
+        "title": "Yritystason turvallisuus"
+      },
+      "speed": {
+        "description": "Useimmat vesileima poistetaan sekunneissa. Meidän tehokas tekoäly-moottori varmistaa, että voit käsitellä suuria kuvan määriä nopeasti ilman odotusta.",
+        "title": "Salaman nopea käsittely"
+      },
+      "support": {
+        "description": "Saa ammattimainen tekninen tuki ja kattavat käyttöoppaat. Meidän tiimi on omistautunut auttamaan sinua saavuttamaan täydellisiä vesileiman poiston tuloksia.",
+        "title": "Korkealaatuinen tekninen tuki"
+      }
+    },
+    "comparison": {
+      "product": {
+        "title": "AI-pohjainen kuvan vesileiman poistamistyökalu",
+        "item1": "Poista vesileima älykkäästi sekunneissa kehittyneen tekoälyn avulla",
+        "item2": "Ei ammatillisia taitoja vaadita - yksinkertainen ja helppokäyttöinen käyttöliittymä",
+        "item3": "Kohtuuhintainen hinnoittelu joustavilla maksuvaihtoehdoilla",
+        "item4": "Tehokas erillä käsittely useista kuvista"
+      },
+      "traditional": {
+        "title": "Perinteisiä vesileiman poistomenetelmiä",
+        "item1": "Manuaalinen muokkaus on aikavievää ja vaatii ammatillisia taitoja",
+        "item2": "Vaatii kallista ammatillista kuvan muokkausohjelmaa",
+        "item3": "Manuaalinen työ lisää merkittävästi projektin kustannuksia",
+        "item4": "Tulokset näyttävät usein epäluonnollisilta tai huonolaatuisilta"
+      }
+    },
+    "subtitle": "Kuvan vesileiman poistamistyökalu hyödyntää huippumodernin tekoäly-tekniikan ylivertaisten perinteisten vesileiman poistomenetelmien, tarjoten ammattilaistuotteet nopeammin ja halvemmalla.",
+    "title": "Miksi valita kuvan vesileiman poistamistyökalu"
+  },
+  "title": "AI-pohjainen vesileiman poistamistyökalu - Poista vesileima välittömästi"
+}

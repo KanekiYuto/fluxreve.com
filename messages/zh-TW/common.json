@@ -35,6 +35,8 @@
     "seedreamV45Desc": "ByteDance 2K HD 图像生成",
     "image-upscaler": "圖片放大",
     "imageUpscalerDesc": "利用AI將圖像增強至4K解析度",
+    "image-watermark-remover": "浮水印去除",
+    "imageWatermarkRemoverDesc": "使用AI去除圖像中的浮水印",
     "settings": "设置",
     "subscription": "订阅",
     "tasks": "历史",

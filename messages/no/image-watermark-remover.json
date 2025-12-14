@@ -1,0 +1,187 @@
+{
+  "cta": {
+    "note": "Ingen kredittkort påkrevd • Fjern vannmerker øyeblikkelig • Rask behandling",
+    "primary": "Start gratis fjerning av vannmerke",
+    "secondary": "Se prisplaner",
+    "subtitle": "Bli med tusenvis av brukere som stoler på AI-drevet fjernelse av bildvannmerke for å rydde bildene sine. Perfekt for fotografer, innholdsskapere, markedsførere og bedrifter. Fjern uønskede vannmerker, logoer og tekst på sekunder.",
+    "title": "Fjern vannmerker fra bilder med AI-drevet vannmerkefjerningsverktøy"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Fjerningsverktøyet for bildvannmerke er et avansert AI-drevet verktøy som på en intelligent måte fjerner vannmerker, logoer, tekst og andre uønskede elementer fra bildene dine. Ved hjelp av deep learning-teknologi analyserer det omliggende bildinnhold og rekonstruerer på en intelligent måte det påvirkede området, noe som gjør fjerningen sømløs og naturlig.",
+        "question": "Hva er fjerningsverktøyet for bildvannmerke? Hvordan fungerer det?"
+      },
+      {
+        "answer": "Fjerningsverktøyet for bildvannmerke kan håndtere ulike typer vannmerker, inkludert tekstvannmerker, logotypvannmerker, fotovannmerker og andre overlegg. Det fungerer best med vannmerker som har klare kanter og tydelige fargeforskjeller fra bakgrunnen, men avansert AI håndterer også komplekse fjerningsscenarioer.",
+        "question": "Hvilke typer vannmerker kan det fjerne?"
+      },
+      {
+        "answer": "Ja! Fjerningsverktøyet for bildvannmerke kan effektivt fjerne vannmerker fra fotografier, skjermbilder, designfiler og illustrasjoner. Enten det er personlige fotografier, profesjonelt innhold eller kunstverkene, kan vår AI på en intelligent måte identifisere og fjerne uønskede elementer mens bildekvaliteten bevares.",
+        "question": "Hvilke typer bilder kan det behandle?"
+      },
+      {
+        "answer": "Vannmerkefjerningsprosessen er ekstremt rask, vanligvis fullført på noen få sekunder. De fleste bilder med vannmerker kan behandles og ryddes opp på 5-15 sekunder, noe som lar deg effektivt batch-behandle flere bilder.",
+        "question": "Hvor lang tid tar fjerning av vannmerke?"
+      },
+      {
+        "answer": "Fjerningsverktøyet for bildvannmerke støtter flere utdataformater, inkludert JPEG, PNG og WebP. Du kan velge det mest passende formatet for dine behov - PNG for bilder som krever transparens, mens JPEG fungerer bra for fotografier og webbruk.",
+        "question": "Hvilke utdataformater støttes?"
+      },
+      {
+        "answer": "Absolutt! Fjerningsverktøyet for bildvannmerke er perfekt for kommersiell og profesjonell bruk. For abonnenter på betalte planer kan alle ryddede bilder brukes til kommersielle prosjekter, videresalg, klientarbeid og profesjonelle applikasjoner. Dette gjør det ideelt for fotografer, byråer og innholdsskapere.",
+        "question": "Kan det brukes til kommersielle formål?"
+      }
+    ],
+    "subtitle": "Ofte stilte spørsmål om AI-drevet fjerningsverktøy for bildvannmerke",
+    "title": "Vanlige spørsmål om fjerning av bildvannmerke"
+  },
+  "features": {
+    "items": {
+      "ai-enhancement": {
+        "description": "Dra nytte av avansert AI-teknologi for ikke bare å fjerne vannmerker, men også forbedre og gjenopprette bildedetaljer, farger og kvalitet for resultater av profesjonell standard.",
+        "title": "Intelligent innholdsrestaurering"
+      },
+      "batch": {
+        "description": "Støtter batch-behandling av flere vannmerkede bilder samtidig. Perfekt for fotografer og innholdsskapere som må rydde opp store mengder bilder.",
+        "title": "Batch-behandling"
+      },
+      "formats": {
+        "description": "Støtter flere utdataformater (JPEG, PNG, WebP), noe som lar deg fleksibelt velge det mest passende formatet basert på dine spesifikke behov.",
+        "title": "Flere utdataformater"
+      },
+      "quality": {
+        "description": "Beholder original bildekvalitet mens vannmerker fjernes. Vår AI bevarer på en intelligent måte viktige detaljer og produserer rene, naturlig utseende resultater.",
+        "title": "Høykvalitets utdata"
+      },
+      "secure": {
+        "description": "Bildene dine er beskyttet av kryptering på bedriftsnivå og strenge personvernpolicyer. Vi vil ikke dele eller bruke bildene dine uten ditt eksplisitte samtykke.",
+        "title": "Sikkerhet på bedriftsnivå"
+      },
+      "speed": {
+        "description": "Rask behandling - de fleste vannmerker fjernes på sekunder. Den effektive AI-motoren sikrer at du kan fullføre prosjekter raskt.",
+        "title": "Lynrask behandling"
+      }
+    },
+    "subtitle": "Fullstendig vannmerkefjerningsfunksjonalitet drevet av avansert AI-teknologi",
+    "title": "Funksjoner for fjerningsverktøyet for bildvannmerke"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Start kostnadsfri prøveperiode",
+      "secondary": "Les mer"
+    },
+    "stats": {
+      "efficiency": {
+        "label": "Gjennomsnittlig behandlingstid",
+        "value": "< 10 sec"
+      },
+      "quality": {
+        "label": "Fjernelsesnøyaktighet",
+        "value": "99%+"
+      },
+      "users": {
+        "label": "Fornøyde brukere",
+        "value": "100K+"
+      }
+    },
+    "subtitle": "Fjern vannmerker fra bildene dine øyeblikkelig ved hjelp av AI-drevet vannmerkefjerningsteknologi",
+    "title": {
+      "line1": "Intelligent vannmerkefjerning",
+      "line2": "Krystallklare resultater"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Velg bildet med vannmerker som du ønsker å fjerne. Støtter JPG, PNG og andre vanlige formater. Du kan laste opp fra datamaskinen din, skylagring eller direkte fra enheten din.",
+        "title": "Last opp vannmerket bilde"
+      },
+      "step2": {
+        "description": "Velg utdataformatet ditt (JPEG, PNG eller WebP) basert på dine spesifikke behov. AI vil automatisk analysere bildet og identifisere vannmerkeområder.",
+        "title": "Velg utdataformat"
+      },
+      "step3": {
+        "description": "Klikk på \"Generer\"-knappen. Vår AI-motor starter umiddelbar med å analysere og fjerne vannmerket. De fleste vannmerker fjernes fullstendig innen 10 sekunder.",
+        "title": "AI fjerner vannmerket"
+      },
+      "step4": {
+        "description": "Forhåndsvis det ryddede resultatet. Fornøyd med kvaliteten? Last ned bildet ditt uten vannmerke for umiddelbar bruk. Det fjernede vannmerket påvirker ikke den endelige kvaliteten.",
+        "title": "Last ned rent bilde"
+      }
+    },
+    "subtitle": "Fjern vannmerker fra bildene dine i bare fire enkle trinn",
+    "title": "Hvordan fjerne vannmerker"
+  },
+  "seo": {
+    "description": "Fjern vannmerker fra bilder øyeblikkelig ved hjelp av AI-drevet vannmerkefjerningsteknologi. Rask, nøyaktig og støtter flere formater. Perfekt for fotografer og innholdsskapere.",
+    "title": "AI-drevet vannmerkefjerningsverktøy - Fjern vannmerker fra bilder øyeblikkelig"
+  },
+  "subtitle": "Fjern vannmerker og uønskede elementer ved hjelp av avansert AI-teknologi",
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Vår AI oppdager og fjerner på en intelligent måte vannmerker mens bildekvaliteten bevares. Ved hjelp av deep learning-teknologi analyserer den omliggende innhold og rekonstruerer sømløst det påvirkede området, noe som produserer naturlig utseende, vannmerkefrie bilder.",
+        "title": "Intelligent vannmerkedeteksjon og fjerning"
+      },
+      "core2": {
+        "description": "I motsetning til grunnleggende fjerningsverktøy rekonstruerer og forbedrer vår AI på en intelligent måte det ryddede området. Den analyserer omliggende piksler og fyller intelligemt i området, og bevarer naturlig utseende og konsistens med resten av bildet.",
+        "title": "Intelligent innholdsrekonstruksjon"
+      },
+      "core3": {
+        "description": "Støtter flere utdataformater og fleksible behandlingsalternativer. Håndterer vannmerker av alle slag, størrelse eller kompleksitet. Enten det er tekst, logoer eller komplekse overlegg, leverer vår AI profesjonelle resultater.",
+        "title": "Fleksible behandlingsalternativer"
+      }
+    },
+    "demoPlaceholder": "Bilde med vannmerke fjernet av fjerningsverktøyet for bildvannmerke",
+    "description": "Fjerningsverktøyet for bildvannmerke er et avansert AI-drevet verktøy designet for fotografer, innholdsskapere og bedrifter. Det bruker avansert deep learning-teknologi for på en intelligent måte å fjerne vannmerker, logoer, tekst og andre uønskede elementer fra bilder mens kvaliteten bevares. Perfekt for å rydde fotografier, forberede innhold for videresalg eller fjerne uønskede overlegg fra digitale bilder.",
+    "title": "Hva er fjerningsverktøyet for bildvannmerke?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Sammenlignet med dyr redigeringsprogramvare eller ansettelse av fagfolk, tilbyr fjerningsverktøyet for bildvannmerke rimelige abonnementsplaner. Fleksibel prising gjør profesjonell vannmerkefjerning tilgjengelig for alle.",
+        "title": "Kostnadseffektiv løsning"
+      },
+      "flexibility": {
+        "description": "Fjern øyeblikkelig ulike typer vannmerker. Behandle flere bilder raskt uten behov for teknisk kompetanse eller manuell redigeringserfarenhet.",
+        "title": "Håndter alle typer vannmerker"
+      },
+      "quality": {
+        "description": "Oppnå resultater av profesjonell standard med vår avanserte AI-teknologi. Bildene dine vil se naturlige og rene ut, egnet for profesjonelle applikasjoner og kommersiell bruk.",
+        "title": "Profesjonelle resultater"
+      },
+      "security": {
+        "description": "Bildene dine og personvernet ditt er beskyttet av kryptering på bedriftsnivå. Vi overholdet internasjonale datastandarder, noe som sikrer at det kreative arbeidet ditt forblir helt sikkert.",
+        "title": "Sikkerhet på bedriftsnivå"
+      },
+      "speed": {
+        "description": "De fleste vannmerker fjernes på sekunder. Vår effektive AI-motor sikrer at du raskt kan behandle store mengder bilder uten å vente.",
+        "title": "Lynrask behandling"
+      },
+      "support": {
+        "description": "Få profesjonell teknisk støtte og omfattende brukerveiledninger. Teamet vårt er dedikert til å hjelpe deg oppnå perfekte resulter for vannmerkefjerning.",
+        "title": "Teknisk støtte av høy kvalitet"
+      }
+    },
+    "comparison": {
+      "product": {
+        "title": "AI-drevet fjerningsverktøy for bildvannmerke",
+        "item1": "Fjern vannmerker på en intelligent måte på sekunder med avansert AI",
+        "item2": "Ingen profesjonell kompetanse påkrevd - enkelt og brukervennlig grensesnitt",
+        "item3": "Rimelig prising med fleksible betalingsalternativer",
+        "item4": "Effektiv batch-behandling av flere bilder"
+      },
+      "traditional": {
+        "title": "Tradisjonelle vannmerkefjerningsmetoder",
+        "item1": "Manuell redigering er tidskrevende og krever profesjonell kompetanse",
+        "item2": "Krever dyr profesjonell bildredigeringsprogramvare",
+        "item3": "Manuelt arbeid øker prosjektets kostnad betydelig",
+        "item4": "Resultatene ser ofte unaturlige eller av dårlig kvalitet ut"
+      }
+    },
+    "subtitle": "Fjerningsverktøyet for bildvannmerke utnytter avansert AI-teknologi for å utkonkurrere tradisjonelle vannmerkefjerningsmetoder, og leverer profesjonelle resultater raskere og billigere.",
+    "title": "Hvorfor velge fjerningsverktøyet for bildvannmerke"
+  },
+  "title": "AI-drevet vannmerkefjerningsverktøy - Fjern vannmerker øyeblikkelig"
+}

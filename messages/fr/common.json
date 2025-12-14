@@ -35,6 +35,8 @@
     "seedreamV45Desc": "ByteDance 2K HD génération d'images",
     "image-upscaler": "Agrandisseur d'images",
     "imageUpscalerDesc": "Améliorez les images à 4K grâce à l'IA",
+    "image-watermark-remover": "Suppression de filigrane",
+    "imageWatermarkRemoverDesc": "Supprimer les filigranes des images avec l'IA",
     "settings": "Paramètres",
     "subscription": "Abonnement",
     "tasks": "L'histoire",

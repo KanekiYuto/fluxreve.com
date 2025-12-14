@@ -1,0 +1,187 @@
+{
+  "cta": {
+    "note": "Inget kreditkort krävs • Ta bort vattenstämplar omedelbart • Snabb behandling",
+    "primary": "Börja gratis borttagning av vattenstämpel",
+    "secondary": "Visa prisplaner",
+    "subtitle": "Gå med tusentals användare som litar på AI-driven borttagning av bildvattenstämpel för att rensa upp sina bilder. Perfekt för fotografer, innehållsskapare, marknadsförare och företag. Ta bort oönskade vattenstämplar, logotyper och text på sekunder.",
+    "title": "Ta bort vattenstämplar från bilder med AI-drivna borttagningsverktyget"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Borttagningsverktyget för bildvattenstämpel är ett avancerat AI-driven verktyg som på ett intelligent sätt tar bort vattenstämplar, logotyper, text och andra oönskade element från dina bilder. Med hjälp av deep learning-teknik analyserar det omgivande bildinnehål och rekonstruerar på ett intelligent sätt det påverkade området, vilket gör borttagningen sömlös och naturlig.",
+        "question": "Vad är borttagningsverktyget för bildvattenstämpel? Hur fungerar det?"
+      },
+      {
+        "answer": "Borttagningsverktyget för bildvattenstämpel kan hantera olika typer av vattenstämplar, inklusive textvattenstämplar, logotypvattenstämplar, fotovattenstämplar och andra övertäckningar. Det fungerar bäst med vattenstämplar som har klara kanter och tydliga färgskillnader från bakgrunden, men avancerad AI hanterar också komplexa borttagningsscenarier.",
+        "question": "Vilka typer av vattenstämplar kan det ta bort?"
+      },
+      {
+        "answer": "Ja! Borttagningsverktyget för bildvattenstämpel kan effektivt ta bort vattenstämplar från foton, skärmbilder, designfiler och illustrationer. Oavsett om det är personliga foton, professionellt innehål eller konstverk kan vår AI på ett intelligent sätt identifiera och ta bort oönskade element medan bildkvaliteten bevaras.",
+        "question": "Vilka typer av bilder kan det bearbeta?"
+      },
+      {
+        "answer": "Vattenstämpelborttagningsprocessen är extremt snabb, vanligtvis slutförd på några sekunder. De flesta bilder med vattenstämplar kan bearbetas och rensas på 5-15 sekunder, vilket gör att du effektivt kan batchbearbeta flera bilder.",
+        "question": "Hur lång tid tar vattenstämpelborttagningen?"
+      },
+      {
+        "answer": "Borttagningsverktyget för bildvattenstämpel stöder flera utdataformat, inklusive JPEG, PNG och WebP. Du kan välja det mest lämpliga formatet för dina behov - PNG för bilder som kräver transparens, medan JPEG fungerar bra för foton och webbbruk.",
+        "question": "Vilka utdataformat stöds?"
+      },
+      {
+        "answer": "Absolut! Borttagningsverktyget för bildvattenstämpel är perfekt för kommersiell och professionell användning. För abonnenter på betalda planer kan alla rensade bilder användas för kommersiella projekt, återförsäljning, klientarbete och professionella tillämpningar. Detta gör det idealiskt för fotografer, byråer och innehållsskapare.",
+        "question": "Kan det användas för kommersiella ändamål?"
+      }
+    ],
+    "subtitle": "Vanliga frågor om AI-drivet borttagningsverktyg för bildvattenstämpel",
+    "title": "Vanliga frågor om borttagning av bildvattenstämpel"
+  },
+  "features": {
+    "items": {
+      "ai-enhancement": {
+        "description": "Utnyttja avancerad AI-teknik för att inte bara ta bort vattenstämplar utan också förbättra och återställa bilddetaljer, färger och kvalitet för resultat av professionell standard.",
+        "title": "Intelligent innehållsåterställning"
+      },
+      "batch": {
+        "description": "Stöder batchbearbetning av flera vattenstämplade bilder samtidigt. Perfekt för fotografer och innehållsskapare som behöver rensa stora volymer av bilder.",
+        "title": "Batchbearbetning"
+      },
+      "formats": {
+        "description": "Stöder flera utdataformat (JPEG, PNG, WebP), vilket gör att du flexibelt kan välja det mest lämpliga formatet baserat på dina specifika behov.",
+        "title": "Flera utdataformat"
+      },
+      "quality": {
+        "description": "Behåller original bildkvalitet medan vattenstämplar tas bort. Vår AI bevarar på ett intelligent sätt viktiga detaljer och producerar rena, naturligt utseende resultat.",
+        "title": "Högkvalitativ utdata"
+      },
+      "secure": {
+        "description": "Dina bilder är skyddade av företagsgradig kryptering och strikta integritetspolicyer. Vi delar eller använder dina bilder inte utan ditt uttryckliga samtycke.",
+        "title": "Säkerhet på företagsnivå"
+      },
+      "speed": {
+        "description": "Snabb bearbetning - de flesta vattenstämplar tas bort på sekunder. Den effektiva AI-motorn säkerställer att du kan slutföra projekt snabbt.",
+        "title": "Blixtsnabb bearbetning"
+      }
+    },
+    "subtitle": "Komplett vattenstämpelborttagningsfunktionalitet driven av avancerad AI-teknik",
+    "title": "Funktioner för borttagningsverktyget för bildvattenstämpel"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Börja kostnadsfri provperiod",
+      "secondary": "Läs mer"
+    },
+    "stats": {
+      "efficiency": {
+        "label": "Genomsnittlig behandlingstid",
+        "value": "< 10 sec"
+      },
+      "quality": {
+        "label": "Borttagningsnoggrannhet",
+        "value": "99%+"
+      },
+      "users": {
+        "label": "Nöjda användare",
+        "value": "100K+"
+      }
+    },
+    "subtitle": "Ta bort vattenstämplar från dina bilder omedelbar med AI-driven vattenstämpelborttagniningsteknik",
+    "title": {
+      "line1": "Intelligent vattenstämpelborttagning",
+      "line2": "Kristallklara resultat"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Välj bilden med vattenstämplar som du vill ta bort. Stöder JPG, PNG och andra vanliga format. Du kan ladda upp från din dator, molnlagring eller direkt från din enhet.",
+        "title": "Ladda upp vattenstämplad bild"
+      },
+      "step2": {
+        "description": "Välj ditt utdataformat (JPEG, PNG eller WebP) baserat på dina specifika behov. AI kommer automatiskt att analysera bilden och identifiera vattenstämpelområden.",
+        "title": "Välj utdataformat"
+      },
+      "step3": {
+        "description": "Klicka på knappen \"Generera\". Vår AI-motor börjar omedelbar att analysera och ta bort vattenstämpeln. De flesta vattenstämplar tas bort helt inom 10 sekunder.",
+        "title": "AI tar bort vattenstämpeln"
+      },
+      "step4": {
+        "description": "Förhandsgranska det rensade resultatet. Nöjd med kvaliteten? Ladda ner din vattenstämpelfria bild för omedelbar användning. Den borttagen vattenstämpeln påverkar inte slutlig kvalitet.",
+        "title": "Ladda ner ren bild"
+      }
+    },
+    "subtitle": "Ta bort vattenstämplar från dina bilder i bara fyra enkla steg",
+    "title": "Hur man tar bort vattenstämplar"
+  },
+  "seo": {
+    "description": "Ta bort vattenstämplar från bilder omedelbar med AI-driven vattenstämpelborttagniningsteknik. Snabb, noggrann och stöder flera format. Perfekt för fotografer och innehållsskapare.",
+    "title": "AI-drivna vattenstämpelborttagningsverktyg - Ta bort vattenstämplar från bilder omedelbar"
+  },
+  "subtitle": "Ta bort vattenstämplar och oönskade element med avancerad AI-teknik",
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Vår AI detekterar och tar bort på ett intelligent sätt vattenstämplar samtidigt som bildkvaliteten bevaras. Med hjälp av deep learning-teknik analyserar den omgivande innehål och rekonstruerar på ett smidigt sätt det påverkade området, vilket producerar naturligt utseende, vattenstämpelfria bilder.",
+        "title": "Intelligent detektering och borttagning av vattenstämpel"
+      },
+      "core2": {
+        "description": "Till skillnad från grundläggande borttagningsverktyg rekonstruerar och förbättrar vår AI på ett intelligent sätt det rensade området. Den analyserar omgivande pixlar och fyller på ett intelligent sätt i utrymmet, bibehållen naturligt utseende och konsistens med resten av bilden.",
+        "title": "Intelligent innehållsrekonstruktion"
+      },
+      "core3": {
+        "description": "Stöder flera utdataformat och flexibla bearbetningsalternativ. Hanterar vattenstämplar av alla slag, storlek eller komplexitet. Oavsett om det är text, logotyper eller komplexa övertäckningar levererar vår AI professionella resultat.",
+        "title": "Flexibla bearbetningsalternativ"
+      }
+    },
+    "demoPlaceholder": "Bild med vattenstämpel borttagen av borttagningsverktyget för bildvattenstämpel",
+    "description": "Borttagningsverktyget för bildvattenstämpel är ett avancerat AI-drivet verktyg utformat för fotografer, innehållsskapare och företag. Det använder de senaste deep learning-teknikerna för att på ett intelligent sätt ta bort vattenstämplar, logotyper, text och andra oönskade element från bilder samtidigt som kvaliteten bevaras. Perfekt för att rensa foton, förbereda innehål för återförsäljning eller ta bort oönskade övertäckningar från digitala bilder.",
+    "title": "Vad är borttagningsverktyget för bildvattenstämpel?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Jämfört med dyra redigeringsprogram eller anställning av yrkesmän erbjuder borttagningsverktyget för bildvattenstämpel prisvärd prenumerationsplaner. Flexibel prissättning gör professionell vattenstämpelborttagning tillgänglig för alla.",
+        "title": "Kostnadseffektiv lösning"
+      },
+      "flexibility": {
+        "description": "Ta bort omedelbar olika typer av vattenstämplar. Bearbeta flera bilder snabbt utan behov av teknisk kompetens eller manuell redigeringserfarenhet.",
+        "title": "Hantera alla typer av vattenstämplar"
+      },
+      "quality": {
+        "description": "Uppnå resultat av professionell standard med vår avancerade AI-teknik. Dina bilder ser naturliga och rena ut, lämpliga för professionella tillämpningar och kommersiell användning.",
+        "title": "Professionell resultat"
+      },
+      "security": {
+        "description": "Dina bilder och integritet är skyddade av företagsgradig kryptering. Vi följer internationella dataskyddsstandarder, vilket säkerställer att ditt kreativa arbete förblir helt säker.",
+        "title": "Säkerhet på företagsnivå"
+      },
+      "speed": {
+        "description": "De flesta vattenstämplar tas bort på sekunder. Vår effektiva AI-motor säkerställer att du snabbt kan bearbeta stora volymer av bilder utan att vänta.",
+        "title": "Blixtsnabb bearbetning"
+      },
+      "support": {
+        "description": "Få professionell teknisk support och omfattande användarguider. Vårt team är dedikerat till att hjälpa dig uppnå perfekta resultat för vattenstämpelborttagning.",
+        "title": "Teknisk support av högkvalitet"
+      }
+    },
+    "comparison": {
+      "product": {
+        "title": "AI-drivet borttagningsverktyg för bildvattenstämpel",
+        "item1": "Ta bort vattenstämplar på ett intelligent sätt på sekunder med avancerad AI",
+        "item2": "Inga yrkesmässiga färdigheter krävs - enkelt och lättanvänd gränssnitt",
+        "item3": "Prisvärd prissättning med flexibla betalningsalternativ",
+        "item4": "Effektiv batchbearbetning av flera bilder"
+      },
+      "traditional": {
+        "title": "Traditionella vattenstämpelborttagningsmetoder",
+        "item1": "Manuell redigering är tidskrävande och kräver yrkesmässiga färdigheter",
+        "item2": "Kräver dyrt professionell bildredigeringsprogram",
+        "item3": "Manuellt arbete ökar projektets kostnad väsentlig",
+        "item4": "Resultat ser ofta onaturliga eller låg kvalitet ut"
+      }
+    },
+    "subtitle": "Borttagningsverktyget för bildvattenstämpel utnyttjar de senaste AI-teknikerna för att överträffa traditionella vattenstämpelborttagningsmetoder, och leverera professionella resultat snabbare och billigare.",
+    "title": "Varför välja borttagningsverktyget för bildvattenstämpel"
+  },
+  "title": "AI-drivna vattenstämpelborttagningsverktyg - Ta bort vattenstämplar omedelbar"
+}

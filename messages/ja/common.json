@@ -35,6 +35,8 @@
     "seedreamV45Desc": "ByteDance 2K HD 画像生成",
     "image-upscaler": "画像アップスケーラー",
     "imageUpscalerDesc": "AIを使用して画像を4K解像度に強化",
+    "image-watermark-remover": "透かし除去",
+    "imageWatermarkRemoverDesc": "AIを使用して画像から透かしを除去",
     "settings": "設定",
     "subscription": "サブスクリプション",
     "tasks": "歴史",

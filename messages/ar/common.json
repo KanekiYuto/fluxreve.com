@@ -35,6 +35,8 @@
     "seedreamV45Desc": "ByteDance 2K HD توليد الصور",
     "image-upscaler": "محسّن الصور",
     "imageUpscalerDesc": "تحسين الصور إلى دقة 4K باستخدام الذكاء الاصطناعي",
+    "image-watermark-remover": "إزالة العلامات المائية",
+    "imageWatermarkRemoverDesc": "إزالة العلامات المائية من الصور باستخدام الذكاء الاصطناعي",
     "settings": "الإعدادات",
     "subscription": "الاشتراك",
     "tasks": "التاريخ",

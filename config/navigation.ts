@@ -44,6 +44,7 @@ export const headerNavigation: HeaderNavEntry[] = [
       { name: 'flux-2-pro', href: '/flux-2-pro', icon: 'sparkles', description: 'flux2ProDesc' },
       { name: 'seedreamV45', href: '/seedream-v45', icon: 'sparkles', description: 'seedreamV45Desc' },
       { name: 'image-upscaler', href: '/image-upscaler', icon: 'sparkles', description: 'imageUpscalerDesc' },
+      { name: 'image-watermark-remover', href: '/image-watermark-remover', icon: 'sparkles', description: 'imageWatermarkRemoverDesc' },
     ],
   },
   { type: 'link', name: 'explore', href: '/explore' },
@@ -93,6 +94,7 @@ export const navigationGroups: NavGroup[] = [
       { name: 'flux-2-pro', href: '/flux-2-pro', icon: 'sparkles' },
       { name: 'seedreamV45', href: '/seedream-v45', icon: 'sparkles' },
       { name: 'image-upscaler', href: '/image-upscaler', icon: 'sparkles' },
+      { name: 'image-watermark-remover', href: '/image-watermark-remover', icon: 'sparkles' },
     ],
   },
   {
@@ -136,6 +138,7 @@ export const footerSections: FooterSection[] = [
       { name: 'flux-2-pro', href: '/flux-2-pro' },
       { name: 'seedreamV45', href: '/seedream-v45' },
       { name: 'image-upscaler', href: '/image-upscaler' },
+      { name: 'image-watermark-remover', href: '/image-watermark-remover' },
     ],
   },
   {

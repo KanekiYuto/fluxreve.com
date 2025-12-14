@@ -10,6 +10,7 @@ const fileToKeyMap: Record<string, string> = {
   'flux-2-pro': 'flux2Pro',
   'seedream-v45': 'seedreamV45',
   'image-upscaler': 'imageUpscaler',
+  'image-watermark-remover': 'imageWatermarkRemover',
 };
 
 /**
@@ -44,6 +45,7 @@ async function loadMessages(locale: string) {
     'terms',
     'subscription-success',
     'image-upscaler',
+    'image-watermark-remover',
   ];
 
   // 并行动态导入所有翻译文件

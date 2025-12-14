@@ -24,6 +24,8 @@
     "seedreamV45Desc": "ByteDance 2K HD image generation",
     "image-upscaler": "Image Upscaler",
     "imageUpscalerDesc": "Enhance images to 4K resolution with AI",
+    "image-watermark-remover": "Watermark Remover",
+    "imageWatermarkRemoverDesc": "Remove watermarks from images with AI",
     "explore": "Creative Community",
     "dashboard": "Dashboard",
     "tasks": "History",

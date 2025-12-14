@@ -35,6 +35,8 @@
     "seedreamV45Desc": "ByteDance 2K HD generación de imágenes",
     "image-upscaler": "Ampliador de imágenes",
     "imageUpscalerDesc": "Mejora imágenes a 4K con inteligencia artificial",
+    "image-watermark-remover": "Eliminador de marcas de agua",
+    "imageWatermarkRemoverDesc": "Elimina marcas de agua de imágenes con IA",
     "settings": "Ajustes",
     "subscription": "Suscripción",
     "tasks": "Historia",

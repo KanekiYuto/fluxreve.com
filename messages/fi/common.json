@@ -35,6 +35,8 @@
     "seedreamV45Desc": "ByteDance 2K HD kuvan luonti",
     "image-upscaler": "Kuvien suurentaja",
     "imageUpscalerDesc": "Paranna kuvia 4K-resoluutioon tekoälylla",
+    "image-watermark-remover": "Vesileiman poistaminen",
+    "imageWatermarkRemoverDesc": "Poista vesimerkit kuvista tekoälyllä",
     "settings": "Asetukset",
     "subscription": "Tilaus",
     "tasks": "Historia",

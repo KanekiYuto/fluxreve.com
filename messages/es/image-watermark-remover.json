@@ -1,0 +1,187 @@
+{
+  "cta": {
+    "note": "Sin tarjeta de crédito requerida • Eliminar marcas de agua al instante • Procesamiento rápido",
+    "primary": "Comenzar eliminación gratuita de marcas de agua",
+    "secondary": "Ver planes de precios",
+    "subtitle": "Únete a miles de usuarios que confían en la herramienta de eliminación de marcas de agua de imágenes con IA para limpiar sus imágenes. Perfecto para fotógrafos, creadores de contenidos, especialistas en marketing y empresas. Elimina marcas de agua, logotipos y textos no deseados en segundos.",
+    "title": "Eliminar marcas de agua de imágenes con la herramienta de eliminación de marcas de agua con IA"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "La herramienta de eliminación de marcas de agua de imágenes es una herramienta avanzada impulsada por IA que elimina de forma inteligente marcas de agua, logotipos, textos y otros elementos no deseados de tus imágenes. Utilizando tecnología de aprendizaje profundo, analiza el contenido de la imagen circundante y reconstruye de forma inteligente el área afectada, haciendo que la eliminación sea fluida y natural.",
+        "question": "¿Qué es la herramienta de eliminación de marcas de agua de imágenes? ¿Cómo funciona?"
+      },
+      {
+        "answer": "La herramienta de eliminación de marcas de agua de imágenes puede manejar varios tipos de marcas de agua, incluidas marcas de agua de texto, marcas de agua de logotipo, marcas de agua de fotos y otras capas superpuestas. Funciona mejor con marcas de agua que tienen bordes claros y diferencias de color distintas del fondo, pero la IA avanzada también maneja escenarios de eliminación complejos.",
+        "question": "¿Qué tipos de marcas de agua puede eliminar?"
+      },
+      {
+        "answer": "¡Sí! La herramienta de eliminación de marcas de agua de imágenes puede eliminar eficazmente marcas de agua de fotos, capturas de pantalla, archivos de diseño e ilustraciones. Ya sean fotos personales, contenido profesional u obras de arte, nuestra IA puede identificar y eliminar de forma inteligente los elementos no deseados mientras preserva la calidad de la imagen.",
+        "question": "¿Qué tipos de imágenes puede procesar?"
+      },
+      {
+        "answer": "El proceso de eliminación de marcas de agua es extremadamente rápido, generalmente completado en cuestión de segundos. La mayoría de las imágenes con marcas de agua se pueden procesar y limpiar en 5-15 segundos, lo que te permite procesar múltiples imágenes de manera eficiente en lotes.",
+        "question": "¿Cuánto tiempo tarda la eliminación de marcas de agua?"
+      },
+      {
+        "answer": "La herramienta de eliminación de marcas de agua de imágenes admite múltiples formatos de salida, incluidos JPEG, PNG y WebP. Puedes elegir el formato más apropiado para tus necesidades - PNG para imágenes que requieren transparencia, mientras que JPEG funciona bien para fotos y uso web.",
+        "question": "¿Qué formatos de salida se admiten?"
+      },
+      {
+        "answer": "¡Absolutamente! La herramienta de eliminación de marcas de agua de imágenes es perfecta para uso comercial y profesional. Para los suscriptores de planes pagos, todas las imágenes limpias pueden usarse para proyectos comerciales, reventa, trabajo del cliente y aplicaciones profesionales. Esto la convierte en ideal para fotógrafos, agencias y creadores de contenidos.",
+        "question": "¿Se puede utilizar con fines comerciales?"
+      }
+    ],
+    "subtitle": "Preguntas frecuentes sobre la herramienta de eliminación de marcas de agua de imágenes con IA",
+    "title": "Preguntas frecuentes sobre eliminación de marcas de agua de imágenes"
+  },
+  "features": {
+    "items": {
+      "ai-enhancement": {
+        "description": "Aproveche la tecnología avanzada de IA no solo para eliminar marcas de agua, sino también para mejorar y restaurar los detalles, colores y calidad de la imagen para obtener resultados de calidad profesional.",
+        "title": "Restauración inteligente de contenido"
+      },
+      "batch": {
+        "description": "Admite el procesamiento por lotes de múltiples imágenes con marcas de agua simultáneamente. Perfecto para fotógrafos y creadores de contenidos que necesitan limpiar grandes volúmenes de imágenes.",
+        "title": "Procesamiento por lotes"
+      },
+      "formats": {
+        "description": "Admite múltiples formatos de salida (JPEG, PNG, WebP), lo que te permite elegir de manera flexible el formato más apropiado según tus necesidades específicas.",
+        "title": "Múltiples formatos de salida"
+      },
+      "quality": {
+        "description": "Mantiene la calidad de la imagen original mientras se eliminan las marcas de agua. Nuestra IA preserva de forma inteligente los detalles importantes y produce resultados limpios y de aspecto natural.",
+        "title": "Salida de alta calidad"
+      },
+      "secure": {
+        "description": "Tus imágenes están protegidas por encriptación de nivel empresarial y políticas de privacidad estrictas. No compartiremos ni usaremos tus imágenes sin tu consentimiento explícito.",
+        "title": "Seguridad a nivel empresarial"
+      },
+      "speed": {
+        "description": "Procesamiento rápido - la mayoría de las marcas de agua se eliminan en cuestión de segundos. El motor de IA eficiente garantiza que puedas completar proyectos rápidamente.",
+        "title": "Procesamiento ultrarápido"
+      }
+    },
+    "subtitle": "Características completas de eliminación de marcas de agua impulsadas por tecnología avanzada de IA",
+    "title": "Características de la herramienta de eliminación de marcas de agua de imágenes"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Comienza prueba gratuita",
+      "secondary": "Obtén más información"
+    },
+    "stats": {
+      "efficiency": {
+        "label": "Tiempo de procesamiento promedio",
+        "value": "< 10 sec"
+      },
+      "quality": {
+        "label": "Precisión de eliminación",
+        "value": "99%+"
+      },
+      "users": {
+        "label": "Usuarios satisfechos",
+        "value": "100K+"
+      }
+    },
+    "subtitle": "Elimina marcas de agua de tus imágenes al instante usando tecnología de eliminación de marcas de agua impulsada por IA",
+    "title": {
+      "line1": "Eliminación inteligente de marcas de agua",
+      "line2": "Resultados cristalinos"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Selecciona la imagen con marcas de agua que deseas eliminar. Admite JPG, PNG y otros formatos comunes. Puedes cargar desde tu computadora, almacenamiento en la nube o directamente desde tu dispositivo.",
+        "title": "Cargar imagen con marca de agua"
+      },
+      "step2": {
+        "description": "Elige tu formato de salida (JPEG, PNG o WebP) según tus necesidades específicas. La IA analizará automáticamente la imagen e identificará las áreas con marcas de agua.",
+        "title": "Selecciona formato de salida"
+      },
+      "step3": {
+        "description": "Haz clic en el botón \"Generar\". Nuestro motor de IA comenzará inmediatamente a analizar y eliminar la marca de agua. La mayoría de las marcas de agua se eliminan completamente en 10 segundos.",
+        "title": "La IA elimina la marca de agua"
+      },
+      "step4": {
+        "description": "Obtén una vista previa del resultado limpio. ¿Satisfecho con la calidad? Descarga tu imagen sin marcas de agua para usar inmediatamente. La marca de agua eliminada no afectará la calidad final.",
+        "title": "Descargar imagen limpia"
+      }
+    },
+    "subtitle": "Elimina marcas de agua de tus imágenes en solo cuatro sencillos pasos",
+    "title": "Cómo eliminar marcas de agua"
+  },
+  "seo": {
+    "description": "Elimina marcas de agua de imágenes al instante usando tecnología de eliminación de marcas de agua impulsada por IA. Rápido, preciso y admite múltiples formatos. Perfecto para fotógrafos y creadores de contenidos.",
+    "title": "Herramienta de eliminación de marcas de agua con IA - Eliminar marcas de agua de imágenes al instante"
+  },
+  "subtitle": "Elimina marcas de agua y elementos no deseados usando tecnología avanzada de IA",
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Nuestra IA detecta y elimina de forma inteligente las marcas de agua mientras preserva la calidad de la imagen. Utilizando tecnología de aprendizaje profundo, analiza el contenido circundante y reconstruye sin problemas el área afectada, produciendo imágenes de aspecto natural y sin marcas de agua.",
+        "title": "Detección y eliminación inteligente de marcas de agua"
+      },
+      "core2": {
+        "description": "A diferencia de las herramientas de eliminación básicas, nuestra IA reconstruye y mejora inteligentemente el área limpiada. Analiza píxeles circundantes y rellena inteligentemente el espacio, manteniendo una apariencia natural y consistencia con el resto de la imagen.",
+        "title": "Reconstrucción inteligente de contenido"
+      },
+      "core3": {
+        "description": "Admite múltiples formatos de salida y opciones de procesamiento flexibles. Maneja marcas de agua de cualquier tipo, tamaño o complejidad. Ya sean texto, logotipos u superposiciones complejas, nuestra IA ofrece resultados profesionales.",
+        "title": "Opciones de procesamiento flexibles"
+      }
+    },
+    "demoPlaceholder": "Imagen con marca de agua eliminada por la herramienta de eliminación de marcas de agua de imágenes",
+    "description": "La herramienta de eliminación de marcas de agua de imágenes es una herramienta avanzada impulsada por IA diseñada para fotógrafos, creadores de contenidos y empresas. Utiliza tecnología de aprendizaje profundo de vanguardia para eliminar de forma inteligente marcas de agua, logotipos, textos y otros elementos no deseados de las imágenes mientras preserva la calidad. Perfecta para limpiar fotos, preparar contenido para reventa o eliminar superposiciones no deseadas de imágenes digitales.",
+    "title": "¿Qué es la herramienta de eliminación de marcas de agua de imágenes?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "En comparación con software de edición costoso o contratación de profesionales, la herramienta de eliminación de marcas de agua de imágenes ofrece planes de suscripción asequibles. Los precios flexibles hacen que la eliminación profesional de marcas de agua sea accesible para todos.",
+        "title": "Solución rentable"
+      },
+      "flexibility": {
+        "description": "Elimina al instante varios tipos de marcas de agua. Procesa múltiples imágenes rápidamente sin necesidad de habilidades técnicas o experiencia en edición manual.",
+        "title": "Manejar cualquier tipo de marca de agua"
+      },
+      "quality": {
+        "description": "Obtén resultados de calidad profesional con nuestra tecnología avanzada de IA. Tus imágenes se verán naturales y limpias, apropiadas para aplicaciones profesionales y uso comercial.",
+        "title": "Resultados de calidad profesional"
+      },
+      "security": {
+        "description": "Tus imágenes y privacidad están protegidas por encriptación de nivel empresarial. Cumplimos con los estándares internacionales de protección de datos, garantizando que tu trabajo creativo permanezca absolutamente seguro.",
+        "title": "Seguridad a nivel empresarial"
+      },
+      "speed": {
+        "description": "La mayoría de las marcas de agua se eliminan en cuestión de segundos. Nuestro motor de IA eficiente garantiza que puedas procesar grandes volúmenes de imágenes rápidamente sin esperar.",
+        "title": "Procesamiento ultrarápido"
+      },
+      "support": {
+        "description": "Obtén soporte técnico profesional y guías de uso completas. Nuestro equipo se dedica a ayudarte a lograr resultados perfectos en la eliminación de marcas de agua.",
+        "title": "Soporte técnico de calidad"
+      }
+    },
+    "comparison": {
+      "product": {
+        "title": "Herramienta de eliminación de marcas de agua de imágenes con IA",
+        "item1": "Elimina marcas de agua de forma inteligente en segundos con IA avanzada",
+        "item2": "Sin necesidad de habilidades profesionales - interfaz simple y fácil de usar",
+        "item3": "Precios asequibles con opciones de pago flexibles",
+        "item4": "Procesamiento por lotes eficiente de múltiples imágenes"
+      },
+      "traditional": {
+        "title": "Métodos tradicionales de eliminación de marcas de agua",
+        "item1": "La edición manual consume tiempo y requiere habilidades profesionales",
+        "item2": "Requiere software costoso de edición de imágenes profesional",
+        "item3": "El trabajo manual aumenta significativamente los costos del proyecto",
+        "item4": "Los resultados a menudo se ven poco naturales o de mala calidad"
+      }
+    },
+    "subtitle": "La herramienta de eliminación de marcas de agua de imágenes aprovecha la tecnología de IA de vanguardia para superar los métodos tradicionales de eliminación de marcas de agua, ofreciendo resultados profesionales más rápidamente y a menor costo.",
+    "title": "Por qué elegir la herramienta de eliminación de marcas de agua de imágenes"
+  },
+  "title": "Herramienta de eliminación de marcas de agua con IA - Eliminar marcas de agua al instante"
+}

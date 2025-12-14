@@ -35,6 +35,8 @@
     "seedreamV45Desc": "ByteDance 2K HD bildegenerering",
     "image-upscaler": "Bildeforstørrer",
     "imageUpscalerDesc": "Forbedre bilder til 4K-oppløsning med AI",
+    "image-watermark-remover": "Fjerning av vannmerke",
+    "imageWatermarkRemoverDesc": "Fjern vannmerker fra bilder med AI",
     "settings": "Innstillinger",
     "subscription": "Abonnement",
     "tasks": "Historie",

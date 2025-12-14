@@ -1,0 +1,187 @@
+{
+  "cta": {
+    "note": "Keine Kreditkarte erforderlich • Wasserzeichen sofort entfernen • Schnelle Verarbeitung",
+    "primary": "Kostenlose Wasserzeichen-Entfernung starten",
+    "secondary": "Preispläne anzeigen",
+    "subtitle": "Schließen Sie sich Tausenden von Benutzern an, die dem KI-gestützten Bild-Wasserzeichen-Entferner vertrauen, um ihre Bilder zu bereinigen. Perfekt für Fotografen, Content Creator, Vermarkter und Unternehmen. Entfernen Sie unerwünschte Wasserzeichen, Logos und Text in Sekunden.",
+    "title": "Entfernen Sie Wasserzeichen aus Bildern mit dem KI-Wasserzeichen-Entferner"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Das Bild-Wasserzeichen-Entfernungstool ist ein fortgeschrittenes KI-gestütztes Werkzeug, das Wasserzeichen, Logos, Text und andere unerwünschte Elemente aus Ihren Bildern intelligent entfernt. Mit Deep-Learning-Technologie analysiert es den umgebenden Bildinhalt und rekonstruiert den betroffenen Bereich intelligent, um eine nahtlose und natürliche Entfernung zu ermöglichen.",
+        "question": "Was ist das Bild-Wasserzeichen-Entfernungstool? Wie funktioniert es?"
+      },
+      {
+        "answer": "Das Bild-Wasserzeichen-Entfernungstool kann verschiedene Arten von Wasserzeichen verarbeiten, darunter Textwasserzeichen, Logo-Wasserzeichen, Foto-Wasserzeichen und andere Overlays. Es funktioniert am besten mit Wasserzeichen, die klare Ränder und deutliche Farbunterschiede zum Hintergrund aufweisen, aber fortgeschrittene KI behandelt auch komplexe Entfernungsszenarien.",
+        "question": "Welche Arten von Wasserzeichen kann es entfernen?"
+      },
+      {
+        "answer": "Ja! Das Bild-Wasserzeichen-Entfernungstool kann Wasserzeichen aus Fotos, Screenshots, Designdateien und Illustrationen wirksam entfernen. Ob persönliche Fotos, professionelle Inhalte oder Kunstwerke - unsere KI kann unerwünschte Elemente intelligent identifizieren und entfernen, während die Bildqualität erhalten bleibt.",
+        "question": "Welche Arten von Bildern kann es verarbeiten?"
+      },
+      {
+        "answer": "Der Wasserzeichen-Entfernungsprozess ist äußerst schnell und wird normalerweise in Sekunden abgeschlossen. Die meisten Bilder mit Wasserzeichen können innerhalb von 5-15 Sekunden verarbeitet und bereinigt werden, was es Ihnen ermöglicht, mehrere Bilder effizient in Batches zu verarbeiten.",
+        "question": "Wie lange dauert die Wasserzeichen-Entfernung?"
+      },
+      {
+        "answer": "Das Bild-Wasserzeichen-Entfernungstool unterstützt mehrere Ausgabeformate, einschließlich JPEG, PNG und WebP. Sie können das am besten geeignete Format für Ihre Anforderungen wählen - PNG für Bilder, die Transparenz erfordern, während JPEG für Fotos und Webnutzung geeignet ist.",
+        "question": "Welche Ausgabeformate werden unterstützt?"
+      },
+      {
+        "answer": "Absolut! Das Bild-Wasserzeichen-Entfernungstool ist perfekt für kommerzielle und professionelle Nutzung. Für Abonnenten von bezahlten Plänen können alle bereinigten Bilder für kommerzielle Projekte, Wiederverkauf, Kundenarbeit und professionelle Anwendungen verwendet werden. Dies macht es ideal für Fotografen, Agenturen und Content Creator.",
+        "question": "Kann es für kommerzielle Zwecke verwendet werden?"
+      }
+    ],
+    "subtitle": "Häufig gestellte Fragen zum KI-gestützten Bild-Wasserzeichen-Entfernungstool",
+    "title": "Häufig gestellte Fragen zur Wasserzeichen-Entfernung"
+  },
+  "features": {
+    "items": {
+      "ai-enhancement": {
+        "description": "Nutzen Sie fortgeschrittene KI-Technologie nicht nur zur Wasserzeichen-Entfernung, sondern auch zur Verbesserung und Wiederherstellung von Bilddetails, Farben und Qualität für professionelle Ergebnisse.",
+        "title": "Intelligente Inhaltswiederherstellung"
+      },
+      "batch": {
+        "description": "Unterstützt die gleichzeitige Batch-Verarbeitung mehrerer Bilder mit Wasserzeichen. Perfekt für Fotografen und Content Creator, die große Mengen an Bildern bereinigen müssen.",
+        "title": "Batch-Verarbeitung"
+      },
+      "formats": {
+        "description": "Unterstützt mehrere Ausgabeformate (JPEG, PNG, WebP), sodass Sie flexibel das am besten geeignete Format basierend auf Ihren spezifischen Anforderungen auswählen können.",
+        "title": "Mehrere Ausgabeformate"
+      },
+      "quality": {
+        "description": "Erhält die ursprüngliche Bildqualität, während Wasserzeichen entfernt werden. Unsere KI behält intelligenterweise wichtige Details bei und erzeugt saubere, natürlich wirkende Ergebnisse.",
+        "title": "Hochwertige Ausgabe"
+      },
+      "secure": {
+        "description": "Ihre Bilder sind durch Enterprise-Grade-Verschlüsselung und strenge Datenschutzrichtlinien geschützt. Wir teilen oder verwenden Ihre Bilder nicht ohne Ihre ausdrückliche Genehmigung.",
+        "title": "Sicherheit auf Unternehmensebene"
+      },
+      "speed": {
+        "description": "Schnelle Verarbeitung - die meisten Wasserzeichen werden in Sekunden entfernt. Das effiziente KI-Engine stellt sicher, dass Sie Projekte schnell abschließen können.",
+        "title": "Blitzschnelle Verarbeitung"
+      }
+    },
+    "subtitle": "Vollständige Wasserzeichen-Entfernungsfunktionen, unterstützt durch fortgeschrittene KI-Technologie",
+    "title": "Funktionen des Bild-Wasserzeichen-Entfernungstools"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Kostenlose Testversion starten",
+      "secondary": "Mehr erfahren"
+    },
+    "stats": {
+      "efficiency": {
+        "label": "Durchschnittliche Verarbeitungszeit",
+        "value": "< 10 Sek"
+      },
+      "quality": {
+        "label": "Entfernungsgenauigkeit",
+        "value": "99%+"
+      },
+      "users": {
+        "label": "Zufriedene Benutzer",
+        "value": "100K+"
+      }
+    },
+    "subtitle": "Entfernen Sie Wasserzeichen aus Ihren Bildern sofort mit KI-gestützter Wasserzeichen-Entfernungstechnologie",
+    "title": {
+      "line1": "Intelligente Wasserzeichen-Entfernung",
+      "line2": "Kristallklare Ergebnisse"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Wählen Sie das Bild mit Wasserzeichen aus, das Sie entfernen möchten. Unterstützt JPG, PNG und andere gängige Formate. Sie können vom Computer, Cloud-Speicher oder direkt von Ihrem Gerät hochladen.",
+        "title": "Bild mit Wasserzeichen hochladen"
+      },
+      "step2": {
+        "description": "Wählen Sie Ihr Ausgabeformat (JPEG, PNG oder WebP) basierend auf Ihren spezifischen Anforderungen. Die KI analysiert das Bild automatisch und identifiziert Wasserzeichen-Bereiche.",
+        "title": "Ausgabeformat wählen"
+      },
+      "step3": {
+        "description": "Klicken Sie auf die Schaltfläche \"Generieren\". Unsere KI-Engine beginnt sofort mit der Analyse und Entfernung des Wasserzeichens. Die meisten Wasserzeichen werden innerhalb von 10 Sekunden vollständig entfernt.",
+        "title": "KI entfernt Wasserzeichen"
+      },
+      "step4": {
+        "description": "Zeigen Sie das bereinigte Ergebnis in der Vorschau an. Zufrieden mit der Qualität? Laden Sie Ihr wasserzeichenfreies Bild herunter und verwenden Sie es sofort. Das entfernte Wasserzeichen beeinträchtigt die endgültige Qualität nicht.",
+        "title": "Bereinigtes Bild herunterladen"
+      }
+    },
+    "subtitle": "Entfernen Sie Wasserzeichen aus Ihren Bildern in nur vier einfachen Schritten",
+    "title": "Wasserzeichen entfernen"
+  },
+  "seo": {
+    "description": "Entfernen Sie Wasserzeichen aus Bildern sofort mit KI-gestützter Wasserzeichen-Entfernungstechnologie. Schnell, genau und unterstützt mehrere Formate. Perfekt für Fotografen und Content Creator.",
+    "title": "KI-Wasserzeichen-Entferner - Entfernen Sie Wasserzeichen aus Bildern sofort"
+  },
+  "subtitle": "Entfernen Sie Wasserzeichen und unerwünschte Elemente mit fortgeschrittener KI-Technologie",
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Unsere KI erkennt und entfernt Wasserzeichen intelligenterweise, während die Bildqualität erhalten bleibt. Mit Deep-Learning-Technologie analysiert sie den umgebenden Inhalt und rekonstruiert den betroffenen Bereich nahtlos, um natürlich aussehende, wasserzeichenfreie Bilder zu erzeugen.",
+        "title": "Intelligente Wasserzeichen-Erkennung und -Entfernung"
+      },
+      "core2": {
+        "description": "Anders als bei grundlegenden Entfernungstools rekonstruiert und verbessert unsere KI den bereinigten Bereich intelligenterweise. Sie analysiert umgebende Pixel und füllt den Raum intelligent, wobei eine natürliche Erscheinung und Konsistenz mit dem Rest des Bildes erhalten bleibt.",
+        "title": "Intelligente Inhaltsrekonstruktion"
+      },
+      "core3": {
+        "description": "Unterstützt mehrere Ausgabeformate und flexible Verarbeitungsoptionen. Behandelt Wasserzeichen jeder Art, Größe oder Komplexität. Egal ob Text, Logos oder komplexe Overlays, unsere KI liefert professionelle Ergebnisse.",
+        "title": "Flexible Verarbeitungsoptionen"
+      }
+    },
+    "demoPlaceholder": "Bild mit entferntem Wasserzeichen durch das Bild-Wasserzeichen-Entfernungstool",
+    "description": "Das Bild-Wasserzeichen-Entfernungstool ist ein fortgeschrittenes KI-gestütztes Werkzeug, das für Fotografen, Content Creator und Unternehmen entwickelt wurde. Es nutzt modernste Deep-Learning-Technologie, um Wasserzeichen, Logos, Text und andere unerwünschte Elemente aus Bildern intelligent zu entfernen, während die Qualität erhalten bleibt. Perfekt zum Bereinigen von Fotos, Vorbereitung von Inhalten zum Wiederverkauf oder Entfernen unerwünschter Overlays aus digitalen Bildern.",
+    "title": "Was ist das Bild-Wasserzeichen-Entfernungstool?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Im Vergleich zu teurer Bearbeitungssoftware oder der Beauftragung von Fachleuten bietet das Bild-Wasserzeichen-Entfernungstool erschwingliche Abonnementpläne. Flexible Preisgestaltung macht professionelle Wasserzeichen-Entfernung für jedermann zugänglich.",
+        "title": "Kostengünstige Lösung"
+      },
+      "flexibility": {
+        "description": "Entfernen Sie verschiedene Arten von Wasserzeichen sofort. Verarbeiten Sie mehrere Bilder schnell ohne technische Fähigkeiten oder manuelle Bearbeitungserfahrung.",
+        "title": "Umgang mit jedem Wasserzeichentyp"
+      },
+      "quality": {
+        "description": "Erzielen Sie professionelle Ergebnisse mit unserer fortgeschrittenen KI-Technologie. Ihre Bilder sehen natürlich und sauber aus, geeignet für professionelle Anwendungen und kommerzielle Nutzung.",
+        "title": "Professionelle Ergebnisse"
+      },
+      "security": {
+        "description": "Ihre Bilder und Ihre Privatsphäre sind durch Enterprise-Grade-Verschlüsselung geschützt. Wir halten uns an internationale Datenschutzstandards und stellen sicher, dass Ihr kreatives Werk absolut sicher ist.",
+        "title": "Sicherheit auf Unternehmensebene"
+      },
+      "speed": {
+        "description": "Die meisten Wasserzeichen werden in Sekunden entfernt. Unsere effiziente KI-Engine stellt sicher, dass Sie große Mengen an Bildern schnell verarbeiten können, ohne zu warten.",
+        "title": "Blitzschnelle Verarbeitung"
+      },
+      "support": {
+        "description": "Erhalten Sie professionalen technischen Support und umfassende Nutzungsanleitungen. Unser Team ist bestrebt, Ihnen zu perfekten Wasserzeichen-Entfernungsergebnissen zu verhelfen.",
+        "title": "Qualitäts-Technischer Support"
+      }
+    },
+    "comparison": {
+      "product": {
+        "title": "KI-Bild-Wasserzeichen-Entfernungstool",
+        "item1": "Entfernen Sie Wasserzeichen in Sekunden intelligent mit fortgeschrittener KI",
+        "item2": "Keine professionellen Fähigkeiten erforderlich - einfach und benutzerfreundliche Schnittstelle",
+        "item3": "Erschwingliche Preise mit flexiblen Zahlungsoptionen",
+        "item4": "Effiziente Batch-Verarbeitung mehrerer Bilder"
+      },
+      "traditional": {
+        "title": "Traditionelle Wasserzeichen-Entfernungsmethoden",
+        "item1": "Manuelle Bearbeitung ist zeitaufwändig und erfordert professionelle Fähigkeiten",
+        "item2": "Erfordert teure professionelle Bildbearbeitungssoftware",
+        "item3": "Manuelle Arbeit erhöht die Projektkosten erheblich",
+        "item4": "Ergebnisse sehen oft unnatürlich oder minderwertig aus"
+      }
+    },
+    "subtitle": "Das Bild-Wasserzeichen-Entfernungstool nutzt modernste KI-Technologie, um traditionelle Wasserzeichen-Entfernungsmethoden zu übertreffen und professionelle Ergebnisse schneller und kostengünstiger zu liefern.",
+    "title": "Warum das Bild-Wasserzeichen-Entfernungstool wählen"
+  },
+  "title": "KI-Wasserzeichen-Entferner - Entfernen Sie Wasserzeichen sofort"
+}

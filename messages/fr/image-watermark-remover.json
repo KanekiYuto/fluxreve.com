@@ -1,0 +1,187 @@
+{
+  "cta": {
+    "note": "Aucune carte de crédit requise • Suppression instantanée des filigranes • Traitement rapide",
+    "primary": "Commencer la suppression gratuite du filigrane",
+    "secondary": "Consulter les plans tarifaires",
+    "subtitle": "Rejoignez des milliers d'utilisateurs qui font confiance à l'outil de suppression de filigrane d'image avec IA pour nettoyer leurs images. Parfait pour les photographes, créateurs de contenu, spécialistes du marketing et entreprises. Supprimez les filigranes, logos et textes indésirables en quelques secondes.",
+    "title": "Supprimer les filigranes des images avec l'outil de suppression de filigrane IA"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "L'outil de suppression de filigrane d'image est un outil avancé alimenté par l'IA qui supprime intelligemment les filigranes, logos, textes et autres éléments indésirables de vos images. Utilisant la technologie du deep learning, il analyse le contenu d'image environnant et reconstruit intelligemment la zone affectée, rendant la suppression transparente et naturelle.",
+        "question": "Qu'est-ce que l'outil de suppression de filigrane d'image? Comment fonctionne-t-il?"
+      },
+      {
+        "answer": "L'outil de suppression de filigrane d'image peut traiter divers types de filigranes, notamment les filigranes texte, les filigranes logo, les filigranes photo et autres superpositions. Il fonctionne mieux avec les filigranes ayant des contours clairs et des différences de couleur distinctes par rapport à l'arrière-plan, mais l'IA avancée traite également les scénarios de suppression complexes.",
+        "question": "Quels types de filigranes peut-il supprimer?"
+      },
+      {
+        "answer": "Oui! L'outil de suppression de filigrane d'image peut supprimer efficacement les filigranes des photos, captures d'écran, fichiers de conception et illustrations. Que ce soit des photos personnelles, du contenu professionnel ou des œuvres d'art, notre IA peut identifier et supprimer intelligemment les éléments indésirables tout en préservant la qualité de l'image.",
+        "question": "Quels types d'images peut-il traiter?"
+      },
+      {
+        "answer": "Le processus de suppression du filigrane est extrêmement rapide, s'effectuant généralement en quelques secondes. La plupart des images avec filigranes peuvent être traitées et nettoyées en 5-15 secondes, ce qui vous permet de traiter par lots efficacement plusieurs images.",
+        "question": "Combien de temps prend la suppression du filigrane?"
+      },
+      {
+        "answer": "L'outil de suppression de filigrane d'image prend en charge plusieurs formats de sortie, notamment JPEG, PNG et WebP. Vous pouvez choisir le format le plus approprié à vos besoins - PNG pour les images nécessitant une transparence, tandis que JPEG convient bien aux photos et à l'utilisation web.",
+        "question": "Quels formats de sortie sont supportés?"
+      },
+      {
+        "answer": "Absolument! L'outil de suppression de filigrane d'image est parfait pour un usage commercial et professionnel. Pour les abonnés aux plans payants, toutes les images nettoyées peuvent être utilisées pour les projets commerciaux, la revente, le travail client et les applications professionnelles. Cela en fait un outil idéal pour les photographes, agences et créateurs de contenu.",
+        "question": "Peut-il être utilisé à des fins commerciales?"
+      }
+    ],
+    "subtitle": "Questions fréquemment posées sur l'outil de suppression de filigrane d'image IA",
+    "title": "FAQ de suppression de filigrane d'image"
+  },
+  "features": {
+    "items": {
+      "ai-enhancement": {
+        "description": "Tirez parti de la technologie IA avancée pour non seulement supprimer les filigranes, mais aussi améliorer et restaurer les détails, les couleurs et la qualité de l'image pour des résultats de qualité professionnelle.",
+        "title": "Restauration intelligente du contenu"
+      },
+      "batch": {
+        "description": "Prend en charge le traitement par lots de plusieurs images filigranées simultanément. Parfait pour les photographes et créateurs de contenu qui doivent nettoyer de gros volumes d'images.",
+        "title": "Traitement par lots"
+      },
+      "formats": {
+        "description": "Supporte plusieurs formats de sortie (JPEG, PNG, WebP), vous permettant de choisir flexiblement le format le plus approprié en fonction de vos besoins spécifiques.",
+        "title": "Formats de sortie multiples"
+      },
+      "quality": {
+        "description": "Maintient la qualité d'image originale tout en supprimant les filigranes. Notre IA préserve intelligemment les détails importants et produit des résultats propres et naturels.",
+        "title": "Sortie haute qualité"
+      },
+      "secure": {
+        "description": "Vos images sont protégées par le chiffrement de niveau entreprise et des politiques de confidentialité strictes. Nous ne partagerons pas ou n'utiliserons pas vos images sans votre permission explicite.",
+        "title": "Sécurité de niveau entreprise"
+      },
+      "speed": {
+        "description": "Traitement rapide - la plupart des filigranes sont supprimés en quelques secondes. Le moteur IA efficace garantit que vous pouvez terminer les projets rapidement.",
+        "title": "Traitement ultra-rapide"
+      }
+    },
+    "subtitle": "Fonctionnalités complètes de suppression de filigrane alimentées par la technologie IA avancée",
+    "title": "Fonctionnalités de l'outil de suppression de filigrane d'image"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Commencer l'essai gratuit",
+      "secondary": "En savoir plus"
+    },
+    "stats": {
+      "efficiency": {
+        "label": "Temps de traitement moyen",
+        "value": "< 10 sec"
+      },
+      "quality": {
+        "label": "Précision de suppression",
+        "value": "99%+"
+      },
+      "users": {
+        "label": "Utilisateurs satisfaits",
+        "value": "100K+"
+      }
+    },
+    "subtitle": "Supprimez les filigranes de vos images instantanément à l'aide de la technologie de suppression de filigrane alimentée par l'IA",
+    "title": {
+      "line1": "Suppression intelligente du filigrane",
+      "line2": "Résultats cristallins"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Sélectionnez l'image avec filigranes que vous souhaitez supprimer. Prend en charge JPG, PNG et autres formats courants. Vous pouvez télécharger depuis votre ordinateur, votre stockage en nuage ou directement depuis votre appareil.",
+        "title": "Télécharger l'image filigranée"
+      },
+      "step2": {
+        "description": "Choisissez votre format de sortie (JPEG, PNG ou WebP) en fonction de vos besoins spécifiques. L'IA analysera automatiquement l'image et identifiera les zones de filigrane.",
+        "title": "Sélectionner le format de sortie"
+      },
+      "step3": {
+        "description": "Cliquez sur le bouton \"Générer\". Notre moteur IA commencera immédiatement à analyser et supprimer le filigrane. La plupart des filigranes sont complètement supprimés en 10 secondes.",
+        "title": "L'IA supprime le filigrane"
+      },
+      "step4": {
+        "description": "Prévisualisez le résultat nettoyé. Satisfait de la qualité? Téléchargez votre image sans filigrane pour une utilisation immédiate. Le filigrane supprimé n'affectera pas la qualité finale.",
+        "title": "Télécharger l'image propre"
+      }
+    },
+    "subtitle": "Supprimez les filigranes de vos images en quatre étapes simples",
+    "title": "Comment supprimer les filigranes"
+  },
+  "seo": {
+    "description": "Supprimez les filigranes des images instantanément à l'aide de la technologie de suppression de filigrane alimentée par l'IA. Rapide, précis et supporte plusieurs formats. Parfait pour les photographes et créateurs de contenu.",
+    "title": "Outil de suppression de filigrane IA - Supprimer les filigranes des images instantanément"
+  },
+  "subtitle": "Supprimez les filigranes et les éléments indésirables à l'aide de la technologie IA avancée",
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "Notre IA détecte et supprime intelligemment les filigranes tout en préservant la qualité de l'image. En utilisant la technologie du deep learning, elle analyse le contenu environnant et reconstruit de manière transparente la zone affectée, produisant des images naturelles et sans filigrane.",
+        "title": "Détection et suppression intelligentes du filigrane"
+      },
+      "core2": {
+        "description": "Contrairement aux outils de suppression basiques, notre IA reconstruit et améliore intelligemment la zone nettoyée. Elle analyse les pixels environnants et remplit intelligemment l'espace, maintenant une apparence naturelle et une cohérence avec le reste de l'image.",
+        "title": "Reconstruction intelligente du contenu"
+      },
+      "core3": {
+        "description": "Prend en charge plusieurs formats de sortie et options de traitement flexibles. Traite les filigranes de tout type, taille ou complexité. Qu'il s'agisse de texte, de logos ou de superpositions complexes, notre IA offre des résultats professionnels.",
+        "title": "Options de traitement flexibles"
+      }
+    },
+    "demoPlaceholder": "Image avec filigrane supprimé par l'outil de suppression de filigrane d'image",
+    "description": "L'outil de suppression de filigrane d'image est un outil avancé alimenté par l'IA conçu pour les photographes, créateurs de contenu et entreprises. Il utilise la technologie de deep learning de pointe pour supprimer intelligemment les filigranes, logos, textes et autres éléments indésirables des images tout en préservant la qualité. Parfait pour nettoyer les photos, préparer le contenu à la revente ou supprimer les superpositions indésirables des images numériques.",
+    "title": "Qu'est-ce que l'outil de suppression de filigrane d'image?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Comparé aux logiciels d'édition coûteux ou à l'embauche de professionnels, l'outil de suppression de filigrane d'image offre des plans d'abonnement abordables. La tarification flexible rend la suppression de filigrane professionnelle accessible à tous.",
+        "title": "Solution rentable"
+      },
+      "flexibility": {
+        "description": "Supprimez instantanément différents types de filigranes. Traitez plusieurs images rapidement sans avoir besoin de compétences techniques ou d'expérience en édition manuelle.",
+        "title": "Traiter n'importe quel type de filigrane"
+      },
+      "quality": {
+        "description": "Obtenez des résultats de qualité professionnelle avec notre technologie IA avancée. Vos images auront l'air naturelles et nettes, appropriées pour les applications professionnelles et l'usage commercial.",
+        "title": "Résultats de qualité professionnelle"
+      },
+      "security": {
+        "description": "Vos images et votre confidentialité sont protégées par le chiffrement de niveau entreprise. Nous respectons les normes internationales de protection des données, garantissant que votre travail créatif reste absolument sûr.",
+        "title": "Sécurité de niveau entreprise"
+      },
+      "speed": {
+        "description": "La plupart des filigranes sont supprimés en quelques secondes. Notre moteur IA efficace garantit que vous pouvez traiter de gros volumes d'images rapidement sans attendre.",
+        "title": "Traitement ultra-rapide"
+      },
+      "support": {
+        "description": "Obtenez un support technique professionnel et des guides d'utilisation complets. Notre équipe s'engage à vous aider à réaliser des résultats parfaits en matière de suppression de filigrane.",
+        "title": "Support technique de qualité"
+      }
+    },
+    "comparison": {
+      "product": {
+        "title": "Outil de suppression de filigrane IA d'image",
+        "item1": "Supprimez intelligemment les filigranes en quelques secondes avec l'IA avancée",
+        "item2": "Aucune compétence professionnelle requise - interface simple et facile à utiliser",
+        "item3": "Tarification abordable avec options de paiement flexibles",
+        "item4": "Traitement par lots de plusieurs images efficacement"
+      },
+      "traditional": {
+        "title": "Méthodes traditionnelles de suppression de filigrane",
+        "item1": "L'édition manuelle prend du temps et nécessite des compétences professionnelles",
+        "item2": "Nécessite un logiciel d'édition d'image professionnel coûteux",
+        "item3": "Le travail manuel augmente considérablement les coûts du projet",
+        "item4": "Les résultats semblent souvent peu naturels ou de mauvaise qualité"
+      }
+    },
+    "subtitle": "L'outil de suppression de filigrane d'image tire parti de la technologie IA de pointe pour surpasser les méthodes traditionnelles de suppression de filigrane, offrant des résultats professionnels plus rapidement et à moindre coût.",
+    "title": "Pourquoi choisir l'outil de suppression de filigrane d'image"
+  },
+  "title": "Outil de suppression de filigrane IA - Supprimer les filigranes instantanément"
+}

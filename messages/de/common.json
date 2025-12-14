@@ -35,6 +35,8 @@
     "seedreamV45Desc": "ByteDance 2K HD Bilderzeugung",
     "image-upscaler": "Bildvergrößerung",
     "imageUpscalerDesc": "Verbessern Sie Bilder auf 4K-Auflösung mit KI",
+    "image-watermark-remover": "Wasserzeichen-Entferner",
+    "imageWatermarkRemoverDesc": "Entfernen Sie Wasserzeichen aus Bildern mit KI",
     "settings": "Einstellungen",
     "subscription": "Abonnement",
     "tasks": "Geschichte",

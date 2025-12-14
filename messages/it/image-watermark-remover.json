@@ -1,0 +1,187 @@
+{
+  "cta": {
+    "note": "Nessuna carta di credito richiesta • Rimuovi filigrane istantaneamente • Elaborazione veloce",
+    "primary": "Inizia la rimozione gratuita della filigrana",
+    "secondary": "Visualizza i piani tariffari",
+    "subtitle": "Unisciti a migliaia di utenti che si fidano dello strumento di rimozione filigrana immagine alimentato da IA per pulire le loro immagini. Perfetto per fotografi, creatori di contenuti, marketer e aziende. Rimuovi filigrane, loghi e testi indesiderati in pochi secondi.",
+    "title": "Rimuovi filigrane dalle immagini con lo strumento di rimozione filigrana IA"
+  },
+  "faq": {
+    "items": [
+      {
+        "answer": "Lo strumento di rimozione filigrana immagine è uno strumento avanzato alimentato da IA che rimuove in modo intelligente filigrane, loghi, testi e altri elementi indesiderati dalle tue immagini. Utilizzando la tecnologia del deep learning, analizza il contenuto dell'immagine circostante e ricostruisce in modo intelligente l'area interessata, rendendo la rimozione trasparente e naturale.",
+        "question": "Cos'è lo strumento di rimozione filigrana immagine? Come funziona?"
+      },
+      {
+        "answer": "Lo strumento di rimozione filigrana immagine può gestire vari tipi di filigrane, incluse filigrane di testo, filigrane di logo, filigrane fotografiche e altri overlay. Funziona meglio con filigrane che hanno bordi chiari e differenze di colore evidenti rispetto allo sfondo, ma l'IA avanzata gestisce anche scenari di rimozione complessi.",
+        "question": "Quali tipi di filigrane può rimuovere?"
+      },
+      {
+        "answer": "Sì! Lo strumento di rimozione filigrana immagine può rimuovere efficacemente filigrane da foto, screenshot, file di progettazione e illustrazioni. Che si tratti di foto personali, contenuti professionali o opere d'arte, la nostra IA può identificare e rimuovere in modo intelligente gli elementi indesiderati preservando la qualità dell'immagine.",
+        "question": "Quali tipi di immagini può elaborare?"
+      },
+      {
+        "answer": "Il processo di rimozione della filigrana è estremamente veloce, in genere completato in pochi secondi. La maggior parte delle immagini con filigrane possono essere elaborate e pulite in 5-15 secondi, consentendoti di elaborare in batch più immagini in modo efficiente.",
+        "question": "Quanto tempo impiega la rimozione della filigrana?"
+      },
+      {
+        "answer": "Lo strumento di rimozione filigrana immagine supporta più formati di output, inclusi JPEG, PNG e WebP. Puoi scegliere il formato più appropriato per le tue esigenze - PNG per immagini che richiedono trasparenza, mentre JPEG funziona bene per foto e uso web.",
+        "question": "Quali formati di output sono supportati?"
+      },
+      {
+        "answer": "Assolutamente! Lo strumento di rimozione filigrana immagine è perfetto per uso commerciale e professionale. Per gli abbonati ai piani a pagamento, tutte le immagini pulite possono essere utilizzate per progetti commerciali, rivendita, lavoro clienti e applicazioni professionali. Questo lo rende ideale per fotografi, agenzie e creatori di contenuti.",
+        "question": "Può essere utilizzato a scopi commerciali?"
+      }
+    ],
+    "subtitle": "Domande frequenti sullo strumento di rimozione filigrana immagine alimentato da IA",
+    "title": "FAQ sulla rimozione filigrana immagine"
+  },
+  "features": {
+    "items": {
+      "ai-enhancement": {
+        "description": "Sfrutta la tecnologia IA avanzata non solo per rimuovere le filigrane, ma anche per migliorare e ripristinare i dettagli, i colori e la qualità dell'immagine per risultati di qualità professionale.",
+        "title": "Ripristino intelligente dei contenuti"
+      },
+      "batch": {
+        "description": "Supporta l'elaborazione batch di più immagini con filigrane contemporaneamente. Perfetto per fotografi e creatori di contenuti che hanno bisogno di pulire grandi volumi di immagini.",
+        "title": "Elaborazione batch"
+      },
+      "formats": {
+        "description": "Supporta più formati di output (JPEG, PNG, WebP), consentendoti di scegliere flessibilmente il formato più appropriato in base alle tue esigenze specifiche.",
+        "title": "Molteplici formati di output"
+      },
+      "quality": {
+        "description": "Mantiene la qualità dell'immagine originale durante la rimozione delle filigrane. La nostra IA preserva in modo intelligente i dettagli importanti e produce risultati puliti e dall'aspetto naturale.",
+        "title": "Output di alta qualità"
+      },
+      "secure": {
+        "description": "Le tue immagini sono protette dalla crittografia di livello aziendale e da rigorose politiche sulla privacy. Non condivideremo o utilizzeremo le tue immagini senza il tuo esplicito consenso.",
+        "title": "Sicurezza di livello aziendale"
+      },
+      "speed": {
+        "description": "Elaborazione veloce - la maggior parte delle filigrane vengono rimosse in pochi secondi. Il motore IA efficiente garantisce che tu possa completare i progetti rapidamente.",
+        "title": "Elaborazione ultraveloce"
+      }
+    },
+    "subtitle": "Funzionalità complete di rimozione filigrana alimentate dalla tecnologia IA avanzata",
+    "title": "Funzionalità dello strumento di rimozione filigrana immagine"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Inizia la prova gratuita",
+      "secondary": "Scopri di più"
+    },
+    "stats": {
+      "efficiency": {
+        "label": "Tempo di elaborazione medio",
+        "value": "< 10 sec"
+      },
+      "quality": {
+        "label": "Precisione di rimozione",
+        "value": "99%+"
+      },
+      "users": {
+        "label": "Utenti soddisfatti",
+        "value": "100K+"
+      }
+    },
+    "subtitle": "Rimuovi le filigrane dalle tue immagini istantaneamente utilizzando la tecnologia di rimozione filigrana alimentata da IA",
+    "title": {
+      "line1": "Rimozione filigrana intelligente",
+      "line2": "Risultati cristallini"
+    }
+  },
+  "how": {
+    "steps": {
+      "step1": {
+        "description": "Seleziona l'immagine con filigrane che desideri rimuovere. Supporta JPG, PNG e altri formati comuni. Puoi caricare dal tuo computer, cloud storage o direttamente dal tuo dispositivo.",
+        "title": "Carica immagine con filigrana"
+      },
+      "step2": {
+        "description": "Scegli il formato di output (JPEG, PNG o WebP) in base alle tue esigenze specifiche. L'IA analizzerà automaticamente l'immagine e identificherà le aree con filigrana.",
+        "title": "Seleziona formato di output"
+      },
+      "step3": {
+        "description": "Fai clic sul pulsante \"Genera\". Il nostro motore IA inizierà immediatamente ad analizzare e rimuovere la filigrana. La maggior parte delle filigrane vengono completamente rimosse entro 10 secondi.",
+        "title": "L'IA rimuove la filigrana"
+      },
+      "step4": {
+        "description": "Visualizza l'anteprima del risultato pulito. Soddisfatto della qualità? Scarica la tua immagine senza filigrana per un uso immediato. La filigrana rimossa non influirà sulla qualità finale.",
+        "title": "Scarica immagine pulita"
+      }
+    },
+    "subtitle": "Rimuovi le filigrane dalle tue immagini in soli quattro semplici passaggi",
+    "title": "Come rimuovere le filigrane"
+  },
+  "seo": {
+    "description": "Rimuovi le filigrane dalle immagini istantaneamente utilizzando la tecnologia di rimozione filigrana alimentata da IA. Veloce, accurato e supporta più formati. Perfetto per fotografi e creatori di contenuti.",
+    "title": "Strumento di rimozione filigrana IA - Rimuovi filigrane dalle immagini istantaneamente"
+  },
+  "subtitle": "Rimuovi filigrane e elementi indesiderati utilizzando la tecnologia IA avanzata",
+  "what": {
+    "coreFeatures": {
+      "core1": {
+        "description": "La nostra IA rileva e rimuove in modo intelligente le filigrane preservando la qualità dell'immagine. Utilizzando la tecnologia del deep learning, analizza il contenuto circostante e ricostruisce senza problemi l'area interessata, producendo immagini dall'aspetto naturale e senza filigrana.",
+        "title": "Rilevamento e rimozione intelligente della filigrana"
+      },
+      "core2": {
+        "description": "A differenza degli strumenti di rimozione di base, la nostra IA ricostruisce e migliora in modo intelligente l'area pulita. Analizza i pixel circostanti e riempie in modo intelligente lo spazio, mantenendo un aspetto naturale e la coerenza con il resto dell'immagine.",
+        "title": "Ricostruzione intelligente dei contenuti"
+      },
+      "core3": {
+        "description": "Supporta più formati di output e opzioni di elaborazione flessibili. Gestisce filigrane di qualsiasi tipo, dimensione o complessità. Che si tratti di testo, loghi o overlay complessi, la nostra IA offre risultati professionali.",
+        "title": "Opzioni di elaborazione flessibili"
+      }
+    },
+    "demoPlaceholder": "Immagine con filigrana rimossa dallo strumento di rimozione filigrana immagine",
+    "description": "Lo strumento di rimozione filigrana immagine è uno strumento avanzato alimentato da IA progettato per fotografi, creatori di contenuti e aziende. Utilizza la tecnologia di deep learning all'avanguardia per rimuovere in modo intelligente filigrane, loghi, testi e altri elementi indesiderati dalle immagini preservando la qualità. Perfetto per pulire foto, preparare contenuti per la rivendita o rimuovere overlay indesiderati dalle immagini digitali.",
+    "title": "Cos'è lo strumento di rimozione filigrana immagine?"
+  },
+  "why": {
+    "benefits": {
+      "cost": {
+        "description": "Rispetto al costoso software di editing o all'assunzione di professionisti, lo strumento di rimozione filigrana immagine offre piani di abbonamento convenienti. I prezzi flessibili rendono la rimozione professionale della filigrana accessibile a tutti.",
+        "title": "Soluzione conveniente"
+      },
+      "flexibility": {
+        "description": "Rimuovi istantaneamente vari tipi di filigrane. Elabora più immagini rapidamente senza necessità di competenze tecniche o esperienza di editing manuale.",
+        "title": "Gestisci qualsiasi tipo di filigrana"
+      },
+      "quality": {
+        "description": "Ottieni risultati di qualità professionale con la nostra tecnologia IA avanzata. Le tue immagini avranno un aspetto naturale e pulito, adatto per applicazioni professionali e uso commerciale.",
+        "title": "Risultati di qualità professionale"
+      },
+      "security": {
+        "description": "Le tue immagini e la tua privacy sono protette dalla crittografia di livello aziendale. Adersiamo agli standard internazionali di protezione dei dati, garantendo che il tuo lavoro creativo rimanga completamente al sicuro.",
+        "title": "Sicurezza di livello aziendale"
+      },
+      "speed": {
+        "description": "La maggior parte delle filigrane vengono rimosse in pochi secondi. Il nostro motore IA efficiente garantisce che tu possa elaborare grandi volumi di immagini rapidamente senza aspettare.",
+        "title": "Elaborazione ultraveloce"
+      },
+      "support": {
+        "description": "Ottieni supporto tecnico professionale e guide di utilizzo complete. Il nostro team è dedicato ad aiutarti a ottenere risultati perfetti nella rimozione della filigrana.",
+        "title": "Supporto tecnico di qualità"
+      }
+    },
+    "comparison": {
+      "product": {
+        "title": "Strumento di rimozione filigrana immagine IA",
+        "item1": "Rimuovi in modo intelligente le filigrane in pochi secondi con l'IA avanzata",
+        "item2": "Nessuna competenza professionale richiesta - interfaccia semplice e facile da usare",
+        "item3": "Prezzi convenienti con opzioni di pagamento flessibili",
+        "item4": "Elaborazione batch efficiente di più immagini"
+      },
+      "traditional": {
+        "title": "Metodi tradizionali di rimozione filigrana",
+        "item1": "L'editing manuale richiede tempo e competenze professionali",
+        "item2": "Richiede costoso software di editing immagini professionale",
+        "item3": "Il lavoro manuale aumenta significativamente i costi del progetto",
+        "item4": "I risultati spesso sembrano innaturali o di scarsa qualità"
+      }
+    },
+    "subtitle": "Lo strumento di rimozione filigrana immagine sfrutta la tecnologia IA all'avanguardia per superare i metodi tradizionali di rimozione della filigrana, offrendo risultati professionali più velocemente e a un costo inferiore.",
+    "title": "Perché scegliere lo strumento di rimozione filigrana immagine"
+  },
+  "title": "Strumento di rimozione filigrana IA - Rimuovi filigrane istantaneamente"
+}
