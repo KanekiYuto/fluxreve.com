@@ -5,6 +5,8 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { Trash2, Lock, Unlock } from 'lucide-react';
 import { getModelDisplayName } from '@/config/model-names';
+import useModalStore from '@/store/useModalStore';
+import useUserStore from '@/store/useUserStore';
 import { GenerationTask } from './TaskList';
 
 interface TaskCardProps {
@@ -30,6 +32,9 @@ function getTimeAgo(date: Date): string {
 
 export default function TaskCard({ task, onDelete, onTogglePrivacy }: TaskCardProps) {
   const t = useTranslations('tasks');
+  const tForm = useTranslations('ai-generator.form');
+  const user = useUserStore((state) => state.user);
+  const { openSubscriptionModal } = useModalStore();
   const [isDeleting, setIsDeleting] = useState(false);
   const [showConfirmModal, setShowConfirmModal] = useState(false);
   const [isTogglingPrivacy, setIsTogglingPrivacy] = useState(false);
@@ -116,10 +121,16 @@ export default function TaskCard({ task, onDelete, onTogglePrivacy }: TaskCardPr
   const handleTogglePrivacy = async (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    
+
+    // 检查是否为免费用户，且尝试设为私人
+    if (!isPrivate && user && user.userType === 'free') {
+      openSubscriptionModal();
+      return;
+    }
+
     setIsTogglingPrivacy(true);
     const newPrivateState = !isPrivate;
-    
+
     try {
       const response = await fetch(`/api/ai-generator/tasks/${task.taskId}`, {
         method: 'PATCH',
@@ -129,7 +140,7 @@ export default function TaskCard({ task, onDelete, onTogglePrivacy }: TaskCardPr
         body: JSON.stringify({ isPrivate: newPrivateState }),
       });
       const data = await response.json();
-      
+
       if (data.success) {
         setIsPrivate(newPrivateState);
         onTogglePrivacy?.(task.taskId, newPrivateState);
@@ -242,11 +253,14 @@ export default function TaskCard({ task, onDelete, onTogglePrivacy }: TaskCardPr
                 onClick={handleTogglePrivacy}
                 disabled={isTogglingPrivacy}
                 className={`p-1.5 rounded-lg transition-colors cursor-pointer ${
-                  isPrivate 
-                    ? 'text-yellow-400 hover:text-yellow-300 hover:bg-yellow-500/10' 
+                  isPrivate
+                    ? 'text-yellow-400 hover:text-yellow-300 hover:bg-yellow-500/10'
                     : 'text-text-muted hover:text-green-400 hover:bg-green-500/10'
                 } disabled:opacity-50`}
-                title={isPrivate ? t('card.makePublic') : t('card.makePrivate')}
+                title={!isPrivate && user?.userType === 'free'
+                  ? tForm('privateModeSubscriptionRequired')
+                  : isPrivate ? t('card.makePublic') : t('card.makePrivate')
+                }
               >
                 {isTogglingPrivacy ? (
                   <svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
