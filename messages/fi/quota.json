@@ -29,7 +29,7 @@
   },
   "status": {
     "active": "Aktiivinen",
-    "depleted": "Köyhdyttynyt"
+    "depleted": "Loppunut"
   },
   "subtitle": "Hallitse ja tarkastele käytettävissä olevaa kiintiötäsi",
   "summary": {
@@ -46,7 +46,7 @@
     "type": "Tyyppi"
   },
   "tabs": {
-    "active": "Aktiivinen kiintiö",
+    "active": "Aktiiviset Krediitit",
     "expired": "Vanhentunut"
   },
   "title": "Kiintiöni"

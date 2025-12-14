@@ -28,8 +28,8 @@
     "remaining": "残り"
   },
   "status": {
-    "active": "アクティブ",
-    "depleted": "枯渇"
+    "active": "有効",
+    "depleted": "消耗済み"
   },
   "subtitle": "利用可能なクォータの管理と表示",
   "summary": {
@@ -46,7 +46,7 @@
     "type": "タイプ"
   },
   "tabs": {
-    "active": "アクティブ・クォータ",
+    "active": "有効なクレジット",
     "expired": "期限切れ"
   },
   "title": "マイ・クォータ"

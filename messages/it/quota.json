@@ -29,7 +29,7 @@
   },
   "status": {
     "active": "Attivo",
-    "depleted": "Impoverito"
+    "depleted": "Esaurito"
   },
   "subtitle": "Gestire e visualizzare la quota disponibile",
   "summary": {
@@ -46,7 +46,7 @@
     "type": "Tipo"
   },
   "tabs": {
-    "active": "Quota attiva",
+    "active": "Crediti Attivi",
     "expired": "Scaduto"
   },
   "title": "My Quota"

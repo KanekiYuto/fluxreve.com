@@ -1,39 +1,39 @@
 {
   "empty": {
-    "active": "没有可用配额",
-    "activeDesc": "您目前没有可用配额。请购买配额以继续使用服务",
-    "expired": "没有过期配额",
-    "expiredDesc": "您没有过期配额记录"
+    "active": "没有可用积分",
+    "activeDesc": "您目前没有可用积分。请购买积分以继续使用服务",
+    "expired": "没有过期积分",
+    "expiredDesc": "您没有过期积分记录"
   },
   "loginRequired": {
-    "description": "登录以查看配额使用情况和历史记录",
-    "title": "登录查看配额"
+    "description": "登录以查看积分使用情况和历史记录",
+    "title": "登录查看积分"
   },
   "quotaTypes": {
-    "daily_free": "每日免费配额",
+    "daily_free": "每日免费积分",
     "monthly_basic": "每月基本费用",
     "monthly_pro": "专业月刊",
-    "quota_pack": "配额包",
+    "quota_pack": "积分包",
     "subscription_change_compensation": "认购变更补偿",
     "trial": "试用",
     "yearly_basic": "每年基本",
     "yearly_pro": "年度专业"
   },
   "seo": {
-    "description": "管理并查看可用配额的使用情况和历史记录",
-    "title": "我的配额"
+    "description": "管理并查看可用积分的使用情况和历史记录",
+    "title": "我的积分"
   },
   "stats": {
     "consumed": "已消费",
     "remaining": "剩余"
   },
   "status": {
-    "active": "活跃",
-    "depleted": "耗尽"
+    "active": "有效",
+    "depleted": "已耗尽"
   },
-  "subtitle": "管理和查看可用配额",
+  "subtitle": "管理和查看可用积分",
   "summary": {
-    "credits": "荣誉",
+    "credits": "积分",
     "title": "可用总数"
   },
   "table": {
@@ -46,8 +46,8 @@
     "type": "类型"
   },
   "tabs": {
-    "active": "活动配额",
+    "active": "有效积分",
     "expired": "已过期"
   },
-  "title": "我的配额"
+  "title": "我的积分"
 }

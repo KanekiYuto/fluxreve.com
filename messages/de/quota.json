@@ -29,7 +29,7 @@
   },
   "status": {
     "active": "Aktiv",
-    "depleted": "Abgereicherte"
+    "depleted": "Erschöpft"
   },
   "subtitle": "Verwalten und Anzeigen Ihrer verfügbaren Quote",
   "summary": {
@@ -46,7 +46,7 @@
     "type": "Typ"
   },
   "tabs": {
-    "active": "Aktives Kontingent",
+    "active": "Aktive Gutschrift",
     "expired": "Abgelaufen"
   },
   "title": "Meine Quote"

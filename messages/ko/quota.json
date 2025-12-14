@@ -29,7 +29,7 @@
   },
   "status": {
     "active": "활성",
-    "depleted": "고갈"
+    "depleted": "소진됨"
   },
   "subtitle": "사용 가능한 할당량 관리 및 보기",
   "summary": {
@@ -46,7 +46,7 @@
     "type": "유형"
   },
   "tabs": {
-    "active": "활성 할당량",
+    "active": "활성 크레딧",
     "expired": "만료됨"
   },
   "title": "내 할당량"

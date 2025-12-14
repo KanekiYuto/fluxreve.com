@@ -29,7 +29,7 @@
   },
   "status": {
     "active": "Aktiv",
-    "depleted": "Utarmad"
+    "depleted": "Uttömd"
   },
   "subtitle": "Hantera och visa din tillgängliga kvot",
   "summary": {
@@ -46,7 +46,7 @@
     "type": "Typ"
   },
   "tabs": {
-    "active": "Aktiv kvot",
+    "active": "Aktiva Krediter",
     "expired": "Utgången"
   },
   "title": "Min kvot"

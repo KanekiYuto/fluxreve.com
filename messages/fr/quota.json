@@ -29,7 +29,7 @@
   },
   "status": {
     "active": "Actif",
-    "depleted": "Appauvri"
+    "depleted": "Épuisé"
   },
   "subtitle": "Gérez et visualisez votre quota disponible",
   "summary": {
@@ -46,7 +46,7 @@
     "type": "Type"
   },
   "tabs": {
-    "active": "Quota actif",
+    "active": "Crédits Actifs",
     "expired": "Expiré"
   },
   "title": "Mon quota"
