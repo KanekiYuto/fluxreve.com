@@ -69,7 +69,7 @@ export async function checkAndIssueDailyQuota(
 
     return true;
   } catch (error) {
-    console.error('下发每日配额失败:', error);
+    console.error('Failed to issue daily quota:', error);
     return false;
   }
 }
@@ -102,7 +102,7 @@ export async function getAvailableQuota(userId: string): Promise<number> {
 
     return Math.max(0, totalAvailable);
   } catch (error) {
-    console.error('获取可用配额失败:', error);
+    console.error('Failed to get available quota:', error);
     return 0;
   }
 }
@@ -173,7 +173,7 @@ export async function consumeQuota(
 
     return true;
   } catch (error) {
-    console.error('消耗配额失败:', error);
+    console.error('Failed to consume quota:', error);
     return false;
   }
 }

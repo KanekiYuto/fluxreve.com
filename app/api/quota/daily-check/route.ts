@@ -12,7 +12,7 @@ export async function POST() {
 
     if (!session?.user?.id) {
       return NextResponse.json(
-        { error: '未授权' },
+        { error: 'Unauthorized' },
         { status: 401 }
       );
     }
@@ -26,12 +26,12 @@ export async function POST() {
     return NextResponse.json({
       success: true,
       issued,
-      message: issued ? '每日配额已下发' : '今日配额已下发过',
+      message: issued ? 'Daily quota issued' : 'Daily quota already issued',
     });
   } catch (error) {
-    console.error('每日配额检查失败:', error);
+    console.error('Daily quota check failed:', error);
     return NextResponse.json(
-      { error: '服务器错误' },
+      { error: 'Internal server error' },
       { status: 500 }
     );
   }

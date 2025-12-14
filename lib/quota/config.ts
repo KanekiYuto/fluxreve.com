@@ -3,7 +3,7 @@ import { SUBSCRIPTION_PLANS } from '@/config/subscription';
 // 配额配置
 export const quotaConfig = {
   // 每日免费配额数量
-  dailyFreeQuota: 30,
+  dailyFreeQuota: 150,
 
   // 配额类型
   quotaTypes: {
