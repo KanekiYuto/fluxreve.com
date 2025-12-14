@@ -58,9 +58,14 @@ export default function Pricing({ useH1 = false }: PricingProps) {
           />
         </div>
 
-        {/* 付费定价卡片网格 */}
+        {/* 付费定价卡片网格 - 体验版仅在无订阅时显示 */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto mb-12 sm:mb-16">
           {paidPlans.map((planType, index) => {
+            // 如果有订阅，隐藏体验版卡片
+            if (planType === 'trial' && currentSubscription) {
+              return null;
+            }
+
             const allPricings = getPricingTiersByPlan(planType as any);
             // Trial 只有 monthly，年付时也使用 monthly
             const currentTier = planType === 'trial'
@@ -89,35 +94,37 @@ export default function Pricing({ useH1 = false }: PricingProps) {
           })}
         </div>
 
-        {/* 免费版卡片 - 横向响应式布局 */}
-        <div className="w-full max-w-7xl mx-auto">
-          {freePlans.map((planType, index) => {
-            const allPricings = getPricingTiersByPlan(planType as any);
-            const currentTier = allPricings.find(t => t.billingCycle === billingCycle);
-            const translationIndex = paidPlans.length + index;
-            const translation = tierTranslations[translationIndex];
+        {/* 免费版卡片 - 横向响应式布局 - 仅在无订阅时显示 */}
+        {!currentSubscription && (
+          <div className="w-full max-w-7xl mx-auto">
+            {freePlans.map((planType, index) => {
+              const allPricings = getPricingTiersByPlan(planType as any);
+              const currentTier = allPricings.find(t => t.billingCycle === billingCycle);
+              const translationIndex = paidPlans.length + index;
+              const translation = tierTranslations[translationIndex];
 
-            if (!currentTier) return null;
+              if (!currentTier) return null;
 
-            const status = getSubscriptionStatus(currentTier, planType as any, currentSubscription);
-            const quota = getQuotaAmount(planType as any, currentTier);
+              const status = getSubscriptionStatus(currentTier, planType as any, currentSubscription);
+              const quota = getQuotaAmount(planType as any, currentTier);
 
-            return (
-              <PricingCard
-                key={`${planType}-${billingCycle}`}
-                planType={planType as any}
-                tier={currentTier}
-                translation={translation}
-                quota={quota}
-                status={status}
-                isYearly={isYearly}
-                t={t}
-                isHorizontal={true}
-                renderCTAButton={() => renderCTAButton(status, currentTier, translation, t, user, fetchCurrentSubscription, isLoading, openLoginModal)}
-              />
-            );
-          })}
-        </div>
+              return (
+                <PricingCard
+                  key={`${planType}-${billingCycle}`}
+                  planType={planType as any}
+                  tier={currentTier}
+                  translation={translation}
+                  quota={quota}
+                  status={status}
+                  isYearly={isYearly}
+                  t={t}
+                  isHorizontal={true}
+                  renderCTAButton={() => renderCTAButton(status, currentTier, translation, t, user, fetchCurrentSubscription, isLoading, openLoginModal)}
+                />
+              );
+            })}
+          </div>
+        )}
       </div>
     </section>
   );

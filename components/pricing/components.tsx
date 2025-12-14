@@ -386,6 +386,18 @@ export function renderCTAButton(
     );
   }
 
+  // 免费版特殊处理 - 不能订阅，只能查看
+  if (tier.planType === 'free') {
+    return (
+      <button disabled className={`${baseClassName} cursor-not-allowed opacity-50 gradient-border text-text`}>
+        <span className="relative z-10 flex items-center justify-center gap-2">
+          {t('status.current')}
+          <CheckIcon />
+        </span>
+      </button>
+    );
+  }
+
   const buttonText = status === 'upgrade'
     ? t('status.upgrade')
     : status === 'downgrade'
