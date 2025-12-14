@@ -1,12 +1,11 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import ModelSelector, { type ModelGroup } from './base/ModelSelector';
 import NanoBananaProGenerator from './models/NanoBananaProGenerator';
 import Flux2ProGenerator from './models/Flux2ProGenerator';
 import SeedreamGenerator from './models/SeedreamGenerator';
-import { useAutoSaveFormState } from '@/hooks/useGeneratorFormPersistence';
+import { useGeneratorModelSelector } from '@/hooks/useGeneratorModelSelector';
 
 interface ImageToImageGeneratorProps {
   defaultModel?: string;
@@ -20,25 +19,10 @@ export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro'
   const t = useTranslations('ai-generator.models');
   const tGroups = useTranslations('ai-generator.modelGroups');
 
-  // 如果 defaultModel 不支持图生图，回退到第一个支持的模型
-  const initialModel = SUPPORTED_MODELS.includes(defaultModel) ? defaultModel : SUPPORTED_MODELS[0];
-  const [selectedModel, setSelectedModel] = useState(initialModel);
-  // 存储当前活跃的模型表单数据，用于在模型切换时保存
-  const [formStateData, setFormStateData] = useState<any>({});
-
-  // 自动保存表单状态到 sessionStorage
-  useAutoSaveFormState(selectedModel, formStateData, 500);
-
-  // 当 defaultModel 变化时更新
-  useEffect(() => {
-    const model = SUPPORTED_MODELS.includes(defaultModel) ? defaultModel : SUPPORTED_MODELS[0];
-    setSelectedModel(model);
-  }, [defaultModel]);
-
-  // 处理模型选择变化（保存当前表单状态后再切换）
-  const handleModelChange = useCallback((newModel: string) => {
-    setSelectedModel(newModel);
-  }, []);
+  const { selectedModel, setSelectedModel, formStateData, setFormStateData } = useGeneratorModelSelector({
+    defaultModel,
+    supportedModels: SUPPORTED_MODELS,
+  });
 
   // 模型选项（分组格式）- 只包含支持 image-to-image 的模型
   const modelOptions: ModelGroup[] = [
@@ -92,7 +76,7 @@ export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro'
 
   // ModelSelector 组件
   const modelSelector = (
-    <ModelSelector options={modelOptions} value={selectedModel} onChange={handleModelChange} />
+    <ModelSelector options={modelOptions} value={selectedModel} onChange={setSelectedModel} />
   );
 
   // 渲染对应的生成器

@@ -1,6 +1,5 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import ModelSelector, { type ModelGroup } from './base/ModelSelector';
 import NanoBananaProGenerator from './models/NanoBananaProGenerator';
@@ -9,32 +8,31 @@ import ZImageLoraGenerator from './models/ZImageLoraGenerator';
 import Flux2ProGenerator from './models/Flux2ProGenerator';
 import FluxSchnellGenerator from './models/FluxSchnellGenerator';
 import SeedreamGenerator from './models/SeedreamGenerator';
-import { useAutoSaveFormState } from '@/hooks/useGeneratorFormPersistence';
+import { useGeneratorModelSelector } from '@/hooks/useGeneratorModelSelector';
 
 interface TextToImageGeneratorProps {
   defaultModel?: string;
   defaultParameters?: any;
 }
 
+// 支持文生图的模型列表
+const SUPPORTED_MODELS = [
+  'nano-banana-pro',
+  'z-image',
+  'z-image-lora',
+  'flux-2-pro',
+  'flux-schnell',
+  'seedream-v4.5',
+];
+
 export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro', defaultParameters }: TextToImageGeneratorProps) {
   const t = useTranslations('ai-generator.models');
   const tGroups = useTranslations('ai-generator.modelGroups');
-  const [selectedModel, setSelectedModel] = useState(defaultModel);
-  // 存储当前活跃的模型表单数据，用于在模型切换时保存
-  const [formStateData, setFormStateData] = useState<any>({});
 
-  // 自动保存表单状态到 sessionStorage
-  useAutoSaveFormState(selectedModel, formStateData, 500);
-
-  // 当 defaultModel 变化时更新
-  useEffect(() => {
-    setSelectedModel(defaultModel);
-  }, [defaultModel]);
-
-  // 处理模型选择变化（保存当前表单状态后再切换）
-  const handleModelChange = useCallback((newModel: string) => {
-    setSelectedModel(newModel);
-  }, []);
+  const { selectedModel, setSelectedModel, formStateData, setFormStateData } = useGeneratorModelSelector({
+    defaultModel,
+    supportedModels: SUPPORTED_MODELS,
+  });
 
   // 模型选项（分组格式）
   const modelOptions: ModelGroup[] = [
@@ -127,7 +125,7 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro',
 
   // ModelSelector 组件
   const modelSelector = (
-    <ModelSelector options={modelOptions} value={selectedModel} onChange={handleModelChange} />
+    <ModelSelector options={modelOptions} value={selectedModel} onChange={setSelectedModel} />
   );
 
   return (
