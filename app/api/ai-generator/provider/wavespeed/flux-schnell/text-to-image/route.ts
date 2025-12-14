@@ -59,9 +59,9 @@ export async function POST(request: NextRequest) {
       }
 
       // 验证 num_images
-      if (num_images < 1 || num_images > 10) {
+      if (num_images < 1 || num_images > 4) {
         return NextResponse.json(
-          { success: false, error: 'num_images must be between 1 and 10' },
+          { success: false, error: 'num_images must be between 1 and 4' },
           { status: 400 }
         );
       }
