@@ -78,7 +78,7 @@
     "uploading": "Ladataan..."
   },
   "generate": {
-    "generateImage": "Luo kuva (kustannus {credits} kiintiö)",
+    "generateImage": "Luo ({credits} krediittiä)",
     "generating": "Luodaan... {progress}%"
   },
   "loading": {

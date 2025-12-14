@@ -78,7 +78,7 @@
     "uploading": "Cargando..."
   },
   "generate": {
-    "generateImage": "Generar imagen (Coste {credits} Cuota)",
+    "generateImage": "Generar ({credits} créditos)",
     "generating": "Generando... {progress}%"
   },
   "loading": {

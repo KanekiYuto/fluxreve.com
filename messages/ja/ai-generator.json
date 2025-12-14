@@ -78,7 +78,7 @@
     "uploading": "アップロード..."
   },
   "generate": {
-    "generateImage": "画像の生成（コスト{credits}シェア）",
+    "generateImage": "生成 ({credits} クレジット)",
     "generating": "生成...{progress}%"
   },
   "loading": {

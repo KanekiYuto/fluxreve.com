@@ -78,7 +78,7 @@
     "uploading": "Laster opp..."
   },
   "generate": {
-    "generateImage": "Generer bilde (kostnad {credits} kvote)",
+    "generateImage": "Generer ({credits} kreditter)",
     "generating": "Genererer... {progress}%"
   },
   "loading": {

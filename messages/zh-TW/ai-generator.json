@@ -78,7 +78,7 @@
     "uploading": "正在上传..."
   },
   "generate": {
-    "generateImage": "生成图像（费用 {credits} 配额）",
+    "generateImage": "生成 ({credits} 配額)",
     "generating": "正在生成... {progress}%"
   },
   "loading": {

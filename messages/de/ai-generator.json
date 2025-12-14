@@ -78,7 +78,7 @@
     "uploading": "Hochladen..."
   },
   "generate": {
-    "generateImage": "Bild generieren (Kosten {credits} Kontingent)",
+    "generateImage": "Generieren ({credits} Kredite)",
     "generating": "Erzeugt... {progress}%"
   },
   "loading": {

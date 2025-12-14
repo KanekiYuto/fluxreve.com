@@ -78,7 +78,7 @@
     "uploading": "업로드 중..."
   },
   "generate": {
-    "generateImage": "이미지 생성(비용 {credits} 할당량)",
+    "generateImage": "생성 ({credits} 크레딧)",
     "generating": "생성 중... {progress}%"
   },
   "loading": {

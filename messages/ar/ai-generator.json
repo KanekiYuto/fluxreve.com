@@ -78,7 +78,7 @@
     "uploading": "تحميل..."
   },
   "generate": {
-    "generateImage": "توليد صورة (التكلفة {credits} حصة {credits} التكلفة)",
+    "generateImage": "إنشاء ({credits} رصيد)",
     "generating": "توليد... {progress}%"
   },
   "loading": {

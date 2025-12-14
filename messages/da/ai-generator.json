@@ -78,7 +78,7 @@
     "uploading": "Uploader..."
   },
   "generate": {
-    "generateImage": "Generer billede (omkostningsnr. {credits} kvote)",
+    "generateImage": "Generer ({credits} kreditter)",
     "generating": "Genererer... {progress}%"
   },
   "loading": {
