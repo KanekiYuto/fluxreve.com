@@ -18,18 +18,18 @@
     "unableToQueryStatus": "无法查询任务状态"
   },
   "examples": {
-    "clickToUse": "点击使用此示例",
-    "description": "点击下面的示例开始创建，或填写左边的表格进行定制",
-    "goToExample": "转到示例 {index}",
-    "noExamples": "没有实例",
-    "title": "快速入门",
-    "useExample": "以此为例"
+    "clickToUse": "点击使用该示例",
+    "description": "点击下面的示例开始创建，或填写左边的表单进行自定义",
+    "goToExample": "查看示例 {index}",
+    "noExamples": "暂无可用示例",
+    "title": "快速开始",
+    "useExample": "使用此示例"
   },
   "form": {
     "add": "添加",
     "addImageUrl": "添加图片 URL",
     "addItem": "添加项目",
-    "addLora": "Add LoRA",
+    "addLora": "添加 LoRA",
     "advancedSettings": "高级设置",
     "aspectRatio": "宽高比",
     "aspectRatioPlaceholder": "选择宽高比",
@@ -87,14 +87,14 @@
     "message": "为您生成精彩内容，请稍候..."
   },
   "lora": {
-    "addLora": "Add LoRA",
+    "addLora": "添加 LoRA",
     "cancel": "取消",
     "clickAddLoraToStart": "单击 \"添加 LoRA \"按钮开始配置",
     "clickToSelect": "点击左侧的 LoRA 卡，选择",
     "configuration": "配置",
     "confirm": "确认",
     "loading": "正在加载...",
-    "loraConfig": "LoRA Config",
+    "loraConfig": "LoRA 配置",
     "loraConfigHint": "请输入有效的 JSON 格式配置",
     "manage": "管理",
     "modalSubtitle": "从 LoRA 库中选择，并自定义比例，以获得个性化风格",
@@ -106,9 +106,9 @@
     "noSelectedLoras": "未选中 LoRA",
     "scale": "缩放比例",
     "searchPlaceholder": "搜索 LoRA 名称、描述或触发词...",
-    "selectLora": "Select LoRA",
-    "selectMore": "Manage LoRA",
-    "selectedCount": "{count} LoRA(s) selected",
+    "selectLora": "选择 LoRA",
+    "selectMore": "管理 LoRA",
+    "selectedCount": "{count} 个 LoRA 已选择",
     "selectedLoras": "精选"
   },
   "modelGroups": {
@@ -123,7 +123,7 @@
       "description": "专业级图像生成模式，支持文本到图像和图像到图像的高质量输出",
       "tags": {
         "highQuality": "高质量",
-        "professional": "专业人员",
+        "professional": "专业风格",
         "versatile": "多用途"
       }
     },
@@ -155,7 +155,7 @@
       "description": "Z-Image Turbo LoRA 版本带有自定义 LoRA 模型，支持风格化创作",
       "tags": {
         "customizable": "可定制",
-        "lora": "LoRA Support",
+        "lora": "LoRA 支持",
         "stylized": "风格化"
       }
     },

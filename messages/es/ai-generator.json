@@ -29,7 +29,7 @@
     "add": "Añadir",
     "addImageUrl": "Añadir URL de imagen",
     "addItem": "Añadir artículo",
-    "addLora": "Add LoRA",
+    "addLora": "Agregar LoRA",
     "advancedSettings": "Configuración avanzada",
     "aspectRatio": "Relación de aspecto",
     "aspectRatioPlaceholder": "Seleccionar relación de aspecto",
@@ -45,7 +45,7 @@
     "clickAddLoraToStart": "Haga clic en el botón de arriba para añadir la configuración LoRA",
     "configuration": "Configuración",
     "imageUrlPlaceholder": "Introduzca la URL de la imagen",
-    "loraConfig": "LoRA Config",
+    "loraConfig": "Configuración de LoRA",
     "loraConfigHint": "Introducir la configuración LoRA en formato JSON, por ejemplo, nombre del modelo, peso y otros parámetros.",
     "mode": {
       "imageToImage": "Imagen a imagen",
@@ -87,14 +87,14 @@
     "message": "Generando contenidos increíbles para usted, por favor espere..."
   },
   "lora": {
-    "addLora": "Add LoRA",
+    "addLora": "Agregar LoRA",
     "cancel": "Cancelar",
     "clickAddLoraToStart": "Haga clic en el botón \"Añadir LoRA\" para iniciar la configuración.",
     "clickToSelect": "Haga clic en una tarjeta LoRA de la izquierda para seleccionarla.",
     "configuration": "Configuración",
     "confirm": "Confirme",
     "loading": "Cargando...",
-    "loraConfig": "LoRA Config",
+    "loraConfig": "Configuración de LoRA",
     "loraConfigHint": "Por favor, introduzca una configuración válida en formato JSON",
     "manage": "Gestione",
     "modalSubtitle": "Elija de la biblioteca LoRA y personalice la escala para estilos personalizados",
@@ -106,9 +106,9 @@
     "noSelectedLoras": "No LoRA seleccionado",
     "scale": "Escala",
     "searchPlaceholder": "Buscar LoRA nombre, descripción o palabra desencadenante...",
-    "selectLora": "Select LoRA",
-    "selectMore": "Manage LoRA",
-    "selectedCount": "{count} LoRA(s) selected",
+    "selectLora": "Seleccionar LoRA",
+    "selectMore": "Gestionar LoRA",
+    "selectedCount": "{count} LoRA(s) seleccionado(s)",
     "selectedLoras": "Selección"
   },
   "modelGroups": {

@@ -45,7 +45,7 @@
     "clickAddLoraToStart": "Klicken Sie auf die Schaltfläche oben, um die Konfiguration LoRA hinzuzufügen",
     "configuration": "Konfiguration",
     "imageUrlPlaceholder": "Bild-URL eingeben",
-    "loraConfig": "LoRA Konfig",
+    "loraConfig": "LoRA Konfiguration",
     "loraConfigHint": "Geben Sie LoRA Konfiguration im JSON-Format ein, z. B. Modellname, Gewicht und andere Parameter",
     "mode": {
       "imageToImage": "Bild zu Bild",
@@ -94,7 +94,7 @@
     "configuration": "Konfiguration",
     "confirm": "Bestätigen Sie",
     "loading": "Laden...",
-    "loraConfig": "LoRA Konfig",
+    "loraConfig": "LoRA Konfiguration",
     "loraConfigHint": "Bitte geben Sie eine gültige Konfiguration im JSON-Format ein",
     "manage": "Verwalten Sie",
     "modalSubtitle": "Wählen Sie aus der LoRA Bibliothek und passen Sie die Skala für persönliche Stile an",

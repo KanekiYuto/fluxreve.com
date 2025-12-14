@@ -18,11 +18,11 @@
     "unableToQueryStatus": "无法查询任务状态"
   },
   "examples": {
-    "clickToUse": "点击使用此示例",
-    "description": "点击下方示例开始创建，或填写左侧表单进行自定义。",
-    "goToExample": "转到示例 {index}",
-    "noExamples": "暂无示例",
-    "title": "快速入门",
+    "clickToUse": "點擊使用此示例",
+    "description": "點擊下方示例開始創建，或填寫左側表單進行自訂",
+    "goToExample": "查看示例 {index}",
+    "noExamples": "暫無可用示例",
+    "title": "快速開始",
     "useExample": "使用此示例"
   },
   "form": {
@@ -108,7 +108,7 @@
     "searchPlaceholder": "搜索 LoRA 名称、描述或触发词...",
     "selectLora": "选择 LoRA",
     "selectMore": "管理 LoRA",
-    "selectedCount": "已选择 {count} LoRA(s)",
+    "selectedCount": "已選擇 {count} LoRA(s)",
     "selectedLoras": "已选"
   },
   "modelGroups": {
@@ -122,24 +122,24 @@
     "flux2Pro": {
       "description": "专业级图像生成模型，支持文本转图像和图像转图像，输出质量高。",
       "tags": {
-        "highQuality": "高质量",
-        "professional": "专业的",
-        "versatile": "多才多艺的"
+        "highQuality": "高質量",
+        "professional": "專業風格",
+        "versatile": "多功能"
       }
     },
     "nanoBananaPro": {
       "description": "闪电般快速的生成速度，针对高质量创意输出进行了优化，速度卓越",
       "tags": {
         "fast": "快速",
-        "highQuality": "高质量",
-        "latest": "最新的"
+        "highQuality": "高質量",
+        "latest": "最新"
       }
     },
     "seedream": {
       "description": "ByteDance Seedream 4.5，超高质量图像生成，输出分辨率高",
       "tags": {
         "bytedance": "ByteDance",
-        "creative": "有创造力的",
+        "creative": "創意",
         "ultraHD": "超高清"
       }
     },
@@ -154,9 +154,9 @@
     "zImageLora": {
       "description": "Z-Image Turbo LoRA 版本，支持自定义 LoRA 模型，适用于风格化创作",
       "tags": {
-        "customizable": "可定制",
-        "lora": "LoRA 支持",
-        "stylized": "风格化的"
+        "customizable": "可自訂",
+        "lora": "LoRA 支援",
+        "stylized": "風格化"
       }
     },
     "imageUpscaler": {
