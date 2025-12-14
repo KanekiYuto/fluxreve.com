@@ -3,7 +3,7 @@
     "discount": "20%割引",
     "month": "月",
     "monthly": "毎月",
-    "save": "セーブ ${amount}",
+    "save": "${amount} 節約",
     "year": "年",
     "yearly": "年間"
   },
@@ -79,7 +79,7 @@
   "subtitle": "個人および企業のニーズに応える柔軟な料金オプション",
   "tiers": [
     {
-      "cta": "今すぐ試す",
+      "cta": "無料で試す",
       "description": "個人試用とライト利用に最適",
       "features": [
         "毎日 {quota} クレジット額",

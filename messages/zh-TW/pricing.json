@@ -79,8 +79,8 @@
   "subtitle": "灵活的定价方案，满足个人和企业的需求。",
   "tiers": [
     {
-      "cta": "立即尝试",
-      "description": "适合个人试用和轻量使用",
+      "cta": "免費體驗",
+      "description": "適合個人試用和輕量使用",
       "features": [
         "每日 {quota} 积分额度",
         "可生成最多 {quota}/5 张高质量图像",

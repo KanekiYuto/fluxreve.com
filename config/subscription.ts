@@ -8,7 +8,7 @@ import { PLAN_PRICES, SUBSCRIPTION_PLANS, type SubscriptionPlanType } from './pr
 export { SUBSCRIPTION_PLANS, type SubscriptionPlanType };
 
 // 积分汇率：单位价格对应的积分数
-export const QUOTA_EXCHANGE_RATE = 300;
+export const QUOTA_EXCHANGE_RATE = 150;
 
 // 订阅计划配额配置
 // 公式：单价 * QUOTA_EXCHANGE_RATE（月付）或 单价 * QUOTA_EXCHANGE_RATE * 12（年付）

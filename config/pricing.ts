@@ -35,7 +35,7 @@ const calculateYearlyPrice = (monthlyPrice: number): number => {
 
 // 单价配置（USD）
 export const PLAN_PRICES = {
-  TRIAL: 5,   // 体验版单价 $5（一次性付费）
+  TRIAL: 10,   // 体验版单价 $10（一次性付费）
   BASIC: 15,  // 基础版单价 $15
   PRO: 75,    // 专业版单价 $75
 } as const;

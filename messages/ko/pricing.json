@@ -3,7 +3,7 @@
     "discount": "20% 할인",
     "month": "월",
     "monthly": "월간",
-    "save": "저장 ${amount}",
+    "save": "${amount} 절약",
     "year": "년",
     "yearly": "연간"
   },
@@ -79,7 +79,7 @@
   "subtitle": "개인과 기업의 요구 사항을 충족하는 유연한 가격 옵션",
   "tiers": [
     {
-      "cta": "지금 체험하기",
+      "cta": "무료 체험",
       "description": "{quota} 할당량 크레딧",
       "features": [
         "{quota} 크레딧 할당량",

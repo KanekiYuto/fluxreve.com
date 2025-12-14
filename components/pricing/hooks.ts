@@ -83,12 +83,13 @@ export function getSubscriptionStatus(
 ): SubscriptionStatus {
   const productId = tier.creemPayProductId;
 
-  // 免费方案：如果用户也是免费类型，则显示为当前订阅
+  // 免费方案：只有当用户已登录且订阅类型为 'free' 时，才显示为当前订阅
   if (planType === 'free') {
-    if (currentSubscription?.planType === 'free' || !currentSubscription) {
+    if (currentSubscription?.planType === 'free') {
       return 'current';
     }
-    return 'downgrade';
+    // 未登录或其他付费订阅用户，显示为降级
+    return currentSubscription ? 'downgrade' : 'new';
   }
 
   // 体验版方案：一次性付费，不能更新，只显示新购买或已拥有

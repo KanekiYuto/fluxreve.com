@@ -80,7 +80,7 @@
     {
       "name": "Free",
       "description": "Perfect for personal trial and light usage",
-      "cta": "Get Started",
+      "cta": "Try Free",
       "features": [
         "{quota} credits quota per day",
         "Can generate up to {quota}/5 images per day",

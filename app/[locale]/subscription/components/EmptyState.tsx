@@ -24,7 +24,7 @@ export default function EmptyState() {
       <div className="text-lg sm:text-xl font-semibold text-white mb-2">{t('title')}</div>
       <p className="text-sm sm:text-base text-text-muted mb-6">{t('description')}</p>
       <Link
-        href="/#pricing"
+        href="/pricing"
         className="inline-block px-5 py-2.5 sm:px-6 sm:py-3 rounded-lg gradient-bg text-white text-sm sm:text-base font-semibold hover:scale-105 transition-transform cursor-pointer"
       >
         {t('action')}
