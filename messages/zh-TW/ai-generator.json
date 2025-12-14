@@ -193,17 +193,17 @@
     "textToImage": "文字转图像"
   },
   "tags": {
-    "art-gallery": "美术馆",
-    "currency": "货币",
+    "art-gallery": "藝術風格",
+    "currency": "貨幣",
     "education": "教育",
-    "film-style": "电影风格",
-    "math": "数学",
-    "minimalist": "极简主义者",
-    "moody": "穆迪",
-    "photorealistic": "照片级写实",
+    "film-style": "電影風格",
+    "math": "數學",
+    "minimalist": "極簡風格",
+    "moody": "氛圍感",
+    "photorealistic": "照片寫實",
     "portrait": "肖像",
-    "professional": "专业的",
-    "retro": "复古的",
-    "text-render": "文本渲染"
+    "professional": "專業風格",
+    "retro": "復古風格",
+    "text-render": "文字渲染"
   }
 }

@@ -193,17 +193,17 @@
     "textToImage": "Du texte à l'image"
   },
   "tags": {
-    "art-gallery": "Galerie d'art",
+    "art-gallery": "Style Artistique",
     "currency": "Monnaie",
-    "education": "L'éducation",
-    "film-style": "Style de film",
-    "math": "Math",
+    "education": "Éducation",
+    "film-style": "Style Cinématographique",
+    "math": "Mathématiques",
     "minimalist": "Minimaliste",
-    "moody": "Moody",
+    "moody": "Ambiance",
     "photorealistic": "Photoréaliste",
     "portrait": "Portrait",
     "professional": "Professionnel",
     "retro": "Rétro",
-    "text-render": "Rendu de texte"
+    "text-render": "Rendu de Texte"
   }
 }

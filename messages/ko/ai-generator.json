@@ -193,16 +193,16 @@
     "textToImage": "텍스트를 이미지로"
   },
   "tags": {
-    "art-gallery": "아트 갤러리",
+    "art-gallery": "아트 스타일",
     "currency": "통화",
     "education": "교육",
-    "film-style": "필름 스타일",
+    "film-style": "영화 스타일",
     "math": "수학",
-    "minimalist": "미니멀리스트",
-    "moody": "무디",
-    "photorealistic": "포토리얼리스틱",
+    "minimalist": "미니멀",
+    "moody": "무드",
+    "photorealistic": "포토리얼",
     "portrait": "인물 사진",
-    "professional": "전문가",
+    "professional": "프로페셔널",
     "retro": "레트로",
     "text-render": "텍스트 렌더링"
   }

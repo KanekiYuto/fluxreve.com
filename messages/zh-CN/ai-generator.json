@@ -193,17 +193,17 @@
     "textToImage": "文本到图像"
   },
   "tags": {
-    "art-gallery": "艺术画廊",
+    "art-gallery": "艺术风格",
     "currency": "货币",
     "education": "教育",
     "film-style": "电影风格",
     "math": "数学",
-    "minimalist": "极简主义",
-    "moody": "穆迪",
-    "photorealistic": "逼真",
+    "minimalist": "极简风格",
+    "moody": "氛围感",
+    "photorealistic": "照片级写实",
     "portrait": "肖像",
-    "professional": "专业人员",
-    "retro": "复古",
+    "professional": "专业风格",
+    "retro": "复古风格",
     "text-render": "文本渲染"
   }
 }
