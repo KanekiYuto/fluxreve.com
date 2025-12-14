@@ -82,6 +82,7 @@
     "sizePlaceholder": "Select image size",
     "outputFormat": "Output Format",
     "outputFormatPlaceholder": "Select output format",
+    "numImages": "Number of Images",
     "targetResolution": "Target Resolution",
     "targetResolutionPlaceholder": "Select target resolution",
     "uploadImageRequired": "Please upload at least one image to upscale",
@@ -162,6 +163,14 @@
         "professional": "Professional",
         "highQuality": "High Quality",
         "versatile": "Versatile"
+      }
+    },
+    "fluxSchnell": {
+      "description": "Ultra-fast Flux model for quick image generation with exceptional speed and quality balance",
+      "tags": {
+        "ultraFast": "Ultra Fast",
+        "affordable": "Affordable",
+        "quality": "Quality"
       }
     },
     "seedream": {

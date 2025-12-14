@@ -54,6 +54,7 @@
     "noLoraConfigured": "Ingen LoRA konfigureret endnu",
     "outputFormat": "Outputformat",
     "outputFormatPlaceholder": "Vælg outputformat",
+    "numImages": "Antal billeder",
     "targetResolution": "Målopløsning",
     "targetResolutionPlaceholder": "Vælg målopløsning",
     "uploadImageRequired": "Venligst upload mindst et billede for at forstørre",
@@ -125,6 +126,14 @@
         "highQuality": "Høj kvalitet",
         "professional": "Professionel",
         "versatile": "Alsidig"
+      }
+    },
+    "fluxSchnell": {
+      "description": "Ultrahurtig Flux-model til hurtig generering af højkvalitetsbilleder med fremragende balance mellem hastighed og kvalitet",
+      "tags": {
+        "ultraFast": "Ultrahurtig",
+        "affordable": "Økonomisk",
+        "quality": "Høj kvalitet"
       }
     },
     "nanoBananaPro": {

@@ -7,6 +7,7 @@ import NanoBananaProGenerator from './models/NanoBananaProGenerator';
 import ZImageGenerator from './models/ZImageGenerator';
 import ZImageLoraGenerator from './models/ZImageLoraGenerator';
 import Flux2ProGenerator from './models/Flux2ProGenerator';
+import FluxSchnellGenerator from './models/FluxSchnellGenerator';
 import SeedreamGenerator from './models/SeedreamGenerator';
 import { useAutoSaveFormState } from '@/hooks/useGeneratorFormPersistence';
 
@@ -95,6 +96,16 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro',
             { text: t('flux2Pro.tags.versatile'), variant: 'default' as const },
           ]
         },
+        {
+          value: 'flux-schnell',
+          label: 'Flux Schnell',
+          description: t('fluxSchnell.description'),
+          tags: [
+            { text: t('fluxSchnell.tags.ultraFast'), variant: 'highlight' as const },
+            { text: t('fluxSchnell.tags.affordable'), variant: 'default' as const },
+            { text: t('fluxSchnell.tags.quality'), variant: 'default' as const },
+          ]
+        },
       ]
     },
     {
@@ -148,6 +159,13 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro',
         <Flux2ProGenerator
           modelSelector={modelSelector}
           defauldMode='text-to-image'
+          defaultParameters={defaultParameters}
+          onFormStateChange={setFormStateData}
+        />
+      )}
+      {selectedModel === 'flux-schnell' && (
+        <FluxSchnellGenerator
+          modelSelector={modelSelector}
           defaultParameters={defaultParameters}
           onFormStateChange={setFormStateData}
         />

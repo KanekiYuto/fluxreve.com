@@ -54,6 +54,7 @@
     "noLoraConfigured": "Non è ancora configurato LoRA",
     "outputFormat": "Formato di uscita",
     "outputFormatPlaceholder": "Selezionare il formato di uscita",
+    "numImages": "Numero di immagini",
     "targetResolution": "Risoluzione target",
     "targetResolutionPlaceholder": "Selezionare la risoluzione target",
     "uploadImageRequired": "Caricare almeno un'immagine da ingrandire",
@@ -125,6 +126,14 @@
         "highQuality": "Alta qualità",
         "professional": "Professionale",
         "versatile": "Versatile"
+      }
+    },
+    "fluxSchnell": {
+      "description": "Modello Flux ultra-veloce per una generazione veloce di immagini di alta qualità con equilibrio eccezionale tra velocità e qualità",
+      "tags": {
+        "ultraFast": "Ultra-veloce",
+        "affordable": "Conveniente",
+        "quality": "Alta qualità"
       }
     },
     "nanoBananaPro": {

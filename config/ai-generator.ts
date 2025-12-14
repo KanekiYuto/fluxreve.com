@@ -82,6 +82,11 @@ function calculateTextToImageCredits(model: string, parameters: Record<string, a
     return seedreamTextToImageCredits(parameters);
   }
 
+  // Flux Schnell 模型
+  if (model === 'flux-schnell') {
+    return fluxSchnellTextToImageCredits(parameters);
+  }
+
   // 未匹配到生成器，返回默认配额
   return DEFAULT_CREDITS;
 }
@@ -157,6 +162,15 @@ function zImageTextToImageCredits(_parameters: Record<string, any>): number {
  */
 function flux2ProTextToImageCredits(_parameters: Record<string, any>): number {
   return 25;
+}
+
+/**
+ * Flux Schnell 文生图配额计算
+ * 5 积分每张图，根据 num_images 参数计算总积分
+ */
+function fluxSchnellTextToImageCredits(parameters: Record<string, any>): number {
+  const { num_images = 1 } = parameters;
+  return 5 * num_images;
 }
 
 /**

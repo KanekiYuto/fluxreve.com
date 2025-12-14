@@ -54,6 +54,7 @@
     "noLoraConfigured": "尚未配置 LoRA",
     "outputFormat": "输出格式",
     "outputFormatPlaceholder": "选择输出格式",
+    "numImages": "生成数量",
     "targetResolution": "目標分辨率",
     "targetResolutionPlaceholder": "選擇目標分辨率",
     "uploadImageRequired": "請上傳至少一個要放大的圖像",
@@ -125,6 +126,14 @@
         "highQuality": "高質量",
         "professional": "專業風格",
         "versatile": "多功能"
+      }
+    },
+    "fluxSchnell": {
+      "description": "超快速 Flux 模型，快速生成高质量图像，速度与质量完美平衡",
+      "tags": {
+        "ultraFast": "超快速",
+        "affordable": "经济划算",
+        "quality": "高质量"
       }
     },
     "nanoBananaPro": {

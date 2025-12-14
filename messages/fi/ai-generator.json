@@ -54,6 +54,7 @@
     "noLoraConfigured": "Ei LoRA vielä määritetty",
     "outputFormat": "Tulostemuoto",
     "outputFormatPlaceholder": "Valitse tulostusmuoto",
+    "numImages": "Kuvien määrä",
     "targetResolution": "Tavoiteresoluutio",
     "targetResolutionPlaceholder": "Valitse tavoiteresoluutio",
     "uploadImageRequired": "Lataa vähintään yksi kuva suurentamiseen",
@@ -125,6 +126,14 @@
         "highQuality": "Korkea laatu",
         "professional": "Ammattilainen",
         "versatile": "Monipuolinen"
+      }
+    },
+    "fluxSchnell": {
+      "description": "Erittäin nopea Flux-malli nopeaa korkealaatuisten kuvien luomista varten, jolla on erinomainen tasapaino nopeuden ja laadun välillä",
+      "tags": {
+        "ultraFast": "Erittäin nopea",
+        "affordable": "Taloudellinen",
+        "quality": "Korkea laatu"
       }
     },
     "nanoBananaPro": {

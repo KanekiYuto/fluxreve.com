@@ -54,6 +54,7 @@
     "noLoraConfigured": "لم يتم تكوين LoRA بعد",
     "outputFormat": "تنسيق الإخراج",
     "outputFormatPlaceholder": "تحديد تنسيق الإخراج",
+    "numImages": "عدد الصور",
     "targetResolution": "الدقة المستهدفة",
     "targetResolutionPlaceholder": "حدد الدقة المستهدفة",
     "uploadImageRequired": "يرجى تحميل صورة واحدة على الأقل لتكبيرها",
@@ -125,6 +126,14 @@
         "highQuality": "جودة عالية",
         "professional": "محترف",
         "versatile": "متعدد الاستخدامات"
+      }
+    },
+    "fluxSchnell": {
+      "description": "نموذج Flux فائق السرعة لتوليد سريع لصور عالية الجودة مع توازن استثنائي بين السرعة والجودة",
+      "tags": {
+        "ultraFast": "فائق السرعة",
+        "affordable": "اقتصادي",
+        "quality": "جودة عالية"
       }
     },
     "nanoBananaPro": {

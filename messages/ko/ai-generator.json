@@ -54,6 +54,7 @@
     "noLoraConfigured": "아직 LoRA이 구성되지 않았습니다.",
     "outputFormat": "출력 형식",
     "outputFormatPlaceholder": "출력 형식 선택",
+    "numImages": "이미지 수",
     "targetResolution": "목표 해상도",
     "targetResolutionPlaceholder": "목표 해상도 선택",
     "uploadImageRequired": "업스케일할 이미지를 최소 1개 이상 업로드하십시오",
@@ -125,6 +126,14 @@
         "highQuality": "고품질",
         "professional": "전문가",
         "versatile": "다용도"
+      }
+    },
+    "fluxSchnell": {
+      "description": "빠른 이미지 생성을 위한 초고속 Flux 모델, 속도와 품질 사이의 완벽한 균형으로 뛰어난 성능 제공",
+      "tags": {
+        "ultraFast": "초고속",
+        "affordable": "경제적",
+        "quality": "고품질"
       }
     },
     "nanoBananaPro": {

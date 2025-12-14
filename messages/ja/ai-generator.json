@@ -54,6 +54,7 @@
     "noLoraConfigured": "まだLoRAは設定されていない",
     "outputFormat": "出力フォーマット",
     "outputFormatPlaceholder": "出力形式の選択",
+    "numImages": "生成数量",
     "targetResolution": "目標解像度",
     "targetResolutionPlaceholder": "目標解像度を選択",
     "uploadImageRequired": "アップスケールする最低1つの画像をアップロードしてください",
@@ -125,6 +126,14 @@
         "highQuality": "高品質",
         "professional": "プロフェッショナル",
         "versatile": "多用途"
+      }
+    },
+    "fluxSchnell": {
+      "description": "超高速 Flux モデル。高品質な画像を素早く生成し、速度と品質の完璧なバランスを実現",
+      "tags": {
+        "ultraFast": "超高速",
+        "affordable": "経済的",
+        "quality": "高品質"
       }
     },
     "nanoBananaPro": {

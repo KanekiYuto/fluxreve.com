@@ -54,6 +54,7 @@
     "noLoraConfigured": "Ingen LoRA konfigurerad ännu",
     "outputFormat": "Utdataformat",
     "outputFormatPlaceholder": "Välj utdataformat",
+    "numImages": "Antal bilder",
     "targetResolution": "Målupplösning",
     "targetResolutionPlaceholder": "Välj målupplösning",
     "uploadImageRequired": "Vänligen ladda upp minst en bild för att uppskalera",
@@ -125,6 +126,14 @@
         "highQuality": "Hög kvalitet",
         "professional": "Professionell",
         "versatile": "Mångsidig"
+      }
+    },
+    "fluxSchnell": {
+      "description": "Ultrasnabb Flux-modell för snabb generering av högkvalitativa bilder med utmärkt balans mellan hastighet och kvalitet",
+      "tags": {
+        "ultraFast": "Ultrasnabb",
+        "affordable": "Ekonomisk",
+        "quality": "Hög kvalitet"
       }
     },
     "nanoBananaPro": {
