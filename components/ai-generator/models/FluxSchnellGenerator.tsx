@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
-import GeneratorLayoutWrapper from '../base/GeneratorLayoutWrapper';
+import GeneratorLayout from '../base/GeneratorLayout';
 import { ExampleItem } from '../base/ExampleGallery';
 import AdvancedSettings from '../base/AdvancedSettings';
 import FormSelect from '../form/FormSelect';
@@ -217,13 +217,20 @@ export default function FluxSchnellGenerator({ modelSelector, defaultParameters,
   // ==================== 主渲染 ====================
 
   return (
-    <GeneratorLayoutWrapper
-      modelSelector={modelSelector}
+    <GeneratorLayout
+      headerContent={modelSelector}
       formContent={formContent}
       onGenerate={handleGenerate}
+      requiredCredits={generator.requiredCredits}
+      isLoading={generator.isLoading}
+      progress={generator.progress}
+      error={generator.error}
+      credits={generator.credits}
+      isCreditsLoading={generator.creditsLoading}
+      onCreditsRefresh={generator.refreshCredits}
+      results={generator.results}
       examples={EXAMPLES}
       onSelectExample={handleSelectExample}
-      generator={generator}
     />
   );
 }

@@ -7,7 +7,7 @@ import useModalStore from '@/store/useModalStore';
 import LoadingAnimation from './LoadingAnimation';
 import ErrorCard from './ErrorCard';
 import CreditsCard from './CreditsCard';
-import MediaGallery, { MediaItem, TaskInfo } from './MediaGallery';
+import MediaGallery, { MediaItem, TaskInfo, MediaGalleryRecord } from './MediaGallery';
 import ExamplePreview, { ExampleItem } from './ExampleGallery';
 
 interface GeneratorLayoutProps {
@@ -36,8 +36,7 @@ interface GeneratorLayoutProps {
   isCreditsLoading?: boolean;
   onCreditsRefresh?: () => void;
   // 生成结果
-  generatedItems?: MediaItem[];
-  taskInfo?: TaskInfo;
+  results?: MediaGalleryRecord;
   // 示例配置
   examples?: ExampleItem[];
   onSelectExample?: (example: ExampleItem) => void;
@@ -58,8 +57,7 @@ export default function GeneratorLayout({
   credits,
   isCreditsLoading,
   onCreditsRefresh,
-  generatedItems,
-  taskInfo,
+  results,
   examples,
   onSelectExample,
   enableSelectExample = true,
@@ -99,8 +97,8 @@ export default function GeneratorLayout({
     }
 
     // 显示生成结果
-    if (generatedItems && generatedItems.length > 0 && taskInfo) {
-      return <MediaGallery items={generatedItems} taskInfo={taskInfo} />;
+    if (results && results.items.length > 0) {
+      return <MediaGallery {...results} />;
     }
 
     // 显示示例

@@ -305,16 +305,49 @@ export function useWebHookGenerator(config: WebHookGeneratorConfig) {
     [tError, performGeneration, credits, serviceType, serviceSubType, buildRequestBody, extractCreditsParams]
   );
 
+  // ==================== 计算派生属性 ====================
+
+  // 用于 GeneratorLayout 的 error 属性
+  const error = errorInfo
+    ? {
+        title: errorInfo.title,
+        message: errorInfo.message,
+        variant: errorInfo.variant as 'error' | 'credits' | undefined,
+        creditsInfo: errorInfo.creditsInfo,
+      }
+    : undefined;
+
+  // 用于 GeneratorLayout 的 results 属性
+  const results =
+    generatedImages.length > 0
+      ? {
+          items: generatedImages.map((url) => ({
+            id: url,
+            url,
+            type: 'image' as const,
+          })),
+          taskInfo: taskInfo || {
+            prompt: '',
+            created_at: new Date().toISOString(),
+            completed_at: new Date().toISOString(),
+          },
+        }
+      : undefined;
+
   // ==================== 返回值 ====================
 
   return {
-    // 状态
+    // 原始状态
     generatedImages,
     isLoading,
     progress,
     errorInfo,
     requiredCredits,
     taskInfo,
+
+    // 派生属性（用于 GeneratorLayout）
+    error,
+    results,
 
     // Store 状态
     credits,
