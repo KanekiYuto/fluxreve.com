@@ -175,6 +175,14 @@
         "quality": "Miglioramento della qualità",
         "efficient": "Efficiente"
       }
+    },
+    "imageWatermarkRemover": {
+      "description": "Rimuovi filigrane dalle immagini utilizzando la tecnologia AI avanzata, risultati puliti e professionali mantenendo la qualita dell'immagine",
+      "tags": {
+        "removal": "Rimozione filigrana",
+        "quality": "Preservazione della qualita",
+        "efficient": "Elaborazione veloce"
+      }
     }
   },
   "page": {
@@ -213,6 +221,9 @@
     "portrait": "Ritratto",
     "professional": "Professionale",
     "retro": "Retro",
-    "text-render": "Rendering del testo"
+    "text-render": "Rendering del testo",
+    "removal": "Rimozione",
+    "clean": "Pulito",
+    "watermark": "Filigrana"
   }
 }

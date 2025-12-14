@@ -33,7 +33,10 @@
     "professional": "Professional",
     "education": "Education",
     "math": "Math",
-    "text-render": "Text Render"
+    "text-render": "Text Render",
+    "removal": "Removal",
+    "clean": "Clean",
+    "watermark": "Watermark"
   },
   "results": {
     "title": "Generated Results",
@@ -187,6 +190,14 @@
         "enhancement": "Enhancement",
         "quality": "Quality Improvement",
         "efficient": "Efficient"
+      }
+    },
+    "imageWatermarkRemover": {
+      "description": "Remove watermarks from images using advanced AI technology, clean and professional results while maintaining image quality",
+      "tags": {
+        "removal": "Watermark Removal",
+        "quality": "Quality Preservation",
+        "efficient": "Fast Processing"
       }
     }
   },

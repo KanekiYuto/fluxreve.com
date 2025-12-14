@@ -175,6 +175,14 @@
         "quality": "품질 개선",
         "efficient": "효율적"
       }
+    },
+    "imageWatermarkRemover": {
+      "description": "Advanced AI technology를 사용하여 이미지에서 워터마크를 제거하고, 이미지 품질을 유지하면서 깨끗하고 전문적인 결과 제공",
+      "tags": {
+        "removal": "워터마크 제거",
+        "quality": "품질 보존",
+        "efficient": "빠른 처리"
+      }
     }
   },
   "page": {
@@ -213,6 +221,9 @@
     "portrait": "인물 사진",
     "professional": "프로페셔널",
     "retro": "레트로",
-    "text-render": "텍스트 렌더링"
+    "text-render": "텍스트 렌더링",
+    "removal": "제거",
+    "clean": "깨끗함",
+    "watermark": "워터마크"
   }
 }

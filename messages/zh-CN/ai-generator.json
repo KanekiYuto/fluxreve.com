@@ -175,6 +175,14 @@
         "quality": "质量提升",
         "efficient": "高效"
       }
+    },
+    "imageWatermarkRemover": {
+      "description": "使用先进的人工智能技术从图像中移除水印，保持图像质量的同时获得干净、专业的结果",
+      "tags": {
+        "removal": "水印移除",
+        "quality": "质量保留",
+        "efficient": "快速处理"
+      }
     }
   },
   "page": {
@@ -213,6 +221,9 @@
     "portrait": "肖像",
     "professional": "专业风格",
     "retro": "复古风格",
-    "text-render": "文本渲染"
+    "text-render": "文本渲染",
+    "removal": "移除",
+    "clean": "清洁",
+    "watermark": "水印"
   }
 }

@@ -175,6 +175,14 @@
         "quality": "Qualitätsverbesserung",
         "efficient": "Effizient"
       }
+    },
+    "imageWatermarkRemover": {
+      "description": "Entfernen Sie Wasserzeichen aus Bildern mit fortschrittlicher KI-Technologie, saubere und professionelle Ergebnisse unter Beibehaltung der Bildqualitat",
+      "tags": {
+        "removal": "Wasserzeichenentfernung",
+        "quality": "Qualitatserhaltung",
+        "efficient": "Schnelle Verarbeitung"
+      }
     }
   },
   "page": {
@@ -213,6 +221,9 @@
     "portrait": "Porträt",
     "professional": "Professionell",
     "retro": "Retro",
-    "text-render": "Textrendering"
+    "text-render": "Textrendering",
+    "removal": "Entfernung",
+    "clean": "Sauber",
+    "watermark": "Wasserzeichen"
   }
 }

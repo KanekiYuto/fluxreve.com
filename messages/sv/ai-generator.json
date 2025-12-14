@@ -175,6 +175,14 @@
         "quality": "Kvalitetsförbättring",
         "efficient": "Effektiv"
       }
+    },
+    "imageWatermarkRemover": {
+      "description": "Ta bort vattenmaerken fran bilder med hjalp av avancerad AI-teknik, rena och professionella resultat samtidigt som bildkvaliteten bevaras",
+      "tags": {
+        "removal": "Vattenmaerkelbortagning",
+        "quality": "Kvalitetsbevarande",
+        "efficient": "Snabb bearbetning"
+      }
     }
   },
   "page": {
@@ -213,6 +221,9 @@
     "portrait": "Porträtt",
     "professional": "Professionell",
     "retro": "Retro",
-    "text-render": "Textrendering"
+    "text-render": "Textrendering",
+    "removal": "Borttagning",
+    "clean": "Ren",
+    "watermark": "Vattenstempel"
   }
 }

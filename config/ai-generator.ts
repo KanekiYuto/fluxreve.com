@@ -7,7 +7,7 @@
 type MainTaskType = 'text-to-image' | 'image-to-image';
 
 // 更多生成器类型
-type MoreTaskType = 'image-upscaler';
+type MoreTaskType = 'image-upscaler' | 'image-watermark-remover';
 
 // 生成器类型（包括主要类型和更多类型）
 export type TaskType = MainTaskType | MoreTaskType;
@@ -46,6 +46,9 @@ export function getRequiredCredits(
 
     case 'image-upscaler':
       return calculateImageUpscalerCredits(model, parameters);
+
+    case 'image-watermark-remover':
+      return calculateImageWatermarkRemoverCredits(model, parameters);
 
     default:
       // 未匹配到任务类型，返回默认配额
@@ -223,4 +226,12 @@ function calculateImageUpscalerCredits(model: string, parameters: Record<string,
     default:
       return 10;
   }
+}
+
+/**
+ * 图片去水印配额计算
+ */
+function calculateImageWatermarkRemoverCredits(model: string, parameters: Record<string, any>): number {
+  // 去水印每张图 20 积分
+  return 20;
 }

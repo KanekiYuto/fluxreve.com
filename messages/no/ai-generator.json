@@ -175,6 +175,14 @@
         "quality": "Kvalitetsforbedring",
         "efficient": "Effektiv"
       }
+    },
+    "imageWatermarkRemover": {
+      "description": "Fjern vannmerker fra bilder ved hjelp av avansert AI-teknologi, rene og profesjonelle resultater samtidig som bildekvaliteten bevares",
+      "tags": {
+        "removal": "Vannmerkefjerning",
+        "quality": "Kvalitetsbevaring",
+        "efficient": "Rask behandling"
+      }
     }
   },
   "page": {
@@ -213,6 +221,9 @@
     "portrait": "Portrett",
     "professional": "Profesjonell",
     "retro": "Retro",
-    "text-render": "Tekstgjengivelse"
+    "text-render": "Tekstgjengivelse",
+    "removal": "Fjerning",
+    "clean": "Ren",
+    "watermark": "Vannmerke"
   }
 }

@@ -175,6 +175,14 @@
         "quality": "Kvalitetsforbedring",
         "efficient": "Effektiv"
       }
+    },
+    "imageWatermarkRemover": {
+      "description": "Fjern vandmaerker fra billeder ved hjaelp af avanceret AI-teknologi, rene og professionelle resultater samtidig med at billedkvaliteten bevares",
+      "tags": {
+        "removal": "Vandmaerkefjernelse",
+        "quality": "Kvalitetsbevarelse",
+        "efficient": "Hurtig behandling"
+      }
     }
   },
   "page": {
@@ -213,6 +221,9 @@
     "portrait": "Portræt",
     "professional": "Professionel",
     "retro": "Retro",
-    "text-render": "Tekstgengivelse"
+    "text-render": "Tekstgengivelse",
+    "removal": "Fjernelse",
+    "clean": "Ren",
+    "watermark": "Vandmaerke"
   }
 }

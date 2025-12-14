@@ -175,6 +175,14 @@
         "quality": "Laadun parantaminen",
         "efficient": "Tehokas"
       }
+    },
+    "imageWatermarkRemover": {
+      "description": "Poista vesileima kuvista kayttamalla kehittynyttae tekoaelyteknologiaa, puhtaat ja ammattimaiset tulokset kuvan laadun sailyttaemisen ohella",
+      "tags": {
+        "removal": "Vesimerkin poistaminen",
+        "quality": "Laadun sailyttaeminen",
+        "efficient": "Nopea kaesittely"
+      }
     }
   },
   "page": {
@@ -213,6 +221,9 @@
     "portrait": "Muotokuva",
     "professional": "Ammattimainen",
     "retro": "Retro",
-    "text-render": "Tekstin renderöinti"
+    "text-render": "Tekstin renderöinti",
+    "removal": "Poistaminen",
+    "clean": "Puhdas",
+    "watermark": "Vesileima"
   }
 }

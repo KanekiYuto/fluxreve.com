@@ -175,6 +175,14 @@
         "quality": "Amélioration de la qualité",
         "efficient": "Efficace"
       }
+    },
+    "imageWatermarkRemover": {
+      "description": "Supprimez les filigranes des images en utilisant la technologie avancee de l'IA, resultats propres et professionnels tout en maintenant la qualite de l'image",
+      "tags": {
+        "removal": "Suppression du filigrane",
+        "quality": "Preservation de la qualite",
+        "efficient": "Traitement rapide"
+      }
     }
   },
   "page": {
@@ -213,6 +221,9 @@
     "portrait": "Portrait",
     "professional": "Professionnel",
     "retro": "Rétro",
-    "text-render": "Rendu de Texte"
+    "text-render": "Rendu de Texte",
+    "removal": "Suppression",
+    "clean": "Propre",
+    "watermark": "Filigrane"
   }
 }

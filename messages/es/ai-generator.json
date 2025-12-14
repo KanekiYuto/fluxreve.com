@@ -175,6 +175,14 @@
         "quality": "Mejora de la calidad",
         "efficient": "Eficiente"
       }
+    },
+    "imageWatermarkRemover": {
+      "description": "Elimine marcas de agua de imágenes utilizando tecnología avanzada de IA, resultados limpios y profesionales mientras se mantiene la calidad de la imagen",
+      "tags": {
+        "removal": "Eliminación de marcas de agua",
+        "quality": "Preservación de la calidad",
+        "efficient": "Procesamiento rápido"
+      }
     }
   },
   "page": {
@@ -213,6 +221,9 @@
     "portrait": "Retrato",
     "professional": "Profesional",
     "retro": "Retro",
-    "text-render": "Renderizado de Texto"
+    "text-render": "Renderizado de Texto",
+    "removal": "Eliminación",
+    "clean": "Limpio",
+    "watermark": "Marca de agua"
   }
 }

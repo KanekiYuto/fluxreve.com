@@ -175,6 +175,14 @@
         "quality": "品質改善",
         "efficient": "効率的"
       }
+    },
+    "imageWatermarkRemover": {
+      "description": "高度なAI技術を使用して画像から透かしを削除し、画像品質を保ちながらクリーンで専門的な結果を実現",
+      "tags": {
+        "removal": "透かし除去",
+        "quality": "品質維持",
+        "efficient": "高速処理"
+      }
     }
   },
   "page": {
@@ -213,6 +221,9 @@
     "portrait": "ポートレート",
     "professional": "プロフェッショナル",
     "retro": "レトロ",
-    "text-render": "テキストレンダリング"
+    "text-render": "テキストレンダリング",
+    "removal": "除去",
+    "clean": "クリーン",
+    "watermark": "透かし"
   }
 }

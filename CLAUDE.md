@@ -6,3 +6,4 @@
 - 站点名称（FluxReve）进行国际化时，必须使用配置占位符的方式进行设置，禁止硬编码
 - json中的双引号必须使用反斜杠
 - \config\locales.js 的配置应该和 i18n\config.ts 保持一致
+- python 的命令应该是 `python` 而不是 `python3`
