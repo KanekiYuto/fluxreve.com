@@ -121,7 +121,7 @@ export default function GeneratorLayout({
       {/* 左右布局 */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* 左侧 - 表单区域 */}
-        <div className="space-y-4">
+        <div className="space-y-4" data-form-container>
           {/* 模型选择器头部 */}
           {headerContent}
 

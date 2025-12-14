@@ -61,6 +61,28 @@ export default function ExamplePreview({
     setCurrentIndex(index);
   };
 
+  // 处理选择示例 - 添加滚动到提示词区域
+  const handleSelectExampleWithScroll = (example: ExampleItem) => {
+    onSelectExample?.(example);
+
+    // 在下一个事件循环中滚动，确保 DOM 已更新
+    setTimeout(() => {
+      // 查找最近的提示词输入框或表单容器
+      const promptInput = document.querySelector('textarea[id="prompt"]');
+      if (promptInput) {
+        promptInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        // 自动聚焦输入框
+        (promptInput as HTMLTextAreaElement).focus();
+      } else {
+        // 如果找不到提示词输入，滚动到表单容器顶部
+        const formContainer = document.querySelector('[data-form-container]');
+        if (formContainer) {
+          formContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    }, 0);
+  };
+
   // 处理对比滑块鼠标按下
   const handleComparisonMouseDown = () => {
     setIsDraggingComparison(true);
@@ -128,7 +150,7 @@ export default function ExamplePreview({
           {/* 图片 */}
           <div
             className="group relative w-full cursor-pointer flex items-center justify-center user-select-none"
-            onClick={() => onSelectExample?.(currentExample)}
+            onClick={() => handleSelectExampleWithScroll(currentExample)}
             onMouseMove={currentExample.original ? handleComparisonMouseMove : undefined}
             onMouseUp={currentExample.original ? handleComparisonMouseUp : undefined}
             onMouseLeave={currentExample.original ? handleComparisonMouseUp : undefined}
@@ -316,7 +338,7 @@ export default function ExamplePreview({
         {enableSelectExample && (
           <Button
             type="button"
-            onClick={() => onSelectExample?.(currentExample)}
+            onClick={() => handleSelectExampleWithScroll(currentExample)}
             className="mt-4 w-full cursor-pointer"
           >
             <svg className="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
