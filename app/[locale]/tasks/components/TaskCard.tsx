@@ -90,6 +90,13 @@ export default function TaskCard({ task, onDelete, onTogglePrivacy }: TaskCardPr
   const handleDeleteClick = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
+
+    // 检查是否为免费用户
+    if (user && user.userType === 'free') {
+      openSubscriptionModal();
+      return;
+    }
+
     setShowConfirmModal(true);
   };
 
@@ -277,7 +284,10 @@ export default function TaskCard({ task, onDelete, onTogglePrivacy }: TaskCardPr
               <button
                 onClick={handleDeleteClick}
                 className="p-1.5 text-text-muted hover:text-red-400 hover:bg-red-500/10 rounded-lg transition-colors cursor-pointer"
-                title={t('card.delete')}
+                title={user?.userType === 'free'
+                  ? tForm('privateModeSubscriptionRequired')
+                  : t('card.delete')
+                }
               >
                 <Trash2 className="w-4 h-4" />
               </button>
