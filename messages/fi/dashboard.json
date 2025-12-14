@@ -9,7 +9,7 @@
       "analyticsDesc": "Tarkastele yksityiskohtaisia tilastoja ja suorituskykymittareita",
       "projects": "Projektinhallinta",
       "projectsDesc": "Järjestä ja hallinnoi kaikkia luovia projektejasi",
-      "quota": "Käyttökiintiö",
+      "quota": "Krediittien Käyttö",
       "quotaDesc": "Seuraa tuotantokiintiötäsi ja käyttöhistoriaasi"
     },
     "title": "Kirjaudu sisään käyttääksesi hallintapaneeliasi"
@@ -47,8 +47,8 @@
     "projects": "Projektien kokonaismäärä",
     "quota": {
       "expires": "vanhenee",
-      "remaining": "Jäljellä oleva tuotantokiintiö",
-      "unlimited": "Rajoittamaton sukupolvikiintiö"
+      "remaining": "Jäljellä Olevat Krediitit",
+      "unlimited": "Rajoittamattomat Tuotantokrediitit"
     },
     "templates": "Luodut mallit"
   },

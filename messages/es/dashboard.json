@@ -9,8 +9,8 @@
       "analyticsDesc": "Ver estadísticas detalladas y métricas de rendimiento",
       "projects": "Gestión de proyectos",
       "projectsDesc": "Organice y gestione todos sus proyectos creativos",
-      "quota": "Cuota de uso",
-      "quotaDesc": "Seguimiento de la cuota de generación y del historial de uso"
+      "quota": "Uso de Créditos",
+      "quotaDesc": "Seguimiento de los créditos de generación y del historial de uso"
     },
     "title": "Inicie sesión para acceder a su panel de control"
   },
@@ -47,8 +47,8 @@
     "projects": "Total de proyectos",
     "quota": {
       "expires": "caduca en",
-      "remaining": "Cuota de generación restante",
-      "unlimited": "Cuota de generación ilimitada"
+      "remaining": "Créditos Restantes",
+      "unlimited": "Créditos de Generación Ilimitados"
     },
     "templates": "Plantillas creadas"
   },

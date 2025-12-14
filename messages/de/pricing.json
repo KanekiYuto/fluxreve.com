@@ -23,19 +23,19 @@
         "question": "Kann ich meinen Tarif erhöhen oder herabstufen?"
       },
       {
-        "answer": "Bei kostenlosen Nutzern wird das tägliche Guthaben jeden Tag zurückgesetzt und sammelt sich nicht an. Für Abonnenten verfällt das Guthaben mit dem Verfallsdatum. Jedes Guthaben-Kontingent hat seine eigene Verfallszeit, und ungenutztes Guthaben verfällt automatisch nach Ablauf dieser Zeit.",
+        "answer": "Bei kostenlosen Nutzern wird das tägliche Guthaben jeden Tag zurückgesetzt und sammelt sich nicht an. Für Abonnenten verfällt das Guthaben mit dem Verfallsdatum. Jedes Guthaben hat seine eigene Verfallszeit, und ungenutztes Guthaben verfällt automatisch nach Ablauf dieser Zeit.",
         "question": "Was geschieht mit nicht genutzten Guthaben?"
       },
       {
         "answer": "Bei monatlichen Tarifen erhalten Sie 100 Credits pro ausgegebenem Dollar. Bei Jahrestarifen erhalten Sie 100 Credits pro Dollar × 12 Monate. Zum Beispiel: Basic monatlich ($15) = 1.500 Credits, Basic jährlich ($144) = 18.000 Credits.",
-        "question": "Wie funktioniert die Berechnung der Kreditquote?"
+        "question": "Wie funktioniert die Berechnung der Kredite?"
       },
       {
         "answer": "Ja! Der Wechsel von einem monatlichen zu einem jährlichen Tarif innerhalb derselben Tarifstufe (z. B. von einem monatlichen Basic-Tarif zu einem jährlichen Basic-Tarif) gilt als Wechsel, nicht als Upgrade. Der neue Abrechnungszyklus wird gemäß den Richtlinien für Tarifänderungen wirksam.",
         "question": "Kann ich zwischen monatlicher und jährlicher Abrechnung wechseln?"
       },
       {
-        "answer": "Bei einem Upgrade wird Ihnen ein anteiliger Betrag für den Rest des aktuellen Abrechnungszeitraums in Rechnung gestellt. Sie erhalten sofort das volle Guthaben-Kontingent Ihres neuen Tarifs, und alle vorhandenen Guthaben bleiben bis zu ihrem Ablaufdatum verfügbar.",
+        "answer": "Bei einem Upgrade wird Ihnen ein anteiliger Betrag für den Rest des aktuellen Abrechnungszeitraums in Rechnung gestellt. Sie erhalten sofort das volle Guthaben Ihres neuen Tarifs, und alle vorhandenen Guthaben bleiben bis zu ihrem Ablaufdatum verfügbar.",
         "question": "Was passiert, wenn ich mitten im Zyklus ein Upgrade durchführe?"
       },
       {
@@ -55,7 +55,7 @@
         "question": "Kann ich mein Abonnement jederzeit kündigen?"
       },
       {
-        "answer": "Jedes Guthabenkontingent hat eine eigene Verfallszeit. Die genaue Dauer hängt von Ihrem Abonnementplan ab und davon, wann das Guthaben gewährt wurde. Sie können das Verfallsdatum Ihres Guthabens in Ihrem Konto-Dashboard überprüfen. Credits werden nach dem Prinzip \"Wer zuerst kommt, mahlt zuerst\" verbraucht.",
+        "answer": "Jedes Guthaben hat eine eigene Verfallszeit. Die genaue Dauer hängt von Ihrem Abonnementplan ab und davon, wann das Guthaben gewährt wurde. Sie können das Verfallsdatum Ihres Guthabens in Ihrem Konto-Dashboard überprüfen. Credits werden nach dem Prinzip \"Wer zuerst kommt, mahlt zuerst\" verbraucht.",
         "question": "Wie lange sind die Guthaben nach dem Kauf gültig?"
       }
     ],
@@ -135,7 +135,7 @@
       "cta": "Los geht's",
       "description": "Perfekt für persönliche Versuche und leichte Nutzung",
       "features": [
-        "{quota} Kreditquote pro Tag",
+        "{quota} Kreditquote täglich",
         "Kann bis zu {quota}/5 Bilder pro Tag erzeugen",
         "Grundlegende AI-Modelle",
         "Standardauflösung (512x512)"

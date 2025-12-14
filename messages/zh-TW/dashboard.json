@@ -9,8 +9,8 @@
       "analyticsDesc": "查看详细统计数据和性能指标",
       "projects": "项目管理",
       "projectsDesc": "组织和管理你所有的创意项目",
-      "quota": "使用配额",
-      "quotaDesc": "跟踪您的生成配额和使用历史记录"
+      "quota": "使用積分",
+      "quotaDesc": "跟踪您的生成積分和使用歷史記錄"
     },
     "title": "登录以访问您的仪表盘"
   },
@@ -47,8 +47,8 @@
     "projects": "项目总数",
     "quota": {
       "expires": "到期",
-      "remaining": "剩余配额",
-      "unlimited": "无限配额"
+      "remaining": "剩餘積分",
+      "unlimited": "無限生成積分"
     },
     "templates": "创建的模板"
   },

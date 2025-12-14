@@ -19,23 +19,23 @@
         "question": "Vad är skillnaden mellan månads- och årsabonnement?"
       },
       {
-        "answer": "Ja! Du kan uppgradera ditt abonnemang när som helst, och prisskillnaden beräknas proportionellt. När du uppgraderar får du omedelbart hela kreditkvoten för det nya abonnemanget. Nedgraderingar träder i kraft i början av din nästa faktureringscykel.",
+        "answer": "Ja! Du kan uppgradera ditt abonnemang när som helst, och prisskillnaden beräknas proportionellt. När du uppgraderar får du omedelbart alla krediter för det nya abonnemanget. Nedgraderingar träder i kraft i början av din nästa faktureringscykel.",
         "question": "Kan jag uppgradera eller nedgradera mitt abonnemang?"
       },
       {
-        "answer": "För gratisanvändare återställs de dagliga krediterna varje dag och ackumuleras inte. För prenumeranter förfaller krediterna baserat på deras utgångsdatum. Varje kreditkvot har sin egen utgångsperiod, och oanvända krediter förfaller automatiskt när den perioden slutar.",
+        "answer": "För gratisanvändare återställs de dagliga krediterna varje dag och ackumuleras inte. För prenumeranter förfaller krediterna baserat på deras utgångsdatum. Varje kredit har sin egen utgångsperiod, och oanvända krediter förfaller automatiskt när den perioden slutar.",
         "question": "Vad händer med oanvända krediter?"
       },
       {
         "answer": "För månadsplaner får du 100 krediter per spenderad dollar. För årsplaner får du 100 krediter per dollar × 12 månader. Till exempel: Grundläggande månadsabonnemang (15 USD) = 1 500 krediter, Grundläggande årsabonnemang (144 USD) = 18 000 krediter.",
-        "question": "Hur fungerar beräkningen av kreditkvot?"
+        "question": "Hur fungerar beräkningen av krediter?"
       },
       {
         "answer": "Ja! Att byta från månads- till årsabonnement inom samma abonnemangsnivå (t.ex. Basic månads- till Basic årsabonnement) betraktas som en ändring, inte en uppgradering. Den nya faktureringscykeln träder i kraft enligt abonnemangsändringspolicyn.",
         "question": "Kan jag växla mellan månads- och årsfakturering?"
       },
       {
-        "answer": "När du uppgraderar debiteras du ett proportionellt belopp för återstoden av din nuvarande faktureringsperiod. Du får omedelbart hela kreditkvoten för din nya plan, och alla befintliga krediter förblir tillgängliga fram till utgångsdatumet.",
+        "answer": "När du uppgraderar debiteras du ett proportionellt belopp för återstoden av din nuvarande faktureringsperiod. Du får omedelbart alla krediter för din nya plan, och alla befintliga krediter förblir tillgängliga fram till utgångsdatumet.",
         "question": "Vad händer när jag uppgraderar mitt i en uppgraderingscykel?"
       },
       {
@@ -55,7 +55,7 @@
         "question": "Kan jag avsluta min prenumeration när som helst?"
       },
       {
-        "answer": "Varje kreditkvot har sin egen utgångsperiod. Den exakta varaktigheten beror på din prenumerationsplan och när krediterna beviljades. Du kan kontrollera utgångsdatumet för dina krediter i din kontoöversikt. Krediter förbrukas enligt principen först in, först ut.",
+        "answer": "Varje kredit har sin egen utgångsperiod. Den exakta varaktigheten beror på din prenumerationsplan och när krediterna beviljades. Du kan kontrollera utgångsdatumet för dina krediter i din kontoöversikt. Krediter förbrukas enligt principen först in, först ut.",
         "question": "Hur länge varar krediterna efter köp?"
       }
     ],
@@ -135,7 +135,7 @@
       "cta": "Kom igång",
       "description": "Perfekt för personlig provkörning och lättare användning",
       "features": [
-        "{quota} kreditkvot per dag",
+        "{quota} kreditkvot dagligen",
         "Kan generera upp till {quota}/5 bilder per dag",
         "Grundläggande AI-modeller",
         "Standardupplösning (512x512)"

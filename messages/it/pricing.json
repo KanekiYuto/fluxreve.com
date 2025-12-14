@@ -19,23 +19,23 @@
         "question": "Qual è la differenza tra i piani mensili e annuali?"
       },
       {
-        "answer": "Sì! Potete aggiornare il vostro piano in qualsiasi momento e la differenza di prezzo sarà proporzionale. Quando si effettua un upgrade, si riceve immediatamente l'intera quota di credito del nuovo piano. I downgrade entrano in vigore all'inizio del ciclo di fatturazione successivo.",
+        "answer": "Sì! Potete aggiornare il vostro piano in qualsiasi momento e la differenza di prezzo sarà proporzionale. Quando si effettua un upgrade, si riceve immediatamente l'intero credito del nuovo piano. I downgrade entrano in vigore all'inizio del ciclo di fatturazione successivo.",
         "question": "Posso aggiornare o ridurre il mio piano?"
       },
       {
-        "answer": "Per gli utenti gratuiti, i crediti giornalieri si azzerano ogni giorno e non si accumulano. Per gli abbonati, i crediti scadono in base alla data di scadenza. Ogni quota di credito ha un proprio periodo di scadenza e i crediti non utilizzati scadono automaticamente al termine di tale periodo.",
+        "answer": "Per gli utenti gratuiti, i crediti giornalieri si azzerano ogni giorno e non si accumulano. Per gli abbonati, i crediti scadono in base alla data di scadenza. Ogni credito ha un proprio periodo di scadenza e i crediti non utilizzati scadono automaticamente al termine di tale periodo.",
         "question": "Cosa succede ai crediti non utilizzati?"
       },
       {
         "answer": "Per i piani mensili, si ottengono 100 crediti per ogni dollaro speso. Per i piani annuali, si ottengono 100 crediti per dollaro per 12 mesi. Ad esempio: Basic mensile (15 dollari) = 1.500 crediti, Basic annuale (144 dollari) = 18.000 crediti.",
-        "question": "Come funziona il calcolo della quota di credito?"
+        "question": "Come funziona il calcolo dei crediti?"
       },
       {
         "answer": "Sì! Il passaggio da mensile ad annuale all'interno dello stesso livello di piano (ad esempio, da Basic mensile a Basic annuale) è considerato un cambiamento, non un aggiornamento. Il nuovo ciclo di fatturazione entrerà in vigore in base alla politica di modifica del piano.",
         "question": "Posso passare dalla fatturazione mensile a quella annuale?"
       },
       {
-        "answer": "Quando si effettua l'aggiornamento, viene addebitato un importo proporzionale per il resto del periodo di fatturazione corrente. Riceverete immediatamente l'intera quota di credito del nuovo piano, mentre i crediti esistenti rimarranno disponibili fino alla loro data di scadenza.",
+        "answer": "Quando si effettua l'aggiornamento, viene addebitato un importo proporzionale per il resto del periodo di fatturazione corrente. Riceverete immediatamente l'intero credito del nuovo piano, mentre i crediti esistenti rimarranno disponibili fino alla loro data di scadenza.",
         "question": "Cosa succede se faccio un upgrade a metà ciclo?"
       },
       {
@@ -55,7 +55,7 @@
         "question": "Posso cancellare il mio abbonamento in qualsiasi momento?"
       },
       {
-        "answer": "Ogni quota di credito ha un proprio periodo di scadenza. La durata esatta dipende dal piano di abbonamento e dal momento in cui i crediti sono stati concessi. È possibile controllare la data di scadenza dei crediti nel cruscotto del proprio account. I crediti vengono consumati in base al principio \"primo entrato, primo uscito\".",
+        "answer": "Ogni credito ha un proprio periodo di scadenza. La durata esatta dipende dal piano di abbonamento e dal momento in cui i crediti sono stati concessi. È possibile controllare la data di scadenza dei crediti nel cruscotto del proprio account. I crediti vengono consumati in base al principio \"primo entrato, primo uscito\".",
         "question": "Quanto durano i crediti dopo l'acquisto?"
       }
     ],
@@ -135,7 +135,7 @@
       "cta": "Iniziare",
       "description": "Perfetto per la prova personale e l'uso leggero",
       "features": [
-        "{quota} quota di crediti al giorno",
+        "{quota} quota di crediti giornaliera",
         "Può generare fino a {quota}/5 immagini al giorno",
         "Modelli di AI di base",
         "Risoluzione standard (512x512)"

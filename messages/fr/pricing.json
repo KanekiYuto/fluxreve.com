@@ -19,23 +19,23 @@
         "question": "Quelle est la différence entre les plans mensuels et annuels ?"
       },
       {
-        "answer": "Oui, vous pouvez passer à un plan supérieur à tout moment, et la différence de prix sera calculée au prorata. Lorsque vous passez à un niveau supérieur, vous recevez immédiatement l'intégralité du quota de crédit du nouveau plan. Les rétrogradations prennent effet au début de votre prochain cycle de facturation.",
+        "answer": "Oui, vous pouvez passer à un plan supérieur à tout moment, et la différence de prix sera calculée au prorata. Lorsque vous passez à un niveau supérieur, vous recevez immédiatement l'intégralité des crédits du nouveau plan. Les rétrogradations prennent effet au début de votre prochain cycle de facturation.",
         "question": "Puis-je passer à un plan supérieur ou inférieur ?"
       },
       {
-        "answer": "Pour les utilisateurs gratuits, les crédits quotidiens sont réinitialisés chaque jour et ne s'accumulent pas. Pour les abonnés, les crédits expirent en fonction de leur date d'expiration. Chaque quota de crédits a sa propre période d'expiration, et les crédits non utilisés expirent automatiquement à la fin de cette période.",
+        "answer": "Pour les utilisateurs gratuits, les crédits quotidiens sont réinitialisés chaque jour et ne s'accumulent pas. Pour les abonnés, les crédits expirent en fonction de leur date d'expiration. Chaque crédit a sa propre période d'expiration, et les crédits non utilisés expirent automatiquement à la fin de cette période.",
         "question": "Qu'advient-il des crédits non utilisés ?"
       },
       {
         "answer": "Pour les plans mensuels, vous obtenez 100 crédits par dollar dépensé. Pour les plans annuels, vous obtenez 100 crédits par dollar × 12 mois. Par exemple, le forfait mensuel de base (15 $) = 1 500 crédits : forfait mensuel de base (15 $) = 1 500 crédits, forfait annuel de base (144 $) = 18 000 crédits.",
-        "question": "Comment fonctionne le calcul des quotas de crédit ?"
+        "question": "Comment fonctionne le calcul des crédits ?"
       },
       {
         "answer": "Oui ! Le passage d'un abonnement mensuel à un abonnement annuel au sein d'un même niveau d'abonnement (par exemple, de l'abonnement mensuel Basic à l'abonnement annuel Basic) est considéré comme un changement et non comme une mise à niveau. Le nouveau cycle de facturation prendra effet conformément à la politique de changement de plan.",
         "question": "Puis-je passer d'une facturation mensuelle à une facturation annuelle ?"
       },
       {
-        "answer": "Lorsque vous passez à un plan supérieur, vous êtes facturé au prorata pour le reste de la période de facturation en cours. Vous recevrez immédiatement la totalité du quota de crédits de votre nouveau plan, et les crédits existants resteront disponibles jusqu'à leur date d'expiration.",
+        "answer": "Lorsque vous passez à un plan supérieur, vous êtes facturé au prorata pour le reste de la période de facturation en cours. Vous recevrez immédiatement la totalité des crédits de votre nouveau plan, et les crédits existants resteront disponibles jusqu'à leur date d'expiration.",
         "question": "Que se passe-t-il lorsque j'effectue une mise à niveau en milieu de cycle ?"
       },
       {
@@ -55,7 +55,7 @@
         "question": "Puis-je résilier mon abonnement à tout moment ?"
       },
       {
-        "answer": "Chaque quota de crédits est assorti d'un délai d'expiration. La durée exacte dépend de votre plan d'abonnement et de la date à laquelle les crédits ont été accordés. Vous pouvez vérifier la date d'expiration de vos crédits dans le tableau de bord de votre compte. Les crédits sont consommés selon le principe du premier entré, premier sorti.",
+        "answer": "Chaque crédit est assorti d'un délai d'expiration. La durée exacte dépend de votre plan d'abonnement et de la date à laquelle les crédits ont été accordés. Vous pouvez vérifier la date d'expiration de vos crédits dans le tableau de bord de votre compte. Les crédits sont consommés selon le principe du premier entré, premier sorti.",
         "question": "Quelle est la durée de validité des crédits après l'achat ?"
       }
     ],
@@ -135,7 +135,7 @@
       "cta": "Commencer",
       "description": "Parfait pour un essai personnel et un usage léger",
       "features": [
-        "{quota} quota de crédits par jour",
+        "{quota} quota de crédits quotidien",
         "Peut générer jusqu'à {quota}/5 images par jour",
         "Modèles d'IA de base",
         "Résolution standard (512x512)"

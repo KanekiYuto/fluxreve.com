@@ -9,8 +9,8 @@
       "analyticsDesc": "Visualizzare statistiche dettagliate e metriche delle prestazioni",
       "projects": "Gestione del progetto",
       "projectsDesc": "Organizzare e gestire tutti i progetti creativi",
-      "quota": "Quota di utilizzo",
-      "quotaDesc": "Tracciare la quota di generazione e la cronologia di utilizzo"
+      "quota": "Utilizzo Crediti",
+      "quotaDesc": "Tracciare i crediti di generazione e la cronologia di utilizzo"
     },
     "title": "Accedi per accedere al tuo cruscotto"
   },
@@ -47,8 +47,8 @@
     "projects": "Totale progetti",
     "quota": {
       "expires": "Scade",
-      "remaining": "Quota di generazione rimanente",
-      "unlimited": "Quota di generazione illimitata"
+      "remaining": "Crediti Rimanenti",
+      "unlimited": "Crediti di Generazione Illimitati"
     },
     "templates": "Modelli creati"
   },

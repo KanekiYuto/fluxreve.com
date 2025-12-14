@@ -9,13 +9,13 @@
       "analyticsDesc": "查看详细的统计数据和性能指标",
       "projects": "项目管理",
       "projectsDesc": "组织和管理所有创意项目",
-      "quota": "使用配额",
-      "quotaDesc": "跟踪您的生成配额和使用历史"
+      "quota": "使用积分",
+      "quotaDesc": "跟踪您的生成积分和使用历史"
     },
     "title": "登录以访问您的控制面板"
   },
   "marketing": {
-    "description": "升级计划可获得更多点数、超高分辨率、批量生成和优先支持。",
+    "description": "升级计划可获得更多积分、超高分辨率、批量生成和优先支持。",
     "learnMoreButton": "了解更多",
     "title": "解锁更强大的功能",
     "upgradeButton": "立即升级"
@@ -47,8 +47,8 @@
     "projects": "项目总数",
     "quota": {
       "expires": "到期",
-      "remaining": "剩余配额",
-      "unlimited": "无限生成配额"
+      "remaining": "剩余积分",
+      "unlimited": "无限生成积分"
     },
     "templates": "创建的模板"
   },

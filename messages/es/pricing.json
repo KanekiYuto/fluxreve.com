@@ -19,23 +19,23 @@
         "question": "¿Cuál es la diferencia entre los planes mensuales y anuales?"
       },
       {
-        "answer": "Sí, puede cambiar de plan en cualquier momento y la diferencia de precio se prorrateará. Al cambiar de plan, recibirá inmediatamente toda la cuota de crédito del nuevo plan. Las reducciones de plan entran en vigor al inicio del siguiente ciclo de facturación.",
+        "answer": "Sí, puede cambiar de plan en cualquier momento y la diferencia de precio se prorrateará. Al cambiar de plan, recibirá inmediatamente todos los créditos del nuevo plan. Las reducciones de plan entran en vigor al inicio del siguiente ciclo de facturación.",
         "question": "¿Puedo cambiar de plan?"
       },
       {
-        "answer": "Para los usuarios gratuitos, los créditos diarios se reinician cada día y no se acumulan. Para los suscriptores, los créditos caducan en función de su fecha de vencimiento. Cada cuota de créditos tiene su propio periodo de caducidad, y los créditos no utilizados caducarán automáticamente cuando finalice dicho periodo.",
+        "answer": "Para los usuarios gratuitos, los créditos diarios se reinician cada día y no se acumulan. Para los suscriptores, los créditos caducan en función de su fecha de vencimiento. Cada crédito tiene su propio periodo de caducidad, y los créditos no utilizados caducarán automáticamente cuando finalice dicho periodo.",
         "question": "¿Qué ocurre con los créditos no utilizados?"
       },
       {
         "answer": "En los planes mensuales, se obtienen 100 créditos por dólar gastado. En los planes anuales, se obtienen 100 créditos por dólar gastado × 12 meses. Por ejemplo: Básico mensual (15 $) = 1.500 créditos, Básico anual (144 $) = 18.000 créditos.",
-        "question": "¿Cómo se calcula la cuota de crédito?"
+        "question": "¿Cómo se calculan los créditos?"
       },
       {
         "answer": "Sí. El cambio de mensual a anual dentro del mismo nivel de plan (por ejemplo, de Básico mensual a Básico anual) se considera un cambio, no una actualización. El nuevo ciclo de facturación entrará en vigor de acuerdo con la política de cambio de plan.",
         "question": "¿Puedo cambiar entre facturación mensual y anual?"
       },
       {
-        "answer": "Cuando actualice su plan, se le cobrará una cantidad prorrateada por el resto de su periodo de facturación actual. Recibirás inmediatamente la cuota completa de créditos de tu nuevo plan, y los créditos existentes seguirán disponibles hasta su fecha de caducidad.",
+        "answer": "Cuando actualice su plan, se le cobrará una cantidad prorrateada por el resto de su periodo de facturación actual. Recibirás inmediatamente todos los créditos de tu nuevo plan, y los créditos existentes seguirán disponibles hasta su fecha de caducidad.",
         "question": "¿Qué pasa si actualizo a mitad de ciclo?"
       },
       {
@@ -55,7 +55,7 @@
         "question": "¿Puedo cancelar mi suscripción en cualquier momento?"
       },
       {
-        "answer": "Cada cuota de créditos tiene su propio periodo de caducidad. La duración exacta depende de su plan de suscripción y de cuándo se concedieron los créditos. Puede consultar la fecha de caducidad de sus créditos en el panel de control de su cuenta. Los créditos se consumen por orden de llegada.",
+        "answer": "Cada crédito tiene su propio periodo de caducidad. La duración exacta depende de su plan de suscripción y de cuándo se concedieron los créditos. Puede consultar la fecha de caducidad de sus créditos en el panel de control de su cuenta. Los créditos se consumen por orden de llegada.",
         "question": "¿Cuánto duran los créditos después de la compra?"
       }
     ],
@@ -135,7 +135,7 @@
       "cta": "Comenzar",
       "description": "Perfecto para pruebas personales y un uso ligero",
       "features": [
-        "{quota} cuota de créditos por día",
+        "{quota} cuota de créditos diaria",
         "Puede generar hasta {quota}/5 imágenes al día",
         "Modelos básicos de IA",
         "Resolución estándar (512x512)"

@@ -110,14 +110,14 @@
       },
       {
         "question": "Can I upgrade or downgrade my plan?",
-        "answer": "Yes! You can upgrade your plan at any time, and the price difference will be prorated. When upgrading, you'll receive the full credit quota of the new plan immediately. Downgrades take effect at the start of your next billing cycle."
+        "answer": "Yes! You can upgrade your plan at any time, and the price difference will be prorated. When upgrading, you'll receive the full credits of the new plan immediately. Downgrades take effect at the start of your next billing cycle."
       },
       {
         "question": "What happens to unused credits?",
-        "answer": "For free users, daily credits reset every day and don't accumulate. For subscribers, credits expire based on their expiration date. Each credit quota has its own expiration period, and unused credits will automatically expire when that period ends."
+        "answer": "For free users, daily credits reset every day and don't accumulate. For subscribers, credits expire based on their expiration date. Each credit has its own expiration period, and unused credits will automatically expire when that period ends."
       },
       {
-        "question": "How does credit quota calculation work?",
+        "question": "How does credit calculation work?",
         "answer": "For monthly plans, you get 100 credits per dollar spent. For yearly plans, you get 100 credits per dollar × 12 months. For example: Basic monthly ($15) = 1,500 credits, Basic yearly ($144) = 18,000 credits."
       },
       {
@@ -126,7 +126,7 @@
       },
       {
         "question": "What happens when I upgrade mid-cycle?",
-        "answer": "When you upgrade, you'll be charged a prorated amount for the remainder of your current billing period. You'll immediately receive the full credit quota of your new plan, and any existing credits remain available until their expiration date."
+        "answer": "When you upgrade, you'll be charged a prorated amount for the remainder of your current billing period. You'll immediately receive the full credits of your new plan, and any existing credits remain available until their expiration date."
       },
       {
         "question": "Can I use the generated images commercially?",
@@ -146,7 +146,7 @@
       },
       {
         "question": "How long do credits last after purchase?",
-        "answer": "Each credit quota comes with its own expiration period. The exact duration depends on your subscription plan and when the credits were granted. You can check the expiration date of your credits in your account dashboard. Credits are consumed on a first-in, first-out basis."
+        "answer": "Each credit comes with its own expiration period. The exact duration depends on your subscription plan and when the credits were granted. You can check the expiration date of your credits in your account dashboard. Credits are consumed on a first-in, first-out basis."
       }
     ]
   }

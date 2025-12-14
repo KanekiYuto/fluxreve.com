@@ -9,8 +9,8 @@
       "analyticsDesc": "Se detaljerede statistikker og præstationsmålinger",
       "projects": "Projektledelse",
       "projectsDesc": "Organiser og administrer alle dine kreative projekter",
-      "quota": "Brugskvote",
-      "quotaDesc": "Spor din generationskvote og brugshistorik"
+      "quota": "Brug af Kreditter",
+      "quotaDesc": "Spor dine genereringskreditter og brugshistorik"
     },
     "title": "Log ind for at få adgang til dit dashboard"
   },
@@ -47,8 +47,8 @@
     "projects": "Samlede projekter",
     "quota": {
       "expires": "udløber",
-      "remaining": "Resterende generationskvote",
-      "unlimited": "Ubegrænset generationskvote"
+      "remaining": "Resterende Kreditter",
+      "unlimited": "Ubegrænset Genereringskreditter"
     },
     "templates": "Oprettede skabeloner"
   },

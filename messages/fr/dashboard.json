@@ -9,8 +9,8 @@
       "analyticsDesc": "Afficher des statistiques détaillées et des mesures de performance",
       "projects": "Gestion de projet",
       "projectsDesc": "Organiser et gérer tous vos projets créatifs",
-      "quota": "Quota d'utilisation",
-      "quotaDesc": "Suivez votre quota de production et l'historique de votre utilisation"
+      "quota": "Utilisation de Crédits",
+      "quotaDesc": "Suivez vos crédits de génération et l'historique de votre utilisation"
     },
     "title": "Connectez-vous pour accéder à votre tableau de bord"
   },
@@ -47,8 +47,8 @@
     "projects": "Total des projets",
     "quota": {
       "expires": "expire",
-      "remaining": "Quota de génération restant",
-      "unlimited": "Quota de génération illimité"
+      "remaining": "Crédits Restants",
+      "unlimited": "Crédits de Génération Illimités"
     },
     "templates": "Modèles créés"
   },

@@ -9,8 +9,8 @@
       "analyticsDesc": "Visa detaljerad statistik och prestationsmått",
       "projects": "Projektledning",
       "projectsDesc": "Organisera och hantera alla dina kreativa projekt",
-      "quota": "Användningskvot",
-      "quotaDesc": "Spåra din generationskvot och användningshistorik"
+      "quota": "Användning av Krediter",
+      "quotaDesc": "Spåra dina genereringskrediter och användningshistorik"
     },
     "title": "Logga in för att komma åt din instrumentpanel"
   },
@@ -47,8 +47,8 @@
     "projects": "Totalt antal projekt",
     "quota": {
       "expires": "löper ut",
-      "remaining": "Återstående generationskvot",
-      "unlimited": "Obegränsad generationskvot"
+      "remaining": "Återstående Krediter",
+      "unlimited": "Obegränsade Genereringskrediter"
     },
     "templates": "Skapade mallar"
   },

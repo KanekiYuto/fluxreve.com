@@ -9,8 +9,8 @@
       "analyticsDesc": "Se detaljert statistikk og ytelsesmålinger",
       "projects": "Prosjektledelse",
       "projectsDesc": "Organiser og administrer alle dine kreative prosjekter",
-      "quota": "Brukskvote",
-      "quotaDesc": "Spor generasjonskvoten og brukshistorikken din"
+      "quota": "Bruk av Kreditter",
+      "quotaDesc": "Spor genereringskredittene og brukshistorikken din"
     },
     "title": "Logg inn for å få tilgang til dashbordet ditt"
   },
@@ -47,8 +47,8 @@
     "projects": "Totalt antall prosjekter",
     "quota": {
       "expires": "utløper",
-      "remaining": "Gjenværende generasjonskvote",
-      "unlimited": "Ubegrenset generasjonskvote"
+      "remaining": "Gjenværende Kreditter",
+      "unlimited": "Ubegrensede Genereringskreditter"
     },
     "templates": "Opprettede maler"
   },

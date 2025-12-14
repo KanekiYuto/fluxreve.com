@@ -12,8 +12,8 @@
     "description": "Create an account or sign in to unlock all features, track your usage, and manage your projects.",
     "cta": "Sign In Now",
     "features": {
-      "quota": "Usage Quota",
-      "quotaDesc": "Track your generation quota and usage history",
+      "quota": "Usage Credits",
+      "quotaDesc": "Track your generation credits and usage history",
       "projects": "Project Management",
       "projectsDesc": "Organize and manage all your creative projects",
       "analytics": "Analytics & Stats",
@@ -28,8 +28,8 @@
   },
   "stats": {
     "quota": {
-      "remaining": "Remaining Generation Quota",
-      "unlimited": "Unlimited Generation Quota",
+      "remaining": "Remaining Credits",
+      "unlimited": "Unlimited Generation Credits",
       "expires": "expires"
     },
     "projects": "Total Projects",

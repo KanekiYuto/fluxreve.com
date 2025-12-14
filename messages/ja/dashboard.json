@@ -9,8 +9,8 @@
       "analyticsDesc": "詳細な統計とパフォーマンスメトリクスの表示",
       "projects": "プロジェクト管理",
       "projectsDesc": "クリエイティブなプロジェクトを整理・管理",
-      "quota": "利用枠",
-      "quotaDesc": "生成可能なクォータと使用履歴を追跡"
+      "quota": "クレジット使用",
+      "quotaDesc": "生成クレジットと使用履歴を追跡"
     },
     "title": "サインインしてダッシュボードにアクセスする"
   },
@@ -47,8 +47,8 @@
     "projects": "プロジェクト合計",
     "quota": {
       "expires": "期限切れ",
-      "remaining": "残り利用枠",
-      "unlimited": "無制限の生成"
+      "remaining": "残りクレジット",
+      "unlimited": "無制限の生成クレジット"
     },
     "templates": "作成されたテンプレート"
   },

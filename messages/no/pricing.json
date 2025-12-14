@@ -19,23 +19,23 @@
         "question": "Hva er forskjellen mellom månedlige og årlige planer?"
       },
       {
-        "answer": "Ja! Du kan oppgradere abonnementet ditt når som helst, og prisforskjellen vil bli forholdsmessig fordelt. Når du oppgraderer, mottar du hele kreditten for det nye abonnementet umiddelbart. Nedgraderinger trer i kraft ved starten av neste faktureringsperiode.",
+        "answer": "Ja! Du kan oppgradere abonnementet ditt når som helst, og prisforskjellen vil bli forholdsmessig fordelt. Når du oppgraderer, mottar du alle kredittene for det nye abonnementet umiddelbart. Nedgraderinger trer i kraft ved starten av neste faktureringsperiode.",
         "question": "Kan jeg oppgradere eller nedgradere planen min?"
       },
       {
-        "answer": "For gratisbrukere nullstilles de daglige kredittene hver dag og akkumuleres ikke. For abonnenter utløper kredittene basert på utløpsdatoen. Hver kredittkvote har sin egen utløpsperiode, og ubrukte kreditter utløper automatisk når den perioden er over.",
+        "answer": "For gratisbrukere nullstilles de daglige kredittene hver dag og akkumuleres ikke. For abonnenter utløper kredittene basert på utløpsdatoen. Hver kreditt har sin egen utløpsperiode, og ubrukte kreditter utløper automatisk når den perioden er over.",
         "question": "Hva skjer med ubrukte kreditter?"
       },
       {
         "answer": "For månedlige abonnementer får du 100 kreditter per dollar du bruker. For årsplaner får du 100 kreditter per dollar × 12 måneder. For eksempel: Basis månedlig ($15) = 1500 kreditter, Basis årlig ($144) = 18 000 kreditter.",
-        "question": "Hvordan fungerer beregning av kredittkvote?"
+        "question": "Hvordan fungerer beregning av kreditter?"
       },
       {
         "answer": "Ja! Å bytte fra månedlig til årlig innenfor samme plannivå (f.eks. Basic månedlig til Basic årlig) regnes som en endring, ikke en oppgradering. Den nye faktureringsperioden trer i kraft i henhold til retningslinjene for planendring.",
         "question": "Kan jeg bytte mellom månedlig og årlig fakturering?"
       },
       {
-        "answer": "Når du oppgraderer, blir du belastet et forholdsmessig beløp for resten av den nåværende faktureringsperioden. Du vil umiddelbart motta hele kreditten for den nye planen din, og eventuelle eksisterende kreditter forblir tilgjengelige frem til utløpsdatoen.",
+        "answer": "Når du oppgraderer, blir du belastet et forholdsmessig beløp for resten av den nåværende faktureringsperioden. Du vil umiddelbart motta alle kredittene for den nye planen din, og eventuelle eksisterende kreditter forblir tilgjengelige frem til utløpsdatoen.",
         "question": "Hva skjer når jeg oppgraderer midt i en syklus?"
       },
       {
@@ -55,7 +55,7 @@
         "question": "Kan jeg når som helst kansellere abonnementet mitt?"
       },
       {
-        "answer": "Hver kredittkvote har sin egen utløpsperiode. Den nøyaktige varigheten avhenger av abonnementet ditt og når kredittene ble tildelt. Du kan sjekke utløpsdatoen for kredittene dine i kontodashbordet ditt. Kreditter forbrukes etter først inn, først ut-prinsippet.",
+        "answer": "Hver kreditt har sin egen utløpsperiode. Den nøyaktige varigheten avhenger av abonnementet ditt og når kredittene ble tildelt. Du kan sjekke utløpsdatoen for kredittene dine i kontodashbordet ditt. Kreditter forbrukes etter først inn, først ut-prinsippet.",
         "question": "Hvor lenge varer kreditter etter kjøp?"
       }
     ],
@@ -135,7 +135,7 @@
       "cta": "Kom i gang",
       "description": "Perfekt for personlig prøveperiode og lett bruk",
       "features": [
-        "{quota} kredittkvote per dag",
+        "{quota} kredittkvote daglig",
         "Kan generere opptil {quota}/5 bilder per dag",
         "Grunnleggende AI-modeller",
         "Standardoppløsning (512x512)"

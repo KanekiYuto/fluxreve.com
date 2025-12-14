@@ -9,8 +9,8 @@
       "analyticsDesc": "Detaillierte Statistiken und Leistungsmetriken anzeigen",
       "projects": "Projektleitung",
       "projectsDesc": "Organisieren und verwalten Sie alle Ihre kreativen Projekte",
-      "quota": "Usage Quota",
-      "quotaDesc": "Verfolgen Sie Ihr Erzeugungskontingent und Ihre Nutzungshistorie"
+      "quota": "Nutzung von Guthaben",
+      "quotaDesc": "Verfolgen Sie Ihr Erzeugungsguthaben und Ihre Nutzungshistorie"
     },
     "title": "Anmelden, um auf Ihr Dashboard zuzugreifen"
   },
@@ -47,8 +47,8 @@
     "projects": "Projekte insgesamt",
     "quota": {
       "expires": "Läuft ab",
-      "remaining": "Verbleibende Erzeugungsquoten",
-      "unlimited": "Unbegrenztes Generationskontingent"
+      "remaining": "Verbleibendes Guthaben",
+      "unlimited": "Unbegrenztes Erzeugungsguthaben"
     },
     "templates": "Erstellte Vorlagen"
   },

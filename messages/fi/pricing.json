@@ -19,23 +19,23 @@
         "question": "Mitä eroa on kuukausi- ja vuositilauksilla?"
       },
       {
-        "answer": "Kyllä! Voit päivittää pakettiasi milloin tahansa, ja hintaero hyvitetään sinulle. Päivittäessäsi saat uuden sopimuksen täyden luottokiintiön välittömästi. Alentuneet päivitykset tulevat voimaan seuraavan laskutusjakson alussa.",
+        "answer": "Kyllä! Voit päivittää pakettiasi milloin tahansa, ja hintaero hyvitetään sinulle. Päivittäessäsi saat uuden sopimuksen täyden luoton välittömästi. Alentuneet päivitykset tulevat voimaan seuraavan laskutusjakson alussa.",
         "question": "Voinko päivittää tai alentaa liittymääni?"
       },
       {
-        "answer": "Ilmaiskäyttäjillä päivittäiset krediitit nollautuvat päivittäin eivätkä kerry. Tilaajilla krediitit vanhenevat niiden viimeisen voimassaolopäivän mukaisesti. Jokaisella krediittikiintiöllä on oma vanhenemisaikansa, ja käyttämättömät krediitit vanhenevat automaattisesti kyseisen ajan päättyessä.",
+        "answer": "Ilmaiskäyttäjillä päivittäiset krediitit nollautuvat päivittäin eivätkä kerry. Tilaajilla krediitit vanhenevat niiden viimeisen voimassaolopäivän mukaisesti. Jokaisella krediitilla on oma vanhenemisaikansa, ja käyttämättömät krediitit vanhenevat automaattisesti kyseisen ajan päättyessä.",
         "question": "Mitä käyttämättömille krediiteille tapahtuu?"
       },
       {
         "answer": "Kuukausitilauksissa saat 100 krediittiä jokaista käytettyä dollaria kohden. Vuositilauksissa saat 100 krediittiä jokaista käytettyä dollaria × 12 kuukautta kohden. Esimerkiksi: Peruskuukausitilaus (15 dollaria) = 1 500 krediittiä, Perusvuositilaus (144 dollaria) = 18 000 krediittiä.",
-        "question": "Miten luottokiintiön laskenta toimii?"
+        "question": "Miten luoton laskenta toimii?"
       },
       {
         "answer": "Kyllä! Vaihtaminen kuukausitilauksesta vuositilaukseen saman pakettitason sisällä (esim. peruskuukausitilauksesta perusvuositilaukseen) katsotaan muutokseksi, ei päivitykseksi. Uusi laskutusjakso tulee voimaan pakettimuutoskäytännön mukaisesti.",
         "question": "Voinko vaihtaa kuukausittaisen ja vuosittaisen laskutuksen välillä?"
       },
       {
-        "answer": "Kun päivität, sinulta veloitetaan suhteellinen summa jäljellä olevasta laskutuskaudesta. Saat heti uuden sopimuksesi täyden luottokiintiön, ja kaikki olemassa olevat luottot pysyvät käytettävissä niiden vanhenemispäivään asti.",
+        "answer": "Kun päivität, sinulta veloitetaan suhteellinen summa jäljellä olevasta laskutuskaudesta. Saat heti uuden sopimuksesi täyden luoton, ja kaikki olemassa olevat luotot pysyvät käytettävissä niiden vanhenemispäivään asti.",
         "question": "Mitä tapahtuu, kun päivitän kesken syklin?"
       },
       {
@@ -55,7 +55,7 @@
         "question": "Voinko peruuttaa tilaukseni milloin tahansa?"
       },
       {
-        "answer": "Jokaisella luottokiintiöllä on oma voimassaoloaikansa. Tarkka kesto riippuu tilauspaketistasi ja luottojen myöntämisajankohdasta. Voit tarkistaa luottojesi voimassaoloajan tilisi hallintapaneelista. Krediittejä käytetään &quot;ensimmäinen sisään, ensimmäinen ulos&quot; -periaatteella.",
+        "answer": "Jokaisella luotolla on oma voimassaoloaikansa. Tarkka kesto riippuu tilauspaketistasi ja luottojen myöntämisajankohdasta. Voit tarkistaa luottojesi voimassaoloajan tilisi hallintapaneelista. Krediittejä käytetään &quot;ensimmäinen sisään, ensimmäinen ulos&quot; -periaatteella.",
         "question": "Kuinka kauan hyvitykset ovat voimassa oston jälkeen?"
       }
     ],
@@ -135,7 +135,7 @@
       "cta": "Aloita",
       "description": "Täydellinen henkilökohtaiseen kokeiluun ja kevyeen käyttöön",
       "features": [
-        "{quota} krediittikiintiö päivässä",
+        "{quota} krediittikiintiö päivittäin",
         "Voi luoda jopa {quota}/5 kuvaa päivässä",
         "Perustekoälymallit",
         "Vakioresoluutio (512x512)"

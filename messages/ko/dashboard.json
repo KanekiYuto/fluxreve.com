@@ -9,8 +9,8 @@
       "analyticsDesc": "자세한 통계 및 성능 지표 보기",
       "projects": "프로젝트 관리",
       "projectsDesc": "모든 크리에이티브 프로젝트를 정리하고 관리하세요",
-      "quota": "사용량 할당량",
-      "quotaDesc": "세대별 할당량 및 사용 내역 추적"
+      "quota": "크레딧 사용",
+      "quotaDesc": "세대별 크레딧 및 사용 내역 추적"
     },
     "title": "로그인하여 대시보드에 액세스하기"
   },
@@ -47,8 +47,8 @@
     "projects": "총 프로젝트 수",
     "quota": {
       "expires": "만료",
-      "remaining": "남은 세대 할당량",
-      "unlimited": "무제한 세대 할당량"
+      "remaining": "남은 크레딧",
+      "unlimited": "무제한 생성 크레딧"
     },
     "templates": "생성된 템플릿"
   },
