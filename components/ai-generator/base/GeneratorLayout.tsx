@@ -74,7 +74,25 @@ export default function GeneratorLayout({
       openLoginModal();
       return;
     }
-    onGenerate();
+
+    console.log('handleGenerateClick');
+
+    // 调用谷歌广告转换追踪
+    if (typeof window !== 'undefined' && typeof (window as any).gtag === 'function') {
+      const callback = () => {
+        onGenerate();
+      };
+      (window as any).gtag('event', 'conversion', {
+        'send_to': 'AW-17790324344/yBvBCLytuNEbEPici6NC',
+        'event_callback': callback,
+      });
+
+      console.log('gtag conversion event triggered');
+    } else {
+      console.log('gtag conversion event not triggered');
+      // 如果 gtag 不可用，直接执行
+      onGenerate();
+    }
   };
 
   // 根据状态决定显示的内容
@@ -116,6 +134,45 @@ export default function GeneratorLayout({
     // 默认空状态
     return null;
   };
+
+  // 渲染生成按钮
+  const renderGeneratingButton = () => {
+    // 用户未登录
+    if (!session) {
+      return (
+        <button
+          type="button"
+          onClick={openLoginModal}
+          className={generateButtonClassName}
+        >
+          {tAuth('loginToGenerate')}
+        </button>
+      )
+    }
+
+    // 生成中...
+    if (isLoading) {
+      return (
+        <button
+          type="button"
+          className={generateButtonClassName}
+        >
+          {progressText || tGenerate('generating', { progress })}
+        </button>
+      );
+    }
+
+    return (
+      <button
+        type="button"
+        onClick={handleGenerateClick}
+        className={generateButtonClassName}
+      >
+        {generateButtonText || tGenerate('generateImage', { credits: requiredCredits || 0 })}
+      </button>
+    );
+  }
+
   return (
     <div className="space-y-6">
       {/* 左右布局 */}
@@ -135,18 +192,7 @@ export default function GeneratorLayout({
           {/* 生成按钮区域 - 粘性定位在底部 */}
           <div className="sticky bottom-2 rounded-xl p-4 gradient-border">
             <div className="space-y-3">
-              <button
-                type="button"
-                onClick={handleGenerateClick}
-                disabled={isLoading}
-                className={generateButtonClassName}
-              >
-                {isLoading
-                  ? (progressText || tGenerate('generating', { progress }))
-                  : !session
-                  ? tAuth('loginToGenerate')
-                  : (generateButtonText || tGenerate('generateImage', { credits: requiredCredits || 0 }))}
-              </button>
+              {renderGeneratingButton()}
               {session && credits !== undefined && (
                 <CreditsCard
                   credits={credits}
