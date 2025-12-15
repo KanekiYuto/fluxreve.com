@@ -186,11 +186,11 @@ async function transferImageToR2(
 /**
  * 异步执行 NSFW 检查并更新任务
  */
-async function performNSFWCheckAsync(taskId: string, imageUrl: string) {
+async function performNSFWCheckAsync(taskId: string, imageUrl: string, promptText: string) {
   try {
     console.log(`[NSFW Check] Starting async check for task ${taskId}, image: ${imageUrl}`);
 
-    const nsfwCheckResult = await checkImageNSFWWithDetails(imageUrl);
+    const nsfwCheckResult = await checkImageNSFWWithDetails(imageUrl, promptText);
 
     // 更新任务的 NSFW 状态
     await db
@@ -217,7 +217,8 @@ async function performNSFWCheckAsync(taskId: string, imageUrl: string) {
 async function transferAndUpdateTask(
   taskId: string,
   outputs: string[],
-  model: string
+  model: string,
+  promptText: string
 ) {
   try {
     // 1. 转存图片到 R2
@@ -255,7 +256,7 @@ async function transferAndUpdateTask(
     // 4. 只对配置中指定的模型进行 NSFW 检查
     const shouldCheckNSFW = NSFW_CHECK_MODELS.includes(model as any);
     if (shouldCheckNSFW && results.length > 0) {
-      performNSFWCheckAsync(taskId, results[0].url).catch((error) => {
+      performNSFWCheckAsync(taskId, results[0].url, promptText).catch((error) => {
         console.error(`[NSFW Check] Async execution failed for task ${taskId}:`, error);
       });
       console.log(`[NSFW Check] Async check scheduled for task ${taskId}`);
@@ -268,7 +269,7 @@ async function transferAndUpdateTask(
 /**
  * 处理任务完成
  */
-async function handleTaskCompleted(taskId: string, outputs: string[], startedAt: Date | null, model: string) {
+async function handleTaskCompleted(taskId: string, outputs: string[], startedAt: Date | null, model: string, promptText: string) {
   const durationMs = calculateDuration(startedAt);
 
   // 快速更新任务状态为完成（使用原始 URL）
@@ -299,7 +300,7 @@ async function handleTaskCompleted(taskId: string, outputs: string[], startedAt:
 
   // 异步转存图片到 R2，不阻塞 webhook 响应
   // 这会在后台进行，最终使用 R2 URL 和水印 URL 更新数据库
-  transferAndUpdateTask(taskId, outputs, model).catch((error) => {
+  transferAndUpdateTask(taskId, outputs, model, promptText).catch((error) => {
     console.error(`[Image Transfer] Async execution failed for task ${taskId}:`, error);
   });
 }
@@ -468,7 +469,9 @@ export async function POST(
     switch (status) {
       case 'completed':
         if (outputs && outputs.length > 0) {
-          await handleTaskCompleted(taskId, outputs, task.startedAt, task.model);
+          // 从任务参数中提取 prompt
+          const promptText = (task.parameters as any)?.prompt || '';
+          await handleTaskCompleted(taskId, outputs, task.startedAt, task.model, promptText);
         }
         break;
 

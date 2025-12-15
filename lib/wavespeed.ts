@@ -105,11 +105,13 @@ export interface ContentModeratorResponse {
 /**
  * 检查图片是否为 NSFW 内容
  * @param imageUrl 图片 URL
+ * @param promptText 提示词文本
  * @param enableSyncMode 是否使用同步模式（默认 true）
  * @returns NSFW 检测结果
  */
 export async function checkImageNSFW(
   imageUrl: string,
+  promptText: string,
   enableSyncMode: boolean = true
 ): Promise<ContentModeratorResponse> {
   const apiResponse = await wavespeedRequest<ContentModeratorAPIResponse>('/wavespeed-ai/content-moderator/image', {
@@ -117,6 +119,7 @@ export async function checkImageNSFW(
     body: {
       image: imageUrl,
       enable_sync_mode: enableSyncMode,
+      text: promptText,
     },
   });
 
@@ -135,11 +138,12 @@ export interface NSFWCheckResult {
 /**
  * 检查图片是否为 NSFW 内容，返回详细结果
  * @param imageUrl 图片 URL
+ * @param promptText 提示词文本
  * @returns NSFW 检查结果，包含布尔值和详细信息
  */
-export async function checkImageNSFWWithDetails(imageUrl: string): Promise<NSFWCheckResult> {
+export async function checkImageNSFWWithDetails(imageUrl: string, promptText: string): Promise<NSFWCheckResult> {
   try {
-    const result = await checkImageNSFW(imageUrl, true);
+    const result = await checkImageNSFW(imageUrl, promptText, true);
 
     console.log(`[NSFW API Response] for ${imageUrl}:`, JSON.stringify(result, null, 2));
 
@@ -169,14 +173,4 @@ export async function checkImageNSFWWithDetails(imageUrl: string): Promise<NSFWC
       details: null,
     };
   }
-}
-
-/**
- * 简化的 NSFW 检查函数，直接返回布尔值
- * @param imageUrl 图片 URL
- * @returns 是否为 NSFW 内容
- */
-export async function isImageNSFW(imageUrl: string): Promise<boolean> {
-  const result = await checkImageNSFWWithDetails(imageUrl);
-  return result.isNsfw;
 }
