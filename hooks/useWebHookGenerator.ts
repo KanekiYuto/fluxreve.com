@@ -144,7 +144,15 @@ export function useWebHookGenerator(config: WebHookGeneratorConfig) {
           if (status === 'failed') {
             setIsLoading(false);
             setProgress(0);
-            throw new Error(statusData.error || 'Generation failed');
+            const errorMessage = typeof statusData.error === 'string'
+              ? statusData.error
+              : (statusData.error?.message || 'Generation failed');
+            setErrorInfo({
+              type: 'generation_failed',
+              title: tError('generationFailed'),
+              message: errorMessage,
+            });
+            return true;
           }
 
           // 处理中/队列中 - 继续轮询
