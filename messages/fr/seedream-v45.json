@@ -78,10 +78,10 @@
       },
       "speed": {
         "label": "Génération d'images",
-        "value": "Presque"
+        "value": "Rapide"
       },
       "users": {
-        "label": "Texte \u0026 Image Input",
+        "label": "Texte & Image Input",
         "value": "Mode double"
       }
     },
