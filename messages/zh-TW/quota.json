@@ -11,13 +11,13 @@
   },
   "quotaTypes": {
     "daily_free": "每日免費積分",
-    "monthly_basic": "月基本費用",
-    "monthly_pro": "月度專業版",
+    "monthly_basic": "基礎月度套餐",
+    "monthly_pro": "專業月度套餐",
     "quota_pack": "積分包",
     "subscription_change_compensation": "訂閱變更補償",
-    "trial": "試用",
-    "yearly_basic": "年度基本",
-    "yearly_pro": "年度專業版"
+    "trial": "新人專享",
+    "yearly_basic": "基礎年度套餐",
+    "yearly_pro": "專業年度套餐"
   },
   "seo": {
     "description": "管理和查看您的可用積分使用情況和歷史記錄",

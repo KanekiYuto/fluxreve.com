@@ -29,21 +29,23 @@ export default function PricingPage() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
-            // 确保 gtag 已初始化，最多等待 3 秒
-            let attempts = 0;
-            const trackConversion = () => {
-              if (typeof gtag !== 'undefined') {
-                gtag('event', 'conversion', {
-                  'send_to': 'AW-17790324344/wPdWCJfKmNIbEPici6NC',
-                  'value': 1.0,
-                  'currency': 'CNY'
-                });
-              } else if (attempts < 30) {
-                attempts++;
-                setTimeout(trackConversion, 100);
-              }
-            };
-            trackConversion();
+            (function() {
+              // 确保 gtag 已初始化，最多等待 3 秒
+              let attempts = 0;
+              const trackConversion = () => {
+                if (typeof gtag !== 'undefined') {
+                  gtag('event', 'conversion', {
+                    'send_to': 'AW-17790324344/wPdWCJfKmNIbEPici6NC',
+                    'value': 1.0,
+                    'currency': 'CNY'
+                  });
+                } else if (attempts < 30) {
+                  attempts++;
+                  setTimeout(trackConversion, 100);
+                }
+              };
+              trackConversion();
+            })();
           `,
         }}
       />
