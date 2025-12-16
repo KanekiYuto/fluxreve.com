@@ -79,8 +79,8 @@
   "subtitle": "Joustavat hinnoitteluvaihtoehdot yksityishenkilöiden ja yritysten tarpeisiin",
   "tiers": [
     {
-      "cta": "Kokeile Ilmaiseksi",
-      "description": "{quota} kiintiöhyvityksiä",
+      "cta": "Lunasta Uuden Käyttäjän Etu",
+      "description": "Yksinomaan uusille käyttäjille, määräaikainen kokeilu",
       "features": [
         "{quota} krediittikiintiö",
         "Voi luoda jopa {quota}/5 korkealaatuista kuvaa",
@@ -88,7 +88,7 @@
         "Korkea resoluutio (1024x1024)",
         "Vesileimaton vienti"
       ],
-      "name": "Oikeudenkäynti",
+      "name": "Yksinomaan Uusille Käyttäjille",
       "unsupportedFeatures": [
         "Automaattinen uusiminen",
         "Erittäin korkea resoluutio",

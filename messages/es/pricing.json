@@ -79,8 +79,8 @@
   "subtitle": "Opciones de precios flexibles para satisfacer las necesidades de particulares y empresas",
   "tiers": [
     {
-      "cta": "Prueba Gratis",
-      "description": "{quota} compartir créditos",
+      "cta": "Reclamar Beneficio de Nuevo Usuario",
+      "description": "Exclusivo para nuevos usuarios, prueba por tiempo limitado",
       "features": [
         "{quota} créditos cuota",
         "Puede generar hasta {quota}/5 imágenes de alta calidad",
@@ -88,7 +88,7 @@
         "Alta resolución (1024x1024)",
         "Exportación sin marcas de agua"
       ],
-      "name": "Ensayo",
+      "name": "Exclusivo para Nuevos Usuarios",
       "unsupportedFeatures": [
         "Renovación automática",
         "Resolución ultra alta",

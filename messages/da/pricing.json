@@ -79,8 +79,8 @@
   "subtitle": "Fleksible prismuligheder, der imødekommer behovene hos både private og virksomheder",
   "tiers": [
     {
-      "cta": "Prøv Gratis",
-      "description": "{quota} kvotekreditter",
+      "cta": "Få Ny Brugerfordel",
+      "description": "Eksklusivt for nye brugere, tidsbegrænset prøveperiode",
       "features": [
         "{quota} kreditkvote",
         "Kan generere op til {quota}/5 billeder i høj kvalitet",
@@ -88,7 +88,7 @@
         "Høj opløsning (1024x1024)",
         "Eksport uden vandmærke"
       ],
-      "name": "Forsøg",
+      "name": "Eksklusivt for Nye Brugere",
       "unsupportedFeatures": [
         "Automatisk fornyelse",
         "Ultrahøj opløsning",

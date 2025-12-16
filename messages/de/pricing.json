@@ -79,8 +79,8 @@
   "subtitle": "Flexible Preisoptionen, die den Bedürfnissen von Privatpersonen und Unternehmen gerecht werden",
   "tiers": [
     {
-      "cta": "Kostenlos Testen",
-      "description": "{quota} Kontingentkredite",
+      "cta": "Neuer Benutzervorteil Anfordern",
+      "description": "Exklusiv für neue Benutzer, zeitlich begrenzter Test",
       "features": [
         "{quota} Kreditquote",
         "Kann bis zu {quota}/5 hochwertige Bilder erzeugen",
@@ -88,7 +88,7 @@
         "Hohe Auflösung (1024x1024)",
         "Wasserzeichenfreier Export"
       ],
-      "name": "Versuch",
+      "name": "Exklusiv für Neue Benutzer",
       "unsupportedFeatures": [
         "Auto-Erneuerung",
         "Ultrahohe Auflösung",

@@ -79,8 +79,8 @@
   "subtitle": "Fleksible prisalternativer for å møte behovene til enkeltpersoner og bedrifter",
   "tiers": [
     {
-      "cta": "Prøv Gratis",
-      "description": "{quota} kvotekreditter",
+      "cta": "Få Ny Brukerfordel",
+      "description": "Eksklusivt for nye brukere, tidsbegrenset prøve",
       "features": [
         "{quota} studiepoengskvote",
         "Kan generere opptil {quota}/5 bilder av høy kvalitet",
@@ -88,7 +88,7 @@
         "Høy oppløsning (1024x1024)",
         "Eksport uten vannmerke"
       ],
-      "name": "Rettssak",
+      "name": "Eksklusivt for Nye Brukere",
       "unsupportedFeatures": [
         "Automatisk fornyelse",
         "Ultrahøy oppløsning",

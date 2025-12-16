@@ -79,8 +79,8 @@
   "subtitle": "Des options tarifaires flexibles pour répondre aux besoins des particuliers et des entreprises",
   "tiers": [
     {
-      "cta": "Essayer Gratuitement",
-      "description": "{quota} crédits de quotas",
+      "cta": "Réclamer l'Avantage Nouvel Utilisateur",
+      "description": "Exclusif pour les nouveaux utilisateurs, essai à durée limitée",
       "features": [
         "{quota} quotas de crédits",
         "Peut générer jusqu'à {quota}/5 images de haute qualité",
@@ -88,7 +88,7 @@
         "Haute résolution (1024x1024)",
         "Exportation sans filigrane"
       ],
-      "name": "Procès",
+      "name": "Exclusif Nouvel Utilisateur",
       "unsupportedFeatures": [
         "Renouvellement automatique",
         "Résolution ultra-haute",

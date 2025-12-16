@@ -25,9 +25,9 @@
   },
   "tiers": [
     {
-      "name": "Trial",
-      "description": "{quota} quota credits",
-      "cta": "Try Now",
+      "name": "New User Exclusive",
+      "description": "Exclusive for new users, limited-time trial",
+      "cta": "Claim New User Benefit",
       "features": [
         "{quota} credits quota",
         "Can generate up to {quota}/5 high-quality images",
