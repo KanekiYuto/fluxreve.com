@@ -144,14 +144,14 @@ export default function TaskList() {
 
   const hasFilters = filters.statuses.length > 0 || filters.taskTypes.length > 0 || filters.models.length > 0 || filters.privacy.length > 0 || filters.nsfw.length > 0;
 
-  const handleDeleteTask = (taskId: string) => {
-    setTasks(prev => prev.filter(task => task.taskId !== taskId));
+  const handleDeleteTask = async (taskId: string) => {
+    // 删除成功后重新拉取当前页数据，确保分页信息准确
+    await fetchTasks(currentPage, filters);
   };
 
-  const handleTogglePrivacy = (taskId: string, isPrivate: boolean) => {
-    setTasks(prev => prev.map(task => 
-      task.taskId === taskId ? { ...task, isPrivate } : task
-    ));
+  const handleTogglePrivacy = async (taskId: string, isPrivate: boolean) => {
+    // 更新成功后重新拉取当前页数据，确保数据一致性
+    await fetchTasks(currentPage, filters);
   };
 
   return (
