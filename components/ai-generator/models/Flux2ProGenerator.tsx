@@ -265,6 +265,7 @@ export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-t
       results={generator.results}
       examples={EXAMPLES}
       onSelectExample={handleSelectExample}
+      modelName="flux-2-pro"
     />
   );
 }

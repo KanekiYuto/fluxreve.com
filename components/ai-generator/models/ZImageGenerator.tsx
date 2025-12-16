@@ -188,6 +188,7 @@ export default function ZImageGenerator({ modelSelector, defaultParameters, onFo
       results={generator.results}
       examples={EXAMPLES}
       onSelectExample={handleSelectExample}
+      modelName="z-image"
     />
   );
 }

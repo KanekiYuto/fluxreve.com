@@ -232,6 +232,7 @@ export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-t
       results={generator.results}
       examples={EXAMPLES}
       onSelectExample={handleSelectExample}
+      modelName="seedream-v4.5"
     />
   );
 }

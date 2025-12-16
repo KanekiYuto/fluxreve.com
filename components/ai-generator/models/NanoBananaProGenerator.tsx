@@ -288,6 +288,7 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
       results={generator.results}
       examples={EXAMPLES}
       onSelectExample={handleSelectExample}
+      modelName="nano-banana-pro"
     />
   );
 }

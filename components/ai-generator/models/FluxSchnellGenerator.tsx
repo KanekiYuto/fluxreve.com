@@ -231,6 +231,7 @@ export default function FluxSchnellGenerator({ modelSelector, defaultParameters,
       results={generator.results}
       examples={EXAMPLES}
       onSelectExample={handleSelectExample}
+      modelName="flux-schnell"
     />
   );
 }

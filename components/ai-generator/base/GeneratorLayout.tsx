@@ -87,12 +87,12 @@ export default function GeneratorLayout({
       // 如果没有匹配的转换配置，直接执行生成
       if (!conversionConfig) {
         console.log('No conversion config matched, direct generation', { model: modelName });
-        onGenerate();
+        // onGenerate();
         return;
       }
 
       const callback = () => {
-        onGenerate();
+        // onGenerate();
       };
 
       const conversionData: any = {
@@ -112,7 +112,7 @@ export default function GeneratorLayout({
     } else {
       console.log('gtag conversion event not triggered');
       // 如果 gtag 不可用，直接执行
-      onGenerate();
+      // onGenerate();
     }
   };
 

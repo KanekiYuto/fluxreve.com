@@ -225,6 +225,7 @@ export default function ZImageLoraGenerator({ modelSelector, defaultParameters, 
       results={generator.results}
       examples={EXAMPLES}
       onSelectExample={handleSelectExample}
+      modelName="z-image-lora"
     />
   );
 }
