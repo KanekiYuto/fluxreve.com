@@ -66,16 +66,16 @@ export default function SubscriptionSuccessClient() {
     if (!subscriptionData) return;
 
     if (typeof window !== 'undefined' && window.gtag) {
-      // const conversionValue = subscriptionData.amount
-      //   ? parseFloat((subscriptionData.amount / 100).toFixed(2))
-      //   : 1.0;
+      const conversionValue = subscriptionData.amount
+        ? parseFloat((subscriptionData.amount / 100).toFixed(2))
+        : 1.0;
 
-      // window.gtag('event', 'conversion', {
-      //   'send_to': 'AW-17790324344/i2oYCKCfrc4bEPici6NC',
-      //   'value': conversionValue,
-      //   'currency': subscriptionData.currency,
-      //   'transaction_id': subscriptionData.id
-      // });
+      window.gtag('event', 'conversion', {
+        'send_to': 'AW-17790324344/fpLFCKn3lNIbEPici6NC',
+        'value': conversionValue,
+        'currency': subscriptionData.currency,
+        'transaction_id': subscriptionData.id
+      });
 
       // window.gtag('event', 'conversion', {
       //   'seed_to': 'AW-17790324344/xHVlCLHFws4bEPici6NC',

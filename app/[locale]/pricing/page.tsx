@@ -22,12 +22,38 @@ export async function generateMetadata({
 
 export default function PricingPage() {
   return (
-    <div className="min-h-screen">
-      <Pricing useH1={true} />
+    <>
+      {/* Google Ads Conversion Tracking - 定价页浏览转换 */}
+      <Script
+        id="google-ads-pricing-conversion"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            // 确保 gtag 已初始化，最多等待 3 秒
+            let attempts = 0;
+            const trackConversion = () => {
+              if (typeof gtag !== 'undefined') {
+                gtag('event', 'conversion', {
+                  'send_to': 'AW-17790324344/wPdWCJfKmNIbEPici6NC',
+                  'value': 1.0,
+                  'currency': 'CNY'
+                });
+              } else if (attempts < 30) {
+                attempts++;
+                setTimeout(trackConversion, 100);
+              }
+            };
+            trackConversion();
+          `,
+        }}
+      />
+      <div className="min-h-screen">
+        <Pricing useH1={true} />
 
-      <Divider />
+        <Divider />
 
-      <FAQ namespace="pricing" />
-    </div>
+        <FAQ namespace="pricing" />
+      </div>
+    </>
   );
 }
