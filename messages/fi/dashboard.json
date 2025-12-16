@@ -57,7 +57,7 @@
     "basic": "Perus",
     "free": "Ilmainen",
     "pro": "Ammattilainen",
-    "trial": "Oikeudenkäynti"
+    "trial": "Yksinomaan Uusille Käyttäjille"
   },
   "welcome": "Tervetuloa takaisin, {name}"
 }

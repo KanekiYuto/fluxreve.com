@@ -1,53 +1,53 @@
 {
   "discordBanner": {
-    "closeLabel": "关闭",
-    "description": "获取最新资讯、专属福利和免费奖励",
+    "closeLabel": "關閉",
+    "description": "獲取最新資訊、專屬福利和免費獎勵",
     "joinButton": "立即加入",
-    "title": "加入我们的 Discord 社区"
+    "title": "加入我們的 Discord 社群"
   },
-  "language": "语言",
-  "loading": "加载中...",
+  "language": "語言",
+  "loading": "載入中...",
   "loginRequired": {
-    "buttonText": "立即登录",
-    "description": "登录即可使用全部功能",
-    "title": "登录以继续"
+    "buttonText": "立即登入",
+    "description": "登入即可使用全部功能",
+    "title": "登入以繼續"
   },
   "navigation": {
     "ai-generator": "AI生成器",
     "company": "公司",
-    "content": "内容",
-    "dashboard": "仪表板",
-    "explore": "创意社区",
+    "content": "內容",
+    "dashboard": "儀表板",
+    "explore": "創意社群",
     "flux-2-pro": "Flux 2 Pro",
-    "flux2ProDesc": "专业双模AI图像生成",
-    "help": "帮助",
-    "home": "家",
-    "main": "主要的",
-    "models": "人工智能模型",
-    "more": "更多的",
+    "flux2ProDesc": "專業雙模AI圖像生成",
+    "help": "幫助",
+    "home": "首頁",
+    "main": "主要",
+    "models": "人工智慧模型",
+    "more": "更多",
     "nano-banana-pro": "Nano Banana Pro",
     "nanoBananaProDesc": "高级图像生成",
     "nav": "导航",
     "pricing": "定价",
-    "privacy": "隐私政策",
+    "privacy": "隱私政策",
     "quota": "積分",
     "seedreamV45": "Seedream 4.5",
-    "seedreamV45Desc": "ByteDance 2K HD 图像生成",
+    "seedreamV45Desc": "ByteDance 2K HD 圖像生成",
     "image-upscaler": "圖片放大",
     "imageUpscalerDesc": "利用AI將圖像增強至4K解析度",
     "image-watermark-remover": "浮水印去除",
     "imageWatermarkRemoverDesc": "使用AI去除圖像中的浮水印",
-    "settings": "设置",
-    "subscription": "订阅",
-    "tasks": "历史",
-    "terms": "服务条款",
-    "user": "用户",
+    "settings": "設定",
+    "subscription": "訂閱",
+    "tasks": "歷史",
+    "terms": "服務條款",
+    "user": "用戶",
     "z-image": "Z-Image",
-    "zImageDesc": "高级人工智能图像生成和编辑"
+    "zImageDesc": "高級人工智慧圖像生成和編輯"
   },
   "seo": {
-    "description": "借助人工智能图像生成技术，在几秒钟内创建高质量的专业图像。简单、快速、强大的AI工具。",
-    "keywords": "AI图像生成、AI艺术、图像创作、AI工具、专业图像",
-    "title": "{siteName} - AI图像生成工具"
+    "description": "借助人工智慧圖像生成技術，在幾秒鐘內創建高品質的專業圖像。簡單、快速、強大的AI工具。",
+    "keywords": "AI圖像生成、AI藝術、圖像創作、AI工具、專業圖像",
+    "title": "{siteName} - AI圖像生成工具"
   }
 }
