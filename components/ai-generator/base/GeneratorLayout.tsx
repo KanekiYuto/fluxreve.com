@@ -4,10 +4,11 @@ import { ReactNode } from 'react';
 import { useTranslations } from 'next-intl';
 import { useCachedSession } from '@/hooks/useCachedSession';
 import useModalStore from '@/store/useModalStore';
+import { getConversionConfig } from '@/config/google-ads-conversions';
 import LoadingAnimation from './LoadingAnimation';
 import ErrorCard from './ErrorCard';
 import CreditsCard from './CreditsCard';
-import MediaGallery, { MediaItem, TaskInfo, MediaGalleryRecord } from './MediaGallery';
+import MediaGallery, { MediaGalleryRecord } from './MediaGallery';
 import ExamplePreview, { ExampleItem } from './ExampleGallery';
 
 interface GeneratorLayoutProps {
@@ -41,6 +42,8 @@ interface GeneratorLayoutProps {
   examples?: ExampleItem[];
   onSelectExample?: (example: ExampleItem) => void;
   enableSelectExample?: boolean; // 是否启用"使用示例"功能，默认为 true
+  // 模型信息
+  modelName?: string;
 }
 
 export default function GeneratorLayout({
@@ -61,6 +64,7 @@ export default function GeneratorLayout({
   examples,
   onSelectExample,
   enableSelectExample = true,
+  modelName,
 }: GeneratorLayoutProps) {
   const tGenerate = useTranslations('ai-generator.generate');
   const tAuth = useTranslations('auth');
@@ -75,19 +79,36 @@ export default function GeneratorLayout({
       return;
     }
 
-    console.log('handleGenerateClick');
-
     // 调用谷歌广告转换追踪
     if (typeof window !== 'undefined' && typeof (window as any).gtag === 'function') {
+      // 根据模型名称获取对应的转换配置
+      const conversionConfig = getConversionConfig(modelName);
+
+      // 如果没有匹配的转换配置，直接执行生成
+      if (!conversionConfig) {
+        console.log('No conversion config matched, direct generation', { model: modelName });
+        onGenerate();
+        return;
+      }
+
       const callback = () => {
         onGenerate();
       };
-      (window as any).gtag('event', 'conversion', {
-        'send_to': 'AW-17790324344/yBvBCLytuNEbEPici6NC',
-        'event_callback': callback,
-      });
 
-      console.log('gtag conversion event triggered');
+      const conversionData: any = {
+        'send_to': conversionConfig.conversionId,
+        'event_callback': callback,
+        'value': conversionConfig.value,
+        'currency': 'CNY',
+      };
+
+      (window as any).gtag('event', 'conversion', conversionData);
+
+      console.log('Generation event triggered', {
+        model: modelName,
+        conversionId: conversionConfig.conversionId,
+        value: conversionConfig.value
+      });
     } else {
       console.log('gtag conversion event not triggered');
       // 如果 gtag 不可用，直接执行

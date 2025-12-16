@@ -12,7 +12,7 @@
     "items": [
       {
         "description": "强大的AI算法可在几秒钟内生成高质量图像，从而大幅提高创作效率。",
-        "title": "快速世代"
+        "title": "快速生成"
       },
       {
         "description": "采用最先进的人工智能模型输出专业级图像质量，满足各种创意需求。",
@@ -38,7 +38,7 @@
     "description": "只需描述您的需求，即可获得精美绝伦的专业级图片。无需任何设计技能——人人都能成为创作者。",
     "features": {
       "easyToUse": "便于使用",
-      "fastGeneration": "快速世代",
+      "fastGeneration": "快速生成",
       "highQuality": "高质量输出"
     },
     "title": {

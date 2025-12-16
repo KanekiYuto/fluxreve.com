@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useEffect, startTransition } from 'react';
+import { useState, useEffect, startTransition, useRef } from 'react';
 import { usePathname } from '@/i18n/routing';
+import { useCachedSession } from '@/hooks/useCachedSession';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
@@ -40,6 +41,8 @@ interface PageLayoutProps {
 export default function PageLayout({ children }: PageLayoutProps) {
   const pathname = usePathname();
   const [isLoading, setIsLoading] = useState(false);
+  const { data: session } = useCachedSession();
+  const hasTrackedConversionRef = useRef(false);
 
   // 检查当前路径是否应该隐藏全局布局
   const shouldHideLayout = HIDDEN_LAYOUT_PATHS.some((path) =>
@@ -80,6 +83,22 @@ export default function PageLayout({ children }: PageLayoutProps) {
       clearTimeout(timeoutId);
     };
   }, [pathname, isLoadingEnabled, children]);
+
+  // 用户登录时触发 Google Ads 转换追踪
+  useEffect(() => {
+    // 仅在用户登录时且尚未追踪过时触发
+    if (session && !hasTrackedConversionRef.current) {
+      // 确保 gtag 已经加载
+      if (typeof window !== 'undefined' && (window as any).gtag) {
+        (window as any).gtag('event', 'conversion', {
+          'send_to': 'AW-17790324344/yBvBCLytuNEbEPici6NC'
+        });
+        console.log('Signup conversion tracked');
+      }
+      // 标记为已追踪，防止重复触发
+      hasTrackedConversionRef.current = true;
+    }
+  }, [session]);
 
   if (shouldHideLayout) {
     return <>{children}</>;

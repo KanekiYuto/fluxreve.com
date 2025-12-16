@@ -155,6 +155,20 @@
       "when": 1765714383300,
       "tag": "0021_flaky_angel",
       "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1765794922581,
+      "tag": "0022_even_hairball",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1765797180380,
+      "tag": "0023_spicy_whiplash",
+      "breakpoints": true
     }
   ]
 }

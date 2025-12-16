@@ -1,3 +1,4 @@
+import Script from 'next/script';
 import Pricing from '@/components/pricing';
 import FAQ from '@/components/FAQ';
 import Divider from '@/components/Divider';

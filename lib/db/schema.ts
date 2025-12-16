@@ -385,3 +385,33 @@ export const taskViewRecord = pgTable('task_view_record', {
   // 时间范围查询
   createdAtIdx: index('task_view_record_created_at_idx').on(table.createdAt),
 }));
+
+// 邮件收件人表 (用于营销邮件发送的收件人管理)
+export const emailRecipient = pgTable('email_recipient', {
+  // UUID 主键,由数据库自动生成
+  id: uuid('id').primaryKey().defaultRandom(),
+
+  // 收件人邮箱地址
+  email: text('email').notNull().unique(),
+
+  // 是否已发送过邮件
+  isSent: boolean('is_sent').notNull().default(false),
+
+  // 最后一次发送时间
+  lastSentAt: timestamp('last_sent_at'),
+
+  // 创建时间
+  createdAt: timestamp('created_at').notNull().defaultNow(),
+}, (table) => ({
+  // 邮箱地址快速查询
+  emailIdx: index('email_recipient_email_idx').on(table.email),
+
+  // 发送状态查询（快速查找已发送或未发送的邮箱）
+  isSentIdx: index('email_recipient_is_sent_idx').on(table.isSent),
+
+  // 最后发送时间排序
+  lastSentAtIdx: index('email_recipient_last_sent_at_idx').on(table.lastSentAt),
+
+  // 创建时间排序
+  createdAtIdx: index('email_recipient_created_at_idx').on(table.createdAt),
+}));

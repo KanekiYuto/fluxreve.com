@@ -46,7 +46,12 @@ export default async function AdminLayout({ children, params }: AdminLayoutProps
                 >
                   订阅管理
                 </a>
-                {/* 可以添加更多管理菜单项 */}
+                <a
+                  href={`/${locale}/admin/marketing-email`}
+                  className="px-3 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors"
+                >
+                  营销邮件
+                </a>
               </div>
             </div>
             <div className="flex items-center gap-4">
