@@ -21,7 +21,7 @@ export default function LandingContent() {
       {/* Hero 区域 - 对所有用户隐藏，但 SEO 内容通过 metadata 保留 */}
       <div className="sr-only">
         <LandingHero
-          namespace="gptImage15"
+          namespace="gpt-image-15"
           colors={['#00d4ff', '#00a8e8', '#007acc', '#0066b3']}
           stats={['speed', 'quality', 'versatility']}
         />
@@ -40,28 +40,28 @@ export default function LandingContent() {
         <Divider />
 
         {/* What 区域 - 这是什么产品 */}
-        <LandingWhat namespace="gptImage15" />
+        <LandingWhat namespace="gpt-image-15" />
 
         <Divider />
 
         {/* Why 区域 - 为什么选择我们 */}
-        <LandingWhy namespace="gptImage15" />
+        <LandingWhy namespace="gpt-image-15" />
 
         <Divider />
 
         {/* How 区域 - 如何使用 */}
-        <LandingHow namespace="gptImage15" />
+        <LandingHow namespace="gpt-image-15" />
 
         <Divider />
 
         {/* FAQ 区域 - 常见问题 */}
-        <LandingFAQ namespace="gptImage15" />
+        <LandingFAQ namespace="gpt-image-15" />
 
         <Divider />
 
         {/* CTA 区域 - 行动号召 */}
         <LandingCTA
-          namespace="gptImage15"
+          namespace="gpt-image-15"
           scanColor="#00d4ff"
           linesColor="#003d5c"
         />

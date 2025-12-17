@@ -21,7 +21,7 @@ export default function LandingContent() {
       {/* Hero 区域 - 对所有用户隐藏，但 SEO 内容通过 metadata 保留 */}
       <div className="sr-only">
         <LandingHero
-          namespace="flux2Pro"
+          namespace="flux-2-pro"
           colors={['#f59e0b', '#eab308', '#facc15', '#fbbf24']}
           stats={['quality', 'features', 'professional']}
         />
@@ -40,28 +40,28 @@ export default function LandingContent() {
         <Divider />
 
         {/* What 区域 - 这是什么产品 */}
-        <LandingWhat namespace="flux2Pro" />
+        <LandingWhat namespace="flux-2-pro" />
 
         <Divider />
 
         {/* Why 区域 - 为什么选择我们 */}
-        <LandingWhy namespace="flux2Pro" />
+        <LandingWhy namespace="flux-2-pro" />
 
         <Divider />
 
         {/* How 区域 - 如何使用 */}
-        <LandingHow namespace="flux2Pro" />
+        <LandingHow namespace="flux-2-pro" />
 
         <Divider />
 
         {/* FAQ 区域 - 常见问题 */}
-        <LandingFAQ namespace="flux2Pro" />
+        <LandingFAQ namespace="flux-2-pro" />
 
         <Divider />
 
         {/* CTA 区域 - 行动号召 */}
         <LandingCTA
-          namespace="flux2Pro"
+          namespace="flux-2-pro"
           scanColor="#facc15"
           linesColor="#b3a200"
         />

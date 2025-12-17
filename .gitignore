@@ -55,3 +55,6 @@ next-env.d.ts
 
 # version info (auto-generated during build)
 version.json
+
+# merged translation files (auto-generated during build)
+/messages/*.json

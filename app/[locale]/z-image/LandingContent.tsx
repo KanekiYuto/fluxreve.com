@@ -21,7 +21,7 @@ export default function LandingContent() {
       {/* Hero 区域 - 对所有用户隐藏，但 SEO 内容通过 metadata 保留 */}
       <div className="sr-only">
         <LandingHero
-          namespace="zImage"
+          namespace="z-image"
           colors={['#3b82f6', '#8b5cf6', '#06b6d4', '#6366f1']}
         />
         <Divider />
@@ -39,28 +39,28 @@ export default function LandingContent() {
         <Divider />
 
         {/* What 区域 - 这是什么产品 */}
-        <LandingWhat namespace="zImage" />
+        <LandingWhat namespace="z-image" />
 
         <Divider />
 
         {/* Why 区域 - 为什么选择我们 */}
-        <LandingWhy namespace="zImage" />
+        <LandingWhy namespace="z-image" />
 
         <Divider />
 
         {/* How 区域 - 如何使用 */}
-        <LandingHow namespace="zImage" />
+        <LandingHow namespace="z-image" />
 
         <Divider />
 
         {/* FAQ 区域 - 常见问题 */}
-        <LandingFAQ namespace="zImage" />
+        <LandingFAQ namespace="z-image" />
 
         <Divider />
 
         {/* CTA 区域 - 行动号召 */}
         <LandingCTA
-          namespace="zImage"
+          namespace="z-image"
           scanColor="#3b82f6"
           linesColor="#3b5566"
         />

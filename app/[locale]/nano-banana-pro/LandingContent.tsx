@@ -21,7 +21,7 @@ export default function LandingContent() {
       {/* Hero 区域 - 对所有用户隐藏，但 SEO 内容通过 metadata 保留 */}
       <div className="sr-only">
         <LandingHero
-          namespace="nanoBananaPro"
+          namespace="nano-banana-pro"
           colors={['#ff6b9d', '#ffb3d9', '#ff85b3', '#ffc9e0']}
           stats={['speed', 'quality', 'users']}
         />
@@ -40,28 +40,28 @@ export default function LandingContent() {
         <Divider />
 
         {/* What 区域 - 这是什么产品 */}
-        <LandingWhat namespace="nanoBananaPro" />
+        <LandingWhat namespace="nano-banana-pro" />
 
         <Divider />
 
         {/* Why 区域 - 为什么选择我们 */}
-        <LandingWhy namespace="nanoBananaPro" />
+        <LandingWhy namespace="nano-banana-pro" />
 
         <Divider />
 
         {/* How 区域 - 如何使用 */}
-        <LandingHow namespace="nanoBananaPro" />
+        <LandingHow namespace="nano-banana-pro" />
 
         <Divider />
 
         {/* FAQ 区域 - 常见问题 */}
-        <LandingFAQ namespace="nanoBananaPro" />
+        <LandingFAQ namespace="nano-banana-pro" />
 
         <Divider />
 
         {/* CTA 区域 - 行动号召 */}
         <LandingCTA
-          namespace="nanoBananaPro"
+          namespace="nano-banana-pro"
           scanColor="#ffb3d9"
           linesColor="#6b5566"
         />

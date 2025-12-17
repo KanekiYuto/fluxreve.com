@@ -21,7 +21,7 @@ export default function LandingContent() {
       {/* Hero 区域 - 对所有用户隐藏，但 SEO 内容通过 metadata 保留 */}
       <div className="sr-only">
         <LandingHero
-          namespace="imageUpscaler"
+          namespace="image-upscaler"
           colors={['#4f46e5', '#818cf8', '#6366f1', '#a5b4fc']}
           stats={['quality', 'speed', 'users']}
         />
@@ -40,28 +40,28 @@ export default function LandingContent() {
         <Divider />
 
         {/* What 区域 - 这是什么产品 */}
-        <LandingWhat namespace="imageUpscaler" />
+        <LandingWhat namespace="image-upscaler" />
 
         <Divider />
 
         {/* Why 区域 - 为什么选择我们 */}
-        <LandingWhy namespace="imageUpscaler" />
+        <LandingWhy namespace="image-upscaler" />
 
         <Divider />
 
         {/* How 区域 - 如何使用 */}
-        <LandingHow namespace="imageUpscaler" />
+        <LandingHow namespace="image-upscaler" />
 
         <Divider />
 
         {/* FAQ 区域 - 常见问题 */}
-        <LandingFAQ namespace="imageUpscaler" />
+        <LandingFAQ namespace="image-upscaler" />
 
         <Divider />
 
         {/* CTA 区域 - 行动号召 */}
         <LandingCTA
-          namespace="imageUpscaler"
+          namespace="image-upscaler"
           scanColor="#818cf8"
           linesColor="#4338ca"
         />

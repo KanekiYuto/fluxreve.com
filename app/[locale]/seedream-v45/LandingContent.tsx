@@ -21,7 +21,7 @@ export default function LandingContent() {
       {/* Hero 区域 - 对所有用户隐藏，但 SEO 内容通过 metadata 保留 */}
       <div className="sr-only">
         <LandingHero
-          namespace="seedreamV45"
+          namespace="seedream-v45"
           colors={['#8b5cf6', '#a78bfa', '#c4b5fd', '#ddd6fe']}
           stats={['speed', 'quality', 'users']}
         />
@@ -40,28 +40,28 @@ export default function LandingContent() {
         <Divider />
 
         {/* What 区域 - 这是什么产品 */}
-        <LandingWhat namespace="seedreamV45" />
+        <LandingWhat namespace="seedream-v45" />
 
         <Divider />
 
         {/* Why 区域 - 为什么选择我们 */}
-        <LandingWhy namespace="seedreamV45" />
+        <LandingWhy namespace="seedream-v45" />
 
         <Divider />
 
         {/* How 区域 - 如何使用 */}
-        <LandingHow namespace="seedreamV45" />
+        <LandingHow namespace="seedream-v45" />
 
         <Divider />
 
         {/* FAQ 区域 - 常见问题 */}
-        <LandingFAQ namespace="seedreamV45" />
+        <LandingFAQ namespace="seedream-v45" />
 
         <Divider />
 
         {/* CTA 区域 - 行动号召 */}
         <LandingCTA
-          namespace="seedreamV45"
+          namespace="seedream-v45"
           scanColor="#a78bfa"
           linesColor="#6d28d9"
         />

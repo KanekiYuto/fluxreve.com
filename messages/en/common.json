@@ -20,6 +20,8 @@
     "zImageDesc": "Advanced AI image generation and editing",
     "flux-2-pro": "Flux 2 Pro",
     "flux2ProDesc": "Professional dual-mode AI image generation",
+    "gpt-image-15": "GPT Image 1.5",
+    "gptImage15Desc": "Advanced GPT-powered image generation",
     "seedreamV45": "Seedream 4.5",
     "seedreamV45Desc": "ByteDance 2K HD image generation",
     "image-upscaler": "Image Upscaler",

@@ -21,7 +21,7 @@ export default function LandingContent() {
       {/* Hero 区域 - 对所有用户隐藏，但 SEO 内容通过 metadata 保留 */}
       <div className="sr-only">
         <LandingHero
-          namespace="imageWatermarkRemover"
+          namespace="image-watermark-remover"
           colors={['#ec4899', '#f472b6', '#f91e8c', '#fb7185']}
           stats={['efficiency', 'quality', 'users']}
         />
@@ -40,28 +40,28 @@ export default function LandingContent() {
         <Divider />
 
         {/* What 区域 - 这是什么产品 */}
-        <LandingWhat namespace="imageWatermarkRemover" />
+        <LandingWhat namespace="image-watermark-remover" />
 
         <Divider />
 
         {/* Why 区域 - 为什么选择我们 */}
-        <LandingWhy namespace="imageWatermarkRemover" />
+        <LandingWhy namespace="image-watermark-remover" />
 
         <Divider />
 
         {/* How 区域 - 如何使用 */}
-        <LandingHow namespace="imageWatermarkRemover" />
+        <LandingHow namespace="image-watermark-remover" />
 
         <Divider />
 
         {/* FAQ 区域 - 常见问题 */}
-        <LandingFAQ namespace="imageWatermarkRemover" />
+        <LandingFAQ namespace="image-watermark-remover" />
 
         <Divider />
 
         {/* CTA 区域 - 行动号召 */}
         <LandingCTA
-          namespace="imageWatermarkRemover"
+          namespace="image-watermark-remover"
           scanColor="#f472b6"
           linesColor="#be185d"
         />

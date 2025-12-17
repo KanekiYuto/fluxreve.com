@@ -5,11 +5,11 @@ import LandingContent from './LandingContent';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'seedreamV45.seo' });
+  const t = await getTranslations({ locale, namespace: 'seedream-v45' });
 
   return {
-    title: t('title'),
-    description: t('description'),
+    title: t('seo.title'),
+    description: t('seo.description'),
     alternates: generateAlternates(locale, '/seedream-v45'),
   };
 }
