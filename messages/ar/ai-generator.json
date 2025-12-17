@@ -76,7 +76,20 @@
     "steps": "الخطوات",
     "uploadHint": "تلميح: يمكنك سحب ملف وإفلاته أو النقر عليه للتحميل",
     "uploadImage": "تحميل صورة",
-    "uploading": "تحميل..."
+    "uploading": "تحميل...",
+    "imageSize": "حجم الصورة",
+    "quality": "الجودة",
+    "qualityOptions": {
+      "low": "منخفض",
+      "medium": "متوسط",
+      "high": "عالي"
+    },
+    "background": "الخلفية",
+    "backgroundOptions": {
+      "auto": "تلقائي",
+      "transparent": "شفاف",
+      "opaque": "معتم"
+    }
   },
   "generate": {
     "generateImage": "إنشاء ({credits} رصيد)",
@@ -118,7 +131,8 @@
     "seedream": "Seedream السلسلة",
     "zImage": "Z-Image السلسلة",
     "effects": "التأثيرات",
-    "more": "المزيد"
+    "more": "المزيد",
+    "gptImage": "سلسلة GPT Image"
   },
   "models": {
     "flux2Pro": {
@@ -191,6 +205,14 @@
         "retro": "ريترو",
         "professional": "مهني",
         "creative": "إبداعي"
+      }
+    },
+    "gptImage15": {
+      "description": "توليد صور متقدم بالذكاء الاصطناعي باستخدام GPT Image 1.5، يدعم خيارات الجودة والحجم المرنة",
+      "tags": {
+        "powerful": "قوي",
+        "realistic": "واقعي",
+        "flexible": "مرن"
       }
     }
   },

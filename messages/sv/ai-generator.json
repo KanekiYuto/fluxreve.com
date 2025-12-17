@@ -76,7 +76,20 @@
     "steps": "Steg",
     "uploadHint": "Tips: Du kan dra och släppa en fil eller klicka för att ladda upp",
     "uploadImage": "Ladda upp bild",
-    "uploading": "Laddar upp..."
+    "uploading": "Laddar upp...",
+    "imageSize": "Bildstorlek",
+    "quality": "Kvalitet",
+    "qualityOptions": {
+      "low": "Låg",
+      "medium": "Medium",
+      "high": "Hög"
+    },
+    "background": "Bakgrund",
+    "backgroundOptions": {
+      "auto": "Auto",
+      "transparent": "Transparent",
+      "opaque": "Ogenomskinlig"
+    }
   },
   "generate": {
     "generateImage": "Generera ({credits} krediter)",
@@ -118,7 +131,8 @@
     "seedream": "Seedream Serie",
     "zImage": "Z-Image Serie",
     "effects": "Effekter",
-    "more": "Mer"
+    "more": "Mer",
+    "gptImage": "GPT Image Serie"
   },
   "models": {
     "flux2Pro": {
@@ -191,6 +205,14 @@
         "retro": "Retro",
         "professional": "Professionell",
         "creative": "Kreativ"
+      }
+    },
+    "gptImage15": {
+      "description": "Avancerad AI-bildgenerering med GPT Image 1.5, stöder flexibla kvalitets- och storleksalternativ",
+      "tags": {
+        "powerful": "Kraftfull",
+        "realistic": "Realistisk",
+        "flexible": "Flexibel"
       }
     }
   },

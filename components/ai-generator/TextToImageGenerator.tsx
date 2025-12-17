@@ -8,6 +8,7 @@ import ZImageLoraGenerator from './models/ZImageLoraGenerator';
 import Flux2ProGenerator from './models/Flux2ProGenerator';
 import FluxSchnellGenerator from './models/FluxSchnellGenerator';
 import SeedreamGenerator from './models/SeedreamGenerator';
+import GptImage15Generator from './models/GptImage15Generator';
 import { useGeneratorModelSelector } from '@/hooks/useGeneratorModelSelector';
 
 interface TextToImageGeneratorProps {
@@ -23,6 +24,7 @@ const SUPPORTED_MODELS = [
   'flux-2-pro',
   'flux-schnell',
   'seedream-v4.5',
+  'gpt-image-1.5',
 ];
 
 export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro', defaultParameters }: TextToImageGeneratorProps) {
@@ -121,6 +123,22 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro',
         },
       ]
     },
+    {
+      groupName: tGroups('gptImage'),
+      options: [
+        {
+          value: 'gpt-image-1.5',
+          label: 'GPT Image 1.5',
+          description: t('gptImage15.description'),
+          badge: 'NEW',
+          tags: [
+            { text: t('gptImage15.tags.powerful'), variant: 'highlight' as const },
+            { text: t('gptImage15.tags.realistic'), variant: 'default' as const },
+            { text: t('gptImage15.tags.flexible'), variant: 'default' as const },
+          ]
+        },
+      ]
+    },
   ];
 
   // ModelSelector 组件
@@ -170,6 +188,14 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro',
       )}
       {selectedModel === 'seedream-v4.5' && (
         <SeedreamGenerator
+          modelSelector={modelSelector}
+          defauldMode='text-to-image'
+          defaultParameters={defaultParameters}
+          onFormStateChange={setFormStateData}
+        />
+      )}
+      {selectedModel === 'gpt-image-1.5' && (
+        <GptImage15Generator
           modelSelector={modelSelector}
           defauldMode='text-to-image'
           defaultParameters={defaultParameters}

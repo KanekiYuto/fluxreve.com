@@ -21,12 +21,22 @@ interface WavespeedWebhook {
   executionTime?: number;
 }
 
-// FAL Webhook 格式（示例）
+// FAL Webhook 格式
 interface FalWebhook {
   request_id: string;
-  status: 'IN_QUEUE' | 'IN_PROGRESS' | 'COMPLETED' | 'FAILED';
-  images?: Array<{ url: string }>;
-  error?: {
+  gateway_request_id?: string;
+  status: 'IN_QUEUE' | 'IN_PROGRESS' | 'OK' | 'COMPLETED' | 'FAILED' | 'ERROR';
+  payload?: {
+    images?: Array<{
+      url: string;
+      content_type?: string;
+      file_name?: string;
+      file_size?: number | null;
+      height?: number | null;
+      width?: number | null;
+    }>;
+  };
+  error?: string | null | {
     message: string;
     code: string;
   };
@@ -59,7 +69,9 @@ function mapFalStatus(status: FalWebhook['status']): TaskStatus {
   const statusMap: Record<FalWebhook['status'], TaskStatus> = {
     'IN_QUEUE': 'pending',
     'IN_PROGRESS': 'processing',
+    'OK': 'completed',
     'COMPLETED': 'completed',
+    'ERROR': 'failed',
     'FAILED': 'failed',
   };
   return statusMap[status] || 'pending';
@@ -80,10 +92,20 @@ function processWavespeedWebhook(payload: WavespeedWebhook): ProcessedWebhook {
  * 处理 FAL webhook 数据
  */
 function processFalWebhook(payload: FalWebhook): ProcessedWebhook {
+  // 处理错误信息
+  let errorMessage: string | undefined;
+  if (payload.error) {
+    if (typeof payload.error === 'string') {
+      errorMessage = payload.error;
+    } else if (typeof payload.error === 'object' && payload.error.message) {
+      errorMessage = payload.error.message;
+    }
+  }
+
   return {
     status: mapFalStatus(payload.status),
-    outputs: payload.images?.map(img => img.url),
-    error: payload.error?.message,
+    outputs: payload.payload?.images?.map(img => img.url),
+    error: errorMessage,
   };
 }
 
@@ -404,12 +426,31 @@ export async function POST(
     const { provider, taskId } = await params;
 
     // 解析原始 webhook 数据
-    const rawPayload = await request.json();
+    let rawPayload: any;
+    try {
+      const text = await request.text();
+      if (!text || text.trim() === '') {
+        console.error(`Empty webhook body from ${provider} for task ${taskId}`);
+        return NextResponse.json(
+          { success: false, error: 'Empty request body' },
+          { status: 400 }
+        );
+      }
+      rawPayload = JSON.parse(text);
+    } catch (parseError) {
+      console.error(`Failed to parse webhook JSON from ${provider}:`, parseError);
+      return NextResponse.json(
+        { success: false, error: 'Invalid JSON payload' },
+        { status: 400 }
+      );
+    }
+
+    console.log(`Webhook received from ${provider}:`, { taskId, rawPayload });
 
     // 根据 provider 处理数据
     const { status, outputs, error } = processWebhookByProvider(provider, rawPayload);
 
-    console.log(`Webhook received from ${provider}:`, { taskId, status, outputs });
+    console.log(`Webhook processed from ${provider}:`, { taskId, status, outputs });
 
     // 查找任务
     const tasks = await db

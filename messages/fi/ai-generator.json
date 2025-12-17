@@ -76,7 +76,20 @@
     "steps": "Askeleet",
     "uploadHint": "Vihje: Voit vetää ja pudottaa tiedoston tai napsauttaa ladataksesi sen.",
     "uploadImage": "Lataa kuva",
-    "uploading": "Ladataan..."
+    "uploading": "Ladataan...",
+    "imageSize": "Kuvan koko",
+    "quality": "Laatu",
+    "qualityOptions": {
+      "low": "Matala",
+      "medium": "Keskitaso",
+      "high": "Korkea"
+    },
+    "background": "Tausta",
+    "backgroundOptions": {
+      "auto": "Automaattinen",
+      "transparent": "Läpinäkyvä",
+      "opaque": "Läpinäkymätön"
+    }
   },
   "generate": {
     "generateImage": "Luo ({credits} krediittiä)",
@@ -118,7 +131,8 @@
     "seedream": "Seedream Sarja",
     "zImage": "Z-Image Sarja",
     "effects": "Efektit",
-    "more": "Lisää"
+    "more": "Lisää",
+    "gptImage": "GPT Image -sarja"
   },
   "models": {
     "flux2Pro": {
@@ -191,6 +205,14 @@
         "retro": "Retro",
         "professional": "Ammattimainen",
         "creative": "Luova"
+      }
+    },
+    "gptImage15": {
+      "description": "Kehittynyt tekoälyn kuvanluonti GPT Image 1.5:llä, tukee joustavia laatu- ja kokovaihtoehtoja",
+      "tags": {
+        "powerful": "Tehokas",
+        "realistic": "Realistinen",
+        "flexible": "Joustava"
       }
     }
   },

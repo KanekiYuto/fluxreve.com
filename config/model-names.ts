@@ -17,6 +17,9 @@ export const MODEL_DISPLAY_NAMES: Record<string, string> = {
 
   // Seedream 系列模型
   'seedream-v4.5': 'Seedream 4.5',
+
+  // GPT Image 系列模型
+  'gpt-image-1.5': 'GPT Image 1.5',
 };
 
 /**

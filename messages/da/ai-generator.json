@@ -76,7 +76,20 @@
     "steps": "Trin",
     "uploadHint": "Tip: Du kan trække og slippe en fil eller klikke for at uploade",
     "uploadImage": "Upload billede",
-    "uploading": "Uploader..."
+    "uploading": "Uploader...",
+    "imageSize": "Billedstørrelse",
+    "quality": "Kvalitet",
+    "qualityOptions": {
+      "low": "Lav",
+      "medium": "Medium",
+      "high": "Høj"
+    },
+    "background": "Baggrund",
+    "backgroundOptions": {
+      "auto": "Auto",
+      "transparent": "Gennemsigtig",
+      "opaque": "Uigennemsigtig"
+    }
   },
   "generate": {
     "generateImage": "Generer ({credits} kreditter)",
@@ -118,7 +131,8 @@
     "seedream": "Seedream Serie",
     "zImage": "Z-Image Serie",
     "effects": "Effekter",
-    "more": "Mere"
+    "more": "Mere",
+    "gptImage": "GPT Image Serie"
   },
   "models": {
     "flux2Pro": {
@@ -191,6 +205,14 @@
         "retro": "Retro",
         "professional": "Professionel",
         "creative": "Kreativ"
+      }
+    },
+    "gptImage15": {
+      "description": "Avanceret AI-billedgenerering med GPT Image 1.5, understøtter fleksible kvalitets- og størrelsesmuligheder",
+      "tags": {
+        "powerful": "Kraftfuld",
+        "realistic": "Realistisk",
+        "flexible": "Fleksibel"
       }
     }
   },

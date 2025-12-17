@@ -10,6 +10,8 @@ export interface ExampleItem {
   thumbnail: string;
   // 原图用于对比效果
   original?: string;
+  // 输入图片（用于图生图示例）
+  images?: string[];
   prompt: string;
   tags?: string[];
 }

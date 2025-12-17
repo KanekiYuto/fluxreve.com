@@ -26,7 +26,7 @@ export default function ImageCarousel({ images, prompt, isNsfw = false, paramete
   const openPreview = useImagePreviewStore((state) => state.open);
 
   // 获取参考图片数组
-  const referenceImages = parameters?.images || [];
+  const referenceImages = parameters?.images || parameters?.image_urls || [];
 
   const goToPrevious = useCallback(() => {
     setCurrentIndex((prevIndex) =>
@@ -225,7 +225,7 @@ export default function ImageCarousel({ images, prompt, isNsfw = false, paramete
             {t('referenceImages')}
           </h4>
           <div className="flex gap-2 overflow-x-auto scrollbar-thin scrollbar-thumb-border scrollbar-track-transparent">
-            {referenceImages.map((imageUrl, index) => (
+            {referenceImages.map((imageUrl: string, index: number) => (
               <button
                 key={index}
                 type="button"

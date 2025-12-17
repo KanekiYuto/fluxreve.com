@@ -55,6 +55,19 @@
     "outputFormat": "输出格式",
     "outputFormatPlaceholder": "选择输出格式",
     "numImages": "生成数量",
+    "imageSize": "图片尺寸",
+    "quality": "质量",
+    "qualityOptions": {
+      "low": "低",
+      "medium": "中",
+      "high": "高"
+    },
+    "background": "背景",
+    "backgroundOptions": {
+      "auto": "自动",
+      "transparent": "透明",
+      "opaque": "不透明"
+    },
     "targetResolution": "目标分辨率",
     "targetResolutionPlaceholder": "选择目标分辨率",
     "uploadImageRequired": "请上传至少一个要放大的图像",
@@ -117,6 +130,7 @@
     "nano": "Nano Banana 系列",
     "seedream": "Seedream 系列",
     "zImage": "Z-Image 系列",
+    "gptImage": "GPT Image 系列",
     "effects": "效果",
     "more": "更多"
   },
@@ -151,6 +165,14 @@
         "bytedance": "ByteDance",
         "creative": "创意",
         "ultraHD": "超高清"
+      }
+    },
+    "gptImage15": {
+      "description": "先进的 AI 图像生成引擎 GPT Image 1.5，支持灵活的质量和尺寸选项",
+      "tags": {
+        "powerful": "强大",
+        "realistic": "逼真",
+        "flexible": "灵活"
       }
     },
     "zImage": {

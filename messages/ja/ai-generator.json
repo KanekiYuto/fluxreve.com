@@ -76,7 +76,20 @@
     "steps": "ステップ",
     "uploadHint": "ヒント：ファイルをドラッグ＆ドロップするか、クリックしてアップロードすることができます。",
     "uploadImage": "画像のアップロード",
-    "uploading": "アップロード..."
+    "uploading": "アップロード...",
+    "imageSize": "画像サイズ",
+    "quality": "品質",
+    "qualityOptions": {
+      "low": "低",
+      "medium": "中",
+      "high": "高"
+    },
+    "background": "背景",
+    "backgroundOptions": {
+      "auto": "自動",
+      "transparent": "透明",
+      "opaque": "不透明"
+    }
   },
   "generate": {
     "generateImage": "生成 ({credits} クレジット)",
@@ -118,7 +131,8 @@
     "seedream": "Seedream シリーズ",
     "zImage": "Z-Image シリーズ",
     "effects": "エフェクト",
-    "more": "詳細"
+    "more": "詳細",
+    "gptImage": "GPT Image シリーズ"
   },
   "models": {
     "flux2Pro": {
@@ -191,6 +205,14 @@
         "retro": "レトロ",
         "professional": "プロフェッショナル",
         "creative": "クリエイティブ"
+      }
+    },
+    "gptImage15": {
+      "description": "GPT Image 1.5を使用した高度なAI画像生成、柔軟な品質とサイズオプションをサポート",
+      "tags": {
+        "powerful": "強力",
+        "realistic": "写実的",
+        "flexible": "柔軟"
       }
     }
   },

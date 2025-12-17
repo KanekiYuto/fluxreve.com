@@ -76,7 +76,20 @@
     "steps": "단계",
     "uploadHint": "힌트: 파일을 끌어다 놓거나 클릭하여 업로드할 수 있습니다.",
     "uploadImage": "이미지 업로드",
-    "uploading": "업로드 중..."
+    "uploading": "업로드 중...",
+    "imageSize": "이미지 크기",
+    "quality": "품질",
+    "qualityOptions": {
+      "low": "낮음",
+      "medium": "중간",
+      "high": "높음"
+    },
+    "background": "배경",
+    "backgroundOptions": {
+      "auto": "자동",
+      "transparent": "투명",
+      "opaque": "불투명"
+    }
   },
   "generate": {
     "generateImage": "생성 ({credits} 크레딧)",
@@ -118,7 +131,8 @@
     "seedream": "Seedream 시리즈",
     "zImage": "Z-Image 시리즈",
     "effects": "이펙트",
-    "more": "더보기"
+    "more": "더보기",
+    "gptImage": "GPT Image 시리즈"
   },
   "models": {
     "flux2Pro": {
@@ -191,6 +205,14 @@
         "retro": "레트로",
         "professional": "전문가",
         "creative": "창의적인"
+      }
+    },
+    "gptImage15": {
+      "description": "GPT Image 1.5를 사용한 고급 AI 이미지 생성, 유연한 품질 및 크기 옵션 지원",
+      "tags": {
+        "powerful": "강력함",
+        "realistic": "사실적",
+        "flexible": "유연함"
       }
     }
   },

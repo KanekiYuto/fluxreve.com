@@ -5,6 +5,7 @@ import ModelSelector, { type ModelGroup } from './base/ModelSelector';
 import NanoBananaProGenerator from './models/NanoBananaProGenerator';
 import Flux2ProGenerator from './models/Flux2ProGenerator';
 import SeedreamGenerator from './models/SeedreamGenerator';
+import GptImage15Generator from './models/GptImage15Generator';
 import { useGeneratorModelSelector } from '@/hooks/useGeneratorModelSelector';
 
 interface ImageToImageGeneratorProps {
@@ -13,7 +14,7 @@ interface ImageToImageGeneratorProps {
 }
 
 // 支持图生图的模型列表
-const SUPPORTED_MODELS = ['nano-banana-pro', 'flux-2-pro', 'seedream-v4.5'];
+const SUPPORTED_MODELS = ['nano-banana-pro', 'flux-2-pro', 'seedream-v4.5', 'gpt-image-1.5'];
 
 export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro', defaultParameters }: ImageToImageGeneratorProps) {
   const t = useTranslations('ai-generator.models');
@@ -72,6 +73,22 @@ export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro'
         },
       ]
     },
+    {
+      groupName: tGroups('gptImage'),
+      options: [
+        {
+          value: 'gpt-image-1.5',
+          label: 'GPT Image 1.5',
+          description: t('gptImage15.description'),
+          badge: 'NEW',
+          tags: [
+            { text: t('gptImage15.tags.powerful'), variant: 'highlight' as const },
+            { text: t('gptImage15.tags.realistic'), variant: 'default' as const },
+            { text: t('gptImage15.tags.flexible'), variant: 'default' as const },
+          ]
+        },
+      ]
+    },
   ];
 
   // ModelSelector 组件
@@ -103,6 +120,15 @@ export default function ImageToImageGenerator({ defaultModel = 'nano-banana-pro'
       case 'seedream-v4.5':
         return (
           <SeedreamGenerator
+            modelSelector={modelSelector}
+            defauldMode="image-to-image"
+            defaultParameters={defaultParameters}
+            onFormStateChange={setFormStateData}
+          />
+        );
+      case 'gpt-image-1.5':
+        return (
+          <GptImage15Generator
             modelSelector={modelSelector}
             defauldMode="image-to-image"
             defaultParameters={defaultParameters}

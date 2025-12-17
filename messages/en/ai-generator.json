@@ -87,6 +87,19 @@
     "outputFormat": "Output Format",
     "outputFormatPlaceholder": "Select output format",
     "numImages": "Number of Images",
+    "imageSize": "Image Size",
+    "quality": "Quality",
+    "qualityOptions": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "background": "Background",
+    "backgroundOptions": {
+      "auto": "Auto",
+      "transparent": "Transparent",
+      "opaque": "Opaque"
+    },
     "targetResolution": "Target Resolution",
     "targetResolutionPlaceholder": "Select target resolution",
     "uploadImageRequired": "Please upload at least one image to upscale",
@@ -134,6 +147,7 @@
     "zImage": "Z-Image Series",
     "flux": "Flux Series",
     "seedream": "Seedream Series",
+    "gptImage": "GPT Image Series",
     "effects": "Effects",
     "more": "More"
   },
@@ -184,6 +198,14 @@
         "bytedance": "ByteDance",
         "ultraHD": "Ultra HD",
         "creative": "Creative"
+      }
+    },
+    "gptImage15": {
+      "description": "Advanced AI image generation with GPT Image 1.5, supporting flexible quality and size options",
+      "tags": {
+        "powerful": "Powerful",
+        "realistic": "Realistic",
+        "flexible": "Flexible"
       }
     },
     "imageUpscaler": {

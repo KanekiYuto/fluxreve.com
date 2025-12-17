@@ -76,7 +76,20 @@
     "steps": "Passi",
     "uploadHint": "Suggerimento: è possibile trascinare e rilasciare un file o fare clic per caricarlo.",
     "uploadImage": "Carica immagine",
-    "uploading": "Caricamento..."
+    "uploading": "Caricamento...",
+    "imageSize": "Dimensione immagine",
+    "quality": "Qualità",
+    "qualityOptions": {
+      "low": "Bassa",
+      "medium": "Media",
+      "high": "Alta"
+    },
+    "background": "Sfondo",
+    "backgroundOptions": {
+      "auto": "Auto",
+      "transparent": "Trasparente",
+      "opaque": "Opaco"
+    }
   },
   "generate": {
     "generateImage": "Genera ({credits} crediti)",
@@ -118,7 +131,8 @@
     "seedream": "Serie Seedream",
     "zImage": "Serie Z-Image",
     "effects": "Effetti",
-    "more": "Di più"
+    "more": "Di più",
+    "gptImage": "Serie GPT Image"
   },
   "models": {
     "flux2Pro": {
@@ -191,6 +205,14 @@
         "retro": "Retrò",
         "professional": "Professionale",
         "creative": "Creativo"
+      }
+    },
+    "gptImage15": {
+      "description": "Generazione avanzata di immagini AI con GPT Image 1.5, supporta opzioni flessibili di qualità e dimensione",
+      "tags": {
+        "powerful": "Potente",
+        "realistic": "Realistico",
+        "flexible": "Flessibile"
       }
     }
   },

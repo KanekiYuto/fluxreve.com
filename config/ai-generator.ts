@@ -96,6 +96,11 @@ function calculateTextToImageCredits(model: string, parameters: Record<string, a
     return fluxSchnellTextToImageCredits(parameters);
   }
 
+  // GPT Image 1.5 模型
+  if (model === 'gpt-image-1.5') {
+    return gptImage15TextToImageCredits(parameters);
+  }
+
   // 未匹配到生成器，返回默认配额
   return DEFAULT_CREDITS;
 }
@@ -117,6 +122,11 @@ function calculateImageToImageCredits(model: string, parameters: Record<string, 
   // Seedream v4.5 模型
   if (model === 'seedream-v4.5') {
     return seedreamImageToImageCredits(parameters);
+  }
+
+  // GPT Image 1.5 模型
+  if (model === 'gpt-image-1.5') {
+    return gptImage15ImageToImageCredits(parameters);
   }
 
   // 未匹配到生成器，返回默认配额
@@ -255,4 +265,76 @@ function calculateImageEffectsCredits(model: string, parameters: Record<string, 
       // 未匹配到效果模型，返回默认配额
       return 20;
   }
+}
+
+/**
+ * GPT Image 1.5 通用积分计算
+ * 根据质量和尺寸计算积分
+ * 1美元 = 700积分
+ */
+function calculateGptImage15Credits(parameters: Record<string, any>): number {
+  const { num_images = 1, quality = 'medium', size = '1024x1024' } = parameters;
+
+  // 定义每张图的美元价格
+  let pricePerImage = 0;
+
+  if (quality === 'low') {
+    // Low quality 定价
+    if (size === '1024x1024') {
+      pricePerImage = 0.009;
+    } else {
+      // 其他尺寸
+      pricePerImage = 0.013;
+    }
+  } else if (quality === 'medium') {
+    // Medium quality 定价
+    if (size === '1024x1024') {
+      pricePerImage = 0.034;
+    } else if (size === '1024x1536') {
+      pricePerImage = 0.051;
+    } else if (size === '1536x1024') {
+      pricePerImage = 0.050;
+    } else {
+      // 默认中等质量价格
+      pricePerImage = 0.034;
+    }
+  } else if (quality === 'high') {
+    // High quality 定价
+    if (size === '1024x1024') {
+      pricePerImage = 0.133;
+    } else if (size === '1024x1536') {
+      pricePerImage = 0.200;
+    } else if (size === '1536x1024') {
+      pricePerImage = 0.199;
+    } else {
+      // 默认高质量价格
+      pricePerImage = 0.133;
+    }
+  } else {
+    // 默认使用 medium quality 1024x1024 价格
+    pricePerImage = 0.034;
+  }
+
+  // 转换为积分: 1美元 = 700积分
+  const rawCredits = pricePerImage * 700;
+
+  // 向上取整到5的倍数
+  const creditsPerImage = Math.ceil(rawCredits / 5) * 5;
+
+  // 总积分 = 单张图积分 × 图片数量
+  return creditsPerImage * num_images;
+}
+
+/**
+ * GPT Image 1.5 文生图配额计算
+ */
+function gptImage15TextToImageCredits(parameters: Record<string, any>): number {
+  return calculateGptImage15Credits(parameters);
+}
+
+/**
+ * GPT Image 1.5 图生图配额计算
+ */
+function gptImage15ImageToImageCredits(parameters: Record<string, any>): number {
+  return calculateGptImage15Credits(parameters);
 }
