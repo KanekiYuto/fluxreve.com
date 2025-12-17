@@ -27,13 +27,6 @@
     "clearAll": "Limpiar todo",
     "completed": "Completado",
     "failed": "Fallido",
-    "model": {
-      "all": "Todos",
-      "flux-2-pro": "FLUX 2 Pro",
-      "nano-banana-pro": "Nano Banana Pro",
-      "z-image": "Z-Image",
-      "z-image-lora": "Z-Image LoRA"
-    },
     "modelLabel": "Modelo",
     "nsfw": {
       "nsfw": "NSFW",

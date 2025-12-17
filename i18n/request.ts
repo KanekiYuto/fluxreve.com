@@ -9,6 +9,7 @@ const fileToKeyMap: Record<string, string> = {
   'z-image': 'zImage',
   'flux-2-pro': 'flux2Pro',
   'seedream-v45': 'seedreamV45',
+  'gpt-image-15': 'gptImage15',
   'image-upscaler': 'imageUpscaler',
   'image-watermark-remover': 'imageWatermarkRemover',
 };
@@ -33,6 +34,7 @@ async function loadMessages(locale: string) {
     'z-image',
     'flux-2-pro',
     'seedream-v45',
+    'gpt-image-15',
     'task',
     'tasks',
     'notFound',

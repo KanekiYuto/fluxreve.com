@@ -27,13 +27,6 @@
     "clearAll": "지우기",
     "completed": "완료",
     "failed": "실패",
-    "model": {
-      "all": "모두",
-      "flux-2-pro": "FLUX 2 Pro",
-      "nano-banana-pro": "Nano Banana Pro",
-      "z-image": "Z-Image",
-      "z-image-lora": "Z-Image LoRA"
-    },
     "modelLabel": "모델",
     "nsfw": {
       "nsfw": "NSFW",

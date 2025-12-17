@@ -26,13 +26,6 @@
       "image-to-image": "圖像轉圖像"
     },
     "modelLabel": "模型",
-    "model": {
-      "all": "全部",
-      "nano-banana-pro": "Nano Banana Pro",
-      "z-image": "Z-Image",
-      "z-image-lora": "Z-Image LoRA",
-      "flux-2-pro": "FLUX 2 Pro"
-    },
     "privacyLabel": "隱私",
     "privacy": {
       "private": "私人",

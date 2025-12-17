@@ -7,9 +7,14 @@ import ExploreCard from './ExploreCard';
 import ExploreLoadingSkeleton from './ExploreLoadingSkeleton';
 import ExploreEmptyState from './ExploreEmptyState';
 import Pagination from '@/app/[locale]/tasks/components/Pagination';
+import ModelFilter from './ModelFilter';
 import { ExploreTask, ExplorePagination, ExploreResponse } from '../types';
 
-export default function ExploreGallery() {
+interface ExploreGalleryProps {
+  model?: string;
+}
+
+export default function ExploreGallery({ model }: ExploreGalleryProps) {
   const t = useTranslations('explore');
   const [tasks, setTasks] = useState<ExploreTask[]>([]);
   const [loading, setLoading] = useState(true);
@@ -26,6 +31,11 @@ export default function ExploreGallery() {
       params.set('page', String(page));
       params.set('limit', '24');
 
+      // 如果指定了模型，添加到查询参数
+      if (model) {
+        params.set('model', model);
+      }
+
       const response = await fetch(`/api/explore?${params.toString()}`);
       const data: ExploreResponse = await response.json();
 
@@ -41,7 +51,7 @@ export default function ExploreGallery() {
     } finally {
       setLoading(false);
     }
-  }, [t]);
+  }, [t, model]);
 
   useEffect(() => {
     fetchTasks(currentPage);
@@ -57,8 +67,13 @@ export default function ExploreGallery() {
       {/* 页面头部 */}
       <div className="bg-bg-elevated border-b border-border">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
-          <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2 sm:mb-3">{t('header.title')}</h1>
-          <p className="text-text-muted text-base sm:text-lg">{t('header.subtitle')}</p>
+          <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2 sm:mb-3">
+            {model ? `${model} - ${t('header.title')}` : t('header.title')}
+          </h1>
+          <p className="text-text-muted text-base sm:text-lg mb-6">{t('header.subtitle')}</p>
+
+          {/* 模型筛选器 */}
+          <ModelFilter currentModel={model} />
         </div>
       </div>
 

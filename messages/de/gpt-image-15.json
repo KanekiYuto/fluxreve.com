@@ -1,0 +1,201 @@
+{
+  "seo": {
+    "title": "GPT Image 1.5 - KI-Bildgenerator der nächsten Generation | Text und Bild zu Bild",
+    "description": "Verwandeln Sie Ihre Ideen mit GPT Image 1.5 in beeindruckende Bilder. Fortschrittlicher KI-Bildgenerator mit Unterstützung für Text-zu-Bild und Bild-zu-Bild mit flexiblen Qualitätsoptionen und schneller Generierung."
+  },
+  "hero": {
+    "title": {
+      "line1": "GPT Image 1.5",
+      "line2": "KI-Bilderstellung der nächsten Generation"
+    },
+    "subtitle": "Erleben Sie GPT Image 1.5 - den vielseitigen KI-Bildgenerator, der Ihre kreative Vision zum Leben erweckt. Von Textbeschreibungen bis zu Bildtransformationen erstellen Sie professionelle Bilder mit flexiblen Qualitätseinstellungen und mehreren Auflösungsoptionen.",
+    "cta": {
+      "primary": "GPT Image 1.5 ausprobieren",
+      "secondary": "Mehr erfahren"
+    },
+    "stats": {
+      "speed": {
+        "value": "Schnell",
+        "label": "Generierungsgeschwindigkeit"
+      },
+      "quality": {
+        "value": "3 Stufen",
+        "label": "Qualitätsoptionen"
+      },
+      "versatility": {
+        "value": "2 Modi",
+        "label": "Text- und Bildeingabe"
+      }
+    }
+  },
+  "what": {
+    "title": "Was ist der GPT Image 1.5 KI-Bildgenerator?",
+    "description": "GPT Image 1.5 ist ein fortschrittlicher KI-Bildgenerator, der modernste Technologie mit benutzerfreundlichen Steuerelementen kombiniert. Ob Sie aus Textbeschreibungen erstellen oder vorhandene Bilder transformieren, GPT Image 1.5 liefert professionelle Ergebnisse mit flexiblen Qualitätseinstellungen (Niedrig, Mittel, Hoch) und mehreren Auflösungsoptionen bis zu 1536x1024 Pixeln. Perfekt für Designer, Vermarkter, Content-Ersteller und alle, die KI-gestützte Bildgenerierung benötigen.",
+    "demoPlaceholder": "Von GPT Image 1.5 generiertes Bild",
+    "coreFeatures": {
+      "core1": {
+        "title": "Dual-Modus KI-Bildgenerierung",
+        "description": "GPT Image 1.5 bietet sowohl Text-zu-Bild- als auch Bild-zu-Bild-Generierungsmodi. Erstellen Sie völlig neue Bilder aus Textprompts oder transformieren Sie vorhandene Bilder unter Beibehaltung von Komposition und Stil. Diese Vielseitigkeit macht es perfekt für vielfältige kreative Projekte, von Konzeptkunst bis zu Produktmodellen und visueller Erzählkunst."
+      },
+      "core2": {
+        "title": "Flexible Qualitäts- und Auflösungssteuerung",
+        "description": "Wählen Sie aus drei Qualitätsstufen (Niedrig, Mittel, Hoch), um Geschwindigkeit und Details auszubalancieren. Wählen Sie aus mehreren Auflösungsoptionen einschließlich quadratischer (1024x1024) und Querformat-/Hochformat-Formate (1536x1024, 1024x1536). Generieren Sie mehrere Bilder in einem Durchgang für schnelle Iteration und kreative Erkundung."
+      },
+      "core3": {
+        "title": "Intelligente Hintergrund- und Formatoptionen",
+        "description": "GPT Image 1.5 bietet intelligente Hintergrundverwaltung mit den Modi Auto, Transparent und Undurchsichtig. Exportieren Sie in den Formaten PNG, JPEG oder WebP, um Ihre Projektanforderungen zu erfüllen. Erweiterte Seed-Steuerung gewährleistet reproduzierbare Ergebnisse für konsistentes Branding und Stil."
+      }
+    }
+  },
+  "why": {
+    "title": "Warum den GPT Image 1.5 KI-Bildgenerator wählen",
+    "subtitle": "GPT Image 1.5 kombiniert leistungsstarke KI-Technologie mit praktischen Funktionen, die für reale kreative Workflows konzipiert sind. Von schnellen Konzepten bis zu polierten Endergebnissen passt es sich Ihren Bedürfnissen an.",
+    "comparison": {
+      "traditional": {
+        "title": "Traditionelle Bilderstellung",
+        "item1": "Stunden für manuelle Design- und Bearbeitungsarbeiten aufgewendet",
+        "item2": "Auf eine einzige Eingabemethode beschränkt (Zeichnen oder Fotobearbeitung)",
+        "item3": "Teure Software und erforderliche Lernkurve",
+        "item4": "Schwierig zu iterieren und mit Variationen zu experimentieren"
+      },
+      "product": {
+        "title": "GPT Image 1.5 KI-Generator",
+        "item1": "Generieren Sie professionelle Bilder in Sekunden mit KI",
+        "item2": "Dual-Modus: aus Text erstellen oder vorhandene Bilder transformieren",
+        "item3": "Einfache Oberfläche mit leistungsstarken Anpassungsoptionen",
+        "item4": "Batch-Generierung und Qualitätskontrollen für schnelle Iteration"
+      }
+    },
+    "benefits": {
+      "speed": {
+        "title": "Schnelle und effiziente Generierung",
+        "description": "GPT Image 1.5 liefert schnelle Ergebnisse ohne Qualitätseinbußen. Wählen Sie niedrige Qualität für schnelles Prototyping, mittlere für ausgewogene Leistung oder hohe für finale Produktionsarbeiten. Batch-Generierung ermöglicht es Ihnen, mehrere Variationen gleichzeitig zu erstellen."
+      },
+      "quality": {
+        "title": "Professionelle Bildqualität",
+        "description": "Drei Qualitätsstufen stellen sicher, dass Sie die richtige Balance zwischen Details und Generierungsgeschwindigkeit erhalten. Der hochwertige Modus erzeugt Bilder, die für kommerzielle Nutzung, Marketingmaterialien und professionelle Projekte mit scharfen Details und präzisem Rendering geeignet sind."
+      },
+      "flexibility": {
+        "title": "Vielseitige kreative Kontrolle",
+        "description": "Text-zu-Bild-Modus zum Erstellen neuer Konzepte. Bild-zu-Bild-Modus zum Transformieren von Referenzen. Mehrere Auflösungsoptionen für verschiedene Anwendungsfälle. Hintergrundsteuerung für transparente PNGs oder feste Hintergründe. Formatauswahl für optimale Dateigröße und Qualität."
+      },
+      "cost": {
+        "title": "Flexible Preisoptionen",
+        "description": "Gestaffelte Preise basierend auf Qualität und Auflösung bedeuten, dass Sie nur für das bezahlen, was Sie benötigen. Niedrigqualitative Generierungen beginnen bei nur 10 Credits und machen Experimente erschwinglich. Skalieren Sie auf hohe Qualität für finale Ergebnisse."
+      },
+      "support": {
+        "title": "Optimierter kreativer Workflow",
+        "description": "Integrierte Batch-Verarbeitung, Seed-Steuerung für Reproduzierbarkeit und mehrere Exportformate halten Ihren kreativen Workflow reibungslos. Generieren Sie Variationen, verfeinern Sie Prompts und exportieren Sie sofort einsatzbereite Bilder ohne Werkzeugwechsel."
+      },
+      "security": {
+        "title": "Konsistente und vorhersagbare Ergebnisse",
+        "description": "Seed-Steuerung gewährleistet reproduzierbare Ergebnisse über Generierungen hinweg. Hintergrundoptionen bieten Transparenz bei Bedarf. Mehrfache Formatexporte bieten Flexibilität für verschiedene Plattformen und Anwendungsfälle ohne Qualitätsverlust."
+      }
+    }
+  },
+  "how": {
+    "title": "So verwenden Sie den GPT Image 1.5 KI-Bildgenerator",
+    "subtitle": "Von der Idee zum fertigen Bild in vier einfachen Schritten. GPT Image 1.5 macht professionelle KI-Bildgenerierung für jeden zugänglich.",
+    "steps": {
+      "step1": {
+        "title": "Wählen Sie Ihren Generierungsmodus",
+        "description": "Wählen Sie Text-zu-Bild zum Erstellen aus Beschreibungen oder Bild-zu-Bild zum Transformieren vorhandener Bilder. Der Textmodus ist perfekt für neue Konzepte, während der Bildmodus bei Stil-Transfer, Neugestaltung von Szenen und kreativen Variationen von Referenzbildern hervorragend ist."
+      },
+      "step2": {
+        "title": "Qualität und Einstellungen konfigurieren",
+        "description": "Wählen Sie Ihr gewünschtes Qualitätsniveau (Niedrig für Geschwindigkeit, Hoch für Details), wählen Sie Auflösung und Seitenverhältnis, stellen Sie die Hintergrundverwaltung ein (Auto, Transparent oder Undurchsichtig) und wählen Sie Ihr Ausgabeformat (PNG, JPEG, WebP). Optional einen Seed für reproduzierbare Ergebnisse festlegen."
+      },
+      "step3": {
+        "title": "Prompt eingeben und generieren",
+        "description": "Schreiben Sie einen detaillierten Textprompt, der Ihre Vision beschreibt. Für den Bild-zu-Bild-Modus laden Sie Referenzbilder hoch. Klicken Sie auf Generieren und die KI von GPT Image 1.5 verarbeitet Ihre Anfrage und erstellt Bilder, die Ihren Spezifikationen mit Ihrer gewählten Qualität und Einstellungen entsprechen."
+      },
+      "step4": {
+        "title": "Ergebnisse überprüfen und herunterladen",
+        "description": "Vorschau generierter Bilder in hoher Auflösung. Herunterladen in Ihrem ausgewählten Format für sofortige Verwendung. Anpassungen erforderlich? Ändern Sie Ihren Prompt oder Ihre Einstellungen und regenerieren Sie. Verwenden Sie Batch-Generierung, um mehrere Variationen auf einmal für kreative Erkundung zu erstellen."
+      }
+    }
+  },
+  "features": {
+    "title": "GPT Image 1.5 KI-Bildgenerator-Funktionen",
+    "subtitle": "Umfassende KI-Bildgenerierungsfähigkeiten mit praktischen Steuerelementen für professionelle Workflows",
+    "items": {
+      "textToImage": {
+        "title": "Text-zu-Bild-Generierung",
+        "description": "Verwandeln Sie Textbeschreibungen in lebendige Bilder. Beschreiben Sie Szenen, Objekte, Stile und Stimmungen in natürlicher Sprache und lassen Sie die KI von GPT Image 1.5 Ihre Worte zum visuellen Leben erwecken."
+      },
+      "imageToImage": {
+        "title": "Bild-zu-Bild-Transformation",
+        "description": "Laden Sie Referenzbilder hoch und leiten Sie die KI mit Prompts an, um sie zu transformieren. Perfekt für Stil-Transfer, Neugestaltung von Szenen und kreative Variationen unter Beibehaltung der Komposition."
+      },
+      "quality": {
+        "title": "Drei Qualitätsstufen",
+        "description": "Niedrige Qualität für schnelles Prototyping (10 Credits), mittlere für ausgewogene Ergebnisse (25-40 Credits), hohe für produktionsreife Bilder (95-140 Credits). Wählen Sie basierend auf Ihren Projektanforderungen."
+      },
+      "resolution": {
+        "title": "Mehrere Auflösungsoptionen",
+        "description": "Quadratisches Format (1024x1024), Querformat (1536x1024) und Hochformat (1024x1536). Wählen Sie das Seitenverhältnis, das zu Ihrer Plattform und Ihren Designanforderungen passt."
+      },
+      "background": {
+        "title": "Hintergrundsteuerung",
+        "description": "Auto-Modus für intelligente Hintergrundgenerierung, Transparent für PNG-Overlays und Komposition, Undurchsichtig für feste Hintergründe. Flexible Optionen für verschiedene Anwendungsfälle."
+      },
+      "batch": {
+        "title": "Batch-Generierung",
+        "description": "Generieren Sie bis zu 4 Bilder gleichzeitig. Perfekt zum Erkunden von Variationen, Testen verschiedener Prompts und schneller kreativer Iteration ohne mehrere API-Aufrufe."
+      },
+      "formats": {
+        "title": "Mehrere Exportformate",
+        "description": "Exportieren Sie als PNG für maximale Qualität und Transparenz, JPEG für kleinere Dateigrößen oder WebP für moderne Weboptimierung. Wählen Sie das Format, das am besten zu Ihrer Bereitstellungsplattform passt."
+      },
+      "seed": {
+        "title": "Seed-Steuerung",
+        "description": "Setzen Sie spezifische Seed-Werte, um exakte Ergebnisse über Generierungen hinweg zu reproduzieren. Wesentlich für konsistentes Branding, Stilrichtlinien und Aufrechterhaltung visueller Kohärenz über Projekte hinweg."
+      }
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen zu GPT Image 1.5",
+    "subtitle": "Häufige Fragen zum GPT Image 1.5 KI-Bildgenerator",
+    "items": [
+      {
+        "question": "Was ist GPT Image 1.5 und wie funktioniert es?",
+        "answer": "GPT Image 1.5 ist ein fortschrittlicher KI-Bildgenerator, der Bilder aus Textbeschreibungen (Text-zu-Bild) erstellt oder vorhandene Bilder (Bild-zu-Bild) transformiert. Es verwendet modernste KI-Modelle, um Ihre Prompts zu verstehen und Bilder mit kontrollierbaren Qualitäts-, Auflösungs- und Hintergrundeinstellungen zu generieren. Der Dual-Modus-Ansatz gibt Ihnen die Flexibilität, von Grund auf neu zu beginnen oder auf Referenzbildern aufzubauen."
+      },
+      {
+        "question": "Was sind die Qualitätsstufen und wie unterscheiden sie sich?",
+        "answer": "GPT Image 1.5 bietet drei Qualitätsstufen: Niedrig (schnell, 10 Credits), Mittel (ausgewogen, 25-40 Credits) und Hoch (detailliert, 95-140 Credits). Niedrige Qualität ist perfekt für schnelles Prototyping und Konzepttests. Mittlere Qualität bietet eine gute Balance zwischen Geschwindigkeit und Details für die meisten Projekte. Hohe Qualität liefert produktionsreife Bilder mit maximalen Details, geeignet für kommerzielle Arbeiten, Marketingmaterialien und finale Ergebnisse."
+      },
+      {
+        "question": "Welche Auflösungsoptionen sind verfügbar?",
+        "answer": "GPT Image 1.5 unterstützt drei Auflösungsvoreinstellungen: 1024x1024 (quadratisch), 1536x1024 (Querformat) und 1024x1536 (Hochformat). Quadratisches Format eignet sich gut für Social-Media-Profile und Icons. Querformat ist ideal für Website-Banner und Präsentationsfolien. Hochformat passt zu mobilen Bildschirmen und Story-Formaten. Wählen Sie basierend auf Ihrem beabsichtigten Anwendungsfall."
+      },
+      {
+        "question": "Wie funktioniert der Bild-zu-Bild-Modus?",
+        "answer": "Der Bild-zu-Bild-Modus ermöglicht es Ihnen, Referenzbilder (bis zu 5) hochzuladen und Textprompts zu verwenden, um Transformationen zu leiten. Die KI analysiert Ihre Referenzbilder und wendet Ihre Prompt-Anweisungen an, während Kompositionselemente beibehalten werden. Dies ist perfekt für Stil-Transfer, Neugestaltung von Szenen, Produktvariationen und kreative Bearbeitungen. Sie können Fotos in verschiedene Kunststile umwandeln, Zeiträume ändern, Beleuchtung anpassen oder Variationen bestehender Designs erstellen."
+      },
+      {
+        "question": "Wofür werden die Hintergrundoptionen verwendet?",
+        "answer": "GPT Image 1.5 bietet drei Hintergrundmodi: Auto (KI entscheidet basierend auf Kontext), Transparent (erstellt PNG mit Alpha-Kanal für Overlays und Komposition) und Undurchsichtig (fester Hintergrund). Verwenden Sie Transparent für Logos, Icons und Elemente, die Sie in andere Designs einfügen. Verwenden Sie Auto für natürliche Szenengenerierung. Verwenden Sie Undurchsichtig, wenn Sie eine feste Hintergrundfarbe oder Szene benötigen."
+      },
+      {
+        "question": "Wie funktioniert die Batch-Generierung?",
+        "answer": "Die Batch-Generierung ermöglicht es Ihnen, 1-4 Bilder in einer einzigen Generierungsanfrage zu erstellen. Dies multipliziert Ihre Credit-Kosten mit der Anzahl der Bilder (z. B. mittlere Qualität 1024x1024 kostet 25 Credits pro Bild, also 4 Bilder kosten insgesamt 100 Credits). Batch-Generierung ist perfekt zum Erkunden von Variationen, Testen verschiedener Kompositionen und schneller Iteration ohne manuelle Neueinreichung."
+      },
+      {
+        "question": "Was ist Seed-Steuerung und wann sollte ich sie verwenden?",
+        "answer": "Die Seed-Steuerung ermöglicht es Ihnen, eine bestimmte Zahl festzulegen, die das zufällige Generierungsverhalten der KI bestimmt. Die Verwendung desselben Seeds mit demselben Prompt und denselben Einstellungen erzeugt ähnliche Ergebnisse und ermöglicht Reproduzierbarkeit. Dies ist wesentlich für die Aufrechterhaltung eines konsistenten visuellen Stils über Markenmaterialien hinweg, das Erstellen von Variationen genehmigter Konzepte und das Iterieren auf bestimmten Kompositionen. Leer lassen für zufällige Seeds und kreative Variation."
+      },
+      {
+        "question": "Welches Ausgabeformat sollte ich wählen?",
+        "answer": "PNG bietet verlustfreie Qualität und Transparenzunterstützung (mit transparentem Hintergrundmodus), ideal für Logos, Grafiken und Komposition. JPEG bietet kleinere Dateigrößen mit leichter Kompression, gut für Fotos und Webbilder, wo Transparenz nicht erforderlich ist. WebP bietet moderne Kompression mit ähnlicher Qualität wie PNG, aber kleineren Dateien, perfekt für Web-Bereitstellung, wenn Ihre Plattform es unterstützt."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Beginnen Sie mit dem GPT Image 1.5 KI-Bildgenerator zu erstellen",
+    "subtitle": "Schließen Sie sich kreativen Profis an, die GPT Image 1.5 für flexible, schnelle und hochwertige KI-Bildgenerierung verwenden.",
+    "primary": "GPT Image 1.5 kostenlos ausprobieren",
+    "secondary": "Preispläne ansehen",
+    "note": "Keine Kreditkarte erforderlich • Mehrere Qualitätsstufen • Text- und Bildmodi"
+  }
+}

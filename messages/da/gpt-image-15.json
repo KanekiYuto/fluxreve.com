@@ -1,0 +1,201 @@
+{
+  "seo": {
+    "title": "GPT Image 1.5 - Næste generations AI-billedgenerator | Tekst og billede til billede",
+    "description": "Transformér dine idéer til fantastiske billeder med GPT Image 1.5. Avanceret AI-billedgenerator med understøttelse af tekst-til-billede og billede-til-billede med fleksible kvalitetsindstillinger og hurtig generering."
+  },
+  "hero": {
+    "title": {
+      "line1": "GPT Image 1.5",
+      "line2": "Næste generations AI-billedskabelse"
+    },
+    "subtitle": "Oplev GPT Image 1.5 - den alsidige AI-billedgenerator, der bringer din kreative vision til live. Fra tekstbeskrivelser til billedtransformationer, skab professionelle billeder med fleksible kvalitetsindstillinger og flere opløsningsindstillinger.",
+    "cta": {
+      "primary": "Prøv GPT Image 1.5",
+      "secondary": "Læs mere"
+    },
+    "stats": {
+      "speed": {
+        "value": "Hurtig",
+        "label": "Genereringshastighed"
+      },
+      "quality": {
+        "value": "3 niveauer",
+        "label": "Kvalitetsindstillinger"
+      },
+      "versatility": {
+        "value": "2 tilstande",
+        "label": "Tekst og billedinput"
+      }
+    }
+  },
+  "what": {
+    "title": "Hvad er GPT Image 1.5 AI-billedgenerator?",
+    "description": "GPT Image 1.5 er en avanceret AI-billedgenerator, der kombinerer banebrydende teknologi med brugervenlige kontrolfunktioner. Uanset om du opretter fra tekstbeskrivelser eller transformerer eksisterende billeder, leverer GPT Image 1.5 professionelle resultater med fleksible kvalitetsindstillinger (Lav, Medium, Høj) og flere opløsningsindstillinger op til 1536x1024 pixels.",
+    "demoPlaceholder": "GPT Image 1.5 genereret billede",
+    "coreFeatures": {
+      "core1": {
+        "title": "Dual-mode AI-billedgenerering",
+        "description": "GPT Image 1.5 tilbyder både tekst-til-billede og billede-til-billede genereringstilstande. Skab helt nye billeder fra tekstprompter, eller transformér eksisterende billeder, mens du bevarer komposition og stil."
+      },
+      "core2": {
+        "title": "Fleksibel kvalitets- og opløsningskontrol",
+        "description": "Vælg mellem tre kvalitetsniveauer (Lav, Medium, Høj) for at balancere hastighed og detaljer. Vælg mellem flere opløsningsindstillinger, herunder kvadratisk format (1024x1024) og liggende/stående formater (1536x1024, 1024x1536)."
+      },
+      "core3": {
+        "title": "Smarte baggrunds- og formatindstillinger",
+        "description": "GPT Image 1.5 tilbyder intelligent baggrundshåndtering med Auto, Gennemsigtig og Ugennemsigtig tilstand. Eksportér i PNG-, JPEG- eller WebP-formater for at opfylde dine projektkrav."
+      }
+    }
+  },
+  "why": {
+    "title": "Hvorfor vælge GPT Image 1.5 AI-billedgenerator",
+    "subtitle": "GPT Image 1.5 kombinerer kraftfuld AI-teknologi med praktiske funktioner designet til virkelige kreative workflows.",
+    "comparison": {
+      "traditional": {
+        "title": "Traditionel billedskabelse",
+        "item1": "Timer brugt på manuel design og redigeringsarbejde",
+        "item2": "Begrænset til en enkelt inputmetode (tegning eller fotoredigering)",
+        "item3": "Dyrt software og læringskurve påkrævet",
+        "item4": "Svært at iterere og eksperimentere med variationer"
+      },
+      "product": {
+        "title": "GPT Image 1.5 AI-generator",
+        "item1": "Generér professionelle billeder på sekunder med AI",
+        "item2": "Dual-mode: skab fra tekst eller transformér eksisterende billeder",
+        "item3": "Simpel grænseflade med kraftfulde tilpasningsmuligheder",
+        "item4": "Batch-generering og kvalitetskontroller til hurtig iteration"
+      }
+    },
+    "benefits": {
+      "speed": {
+        "title": "Hurtig og effektiv generering",
+        "description": "GPT Image 1.5 leverer hurtige resultater uden at gå på kompromis med kvaliteten. Vælg Lav kvalitet til hurtig prototyping, Medium til balanceret ydeevne eller Høj til endeligt produktionsarbejde."
+      },
+      "quality": {
+        "title": "Professionel billedkvalitet",
+        "description": "Tre kvalitetsniveauer sikrer, at du får den rette balance mellem detaljer og genereringshastighed. Høj kvalitetstilstand producerer billeder, der er egnede til kommerciel brug, marketingmaterialer og professionelle projekter."
+      },
+      "flexibility": {
+        "title": "Alsidig kreativ kontrol",
+        "description": "Tekst-til-billede-tilstand til at skabe nye koncepter. Billede-til-billede-tilstand til at transformere referencer. Flere opløsningsindstillinger til forskellige anvendelsestilfælde."
+      },
+      "cost": {
+        "title": "Fleksible prisindstillinger",
+        "description": "Lagdelt prisfastsættelse baseret på kvalitet og opløsning betyder, at du kun betaler for det, du har brug for. Lav kvalitetsgenerering starter ved kun 10 kreditter."
+      },
+      "support": {
+        "title": "Strømlinet kreativt workflow",
+        "description": "Integreret batch-behandling, seed-kontrol til reproducerbarhed og flere eksportformater holder dit kreative workflow glat."
+      },
+      "security": {
+        "title": "Konsistente og forudsigelige resultater",
+        "description": "Seed-kontrol sikrer reproducerbare resultater på tværs af genereringer. Baggrundsindstillinger giver dig gennemsigtighed, når du har brug for det."
+      }
+    }
+  },
+  "how": {
+    "title": "Sådan bruges GPT Image 1.5 AI-billedgenerator",
+    "subtitle": "Fra idé til færdigt billede i fire enkle trin. GPT Image 1.5 gør professionel AI-billedgenerering tilgængelig for alle.",
+    "steps": {
+      "step1": {
+        "title": "Vælg din genereringstilstand",
+        "description": "Vælg Tekst-til-billede for at skabe fra beskrivelser, eller Billede-til-billede for at transformere eksisterende billeder."
+      },
+      "step2": {
+        "title": "Konfigurér kvalitet og indstillinger",
+        "description": "Vælg dit ønskede kvalitetsniveau, vælg opløsning og billedformat, indstil baggrundshåndtering og vælg dit outputformat."
+      },
+      "step3": {
+        "title": "Indtast prompt og generér",
+        "description": "Skriv en detaljeret tekstprompt, der beskriver din vision. For Billede-til-billede-tilstand skal du uploade referencebilleder."
+      },
+      "step4": {
+        "title": "Gennemse og download resultater",
+        "description": "Forhåndsvis genererede billeder i høj opløsning. Download i dit valgte format til øjeblikkelig brug."
+      }
+    }
+  },
+  "features": {
+    "title": "GPT Image 1.5 AI-billedgenerator funktioner",
+    "subtitle": "Omfattende AI-billedgenereringsfunktioner med praktiske kontrolfunktioner til professionelle workflows",
+    "items": {
+      "textToImage": {
+        "title": "Tekst-til-billede-generering",
+        "description": "Transformér tekstbeskrivelser til levende billeder."
+      },
+      "imageToImage": {
+        "title": "Billede-til-billede-transformation",
+        "description": "Upload referencebilleder og guide AI'en med prompts til at transformere dem."
+      },
+      "quality": {
+        "title": "Tre kvalitetsniveauer",
+        "description": "Lav kvalitet til hurtig prototyping (10 kreditter), Medium til balancerede resultater (25-40 kreditter), Høj til produktionsklare billeder (95-140 kreditter)."
+      },
+      "resolution": {
+        "title": "Flere opløsningsindstillinger",
+        "description": "Kvadratisk format (1024x1024), liggende (1536x1024) og stående (1024x1536)."
+      },
+      "background": {
+        "title": "Baggrundskontrol",
+        "description": "Auto-tilstand til intelligent baggrundsgenerering, Gennemsigtig til PNG-overlejringer, Ugennemsigtig til ensartede baggrunde."
+      },
+      "batch": {
+        "title": "Batch-generering",
+        "description": "Generér op til 4 billeder samtidigt."
+      },
+      "formats": {
+        "title": "Flere eksportformater",
+        "description": "Eksportér som PNG for maksimal kvalitet, JPEG for mindre filstørrelser eller WebP til moderne weboptimering."
+      },
+      "seed": {
+        "title": "Seed-kontrol",
+        "description": "Indstil specifikke seed-værdier for at reproducere præcise resultater på tværs af genereringer."
+      }
+    }
+  },
+  "faq": {
+    "title": "GPT Image 1.5 ofte stillede spørgsmål",
+    "subtitle": "Almindelige spørgsmål om GPT Image 1.5 AI-billedgenerator",
+    "items": [
+      {
+        "question": "Hvad er GPT Image 1.5, og hvordan virker det?",
+        "answer": "GPT Image 1.5 er en avanceret AI-billedgenerator, der skaber billeder fra tekstbeskrivelser eller transformerer eksisterende billeder. Den bruger banebrydende AI-modeller til at forstå dine prompts og generere billeder med kontrollerbare kvalitets-, opløsnings- og baggrundsindstillinger."
+      },
+      {
+        "question": "Hvad er kvalitetsniveauerne, og hvordan adskiller de sig?",
+        "answer": "GPT Image 1.5 tilbyder tre kvalitetsniveauer: Lav (hurtig, 10 kreditter), Medium (balanceret, 25-40 kreditter) og Høj (detaljeret, 95-140 kreditter)."
+      },
+      {
+        "question": "Hvilke opløsningsindstillinger er tilgængelige?",
+        "answer": "GPT Image 1.5 understøtter tre opløsningsforudindstillinger: 1024x1024 (kvadratisk), 1536x1024 (liggende) og 1024x1536 (stående)."
+      },
+      {
+        "question": "Hvordan virker Billede-til-billede-tilstand?",
+        "answer": "Billede-til-billede-tilstand giver dig mulighed for at uploade referencebilleder (op til 5) og bruge tekstprompts til at guide transformationer."
+      },
+      {
+        "question": "Hvad bruges baggrundsindstillingerne til?",
+        "answer": "GPT Image 1.5 tilbyder tre baggrundstilstande: Auto (AI beslutter baseret på kontekst), Gennemsigtig (opretter PNG med alfa-kanal) og Ugennemsigtig (ensartet baggrund)."
+      },
+      {
+        "question": "Hvordan virker batch-generering?",
+        "answer": "Batch-generering giver dig mulighed for at oprette 1-4 billeder i en enkelt genereringsanmodning."
+      },
+      {
+        "question": "Hvad er seed-kontrol, og hvornår skal jeg bruge den?",
+        "answer": "Seed-kontrol giver dig mulighed for at indstille et specifikt tal, der bestemmer AI'ens tilfældige genereringsadfærd."
+      },
+      {
+        "question": "Hvilket outputformat skal jeg vælge?",
+        "answer": "PNG tilbyder tabsfri kvalitet og gennemsigtighedsunderstøttelse, JPEG giver mindre filstørrelser, WebP tilbyder moderne komprimering med kvalitet svarende til PNG."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Begynd at skabe med GPT Image 1.5 AI-billedgenerator",
+    "subtitle": "Bliv en del af kreative professionelle, der bruger GPT Image 1.5 til fleksibel, hurtig og høj kvalitet AI-billedgenerering.",
+    "primary": "Prøv GPT Image 1.5 gratis",
+    "secondary": "Se prisplaner",
+    "note": "Intet kreditkort påkrævet • Flere kvalitetsniveauer • Tekst- og billedtilstande"
+  }
+}

@@ -61,7 +61,22 @@ const staticRoutes = [
   '/z-image',
   '/flux-2-pro',
   '/seedream-v45',
+  '/gpt-image-15',
+  // 工具页面
   '/image-upscaler',
+  '/image-watermark-remover',
+];
+
+// Explore 页面的模型筛选路由
+const exploreModelRoutes = [
+  '/explore/nano-banana-pro',
+  '/explore/nano-banana',
+  '/explore/z-image',
+  '/explore/z-image-lora',
+  '/explore/flux-2-pro',
+  '/explore/flux-schnell',
+  '/explore/seedream-v4.5',
+  '/explore/gpt-image-1.5',
 ];
 
 // 从预生成的 JSON 文件读取公开分享的任务链接
@@ -133,6 +148,23 @@ module.exports = {
           loc: path,
           changefreq: isHome ? 'daily' : 'weekly',
           priority: isHome ? 1.0 : localePriority,
+          lastmod: new Date().toISOString(),
+        });
+      });
+
+      // Explore 模型筛选页面生成所有语言版本
+      exploreModelRoutes.forEach((route) => {
+        const path = locale === defaultLocale
+          ? route
+          : `/${locale}${route}`;
+
+        // 根据语言获取对应的权重，explore 页面使用稍低权重
+        const localePriority = (highValueLocales[locale] || 0.6) * 0.85;
+
+        paths.push({
+          loc: path,
+          changefreq: 'daily', // explore 页面内容更新较频繁
+          priority: localePriority,
           lastmod: new Date().toISOString(),
         });
       });

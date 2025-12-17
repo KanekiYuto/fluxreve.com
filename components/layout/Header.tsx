@@ -11,6 +11,7 @@ import Logo from '@/components/Logo';
 import useModalStore from '@/store/useModalStore';
 import { useCachedSession } from '@/hooks/useCachedSession';
 import { siteConfig } from '@/config/site';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 // 图标映射
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -156,8 +157,13 @@ export default function Header() {
             {headerNavigation.map((entry) => renderNavItem(entry, commonT))}
           </div>
 
-          {/* 右侧: 社交媒体链接 + 登录/用户按钮 */}
+          {/* 右侧: 语言切换 + 社交媒体链接 + 登录/用户按钮 */}
           <div className="flex items-center gap-3 justify-end">
+            {/* 语言切换器 */}
+            <div className="hidden sm:block">
+              <LanguageSwitcher direction="down" />
+            </div>
+
             {/* Discord 链接 */}
             {siteConfig.social?.discord && (
               <a

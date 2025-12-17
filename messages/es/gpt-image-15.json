@@ -1,0 +1,201 @@
+{
+  "seo": {
+    "title": "GPT Image 1.5 - Generador de imágenes IA de última generación | Texto e imagen a imagen",
+    "description": "Transforma tus ideas en imágenes impresionantes con GPT Image 1.5. Generador de imágenes IA avanzado que admite texto a imagen e imagen a imagen con opciones de calidad flexibles y generación rápida."
+  },
+  "hero": {
+    "title": {
+      "line1": "GPT Image 1.5",
+      "line2": "Creación de imágenes IA de última generación"
+    },
+    "subtitle": "Experimenta GPT Image 1.5: el generador de imágenes IA versátil que da vida a tu visión creativa. Desde descripciones de texto hasta transformaciones de imágenes, crea imágenes de calidad profesional con ajustes de calidad flexibles y múltiples opciones de resolución.",
+    "cta": {
+      "primary": "Probar GPT Image 1.5",
+      "secondary": "Más información"
+    },
+    "stats": {
+      "speed": {
+        "value": "Rápido",
+        "label": "Velocidad de generación"
+      },
+      "quality": {
+        "value": "3 niveles",
+        "label": "Opciones de calidad"
+      },
+      "versatility": {
+        "value": "2 modos",
+        "label": "Entrada de texto e imagen"
+      }
+    }
+  },
+  "what": {
+    "title": "¿Qué es el generador de imágenes IA GPT Image 1.5?",
+    "description": "GPT Image 1.5 es un generador de imágenes IA avanzado que combina tecnología de vanguardia con controles fáciles de usar. Ya sea que estés creando a partir de descripciones de texto o transformando imágenes existentes, GPT Image 1.5 ofrece resultados profesionales con ajustes de calidad flexibles (Baja, Media, Alta) y múltiples opciones de resolución de hasta 1536x1024 píxeles. Perfecto para diseñadores, especialistas en marketing, creadores de contenido y cualquiera que necesite generación de imágenes impulsada por IA.",
+    "demoPlaceholder": "Imagen generada por GPT Image 1.5",
+    "coreFeatures": {
+      "core1": {
+        "title": "Generación de imágenes IA de modo dual",
+        "description": "GPT Image 1.5 ofrece modos de generación tanto de texto a imagen como de imagen a imagen. Crea imágenes completamente nuevas a partir de indicaciones de texto, o transforma imágenes existentes manteniendo la composición y el estilo. Esta versatilidad lo hace perfecto para diversos proyectos creativos, desde arte conceptual hasta maquetas de productos y narrativa visual."
+      },
+      "core2": {
+        "title": "Control flexible de calidad y resolución",
+        "description": "Elige entre tres niveles de calidad (Baja, Media, Alta) para equilibrar velocidad y detalles. Selecciona entre múltiples opciones de resolución incluyendo formatos cuadrados (1024x1024) y horizontal/vertical (1536x1024, 1024x1536). Genera múltiples imágenes en un lote para una iteración rápida y exploración creativa."
+      },
+      "core3": {
+        "title": "Opciones inteligentes de fondo y formato",
+        "description": "GPT Image 1.5 ofrece manejo inteligente de fondos con modos Automático, Transparente y Opaco. Exporta en formatos PNG, JPEG o WebP para cumplir con los requisitos de tu proyecto. El control avanzado de semillas garantiza resultados reproducibles para branding y estilo consistentes."
+      }
+    }
+  },
+  "why": {
+    "title": "Por qué elegir el generador de imágenes IA GPT Image 1.5",
+    "subtitle": "GPT Image 1.5 combina poderosa tecnología IA con funciones prácticas diseñadas para flujos de trabajo creativos del mundo real. Desde conceptos rápidos hasta acabados pulidos, se adapta a tus necesidades.",
+    "comparison": {
+      "traditional": {
+        "title": "Creación de imágenes tradicional",
+        "item1": "Horas dedicadas a diseño manual y trabajo de edición",
+        "item2": "Limitado a un único método de entrada (dibujo o edición fotográfica)",
+        "item3": "Software costoso y curva de aprendizaje requerida",
+        "item4": "Difícil de iterar y experimentar con variaciones"
+      },
+      "product": {
+        "title": "Generador IA GPT Image 1.5",
+        "item1": "Genera imágenes profesionales en segundos con IA",
+        "item2": "Modo dual: crea desde texto o transforma imágenes existentes",
+        "item3": "Interfaz simple con potentes opciones de personalización",
+        "item4": "Generación por lotes y controles de calidad para iteración rápida"
+      }
+    },
+    "benefits": {
+      "speed": {
+        "title": "Generación rápida y eficiente",
+        "description": "GPT Image 1.5 ofrece resultados rápidos sin comprometer la calidad. Elige calidad Baja para prototipado rápido, Media para rendimiento equilibrado, o Alta para trabajo de producción final. La generación por lotes te permite crear múltiples variaciones simultáneamente."
+      },
+      "quality": {
+        "title": "Calidad de imagen profesional",
+        "description": "Tres niveles de calidad aseguran que obtengas el equilibrio correcto entre detalles y velocidad de generación. El modo de alta calidad produce imágenes adecuadas para uso comercial, materiales de marketing y proyectos profesionales con detalles nítidos y renderizado preciso."
+      },
+      "flexibility": {
+        "title": "Control creativo versátil",
+        "description": "Modo texto a imagen para crear nuevos conceptos. Modo imagen a imagen para transformar referencias. Múltiples opciones de resolución para diferentes casos de uso. Control de fondo para PNG transparentes o fondos sólidos. Selección de formato para tamaño de archivo y calidad óptimos."
+      },
+      "cost": {
+        "title": "Opciones de precios flexibles",
+        "description": "Los precios escalonados basados en calidad y resolución significan que solo pagas por lo que necesitas. Las generaciones de baja calidad comienzan en solo 10 créditos, haciendo que la experimentación sea asequible. Escala a alta calidad para entregables finales."
+      },
+      "support": {
+        "title": "Flujo de trabajo creativo optimizado",
+        "description": "Procesamiento por lotes integrado, control de semillas para reproducibilidad y múltiples formatos de exportación mantienen tu flujo de trabajo creativo fluido. Genera variaciones, refina indicaciones y exporta imágenes listas para usar sin cambiar de herramientas."
+      },
+      "security": {
+        "title": "Resultados consistentes y predecibles",
+        "description": "El control de semillas garantiza resultados reproducibles entre generaciones. Las opciones de fondo te dan transparencia cuando la necesitas. Las exportaciones de múltiples formatos proporcionan flexibilidad para diferentes plataformas y casos de uso sin pérdida de calidad."
+      }
+    }
+  },
+  "how": {
+    "title": "Cómo usar el generador de imágenes IA GPT Image 1.5",
+    "subtitle": "De la idea a la imagen terminada en cuatro simples pasos. GPT Image 1.5 hace que la generación de imágenes IA profesional sea accesible para todos.",
+    "steps": {
+      "step1": {
+        "title": "Elige tu modo de generación",
+        "description": "Selecciona Texto a imagen para crear desde descripciones, o Imagen a imagen para transformar imágenes existentes. El modo Texto es perfecto para nuevos conceptos, mientras que el modo Imagen sobresale en transferencia de estilo, reimaginación de escenas y variaciones creativas de imágenes de referencia."
+      },
+      "step2": {
+        "title": "Configura calidad y ajustes",
+        "description": "Selecciona tu nivel de calidad deseado (Baja para velocidad, Alta para detalles), elige resolución y relación de aspecto, establece el manejo de fondo (Automático, Transparente u Opaco) y elige tu formato de salida (PNG, JPEG, WebP). Opcionalmente, establece una semilla para resultados reproducibles."
+      },
+      "step3": {
+        "title": "Ingresa indicación y genera",
+        "description": "Escribe una indicación de texto detallada describiendo tu visión. Para el modo Imagen a imagen, carga imágenes de referencia. Haz clic en generar y la IA de GPT Image 1.5 procesa tu solicitud, creando imágenes que coincidan con tus especificaciones con tu calidad y ajustes elegidos."
+      },
+      "step4": {
+        "title": "Revisa y descarga resultados",
+        "description": "Previsualiza imágenes generadas en alta resolución. Descarga en tu formato seleccionado para uso inmediato. ¿Necesitas ajustes? Modifica tu indicación o ajustes y regenera. Usa la generación por lotes para crear múltiples variaciones a la vez para exploración creativa."
+      }
+    }
+  },
+  "features": {
+    "title": "Características del generador de imágenes IA GPT Image 1.5",
+    "subtitle": "Capacidades completas de generación de imágenes IA con controles prácticos para flujos de trabajo profesionales",
+    "items": {
+      "textToImage": {
+        "title": "Generación de texto a imagen",
+        "description": "Transforma descripciones de texto en imágenes vívidas. Describe escenas, objetos, estilos y estados de ánimo en lenguaje natural y deja que la IA de GPT Image 1.5 dé vida visual a tus palabras."
+      },
+      "imageToImage": {
+        "title": "Transformación de imagen a imagen",
+        "description": "Carga imágenes de referencia y guía la IA con indicaciones para transformarlas. Perfecto para transferencia de estilo, reimaginación de escenas y variaciones creativas mientras se mantiene la composición."
+      },
+      "quality": {
+        "title": "Tres niveles de calidad",
+        "description": "Calidad baja para prototipado rápido (10 créditos), Media para resultados equilibrados (25-40 créditos), Alta para imágenes listas para producción (95-140 créditos). Elige según las necesidades de tu proyecto."
+      },
+      "resolution": {
+        "title": "Múltiples opciones de resolución",
+        "description": "Formato cuadrado (1024x1024), horizontal (1536x1024) y vertical (1024x1536). Selecciona la relación de aspecto que se ajuste a tu plataforma y requisitos de diseño."
+      },
+      "background": {
+        "title": "Control de fondo",
+        "description": "Modo automático para generación inteligente de fondo, Transparente para superposiciones PNG y composición, Opaco para fondos sólidos. Opciones flexibles para diferentes casos de uso."
+      },
+      "batch": {
+        "title": "Generación por lotes",
+        "description": "Genera hasta 4 imágenes simultáneamente. Perfecto para explorar variaciones, probar diferentes indicaciones e iteración creativa rápida sin múltiples llamadas API."
+      },
+      "formats": {
+        "title": "Múltiples formatos de exportación",
+        "description": "Exporta como PNG para máxima calidad y transparencia, JPEG para tamaños de archivo más pequeños, o WebP para optimización web moderna. Elige el formato que mejor se adapte a tu plataforma de entrega."
+      },
+      "seed": {
+        "title": "Control de semilla",
+        "description": "Establece valores de semilla específicos para reproducir resultados exactos entre generaciones. Esencial para branding consistente, guías de estilo y mantener coherencia visual entre proyectos."
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes sobre GPT Image 1.5",
+    "subtitle": "Preguntas comunes sobre el generador de imágenes IA GPT Image 1.5",
+    "items": [
+      {
+        "question": "¿Qué es GPT Image 1.5 y cómo funciona?",
+        "answer": "GPT Image 1.5 es un generador de imágenes IA avanzado que crea imágenes a partir de descripciones de texto (Texto a imagen) o transforma imágenes existentes (Imagen a imagen). Utiliza modelos de IA de vanguardia para comprender tus indicaciones y generar imágenes con configuraciones controlables de calidad, resolución y fondo. El enfoque de modo dual te da flexibilidad para comenzar desde cero o construir sobre imágenes de referencia."
+      },
+      {
+        "question": "¿Cuáles son los niveles de calidad y en qué se diferencian?",
+        "answer": "GPT Image 1.5 ofrece tres niveles de calidad: Baja (rápida, 10 créditos), Media (equilibrada, 25-40 créditos) y Alta (detallada, 95-140 créditos). La calidad baja es perfecta para prototipado rápido y prueba de conceptos. La calidad media proporciona un buen equilibrio entre velocidad y detalles para la mayoría de los proyectos. La calidad alta ofrece imágenes listas para producción con máximos detalles, adecuadas para trabajo comercial, materiales de marketing y entregables finales."
+      },
+      {
+        "question": "¿Qué opciones de resolución están disponibles?",
+        "answer": "GPT Image 1.5 admite tres ajustes preestablecidos de resolución: 1024x1024 (cuadrado), 1536x1024 (horizontal) y 1024x1536 (vertical). El formato cuadrado funciona bien para perfiles de redes sociales e iconos. El horizontal es ideal para banners de sitios web y diapositivas de presentaciones. El formato vertical se adapta a pantallas móviles y formatos de historias. Elige según tu caso de uso previsto."
+      },
+      {
+        "question": "¿Cómo funciona el modo Imagen a imagen?",
+        "answer": "El modo Imagen a imagen te permite cargar imágenes de referencia (hasta 5) y usar indicaciones de texto para guiar las transformaciones. La IA analiza tus imágenes de referencia y aplica tus instrucciones de indicación mientras mantiene elementos de composición. Esto es perfecto para transferencia de estilo, reimaginación de escenas, variaciones de productos y ediciones creativas. Puedes transformar fotos en diferentes estilos artísticos, cambiar períodos de tiempo, ajustar la iluminación o crear variaciones de diseños existentes."
+      },
+      {
+        "question": "¿Para qué se usan las opciones de fondo?",
+        "answer": "GPT Image 1.5 ofrece tres modos de fondo: Automático (la IA decide según el contexto), Transparente (crea PNG con canal alfa para superposiciones y composición) y Opaco (fondo sólido). Usa Transparente para logotipos, iconos y elementos que compondrás en otros diseños. Usa Automático para generación de escenas naturales. Usa Opaco cuando necesites un color de fondo sólido o una escena."
+      },
+      {
+        "question": "¿Cómo funciona la generación por lotes?",
+        "answer": "La generación por lotes te permite crear de 1 a 4 imágenes en una sola solicitud de generación. Esto multiplica tu costo de créditos por el número de imágenes (por ejemplo, calidad media 1024x1024 cuesta 25 créditos por imagen, así que 4 imágenes cuestan 100 créditos en total). La generación por lotes es perfecta para explorar variaciones, probar diferentes composiciones e iteración rápida sin reenvío manual."
+      },
+      {
+        "question": "¿Qué es el control de semilla y cuándo debo usarlo?",
+        "answer": "El control de semilla te permite establecer un número específico que determina el comportamiento de generación aleatoria de la IA. Usar la misma semilla con la misma indicación y configuración produce resultados similares, permitiendo la reproducibilidad. Esto es esencial para mantener un estilo visual consistente en materiales de marca, crear variaciones de conceptos aprobados e iterar en composiciones específicas. Deja en blanco para semillas aleatorias y variación creativa."
+      },
+      {
+        "question": "¿Qué formato de salida debo elegir?",
+        "answer": "PNG ofrece calidad sin pérdidas y soporte de transparencia (con modo de fondo Transparente), ideal para logotipos, gráficos y composición. JPEG proporciona tamaños de archivo más pequeños con ligera compresión, bueno para fotos e imágenes web donde no se necesita transparencia. WebP ofrece compresión moderna con calidad similar a PNG pero archivos más pequeños, perfecto para entrega web si tu plataforma lo admite."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Comienza a crear con el generador de imágenes IA GPT Image 1.5",
+    "subtitle": "Únete a profesionales creativos que usan GPT Image 1.5 para generación de imágenes IA flexible, rápida y de alta calidad.",
+    "primary": "Probar GPT Image 1.5 gratis",
+    "secondary": "Ver planes de precios",
+    "note": "No se requiere tarjeta de crédito • Múltiples niveles de calidad • Modos de texto e imagen"
+  }
+}

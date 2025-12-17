@@ -11,6 +11,7 @@ import { processImageResults } from '@/lib/image/resource';
  * 查询参数:
  * - page: 页码（从1开始，默认1）
  * - limit: 每页数量（默认24，最大50）
+ * - model: 模型筛选（可选）
  */
 export async function GET(request: NextRequest) {
   try {
@@ -18,6 +19,7 @@ export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url);
     const page = Math.max(1, parseInt(searchParams.get('page') || '1', 10));
     const limit = Math.min(50, Math.max(1, parseInt(searchParams.get('limit') || '24', 10)));
+    const model = searchParams.get('model') || undefined;
 
     // 计算偏移量
     const offset = (page - 1) * limit;
@@ -29,6 +31,11 @@ export async function GET(request: NextRequest) {
       isNull(mediaGenerationTask.deletedAt),             // 排除已删除
       isNotNull(mediaGenerationTask.results),            // 有结果
     ];
+
+    // 如果指定了模型，添加模型筛选条件
+    if (model) {
+      conditions.push(eq(mediaGenerationTask.model, model));
+    }
 
     // 查询任务列表
     const tasks = await db

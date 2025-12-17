@@ -27,13 +27,6 @@
     "clearAll": "クリア",
     "completed": "完成",
     "failed": "失敗",
-    "model": {
-      "all": "すべて",
-      "flux-2-pro": "FLUX 2 Pro",
-      "nano-banana-pro": "Nano Banana Pro",
-      "z-image": "Z-Image",
-      "z-image-lora": "Z-Image LoRA"
-    },
     "modelLabel": "モデル",
     "nsfw": {
       "nsfw": "NSFW",

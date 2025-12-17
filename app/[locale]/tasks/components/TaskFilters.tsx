@@ -3,10 +3,11 @@
 import { useTranslations } from 'next-intl';
 import { useState, useRef, useEffect, useMemo } from 'react';
 import { ChevronDown, Check, X, Filter } from 'lucide-react';
+import { getModelDisplayName } from '@/config/model-names';
 
 export type StatusFilter = 'completed' | 'processing' | 'pending' | 'failed';
 export type TaskTypeFilter = 'text-to-image' | 'image-to-image';
-export type ModelFilter = 'nano-banana-pro' | 'z-image' | 'z-image-lora' | 'flux-2-pro';
+export type ModelFilter = 'nano-banana-pro' | 'nano-banana' | 'z-image' | 'z-image-lora' | 'flux-2-pro' | 'flux-schnell' | 'seedream-v4.5' | 'gpt-image-1.5';
 export type PrivacyFilter = 'private' | 'public';
 export type NsfwFilter = 'nsfw' | 'safe';
 
@@ -31,12 +32,16 @@ const nsfwOptions: NsfwFilter[] = ['safe', 'nsfw'];
 // 模型与任务类型的关联配置
 const MODEL_TASK_TYPE_MAP: Record<ModelFilter, TaskTypeFilter[]> = {
   'nano-banana-pro': ['text-to-image', 'image-to-image'],
+  'nano-banana': ['text-to-image'],
   'z-image': ['text-to-image'],
   'z-image-lora': ['text-to-image'],
   'flux-2-pro': ['text-to-image', 'image-to-image'],
+  'flux-schnell': ['text-to-image'],
+  'seedream-v4.5': ['text-to-image', 'image-to-image'],
+  'gpt-image-1.5': ['text-to-image', 'image-to-image'],
 };
 
-const allModels: ModelFilter[] = ['nano-banana-pro', 'z-image', 'z-image-lora', 'flux-2-pro'];
+const allModels: ModelFilter[] = ['nano-banana-pro', 'nano-banana', 'z-image', 'z-image-lora', 'flux-2-pro', 'flux-schnell', 'seedream-v4.5', 'gpt-image-1.5'];
 
 // 多选下拉组件
 function MultiSelect<T extends string>({
@@ -250,7 +255,7 @@ export default function TaskFilters({
             options={availableModels}
             selected={selectedModels}
             onChange={onModelChange}
-            getLabel={(model) => t(`filter.model.${model}`)}
+            getLabel={(model) => getModelDisplayName(model)}
             placeholder={t('filter.selectPlaceholder')}
             selectedCountText={selectedCountText}
           />

@@ -7,7 +7,13 @@ import { locales, localeNames } from '@/i18n/config';
 import { ChevronDown, Globe } from 'lucide-react';
 import type { Locale } from '@/i18n/config';
 
-export const LanguageSwitcher = memo(function LanguageSwitcher() {
+interface LanguageSwitcherProps {
+  direction?: 'up' | 'down';
+}
+
+export const LanguageSwitcher = memo(function LanguageSwitcher({
+  direction = 'up'
+}: LanguageSwitcherProps) {
   const pathname = usePathname();
   const router = useRouter();
   const locale = useLocale() as Locale;
@@ -86,7 +92,11 @@ export const LanguageSwitcher = memo(function LanguageSwitcher() {
       </button>
 
       {isOpen && (
-        <div className="absolute -right-2 bottom-full z-10 mb-2 w-48 overflow-hidden rounded-lg bg-bg-elevated/95 backdrop-blur-sm shadow-xl ring-1 ring-white/10 animate-in fade-in slide-in-from-bottom-2 duration-200">
+        <div className={`absolute -right-2 z-10 w-48 overflow-hidden rounded-lg bg-bg-elevated/95 backdrop-blur-sm shadow-xl ring-1 ring-white/10 animate-in fade-in duration-200 ${
+          direction === 'up'
+            ? 'bottom-full mb-2 slide-in-from-bottom-2'
+            : 'top-full mt-2 slide-in-from-top-2'
+        }`}>
           <div className="p-2">
             {locales.map((loc) => (
               <button
