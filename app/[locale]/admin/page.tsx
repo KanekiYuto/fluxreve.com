@@ -6,6 +6,6 @@ interface AdminPageProps {
 
 export default async function AdminPage({ params }: AdminPageProps) {
   const { locale } = await params;
-  // 重定向到订阅管理页面
-  redirect(`/${locale}/admin/subscriptions`);
+  // 重定向到营销邮件页面
+  redirect(`/${locale}/admin/marketing-email`);
 }

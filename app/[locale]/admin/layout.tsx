@@ -41,12 +41,6 @@ export default async function AdminLayout({ children, params }: AdminLayoutProps
               <h1 className="text-xl font-bold text-white">管理后台</h1>
               <div className="hidden md:flex items-center gap-4">
                 <a
-                  href={`/${locale}/admin/subscriptions`}
-                  className="px-3 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors"
-                >
-                  订阅管理
-                </a>
-                <a
                   href={`/${locale}/admin/marketing-email`}
                   className="px-3 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors"
                 >
