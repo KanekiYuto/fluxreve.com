@@ -1,0 +1,201 @@
+{
+  "seo": {
+    "title": "GPT Image 1.5 - Seuraavan sukupolven AI-kuvageneraattori | Teksti ja kuva kuvaksi",
+    "description": "Muuta ideasi hämmästyttäviksi kuviksi GPT Image 1.5:n avulla. Edistynyt AI-kuvageneraattori, joka tukee teksti-kuva ja kuva-kuva -toimintoja joustavilla laatuasetuksilla ja nopealla generoinnilla."
+  },
+  "hero": {
+    "title": {
+      "line1": "GPT Image 1.5",
+      "line2": "Seuraavan sukupolven AI-kuvien luominen"
+    },
+    "subtitle": "Koe GPT Image 1.5 - monipuolinen AI-kuvageneraattori, joka herättää luovan visiosi eloon. Tekstikuvauksista kuvien muunnoksiin, luo ammattitasoisia kuvia joustavilla laatuasetuksilla ja useilla resoluutiovaihtoehdoilla.",
+    "cta": {
+      "primary": "Kokeile GPT Image 1.5",
+      "secondary": "Lue lisää"
+    },
+    "stats": {
+      "speed": {
+        "value": "Nopea",
+        "label": "Generointinopeus"
+      },
+      "quality": {
+        "value": "3 tasoa",
+        "label": "Laatuvaihtoehdot"
+      },
+      "versatility": {
+        "value": "2 tilaa",
+        "label": "Teksti- ja kuvasyytte"
+      }
+    }
+  },
+  "what": {
+    "title": "Mikä on GPT Image 1.5 AI-kuvageneraattori?",
+    "description": "GPT Image 1.5 on edistynyt AI-kuvageneraattori, joka yhdistää huipputeknologian käyttäjäystävällisiin hallintaelementteihin. Olitpa luomassa tekstikuvauksista tai muuntamassa olemassa olevia kuvia, GPT Image 1.5 tarjoaa ammattimaisia tuloksia joustavilla laatuasetuksilla (Matala, Keskitaso, Korkea) ja useilla resoluutiovaihtoehdoilla jopa 1536x1024 pikseliin.",
+    "demoPlaceholder": "GPT Image 1.5:llä luotu kuva",
+    "coreFeatures": {
+      "core1": {
+        "title": "Kaksitilaa AI-kuvien generointi",
+        "description": "GPT Image 1.5 tarjoaa sekä teksti-kuva että kuva-kuva -generointitilat. Luo täysin uusia kuvia tekstikehotteista tai muunna olemassa olevia kuvia säilyttäen samalla sommittelun ja tyylin."
+      },
+      "core2": {
+        "title": "Joustava laatu- ja resoluutiohallinta",
+        "description": "Valitse kolmesta laatutasosta (Matala, Keskitaso, Korkea) tasapainottaaksesi nopeutta ja yksityiskohtia. Valitse useista resoluutiovaihtoehdoista, mukaan lukien neliömuoto (1024x1024) ja vaaka-/pystysuuntaiset muodot (1536x1024, 1024x1536)."
+      },
+      "core3": {
+        "title": "Älykkäät tausta- ja muotoasetukset",
+        "description": "GPT Image 1.5 tarjoaa älykkään taustankäsittelyn Automaatti-, Läpinäkyvä- ja Läpinäkymätön-tiloilla. Vie PNG-, JPEG- tai WebP-muodoissa projektisi vaatimusten mukaan."
+      }
+    }
+  },
+  "why": {
+    "title": "Miksi valita GPT Image 1.5 AI-kuvageneraattori",
+    "subtitle": "GPT Image 1.5 yhdistää tehokkaan AI-teknologian käytännöllisiin ominaisuuksiin, jotka on suunniteltu todellisiin luoviin työnkulkuihin.",
+    "comparison": {
+      "traditional": {
+        "title": "Perinteinen kuvien luominen",
+        "item1": "Tunteja käytetty manuaaliseen suunnittelu- ja muokkaustyöhön",
+        "item2": "Rajoitettu yhteen syöttömenetelmään (piirtäminen tai kuvankäsittely)",
+        "item3": "Kallis ohjelmisto ja oppimiskäyrä vaaditaan",
+        "item4": "Vaikeaa toistaa ja kokeilla variaatioita"
+      },
+      "product": {
+        "title": "GPT Image 1.5 AI-generaattori",
+        "item1": "Generoi ammattitasoisia kuvia sekunneissa AI:n avulla",
+        "item2": "Kaksitilaa: luo tekstistä tai muunna olemassa olevia kuvia",
+        "item3": "Yksinkertainen käyttöliittymä tehokkailla mukautusvaihtoeh­doilla",
+        "item4": "Erägenerointi ja laatukontrollit nopeaan iterointiin"
+      }
+    },
+    "benefits": {
+      "speed": {
+        "title": "Nopea ja tehokas generointi",
+        "description": "GPT Image 1.5 tarjoaa nopeita tuloksia vaarantamatta laatua. Valitse Matala laatu nopeaan prototyyppiin, Keskitaso tasapainoiseen suorituskykyyn tai Korkea lopulliseen tuotantotyöhön."
+      },
+      "quality": {
+        "title": "Ammattimainen kuvalaatu",
+        "description": "Kolme laatutasoa varmistavat, että saat oikean tasapainon yksityiskohtien ja generointinopeuden välille. Korkealaatuinen tila tuottaa kuvia, jotka sopivat kaupalliseen käyttöön, markkinointimateriaaleihin ja ammattimaisiin projekteihin."
+      },
+      "flexibility": {
+        "title": "Monipuolinen luova hallinta",
+        "description": "Teksti-kuva -tila uusien konseptien luomiseen. Kuva-kuva -tila viitteiden muuntamiseen. Useita resoluutiovaihtoehtoja eri käyttötapauksiin."
+      },
+      "cost": {
+        "title": "Joustavat hinnoitteluvaihtoehdot",
+        "description": "Porrastettu hinnoittelu laadun ja resoluution perusteella tarkoittaa, että maksat vain siitä mitä tarvitset. Matalalaatuinen generointi alkaa vain 10 krediitistä."
+      },
+      "support": {
+        "title": "Virtaviivaistettu luova työnkulku",
+        "description": "Integroitu eräkäsittely, siemenhallinta toistettavuutta varten ja useat vientimuodot pitävät luovan työnkulkusi sujuvana."
+      },
+      "security": {
+        "title": "Johdonmukaiset ja ennustettavat tulokset",
+        "description": "Siemenhallinta varmistaa toistettavat tulokset generointien välillä. Tausta-asetukset tarjoavat läpinäkyvyyttä tarvittaessa."
+      }
+    }
+  },
+  "how": {
+    "title": "Kuinka käyttää GPT Image 1.5 AI-kuvageneraattoria",
+    "subtitle": "Ideasta valmiiseen kuvaan neljässä yksinkertaisessa vaiheessa. GPT Image 1.5 tekee ammattimaisesta AI-kuvien generoinnista kaikkien saatavilla.",
+    "steps": {
+      "step1": {
+        "title": "Valitse generointitilasi",
+        "description": "Valitse Teksti-kuva luodaksesi kuvauksista tai Kuva-kuva muuntaaksesi olemassa olevia kuvia."
+      },
+      "step2": {
+        "title": "Määritä laatu ja asetukset",
+        "description": "Valitse haluamasi laatutaso, valitse resoluutio ja kuvasuhde, aseta taustankäsittely ja valitse tulosmuoto."
+      },
+      "step3": {
+        "title": "Syötä kehote ja generoi",
+        "description": "Kirjoita yksityiskohtainen tekstikehote, joka kuvaa visiotasi. Kuva-kuva -tilassa lataa viitekuvia."
+      },
+      "step4": {
+        "title": "Tarkista ja lataa tulokset",
+        "description": "Esikatsele generoituja kuvia korkealla resoluutiolla. Lataa valitsemassasi muodossa välitöntä käyttöä varten."
+      }
+    }
+  },
+  "features": {
+    "title": "GPT Image 1.5 AI-kuvageneraattorin ominaisuudet",
+    "subtitle": "Kattavat AI-kuvien generointiominaisuudet käytännöllisillä hallintaelementeillä ammattimaisiin työnkulkuihin",
+    "items": {
+      "textToImage": {
+        "title": "Teksti-kuva -generointi",
+        "description": "Muunna tekstikuvaukset eläväiksi kuviksi."
+      },
+      "imageToImage": {
+        "title": "Kuva-kuva -muunnos",
+        "description": "Lataa viitekuvia ja ohjaa AI:ta kehotteilla muuntaaksesi niitä."
+      },
+      "quality": {
+        "title": "Kolme laatutasoa",
+        "description": "Matala laatu nopeaan prototyyppiin (10 krediittiä), Keskitaso tasapainoisiin tuloksiin (25-40 krediittiä), Korkea tuotantovalmiisiin kuviin (95-140 krediittiä)."
+      },
+      "resolution": {
+        "title": "Useita resoluutiovaihtoehtoja",
+        "description": "Neliömuoto (1024x1024), vaakasuuntainen (1536x1024) ja pystysuuntainen (1024x1536)."
+      },
+      "background": {
+        "title": "Taustahallinta",
+        "description": "Automaattinen tila älykkääseen taustan generointiin, Läpinäkyvä PNG-päällystyksiin, Läpinäkymätön yhtenäisiin taustoihin."
+      },
+      "batch": {
+        "title": "Erägenerointi",
+        "description": "Generoi jopa 4 kuvaa samanaikaisesti."
+      },
+      "formats": {
+        "title": "Useita vientimuotoja",
+        "description": "Vie PNG-muodossa maksimaalista laatua varten, JPEG pienempiin tiedostokokoihin tai WebP moderniin verkko-optimointiin."
+      },
+      "seed": {
+        "title": "Siemenhallinta",
+        "description": "Aseta tietyt siemenarvot toistaaksesi tarkat tulokset generointien välillä."
+      }
+    }
+  },
+  "faq": {
+    "title": "GPT Image 1.5 usein kysytyt kysymykset",
+    "subtitle": "Yleisiä kysymyksiä GPT Image 1.5 AI-kuvageneraattorista",
+    "items": [
+      {
+        "question": "Mikä on GPT Image 1.5 ja miten se toimii?",
+        "answer": "GPT Image 1.5 on edistynyt AI-kuvageneraattori, joka luo kuvia tekstikuvauksista tai muuntaa olemassa olevia kuvia. Se käyttää huipputason AI-malleja ymmärtääkseen kehotteesi ja generoidakseen kuvia hallittavilla laatu-, resoluutio- ja tausta-asetuksilla."
+      },
+      {
+        "question": "Mitä laatutasot ovat ja miten ne eroavat?",
+        "answer": "GPT Image 1.5 tarjoaa kolme laatutasoa: Matala (nopea, 10 krediittiä), Keskitaso (tasapainoinen, 25-40 krediittiä) ja Korkea (yksityiskohtainen, 95-140 krediittiä)."
+      },
+      {
+        "question": "Mitä resoluutiovaihtoehtoja on saatavilla?",
+        "answer": "GPT Image 1.5 tukee kolmea resoluutioesiasetusta: 1024x1024 (neliö), 1536x1024 (vaakasuuntainen) ja 1024x1536 (pystysuuntainen)."
+      },
+      {
+        "question": "Miten Kuva-kuva -tila toimii?",
+        "answer": "Kuva-kuva -tila antaa sinun ladata viitekuvia (enintään 5) ja käyttää tekstikehotteita ohjataksesi muunnoksia."
+      },
+      {
+        "question": "Mihin tausta-asetuksia käytetään?",
+        "answer": "GPT Image 1.5 tarjoaa kolme taustatilaa: Automaatti (AI päättää kontekstin perusteella), Läpinäkyvä (luo PNG:n alfakanavalla) ja Läpinäkymätön (yhtenäinen tausta)."
+      },
+      {
+        "question": "Miten erägenerointi toimii?",
+        "answer": "Erägenerointi antaa sinun luoda 1-4 kuvaa yhdellä generointipyynnöllä."
+      },
+      {
+        "question": "Mikä on siemenhallinta ja milloin minun pitäisi käyttää sitä?",
+        "answer": "Siemenhallinta antaa sinun asettaa tietyn numeron, joka määrittää AI:n satunnaisen generointikäyttäytymisen."
+      },
+      {
+        "question": "Minkä tulosmuodon minun pitäisi valita?",
+        "answer": "PNG tarjoaa häviötöntä laatua ja läpinäkyvyyden tukea, JPEG tarjoaa pienempiä tiedostokokoja, WebP tarjoaa modernia pakkausta PNG:n kaltaisella laadulla."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Aloita luominen GPT Image 1.5 AI-kuvageneraattorilla",
+    "subtitle": "Liity luoviin ammattilaisiin, jotka käyttävät GPT Image 1.5:tä joustavaan, nopeaan ja korkealaatuiseen AI-kuvien generointiin.",
+    "primary": "Kokeile GPT Image 1.5 ilmaiseksi",
+    "secondary": "Katso hinnoittelusuunnitelmat",
+    "note": "Ei luottokorttia tarvita • Useita laatutasoja • Teksti- ja kuvatilat"
+  }
+}

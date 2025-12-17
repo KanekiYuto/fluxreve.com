@@ -1,0 +1,201 @@
+{
+  "seo": {
+    "title": "GPT Image 1.5 - Nästa generations AI-bildgenerator | Text och bild till bild",
+    "description": "Förvandla dina idéer till fantastiska bilder med GPT Image 1.5. Avancerad AI-bildgenerator med stöd för text-till-bild och bild-till-bild med flexibla kvalitetsinställningar och snabb generering."
+  },
+  "hero": {
+    "title": {
+      "line1": "GPT Image 1.5",
+      "line2": "Nästa generations AI-bildskapande"
+    },
+    "subtitle": "Upplev GPT Image 1.5 - den mångsidiga AI-bildgeneratorn som ger liv åt din kreativa vision. Från textbeskrivningar till bildtransformationer, skapa professionella bilder med flexibla kvalitetsinställningar och flera upplösningsalternativ.",
+    "cta": {
+      "primary": "Prova GPT Image 1.5",
+      "secondary": "Läs mer"
+    },
+    "stats": {
+      "speed": {
+        "value": "Snabb",
+        "label": "Genereringshastighet"
+      },
+      "quality": {
+        "value": "3 nivåer",
+        "label": "Kvalitetsalternativ"
+      },
+      "versatility": {
+        "value": "2 lägen",
+        "label": "Text- och bildinmatning"
+      }
+    }
+  },
+  "what": {
+    "title": "Vad är GPT Image 1.5 AI-bildgenerator?",
+    "description": "GPT Image 1.5 är en avancerad AI-bildgenerator som kombinerar banbrytande teknologi med användarvänliga kontroller. Oavsett om du skapar från textbeskrivningar eller transformerar befintliga bilder, levererar GPT Image 1.5 professionella resultat med flexibla kvalitetsinställningar (Låg, Medel, Hög) och flera upplösningsalternativ upp till 1536x1024 pixlar.",
+    "demoPlaceholder": "GPT Image 1.5 genererad bild",
+    "coreFeatures": {
+      "core1": {
+        "title": "Dual-läge AI-bildgenerering",
+        "description": "GPT Image 1.5 erbjuder både text-till-bild och bild-till-bild genereringslägen. Skapa helt nya bilder från textprompter, eller transformera befintliga bilder medan du behåller komposition och stil."
+      },
+      "core2": {
+        "title": "Flexibel kvalitets- och upplösningskontroll",
+        "description": "Välj mellan tre kvalitetsnivåer (Låg, Medel, Hög) för att balansera hastighet och detaljer. Välj mellan flera upplösningsalternativ inklusive kvadratiskt format (1024x1024) och liggande/stående format (1536x1024, 1024x1536)."
+      },
+      "core3": {
+        "title": "Smarta bakgrunds- och formatalternativ",
+        "description": "GPT Image 1.5 erbjuder intelligent bakgrundshantering med Auto, Transparent och Ogenomskinlig läge. Exportera i PNG-, JPEG- eller WebP-format för att möta dina projektkrav."
+      }
+    }
+  },
+  "why": {
+    "title": "Varför välja GPT Image 1.5 AI-bildgenerator",
+    "subtitle": "GPT Image 1.5 kombinerar kraftfull AI-teknologi med praktiska funktioner designade för verkliga kreativa arbetsflöden.",
+    "comparison": {
+      "traditional": {
+        "title": "Traditionellt bildskapande",
+        "item1": "Timmar spenderade på manuellt design- och redigeringsarbete",
+        "item2": "Begränsad till en enda inmatningsmetod (ritning eller fotoredigering)",
+        "item3": "Dyr programvara och inlärningskurva krävs",
+        "item4": "Svårt att iterera och experimentera med variationer"
+      },
+      "product": {
+        "title": "GPT Image 1.5 AI-generator",
+        "item1": "Generera professionella bilder på sekunder med AI",
+        "item2": "Dual-läge: skapa från text eller transformera befintliga bilder",
+        "item3": "Enkelt gränssnitt med kraftfulla anpassningsalternativ",
+        "item4": "Batch-generering och kvalitetskontroller för snabb iteration"
+      }
+    },
+    "benefits": {
+      "speed": {
+        "title": "Snabb och effektiv generering",
+        "description": "GPT Image 1.5 levererar snabba resultat utan att kompromissa med kvaliteten. Välj Låg kvalitet för snabb prototypning, Medel för balanserad prestanda eller Hög för slutligt produktionsarbete."
+      },
+      "quality": {
+        "title": "Professionell bildkvalitet",
+        "description": "Tre kvalitetsnivåer säkerställer att du får rätt balans mellan detaljer och genereringshastighet. Högt kvalitetsläge producerar bilder som är lämpliga för kommersiell användning, marknadsföringsmaterial och professionella projekt."
+      },
+      "flexibility": {
+        "title": "Mångsidig kreativ kontroll",
+        "description": "Text-till-bild-läge för att skapa nya koncept. Bild-till-bild-läge för att transformera referenser. Flera upplösningsalternativ för olika användningsfall."
+      },
+      "cost": {
+        "title": "Flexibla prisalternativ",
+        "description": "Nivåindelad prissättning baserad på kvalitet och upplösning innebär att du bara betalar för vad du behöver. Lågkvalitetsgenerering börjar på bara 10 krediter."
+      },
+      "support": {
+        "title": "Strömlinjeformat kreativt arbetsflöde",
+        "description": "Integrerad batch-bearbetning, seed-kontroll för reproducerbarhet och flera exportformat håller ditt kreativa arbetsflöde smidigt."
+      },
+      "security": {
+        "title": "Konsekventa och förutsägbara resultat",
+        "description": "Seed-kontroll säkerställer reproducerbara resultat över genereringar. Bakgrundsinställningar ger dig transparens när du behöver det."
+      }
+    }
+  },
+  "how": {
+    "title": "Så här använder du GPT Image 1.5 AI-bildgenerator",
+    "subtitle": "Från idé till färdig bild i fyra enkla steg. GPT Image 1.5 gör professionell AI-bildgenerering tillgänglig för alla.",
+    "steps": {
+      "step1": {
+        "title": "Välj ditt genereringsläge",
+        "description": "Välj Text-till-bild för att skapa från beskrivningar, eller Bild-till-bild för att transformera befintliga bilder."
+      },
+      "step2": {
+        "title": "Konfigurera kvalitet och inställningar",
+        "description": "Välj önskad kvalitetsnivå, välj upplösning och bildformat, ställ in bakgrundshantering och välj utdataformat."
+      },
+      "step3": {
+        "title": "Ange prompt och generera",
+        "description": "Skriv en detaljerad textprompt som beskriver din vision. För Bild-till-bild-läge, ladda upp referensbilder."
+      },
+      "step4": {
+        "title": "Granska och ladda ner resultat",
+        "description": "Förhandsgranska genererade bilder i hög upplösning. Ladda ner i ditt valda format för omedelbar användning."
+      }
+    }
+  },
+  "features": {
+    "title": "GPT Image 1.5 AI-bildgenerator funktioner",
+    "subtitle": "Omfattande AI-bildgenereringsfunktioner med praktiska kontroller för professionella arbetsflöden",
+    "items": {
+      "textToImage": {
+        "title": "Text-till-bild-generering",
+        "description": "Förvandla textbeskrivningar till levande bilder."
+      },
+      "imageToImage": {
+        "title": "Bild-till-bild-transformation",
+        "description": "Ladda upp referensbilder och vägled AI:n med prompter för att transformera dem."
+      },
+      "quality": {
+        "title": "Tre kvalitetsnivåer",
+        "description": "Låg kvalitet för snabb prototypning (10 krediter), Medel för balanserade resultat (25-40 krediter), Hög för produktionsklara bilder (95-140 krediter)."
+      },
+      "resolution": {
+        "title": "Flera upplösningsalternativ",
+        "description": "Kvadratiskt format (1024x1024), liggande (1536x1024) och stående (1024x1536)."
+      },
+      "background": {
+        "title": "Bakgrundskontroll",
+        "description": "Auto-läge för intelligent bakgrundsgenerering, Transparent för PNG-överlägg, Ogenomskinlig för enhetliga bakgrunder."
+      },
+      "batch": {
+        "title": "Batch-generering",
+        "description": "Generera upp till 4 bilder samtidigt."
+      },
+      "formats": {
+        "title": "Flera exportformat",
+        "description": "Exportera som PNG för maximal kvalitet, JPEG för mindre filstorlekar eller WebP för modern webboptimering."
+      },
+      "seed": {
+        "title": "Seed-kontroll",
+        "description": "Ställ in specifika seed-värden för att reproducera exakta resultat över genereringar."
+      }
+    }
+  },
+  "faq": {
+    "title": "GPT Image 1.5 vanliga frågor",
+    "subtitle": "Vanliga frågor om GPT Image 1.5 AI-bildgenerator",
+    "items": [
+      {
+        "question": "Vad är GPT Image 1.5 och hur fungerar det?",
+        "answer": "GPT Image 1.5 är en avancerad AI-bildgenerator som skapar bilder från textbeskrivningar eller transformerar befintliga bilder. Den använder banbrytande AI-modeller för att förstå dina prompter och generera bilder med kontrollerbara kvalitets-, upplösnings- och bakgrundsinställningar."
+      },
+      {
+        "question": "Vad är kvalitetsnivåerna och hur skiljer de sig åt?",
+        "answer": "GPT Image 1.5 erbjuder tre kvalitetsnivåer: Låg (snabb, 10 krediter), Medel (balanserad, 25-40 krediter) och Hög (detaljerad, 95-140 krediter)."
+      },
+      {
+        "question": "Vilka upplösningsalternativ finns tillgängliga?",
+        "answer": "GPT Image 1.5 stöder tre upplösningsförinställningar: 1024x1024 (kvadrat), 1536x1024 (liggande) och 1024x1536 (stående)."
+      },
+      {
+        "question": "Hur fungerar Bild-till-bild-läge?",
+        "answer": "Bild-till-bild-läge låter dig ladda upp referensbilder (upp till 5) och använda textprompter för att vägleda transformationer."
+      },
+      {
+        "question": "Vad används bakgrundsinställningarna till?",
+        "answer": "GPT Image 1.5 erbjuder tre bakgrundslägen: Auto (AI beslutar baserat på kontext), Transparent (skapar PNG med alfakanal) och Ogenomskinlig (enhetlig bakgrund)."
+      },
+      {
+        "question": "Hur fungerar batch-generering?",
+        "answer": "Batch-generering låter dig skapa 1-4 bilder i en enda genereringsförfrågan."
+      },
+      {
+        "question": "Vad är seed-kontroll och när ska jag använda den?",
+        "answer": "Seed-kontroll låter dig ställa in ett specifikt nummer som bestämmer AI:ns slumpmässiga genereringsbeteende."
+      },
+      {
+        "question": "Vilket utdataformat ska jag välja?",
+        "answer": "PNG erbjuder förlustfri kvalitet och transparensstöd, JPEG ger mindre filstorlekar, WebP erbjuder modern komprimering med kvalitet liknande PNG."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Börja skapa med GPT Image 1.5 AI-bildgenerator",
+    "subtitle": "Gå med kreativa proffs som använder GPT Image 1.5 för flexibel, snabb och högkvalitativ AI-bildgenerering.",
+    "primary": "Prova GPT Image 1.5 gratis",
+    "secondary": "Visa prisplaner",
+    "note": "Inget kreditkort krävs • Flera kvalitetsnivåer • Text- och bildlägen"
+  }
+}
