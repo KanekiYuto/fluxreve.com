@@ -25,6 +25,7 @@ export async function fetchTaskData(shareId: string): Promise<TaskData | null> {
         taskType: mediaGenerationTask.taskType,
         errorMessage: mediaGenerationTask.errorMessage,
         isNsfw: mediaGenerationTask.isNsfw,
+        viewCount: mediaGenerationTask.viewCount,
       })
       .from(mediaGenerationTask)
       .where(
@@ -50,6 +51,7 @@ export async function fetchTaskData(shareId: string): Promise<TaskData | null> {
       model: task.model,
       task_type: task.taskType,
       is_nsfw: task.isNsfw,
+      view_count: task.viewCount,
       parameters: task.parameters as TaskData['parameters'],
       results: processImageResults(task.results, undefined) as TaskData['results'],
       created_at: task.createdAt.toISOString(),

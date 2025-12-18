@@ -24,7 +24,8 @@
     "promptCopied": "Kopiert",
     "referenceImage": "Inndatabilde",
     "referenceImages": "Inndatabilder",
-    "resolution": "Oppløsning"
+    "resolution": "Oppløsning",
+    "views": "Visninger"
   },
   "metadata": {
     "descriptionPrefix": "Høykvalitetsbilde generert med {model} AI-modell. Spørsmål: ",

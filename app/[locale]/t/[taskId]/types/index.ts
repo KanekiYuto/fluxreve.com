@@ -9,6 +9,7 @@ export interface TaskData {
   model: string;
   task_type: string;
   is_nsfw: boolean;
+  view_count: number;
   parameters?: {
     prompt?: string;
     resolution?: string;

@@ -24,7 +24,8 @@
     "promptCopied": "Kopiert",
     "referenceImage": "Eingabe Bild",
     "referenceImages": "Bilder eingeben",
-    "resolution": "Auflösung"
+    "resolution": "Auflösung",
+    "views": "Aufrufe"
   },
   "metadata": {
     "descriptionPrefix": "Hochwertiges Bild erzeugt mit {model} AI-Modell. Aufforderung:",

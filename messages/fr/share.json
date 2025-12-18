@@ -24,7 +24,8 @@
     "promptCopied": "Copié",
     "referenceImage": "Image d'entrée",
     "referenceImages": "Images d'entrée",
-    "resolution": "Résolution"
+    "resolution": "Résolution",
+    "views": "Vues"
   },
   "metadata": {
     "descriptionPrefix": "Image de haute qualité générée par le modèle d'IA {model}. Invitation :",

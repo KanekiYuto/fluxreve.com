@@ -24,7 +24,8 @@
     "promptCopied": "Kopioitu",
     "referenceImage": "Syötekuva",
     "referenceImages": "Syötetyt kuvat",
-    "resolution": "Resoluutio"
+    "resolution": "Resoluutio",
+    "views": "Katselukerrat"
   },
   "metadata": {
     "descriptionPrefix": "Korkealaatuinen kuva, joka on luotu {model} tekoälymallilla. Kehote: ",

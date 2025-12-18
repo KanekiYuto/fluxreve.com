@@ -24,7 +24,8 @@
     "promptCopied": "복사됨",
     "referenceImage": "입력 이미지",
     "referenceImages": "이미지 입력",
-    "resolution": "해상도"
+    "resolution": "해상도",
+    "views": "조회수"
   },
   "metadata": {
     "descriptionPrefix": "{model} AI 모델로 생성된 고품질 이미지입니다. 프롬프트:",

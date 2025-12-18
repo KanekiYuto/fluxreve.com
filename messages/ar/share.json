@@ -24,7 +24,8 @@
     "promptCopied": "تم النسخ",
     "referenceImage": "صورة الإدخال",
     "referenceImages": "صور الإدخال",
-    "resolution": "القرار"
+    "resolution": "القرار",
+    "views": "المشاهدات"
   },
   "metadata": {
     "descriptionPrefix": "صورة عالية الجودة تم إنشاؤها باستخدام {model} نموذج الذكاء الاصطناعي. موجه:",

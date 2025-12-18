@@ -24,7 +24,8 @@
     "promptCopied": "Copiato",
     "referenceImage": "Immagine di ingresso",
     "referenceImages": "Immagini in ingresso",
-    "resolution": "Risoluzione"
+    "resolution": "Risoluzione",
+    "views": "Visualizzazioni"
   },
   "metadata": {
     "descriptionPrefix": "Immagine di alta qualità generata con il modello AI {model}. Prompt:",

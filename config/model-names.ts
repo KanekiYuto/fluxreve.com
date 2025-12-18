@@ -14,6 +14,7 @@ export const MODEL_DISPLAY_NAMES: Record<string, string> = {
 
   // Flux 系列模型
   'flux-2-pro': 'Flux 2 Pro',
+  'flux-schnell': 'Flux Schnell',
 
   // Seedream 系列模型
   'seedream-v4.5': 'Seedream 4.5',
@@ -29,24 +30,4 @@ export const MODEL_DISPLAY_NAMES: Record<string, string> = {
  */
 export function getModelDisplayName(modelId: string): string {
   return MODEL_DISPLAY_NAMES[modelId] || modelId;
-}
-
-/**
- * 格式化模型名称
- * 将 kebab-case 格式转换为 Title Case 格式
- * 例如：nano-banana-pro -> Nano Banana Pro
- * @param modelId 模型内部标识符
- * @returns 格式化后的显示名称
- */
-export function formatModelName(modelId: string): string {
-  // 首先检查是否有预定义的映射
-  if (MODEL_DISPLAY_NAMES[modelId]) {
-    return MODEL_DISPLAY_NAMES[modelId];
-  }
-
-  // 如果没有映射，则自动格式化
-  return modelId
-    .split('-')
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-    .join(' ');
 }

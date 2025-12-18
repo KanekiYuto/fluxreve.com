@@ -24,7 +24,8 @@
     "promptCopied": "Kopierad",
     "referenceImage": "Inmatningsbild",
     "referenceImages": "Inmatningsbilder",
-    "resolution": "Upplösning"
+    "resolution": "Upplösning",
+    "views": "Visningar"
   },
   "metadata": {
     "descriptionPrefix": "Högkvalitativ bild genererad med AI-modellen {model}. Uppmaning: ",

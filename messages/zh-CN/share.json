@@ -24,7 +24,8 @@
     "promptCopied": "复制的",
     "referenceImage": "输入图像",
     "referenceImages": "输入图像",
-    "resolution": "分辨率"
+    "resolution": "分辨率",
+    "views": "浏览"
   },
   "metadata": {
     "descriptionPrefix": "使用 {model} AI 模型生成的高质量图像。提示：",

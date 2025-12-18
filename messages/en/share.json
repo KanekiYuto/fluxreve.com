@@ -41,7 +41,8 @@
     "referenceImage": "Input Image",
     "generationResults": "AI Image Generation Results",
     "imagePreview": "AI Generated HD Image Preview",
-    "parametersInfo": "Generation Parameters and Model Info"
+    "parametersInfo": "Generation Parameters and Model Info",
+    "views": "Views"
   },
   "metadata": {
     "descriptionPrefix": "High-quality image generated with {model} AI model. Prompt: ",

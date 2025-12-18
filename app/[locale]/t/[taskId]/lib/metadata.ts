@@ -5,46 +5,109 @@ import { getModelDisplayName } from '@/config/model-names';
 import { siteConfig } from '@/config/site';
 import { generateAlternates } from '@/lib/metadata';
 
+// SEO 最佳实践常量
+const SEO_LIMITS = {
+  TITLE_MAX: 60,
+  DESCRIPTION_MAX: 160,
+  OG_DESCRIPTION_MAX: 80,
+} as const;
+
+/**
+ * 截断文本，超出长度时添加省略号
+ */
+function truncateText(text: string, maxLength: number): string {
+  if (text.length <= maxLength) return text;
+  return `${text.substring(0, maxLength - 3)}...`;
+}
+
+/**
+ * 将语言代码转换为 OpenGraph 格式
+ * @example 'zh-CN' -> 'zh_CN'
+ */
+function toOpenGraphLocale(locale: string): string {
+  return locale.replace('-', '_');
+}
+
+/**
+ * 生成备用语言列表（排除当前语言）
+ */
+function getAlternateLocales(currentLocale: string): string[] {
+  return siteConfig.locales
+    .filter(locale => locale !== currentLocale)
+    .map(toOpenGraphLocale);
+}
+
+/**
+ * 生成页面标题
+ * 注意: layout.tsx 的 template 会自动添加 " | FluxReve"
+ */
+function generateTitle(prompt: string, model: string): string {
+  const templateSuffix = ` | ${siteConfig.name}`;
+  const modelPrefix = `${model} - `;
+  const availableLength = SEO_LIMITS.TITLE_MAX - modelPrefix.length - templateSuffix.length;
+
+  const truncatedPrompt = truncateText(prompt, availableLength);
+  return `${modelPrefix}${truncatedPrompt}`;
+}
+
+/**
+ * 生成页面描述
+ */
+function generateDescription(prompt: string, descriptionPrefix: string): string {
+  const availableLength = SEO_LIMITS.DESCRIPTION_MAX - descriptionPrefix.length;
+  const truncatedPrompt = truncateText(prompt, availableLength);
+  return `${descriptionPrefix}${truncatedPrompt}`;
+}
+
+/**
+ * 生成 OpenGraph 描述
+ */
+function generateOgDescription(prompt: string, ogPrefix: string): string {
+  const truncatedPrompt = truncateText(prompt, SEO_LIMITS.OG_DESCRIPTION_MAX);
+  return `${ogPrefix}${truncatedPrompt}`;
+}
+
+/**
+ * 生成图片 metadata
+ */
+function generateImageMetadata(imageUrl: string | undefined, alt: string) {
+  if (!imageUrl) return [];
+
+  return [{
+    url: imageUrl,
+    width: 1024,
+    height: 1024,
+    alt,
+  }];
+}
+
 /**
  * 生成页面 metadata
  */
-export async function generatePageMetadata(task: TaskData, shareId: string, locale: string): Promise<Metadata> {
+export async function generatePageMetadata(
+  task: TaskData,
+  shareId: string,
+  locale: string
+): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'share.metadata' });
 
+  // 提取基础数据
   const prompt = task.parameters?.prompt || '';
   const model = getModelDisplayName(task.model);
   const firstImage = task.results?.[0]?.url;
 
-  // 将 locale 转换为 OpenGraph 格式 (zh-CN -> zh_CN)
-  const ogLocale = locale.replace('-', '_');
+  // 生成标题和描述
+  const title = generateTitle(prompt, model);
+  const description = generateDescription(prompt, t('descriptionPrefix', { model }));
+  const ogDescription = generateOgDescription(prompt, t('ogDescriptionPrefix', { model }));
+  const truncatedPrompt = truncateText(prompt, SEO_LIMITS.TITLE_MAX);
 
-  // 生成备用语言列表（排除当前语言）
-  const alternateLocales = siteConfig.locales
-    .filter(l => l !== locale)
-    .map(l => l.replace('-', '_'));
-
-  // 生成优化的标题（确保不超过 60 字符）
-  // 注意: layout.tsx 的 template 会自动添加 " | FluxReve", 需要预留这部分长度
-  const maxTitleLength = 60;
-  const templateSuffix = ` | ${siteConfig.name}`; // " | FluxReve"
-  const modelPrefix = `${model} - `;
-  const availableLength = maxTitleLength - modelPrefix.length - templateSuffix.length;
-  const truncatedPrompt = prompt.length > availableLength
-    ? `${prompt.substring(0, availableLength - 3)}...`
-    : prompt;
-  const title = `${modelPrefix}${truncatedPrompt}`;
-
-  // 生成优化的描述（120-160 字符最佳）
-  const descriptionPrefix = t('descriptionPrefix', { model });
-  const maxDescriptionLength = 160;
-  const availableDescLength = maxDescriptionLength - descriptionPrefix.length;
-  const truncatedDescPrompt = prompt.length > availableDescLength
-    ? `${prompt.substring(0, availableDescLength - 3)}...`
-    : prompt;
-  const description = `${descriptionPrefix}${truncatedDescPrompt}`;
-
-  // 使用统一的 alternates 生成函数
+  // 生成 alternates
   const alternates = generateAlternates(locale, `/t/${shareId}`);
+
+  // 生成 locale 相关数据
+  const ogLocale = toOpenGraphLocale(locale);
+  const alternateLocales = getAlternateLocales(locale);
 
   return {
     title,
@@ -52,16 +115,9 @@ export async function generatePageMetadata(task: TaskData, shareId: string, loca
     alternates,
     openGraph: {
       title: truncatedPrompt,
-      description: `${t('ogDescriptionPrefix', { model })}${prompt.substring(0, 80)}`,
+      description: ogDescription,
       url: alternates.canonical,
-      images: firstImage ? [
-        {
-          url: firstImage,
-          width: 1024,
-          height: 1024,
-          alt: prompt,
-        },
-      ] : [],
+      images: generateImageMetadata(firstImage, prompt),
       type: siteConfig.openGraph.type,
       siteName: siteConfig.openGraph.siteName,
       locale: ogLocale,
@@ -72,7 +128,7 @@ export async function generatePageMetadata(task: TaskData, shareId: string, loca
       site: siteConfig.twitter.site,
       creator: siteConfig.twitter.creator,
       title: truncatedPrompt,
-      description: `${t('ogDescriptionPrefix', { model })}${prompt.substring(0, 80)}`,
+      description: ogDescription,
       images: firstImage ? [firstImage] : [],
     },
   };
