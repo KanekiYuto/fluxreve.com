@@ -27,7 +27,7 @@ const SUPPORTED_MODELS = [
   'gpt-image-1.5',
 ];
 
-export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro', defaultParameters }: TextToImageGeneratorProps) {
+export default function TextToImageGenerator({ defaultModel = 'flux-schnell', defaultParameters }: TextToImageGeneratorProps) {
   const t = useTranslations('ai-generator.models');
   const tGroups = useTranslations('ai-generator.modelGroups');
 
@@ -99,8 +99,10 @@ export default function TextToImageGenerator({ defaultModel = 'nano-banana-pro',
         {
           value: 'flux-schnell',
           label: 'Flux Schnell',
+          badge: 'HOT',
           description: t('fluxSchnell.description'),
           tags: [
+            { text: 'NSFW', variant: 'highlight' as const },
             { text: t('fluxSchnell.tags.ultraFast'), variant: 'highlight' as const },
             { text: t('fluxSchnell.tags.affordable'), variant: 'default' as const },
             { text: t('fluxSchnell.tags.quality'), variant: 'default' as const },
