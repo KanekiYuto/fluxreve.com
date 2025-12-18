@@ -1,4 +1,11 @@
 {
+  "banModal": {
+    "bannedTime": "封禁時間",
+    "contact": "如有疑問，請聯絡客服",
+    "description": "您的帳戶已被封禁，無法繼續使用服務",
+    "reason": "封禁原因",
+    "title": "帳戶已被封禁"
+  },
   "discordBanner": {
     "closeLabel": "關閉",
     "description": "獲取最新資訊、專屬福利和免費獎勵",

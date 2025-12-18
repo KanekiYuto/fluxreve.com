@@ -1,4 +1,11 @@
 {
+  "banModal": {
+    "bannedTime": "Sperrzeit",
+    "contact": "Bei Fragen wenden Sie sich bitte an den Kundendienst",
+    "description": "Ihr Konto wurde gesperrt und kann den Dienst nicht mehr nutzen",
+    "reason": "Sperrgrund",
+    "title": "Konto gesperrt"
+  },
   "discordBanner": {
     "closeLabel": "Schließen Sie",
     "description": "Erhalten Sie die neuesten Updates, exklusive Vergünstigungen und kostenlose Boni",

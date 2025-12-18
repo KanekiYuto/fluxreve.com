@@ -1,4 +1,11 @@
 {
+  "banModal": {
+    "bannedTime": "Forbudstid",
+    "contact": "Hvis du har spørgsmål, skal du kontakte kundeservice",
+    "description": "Din konto er blevet blokeret og kan ikke fortsætte med at bruge tjenesten",
+    "reason": "Årsag til forbud",
+    "title": "Konto blokeret"
+  },
   "discordBanner": {
     "closeLabel": "Tæt",
     "description": "Få de seneste opdateringer, eksklusive fordele og gratis bonusser",

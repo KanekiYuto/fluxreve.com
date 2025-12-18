@@ -169,6 +169,13 @@
       "when": 1765797180380,
       "tag": "0023_spicy_whiplash",
       "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1766022457734,
+      "tag": "0024_exotic_old_lace",
+      "breakpoints": true
     }
   ]
 }

@@ -1,4 +1,11 @@
 {
+  "banModal": {
+    "bannedTime": "Tiempo de prohibición",
+    "contact": "Si tiene alguna pregunta, póngase en contacto con el servicio de atención al cliente",
+    "description": "Su cuenta ha sido prohibida y no puede seguir utilizando el servicio",
+    "reason": "Razón de la prohibición",
+    "title": "Cuenta prohibida"
+  },
   "discordBanner": {
     "closeLabel": "Cerrar",
     "description": "Recibe las últimas actualizaciones, ventajas exclusivas y bonificaciones gratuitas",

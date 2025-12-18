@@ -25,6 +25,8 @@ export const user = pgTable('user', {
   utmCampaign: text('utm_campaign'),
   utmContent: text('utm_content'),
   utmTerm: text('utm_term'),
+  // 封禁时间
+  bannedAt: timestamp('banned_at'),
 }, (table) => ({
   // 管理员和用户类型查询
   isAdminIdx: index('user_is_admin_idx').on(table.isAdmin),

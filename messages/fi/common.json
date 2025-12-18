@@ -1,4 +1,11 @@
 {
+  "banModal": {
+    "bannedTime": "Estämisaika",
+    "contact": "Jos sinulla on kysyttävää, ota yhteyttä asiakaspalveluun",
+    "description": "Tilisi on estetty eikä voi jatkaa palvelun käyttöä",
+    "reason": "Estämisen syy",
+    "title": "Tili estetty"
+  },
   "discordBanner": {
     "closeLabel": "Lähellä",
     "description": "Hanki uusimmat päivitykset, ainutlaatuiset edut ja ilmaiset bonukset",

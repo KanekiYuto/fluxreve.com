@@ -1,4 +1,11 @@
 {
+  "banModal": {
+    "bannedTime": "Tempo di divieto",
+    "contact": "Per qualsiasi domanda, contattare il servizio clienti",
+    "description": "Il tuo account è stato bannato e non può più utilizzare il servizio",
+    "reason": "Motivo del divieto",
+    "title": "Account bannato"
+  },
   "discordBanner": {
     "closeLabel": "Chiudere",
     "description": "Ricevi gli ultimi aggiornamenti, i vantaggi esclusivi e i bonus gratuiti",

@@ -1,4 +1,11 @@
 {
+  "banModal": {
+    "bannedTime": "Förbudstid",
+    "contact": "Om du har några frågor, vänligen kontakta kundtjänst",
+    "description": "Ditt konto har blockerats och kan inte fortsätta använda tjänsten",
+    "reason": "Anledning till förbud",
+    "title": "Konto blockerat"
+  },
   "discordBanner": {
     "closeLabel": "Nära",
     "description": "Få de senaste uppdateringarna, exklusiva förmåner och gratisbonusar",

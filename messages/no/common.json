@@ -1,4 +1,11 @@
 {
+  "banModal": {
+    "bannedTime": "Sperretid",
+    "contact": "Hvis du har spørsmål, vennligst kontakt kundeservice",
+    "description": "Kontoen din har blitt utestengt og kan ikke fortsette å bruke tjenesten",
+    "reason": "Årsak til utestengelse",
+    "title": "Konto utestengt"
+  },
   "discordBanner": {
     "closeLabel": "Lukke",
     "description": "Få de siste oppdateringene, eksklusive fordeler og gratis bonuser",

@@ -1,4 +1,11 @@
 {
+  "banModal": {
+    "title": "Account Banned",
+    "description": "Your account has been banned and cannot continue to use the service",
+    "bannedTime": "Banned Time",
+    "reason": "Ban Reason",
+    "contact": "If you have any questions, please contact customer service"
+  },
   "language": "Language",
   "loading": "Loading...",
   "loginRequired": {
