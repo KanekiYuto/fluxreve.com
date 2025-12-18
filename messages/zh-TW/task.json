@@ -1,11 +1,11 @@
 {
   "details": {
-    "aiModel": "人工智能模型",
+    "aiModel": "AI模型",
     "aspectRatio": "宽高比",
     "completedAt": "完成于",
     "copyPrompt": "复制提示",
     "createdAt": "创建于",
-    "defaultPrompt": "人工智能生成的图像",
+    "defaultPrompt": "AI生成的图像",
     "duration": "期间",
     "generationResults": "生成结果",
     "imageAlt": "图像",

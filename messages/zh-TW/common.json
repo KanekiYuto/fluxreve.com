@@ -32,7 +32,7 @@
     "help": "幫助",
     "home": "首頁",
     "main": "主要",
-    "models": "人工智慧模型",
+    "models": "AI模型",
     "more": "更多",
     "nano-banana-pro": "Nano Banana Pro",
     "nanoBananaProDesc": "高级图像生成",
@@ -52,10 +52,10 @@
     "terms": "服務條款",
     "user": "用戶",
     "z-image": "Z-Image",
-    "zImageDesc": "高級人工智慧圖像生成和編輯"
+    "zImageDesc": "高級AI圖像生成和編輯"
   },
   "seo": {
-    "description": "借助人工智慧圖像生成技術，在幾秒鐘內創建高品質的專業圖像。簡單、快速、強大的AI工具。",
+    "description": "借助AI圖像生成技術，在幾秒鐘內創建高品質的專業圖像。簡單、快速、強大的AI工具。",
     "keywords": "AI圖像生成、AI藝術、圖像創作、AI工具、專業圖像",
     "title": "{siteName} - AI圖像生成工具"
   }

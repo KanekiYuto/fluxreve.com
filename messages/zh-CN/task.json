@@ -1,11 +1,11 @@
 {
   "details": {
-    "aiModel": "人工智能模型",
+    "aiModel": "AI模型",
     "aspectRatio": "宽高比",
     "completedAt": "在",
     "copyPrompt": "复制提示",
     "createdAt": "创建于",
-    "defaultPrompt": "人工智能生成的图像",
+    "defaultPrompt": "AI生成的图像",
     "duration": "持续时间",
     "generationResults": "生成结果",
     "imageAlt": "图片",
@@ -41,7 +41,7 @@
     "title": "任务处理"
   },
   "seo": {
-    "description": "查看人工智能图像生成任务的详细信息和结果",
+    "description": "查看AI图像生成任务的详细信息和结果",
     "title": "任务详情"
   }
 }

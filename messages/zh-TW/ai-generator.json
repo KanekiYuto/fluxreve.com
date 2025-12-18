@@ -96,7 +96,7 @@
     "generating": "正在生成... {progress}%"
   },
   "loading": {
-    "creating": "人工智能创造",
+    "creating": "AI创造",
     "initializing": "初始化",
     "message": "正在为您生成精彩内容，请稍候……"
   },
@@ -192,7 +192,7 @@
       }
     },
     "imageUpscaler": {
-      "description": "使用人工智能技術放大和增強圖像，提高分辨率和質量，同時保留細節",
+      "description": "使用AI技術放大和增強圖像，提高分辨率和質量，同時保留細節",
       "tags": {
         "enhancement": "增強",
         "quality": "質量提升",
@@ -200,7 +200,7 @@
       }
     },
     "imageWatermarkRemover": {
-      "description": "使用先進的人工智能技術從圖像中移除水印，保持圖像質量的同時獲得乾淨、專業的結果",
+      "description": "使用先進的AI技術從圖像中移除水印，保持圖像質量的同時獲得乾淨、專業的結果",
       "tags": {
         "removal": "水印移除",
         "quality": "質量保留",

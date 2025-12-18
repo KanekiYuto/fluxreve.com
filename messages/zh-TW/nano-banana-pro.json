@@ -94,15 +94,15 @@
   "how": {
     "steps": {
       "step1": {
-        "description": "请输入您想要创建的图像的详细文字描述。Nano Banana Pro 的推理引导式人工智能能够细致入微地理解复杂的提示。请提供关于风格、构图、光线、色彩和氛围的具体细节，以获得最佳的人工智能图像生成效果。",
+        "description": "请输入您想要创建的图像的详细文字描述。Nano Banana Pro 的推理引导式AI能够细致入微地理解复杂的提示。请提供关于风格、构图、光线、色彩和氛围的具体细节，以获得最佳的AI图像生成效果。",
         "title": "描述您的创意愿景"
       },
       "step2": {
         "description": "选择图像分辨率（最高可达 4K）、宽高比、艺术风格、光照条件和拍摄角度。Nano Banana Pro 提供专业预设和精细控制选项，可对 AI 生成的图像进行精确自定义。您可以从照片级写实、艺术、插画和专业风格中进行选择。",
-        "title": "配置高级人工智能参数"
+        "title": "配置高级AI参数"
       },
       "step3": {
-        "description": "Nano Banana Pro 的 Gemini 3 Pro Image 模型运用高级推理技术处理您的需求，并在 10 秒内生成高保真 4K 图像。该人工智能可能会创建中间图像，以测试复杂提示的构图和逻辑，从而确保卓越的输出质量。",
+        "description": "Nano Banana Pro 的 Gemini 3 Pro Image 模型运用高级推理技术处理您的需求，并在 10 秒内生成高保真 4K 图像。该AI可能会创建中间图像，以测试复杂提示的构图和逻辑，从而确保卓越的输出质量。",
         "title": "AI生成4K图像"
       },
       "step4": {
@@ -115,13 +115,13 @@
   },
   "seo": {
     "description": "使用 Nano Banana Pro 的 Gemini 3 Pro Image 模型，在 10 秒内生成 4K 图像，具有精确的文本渲染和字符一致性。",
-    "title": "Nano Banana Pro - Gemini 3 Pro 人工智能生成器 | 4K"
+    "title": "Nano Banana Pro - Gemini 3 Pro AI生成器 | 4K"
   },
   "what": {
     "coreFeatures": {
       "core1": {
-        "description": "这款人工智能图像生成器可在 10 秒内生成原生 (4096x4096) 超高清图像。它能提供卓越的细节、色彩准确度和图像质量，满足印刷、数字营销和商业项目的专业标准。",
-        "title": "4K 高分辨率人工智能图像生成"
+        "description": "这款AI图像生成器可在 10 秒内生成原生 (4096x4096) 超高清图像。它能提供卓越的细节、色彩准确度和图像质量，满足印刷、数字营销和商业项目的专业标准。",
+        "title": "4K 高分辨率AI图像生成"
       },
       "core2": {
         "description": "与其他AI图像生成器不同，Nano Banana Pro在跨多种语言的文本渲染方面实现了突破性的精准度。您可以直接在图像中创建清晰易读的文字，从而制作出AI生成的模型、海报、信息图表和营销材料——非常适合国际品牌推广和多语言内容创作。",
@@ -133,8 +133,8 @@
       }
     },
     "demoPlaceholder": "Nano Banana Pro 生成的图像",
-    "description": "Nano Banana Pro，由 Google DeepMind 的 Gemini 3 Pro Image 模型驱动，是一款结合了高级推理和现实世界知识的尖端人工智能图像生成器。这个专业的人工智能图像生成平台能够以空前的速度和精度生成 4K 高分辨率图像，完美满足设计师、营销人员和内容创作者对专业级人工智能生成图像的需求。",
-    "title": "什么是Nano Banana Pro人工智能图像生成器？"
+    "description": "Nano Banana Pro，由 Google DeepMind 的 Gemini 3 Pro Image 模型驱动，是一款结合了高级推理和现实世界知识的尖端AI图像生成器。这个专业的AI图像生成平台能够以空前的速度和精度生成 4K 高分辨率图像，完美满足设计师、营销人员和内容创作者对专业级AI生成图像的需求。",
+    "title": "什么是Nano Banana ProAI图像生成器？"
   },
   "why": {
     "benefits": {
@@ -144,7 +144,7 @@
       },
       "flexibility": {
         "description": "尝试无限次迭代、多种艺术风格和多元化的创意方向。Nano Banana Pro 的推理引导生成功能可根据您的偏好进行调整，让您能够快速构建原型并进行不受限制的创意探索。",
-        "title": "人工智能带来无限的创作自由"
+        "title": "AI带来无限的创作自由"
       },
       "quality": {
         "description": "体验原生 4096x4096 超高清输出，呈现卓越细节、精准色彩还原和专业级图像质量。AI 图像满足商业项目、印刷媒体和企业应用的高标准要求。",
@@ -165,10 +165,10 @@
     },
     "comparison": {
       "product": {
-        "item1": "利用人工智能，10 秒内生成 4K 张专业图像",
+        "item1": "利用AI，10 秒内生成 4K 张专业图像",
         "item2": "无需任何设计技能——用自然语言描述您的想法",
         "item3": "经济实惠的订阅计划，并提供灵活的按需付费选项",
-        "item4": "人工智能带来即时迭代和无限创意实验",
+        "item4": "AI带来即时迭代和无限创意实验",
         "title": "Nano Banana Pro AI生成器"
       },
       "traditional": {

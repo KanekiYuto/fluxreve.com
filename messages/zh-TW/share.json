@@ -11,7 +11,7 @@
     "shareToX": "分享至 X"
   },
   "details": {
-    "aiModel": "人工智能模型",
+    "aiModel": "AI模型",
     "aspectRatio": "宽高比",
     "copyPrompt": "复制提示",
     "generationResults": "AI图像生成结果",
@@ -29,22 +29,22 @@
   },
   "metadata": {
     "descriptionPrefix": "使用 {model} AI 模型生成的高质量图像。提示： ",
-    "ogDescriptionPrefix": "{model} 人工智能生成 | "
+    "ogDescriptionPrefix": "{model} AI生成 | "
   },
   "notFound": {
-    "createButton": "创作人工智能艺术作品",
+    "createButton": "创作AI艺术作品",
     "description": "此共享内容可能已被创建者删除、设置为私有、链接已过期，或者您可能访问了错误的地址。",
     "homeButton": "返回首页",
     "title": "未找到内容"
   },
   "nsfw": {
     "description": "本内容可能包含成人或敏感内容，敬请观众酌情观看。",
-    "imageAlt": "人工智能生成的图像",
+    "imageAlt": "AI生成的图像",
     "reveal": "我已年满18岁，查看内容",
     "warning": "敏感内容警告"
   },
   "processing": {
-    "description": "人工智能正在创作当前的艺术作品，这通常需要几分钟时间。",
+    "description": "AI正在创作当前的艺术作品，这通常需要几分钟时间。",
     "tip": "请稍后刷新页面查看结果",
     "title": "正在生成..."
   }

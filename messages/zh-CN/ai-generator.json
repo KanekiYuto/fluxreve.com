@@ -96,7 +96,7 @@
     "generating": "正在生成... {progress}%"
   },
   "loading": {
-    "creating": "人工智能创建",
+    "creating": "AI创建",
     "initializing": "初始化",
     "message": "为您生成精彩内容，请稍候..."
   },
@@ -176,7 +176,7 @@
       }
     },
     "zImage": {
-      "description": "逼真的人工智能图像生成，精确的双语文本渲染，亚秒级速度",
+      "description": "逼真的AI图像生成，精确的双语文本渲染，亚秒级速度",
       "tags": {
         "affordable": "逼真",
         "quality": "文本渲染",
@@ -192,7 +192,7 @@
       }
     },
     "imageUpscaler": {
-      "description": "使用人工智能技术放大和增强图像，提高分辨率和质量，同时保留细节",
+      "description": "使用AI技术放大和增强图像，提高分辨率和质量，同时保留细节",
       "tags": {
         "enhancement": "增强",
         "quality": "质量提升",
@@ -200,7 +200,7 @@
       }
     },
     "imageWatermarkRemover": {
-      "description": "使用先进的人工智能技术从图像中移除水印，保持图像质量的同时获得干净、专业的结果",
+      "description": "使用先进的AI技术从图像中移除水印，保持图像质量的同时获得干净、专业的结果",
       "tags": {
         "removal": "水印移除",
         "quality": "质量保留",
@@ -217,9 +217,9 @@
     }
   },
   "page": {
-    "description": "利用强大的人工智能模型创建精彩内容",
+    "description": "利用强大的AI模型创建精彩内容",
     "loading": "正在加载...",
-    "title": "人工智能生成器"
+    "title": "AI生成器"
   },
   "results": {
     "completedTime": "完成时间",
@@ -233,7 +233,7 @@
   },
   "seo": {
     "description": "使用我们强大的 AI 图像生成工具，创建令人惊叹的 AI 图像。快速、专业、易用。",
-    "title": "人工智能生成器"
+    "title": "AI生成器"
   },
   "tabs": {
     "imageToImage": "图像到图像",

@@ -20,19 +20,19 @@
     "title": "登录以继续"
   },
   "navigation": {
-    "ai-generator": "人工智能生成器",
+    "ai-generator": "AI生成器",
     "company": "公司名称",
     "content": "内容",
     "dashboard": "仪表板",
     "explore": "创意社区",
     "flux-2-pro": "Flux 2 Pro",
-    "flux2ProDesc": "专业双模式人工智能图像生成",
+    "flux2ProDesc": "专业双模式AI图像生成",
     "gpt-image-15": "GPT Image 1.5",
     "gptImage15Desc": "先进的 GPT 驱动图像生成",
     "help": "帮助",
     "home": "首页",
     "main": "主页",
-    "models": "人工智能模型",
+    "models": "AI模型",
     "more": "更多信息",
     "nano-banana-pro": "Nano Banana Pro",
     "nanoBananaProDesc": "高级 Nano Banana 图像生成",
@@ -52,11 +52,11 @@
     "terms": "服务条款",
     "user": "用户",
     "z-image": "Z-Image",
-    "zImageDesc": "高级人工智能图像生成和编辑"
+    "zImageDesc": "高级AI图像生成和编辑"
   },
   "seo": {
-    "description": "利用人工智能图像生成功能，在数秒内创建高质量的专业图像。简单、快速、强大的人工智能工具。",
-    "keywords": "人工智能图像生成、人工智能艺术、图像创建器、人工智能工具、专业图像",
+    "description": "利用AI图像生成功能，在数秒内创建高质量的专业图像。简单、快速、强大的AI工具。",
+    "keywords": "AI图像生成、AI艺术、图像创建器、AI工具、专业图像",
     "title": "{siteName} - AI 图像生成工具"
   }
 }
