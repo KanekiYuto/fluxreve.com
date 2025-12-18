@@ -1,7 +1,8 @@
 {
   "card": {
     "createdAt": "생성됨",
-    "viewDetail": "세부 정보 보기"
+    "viewDetail": "세부 정보 보기",
+    "views": "조회수"
   },
   "createSimilar": "유사 항목 만들기",
   "empty": {

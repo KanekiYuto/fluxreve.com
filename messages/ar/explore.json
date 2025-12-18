@@ -1,7 +1,8 @@
 {
   "card": {
     "createdAt": "تم إنشاؤها",
-    "viewDetail": "عرض التفاصيل"
+    "viewDetail": "عرض التفاصيل",
+    "views": "المشاهدات"
   },
   "createSimilar": "إنشاء مماثل",
   "empty": {

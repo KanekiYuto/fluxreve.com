@@ -1,7 +1,8 @@
 {
   "card": {
     "createdAt": "创建",
-    "viewDetail": "查看详情"
+    "viewDetail": "查看详情",
+    "views": "浏览"
   },
   "createSimilar": "创建类似",
   "empty": {

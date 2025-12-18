@@ -9,6 +9,7 @@ import ExploreEmptyState from './ExploreEmptyState';
 import Pagination from '@/app/[locale]/tasks/components/Pagination';
 import ModelFilter from './ModelFilter';
 import { ExploreTask, ExplorePagination, ExploreResponse } from '../types';
+import { getModelDisplayName } from '@/config/model-names';
 
 interface ExploreGalleryProps {
   model?: string;
@@ -68,7 +69,7 @@ export default function ExploreGallery({ model }: ExploreGalleryProps) {
       <div className="bg-bg-elevated border-b border-border">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
           <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2 sm:mb-3">
-            {model ? `${model} - ${t('header.title')}` : t('header.title')}
+            {model ? `${getModelDisplayName(model)} - ${t('header.title')}` : t('header.title')}
           </h1>
           <p className="text-text-muted text-base sm:text-lg mb-6">{t('header.subtitle')}</p>
 

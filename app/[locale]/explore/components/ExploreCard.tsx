@@ -34,11 +34,11 @@ function parseAspectRatio(aspectRatio?: string): number | null {
 /**
  * 计算相对时间 - 使用浏览器原生 API
  */
-function getTimeAgo(date: Date): string {
+function getTimeAgo(date: Date, locale: string): string {
   const now = new Date();
   const diffInSeconds = Math.floor((now.getTime() - date.getTime()) / 1000);
 
-  const rtf = new Intl.RelativeTimeFormat(undefined, { numeric: 'auto' });
+  const rtf = new Intl.RelativeTimeFormat(locale, { numeric: 'auto' });
 
   if (diffInSeconds < 60) return rtf.format(-diffInSeconds, 'second');
   if (diffInSeconds < 3600) return rtf.format(-Math.floor(diffInSeconds / 60), 'minute');
@@ -53,7 +53,7 @@ export default function ExploreCard({ task }: ExploreCardProps) {
   const t = useTranslations('explore');
   const hasImage = task.results && task.results.length > 0;
   const aspectRatioValue = parseAspectRatio(task.parameters?.aspect_ratio);
-  const timeAgo = getTimeAgo(new Date(task.completedAt));
+  const timeAgo = getTimeAgo(new Date(task.completedAt), locale);
   const [imageDimensions, setImageDimensions] = useState<{ width: number; height: number } | null>(null);
   const [nsfwRevealed, setNsfwRevealed] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
@@ -182,8 +182,17 @@ export default function ExploreCard({ task }: ExploreCardProps) {
         <p className="text-xs sm:text-sm text-white line-clamp-2 mb-3">
           {showNsfwOverlay ? t('nsfw.badge') : task.parameters.prompt}
         </p>
-        <div className="flex items-center justify-between gap-2 mb-2">
-          <p className="text-xs text-text-muted flex-1">{timeAgo}</p>
+        <div className="flex items-center justify-between gap-x-2 gap-y-2 flex-wrap">
+          <div className="flex items-center gap-2 sm:gap-3 text-xs text-text-muted">
+            <span className="whitespace-nowrap">{timeAgo}</span>
+            <span className="flex items-center gap-1 whitespace-nowrap">
+              <svg className="w-3.5 h-3.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+              </svg>
+              <span>{task.viewCount}</span>
+            </span>
+          </div>
           <Link
             href={`/ai-generator?id=${task.shareId}`}
             className="text-xs px-2 py-1 rounded bg-primary hover:bg-primary/90 text-white font-medium transition-colors whitespace-nowrap"

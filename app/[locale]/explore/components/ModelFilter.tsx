@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { useRouter, usePathname } from '@/i18n/routing';
+import { useRouter } from '@/i18n/routing';
 
 // 支持的模型列表
 const MODELS = [
@@ -23,7 +23,6 @@ interface ModelFilterProps {
 export default function ModelFilter({ currentModel }: ModelFilterProps) {
   const t = useTranslations('explore');
   const router = useRouter();
-  const pathname = usePathname();
 
   const handleModelChange = (modelId: string) => {
     if (modelId === 'all') {
@@ -47,9 +46,9 @@ export default function ModelFilter({ currentModel }: ModelFilterProps) {
             key={model.id}
             onClick={() => handleModelChange(model.id)}
             className={`
-              px-4 py-2 rounded-lg text-sm font-medium whitespace-nowrap transition-all duration-200
+              px-4 py-2 rounded-lg text-sm font-medium whitespace-nowrap transition-all duration-200 cursor-pointer
               ${isActive
-                ? 'bg-primary text-white shadow-lg shadow-primary/30'
+                ? 'bg-primary text-white'
                 : 'bg-bg-elevated text-text-muted hover:text-text hover:bg-bg-hover border border-border'
               }
             `}

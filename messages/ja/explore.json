@@ -1,7 +1,8 @@
 {
   "card": {
     "createdAt": "作成",
-    "viewDetail": "詳細を見る"
+    "viewDetail": "詳細を見る",
+    "views": "閲覧数"
   },
   "createSimilar": "似たようなものを作る",
   "empty": {

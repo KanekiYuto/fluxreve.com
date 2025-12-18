@@ -1,7 +1,8 @@
 {
   "card": {
     "createdAt": "Creado",
-    "viewDetail": "Ver detalles"
+    "viewDetail": "Ver detalles",
+    "views": "Vistas"
   },
   "createSimilar": "Crear similares",
   "empty": {

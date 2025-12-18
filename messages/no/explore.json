@@ -1,7 +1,8 @@
 {
   "card": {
     "createdAt": "Opprettet",
-    "viewDetail": "Vis detaljer"
+    "viewDetail": "Vis detaljer",
+    "views": "Visninger"
   },
   "createSimilar": "Lag lignende",
   "empty": {

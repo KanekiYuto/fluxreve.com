@@ -14,7 +14,8 @@
   },
   "card": {
     "createdAt": "Created",
-    "viewDetail": "View Details"
+    "viewDetail": "View Details",
+    "views": "Views"
   },
   "createSimilar": "Create Similar",
   "nsfw": {

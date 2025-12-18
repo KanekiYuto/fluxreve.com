@@ -48,6 +48,7 @@ export async function GET(request: NextRequest) {
         results: mediaGenerationTask.results,
         completedAt: mediaGenerationTask.completedAt,
         isNsfw: mediaGenerationTask.isNsfw,
+        viewCount: mediaGenerationTask.viewCount,
       })
       .from(mediaGenerationTask)
       .where(and(...conditions))

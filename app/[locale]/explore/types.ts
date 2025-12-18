@@ -19,6 +19,7 @@ export interface ExploreTask {
   }>;
   completedAt: string;
   isNsfw: boolean;
+  viewCount: number;
 }
 
 export interface ExplorePagination {

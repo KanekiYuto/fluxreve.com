@@ -1,7 +1,8 @@
 {
   "card": {
     "createdAt": "Luotu",
-    "viewDetail": "Näytä tiedot"
+    "viewDetail": "Näytä tiedot",
+    "views": "Katselukerrat"
   },
   "createSimilar": "Luo samanlaisia",
   "empty": {
