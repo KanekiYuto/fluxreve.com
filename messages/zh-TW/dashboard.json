@@ -54,10 +54,10 @@
   },
   "subtitle": "开始创作你的精彩内容",
   "userType": {
-    "basic": "基礎",
     "free": "免費",
-    "pro": "專業版",
-    "trial": "新人專享"
+    "hobby": "愛好",
+    "basic": "基礎",
+    "pro": "專業"
   },
   "welcome": "欢迎回来，{name}"
 }

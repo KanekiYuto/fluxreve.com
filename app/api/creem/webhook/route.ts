@@ -1,5 +1,4 @@
 import { Webhook } from '@creem_io/nextjs';
-import { handleCheckoutCompleted } from '@/lib/creem/handle-checkout-completed';
 import { handleSubscriptionActive } from '@/lib/creem/handle-subscription-active';
 import { handleSubscriptionPaid } from '@/lib/creem/handle-subscription-paid';
 import { handleSubscriptionCanceled } from '@/lib/creem/handle-subscription-canceled';
@@ -22,13 +21,6 @@ import { handleRevokeAccess } from '@/lib/creem/handle-revoke-access';
 export const POST = Webhook({
   // Webhook 密钥,用于验证请求签名
   webhookSecret: process.env.CREEM_WEBHOOK_SECRET!,
-
-  /**
-   * 支付完成事件
-   * 当用户完成一次性支付时触发
-   * 将一次性支付作为一个月的订阅来处理
-   */
-  onCheckoutCompleted: handleCheckoutCompleted,
 
   /**
    * 订阅激活事件

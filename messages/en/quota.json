@@ -27,14 +27,14 @@
     "noExpiry": "Never"
   },
   "quotaTypes": {
-    "daily_free": "Daily Free Quota",
-    "trial": "Trial",
-    "monthly_basic": "Monthly Basic",
-    "monthly_pro": "Monthly Pro",
-    "yearly_basic": "Yearly Basic",
-    "yearly_pro": "Yearly Pro",
-    "quota_pack": "Quota Pack",
-    "subscription_change_compensation": "Subscription Change Compensation"
+    "daily_free": "Daily Free Credits",
+    "monthly_hobby": "Hobby Monthly Plan",
+    "yearly_hobby": "Hobby Yearly Plan",
+    "monthly_basic": "Basic Monthly Plan",
+    "yearly_basic": "Basic Yearly Plan",
+    "monthly_pro": "Pro Monthly Plan",
+    "yearly_pro": "Pro Yearly Plan",
+    "quota_pack": "Credit Pack"
   },
   "empty": {
     "active": "No active quota available",
@@ -44,7 +44,8 @@
   },
   "status": {
     "active": "Active",
-    "depleted": "Depleted"
+    "depleted": "Depleted",
+    "expired": "Expired"
   },
   "stats": {
     "consumed": "Consumed",

@@ -8,10 +8,11 @@
     "nextBillingDate": "Nästa faktureringsdatum",
     "nextRenewal": "Nästa förnyelse växlar till",
     "planTypes": {
-      "monthly_basic": "Grundläggande - Månadsvis",
-      "monthly_pro": "Pro - Månadsvis",
-      "trial": "Rättegång",
-      "yearly_basic": "Grundläggande - Årlig",
+      "monthly_hobby": "Hobby - Månatlig",
+      "yearly_hobby": "Hobby - Årlig",
+      "monthly_basic": "Bas - Månatlig",
+      "yearly_basic": "Bas - Årlig",
+      "monthly_pro": "Pro - Månatlig",
       "yearly_pro": "Pro - Årlig"
     },
     "platform": "Betalningsplattform",

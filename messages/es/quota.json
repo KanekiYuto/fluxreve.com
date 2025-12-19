@@ -10,14 +10,14 @@
     "title": "Conectarse para ver la cuota"
   },
   "quotaTypes": {
-    "daily_free": "Cuota diaria libre",
-    "monthly_basic": "Básico mensual",
-    "monthly_pro": "Pro mensual",
-    "quota_pack": "Paquete de cuotas",
-    "subscription_change_compensation": "Suscripción Cambio Compensación",
-    "trial": "Ensayo",
-    "yearly_basic": "Básico anual",
-    "yearly_pro": "Anual Pro"
+    "daily_free": "Créditos diarios gratuitos",
+    "monthly_hobby": "Plan Hobby mensual",
+    "yearly_hobby": "Plan Hobby anual",
+    "monthly_basic": "Plan Básico mensual",
+    "yearly_basic": "Plan Básico anual",
+    "monthly_pro": "Plan Pro mensual",
+    "yearly_pro": "Plan Pro anual",
+    "quota_pack": "Paquete de créditos"
   },
   "seo": {
     "description": "Gestiona y consulta el uso y el historial de tu cuota disponible",
@@ -29,7 +29,8 @@
   },
   "status": {
     "active": "Activo",
-    "depleted": "Agotado"
+    "depleted": "Agotado",
+    "expired": "Caducado"
   },
   "subtitle": "Gestione y consulte su cuota disponible",
   "summary": {

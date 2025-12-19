@@ -10,14 +10,14 @@
     "title": "Logga in för att se kvoten"
   },
   "quotaTypes": {
-    "daily_free": "Daglig gratis kvot",
-    "monthly_basic": "Månadsbas",
-    "monthly_pro": "Månadsproffs",
-    "quota_pack": "Kvotpaket",
-    "subscription_change_compensation": "Ersättning för byte av prenumeration",
-    "trial": "Rättegång",
-    "yearly_basic": "Årlig grund",
-    "yearly_pro": "Årlig Pro"
+    "daily_free": "Dagliga gratis krediter",
+    "monthly_hobby": "Hobby månadsplan",
+    "yearly_hobby": "Hobby årsplan",
+    "monthly_basic": "Bas månadsplan",
+    "yearly_basic": "Bas årsplan",
+    "monthly_pro": "Pro månadsplan",
+    "yearly_pro": "Pro årsplan",
+    "quota_pack": "Kreditpaket"
   },
   "seo": {
     "description": "Hantera och visa din tillgängliga kvotanvändning och historik",
@@ -29,7 +29,8 @@
   },
   "status": {
     "active": "Aktiv",
-    "depleted": "Uttömd"
+    "depleted": "Uttömd",
+    "expired": "Utgånget"
   },
   "subtitle": "Hantera och visa din tillgängliga kvot",
   "summary": {

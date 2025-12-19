@@ -54,7 +54,8 @@ export default function SubscriptionCard({ subscription }: SubscriptionCardProps
   // 获取计划类型文本
   const getPlanTypeText = (planType: string) => {
     const planMap: Record<string, string> = {
-      trial: t('planTypes.trial'),
+      monthly_hobby: t('planTypes.monthly_hobby'),
+      yearly_hobby: t('planTypes.yearly_hobby'),
       monthly_basic: t('planTypes.monthly_basic'),
       yearly_basic: t('planTypes.yearly_basic'),
       monthly_pro: t('planTypes.monthly_pro'),

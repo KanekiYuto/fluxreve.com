@@ -10,14 +10,14 @@
     "title": "Anmelden, um die Quote zu sehen"
   },
   "quotaTypes": {
-    "daily_free": "Tägliches Freikontingent",
-    "monthly_basic": "Monatlich Basic",
-    "monthly_pro": "Monatlich Pro",
-    "quota_pack": "Quotenpaket",
-    "subscription_change_compensation": "Zeichnungsänderung Entschädigung",
-    "trial": "Versuch",
-    "yearly_basic": "Jährlich Basic",
-    "yearly_pro": "Jährlich Pro"
+    "daily_free": "Tägliche kostenlose Credits",
+    "monthly_hobby": "Hobby Monatsplan",
+    "yearly_hobby": "Hobby Jahresplan",
+    "monthly_basic": "Basic Monatsplan",
+    "yearly_basic": "Basic Jahresplan",
+    "monthly_pro": "Pro Monatsplan",
+    "yearly_pro": "Pro Jahresplan",
+    "quota_pack": "Credit-Paket"
   },
   "seo": {
     "description": "Verwalten und Anzeigen Ihrer verfügbaren Kontingentnutzung und -historie",
@@ -29,7 +29,8 @@
   },
   "status": {
     "active": "Aktiv",
-    "depleted": "Erschöpft"
+    "depleted": "Erschöpft",
+    "expired": "Abgelaufen"
   },
   "subtitle": "Verwalten und Anzeigen Ihrer verfügbaren Quote",
   "summary": {

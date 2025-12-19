@@ -1,7 +1,7 @@
 // 用户类型常量
 export const USER_TYPE = {
   FREE: 'free',
-  TRIAL: 'trial',
+  HOBBY: 'hobby',
   BASIC: 'basic',
   PRO: 'pro',
 } as const;

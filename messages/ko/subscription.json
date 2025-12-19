@@ -8,10 +8,11 @@
     "nextBillingDate": "다음 청구 날짜",
     "nextRenewal": "다음 갱신은 다음과 같이 전환됩니다.",
     "planTypes": {
+      "monthly_hobby": "취미 - 월간",
+      "yearly_hobby": "취미 - 연간",
       "monthly_basic": "기본 - 월간",
-      "monthly_pro": "Pro - 월간",
-      "trial": "평가판",
       "yearly_basic": "기본 - 연간",
+      "monthly_pro": "프로 - 월간",
       "yearly_pro": "프로 - 연간"
     },
     "platform": "결제 플랫폼",

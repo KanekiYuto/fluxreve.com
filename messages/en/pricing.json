@@ -21,34 +21,37 @@
     "year": "year",
     "month": "month",
     "discount": "Save 20%",
-    "save": "Save ${amount}"
+    "save": "Save ${amount}",
+    "bonus": "Extra {amount} credits"
   },
-  "tiers": [
-    {
-      "name": "New User Exclusive",
-      "description": "Exclusive for new users, limited-time trial",
-      "cta": "Claim New User Benefit",
+  "quota": {
+    "credits": "{amount} credits quota",
+    "creditsDaily": "{amount} daily credits",
+    "images": "Generate up to {amount} high-quality images",
+    "imagesDaily": "Generate up to {amount} images per day"
+  },
+  "tiers": {
+    "hobby": {
+      "name": "Hobby",
+      "description": "For casual individual creators",
+      "cta": "Subscribe Now",
       "features": [
-        "{quota} credits quota",
-        "Can generate up to {quota}/5 high-quality images",
-        "All standard AI models",
+        "Standard AI models",
         "High resolution (1024x1024)",
         "Watermark-free export"
       ],
       "unsupportedFeatures": [
-        "Auto-renewal",
+        "Priority generation queue",
         "Ultra-high resolution",
         "Batch generation",
-        "Priority support"
+        "Priority customer support"
       ]
     },
-    {
+    "basic": {
       "name": "Basic",
       "description": "For individual users and small projects",
       "cta": "Subscribe Now",
       "features": [
-        "{quota} credits quota",
-        "Can generate up to {quota}/5 high-quality images",
         "Standard AI models",
         "High resolution (1024x1024)",
         "Priority generation queue",
@@ -61,13 +64,11 @@
         "Batch generation"
       ]
     },
-    {
+    "pro": {
       "name": "Pro",
       "description": "For professional creators and team collaboration",
       "cta": "Subscribe Now",
       "features": [
-        "{quota} credits quota",
-        "Can generate up to {quota}/5 high-quality images",
         "All advanced AI models",
         "Ultra-high resolution (2048x2048)",
         "Highest priority queue",
@@ -77,13 +78,11 @@
         "Commercial use license"
       ]
     },
-    {
+    "free": {
       "name": "Free",
       "description": "Perfect for personal trial and light usage",
       "cta": "Try Free",
       "features": [
-        "{quota} credits quota per day",
-        "Can generate up to {quota}/5 images per day",
         "Basic AI models",
         "Standard resolution (512x512)"
       ],
@@ -94,7 +93,7 @@
         "Customer support"
       ]
     }
-  ],
+  },
   "faq": {
     "badge": "FAQ",
     "title": "Frequently Asked Questions",

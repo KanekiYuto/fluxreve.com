@@ -17,4 +17,4 @@ export interface Subscription {
 }
 
 // 订阅状态类型
-export type SubscriptionStatus = 'current' | 'scheduled' | 'upgrade' | 'downgrade' | 'new' | 'free' | 'configuring';
+export type SubscriptionStatus = 'current' | 'new' | 'configuring';

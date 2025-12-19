@@ -1,11 +1,18 @@
 {
   "billing": {
-    "discount": "Spar 20 %",
-    "month": "måned",
     "monthly": "Månedlig",
-    "save": "Spar ${amount}",
+    "yearly": "Årlig",
     "year": "år",
-    "yearly": "Årlig"
+    "month": "måned",
+    "discount": "Spar 20 %",
+    "save": "Spar ${amount}",
+    "bonus": "Ekstra {amount} kreditter"
+  },
+  "quota": {
+    "credits": "{amount} kredittkvote",
+    "creditsDaily": "{amount} daglige kreditter",
+    "images": "Generer opptil {amount} bilder i høy kvalitet",
+    "imagesDaily": "Generer opptil {amount} bilder per dag"
   },
   "faq": {
     "badge": "Vanlige spørsmål",
@@ -77,31 +84,26 @@
     "upgrade": "Oppgrader"
   },
   "subtitle": "Fleksible prisalternativer for å møte behovene til enkeltpersoner og bedrifter",
-  "tiers": [
-    {
-      "cta": "Få Ny Brukerfordel",
-      "description": "Eksklusivt for nye brukere, tidsbegrenset prøve",
+  "tiers": {
+    "hobby": {
+      "name": "Hobby",
+      "description": "For tilfeldige individuelle skapere",
+      "cta": "Abonner nå",
       "features": [
-        "{quota} studiepoengskvote",
-        "Kan generere opptil {quota}/5 bilder av høy kvalitet",
-        "Alle standard AI-modeller",
+        "Standard AI-modeller",
         "Høy oppløsning (1024x1024)",
         "Eksport uten vannmerke"
       ],
-      "name": "Eksklusivt for Nye Brukere",
       "unsupportedFeatures": [
-        "Automatisk fornyelse",
+        "Prioritetsgenereringskø",
         "Ultrahøy oppløsning",
-        "Batchgenerering",
-        "Prioritert støtte"
+        "Batchgenerering"
       ]
     },
-    {
+    "basic": {
       "cta": "Abonner nå",
       "description": "For individuelle brukere og små prosjekter",
       "features": [
-        "{quota} studiepoengskvote",
-        "Kan generere opptil {quota}/5 bilder av høy kvalitet",
         "Standard AI-modeller",
         "Høy oppløsning (1024x1024)",
         "Prioritetsgenereringskø",
@@ -115,12 +117,10 @@
         "Batchgenerering"
       ]
     },
-    {
+    "pro": {
       "cta": "Abonner nå",
       "description": "For profesjonelle skapere og teamsamarbeid",
       "features": [
-        "{quota} studiepoengskvote",
-        "Kan generere opptil {quota}/5 bilder av høy kvalitet",
         "Alle avanserte AI-modeller",
         "Ultrahøy oppløsning (2048x2048)",
         "Kø med høyest prioritet",
@@ -131,12 +131,10 @@
       ],
       "name": "Proff"
     },
-    {
+    "free": {
       "cta": "Kom i gang",
       "description": "Perfekt for personlig prøveperiode og lett bruk",
       "features": [
-        "{quota} kredittkvote daglig",
-        "Kan generere opptil {quota}/5 bilder per dag",
         "Grunnleggende AI-modeller",
         "Standardoppløsning (512x512)"
       ],
@@ -148,6 +146,6 @@
         "Kundestøtte"
       ]
     }
-  ],
+  },
   "title": "Velg din plan"
 }

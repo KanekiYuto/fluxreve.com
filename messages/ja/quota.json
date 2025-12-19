@@ -10,14 +10,14 @@
     "title": "ログインしてクォータを見る"
   },
   "quotaTypes": {
-    "daily_free": "1日の無料枠",
-    "monthly_basic": "月額基本料金",
-    "monthly_pro": "月プロ",
-    "quota_pack": "クォータパック",
-    "subscription_change_compensation": "サブスクリプション変更補償",
-    "trial": "トライアル",
-    "yearly_basic": "年間ベーシック",
-    "yearly_pro": "年間プロ"
+    "daily_free": "毎日無料クレジット",
+    "monthly_hobby": "ホビー月額プラン",
+    "yearly_hobby": "ホビー年額プラン",
+    "monthly_basic": "ベーシック月額プラン",
+    "yearly_basic": "ベーシック年額プラン",
+    "monthly_pro": "プロ月額プラン",
+    "yearly_pro": "プロ年額プラン",
+    "quota_pack": "クレジットパック"
   },
   "seo": {
     "description": "利用可能なクォータの使用量と履歴の管理と表示",
@@ -29,7 +29,8 @@
   },
   "status": {
     "active": "有効",
-    "depleted": "消耗済み"
+    "depleted": "消耗済み",
+    "expired": "期限切れ"
   },
   "subtitle": "利用可能なクォータの管理と表示",
   "summary": {

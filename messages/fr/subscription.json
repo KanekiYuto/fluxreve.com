@@ -8,10 +8,11 @@
     "nextBillingDate": "Prochaine date de facturation",
     "nextRenewal": "Le renouvellement suivant passe à",
     "planTypes": {
-      "monthly_basic": "Base - Mensuelle",
+      "monthly_hobby": "Loisir - Mensuel",
+      "yearly_hobby": "Loisir - Annuel",
+      "monthly_basic": "Basique - Mensuel",
+      "yearly_basic": "Basique - Annuel",
       "monthly_pro": "Pro - Mensuel",
-      "trial": "Procès",
-      "yearly_basic": "Base - Annuel",
       "yearly_pro": "Pro - Annuel"
     },
     "platform": "Plate-forme de paiement",

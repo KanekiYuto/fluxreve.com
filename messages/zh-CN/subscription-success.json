@@ -22,12 +22,13 @@
   },
   "notFound": "未找到订阅",
   "planTypes": {
-    "monthly_basic": "基本 - 每月",
+    "monthly_hobby": "爱好 - 每月",
+    "yearly_hobby": "爱好 - 每年",
+    "monthly_basic": "基础 - 每月",
+    "yearly_basic": "基础 - 每年",
     "monthly_pro": "专业 - 每月",
-    "trial": "试用",
-    "unknown": "未知计划",
-    "yearly_basic": "基本 - 每年",
-    "yearly_pro": "专业 - 每年"
+    "yearly_pro": "专业 - 每年",
+    "unknown": "未知计划"
   },
   "seo": {
     "description": "感谢您的订阅！您的账户已成功升级",

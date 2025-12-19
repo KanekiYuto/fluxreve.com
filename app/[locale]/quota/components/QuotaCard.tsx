@@ -22,6 +22,15 @@ export default function QuotaCard({ quota }: QuotaCardProps) {
 
   const percentage = quota.amount > 0 ? (quota.consumed / quota.amount) * 100 : 0;
 
+  // 检查配额是否已过期
+  const isExpired = quota.expiresAt ? new Date(quota.expiresAt) < new Date() : false;
+
+  // 检查配额是否已耗尽（未过期但无剩余）
+  const isDepleted = !isExpired && quota.available === 0;
+
+  // 检查配额是否有效（未过期且有剩余）
+  const isActive = !isExpired && quota.available > 0;
+
   const formatDate = (date: Date | null) => {
     if (!date) return t('table.noExpiry');
     return format(new Date(date), 'yyyy-MM-dd');
@@ -50,12 +59,14 @@ export default function QuotaCard({ quota }: QuotaCardProps) {
         </div>
         <div
           className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-            quota.available > 0
+            isActive
               ? 'bg-success/15 text-success'
-              : 'bg-text-dim/15 text-text-dim'
+              : isExpired
+                ? 'bg-error/15 text-error'
+                : 'bg-text-dim/15 text-text-dim'
           }`}
         >
-          {quota.available > 0 ? t('status.active') : t('status.depleted')}
+          {isActive ? t('status.active') : isExpired ? t('status.expired') : t('status.depleted')}
         </div>
       </div>
 

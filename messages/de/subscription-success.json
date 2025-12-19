@@ -22,12 +22,13 @@
   },
   "notFound": "Abonnement nicht gefunden",
   "planTypes": {
+    "monthly_hobby": "Hobby - Monatlich",
+    "yearly_hobby": "Hobby - Jährlich",
     "monthly_basic": "Basic - Monatlich",
-    "monthly_pro": "Pro - Monatlich",
-    "trial": "Versuch",
-    "unknown": "Unbekannter Plan",
     "yearly_basic": "Basic - Jährlich",
-    "yearly_pro": "Pro - Jährlich"
+    "monthly_pro": "Pro - Monatlich",
+    "yearly_pro": "Pro - Jährlich",
+    "unknown": "Unbekannter Plan"
   },
   "seo": {
     "description": "Vielen Dank für Ihr Abonnement! Ihr Konto wurde erfolgreich hochgestuft",

@@ -1,11 +1,18 @@
 {
   "billing": {
-    "discount": "Ahorra un 20%.",
-    "month": "mes",
     "monthly": "Mensualmente",
-    "save": "Save ${amount}",
+    "yearly": "Anualmente",
     "year": "año",
-    "yearly": "Anualmente"
+    "month": "mes",
+    "discount": "Ahorra un 20%.",
+    "save": "Save ${amount}",
+    "bonus": "{amount} créditos adicionales"
+  },
+  "quota": {
+    "credits": "Cuota de {amount} créditos",
+    "creditsDaily": "{amount} créditos diarios",
+    "images": "Genera hasta {amount} imágenes de alta calidad",
+    "imagesDaily": "Genera hasta {amount} imágenes por día"
   },
   "faq": {
     "badge": "PREGUNTAS FRECUENTES",
@@ -77,31 +84,26 @@
     "upgrade": "Actualizar"
   },
   "subtitle": "Opciones de precios flexibles para satisfacer las necesidades de particulares y empresas",
-  "tiers": [
-    {
-      "cta": "Reclamar Beneficio de Nuevo Usuario",
-      "description": "Exclusivo para nuevos usuarios, prueba por tiempo limitado",
+  "tiers": {
+    "hobby": {
+      "name": "Afición",
+      "description": "Para creadores individuales ocasionales",
+      "cta": "Suscríbase ahora",
       "features": [
-        "{quota} créditos cuota",
-        "Puede generar hasta {quota}/5 imágenes de alta calidad",
-        "Todos los modelos estándar de IA",
+        "Modelos estándar de IA",
         "Alta resolución (1024x1024)",
         "Exportación sin marcas de agua"
       ],
-      "name": "Exclusivo para Nuevos Usuarios",
       "unsupportedFeatures": [
-        "Renovación automática",
+        "Cola de generación de prioridades",
         "Resolución ultra alta",
-        "Generación de lotes",
-        "Asistencia prioritaria"
+        "Generación de lotes"
       ]
     },
-    {
+    "basic": {
       "cta": "Suscríbase ahora",
       "description": "Para usuarios particulares y pequeños proyectos",
       "features": [
-        "{quota} créditos cuota",
-        "Puede generar hasta {quota}/5 imágenes de alta calidad",
         "Modelos estándar de IA",
         "Alta resolución (1024x1024)",
         "Cola de generación de prioridades",
@@ -115,12 +117,10 @@
         "Generación de lotes"
       ]
     },
-    {
+    "pro": {
       "cta": "Suscríbase ahora",
       "description": "Para creadores profesionales y colaboración en equipo",
       "features": [
-        "{quota} créditos cuota",
-        "Puede generar hasta {quota}/5 imágenes de alta calidad",
         "Todos los modelos avanzados de IA",
         "Resolución ultra alta (2048x2048)",
         "Cola de mayor prioridad",
@@ -131,12 +131,10 @@
       ],
       "name": "Pro"
     },
-    {
+    "free": {
       "cta": "Comenzar",
       "description": "Perfecto para pruebas personales y un uso ligero",
       "features": [
-        "{quota} cuota de créditos diaria",
-        "Puede generar hasta {quota}/5 imágenes al día",
         "Modelos básicos de IA",
         "Resolución estándar (512x512)"
       ],
@@ -148,6 +146,6 @@
         "Atención al cliente"
       ]
     }
-  ],
+  },
   "title": "Elija su plan"
 }

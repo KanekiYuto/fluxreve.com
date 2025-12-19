@@ -1,11 +1,18 @@
 {
   "billing": {
-    "discount": "Säästä 20 %",
-    "month": "kuukausi",
     "monthly": "Kuukausittain",
-    "save": "Säästä ${amount}",
+    "yearly": "Vuosittain",
     "year": "vuosi",
-    "yearly": "Vuosittain"
+    "month": "kuukausi",
+    "discount": "Säästä 20 %",
+    "save": "Säästä ${amount}",
+    "bonus": "Ylimääräinen {amount} krediittiä"
+  },
+  "quota": {
+    "credits": "{amount} krediittikiintiö",
+    "creditsDaily": "{amount} päivittäistä krediittiä",
+    "images": "Luo enintään {amount} korkealaatuista kuvaa",
+    "imagesDaily": "Luo enintään {amount} kuvaa päivässä"
   },
   "faq": {
     "badge": "Usein kysytyt kysymykset",
@@ -77,31 +84,26 @@
     "upgrade": "Päivitä"
   },
   "subtitle": "Joustavat hinnoitteluvaihtoehdot yksityishenkilöiden ja yritysten tarpeisiin",
-  "tiers": [
-    {
-      "cta": "Lunasta Uuden Käyttäjän Etu",
-      "description": "Yksinomaan uusille käyttäjille, määräaikainen kokeilu",
+  "tiers": {
+    "hobby": {
+      "name": "Harrastus",
+      "description": "Satunnaisille yksittäisille luojille",
+      "cta": "Tilaa nyt",
       "features": [
-        "{quota} krediittikiintiö",
-        "Voi luoda jopa {quota}/5 korkealaatuista kuvaa",
-        "Kaikki tekoälyn vakiomallit",
+        "Standardi tekoälymallit",
         "Korkea resoluutio (1024x1024)",
         "Vesileimaton vienti"
       ],
-      "name": "Yksinomaan Uusille Käyttäjille",
       "unsupportedFeatures": [
-        "Automaattinen uusiminen",
+        "Prioriteettigenerointijono",
         "Erittäin korkea resoluutio",
-        "Erägenerointi",
-        "Prioriteettituki"
+        "Erägenerointi"
       ]
     },
-    {
+    "basic": {
       "cta": "Tilaa nyt",
       "description": "Yksittäisille käyttäjille ja pienille projekteille",
       "features": [
-        "{quota} krediittikiintiö",
-        "Voi luoda jopa {quota}/5 korkealaatuista kuvaa",
         "Standardi tekoälymallit",
         "Korkea resoluutio (1024x1024)",
         "Prioriteettigenerointijono",
@@ -115,12 +117,10 @@
         "Erägenerointi"
       ]
     },
-    {
+    "pro": {
       "cta": "Tilaa nyt",
       "description": "Ammattilaisille sisällöntuottajille ja tiimityöskentelyyn",
       "features": [
-        "{quota} krediittikiintiö",
-        "Voi luoda jopa {quota}/5 korkealaatuista kuvaa",
         "Kaikki edistyneet tekoälymallit",
         "Erittäin korkea resoluutio (2048x2048)",
         "Korkeimman prioriteetin jono",
@@ -131,12 +131,10 @@
       ],
       "name": "Ammattilainen"
     },
-    {
+    "free": {
       "cta": "Aloita",
       "description": "Täydellinen henkilökohtaiseen kokeiluun ja kevyeen käyttöön",
       "features": [
-        "{quota} krediittikiintiö päivittäin",
-        "Voi luoda jopa {quota}/5 kuvaa päivässä",
         "Perustekoälymallit",
         "Vakioresoluutio (512x512)"
       ],
@@ -148,6 +146,6 @@
         "Asiakastuki"
       ]
     }
-  ],
+  },
   "title": "Valitse sopimuksesi"
 }

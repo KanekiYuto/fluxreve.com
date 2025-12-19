@@ -1,11 +1,18 @@
 {
   "billing": {
-    "discount": "20% sparen",
-    "month": "Monat",
     "monthly": "Monatlich",
-    "save": "Sparen Sie ${amount}",
+    "yearly": "Jährlich",
     "year": "Jahr",
-    "yearly": "Jährlich"
+    "month": "Monat",
+    "discount": "20% sparen",
+    "save": "Sparen Sie ${amount}",
+    "bonus": "Extra {amount} Credits"
+  },
+  "quota": {
+    "credits": "{amount} Credits-Kontingent",
+    "creditsDaily": "{amount} tägliche Credits",
+    "images": "Bis zu {amount} hochwertige Bilder generieren",
+    "imagesDaily": "Bis zu {amount} Bilder pro Tag generieren"
   },
   "faq": {
     "badge": "FAQ",
@@ -77,31 +84,26 @@
     "upgrade": "Upgrade"
   },
   "subtitle": "Flexible Preisoptionen, die den Bedürfnissen von Privatpersonen und Unternehmen gerecht werden",
-  "tiers": [
-    {
-      "cta": "Neuer Benutzervorteil Anfordern",
-      "description": "Exklusiv für neue Benutzer, zeitlich begrenzter Test",
+  "tiers": {
+    "hobby": {
+      "name": "Hobby",
+      "description": "Für gelegentliche individuelle Kreative",
+      "cta": "Jetzt abonnieren",
       "features": [
-        "{quota} Kreditquote",
-        "Kann bis zu {quota}/5 hochwertige Bilder erzeugen",
-        "Alle Standard AI-Modelle",
+        "Standard AI-Modelle",
         "Hohe Auflösung (1024x1024)",
         "Wasserzeichenfreier Export"
       ],
-      "name": "Exklusiv für Neue Benutzer",
       "unsupportedFeatures": [
-        "Auto-Erneuerung",
+        "Warteschlange für die Prioritätserzeugung",
         "Ultrahohe Auflösung",
-        "Stapelverarbeitung",
-        "Vorrangige Unterstützung"
+        "Stapelverarbeitung"
       ]
     },
-    {
+    "basic": {
       "cta": "Jetzt abonnieren",
       "description": "Für Einzelanwender und kleine Projekte",
       "features": [
-        "{quota} Kreditquote",
-        "Kann bis zu {quota}/5 hochwertige Bilder erzeugen",
         "Standard AI-Modelle",
         "Hohe Auflösung (1024x1024)",
         "Warteschlange für die Prioritätserzeugung",
@@ -115,12 +117,10 @@
         "Stapelverarbeitung"
       ]
     },
-    {
+    "pro": {
       "cta": "Jetzt abonnieren",
       "description": "Für professionelle Kreative und Teamarbeit",
       "features": [
-        "{quota} Kreditquote",
-        "Kann bis zu {quota}/5 hochwertige Bilder erzeugen",
         "Alle fortgeschrittenen AI-Modelle",
         "Ultrahohe Auflösung (2048x2048)",
         "Warteschlange mit höchster Priorität",
@@ -131,12 +131,10 @@
       ],
       "name": "Pro"
     },
-    {
+    "free": {
       "cta": "Los geht's",
       "description": "Perfekt für persönliche Versuche und leichte Nutzung",
       "features": [
-        "{quota} Kreditquote täglich",
-        "Kann bis zu {quota}/5 Bilder pro Tag erzeugen",
         "Grundlegende AI-Modelle",
         "Standardauflösung (512x512)"
       ],
@@ -148,6 +146,6 @@
         "Kundenbetreuung"
       ]
     }
-  ],
+  },
   "title": "Wählen Sie Ihren Plan"
 }

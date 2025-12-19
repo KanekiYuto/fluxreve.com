@@ -10,14 +10,14 @@
     "title": "로그인하여 할당량 보기"
   },
   "quotaTypes": {
-    "daily_free": "일일 무료 할당량",
-    "monthly_basic": "월간 기본",
-    "monthly_pro": "월간 프로",
-    "quota_pack": "할당량 팩",
-    "subscription_change_compensation": "구독 변경 보상",
-    "trial": "평가판",
-    "yearly_basic": "연간 기본",
-    "yearly_pro": "연간 프로"
+    "daily_free": "일일 무료 크레딧",
+    "monthly_hobby": "취미 월간 플랜",
+    "yearly_hobby": "취미 연간 플랜",
+    "monthly_basic": "기본 월간 플랜",
+    "yearly_basic": "기본 연간 플랜",
+    "monthly_pro": "프로 월간 플랜",
+    "yearly_pro": "프로 연간 플랜",
+    "quota_pack": "크레딧 팩"
   },
   "seo": {
     "description": "사용 가능한 할당량 사용량 및 내역 관리 및 보기",
@@ -29,7 +29,8 @@
   },
   "status": {
     "active": "활성",
-    "depleted": "소진됨"
+    "depleted": "소진됨",
+    "expired": "만료됨"
   },
   "subtitle": "사용 가능한 할당량 관리 및 보기",
   "summary": {

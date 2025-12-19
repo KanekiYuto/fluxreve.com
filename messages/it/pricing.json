@@ -1,11 +1,18 @@
 {
   "billing": {
-    "discount": "Risparmiare il 20%",
-    "month": "mese",
     "monthly": "Mensile",
-    "save": "Save ${amount}",
+    "yearly": "Annuale",
     "year": "anno",
-    "yearly": "Annuale"
+    "month": "mese",
+    "discount": "Risparmiare il 20%",
+    "save": "Save ${amount}",
+    "bonus": "{amount} crediti extra"
+  },
+  "quota": {
+    "credits": "Quota di {amount} crediti",
+    "creditsDaily": "{amount} crediti giornalieri",
+    "images": "Genera fino a {amount} immagini di alta qualità",
+    "imagesDaily": "Genera fino a {amount} immagini al giorno"
   },
   "faq": {
     "badge": "FAQ",
@@ -77,31 +84,26 @@
     "upgrade": "Aggiornamento"
   },
   "subtitle": "Opzioni di prezzo flessibili per soddisfare le esigenze di privati e aziende",
-  "tiers": [
-    {
-      "cta": "Richiedi Vantaggio Nuovo Utente",
-      "description": "Esclusivo per nuovi utenti, prova a tempo limitato",
+  "tiers": {
+    "hobby": {
+      "name": "Hobby",
+      "description": "Per creatori individuali occasionali",
+      "cta": "Iscriviti ora",
       "features": [
-        "{quota} crediti quota",
-        "Può generare fino a {quota}/5 immagini di alta qualità",
-        "Tutti i modelli AI standard",
+        "Modelli AI standard",
         "Alta risoluzione (1024x1024)",
         "Esportazione senza filigrana"
       ],
-      "name": "Esclusivo per Nuovi Utenti",
       "unsupportedFeatures": [
-        "Rinnovo automatico",
+        "Coda di generazione prioritaria",
         "Risoluzione ultraelevata",
-        "Generazione di lotti",
-        "Assistenza prioritaria"
+        "Generazione di lotti"
       ]
     },
-    {
+    "basic": {
       "cta": "Iscriviti ora",
       "description": "Per singoli utenti e piccoli progetti",
       "features": [
-        "{quota} crediti quota",
-        "Può generare fino a {quota}/5 immagini di alta qualità",
         "Modelli AI standard",
         "Alta risoluzione (1024x1024)",
         "Coda di generazione prioritaria",
@@ -115,12 +117,10 @@
         "Generazione di lotti"
       ]
     },
-    {
+    "pro": {
       "cta": "Iscriviti ora",
       "description": "Per i creatori professionisti e la collaborazione in team",
       "features": [
-        "{quota} crediti quota",
-        "Può generare fino a {quota}/5 immagini di alta qualità",
         "Tutti i modelli AI avanzati",
         "Risoluzione altissima (2048x2048)",
         "Coda a priorità massima",
@@ -131,12 +131,10 @@
       ],
       "name": "Pro"
     },
-    {
+    "free": {
       "cta": "Iniziare",
       "description": "Perfetto per la prova personale e l'uso leggero",
       "features": [
-        "{quota} quota di crediti giornaliera",
-        "Può generare fino a {quota}/5 immagini al giorno",
         "Modelli di AI di base",
         "Risoluzione standard (512x512)"
       ],
@@ -148,6 +146,6 @@
         "Assistenza clienti"
       ]
     }
-  ],
+  },
   "title": "Scegliete il vostro piano"
 }

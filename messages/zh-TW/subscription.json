@@ -8,11 +8,12 @@
     "nextBillingDate": "下一个账单日期",
     "nextRenewal": "下一次续订将切换到",
     "planTypes": {
-      "monthly_basic": "基本 - 月付",
-      "monthly_pro": "专业版 - 月度",
-      "trial": "审判",
-      "yearly_basic": "基本 - 年度",
-      "yearly_pro": "专业版 - 年度版"
+      "monthly_hobby": "愛好 - 每月",
+      "yearly_hobby": "愛好 - 每年",
+      "monthly_basic": "基本 - 每月",
+      "yearly_basic": "基本 - 每年",
+      "monthly_pro": "專業 - 每月",
+      "yearly_pro": "專業 - 每年"
     },
     "platform": "支付平台",
     "startDate": "开始日期",

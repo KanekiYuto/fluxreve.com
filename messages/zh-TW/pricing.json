@@ -1,11 +1,18 @@
 {
   "billing": {
-    "discount": "节省20%",
-    "month": "月",
     "monthly": "月度",
-    "save": "节省 ${amount}",
+    "yearly": "每年",
     "year": "年",
-    "yearly": "每年"
+    "month": "月",
+    "discount": "节省20%",
+    "save": "节省 ${amount}",
+    "bonus": "額外贈送 {amount} 積分"
+  },
+  "quota": {
+    "credits": "{amount} 積分配額",
+    "creditsDaily": "每日 {amount} 積分",
+    "images": "可生成最多 {amount} 張高品質圖像",
+    "imagesDaily": "每天最多可生成 {amount} 張圖像"
   },
   "faq": {
     "badge": "常问问题",
@@ -77,31 +84,26 @@
     "upgrade": "升级"
   },
   "subtitle": "灵活的定价方案，满足个人和企业的需求。",
-  "tiers": [
-    {
-      "cta": "領取新人福利",
-      "description": "新用戶專享，限時體驗",
+  "tiers": {
+    "hobby": {
+      "name": "愛好",
+      "description": "適合輕度使用的個人創作者",
+      "cta": "立即订阅",
       "features": [
-        "每日 {quota} 积分额度",
-        "可生成最多 {quota}/5 张高质量图像",
-        "所有标准AI模型",
+        "标准AI模型",
         "高分辨率（1024x1024）",
         "无水印导出"
       ],
-      "name": "新人專享",
       "unsupportedFeatures": [
-        "自动续订",
+        "优先级生成队列",
         "超高分辨率",
-        "批量生成",
-        "优先支持"
+        "批量生成"
       ]
     },
-    {
+    "basic": {
       "cta": "立即订阅",
       "description": "适用于个人用户和小项目",
       "features": [
-        "每月 {quota} 积分额度",
-        "最多可生成 {quota}/5 张高质量图像",
         "标准AI模型",
         "高分辨率（1024x1024）",
         "优先级生成队列",
@@ -115,12 +117,10 @@
         "批量生成"
       ]
     },
-    {
+    "pro": {
       "cta": "立即订阅",
       "description": "适用于专业创作者和团队协作",
       "features": [
-        "每月 {quota} 积分额度",
-        "最多可生成 {quota}/5 张高质量图像",
         "所有高级AI模型",
         "超高分辨率 (2048x2048)",
         "最高优先级队列",
@@ -131,12 +131,10 @@
       ],
       "name": "专业"
     },
-    {
+    "free": {
       "cta": "開始使用",
       "description": "非常適合個人試用和輕度使用",
       "features": [
-        "每日 {quota} 積分額度",
-        "每天最多可生成 {quota}/5 張圖像",
         "基礎AI模型",
         "標準解析度（512x512）"
       ],
@@ -148,6 +146,6 @@
         "客戶支援"
       ]
     }
-  ],
+  },
   "title": "选择您的方案"
 }

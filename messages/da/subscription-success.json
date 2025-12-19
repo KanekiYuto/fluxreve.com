@@ -22,12 +22,13 @@
   },
   "notFound": "Abonnementet blev ikke fundet",
   "planTypes": {
+    "monthly_hobby": "Hobby - Månedlig",
+    "yearly_hobby": "Hobby - Årlig",
     "monthly_basic": "Basis - Månedlig",
-    "monthly_pro": "Pro - Månedlig",
-    "trial": "Forsøg",
-    "unknown": "Ukendt plan",
     "yearly_basic": "Basis - Årlig",
-    "yearly_pro": "Pro - Årlig"
+    "monthly_pro": "Pro - Månedlig",
+    "yearly_pro": "Pro - Årlig",
+    "unknown": "Ukendt plan"
   },
   "seo": {
     "description": "Tak for din tilmelding! Din konto er blevet opgraderet",

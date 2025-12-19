@@ -2,11 +2,12 @@
 export type BillingCycle = 'monthly' | 'yearly';
 
 // 方案类型
-export type PlanType = 'free' | 'trial' | 'basic' | 'pro';
+export type PlanType = 'free' | 'hobby' | 'basic' | 'pro';
 
 // 订阅计划类型常量
 export const SUBSCRIPTION_PLANS = {
-  TRIAL: 'trial',
+  MONTHLY_HOBBY: 'monthly_hobby',
+  YEARLY_HOBBY: 'yearly_hobby',
   MONTHLY_BASIC: 'monthly_basic',
   YEARLY_BASIC: 'yearly_basic',
   MONTHLY_PRO: 'monthly_pro',
@@ -35,20 +36,28 @@ const calculateYearlyPrice = (monthlyPrice: number): number => {
 
 // 单价配置（USD）
 export const PLAN_PRICES = {
-  TRIAL: 10,   // 体验版单价 $10（一次性付费）
-  BASIC: 15,  // 基础版单价 $15
-  PRO: 75,    // 专业版单价 $75
+  HOBBY: 10,
+  BASIC: 20,
+  PRO: 100,
 } as const;
 
 // 定价方案配置
 export const pricingTiers: PricingTier[] = [
-  // 体验版 - 一次性付费
+  // 爱好版 - 月付
   {
-    planType: 'trial',
+    planType: 'hobby',
     billingCycle: 'monthly',
-    price: PLAN_PRICES.TRIAL,
-    subscriptionPlanType: SUBSCRIPTION_PLANS.TRIAL,
-    creemPayProductId: process.env.NEXT_PUBLIC_CREEM_PAY_TRIAL_ID,
+    price: PLAN_PRICES.HOBBY,
+    subscriptionPlanType: SUBSCRIPTION_PLANS.MONTHLY_HOBBY,
+    creemPayProductId: process.env.NEXT_PUBLIC_CREEM_PAY_HOBBY_MONTHLY_ID,
+  },
+  // 爱好版 - 年付
+  {
+    planType: 'hobby',
+    billingCycle: 'yearly',
+    price: calculateYearlyPrice(PLAN_PRICES.HOBBY),
+    subscriptionPlanType: SUBSCRIPTION_PLANS.YEARLY_HOBBY,
+    creemPayProductId: process.env.NEXT_PUBLIC_CREEM_PAY_HOBBY_YEARLY_ID,
   },
 
   // 基础版 - 月付
@@ -163,10 +172,12 @@ export function isSubscriptionUpgrade(currentPlanType: string, targetPlanType: s
   }
 
   // 获取单价进行比较
-  // basic -> $15, pro -> $75, free -> $0
-  const currentUnitPrice = currentTier.planType === 'basic' ? PLAN_PRICES.BASIC :
+  // hobby -> $8, basic -> $15, pro -> $75, free -> $0
+  const currentUnitPrice = currentTier.planType === 'hobby' ? PLAN_PRICES.HOBBY :
+                           currentTier.planType === 'basic' ? PLAN_PRICES.BASIC :
                            currentTier.planType === 'pro' ? PLAN_PRICES.PRO : 0;
-  const targetUnitPrice = targetTier.planType === 'basic' ? PLAN_PRICES.BASIC :
+  const targetUnitPrice = targetTier.planType === 'hobby' ? PLAN_PRICES.HOBBY :
+                          targetTier.planType === 'basic' ? PLAN_PRICES.BASIC :
                           targetTier.planType === 'pro' ? PLAN_PRICES.PRO : 0;
 
   // 只有单价提升才算升级 (basic $15 -> pro $75)

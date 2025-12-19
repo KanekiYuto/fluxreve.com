@@ -10,14 +10,14 @@
     "title": "تسجيل الدخول لعرض الحصة"
   },
   "quotaTypes": {
-    "daily_free": "الحصة اليومية المجانية",
-    "monthly_basic": "الأساسيات الشهرية",
-    "monthly_pro": "المحترف الشهري",
-    "quota_pack": "حزمة الحصص",
-    "subscription_change_compensation": "تعويضات تغيير الاشتراك",
-    "trial": "المحاكمة",
-    "yearly_basic": "أساسي سنوي",
-    "yearly_pro": "محترف سنوي"
+    "daily_free": "رصيد مجاني يومي",
+    "monthly_hobby": "خطة الهواية الشهرية",
+    "yearly_hobby": "خطة الهواية السنوية",
+    "monthly_basic": "الخطة الأساسية الشهرية",
+    "yearly_basic": "الخطة الأساسية السنوية",
+    "monthly_pro": "الخطة الاحترافية الشهرية",
+    "yearly_pro": "الخطة الاحترافية السنوية",
+    "quota_pack": "حزمة الرصيد"
   },
   "seo": {
     "description": "إدارة وعرض استخدام حصتك المتاحة وسجل الحصص المتوفرة لديك واستخدامها",
@@ -29,7 +29,8 @@
   },
   "status": {
     "active": "نشط",
-    "depleted": "مستنفد"
+    "depleted": "مستنفد",
+    "expired": "منتهي الصلاحية"
   },
   "subtitle": "إدارة حصتك المتاحة وعرضها",
   "summary": {

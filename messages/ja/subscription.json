@@ -8,10 +8,11 @@
     "nextBillingDate": "次回請求日",
     "nextRenewal": "次の更新は",
     "planTypes": {
-      "monthly_basic": "ベーシック - 月額",
-      "monthly_pro": "プロ - 月額",
-      "trial": "トライアル",
+      "monthly_hobby": "ホビー - 毎月",
+      "yearly_hobby": "ホビー - 年間",
+      "monthly_basic": "ベーシック - 毎月",
       "yearly_basic": "ベーシック - 年間",
+      "monthly_pro": "プロ - 毎月",
       "yearly_pro": "プロ - 年間"
     },
     "platform": "決済プラットフォーム",

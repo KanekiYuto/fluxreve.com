@@ -10,14 +10,14 @@
     "title": "Kirjaudu sisään nähdäksesi kiintiön"
   },
   "quotaTypes": {
-    "daily_free": "Päivittäinen ilmainen kiintiö",
-    "monthly_basic": "Kuukausittainen perusmaksu",
-    "monthly_pro": "Kuukausittainen ammattilainen",
-    "quota_pack": "Kiintiöpaketti",
-    "subscription_change_compensation": "Tilauksen muutoskorvaus",
-    "trial": "Oikeudenkäynti",
-    "yearly_basic": "Vuosittainen perusmaksu",
-    "yearly_pro": "Vuosittainen ammattilainen"
+    "daily_free": "Päivittäiset ilmaiset krediitit",
+    "monthly_hobby": "Harrastus kuukausittainen suunnitelma",
+    "yearly_hobby": "Harrastus vuotuinen suunnitelma",
+    "monthly_basic": "Perus kuukausittainen suunnitelma",
+    "yearly_basic": "Perus vuotuinen suunnitelma",
+    "monthly_pro": "Pro kuukausittainen suunnitelma",
+    "yearly_pro": "Pro vuotuinen suunnitelma",
+    "quota_pack": "Krediittipaketti"
   },
   "seo": {
     "description": "Hallitse ja tarkastele käytettävissä olevan kiintiön käyttöä ja historiaa",
@@ -29,7 +29,8 @@
   },
   "status": {
     "active": "Aktiivinen",
-    "depleted": "Loppunut"
+    "depleted": "Loppunut",
+    "expired": "Vanhentunut"
   },
   "subtitle": "Hallitse ja tarkastele käytettävissä olevaa kiintiötäsi",
   "summary": {

@@ -22,12 +22,13 @@
   },
   "notFound": "لم يتم العثور على الاشتراك",
   "planTypes": {
-    "monthly_basic": "أساسي - شهرياً",
-    "monthly_pro": "محترف - شهرياً",
-    "trial": "المحاكمة",
-    "unknown": "خطة غير معروفة",
+    "monthly_hobby": "هواية - شهري",
+    "yearly_hobby": "هواية - سنوي",
+    "monthly_basic": "أساسي - شهري",
     "yearly_basic": "أساسي - سنوي",
-    "yearly_pro": "محترف - سنوي"
+    "monthly_pro": "احترافي - شهري",
+    "yearly_pro": "احترافي - سنوي",
+    "unknown": "خطة غير معروفة"
   },
   "seo": {
     "description": "شكراً لاشتراكك! تمت ترقية حسابك بنجاح",

@@ -8,10 +8,11 @@
     "nextBillingDate": "下一次账单日期",
     "nextRenewal": "下一次更新转为",
     "planTypes": {
+      "monthly_hobby": "爱好 - 每月",
+      "yearly_hobby": "爱好 - 每年",
       "monthly_basic": "基本 - 每月",
-      "monthly_pro": "专业 - 每月",
-      "trial": "试用",
       "yearly_basic": "基本 - 每年",
+      "monthly_pro": "专业 - 每月",
       "yearly_pro": "专业 - 每年"
     },
     "platform": "支付平台",

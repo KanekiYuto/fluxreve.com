@@ -10,14 +10,14 @@
     "title": "Log ind for at se kvote"
   },
   "quotaTypes": {
-    "daily_free": "Daglig gratis kvote",
-    "monthly_basic": "Månedlig basis",
-    "monthly_pro": "Månedlig Pro",
-    "quota_pack": "Kvotepakke",
-    "subscription_change_compensation": "Kompensation for ændring af abonnement",
-    "trial": "Forsøg",
-    "yearly_basic": "Årlig basis",
-    "yearly_pro": "Årlig Pro"
+    "daily_free": "Daglige gratis kreditter",
+    "monthly_hobby": "Hobby månedlig plan",
+    "yearly_hobby": "Hobby årlig plan",
+    "monthly_basic": "Basis månedlig plan",
+    "yearly_basic": "Basis årlig plan",
+    "monthly_pro": "Pro månedlig plan",
+    "yearly_pro": "Pro årlig plan",
+    "quota_pack": "Kredit pakke"
   },
   "seo": {
     "description": "Administrer og se din tilgængelige kvoteforbrug og historik",
@@ -29,7 +29,8 @@
   },
   "status": {
     "active": "Aktiv",
-    "depleted": "Udtømt"
+    "depleted": "Udtømt",
+    "expired": "Udløbet"
   },
   "subtitle": "Administrer og se din tilgængelige kvote",
   "summary": {

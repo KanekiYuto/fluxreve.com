@@ -8,11 +8,12 @@
     "nextBillingDate": "تاريخ الفاتورة التالية",
     "nextRenewal": "يتحول التجديد التالي إلى",
     "planTypes": {
-      "monthly_basic": "أساسي - شهرياً",
-      "monthly_pro": "محترف - شهرياً",
-      "trial": "المحاكمة",
+      "monthly_hobby": "هواية - شهري",
+      "yearly_hobby": "هواية - سنوي",
+      "monthly_basic": "أساسي - شهري",
       "yearly_basic": "أساسي - سنوي",
-      "yearly_pro": "محترف - سنوي"
+      "monthly_pro": "احترافي - شهري",
+      "yearly_pro": "احترافي - سنوي"
     },
     "platform": "منصة الدفع",
     "startDate": "تاريخ البدء",

@@ -8,11 +8,12 @@
     "nextBillingDate": "Seuraava laskutuspäivä",
     "nextRenewal": "Seuraava uusinta siirtyy",
     "planTypes": {
-      "monthly_basic": "Perus - Kuukausittainen",
-      "monthly_pro": "Pro - Kuukausittainen",
-      "trial": "Oikeudenkäynti",
-      "yearly_basic": "Perus - Vuosittainen",
-      "yearly_pro": "Pro - Vuosittainen"
+      "monthly_hobby": "Harrastus - Kuukausittain",
+      "yearly_hobby": "Harrastus - Vuosittain",
+      "monthly_basic": "Perus - Kuukausittain",
+      "yearly_basic": "Perus - Vuosittain",
+      "monthly_pro": "Pro - Kuukausittain",
+      "yearly_pro": "Pro - Vuosittain"
     },
     "platform": "Maksualusta",
     "startDate": "Aloituspäivämäärä",

@@ -21,10 +21,10 @@
     }
   },
   "userType": {
-    "pro": "Pro",
+    "free": "Free",
+    "hobby": "Hobby",
     "basic": "Basic",
-    "trial": "New User Exclusive",
-    "free": "Free"
+    "pro": "Pro"
   },
   "stats": {
     "quota": {

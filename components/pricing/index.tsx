@@ -20,7 +20,7 @@ export default function Pricing({ useH1 = false }: PricingProps) {
   const { openLoginModal } = useModalStore();
   const [isYearly, setIsYearly] = useState(false);
 
-  const tierTranslations = t.raw('tiers') as TierTranslation[];
+  const tierTranslations = t.raw('tiers') as Record<string, TierTranslation>;
   const billingCycle: BillingCycle = isYearly ? 'yearly' : 'monthly';
 
   const { currentSubscription, isLoading, fetchCurrentSubscription } = useCurrentSubscription(user);
@@ -28,8 +28,8 @@ export default function Pricing({ useH1 = false }: PricingProps) {
   // 根据参数动态选择标题标签
   const TitleTag = useH1 ? 'h1' : 'h2';
 
-  // 分离付费计划和免费计划
-  const paidPlans = ['trial', 'basic', 'pro'];
+  // 分离付费计划和免费计划（按顺序：hobby < basic < pro）
+  const paidPlans = ['hobby', 'basic', 'pro'];
   const freePlans = ['free'];
 
   return (
@@ -58,22 +58,14 @@ export default function Pricing({ useH1 = false }: PricingProps) {
           />
         </div>
 
-        {/* 付费定价卡片网格 - 体验版仅在无订阅时显示 */}
+        {/* 付费定价卡片网格 */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto mb-12 sm:mb-16">
-          {paidPlans.map((planType, index) => {
-            // 如果有订阅，隐藏体验版卡片
-            if (planType === 'trial' && currentSubscription) {
-              return null;
-            }
-
+          {paidPlans.map((planType) => {
             const allPricings = getPricingTiersByPlan(planType as any);
-            // Trial 只有 monthly，年付时也使用 monthly
-            const currentTier = planType === 'trial'
-              ? allPricings.find(t => t.billingCycle === 'monthly')
-              : allPricings.find(t => t.billingCycle === billingCycle);
-            const translation = tierTranslations[index];
+            const currentTier = allPricings.find(t => t.billingCycle === billingCycle);
+            const translation = tierTranslations[planType];
 
-            if (!currentTier) return null;
+            if (!currentTier || !translation) return null;
 
             const status = getSubscriptionStatus(currentTier, planType as any, currentSubscription);
             const quota = getQuotaAmount(planType as any, currentTier);
@@ -97,13 +89,12 @@ export default function Pricing({ useH1 = false }: PricingProps) {
         {/* 免费版卡片 - 横向响应式布局 - 仅在无订阅时显示 */}
         {!currentSubscription && (
           <div className="w-full max-w-7xl mx-auto">
-            {freePlans.map((planType, index) => {
+            {freePlans.map((planType) => {
               const allPricings = getPricingTiersByPlan(planType as any);
               const currentTier = allPricings.find(t => t.billingCycle === billingCycle);
-              const translationIndex = paidPlans.length + index;
-              const translation = tierTranslations[translationIndex];
+              const translation = tierTranslations[planType];
 
-              if (!currentTier) return null;
+              if (!currentTier || !translation) return null;
 
               const status = getSubscriptionStatus(currentTier, planType as any, currentSubscription);
               const quota = getQuotaAmount(planType as any, currentTier);

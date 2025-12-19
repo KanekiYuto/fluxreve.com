@@ -1,8 +1,8 @@
 import React from 'react';
 import { CreemCheckout } from '@creem_io/nextjs';
 import { getPricingTiersByPlan, type PlanType, type PricingTier } from '@/config/pricing';
-import UpgradeSubscriptionButton from '@/components/subscription/UpgradeSubscriptionButton';
 import type { SubscriptionStatus, TierTranslation } from './types';
+import { getQuotaAmount } from './hooks';
 
 // 计费周期切换组件
 export function BillingCycleToggle({
@@ -28,15 +28,15 @@ export function BillingCycleToggle({
       </button>
       <button
         onClick={() => onToggle(true)}
-        className={`px-4 sm:px-6 md:px-8 py-2 sm:py-2.5 md:py-3 rounded-lg sm:rounded-xl text-sm sm:text-base font-semibold transition-all duration-300 relative cursor-pointer ${
+        className={`px-4 sm:px-6 md:px-8 py-2 sm:py-2.5 md:py-3 rounded-lg sm:rounded-xl text-sm sm:text-base font-semibold transition-all duration-300 cursor-pointer ${
           isYearly
             ? 'gradient-bg text-white scale-105'
             : 'text-text-muted hover:text-text hover:bg-bg-hover/50'
         }`}
       >
         {t('billing.yearly')}
-        <span className="absolute -top-2 sm:-top-3 -right-2 sm:-right-3 px-2 sm:px-3 py-0.5 sm:py-1 text-[10px] sm:text-xs font-bold bg-gradient-to-r from-secondary to-secondary/90 text-white rounded-full">
-          {t('billing.discount')}
+        <span className="text-xs sm:text-sm font-medium opacity-90">
+          （{t('billing.discount')}）
         </span>
       </button>
     </div>
@@ -64,12 +64,17 @@ export function PricingCard({
   renderCTAButton: () => React.ReactNode;
   isHorizontal?: boolean;
 }) {
-  // 计算年付节省金额
+  // 计算年付节省金额和额外赠送积分
   const allPricings = getPricingTiersByPlan(planType);
   const monthlyTier = allPricings.find(t => t.billingCycle === 'monthly');
   const yearlyTier = allPricings.find(t => t.billingCycle === 'yearly');
   const originalYearlyPrice = monthlyTier ? monthlyTier.price * 12 : 0;
-  const yearlySavings = yearlyTier ? originalYearlyPrice - yearlyTier.price : 0;
+  const yearlySavings = yearlyTier ? Math.round((originalYearlyPrice - yearlyTier.price) * 100) / 100 : 0;
+
+  // 计算年付额外赠送的积分
+  const monthlyQuota = monthlyTier ? getQuotaAmount(planType as any, monthlyTier) : 0;
+  const expectedYearlyQuota = monthlyQuota * 12; // 如果按月付计算一年的积分
+  const bonusQuota = isYearly && quota > expectedYearlyQuota ? quota - expectedYearlyQuota : 0;
 
   if (isHorizontal) {
     return (
@@ -106,6 +111,25 @@ export function PricingCard({
             {renderCTAButton()}
           </div>
 
+          {/* 积分配额和图像生成信息 */}
+          <div className="flex flex-col gap-2 py-3 border-y border-border/30">
+            <div className="flex items-center gap-2">
+              <CheckIcon className="w-4 h-4 text-primary flex-shrink-0" />
+              <span className="text-sm text-text-muted flex-1">
+                {t(planType === 'free' ? 'quota.creditsDaily' : 'quota.credits', { amount: quota.toLocaleString() })}
+              </span>
+              {isYearly && bonusQuota > 0 && (
+                <BonusQuotaBadge amount={bonusQuota} t={t} />
+              )}
+            </div>
+            <div className="flex items-center gap-2">
+              <CheckIcon className="w-4 h-4 text-primary flex-shrink-0" />
+              <span className="text-sm text-text-muted">
+                {t(planType === 'free' ? 'quota.imagesDaily' : 'quota.images', { amount: Math.floor(quota / 5).toLocaleString() })}
+              </span>
+            </div>
+          </div>
+
           {/* 功能列表 */}
           <FeatureList
             features={translation.features}
@@ -139,6 +163,10 @@ export function PricingCard({
               unsupportedFeatures={translation.unsupportedFeatures}
               quota={quota}
               isHorizontal={true}
+              bonusQuota={bonusQuota}
+              isYearly={isYearly}
+              planType={planType}
+              t={t}
             />
           </div>
         </div>
@@ -187,6 +215,25 @@ export function PricingCard({
         {/* CTA 按钮 */}
         {renderCTAButton()}
 
+        {/* 积分配额和图像生成信息 */}
+        <div className="flex flex-col gap-2 sm:gap-3 py-3 sm:py-4 border-y border-border/30 mb-4 sm:mb-6">
+          <div className="flex items-center gap-2">
+            <CheckIcon className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0" />
+            <span className="text-sm sm:text-base text-text-muted flex-1">
+              {t(planType === 'free' ? 'quota.creditsDaily' : 'quota.credits', { amount: quota.toLocaleString() })}
+            </span>
+            {isYearly && bonusQuota > 0 && (
+              <BonusQuotaBadge amount={bonusQuota} t={t} />
+            )}
+          </div>
+          <div className="flex items-center gap-2">
+            <CheckIcon className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0" />
+            <span className="text-sm sm:text-base text-text-muted">
+              {t(planType === 'free' ? 'quota.imagesDaily' : 'quota.images', { amount: Math.floor(quota / 5).toLocaleString() })}
+            </span>
+          </div>
+        </div>
+
         {/* 功能列表 */}
         <FeatureList
           features={translation.features}
@@ -201,11 +248,37 @@ export function PricingCard({
 // 节省金额徽章
 export function SavingsBadge({ amount, t }: { amount: number; t: any }) {
   return (
-    <div className="inline-flex items-center gap-1 sm:gap-1.5 px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-full bg-gradient-to-r from-secondary/20 to-secondary/10 border border-secondary/30 sm:border-2 sm:border-secondary/40">
-      <CheckIcon className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-secondary" />
-      <span className="text-[10px] sm:text-xs font-semibold text-secondary whitespace-nowrap">
-        {t('billing.save', { amount })}
-      </span>
+    <div className="relative inline-flex items-center gap-1 sm:gap-1.5 px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-full bg-gradient-to-r from-secondary/20 to-secondary/10">
+      {/* 渐变边框 */}
+      <div className="absolute inset-0 rounded-full bg-gradient-to-r from-secondary via-primary to-secondary p-[1px] sm:p-[2px]">
+        <div className="h-full w-full rounded-full bg-bg-elevated"></div>
+      </div>
+      {/* 内容 */}
+      <div className="relative flex items-center gap-1 sm:gap-1.5">
+        <CheckIcon className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-secondary" />
+        <span className="text-[10px] sm:text-xs font-semibold text-secondary whitespace-nowrap">
+          {t('billing.save', { amount })}
+        </span>
+      </div>
+    </div>
+  );
+}
+
+// 额外赠送积分徽章
+export function BonusQuotaBadge({ amount, t }: { amount: number; t: any }) {
+  return (
+    <div className="relative inline-flex items-center gap-1 sm:gap-1.5 px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-full bg-gradient-to-r from-primary/20 to-primary/10">
+      {/* 渐变边框 */}
+      <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary via-secondary to-primary p-[1px] sm:p-[2px]">
+        <div className="h-full w-full rounded-full bg-bg-elevated"></div>
+      </div>
+      {/* 内容 */}
+      <div className="relative flex items-center gap-1 sm:gap-1.5">
+        <CheckIcon className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-primary" />
+        <span className="text-[10px] sm:text-xs font-semibold text-primary whitespace-nowrap">
+          {t('billing.bonus', { amount: amount.toLocaleString() })}
+        </span>
+      </div>
     </div>
   );
 }
@@ -216,11 +289,19 @@ export function FeatureList({
   unsupportedFeatures,
   quota,
   isHorizontal = false,
+  bonusQuota = 0,
+  isYearly = false,
+  planType = 'basic',
+  t,
 }: {
   features: string[];
   unsupportedFeatures?: string[];
   quota: number;
   isHorizontal?: boolean;
+  bonusQuota?: number;
+  isYearly?: boolean;
+  planType?: string;
+  t?: any;
 }) {
   const formattedQuota = quota.toLocaleString();
   const generationTimes = Math.floor(quota / 5);
@@ -234,23 +315,44 @@ export function FeatureList({
   };
 
   if (isHorizontal) {
+    // 创建积分配额和图像生成项
+    const quotaItems = t ? [
+      {
+        key: 'quota-credits',
+        type: 'quota' as const,
+        text: t(planType === 'free' ? 'quota.creditsDaily' : 'quota.credits', { amount: formattedQuota }),
+        showBonus: isYearly && bonusQuota > 0
+      },
+      {
+        key: 'quota-images',
+        type: 'quota' as const,
+        text: t(planType === 'free' ? 'quota.imagesDaily' : 'quota.images', { amount: formattedGenerationTimes }),
+        showBonus: false
+      }
+    ] : [];
+
     const allItems = [
+      ...quotaItems,
       ...features.map((feature, index) => ({
         key: `supported-${index}`,
         type: 'supported' as const,
-        text: replacePlaceholders(feature)
+        text: replacePlaceholders(feature),
+        showBonus: false
       })),
       ...unsupportedFeatures?.map((feature, index) => ({
         key: `unsupported-${index}`,
         type: 'unsupported' as const,
-        text: feature
+        text: feature,
+        showBonus: false
       })) || []
     ];
 
-    // 分成两列，每列最多4个
-    const itemsPerColumn = 4;
-    const firstColumn = allItems.slice(0, itemsPerColumn);
-    const secondColumn = allItems.slice(itemsPerColumn);
+    // 分成两列，每列最多3个，总共最多6个
+    const itemsPerColumn = 3;
+    const maxItems = itemsPerColumn * 2;
+    const displayItems = allItems.slice(0, maxItems);
+    const firstColumn = displayItems.slice(0, itemsPerColumn);
+    const secondColumn = displayItems.slice(itemsPerColumn);
 
     return (
       <div className="flex gap-6 md:gap-8 justify-end">
@@ -258,10 +360,13 @@ export function FeatureList({
         <ul className="flex flex-col gap-3 sm:gap-4">
           {firstColumn.map((item) => (
             <li key={item.key} className={`flex items-start gap-2 sm:gap-3 text-xs sm:text-sm ${item.type === 'unsupported' ? 'opacity-40' : ''}`}>
-              {item.type === 'supported' ? (
+              {item.type === 'quota' || item.type === 'supported' ? (
                 <>
                   <CheckIcon className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span className="text-text-muted leading-relaxed">{item.text}</span>
+                  <span className="text-text-muted leading-relaxed flex-1">{item.text}</span>
+                  {item.showBonus && t && (
+                    <BonusQuotaBadge amount={bonusQuota} t={t} />
+                  )}
                 </>
               ) : (
                 <>
@@ -278,10 +383,13 @@ export function FeatureList({
           <ul className="flex flex-col gap-3 sm:gap-4">
             {secondColumn.map((item) => (
               <li key={item.key} className={`flex items-start gap-2 sm:gap-3 text-xs sm:text-sm ${item.type === 'unsupported' ? 'opacity-40' : ''}`}>
-                {item.type === 'supported' ? (
+                {item.type === 'quota' || item.type === 'supported' ? (
                   <>
                     <CheckIcon className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-text-muted leading-relaxed">{item.text}</span>
+                    <span className="text-text-muted leading-relaxed flex-1">{item.text}</span>
+                    {item.showBonus && t && (
+                      <BonusQuotaBadge amount={bonusQuota} t={t} />
+                    )}
                   </>
                 ) : (
                   <>
@@ -364,6 +472,18 @@ export function renderCTAButton(
 
   // 当前订阅
   if (status === 'current') {
+    // 免费版特殊处理
+    if (tier.planType === 'free') {
+      return (
+        <button disabled className={`${baseClassName} cursor-not-allowed opacity-50 gradient-border text-text`}>
+          <span className="relative z-10 flex items-center justify-center gap-2">
+            {t('status.current')}
+            <CheckIcon />
+          </span>
+        </button>
+      );
+    }
+
     return (
       <button disabled className={`${baseClassName} cursor-not-allowed gradient-bg text-white opacity-70`}>
         <span className="relative z-10 flex items-center justify-center gap-2">
@@ -371,53 +491,6 @@ export function renderCTAButton(
           <CheckIcon />
         </span>
       </button>
-    );
-  }
-
-  // 下期生效
-  if (status === 'scheduled') {
-    return (
-      <button disabled className={`${baseClassName} cursor-not-allowed gradient-border text-primary opacity-70`}>
-        <span className="relative z-10 flex items-center justify-center gap-2">
-          {t('status.scheduled')}
-          <ClockIcon />
-        </span>
-      </button>
-    );
-  }
-
-  // 免费版特殊处理 - 不能订阅，只能查看
-  if (tier.planType === 'free') {
-    return (
-      <button disabled className={`${baseClassName} cursor-not-allowed opacity-50 gradient-border text-text`}>
-        <span className="relative z-10 flex items-center justify-center gap-2">
-          {t('status.current')}
-          <CheckIcon />
-        </span>
-      </button>
-    );
-  }
-
-  const buttonText = status === 'upgrade'
-    ? t('status.upgrade')
-    : status === 'downgrade'
-    ? t('status.downgrade')
-    : translation.cta;
-
-  // 升级或降级
-  if (status === 'upgrade' || status === 'downgrade') {
-    return (
-      <UpgradeSubscriptionButton
-        productId={tier.creemPayProductId!}
-        className={`${baseClassName} cursor-pointer ${activeClassName}`}
-        onSuccess={fetchCurrentSubscription}
-        onError={(error) => console.error('Subscription change error:', error)}
-      >
-        <span className="relative z-10 flex items-center justify-center gap-2">
-          {buttonText}
-          <ArrowIcon />
-        </span>
-      </UpgradeSubscriptionButton>
     );
   }
 
@@ -436,12 +509,12 @@ export function renderCTAButton(
     );
   }
 
-  // 新订阅
+  // 新订阅（status === 'new'）
   return (
     <CreemCheckoutButton
       tier={tier}
       user={user}
-      buttonText={buttonText}
+      buttonText={translation.cta}
       baseClassName={baseClassName}
       activeClassName={activeClassName}
       t={t}
@@ -468,6 +541,11 @@ function CreemCheckoutButton({
   const [isLoading, setIsLoading] = React.useState(false);
 
   const handleClick = () => {
+    console.log('Creating checkout with:', {
+      productId: tier.creemPayProductId,
+      referenceId: user?.id,
+      customer: user ? { email: user.email, name: user.name } : undefined,
+    });
     setIsLoading(true);
   };
 

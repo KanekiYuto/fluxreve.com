@@ -54,10 +54,10 @@
   },
   "subtitle": "Empieza a crear tus increíbles contenidos",
   "userType": {
-    "basic": "Básico",
     "free": "Gratis",
-    "pro": "Pro",
-    "trial": "Exclusivo para Nuevos Usuarios"
+    "hobby": "Hobby",
+    "basic": "Básico",
+    "pro": "Pro"
   },
   "welcome": "Bienvenido de nuevo, {name}"
 }

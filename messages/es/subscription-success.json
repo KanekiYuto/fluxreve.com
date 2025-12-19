@@ -22,12 +22,13 @@
   },
   "notFound": "Suscripción no encontrada",
   "planTypes": {
+    "monthly_hobby": "Hobby - Mensual",
+    "yearly_hobby": "Hobby - Anual",
     "monthly_basic": "Básico - Mensual",
-    "monthly_pro": "Pro - Mensual",
-    "trial": "Ensayo",
-    "unknown": "Plan Desconocido",
     "yearly_basic": "Básico - Anual",
-    "yearly_pro": "Pro - Anual"
+    "monthly_pro": "Pro - Mensual",
+    "yearly_pro": "Pro - Anual",
+    "unknown": "Plan desconocido"
   },
   "seo": {
     "description": "Gracias por suscribirse Su cuenta se ha actualizado correctamente",

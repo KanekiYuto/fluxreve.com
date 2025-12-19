@@ -1,11 +1,18 @@
 {
   "billing": {
-    "discount": "Économisez 20 %.",
-    "month": "mois",
     "monthly": "Mensuel",
-    "save": "Économisez ${amount}",
+    "yearly": "Annuel",
     "year": "année",
-    "yearly": "Annuel"
+    "month": "mois",
+    "discount": "Économisez 20 %.",
+    "save": "Économisez ${amount}",
+    "bonus": "{amount} crédits supplémentaires"
+  },
+  "quota": {
+    "credits": "Quota de {amount} crédits",
+    "creditsDaily": "{amount} crédits quotidiens",
+    "images": "Générez jusqu'à {amount} images de haute qualité",
+    "imagesDaily": "Générez jusqu'à {amount} images par jour"
   },
   "faq": {
     "badge": "FAQ",
@@ -77,31 +84,26 @@
     "upgrade": "Mise à niveau"
   },
   "subtitle": "Des options tarifaires flexibles pour répondre aux besoins des particuliers et des entreprises",
-  "tiers": [
-    {
-      "cta": "Réclamer l'Avantage Nouvel Utilisateur",
-      "description": "Exclusif pour les nouveaux utilisateurs, essai à durée limitée",
+  "tiers": {
+    "hobby": {
+      "name": "Loisir",
+      "description": "Pour les créateurs individuels occasionnels",
+      "cta": "S'abonner",
       "features": [
-        "{quota} quotas de crédits",
-        "Peut générer jusqu'à {quota}/5 images de haute qualité",
-        "Tous les modèles AI standard",
+        "Modèles standard d'IA",
         "Haute résolution (1024x1024)",
         "Exportation sans filigrane"
       ],
-      "name": "Exclusif Nouvel Utilisateur",
       "unsupportedFeatures": [
-        "Renouvellement automatique",
+        "File d'attente pour la génération de priorités",
         "Résolution ultra-haute",
-        "Génération de lots",
-        "Soutien prioritaire"
+        "Génération de lots"
       ]
     },
-    {
+    "basic": {
       "cta": "S'abonner",
       "description": "Pour les utilisateurs individuels et les petits projets",
       "features": [
-        "{quota} quotas de crédits",
-        "Peut générer jusqu'à {quota}/5 images de haute qualité",
         "Modèles standard d'IA",
         "Haute résolution (1024x1024)",
         "File d'attente pour la génération de priorités",
@@ -115,12 +117,10 @@
         "Génération de lots"
       ]
     },
-    {
+    "pro": {
       "cta": "S'abonner",
       "description": "Pour les créateurs professionnels et la collaboration en équipe",
       "features": [
-        "{quota} quotas de crédits",
-        "Peut générer jusqu'à {quota}/5 images de haute qualité",
         "Tous les modèles d'IA avancés",
         "Très haute résolution (2048x2048)",
         "File d'attente la plus prioritaire",
@@ -131,12 +131,10 @@
       ],
       "name": "Pro"
     },
-    {
+    "free": {
       "cta": "Commencer",
       "description": "Parfait pour un essai personnel et un usage léger",
       "features": [
-        "{quota} quota de crédits quotidien",
-        "Peut générer jusqu'à {quota}/5 images par jour",
         "Modèles d'IA de base",
         "Résolution standard (512x512)"
       ],
@@ -148,6 +146,6 @@
         "Soutien à la clientèle"
       ]
     }
-  ],
+  },
   "title": "Choisissez votre plan"
 }

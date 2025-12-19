@@ -54,10 +54,10 @@
   },
   "subtitle": "Aloita upean sisällön luominen",
   "userType": {
-    "basic": "Perus",
     "free": "Ilmainen",
-    "pro": "Ammattilainen",
-    "trial": "Yksinomaan Uusille Käyttäjille"
+    "hobby": "Harrastus",
+    "basic": "Perus",
+    "pro": "Pro"
   },
   "welcome": "Tervetuloa takaisin, {name}"
 }

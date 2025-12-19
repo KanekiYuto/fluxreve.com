@@ -54,10 +54,10 @@
   },
   "subtitle": "Börja skapa ditt fantastiska innehåll",
   "userType": {
-    "basic": "Grundläggande",
     "free": "Gratis",
-    "pro": "Pro",
-    "trial": "Exklusivt för Nya Användare"
+    "hobby": "Hobby",
+    "basic": "Bas",
+    "pro": "Pro"
   },
   "welcome": "Välkommen tillbaka, {name}"
 }

@@ -22,12 +22,13 @@
   },
   "notFound": "Prenumerationen hittades inte",
   "planTypes": {
-    "monthly_basic": "Grundläggande - Månadsvis",
-    "monthly_pro": "Pro - Månadsvis",
-    "trial": "Rättegång",
-    "unknown": "Okänd plan",
-    "yearly_basic": "Grundläggande - Årlig",
-    "yearly_pro": "Pro - Årlig"
+    "monthly_hobby": "Hobby - Månatlig",
+    "yearly_hobby": "Hobby - Årlig",
+    "monthly_basic": "Bas - Månatlig",
+    "yearly_basic": "Bas - Årlig",
+    "monthly_pro": "Pro - Månatlig",
+    "yearly_pro": "Pro - Årlig",
+    "unknown": "Okänd plan"
   },
   "seo": {
     "description": "Tack för att du prenumererar! Ditt konto har uppgraderats",

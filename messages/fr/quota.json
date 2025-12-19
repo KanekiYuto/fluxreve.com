@@ -10,14 +10,14 @@
     "title": "Se connecter pour voir le quota"
   },
   "quotaTypes": {
-    "daily_free": "Quota libre journalier",
-    "monthly_basic": "Mensuel de base",
-    "monthly_pro": "Mensuel Pro",
-    "quota_pack": "Pack Quota",
-    "subscription_change_compensation": "Modification de l'abonnement Indemnité",
-    "trial": "Procès",
-    "yearly_basic": "Annuel Basique",
-    "yearly_pro": "Annuel Pro"
+    "daily_free": "Crédits gratuits quotidiens",
+    "monthly_hobby": "Plan Loisir mensuel",
+    "yearly_hobby": "Plan Loisir annuel",
+    "monthly_basic": "Plan Basique mensuel",
+    "yearly_basic": "Plan Basique annuel",
+    "monthly_pro": "Plan Pro mensuel",
+    "yearly_pro": "Plan Pro annuel",
+    "quota_pack": "Pack de crédits"
   },
   "seo": {
     "description": "Gérez et visualisez l'utilisation et l'historique de vos quotas disponibles",
@@ -29,7 +29,8 @@
   },
   "status": {
     "active": "Actif",
-    "depleted": "Épuisé"
+    "depleted": "Épuisé",
+    "expired": "Expiré"
   },
   "subtitle": "Gérez et visualisez votre quota disponible",
   "summary": {

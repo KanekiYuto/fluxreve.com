@@ -54,10 +54,10 @@
   },
   "subtitle": "멋진 콘텐츠 제작 시작하기",
   "userType": {
-    "basic": "기본",
     "free": "무료",
-    "pro": "Pro",
-    "trial": "신규 회원 전용"
+    "hobby": "취미",
+    "basic": "기본",
+    "pro": "프로"
   },
   "welcome": "돌아온 것을 환영합니다, {name}"
 }

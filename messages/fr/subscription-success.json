@@ -22,12 +22,13 @@
   },
   "notFound": "Abonnement non trouvé",
   "planTypes": {
-    "monthly_basic": "Base - Mensuelle",
+    "monthly_hobby": "Loisir - Mensuel",
+    "yearly_hobby": "Loisir - Annuel",
+    "monthly_basic": "Basique - Mensuel",
+    "yearly_basic": "Basique - Annuel",
     "monthly_pro": "Pro - Mensuel",
-    "trial": "Procès",
-    "unknown": "Plan inconnu",
-    "yearly_basic": "Base - Annuel",
-    "yearly_pro": "Pro - Annuel"
+    "yearly_pro": "Pro - Annuel",
+    "unknown": "Plan inconnu"
   },
   "seo": {
     "description": "Merci de vous être abonné ! Votre compte a été mis à jour avec succès",

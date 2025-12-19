@@ -7,6 +7,13 @@ const nextConfig: NextConfig = {
   // 禁用 source map 警告
   productionBrowserSourceMaps: false,
 
+  // 实验性功能
+  experimental: {
+    serverActions: {
+      bodySizeLimit: '2mb',
+    },
+  },
+
   // 重写规则（用于 AI SEO）
   async rewrites() {
     return [

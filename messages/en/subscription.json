@@ -33,7 +33,8 @@
       "pending": "Pending Payment"
     },
     "planTypes": {
-      "trial": "Trial",
+      "monthly_hobby": "Hobby - Monthly",
+      "yearly_hobby": "Hobby - Yearly",
       "monthly_basic": "Basic - Monthly",
       "yearly_basic": "Basic - Yearly",
       "monthly_pro": "Pro - Monthly",

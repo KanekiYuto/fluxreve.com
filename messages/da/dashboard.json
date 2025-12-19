@@ -54,10 +54,10 @@
   },
   "subtitle": "Begynd at skabe dit fantastiske indhold",
   "userType": {
-    "basic": "Grundlæggende",
     "free": "Gratis",
-    "pro": "Professionel",
-    "trial": "Eksklusivt for Nye Brugere"
+    "hobby": "Hobby",
+    "basic": "Basis",
+    "pro": "Pro"
   },
   "welcome": "Velkommen tilbage, {name}"
 }

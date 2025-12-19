@@ -22,12 +22,13 @@
   },
   "notFound": "サブスクリプションが見つかりません",
   "planTypes": {
-    "monthly_basic": "ベーシック - 月額",
-    "monthly_pro": "プロ - 月額",
-    "trial": "トライアル",
-    "unknown": "不明プラン",
+    "monthly_hobby": "ホビー - 毎月",
+    "yearly_hobby": "ホビー - 年間",
+    "monthly_basic": "ベーシック - 毎月",
     "yearly_basic": "ベーシック - 年間",
-    "yearly_pro": "プロ - 年間"
+    "monthly_pro": "プロ - 毎月",
+    "yearly_pro": "プロ - 年間",
+    "unknown": "不明なプラン"
   },
   "seo": {
     "description": "ご登録ありがとうございます！アカウントは正常にアップグレードされました",

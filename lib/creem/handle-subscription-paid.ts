@@ -2,12 +2,12 @@ import { db } from '@/lib/db';
 import { subscription, transaction, quota } from '@/lib/db/schema';
 import { eq, and } from 'drizzle-orm';
 import { getPricingTierByProductId } from '@/config/pricing';
+import { getSubscriptionQuota } from '@/config/subscription';
 import { user } from '@/lib/db/schema';
-import { QUOTA_EXCHANGE_RATE } from '@/config/subscription';
 /**
  * 订阅支付成功事件处理器
  * 当订阅支付成功时触发（首次支付、续费或升级）
- * 根据实际支付金额发放积分
+ * 根据产品配置发放对应的积分配额
  */
 export async function handleSubscriptionPaid(data: any) {
   const {
@@ -30,16 +30,13 @@ export async function handleSubscriptionPaid(data: any) {
     return;
   }
 
-  const planInfo = {
-    planType: pricingTier.planType,
-    subscriptionPlanType: pricingTier.subscriptionPlanType,
-    quota: pricingTier.price * QUOTA_EXCHANGE_RATE
-  };
-
-  if (!userId || !planInfo?.subscriptionPlanType) {
-    console.error('✗ Subscription paid: Missing required data', { userId, productId: product.id, planInfo });
+  if (!userId || !pricingTier.subscriptionPlanType) {
+    console.error('✗ Subscription paid: Missing required data', { userId, productId: product.id, pricingTier });
     return;
   }
+
+  // 根据订阅计划类型从配置中获取积分配额
+  const quotaAmount = getSubscriptionQuota(pricingTier.subscriptionPlanType);
 
   try {
     // 查找当前激活的订阅
@@ -59,8 +56,7 @@ export async function handleSubscriptionPaid(data: any) {
       return;
     }
 
-    // 检查是否为重复推送
-    // 通过比较 nextBillingAt 和推送的 next_transaction_date 判断
+    // 检查是否为重复推送（通过比较 nextBillingAt 和 next_transaction_date）
     const newNextBillingAt = new Date(next_transaction_date);
     if (existingSubscription.nextBillingAt &&
         existingSubscription.nextBillingAt.getTime() === newNextBillingAt.getTime()) {
@@ -68,93 +64,29 @@ export async function handleSubscriptionPaid(data: any) {
       return;
     }
 
-    // 判断是升级还是降级
-    // 如果新订阅价格高于当前价格，立即升级；否则计划下次降级
-    const isUpgrade = product.price > existingSubscription.amount;
+    // 更新订阅信息
+    await db
+      .update(subscription)
+      .set({
+        planType: pricingTier.subscriptionPlanType,
+        amount: product.price,
+        currency: product.currency,
+        expiresAt: new Date(current_period_end_date),
+        nextBillingAt: newNextBillingAt,
+        updatedAt: new Date(),
+      })
+      .where(eq(subscription.id, existingSubscription.id));
 
-    if (isUpgrade) {
-      // 升级：立即更新 planType，清空 nextPlanType
-      await db
-        .update(subscription)
-        .set({
-          planType: planInfo.subscriptionPlanType,
-          nextPlanType: null,
-          amount: product.price,
-          currency: product.currency,
-          expiresAt: new Date(current_period_end_date),
-          nextBillingAt: new Date(next_transaction_date),
-          updatedAt: new Date(),
-        })
-        .where(eq(subscription.id, existingSubscription.id));
+    // 更新用户类型
+    await db
+      .update(user)
+      .set({
+        userType: pricingTier.planType,
+        updatedAt: new Date(),
+      })
+      .where(eq(user.id, userId));
 
-      // 升级使用新的订阅
-      await db
-        .update(user)
-        .set({
-          userType: planInfo.planType,
-          updatedAt: new Date(),
-        })
-        .where(eq(user.id, userId));
-
-      console.log(`✓ Subscription upgraded: ${id} - Plan: ${existingSubscription.planType} → ${planInfo.subscriptionPlanType}`);
-    } else if (product.price === existingSubscription.amount) {
-      // 续费：价格相同，检查是否有待生效的计划变更
-      if (existingSubscription.nextPlanType) {
-        // 如果有 nextPlanType，说明之前的计划变更现在生效
-        // 将 planType 更新为 nextPlanType，重置 nextPlanType 为 null
-        await db
-          .update(subscription)
-          .set({
-            planType: existingSubscription.nextPlanType,
-            nextPlanType: null,
-            amount: product.price,
-            currency: product.currency,
-            expiresAt: new Date(current_period_end_date),
-            nextBillingAt: new Date(next_transaction_date),
-            updatedAt: new Date(),
-          })
-          .where(eq(subscription.id, existingSubscription.id));
-
-        // 更新用户类型为新的订阅计划类型
-        const newPlanType = pricingTier.planType;
-        await db
-          .update(user)
-          .set({
-            userType: newPlanType,
-            updatedAt: new Date(),
-          })
-          .where(eq(user.id, userId));
-
-        console.log(`✓ Subscription plan change applied: ${existingSubscription.id} - Plan: ${existingSubscription.planType} → ${existingSubscription.nextPlanType}, UserType: ${newPlanType}`);
-      } else {
-        // 正常续费：只更新时间，planType 和 nextPlanType 保持不变
-        await db
-          .update(subscription)
-          .set({
-            expiresAt: new Date(current_period_end_date),
-            nextBillingAt: new Date(next_transaction_date),
-            updatedAt: new Date(),
-          })
-          .where(eq(subscription.id, existingSubscription.id));
-
-        console.log(`✓ Subscription renewed: ${existingSubscription.id} - Plan: ${existingSubscription.planType}`);
-      }
-    } else {
-      // 降级：价格降低，设置 nextPlanType 在下一期生效
-      await db
-        .update(subscription)
-        .set({
-          nextPlanType: planInfo.subscriptionPlanType,
-          amount: product.price,
-          currency: product.currency,
-          expiresAt: new Date(current_period_end_date),
-          nextBillingAt: new Date(next_transaction_date),
-          updatedAt: new Date(),
-        })
-        .where(eq(subscription.id, existingSubscription.id));
-
-      console.log(`✓ Subscription downgrade scheduled: ${existingSubscription.id} - Current: ${existingSubscription.planType}, Next: ${planInfo.subscriptionPlanType} (effective next billing)`);
-    }
+    console.log(`✓ Subscription updated: ${id} - Plan: ${pricingTier.subscriptionPlanType}, Quota: ${quotaAmount}`);
 
     // 如果有交易信息且支付金额大于0，创建交易记录并发放积分
     if (last_transaction && last_transaction.amount_paid > 0) {
@@ -168,31 +100,22 @@ export async function handleSubscriptionPaid(data: any) {
         currency: last_transaction.currency || 'USD',
       }).returning();
 
-      console.log(`✓ Created transaction ${transactionRecord.id} - Amount paid: ${last_transaction.amount_paid}`);
+      console.log(`✓ Created transaction ${transactionRecord.id} - Amount paid: ${last_transaction.amount_paid} ${last_transaction.currency || 'USD'}`);
 
-      // 2. 根据实际支付金额发放积分
-      const quotaAmount = last_transaction.amount_paid;
-
-      // 判断配额类型：
-      // - 如果实际支付金额等于产品价格，则为正常订阅配额（使用订阅计划类型）
-      // - 如果实际支付金额不等于产品价格，则为订阅变更补偿配额（如升级的差额）
-      const quotaType = quotaAmount === planInfo.quota
-        ? planInfo.subscriptionPlanType
-        : 'subscription_change_compensation';
-
+      // 2. 根据产品配置发放积分配额
       await db.insert(quota).values({
         userId,
         transactionId: transactionRecord.id,
-        type: quotaType,
+        type: pricingTier.subscriptionPlanType,
         amount: quotaAmount,
         consumed: 0,
         issuedAt: new Date(),
         expiresAt: current_period_end_date ? new Date(current_period_end_date) : null,
       });
 
-      console.log(`✓ Granted ${quotaAmount} quota to user ${userId} - Type: ${quotaType}`);
+      console.log(`✓ Granted ${quotaAmount} quota to user ${userId} - Plan: ${pricingTier.subscriptionPlanType}`);
     } else {
-      console.log(`⚠ No transaction created: amount_paid is ${last_transaction?.amount_paid || 0}`);
+      console.log(`⚠ No quota granted: amount_paid is ${last_transaction?.amount_paid || 0}`);
     }
 
   } catch (error) {
