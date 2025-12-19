@@ -35,8 +35,7 @@ export const siteConfig = {
 
   // 社交媒体链接
   social: {
-    telegram: 'https://t.me/+_fuj3YZDcStmMjll',
-    discord: 'https://discord.gg/6QynZPsU',
+    discord: 'https://discord.gg/Tw3qCaKTZv',
   },
 
   // 法律信息

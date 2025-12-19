@@ -1,0 +1,18 @@
+{
+  "uploadHint": "Pudota kuva tähän tai napsauta selataksesi",
+  "dropToUpload": "Pudota ladataksesi",
+  "urlPlaceholder": "Tai syötä kuvan URL",
+  "clear": "Tyhjennä",
+  "loginRequired": "Kirjaudu sisään ladataksesi kuvia",
+  "uploadFailed": "Lataus epäonnistui, yritä uudelleen",
+  "examplesTitle": "Kokeile näitä esimerkkejä",
+  "generate": "Luo",
+  "generating": "Luodaan...",
+  "generatingTitle": "Luodaan Ghibli-tyylinen kuva",
+  "generatingSubtitle": "Tekoäly luo rauhoittavaa taideteostasi...",
+  "before": "Ennen",
+  "after": "Jälkeen",
+  "clickToPreview": "Napsauta esikatseluun",
+  "generateFailed": "Luominen epäonnistui",
+  "retryPrompt": "Luominen epäonnistui, yritä uudelleen"
+}

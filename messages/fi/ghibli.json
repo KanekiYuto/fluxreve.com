@@ -1,0 +1,22 @@
+{
+  "seo": {
+    "title": "Ghibli-tyylinen AI-kuvagalleria - Tutustu parantavaan anime-estetiikkaan",
+    "description": "Tutustu AI:n tuottamiin kuviin Studio Ghibli -animaatiotyylillä, koe Miyazakin kaltainen parantava estetiikka ja opi luomaan omat Ghibli-tyylisi teokset"
+  },
+  "cta": {
+    "title": "Luo oma Ghibli-tyylinen teoksesi",
+    "description": "Käytä tehokasta AI-generaattoriamme luodaksesi omat Ghibli-tyylisi kuvat lataamalla valokuva. Anna AI:n toteuttaa animaatiounelmasi.",
+    "buttonPrimary": "Kokeile ilmaiseksi",
+    "buttonSecondary": "Näytä hinnat",
+    "noCreditCard": "Luottokorttia ei tarvita, aloita luominen nyt"
+  },
+  "page": {
+    "title": "Muunna valokuvasi Ghibli-tyylisiksi taideteoksiksi",
+    "subtitle": "Anna valokuviisi Ghibli-taikaa! Muunna arkipäiväiset valokuvat upeiksi Ghibli-tyylisiksi taideteoksiksi, vangiten tuon maagisen ja sydämellisen anime-viehätyksen.",
+    "whatIsTitle": "Mikä on Ghibli-tyyli?",
+    "classicAesthetics": "Klassinen animaatioestetiikka",
+    "classicDescription": "Studio Ghibli tunnetaan lämpimistä värisävyistä, herkästä valaistuksesta, paimentolaisista kohtauksista ja mielikuvituksellisesta maailmanrakennuksesta. Tämä tyyli yhdistää realismin ja fantasiaelementit luoden unohtumattomia visuaalisia kokemuksia.",
+    "aiMagic": "AI-taika uudestaan luotu",
+    "aiDescription": "AI-malliemme on erityisesti koulutettu vangitsemaan Ghibli-teosten ydinominaisuudet: pehmeät väripaletit, hienostuneen yksityiskohtainen työ, emotionaalinen tunnelman luominen ja ainutlaatuinen parantamisen tunne."
+  }
+}

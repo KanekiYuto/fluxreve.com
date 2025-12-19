@@ -49,6 +49,7 @@ export const headerNavigation: HeaderNavEntry[] = [
     ],
   },
   { type: 'link', name: 'explore', href: '/explore' },
+  { type: 'link', name: 'ghibli', href: '/ghibli' },
   { type: 'link', name: 'tasks', href: '/tasks' },
   { type: 'link', name: 'pricing', href: '/pricing' },
 ];
@@ -76,6 +77,7 @@ export const navigationGroups: NavGroup[] = [
       { name: 'dashboard', href: '/dashboard', icon: 'dashboard' },
       { name: 'ai-generator', href: '/ai-generator', icon: 'image' },
       { name: 'explore', href: '/explore', icon: 'image' },
+      { name: 'ghibli', href: '/ghibli', icon: 'sparkles' },
     ],
   },
   {
@@ -128,6 +130,7 @@ export const footerSections: FooterSection[] = [
       { name: 'home', href: '/' },
       { name: 'ai-generator', href: '/ai-generator' },
       { name: 'explore', href: '/explore' },
+      { name: 'ghibli', href: '/ghibli' },
       { name: 'pricing', href: '/pricing' },
       { name: 'help', href: '/help' },
     ],

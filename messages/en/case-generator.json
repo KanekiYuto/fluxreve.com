@@ -1,0 +1,18 @@
+{
+  "uploadHint": "Drop an image here or click to browse",
+  "dropToUpload": "Drop to upload",
+  "urlPlaceholder": "Or enter an image URL",
+  "clear": "Clear",
+  "loginRequired": "Please login to upload images",
+  "uploadFailed": "Upload failed, please try again",
+  "examplesTitle": "Try These Examples",
+  "generate": "Generate",
+  "generating": "Generating...",
+  "generatingTitle": "Generating Ghibli Style Image",
+  "generatingSubtitle": "AI is creating your healing artwork...",
+  "before": "Before",
+  "after": "After",
+  "clickToPreview": "Click to Preview",
+  "generateFailed": "Generation failed",
+  "retryPrompt": "Generation failed, please try again"
+}

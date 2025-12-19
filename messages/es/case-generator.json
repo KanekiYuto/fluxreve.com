@@ -1,0 +1,18 @@
+{
+  "uploadHint": "Suelta una imagen aquí o haz clic para buscar",
+  "dropToUpload": "Suelta para subir",
+  "urlPlaceholder": "O introduce una URL de imagen",
+  "clear": "Limpiar",
+  "loginRequired": "Inicia sesión para subir imágenes",
+  "uploadFailed": "Error al subir, inténtalo de nuevo",
+  "examplesTitle": "Prueba estos ejemplos",
+  "generate": "Generar",
+  "generating": "Generando...",
+  "generatingTitle": "Generando imagen estilo Ghibli",
+  "generatingSubtitle": "La IA está creando tu obra de arte relajante...",
+  "before": "Antes",
+  "after": "Después",
+  "clickToPreview": "Haz clic para previsualizar",
+  "generateFailed": "Error al generar",
+  "retryPrompt": "Error al generar, inténtalo de nuevo"
+}

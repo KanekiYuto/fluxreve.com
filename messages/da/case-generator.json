@@ -1,0 +1,18 @@
+{
+  "uploadHint": "Slip et billede her eller klik for at gennemse",
+  "dropToUpload": "Slip for at uploade",
+  "urlPlaceholder": "Eller indtast en billed-URL",
+  "clear": "Ryd",
+  "loginRequired": "Log ind for at uploade billeder",
+  "uploadFailed": "Upload mislykkedes, prøv igen",
+  "examplesTitle": "Prøv disse eksempler",
+  "generate": "Generer",
+  "generating": "Genererer...",
+  "generatingTitle": "Genererer Ghibli-stil billede",
+  "generatingSubtitle": "AI skaber dit helende kunstværk...",
+  "before": "Før",
+  "after": "Efter",
+  "clickToPreview": "Klik for at forhåndsvise",
+  "generateFailed": "Generering mislykkedes",
+  "retryPrompt": "Generering mislykkedes, prøv igen"
+}

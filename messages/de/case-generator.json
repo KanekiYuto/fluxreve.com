@@ -1,0 +1,18 @@
+{
+  "uploadHint": "Bild hier ablegen oder klicken zum Durchsuchen",
+  "dropToUpload": "Loslassen zum Hochladen",
+  "urlPlaceholder": "Oder Bild-URL eingeben",
+  "clear": "Löschen",
+  "loginRequired": "Bitte anmelden, um Bilder hochzuladen",
+  "uploadFailed": "Upload fehlgeschlagen, bitte erneut versuchen",
+  "examplesTitle": "Probieren Sie diese Beispiele",
+  "generate": "Generieren",
+  "generating": "Wird generiert...",
+  "generatingTitle": "Ghibli-Stil Bild wird generiert",
+  "generatingSubtitle": "KI erstellt Ihr heilsames Kunstwerk...",
+  "before": "Vorher",
+  "after": "Nachher",
+  "clickToPreview": "Klicken zum Vorschauen",
+  "generateFailed": "Generierung fehlgeschlagen",
+  "retryPrompt": "Generierung fehlgeschlagen, bitte erneut versuchen"
+}

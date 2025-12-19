@@ -1,0 +1,18 @@
+{
+  "uploadHint": "Déposez une image ici ou cliquez pour parcourir",
+  "dropToUpload": "Relâchez pour télécharger",
+  "urlPlaceholder": "Ou entrez une URL d'image",
+  "clear": "Effacer",
+  "loginRequired": "Connectez-vous pour télécharger des images",
+  "uploadFailed": "Échec du téléchargement, veuillez réessayer",
+  "examplesTitle": "Essayez ces exemples",
+  "generate": "Générer",
+  "generating": "Génération...",
+  "generatingTitle": "Génération d'image style Ghibli",
+  "generatingSubtitle": "L'IA crée votre œuvre apaisante...",
+  "before": "Avant",
+  "after": "Après",
+  "clickToPreview": "Cliquez pour prévisualiser",
+  "generateFailed": "Échec de la génération",
+  "retryPrompt": "Échec de la génération, veuillez réessayer"
+}

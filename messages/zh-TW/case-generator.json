@@ -1,0 +1,18 @@
+{
+  "uploadHint": "拖放圖片到此處或點擊瀏覽",
+  "dropToUpload": "鬆開以上傳",
+  "urlPlaceholder": "或輸入圖片URL",
+  "clear": "清除",
+  "loginRequired": "請登入後上傳圖片",
+  "uploadFailed": "上傳失敗，請重試",
+  "examplesTitle": "試試這些例子",
+  "generate": "生成",
+  "generating": "生成中...",
+  "generatingTitle": "正在生成吉卜力風格圖像",
+  "generatingSubtitle": "AI 正在為你創作治癒系畫風...",
+  "before": "前",
+  "after": "後",
+  "clickToPreview": "點擊預覽",
+  "generateFailed": "生成失敗",
+  "retryPrompt": "生成失敗，請重試"
+}

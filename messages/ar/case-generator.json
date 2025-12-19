@@ -1,0 +1,18 @@
+{
+  "uploadHint": "أسقط صورة هنا أو انقر للتصفح",
+  "dropToUpload": "أفلت للتحميل",
+  "urlPlaceholder": "أو أدخل رابط الصورة",
+  "clear": "مسح",
+  "loginRequired": "يرجى تسجيل الدخول لتحميل الصور",
+  "uploadFailed": "فشل التحميل، يرجى المحاولة مرة أخرى",
+  "examplesTitle": "جرب هذه الأمثلة",
+  "generate": "إنشاء",
+  "generating": "جاري الإنشاء...",
+  "generatingTitle": "جاري إنشاء صورة بأسلوب جيبلي",
+  "generatingSubtitle": "الذكاء الاصطناعي يُنشئ عملك الفني المريح...",
+  "before": "قبل",
+  "after": "بعد",
+  "clickToPreview": "انقر للمعاينة",
+  "generateFailed": "فشل الإنشاء",
+  "retryPrompt": "فشل الإنشاء، يرجى المحاولة مرة أخرى"
+}

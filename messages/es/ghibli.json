@@ -1,0 +1,22 @@
+{
+  "seo": {
+    "title": "Galería de imágenes IA estilo Ghibli - Explora la estética de animación curativa",
+    "description": "Explora imágenes generadas por IA en el estilo de animación de Studio Ghibli, experimenta la estética curativa al estilo Miyazaki y aprende a crear tus propias obras estilo Ghibli"
+  },
+  "cta": {
+    "title": "¿Listo para crear tu obra de arte estilo Ghibli?",
+    "description": "Usa nuestro potente generador de IA para crear tus propias imágenes estilo Ghibli subiendo una foto. Deja que la IA te ayude a realizar tus sueños de animación.",
+    "buttonPrimary": "Probar gratis",
+    "buttonSecondary": "Ver precios",
+    "noCreditCard": "No se requiere tarjeta de crédito, comienza a crear ahora"
+  },
+  "page": {
+    "title": "Transforma tus fotos en obras de arte estilo Ghibli",
+    "subtitle": "¡Infunde a tus fotos la magia de Ghibli! Convierte fotos cotidianas en impresionantes obras de arte estilo Ghibli, capturando ese encanto de anime mágico y reconfortante.",
+    "whatIsTitle": "¿Qué es el estilo Ghibli?",
+    "classicAesthetics": "Estética de animación clásica",
+    "classicDescription": "Studio Ghibli es reconocido por sus tonos de color cálidos, iluminación delicada, escenas pastorales y construcción de mundos imaginativos. Este estilo mezcla realismo con elementos de fantasía para crear experiencias visuales inolvidables.",
+    "aiMagic": "Recreación mágica con IA",
+    "aiDescription": "Nuestros modelos de IA están especialmente entrenados para capturar las características esenciales de las obras Ghibli: paletas de colores suaves, trabajo de detalle exquisito, creación de atmósfera emocional y ese sentido único de curación."
+  }
+}

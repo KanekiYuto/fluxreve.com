@@ -1,0 +1,18 @@
+{
+  "uploadHint": "Släpp en bild här eller klicka för att bläddra",
+  "dropToUpload": "Släpp för att ladda upp",
+  "urlPlaceholder": "Eller ange en bild-URL",
+  "clear": "Rensa",
+  "loginRequired": "Logga in för att ladda upp bilder",
+  "uploadFailed": "Uppladdning misslyckades, försök igen",
+  "examplesTitle": "Prova dessa exempel",
+  "generate": "Generera",
+  "generating": "Genererar...",
+  "generatingTitle": "Genererar Ghibli-stil bild",
+  "generatingSubtitle": "AI skapar ditt helande konstverk...",
+  "before": "Före",
+  "after": "Efter",
+  "clickToPreview": "Klicka för förhandsgranskning",
+  "generateFailed": "Generering misslyckades",
+  "retryPrompt": "Generering misslyckades, försök igen"
+}
