@@ -17,7 +17,8 @@
     "yearly_basic": "기본 연간 플랜",
     "monthly_pro": "프로 월간 플랜",
     "yearly_pro": "프로 연간 플랜",
-    "quota_pack": "크레딧 팩"
+    "quota_pack": "크레딧 팩",
+    "subscription_change_compensation": "구독 변경 보상"
   },
   "seo": {
     "description": "사용 가능한 할당량 사용량 및 내역 관리 및 보기",

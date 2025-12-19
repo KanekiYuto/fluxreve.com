@@ -17,7 +17,8 @@
     "yearly_basic": "基础年度套餐",
     "monthly_pro": "专业月度套餐",
     "yearly_pro": "专业年度套餐",
-    "quota_pack": "积分包"
+    "quota_pack": "积分包",
+    "subscription_change_compensation": "订阅变更补偿"
   },
   "seo": {
     "description": "管理并查看可用积分的使用情况和历史记录",

@@ -17,7 +17,8 @@
     "yearly_basic": "Basis årlig plan",
     "monthly_pro": "Pro månedlig plan",
     "yearly_pro": "Pro årlig plan",
-    "quota_pack": "Kredit pakke"
+    "quota_pack": "Kredit pakke",
+    "subscription_change_compensation": "Abonnementændrings kompensation"
   },
   "seo": {
     "description": "Administrer og se din tilgængelige kvoteforbrug og historik",

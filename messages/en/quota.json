@@ -34,7 +34,8 @@
     "yearly_basic": "Basic Yearly Plan",
     "monthly_pro": "Pro Monthly Plan",
     "yearly_pro": "Pro Yearly Plan",
-    "quota_pack": "Credit Pack"
+    "quota_pack": "Credit Pack",
+    "subscription_change_compensation": "Subscription Change Compensation"
   },
   "empty": {
     "active": "No active quota available",

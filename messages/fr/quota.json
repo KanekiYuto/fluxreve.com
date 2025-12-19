@@ -17,7 +17,8 @@
     "yearly_basic": "Plan Basique annuel",
     "monthly_pro": "Plan Pro mensuel",
     "yearly_pro": "Plan Pro annuel",
-    "quota_pack": "Pack de crédits"
+    "quota_pack": "Pack de crédits",
+    "subscription_change_compensation": "Compensation de changement d'abonnement"
   },
   "seo": {
     "description": "Gérez et visualisez l'utilisation et l'historique de vos quotas disponibles",

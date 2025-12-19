@@ -17,7 +17,8 @@
     "yearly_basic": "ベーシック年額プラン",
     "monthly_pro": "プロ月額プラン",
     "yearly_pro": "プロ年額プラン",
-    "quota_pack": "クレジットパック"
+    "quota_pack": "クレジットパック",
+    "subscription_change_compensation": "サブスクリプション変更補償"
   },
   "seo": {
     "description": "利用可能なクォータの使用量と履歴の管理と表示",

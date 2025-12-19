@@ -11,7 +11,7 @@ import MarketingCard from './components/MarketingCard';
 import RecentGenerations from './components/RecentGenerations';
 
 export default function DashboardPage() {
-  const { user, quotaInfo } = useUserStore();
+  const { user, quota } = useUserStore();
   const t = useTranslations('dashboard.stats');
   const tCommon = useTranslations('dashboard');
 
@@ -84,7 +84,7 @@ export default function DashboardPage() {
         {/* 统计卡片和营销卡片 */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-8">
           {/* 剩余配额 */}
-          <QuotaCard userType={userType} quotaInfo={quotaInfo} />
+          <QuotaCard userType={userType} quota={quota} />
 
           {/* 营销卡片 - 占据三个统计卡片的位置 */}
           <MarketingCard />

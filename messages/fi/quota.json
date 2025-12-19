@@ -17,7 +17,8 @@
     "yearly_basic": "Perus vuotuinen suunnitelma",
     "monthly_pro": "Pro kuukausittainen suunnitelma",
     "yearly_pro": "Pro vuotuinen suunnitelma",
-    "quota_pack": "Krediittipaketti"
+    "quota_pack": "Krediittipaketti",
+    "subscription_change_compensation": "Tilausmuutoksen korvaus"
   },
   "seo": {
     "description": "Hallitse ja tarkastele käytettävissä olevan kiintiön käyttöä ja historiaa",

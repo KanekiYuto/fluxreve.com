@@ -17,7 +17,8 @@
     "yearly_basic": "Bas årsplan",
     "monthly_pro": "Pro månadsplan",
     "yearly_pro": "Pro årsplan",
-    "quota_pack": "Kreditpaket"
+    "quota_pack": "Kreditpaket",
+    "subscription_change_compensation": "Prenumerationsändringskompensation"
   },
   "seo": {
     "description": "Hantera och visa din tillgängliga kvotanvändning och historik",

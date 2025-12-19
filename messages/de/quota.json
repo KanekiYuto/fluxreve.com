@@ -17,7 +17,8 @@
     "yearly_basic": "Basic Jahresplan",
     "monthly_pro": "Pro Monatsplan",
     "yearly_pro": "Pro Jahresplan",
-    "quota_pack": "Credit-Paket"
+    "quota_pack": "Credit-Paket",
+    "subscription_change_compensation": "Abonnementänderungs-Kompensation"
   },
   "seo": {
     "description": "Verwalten und Anzeigen Ihrer verfügbaren Kontingentnutzung und -historie",

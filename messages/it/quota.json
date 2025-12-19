@@ -17,7 +17,8 @@
     "yearly_basic": "Piano Base annuale",
     "monthly_pro": "Piano Pro mensile",
     "yearly_pro": "Piano Pro annuale",
-    "quota_pack": "Pacchetto crediti"
+    "quota_pack": "Pacchetto crediti",
+    "subscription_change_compensation": "Compensazione cambio abbonamento"
   },
   "seo": {
     "description": "Gestire e visualizzare l'utilizzo e la cronologia delle quote disponibili",

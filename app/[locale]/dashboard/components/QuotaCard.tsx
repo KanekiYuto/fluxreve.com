@@ -6,13 +6,10 @@ import { USER_TYPE, type UserType } from '@/config/constants';
 
 interface QuotaCardProps {
   userType: UserType;
-  quotaInfo: {
-    available: number;
-    expiresAt: Date | null;
-  } | null;
+  quota: number | null;
 }
 
-export default function QuotaCard({ userType, quotaInfo }: QuotaCardProps) {
+export default function QuotaCard({ userType, quota }: QuotaCardProps) {
   const t = useTranslations('dashboard.stats');
 
   const badgeLabels = {
@@ -22,25 +19,12 @@ export default function QuotaCard({ userType, quotaInfo }: QuotaCardProps) {
     [USER_TYPE.FREE]: 'FREE',
   };
 
-  const displayValue = quotaInfo ? quotaInfo.available : '∞';
+  const displayValue = quota !== null ? quota : '∞';
 
   const label = userType === USER_TYPE.PRO ? t('quota.unlimited') : t('quota.remaining');
 
-  // 只有 FREE 用户才显示过期时间
-  const expiryInfo = userType === USER_TYPE.FREE && quotaInfo?.expiresAt ? (
-    <>
-      <span className="text-sm text-text-muted">/</span>
-      <span className="text-xs text-text-muted whitespace-nowrap">
-        {new Date(quotaInfo.expiresAt).toLocaleDateString(undefined, {
-          month: 'numeric',
-          day: 'numeric',
-          hour: '2-digit',
-          minute: '2-digit',
-        })}{' '}
-        {t('quota.expires')}
-      </span>
-    </>
-  ) : null;
+  // 不再显示过期时间，因为 quota 只是数值
+  const expiryInfo = null;
 
   const icon = (
     <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">

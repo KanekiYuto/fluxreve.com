@@ -17,7 +17,8 @@
     "yearly_basic": "Plan Básico anual",
     "monthly_pro": "Plan Pro mensual",
     "yearly_pro": "Plan Pro anual",
-    "quota_pack": "Paquete de créditos"
+    "quota_pack": "Paquete de créditos",
+    "subscription_change_compensation": "Compensación de cambio de suscripción"
   },
   "seo": {
     "description": "Gestiona y consulta el uso y el historial de tu cuota disponible",
