@@ -3,6 +3,7 @@
 import { X } from 'lucide-react';
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { siteConfig } from '@/config/site';
 
 interface DiscordInviteBannerProps {
   className?: string;
@@ -48,7 +49,7 @@ export default function DiscordInviteBanner({
         {/* 右侧：按钮 */}
         <div className="flex items-center gap-2 flex-shrink-0">
           <a
-            href="https://discord.gg/6QynZPsU"
+            href={siteConfig.social.discord}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-4 py-1.5 rounded-md bg-[#5865F2] text-white text-sm font-medium transition-all hover:bg-[#4752C4] hover:shadow-md hover:shadow-[#5865F2]/30 whitespace-nowrap"
