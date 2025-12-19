@@ -2,9 +2,8 @@
 
 import { useState, useCallback, useMemo } from 'react';
 import { useTranslations } from 'next-intl';
-import { useCachedSession } from '@/hooks/useCachedSession';
-import { useCredits } from '@/hooks/useCredits';
 import { getRequiredCredits } from '@/config/ai-generator';
+import useUserStore from '@/store/useUserStore';
 import ModelSelector from './ModelSelector';
 import ImageUploadArea from './ImageUploadArea';
 import ExampleSelector from './ExampleSelector';
@@ -32,26 +31,23 @@ const exampleImages = [
   },
 ];
 
-const models = [
-  {
-    id: 'seedream-v4.5',
-    name: 'Seedream V4.5',
-    credits: 4,
-    description: 'ByteDance 2K HD 高质量图像生成',
-    badge: 'PRO'
-  },
-  {
-    id: 'nano-banana-pro',
-    name: 'Nano Banana Pro',
-    credits: 2,
-    description: '快速高质量图像生成，性价比之选'
-  },
-];
-
 export default function CaseGenerator({ className = '' }: CaseGeneratorProps) {
   const t = useTranslations('case-generator');
-  const { data: session } = useCachedSession();
-  const { credits, isLoading: isCreditsLoading, refresh: refreshCredits } = useCredits();
+  const { fetchQuota } = useUserStore();
+
+  const models = [
+    {
+      id: 'seedream-v4.5',
+      name: 'Seedream V4.5',
+      description: t('models.seedream-v4-5.description'),
+      badge: 'PRO'
+    },
+    {
+      id: 'nano-banana-pro',
+      name: 'Nano Banana Pro',
+      description: t('models.nano-banana-pro.description')
+    },
+  ];
 
   const [selectedModel, setSelectedModel] = useState('seedream-v4.5');
   const [beforeImage, setBeforeImage] = useState<string | null>(exampleImages[0].before);
@@ -241,9 +237,7 @@ export default function CaseGenerator({ className = '' }: CaseGeneratorProps) {
           img.src = generatedImageUrl;
 
           // 刷新积分
-          if (refreshCredits) {
-            await refreshCredits();
-          }
+          await fetchQuota();
         } else {
           throw new Error('Failed to get generation result');
         }
@@ -306,13 +300,7 @@ export default function CaseGenerator({ className = '' }: CaseGeneratorProps) {
 
               {/* 生成按钮 - 始终显示 */}
               <GenerateSection
-                selectedModel={selectedModel}
-                models={models}
                 onGenerate={handleGenerate}
-                session={session}
-                credits={credits}
-                isCreditsLoading={isCreditsLoading}
-                onCreditsRefresh={refreshCredits}
                 isGenerating={isGenerating}
                 requiredCredits={requiredCredits}
               />

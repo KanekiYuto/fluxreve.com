@@ -7,6 +7,7 @@
   "uploadFailed": "Lataus epäonnistui, yritä uudelleen",
   "examplesTitle": "Kokeile näitä esimerkkejä",
   "generate": "Luo",
+  "generateWithCredits": "Luo ({credits} krediittiä)",
   "generating": "Luodaan...",
   "generatingTitle": "Luodaan Ghibli-tyylinen kuva",
   "generatingSubtitle": "Tekoäly luo rauhoittavaa taideteostasi...",
@@ -14,5 +15,16 @@
   "after": "Jälkeen",
   "clickToPreview": "Napsauta esikatseluun",
   "generateFailed": "Luominen epäonnistui",
-  "retryPrompt": "Luominen epäonnistui, yritä uudelleen"
+  "retryPrompt": "Luominen epäonnistui, yritä uudelleen",
+  "selectModel": "Valitse malli",
+  "originalImage": "Alkuperäinen kuva",
+  "generatedResult": "Luotu tulos",
+  "models": {
+    "seedream-v4-5": {
+      "description": "ByteDance 2K HD korkealaatuinen kuvien luonti"
+    },
+    "nano-banana-pro": {
+      "description": "Nopea ja kustannustehokas laadukas kuvien luonti"
+    }
+  }
 }

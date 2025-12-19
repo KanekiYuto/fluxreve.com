@@ -7,6 +7,7 @@
   "uploadFailed": "Opplasting mislyktes, prøv igjen",
   "examplesTitle": "Prøv disse eksemplene",
   "generate": "Generer",
+  "generateWithCredits": "Generer ({credits} kreditter)",
   "generating": "Genererer...",
   "generatingTitle": "Genererer Ghibli-stil bilde",
   "generatingSubtitle": "AI skaper ditt helbredende kunstverk...",
@@ -14,5 +15,16 @@
   "after": "Etter",
   "clickToPreview": "Klikk for å forhåndsvise",
   "generateFailed": "Generering mislyktes",
-  "retryPrompt": "Generering mislyktes, prøv igjen"
+  "retryPrompt": "Generering mislyktes, prøv igjen",
+  "selectModel": "Velg modell",
+  "originalImage": "Originalbilde",
+  "generatedResult": "Generert resultat",
+  "models": {
+    "seedream-v4-5": {
+      "description": "ByteDance 2K HD høykvalitetsbilde generering"
+    },
+    "nano-banana-pro": {
+      "description": "Rask og kostnadseffektiv høykvalitetsbilde generering"
+    }
+  }
 }

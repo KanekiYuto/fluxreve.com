@@ -159,10 +159,7 @@ export default function ImageUpscalerGenerator({
       requiredCredits={generator.requiredCredits}
       isLoading={generator.isLoading}
       progress={generator.progress}
-      error={generator.error}
-      credits={generator.credits}
-      isCreditsLoading={generator.creditsLoading}
-      onCreditsRefresh={generator.refreshCredits}
+      error={generator.error}      
       results={generator.results}
       examples={EXAMPLES}
       onSelectExample={() => {}}

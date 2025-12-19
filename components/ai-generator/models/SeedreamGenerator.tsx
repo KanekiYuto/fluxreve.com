@@ -62,10 +62,10 @@ export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-t
     prompt: defaultParameters?.prompt || '',
     inputImages: defaultParameters?.images
       ? defaultParameters.images.map((url: string, index: number) => ({
-          id: `image-${index}`,
-          url,
-          file: null,
-        }))
+        id: `image-${index}`,
+        url,
+        file: null,
+      }))
       : [],
     size: defaultParameters?.size || '2048*2048',
     isPrivate: false,
@@ -226,9 +226,6 @@ export default function SeedreamGenerator({ modelSelector, defauldMode = 'text-t
       isLoading={generator.isLoading}
       progress={generator.progress}
       error={generator.error}
-      credits={generator.credits}
-      isCreditsLoading={generator.creditsLoading}
-      onCreditsRefresh={generator.refreshCredits}
       results={generator.results}
       examples={EXAMPLES}
       onSelectExample={handleSelectExample}

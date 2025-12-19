@@ -74,10 +74,10 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
     prompt: defaultParameters?.prompt || '',
     inputImages: defaultParameters?.images
       ? defaultParameters.images.map((url: string, index: number) => ({
-          id: `image-${index}`,
-          url,
-          file: null,
-        }))
+        id: `image-${index}`,
+        url,
+        file: null,
+      }))
       : [],
     aspectRatio: defaultParameters?.aspect_ratio || '1:1',
     seed: defaultParameters?.seed || '',
@@ -282,9 +282,6 @@ export default function NanoBananaProGenerator({ modelSelector, defauldMode = 't
       isLoading={generator.isLoading}
       progress={generator.progress}
       error={generator.error}
-      credits={generator.credits}
-      isCreditsLoading={generator.creditsLoading}
-      onCreditsRefresh={generator.refreshCredits}
       results={generator.results}
       examples={EXAMPLES}
       onSelectExample={handleSelectExample}

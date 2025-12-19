@@ -7,6 +7,7 @@
   "uploadFailed": "Upload fehlgeschlagen, bitte erneut versuchen",
   "examplesTitle": "Probieren Sie diese Beispiele",
   "generate": "Generieren",
+  "generateWithCredits": "Generieren ({credits} Credits)",
   "generating": "Wird generiert...",
   "generatingTitle": "Ghibli-Stil Bild wird generiert",
   "generatingSubtitle": "KI erstellt Ihr heilsames Kunstwerk...",
@@ -14,5 +15,16 @@
   "after": "Nachher",
   "clickToPreview": "Klicken zum Vorschauen",
   "generateFailed": "Generierung fehlgeschlagen",
-  "retryPrompt": "Generierung fehlgeschlagen, bitte erneut versuchen"
+  "retryPrompt": "Generierung fehlgeschlagen, bitte erneut versuchen",
+  "selectModel": "Modell auswählen",
+  "originalImage": "Originalbild",
+  "generatedResult": "Generiertes Ergebnis",
+  "models": {
+    "seedream-v4-5": {
+      "description": "ByteDance 2K HD hochwertige Bildgenerierung"
+    },
+    "nano-banana-pro": {
+      "description": "Schnelle, kosteneffiziente hochwertige Bildgenerierung"
+    }
+  }
 }

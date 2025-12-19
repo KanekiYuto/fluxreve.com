@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
+import { useTranslations } from 'next-intl';
 
 /**
  * 模型徽章组件 - 用于显示 NEW、PRO 等重要标识
@@ -16,7 +17,6 @@ function ModelBadge({ text }: { text: string }) {
 export interface Model {
   id: string;
   name: string;
-  credits: number;
   description?: string;
   badge?: string;
 }
@@ -28,6 +28,7 @@ interface ModelSelectorProps {
 }
 
 export default function ModelSelector({ models, selectedModel, onModelChange }: ModelSelectorProps) {
+  const t = useTranslations('case-generator');
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -61,7 +62,7 @@ export default function ModelSelector({ models, selectedModel, onModelChange }: 
           <div className="flex flex-col items-start min-w-0 flex-1 gap-1">
             <div className="flex items-center gap-2 flex-wrap">
               <span className="text-sm font-medium text-white/90">
-                {currentModel?.name || '选择模型'}
+                {currentModel?.name || t('selectModel')}
               </span>
               {currentModel?.badge && (
                 <ModelBadge text={currentModel.badge} />

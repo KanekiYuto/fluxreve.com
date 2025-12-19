@@ -7,6 +7,7 @@
   "uploadFailed": "업로드 실패, 다시 시도하세요",
   "examplesTitle": "이 예제들을 시도해보세요",
   "generate": "생성",
+  "generateWithCredits": "생성 ({credits} 크레딧)",
   "generating": "생성 중...",
   "generatingTitle": "지브리 스타일 이미지 생성 중",
   "generatingSubtitle": "AI가 치유의 아트워크를 만들고 있습니다...",
@@ -14,5 +15,16 @@
   "after": "이후",
   "clickToPreview": "클릭하여 미리보기",
   "generateFailed": "생성 실패",
-  "retryPrompt": "생성 실패, 다시 시도하세요"
+  "retryPrompt": "생성 실패, 다시 시도하세요",
+  "selectModel": "모델 선택",
+  "originalImage": "원본 이미지",
+  "generatedResult": "생성 결과",
+  "models": {
+    "seedream-v4-5": {
+      "description": "ByteDance 2K HD 고품질 이미지 생성"
+    },
+    "nano-banana-pro": {
+      "description": "빠르고 비용 효율적인 고품질 이미지 생성"
+    }
+  }
 }

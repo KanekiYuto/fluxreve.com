@@ -7,6 +7,7 @@
   "uploadFailed": "فشل التحميل، يرجى المحاولة مرة أخرى",
   "examplesTitle": "جرب هذه الأمثلة",
   "generate": "إنشاء",
+  "generateWithCredits": "توليد ({credits} نقاط)",
   "generating": "جاري الإنشاء...",
   "generatingTitle": "جاري إنشاء صورة بأسلوب جيبلي",
   "generatingSubtitle": "الذكاء الاصطناعي يُنشئ عملك الفني المريح...",
@@ -14,5 +15,16 @@
   "after": "بعد",
   "clickToPreview": "انقر للمعاينة",
   "generateFailed": "فشل الإنشاء",
-  "retryPrompt": "فشل الإنشاء، يرجى المحاولة مرة أخرى"
+  "retryPrompt": "فشل الإنشاء، يرجى المحاولة مرة أخرى",
+  "selectModel": "اختر النموذج",
+  "originalImage": "الصورة الأصلية",
+  "generatedResult": "النتيجة المولدة",
+  "models": {
+    "seedream-v4-5": {
+      "description": "ByteDance 2K HD توليد صور عالية الجودة"
+    },
+    "nano-banana-pro": {
+      "description": "توليد صور عالية الجودة سريع وفعال من حيث التكلفة"
+    }
+  }
 }

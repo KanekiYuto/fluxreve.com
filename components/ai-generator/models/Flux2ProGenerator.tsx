@@ -62,10 +62,10 @@ export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-t
     prompt: defaultParameters?.prompt || '',
     inputImages: defaultParameters?.images
       ? defaultParameters.images.map((url: string, index: number) => ({
-          id: `image-${index}`,
-          url,
-          file: null,
-        }))
+        id: `image-${index}`,
+        url,
+        file: null,
+      }))
       : [],
     size: defaultParameters?.size || '1024*1024',
     seed: defaultParameters?.seed || '',
@@ -258,10 +258,7 @@ export default function Flux2ProGenerator({ modelSelector, defauldMode = 'text-t
       requiredCredits={generator.requiredCredits}
       isLoading={generator.isLoading}
       progress={generator.progress}
-      error={generator.error}
-      credits={generator.credits}
-      isCreditsLoading={generator.creditsLoading}
-      onCreditsRefresh={generator.refreshCredits}
+      error={generator.error} 
       results={generator.results}
       examples={EXAMPLES}
       onSelectExample={handleSelectExample}

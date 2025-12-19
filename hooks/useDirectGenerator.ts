@@ -6,7 +6,7 @@
 
 import { useState, useCallback, useMemo } from 'react';
 import { useTranslations } from 'next-intl';
-import { useCredits } from '@/hooks/useCredits';
+import useUserStore from '@/store/useUserStore';
 import useModalStore from '@/store/useModalStore';
 import { getRequiredCredits } from '@/config/ai-generator';
 
@@ -88,7 +88,7 @@ export function useDirectGenerator(config: DirectGeneratorConfig) {
   const [errorInfo, setErrorInfo] = useState<ErrorInfo | null>(null);
   const [taskInfo, setTaskInfo] = useState<any>(null);
 
-  const { credits, isLoading: creditsLoading, refresh: refreshCredits } = useCredits();
+  const { quota: credits, isQuotaLoading: creditsLoading, fetchQuota: refreshCredits } = useUserStore();
 
   // 实时计算所需积分
   const requiredCredits = useMemo(() => {

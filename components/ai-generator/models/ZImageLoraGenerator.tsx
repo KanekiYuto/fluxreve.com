@@ -219,9 +219,6 @@ export default function ZImageLoraGenerator({ modelSelector, defaultParameters, 
       isLoading={generator.isLoading}
       progress={generator.progress}
       error={generator.error}
-      credits={generator.credits}
-      isCreditsLoading={generator.creditsLoading}
-      onCreditsRefresh={generator.refreshCredits}
       results={generator.results}
       examples={EXAMPLES}
       onSelectExample={handleSelectExample}

@@ -7,6 +7,7 @@
   "uploadFailed": "Caricamento fallito, riprova",
   "examplesTitle": "Prova questi esempi",
   "generate": "Genera",
+  "generateWithCredits": "Genera ({credits} crediti)",
   "generating": "Generazione...",
   "generatingTitle": "Generazione immagine stile Ghibli",
   "generatingSubtitle": "L'IA sta creando la tua opera rilassante...",
@@ -14,5 +15,16 @@
   "after": "Dopo",
   "clickToPreview": "Clicca per anteprima",
   "generateFailed": "Generazione fallita",
-  "retryPrompt": "Generazione fallita, riprova"
+  "retryPrompt": "Generazione fallita, riprova",
+  "selectModel": "Seleziona modello",
+  "originalImage": "Immagine originale",
+  "generatedResult": "Risultato generato",
+  "models": {
+    "seedream-v4-5": {
+      "description": "ByteDance 2K HD generazione di immagini ad alta qualità"
+    },
+    "nano-banana-pro": {
+      "description": "Generazione di immagini veloce ed economica"
+    }
+  }
 }

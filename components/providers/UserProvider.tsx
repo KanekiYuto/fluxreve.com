@@ -15,7 +15,7 @@ interface UserProviderProps {
 export default function UserProvider({ children }: UserProviderProps) {
   const pathname = usePathname();
   const { data: session, isPending } = useCachedSession();
-  const { setUser, setLoading, clearUser, setQuotaInfo, setQuotaLoading } = useUserStore();
+  const { setUser, setLoading, clearUser, fetchQuota } = useUserStore();
 
   useEffect(() => {
     // 使用 startTransition 降低优先级,不阻塞渲染
@@ -114,8 +114,6 @@ export default function UserProvider({ children }: UserProviderProps) {
       // 延迟加载配额信息,使用 requestIdleCallback 在浏览器空闲时执行
       const loadQuota = async () => {
         try {
-          setQuotaLoading(true);
-
           // 免费用户需要先检查每日配额
           if (userType === USER_TYPE.FREE) {
             await fetch('/api/quota/daily-check', {
@@ -125,22 +123,10 @@ export default function UserProvider({ children }: UserProviderProps) {
             });
           }
 
-          // 获取配额信息
-          const res = await fetch('/api/quota/info');
-          const data = await res.json();
-
-          if (data.success) {
-            startTransition(() => {
-              setQuotaInfo({
-                available: data.data.available,
-                expiresAt: data.data.expiresAt ? new Date(data.data.expiresAt) : null,
-              });
-              setQuotaLoading(false);
-            });
-          }
+          // 使用 store 的 fetchQuota 方法获取配额
+          await fetchQuota();
         } catch (err) {
           console.error('Failed to fetch quota info:', err);
-          setQuotaLoading(false);
         }
       };
 
@@ -158,7 +144,7 @@ export default function UserProvider({ children }: UserProviderProps) {
         clearUser();
       });
     }
-  }, [session, isPending, setUser, setLoading, clearUser, setQuotaInfo, setQuotaLoading]);
+  }, [session, isPending, setUser, setLoading, clearUser, fetchQuota]);
 
   // 初始化 Google One Tap (用户未登录时显示，仅生产环境)
   useEffect(() => {

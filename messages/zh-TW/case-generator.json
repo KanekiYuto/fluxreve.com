@@ -7,6 +7,7 @@
   "uploadFailed": "上傳失敗，請重試",
   "examplesTitle": "試試這些例子",
   "generate": "生成",
+  "generateWithCredits": "生成 ({credits} 積分)",
   "generating": "生成中...",
   "generatingTitle": "正在生成吉卜力風格圖像",
   "generatingSubtitle": "AI 正在為你創作治癒系畫風...",
@@ -14,5 +15,16 @@
   "after": "後",
   "clickToPreview": "點擊預覽",
   "generateFailed": "生成失敗",
-  "retryPrompt": "生成失敗，請重試"
+  "retryPrompt": "生成失敗，請重試",
+  "selectModel": "選擇模型",
+  "originalImage": "原圖",
+  "generatedResult": "生成結果",
+  "models": {
+    "seedream-v4-5": {
+      "description": "ByteDance 2K HD 高品質圖像生成"
+    },
+    "nano-banana-pro": {
+      "description": "快速高品質圖像生成，性價比之選"
+    }
+  }
 }

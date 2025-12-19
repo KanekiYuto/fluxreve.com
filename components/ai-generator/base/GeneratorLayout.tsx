@@ -5,9 +5,9 @@ import { useTranslations } from 'next-intl';
 import { useCachedSession } from '@/hooks/useCachedSession';
 import useModalStore from '@/store/useModalStore';
 import { getConversionConfig } from '@/config/google-ads-conversions';
+import { CreditsDisplay } from '@/components/common';
 import LoadingAnimation from './LoadingAnimation';
 import ErrorCard from './ErrorCard';
-import CreditsCard from './CreditsCard';
 import MediaGallery, { MediaGalleryRecord } from './MediaGallery';
 import ExamplePreview, { ExampleItem } from './ExampleGallery';
 
@@ -32,10 +32,6 @@ interface GeneratorLayoutProps {
     variant?: 'error' | 'credits';
     creditsInfo?: { required: number; current: number };
   };
-  // 积分信息
-  credits?: number | null;
-  isCreditsLoading?: boolean;
-  onCreditsRefresh?: () => void;
   // 生成结果
   results?: MediaGalleryRecord;
   // 示例配置
@@ -57,9 +53,6 @@ export default function GeneratorLayout({
   progress = 0,
   progressText,
   error,
-  credits,
-  isCreditsLoading,
-  onCreditsRefresh,
   results,
   examples,
   onSelectExample,
@@ -214,13 +207,7 @@ export default function GeneratorLayout({
           <div className="sticky bottom-2 rounded-xl p-4 gradient-border">
             <div className="space-y-3">
               {renderGeneratingButton()}
-              {session && credits !== undefined && (
-                <CreditsCard
-                  credits={credits}
-                  isLoading={isCreditsLoading}
-                  onRefresh={onCreditsRefresh}
-                />
-              )}
+              {session && <CreditsDisplay />}
             </div>
           </div>
         </div>

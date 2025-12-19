@@ -7,6 +7,7 @@
   "uploadFailed": "Upload failed, please try again",
   "examplesTitle": "Try These Examples",
   "generate": "Generate",
+  "generateWithCredits": "Generate ({credits} credits)",
   "generating": "Generating...",
   "generatingTitle": "Generating Ghibli Style Image",
   "generatingSubtitle": "AI is creating your healing artwork...",
@@ -14,5 +15,16 @@
   "after": "After",
   "clickToPreview": "Click to Preview",
   "generateFailed": "Generation failed",
-  "retryPrompt": "Generation failed, please try again"
+  "retryPrompt": "Generation failed, please try again",
+  "selectModel": "Select model",
+  "originalImage": "Original image",
+  "generatedResult": "Generated result",
+  "models": {
+    "seedream-v4-5": {
+      "description": "ByteDance 2K HD high-quality image generation"
+    },
+    "nano-banana-pro": {
+      "description": "Fast, cost-effective high-quality image generation"
+    }
+  }
 }

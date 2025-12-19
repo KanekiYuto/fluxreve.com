@@ -63,7 +63,7 @@ export default function ResultDisplay({
           <div className="absolute inset-0">
             <img
               src={beforeImage}
-              alt="原图"
+              alt={t('originalImage')}
               className="w-full h-full object-contain"
             />
           </div>
@@ -80,7 +80,7 @@ export default function ResultDisplay({
               >
                 <img
                   src={afterImage}
-                  alt="生成结果"
+                  alt={t('generatedResult')}
                   className="w-full h-full object-contain"
                 />
               </div>
