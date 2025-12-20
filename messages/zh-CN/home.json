@@ -8,6 +8,10 @@
     "note": "无需信用卡 - 立即开始使用",
     "title": "现在就开始创作"
   },
+  "generator": {
+    "sectionTitle": "立即开始创作",
+    "sectionDescription": "选择您喜欢的模型，输入提示词，即可生成精美的 AI 图像"
+  },
   "features": {
     "items": [
       {

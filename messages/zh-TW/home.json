@@ -46,6 +46,10 @@
       "line2": "AI驱动的专业图像生成"
     }
   },
+  "generator": {
+    "sectionTitle": "立即開始創作",
+    "sectionDescription": "選擇您喜歡的模型，輸入提示詞，即可生成精美的 AI 圖像"
+  },
   "metadata": {
     "description": "利用先进的AI技术快速生成高质量的专业图像，使AI图像创作变得简单高效。",
     "title": "{siteName} - AI图像生成工具 | 快速生成专业图像"

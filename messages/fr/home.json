@@ -46,6 +46,10 @@
       "line2": "Génération d'images professionnelles à l'aide de l'IA"
     }
   },
+  "generator": {
+    "sectionTitle": "Commencez à créer maintenant",
+    "sectionDescription": "Choisissez votre modèle préféré, saisissez une invite et générez de superbes images AI"
+  },
   "metadata": {
     "description": "Utilisation d'une technologie avancée d'intelligence artificielle pour générer rapidement des images professionnelles de haute qualité. Simplification et efficacité de la création d'images par l'IA.",
     "title": "{siteName} - AI Image Generation Tool | Générer rapidement des images professionnelles"

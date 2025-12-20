@@ -19,6 +19,10 @@
       "easyToUse": "Easy to Use"
     }
   },
+  "generator": {
+    "sectionTitle": "Start Creating Now",
+    "sectionDescription": "Choose your favorite model, enter a prompt, and generate stunning AI images"
+  },
   "features": {
     "sectionTitle": "Why Choose Us",
     "sectionDescription": "Combining powerful AI technology with a clean user experience, making image creation easier than ever",

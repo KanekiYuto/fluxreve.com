@@ -46,6 +46,10 @@
       "line2": "AI-gestützte professionelle Bilderzeugung"
     }
   },
+  "generator": {
+    "sectionTitle": "Jetzt mit dem Erstellen beginnen",
+    "sectionDescription": "Wählen Sie Ihr bevorzugtes Modell, geben Sie eine Eingabeaufforderung ein und erstellen Sie atemberaubende KI-Bilder"
+  },
   "metadata": {
     "description": "Durch den Einsatz fortschrittlicher Technologie der künstlichen Intelligenz können Sie schnell hochwertige professionelle Bilder erstellen. Einfaches und effizientes Erstellen von AI-Bildern.",
     "title": "{siteName} - AI Image Generation Tool | Professionelle Bilder schnell generieren"

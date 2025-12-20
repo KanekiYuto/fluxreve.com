@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import Divider from '@/components/Divider';
 import Pricing from '@/components/pricing';
+import AIGenerator from '@/components/ai-generator/AIGenerator';
 
 export default function HomeClient() {
   const t = useTranslations('home');
@@ -92,6 +93,26 @@ export default function HomeClient() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      <Divider />
+
+      {/* AI Generator 区域 */}
+      <section className="container mx-auto px-4 py-20">
+        <div className="max-w-7xl mx-auto">
+          {/* 区块标题 */}
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
+              {t('generator.sectionTitle')}
+            </h2>
+            <p className="text-lg text-text-muted max-w-2xl mx-auto">
+              {t('generator.sectionDescription')}
+            </p>
+          </div>
+
+          {/* AI Generator 组件 */}
+          <AIGenerator />
         </div>
       </section>
 

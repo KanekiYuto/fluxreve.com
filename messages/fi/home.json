@@ -46,6 +46,10 @@
       "line2": "Tekoälyllä toimiva ammattimainen kuvien luonti"
     }
   },
+  "generator": {
+    "sectionTitle": "Aloita luominen nyt",
+    "sectionDescription": "Valitse suosikkimallisi, anna kehote ja luo upeat tekoälykuvat"
+  },
   "metadata": {
     "description": "Käyttämällä edistynyttä tekoälyteknologiaa voit luoda nopeasti korkealaatuisia ammattimaisia kuvia. Tekoälyllä luotujen kuvien luominen on yksinkertaista ja tehokasta.",
     "title": "{siteName} - Tekoälykuvien luontityökalu | Luo ammattimaisia kuvia nopeasti"

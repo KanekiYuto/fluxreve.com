@@ -46,6 +46,10 @@
       "line2": "AI-drevet professionel billedgenerering"
     }
   },
+  "generator": {
+    "sectionTitle": "Begynd at skabe nu",
+    "sectionDescription": "Vælg din foretrukne model, indtast en prompt, og generer fantastiske AI-billeder"
+  },
   "metadata": {
     "description": "Brug af avanceret kunstig intelligens-teknologi til hurtigt at generere professionelle billeder i høj kvalitet. Gør AI-billedoprettelse enkel og effektiv.",
     "title": "{siteName} - AI-billedgenereringsværktøj | Generer professionelle billeder hurtigt"

@@ -46,6 +46,10 @@
       "line2": "AI-driven professionell bildgenerering"
     }
   },
+  "generator": {
+    "sectionTitle": "Börja skapa nu",
+    "sectionDescription": "Välj din favoritmodell, ange en prompt och generera fantastiska AI-bilder"
+  },
   "metadata": {
     "description": "Använder avancerad artificiell intelligens för att snabbt generera högkvalitativa professionella bilder. Gör det enkelt och effektivt att skapa bilder med AI.",
     "title": "{siteName} - AI-bildgenereringsverktyg | Generera professionella bilder snabbt"
