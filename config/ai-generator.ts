@@ -249,7 +249,7 @@ function calculateImageUpscalerCredits(model: string, parameters: Record<string,
  */
 function calculateImageWatermarkRemoverCredits(model: string, parameters: Record<string, any>): number {
   // 去水印每张图 20 积分
-  return 20;
+  return 50;
 }
 
 /**
