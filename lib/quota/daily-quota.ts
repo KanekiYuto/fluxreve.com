@@ -1,18 +1,20 @@
 import { db } from '@/lib/db';
 import { quota } from '@/lib/db/schema';
 import { eq, and, gte } from 'drizzle-orm';
-import { quotaConfig } from './config';
+import { quotaConfig, getDailyFreeQuotaByCountry } from './config';
 import { USER_TYPE, type UserType } from '@/config/constants';
 
 /**
  * 检查并下发每日免费配额
  * @param userId 用户ID
  * @param userType 用户类型
+ * @param countryCode 国家代码 (ISO 3166-1 alpha-2)
  * @returns 是否成功下发配额
  */
 export async function checkAndIssueDailyQuota(
   userId: string,
-  userType: UserType
+  userType: UserType,
+  countryCode?: string
 ): Promise<boolean> {
   // 只为免费用户下发每日配额
   if (userType !== USER_TYPE.FREE) {
@@ -57,11 +59,14 @@ export async function checkAndIssueDailyQuota(
       return false;
     }
 
+    // 根据国家代码获取配额数量
+    const quotaAmount = getDailyFreeQuotaByCountry(countryCode);
+
     // 下发每日免费配额 (id 由数据库自动生成 UUID)
     await db.insert(quota).values({
       userId: userId,
       type: quotaConfig.quotaTypes.dailyFree,
-      amount: quotaConfig.dailyFreeQuota,
+      amount: quotaAmount,
       consumed: 0,
       issuedAt: new Date(),
       expiresAt: todayEnd, // 当天23:59:59过期

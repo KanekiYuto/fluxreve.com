@@ -68,7 +68,7 @@ export default function Pricing({ useH1 = false }: PricingProps) {
             if (!currentTier || !translation) return null;
 
             const status = getSubscriptionStatus(currentTier, planType as any, currentSubscription);
-            const quota = getQuotaAmount(planType as any, currentTier);
+            const quota = getQuotaAmount(planType as any, currentTier, user?.registrationCountry);
 
             return (
               <PricingCard
@@ -80,6 +80,7 @@ export default function Pricing({ useH1 = false }: PricingProps) {
                 status={status}
                 isYearly={isYearly}
                 t={t}
+                countryCode={user?.registrationCountry}
                 renderCTAButton={() => renderCTAButton(status, currentTier, translation, t, user, fetchCurrentSubscription, isLoading, openLoginModal)}
               />
             );
@@ -97,7 +98,7 @@ export default function Pricing({ useH1 = false }: PricingProps) {
               if (!currentTier || !translation) return null;
 
               const status = getSubscriptionStatus(currentTier, planType as any, currentSubscription);
-              const quota = getQuotaAmount(planType as any, currentTier);
+              const quota = getQuotaAmount(planType as any, currentTier, user?.registrationCountry);
 
               return (
                 <PricingCard
@@ -109,6 +110,7 @@ export default function Pricing({ useH1 = false }: PricingProps) {
                   status={status}
                   isYearly={isYearly}
                   t={t}
+                  countryCode={user?.registrationCountry}
                   isHorizontal={true}
                   renderCTAButton={() => renderCTAButton(status, currentTier, translation, t, user, fetchCurrentSubscription, isLoading, openLoginModal)}
                 />

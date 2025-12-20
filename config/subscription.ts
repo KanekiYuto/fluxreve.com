@@ -51,10 +51,3 @@ export const SUBSCRIPTION_QUOTA_CONFIG: Record<string, number> = {
 export function getSubscriptionQuota(planType: string): number {
   return SUBSCRIPTION_QUOTA_CONFIG[planType] || 0;
 }
-
-/**
- * 检查是否为有效的订阅计划
- */
-export function isValidSubscriptionPlan(planType: string): boolean {
-  return planType in SUBSCRIPTION_QUOTA_CONFIG;
-}

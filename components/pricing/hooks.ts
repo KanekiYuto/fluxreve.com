@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import type { Subscription, SubscriptionStatus } from './types';
 import type { PricingTier, PlanType } from '@/config/pricing';
-import { quotaConfig } from '@/lib/quota/config';
+import { getDailyFreeQuotaByCountry } from '@/lib/quota/config';
 import { SUBSCRIPTION_QUOTA_CONFIG } from '@/config/subscription';
 
 // 获取用户当前订阅
@@ -102,8 +102,8 @@ export function getSubscriptionStatus(
 }
 
 // 获取配额数量
-export function getQuotaAmount(planType: PlanType, tier: PricingTier): number {
-  if (planType === 'free') return quotaConfig.dailyFreeQuota;
+export function getQuotaAmount(planType: PlanType, tier: PricingTier, countryCode?: string): number {
+  if (planType === 'free') return getDailyFreeQuotaByCountry(countryCode);
   if (tier.subscriptionPlanType) {
     return SUBSCRIPTION_QUOTA_CONFIG[tier.subscriptionPlanType] || 0;
   }

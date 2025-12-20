@@ -1,13 +1,12 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import { checkAndIssueDailyQuota } from '@/lib/quota/daily-quota';
 import { auth } from '@/lib/auth';
-import { headers } from 'next/headers';
 
-export async function POST() {
+export async function POST(request: NextRequest) {
   try {
     // 从 session 中获取当前用户
     const session = await auth.api.getSession({
-      headers: await headers(),
+      headers: request.headers,
     });
 
     if (!session?.user?.id) {
@@ -21,7 +20,7 @@ export async function POST() {
     const userType = (session.user as any).userType || 'free';
 
     // 检查并下发每日配额
-    const issued = await checkAndIssueDailyQuota(userId, userType);
+    const issued = await checkAndIssueDailyQuota(userId, userType, session?.user?.registrationCountry || undefined);
 
     return NextResponse.json({
       success: true,

@@ -12,6 +12,7 @@ export const SUBSCRIPTION_PLANS = {
   YEARLY_BASIC: 'yearly_basic',
   MONTHLY_PRO: 'monthly_pro',
   YEARLY_PRO: 'yearly_pro',
+  FREE: 'free',
 } as const;
 
 export type SubscriptionPlanType = typeof SUBSCRIPTION_PLANS[keyof typeof SUBSCRIPTION_PLANS];
@@ -125,26 +126,6 @@ export function getPricingTiersByPlan(planType: PlanType): PricingTier[] {
 }
 
 /**
- * 获取所有唯一的方案类型
- */
-export function getUniquePlanTypes(): PlanType[] {
-  return Array.from(new Set(pricingTiers.map(t => t.planType)));
-}
-
-/**
- * 根据方案类型和计费周期获取订阅计划类型
- * 例如: ('basic', 'monthly') => 'monthly_basic'
- */
-export function getSubscriptionPlanType(planType: PlanType, billingCycle: BillingCycle): SubscriptionPlanType | null {
-  if (planType === 'free') {
-    return null; // 免费方案没有订阅计划类型
-  }
-
-  const key = `${billingCycle.toUpperCase()}_${planType.toUpperCase()}` as keyof typeof SUBSCRIPTION_PLANS;
-  return SUBSCRIPTION_PLANS[key] || null;
-}
-
-/**
  * 根据 Creem 产品 ID 获取定价信息
  */
 export function getPricingTierByProductId(productId: string): PricingTier | undefined {
@@ -156,31 +137,4 @@ export function getPricingTierByProductId(productId: string): PricingTier | unde
  */
 export function getPricingTierBySubscriptionPlanType(subscriptionPlanType: string): PricingTier | undefined {
   return pricingTiers.find(tier => tier.subscriptionPlanType === subscriptionPlanType);
-}
-
-/**
- * 比较两个订阅计划的等级
- * 返回 true 表示 targetPlan 比 currentPlan 更高级
- * 比较规则: 按照单价(PLAN_PRICES)判断,不受计费周期影响
- */
-export function isSubscriptionUpgrade(currentPlanType: string, targetPlanType: string): boolean {
-  const currentTier = getPricingTierBySubscriptionPlanType(currentPlanType);
-  const targetTier = getPricingTierBySubscriptionPlanType(targetPlanType);
-
-  if (!currentTier || !targetTier) {
-    return false;
-  }
-
-  // 获取单价进行比较
-  // hobby -> $8, basic -> $15, pro -> $75, free -> $0
-  const currentUnitPrice = currentTier.planType === 'hobby' ? PLAN_PRICES.HOBBY :
-                           currentTier.planType === 'basic' ? PLAN_PRICES.BASIC :
-                           currentTier.planType === 'pro' ? PLAN_PRICES.PRO : 0;
-  const targetUnitPrice = targetTier.planType === 'hobby' ? PLAN_PRICES.HOBBY :
-                          targetTier.planType === 'basic' ? PLAN_PRICES.BASIC :
-                          targetTier.planType === 'pro' ? PLAN_PRICES.PRO : 0;
-
-  // 只有单价提升才算升级 (basic $15 -> pro $75)
-  // 同等级切换周期不算升级 (monthly_pro $75 -> yearly_pro $75)
-  return targetUnitPrice > currentUnitPrice;
 }

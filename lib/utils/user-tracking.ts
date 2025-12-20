@@ -52,7 +52,7 @@ export function getCountryFromHeaders(headers: Headers): string | null {
     return cfCountry.toUpperCase();
   }
 
-  // Vercel 也提供地理位置信息
+  // Vercel 提供地理位置信息
   const vercelCountry = headers.get('x-vercel-ip-country');
   if (vercelCountry) {
     return vercelCountry.toUpperCase();

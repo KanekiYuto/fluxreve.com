@@ -10,6 +10,8 @@ interface User {
   userType: UserType;
   createdAt: Date;
   updatedAt: Date;
+  bannedAt?: Date;
+  registrationCountry?: string;
 }
 
 interface UserStore {

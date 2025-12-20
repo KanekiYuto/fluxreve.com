@@ -53,6 +53,7 @@ export function PricingCard({
   t,
   renderCTAButton,
   isHorizontal = false,
+  countryCode,
 }: {
   planType: PlanType;
   tier: PricingTier;
@@ -63,6 +64,7 @@ export function PricingCard({
   t: any;
   renderCTAButton: () => React.ReactNode;
   isHorizontal?: boolean;
+  countryCode?: string;
 }) {
   // 计算年付节省金额和额外赠送积分
   const allPricings = getPricingTiersByPlan(planType);
@@ -72,7 +74,7 @@ export function PricingCard({
   const yearlySavings = yearlyTier ? Math.round((originalYearlyPrice - yearlyTier.price) * 100) / 100 : 0;
 
   // 计算年付额外赠送的积分
-  const monthlyQuota = monthlyTier ? getQuotaAmount(planType as any, monthlyTier) : 0;
+  const monthlyQuota = monthlyTier ? getQuotaAmount(planType as any, monthlyTier, countryCode) : 0;
   const expectedYearlyQuota = monthlyQuota * 12; // 如果按月付计算一年的积分
   const bonusQuota = isYearly && quota > expectedYearlyQuota ? quota - expectedYearlyQuota : 0;
 
