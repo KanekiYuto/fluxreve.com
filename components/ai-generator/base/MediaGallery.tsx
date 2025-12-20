@@ -6,6 +6,9 @@ import { Share2, Download, ZoomIn } from 'lucide-react';
 import { downloadImage, downloadImages } from '@/lib/download';
 import { getTaskDuration, formatDuration } from '@/lib/utils';
 import useImagePreviewStore from '@/store/useImagePreviewStore';
+import useUserStore from '@/store/useUserStore';
+import useModalStore from '@/store/useModalStore';
+import { USER_TYPE } from '@/config/constants';
 import {
   Popover,
   PopoverContent,
@@ -44,6 +47,11 @@ export default function MediaGallery({
   const [downloading, setDownloading] = useState(false);
   const [downloadingAll, setDownloadingAll] = useState(false);
   const openImagePreview = useImagePreviewStore((state) => state.open);
+  const user = useUserStore((state) => state.user);
+  const openSubscriptionModal = useModalStore((state) => state.openSubscriptionModal);
+
+  // 判断是否为免费用户
+  const isFreeUser = user?.userType === USER_TYPE.FREE;
 
   // 获取所有图片 URL
   const imageUrls = items.filter((item) => item.type === 'image').map((item) => item.url);
@@ -302,6 +310,21 @@ export default function MediaGallery({
                             <Download className="w-4 h-4" />
                           )}
                           {t('downloadCurrent')}
+                        </button>
+                      )}
+
+                      {/* 下载无水印 - 仅对免费用户显示 */}
+                      {isFreeUser && items.length > 0 && (
+                        <button
+                          type="button"
+                          onClick={() => {
+                            openSubscriptionModal();
+                            setMorePopoverOpen(false);
+                          }}
+                          className="flex items-center gap-2 px-3 py-2 rounded-md hover:bg-zinc-700/50 transition-colors text-white text-sm cursor-pointer"
+                        >
+                          <Download className="w-4 h-4" />
+                          {t('downloadNoWatermark')}
                         </button>
                       )}
 

@@ -225,6 +225,7 @@
     "completedTime": "Tempo di completamento",
     "downloadAll": "Scaricare tutti ({count})",
     "downloadCurrent": "Scaricare Corrente",
+    "downloadNoWatermark": "Scarica senza filigrana",
     "fileCount": "{count} file(s)",
     "generationTime": "Tempo di generazione",
     "prompt": "Prompt",

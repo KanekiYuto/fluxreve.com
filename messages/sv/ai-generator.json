@@ -225,6 +225,7 @@
     "completedTime": "Avslutad tid",
     "downloadAll": "Ladda ner alla ({count})",
     "downloadCurrent": "Ladda ner aktuell",
+    "downloadNoWatermark": "Ladda ner utan vattenstämpel",
     "fileCount": "{count} fil(er)",
     "generationTime": "Generationstid",
     "prompt": "Prompt",

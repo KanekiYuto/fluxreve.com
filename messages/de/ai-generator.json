@@ -225,6 +225,7 @@
     "completedTime": "Abgeschlossene Zeit",
     "downloadAll": "Alle herunterladen ({count})",
     "downloadCurrent": "Strom herunterladen",
+    "downloadNoWatermark": "Ohne Wasserzeichen herunterladen",
     "fileCount": "{count} Datei(en)",
     "generationTime": "Generation Zeit",
     "prompt": "Prompt",

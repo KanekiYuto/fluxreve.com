@@ -225,6 +225,7 @@
     "completedTime": "完成时间",
     "downloadAll": "全部下载 ({count})",
     "downloadCurrent": "下载当前",
+    "downloadNoWatermark": "下载无水印",
     "fileCount": "{count} 个文件",
     "generationTime": "生成时间",
     "prompt": "提示",

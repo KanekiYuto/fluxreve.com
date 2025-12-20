@@ -225,6 +225,7 @@
     "completedTime": "Valmistumisaika",
     "downloadAll": "Lataa kaikki ({count})",
     "downloadCurrent": "Lataa nykyinen",
+    "downloadNoWatermark": "Lataa ilman vesileimaa",
     "fileCount": "{count} tiedosto(a)",
     "generationTime": "Sukupolven aika",
     "prompt": "Kehote",

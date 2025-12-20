@@ -225,6 +225,7 @@
     "completedTime": "完了時間",
     "downloadAll": "すべてダウンロード ({count})",
     "downloadCurrent": "ダウンロード",
+    "downloadNoWatermark": "透かしなしでダウンロード",
     "fileCount": "ファイル",
     "generationTime": "ジェネレーション・タイム",
     "prompt": "プロンプト",

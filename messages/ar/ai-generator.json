@@ -225,6 +225,7 @@
     "completedTime": "الوقت المكتمل",
     "downloadAll": "تنزيل الكل ({count})",
     "downloadCurrent": "التنزيل الحالي",
+    "downloadNoWatermark": "تنزيل بدون علامة مائية",
     "fileCount": "ملف (ملفات) {count}",
     "generationTime": "وقت التوليد",
     "prompt": "موجه",

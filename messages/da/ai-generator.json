@@ -225,6 +225,7 @@
     "completedTime": "Færdig tid",
     "downloadAll": "Download alle ({count})",
     "downloadCurrent": "Download nuværende",
+    "downloadNoWatermark": "Download uden vandmærke",
     "fileCount": "{count} fil(er)",
     "generationTime": "Generationstid",
     "prompt": "Prompt",

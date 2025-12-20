@@ -43,6 +43,7 @@
     "title": "Generated Results",
     "fileCount": "{count} file(s)",
     "downloadCurrent": "Download Current",
+    "downloadNoWatermark": "Download No Watermark",
     "downloadAll": "Download All ({count})",
     "generationTime": "Generation Time",
     "completedTime": "Completed Time",

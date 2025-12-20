@@ -225,6 +225,7 @@
     "completedTime": "완료 시간",
     "downloadAll": "모두 다운로드 ({count})",
     "downloadCurrent": "현재 다운로드",
+    "downloadNoWatermark": "워터마크 없이 다운로드",
     "fileCount": "{count} 파일(들)",
     "generationTime": "생성 시간",
     "prompt": "프롬프트",

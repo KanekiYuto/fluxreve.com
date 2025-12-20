@@ -225,6 +225,7 @@
     "completedTime": "Fullført tid",
     "downloadAll": "Last ned alle ({count})",
     "downloadCurrent": "Last ned gjeldende",
+    "downloadNoWatermark": "Last ned uten vannmerke",
     "fileCount": "{count} fil(er)",
     "generationTime": "Generasjonstid",
     "prompt": "Spørsmål",
