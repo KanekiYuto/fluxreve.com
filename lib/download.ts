@@ -33,7 +33,9 @@ function getFilenameFromUrl(url: string): string {
  */
 export async function downloadImage(imageUrl: string): Promise<void> {
   try {
-    const response = await fetch(imageUrl);
+    const response = await fetch(imageUrl, {
+      cache: 'no-store'
+    });
     const blob = await response.blob();
     const url = window.URL.createObjectURL(blob);
 
@@ -67,25 +69,4 @@ export async function downloadImages(
       await new Promise(resolve => setTimeout(resolve, delay));
     }
   }
-}
-
-/**
- * 下载任意文件
- * @param fileUrl 文件 URL
- * @returns Promise<void>
- */
-export async function downloadFile(fileUrl: string): Promise<void> {
-  const response = await fetch(fileUrl);
-  const blob = await response.blob();
-  const url = window.URL.createObjectURL(blob);
-
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = getFilenameFromUrl(fileUrl);
-  // 添加标记，让 NavigationProgress 忽略此链接
-  link.setAttribute('data-download-link', 'true');
-
-  link.click();
-
-  window.URL.revokeObjectURL(url);
 }

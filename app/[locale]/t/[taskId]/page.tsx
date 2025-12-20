@@ -5,6 +5,8 @@ import { format } from 'date-fns';
 import { getTranslations } from 'next-intl/server';
 import { getModelDisplayName } from '@/config/model-names';
 import { getSiteUrl } from '@/lib/urls';
+import { auth } from '@/lib/auth';
+import { UserType } from '@/lib/image/resource';
 import { fetchTaskData } from './lib/api';
 import { generatePageMetadata } from './lib/metadata';
 import { generateStructuredData } from './lib/utils';
@@ -67,15 +69,25 @@ export default async function SharePage({ params }: PageProps) {
   const { locale, taskId: shareId } = await params;
   const t = await getTranslations({ locale, namespace: 'share.details' });
   const tNsfw = await getTranslations({ locale, namespace: 'share.nsfw' });
-  const task = await fetchTaskData(shareId);
+
+  // 获取当前请求头
+  const headersList = await headers();
+
+  // 获取当前用户（可选，分享页面允许未登录访问）
+  const session = await auth.api.getSession({
+    headers: headersList,
+  });
+
+  // 获取用户类型
+  const userType = session?.user?.userType as UserType | undefined;
+
+  // 获取任务数据
+  const task = await fetchTaskData(shareId, userType);
 
   // 任务不存在，返回 404
   if (!task) {
     notFound();
   }
-
-  // 获取当前请求头以记录访问
-  const headersList = await headers();
 
   // 异步记录访问（不阻塞页面渲染）
   recordTaskView(task.task_id, headersList).catch(error => {

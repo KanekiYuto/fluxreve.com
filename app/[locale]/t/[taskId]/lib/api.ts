@@ -2,14 +2,14 @@ import { TaskData } from '../types';
 import { db } from '@/lib/db';
 import { mediaGenerationTask } from '@/lib/db/schema';
 import { eq, and, isNull } from 'drizzle-orm';
-import { processImageResults } from '@/lib/image/resource';
+import { processImageResults, UserType } from '@/lib/image/resource';
 
 /**
  * 通过数据库直接查询任务信息
  * 不返回私有内容和已删除的内容
  * 根据用户类型返回对应版本的图片
  */
-export async function fetchTaskData(shareId: string): Promise<TaskData | null> {
+export async function fetchTaskData(shareId: string, userType?: UserType): Promise<TaskData | null> {
   try {
     const tasks = await db
       .select({
@@ -53,7 +53,7 @@ export async function fetchTaskData(shareId: string): Promise<TaskData | null> {
       is_nsfw: task.isNsfw,
       view_count: task.viewCount,
       parameters: task.parameters as TaskData['parameters'],
-      results: processImageResults(task.results, undefined) as TaskData['results'],
+      results: processImageResults(task.results, userType) as TaskData['results'],
       created_at: task.createdAt.toISOString(),
       completed_at: task.completedAt?.toISOString(),
       error: task.errorMessage,

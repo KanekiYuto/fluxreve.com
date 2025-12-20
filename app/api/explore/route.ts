@@ -2,7 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/db';
 import { mediaGenerationTask } from '@/lib/db/schema';
 import { eq, and, isNull, isNotNull, desc, count } from 'drizzle-orm';
-import { processImageResults } from '@/lib/image/resource';
+import { processImageResults, UserType } from '@/lib/image/resource';
+import { auth } from '@/lib/auth';
 
 /**
  * GET /api/explore
@@ -15,6 +16,14 @@ import { processImageResults } from '@/lib/image/resource';
  */
 export async function GET(request: NextRequest) {
   try {
+    // 获取当前用户（可选，explore 页面允许未登录访问）
+    const session = await auth.api.getSession({
+      headers: request.headers,
+    });
+
+    // 获取用户类型，如果未登录则为 undefined
+    const userType = session?.user?.userType as UserType | undefined;
+
     // 解析查询参数
     const { searchParams } = new URL(request.url);
     const page = Math.max(1, parseInt(searchParams.get('page') || '1', 10));
@@ -65,11 +74,11 @@ export async function GET(request: NextRequest) {
     const total = totalCountResult[0]?.count || 0;
     const totalPages = Math.ceil(total / limit);
 
-    // 处理任务结果 - 公开页面，未登录返回水印版本
-    // 由于这是公开接口，不需要传递 userType，默认返回水印版本
+    // 处理任务结果 - 根据用户类型返回对应的图片URL
+    // 如果未登录或是 free 用户，返回水印版本；否则返回原始版本
     const processedTasks = tasks.map(task => ({
       ...task,
-      results: processImageResults(task.results, undefined),
+      results: processImageResults(task.results, userType),
     }));
 
     return NextResponse.json({
