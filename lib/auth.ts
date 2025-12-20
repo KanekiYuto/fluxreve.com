@@ -70,6 +70,11 @@ export const auth = betterAuth({
         required: false,
         input: false,
       },
+      bannedAt: {
+        type: 'date',
+        required: false,
+        input: false,
+      },
     },
   },
 

@@ -121,6 +121,14 @@ export async function handleRequest(
 
     const userId = session.user.id;
 
+    // 检查用户是否被封禁
+    if ((session.user as any).bannedAt) {
+      return NextResponse.json(
+        { success: false, error: 'Account has been banned' },
+        { status: 403 }
+      );
+    }
+
     // 4. 检查配额
     const requiredCredits = getRequiredCredits(taskType, model, creditsParams);
     const availableCredits = await getAvailableQuota(userId);
