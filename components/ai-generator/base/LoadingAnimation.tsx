@@ -57,21 +57,21 @@ export default function LoadingAnimation({ progress = 0 }: LoadingAnimationProps
   }, [progress, displayProgress, isInitializing]);
 
   return (
-    <div className="relative flex flex-col items-center justify-center gap-10 py-20 min-h-[500px]">
+    <div className="relative flex flex-col items-center justify-center gap-6 sm:gap-10 py-12 sm:py-20 min-h-[400px] sm:min-h-[500px] px-4">
       {/* 主视觉：闪电图标 + 光环 */}
       <div className="relative z-10">
         {/* 旋转光环 */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-36 h-36 rounded-full border-2 border-transparent bg-gradient-to-r from-[#FF3466] via-[#C721FF] to-[#FF3466] animate-spin p-[3px]" style={{ animationDuration: '3s' }}>
+          <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-full border-2 border-transparent bg-gradient-to-r from-[#FF3466] via-[#C721FF] to-[#FF3466] animate-spin p-[3px]" style={{ animationDuration: '3s' }}>
             <div className="w-full h-full rounded-full bg-bg-elevated"></div>
           </div>
         </div>
 
         {/* 中心内容容器 */}
-        <div className="relative w-36 h-36 flex items-center justify-center">
+        <div className="relative w-28 h-28 sm:w-36 sm:h-36 flex items-center justify-center">
           {/* 闪电图标 */}
           <svg
-            className="w-14 h-14 text-white"
+            className="w-12 h-12 sm:w-14 sm:h-14 text-white"
             fill="currentColor"
             viewBox="0 0 24 24"
           >
@@ -87,10 +87,10 @@ export default function LoadingAnimation({ progress = 0 }: LoadingAnimationProps
       </div>
 
       {/* 进度信息 */}
-      <div className="relative z-10 text-center space-y-5">
+      <div className="relative z-10 text-center space-y-4 sm:space-y-5 w-full">
         {/* 进度百分比 */}
         <div>
-          <p className="text-5xl font-bold gradient-text mb-2 transition-all duration-300">
+          <p className="text-4xl sm:text-5xl font-bold gradient-text mb-2 transition-all duration-300">
             {displayProgress}%
           </p>
           <p className="text-sm text-muted-foreground font-medium">
@@ -99,7 +99,7 @@ export default function LoadingAnimation({ progress = 0 }: LoadingAnimationProps
         </div>
 
         {/* 进度条 */}
-        <div className="w-80">
+        <div className="w-full max-w-[280px] sm:max-w-[320px] mx-auto px-2 sm:px-0">
           <div className="h-3 bg-zinc-800 rounded-full overflow-hidden shadow-inner">
             <div
               className="h-full bg-gradient-to-r from-[#FF3466] to-[#C721FF] transition-all duration-300 ease-out rounded-full relative overflow-hidden shadow-lg"
