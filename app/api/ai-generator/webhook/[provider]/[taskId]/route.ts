@@ -3,10 +3,7 @@ import { db } from '@/lib/db';
 import { mediaGenerationTask } from '@/lib/db/schema';
 import { eq, and } from 'drizzle-orm';
 import { refundQuota } from '@/lib/quota';
-import { checkImageNSFWWithDetails } from '@/lib/wavespeed';
-import { NSFW_CHECK_MODELS } from '@/config/ai-generator';
 import { uploadToR2 } from '@/lib/storage/r2';
-import { generateShareUrlWithUtm } from '@/lib/urls';
 import { addWatermark } from '@/lib/image/watermark';
 
 // 通用任务状态
@@ -206,43 +203,17 @@ async function transferImageToR2(
 }
 
 /**
- * 异步执行 NSFW 检查并更新任务
- */
-async function performNSFWCheckAsync(taskId: string, imageUrl: string, promptText: string) {
-  try {
-    console.log(`[NSFW Check] Starting async check for task ${taskId}, image: ${imageUrl}`);
-
-    const nsfwCheckResult = await checkImageNSFWWithDetails(imageUrl, promptText);
-
-    // 更新任务的 NSFW 状态
-    await db
-      .update(mediaGenerationTask)
-      .set({
-        isNsfw: nsfwCheckResult.isNsfw,
-        nsfwDetails: nsfwCheckResult.details,
-        updatedAt: new Date(),
-      })
-      .where(eq(mediaGenerationTask.taskId, taskId));
-
-    console.log(`[NSFW Check] Task ${taskId} completed:`, {
-      isNsfw: nsfwCheckResult.isNsfw,
-      details: nsfwCheckResult.details,
-    });
-  } catch (error) {
-    console.error(`[NSFW Check] Error for task ${taskId}:`, error);
-  }
-}
-
-/**
  * 异步处理任务完成：转存图片和更新数据库
  */
 async function transferAndUpdateTask(
   taskId: string,
   outputs: string[],
   model: string,
-  promptText: string
+  startedAt: Date | null
 ) {
   try {
+    const durationMs = calculateDuration(startedAt);
+
     // 1. 转存图片到 R2
     const transferredImages = await Promise.all(
       outputs.map((url, index) => transferImageToR2(url, taskId, index, model))
@@ -264,43 +235,7 @@ async function transferAndUpdateTask(
       };
     });
 
-    // 3. 转存完成后，更新数据库
-    await db
-      .update(mediaGenerationTask)
-      .set({
-        results,
-        updatedAt: new Date(),
-      })
-      .where(eq(mediaGenerationTask.taskId, taskId));
-
-    console.log(`Task completed and images transferred for task ${taskId}`);
-
-    // 4. 只对配置中指定的模型进行 NSFW 检查
-    const shouldCheckNSFW = NSFW_CHECK_MODELS.includes(model as any);
-    if (shouldCheckNSFW && results.length > 0) {
-      performNSFWCheckAsync(taskId, results[0].url, promptText).catch((error) => {
-        console.error(`[NSFW Check] Async execution failed for task ${taskId}:`, error);
-      });
-      console.log(`[NSFW Check] Async check scheduled for task ${taskId}`);
-    }
-  } catch (error) {
-    console.error(`Failed to transfer images for task ${taskId}:`, error);
-  }
-}
-
-/**
- * 处理任务完成
- */
-async function handleTaskCompleted(taskId: string, outputs: string[], startedAt: Date | null, model: string, promptText: string) {
-  const durationMs = calculateDuration(startedAt);
-
-  // 快速更新任务状态为完成（使用原始 URL）
-  const results = outputs.map((url) => ({
-    url,
-    type: 'image',
-  }));
-
-  try {
+    // 3. 转存完成后，更新数据库状态为 completed
     await db
       .update(mediaGenerationTask)
       .set({
@@ -313,18 +248,34 @@ async function handleTaskCompleted(taskId: string, outputs: string[], startedAt:
       })
       .where(eq(mediaGenerationTask.taskId, taskId));
 
-    console.log(
-      `Task completed: ${taskId}, duration: ${durationMs}ms, model: ${model}, resultsCount: ${results.length}`
-    );
-  } catch (dbError) {
-    console.error(`Failed to update task status for ${taskId}:`, dbError);
+    console.log(`Task completed and images transferred for task ${taskId}`);
+  } catch (error) {
+    console.error(`Failed to transfer images for task ${taskId}:`, error);
   }
+}
 
-  // 异步转存图片到 R2，不阻塞 webhook 响应
-  // 这会在后台进行，最终使用 R2 URL 和水印 URL 更新数据库
-  transferAndUpdateTask(taskId, outputs, model, promptText).catch((error) => {
-    console.error(`[Image Transfer] Async execution failed for task ${taskId}:`, error);
-  });
+/**
+ * 处理任务完成
+ */
+async function handleTaskCompleted(taskId: string, outputs: string[], startedAt: Date | null, model: string) {
+  try {
+    // 1. 先将状态更新为 processing，表示正在处理
+    await db
+      .update(mediaGenerationTask)
+      .set({
+        status: 'processing',
+        progress: 50,
+        updatedAt: new Date(),
+      })
+      .where(eq(mediaGenerationTask.taskId, taskId));
+
+    console.log(`Task ${taskId} status updated to processing, starting image transfer`);
+
+    // 2. 同步转存图片到 R2 并生成水印，完成后更新为 completed
+    await transferAndUpdateTask(taskId, outputs, model, startedAt);
+  } catch (error) {
+    console.error(`Failed to handle task completion for ${taskId}:`, error);
+  }
 }
 
 /**
@@ -475,44 +426,17 @@ export async function POST(
     const task = tasks[0];
 
     // 验证任务状态（避免重复处理）
-    // 使用悲观锁：先更新状态为 processing，防止重复 webhook 同时处理
-    if (task.status === 'completed' || task.status === 'failed') {
-      console.warn(`Task ${taskId} already finished with status: ${task.status}, skipping webhook`);
-      return NextResponse.json({ success: true, message: 'Task already finished' });
-    }
-
-    // 如果是 completed 状态的 webhook，立即标记为 processing 防止重复
-    if (status === 'completed') {
-      const updateResult = await db
-        .update(mediaGenerationTask)
-        .set({
-          status: 'processing',
-          updatedAt: new Date(),
-        })
-        .where(
-          and(
-            eq(mediaGenerationTask.taskId, taskId),
-            eq(mediaGenerationTask.status, task.status) // 仅在状态未变时更新
-          )
-        )
-        .returning({ id: mediaGenerationTask.id });
-
-      // 如果更新失败（说明已被其他请求处理），直接返回
-      if (updateResult.length === 0) {
-        console.warn(`Task ${taskId} is being processed by another webhook, skipping`);
-        return NextResponse.json({ success: true, message: 'Task being processed' });
-      }
-
-      console.log(`Task ${taskId} locked for processing`);
+    // 如果任务已经是处理中、完成或失败状态，直接返回
+    if (task.status === 'processing' || task.status === 'completed' || task.status === 'failed') {
+      console.warn(`Task ${taskId} already in status: ${task.status}, skipping webhook`);
+      return NextResponse.json({ success: true, message: 'Task already processed or being processed' });
     }
 
     // 根据状态处理任务
     switch (status) {
       case 'completed':
         if (outputs && outputs.length > 0) {
-          // 从任务参数中提取 prompt
-          const promptText = (task.parameters as any)?.prompt || '';
-          await handleTaskCompleted(taskId, outputs, task.startedAt, task.model, promptText);
+          await handleTaskCompleted(taskId, outputs, task.startedAt, task.model);
         }
         break;
 
