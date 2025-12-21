@@ -20,16 +20,26 @@ export default function AdvancedSettings({
 }: AdvancedSettingsProps) {
   const t = useTranslations('ai-generator.form');
   const { user } = useUserStore();
+  const [mounted, setMounted] = useState(false);
+
+  // 避免 hydration 错误
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // 根据用户类型判断是否有有效订阅（Basic 或 Pro 计划）
-  const isSubscribed = !!(user && (user.userType === USER_TYPE.BASIC || user.userType === USER_TYPE.PRO));
+  const isSubscribed = mounted && !!(user && (user.userType === USER_TYPE.BASIC || user.userType === USER_TYPE.PRO));
 
   // 内部状态管理（非受控模式）
   const [internalIsPrivate, setInternalIsPrivate] = useState(false);
 
   // 判断是否为受控模式
   const isControlled = controlledIsPrivate !== undefined;
-  const isPrivate = isControlled ? controlledIsPrivate : internalIsPrivate;
+
+  // 在客户端 hydration 完成之前，强制 isPrivate 为 false，避免 hydration 错误
+  const isPrivate = mounted
+    ? (isControlled ? controlledIsPrivate : internalIsPrivate)
+    : false;
 
   // 同步受控值
   useEffect(() => {
