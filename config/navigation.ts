@@ -115,6 +115,7 @@ export const navigationGroups: NavGroup[] = [
 export interface FooterLink {
   name: string; // 链接名称
   href: string; // 链接地址
+  title?: string; // 可选的自定义标题（如果提供，将直接显示而不是翻译 name）
   external?: boolean; // 是否为外部链接（会在新标签页打开）
 }
 
@@ -133,6 +134,7 @@ export const footerSections: FooterSection[] = [
       { name: 'ghibli', href: '/ghibli' },
       { name: 'pricing', href: '/pricing' },
       { name: 'help', href: '/help' },
+      { name: 'PicooAI', href: 'https://picooai.com', title: 'PicooAI', external: true }
     ],
   },
   {
