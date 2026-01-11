@@ -4,7 +4,7 @@ import { SUBSCRIPTION_PLANS } from '@/config/subscription';
 export const quotaConfig = {
   // 每日免费配额数量
   dailyFreeQuota: {
-    default: 50,
+    default: 5,
     to_pro_amount: 100, // 特定国家的增强配额
     to_pro: [
       'SA',
